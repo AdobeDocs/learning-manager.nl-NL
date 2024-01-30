@@ -1,7 +1,7 @@
 ---
 title: Nieuwe functies in deze release
 description: Meer informatie over de nieuwe functies en verbeteringen in Adobe Learning Manager
-source-git-commit: 95ab7a13a7f3e9815785134bc1d1675c002ab64b
+source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -170,11 +170,48 @@ Als Gebruikersmachtigingen of Alle gebruikersgroepen zijn geselecteerd en aangep
 
 Een aangepaste beheerder heeft toegang tot de volgende rapporten volgens het gedefinieerde bereik:
 
-| Rapport | Beschikbaar | Toepassingsgebied |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>Rapport</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Beschikbaar</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Toepassingsgebied</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>Audittrail van inhoud</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Volledige catalogus</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Audittrail van gebruiker</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Volledige gebruiker</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Toegang tot aanmelding</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Volledige gebruiker</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| Audittrail van inhoud | Ja | Volledige catalogus |
-| Audittrail van gebruiker | Ja | Volledige gebruiker |
-| Toegang tot aanmelding | Ja | Volledige gebruiker |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## Verbeterde Connect-integratie
 
