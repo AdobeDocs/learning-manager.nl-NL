@@ -2,9 +2,9 @@
 description: Referentiehandleiding voor integratiebeheerders die een bestaand LMS naar Learning Manager LMS willen migreren
 jcr-language: en_us
 title: Migratiehandleiding
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
 workflow-type: tm+mt
-source-wordcount: '3705'
+source-wordcount: '3641'
 ht-degree: 72%
 
 ---
@@ -419,11 +419,11 @@ Voordat u begint met de migratieprocedure, is het belangrijk om de volgende punt
 
 Het is zeer belangrijk dat u uw migratieproject plant. Het is raadzaam om projecten in meerdere sprints op te splitsen en duidelijk aan te geven wat u in elke sprint wilt migreren. Het kan zelfs een goed idee zijn om na elke sprint steekproefgewijs te controleren of de gegevens in die sprint goed zijn gemigreerd, in plaats van alles aan het eind van het project te controleren. Voordat u de sprint als onderdeel van uw migratieproject start, moet u gegevens en inhoud van CSV-bestanden uploaden naar respectievelijk FTP- en Box-servers. Als u geen accounts hebt voor Aangepaste FTP en Box, kunt u deze maken.
 
-**Een FTP-account maken**
+<!--**Create FTP account**-->
 
-Klik op **[!UICONTROL CSV FTP-map aanvragen]**. Er verschijnt een pop-upvenster waarin u wordt gevraagd uw e-mail-ID in te voeren. Volg de online instructies en maak een FTP-account. Zodra u uw account hebt gemaakt, kunt u uw migratieproject- en sprintprojectmappen in FTP bekijken.
+<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-Hieronder ziet u ter referentie een voorbeeldmomentopname van projectbestanden en FTP-map.
+A sample snapshot of project files and folder of FTP is shown below for your reference. -->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 
