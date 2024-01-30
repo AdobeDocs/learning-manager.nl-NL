@@ -3,7 +3,7 @@ description: Meer informatie over de nieuwe functies en verbeteringen in Adobe L
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+source-git-commit: 253cc73b4ee1cf4a11a82a5716611133d68d2031
 workflow-type: tm+mt
 source-wordcount: '26196'
 ht-degree: 72%
@@ -1345,7 +1345,7 @@ Zie voor meer informatie  [***Nieuwe functies in de augustus 2020-versie van Ado
 
 **Aankondigingen**
 
-* Als een aankondiging de tag bevat <a>, wordt de aankondiging niet zoals verwacht tot stand gebracht.
+* Als een aankondiging de tag bevat `<a>`, wordt de aankondiging niet zoals verwacht tot stand gebracht.
 
 **Account**
 
