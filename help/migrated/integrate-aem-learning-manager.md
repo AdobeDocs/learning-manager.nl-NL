@@ -1,54 +1,54 @@
 ---
 jcr-language: en_us
-title: Integreer Learning Manager met AEM
-description: Learning Manager is Learning Management System met een geïntegreerd Learning Content Management System. Gebruikers beheren hun leerinhoud door deze te uploaden naar Leermanager, zodat de Leermanager de versies uitvoert, aan cursussen toewijst, de zichtbaarheid van de studenten definieert, het verbruik bijhoudt en aan beheerders rapporteert.
+title: Learning Manager integreren met AEM
+description: 'Learning Manager is Learning Management System met een geïntegreerd Learning Content Management System. Gebruikers beheren hun leerinhoud door deze naar Learning Manager te uploaden, zodat Learning Manager het volgende uitvoert: versiebeheer, toewijzingen aan cursussen, het bepalen van de zichtbaarheid voor studenten, traceren van gevolgde cursussen en rapportage naar beheerders.'
 contentowner: saghosh
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1077'
-ht-degree: 0%
+ht-degree: 45%
 
 ---
 
 
 
-# Integreer Learning Manager met AEM
+# Learning Manager integreren met AEM
 
-Learning Manager is Learning Management System met een geïntegreerd Learning Content Management System. Gebruikers beheren hun leerinhoud door deze te uploaden naar Leermanager, zodat de Leermanager de versies uitvoert, aan cursussen toewijst, de zichtbaarheid van de studenten definieert, het verbruik bijhoudt en aan beheerders rapporteert.
+Learning Manager is Learning Management System met een geïntegreerd Learning Content Management System. Gebruikers beheren hun leerinhoud door deze naar Learning Manager te uploaden, zodat Learning Manager het volgende uitvoert: versiebeheer, toewijzingen aan cursussen, het bepalen van de zichtbaarheid voor studenten, traceren van gevolgde cursussen en rapportage naar beheerders.
 
-Er zijn echter gebruikers die hun content opslaan en beheren op systemen voor assetmanagement. De inhoud wordt vervolgens opnieuw gebruikt voor verschillende andere functies.
+Er zijn echter gebruikers die hun inhoud in activabeheersystemen opslaan en beheren. De inhoud wordt dan opnieuw gebruikt voor diverse andere functies.
 
-De verschillende strips in de Learner-app kunnen worden ingesloten in de AEM sites. Elke student die zich op de AEM aanmeldt, ziet zijn/haar specifieke trainingsgegevens in deze strips.
+De diverse stroken in de Learner-app kunnen in de AEM-sites worden ingesloten. Elke student die zich aanmeldt op de AEM-site, ziet zijn of haar specifieke trainingsgegevens in deze stroken.
 
-## Download het inhoudspakket {#downloadthecontentpackage}
+## Het inhoudspakket downloaden {#downloadthecontentpackage}
 
-Het installatieprogramma wordt verzonden als een AEM-inhoudspakket. [***Het pakket downloaden***](https://github.com/adobe/adobe-learning-manager-reference-site).
+Het installatieprogramma wordt als een AEM-inhoudspakket verzonden. [***Het pakket downloaden***](https://github.com/adobe/adobe-learning-manager-reference-site).
 
 Het inhoudspakket is beschikbaar als ZIP-bestand en is compatibel met AEM 6.4 en AEM 6.5.
 
-## Leerbeheercomponent installeren {#installcaptivateprimecomponent}
+## Installeer het Learning Manager-component {#installcaptivateprimecomponent}
 
-Installeer het pakket met leerbeheerinhoud met behulp van AEM pakketbeheer:
+Installeer het Captivate Prime-inhoudspakket met AEM-pakketbeheer:
 
 >[!NOTE]
 >
 >Zie voor informatie over het installeren van pakketten  [***Werken met pakketten***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
-1. Als AEM auteur opent u AEM pakketbeheer.
+1. Open AEM Package Manager als AEM-auteur.
 1. Klik op de knop **[!UICONTROL Pakket uploaden]**.
 1. Klikken **[!UICONTROL Bladeren]** en uploadt u het inhoudspakket.
-1. Klikken **[!UICONTROL Uploaden]**.
-1. Nadat het pakket is geüpload, installeert u het inhoudspakket door het te selecteren en op **[!UICONTROL Installeren]**.
+1. Klik op **[!UICONTROL Uploaden]**.
+1. Als u het pakket hebt geüpload, installeert u het inhoudspakket door dit te selecteren en te klikken op **[!UICONTROL Installeren]**.
 
    ![](assets/install-package.jpg)
 
    *Installeer het inhoudspakket*
 
-## Vernieuwingstoken genereren {#generatetherefreshtoken}
+## Het vernieuwingstoken genereren {#generatetherefreshtoken}
 
-De AEM Admin vereist een vernieuwingstoken van het Learning Manager-account. De integratiebeheerder van Learning Manager genereert het vernieuwingstoken.
+Voor de AEM-beheerder is een vernieuwingstoken vereist van het Learning Manager account. De integratiebeheerder van Learning Manager genereert het vernieuwingstoken.
 
-1. Goedkeuren van de met AEM Sites uitgeruste app.
+1. Keur de uitgelichte app van de AEM-sites goed.
 
    Klikken **[!UICONTROL Toepassingen]** > **[!UICONTROL Aanbevolen apps]** > **[!UICONTROL Adobe Experience Manager - Sites]**.
 
@@ -58,7 +58,7 @@ De AEM Admin vereist een vernieuwingstoken van het Learning Manager-account. De 
 
 1. Klikken **[!UICONTROL Toepassingen]** > **[!UICONTROL Aanbevolen apps]** en opent u de toepassing AEM sites.
 
-   Kopieer de toepassings-id en de beschrijving.
+   Kopieer de toepassings-ID en de beschrijving.
 
 1. Klikken **[!UICONTROL Bronnen voor ontwikkelaars]** > **[!UICONTROL Toegangstokens]**.
 
@@ -68,55 +68,55 @@ De AEM Admin vereist een vernieuwingstoken van het Learning Manager-account. De 
 
 1. Voer de volgende gegevens in:
 
-   * Client-id, de toepassings-id.
-   * Klantgeheim, dat in Beschrijving aanwezig is.
+   * Client-ID, dit is de toepassings-ID.
+   * Client-geheim, dit staat in Beschrijving.
 
-1. Haal de OAuth-code op. U moet v2 API gebruiken in de omleidings-URI.
+1. Haal de OAuth-code op. U moet de API van versie 2 gebruiken in de doorverwijzings-URI.
 1. Klikken **[!UICONTROL Verzenden]** en krijg het vernieuwingstoken.
 
-## De widget configureren in AEM {#configurethewidgetinaem}
+## De widget in AEM configureren {#configurethewidgetinaem}
 
 Voor de widgetconfiguratie vereist de AEM auteur alleen het vernieuwingstoken van de Learning Manager Integration-beheerder.
 
 U kunt ook meerdere accountconfiguraties op meerdere pagina&#39;s instellen.
 
 1. Klikken **[!UICONTROL Gereedschappen]** > **[!UICONTROL Cloud Servicen]** > **[!UICONTROL Widgetconfiguratie van Learning Manager]**.
-1. Klikken **[!UICONTROL Maken]**.
-1. Voer hier het vernieuwingstoken in. Stel de andere instellingen in.
+1. Klik op **[!UICONTROL Maken]**.
+1. Voer het vernieuwingstoken hier in. Stel de andere instellingen in.
 1. Hostnaam moet voor EU-regio&#39;s worden gewijzigd in &quot;learningmanager&quot;.
-1. Sla de configuratie op en sluit deze.
+1. Sla de configuratie op en sluit deze af.
 1. Selecteer een configuratie en publiceer de configuratie.
 
-## AEM auteur {#aemauthor}
+## AEM-auteur {#aemauthor}
 
-De AEM auteur moet eerst de component in AEM sjabloon toevoegen
+De AEM-auteur moet de component eerst toevoegen aan het AEM-sjabloon
 
-De AEM auteur kan dan de component Adobe Learning Manager slepen en neerzetten en dienovereenkomstig configureren.
+Vervolgens kan de AEM-auteur het Adobe Learning Manager-component slepen en neerzetten en naar wens configureren.
 
-De component Learning Manager vereist dat de configuratie die in de bovenstaande stap is gemaakt, wordt toegewezen aan de pagina.  Auteurs kunnen de configuratie toewijzen door Pagina-eigenschappen te bewerken onder **[!UICONTROL Gedeeld]** > **[!UICONTROL Configuratie]** > **[!UICONTROL Cloudconfiguratie]** en geef het configuratiepad op. Op deze manier kan de auteur configuraties voor meerdere Learning Manager-accounts maken en deze aan verschillende Sites-pagina toewijzen. Als een configuratie niet aan de Pagina in kaart wordt gebracht, zal de component de configuratie van de Ouderlijke Pagina recursief lezen tot het vindt.
+De component Learning Manager vereist dat de configuratie die in de bovenstaande stap is gemaakt, wordt toegewezen aan de pagina.  Auteurs kunnen de configuratie toewijzen door Pagina-eigenschappen te bewerken onder **[!UICONTROL Gedeeld]** > **[!UICONTROL Configuratie]** > **[!UICONTROL Cloudconfiguratie]** en geef het configuratiepad op. Op deze manier kan de auteur configuraties aanmaken voor meerdere Captivate Prime-accounts en elke account toewijzen aan een andere Sites-pagina. Als een configuratie niet aan de pagina is toegewezen, leest de component de configuratie van de bovenliggende pagina recursief totdat er een is gevonden.
 
 ## Student {#learner}
 
-De student kan de cursussen vanuit de pagina volgen.
+De student kan de cursussen op deze pagina volgen.
 
-Om toegang te krijgen tot de widget Leermanager, moet de student zich AEM gebruiker hebben aangemeld. Ook, eigenschap **email** moet aanwezig zijn in het knooppunt &quot;/profile&quot; van het knooppunt rep:User van de student. Dit e-mailadres moet precies hetzelfde zijn als het e-mailadres dat aanwezig is in het Learning Manager-account.
+Om toegang te krijgen tot de Learning Manager-widget, moet de student aangemeld zijn als een AEM-gebruiker. Ook, eigenschap **email** moet aanwezig zijn in het knooppunt &quot;/profile&quot; van het knooppunt rep:User van de student. Dit e-mailadres moet exact hetzelfde zijn als het e-mailadres in het Learning Manager-account.
 
-De student kan de cursussen vanuit de pagina volgen.
+De student kan de cursussen op deze pagina volgen.
 
 De cursusvoortgang wordt ook opgeslagen.
 
 De volgende widgets zijn beschikbaar:
 
 1. Gamification
-1. Leeragenda
+1. Studentenagenda
 1. Sociale widget
 1. Cataloguswidget
-1. Mijn leerervaring
-1. Aanbeveling gebaseerd op peer learning
-1. Recommendations door beheerder
-1. Aanbeveling op basis van de interesses van studenten
+1. Mijn leermateriaal
+1. Aanbeveling op basis van wat collega&#39;s leren
+1. Aanbeveling door de beheerder
+1. Aanbeveling op basis van interesses van student
 
-Als er geen aanbevelingen zijn, wordt de widget leeg weergegeven.
+Als er geen aanbevelingen zijn, is de widget leeg.
 
 ## Ondersteuning voor Skyline
 
@@ -183,8 +183,8 @@ Als het selectievakje is uitgeschakeld, worden de cursussen in het leerprogramma
 
 *Selecteer het selectievakje LO-inschrijving voor hogere volgorde negeren.
 
-De instelling wordt vervolgens toegepast op de widget.
+De instelling wordt dan toegepast op de widget.
 
 ### Beveiliging
 
-De velden Client-id en Clientgeheim zijn toegevoegd. Bovendien wordt het vernieuwingstoken gemaskeerd. Nadat een gebruiker de volledige configuratie heeft gemaakt, als de gebruiker de configuratie opnieuw opent om deze te bewerken, of als een andere gebruiker deze configuratie opent, wordt het vernieuwingstoken gemaskeerd.
+De velden Client-ID en Client-geheim worden toegevoegd. Bovendien wordt het vernieuwingstoken gemaskeerd. Nadat een gebruiker de volledige configuratie heeft gemaakt, als de gebruiker de configuratie opnieuw opent om deze te bewerken, of als een andere gebruiker deze configuratie opent, wordt het vernieuwingstoken gemaskeerd.

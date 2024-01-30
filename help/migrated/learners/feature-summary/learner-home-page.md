@@ -1,18 +1,18 @@
 ---
 jcr-language: en_us
-title: Startpagina student
+title: Startpagina Student
 description: Nadat de beheerder de immersive lay-out heeft ingeschakeld, wordt de student na aanmelding bij de app begroet met een volledig vernieuwde gebruikersinterface.
 contentowner: saghosh
 source-git-commit: 021a5eaa979be241faa2cf2b372731afc157ea9b
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
 
 
-# Startpagina student
+# Startpagina Student
 
 ## Overzicht {#overview}
 
@@ -24,7 +24,7 @@ Nadat de beheerder de immersive lay-out heeft ingeschakeld, wordt de student na 
 
 Afhankelijk van het feit of een widget is ingeschakeld, ziet de student het volgende:
 
-## Masthead {#masthead}
+## Impressum {#masthead}
 
 Hiermee wordt een video- of afbeeldingscarrousel met een ingesloten URL uitgerust. De [Beheerder kan elke afbeelding of video uploaden](../../administrators/feature-summary/announcements.md#masthead) kunt u als een fantastische tool gebruiken en de zichtbaarheid ervan voor een groep studenten instellen.
 
@@ -32,7 +32,7 @@ Hiermee wordt een video- of afbeeldingscarrousel met een ingesloten URL uitgerus
 
 *Stramienpad weergeven*
 
-## Mijn leerlijst {#mylearninglist}
+## Lijst met mijn leermateriaal {#mylearninglist}
 
 Geeft de training weer die de leerling heeft gevolgd. Deze trainingen worden weergegeven als kaarten die horizontaal zijn geplaatst. U kunt op de linker- of rechterknop klikken om door de cursussen te bladeren.
 
@@ -46,68 +46,68 @@ Klik op **[!UICONTROL Doorgaan]** op een kaart en wordt de speler gestart.
 
 De weergave van pictogrammen op elke trainingskaart wordt in- of uitgeschakeld door de beheerder via de Admin-app (**Instellingen** > **Algemeen** > **Pictogrammen voor trainingskaart inschakelen**).
 
-**Toevoegen aan Mijn leerlijst**
+**Toevoegen aan lijst met mijn leermateriaal**
 
-Als u de muis op een willekeurige cursuskaart plaatst in de **Aanbevolen op basis van uw aandachtsgebieden** en **Aanbevolen op basis van lijsten met collega-activiteiten** ziet u een optie om de cursus aan de **Mijn leerlijst**. Klikken **[!UICONTROL +]** op de cursuskaart en wordt de cursus toegevoegd aan de **Mijn leerlijst**.
+Als u met uw muis over een cursuskaart beweegt in de delen **Aanbevolen op basis van uw interessegebieden** en **Aanbevolen op basis van activiteiten van uw collega&#39;s**, kunt u een optie zien om de cursus toe te voegen aan de **Lijst met mijn leermateriaal**. Klikken **[!UICONTROL +]** op de cursuskaart en wordt de cursus toegevoegd aan de **Mijn leerlijst**.
 
 ![](assets/add-my-learning.png)
 
-*Toevoegen aan Mijn leerlijst*
+*Toevoegen aan lijst met mijn leermateriaal*
 
 ## Vaardigheidsniveaus kiezen {#chooseskilllevels}
 
-Als student kunt u de cursuscatalogus op deze niveaus filteren:
+Als student kunt u de cursuscatalogus op de volgende niveaus filteren:
 
 * Beginner
-* tussenpersoon
-* Gedeeld
+* Gemiddeld
+* Gevorderd
 
-Kies een optie en u kunt de cursuscatalogus dan zien op basis van de selectie.
+Kies een optie. Vervolgens kunt u de cursuscatalogus bekijken voor deze selectie.
 
 ![](assets/skill-levels.png)
 
 *Vaardigheidsniveaus selecteren*
 
-## Kalender {#calendar}
+## Agenda {#calendar}
 
-Toont uw geplande sessies en training. Blader door de kalender om de training voor de volgende maanden te bekijken.
+Geeft uw geplande sessies en trainingen weer. Blader door de kalender om de training voor de volgende maanden te bekijken.
 
 ![](assets/learner-calendar.png)
 
 *Kalender voor geplande sessies weergeven*
 
-De widget Kalender heeft de volgende functies. U kunt het volgende weergeven:
+De agendawidget bevat de volgende functies. U kunt het volgende bekijken:
 
-* Training per maand. Schuif naar links of rechts.
-* Aanstaande klassikale of VC-training die voor u beschikbaar zijn voor inschrijving.
-* Aanstaande klassikale of VC-training waarvoor u zich hebt ingeschreven.
-* Door de manager goedgekeurde klassikale of VC-training.
+* Trainingen gesorteerd op maand. Naar links of rechts bladeren.
+* Aankomende klassikale of VK-trainingen waarvoor u zich kun aanmelden.
+* Aankomende klassikale of VK-trainingen waarvoor u zich hebt aangemeld.
+* Door de manager goedgekeurde klassikale of VK-training.
 
-## Sociale voeding {#socialfeed}
+## Feed van sociale media {#socialfeed}
 
 ![](assets/social-feed.png)
 
 *Sociale feed weergeven*
 
-Bekijk waar andere gebruikers het over hebben.
+Zie waar andere gebruikers over praten.
 
-De widget geeft een overzicht van de activiteit voor een periode. Het:
+De widget geeft een smaenvatting van de activiteiten over een bepaalde periode. De widget:
 
-* Geeft actieve gebruikers en hun activiteiten weer van de gebruikers in uw bereik of groep.
-* Hiermee worden de berichten weergegeven die in de laatste twee weken zijn gemaakt.
+* Geeft actieve gebruikers en hun activiteiten weer voor gebruikers binnen uw bereik of groep.
+* Geeft berichten weer die in de afgelopen twee weken zijn gepubliceerd.
 
 ## Profielvaardigheden {#profileskills}
 
-Profielvaardigheden worden gebruikt voor cursusaanbevelingen. Als de beheerder een vaardigheid toewijst aan een gebruiker of groep gebruikers, wordt de vaardigheid toegevoegd aan de profielvaardigheden van de student. Als de student een vaardigheid aan zijn/haar profiel toevoegt, worden alle niveaus van de vaardigheid toegevoegd aan de profielvaardigheden van de student. Wanneer een student een vaardigheid aanwijst, ziet hij/zij de naam van de vaardigheid, de methode voor het optellen van de vaardigheid, het niveau, het percentage van de voltooiing van de vaardigheid en de punten.
+Profielvaardigheden worden gebruikt voor aanbevelingen voor cursussen. Als de beheerder een vaardigheid toewijst aan een gebruiker of een groep gebruikers, wordt de vaardigheid toegevoegd aan de profielvaardigheden van de student. Als de student een vaardigheid aan zijn of haar profiel toevoegt, worden alle niveaus van de vaardigheid toegevoegd aan de profielvaardigheden van de student. Wanneer een student de muiscursor over een vaardigheid beweegt, kan hij/zij de naam van de vaardigheid, methode voor toevoegen van de vaardigheid, niveau, voltooiingspercentage van de vaardigheid en studiepunten zien.
 
 ![](assets/profile-skills.png)
 *Profielvaardigheden weergeven*
 
-Als een student zich voor een cursus inschrijft, worden alleen de externe vaardigheden die zijn gebaseerd op een score toegevoegd aan de profielvaardigheden. Bovendien kan een student externe vaardigheden zoeken, selecteren en toevoegen aan zijn/haar profiel. Als een student zich voor het eerst heeft aangemeld bij de Learner-app en als de vaardigheden van de student al aanwezig zijn, worden de vaardigheden weergegeven in Mijn profiel.
+Als een student zich aanmeldt voor een cursus, worden alleen de externe vaardigheden die zijn gebaseerd op een score aan de profielvaardigheden toegevoegd. Bovendien kan een student externe vaardigheden zoeken, selecteren en toevoegen aan zijn/haar profiel. Als een student zich voor het eerst heeft aangemeld bij de Learner-app en als de vaardigheden van de student al aanwezig zijn, worden de vaardigheden weergegeven in Mijn profiel.
 
-## Aanbeveling op basis van uw interessegebied {#recommendationbasedonyourareaofinterest}
+## Aanbeveling op basis van uw interessegebieden {#recommendationbasedonyourareaofinterest}
 
-Geeft training weer op basis van het geselecteerde interessegebied. De aanbeveling wordt aangestuurd door een Machine Learning-algoritme.
+Geeft trainingen weer op basis van uw gekozen interessegebieden. De aanbeveling wordt aangestuurd door een Machine Learning-algoritme.
 
 ![](assets/learner-recommendation.png)
 
@@ -115,21 +115,21 @@ Geeft training weer op basis van het geselecteerde interessegebied. De aanbeveli
 
 Voor meer gerichte aanbevelingen kunt u uw vaardigheden bijwerken door op **Weergeven/bijwerken**.
 
-Nadat u een vaardigheid hebt toegevoegd, worden toekomstige aanbevelingen doelgerichter en gerichter op basis van uw voorkeuren.
+Nadat u een vaardigheid hebt toegevoegd, worden toekomstige aanbevelingen meer gericht op uw voorkeuren.
 
-Als de beheerder de optie **Vaardigheden ontdekken** kunt u uw vaardigheden interessanter maken.
+Als de beheerder de optie **Vaardigheden verkennen** heeft uitgeschakeld, kunt u interesses toevoegen aan uw vaardigheden.
 
 De aanbevolen cursussen worden als kaarten weergegeven. Wanneer u de muis op een kaart plaatst, kunt u meer details van de cursus zien.
 
 Productterminologie wordt ook ondersteund.
 
-**Industriële uitgelijnde vaardigheden**
+**Vaardigheden afgestemd op de branche**
 
-U kunt de netwerkgrafiek met vaardigheden zien als de beheerder de optie heeft ingeschakeld **Branches uitgelijnd** in de Admin-app.
+U kunt de netwerkgrafiek van vaardigheden zien als de beheerder de optie **Afgestemd op de branche** heeft ingeschakeld in de beheerdersapp.
 
-Deze vaardigheid kan alleen worden weergegeven wanneer de beheerder het trainingstype instelt op Industry Aligned.
+Deze vaardigheid kan alleen worden bekeken wanneer de beheerder het type training instelt als Gerelateerd aan de branche.
 
-In de visualisatie van de vaardighedenkaart kunt u zoeken naar een vaardigheid of vaardigheden en deze toevoegen.
+In het beeld van de vaardighedenkaart kunt u zoeken naar een vaardigheid of naar vaardigheden en deze toevoegen.
 
 ![](assets/learner-add-industry-skills.png)
 
@@ -137,16 +137,16 @@ In de visualisatie van de vaardighedenkaart kunt u zoeken naar een vaardigheid o
 
 De optie inschakelen **Vaardigheden tonen waarvoor trainingen aanwezig zijn in mijn account**, als u alle vaardigheden in uw account wilt weergeven.
 
-Nadat u een vaardigheid hebt toegevoegd, kunt u de geforceerde grafiek met de geselecteerde vaardigheid zien als het primaire hoekpunt en de bijbehorende vaardigheden als kleinere hoekpunten.
+Nadat u een vaardigheid hebt toegevoegd, kunt u de grafiek zien met daarin de geselecteerde vaardigheid als primaire vertex en de gekoppelde vaardigheden als kleinere vertices.
 
-De vaardigheden die u hebt gekozen, worden ook weergegeven in de **Geselecteerde vaardigheden** sectie.
+De vaardigheden die u selecteert, worden ook weergegeven in het gedeelte **Geselecteerde vaardigheden**.
 
 ![](assets/learner-add-industry-skills-1.png)
 
 *Geselecteerde vaardigheden*
 
-Klik op **[!UICONTROL Toevoegen]**.
+Klik op **[!UICONTROL Toevoegen]** om de vaardigheden toe te voegen.
 
-## Aanbeveling op basis van peer activity {#recommendationbasedonpeeractivity}
+## Aanbeveling op basis van activiteiten van uw collega&#39;s {#recommendationbasedonpeeractivity}
 
-Geeft training weer op basis van wat je collega’s volgen. Dit wordt opnieuw aangestuurd door een Machine Learning-algoritme. De aanbevelingen zijn gebaseerd op training voor zowel aangepaste als op branche gerichte studenten.
+Geeft training weer op basis van wat je collega’s volgen. Dit wordt wederom aangestuurd door een Machine Learning-algoritme. De aanbevelingen zijn gebaseerd op training voor zowel aangepaste als op branche gerichte studenten.

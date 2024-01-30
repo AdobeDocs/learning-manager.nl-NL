@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 0%
+ht-degree: 69%
 
 ---
 
@@ -14,39 +14,39 @@ ht-degree: 0%
 
 # Meldingen
 
-De meldingsfunctie is van toepassing op alle gebruikers van Adobe Learning Manager. Maar elke gebruiker krijgt verschillende soorten meldingen in verschillende scenario&#39;s op basis van zijn of haar rol. Alle waarschuwingen en meldingen voor gebruikers worden weergegeven via het pop-upvenster met meldingen.
+De meldingsfunctie is van toepassing op alle gebruikers van Adobe Learning Manager. Iedere gebruiker krijgt echter op basis van zijn rol verschillende soorten meldingen onder verschillende scenario&#39;s. Alle waarschuwingen en meldingen voor gebruikers worden weergegeven via het meldingsvenster.
 
 ## Toegangsmeldingen {#accessnotifications}
 
-Gebruikers kunnen meldingen zien door rechtsboven in het venster op het meldingenpictogram te klikken. Dit pop-upvenster toont de hoogtepunten van alle meldingen samen met het tijdstip waarop deze verschenen en een schuifbalk. Als u meer informatie over alle meldingen wilt weergeven, klikt u op Alle meldingen weergeven onder aan het pop-upvenster. De pagina Meldingen verschijnt.
+Gebruikers kunnen meldingen zien door rechtsboven in het venster op het meldingspictogram te klikken. Dit pop-upvenster toont de hoogtepunten van alle meldingen samen met het tijdstip waarop deze verschenen en een schuifbalk. Klik op Alle meldingen weergeven onderaan het pop-upvenster om meer informatie over alle meldingen weer te geven. De pagina Meldingen verschijnt.
 
-Het aantal nieuwe meldingen staat in het gemarkeerde getal boven het meldingenpictogram. Als er bijvoorbeeld vijf nieuwe meldingen zijn na uw vorige aanmelding, ziet u het getal 5 boven het meldingenpictogram. Deze getallen verdwijnen als u alle laatste meldingen hebt gelezen.
+Het aantal nieuwe meldingen staat in het gemarkeerde getal boven het meldingenpictogram. Als er bijvoorbeeld vijf nieuwe meldingen zijn sinds uw vorige aanmelding, ziet u het getal vijf boven het meldingenpictogram. De cijfers verdwijnen zodra u de meldingen hebt gelezen.
 
-## Typen meldingen voor beheerders {#typesofnotificationsforadministrators}
+## Soorten meldingen voor beheerders {#typesofnotificationsforadministrators}
 
-Beheerders krijgen meldingen in de volgende gevallen:
+Beheerders krijgen meldingen voor de volgende instanties:
 
-* Wanneer een CSV-lijst met gebruikers is geüpload.
-* Telkens wanneer het uploaden van een CSV-lijst met gebruikers mislukt. De beheerder krijgt een bericht met de reden voor de fout.
-* De beheerder kan ook meldingen op instantieniveau instellen voor cursussen en leerprogramma&#39;s. In dit geval krijgt de beheerder de meldingen op basis van de frequentie die op instantieniveau is geselecteerd.
+* Wanneer een csv-lijst met gebruikers is geüpload.
+* Wanneer de upload van een csv-lijst met gebruikers is mislukt. De beheerder krijgt een bericht met de reden voor de fout.
+* De beheerder kan ook meldingswaarschuwingen voor instantieniveaus instellen voor cursussen en leerprogramma&#39;s. Hierbij krijgt de beheerder de meldingen met de frequentie die op instantieniveau is geselecteerd.
 
 >[!NOTE]
 >
 >Als een beheerder naast zijn rol ook auteur- of beheerdersrechten heeft, krijgt de beheerder meldingen met betrekking tot elke rol.
 
-In het volgende screenshot ziet u een voorbeeld van een meldingsvenster voor de beheerdersrol:
+Het onderstaande screenshot toont een voorbeeld van het meldingsvenster voor de beheerdersrol:
 
 ![](assets/admin-notification.png)
 
 *Beheermeldingen weergeven*
 
-Dit pop-upvenster toont de hooglichten van alle meldingen, het tijdstip waarop deze verschenen en een schuifbalk. Het aantal nieuwe meldingen is gebaseerd op het gemarkeerde aantal boven op het meldingenpictogram. Als er bijvoorbeeld vijf nieuwe meldingen zijn na uw vorige aanmelding, ziet u het getal 5 boven het meldingenpictogram. Deze getallen verdwijnen als u alle laatste meldingen hebt gelezen.
+Dit pop-upvenster toont de hooglichten van alle meldingen, het tijdstip waarop deze verschenen en een schuifbalk. Het gemarkeerde getal boven het meldingenpictogram geeft het aantal nieuwe meldingen aan. Als er bijvoorbeeld vijf nieuwe meldingen zijn sinds uw vorige aanmelding, ziet u het getal vijf boven het meldingenpictogram. De cijfers verdwijnen zodra u de meldingen hebt gelezen.
 
 Klikken **[!UICONTROL Alle meldingen tonen]** onder aan het meldingsvenster om alle meldingen op een aparte pagina weer te geven.
 
-## escalatiemeldingen op meerdere niveaus instellen {#setupmultilevelescalationnotifications}
+## Escalatiemeldingen voor meerdere niveaus instellen {#setupmultilevelescalationnotifications}
 
-Escalatiemails over het missen van deadlines van studenten kunnen naar de manager en een skip-manager worden gestuurd. U kunt escalatiemeldingen op meerdere niveaus instellen voor het niet voltooien van de cursus tijdens het maken van een cursus of zelfs nadat deze is gemaakt. U kunt instellen dat escalatiemeldingen met een ingestelde frequentie worden verzonden naar een manager of een skip-manager.
+Escalatiemails over gemiste deadlines van studenten kunnen verzonden worden naar de manager en een skip-manager. U kunt escalatiemeldingen op meerdere niveaus instellen voor niet-voltooiing van de cursus tijdens het aanmaakproces of zelfs nadat deze is aangemaakt. U kunt instellen dat escalatiemeldingen met een bepaalde frequentie worden verzonden naar een manager of skip-manager.
 
 1. Meld u aan als beheerder of auteur en klik op Cursussen.
 1. Selecteer de cursus waarvoor u de escalatiemeldingen wilt wijzigen en klik op **[!UICONTROL Cursus weergeven]**.
@@ -61,19 +61,19 @@ Escalatiemails over het missen van deadlines van studenten kunnen naar de manage
 
    *Selecteer de optie Meldingswaarschuwingen*
 
-1. Er wordt een kalender geopend met de in rood gemarkeerde deadline voor de cursus. Klik op de gemarkeerde datum om te zien hoe de herinneringen zijn ingesteld voor de student.
+1. Er wordt een kalender geopend met de cursusdeadline rood gemarkeerd. Klik op de gemarkeerde datum om de herinneringen te bekijken die voor de student zijn ingesteld.
 
    ![](assets/deadline-calender.png)
 
    *Herinneringen voor deadline weergeven*
 
-1. Stel herinneringen in door datums vóór de deadline te selecteren. Zo kunt u herinneringen instellen voor de student over de naderende deadline.
+1. Stel herinneringen in door datums vóór de deadline te selecteren. Hiermee kunt u herinneringen van de naderende deadline instellen voor de student.
 
    ![](assets/deadline-reminder.png)
 
    *Stel een deadline voor een herinneringsdatum in*
 
-1. Selecteer een datum na de deadline om een herinneringsschema voor de student en escalatiemeldingen voor de manager in te stellen.
+1. Selecteer een datum na de deadline om toekomstige herinneringen voor de student en escalatiemeldingen voor de manager in te stellen.
 
    ![](assets/set-reminders-andescalation.png)
 
@@ -89,5 +89,5 @@ Escalatiemails over het missen van deadlines van studenten kunnen naar de manage
 
 +++Hoe kunt u herinneringsmeldingen voor de instantie instellen?
 
-Klik op Meldingswaarschuwingen voor een instantie. Er wordt een kalender geopend met de in rood gemarkeerde deadline voor de cursus. Klik op de gemarkeerde datum om te zien hoe de herinneringen zijn ingesteld voor de student. Stel de herinneringen in, zoals uitgelegd in dit [sectie](user-notifications.md#Setupmultilevelescalationnotifications).
+Klik op Meldingswaarschuwingen voor een instantie. Er wordt een kalender geopend met de cursusdeadline rood gemarkeerd. Klik op de gemarkeerde datum om de herinneringen te bekijken die voor de student zijn ingesteld. Stel de meldingen in, zoals uitgelegd in dit [onderdeel](user-notifications.md#Setupmultilevelescalationnotifications).
 +++

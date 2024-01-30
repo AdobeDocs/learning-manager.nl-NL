@@ -2,7 +2,7 @@
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 # Contribute-artikel
@@ -11,7 +11,7 @@ We verwelkomen bijdragen van onze gemeenschap en van Adobe medewerkers van buite
 
 ## Adobe Open Source Code of Conduct
 
-Dit project heeft de [Adobe Open Source Code of Conduct](code-of-conduct.md) of de [.NET Foundation-gedragscode](https://dotnetfoundation.org/code-of-conduct). Zie de klasse [Bijdragen](contributing.md) artikel.
+Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of de [.NET Foundation-gedragscode](https://dotnetfoundation.org/code-of-conduct) overgenomen. Zie het artikel [Bijdragen](contributing.md) voor meer informatie.
 
 ## Over uw bijdragen aan inhoud van de Adobe
 

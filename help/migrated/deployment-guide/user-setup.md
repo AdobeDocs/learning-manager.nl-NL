@@ -1,30 +1,30 @@
 ---
 jcr-language: en_us
-title: Gebruikers instellen in Leerbeheer
+title: Gebruikers instellen in Learning Manager
 contentowner: shhivkum
 preview: true
 source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
 workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 0%
+ht-degree: 63%
 
 ---
 
 
 
-# Gebruikers instellen in Leerbeheer
+# Gebruikers instellen in Learning Manager
 
 ## Interne en externe gebruikers {#internalandexternalusers}
 
-In elk LMS, inclusief Learning Manager, is het beheren van gebruikers een belangrijk aspect. Met Learning Manager kunt u gebruikers classificeren als intern en extern. Interne gebruikers zijn gebruikers die tot een specifieke organisatie of groep behoren. In het algemeen zijn gebruikers binnen een onderneming interne gebruikers. Deze gebruikers hebben specifieke leerobjecten met specifieke deadlines, zoals toegewezen door hun managers of de beheerder.
+In elk LMS, inclusief Learning Manager, is het beheren van gebruikers een belangrijk aspect. Met Learning Manager kunt u gebruikers classificeren als intern en extern. Interne gebruikers zijn gebruikers die tot een specifieke organisatie of groep behoren. In het algemeen zijn gebruikers binnen een enterprise interne gebruikers. Deze gebruikers hebben specifieke leerobjecten met specifieke deadlines, zoals toegewezen door hun managers of de beheerder.
 
-Externe gebruikers daarentegen zijn over het algemeen tijdelijke gebruikers van een specifiek leerbeheerdersaccount. Deze gebruikers hebben mogelijk toegang tot specifieke leerobjecten door op een tijdelijke, externe koppeling te klikken die ze via e-mail ontvangen. De externe gebruikersprofielen hebben doorgaans een vervaldatum. Een organisatie die certificeringen voor Java uitvoert, kan bijvoorbeeld elke gebruiker hebben die zich tijdelijk aanmeldt om relevante cursussen te voltooien en vervolgens probeert te certificeren. Meestal hebben klassikale trainingen en cursussen voor externe gebruikers ook een beperkte capaciteit.
+Externe gebruikers daarentegen zijn over het algemeen tijdelijke gebruikers van een specifiek Learning Manager account. Deze gebruikers hebben mogelijk toegang tot specifieke leerobjecten door op een tijdelijke, externe koppeling te klikken die ze via e-mail ontvangen. De externe gebruikersprofielen hebben doorgaans een vervaldatum. Een organisatie die certificeringen voor Java uitvoert, kan bijvoorbeeld elke gebruiker hebben die zich tijdelijk aanmeldt om relevante cursussen te voltooien en vervolgens probeert te certificeren. Meestal hebben klassikale trainingen en cursussen voor externe gebruikers ook een beperkte capaciteit.
 
-Lees verder om te weten te komen hoe u interne gebruikers en externe gebruikers in Leerbeheer kunt toevoegen.
+Lees verder om te weten te komen hoe u interne gebruikers en externe gebruikers in Learning Manager kunt toevoegen.
 
 ## Externe gebruikers instellen {#setupexternalusers}
 
-Als beheerder kunt u externe gebruikers, zoals medewerkers van partnerorganisaties, toevoegen aan uw Leerbeheerdersaccount. Externe gebruikers toevoegen:
+Als beheerder kunt u externe gebruikers, zoals medewerkers van partnerorganisaties, toevoegen aan uw Learning Manager-account. Externe gebruikers toevoegen:
 
 1. Vanaf de **[!UICONTROL **Beheerder**]**aanmeldingspagina, klikken op **[!UICONTROL **Gebruikers**]**in het linkernavigatiegebied.
 1. In het **[!UICONTROL **Gebruikers**]**pagina, klik **[!UICONTROL **Extern**]**in het linkernavigatiegebied. Het systeem geeft de pagina Externe gebruikers weer met een lijst van externe gebruikers (indien van toepassing).
@@ -44,12 +44,12 @@ Als beheerder kunt u externe gebruikers, zoals medewerkers van partnerorganisati
 
    * **[!UICONTROL ** Afbeelding toevoegen **:]** Sleep de gewenste afbeelding. Deze afbeelding wordt voor gebruikers weergegeven op de pagina Student.
    * **[!UICONTROL ** Aanmeldingsvereiste **:]** Geef het aantal dagen op waarbinnen de gebruiker zich moet aanmelden. Als de externe gebruiker deze aanmeldperiode overschrijdt, kan de student het leerobject niet openen of volgen.
-   * **[!UICONTROL ** Toegestane domeinen **:]** Geef de domeinen op, gescheiden door een komma. Alleen gebruikers met de opgegeven domeinen kunnen zich registreren bij het account.
+   * **[!UICONTROL ** Toegestane domeinen **:]** Geef de domeinen op, gescheiden door een komma. Alleen gebruikers met de opgegeven domeinnamen kunnen zich registreren bij het account.
    * **[!UICONTROL ** E-mailverificatie vereist **:]** Schakel dit selectievakje in als u gebruikers een verificatiebericht wilt sturen
 
 
 
-1. Klikken **[!UICONTROL Opslaan.]**
+1. Klik op **[!UICONTROL Opslaan]**.
 
 
 
@@ -58,32 +58,32 @@ Als beheerder kunt u externe gebruikers, zoals medewerkers van partnerorganisati
    Er wordt een pop-upvenster met de URL weergegeven. U kunt deze URL kopiëren en naar de externe gebruikers verzenden. Standaard wordt een e-mail met deze URL naar de gebruiker verzonden.
 
 1. Als u externe profielen toevoegt, worden deze weergegeven in het dialoogvenster **[!UICONTROL ** Pagina Externe gebruikers **(** Beheerder **>** Gebruikers **>** Extern **).]** De limiet van de licentie, de vervaldatum en de aanmeldingsvereisten worden ook weergegeven voor deze gebruikers.
-1. Als u de instellingen van een externe gebruiker wilt bewerken, klikt u op de gebruikersnaam. De **[!UICONTROL Externe inschrijving bewerken]** wordt weergegeven. Wijzig de instellingen en klik **[!UICONTROL ** Opslaan **.]**
+1. Als u de instellingen van een externe gebruiker wilt bewerken, klikt u op de gebruikersnaam. Het **[!UICONTROL Externe inschrijving bewerken]** dialoogvenster wordt weergegeven. Wijzig de instellingen en klik **[!UICONTROL ** Opslaan **.]**
 1. U kunt de welkomstmail ook op elk gewenst moment opnieuw verzenden of de URL kopiëren door op de pictogrammen voor e-mail/URL kopiëren naast het externe profiel te klikken.
 
    ![](assets/set-up-external-users-step10.png)
 
-## Het externe gebruikersprofiel pauzeren {#pausetheexternaluserprofile}
+## De externe gebruikersgroep pauzeren {#pausetheexternaluserprofile}
 
-Nadat u een externe gebruikersgroep aan Leermanager hebt toegevoegd, kunt u het registratieproces voor externe gebruikers ook pauzeren. Wanneer u pauzeert, wordt het registratieproces voor externe gebruikers geblokkeerd. Dit proces werkt echter alleen als de gebruikers zich nog niet hebben geregistreerd door de uitnodiging te accepteren.
+Nadat u een externe gebruikersgroep aan Learning Manager hebt toegevoegd, kunt u het registratieproces voor externe gebruikers ook onderbreken. Wanneer u pauzeert, wordt het registratieproces voor externe gebruikers geblokkeerd. Dit proces werkt echter alleen als de gebruikers zich nog niet hebben geregistreerd door de uitnodiging te accepteren.
 
 Klik op ** om de externe gebruikersgroepen te pauzeren [!UICONTROL **Handelingen**]**in de rechterbovenhoek van de pagina en kies **[!UICONTROL Pauze]**.
 
 ## Extern gebruikersprofiel hervatten {#resumeexternaluserprofile}
 
-U kunt de blokkering (pauzeren) op elk gewenst moment opheffen door de optie Hervatten te kiezen. Klik op **[!UICONTROL **Handelingen**]**rechtsboven op de pagina en kies **[!UICONTROL Hervatten]**.
+U kunt de blokkering (pauzeren) op elk moment opheffen door de optie Hervatten te kiezen. Klik op **[!UICONTROL **Handelingen**]**rechtsboven op de pagina en kies **[!UICONTROL Hervatten]**.
 
-**[!UICONTROL Statussen voor externe gebruikers]**
+**[!UICONTROL Statussen voor externe gebruiker]**
 
 In Learning Manager zijn de volgende statussen van toepassing op externe gebruikers:
 
-* **Inactief frame** - In deze status is de registratie van externe gebruikers verlopen. Beheerders stellen de vervaldatum voor de externe gebruikers in terwijl ze deze toevoegen via de workflow Gebruiker toevoegen.
+* **Inactief frame** - In deze status is de registratie van externe gebruikers verlopen. Beheerders stellen de vervaldatum voor de externe gebruikers in wanneer ze deze toevoegen via de workflow Gebruiker toevoegen.
 * **Actieve staat** - In deze status kunnen de externe gebruikers zich registreren bij de toepassing Leermanager en zich ook aanmelden bij de toepassing.
-* **Pauze** - In deze status is het registratieproces voor externe gebruikers geblokkeerd. De bestaande gebruikers kunnen zich echter wel blijven aanmelden.
+* **Pauzeren**: in deze status is het registratieproces voor externe gebruikers geblokkeerd.  Bestaande gebruikers kunnen zich echter nog steeds aanmelden.
 
 ## Interne gebruikers instellen {#setupinternalusers}
 
-Als beheerder kunt u wellicht gebruikers voor uw onderneming of organisatie instellen. Deze gebruikers worden ook aangeroepen als interne gebruikers. Interne gebruikers kunnen zich bij de toepassing aanmelden met Single Sign On of met Adobe ID. Deze gebruikers kunnen de leerobjecten vervolgens openen en gebruiken volgens hun vereisten. Er zijn drie mogelijke manieren om interne gebruikers voor een organisatie in te stellen:
+Als beheerder kunt u wellicht gebruikers voor uw onderneming of organisatie instellen. Deze gebruikers worden ook interne gebruikers genoemd. Interne gebruikers kunnen zich bij de toepassing aanmelden met Single Sign On of met Adobe ID. Deze gebruikers kunnen de leerobjecten vervolgens openen en gebruiken volgens hun vereisten. Er zijn drie mogelijke manieren om interne gebruikers voor een organisatie in te stellen:
 
 * Gebruikers in bulk toevoegen met behulp van een CSV
 * Gebruikers toevoegen via zelfregistratie
@@ -98,7 +98,7 @@ U kunt deze methode kiezen om interne gebruikers toe te voegen als het aantal ge
 1. Op de **[!UICONTROL Beheerderstartpunt]** pagina, klikt u op **[!UICONTROL **Gebruikers**]**in het linkernavigatiegebied.
 1. Klikken **[!UICONTROL ** Toevoegen **>** Een CSV uploaden **.]**
 1. Klik in het pop-updialoogvenster op **[!UICONTROL ** Importeren **.]**
-1. Blader naar de locatie waar u uw CSV-bestand hebt opgeslagen. Klikken **[!UICONTROL Openen]**.
+1. Blader naar de locatie waar u uw CSV-bestand hebt opgeslagen. Klik op **[!UICONTROL Open]**.
 1. Importeer het CSV-bestand en wijs de inhoud van het CSV-bestand toe aan de toepassingslabels. Deze stap is alleen van toepassing wanneer u het CSV-bestand voor de eerste keer uploadt.
 1. Klik op **[!UICONTROL **Opslaan**]**om de toewijzing op te slaan.
 1. Klik op **[!UICONTROL **Toevoegen**]**om het CSV-bestand te uploaden dat al is toegewezen aan de toepassingsgegevens.
@@ -127,40 +127,40 @@ Automatiseer de bulkimport van gebruikers.
 
 ## Gebruikers toevoegen via zelfregistratie {#addingusersthroughselfregistration}
 
-U kunt niet alleen interne gebruikers in bulk toevoegen, maar u kunt ook gebruikers toevoegen via zelfregistratie. U kunt zelfregistratie gebruiken om werknemers in staat te stellen zichzelf als studenten te registreren bij uw Leermiddelbeheeraccount. Wanneer u een zelfregistratieprofiel maakt, wordt er een unieke URL gemaakt. Deel deze URL met de medewerker om hen in staat te stellen zich te registreren in Leermanager.
+U kunt niet alleen interne gebruikers in bulk toevoegen, maar u kunt ook gebruikers toevoegen via zelfregistratie. U kunt zelfregistratie gebruiken om werknemers in staat te stellen zichzelf als studenten te registreren bij uw Learning Manager-account. Wanneer u een zelfregistratieprofiel maakt, wordt er een unieke URL gemaakt. Deel deze URL met de medewerker om hen in staat te stellen zich te registreren in Learning Manager.
 
-1. Op de **[!UICONTROL Beheerderstartpunt]** pagina, klikken **[!UICONTROL Gebruikers]** in het linkernavigatievenster.
+1. Op de **[!UICONTROL Beheerderstartpagina]** klikt u op **[!UICONTROL Gebruikers]** in het linkernavigatievenster.
 1. Klikken **[!UICONTROL ** Toevoegen **>** Zelfregistratie **.]**
 
    ![](assets/adding-users-throughself-registration-step2.png)
 
-1. In het dialoogvenster **[!UICONTROL Gebruiker toevoegen]** in het pop-upvenster de naam van de medewerker op in het dialoogvenster **[!UICONTROL Profielnaam]** veld.
+1. In het **[!UICONTROL Gebruiker Toevoegen]** pop-upvenster, stelt u de naam van de medewerker in, in het **[!UICONTROL Profielnaam]** pop-upvenster.
 1. In het dialoogvenster **[!UICONTROL Naam van manager]** in. Voer de naam van de manager van de werknemer in.
-1. U kunt desgewenst het profielbeeld van de medewerker toevoegen met de **[!UICONTROL Afbeelding toevoegen]** veld.
-1. Klikken **[!UICONTROL Opslaan]**.
+1. U kunt desgewenst de profielafbeelding van de medewerker ook toevoegen door te klikken op **[!UICONTROL Afbeelding toevoegen]**.
+1. Klik op **[!UICONTROL Opslaan]**.
 
    ![](assets/adding-users-throughself-registration-step6.png)
 
-   Het systeem geeft een ander pop-upvenster weer met het bericht dat het profiel is gemaakt. In dit dialoogvenster wordt ook een unieke URL gegenereerd.
+   Het systeem geeft een ander pop-upvenster weer met het bericht dat het profiel is aangemaakt. In dit dialoogvenster wordt ook een unieke URL gegenereerd.
 
 1. Deel deze URL met de medewerker om de werknemer in staat te stellen zichzelf als student te registreren.
 
    ![](assets/adding-users-throughself-registration-step7.png)
 
-## Enkele gebruikers toevoegen in Leerbeheer {#addsingleusersincaptivateprime}
+## Enkele gebruikers toevoegen in Learning Manager {#addsingleusersincaptivateprime}
 
 Het toevoegen van afzonderlijke gebruikers is de derde methode waarmee u interne gebruikers aan uw account kunt toevoegen. Wanneer u een aantal gebruikers wilt toevoegen, is deze procedure ideaal. Eén gebruiker toevoegen:
 
-1. Op de **[!UICONTROL Beheerderstartpunt]** pagina, klikken **[!UICONTROL Gebruikers]** in het linkernavigatievenster.
+1. Op de **[!UICONTROL Beheerderstartpagina]** klikt u op **[!UICONTROL Gebruikers]** in het linkernavigatievenster.
 1. Klikken **[!UICONTROL ** Toevoegen **>** Enkele gebruiker **.]**
 
 
 
 1. Geef in het pop-upvenster Gebruiker toevoegen de volgende gegevens op voor gebruikers:
 
-   * **[!UICONTROL Naam]** **[!UICONTROL :]** Geef de naam van de werknemer of interne gebruiker op. Dit veld is verplicht.
+   * **[!UICONTROL Naam]** **[!UICONTROL :]** Geef de naam van de werknemer of interne gebruiker op. Deze stap is verplicht.
 
-   * **[!UICONTROL E-mail]** **[!UICONTROL :]** Geef de e-mail-ID van de medewerker op. Dit veld is verplicht.
+   * **[!UICONTROL E-mail]** **[!UICONTROL :]** Geef de e-mail-ID van de medewerker op. Deze stap is verplicht.
 
    * **[!UICONTROL Profiel]** **[!UICONTROL :]** Geef de benoeming of functie van de werknemer op.
 
@@ -172,7 +172,7 @@ Het toevoegen van afzonderlijke gebruikers is de derde methode waarmee u interne
 
    ![](assets/add-single-usersincaptivateprime-step3.png)
 
-1. Klikken **[!UICONTROL Toevoegen]**.
+1. Klik op **[!UICONTROL Toevoegen]**.
 1. Het systeem toont een bericht dat de gebruiker met succes is toegevoegd. De gebruiker ontvangt een verificatiekoppeling in de opgegeven e-mail-ID. De gebruiker kan op deze koppeling klikken om zijn account te activeren en toegang te krijgen tot Learning Manager.
 
    ![](assets/add-single-usersincaptivateprime-step5.png)
@@ -185,16 +185,16 @@ Er zijn twee typen gebruikersgroepen in Leerbeheer: Aangepast en Automatisch geg
 
 ***U kunt de naam en de beschrijving van automatisch gegenereerde groepen niet bewerken.***
 
-Klik in het linkerdeelvenster op **[!UICONTROL Automatisch gegenereerd]**. De toepassing geeft een lijst weer van alle automatisch gegenereerde gebruikersgroepen die beschikbaar zijn voor uw account.
+Klik in het linkerdeelvenster op **[!UICONTROL Automatisch gegenereerd]** om de lijst met alle automatisch gegenereerde gebruikersgroepen van de Learning Manager-toepassing te bekijken. De toepassing geeft een lijst weer van alle automatisch gegenereerde gebruikersgroepen die beschikbaar zijn voor uw account.
 
-U kunt ook aangepaste groepen maken met een geselecteerde lijst met gebruikers in Leerbeheer. Met aangepaste groepen kunt u een naam, beschrijving en kenmerken voor de gebruikersgroep opgeven. Aangepaste groepen die u maakt in Learning Manager zijn dynamisch van aard. Dat wil zeggen dat nieuwe gebruikers met vergelijkbare kenmerken worden toegevoegd aan deze gebruikersgroepen.
+U kunt ook aangepaste groepen maken met een geselecteerde lijst met gebruikers in Learning Manager. Met aangepaste groepen kunt u een naam, beschrijving en kenmerken voor de gebruikersgroep opgeven. Aangepaste groepen die u maakt in Learning Manager zijn dynamisch van aard. Dat wil zeggen dat nieuwe gebruikers met vergelijkbare kenmerken worden toegevoegd aan deze gebruikersgroepen.
 
-## Aangepaste gebruikersgroepen maken {#createcustomusergroups}
+## Aangepaste groepen maken. {#createcustomusergroups}
 
 1. Klik op de startpagina van de Learning Manager Administrator op **[!UICONTROL Gebruikers]**.
 1. Klik op de pagina Aangepaste gebruikersgroepen op **[!UICONTROL **Toevoegen**]**rechtsboven op de pagina.
 
-   Het systeem geeft de **[!UICONTROL Gebruikersgroep toevoegen]** in.
+   Het systeem geeft het **[!UICONTROL Gebruikersgroep toevoegen]** dialoogvenster weer.
 
    ![](assets/creating-custom-usergroups.png)
 

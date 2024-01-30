@@ -1,21 +1,21 @@
 ---
 jcr-language: en_us
-title: Thema voor AEM componenten aanpassen
-description: Thema voor AEM componenten aanpassen
+title: Thema aanpassen voor AEM-onderdelen
+description: Thema aanpassen voor AEM-onderdelen
 contentowner: saghosh
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '24'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 
-# Thema voor AEM componenten aanpassen
+# Thema aanpassen voor AEM-onderdelen
 
-Gebruik de JSON hieronder om de cataloguswidget aan te passen.
+Gebruik de onderstaande JSON om de cataloguswidget aan te passen.
 
 ```
 \{ 

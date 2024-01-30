@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Kan geen badge toewijzen
-description: Nadat een student een cursus/leerprogramma/certificering heeft voltooid, wordt de badge niet toegekend aan de student.
+description: Nadat een student een cursus/leerprogramma/certificering heeft voltooid, wordt de badge niet aan de student toegekend.
 contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 74%
 
 ---
 
@@ -20,25 +20,25 @@ Zelfs na het voltooien van een cursus of training wordt een badge niet toegekend
 
 ## Beschrijving
 
-Nadat een student een cursus/leerprogramma/certificering heeft voltooid, wordt de badge niet toegekend aan de student.
+Nadat een student een cursus/leerprogramma/certificering heeft voltooid, wordt de badge niet aan de student toegekend.
 
 ## Oorzaak
 
 De badge die aan het leerobject wordt toegewezen, wordt toegevoegd nadat de student het leerobject heeft voltooid.
 
-In de eerdere versie kon later geen badge worden toegevoegd als er geen badge aan een leerobject was toegewezen op het moment dat de student het leerobject voltooide.
+In de eerdere versie kon een badge later niet worden toegevoegd als er geen badge was toegewezen aan een leerobject op het moment dat de student het leerobject voltooide.
 
-In de huidige versies is deze functie beschikbaar.
+In de huidige versies is deze functie wel beschikbaar.
 
 ## Resolutie
 
-Als een student het probleem ervaart, voert u de onderstaande stappen uit:
+Als een student dit probleem ondervindt, probeer dan de onderstaande stappen:
 
-## Cursus/Leerprogramma
+## Cursus/leerprogramma
 
 1. Meld u aan als beheerder.
 
-1. Open het relevante leerobject (cursus/leerprogramma).
+1. Open het betreffende leerobject (cursus/leerprogramma).
 
 1. Klikken **[!UICONTROL Instanties]** > **[!UICONTROL Badge]**.
 
@@ -50,7 +50,7 @@ Als een student het probleem ervaart, voert u de onderstaande stappen uit:
 
 1. Wijs de badge opnieuw toe aan het leerobject en klik op **[!UICONTROL Opslaan]**.
 
-   Deze stap wijst de badge toe aan alle studenten die voor het leerobject zijn ingeschreven.
+   Met deze stap wijst u de badge toe aan alle studenten die zijn ingeschreven voor het leerobject.
 
 ## Certificering
 

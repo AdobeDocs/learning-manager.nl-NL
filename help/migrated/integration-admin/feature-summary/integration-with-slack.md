@@ -1,47 +1,47 @@
 ---
 jcr-language: en_us
-title: Integratie van Learning Manager met Slack
-description: Integratie van Learning Manager met Slack
+title: Learning Manager-integratie met Slack
+description: Learning Manager-integratie met Slack
 contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 44%
 
 ---
 
 
 
-# Integratie van Learning Manager met Slack
+# Learning Manager-integratie met Slack
 
 We hebben **verwijderd** **Slack** als een connector in Learning Manager. U hebt geen toegang meer tot de Slack-connector.
 
-Als Slack-gebruiker kunt u de app Adobe Learning Manager installeren vanuit de Slack App Directory in uw Slack-teams en de leermaninhoud verkennen vanuit de Slack. U kunt met Primebot communiceren om te zoeken naar nieuwe cursussen, aanbevelingen te bekijken en op de hoogte te worden gesteld van aanstaande deadlines in Learning Manager. U kunt zich ook inschrijven en rechtstreeks naar uw leermateriaal gaan vanuit de Slack.
+Als Slack-gebruiker kunt u de Adobe Learning Manager-app via de Slack App Directory in uw Slack-teams installeren, en Learning Manager-inhoud in Slack ontdekken. U kunt met Primebot communiceren om te zoeken naar nieuwe cursussen, aanbevelingen te bekijken en op de hoogte te worden gesteld van aanstaande deadlines in Learning Manager. U kunt u ook inschrijven en rechtstreeks naar uw leermateriaal gaan vanuit Slack.
 
 De app Learning Manager voor Slack wordt niet ondersteund in een Azure-instantie van Learning Manager.
 
-## Adobe Learning Manager-app installeren {#installingadobecaptivateprimeapp}
+## Installeer de Adobe Learning Manager-app {#installingadobecaptivateprimeapp}
 
-Als student kunt u de CP Prime-app in uw Slack-account installeren. Als u de app wilt installeren, opent u de App-directory in uw Slack-account en zoekt u naar Learning Manager. Download en installeer de app. Als de app niet in uw account is goedgekeurd, neemt u contact op met uw integratiebeheerder voor goedkeuring. Als het al is goedgekeurd, kunt u zich aanmelden.
+U kunt de CP Prime-app in uw Slack-account installeren als student. Om de app te installeren, opent u de App Directory in uw Slack-account en zoekt u naar Learning Manager. Download en installeer de app. Als de app niet in uw account is goedgekeurd, neemt u contact op met uw integratiebeheerder voor goedkeuring. Als het reeds is goedgekeurd, kunt u zich aanmelden.
 
-## Student aanmelden als integratiebeheerder goedkeuren {#approvinglearnersigninasanintegrationadmin}
+## Aanmelding student als integratiebeheerder goedkeuren {#approvinglearnersigninasanintegrationadmin}
 
 Volg deze stappen om als integratiebeheerder de machtiging goed te keuren waarmee een student Prime-toepassing op Slack kan gebruiken.
 
-1. Selecteren **[!UICONTROL Toepassingen]** in het linkerdeelvenster en klik op de knop **[!UICONTROL Uitgelichte apps]** tabblad.
+1. Selecteer **[!UICONTROL Toepassingen]** in het linkerdeelvenster en klik op het tabblad met **[!UICONTROL uitgelichte apps]**.
 
    ![](assets/featuredapps.jpg)
 
-1. Klik op de knop **[!UICONTROL Slack]** tegel > de stapel integratiepagina wordt geopend. Klikken **[!UICONTROL Goedkeuren]** rechtsboven om de toepassing goed te keuren.
+1. Klik op de **[!UICONTROL Slack]**-tegel. Hiermee opent u de Slack-integratiepagina. Klikken **[!UICONTROL Goedkeuren]** rechtsboven om de toepassing goed te keuren.
 
    ![](assets/approval.png)
 
 1. Ga terug naar de **[!UICONTROL Toepassingen]** pagina. Na goedkeuring dient Slack te worden weergegeven in de **[!UICONTROL Externe apps]** tabblad.
 1. Studenten kunnen zich nu via Slack aanmelden bij hun Prime-account.
 
-## Primebot-functies {#primebotfunctionalities}
+## Primebot-functionaliteiten {#primebotfunctionalities}
 
-Je kunt nu beginnen met interactie met de Primebot. Dit zijn de functies van de bot.
+Je kunt nu beginnen met interactie met de Primebot. Dit zijn de functionaliteiten van de bot:
 
 1 - Opdracht
 
@@ -51,7 +51,7 @@ De beschikbare subopdrachten zijn:
 
 /prime find `<query>` - zoeken naar cursussen, certificeringen, enz.
 
-/prime recommendations - aanbevelingen weergeven
+/prime recommend - aanbevelingen weergeven
 
 /prime deadlines - verstreken en aanstaande deadlines weergeven
 
@@ -67,7 +67,7 @@ De beschikbare subopdrachten zijn:
 
 /prime profile - profiel weergeven
 
-/prime logout - meld u af bij uw Prime-account in dit Slack-team
+/prime logout - meld u af bij uw Prime-account voor dit Slack-team
 
 /prime help - helpbericht weergeven
 

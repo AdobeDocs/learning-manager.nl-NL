@@ -1,11 +1,11 @@
 ---
-description: Lees dit artikel om te weten te komen hoe u als docent aan de slag gaat in Leermanager.
+description: Lees dit artikel om te weten hoe u als docent aan de slag gaat in Learning Manager.
 jcr-language: en_us
 title: Aan de slag als docent in Learning Manager
 source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 0%
+ht-degree: 93%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Aan de slag als docent in Learning Manager
 
-Lees dit artikel om te weten te komen hoe u als docent aan de slag gaat in Leermanager.
+Lees dit artikel om te weten hoe u als docent aan de slag gaat in Learning Manager.
 
-## Meld u aan als docent {#loginasaninstructor}
+## Aanmelden als docent {#loginasaninstructor}
 
-Wanneer een auteur u als docent voor een module in een cursus toevoegt, ontvangt u een e-mail in uw geregistreerde e-mail. Het e-mailbericht bevat een koppeling naar de app voor docenten. Klik op de koppeling om naar de aanmeldingspagina van de Learning Manager te gaan.
+Wanneer een auteur u als docent aan een module in een cursus toevoegt, ontvangt u een e-mail op uw geregistreerde e-mailadres. De e-mail bevat een link naar de app voor docenten. Klik op de link om naar de Learning Manager-inlogpagina te gaan.
 
-1. Meld u aan bij Learning Manager.
+1. Inloggen in Learning Manager.
 
-   Op het scherm wordt de startpagina van de app voor docenten weergegeven. U kunt de details van uw aanstaande sessies zien.
+   Op het scherm wordt de startpagina van de app voor docenten weergegeven. U kunt de details van uw Aanstaande sessies bekijken.
 
    ![](assets/instructor-upcomingsession.png)
 
@@ -29,9 +29,9 @@ Wanneer een auteur u als docent voor een module in een cursus toevoegt, ontvangt
 
 Beheerders kunnen ook een gebruiker als auteur aan een module toevoegen terwijl ze sessiegegevens voor een cursusinstantie toevoegen.
 
-## Modules als docent beheren {#managingmodulesasaninstructor}
+## Modules beheren als docent {#managingmodulesasaninstructor}
 
-Zie de volgende afbeelding om inzicht te krijgen in de workflow van de docent in Leermanager:
+De volgende afbeelding laat de docentenworkflow in Learning Manager zien:
 
 ![](assets/instructor.jpg)
 

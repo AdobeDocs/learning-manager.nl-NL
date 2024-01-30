@@ -6,7 +6,7 @@ preview: true
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '2232'
-ht-degree: 0%
+ht-degree: 59%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Implementatiehandleiding voor Learning Manager - Sectie 2
 
-## Technische installatie {#technicalsetup}
+## Technische configuratie {#technicalsetup}
 
 De technische instellingen voor uw Learning Manager-account zijn vooral vereist voor zakelijke gebruikers. In dit document wordt gesproken over het configureren van eenmalige aanmelding voor uw organisatie en het integreren van Learning Manager met externe connectoren.
 
-### Eenmalige aanmelding configureren {#configuresinglesignon}
+### Single Sign-On configureren {#configuresinglesignon}
 
-Als systeembeheerder van de Admin Console is een van uw eerste taken het definiëren en instellen van een identiteitssysteem waarmee uw eindgebruikers worden geverifieerd. Wanneer uw organisatie licenties voor Learning Manager koopt, moet u deze licenties aan uw eindgebruikers verstrekken. Hiervoor hebt u een manier nodig om deze gebruikers te verifiëren. Voer de volgende procedure uit om SSO voor uw gebruikers te vormen.
+Een van uw eerste taken als systeembeheerder in de beheerconsole is het definiëren en opzetten van een identiteitssysteem waarmee uw eindgebruikers worden geverifieerd. Wanneer uw organisatie licenties voor Learning Manager koopt, moet u deze licenties aan uw eindgebruikers verstrekken. Hiervoor hebt u een manier nodig om deze gebruikers te verifiëren. Voer de volgende procedure uit om eenmalige aanmelding voor uw gebruikers te configureren.
 
 1. Klik op de startpagina van Learning Manager op **[!UICONTROL ** Instellingen **>** Aanmeldingsmethoden **.]**
 
@@ -38,7 +38,7 @@ Als systeembeheerder van de Admin Console is een van uw eerste taken het defini�
 
    ![](assets/configure-sso-step4.png)
 
-1. In het dialoogvenster ****[!UICONTROL Id-geïnitieerde verificatie-URL]**** -veld, voert u de verificatie-URL in die door uw serviceprovider is opgegeven.
+1. Voer in het veld ****[!UICONTROL Verificatie-URL geïnitieerd door IDP]**** de verificatie-URL in die uw serviceprovider heeft verstrekt.
 
 
 
@@ -46,24 +46,24 @@ Als systeembeheerder van de Admin Console is een van uw eerste taken het defini�
 
 1. Klik op **[!UICONTROL **Uploaden **]**naast de**[!UICONTROL  **XML-bestand met metagegevens IDP **]******veld en upload uw XML-bestand.
 1. Klikken **[!UICONTROL ** Opslaan **.]**
-1. De SSO-verificatie is geconfigureerd voor uw account. U moet zich via SSO kunnen aanmelden bij uw Learning Manager-account.
+1. De verificatie via eenmalige aanmelding is geconfigureerd voor uw account. U moet zich via SSO kunnen aanmelden bij uw Learning Manager-account.
 
    ***De SSO die u in Leermanager vormt zou SAML 2.0 moeten steunen.***
 
 ## Migratie van gebruikersgegevens {#migrationofuserdata}
 
-Als beheerder is migratie een van de cruciale stappen die u moet uitvoeren wanneer uw onderneming Leermanager aanschaft. Het is absoluut noodzakelijk dat u uw bestaande trainingsinhoud en gebruikersgegevens verplaatst naar de Leermanager. De volgende migratieworkflow helpt u de voordelen van een modern en intuïtief LMS te benutten zonder de oude gegevens van uw organisatie te verliezen.
+Als beheerder is migratie een van de cruciale stappen die u moet uitvoeren wanneer uw onderneming Leermanager aanschaft. Het is absoluut noodzakelijk dat u uw bestaande trainingsinhoud en gebruikersgegevens verplaatst naar de Leermanager. Met de volgende migratieworkflow kunt u profiteren van de voordelen van een modern en intuïtief LMS zonder de oude gegevens van uw organisatie te verliezen.
 
 Met Learning Manager kunt u in iteratieve sprints stapsgewijs vanuit uw bestaande LMS migreren via een wizard. U krijgt volledig inzicht in de status van elke sprint om ervoor te zorgen dat uw studenten geen downtime ervaren terwijl u uw oude gegevens migreert naar Adobe Learning Manager.
 
-Voor het uitvoeren van de migratieworkflow hebt u de rechten van integratiebeheerders nodig. Als beheerder kunt u ofwel de rol van integratiebeheerder opnemen, of deze rol toewijzen aan een andere gebruiker.
+Om de migratieworkflow uit te voeren, hebt u de integratiebeheerdersrechten nodig. Als beheerder kunt u de rol van integratiebeheerder op u nemen of deze rol toewijzen aan een andere gebruiker.
 
 **We kunnen Shaleen&#39;s hulp hier gebruiken om een visueel systeem te creëren.**
 
 1. Vereiste
 1. Evaluatie van de bestaande inhoud en gebruikersgegevens
-1. De gegevens uit het bestaande LMS exporteren en toewijzen
-1. FTP- en BOX-mappen voor migratie instellen
+1. De gegevens exporteren en toewijzen vanuit het bestaande LMS
+1. FTP- en BOX-mappen instellen voor migratie
 1. Studenten overbrengen naar Leermanager
 1. Leerinhoud overbrengen naar Leermanager
 1. Resterende gegevens overbrengen naar Learning Manager
@@ -72,10 +72,10 @@ Voor het uitvoeren van de migratieworkflow hebt u de rechten van integratiebehee
 
 ### Vereiste {#prerequisite}
 
-Voordat u het migratieproces start, moet u de volgende voorwaarde uitvoeren:
+Voordat u het migratieproces start, moet u de volgende noodzakelijke stappen uitvoeren:
 
 * Extractie van gegevens en inhoud van het bestaande LMS en transformatie van de gegevens naar de bestandsindelingen zoals gedefinieerd door Learning Manager.
-* Gebruikers importeren via FTP- en BOX-connectoren. De integratiebeheerder moet ervoor zorgen dat de connectoren voorafgaand aan het migratieproces worden geconfigureerd.
+* Gebruikers importeren met behulp van FTP- en BOX-connectoren. De integratiebeheerder moet ervoor zorgen dat de connectoren vóór de migratie geconfigureerd worden.
 
 
 
@@ -92,22 +92,22 @@ De integratiebeheerder moet eerst kijken naar de gegevens die beschikbaar zijn i
 * Cursusmodule
 * Vaardigheden
 * Vaardigheidsniveau
-* Vaardigheidcursus
+* Vaardigheid cursus
 * Certificering
-* Certificeringscursus
-* Certificering verplicht
+* Certificering cursus
+* Vastlegging certificering
 * Leerprogramma
 * Leerprogramma cursus
-* Leerprogramma-instantie
-* Cursusinstantie van het leerprogramma
+* Leerprogramma instantie
+* Leerprogramma cursusinstantie
 * Inschrijvingen
 * Inschrijving voor certificering
 * Inschrijving voor leerprogramma
-* Cursusgraden voor gebruikers
+* Curcuscijfers van gebruiker
 
 
 
-Nadat u uw bestaande gegevens hebt geëvalueerd, moet u deze gegevens toewijzen aan de standaard CSV-specificaties in Leerbeheer. Download het volgende voorbeeld ***csv-specifications.zip*** bestand met zeven Excel-bladen die vereist zijn voor deze migratie. Deze Excel-bladen bevatten specificaties met beschrijvingen die u helpen begrijpen hoe u de bestaande gegevens kunt toewijzen aan de velden in de CSV-bestanden.
+Nadat u uw bestaande gegevens hebt geëvalueerd, moet u deze gegevens toewijzen aan de standaard CSV-specificaties in Leerbeheer. Download het volgende voorbeeldbestand ***csv-specifications.zip*** met zeven Excel-bladen die nodig zijn voor deze migratie. Deze Excel-bladen bevatten specificaties met beschrijvingen die u laten zien hoe u de bestaande gegevens kunt koppelen aan de velden in de CSV-bestanden.
 
 <!--
 <Download link to the zip file>
@@ -118,9 +118,9 @@ Zorg ervoor dat elk CSV-bestand de gegevens voor elk veld in de voorgeschreven i
 <table> 
  <tbody> 
   <tr> 
-   <th width="7%" valign="top"><p><strong>Nee.</strong></p></th> 
+   <th width="7%" valign="top"><p><strong>Aantal</strong></p></th> 
    <th width="29%" valign="top"><p><strong>Excel-bladnaam</strong></p></th> 
-   <th width="31%" valign="top"><p><strong>Beschrijving van inhoud</strong></p></th> 
+   <th width="31%" valign="top"><p><strong>Beschrijving van de inhoud</strong></p></th> 
    <th width="31%" valign="top"><p><strong>Opmerkingen</strong></p></th> 
   </tr> 
   <tr> 
@@ -133,13 +133,13 @@ Zorg ervoor dat elk CSV-bestand de gegevens voor elk veld in de voorgeschreven i
    <td><p>2</p></td> 
    <td><p>course.xlsx</p></td> 
    <td><p>Metagegevens voor course.csv</p></td> 
-   <td><p>Vermeld één auteursnaam voor een bepaalde cursus omdat meerdere auteursnamen soms niet correct worden weergegeven in de toepassing na migratie. </p></td> 
+   <td><p>Vermeld één auteursnaam voor een cursus, omdat meerdere auteursnamen na migratie soms niet goed worden weergegeven in de toepassing. </p></td> 
   </tr> 
   <tr> 
    <td><p>3</p></td> 
    <td><p>module_version.xlsx </p></td> 
    <td><p>Metagegevens voor module_version.csv</p></td> 
-   <td><p>Zorg ervoor dat u het URL-pad opgeeft van de Box-accountmap waar u de inhoud hebt geüpload. </p></td> 
+   <td><p>Zorg ervoor dat u het URL-pad van de Box-accountmap opgeeft waarnaar u de inhoud hebt geüpload. </p></td> 
   </tr> 
   <tr> 
    <td><p>4</p></td> 
@@ -235,16 +235,16 @@ Zorg ervoor dat elk CSV-bestand de gegevens voor elk veld in de voorgeschreven i
    <td><p>19</p></td> 
    <td><p>User_course_grade.xlsx</p></td> 
    <td><p>Metagegevens voor User_course_grade.csv</p></td> 
-   <td><p>Geef de vereiste gegevens voor studentrecords in het CSV-bestand op, ook al zijn deze niet verplicht. Zonder deze informatie kan het zijn dat de toepassing Learning Manager geen gegevens weergeeft, zelfs als het CSV-bestand voor migratie wordt verwerkt. </p></td> 
+   <td><p>Verstrek de vereiste gegevens van studentrecords in het CSV-bestand, ook al zijn ze niet verplicht. Zonder deze informatie is het mogelijk dat de Learning Manager-toepassing geen gegevens weergeeft, zelfs als de CSV voor migratie wordt verwerkt. </p></td> 
   </tr> 
  </tbody> 
 </table>
 
 ***Learning Manager ondersteunt alleen datum- en tijdwaarden in UTF 8- en 32-bits indeling. Er kunnen fouten optreden tijdens de migratie als u de datum opgeeft in CSV-bestanden met een datum die buiten het bereik valt, zoals 2038-07-17T08:53:21.000Z of 1980-04-17T08:13:25,322Z.***
 
-### Afhankelijkheden tijdens het importeren van gegevens naar CSV-bestanden {#dependencieswhileimportingdatatocsvfiles}
+### Afhankelijkheden bij het importeren van gegevens naar CSV-bestanden {#dependencieswhileimportingdatatocsvfiles}
 
-Let op de volgende afhankelijkheden wanneer u de bestaande gegevens importeert in de standaard-CSV-indeling:
+Houd rekening met de volgende afhankelijkheden als u de bestaande gegevens in de standaard CSV-indeling importeert:
 
 * module_version.csv is afhankelijk van module.csv
 * course_instance.csv is afhankelijk van course.csv
@@ -264,37 +264,37 @@ Let op de volgende afhankelijkheden wanneer u de bestaande gegevens importeert i
 
 
 
-Nadat u de gegevens hebt geëxporteerd, slaat u de CSV-bestanden op uw lokale computer op. De bestanden kunnen nu worden verwijderd in de FTP- of BOX-mappen.
+Nadat u de gegevens hebt geëxporteerd, slaat u de CSV-bestanden op uw lokale computer op. De bestanden kunnen nu in de FTP- of BOX-mappen worden geplaatst.
 
 ## FTP- en BOX-mappen instellen voor de migratie {#setupftpandboxfoldersforthemigration}
 
-Voordat u de daadwerkelijke migratie van alle inhoud plant en start, moet u eerst de FTP- en BOX-mappen instellen. U hebt deze mappen nodig om uw CSV-bestanden in deze mappen neer te zetten. Zodra uw oudere inhoud, in de vorm van CSV-bestanden, beschikbaar is in de FTP- en BOX-mappen, kan Learning Manager de gegevens gebruiken.
+Voordat u uw daadwerkelijke migratie van alle inhoud plant en start, moet u eerst de FTP- en BOX-mappen instellen. U hebt deze mappen nodig om uw CSV-bestanden in deze mappen te plaatsen. Zodra uw oudere inhoud, in de vorm van CSV-bestanden, beschikbaar is in de FTP- en BOX-mappen, kan Learning Manager de gegevens gebruiken.
 
 ### Een FTP-account instellen {#setupanftpaccount}
 
-Klik op de startpagina van de integratiebeheerder op **[!UICONTROL ** CSV FTP-map aanvragen **.]** Voer in het pop-upvenster dat verschijnt uw e-mail-id in. Ga door de online wizard om de Exavault FTP-account te maken. Zodra u uw account hebt gemaakt, kunt u uw migratieproject- en sprintprojectmappen bekijken in Exavault FTP.
+Klik op de startpagina van de integratiebeheerder op **[!UICONTROL ** CSV FTP-map aanvragen **.]** Voer in het pop-upvenster dat verschijnt uw e-mail-ID in. Doorloop de online wizard om het Exavault FTP-account aan te maken. Zodra u uw account hebt gemaakt, kunt u uw migratieproject- en sprintprojectmappen bekijken in Exavault FTP.
 
-Bekijk een voorbeeldmomentopname van de projectbestanden en -map van ExaVault, zoals hieronder weergegeven:
+Bekijk hier een voorbeeld van de projectbestanden en -map van ExaVault:
 
 ![](assets/set-up-an-ftp-account.png)
 
 Wanneer u de FTP-map hebt ingesteld, wordt het bericht &quot;De installatie van de FTP-map is voltooid&quot; weergegeven.
 
-## Een BOX-account instellen {#setupaboxaccount}
+## Een Box-account instellen {#setupaboxaccount}
 
-Voer de volgende stappen uit om een BOX-account te maken en een BOX-map in te stellen:
+Voer de volgende stappen uit om een BOX-account aan te maken en een BOX-map in te stellen:
 
-Selecteer Migratie op de startpagina van de integratiebeheerder.
+Selecteer Migratie op de startpagina Integratiebeheerders.
 
-Klik in de sectie Setup op Aanvragen voor een Box-map.
+Klik in het gedeelte Instellingen op Een Box-map aanvragen.
 
 ![](assets/set-up-a-box-account.png)
 
-In het dialoogvenster ****[!UICONTROL E-mail invoeren]**** Voer de e-mail-ID in waar u de aanmeldingsinstructies voor verbinding met Box wilt ontvangen.
+Voer in het veld ****[!UICONTROL E-mail invoeren]**** de e-mail-ID in waarop u de aanmeldingsinstructies wilt ontvangen voor het maken van een verbinding met Box.
 
 Klikken **[!UICONTROL ** Verbinden **.]**
 
-U ontvangt dan een e-mail van Box met een koppeling naar de gedeelde map. Als u geen Box-account hebt, klikt u op Sign Up en maakt u een account. Aanmeldingsinstructies worden vervolgens naar de e-mail-ID van de integratiebeheerder verzonden.
+U ontvangt dan een e-mail van Box met een link naar de gedeelde map. Hebt u geen Box-account, klik dan op Sign up en maak een account. Vervolgens worden de aanmeldingsinstructies verzonden naar de e-mail-ID van de integratiebeheerder.
 
 Nadat u de verbinding hebt opgeslagen, verschijnt op de migratiepagina het bericht: &quot;Mapinstellingen voor Box is voltooid&quot;.
 
@@ -302,14 +302,14 @@ Nadat u de verbinding hebt opgeslagen, verschijnt op de migratiepagina het beric
 
 Voordat u de migratie start, is het belangrijk dat u het volgende opmerkt:
 
-* Er kan op elk moment slechts één migratieproject actief zijn in een account. Binnen een project kan slechts één sprint actief zijn op een bepaald moment.
-* U kunt een run die al in uitvoering is niet ongedaan maken. U kunt echter de bestaande verwijderingsoptie binnen elke functie van Leermanager gebruiken om migratie van gegevens of inhoud ongedaan te maken.
+* Er kan altijd maar één migratieproject tegelijk actief zijn in een account. Binnen een project kan er altijd maar één sprint tegelijk actief zijn.
+* U kunt een run die al wordt uitgevoerd, niet ongedaan maken. U kunt echter de bestaande verwijderingsoptie in elke functie van Learning Manager gebruiken om migratie van gegevens of inhoud ongedaan te maken.
 
 Zodra het migratieproject van start gaat, krijgt het project de status &#39;Onder migratie&#39;. In deze status kan geen andere gebruiker dan de integratiebeheerder zich aanmelden bij Learning Manager.
 
-Trainingsinhoud uploaden naar inhoudsmappen:
+Trainingsinhoud naar inhoudsmappen uploaden:
 
-Klik op de startpagina van de integratiebeheerder op **[!UICONTROL Migratie.]**
+Klik op de startpagina Integratiebeheerders op **[!UICONTROL Migratie.]**
 
 Op de startpagina Migratie geeft het systeem de migratieprojecten weer die al in uw organisatie zijn gemaakt.
 
@@ -317,21 +317,21 @@ Klik op **[!UICONTROL **Nieuw**]**rechtsboven op de pagina om een migratieprojec
 
 ***Als u nog geen FTP-map hebt gemaakt, wordt u gevraagd een Exavault-account voor de FTP-map te maken. Dit is een verplichte stap voordat u een migratieproject gaat maken. ***
 
-In het dialoogvenster ****[!UICONTROL Nieuw migratieproject maken]**** de naam voor uw project op.
+Geef op de pagina ****[!UICONTROL Een nieuw migratieproject maken]**** de naam voor uw project op.
 
 ![](assets/migrating-the-content-1.png)
 
-Geef een tag op voor uw project, de cursuscatalogus en geef een beschrijving voor het migratieproject. Uw migratiegegevensitems worden geïdentificeerd met behulp van de tag Migratieproject. Als u geen specifieke cursuscatalogus hebt, kiest u de standaardcatalogus in de vervolgkeuzelijst, worden alle cursussen die u met een migratieproject migreert, opgenomen in de catalogus die u in dit stadium kiest. Als u geen catalogus kiest, maken alle gemigreerde cursussen deel uit van de standaardcatalogus.
+Geef een tag op voor uw project, de cursuscatalogus, en geef een beschrijving op voor het migratieproject. Uw migratiegegevens worden geïdentificeerd met behulp van de tag voor migratieprojecten. Als u geen specifieke cursuscatalogus hebt, kiest u de standaardcatalogus in de vervolgkeuzelijst. Alle cursussen die u via een migratieproject migreert, worden opgenomen in de catalogus die u hier kiest. Als u geen catalogus kiest, behoren alle gemigreerde cursussen tot de standaardcatalogus.
 
-Klikken **[!UICONTROL Maken.]**
+Klik op **[!UICONTROL Maken.]**
 
-Maak op de pagina Sprint Configuration een sprint voor uw migratieproject. Een sprint definieert in het LMS-migratieproces een set migratie-items die u uit het bestaande LMS wilt migreren.
+Maak op de pagina Sprintconfiguratie een sprint voor uw migratieproject. Een sprint definieert in het LMS-migratieproces een set migratie-items die u uit het bestaande LMS wilt migreren.
 
 ![](assets/migrating-the-content-2.png)
 
-Geef een naam voor de sprint op en geef een beschrijving voor de sprint op.
+Geef een naam op voor de sprint en geef een beschrijving op voor de sprint.
 
-Selecteer de ****[!UICONTROL Gebruikers zijn toegevoegd of gewijzigd sinds het laatste selectievakje is uitgevoerd]**** om de lijst met gebruikers te synchroniseren met de toepassing Leermanager. Als u inhoud en gegevens migreert naar de toepassing Learning Manager, is dit mogelijk niet vereist. Maar als er een time-lapse is tussen uw eerdere sprintmigratie en de nieuwste sprintmigratie, kunt u het beste de gebruikerslijst synchroniseren. Met deze stap kan de database van de Learning Manager synchroon zijn met uw LMS-gebruikers.
+Selecteer de ****[!UICONTROL Gebruikers zijn toegevoegd of gewijzigd sinds het laatste selectievakje is uitgevoerd]**** om de lijst met gebruikers te synchroniseren met de toepassing Leermanager. Als u inhoud en gegevens migreert naar de toepassing Learning Manager, is dit mogelijk niet vereist. Maar als er tijd is verstreken tussen uw eerdere sprintmigratie en de laatste sprintmigratie, wordt het aanbevolen om de gebruikerslijst te synchroniseren. Met deze stap kan de database van de Learning Manager synchroon zijn met uw LMS-gebruikers.
 
 ***De synchronisatiestap wordt aanbevolen wanneer enrollment.csv en user_course_course_grade.csv worden gemigreerd. Deze stap zorgt ervoor dat de database van de Learning Manager synchroon is met uw migratiedatabase en dat alle gebruikers wier records die in de sprint moeten worden gemigreerd, beschikbaar zijn in de migratiedatabase.***
 
@@ -343,27 +343,27 @@ Klik op **[!UICONTROL **Starten**]**om de sprintmigratie te starten met uw geüp
 
 U kunt op ***[!UICONTROL Stoppen]**** op elk moment tijdens het sprintmigratieproces om de sprintmigratie af te breken.
 
-Het systeem geeft de migratiestatus weer voor elk van de sprintgegevensitems en -inhoud. Controleer het aantal geslaagde en mislukte items als onderdeel van migratiesprintrun.
+Het systeem geeft de migratiestatus weer voor alle gegevensitems en inhoud van de sprint. Controleer het aantal geslaagde en mislukte items als onderdeel van de migratiesprintrun.
 
-Als u module-inhoud uploadt, moet u ervoor zorgen dat het pad naar de inhoudsmap wordt vermeld in het *module_version.csv *file. Als u deze stap overslaat, kunnen er fouten optreden tijdens de migratie. Als u bijvoorbeeld inhoud van een module op eigen tempo uploadt, zoals video&#39;s, moet u het relatieve Box-URL-pad opgeven in het *module_version.csv *file.
+Als u module-inhoud uploadt, moet u ervoor zorgen dat het pad naar de inhoudsmap wordt vermeld in het *module_version.csv *file. Als u deze stap overslaat, kunnen er tijdens migratie fouten optreden. Als u bijvoorbeeld inhoud van een module op eigen tempo uploadt, zoals video&#39;s, moet u het relatieve Box-URL-pad opgeven in het *module_version.csv *file.
 
-Hieronder vindt u ter referentie een voorbeeld van de voortgang van de migratie. Zoals te zien in de afbeelding, kunt u het aantal verwerkte records voor elk migratiegegevensitem bekijken, samen met de status van geslaagde en mislukte items. Klik op Foutrecords downloaden naast de mislukte items om de foutenlogboeken te downloaden en weer te geven. U kunt de problemen in CSV oplossen en opnieuw uploaden in FTP.
+Hieronder vindt u ter referentie een voorbeeld van de voortgang van de migratie. Zoals te zien in het voorbeeld, kunt u het aantal verwerkte records voor elk migratiegegevensitem bekijken. De status geeft aan of migratie is geslaagd of mislukt. Klik op Foutrecords downloaden naast de mislukte items om de foutenlogboeken te downloaden en bekijken. U kunt de problemen in CSV oplossen en opnieuw uploaden in FTP.
 
 ![](assets/migrating-the-content-4.png)
 
-Klik op ** om een lijst met alle sprints van een migratieproject weer te geven [!UICONTROL **Sprint**]**in het linkernavigatiegebied. U kunt een lijst weergeven met alle sprints, het aantal runs dat u voor elke sprint hebt uitgevoerd, de startdatum, de duur en de voltooiingsstatus zoals weergegeven in de voorbeeldafbeelding hieronder.
+Klik op ** om een lijst met alle sprints van een migratieproject weer te geven [!UICONTROL **Sprint**]**in het linkernavigatiegebied. U kunt een lijst van alle sprints bekijken, het aantal runs dat u voor elke sprint hebt uitgevoerd, de startdatum, de duur en de voltooiingsstatus, zoals weergegeven in het voorbeeld hieronder.
 
 ![](assets/migrating-the-content-5.png)
 
-Klik op ** om een lijst met alle sprints van een migratieproject weer te geven [!UICONTROL **Sprint**]**in het linkernavigatiegebied. U kunt een lijst weergeven met alle sprints, het aantal runs dat u voor elke sprint hebt uitgevoerd, de startdatum, de duur en de voltooiingsstatus zoals weergegeven in de voorbeeldafbeelding hieronder.
+Klik op ** om een lijst met alle sprints van een migratieproject weer te geven [!UICONTROL **Sprint**]**in het linkernavigatiegebied. U kunt een lijst van alle sprints bekijken, het aantal runs dat u voor elke sprint hebt uitgevoerd, de startdatum, de duur en de voltooiingsstatus, zoals weergegeven in het voorbeeld hieronder.
 
-Klik op ** om een lijst met alle sprints van een migratieproject weer te geven [!UICONTROL **Sprint**]**in het linkernavigatiegebied. U kunt een lijst weergeven met alle sprints, het aantal runs dat u voor elke sprint hebt uitgevoerd, de startdatum, de duur en de voltooiingsstatus zoals weergegeven in de voorbeeldafbeelding hieronder.
+Klik op ** om een lijst met alle sprints van een migratieproject weer te geven [!UICONTROL **Sprint**]**in het linkernavigatiegebied. U kunt een lijst van alle sprints bekijken, het aantal runs dat u voor elke sprint hebt uitgevoerd, de startdatum, de duur en de voltooiingsstatus, zoals weergegeven in het voorbeeld hieronder.
 
-***Voordat u het migratieproject als voltooid markeert, moet u controleren of alle sprints in het project zijn voltooid. Als u het migratieproject als voltooid hebt gemarkeerd, kunt u niet meer teruggaan en sprints maken in dat project. U kunt geen wijzigingen aanbrengen in dat project. U kunt alleen een ander migratieproject maken en er sprints aan toevoegen.***
+***Voordat u het migratieproject als voltooid markeert, moet u controleren of alle sprints in het project zijn voltooid. Zodra u het migratieproject als voltooid hebt gemarkeerd, kunt u niet meer teruggaan om sprints in dat project te maken. U kunt geen wijzigingen aanbrengen in dat project. U kunt alleen een ander migratieproject maken en er sprints aan toevoegen.***
 
-Nadat u de leergegevens en -inhoud van het verouderde LMS van uw organisatie hebt gemigreerd, controleert u of de gegevens en inhoud goed zijn geïmporteerd. U kunt controleren door u aan te melden als beheerder en de beschikbaarheid van geïmporteerde modules en cursusgegevens en -inhoud te controleren
+Nadat u de leergegevens en -inhoud van het oude LMS van uw organisatie hebt gemigreerd, controleert u of de gegevens en inhoud juist zijn geïmporteerd. U kunt dit controleren door u aan te melden als beheerder en de beschikbaarheid van geïmporteerde modules en cursusgegevens en -inhoud te controleren
 
-Raadpleeg de volgende bronnen voor nuttige informatie over migratie:
+Raadpleeg het volgende voor nuttige bronnen over migratie:
 
 * Migratieproblemen oplossen
 * Veelgestelde vragen over het uploaden van CSV&#39;s

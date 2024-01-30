@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 0%
+ht-degree: 65%
 
 ---
 
@@ -27,35 +27,35 @@ macOS X 10.12, 10.13, 10.14, 10.15
 
 ## Weergave
 
-Minimaal ondersteunde resolutie - 1024 x 720.
+Minimaal ondersteunde resolutie: 1024 x 720.
 
 ## Schijfruimte
 
-Minimaal 5 GB beschikbare ruimte op de vaste schijf.
+Minimaal 5 GB beschikbare ruimte op de harde schijf.
 
 ## Opnemen
 
 * Microfoon vereist voor audio-opname.
-* Webcam vereist voor video-opnamen.
+* Webcam vereist voor video-opname.
 
-## Overige
+## Diversen
 
-Een actief internetverbinding en een Adobe leermanaccount vereist om de toepassing te gebruiken.
+Een actieve internetverbinding en Adobe Learning Manager-studentenaccount zijn vereist om deze toepassing te gebruiken.
 
 ## Browserspecificaties
 
-De meeslepende startpagina voor lay-outs wordt niet ondersteund in IE 11-browsers.
+De insluitende lay-out van de startpagina wordt niet ondersteund door de browser IE 11.
 
 * Google Chrome versie 43 en hoger.
 * Nieuwste versies van Edge, Safari (versie 13 en hoger) en Firefox.
 * Internet Explorer versie 11 en hoger
 
-## Aanbevolen afbeeldingsgrootte {#recommendedsizeofimages}
+## Aanbevolen grootte van afbeeldingen {#recommendedsizeofimages}
 
-* Masthead: 1280 x 360 px.
+* Impressum: 1280 x 360 px.
 * Afbeelding op de cataloguskaart: 280 x 100 px
 * Grootte trainingskaart: 300 x 240 px
-* Sociale banner: 1600 x 240 px
+* Social-banner: 1600 x 240 px
 
 ## Desktop
 
@@ -73,33 +73,33 @@ Minimaal 8 GB vereist.
 
 ### Schermresolutie
 
-1366 x 768 pixels
+1366x768 pixels
 
 ### Schijfruimte
 
-Minimaal 5 GB beschikbare ruimte op de vaste schijf.
+Minimaal 5 GB beschikbare ruimte op de harde schijf.
 
 ### Opnemen
 
-Een microfoon is vereist voor audio-opname; een webcam is vereist voor video-opname.
+Een microfoon is vereist voor audio-opname; een webcam vereist voor video-opname.
 
 ## Mobiele app
 
 ### Apparaten
 
-* iOS: Laatste twee grote versies.
+* iOS: laatste twee hoofdversies.
 * Android: Laatste twee grote versies.
 
 ### Browsers
 
-* Chroom op Android.
+* Chrome op Android.
 * Safari op iOS.
 
 ### Netwerksnelheid
 
 * 1 Mbps
 
-### CPU-, geheugen- (min) apparaten
+### CPU, geheugen apparaten (min)
 
 * Qualcomm® Snapdragon™ 695 5G of equivalent, 6 GB geheugen
 
@@ -113,20 +113,20 @@ Een microfoon is vereist voor audio-opname; een webcam is vereist voor video-opn
 
 >[!NOTE]
 >
->De mobiele app Learning Manager ondersteunt alleen de studentrol.
+>De Learning Manager-mobiele app ondersteunt alleen de studentenrol.
 
-## Maximale inhoudsgrootte {#maximumcontentsize}
+## Maximale grootte van de inhoud {#maximumcontentsize}
 
 De maximale bestandsgrootte die kan worden geüpload is 600 MB.
 
 >[!NOTE]
 >
->Als de grootte van de *user.csv* groter is dan 100 MB, kan het importeren van dit bestand ertoe leiden dat de browser zich onverwacht gedraagt. Het probleem treedt op omdat er onvoldoende geheugen beschikbaar is in de browser.
+>Als het bestand *user.csv* groter is dan 100 MB, kan de browser zich onverwacht gedrag vertonen bij het importeren van dit bestand. Het probleem treedt op, omdat de browser onvoldoende geheugen heeft.
 
 We raden u aan grote bestanden te importeren *user.csv* bestanden die gebruikmaken van de geautomatiseerde Box/Exavault-workflow. Ga voor meer informatie naar [Bestanden migreren](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
-## Ondersteunde indelingen voor inhoud
+## Ondersteunde inhoudsindelingen
 
 ### Module uploaden {#moduleupload}
 
@@ -199,7 +199,7 @@ We raden u aan grote bestanden te importeren *user.csv* bestanden die gebruikmak
   </tr>
   <tr>
    <td>
-    <p><strong>Gebruikersprofielfoto</strong></p></td>
+    <p><strong>Profielfoto van gebruiker</strong></p></td>
    <td>
     <p>"png", "jpg", "jpeg", "gif"</p></td>
   </tr>
@@ -217,7 +217,7 @@ We raden u aan grote bestanden te importeren *user.csv* bestanden die gebruikmak
   </tr>
   <tr>
    <td>
-    <p><strong>Bronnen/cursusbijlagen</strong></p></td>
+    <p><strong>Leermiddelen/cursusbijlagen</strong></p></td>
    <td>
     <p> Alle bestandsindelingen</p></td>
   </tr>
@@ -236,31 +236,31 @@ We raden u aan grote bestanden te importeren *user.csv* bestanden die gebruikmak
   </tr>
   <tr>
    <td>
-    <p>Badge op het board Studentprestaties</p></td>
+    <p>Badge op het board met studentprestaties</p></td>
    <td>
     <p>40x40 pixels</p></td>
   </tr>
   <tr>
    <td>
-    <p>Uitgebreide badge in de Learner-toepassing</p></td>
+    <p>Uitgevouwen badge in de Learner-app</p></td>
    <td>
     <p>90x90 pixels</p></td>
   </tr>
   <tr>
    <td>
-    <p>Gebruikersprofielfoto over studentprestaties</p></td>
+    <p>Gebruikersprofielfoto voor studentprestaties</p></td>
    <td>
     <p>100x100 pixels</p></td>
   </tr>
   <tr>
    <td>
-    <p>Gebruikersprofielfoto bij vervolgkeuzelijst Afmelden</p></td>
+    <p>Gebruikersprofielfoto voor vervolgmenu Afmelden</p></td>
    <td>
     <p>42x42 pixels</p></td>
   </tr>
   <tr>
    <td>
-    <p>Bedrijfslogo op koptekst</p></td>
+    <p>Bedrijfslogo op kopregel</p></td>
    <td>
     <p>45 pixels hoog, breedte wordt overeenkomstig berekend.</p></td>
   </tr>
@@ -283,16 +283,16 @@ De volgende combinaties worden ondersteund:
 * Edge + Narrator
 * Mac Safari + VoiceOver
 
-### Ondersteuning voor meeslepende mobiele apparaten
+### Ondersteuning voor Mobile Immersive
 
-De volgende opties worden ondersteund:
+De volgende combinaties worden ondersteund:
 
-* Android+Talkback
-* iOS+voiceOver
+* Android + Talkback
+* iOS + voiceOver
 
 ## Netwerkvereisten {#networkrequirements}
 
-Zorg ervoor dat de volgende domeinen van derden op de whitelist staan als u zich op een netwerk met beperkingen bevindt.
+Zorg ervoor dat de volgende domeinen van derden op de whitelist staan als u op een netwerk met beperkingen zit.
 
 * &#42;.adobe.com
 * &#42;.boltdns.net
@@ -313,8 +313,8 @@ Zorg ervoor dat de volgende domeinen van derden op de whitelist staan als u zich
 <table>
  <tbody>
   <tr>
-   <th>Functie</th>
-   <th>Gebruikte services</th>
+   <th>Kenmerk</th>
+   <th>Gebruikte diensten</th>
   </tr>
   <tr>
    <td>FTP-connector</td>
@@ -338,14 +338,14 @@ Zorg ervoor dat de volgende domeinen van derden op de whitelist staan als u zich
   </tr>
   <tr>
    <td>Box-connector</td>
-   <td>Box Zones in Frankfurt</td>
+   <td>Box Zones gesitueerd in Frankfurt</td>
   </tr>
   <tr>
    <td>Mini Orange-connector</td>
    <td>Mini Orange</td>
   </tr>
   <tr>
-   <td>Workday Connector</td>
+   <td>Workday-connector</td>
    <td>Workday</td>
   </tr>
   <tr>
@@ -361,4 +361,4 @@ Zorg ervoor dat de volgende domeinen van derden op de whitelist staan als u zich
 
 ## Technisch overzicht {#technicaloverview}
 
-[Technisch overzicht van Learning Manager](assets/learning-manager-technicaloverview.pdf)
+[Learning Manager technisch overzicht](assets/learning-manager-technicaloverview.pdf)

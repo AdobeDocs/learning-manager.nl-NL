@@ -1,51 +1,51 @@
 ---
-description: Beheerders kunnen een gepersonaliseerde sessie starten waarin ze zich kunnen aanmelden namens elke gebruiker in hun account in hun student- en managerrollen.
+description: Beheerders kunnen een nabootsingssessie starten waar ze zich namens elke gebruiker kunnen aanmelden bij diens account in een student- of managerrol.
 jcr-language: en_us
-title: Imitatie van student en manager
+title: Een student en een manager nabootsen
 contentowner: saghosh
 source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 0%
+ht-degree: 71%
 
 ---
 
 
 
-# Imitatie van student en manager {#impersonation-of-learner-and-manager}
+# Een student en een manager nabootsen {#impersonation-of-learner-and-manager}
 
 In grote organisaties hebben medewerkers van de klantenondersteuning behoefte aan imitatiemogelijkheden om fouten op te sporen waarmee studenten worden geconfronteerd.
 
-Dankzij deze mogelijkheid om zich voor te doen voor andere gebruikers, kunnen beheerders en aangepaste beheerders alle activiteiten van studenten en managers van hun organisatie identificeren en uitvoeren.
+Met deze mogelijkheid om andere gebruikers na te bootsen kunnen beheerders en aangepaste beheerders alle activiteiten die studenten en managers van hun organisatie uitvoeren, identificeren en uitvoeren.
 
-## Hoe werkt het?
+## Zo werkt het
 
-Beheerders (en/of aangepaste beheerders) kunnen zoeken naar een gebruiker (intern of extern) en zich vervolgens als gebruiker manifesteren. De beheerder wordt vervolgens omgeleid naar de pagina van de gebruiker (indien van toepassing de beheerdersapp of een andere Learner-app) en meldt de beheerder vervolgens af van zijn sessie. De beheerder wordt vervolgens omgeleid naar de pagina Voltooien van uw profiel, voor het geval dat is ingesteld voor de gebruiker die door de beheerder is nagemaakt.
+Beheerders (en/of aangepaste beheerders) kunnen een gebruiker zoeken (intern of extern) en deze vervolgens nabootsen. De beheerder wordt vervolgens doorgeleid naar de gebruikerspagina (manager-app indien van toepassing, of anders student-app), en de beheerder wordt afgemeld bij de sessie. De beheerder wordt vervolgens doorgeleid naar de pagina Profiel voltooien, als dit is ingesteld voor de gebruiker die door de beheerder wordt nagebootst.
 
 Als een aangepaste beheerder toestemming heeft om toegang te krijgen tot de pagina van een gebruiker, kunnen ze zoeken naar gebruikers die ze willen nadoen.
 
 Houd rekening met het volgende wanneer u een gebruiker imiteert:
 
-* Alle beheerders zien deze functie standaard.
-* Alleen actieve gebruikers in het account kunnen worden nagemaakt.
-* Een beheerder kan zichzelf niet imiteren.
-* Een aangepaste beheerder die toegang heeft tot de pagina Gebruikers, kan zich als gebruikers gedragen.
-* Een beheerder/aangepaste beheerder kan zich slechts 60 minuten imiteren.
+* Alle beheerders kunnen standaard deze functie zien.
+* Alleen actieve gebruikers in het account kunnen worden nagebootst.
+* Een beheerder kan niet zichzelf nabootsen.
+* Een aangepaste beheerder met toegang tot de pagina Gebruikers kan gebruikers nabootsen.
+* Een beheerder/aangepaste beheerder kan maximaal 60 minuten nabootsen.
 
-## Een gebruiker personaliseren
+## Een gebruiker nabootsen
 
-Volg de onderstaande stappen om een gebruiker te imiteren:
+Volg de onderstaande stappen om een gebruiker na te bootsen:
 
 1. Meld u als beheerder aan bij de app.
 1. Selecteer Profiel > Gebruiker verpersoonlijken.
 
    U kunt zich per keer maar één gebruiker voorstellen.
 
-1. Zoek naar een gebruiker (intern/extern) in het zoekvak dat aanwezig is in het modale venster. U kunt zich per keer maar één gebruiker voorstellen. Selecteer Doorgaan.
+1. Zoek een gebruiker (intern/extern) in het zoekvak in het modale venster. U kunt slechts één gebruiker tegelijk nabootsen. Selecteer Doorgaan.
 
    U kunt ook zoeken met e-mail van de gebruiker, UUID, enzovoort.
 
-1. Er wordt een bericht weergegeven met de bevestiging dat u zich als gebruiker zult gedragen.
+1. Er verschijnt een bericht met de bevestiging dat u een gebruiker gaat nabootsen.
 
    Selecteer Doorgaan.
 
@@ -53,27 +53,27 @@ Volg de onderstaande stappen om een gebruiker te imiteren:
 
 **Een gepersonaliseerde sessie duurt 60 minuten.**
 
-Wanneer u overschakelt naar een student- of managerrol, verschijnt een bericht waarin wordt aangegeven dat de beheerder/aangepaste beheerder zich in een imitatiemodus van de gebruiker bevindt.
+Bij het wisselen naar een student- of managerrol wordt een bericht weergegeven dat de beheerder/aangepaste beheerder de gebruiker nabootst.
 
-## Aanmeldings- en toegangsrapport
+## Aanmelden en rapport openen
 
-De aanmelding en toegang van een beheerder worden vastgelegd in aanmeldings- en toegangsrapporten. Voor elke gebruiker die door de beheerder is nagemaakt, wordt in het rapport een record gemaakt.
+De aanmelding en toegang van een beheerder worden vastgelegd in aanmeldings- en toegangsrapporten. Voor elke gebruiker die door een beheerder wordt nagebootst, wordt in het rapport een record gemaakt.
 
-De kolommen die deel uitmaken van deze functie zijn:
+De kolommen die bij deze functie horen:
 
-* Voorzien van een gebruikersnaam
-* Gepersonaliseerd door e-mail van de gebruiker
+* Nagebootst door gebruikersnaam
+* Nagebootst door gebruikers-e-mail
 
-Deze kolommen worden aan het einde van het rapport toegevoegd.
+Deze kolommen worden toegevoegd aan het eind van het rapport.
 
-Elke aanmelding wordt afzonderlijk meegeteld in het rapport.
+Elke aanmelding wordt in het rapport afzonderlijk geteld.
 
 ## Wat wordt niet ondersteund
 
-* Imitatie van AEM componenten.
-* Imitatie in de mobiele app.
-* Imitatie in mobiele immersive.
-* Imitatie van immersive Apps. Het is alleen van toepassing op ALM-apps.
+* Nabootsing van AEM-onderdelen.
+* Nabootsing in de mobiele app.
+* Mobile Immersive-nabootsing.
+* Nabootsing van immersieve apps. Dit geldt alleen voor ALM-apps.
 
 ## Veelgestelde vragen
 
@@ -84,10 +84,10 @@ Ja, gebruikersaanmelding is onafhankelijk van imitatie.
 
 +++Zijn imitatiegebeurtenissen uniek geteld?
 
-Ja, elke aanmeldingstoegang/elk bezoek van de beheerder tijdens de imitatie wordt apart geteld.
+Ja, elke aanmeldingstoegang/bezoek van een beheerder als nabootsing wordt afzonderlijk geteld.
 +++
 
 +++Wat is de imitatietime-out?
 
-Het is 60 minuten. Als een gebruiker die zich imiteert het browservenster sluit en binnen 60 minuten naar een prime-URL navigeert, wordt de imitatieactiviteit voortgezet en moet het bannerbericht worden weergegeven.
+Dat is 60 minuten. Als een nabootsende gebruiker het browservenster sluit en binnen 60 minuten naar een primaire URL gaat, wordt de nabootsingsactiviteit voortgezet en moet het bannerbericht worden getoond.
 +++

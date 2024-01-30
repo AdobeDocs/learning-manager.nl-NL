@@ -5,7 +5,7 @@ hidefromtoc: true
 source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
 workflow-type: tm+mt
 source-wordcount: '2052'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ## Verbeterde aanbevelingen
 
-Adobe Learning Manager heeft een nieuw en vernieuwd aanbevelingssysteem voor cursussen geïntroduceerd. Deze aanbevelingsfunctie gebruikt AI-algoritmen en gebruikersinteresses zoals Producten, Rollen en Niveaus om gepersonaliseerde contentaanbevelingen te bieden.
+Adobe Learning Manager heeft een nieuw en verbeterd aanbevelingssysteem voor cursussen geïntroduceerd. Deze aanbevelingsfunctie gebruikt AI-algoritmen en gebruikersinteresses zoals Producten, Rollen en Niveaus om gepersonaliseerde contentaanbevelingen te bieden.
 
-Zie voor meer informatie [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md).
+Zie voor meer informatie [Aanbevelingen in Adobe Learning Manager](recommendations-adobe-learning-manager.md).
 
 ## Meerdere inschrijvingen
 
-In deze versie van Adobe Learning Manager introduceren we meervoudige inschrijvingen voor studenten waarmee studenten zich in meer dan één instantie van een cursus op een of verschillende tijdsperioden kunnen inschrijven.
+In deze versie van Adobe Learning Manager introduceren we meerdere inschrijvingen voor studenten, waardoor studenten zich kunnen inschrijven voor meer dan één instantie van een cursus in één of verschillende tijdsperioden.
 
-Zie voor meer informatie [Meerdere inschrijvingen](/help/migrated/authors/feature-summary/courses.md).
+Zie [Meerdere inschrijvingen](/help/migrated/authors/feature-summary/courses.md) voor meer informatie.
 
-### Meerdere inschrijvingen in mobiele app of meeslepend
+### Meerdere inschrijvingen in de mobiele app of Immersive-omgeving
 
-Studenten kunnen zich niet in meerdere instanties inschrijven via een mobiele app/immersive. Meerdere inschrijvingen wordt niet ondersteund in mobiele apps en immersive mobile web.
+Studenten kunnen zich niet inschrijven voor meerdere instanties vanuit de mobiele app of Immersive-omgeving Meerdere inschrijvingen wordt niet ondersteund in mobiele apps en immersive mobile web.
 
 >[!NOTE]
 >
@@ -37,9 +37,9 @@ Studenten kunnen zich niet in meerdere instanties inschrijven via een mobiele ap
 
 Om badges in een meervoudig ingeschreven instantie te ondersteunen, wordt de badgeindeling gewijzigd in `userId_badgeId_COURSE_courseId_courseInstanceId`.
 
-### De speler starten in meerdere inschrijvingen in de headless modus
+### De speler starten in meerdere inschrijvingen in de headless-modus
 
-In deze release is de bibliotheek gewijzigd die wordt gebruikt voor communicatie met de headless Player.
+In deze release is de bibliotheek gewijzigd die wordt gebruikt voor communicatie met de headless-speler.
 
 Bij meervoudige inschrijving moet u de argumenten doorgeven die in een object zijn verpakt.
 
@@ -53,9 +53,9 @@ argument_object=
 
 ## Veroudering van de buitenaardse connector
 
-Deze release van Adobe Learning Manager bevat een nieuwe connector, die gebruikmaakt van het SFTP-protocol van de AWS Transfer-familie.
+Deze versie van Adobe Learning Manager bevat een nieuwe connector die gebruik maakt van het SFTP-protocol van AWS Transfer Family.
 
-Deze wijziging vervangt ook de ExaVault-connector, die niet meer beschikbaar is voor nieuwe gebruikers. U kunt elke opensource FTP-client gebruiken als vervanging voor ExaVault. Zie voor meer informatie [Overgang van Adobe FTP Manager](transition-from-ftp-manager.md).
+Deze verandering zal ook de ExaVault-connector vervangen, die niet langer beschikbaar zal zijn voor nieuwe gebruikers. U kunt elke opensource FTP-client gebruiken als vervanging voor ExaVault. Zie voor meer informatie [Overgang van Adobe FTP Manager](transition-from-ftp-manager.md).
 
 ## Herinneringen in vooruitzichten voor klassikale en virtuele sessies
 
@@ -63,45 +63,45 @@ Sessies in de lesruimte en de virtuele lesruimte die zijn gemaakt met de Adobe L
 
 ## Verbeteringen voor het toewijzen van vaardigheden aan cursussen
 
-We hebben de workflow voor vaardigheden van auteurs verbeterd. De lijst met vaardigheidssuggesties op de pagina Instellingen van de cursus bevat nu een zoekfunctie voor de typekop. Auteurs kunnen nu zoeken naar Vaardigheden door de eerste paar tekens te typen. Suggesties worden weergegeven in de vervolgkeuzelijst Vaardigheid op basis van de invoer. Dankzij deze verbetering hoeven auteurs niet door de volledige lijst te schuiven om vaardigheden aan cursussen te zoeken en toe te wijzen.
+We hebben verbeteringen aangebracht in de workflow voor het toewijzen van vaardigheden aan auteurs. De lijst met Vaardigheidssuggesties op de pagina met cursusinstellingen bevat nu een zoekmogelijkheid met typeahead. Auteurs kunnen nu naar vaardigheden zoeken door de eerste paar tekens in te typen, waarna op basis van de invoer suggesties worden weergegeven in de vervolgkeuzelijst Vaardigheden. Met deze verbetering hoeven de auteurs niet door de volledige lijst te bladeren om vaardigheden te vinden en aan cursussen toe te wijzen.
 
 ## Verbeteringen van de cursusworkflow die door de manager is goedgekeurd
 
-Door de manager goedgekeurde cursussen bieden nu de juiste foutinformatie aan zowel managers als studenten.
+Door een manager goedgekeurde cursussen bieden nu de juiste foutinformatie aan zowel managers als studenten.
 
 ![foutberichten](assets/error-messages.png)
 
-Managers kunnen nu relevante foutberichten met informatie bekijken (de inschrijvingsdeadline is bijvoorbeeld verstreken) wanneer ze een inschrijvingsverzoek voor een cursus niet kunnen goedkeuren. Studenten zien de fout en de herstelactie.
+Managers kunnen nu relevante foutberichten met informatie bekijken (bijvoorbeeld dat de inschrijvingsdeadline is verstreken) wanneer ze een inschrijvingsverzoek voor een cursus niet kunnen goedkeuren. Studenten zien de fout en de herstelactie.
 
 ## Rapport over nieuw leerplan
 
-Beheerders/aangepaste beheerders kunnen nu een lijst met alle leerplannen in het account en metagegevens exporteren, zoals status, toepasselijke gebruikersgroepen, triggerinformatie, cursussen/leerpaden die in het leerplan zijn opgenomen, en herinneringsgegevens.
+Beheerders/aanpassingsbeheerders kunnen nu een lijst exporteren van alle leerplannen in de account en metadata zoals status, toepasselijke gebruikersgroepen, triggerinformatie, cursussen/leerpaden in het leerplan en herinneringsinformatie.
 
 ## Rapport voor het bijhouden van aanstaande gearchiveerde instanties
 
-Het trainingsrapport bevat een extra kolom voor het weergeven van de deadline voor voltooiing van de instanties in de cursussen of leerpaden, zodat beheerders en auteurs weten welke instanties worden gearchiveerd en de nodige actie kunnen ondernemen.
+Het trainingsrapport bevat een extra kolom om de voltooiingstermijn van de instanties in de cursussen of leerpaden weer te geven, zodat beheerders en auteurs weten welke instanties verwijderd zullen worden en de nodige acties kunnen ondernemen.
 
 ## Verbeteringen om cursusbeoordelingen van studenten vast te leggen
 
-Een pop-up om de sterrenclassificatie voor een cursus vast te leggen, wordt weergegeven zodra de gebruiker de laatste module in de cursus heeft voltooid.
+Zodra de gebruiker de laatste module van de cursus heeft afgerond, verschijnt er een venster waarin de cursus met sterren kan worden gewaardeerd.
 
 ![beoordelingen](assets/ratings.png)
 
 ## E-mailsjablonen aanpassen
 
-E-mailsjablonen in Leermanager bevatten nu volledig bewerkbare secties die meer flexibiliteit bieden om e-mailcommunicatie aan te passen op basis van voorkeuren voor berichten en branding.
+E-mailsjablonen in Learning Manager bevatten nu volledig bewerkbare secties, wat meer flexibiliteit biedt om e-mailcommunicatie aan te passen op basis van voorkeuren voor berichten en huisstijl.
 
-Zie voor meer informatie [E-mailsjabloon aanpassen](/help/migrated/administrators/feature-summary/email-templates.md#flexibility-in-customizing-the-templates).
+Zie [E-mailsjabloon aanpassen](/help/migrated/administrators/feature-summary/email-templates.md#flexibility-in-customizing-the-templates) voor meer informatie.
 
 ## Verbeteringen voor het plannen van de assistent
 
 Verfijn het proces waarbij u een docent selecteert voor klassikale of virtuele sessies. Er is een filter Gebruikersgroep toegevoegd aan het veld Docent in de Planningsassistent. Auteurs kunnen nu filteren op docenten op basis van &#39;Vaardigheden van docenten&#39; en op aanvullende parameters zoals locatie, taal, aanduiding, enzovoort.
 
-Zie voor meer informatie [Filter Gebruikersgroep in Planningsassistent](/help/migrated/authors/feature-summary/courses.md#user-group-filter).
+Zie [Filter Gebruikersgroep in Planningsassistent](/help/migrated/authors/feature-summary/courses.md#user-group-filter) voor meer informatie.
 
 ## Verbeteringen aan de workflow voor het archiveren van leerobjecten
 
-Auteurs kunnen nu een **Auto Reband** datum voor een cursus. Zo voorkomt u dat de catalogus in de loop der tijd opraakt en dat de cursussen handmatig moeten worden gearchiveerd.
+Auteurs kunnen nu een datum instellen voor **Automatisch archiveren** van een cursus. Dit voorkomt catalogusinflatie na verloop van tijd en het is niet langer nodig om terug te gaan en de cursussen handmatig te verwijderen.
 
 Beheerders kunnen ook op accountniveau bepalen wat de toegang is tot gearchiveerde leerobjecten.
 
@@ -109,25 +109,25 @@ Het trainingsrapport bevat een nieuwe kolom, **Datum van automatische aflossing*
 
 ## Cataloguslabelwaarden door auteurs
 
-Auteurs kunnen nu hun waarden voor cataloguslabels toevoegen tijdens het maken of bewerken van een cursus. Beheerders kunnen deze functie op accountniveau inschakelen. Nadat een auteur een nieuwe cataloguslabelwaarde heeft toegevoegd, wordt deze onderdeel van de zoekopdracht naar de typekop.
+Auteurs kunnen nu hun waarden voor cataloguslabels toevoegen tijdens het maken of bewerken van een cursus. Beheerders kunnen deze functie op accountniveau inschakelen. Nadat een auteur een nieuwe waarde voor een cataloguslabel heeft toegevoegd, wordt deze onderdeel van het zoeken met typeahead.
 
 ![catalogus selecteren](assets/select-catalog.png)
 
 ## Verbeteringen voor het zoeken naar beheerdersrollen, auteur- en managerrollen
 
-Er zijn zoekverbeteringen doorgevoerd voor de beheerdersrollen, auteur- en managerrollen. Ze kunnen nu met trefwoorden zoeken naar de titels. Dit geldt voor cursussen, leerpaden en certificeringen.
+Er zijn zoekverbeteringen doorgevoerd voor de rollen beheerder, auteur en manager. Deze kunnen nu met trefwoorden zoeken naar de titels. Dit geldt voor cursussen, leerpaden en certificeringen.
 
 ## Meldingen voor migratiefouten
 
-Integratiebeheerders worden via e-mail op de hoogte gesteld als een import- of exportbewerking mislukt tijdens de migratie of tijdens het gebruik van dataconnectoren zoals PowerBI, FTP, Box, enz.
+Integratiebeheerders worden via e-mail op de hoogte gebracht als import- of exportbewerkingen mislukken tijdens de migratie of bij het gebruik van gegevensconnectoren zoals PowerBI, FTP, Box, enz.
 
 ## Configuratie met meerdere managers via API&#39;s
 
-Er is een nieuwe API toegevoegd aan de set met API&#39;s voor beheerde kantoren ter ondersteuning van de configuratie voor meerdere managers.
+Er is een nieuwe API toegevoegd aan de set met API&#39;s voor beheerde kantoren om de configuratie van meerdere beheerders te ondersteunen.
 
 ## Verbeteringen in de API voor aanmelding
 
-De API voor inschrijving is verbeterd en biedt nu ondersteuning voor grootschalige inschrijvingen en optimaliseert deze.
+De API voor inschrijving is verbeterd om grootschalige bulkinschrijvingen te ondersteunen en te optimaliseren.
 
 ## Mobiele app - Offline content weergeven
 
@@ -148,15 +148,15 @@ Met de volgende grote release ondersteunt de mobiele app van Adobe Learning Mana
 LinkedIn-inhoud wordt niet zoals verwacht geladen in de Immersive-app in de Safari-browser. Voer als tijdelijke oplossing de volgende handelingen uit:
 
 1. Selecteer op het apparaat **[!UICONTROL Instellingen]** > **[!UICONTROL Safari]**.
-1. Uitschakelen **Volgen tussen sites voorkomen**.
-1. Uitschakelen **Alle cookies blokkeren**.
+1. Schakel **Voorkom volgen door gekoppelde sites** uit.
+1. Schakel **Alle cookies blokkeren** uit.
 1. Meld u aan bij de Immersive-app.
 1. Speel de inhoud af.
 1. Laat pop-ups toe.
 
-## Andere verbeteringen
+## Verdere verbeteringen
 
-### Overschakelen op instanties in MS Teams
+### Schakelen tussen instanties in MS Teams
 
 Een student kan overschakelen op een andere cursusinstantie totdat deze is voltooid en de voortgang van de cursus behouden.
 
@@ -164,19 +164,19 @@ Een student kan overschakelen op een andere cursusinstantie totdat deze is volto
 
 Een student kan zich in een andere cursusinstantie inschrijven, ongeacht de voltooiingsstatus bij eerdere instanties. De student wordt dan in meerdere instanties van dezelfde cursus ingeschreven.
 
-### Cursusnotities bieden ondersteuning voor meervoudige inschrijving in MS-teams
+### Cursusnotities bieden ondersteuning voor meerdere inschrijvingen in MS Teams
 
-Cursusnotities zijn beschikbaar op cursusinstantieniveau ter ondersteuning van meervoudige inschrijving.
+Cursusnotities zijn beschikbaar op cursusinstantieniveau ter ondersteuning van meerdere inschrijvingen.
 
 ## API-wijzigingen
 
-Voor meer informatie over de API-wijzigingen raadpleegt u de [Adobe Leermanager-API-referentie](https://captivateprime.adobe.com/docs/primeapi/v2/).
+Zie de [Adobe Learning Manager API-referentie](https://captivateprime.adobe.com/docs/primeapi/v2/) voor meer informatie over de API-wijzigingen.
 
 ### API-ondersteuning voor nieuwe aanbevelingen
 
 **GET /account**
 
-Retourneert of prlRecommendation is ingeschakeld.
+Wordt geretourneerd als prlRecommendation is ingeschakeld.
 
 **Verzoek**
 
@@ -184,7 +184,7 @@ Retourneert of prlRecommendation is ingeschakeld.
 
 **GET /data?filter.aanbevelingCriteria=product**
 
-Retourneert een lijst met producten/onderwerpen. De resultaten zijn afhankelijk van accountinstellingen die bevestigen of alle producten zichtbaar zijn voor de student of voor de producten/onderwerpen in de catalogus.
+Resulteert in een lijst met producten/onderwerpen. De resultaten zijn afhankelijk van accountinstellingen die bevestigen of alle producten zichtbaar zijn voor de student of voor de producten/onderwerpen in de catalogus.
 
 **Verzoek**
 
@@ -192,7 +192,7 @@ Retourneert een lijst met producten/onderwerpen. De resultaten zijn afhankelijk 
 
 **`GET /data?filter.recommendationCriteria=role`**
 
-Hiermee wordt de lijst met aanbevolen rollen geretourneerd.
+Resulteert in een lijst met aanbevolen rollen.
 
 **Verzoek**
 
@@ -200,7 +200,7 @@ Hiermee wordt de lijst met aanbevolen rollen geretourneerd.
 
 **`GET /data?filter.recommendationCriteria=level`**
 
-Hiermee wordt de lijst met aanbevolen rollen geretourneerd.
+Resulteert in een lijst met aanbevolen rollen.
 
 **Verzoek**
 
@@ -208,7 +208,7 @@ Hiermee wordt de lijst met aanbevolen rollen geretourneerd.
 
 **POST/zoekopdracht/query**
 
-Het onderzoek omvat ook producten en rolparameters in vraag. Er is geen verandering in vraag en lichaam. We voegen nieuwe sorteeropties toe
+De zoekopdracht bevat ook producten en rolparameters in de query. Er query en body bevatten geen veranderingen. We voegen nieuwe sorteeropties toe
 
 **Verzoek**
 
@@ -216,13 +216,13 @@ Het onderzoek omvat ook producten en rolparameters in vraag. Er is geen verander
 
 **GET /learningObjects**
 
-Het model van het leerobject retourneert door de auteur gecodeerde aanbevelingen als de PRL-aanbeveling live is.
+Het leerobjectmodel geeft aanbevelingen met een auteurstag als de PRL-aanbeveling live is.
 
 **URL aanvragen**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects?sort=recommendationScore&filter.recommendationProducts=...&filter.recommendationRoles=...&filter.excludeIgnoredRecommendations=true`
 
-POST/learningObjects/query
+POST /learningObjects/query
 
 De volgende attributen worden gesteund in het lichaam van vraagvraag:
 
@@ -302,15 +302,15 @@ De volgende attributen worden gesteund in het lichaam van vraagvraag:
 
 **GET /aanbevelingProducts**
 
-Hiermee wordt het PRL-product opgehaald op aanbevelingProduct ID.
+Hiermee wordt het PRL-product opgehaald op aanbevolen product-ID.
 
 **URL aanvragen**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationProducts`
 
-GET /aanbevelingRoles
+GET /recommendationRoles
 
-Hiermee wordt het PRL-product opgehaald op aanbevelingProduct ID. Alleen zichtbare rollen van (leerobjecten) worden geretourneerd.
+Hiermee wordt het PRL-product opgehaald op aanbevolen product-ID. Resulteert alleen in zichtbare rollen (van leerobjecten).
 
 **URL aanvragen**
 
@@ -318,7 +318,7 @@ Hiermee wordt het PRL-product opgehaald op aanbevelingProduct ID. Alleen zichtba
 
 `POST /users/{id}/recommendationPreferences`
 
-Hiermee maakt u voorkeuren voor PRL-aanbevelingen (overschrijven) en maakt u deze opnieuw. Voorbeeld van lading:
+Hiermee kunt u voorkeuren voor PRL-aanbevelingen maken of opnieuw maken (overschrijven). Voorbeeld lading:
 
 ```javascript {line-numbers="true"}
 {
@@ -374,19 +374,19 @@ Hiermee maakt u voorkeuren voor PRL-aanbevelingen (overschrijven) en maakt u dez
 
 **`DELETE /users/{id}/recommendationPreferences`**
 
-Verwijdert de voorkeuren van de PRL-aanbevelingen voor gebruikers van een product of rol.
+Hiermee verwijdert u de voorkeuren van de PRL-aanbevelingen voor een product of rol.
 
 **URL aanvragen**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/users/123/recommendationPreferences?ids=recommendationRole:123,recommendationRole:234`
 
-Params:
+Parameters:
 
 Id&#39;s = lijst met id&#39;s die moeten worden verwijderd
 
 **PATCH /gebruikers/{id}/aanbevelingPreferences**
 
-Gedeeltelijke toevoeging/upgrade. Voorbeeld van lading:
+Gedeeltelijke aanvulling/update. Voorbeeld lading:
 
 ```javascript {line-numbers="true"}
 {
@@ -437,40 +437,40 @@ Verwijdert LO uit geblokkeerde aanbevelingen.
 
 **`GET /users/{id}/recommendationStrips`**
 
-Hiermee worden alle strips opgehaald die moeten worden gebruikt om aanbevelingen voor prl weer te geven
+Hiermee worden alle strips opgehaald die moeten worden gebruikt om aanbevelingen voor PRL weer te geven
 
 ### Ondersteuning voor meerdere inschrijvingen voor API
 
 **GET /primeapi/v2/account**
 
-Er worden twee nieuwe kenmerken toegevoegd:
+Er worden twee nieuwe attributen toegevoegd:
 
 * instanceSwitchEnabled
 * multiEnrollmentEnabled
 
 **GET /gebruikers/{userId}/userNotifications**
 
-Id van cursusinstantie toegevoegd in meldingen in het nieuwe metagegevenskenmerk.
+Id van cursusinstantie toegevoegd in meldingen in het nieuwe metadata-attribuut.
 
 **GET /learningObjects**
 
-De inschrijvingsrelatie geeft alleen de primaire inschrijving weer, dus eerst ingeschreven of voor het eerst voltooid.
+De inschrijvingsrelatie geeft alleen de primaire inschrijving weer, d.w.z. als eerste ingeschreven of als eerste voltooid.
 
 **`GET /learningObjects/{id}`**
 
-De inschrijvingsrelatie geeft alleen de primaire inschrijving weer, dus eerst ingeschreven of voor het eerst voltooid.
+De inschrijvingsrelatie geeft alleen de primaire inschrijving weer, d.w.z. als eerste ingeschreven of als eerste voltooid.
 
 **`GET /learningObjects/{loId}/instances/{loInstanceId}`**
 
-Er wordt een nieuwe relatie toegevoegd aan het LO-instantiemodel.
+Er is een nieuwe relatie toegevoegd aan het LO-instantiemodel.
 
 **`GET /enrollments/{id}`**
 
-Inschrijving van cursussen met meerdere personen ophalen.
+Inschrijving van cursussen met meerdere inschrijvingen ophalen.
 
 **`DELETE /enrollments/{id}`**
 
-Uitschrijvingen van een bepaalde leerobjectinstantie.
+Meldt zich af van een bepaalde instantie van een leerobject.
 
 **POST/inschrijvingen**
 
@@ -478,7 +478,7 @@ Ondersteunt inschrijving in verschillende instanties.
 
 **GET/inschrijvingen**
 
-Hiermee worden alleen inschrijvingen voor primaire inschrijvingen voor het leerobject opgehaald.
+Hiermee worden alleen primaire inschrijvingen voor het leerobject opgehaald.
 
 **`GET /learningObjects/{id}/note`**
 
@@ -494,49 +494,49 @@ Hiermee wordt een lijst met notities voor een bron in een cursus opgehaald.
 
 **`POST /learningObjects/{id}/resources/{loResourceId}/note`**
 
-Voegt een opmerking toe in een module voor een cursus voor een bepaalde cursus.
+Hiermee wordt een notitie toegevoegd aan een module van een bepaalde cursus.
 
 **`DELETE /learningObjects/{id}/resources/{loResourceId}/note/{noteId}`**
 
-Verwijdert specifieke notities uit een bepaalde module tegen een specifieke instantie (onderdeel van loResource-id).
+Hiermee worden specifieke notities uit een bepaalde module verwijderd op basis van een specifieke instantie (onderdeel van loResource Id).
 
 **`GET /learningObjects/{id}/resources/{loResourceId}/note/{noteId}`**
 
-Hiermee wordt een specifieke opmerking in een module voor een bepaalde instantie (onderdeel van loResourceId) in een cursus opgehaald.
+Hiermee wordt een specifieke notitie in een cursusmodule van een bepaalde instantie (onderdeel van loResourceId) opgehaald.
 
 **`PATCH /learningObjects/{id}/resources/{loResourceId}/note/{noteId}`**
 
-Werkt specifieke notities van een bepaalde module bij voor een specifieke instantie (onderdeel van loResource-id).
+Hiermee worden specifieke notities van een bepaalde module bijgewerkt op basis van een specifieke instantie (onderdeel van loResource Id).
 
 **Wijzigingen in Admin API**
 
-* GET /gebruikers/{id}/enrollments
+* GET /users/{id}/enrollments
 * POST /gebruikers/{id}/enrollments
 * DELETE /gebruikers/{id}/enrollments/{enrollmentId}
-* PATCH /gebruikers/{id}/enrollments/{enrollmentId}
+* PATCH /users/{id}/enrollments/{enrollmentId}
 
 ### Afgedwongen velden voor eindpunten
 
-Producten en rollen worden alleen geladen wanneer deze worden afgedwongen.
+Producten en rollen worden alleen geladen wanneer ze worden afgedwongen.
 
-Voorbeeldaanvraag
+Voorbeeldverzoek
 
 * GET `https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects/course%3A7418798?enforcedFields[learningObject]=products`
 * GET `https://learningmanagerstage1.adobe.com/primeapi/v2/users/11255638/userBadges?include=model&page[offset]=0&page[limit]=10&sort=dateAchieved&enforcedFields[learningObject]=products,roles`
 
 ### Zoeken in API-wijzigingen stamimplementatie (landinstelling Engels)
 
-Stemming is het proces waarbij een woord tot de basisvorm wordt verkleind. Dit zorgt ervoor dat er varianten van een woordovereenkomst voorkomen tijdens een zoekopdracht. Zo kunnen lopen en lopen worden gekoppeld aan hetzelfde hoofdwoord: lopen. Als een woord eenmaal is tegengehouden, komt het voorkomen van een woord overeen met het andere woord in een zoekopdracht.
+Stemming is het proces waarbij een woord tot de basisvorm wordt verkleind. Dit zorgt ervoor dat varianten van een woord overeenkomen tijdens een zoekopdracht. Zo kunnen lopen en lopen worden gekoppeld aan hetzelfde hoofdwoord: lopen. Als een woord eenmaal is tegengehouden, komt het voorkomen van een woord overeen met het andere woord in een zoekopdracht.
 
 In deze release hebben we stamstamversies toegevoegd voor Engelse landinstellingen, die de volgende varianten omvatten: en_US, en_AU, en_GB.
 
-Het kenmerk stemmed geeft aan of stammen vereist is in zoekresultaten. Dit is standaard ingesteld op Onwaar
+Het stamvormattribuut geeft aan of stamvorming is vereist in zoekresultaten. Dit is standaard ingesteld op Onwaar
 
 ### Verwijderen van V1-eindpunten
 
-V1-API&#39;s werken niet meer in deze release. Zie de klasse [Handleiding voor ontwikkelaars](/help/migrated/integration-admin/feature-summary/developer-manual.md).
+V1-API&#39;s werken niet meer in deze versie. Zie de [Handleiding voor ontwikkelaars](/help/migrated/integration-admin/feature-summary/developer-manual.md) voor meer informatie.
 
-### Meldingen voor inschrijving of uitschrijving van een cursus
+### Kennisgevingen voor het in- of uitschrijven bij een cursus
 
 Deze release introduceert ondersteuning voor cursusinstantie-id met meldingen in het nieuwe metagegevenskenmerk.
 
@@ -554,10 +554,10 @@ Bijvoorbeeld:
 
 `enforcedFields[learningObject]=prerequisiteLOs,instances`
 
-### Kennisgeving van veroudering voor de volgende release
+### Afschaffingsbericht voor de volgende versie
 
-* Markering voor student-API&#39;s overschrijven.
-* We wijzigen de standaardinstelling voor highlightResults=false. Bovendien wijzigen we de standaardinstelling van snippetType=courseName.
+* Markering voor overschrijven van student-API&#39;s.
+* We wijzigen de standaardwaarde voor highlightResults=false. Bovendien wijzigen we de standaardinstelling van snippetType=courseName.
 * We vervangen matchType=bool in het zoekeindpunt.
 * autoCompleteMode heeft de [Vervangen] tag en om dezelfde functionaliteit van autoCompleteMode =false te bieden, hebben we een matchType toegevoegd, genaamd Match.
 
@@ -565,7 +565,7 @@ Bijvoorbeeld:
 
 Ter ondersteuning van meervoudige inschrijvingsbadges wijzigen we de indeling van cursusbadges van `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` om badges op unieke wijze te identificeren.
 
-## Opmerkingen bij de release
+## Aanvullende informatie
 
 Voor informatie over de huidige en vorige releases van de webapp en de apparaatapp van Learning Manager raadpleegt u de [Opmerkingen bij de release](/help/migrated/release-note/release-notes.md).
 
@@ -573,7 +573,7 @@ Voor informatie over de huidige en vorige releases van de webapp en de apparaata
 
 Hieronder volgen de beperkingen van deze versie:
 
-### Offlineinhoud weergeven in de mobiele app
+### Offline inhoud weergeven in de mobiele app
 
 De volgende toepassingen worden niet ondersteund tijdens het weergeven van offline inhoud in de app:
 
@@ -587,13 +587,13 @@ De volgende toepassingen worden niet ondersteund tijdens het weergeven van offli
 * Externe certificaten.
 * Voor e-commerce geschikte cursussen, leerplannen of certificeringen.
 
-De volgende leerpaden, cursussen of certificeringen hebben een aantal problemen met offline synchronisatie:
+Er zijn een aantal problemen met offline synchronisatie voor de volgende leerpaden, cursussen of certificeringen:
 
 * Alle leerpaden.
 * Alle interne certificaten.
-* Inhoud met aanroepen van POSTEN.
+* Inhoud met POST-aanroepen.
 
-### Recommendations
+### Aanbevelingen
 
 Het volgende wordt niet ondersteund voor Product/Rol/Niveau in het nieuwe aanbevelingssysteem:
 
@@ -601,10 +601,10 @@ Het volgende wordt niet ondersteund voor Product/Rol/Niveau in het nieuwe aanbev
 * De mobiele app biedt geen ondersteuning voor het bewerken van producten en rollen op de pagina Aanbevelingen.
 * De toewijzing is niet mogelijk tijdens de migratie.
 * LinkedIn, Content Marketplace en andere externe cursussen, leerplannen of certificeringen automatisch taggen.
-* Terugkeren naar op vaardigheid gebaseerd of Klassiek nadat je live bent gegaan.
+* Terugkeren naar op vaardigheid gebaseerd of Klassiek nadat u live bent gegaan.
 * Het zoekmenu voor Producten en rollen in de Learner-app.
 * Bulktoewijzing van cursussen, leerplannen of certificeringen en gebruikers in de Admin-app.
 
 ## Systeemvereisten
 
-[Systeemvereisten voor Learning Manager](/help/migrated/system-requirements.md)
+[Learning Manager-systeemvereisten](/help/migrated/system-requirements.md)

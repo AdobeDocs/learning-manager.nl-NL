@@ -7,7 +7,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '46'
-ht-degree: 0%
+ht-degree: 91%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/manager2.png"></td> 
-   <td><p>Lees verder voor meer informatie over de functies van de Learning Manager en veelgestelde vragen over de managerrol. </p></td> 
+   <td><p>Lees verder voor meer informatie over de kenmerken van en veelgestelde vragen voor de managersrol in Learning Manager. </p></td> 
   </tr> 
  </tbody>
 </table>
 
 ## Veelgestelde vragen {#frequentlyaskedquestionsfaq}
 
-[Veelgestelde vragen over de managerrol](managers/frequently-asked-questions-for-managers.md)
+[Veelgestelde vragen over de managersrol](managers/frequently-asked-questions-for-managers.md)
 
-## Functies {#features}
+## Kenmerken {#features}
 
 * [Aan de slag](managers/feature-summary/learning-objects.md#main-pars_header)
 * [Gebruikers van iPad- en Android-tablets](managers/feature-summary/ipad-android-tablet-users.md)

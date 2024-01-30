@@ -1,5 +1,5 @@
 ---
-description: Lees dit artikel voor meer informatie over het insluiten van de Fluidic Player in een aangepaste toepassing.
+description: Lees dit artikel voor meer informatie over het integreren van de Fluidic Player in een aangepaste toepassing.
 jcr-language: en_us
 title: Insluitbare Fluidic Player
 contentowner: dvenkate
@@ -7,7 +7,7 @@ preview: true
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '1626'
-ht-degree: 0%
+ht-degree: 25%
 
 ---
 
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 # Insluitbare Fluidic Player
 
-Lees dit artikel voor meer informatie over het insluiten van de Fluidic Player in een aangepaste toepassing.
+Lees dit artikel voor meer informatie over het integreren van de Fluidic Player in een aangepaste toepassing.
 
-Als onderneming kunt u uw studenten nu een aangepaste ervaring bieden, zelfs buiten de Learning Manager. Met behulp van de openbare API kunt u alle informatie over leerobjecten, inschrijvingen van studenten en leervoortgang ophalen en op uw website weergeven. Nog belangrijker is dat u zelfs de Fluidic Player of Learning Manager op uw website kunt insluiten, zodat de student de inhoud direct binnen uw website kan volgen. Met de Fluidic Player kunt u alle inhoud afspelen die door Learning Manager wordt ondersteund. Als de website is ingesloten op uw eigen website, heeft deze precies dezelfde mogelijkheden als wanneer deze wordt gebruikt in Leerbeheer.
+Als onderneming kunt u nu een aangepaste ervaring bieden aan uw leerlingen, zelfs buiten Learning Manager om. Met behulp van de openbare API kunt u alle informatie over leerobjecten, inschrijvingen van studenten en leervoortgang ophalen en op uw website weergeven. U kunt zelfs de Fluidic Player van Learning Manager in uw website integreren, zodat de student de inhoud direct binnen uw eigen website kan gebruiken. Met de Fluidic Player kunt u elk inhoudstype afspelen dat ondersteund wordt door Learning Manager. Als de website is ingesloten op uw eigen website, heeft deze precies dezelfde mogelijkheden als wanneer deze wordt gebruikt in Leerbeheer.
 
 **Alle eLearning-inhoud afspelen[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
-De Fluidic Player speelt vrijwel elk type eLearning-content op dezelfde consistente en intuïtieve manier af zonder dat er plug-ins of downloads nodig zijn. De student kan de inhoud starten en ongeacht het type inhoudsbestand wordt het afspelen gestart.
+De Fluidic Player speelt vrijwel elk type eLearning-inhoud op dezelfde consistente en intuïtieve manier af zonder dat er plugins of downloads nodig zijn. De student kan de inhoud starten en deze wordt ongeacht het type inhoudsbestand afgespeeld.
 
-**Notities en bladwijzers**
+**Opmerkingen en bladwijzers**
 
-U kunt notities maken en elke inhoud, ongeacht het bestandstype, als bladwijzer weergeven. Als u een bepaalde selectie wilt maken uit een lang bestand of video, kunt u een bladwijzer maken van precies de punten waar u de informatie hebt gevonden die relevant is voor uw behoeften. De opmerkingen en bladwijzers kunnen worden doorzocht of als e-mail worden verzonden. Als u erop klikt, plaatst u de Fluidic Player precies op het punt van de video of op de pagina van het document.
+U kunt opmerkingen maken en bij elke inhoud, ongeacht het bestandstype, bladwijzers gebruiken. Als u een bepaalde selectie wilt maken uit een lang bestand of video, kunt u een bladwijzer maken van precies de punten waar u de informatie hebt gevonden die relevant is voor uw behoeften. De opmerkingen en bladwijzers kunnen worden doorzocht of als e-mail worden verzonden. Door erop te klikken opent de Fluidic Player precies op het punt van de video of op de pagina van het document waar u de bladwijzer geplaatst hebt.
 
 Zie voor meer informatie over Fluidic Player [Fluidic Player](../../learners/feature-summary/fluidic-player.md).
 
@@ -33,30 +33,30 @@ Hier volgen enkele voorbeelden van het gebruik van de insluitbare Fluidic Player
 
 * U kunt de insluitbare Fluidic Player op uw** **website gebruiken om een overzicht te geven van de cursussen waarvoor uw medewerker is ingeschreven en om een koppeling te verschaffen om een training op dezelfde pagina te starten. Dit zou betekenen dat uw studenten trainingen op uw intranetwebsite kunnen volgen.
 
-* Als u in de trainingssector werkt, hebt u wellicht een website waar uw klanten cursussen aanschaffen. U kunt de insluitbare speler met dezelfde website integreren, zodat uw klanten de inhoud die ze kopen, binnen uw website kunnen gebruiken.
+* Als u in de opleidingssector werkt, hebt u misschien een website waar uw klanten cursussen aanschaffen. U kunt de insluitbare speler met dezelfde website integreren, zodat uw klanten de inhoud die ze kopen, binnen uw website kunnen gebruiken.
 
-## Stappen om Fluidic Player in uw website in te sluiten {#stepstoembedfluidicplayerinyourwebsite}
+## Stappen om een Fluidic Player in uw website te integreren {#stepstoembedfluidicplayerinyourwebsite}
 
-Het maken van een aangepaste toepassing voor het insluiten van Fluidic Player in uw website omvat drie basisstappen:
+Voor het bouwen van een aangepaste toepassing voor het insluiten van Fluidic Player in uw website moeten drie basisstappen worden gevolgd:
 
-1. Maak een toepassing in de integratiebeheerder-app van Learning Manager.
-1. Haal het toegangstoken op.
+1. Maak een toepassing aan in de integratiebeheerder-app van Learning Manager.
+1. Haal een toegangstoken op.
 1. Gebruik een toegangstoken om leermiddelen van Leermanager op te halen met behulp van een openbare API.
 
-### 1. Maak een toepassing in de integratiebeheerder {#1createanapplicationinintegrationadmin}
+### 1. Maak een toepassing aan in integratiebeheerder {#1createanapplicationinintegrationadmin}
 
-Deze stap is vereist om een toepassings-/client-id en toepassings-/clientgeheim te maken die worden gebruikt om het vernieuwingstoken en het toegangstoken op te halen. Ga voor meer informatie over het maken van een toepassing naar  [Ontwikkeling van toepassingen.](developer-manual.md#main-pars_header_994876235)
+Deze stap is nodig om een toepassings-/client-ID en toepassings-/clientgeheim aan te maken die gebruikt wordt om een vernieuwingstoken en een toegangstoken op te halen. Ga voor meer informatie over het maken van een toepassing naar  [Ontwikkeling van toepassingen.](developer-manual.md#main-pars_header_994876235)
 
-1. Ga naar **[!UICONTROL IntegrationAdmin]** app en openen **[!UICONTROL Toepassingen]**.
+1. Ga naar de **[!UICONTROL IntegrationAdmin]**-app en open **[!UICONTROL Toepassingen]**.
 
-1. Selecteren **[!UICONTROL Registreren]** rechtsboven op de pagina.
-1. De **[!UICONTROL Een nieuwe toepassing registreren]** wordt geopend. Vul de vereiste velden in.
+1. Selecteer **[!UICONTROL Registreren]** in de rechterbovenhoek van de pagina.
+1. Het venster **[!UICONTROL Registreer een nieuwe toepassing]** wordt geopend. Vul de verplichte velden in.
 1. Als een aangepaste toepassing moet worden gedeeld door meerdere accounts, selecteert u **[!UICONTROL Nee]** in het optieveld  **[!UICONTROL Alleen voor dit account?]**
-1. Klik op **[!UICONTROL Opslaan]**.
+1. Klik op **[!UICONTROL Opslaan]** om de toepassing op te slaan en uw toepassings-ID en -geheim te genereren.
 
 ### 2. Toegangstoken ophalen {#2retrievingaccesstoken}
 
-Aangezien de Leermanager OAUTH2.0. gebruikt, is het toegangstoken vereist om middelen terug te winnen gebruikend openbare API. Het toegangstoken kan worden opgehaald met een vernieuwingstoken, client-id of clientgeheim.
+Aangezien de Leermanager OAUTH2.0. gebruikt, is het toegangstoken vereist om middelen terug te winnen gebruikend openbare API. Het toegangstoken kan worden opgehaald met behulp van een vernieuwingstoken, een client-ID of een clientgeheim.
 
 **2.1 Vernieuwingstoken**
 
@@ -89,7 +89,7 @@ Zodra OAuth code wordt ontvangen, kan het vernieuwingstoken worden teruggewonnen
 
 **https://learningmanager.adobe.com/oauth/token**
 
-Als antwoord op uw postverzoek ontvangt u het volgende:
+Als antwoord op uw postaanvraag ontvangt u het volgende:
 
 i. refresh_token\
 ii. access_token\
@@ -104,7 +104,7 @@ Om uw toegangstoken op te halen, stuurt u een ander verzoek met uw refresh_token
 
 **https://learningmanager.adobe.com/oauth/token/refresh**
 
-Als antwoord op uw postverzoek ontvangt u het volgende:\
+Als antwoord op uw postaanvraag ontvangt u het volgende:\
 i. refresh_token\
 ii. access_token\
 iii. user_id\
@@ -112,23 +112,23 @@ iv. verloopt_in\
 v. user_role\
 vi. account_id
 
-### 3. Bronnen ophalen met behulp van openbare API {#3retrieveresourcesusingpublicapi}
+### 3. Ophalen van leermiddelen met behulp van openbare API {#3retrieveresourcesusingpublicapi}
 
 Als derde stap moet u het toegangstoken gebruiken om leermiddelen op te halen uit Leermanager met behulp van openbare API.  Toegangstoken is vereist om een openbare API-aanroep te maken en moet worden toegevoegd aan de koptekst, zoals wordt geïllustreerd in de voorbeeldtoepassing.
 
 ## Insluitbare speler {#embeddableplayer}
 
-Toepassingen van derden kunnen gebruikmaken van een insluitbare speler om de inhoud van een leerobject af te spelen.
+Toepassingen van derden kunnen gebruikmaken van een geïntegreerde speler om de inhoud van een leerobject af te spelen.
 
-**Een cursus openen in een insluitbare speler**
+**Open een cursus in de insluitbare speler**
 
-1. Een insluitbare URL maken
+1. Maak een insluitbare URL aan
 
    Als u een cursus wilt openen met een insluitbare speler, moet u een insluitbare URL maken, zoals hieronder wordt weergegeven:
 
    `https://learningmanager.adobe.com/app/player?lo_id=<v2-api course id>&access_token=<access_token>`
 
-   Hier moet lo_id voldoen aan de V2 API cursus-id-indeling.
+   Hier moet lo_id voldoen aan het V2 API cursus-id-formaat.
 
    Voorbeeld: `https://learningmanager.adobe.com/app/player?lo_id=course:123456&access_token=45b269b75ac65d6696d53617f512450f`
 
@@ -152,7 +152,7 @@ code window.addEventListener("message", function closePlayer(){
 });
 ```
 
-## Zelfstudie over voorbeeldtoepassingen {#sampleapplicationtutorial}
+## Tutorial voor voorbeeldtoepassing {#sampleapplicationtutorial}
 
 Het bijgevoegde pdf-document bevat een voorbeeldtoepassingszelfstudie.
 [Voorbeeldzelfstudie en tutorialbron voor het insluiten van Fluidic Player.](assets/sample-applicationtutorial.zip) Alternatieve inhoud

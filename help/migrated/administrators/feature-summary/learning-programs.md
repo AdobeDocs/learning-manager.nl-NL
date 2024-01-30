@@ -1,5 +1,5 @@
 ---
-description: Lees dit artikel voor meer informatie over het maken en beheren van leerprogramma's in Learning Manager
+description: Lees dit artikel om te weten te komen hoe u leerprogramma's kunt maken en beheren in Learning Manager
 jcr-language: en_us
 title: Leerprogramma's
 contentowner: manochan
@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1471'
-ht-degree: 0%
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Leerprogramma&#39;s
 
-Lees dit artikel voor meer informatie over het maken en beheren van leerprogramma&#39;s in Learning Manager
+Lees dit artikel om te weten te komen hoe u leerprogramma&#39;s kunt maken en beheren in Learning Manager
 
 Leerprogramma&#39;s zijn een reeks uniek ontworpen cursussen die voldoen aan specifieke leerdoelen. Beheerders maken deze leerprogramma&#39;s voor studenten. U kunt deze leerprogramma&#39;s als student bekijken.
 
@@ -23,51 +23,51 @@ Leerprogramma&#39;s zijn een reeks uniek ontworpen cursussen die voldoen aan spe
 
 Beheerders kunnen leerprogramma&#39;s maken. Volg de onderstaande stappen om een leerprogramma te maken:
 
-1. Meld u aan als beheerder. Klikken **[!UICONTROL Leerprogramma]** in het linkerdeelvenster. De pagina Leerprogramma&#39;s verschijnt met een lijst van bestaande leerprogramma&#39;s als deze al voor uw organisatie zijn gemaakt.
-1. Klik op Toevoegen rechtsboven op de pagina. De pagina Nieuw leerprogramma toevoegen verschijnt.
+1. Meld u aan als beheerder. Klik op **[!UICONTROL Leerprogramma]** in het linkerdeelvenster. De pagina Leerprogramma&#39;s verschijnt met een lijst van bestaande leerprogramma&#39;s, indien deze al voor uw organisatie zijn gemaakt.
+1. Klik op Toevoegen rechtsboven op de pagina. De pagina Nieuwe leerprogramma&#39;s toevoegen verschijnt.
 1. Voer de naam en het overzicht van het leerprogramma in en voer de voordelen van het programma in.
-1. Klik op Nieuwe taal toevoegen boven aan de pagina om de leerprogramma&#39;s in andere landinstellingen te maken. Selecteer de talen die u nodig hebt en klik op Toevoegen. U moet mogelijk alle metagegevens van het leerprogramma in alle gekozen talen toevoegen. Anders wordt de Engelse informatie weergegeven voor andere landinstellingen.
-1. Voer een uniek leerobject-ID in voor uw leerprogramma. De unieke id mag alleen alfabeten en getallen en geen speciale tekens bevatten. Twee leerobjecten mogen niet dezelfde ID hebben.
-1. Kies het inschrijvingstype als inschrijver of zelfinschrijving, afhankelijk van uw keuze. Selecteer de uitschrijvingsoptie en de opties voor de volgorde van de cursus en klik op Opslaan. Als u zelf inschrijft, kunnen de studenten zich inschrijven voor het leerprogramma.
+1. Klik op Nieuwe taal toevoegen bovenaan de pagina om de leerprogramma&#39;s met andere landinstellingen te maken. Selecteer de talen die u wenst en klik op Toevoegen. Het kan nodig zijn om alle metadata van het leerprogramma in alle gekozen talen toe te voegen. Anders wordt de Engelse informatie bij andere landinstellingen weergegeven.
+1. Voer een uniek leerobject-ID in voor uw leerprogramma. De unieke id mag alleen alfabeten en getallen en geen speciale tekens bevatten. Twee verschillende leerobjecten mogen niet hetzelfde ID hebben.
+1. Kies het type inschrijving naar wens als beheerderinschrijving of zelfinschrijving. Selecteer de uitschrijvingsoptie en de opties voor het bestellen van cursussen en klik op Opslaan. Wanneer u zelfinschrijving kiest, kunnen de studenten zichzelf inschrijven voor het leerprogramma.
 
-   De pagina Cursussen verschijnt om cursussen aan de leerprogramma&#39;s toe te voegen. U ziet hier de tabbladen Studieprogramma en Catalogus.
+   De pagina Cursussen verschijnt om cursussen aan de leerprogramma&#39;s toe te voegen. U vindt er de tabbladen Curriculum en Catalogus.
 
    **Opmerking**
 
    Alle soorten cursussen kunnen aan een leerprogramma worden toegevoegd. Deze omvatten klassikale en virtuele klassikale cursussen, activiteiten, cursussen op eigen tempo en gemengde cursussen. Manager-aangewezen en door manager goedgekeurde cursussen worden niet weergegeven tijdens cursusselectie in leerprogramma&#39;s.
 
-1. U moet cursussen aan het leerprogramma toevoegen voordat u het publiceert. Klikken **[!UICONTROL Catalogus]** om cursussen aan het leerprogramma te koppelen. Er wordt een lijst met alle beschikbare cursussen weergegeven.
+1. U moet cursussen toevoegen aan het leerprogramma voordat u het kunt publiceren. Klikken **[!UICONTROL Catalogus]** om cursussen aan het leerprogramma te koppelen. Er wordt een lijst met alle beschikbare cursussen weergegeven.
 
-1. Kies de cursussen die u aan het leerprogramma wilt toevoegen door de muisaanwijzer op een cursuskaart te plaatsen en erop te klikken. Als de cursus nog niet aan het leerprogramma is toegevoegd, kunt u een plus-teken bekijken in het midden van die cursuskaart.
+1. Kies de cursussen die u wilt toevoegen aan het leerprogramma door de muis over een cursuskaart te bewegen en erop te klikken. Als de cursus nog niet aan het leerprogramma is toegevoegd, ziet u in het midden van die cursuskaart een plusteken (+).
 
    Herhaal deze stap om meer cursussen op te nemen.
 
    **Opmerking**
 
-   Bekijk de lijst met alle toegevoegde cursussen van uw leerprogramma in **[!UICONTROL Studieprogramma]** tabblad. Het toegevoegde label kan worden weergegeven voor de toegevoegde cursussen, onder aan de cursuskaart in **[!UICONTROL Catalogus]** tabblad.
+   Bekijk de lijst met alle toegevoegde cursussen van uw leerprogramma in **[!UICONTROL Studieprogramma]** tabblad. Toegevoegd label is voor de toegevoegde cursussen onderaan de cursuskaart op het tabblad **[!UICONTROL Catalogus]** zichtbaar.
 
-1. Klikken **[!UICONTROL Terug naar programma&#39;s]** boven aan het linkerdeelvenster om een lijst met alle leerprogramma&#39;s weer te geven. U kunt zien dat uw nieuw toegevoegde leerprogramma daar wordt vermeld.
-1. U kunt het leerprogramma publiceren door in het linkerdeelvenster op Overzicht te klikken en Acties > Publiceren te kiezen. U kunt het leerprogramma ook publiceren via de weergave Cursussen en Instanties door te klikken op Publiceren in de rechterbovenhoek van de pagina.
+1. Klikken **[!UICONTROL Terug naar programma&#39;s]** boven aan het linkerdeelvenster om een lijst met alle leerprogramma&#39;s weer te geven. U kunt zien dat het door u toegevoegde leerprogramma daar vermeld staat.
+1. U kunt het leerprogramma publiceren door in het linkerdeelvenster op Overzicht te klikken en te kiezen voor Acties > Publiceren. U kunt het leerprogramma ook publiceren via de weergave Cursussen en Instanties door te klikken op Publiceren in de rechterbovenhoek van de pagina.
 
-## Studenten toevoegen aan een leerprogramma {#addlearnerstoalearningprogram}
+## Deelnemers toevoegen aan een leerprogramma {#addlearnerstoalearningprogram}
 
 Ga voor meer informatie over het inschrijven van studenten en de te volgen stappen naar  [Studenten inschrijven.](courses.md#main-pars_header_1058138132)
 
-## Volledig beheer van catalogi inschakelen voor leerprogramma&#39;s {#catalog}
+## Volledig beheer van catalogus voor leerprogramma&#39;s inschakelen {#catalog}
 
 Zoals volledig verlenen [catalogusbeheer voor leermateriaal of modules](shared-catalog-full-control.md)kunt u ook volledige cataloguscontrole inschakelen voor leerprogramma&#39;s.
 
 ## Cursus opnieuw instellen
 
-Een beheerder kan de voortgang van een cursus binnen een leerprogramma opnieuw instellen.
+Een beheerder kan de voortgang van een cursus opnieuw instellen binnen een leerprogramma.
 
 Via een leerprogramma kan de beheerder de voortgang van de cursus opnieuw instellen.
 
-Om een cursus opnieuw in te stellen, moet de beheerder een cursus selecteren in de vervolgkeuzelijst Cursussen.
+De beheerder moet een cursus selecteren in de vervolgkeuzelijst Cursussen om een cursus opnieuw in te stellen.
 
 Vervolgens kunt u **[!UICONTROL Handelingen]** vervolgkeuzelijst, klikt u op **[!UICONTROL Cursus opnieuw instellen]**.
 
-Studenten kunnen nu vanaf het begin de modules van de geselecteerde cursussen starten.
+Studenten kunnen nu gelijk de modules van de geselecteerde cursussen starten.
 
 **Opmerking: Alleen mislukte en onvolledige modules van de cursus worden opnieuw ingesteld.**
 
@@ -80,13 +80,13 @@ U kunt meerdere instanties van een cursus of leerprogramma maken.
 1. Klik op Instanties in het linkerdeelvenster.
 1. Klik op Nieuwe instantie toevoegen in de rechterbovenhoek van de cursusinformatie.
 1. Er wordt een nieuwe instantie van het leerprogramma weergegeven.
-1. Klik op de bewerkingspictogrammen (zoals weergegeven met een rode pijl in de afbeelding) op de nieuwe instantie om de waarden van de cursus/het leerprogramma, zoals deadline, instantienaam, feedback en badge, te wijzigen. Nadat u de wijzigingen hebt aangebracht, klikt u op het vinkje naast de gewijzigde waarde om de wijzigingen op te slaan. Klik op de X-markering om de wijzigingen te annuleren.
+1. Klik op de bewerkingspictogrammen (aangeduid met de rode pijl in de afbeelding) op de nieuwe instantie om de waarden van de cursus/het leerprogramma, zoals deadline, naam van de instantie, feedback en badge, aan te passen. Klik op het vinkje naast de gewijzigde waarde om de wijzigingen op te slaan, nadat de wijzigingen zijn aangebracht. Klik op het kruisje (x) om de wijzigingen te annuleren.
 
-Een beheerder kan klassikale en virtuele klassikale cursussen toevoegen aan een leerprogramma. Elke sessie die de auteur tijdens het maken van de cursus heeft gegeven, wordt de standaardinstelling. Wanneer de beheerder cursussen aan een leerprogramma toevoegt, wordt deze standaard toegewezen aan de standaardinstantie van alle cursussen, maar de beheerder kan de instantietoewijzing wijzigen. Het aantal cursussen dat aan een leerprogramma is toegevoegd, is ook zichtbaar op de instantiepagina, zoals hieronder getoond.
+Een beheerder kan klassikale en virtuele klassikale cursussen toevoegen aan een leerprogramma. De sessie die de auteur heeft opgegeven tijdens het maken van de cursus wordt de standaardinstantie. Wanneer de beheerder cursussen aan een leerprogramma toevoegt, worden deze standaard toegewezen aan de standaardinstantie van alle cursussen, maar de beheerder kan de instantietoewijzing wijzigen. Het aantal cursussen dat in een leerprogramma wordt toegevoegd is ook zichtbaar in de instantiepagina zoals hieronder getoond.
 
-**Toewijzing van instanties wijzigen**
+**Toewijzen van instanties wijzigen**
 
-Klik op het aantal cursussen op de Instantiepagina om de toewijzing van instanties te wijzigen. Er verschijnt een toewijzingsvak voor cursusinstanties met een lijst van instanties. U kunt nu instantietoewijzing selecteren.
+Klik op het aantal studenten op de Instantiepagina om het toewijzen van instanties te wijzigen. Er verschijnt een kader voor het toewijzen van instanties met een lijst van instanties. U kunt nu toewijzen van instanties selecteren.
 
 ![](assets/change-instance-mapping.jpeg)
 
@@ -98,14 +98,14 @@ Een beheerder kan ook een instantie van een leerprogramma toewijzen aan een inst
 
 **Workflow**
 
-1. Maak enkele cursussen met meerdere instanties.
+1. Maak een paar cursussen met meerdere instanties.
 1. Maak een leerprogramma en voeg enkele cursussen toe.
 1. Maak instanties van het leerprogramma.
 1. Schrijf de studenten in.
 
 ## Abonnement {#subscription}
 
-Een beheerder kan quizscore en statusrapporten van studenten ophalen. Ze kunnen de rapportfrequentie, het onderwerp van de e-mail en de e-mail-ID van de ontvangers instellen. Afhankelijk van de ingestelde frequentie krijgt de ontvanger een e-mail met het rapport als bijlage.
+Een beheerder kan quizscore en statusrapporten van de student ophalen. Zij kunnen de rapportfrequentie, het onderwerp van de e-mail en de e-mail-ID van de ontvanger instellen. Afhankelijk van de ingestelde frequentie krijgt de ontvanger een e-mail met het rapport als bijlage.
 
 ![](assets/report-subscription.jpeg)
 
@@ -114,11 +114,11 @@ Een beheerder kan quizscore en statusrapporten van studenten ophalen. Ze kunnen 
 1. Klik op een willekeurige leerprogrammategel
 1. Klik op Quizscore in het linkerdeelvenster.
 
-U kunt de quizscores van een bepaald leerprogramma bekijken op basis van de gebruikersnaam of op basis van elke vraag. Kies overeenkomstig de tabbladen Op gebruiker of Op vraag.
+U kunt de quizscores van een bepaald leerprogramma bekijken op basis van een gebruikersnaam of op basis van elke vraag. Kies het bijbehorende tabblad Op gebruiker of Op vraag.
 
-Quizscores worden voor één cursus tegelijk weergegeven. Wijzig de naam van de cursus in de vervolgkeuzelijst om de quizscores voor andere cursussen weer te geven. U kunt ook quizscores van elke cursus exporteren.
+Er verschijnen quizscores voor één cursus per keer. Wijzig de naam van de cursus uit de vervolgkeuzelijst om de quizscores voor andere cursussen te bekijken. U kunt ook quizscores van elke cursus exporteren.
 
-Kies het type instantie in de vervolgkeuzelijst om de scores weer te geven op basis van elke instantie van het leerprogramma.
+Kies het type instantie uit de vervolgkeuzelijst om de scores weer te geven op basis van elke instantie van het leerprogramma.
 
 ## L1- en L3-feedback weergeven {#viewl1andl3feedback}
 
@@ -126,40 +126,40 @@ Als beheerder kunt u L1- en L3-feedback voor een leerprogramma inschakelen. De L
 
 ## Uitschrijving voor studenten {#unenrollmentforlearners}
 
-Tijdens het maken van leerprogramma&#39;s heeft de beheerder de mogelijkheid om te selecteren of studenten zichzelf kunnen uitschrijven voor de leerprogramma&#39;s. Als de beheerder de optie selecteert, kan de student zichzelf uitschrijven.
+Tijdens het maken van leerprogramma&#39;s heeft de beheerder de optie om te selecteren of studenten zichzelf kunnen uitschrijven bij de leerprogramma&#39;s. Als de beheerder de optie selecteert, dan kan de student zichzelf uitschrijven.
 
 ![](assets/unenrollment.png)
 
 ## Voltooiing markeren {#markcompletion}
 
-Beheerders kunnen een leerprogramma als voltooid markeren met de optie die voor hen beschikbaar is. Volg de volgende stappen om de voltooiing van het leerprogramma te markeren.
+Beheerders kunnen een leerprogramma als voltooid markeren met behulp van de optie die voor hen beschikbaar is. Volg de volgende stappen om de voltooiing van het leerprogramma te markeren.
 
-1. Open de **[!UICONTROL Leerprogramma]**.
-1. Open de **[!UICONTROL Studenten]** in het menu aan de linkerkant.
+1. Open het **[!UICONTROL leerprogramma]**.
+1. Open de pagina **[!UICONTROL Studenten]** vanuit het menu in het linkerdeelvenster.
 
-   De **[!UICONTROL Studenten]** wordt geopend met de lijst van ingeschreven studenten.
+   De pagina **[!UICONTROL Studenten]** wordt geopend met een lijst met ingeschreven studenten.
 
-1. Selecteer één/meerdere/alle studenten om het LP-voltooid te markeren met behulp van het selectievakje dat beschikbaar is voor elke student.
-1. Klikken **[!UICONTROL Gebruikers]** > **[!UICONTROL Handeling]** > **[!UICONTROL Voltooiing markeren]**.
+1. Selecteer één/meerdere/alle studenten en markeer het leerprogramma als voltooid met het selectievakje dat voor elke deelnemer beschikbaar is.
+1. Klik op **[!UICONTROL Gebruikers]** > **[!UICONTROL Actie]** > **[!UICONTROL Voltooiing markeren]**.
 
-   Als de LP meerdere cursussen heeft, worden alle cursussen als voltooid gemarkeerd.
+   Als het leerprogramma bestaat uit meerdere cursussen, worden alle cursussen als voltooid gemarkeerd.
 
-## Volgorde van cursussen in leerprogramma {#orderingofcoursesinlearningprogram}
+## Het rangschikken van cursussen in leerprogramma {#orderingofcoursesinlearningprogram}
 
-Beheerders kunnen de volgorde instellen waarin studenten de cursussen in het leerprogramma moeten volgen. Nadat u een leerprogramma hebt gemaakt, kunt u deze volgorde van cursussen op elk moment bijwerken.
+Beheerders kunnen de volgorde instellen waarin de studenten de cursussen in het leerprogramma moeten volgen. Na het maken van een leerprogramma kunt u deze volgorde van de cursussen op elk moment bijwerken.
 
-De volgorde van cursussen in een leerprogramma bijwerken
+U kunt de volgorde van de cursussen in een leerprogramma bijwerken
 
 1. Klik op de leerprogrammacode van uw keuze en klik **[!UICONTROL Cursussen]** in het linkerdeelvenster.
 
-1. Er wordt een lijst weergegeven met cursuskaarten die bij het leerprogramma horen. Klikken **[!UICONTROL Bewerken]** rechtsboven op de pagina.
+1. Er wordt een lijst met de bij het leerprogramma behorende cursuskaarten weergegeven. Klikken **[!UICONTROL Bewerken]** rechtsboven op de pagina.
 1. U kunt de volgorde van de lijst wijzigen door op elke cursuskaart te klikken en deze naar de juiste positie te slepen.
 1. Klikken **[!UICONTROL Opnieuw publiceren]**.
 
 ## Een gepubliceerd leerprogramma bewerken {#editingapublishedlearningprogram}
 
-Een leerprogramma kan door een beheerder worden bewerkt in een gepubliceerde status. In deze status kan de beheerder alle onderdelen van een leerprogramma bewerken en opnieuw publiceren.
+Een leerprogramma kan als deze de status Gepubliceerd heeft door een beheerder worden bewerkt. In deze status kan de beheerder alle onderdelen van een leerprogramma bewerken en opnieuw publiceren.
 
 Als u een gepubliceerd leerprogramma wilt bewerken, klikt u op de kaart van het leerprogramma en klikt u op **[!UICONTROL Bewerken]** rechtsboven op de pagina.
 
-Als u tijdens het bewerken van de onderdelen van een leerprogramma de pagina moet verlaten, moet u het leerprogramma opnieuw publiceren. U ontvangt een bevestiging in het dialoogvenster waarin u wordt gevraagd het leerprogramma opnieuw te publiceren.
+Als u tijdens het bewerken van de onderdelen van een leerprogramma de pagina moet verlaten, moet u het leerprogramma opnieuw publiceren. U krijgt een bevestiging in een dialoogvenster waarin u wordt gevraagd om het leerprogramma opnieuw te publiceren.

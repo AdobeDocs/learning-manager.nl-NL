@@ -4,21 +4,21 @@ description: Adobe Learning Manager ondersteunt een nieuwe connector met het SFT
 source-git-commit: aa8030e7e1d0ad72b76fb48a34e7b15ddf178a0b
 workflow-type: tm+mt
 source-wordcount: '1041'
-ht-degree: 0%
+ht-degree: 68%
 
 ---
 
 
 # Overgang van Adobe FTP Manager
 
-Adobe Learning Manager ondersteunt een nieuwe connector met het SFTP-protocol van de AWS Transfer-familie.
+Adobe Learning Manager ondersteunt een nieuwe connector die gebruik maakt van het SFTP-protocol van AWS Transfer Family.
 
 U kunt elke opensource FTP-client vervangen door Adobe FTP Manager.
 
-Sommige door AWS aanbevolen FTP-clients worden vermeld [hier](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html):
+Sommige door AWS aanbevolen FTP-clients worden [hier](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html) vermeld:
 
 * FileZilla (Windows, macOS en Linux)
-* OpenSSH (macOS en Linux) - Opmerking: deze client werkt alleen met servers die zijn ingeschakeld voor SFTP (Secure Shell) File Transfer Protocol).
+* OpenSSH (macOS en Linux) - Opmerking: Deze client werkt alleen met servers die zijn ingeschakeld voor SFTP (Secure Shell (SSH) File Transfer Protocol).
 * WinSCP (alleen Microsoft Windows)
 * Cyberduck (Windows, macOS en Linux)
 
@@ -36,42 +36,42 @@ Zodra u verbinding hebt gemaakt, ziet u de pagina Verbindingsdetails.
 
 Er zijn drie verificatieopties:
 
-### Verificatie maken door nieuwe SSH-sleutels te genereren
+### Verificatie door nieuwe SSH-sleutels te genereren
 
-Als u de SSH-sleutel in uw systeem zelf wilt genereren, kunt u dat doen. Klik op SSH-sleutel genereren.
+U kunt de SSH-sleutel ook in uw systeem zelf genereren. Klik op SSH-sleutel genereren.
 
-De persoonlijke sleutel wordt gedownload naar uw computer en de openbare sleutel wordt opgeslagen in onze services. Nadat u op Verbinden hebt geklikt, wordt de FTP-gebruiker gemaakt met de openbare en persoonlijke sleutels als verificatie.
+De privésleutel wordt naar uw computer gedownload en de openbare sleutel wordt opgeslagen in onze services. Nadat u op Verbinden hebt geklikt, wordt de FTP-gebruiker gemaakt met de openbare en persoonlijke sleutels als verificatie.
 
 U hebt een FTP-verbinding gemaakt.
 
-### Verificatie maken met behulp van bestaande SSH-sleutels
+### Verificatie door bestaande SSH-sleutels te gebruiken
 
 Als u al een SSH-toets hebt, plakt u de openbare sleutel in het dialoogvenster **[!UICONTROL Openbare FTP-sleutel]** en klik vervolgens op Verbinden.
 
 ![SSH-toetsen](assets/ssh-keys.png)
 *Plak de toetsen*
 
-### Basisverificatie met een wachtwoord maken
+### Basisverificatie met een wachtwoord
 
-Dit is het basisverificatiemechanisme. Selecteer de eerste optie, **[!UICONTROL Basisverificatie met een wachtwoord maken]**. Voer het wachtwoord in en klik op **[!UICONTROL Verbinden]**.
+Dit is de basisverificatiemethode. Selecteer de eerste optie, **[!UICONTROL Basisverificatie met een wachtwoord maken]**. Voer het wachtwoord in en klik op **[!UICONTROL Verbinden]**.
 
 Hiermee maakt u een verbinding.
 
-## Volgende stappen
+## Wat is er nieuw
 
 ### De FTP-client instellen
 
-Stel de verbinding in op een FTP-client (aanbevolen in de sectie eerder) met de gedownloade sleutels of bestaande toetsen of wachtwoorden.
+Stel de verbinding in op een FTP-client (aanbevolen in de sectie eerder) met de gedownloade sleutels of bestaande sleutels of wachtwoorden.
 
-### Voorbeeld van export van test
+### Voorbeeldtest exporteren
 
 * Wijzig in uw FTP-client de locatie van de ExaVault FTP in de nieuwe FTP-locatie. Het nieuwe domein is `http://almftp.adobelearningmanager.com/`.
 * U moet ook een whitelist voor het IP-bestand maken, `18.195.107.67`.
 * Na de verificatie moet u een aantal voorbeeldbestanden uploaden van en downloaden naar de nieuwe FTP-locatie met externe FTP-clients of automatiseringsscripts.
-* U moet gegevens van de oude locatie overbrengen naar de nieuwe locatie.
-* Het beleid voor gegevensbehoud voor de connector blijft hetzelfde. ExaVault ondersteunde naast het officiële beleid ook een aantal maatregelen voor gegevensbehoud. Dergelijke beleidsregels voor gegevensbehoud zijn niet beschikbaar voor de nieuwe connector. Controleer of uw connector andere gegevensretentie gebruikt dan de officieel ondersteunde beleidsregels.
+* U moet gegevens van de oude locatie overbrengen naar de nieuwe.
+* Het beleid voor gegevensbehoud voor de connector blijft hetzelfde. ExaVault ondersteunde ook een aantal beleidsregels voor gegevensbewaring naast het officiële beleid. Dergelijke beleidsregels voor gegevensbewaring zijn niet beschikbaar voor de nieuwe connector. Controleer of uw connector gegevensbewaring gebruikt buiten het officieel ondersteunde beleid.
 
-### Wat gebeurt er met de migratieprojecten?
+### Wat gebeurt er met de migratieprojecten
 
 | Status | Aanbeveling |
 |---|---|
@@ -96,7 +96,7 @@ Stel de verbinding in op een FTP-client (aanbevolen in de sectie eerder) met de 
    ![SFTP-client](assets/sftp-client-install.png)
    *Verbinding maken via SFTP-clientclient*
 
-1. Klikken **[!UICONTROL Nieuwe site]** om een nieuwe site te maken. Wijzig desgewenst de naam van de site.
+1. Klik op **[!UICONTROL Nieuwe site]** om een nieuwe site te maken. Wijzig desgewenst de naam van de site.
 
    ![nieuwe site](assets/new-site.png)
    *Een site maken*
@@ -145,30 +145,30 @@ Stel de verbinding in op een FTP-client (aanbevolen in de sectie eerder) met de 
 
 U kunt het verificatietype op elk gewenst moment wijzigen en bijwerken.
 
-Andere verificatiemethoden zijn via SSH-toetsen:
+Andere verificatiemethoden gebeuren via SSH-toetsen:
 
 Plak de openbare sleutel in het tekstvak om de bestaande SSH-toetsen te gebruiken. Klik op Verbinden/Opslaan.
 
-Als u nieuwe SSH-toetsen wilt genereren, klikt u op de &#39;**[!UICONTROL SSH-sleutel genereren]**&#39;. De persoonlijke sleutel wordt gedownload. Klikken **[!UICONTROL Verbinden/opslaan]**.
+Als u nieuwe SSH-toetsen wilt genereren, klikt u op de &#39;**[!UICONTROL SSH-sleutel genereren]**&#39;. De persoonlijke sleutel wordt gedownload. Klik op **[!UICONTROL Verbinden/opslaan]**.
 
 ![ssh-sleutel genereren](assets/ssh-key.png)
 *SSH-sleutel genereren*
 
 Wijs de details toe. Selecteer een type aanmelding als sleutelbestand. Selecteer het bestand met de persoonlijke sleutel.
 
-Klikken **[!UICONTROL Verbinden]**.
+Klik op **[!UICONTROL Verbinden]**.
 
-## Wat gebeurt er na afgekeurd ExaVault
+## Wat gebeurt er nadat ExaVault is afgeschaft?
 
-Nadat ExaVault is afgekeurd, worden alle bestaande migratieprojecten, die in uitvoering zijn, als bronlocatie overgezet naar de nieuwe FTP. Vervolgens moet u de nieuwe FTP-connector configureren en het migratieproces voortzetten.
+Nadat ExaVault is afgeschaft, worden alle lopende migratieprojecten overgezet naar de nieuwe FTP als bronlocatie. Vervolgens moet u de nieuwe FTP-connector configureren en het migratieproces voortzetten.
 
-## Recommendations om sprints te migreren
+## Aanbevelingen om sprints te migreren
 
-Wanneer u een migratieproject maakt, raadt de Adobe u aan het project te maken met de nieuwe AWS SFTP-connector om de sprintmigratie van Exavault naar AWS in een later stadium te voorkomen.
+Bij het maken van een migratieproject raadt Adobe u aan het project aan te maken met de nieuwe AWS SFTP-connector om de sprintmigratie van Exavault naar AWS in een later stadium te voorkomen.
 
-Als er een migratie wordt uitgevoerd, sluit u de huidige sprint die Exavault als gegevensbron gebruikt. Maak de AWS SFTP-verbinding, test de installatie en neem contact op met het Customer Success-team om over te schakelen naar de nieuwe AWS SFTP-gegevensbron. Na het schakelen maakt u een nieuwe sprint in hetzelfde migratieproject. De sprintmappen worden op de nieuwe locatie gemaakt en u kunt de migratie-CSV&#39;s uploaden om de activiteit voort te zetten.
+Als er een migratie wordt uitgevoerd, sluit u de huidige sprint die Exavault als gegevensbron gebruikt. Maak de AWS SFTP-verbinding, test de installatie en neem contact op met het Customer Success-team om over te schakelen naar de nieuwe AWS SFTP-gegevensbron. Na het overschakelen maakt u een nieuwe sprint in hetzelfde migratieproject aan. De sprintmappen worden op de nieuwe locatie gemaakt en u kunt de migratie-CSV&#39;s uploaden om de activiteit voort te zetten.
 
 **Gevallen waarin een migratieproject niet kan worden gesloten**
 
-* De cursus-id wordt in het huidige project toegewezen voor cursussen die van oudere externe systemen naar Leermanager van Adobe worden gemigreerd. U kunt dit alleen doen als u dezelfde cursussen in hetzelfde project wilt bijwerken. Nadat u het project hebt gesloten, kunt u de details niet meer wijzigen.
+* De cursus-id wordt in het huidige project toegewezen voor cursussen die van oudere externe systemen worden gemigreerd naar Adobe Learning Manager. U kunt dit alleen doen als u dezelfde cursussen in hetzelfde project wilt bijwerken. Nadat u het project hebt gesloten, kunt u de details niet meer wijzigen.
 * Voor op API gebaseerde migratieprojecten, waar u geen project moet sluiten.

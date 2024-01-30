@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 0%
+ht-degree: 66%
 
 ---
 
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 # Aan de slag als beheerder
 
-Aan de slag-pagina helpt u door de belangrijkste functies van de toepassing te bladeren.
+Op de startpagina kunt u de belangrijkste functies van de toepassing doorlopen.
 
-Zodra u zich als beheerder aanmeldt, kunt u het pop-upvenster met een lijst met video&#39;s weergeven.
+Zodra u zich als beheerder aanmeldt, ziet u het pop-upvenster met een lijst video&#39;s.
 
 ## Voorbeeldvideo&#39;s weergeven {#viewsamplevideos}
 
-Blader door de voorbeeldvideozelfstudies om inzicht te krijgen in de belangrijkste functies van uw rol als beheerder. Als u niet wilt dat dit pop-upvenster tijdens de aanmelding wordt weergegeven, kunt u het uitschakelen door op **[!UICONTROL Niet weergeven bij aanmelden]** in de rechterbenedenhoek van het pop-upmenu.
+Blader door de voorbeeldvideo&#39;s om inzicht te krijgen in de belangrijkste aspecten van uw rol als beheerder. Als u niet wilt dat dit pop-upvenster tijdens de aanmelding wordt weergegeven, kunt u het uitschakelen door op **[!UICONTROL Niet weergeven bij aanmelden]** in de rechterbenedenhoek van het pop-upmenu.
 
 Klikken **[!UICONTROL Venster sluiten]** om de pop-up te sluiten.
 
 <!--![](assets/welcome-videos-e1439961904106.png)-->
 
-## De pagina Aan de slag {#gettingstartedpage}
+## Pagina Aan de slag {#gettingstartedpage}
 
-Vanaf de pagina Aan de slag kunt u de volgende activiteiten uitvoeren:
+Op de pagina Aan de slag kunt u de volgende acties uitvoeren:
 
 * Cursussen maken
 * Gebruikers toevoegen
 * Gebruikers beheren
-* Rapporten weergeven
+* Rapporten bekijken
 
-U kunt ook meer informatie over de toepassing Leermanager krijgen door zelfstudievideo&#39;s weer te geven, inhoud te helpen en meer te weten te komen over verschillende rollen.
+U kunt ook meer te weten komen over de Learning Manager-toepassing door tutorialvideo&#39;s en Help-inhoud te bekijken, en meer te leren over verschillende rollen.
 
 <!--![](assets/admin-landing-page-300x204.png)-->

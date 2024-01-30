@@ -1,12 +1,12 @@
 ---
-description: Lees dit artikel voor meer informatie over het beheren van modules als docent in Learning Manager.
+description: Lees dit artikel om te weten te komen hoe u als docent modules kunt beheren in Learning Manager.
 jcr-language: en_us
 title: Modules
 contentowner: shhivkum
 source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
 workflow-type: tm+mt
 source-wordcount: '954'
-ht-degree: 0%
+ht-degree: 63%
 
 ---
 
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Modules
 
-Lees dit artikel voor meer informatie over het beheren van modules als docent in Learning Manager.
+Lees dit artikel om te weten te komen hoe u als docent modules kunt beheren in Learning Manager.
 
-## Overzicht van sessie weergeven {#viewsessionoverview}
+## Bekijk het sessie-overzicht {#viewsessionoverview}
 
 1. Klik in het linkerdeelvenster op Aanstaande sessie.
 1. Selecteer in de lijst van uw aanstaande sessies de sessie waarvan u de details wilt bekijken.
 
-   De app geeft het Sessie-overzicht weer met details zoals de naam van de sessie, locatie, tijdstippen, inschrijvingslimiet, wachtlijstlimiet, enzovoort.
+   De app toont het Sessie-overzicht met details zoals de naam van de sessie, de locatie, de tijdstippen, de inschrijvingslimiet, de wachtlijstlimiet etc.
 
    ![](assets/upcomingsessions.png)
    *Aanstaande sessies weergeven*
@@ -30,31 +30,31 @@ Lees dit artikel voor meer informatie over het beheren van modules als docent in
 
 1. Klik in het linkerdeelvenster op Aanstaande sessie.
 1. Selecteer de sessie die u wilt bijwerken.
-1. Klik op Bewerken rechtsboven.
+1. Klik op Bewerken in de rechterbovenhoek.
 
    ![](assets/sessiondetails.png)
    *Sessiedetails configureren*
 
-1. Op de pagina Sessieoverzicht kunt u de sessietijdstippen, datum, locatie, enzovoort bewerken. U kunt ook de volgende sessiedetails bewerken of toevoegen:
+1. Op de pagina Sessieoverzicht kunt u de sessietijden, de datum, de locatie en dergelijke aanpassen. U kunt daarnaast de volgende sessiedetails bewerken of toevoegen:
 
-   * Geef de inschrijvingslimiet op om het maximum aantal studenten voor de sessie in te stellen.
-   * Geef de wachtlijstlimiet op als u het maximumaantal studenten dat op de wachtlijst voor de sessie is toegestaan, wilt instellen.
-   * Selecteer Ja in het veld Inzendingen toestaan om studenten in staat te stellen toewijzingen in te dienen. Als u Nee selecteert, kunnen studenten geen toewijzingen uploaden voor de sessie.
+   * Specificeer de Inschrijvingslimiet om het maximale aantal studenten dat voor de sessie is toegestaan, in te stellen.
+   * Specificeer de wachtlijstlimiet als u het maximale aantal studenten op de wachtlijst voor de sessie wilt instellen.
+   * Selecteer in het veld Inzendingen toestaan Ja om studenten in staat te stellen opdrachten in te zenden. Als u Nee selecteert, kunnen studenten geen toewijzingen uploaden voor de sessie.
 
    ![](assets/editsessiondetails.png)
    *Sessiedetails bewerken*
 
 1. Klik op Opslaan.
 
-   U kunt het veld Docent niet vanaf deze pagina bewerken.
+   U kunt het docentenveld van deze pagina niet bewerken.
 
-## Bronbestanden uploaden voor uw sessie {#uploadresourcefilesforyoursession}
+## Leermiddelbestanden uploaden voor uw sessie {#uploadresourcefilesforyoursession}
 
-Als docent kunt u bronbestanden uploaden, zoals toewijzingsbestanden of presentaties voor de modules of activiteitenbestanden voor de module. Gebruik het menu Bronnen om leermiddelbestanden voor uw module of sessie toe te voegen.
+Als docent kunt u leermiddelbestanden uploaden, zoals opdrachtbestanden of presentaties voor de modules, of activiteitenbestanden voor de module. Gebruik het menu Leermiddelbestanden om leermiddelbestanden aan uw module of sessie toe te voegen.
 
-1. Klik in de app voor docenten op Aanstaande sessies > Bronnen.
+1. Klik in de Docenten-app op Aanstaande sessies > Leermiddelbestanden.
 
-   U kunt de pagina Bronnen weergeven, die al een koppeling bevat naar de bronnen die de auteurs hebben geüpload voor de cursus die aan uw module is gekoppeld. Bovendien kunnen docenten ook bronbestanden voor modules uploaden.
+   U kunt de pagina Leermiddelbestanden bekijken, die al een link bevat naar de leermiddelen die de auteurs mogelijk hebben geüpload voor de cursus die bij uw module hoort. Daarnaast kunnen docenten ook leermiddelbestanden voor modules uploaden.
 
 1. Klik op Toevoegen.
 
@@ -62,26 +62,26 @@ Als docent kunt u bronbestanden uploaden, zoals toewijzingsbestanden of presenta
    *Een bron voor de sessie toevoegen*
 
 1. Blader naar het juiste bestand op uw computer. Selecteer het bestand en klik op Openen.
-1. Nadat het bestand is geüpload, ziet u het bestand samen met de datum waarop het is toegevoegd.
+1. Nadat het bestand is geüpload, kunt u het bestand zien, samen met de datum waarop het is toegevoegd.
 
-   Studenten die zich voor deze module hebben ingeschreven, kunnen uw bestanden zien zodra ze zijn geüpload, in de sectie Bronnen onder Cursussen.
+   Studenten die zich voor deze module hebben ingeschreven, kunnen uw bestanden zien zodra ze zijn geüpload, in de rubriek Leermiddelen onder Cursussen.
 
-   Als u een bronbestand wilt verwijderen, selecteert u het bestand of de bestanden die u wilt verwijderen. Klik op Acties > Bestand verwijderen op de pagina Bronnen.
+   Selecteer de te verwijderen bestanden om een of meerdere leermiddelbestanden te verwijderen. Klik op de pagina Leermiddelen op Acties > Bestand verwijderen.
 
-## Indienen van bestanden voor activiteitenmodules {#filesubmissionforactivitymodules}
+## Bestand inzenden voor activiteitenmodules {#filesubmissionforactivitymodules}
 
-De activiteitenmodule ondersteunt de workflow Bestanden verzenden. Als auteur maakt u een activiteitenmodule en selecteert u de  **[!UICONTROL Bestandsverzending]** gebruiken. Zo kunnen studenten een bestand indienen.
+De activiteitenmodule ondersteunt de workflow Bestanden inzenden. Als auteur maakt u een activiteitenmodule en selecteert u de  **[!UICONTROL Bestandsverzending]** gebruiken. Dit stelt de studenten in staat om een bestand in te zenden.
 
-Deze bestanden kunnen worden goedgekeurd/afgewezen door de docenten van de module. De module wordt pas voltooid nadat de docent de inzending heeft goedgekeurd.
+Deze bestanden kunnen door de docenten van de module worden goedgekeurd/afgewezen. De module wordt pas voltooid nadat de docent de inzending heeft goedgekeurd.
 
 ![](assets/activity-modules.png) ![](assets/approve-reject-option.png)
 *Bestanden goedkeuren of afwijzen*
 
-## Controlelijst evalueren {#evaluate-checklist-module}
+## De module Controlelijst beoordelen {#evaluate-checklist-module}
 
-Nadat de student de cursus heeft gevolgd, ziet de docent de controlelijstmodule op de pagina Inzendingen/controlelijsten in het **Modules** sectie. Deze pagina bevat alle modules van de activiteitencontrolelijst samen met de modules van de activiteitenindiening waarvoor de reviews worden verwacht. Voor elke module wordt het aantal studenten weergegeven waarvoor de evaluatie is gepland.
+Nadat de student de cursus heeft gevolgd, ziet de docent de controlelijstmodule op de pagina Inzendingen/controlelijsten in het **Modules** sectie. Deze pagina bevat alle activiteitencontrolelijstmodules, samen met de modules voor inzending van activiteiten waarvoor beoordelingen gepland staan. Voor elke module staat het aantal studenten getoond voor wie de beoordeling gepland staat.
 
-Op de onderstaande pagina kunt u modules van het type weergeven **Verzending** en **Checklist**. Voor dit voorbeeld gebruiken we de module Controlelijst.
+Op de onderstaande pagina kunt u modules van het type weergeven **Verzending** en **Checklist**. Voor dit voorbeeld gebruiken we de controlelijstmodule.
 
 ![](assets/modules-list.png)
 *Lijst met modules weergeven*
@@ -90,33 +90,33 @@ Klik op de module Controlelijst. Op de **Checklist** ziet u het volgende:
 
 * De naam van de module
 * De naam van de cursus
-* Instantie van de cursus
-* Door de auteur ingestelde criteria doorgeven
-* Aantal vragen op de controlelijst
+* Instantie waartoe de cursus behoort
+* Slagingscriteria die de auteur heeft ingesteld
+* Aantal controlelijstvragen
 
 ![](assets/checklist-page.png)
 *De pagina met controlelijsten weergeven*
 
-Als u een student wilt evalueren, klikt u op **[!UICONTROL Evalueren]** in de **[!UICONTROL Checklist]** kolom. U kunt ook zien dat de status van de revisie **In behandeling**.
+Als u een student wilt evalueren, klikt u op **[!UICONTROL Evalueren]** in de **[!UICONTROL Checklist]** kolom. U kunt ook zien dat de status van de beoordeling **Openstaand** is.
 
-Evalueer de student en klik op **[!UICONTROL Verzenden]**. Als docent moet u op alle evaluatievragen antwoorden.
+Beoordeel de student en klik op **[!UICONTROL Indienen]**. Als docent moet u alle beoordelingsvragen beantwoorden.
 
 ![](assets/checklist-evaluation-screen.png)
 *Controlelijst voor evaluatie*
 
-Afhankelijk van de voldoende criteria is Status mislukt of geslaagd.
+Afhankelijk van de slagingscriteria is de status Gezakt of Geslaagd.
 
-Een controlelijst kan na evaluatie niet opnieuw worden geëvalueerd.
+Een controlelijst kan niet nogmaals worden beoordeeld.
 
-Een docent kan ook de antwoorden bekijken die zijn ingediend door andere docenten van de module.
+Een docent kan ook de antwoorden zien die door andere docenten van de module zijn ingediend.
 
 U kunt de studenten als CSV exporteren op basis van het toegepaste zoekfilter.
 
 Nadat de docent de cursus heeft geëvalueerd aan de hand van de controlelijst, ziet de student de modulestatus als **Doorgeven** en cursusstatus als **Voltooid** of de modulestatus **Mislukt** en cursusstatus als **Voltooid**.
 
-## Instructeurs reageren op afwijzing van een activiteit {#rejection-comments}
+## Opmerkingen van docent voor afwijzing van een activiteit {#rejection-comments}
 
-Een student kan de opmerking van een docent zien in het bericht dat ter afwijzing is verzonden. De student kan vervolgens opnieuw verzenden door meer informatie in de vorm van opmerkingen te verstrekken.
+Een student kan de opmerking van een docent zien in het bericht dat ter afwijzing is verzonden. De student kan zich vervolgens opnieuw aanmelden door meer informatie in de vorm van opmerkingen te geven.
 
 Dit is de workflow:
 
@@ -149,23 +149,23 @@ Dit is de workflow:
 
 Om de wijzigingen te kunnen doorvoeren, heeft de Adobe de e-mailsjabloon bijgewerkt voor **Inzending afgewezen**.
 
-## Muziek en opmerkingen toevoegen voor activiteitenmodules {#addscoresandcommentsforactivitymodules}
+## Scores en opmerkingen toevoegen voor activiteitenmodules {#addscoresandcommentsforactivitymodules}
 
-Volg de onderstaande stappen om scores en opmerkingen toe te voegen voor activiteitenmodules die zijn verzonden voor verzending:
+Volg de onderstaande stappen om scores en opmerkingen toe te voegen voor activiteitenmodules die zijn ingezonden:
 
-1. Klik in het linkerdeelvenster op **[!UICONTROL Student]**.
+1. Klik op **[!UICONTROL Student]** in het linkerdeelvenster.
 
    ![](assets/learners.png)
    *Een student selecteren*
 
-1. Klik op de pagina van de student op **[!UICONTROL Handelingen]** > **[!UICONTROL Scores en opmerkingen bewerken]**.
+1. Klik op de pagina Studenten op **[!UICONTROL Acties]** > **[!UICONTROL Scores en opmerkingen bewerken]**.
 
    ![](assets/edit-scores-comments.png)
    *Opmerkingen toevoegen*
 
-   Voor studenten die de cursus niet hebben voltooid, wordt het veld voor de score en de opmerkingen niet weergegeven.
+   Voor leerlingen die de cursus niet hebben voltooid, wordt het veld Scores en opmerkingen niet weergegeven.
 
    ![](assets/editing-scores-andcomments.png)
    *Muziek en opmerkingen bewerken*
 
-1. Klikken **[!UICONTROL Opslaan]**.
+1. Klik op **[!UICONTROL Opslaan]**.

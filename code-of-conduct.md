@@ -35,7 +35,7 @@ Projectbeheerders zijn verantwoordelijk voor het verduidelijken van de normen vo
 
 Projectbeheerders hebben het recht en de verantwoordelijkheid om opmerkingen, vastleggingen, code, wiki-bewerkingen, problemen en andere bijdragen die niet aan deze gedragscode zijn aangepast, te verwijderen, te bewerken of af te wijzen, of om een bijdrager tijdelijk of permanent te verbieden voor ander gedrag dat zij ongeschikt, bedreigend, beledigend of schadelijk achten.
 
-## Toepassingsgebied
+## Bereik
 
 Deze Gedragscode is zowel van toepassing binnen projectruimten als in openbare ruimten wanneer een individu het project of zijn gemeenschap vertegenwoordigt. Voorbeelden van het vertegenwoordigen van een project of een gemeenschap zijn het gebruik van een officieel e-mailadres voor een project, het posten via een officieel socialmediaaccount of het optreden als een aangewezen vertegenwoordiger tijdens een online of offline gebeurtenis. De representatie van een project kan nader worden omschreven en verduidelijkt door de projectbeheerders.
 

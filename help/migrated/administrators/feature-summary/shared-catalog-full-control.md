@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Volledig beheer van gedeelde catalogus inschakelen
 description: Volledig beheer van gedeelde catalogus inschakelen in Adobe Learning Manager
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '791'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
@@ -18,44 +18,44 @@ ht-degree: 0%
 
 Als beheerder kunt u een catalogus met cursussen, leerprogramma&#39;s, taakhulpen en certificeringen maken.
 
-Zie voor meer informatie [Catalogi](/help/migrated/administrators/feature-summary/catalogs.md).
+Zie [Catalogi](/help/migrated/administrators/feature-summary/catalogs.md) voor meer informatie.
 
 ## Catalogus delen {#sharecatalog}
 
-U kunt de catalogi delen met interne gebruikers van een organisatie of met externe gebruikers. Het delen is echter exclusief. Met andere woorden, een intern gedeelde catalogus kan niet worden gedeeld met externe groepen en vice versa.
+U kunt de catalogi delen met interne gebruikers van een organisatie of met externe gebruikers. Het delen is echter exclusief. Met andere woorden, een intern gedeelde catalogus kan niet met externe groepen worden gedeeld en vice versa.
 
-Cursussen, leerprogramma&#39;s, taakhulpen en certificeringen zijn de ondersteunde leerobjecten voor een gedeelde catalogus.
+Cursussen, Leerprogramma&#39;s, taakhulpen en certificeringen zijn de ondersteunde leerobjecten voor een gedeelde catalogus.
 
-Zie voor meer informatie [Catalogi delen](/help/migrated/administrators/feature-summary/catalogs.md).
+Zie [Catalogi delen](/help/migrated/administrators/feature-summary/catalogs.md) voor meer informatie.
 
 ## Volledig beheer van gedeelde catalogus inschakelen {#fullcontrol}
 
-U kunt externe accounts volledige toegang tot uw catalogus geven. De beheerder van het account kan vervolgens de catalogus accepteren en dienovereenkomstig leermateriaal of modules toevoegen of verwijderen.
+U kunt externe accounts volledige toegang tot uw catalogus geven. De beheerder van het account kan de catalogus dan accepteren en naar wens leermateriaal of modules toevoegen of verwijderen.
 
-Volledige controle verlenen aan een externe rekening,
+Volledig beheer verlenen aan een extern account,
 
 1. Nadat u leermateriaal aan een catalogus hebt toegevoegd, moet u de catalogus met externe gebruikers delen.
-1. Voeg in het dialoogvenster Externe account het subdomein en de e-mail-ID van de beheerder van de externe organisatie toe.
-1. Schakel in de optie Catalogusbeheer de knop in om de volledige controle van de catalogus aan externe gebruikers toe te staan.
+1. In het dialoogvenster Extern account voegt u het subdomein en de e-mail-ID van de beheerder van de externe organisatie toe.
+1. In de optie Catalogusbeheer, schakelt u de knop in om volledig beheer van de catalogus aan externe gebruikers te verlenen.
 
    ![](assets/catalog-control.png)
 
    *Volledig beheer van gedeelde catalogus toestaan*
 
-   Wanneer u volledige cataloguscontrole toestaat, accepteert de beheerder van de externe organisatie het verzoek om wijzigingen in de catalogus toe te staan. De auteur van de externe organisatie kan de cursussen dan bewerken of modules toevoegen.
+   Wanneer u volledig beheer van de catalogus toestaat, aanvaardt de beheerder van de externe organisatie het verzoek om wijzigingen in de catalogus toe te staan. De auteur van de externe organisatie kan de cursussen dan bewerken of modules toevoegen.
 
    Zie de onderstaande secties voor meer informatie.
 
 ## Beheerder van externe organisatie {#administratorofexternalorganization}
 
-Zodra de beheerder van de vorige organisatie volledige controle over de catalogus heeft ingeschakeld, accepteert de beheerder van de externe organisatie de catalogus en bekijkt deze deze.
+Nadat de beheerder van de vorige organisatie volledig beheer van de catalogus heeft ingeschakeld, aanvaardt de beheerder van de externe organisatie de catalogus en bekijkt deze de catalogus.
 
-1. Klik op het meldingspictogram om de melding te bekijken om de catalogus te accepteren.
+1. Klik op het meldingenpictogram om de notificatie te bekijken en de catalogus te accepteren.
 
    <!--![](assets/notification-to-acceptcatalog.png)-->
 
 1. Klik op Accepteren om de uitnodiging voor de catalogus te accepteren.
-1. Als u in de lijst met catalogi de catalogus start die met u is gedeeld, ziet u een bericht dat de catalogus nu volledige controle heeft.
+1. Als u in de lijst met catalogi de catalogus start die met u is gedeeld, kunt u een bericht zien dat de catalogus nu volledig beheer heeft.
 
    ![](assets/catalog-details.png)
 
@@ -63,9 +63,9 @@ Zodra de beheerder van de vorige organisatie volledige controle over de catalogu
 
 1. U kunt de naam van de catalogus en de beschrijving wijzigen.
 
-## Catalogus delen voor leerprogramma, certificering en taakhulpen {#sharecatalogforlearningprogramcertificationandjobaids}
+## Aandelencatalogus voor leerprogramma, certificering en taakhulpen {#sharecatalogforlearningprogramcertificationandjobaids}
 
-Net als het verlenen van volledige cataloguscontrole voor cursussen, kan de beheerder ook volledige cataloguscontrole toekennen voor het volgende:
+De beheerder kan niet alleen volledig beheer van catalogi voor cursussen verlenen, maar ook voor het volgende:
 
 * Leerprogramma&#39;s
 * Certificeringen
@@ -77,26 +77,26 @@ Net als het verlenen van volledige cataloguscontrole voor cursussen, kan de behe
 
 <!-- ![](assets/reset-course.png)-->
 
-1. U ziet een waarschuwingsbericht nadat u op de knop Herstellen hebt geklikt. De cursus opnieuw instellen:
+1. U ziet een waarschuwing nadat u op de knop Opnieuw instellen hebt geklikt. De cursus opnieuw instellen:
 
-   * Hiermee verwijdert u alle nieuw toegevoegde inhoud uit de catalogus.
-   * Werkt de catalogus synchroon met de oorspronkelijke gedeelde catalogus bij.
-   * Hiermee wordt de relatie met het bovenliggende leerobject hersteld.
+   * Verwijdert alle nieuw toegevoegde inhoud uit de catalogus.
+   * Werkt de catalogus synchroon met de oorspronkelijk gedeelde catalogus bij.
+   * Herstelt de relatie met het bovenliggende leerobject.
 
-   Het opnieuw instellen van de catalogus is onomkeerbaar. U kunt de wijzigingen die u in de catalogus hebt aangebracht, niet ongedaan maken.
+   Het resetten van de catalogus kan niet ongedaan worden gemaakt. U kunt de wijzigingen die u in de catalogus heeft aangebracht niet ongedaan maken.
 
 1. Klik op Ja om de wijzigingen te accepteren.
-1. In de cursuscatalogus ziet u dat er geen bericht in de catalogus staat *Koppeling verbroken* meer.
+1. De melding *Koppeling defect* verdwijnt van de Cursuscatalogus.
 
-   Wanneer u de catalogusdetails bekijkt, ziet u dat de catalogus nu weer in de oorspronkelijke staat is.
+   Wanneer u de catalogusgegevens bekijkt, ziet u dat de oorspronkelijke staat van de catalogus nu is hersteld.
 
 ## Een leerobject opnieuw toevoegen {#readdalearningobject}
 
-Als u een cursus, leerprogramma, certificering of taakhulp per ongeluk hebt verwijderd, kunt u deze herstellen.
+Als u cursussen, leerprogramma&#39;s, certificeringen of taakhulpen per ongeluk hebt verwijderd, kunt u deze herstellen.
 
 Klik op Opnieuw toevoegen om een verwijderd leerobject te herstellen.
 
-Met deze actie wordt de actie omgekeerd en wordt het leerobject in de catalogusweergave hersteld.
+Met deze handeling wordt de actie omgekeerd en het leerobject in de catalogusweergave herstelt.
 
 ![](assets/re-add-button.png)
 
@@ -106,22 +106,22 @@ Nadat u op de knop Opnieuw toevoegen hebt geklikt, verschijnt een bevestigingsbe
 
 ## Externe organisatie {#externalorganization}
 
-Nadat de beheerder van het externe account de catalogus heeft geaccepteerd, kan de auteur nu cursussen en leerprogramma&#39;s toevoegen.
+Nadat de beheerder van het externe account de catalogus heeft geaccepteerd, kan de auteur cursussen en leerprogramma&#39;s toevoegen.
 
 1. Als gebruiker ontvangt u een melding dat de catalogus nu beschikbaar is in uw account.
-1. Klik op **[!UICONTROL Cursussen]** in het linkernavigatievenster. U kunt alle cursussen zien die door u zijn gemaakt en met u zijn gedeeld.
-1. Klik op **[!UICONTROL Cursus weergeven]** op de cursuskaart.
+1. Klik op **[!UICONTROL Cursussen]** in het linkerdeelvenster om de lijst met cursussen te bekijken. U kunt alle door u gemaakte en met u gedeelde cursussen bekijken.
+1. Klik op **[!UICONTROL Cursus weergeven]** op de cursuskaart om de details van de cursus te bekijken.
 
    <!--![](assets/view-course.png)-->
 
-1. Op de pagina met cursusdetails ziet u informatie over de cursus en de gedeelde modules. Klik op Modules toevoegen om een module toe te voegen. Wanneer u modules aan de bestaande modules toevoegt, verschijnen de nieuwe modules aan het einde van de bestaande modules. U kunt de modules altijd opnieuw rangschikken.
+1. Op de pagina met cursusdetails ziet u informatie over de cursus en de gedeelde modules. Klik op Modules toevoegen om dit te doen. Wanneer u modules aan de bestaande modules toevoegt, verschijnen de nieuwe modules aan het einde van de bestaande modules. U kunt de modules altijd opnieuw indelen.
 1. Klik op Opnieuw publiceren nadat u de modules hebt toegevoegd.
 
-   Nadat u de modules opnieuw hebt gepubliceerd, ziet u op de cataloguskaart een bericht *Koppeling verbroken*.
+   Nadat u de modules opnieuw hebt gepubliceerd ziet u op de cataloguskaart het bericht *Koppeling defect*.
 
-   Aangezien u de oorspronkelijke catalogus met nieuwe modules hebt bijgewerkt, bestaat de bestaande relatie met de verworven cursus niet meer.
+   Aangezien u de oorspronkelijke catalogus met nieuwe modules hebt bijgewerkt, is de bestaande relatie met de verworven cursus verbroken.
 
-   Het leerobject loopt niet meer synchroon met het bronaccount omdat de inhoud van het leerobject is gewijzigd.
+   Het leerobject loopt niet meer synchroon met het bronaccount, omdat de inhoud van het leerobject is gewijzigd.
 
    <!--![](assets/link-broken.png)-->
 

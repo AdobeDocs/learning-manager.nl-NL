@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Kan agenda niet weergeven
-description: Wanneer een beheerder probeert de vervaldatum van een extern inschrijvingsprofiel te bewerken en op de kalender klikt om de vervaldatum te bewerken, wordt de kalender niet weergegeven.
+description: De agenda wordt niet weergegeven, wanneer een beheerder de vervaldatum van een extern inschrijvingsprofiel probeert te bewerken en op de agenda klikt om de vervaldatum te bewerken.
 contentowner: saghosh
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ## Probleem
 
-U kunt de kalender niet weergeven bij het bewerken van de vervaldatum van een extern profiel.
+U kunt de agenda niet weergeven wanneer u de vervaldatum van een extern profiel bewerkt.
 
 ## Beschrijving
 
-Wanneer een beheerder probeert de vervaldatum van een extern inschrijvingsprofiel te bewerken en op de kalender klikt om de vervaldatum te bewerken, wordt de kalender niet weergegeven.
+De agenda wordt niet weergegeven, wanneer een beheerder de vervaldatum van een extern inschrijvingsprofiel probeert te bewerken en op de agenda klikt om de vervaldatum te bewerken.
 
 ## Oorzaak
 
-Dit probleem wordt veroorzaakt door het volgende:
+Het probleem treedt op door het volgende:
 
 * Het zoomniveau van de browser is meer dan 100%.
 * De schaal en lay-out in de weergave-instellingen zijn meer dan 100%.
@@ -35,15 +35,15 @@ Dit probleem wordt veroorzaakt door het volgende:
 
 1. Start de browser.
 1. Meld u aan bij Adobe Learning Manager.
-1. Klik op het zoompictogram op de adresbalk.
-1. Klikken **[!UICONTROL Herstellen]**.
+1. Ga naar de adresbalk en klik op het pictogram Zoomen.
+1. Klik op **[!UICONTROL Opnieuw instellen]**.
 1. Wijzig de vervaldatum van het inschrijvingsprofiel.
 
 ### Weergave-instellingen
 
 1. Klikken **[!UICONTROL Starten]** > **[!UICONTROL Instellingen]** > **[!UICONTROL Systeem]**.
-1. Klikken **[!UICONTROL Weergave]**.
-1. Onder de **[!UICONTROL Schalen en lay-out]** de vervolgkeuzelijst gebruiken. Wijzig de instellingen in 100%.
+1. Klik op **[!UICONTROL Weergave]**.
+1. Selecteer onder de sectie **[!UICONTROL Schaal en lay-out]** de vervolgkeuzelijst. Wijzig de instellingen in 100%.
 
    ![](assets/scale-layout.png)
 

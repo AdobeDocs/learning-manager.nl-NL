@@ -1,12 +1,12 @@
 ---
-description: Gebruiker meldt zich aan als manager in Learning Manager.
+description: Aanmelden als manager in Learning Manager.
 jcr-language: en_us
 title: Gebruikersaanmelding
 contentowner: manochan
 source-git-commit: 7f34a1781e009b8255530111e3cbec4df3ed28c1
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 0%
+ht-degree: 59%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Gebruikersaanmelding
 
-Gebruiker meldt zich aan als manager in Learning Manager.
+Aanmelden als manager in Learning Manager.
 
-Wanneer u Adobe Learning Manager voor het eerst gebruikt, moet u uw account maken door de onderstaande stappen te volgen:
+Wanneer u Adobe Learning Managre voor het eerst gebruikt, moet u de onderstaande stappen volgen om uw account te maken:
 
-1. Start Adobe Learning Manager via de beveiligde koppeling die u hebt ontvangen via welkomstmail van uw beheerder.
+1. Start Adobe Learning Manager via de beveiligde link in de welkomstmail die u van uw beheerder hebt ontvangen.
 
    Het aanmeldingsscherm wordt weergegeven.
 
@@ -28,7 +28,7 @@ Wanneer u Adobe Learning Manager voor het eerst gebruikt, moet u uw account make
 
    *Aanmelden bij Adobe Learning Manager*
 
-1. Voer Adobe ID, wachtwoord in en klik op Aanmelden.
+1. Voer Adobe ID en wachtwoord in en klik op Aanmelden.
 
    Als u uw wachtwoord bent vergeten, klikt u op Wachtwoord vergeten? en geef uw e-mail-ID op die u hebt gebruikt bij het maken van Adobe ID.
 
@@ -36,4 +36,4 @@ Wanneer u Adobe Learning Manager voor het eerst gebruikt, moet u uw account make
 
 >[!NOTE]
 >
->Wanneer u zich voor de eerste keer aanmeldt, is uw Adobe ID gekoppeld aan uw bedrijfsaccount. Voor alle volgende aanmeldingen kunt u een bladwijzer toevoegen voor de account-URL (tweede URL) die u in de welkomstmail hebt ontvangen.
+>Wanneer u zich voor de eerste keer aanmeldt, is uw Adobe ID gekoppeld aan uw bedrijfsaccount. Voor volgende aanmeldingen kunt u een bladwijzer toevoegen voor de account-URL (tweede URL) die u in de welkomstmail hebt ontvangen.

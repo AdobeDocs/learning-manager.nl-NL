@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '2322'
-ht-degree: 0%
+ht-degree: 56%
 
 ---
 
@@ -17,20 +17,20 @@ ht-degree: 0%
 
 +++Hoe schrijf ik me in voor een cursusaanbod?
 
-In de cursuscatalogus worden alle cursussen weergegeven waarvoor u in aanmerking komt. Als uw manager cursussen voor u aanwijst, krijgt u een melding met de optie om de cursus te accepteren of af te wijzen.
+In de cursuscatalogus worden alle cursussen weergegeven waarvoor u in aanmerking komt. Als uw manager cursussen aan u aanwijst, krijgt u een melding met de optie om de cursus te accepteren of af te wijzen.
 
-U kunt echter een van de cursussen onder CATALOG doorlopen door de onderstaande stappen te volgen:
+U kunt de weergegeven cursussen onder CATALOGUS doorkijken door de onderstaande stappen te volgen:
 
-1. Kies de cursus en plaats de muis op de bijbehorende cursusminiatuur.
-1. Klik op VERKENNEN, hetgeen wordt weergegeven op de miniatuur.
-1. U kunt alle details van de cursus bekijken. Rechtsboven op de pagina verschijnt een knop Inschrijven.
-1. Klik op Inschrijven om deze cursus aan uw lijst Mijn cursussen toe te voegen.
+1. Kies de cursus en beweeg met de muis over de bijbehorende miniatuur van de cursus.
+1. Klik op VERKENNEN. Dit verschijnt op de miniatuur.
+1. U kunt alle details over de cursus bekijken. In de rechterbovenhoek van de pagina verschijnt een knop Inschrijven.
+1. Klik op Inschrijven om deze cursus toe te voegen aan uw lijst met Mijn Cursussen.
 
 +++
 
 +++Kan ik een cursus volgen als ik offline ben?
 
-Ja, u hebt toegang tot de offline inhoud via IPad, Android-tabbladen en Smartphones.
+Ja, u kunt de offline inhoud bekijken op iPads, Android-tablets en smartphones.
 
 Raadpleeg voor meer informatie over offline toegang de  [Gebruikers van iPad- en Android-tablets](feature-summary/ipad-android-tablet-users.md) gebruiken.
 
@@ -40,13 +40,13 @@ Raadpleeg voor meer informatie over offline toegang de  [Gebruikers van iPad- en
 
 U kunt naar elk van de leerobjecten zoeken met behulp van een gratis tekstzoekveld op de tabbladen Catalogus en Leerinhoud.
 
-Klik op het zoekveld. U kunt in dit veld zoeken terwijl u typt. Bekijk de zoekresultaten in de vervolgkeuzelijst en kies de juiste optie om de resultaten weer te geven.
+Klik op het zoekveld. Terwijl u typt in dit veld worden automatisch zoekresultaten weergeven. Bekijk de zoekresultaten in de menukeuzelijst en kies de juiste optie om de resultaten te bekijken.
 
 +++
 
 +++Kan ik de leerpunten van mijn collega&#39;s bekijken?
 
-Ja, je kunt je leerpunten vergelijken met je collega’s. Houd de muis boven de profielcirkel. U kunt hier uw eigen punten bekijken. Klik op Ga naar leaderboard om het dialoogvenster Leaderboard te bekijken. In dit dialoogvenster kunt u de lijst met uw collega&#39;s weergeven met dezelfde rang als u.
+Ja, u kunt uw leerpunten vergelijken met die van uw collega&#39;s. Beweeg de muis over de profielcirkel. Hier kunt u uw eigen punten bekijken. Klik op Ga naar leaderboard om het dialoogvenster Leaderboard te bekijken. In dit dialoogvenster kunt u een lijst met collega&#39;s bekijken die een vergelijkbare score hebben behaald als u.
 
 Raadpleeg voor meer informatie  [Leaderboard](feature-summary/gamification.md)gebruiken.
 
@@ -54,15 +54,15 @@ Raadpleeg voor meer informatie  [Leaderboard](feature-summary/gamification.md)ge
 
 +++Wat is cursuseffectiviteit?
 
-De effectiviteit van de cursus wordt geëvalueerd om inzicht te krijgen in het nut van een cursus voor de student. Deze wordt berekend op basis van de feedback die door een aantal gebruikers voor een bepaalde cursus is ontvangen. Als het percentage studenten dat feedback geeft hoger is, is de effectiviteitsscore van de cursus hoog.
+De effectiviteit van de cursus wordt geëvalueerd om inzicht te krijgen in het nut van de cursus voor de student. Deze wordt berekend op basis van de feedback die van een aantal gebruikers voor een bepaalde cursus is ontvangen. Als het percentage deelnemers dat feedback geeft hoger is, is de effectiviteitsscore van de cursus hoog.
 
 Het is een combinatie van de resultaten van feedback van de student over de cursusinhoud, de quizresultaten van de cursus voor een student en feedback van de manager die een student evalueert op basis van de verworven kennis.
 
 Op het tabblad Cursussen kan een student de effectiviteitsscore van de cursus bekijken op de cursusminiaturen
 
-Klik op de waarde voor cursuseffectiviteit om de details van de effectiviteitsscore van de cursus te bekijken. Er verschijnt een pop-up.
+Klik op de waarde voor cursuseffectiviteit om de details hiervan te bekijken. Er verschijnt een pop-up.
 
-Klik op de pijl-omlaag in de rechterbenedenhoek van het pop-upvenster om te zien hoe de effectiviteitsberekeningen van de cursus zijn uitgevoerd.
+Klik op het omlaagwijzende pijltje in de rechterbenedenhoek van het pop-upvenster om te zien hoe de effectiviteit van de cursus wordt berekend.
 
 +++
 
@@ -76,23 +76,23 @@ Op het tabblad Catalogus ziet u alle cursussen, leerprogramma&#39;s en certifice
 
 +++Wat is een leertijdlijn?
 
-In deze sectie ziet u de waarschuwingen voor alle cursussen, certificeringen en leerprogramma&#39;s in oplopende volgorde van de deadlines. De deadlines voor elk van uw leeractiviteiten worden weergegeven in het linkerdeelvenster.
+In deze sectie ziet u de waarschuwingen voor alle cursussen, certificeringen en leerprogramma&#39;s, gerangschikt met oplopende deadlines. De deadlines worden per leeractiviteit in het linkerdeelvenster weergegeven.
 
-Klik op elk leerobject om de bijbehorende informatie in het rechterdeelvenster weer te geven. U kunt op de cursus/leerprogramma/certificeringstegel klikken om de volledige informatie van elk leerobject weer te geven.
+Klik op elk leerobject om de overeenkomstige informatie in het rechtervenster te bekijken. U kunt op de cursus/leerprogramma/certificeringstegel klikken om de volledige informatie van elk leerobject weer te geven.
 
-Beweeg de muis over het tijdlijngebied om de schuifbalk aan de rechterkant weer te geven. Gebruik de schuifbalk om omhoog of omlaag te gaan en meer waarschuwingen weer te geven.
+Beweeg de muis over de tijdlijn om de schuifbalk aan de rechterkant te bekijken. Gebruik de schuifbalk om omhoog of omlaag te gaan om meer waarschuwingen te bekijken.
 
 +++
 
 +++Wat is een vaardighedenkaart?
 
-De vaardighedenkaart is een groepering van vaardigheidsreeksen, kennis, en eigenschappen van een werknemer in een organisatie. Deze vaardighedenkaarten helpen bedrijven/organisaties om de prestatieverwachtingen voor hun werknemers in te stellen of te verhogen. Met vaardigheden kunnen medewerkers hun gedrag afstemmen op de verwachtingen van de organisatie.
+De vaardighedenkaart bundelt sets vaardigheden, kennis en eigenschappen van een werknemer in een organisatie. Deze vaardighedenkaarten helpen bedrijven en organisaties om de prestatieverwachtingen van hun werknemers vast te stellen of te verhogen. Met Vaardigheden kunnen werknemers hun gedrag afstemmen op de verwachtingen van de organisatie.
 
 Wanneer studenten het volgen van bepaalde cursussen voltooien, kunnen ze hun status tegenover elke vaardigheid zien door de vaardighedenkaarten te bekijken.
 
-## Vaardighedenkaarten weergeven
+## Vaardighedenkaarten bekijken
 
-Klik op een van de vaardigheidsnamen in het gebied Vaardighedenkaart rechtsboven op de landingspagina om de vaardigheden weer te geven. Vaardigheden worden samen met de niveaus ernaast weergegeven.
+Klik om de vaardigheden te bekijken op de naam van een vaardigheid in het gebied van de vaardighedenkaart in de rechterbovenhoek van uw landingspagina. Vaardigheden worden weergegeven met daarnaast het behaalde niveau.
 
 Raadpleeg voor meer informatie  [Vaardigheden en niveaus](feature-summary/skills-levels.md) gebruiken.
 
@@ -108,21 +108,21 @@ Raadpleeg voor meer informatie over deze functie  [Gebruikers van de iPad- en An
 
 +++Kan ik Leermanager openen in iPad?
 
-Ja, Leerbeheer is toegankelijk via een iPad. U kunt de app downloaden vanuit de app store of vanuit Google Play.
+Ja, Learning Manager is toegankelijk via een iPad. U kunt de app downloaden via de app store of Google Play.
 
-Alleen de functies van de studentrol zijn toegankelijk via een iPad of een Android-tablet. U kunt ook offline cursussen volgen en synchroniseren met de app wanneer u weer online bent. Raadpleeg voor meer informatie  [Gebruikers van de iPad- en Android-app](feature-summary/ipad-android-tablet-users.md) functie
+Alleen de functies voor studentrollen zijn toegankelijk via een iPad of een Android-tablet. U kunt ook offline cursussen volgen en synchroniseren met de app wanneer u weer online bent. Raadpleeg voor meer informatie  [Gebruikers van de iPad- en Android-app](feature-summary/ipad-android-tablet-users.md) functie
 
 +++
 
-+++Kan niet aanmelden bij Leermanager. Wat moet je doen?
++++Kan niet aanmelden bij Leermanager. Wat moet ik doen?
 
-Als u Adobe-id hebt, kunt u zich aanmelden bij Leermanager. Volg de instructies op  [gebruikersaanmelding](feature-summary/user-login.md) voor meer informatie over het aanmelden bij de toepassing. Neem contact op met ons ondersteuningsteam als het probleem zich blijft voordoen.
+Als u een Adobe ID hebt, kunt u zich aanmelden op Learning Manager. Volg de instructies op  [gebruikersaanmelding](feature-summary/user-login.md) voor meer informatie over het aanmelden bij de toepassing. Neem contact op met ons ondersteuningsteam als het probleem aanhoudt.
 
 +++
 
 +++Hoe kan ik een vaardigheidsniveau bereiken?
 
-U verwerft studiepunten wanneer u een nieuw vaardigheidsniveau verwerft. Kredieten zijn gekoppeld aan vaardigheidsniveaus. Raadpleeg voor meer informatie over vaardigheden en niveaus  [vaardigheden en niveaus](feature-summary/skills-levels.md) gebruiken.
+U verwerft studiepunten wanneer u een nieuw vaardigheidsniveau verwerft. Studieunten worden geassocieerd met vaardigheidsniveaus. Raadpleeg voor meer informatie over vaardigheden en niveaus  [vaardigheden en niveaus](feature-summary/skills-levels.md) gebruiken.
 
 +++
 
@@ -134,13 +134,13 @@ U kunt de geschiedenis van alle leermaterialen bekijken op de startpagina. Klik 
 
 +++Kan ik mijn interesse in een cursus kenbaar maken?
 
-U kunt interesse tonen om deel te nemen aan klassikale cursussen zonder geplande sessies. U krijgt een melding wanneer de cursussessie begint om aan de cursus deel te nemen.
+U kunt interesse tonen om deel te nemen aan klaslokaalcursussen waarvoor geen sessies gepland zijn. U krijgt bericht wanneer de cursus begint om deze te volgen.
 
 +++
 
 +++Wat is het verschil tussen credits en gamificationpunten?
 
-U verwerft studiepunten wanneer u een nieuw vaardigheidsniveau verwerft. Kredieten zijn gekoppeld aan vaardigheidsniveaus. Raadpleeg voor meer informatie over studiepunten, vaardigheden en niveaus  [vaardigheden en niveaus](feature-summary/skills-levels.md) gebruiken.
+U verwerft studiepunten wanneer u een nieuw vaardigheidsniveau verwerft. Studieunten worden geassocieerd met vaardigheidsniveaus. Raadpleeg voor meer informatie over studiepunten, vaardigheden en niveaus  [vaardigheden en niveaus](feature-summary/skills-levels.md) gebruiken.
 
 U krijgt gamificationpunten wanneer u een taak voltooit. Er zijn momenteel zes gamificationtaken beschikbaar in Learning Manager. Na voltooiing van elke taak verwerft u een specifiek aantal punten verbonden aan die taak. Raadpleeg voor meer informatie  [gamification](feature-summary/gamification.md) gebruiken.
 
@@ -148,11 +148,11 @@ U krijgt gamificationpunten wanneer u een taak voltooit. Er zijn momenteel zes g
 
 +++Wat zijn badges? Hoe verdien ik badges?
 
-Adobe Learning Manager introduceert een van de nieuwste e-learningconcepten genaamd Badges. Badges helpen studenten om zichzelf beter te definiëren en hun granulaire set vaardigheden te presenteren. Daarnaast bieden ze geloofwaardigheid en zichtbaarheid.
+Adobe Learning Manager introduceert een van de nieuwste e-learningconcepten genaamd Badges. Badges helpen studenten om zichzelf beter te definiëren en hun granulaire set vaardigheden te presenteren. Daarnaast geven ze geloofwaardigheid en zichtbaarheid.
 
-Boven aan de pagina verschijnt een lijst met badges die de student heeft behaald.
+Bovenaan de pagina verschijnt een lijst met badges die de student verdiend heeft.
 
-Badges worden aan studenten toegewezen op basis van specifieke criteria die door uw organisatie zijn gedefinieerd. Dit is meestal een succesvolle afronding van een cursus of een leerobject.
+De badges worden aan de deelnemers toegekend op basis van specifieke criteria die door uw organisatie zijn gedefinieerd. Dit is over het algemeen een succesvolle afronding van een cursus of een leerobject.
 
 Raadpleeg voor meer informatie  [badges](feature-summary/badges.md) gebruiken.
 
@@ -160,7 +160,7 @@ Raadpleeg voor meer informatie  [badges](feature-summary/badges.md) gebruiken.
 
 +++Wat is een leerprogramma?
 
-Leerprogramma&#39;s zijn een reeks uniek ontworpen cursussen die voldoen aan specifieke leerdoelen. Alleen beheerders kunnen leerprogramma&#39;s voor studenten maken. Wanneer een beheerder een leerprogrammainstantie aan studenten toewijst, zien ze dat **programma **op het tabblad Programma&#39;s. Studenten kunnen ook alle leerprogramma&#39;s bekijken en zich hiervoor inschrijven.
+Leerprogramma&#39;s zijn een reeks uniek ontworpen cursussen die voldoen aan specifieke leerdoelen. Alleen beheerders kunnen leerprogramma&#39;s voor studenten maken. Wanneer een beheerder een leerprogrammainstantie aan studenten toewijst, zien ze dat **programma **op het tabblad Programma&#39;s. Studenten kunnen daarnaast alle leerprogramma&#39;s bekijken waarvoor ze zichzelf kunnen inschrijven.
 
 Klik op het aan u toegewezen programma om het leerprogramma te starten. U kunt gedetailleerde informatie over dat specifieke programma bekijken.
 
@@ -191,13 +191,13 @@ Alle cursussen in Leerbeheer worden in browsers afgespeeld. U kunt de cursussen 
 
 Verwijzen  [Functie Fluidic Player](feature-summary/fluidic-player.md) voor meer informatie over Player.
 
-[Kan ik mijn persoonlijke notities exporteren?](frequently-asked-questions-for-learners.md)
+[Kan ik mijn persoonlijke opmerkingen exporteren?](frequently-asked-questions-for-learners.md)
 
-Ja, u kunt de inhoud van opmerkingen als pdf exporteren door de onderstaande stappen te volgen:
+Ja, u kunt de inhoud van uw opmerkingen als pdf exporteren door de onderstaande stappen te volgen:
 
-1. Klik op de startpagina op een cursuskaart waarvoor u de notities wilt exporteren.
-1. Klik op het tabblad Notities.
-1. Klik op de optie E-mailnotities om opmerkingen te verzenden naar uw geregistreerde e-mail-ID.
+1. Klik op de startpagina op een willekeurige cursuskaart waarvoor u de opmerkingen wilt exporteren.
+1. Klik op het tabblad Opmerkingen.
+1. Klik op de optie E-mailmeldingen om meldingen naar uw geregistreerde e-mail-ID te sturen.
 1. Klik op Opmerkingen downloaden om de opmerkingen als pdf te downloaden.
 
 
@@ -206,15 +206,15 @@ Ja, u kunt de inhoud van opmerkingen als pdf exporteren door de onderstaande sta
 
 +++Biedt Learning Manager gepersonaliseerde ervaring aan studenten?
 
-In Learning Manager hebt u de mogelijkheid om een bladwijzer voor uw inhoud te maken, zodat u deze opnieuw kunt bekijken.
+In Learning Manager hebt u de mogelijkheid om een bladwijzer voor uw inhoud te maken zodat u deze makkelijk opnieuw kunt bekijken.
 
-Klik op het lintpictogram naast de vermelde onderwerpnamen om een bladwijzer voor uw inhoud te maken.
+Klik op het lintpictogram naast de vermelde namen van onderwerpen om een bladwijzer voor uw inhoud te maken.
 
-U kunt tijdens het lezen van uw cursusinhoud notities maken door deze stappen te volgen:
+U kunt tijdens het lezen van uw cursusinhoud opmerkingen maken door deze stappen te volgen:
 
-1. Klik op de cursustegel die u wilt opnemen.
+1. Klik op de tegel van de cursus die u wilt openen.
 1. Klik onder aan het scherm van de speler op het pictogram + Notities om het gedeelte Notities te openen.
-1. Voeg de notities toe en klik op Toevoegen. Uw notities worden opgeslagen.
+1. Voeg de opmerkingen toe en klik op Toevoegen. Uw opmerkingen zijn opgeslagen.
 
 >[!NOTE]
 >
@@ -224,7 +224,7 @@ U kunt tijdens het lezen van uw cursusinhoud notities maken door deze stappen te
 
 U kunt uw cursusnotities downloaden of via e-mail versturen door de onderstaande stappen te volgen:
 
-1. Klik op de cursustegel waarvoor u de notities wilt bekijken.
+1. Klik op de cursustegel waarvoor u de opmerkingen wilt bekijken.
 1. Klik op de knop **Opmerkingen** tabblad naast **Modules** tabblad.
 
 1. Klikken **[!UICONTROL Opmerkingen downloaden]** om te downloaden als pdf.
@@ -234,7 +234,7 @@ U kunt uw cursusnotities downloaden of via e-mail versturen door de onderstaande
 
 +++Kan ik mijn zelfgerapporteerde trainingen toevoegen aan Leermanager? Hoe?
 
-Momenteel ondersteunen we deze functie niet in Learning Manager 1.0. Er is echter wel een bepaling opgenomen om externe certificeringen op te nemen. Deze externe certificeringen worden aan u toegewezen door de beheerder van uw organisatie. Neem contact op met uw manager om u in te schrijven voor externe certificeringen.
+Op dit moment ondersteunen we deze functie niet in Learning Manager 1.0. Het is echter mogelijk om externe certificeringen op te nemen. Deze externe certificeringen worden aan u toegewezen door de beheerder van uw organisatie. Neem contact op met uw manager om u in te schrijven voor externe certificeringen.
 
 +++
 
@@ -246,12 +246,12 @@ Deze functie is momenteel niet beschikbaar.
 
 +++Hoe geef ik evaluatie of feedback op cursussen?
 
-U ontvangt een melding voor het voltooien van de cursus, samen met de koppeling om feedback te geven.
+U ontvangt een melding voor het voltooien van de cursus, samen met een link om feedback te geven.
 
-1. Klik op het meldingenpictogram om uw meldingen weer te geven.\
+1. Klik op het pictogram Meldingen om uw meldingen te bekijken.\
    Er verschijnt een L1-feedbackkoppeling voor uw voltooide cursussen.
 1. Klik op feedback. Er verschijnt een pop-upvenster.
-1. Vul het feedbackformulier in en klik op Gereed.
+1. Vul het feedbackformulier in en klik op Klaar.
 
 +++
 
@@ -265,21 +265,21 @@ Verwijzen  [Certificeringsfunctie](feature-summary/certifications.md) voor meer 
 
 +++Hoe kan ik trainingstranscripten weergeven en afdrukken?
 
-Trainingtranscripten worden momenteel niet verschaft in Leermanager 1.0.
+Op dit moment worden er in Learning Manager 1.0 geen trainingstranscripten gegeven.
 
 +++
 
 +++Hoe kan ik een ingeschreven cursus annuleren?
 
-U kunt een cursus die door uw manager aan u is toegewezen, weigeren door in het venster Meldingen op Weigeren te klikken.
+U kunt een cursus die door uw Beheerder aan u is toegewezen, weigeren door in het venster Meldingen op Weigeren te klikken.
 
-Als u de cursussen waarvoor u zich vrijwillig hebt ingeschreven wilt annuleren, stuurt u een verzoek naar uw rapportageleider of LMS-beheerder.
+Om cursussen waarvoor u zich vrijwillig ingeschreven hebt te annuleren, stuurt u een verzoek naar uw rapportagemanager of naar de LMS-beheerder.
 
 +++
 
 +++Kan ik de goedkeuringsstatus voor mijn cursus kennen?
 
-Ja, u kunt de status zien in meldingen. Klik op het meldingenpictogram in de rechterbovenhoek van het venster om uw meldingen te bekijken.
+Ja, u kunt de status zien in de meldingen. Klik op het meldingenpictogram in de rechterbovenhoek van het venster om uw meldingen te zien.
 
 Uw manager communiceert ook via e-mail met u.
 
@@ -287,9 +287,9 @@ Uw manager communiceert ook via e-mail met u.
 
 +++Krijg ik meldingen en herinneringen voor MIJN CURSUSSEN?
 
-Ja, u kunt deze weergeven door te klikken op het meldingenpictogram in de rechterbovenhoek van het venster.
+Ja, u kunt deze raadplegen door te klikken op het meldingenpictogram in de rechterbovenhoek van het venster.
 
-Het meldingsvenster verschijnt.
+Het pop-upvenster met de meldingen verschijnt.
 
 +++
 
@@ -297,35 +297,35 @@ Het meldingsvenster verschijnt.
 
 U kunt op twee manieren naar cursussen zoeken:
 
-1. Met het zoekpictogram in de rechterbovenhoek.
-1. Door de lijst met cursussen op het tabblad Catalogus te filteren op namen van competenties, type cursussen (blended, op eigen tempo, virtueel klassikaal en klassikaal) en te sorteren op opties {datum gepubliceerd, naam van de cursus (A-Z of Z-A) en cursuseffectiviteit}.
+1. met behulp van het zoekpictogram dat in de rechterbovenhoek wordt weergegeven.
+1. door de cursuslijst in het tabblad Catalogus te filteren op namen van competenties, type cursussen (blended, op eigen tempo, virtueel klassikaal en klassikaal), en vervolgens te sorteren op opties {datum gepubliceerd, naam van de cursus (A-Z of Z-A) en de cursuseffectiviteit}.
 
-U kunt ook zoeken met vooraf gedefinieerde tags zoals Captivatep, C, Java, html enzovoort. U kunt nu in het veld Cursussen naar tags zoeken.
+U kunt ook zoeken met behulp van vooraf gedefinieerde tags zoals Captivatep, C, Java, HTML, en dergelijke. U kunt ook in het veld Cursussen op tags zoeken.
 
-Op basis van uw keuze kunt u de gefilterde lijst met cursussen bekijken en op basis daarvan kiezen.
+U krijgt een gefilterde lijst met cursussen waarin u de gewenste cursussen kunt selecteren.
 
 +++
 
 +++Hoe krijg ik toegang tot mijn cursussen in Leerbeheer?
 
-1. Meld u als student aan bij Leermanager. Als u het wachtwoord bent vergeten, klikt u op **[!UICONTROL Wachtwoord vergeten]** op de aanmeldingspagina om deze terug te sturen naar uw e-mail-ID.
-1. Zodra u zich hebt aangemeld, ziet u bovenaan het tabblad CURSUSSEN. Klikken **[!UICONTROL CURSUSSEN]** om de lijst weer te geven met cursussen die aan u zijn toegewezen.
+1. Inloggen bij Learning Manager als student. Als u het wachtwoord bent vergeten, klikt u op **[!UICONTROL Wachtwoord vergeten]** op de aanmeldingspagina om deze terug te sturen naar uw e-mail-ID.
+1. Zodra u zich hebt aangemeld, wordt het tabblad CURSUSSEN bovenaan weergegeven. Klikken **[!UICONTROL CURSUSSEN]** om de lijst weer te geven met cursussen die aan u zijn toegewezen.
 
 +++
 
 +++Hoe kan ik een online cursus volgen?
 
-Met uitzondering van klassikale cursussen kunnen alle andere drie de soorten cursussen (blended, op eigen tempo en virtueel klassikaal) die beschikbaar zijn in Leermanager, worden beschouwd als online cursussen.
+Naast de klassikale cursussen, kunnen de andere drie typen cursussen (blended, op eigen tempo en virtueel klassikaal) die in Learning Manager beschikbaar zijn, worden beschouwd als online cursussen.
 
-In sommige gevallen wordt u automatisch ingeschreven voor training. Deze cursussen worden weergegeven op het tabblad CURSUSSEN. U kunt zoeken naar de cursus die u wilt volgen en vervolgens op de knop Verkennen en inschrijven op de pagina klikken.
+In sommige gevallen wordt u automatisch ingeschreven voor een training. Deze cursussen worden weergegeven op het tabblad CURSUSSEN. U kunt zoeken naar de cursus die u wilt volgen en vervolgens op de knop Verkennen en inschrijven op de pagina klikken.
 
 >[!NOTE]
 >
 >In sommige cursussen moet u de eerste modules in de aangegeven volgorde voltooien, omdat sommige van deze modules een voorwaarde zijn voor de laterale modules.
 
-Klik op Start in CURSUSSEN om de online cursus te starten en voltooien. U kunt tussendoor stoppen en altijd terugkomen en de cursus later hervatten door op de knop Doorgaan te klikken.
+Klik op Start in CURSUSSEN om de online cursus te starten en af te ronden. U kunt tussendoor stoppen en altijd op een later moment terugkomen om de cursus te hervatten door op de knop Doorgaan te klikken.
 
-Klik op de knop Cursus opnieuw bekijken om de voltooide cursus opnieuw te starten.
+Klik op de knop Cursus opnieuw bekijken om opnieuw te beginnen met een voltooide cursus.
 
 U kunt de voortgang van uw cursus zien en opmerkingen toevoegen.
 
@@ -333,23 +333,23 @@ U kunt de voortgang van uw cursus zien en opmerkingen toevoegen.
 
 +++Wat is blended learning?
 
-Blended Learning is een benadering van leren en onderwijzen die het leren in persoonlijke sessies combineert met online gecreëerde leermogelijkheden en deze op elkaar afstemt. Cursussen van Leermanager bestaan uit blended learning-methoden.
+Blended Learning is een benadering van leren en lesgeven die het leren in face-to-face-sessies combineert met online gecreëerde leermogelijkheden en deze op elkaar afstemt. Learning Manager-cursussen bestaan uit blended leermethoden.
 
 +++
 
 +++Wat is een module op eigen tempo?
 
-In deze module kunnen studenten een cursusmodule volgens hun eigen schema starten en voltooien in hun eigen tempo. Bijvoorbeeld video&#39;s, audiobestanden, vooraf opgenomen lezingen in de lesruimte.
+In deze module kunnen studenten een cursusmodule volgens hun eigen schema starten en voltooien in hun eigen tempo. Bijvoorbeeld video&#39;s, audiobestanden, vooraf opgenomen lezingen in het klaslokaal.
 
 +++
 
 +++Kan ik mijn persoonlijke notities exporteren?
 
-Ja, u kunt de inhoud van opmerkingen als pdf exporteren door de onderstaande stappen te volgen:
+Ja, u kunt de inhoud van uw opmerkingen als pdf exporteren door de onderstaande stappen te volgen:
 
-1. Klik op de startpagina op een cursuskaart waarvoor u de notities wilt exporteren.
-1. Klik op het tabblad Notities.
-1. Klik op de optie E-mailnotities als u opmerkingen naar uw geregistreerde e-mail-ID wilt verzenden.
+1. Klik op de startpagina op een willekeurige cursuskaart waarvoor u de opmerkingen wilt exporteren.
+1. Klik op het tabblad Opmerkingen.
+1. Klik op de optie E-mail-meldingen om meldingen naar uw geregistreerde e-mail-ID te sturen.
 1. Klik op Opmerkingen downloaden om de opmerkingen als pdf te downloaden.
 
 +++

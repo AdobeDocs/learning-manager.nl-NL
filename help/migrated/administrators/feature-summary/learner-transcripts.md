@@ -6,7 +6,7 @@ contentowner: jayakarr
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '1910'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Download het studenttranscript en beheer rapporten met behulp van Learning Manager.
 
-Met Adobe Learning Manager kunnen de beheerders van een organisatie de transcripten genereren die aan de studenten zijn gekoppeld.
+Adobe Learning Manager stelt de beheerders van een organisatie in staat om de transcripten van de studenten te genereren.
 
 ## Studenttranscripten genereren {#generatelearnertranscripts}
 
 1. Klik op **[!UICONTROL Rapporten]** in het linkerdeelvenster in Beheerdersaanmelding.
 
-   De beheerder gaat naar het tabblad Excel-rapporten in het dialoogvenster **[!UICONTROL Rapporten]** pagina.
+   De beheerder gaat naar het tabblad Excel-rapporten op de pagina **[!UICONTROL Rapporten]**.
 
 1. Klik op de koppeling **[!UICONTROL Studenttranscripten]**.
 
@@ -34,22 +34,22 @@ Met Adobe Learning Manager kunnen de beheerders van een organisatie de transcrip
 
    >[!NOTE]
    >
-   >Standaard is de startdatum de registratiedatum van de student en is de einddatum altijd de huidige datum. U kunt alleen de begindatum wijzigen vanaf wanneer u de gegevens nodig hebt.
+   >Standaard is de startdatum de registratiedatum van de student en is de einddatum altijd de huidige datum. U kunt alleen wijzigen vanaf welke begindatum u de gegevens nodig hebt.
 
 1. Kies de namen van de studenten in het menu **[!UICONTROL Studenten selecteren]** en klik op **[!UICONTROL Genereren].**
-1. U kunt één student of groepen studenten kiezen. Als u meerdere studenten wilt toevoegen, klikt u op **[!UICONTROL Meer studenten toevoegen]**.
+1. U kunt kiezen voor één student of groepen studenten. Klik op **[!UICONTROL Meer studenten toevoegen]** om meer dan een student toe te voegen.
 
    ![](assets/add-learners-lt.png)
 
    *Meer studenten toevoegen*
 
-1. U kunt specifieke catalogi kiezen door het selectievakje in te schakelen. Transcript wordt alleen gedownload voor de opgegeven catalogi. U kunt specifieke catalogi kiezen door de catalogus te selecteren in het menu **[!UICONTROL Catalogi selecteren]** vervolgkeuzelijst.
+1. U kunt specifieke catalogi kiezen door het selectievakje in te schakelen. Transcript wordt alleen gedownload voor de gespecificeerde catalogi. U kunt specifieke catalogi kiezen door de catalogus te selecteren in het menu **[!UICONTROL Catalogi selecteren]** vervolgkeuzelijst.
 
    ![](assets/select-catalogs-lt.png)
 
-1. Bij het exporteren van Studenttranscripten is er een optie: **[!UICONTROL Inschrijvingsstatus]**. Deze vervolgkeuzelijst bevat de volgende opties:
+1. Bij het exporteren van Studenttranscripten is er een optie: **[!UICONTROL Inschrijvingsstatus]**. Dit dropdownmenu heeft de volgende opties:
 
-   * Alles selecteren
+   * Alle selecteren
    * Voltooid
    * In uitvoering
    * Niet gestart
@@ -67,14 +67,14 @@ Met Adobe Learning Manager kunnen de beheerders van een organisatie de transcrip
 
    *Studenttranscripten van verwijderde studenten downloaden*
 
-1. U kunt informatie op moduleniveau in het Studenttranscript downloaden door de optie &quot;**[!UICONTROL Informatie op moduleniveau inschakelen]**&quot;. In dit geval worden modulenamen en de tijd die aan elke module wordt besteed als onderdeel van het transcript opgehaald als deze optie is ingeschakeld.
+1. U kunt informatie op moduleniveau in het Studenttranscript downloaden door de optie &quot;**[!UICONTROL Informatie op moduleniveau inschakelen]**&quot;. Als deze optie is ingeschakeld worden modulenamen en de tijd die aan elke module is besteed, als deel van het transcript opgehaald.
 1. U kunt vaardigheidsgegevens en overzichtsbladen downloaden door de optie &quot;**[!UICONTROL Vaardigheidsgegevens en overzichtsbladen opnemen]**&quot;.
 
-   Transcripties worden als CSV-bestanden gegenereerd en naar uw computer gedownload wanneer de vaardigheidsgegevens niet worden opgenomen. Als het selectievakje Vaardigheden-gegevens is ingeschakeld, worden transcripten gegenereerd en gedownload.
+   Transcripten worden als CSV-bestanden gegenereerd en naar uw computer gedownload wanneer de vaardigheidsgegevens niet worden opgenomen. Als het selectievakje Vaardigheidsgegevens is ingeschakeld, worden transcripten als XLS-bestanden gegenereerd en gedownload.
 
-## Studenttranscript genereren met kopiëren en plakken
+## Studenttranscripten genereren met kopiëren en plakken
 
-Het ophalen van studenttranscripten wordt een vervelend proces, omdat het alleen voor een student of gebruikersgroep tegelijk kan worden verkregen. Met de functie Kopiëren en plakken kunt u de lijst met e-mailadressen van studenten kopiëren en in één keer plakken.
+Studenttranscripten ophalen is een moeizaam proces, omdat dit enkel voor één afzonderlijke student of gebruikersgroep per keer kan. Met de kopiëren- en plakkenfunctie kunt u nu in één keer de lijst met e-mail-ID&#39;s van studenten kopiëren en plakken.
 
 1. Aanmelden als een **[!UICONTROL Beheerder]** of **[!UICONTROL Manager]**.
 1. Ga naar **[!UICONTROL Rapporten]** krachtens **[!UICONTROL Beheren]**, wordt de **[!UICONTROL Gebruikersactiviteit]** pagina.
@@ -92,7 +92,7 @@ Het ophalen van studenttranscripten wordt een vervelend proces, omdat het alleen
 
    *E-mailadressen valideren*
 
-   Als de ingevoerde e-mail-ID onjuist is, wordt deze rood gemarkeerd, samen met een validatiebericht zoals hierboven.
+   Als een ingevoerd e-mail-ID onjuist is, wordt dit in het rood gemarkeerd met een validatiebericht, zoals hierboven.
 
    **[!UICONTROL Genereren]** Knop is alleen beschikbaar als alle ingevoerde e-mailadressen correct zijn.
 
@@ -100,7 +100,7 @@ Het ophalen van studenttranscripten wordt een vervelend proces, omdat het alleen
 
    *Studenttranscripten genereren*
 
-1. Klikken **[!UICONTROL Genereren]** om Studenttranscripten te genereren voor alle vermelde e-mail-ID&#39;s. U ontvangt hieronder een bevestigingsbericht met een melding van het genereren van het rapport.
+1. Klikken **[!UICONTROL Genereren]** om Studenttranscripten te genereren voor alle vermelde e-mail-ID&#39;s. U ontvangt een bevestigingsbericht zoals hieronder waarin de rapportgeneratie wordt bevestigd.
 
    ![](assets/cp-copy-paste-gmessage.png)
 
@@ -108,7 +108,7 @@ Het ophalen van studenttranscripten wordt een vervelend proces, omdat het alleen
 
    Het genereren van studenttranscripten kan worden gecombineerd voor e-mail-id&#39;s die onder beide **[!UICONTROL Gebruikers]** en **[!UICONTROL E-mail-id&#39;s]** tabblad.
 
-## Historie van downloads van studenttranscripten {#ltdownload}
+## Geschiedenis van studenttranscript downloaden {#ltdownload}
 
 Op de **[!UICONTROL Studenttranscript]** downloadpagina om een rapport te genereren wanneer u op de knop **[!UICONTROL Nieuw genereren]** in, wordt het dialoogvenster Studenttranscripten weergegeven.
 
@@ -116,15 +116,15 @@ Op de **[!UICONTROL Studenttranscript]** downloadpagina om een rapport te genere
 
 *Een rapport genereren van alle studenttranscripten*
 
-Klikken **[!UICONTROL Geavanceerde opties]** en breid het deelvenster uit.
+Klik op **[!UICONTROL Geavanceerde Opties]** en vouw het venster uit.
 
-Kies de gebruikers en de catalogus waartoe ze behoren. Nadat u op de knop **[!UICONTROL Genereren]** , wordt een dialoogvenster weergegeven waarin wordt aangegeven hoe lang het ongeveer duurt om het rapport te downloaden. Klik op **[!UICONTROL Genereren]**.
+Kies de gebruikers en de catalogus waartoe ze behoren. Nadat u op de knop **[!UICONTROL Genereren]** hebt geklikt, verschijnt een dialoogvenster met een schatting van de benodigde tijd voor het downloaden van het rapport. Klik op **[!UICONTROL Genereren]** om het rapport te genereren.
 
 ![](assets/download-learnertranscripts.png)
 
 *Selecteer de knop Genereren*
 
-Het transcript wordt op de achtergrond gegenereerd en u kunt doorgaan met uw taken in Leerbeheer. Zodra het transcript is gegenereerd, kunt u het transcript downloaden uit de lijst.
+Het transcript wordt op de achtergrond gegenereerd, zodat u uw taken in Learning Manager kunt voortzetten. Zodra het transcript is gegenereerd, kunt u het transcript uit de lijst downloaden.
 
 Als beheerder kunt u alle transcripten bekijken die door iedereen in het systeem zijn gegenereerd.
 
@@ -132,17 +132,17 @@ Als beheerder kunt u alle transcripten bekijken die door iedereen in het systeem
 
 *Geschiedenis van downloads weergeven*
 
-In de downloadlijst staan de volgende kenmerken:
+De lijst met downloads geeft de volgende attributen weer:
 
 * **Studenten:** De studenten/studentengroepen waarvan de transcripten moeten worden gedownload.
-* **Aanvullende gegevens opgenomen:** Afhankelijk van de extra gegevens die de beheerder wil downloaden van de optie Geavanceerd in het modale transcript voor studenten toevoegen
+* **Extra gegevens opgenomen:** afhankelijk van de extra gegevens die de beheerder wil downloaden via de optie Geavanceerd in het modale venster Studenttranscript toevoegen.
 * **Status:** Gedownload, in de wachtrij geplaatst of in uitvoering.
-* **Van** en **Aan**: Duur van de te downloaden transcripties.
-* **Toegepaste filters:** Of je de filters voor Inschrijvingsstatus hebt toegepast.
+* **Van** en **Tot**: duur van het downloaden van de transcripten.
+* **Toegepaste filters:** of u de filters voor inschrijfstatus hebt toegepast.
 * **Genereert door:** De gebruikers-id van de gebruiker van de Learning Manager die om het downloaden heeft verzocht.
 * **Status:** Gedownload, in de wachtrij geplaatst of in uitvoering.
 
-U kunt het downloaden op elk gewenst moment annuleren. Als een taak door de beheerder wordt geannuleerd, stuurt Leermanager een melding in de app naar de gebruiker die het studenttranscript heeft geactiveerd.
+U kunt de download op elk moment annuleren. Learning Manager verstuurt een in-app melding naar de gebruiker die het transcript van de student heeft geactiveerd, als de taak door de beheerder is geannuleerd.
 
 ![](assets/queued-status.png)
 
@@ -152,9 +152,9 @@ U kunt **annuleren** de download op elk gewenst moment. Als een taak wordt geann
 
 ## Gegevens van verwijderde studenten {#dataofdeletedlearners}
 
-U kunt de gegevens van verwijderde studenten opnemen in de lijst Studenttranscript. Schakel in het dialoogvenster Studenttranscripten de optie **[!UICONTROL Inclusief gegevens van verwijderde studenten]**.
+U kunt de gegevens van verwijderde studenten opnemen in de lijst met studenttranscripten. Schakel in het dialoogvenster Studenttranscripten de optie **[!UICONTROL Inclusief gegevens van verwijderde studenten]**.
 
-Nadat u de optie hebt ingeschakeld en op **[!UICONTROL Genereren]**, de verwijderde gegevensfuncties van de studenten op de downloadpagina van het Studenttranscript, zoals hieronder weergegeven:
+Nadat u de optie hebt ingeschakeld en op **[!UICONTROL Genereren]** hebt geklikt, staan de gegevens van verwijderde studenten op de downloadpagina Studenttranscript, zoals hieronder weergegeven:
 
 ![](assets/deleted-learnersondownloadpage.png)
 
@@ -162,7 +162,7 @@ Nadat u de optie hebt ingeschakeld en op **[!UICONTROL Genereren]**, de verwijde
 
 ## Kolommen aanpassen {#customize-columns-lt}
 
-Een beheerder kan de kolommen die zijn geëxporteerd in een studenttranscriptrapport aanpassen. Beheerders, aangepaste beheerders en managers kunnen de kolommen configureren voordat het rapport wordt geëxporteerd.
+Een beheerder kan de geëxporteerde kolommen in een studenttranscriptrapport aanpassen. Beheerders, aangepaste beheerders en managers kunnen de kolommen configureren voordat ze het rapport exporteren.
 
 Op de **[!UICONTROL Studenttranscripten]** dialoogvenster, klikken **[!UICONTROL Geavanceerde opties]**. In het dialoogvenster **[!UICONTROL Exportindeling configureren]** de kolommen kiezen die u wilt exporteren.
 
@@ -170,7 +170,7 @@ Op de **[!UICONTROL Studenttranscripten]** dialoogvenster, klikken **[!UICONTROL
 
 *Te exporteren kolommen aanpassen*
 
-Aanpassing is alleen toegestaan wanneer een gebruiker het Studenttranscript in CSV-indeling downloadt. Wanneer u het bestand in de XLSX-indeling downloadt, wordt de kolomvoorkeursselectie niet gerespecteerd en worden alle standaardkolommen geëxporteerd.
+Aanpassing is alleen toegestaan &#x200B;&#x200B;wanneer een gebruiker het studenttranscript in .csv-indeling downloadt. Als u downloadt in .xlsx-indeling, wordt er geen rekening gehouden met de selectie van kolomvoorkeuren en worden alle standaardkolommen geëxporteerd.
 
 ## Inhoud van het studenttranscriptbestand {#learnertranscriptfilecontent}
 
@@ -178,23 +178,23 @@ Een typisch studenttranscriptbestand bestaat uit zes Excel-bladen in één besta
 
 **Studenttranscript**
 
-In het Excel-blad van het studenttranscript worden naast profielgegevens over de student ook de consumptiedetails van leerobjecten gegeven, zoals inschrijvingsdatum, startdatum, behaalde graad, behaalde quizscore. Als cursussen deel uitmaken van een leerprogramma, worden ze apart vermeld, los van de individuele gegevens over het cursusverbruik.
+Naast profielgegevens van de student staan in het Excel-blad van het studenttranscript details van gevolgde leerobjecten, zoals inschrijvingsdatum, startdatum, behaalde cijfers en behaalde quizscore. Als cursussen deel uitmaken van een leerprogramma, worden ze apart vermeld, los van de individuele gegevens over het cursusverbruik.
 
 **1- Dashboard Leeractiviteit**
 
-In dit LO-specifieke dashboard kunt u het aantal studenten voor elke cursus, leerprogramma of certificering bekijken. U kunt het voortgangsblad voor studenten voor een bepaald leerobject bekijken. Op dit blad staan gegevens zoals het aantal studenten dat de cursus of het leerprogramma heeft voltooid, de studenten die bezig zijn en de vervaldatums van de studenten.
+Op dit LO-specifieke dashboard ziet u het aantal studenten per cursus, leerprogramma of certificering. U kunt het voortgangsblad voor studenten voor een bepaald leerobject bekijken. Op dit blad staan gegevens zoals het aantal studenten dat de cursus of het leerprogramma heeft voltooid, studenten die nog bezig zijn en de vervaldatums voor studenten.
 
-De voortgang van gebruikers voor de specifieke cursus wordt berekend op basis van de invoervelden waarin u de vervaldatum en drempels voor voortgangspercentages opgeeft. Als u bijvoorbeeld 7 dagen en 70% opgeeft als de waarden in uw invoerveld, wordt de voortgang van de cursus weergegeven voor cursussen die over 7 dagen moeten worden afgerond en voor cursussen die meer dan 70% vooruit zijn. U kunt ook de tijdsperiode wijzigen in dit blad, waar de gewijzigde gegevens automatisch worden weergegeven op dit dashboard.
+De voortgang van de gebruikers voor de specifieke cursus wordt berekend op basis van de invoervelden waar u de vervaldatum en drempels voor voortgangspercentages opgeeft. Als u bijvoorbeeld 7 dagen en 70% als de waarden in uw invoerveld opgeeft, wordt de cursusvoortgang voor cursussen die over 7 dagen moeten zijn afgerond en voor cursussen waarvoor meer dan 70% vooruitgang is geboekt, weergegeven. U kunt in dit blad ook de tijdperiode wijzigen. De gewijzigde gegevens worden vervolgens automatisch op dit dashboard weergegeven.
 
-**2 - Dashboard Leeractiviteit**
+**2- Dashboard Leeractiviteit**
 
-Dit dashboard toont gegevens voor een specifieke gebruiker. Vanuit dit dashboard kunt u de cursussen, leerprogramma&#39;s of certificeringen zien waarvoor een bepaalde gebruiker zich heeft ingeschreven. De tabel bevat ook gegevens over de leerobjecten die de gebruiker heeft voltooid, de leerobjecten die worden uitgevoerd en de aanstaande vervaldatums voor de gebruiker.
+Dit dashboard toont gegevens voor een specifieke gebruiker. Via dit dashboard kunt u zien voor welke cursussen, leerprogramma&#39;s of certificeringen een bepaalde gebruiker zich heeft ingeschreven. De tabel toont ook gegevens over de leerobjecten die de gebruiker heeft voltooid, de lopende leerobjecten en aanstaande vervaldatums voor de gebruiker.
 
-De voortgang van de gebruikers voor elke cursus wordt berekend op basis van de invoer die u opgeeft. Dat wil zeggen, de vervaldatum en het voortgangspercentage. Als u bijvoorbeeld 7 dagen en 70% opgeeft als de waarden in uw invoerveld, wordt de voortgang van de gebruiker weergegeven voor verschillende cursussen die over 7 dagen moeten worden afgerond en voor cursussen die meer dan 70% vooruit zijn.
+De voortgang van de gebruikers voor elke cursus wordt berekend op basis van de ingangen die u opgeeft. Dat wil zeggen, de vervaldatum en voortgangspercentages. Als u bijvoorbeeld 7 dagen en 70% als de waarden in uw invoerveld opgeeft, wordt de cursusvoortgang van de gebruiker voor verschillende cursussen die over 7 dagen moeten zijn afgerond en voor cursussen waarvoor meer dan 70% vooruitgang is geboekt, weergegeven.
 
 **Vaardigheid**
 
-Op het vaardighedenblad staan de vaardigheidsnaam, het vaardigheidsniveau, de vereiste studiepunten, de behaalde studiepunten, het voltooiingspercentage en andere profielgegevens. Hieronder vindt u ter referentie een voorbeeld van het vaardighedenExcel-blad.
+Op het vaardighedenblad staan de vaardigheidsnaam, het vaardigheidsniveau, de vereiste studiepunten, de behaalde studiepunten, het voltooiingspercentage en andere profielgegevens. Hieronder ziet u ter referentie een voorbeeld van een vaardighedenblad in Excel.
 
 ![](assets/skills-learner-transcript.png)
 
@@ -202,31 +202,31 @@ Op het vaardighedenblad staan de vaardigheidsnaam, het vaardigheidsniveau, de ve
 
 **1- Dashboard Vaardigheden**
 
-In dit dashboard kunt u zien of uw organisatie is uitgerust met verschillende vaardigheden. Voor een specifieke vaardigheid kunt u het aantal gebruikers in een organisatie controleren die geacht worden deze vaardigheid te hebben versus het aantal gebruikers dat de vaardigheid daadwerkelijk heeft. Dit dashboard geeft ook aan welke gebruikers hun vaardigheden moeten vernieuwen. Deze waarde wordt berekend op basis van de invoer die u invoert in het invoerveld. Als u bijvoorbeeld 50 dagen invoert, bevat het dashboard gegevens over gebruikers die hun vaardigheden na 50 dagen moeten vernieuwen.
+Op dit dashboard kunt u zien of uw organisatie over verschillende vaardigheden beschikt. U kunt voor een specifieke vaardigheid controleren hoeveel gebruikers in een organisatie geacht worden deze vaardigheid te hebben, tegenover het aantal gebruikers dat de vaardigheid daadwerkelijk heeft. Dit dashboard geeft ook aan welke gebruikers hun vaardigheden moeten opfrissen. Deze waarde wordt berekend op basis van wat u in het invoerveld invoert. Als u bijvoorbeeld 50 dagen invoert, toont het dashboard gegevens van gebruikers die over 50 dagen hun vaardigheden moeten opfrissen.
 
 **2- Dashboard Vaardigheden**
 
-Dit vaardigheidsdashboard is meer gebruikersspecifiek. U kunt een specifieke gebruiker of meerdere gebruikers filteren en hun vaardigheidsniveau als een dashboard bekijken. Dit blad kan managers en beheerders helpen bij het volgen van de vaardigheden van elke student in vergelijking met de vaardigheden die ze moeten hebben. Het dashboard Vaardigheden laat ook zien welke studenten hun vaardigheden moeten vernieuwen. De lijst voor het vernieuwen van studenten wordt berekend op basis van het aantal dagen dat u in het invoerveld invoert.
+Dit vaardighedendashboard is meer gebruikersspecifiek. U kunt hier filteren op een specifieke gebruiker of meerdere gebruikers en hun vaardigheidsniveau als een dashboard bekijken. Dit blad kan managers en beheerders helpen om de vaardigheidsniveaus van iedere student bij te houden ten opzichte van het niveau dat van hen wordt verwacht. Het dashboard Vaardigheden laat ook zien welke studenten hun kennis moeten opfrissen. De lijst met studenten die hun kennis moeten opfrissen, wordt berekend op basis van het aantal dagen dat u in het invoerveld opgeeft.
 
 **Dashboard Naleving**
 
-Het dashboard Naleving bestaat uit twee delen: nalevingsrapport per gebruiker en nalevingsrapport per training. Voor het op gebruikers gebaseerde rapport kunt u het dashboard Naleving gebruiken om gebruikers bij te houden met aanstaande vervaldatums voor belangrijke nalevingsinitiatieven. Voor het trainingsgebaseerde rapport kunt u filteren op leerprogramma of certificering.
+Het dashboard Naleving bestaat uit twee delen - nalevingsrapport per gebruiker en nalevingsrapport per training. Voor het gebruikersgebaseerde rapport aan de hand van het dashboard Naleving gebruikers volgen met aanstaande vervaldatums voor belangrijke nalevingsinitiatieven. Voor het trainingsgebaseerde rapport kunt u op leerprogramma of certificering filteren.
 
-Voor beide compatibiliteitsrapporten filtert u op de vervaldatum om de juiste gegevens te bekijken.
+Filter voor beide nalevingsrapporten op de vervaldatum om de relevante gegevens te bekijken.
 
 ### Tijd- en datumkolommen in het transcript {#datetime}
 
-De waarden in de volgende kolommen hebben minuten afgerond tot op de dichtstbijzijnde minuut en seconden tot op 00:
+De minuten van de waarden in de volgende kolommen worden afgrond tot op de dichtstbijzijnde minuut en de seconden worden afgerond op 00:
 
-* Inschrijvingsdatum (UTC-tijdzone)
-* Begindatum (UTC-tijdzone)
-* Voltooiingsdatum (UTC-tijdzone)
+* Inschrijvingsdatum (tijdzone UTC)
+* Datum gestart (tijdzone UTC)
+* Voltooiingsdatum (tijdzone UTC)
 
 ![](assets/time-columns-in-thetranscript.png)
 
 *Tijd- en datumkolommen op het Excel-werkblad*
 
-### Moduleduur en id-kolommen in het transcript {#moduledurationandidcolumnsinthetranscript}
+### Tijdsduur van de module en ID-kolommen in het transcript {#moduledurationandidcolumnsinthetranscript}
 
 Het Studenttranscript geeft ook de kolommen weer: **[!UICONTROL Moduleduur]** en **[!UICONTROL ID]**.
 
@@ -238,14 +238,14 @@ Het Studenttranscript geeft ook de kolommen weer: **[!UICONTROL Moduleduur]** en
 
 | **Kolom** | **Beschrijving** |
 |---|---|
-| Na | Aantal studenten dat de vaardigheid heeft bereikt vóór het ingevoerde (waarde) aantal dagen dat moet worden vernieuwd |
-| Vaardigheid | De vaardigheidsnamen die aan studenten zijn toegewezen |
-| Naam manager | De managernaam waarvan de ondergeschikte gegevens van de vaardigheidsingenieurstoepassing op de de overzichtstabel van de Vaardigheid moeten worden getoond |
-| Rijlabels | De naam van de student met de toegewezen lijst Vaardigheden |
-| Aantal vaardigheden dat elke gebruiker moet hebben | Aantal vaardigheden dat aan de student is toegewezen |
-| Aantal vaardigheden dat elke gebruiker heeft | Aantal door de student behaalde vaardigheden |
-| Aantal vaardigheden dat moet worden vernieuwd | Aantal studenten waarvan vaardigheden moeten worden vernieuwd |
-| Percentage naleving | Het voortgangspercentage van de toegewezen vaardigheid |
+| Na | Het aantal studenten dat de vaardigheid heeft behaald vóór de ingevoerde (waarde) aantal dagen en deze moet opfrissen |
+| Vaardigheid | De namen van vaardigheden die zijn toegewezen aan studenten |
+| Naam van manager | De naam van de manager van wie de vaardigheidsgegevens van zijn of haar ondergeschikten moeten worden getoond in de samenvattingstabel Vaardigheden |
+| Rijlabels | De naam van de student met de toegewezen vaardigheden |
+| Aantal vaardigheden dat elke gebruiker moet hebben | Aantal aan de student toegewezen vaardigheden |
+| Aantal vaardigheden dat elke gebruiker heeft | Aantal vaardigheden behaald door de student |
+| Aantal vaardigheden dat moet worden opgefrist | Aantal studenten dat vaardigheden moet opfrissen |
+| Nalevingspercentage | Het vooruitgangspercentage van de toegewezen vaardigheid |
 | Ingesloten pad | In deze rijen wordt de naam van het ingesloten leerprogramma weergegeven. |
-| Ingesloten pad-id | In deze rijen worden de id&#39;s van het ingesloten leerprogramma weergegeven |
-| Ingesloten padtaal | Deze rijen geven de taal weer waarin het leerprogramma is gemaakt. |
+| Ingesloten pad-ID | In deze rijen worden de id&#39;s van het ingesloten leerprogramma weergegeven |
+| Taal ingesloten pad | Deze rijen tonen de taal waarin het leerprogramma is opgesteld. |

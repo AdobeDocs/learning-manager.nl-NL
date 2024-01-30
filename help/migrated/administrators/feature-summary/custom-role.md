@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '2224'
-ht-degree: 0%
+ht-degree: 64%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 Met deze functie kunt u aangepaste rollen definiëren en specifieke verantwoordelijkheden toewijzen aan een gebruikersset. Met deze functie kunt u verantwoordelijkheden toewijzen die buiten de bestaande rol van de persoon vallen.
 
-U kunt een aangepaste rol maken om ontwerpmogelijkheden te bieden die beperkt zijn tot een bepaalde catalogus. U kunt ook een rol maken voor het beheren van rapporten. Dergelijke rollen kunnen vervolgens worden toegewezen aan personen die geacht worden deze specifieke verantwoordelijkheden op zich te nemen.
+U kunt een aangepaste rol maken om auteursmogelijkheden te bieden die beperkt zijn tot een bepaalde catalogus. U kunt ook een rol maken voor rapportagebeheer. Dergelijke rollen kunnen dan worden toegewezen aan personen die geacht worden deze specifieke verantwoordelijkheden op zich te nemen.
 
 ## Een aangepaste rol maken {#create-role}
 
 1. Meld u aan als beheerder. Openen **[!UICONTROL Gebruikers]** > **[!UICONTROL Aangepaste rol]**.
-1. Selecteren **[!UICONTROL Rol maken]**. De **[!UICONTROL Nieuwe rol maken]** wordt geopend.
+1. Selecteren **[!UICONTROL Rol maken]**. Het tabblad **[!UICONTROL Nieuwe rol maken]** wordt geopend.
 
    ![](assets/create-new-role.png)
 
    *Een aangepaste rol maken*
 
 1. Voer de naam in het dialoogvenster **[!UICONTROL Naam van de rol]** veld.
-1. **[!UICONTROL Accountbevoegdheden]**: Deze bevoegdheden geven de roleigenaars toegang tot specifieke aspecten van de systeemconfiguratie en die op het gehele account werken. Kies de toegangsrechten. De gebruiker krijgt volledige controle over de toegewezen machtigingen.
+1. **[!UICONTROL Accountbevoegdheden]**: Deze bevoegdheden geven de roleigenaars toegang tot specifieke aspecten van de systeemconfiguratie en die op het gehele account werken. Kies de toegangsrechten. De gebruiker krijgt volledige controle over de toegewezen rechten.
 
 >[!NOTE]
 >
@@ -39,11 +39,11 @@ U kunt een aangepaste rol maken om ontwerpmogelijkheden te bieden die beperkt zi
 
 *Bereik instellen*
 
-1. **Functiebevoegdheden - Kernfuncties**: Wordt gebruikt om toegang te verlenen tot specifieke functies voor het beheer van leeractiviteiten. Met deze optie kunt u machtigingen voor de volgende functies geven.
+1. **Functiebevoegdheden - Kernfuncties**: Wordt gebruikt om toegang te verlenen tot specifieke functies voor het beheer van leeractiviteiten. Met deze optie kan toestemming worden gegeven voor de volgende functies.
 
    * Catalogi
    * Rapporten
-   * Labels
+   * Tags
 
    ![](assets/core-features.png)
 
@@ -56,7 +56,7 @@ U kunt een aangepaste rol maken om ontwerpmogelijkheden te bieden die beperkt zi
    * Taakhulpen
    * Leerprogramma&#39;s
 
-   U kunt ook specifieke besturingselementen voor de LO&#39;s toekennen. De machtiging kan een van de volgende zijn:
+   U kunt ook specifieke besturingselementen voor de LO&#39;s toekennen. De toestemming kan een van de volgende zijn:
 
    * Volledig beheer
    * Bewerken en verwijderen
@@ -69,15 +69,15 @@ U kunt een aangepaste rol maken om ontwerpmogelijkheden te bieden die beperkt zi
 
 1. **Bereik voor functiebevoegdheden:** Het bereik van de functiebevoegdheden die aan deze rol zijn toegewezen, kan worden beperkt tot een specifieke gebruikersgroep of een of meer catalogi.
 
-   Catalogi: gebruik het keuzerondje om controle te verschaffen over **[!UICONTROL Alle catalogi]** of gebruik de **[!UICONTROL Toegang per catalogus instellen]** om toegang tot specifieke catalogi te verlenen. U kunt ook meerdere catalogi selecteren.
+   Catalogi: gebruik het keuzerondje om controle te geven over **[!UICONTROL Alle catalogi]** of gebruik de optie **[!UICONTROL Toegang instellen per catalogus]** om toegang te bieden tot specifieke catalogi. U kunt ook meerdere catalogi selecteren.
 
-   Gebruikersgroepen: toegang verlenen tot **[!UICONTROL Alle gebruikersgroepen]** of gebruik de **[!UICONTROL Toegang per gebruikersgroep instellen]** om toegang te verlenen tot specifieke gebruikersgroepen. Er kan slechts één gebruikersgroep worden opgegeven.
+   Gebruikersgroepen: verleen toegang tot **[!UICONTROL Alle gebruikersgroepen]** of gebruik de optie **[!UICONTROL Toegang instellen per gebruikersgroep]** om toegang te verlenen tot specifieke gebruikersgroepen. Er kan slechts één enkele gebruikersgroep worden opgegeven.
 
    >[!NOTE]
    >
    >Als u Aankondiging, Gamification, E-mailsjablonen, Vaardigheden en Gebruikers onder Accountbevoegdheden hebt geselecteerd, wordt de toegang tot de gebruikersgroep standaard aan alle gebruikersgroepen verleend en is deze optie uitgeschakeld.
 
-   Als u leerplannen hebt geselecteerd onder Accountbevoegdheden, wordt standaard toegang tot alle catalogi en gebruikersgroepen geboden en zijn deze opties onder Bereik uitgeschakeld.
+   Als u leerplannen hebt geselecteerd onder Accountbevoegdheden, wordt standaard toegang tot alle catalogi en gebruikersgroepen verstrekt en zijn deze opties onder Omvang uitgeschakeld.
 
    ![](assets/define-scope-of-privileges.png)
 
@@ -85,13 +85,13 @@ U kunt een aangepaste rol maken om ontwerpmogelijkheden te bieden die beperkt zi
 
 >[!NOTE]
 >
->   In Learning Manager 27.6 kunt u een aangepaste rol maken die via meerdere catalogi moet worden behandeld, waarbij aan elke catalogus verschillende machtigingen worden toegekend.
+>   In Learning Manager 27.6 kunt u een aangepaste rol voor meerdere catalogi instellen, waarbij aan elke catalogus verschillende machtigingen worden toegewezen.
 
 
-Volg de onderstaande stappen om verschillende machtigingen voor de catalogi te verlenen:
+Volg de onderstaande stappen om verschillende machtigingen aan de catalogi toe te wijzen:
 
-1. Klik op de optie **[!UICONTROL Toegang per catalogus instellen]**.
-1. Kies de catalogi en u kunt het machtigingsniveau voor elke catalogus zien. De machtigingen zijn als volgt:
+1. Klik op de optie **[!UICONTROL Toegang instellen per catalogus]**.
+1. Kies de catalogi om het machtigingenniveau voor elke catalogus zien. De machtigingen zijn als volgt:
 
    <table>
         <tbody>
@@ -105,7 +105,7 @@ Volg de onderstaande stappen om verschillende machtigingen voor de catalogi te v
           <td>
           <p>Volledig beheer</p></td>
           <td>
-          <p>Hiermee krijgt u volledige controle over alle leerobjecten. Machtigingen omvatten Toevoegen, Bewerken, Verwijderen, Lezen, Inschrijven en Rapport.<br></p></td>
+          <p>Geeft Volledig beheer over alle leerobjecten. Machtigingen zijn onder andere Toevoegen, Bewerken, Verwijderen, Lezen, Inschrijven en Rapporteren.<br></p></td>
         </tr>
         <tr>
           <td>
@@ -117,39 +117,39 @@ Volg de onderstaande stappen om verschillende machtigingen voor de catalogi te v
           <td>
           <p>Inschrijven</p></td>
           <td>
-          <p>Geeft alleen machtigingen om u voor het leerobject in te schrijven.</p></td>
+          <p>Verleent machtigingen voor inschrijving voor het leerobject.</p></td>
         </tr>
         <tr>
           <td>
-          <p>Alleen-lezen</p></td>
+          <p>Alleen lezen</p></td>
           <td>
-          <p>Geeft toestemming om alleen de leerobjecten in de catalogus weer te geven.</p></td>
+          <p>Verleent machtigingen waarmee leerobjecten in de catalogus alleen bekeken kunnen worden.</p></td>
         </tr>
         </tbody>
       </table>
 
-1. Schakel de machtigingen naar wens in of uit.
-1. Klik op **[!UICONTROL OK]**. Klik vervolgens op **[!UICONTROL Opslaan]**.
+1. Schakel de machtigingen in of uit afhankelijk van uw vereisten.
+1. Klik op **[!UICONTROL Opslaan]** om de wijzigingen op te slaan. Klik vervolgens op **[!UICONTROL Opslaan]** om de wijzigingen voor de aangepaste rol op te slaan.
 
-Neem bijvoorbeeld het volgende scenario.
+Kijk bijvoorbeeld eens naar het volgende scenario.
 
-De resulterende machtiging die een aangepaste gebruiker op een leerobject zou hebben, is een doorsnede van de leerobjectmachtiging en catalogusmachtiging.
+De resulterende machtiging die een aangepaste gebruiker voor een leerobject zou hebben, is een doorsnede van de leerobject- en catalogusmachtiging.
 
-Een aangepaste gebruiker heeft Volledige machtiging voor cursussen en alleen Leestoegang voor catalogus A, maar Volledige machtiging voor catalogus B. De resultaten zijn Alleen-lezen toegang tot de cursussen van Catalogus A en Volledig beheer over de cursussen van Catalogus B.
+Een aangepaste gebruiker heeft Volledige machtiging voor cursussen en enkel Alleen lezen-toegang voor catalogus A, maar Volledige machtiging voor catalogus B. Het resultaat is Alleen lezen-toegang voor de cursussen van catalogus A en Volledig beheer over de cursussen van catalogus B.
 
 Een gebruiker met een aangepaste rol kan:
 
-* Alleen inhoud weergeven van de catalogi waartoe hij/zij toegang heeft.
-* Open een leerobject op basis van de machtigingen van de catalogus waarin het leerobject is opgenomen.
+* alleen inhoud bekijken van de catalogi waartoe hij/zij toegang heeft.
+* Toegang tot elk leerobject op basis van de machtigingen van de catalogus waar het leerobject deel van uitmaakt.
 
 Als beheerder kunt u:
 
-* Kies meerdere catalogi voor een aangepaste rol.
-* U kunt de machtigingen van een catalogus op elk gewenst moment wijzigen.
-* Verwijder de catalogi uit een bereik waarvoor u geen machtigingen meer wilt verlenen.
-* Toestemming voor alleen lezen impliciet verlenen aan een catalogus wanneer u machtigingen voor de catalogus verleent.
+* meer dan een catalogus voor een aangepaste rol kiezen.
+* de machtigingen van een catalogus op elk moment wijzigen.
+* de catalogi verwijderen uit een bereik waarvoor u niet langer machtigingen wilt verlenen.
+* een impliciete Alleen lezen-machtiging voor een catalogus verlenen, wanneer u machtigingen voor de catalogus verleent.
 
-In de onderstaande tabel wordt aangegeven hoe machtigingen worden verleend.
+De onderstaande tabel illustreert hoe de machtigingen worden verleend.
 
 <table>
     <tbody>
@@ -162,7 +162,7 @@ In de onderstaande tabel wordt aangegeven hoe machtigingen worden verleend.
      <tr>
       <td>
        <p><strong>Machtiging op leerobjectniveau</strong></p>
-       <p><strong>(Voorbeeld: cursussen)</strong></p></td>
+       <p><strong>(Bijv.: Cursussen)</strong></p></td>
       <td>
        <p>Volledig beheer</p></td>
       <td>
@@ -170,7 +170,7 @@ In de onderstaande tabel wordt aangegeven hoe machtigingen worden verleend.
       <td>
        <p>Rapport</p></td>
       <td>
-       <p>Alleen-lezen</p></td>
+       <p>Alleen lezen</p></td>
      </tr>
      <tr>
       <td>
@@ -182,7 +182,7 @@ In de onderstaande tabel wordt aangegeven hoe machtigingen worden verleend.
       <td>
        <p>Rapport</p></td>
       <td>
-       <p>Alleen-lezen</p></td>
+       <p>Alleen lezen</p></td>
      </tr>
      <tr>
       <td>
@@ -192,9 +192,9 @@ In de onderstaande tabel wordt aangegeven hoe machtigingen worden verleend.
       <td>
        <p>Inschrijven</p></td>
       <td>
-       <p>Alleen-lezen</p></td>
+       <p>Alleen lezen</p></td>
       <td>
-       <p>Alleen-lezen</p></td>
+       <p>Alleen lezen</p></td>
      </tr>
      <tr>
       <td>
@@ -202,11 +202,11 @@ In de onderstaande tabel wordt aangegeven hoe machtigingen worden verleend.
       <td>
        <p>Bewerken en verwijderen</p></td>
       <td>
-       <p>Alleen-lezen</p></td>
+       <p>Alleen lezen</p></td>
       <td>
-       <p>Alleen-lezen</p></td>
+       <p>Alleen lezen</p></td>
       <td>
-       <p>Alleen-lezen</p></td>
+       <p>Alleen lezen</p></td>
      </tr>
      <tr>
       <td>
@@ -214,11 +214,11 @@ In de onderstaande tabel wordt aangegeven hoe machtigingen worden verleend.
       <td>
        <p>Rapport</p></td>
       <td>
-       <p>Alleen-lezen</p></td>
+       <p>Alleen lezen</p></td>
       <td>
        <p>Rapport</p></td>
       <td>
-       <p>Alleen-lezen</p></td>
+       <p>Alleen lezen</p></td>
      </tr>
     </tbody>
    </table>
@@ -228,28 +228,28 @@ In de onderstaande tabel wordt aangegeven hoe machtigingen worden verleend.
 
 CustomRole columnNote:
 
-* U kunt niet zoeken in gebruikersgroepen.
-* U kunt niet zoeken naar gebruikers waaraan al een beheerdersrol is toegewezen.
+* U kunt geen gebruikersgroepen zoeken.
+* U kunt geen gebruikers zoeken die al een beheerderrol toegewezen gekregen hebben.
 * Het toewijzen van een nieuwe aangepaste rol aan een gebruiker heeft voorrang op de vorige aangepaste rol van de gebruiker.
 
 <!--![](assets/users.png)-->
 
 * Een aangepaste beheerder met de machtiging Instellingen kan het schema configureren voor synchronisatie of synchronisatie van gebruikers vanuit de gegevensbron, zelfs als deze geen toestemming hebben voor de gebruikersentiteit.
-* Als een aangepaste beheerder machtigingen heeft voor de gebruikersentiteit, kunnen ze de beheerdersrol aan zichzelf toewijzen en een standaardbeheerder worden.
+* Als een aangepaste beheerder toestemming heeft voor de gebruikersentiteit, kan hij of zij zichzelf de rol van beheerder toewijzen en een standaardbeheerder worden.
 
-## Maptoegang voor aangepaste auteurs beperken {#folder-custom-author}
+## Toegang tot mappen beperken voor aangepaste auteurs {#folder-custom-author}
 
-Leerbeheer ondersteunt al de mogelijkheid om toegang te verlenen tot de inhoudsbibliotheek met behulp van aangepaste rollen. Alle aangepaste auteurs die al toegang hebben tot de inhoudsbibliotheek, blijven toegang tot alle inhoudsbestanden hebben, zelfs nadat de inhoudsmappen zijn geconfigureerd. Dit is om het oude gedrag te behouden. Beheerders hoeven geen wijzigingen aan te brengen voor het geval ze het huidige gedrag willen blijven gebruiken.
+Leerbeheer ondersteunt al de mogelijkheid om toegang te verlenen tot de inhoudsbibliotheek met behulp van aangepaste rollen. Alle aangepaste auteurs die al toegang hebben tot de inhoudsbibliotheek, blijven toegang tot alle inhoudsbestanden hebben, zelfs nadat de inhoudsmappen zijn geconfigureerd. Zo kunnen ze verder met hun bestaand gedrag. Beheerders hoeven geen wijzigingen aan te brengen voor het geval ze het huidige gedrag willen blijven gebruiken.
 
 Als beheerders de toegang tot deze aangepaste auteurs willen beperken, moeten ze de bestaande aangepaste rol bewerken en configureren door alleen toegang te bieden tot specifieke inhoudsmappen.
 
 ![](assets/folder-access-forcustomauthors.png)
 
-*Maptoegang voor aangepaste auteurs beperken*
+*Toegang tot mappen beperken voor aangepaste auteurs*
 
-Tijdens het maken van een aangepaste auteur kunt u nu inhoudsmappen aan de auteur toewijzen. Kies de optie **Geselecteerde mappen**.
+Terwijl u een aangepaste auteur aanmaakt, kunt u nu inhoudsmappen aan de auteur toewijzen. Kies de optie **Geselecteerde mappen**.
 
-Nadat u op de optie hebt geklikt, wordt een nieuw dialoogvenster geopend waarin u de mappen kunt toewijzen aan de aangepaste auteur.
+Nadat u op de optie hebt geklikt, verschijnt een nieuw dialoogvenster waarin u de mappen aan de aangepaste auteur kunt toewijzen.
 
 ![](assets/choose-folder.png)
 
@@ -257,7 +257,7 @@ Nadat u op de optie hebt geklikt, wordt een nieuw dialoogvenster geopend waarin 
 
 Kies de mappen en klik op **[!UICONTROL OK]**.
 
-## Learning Summary Dashboard voor aangepaste beheerder {#custom-admin-dashboard}
+## Dashboard met overzicht van leermateriaal voor aangepaste beheerder {#custom-admin-dashboard}
 
 Aangepaste beheerders kunnen dezelfde weergave zien als de beheerder. Een aangepaste beheerder kan gegevens buiten dit bereik plaatsen. Dit is alleen van toepassing als de aangepaste beheerder een volledig bereik heeft. Als u een volledig bereik wilt toekennen terwijl u een aangepaste beheerder maakt, schakelt u de optie **[!UICONTROL Volledig beheer]** in het rapport Accountoverzicht.
 
@@ -271,7 +271,7 @@ Als gevolg hiervan zijn de opties **[!UICONTROL Alle catalogi]** en **[!UICONTRO
 
 *Omvang van rechten definiëren*
 
-## Impliciete machtigingen {#implicitpermissions}
+## Impliciete toestemmingen {#implicitpermissions}
 
 Wanneer een gebruiker een rol krijgt toegewezen aan een specifieke entiteit, kunnen er gevallen zijn waarin hij/zij toegang moet hebben tot andere entiteiten om taken op de toegewezen entiteit te kunnen uitvoeren. Als een gebruiker bijvoorbeeld toegang tot Maken krijgt op cursusentiteit, hebben ze toegang nodig tot Vaardigheid- en Tag-entiteiten zodat ze deze kunnen koppelen aan de cursus die wordt gemaakt. Deze lijsten geven u informatie van dergelijke impliciete toestemmingen.
 
@@ -284,65 +284,65 @@ Wanneer een gebruiker een rol krijgt toegewezen aan een specifieke entiteit, kun
    <th>Impliciete toegang</th>
   </tr>
   <tr>
-   <td>Beheren</td>
+   <td>Beheer</td>
    <td>Gebruiker</td>
    <td>Groep</td>
    <td>Crud</td>
   </tr>
   <tr>
    <td>Inschrijven</td>
-   <td>Alle verliezen (cursus, taakhulp, leerprogramma, certificering)</td>
+   <td>Alle IO’s (cursus, taakhulp, leerprogramma, certificering)</td>
    <td>Gebruiker<br>
      Leerplan</td>
-   <td>Lezen</td>
+   <td>Lees</td>
   </tr>
   <tr>
-   <td>Maken</td>
+   <td>Creëer</td>
    <td>
     <p>Inhoudsgroep<br>
       Taakhulp<br></p></td>
    <td>Tag</td>
-   <td>Lezen</td>
+   <td>Lees</td>
   </tr>
   <tr>
-   <td>Maken</td>
+   <td>Creëer</td>
    <td>Cursus</td>
    <td>Inhoudsgroep<br>
      Tag<br>
      Vaardigheid<br>
      Badge<br>
      Taakhulp</td>
-   <td>Alles lezen</td>
+   <td>Lees op alle</td>
   </tr>
   <tr>
-   <td>Maken</td>
+   <td>Creëer</td>
    <td>Leerprogramma<br>
      Certificering<br></td>
    <td>Cursus<br>
      Tag<br>
      Vaardigheid<br>
      Badge</td>
-   <td>Lezen</td>
+   <td>Lees</td>
   </tr>
   <tr>
-   <td>Maken</td>
+   <td>Creëer</td>
    <td>Leerplan</td>
    <td>Catalogus<br>
      Groep<br>
      Vaardigheid<br>
      Alle verliezen (cursus, taakhulp, leerprogramma, certificering)</td>
-   <td>Lezen</td>
+   <td>Lees</td>
   </tr>
   <tr>
-   <td>Maken</td>
+   <td>Creëer</td>
    <td>Aankondiging</td>
    <td>Gebruiker<br>
      Groep<br>
      Alle verliezen (cursus, taakhulp, leerprogramma, certificering)</td>
-   <td>Lezen</td>
+   <td>Lees</td>
   </tr>
   <tr>
-   <td>Maken</td>
+   <td>Creëer</td>
    <td>Gamification</td>
    <td>Branding</td>
    <td>Schrijven</td>
@@ -351,135 +351,135 @@ Wanneer een gebruiker een rol krijgt toegewezen aan een specifieke entiteit, kun
    <td>*</td>
    <td>Gebruiker</td>
    <td>Facturering</td>
-   <td>Lezen</td>
+   <td>Lees</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Catalogus</td>
    <td>Groep<br>
      Alle verliezen (cursus, taakhulp, leerprogramma, certificering)</td>
-   <td>Lezen</td>
+   <td>Lees</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Instelling</td>
    <td>Branding<br>
      Gebruiker</td>
-   <td>Lezen</td>
+   <td>Lees</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Branding</td>
    <td>Instelling</td>
-   <td>Lezen</td>
+   <td>Lees</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Facturering<br>
      Gamification</td>
    <td>Gebruiker</td>
-   <td>Lezen</td>
+   <td>Lees</td>
   </tr>
  </tbody>
 </table>
 
-## Een aangepaste rol openen {#accessacustomrole}
+## Toegang tot een aangepaste rol {#accessacustomrole}
 
-Wanneer een beheerder een aangepaste rol toewijst, ontvangt u een e-mailmelding.
+Wanneer een beheerder een aangepaste rol toewijst, ontvangt u een e-mailbericht.
 
-Opmerking: als u al bent aangemeld bij de Learning Manager met een aangepaste rol, moet u zich opnieuw aanmelden bij de Learning Manager om toegang te krijgen tot de nieuwe rol.
+Opmerking: Als u al bent ingelogd bij Learning Manager onder een aangepaste rol, moet u zich opnieuw aanmelden bij Learning Manager om toegang te krijgen tot de nieuwe rol.
 
-Als u wilt schakelen tussen rollen, klikt u op het profielpictogram in de rechterbovenhoek van Leermanager en selecteert u de rol.
+Klik in de rechterbovenhoek van Learning Manager op uw profielpictogram en selecteer de rol als u tussen rollen wilt schakelen.
 
-## Leerplannen met configureerbare rollen {#scopeconfigure}
+## Bereik van leerprogramma’s op basis van rollen {#scopeconfigure}
 
-In eerdere versies van Leermanager kon elke aangepaste rol met toestemming om leerplannen te maken, het leerplan voor alle typen gebruikersgroepen en leerobjecten omvatten.
+In eerdere versies van Learning Manager kon elke Aangepaste rol met toestemming om leerprogramma&#39;s te maken de omvang van het leerprogramma voor alle typen gebruikersgroepen en Leerobjecten vaststellen.
 
 De bereikinstelling werd eerst uitgeschakeld toen leerplantoegang werd verleend, waardoor de gebruiker standaard toegang had tot Alle catalogi en Alle gebruikersgroepen.
 
-Alle leerplannen die door een beheerder zijn gemaakt, zijn standaard van toepassing op alle gebruikers. Gebruikers kunnen ook elk leerobject krijgen toegewezen. Aan de andere kant hebben gebruikers met aangepaste rollen toegang tot volledige bereiken, bijvoorbeeld alle catalogi, leerobjecten of gebruikersgroepen. Dit betekende dat beheerders geen aangepaste rollen konden maken zoals verwacht en gebruikers met een beperkt bereik toegang tot leerplannen mochten krijgen.
+Alle leerprogramma&#39;s die door een beheerder zijn gemaakt, zijn standaard van toepassing op alle gebruikers. Gebruikers kunnen aan ieder leerobject worden toegewezen. Anderzijds hebben gebruikers met Aangepaste rollen toegang tot het volledige bereik, zoals Alle catalogi, Leerobjecten of Gebruikersgroepen. Dit hield in dat beheerders niet zoals verwacht Aangepaste rollen konden maken om gebruikers met een beperkt bereik toegang te geven tot leerprogramma&#39;s.
 
-In deze update van Leermanager kunt u aangepaste rollen voor leerplannen maken waarmee gebruikers en leerobjecten bereikbaar zijn. Met andere woorden, leerplannen kunnen worden gemaakt met een beperkt bereik dat is afgeleid van het rolbereik van een aangepaste beheerder.
+Met deze update van Learning Manager kunt u Aangepaste rollen maken voor Leerprogramma&#39;s om het bereik van gebruikers en Leerobjecten vast te stellen. Met andere woorden, u kunt leerprogramma&#39;s maken met een beperkt bereik op basis van door de beheerder ingestelde rollen.
 
-Een beheerder kan nu het bereik definiëren of beperken terwijl toegang tot leerplanmanagement wordt verleend.
+Een beheerder kan nu het bereik definiëren of beperken en tegelijkertijd toegang verlenen voor het beheer van leerprogramma&#39;s.
 
-Aangepaste beheerders kunnen leerplannen maken met een beperkt bereik, dat wordt bepaald door het bereik van de configureerbare rol van de aangepaste beheerder. Dergelijke leerplannen zijn alleen toegankelijk voor aangepaste beheerders met dezelfde rol, maar zijn ook toegankelijk voor gewone beheerders. Bovendien kunnen de aangepaste beheerders geen andere leerplannen in het account zien.
+Aangepaste beheerders kunnen leerprogramma&#39;s met een beperkt bereik maken op basis van het bereik van de configureerbare rol van de aangepaste beheerder. Zulke leerprogramma&#39;s zijn alleen toegankelijk voor normale beheerders en aangepaste beheerders met dezelfde rol. Bovendien kunnen de aangepaste beheerders geen andere Leerprogramma&#39;s in het account zien.
 
-Bestaande aangepaste beheerders die toegang hebben tot leerplannen, hebben altijd het volledige bereik (per definitie). Ze hebben toegang tot alle leerplannen in het account, net als gewone beheerders. Nieuwe aangepaste rollen die zijn gemaakt met volledig bereik en nieuwe aangepaste beheerders die aan dergelijke rollen zijn toegevoegd, blijven toegang tot alle leerplannen hebben.
+Bestaande aangepaste beheerders met toegang tot Leerprogramma&#39;s hebben altijd het volledige bereik (standaard). Ze hebben toegang tot alle leerprogramma&#39;s in het account, net als normale beheerders. Nieuwe aangepaste rollen die met het volledige bereik zijn gemaakt en nieuwe aangepaste beheerders die aan dergelijke rollen zijn toegevoegd, houden toegang tot alle leerprogramma&#39;s.
 
-Leerplannen die door beheerders zijn gemaakt en aangepaste beheerders met een volledig bereik worden zoals gebruikelijk gemaakt en worden niet beperkt door het bereik.
+Leerprogramma&#39;s die zijn gemaakt door beheerders en aangepaste beheerders met volledige omvang, worden zoals gewoonlijk gemaakt en zijn niet beperkt door de omvang.
 
-In de sectie **Reikwijdte voor functiebevoegdheden**, verleent u toegang tot gebruikersgroepen en/of catalogus voor de aangepaste rol.
+Geef in de sectie **Omvang van functiebevoegdheden** toegang tot Gebruikersgroepen en/of Catalogus voor de Aangepaste rol.
 
 ![](assets/scope-for-featureprivileges.png)
 
 *Toegang verlenen tot gebruikersgroepen en/of catalogus voor de aangepaste rol*
 
-Wijs een gebruiker aan de Aangepaste rol toe.
+Een gebruiker toewijzen aan de aangepaste rol.
 
 ![](assets/assign-users-to-customrole.png)
 
 *Een gebruiker toewijzen aan een aangepaste rol*
 
-De gebruiker meldt zich nu aan bij Learning Manager als aangepaste beheerder en voegt nu een leerplan toe.
+De gebruiker meldt zich nu aan bij Learning Manager als aangepaste beheerder en voegt een Leerprogramma toe.
 
-Wanneer een nieuwe student wordt toegevoegd, kan de aangepaste beheerder alleen een training selecteren uit de catalogi met het bereik van de configureerbare rol.
+Als er een nieuwe student wordt toegevoegd, kan de aangepaste beheerder alleen een training selecteren uit de omvang van de catalogi van de configureerbare rol.
 
-Dit leerplan is nu alleen van toepassing op de student als de gebruiker ook wordt toegevoegd aan de groep binnen de bereikgroep van het leerplan. Alle andere studenten worden vrijgesteld van dit leerplan.
+Dit leerplan is nu alleen van toepassing op de student als de gebruiker ook wordt toegevoegd aan de groep binnen de bereikgroep van het leerplan. Alle andere studenten worden vrijgesteld van dit leerprogramma.
 
 ## Student wordt toegevoegd aan de groep {#learnergetsaddedtothegroup}
 
 <!--![](assets/add-learner-to-thegroup.png)-->
 
-De aangepaste beheerder kan elke gebruikersgroep selecteren waarvan gebruikers deel uitmaken van de gebruikersgroep met het bereik van de rol.
+De aangepaste beheerder kan elke gebruikersgroep selecteren die gebruikers heeft binnen de omvang van de gebruikersgroep van de rol.
 
-Wanneer een gebruiker aan de opgegeven groep wordt toegevoegd, wordt het leerobject alleen toegewezen aan gebruikers die al deel uitmaken van de bereikgroep van het leerplan en die aan de opgegeven gebruikersgroep zijn toegevoegd.
+Wanneer een gebruiker wordt toegevoegd aan de opgegeven groep, worden alleen gebruikers toegewezen aan het Leerobject die al onderdeel zijn van de omvang van de gebruikersgroep van het leerprogramma, en tevens aan de opgegeven gebruikersgroep zijn toegevoegd.
 
-## Wijziging van het bereik {#changeinscope}
+## Wijziging van omvang {#changeinscope}
 
-Wanneer de beheerder het bereik van de aangepaste rol wijzigt, wordt de wijziging ook trapsgewijs doorgevoerd in de aangepaste beheerder. Wanneer de aangepaste beheerder een leerplan kiest dat al onder een eerdere aangepaste rol viel, wordt een bericht weergegeven, zoals hieronder weergegeven:
+Wanneer de beheerder de omvang van de aangepaste rol wijzigt, heeft deze wijziging ook gevolgen voor de aangepaste beheerder. Wanneer de aangepaste beheerder een Leerprogramma kiest dat al binnen de omvang van een eerdere aangepaste rol valt, wordt het volgende bericht weergegeven:
 
 ![](assets/change-scope.png)
 
 *Bericht na bereikwijzigingen*
 
-De aangepaste beheerder moet nu het eerdere bereik bijwerken of vernieuwen naar het nieuwe bereik.
+De aangepaste beheerder moet de eerdere omvang nu bijwerken of vernieuwen naar de nieuwe omvang.
 
-Klikken **[!UICONTROL Bereik vernieuwen]** werkt het bereik bij. Er verschijnt een waarschuwingsbericht.
+Klik op **[!UICONTROL Omvang vernieuwen]** om de omvang bij te werken. Er verschijnt een waarschuwingsbericht.
 
 ![](assets/refresh-scope-message.png)
 
 *Waarschuwingsbericht na vernieuwen van bereik*
 
-Klikken **[!UICONTROL Ja]** werkt het bereik bij.
+Klik op **[!UICONTROL Ja]** om de omvang bij te werken.
 
-## gamificatierapport toevoegen aan een aangepaste rol {#gamification-custom}
+## Gamificationrapport toevoegen aan een aangepaste rol {#gamification-custom}
 
 Een beheerder kan gamificationrapporten inschakelen voor een aangepaste gebruiker.
 
-1. In het dialoogvenster **[!UICONTROL Aangepaste rollen]** de naam van de aangepaste rol in.
+1. Voer op de pagina **[!UICONTROL Aangepaste rollen]** de naam van de aangepaste rol in.
 1. In het dialoogvenster **[!UICONTROL Functieprivileges: kernfuncties]** de optie **[!UICONTROL Volledig beheer]** voor de categorie **[!UICONTROL Rapporten]**.
 
-1. In de sectie **[!UICONTROL Gebruikers]** selecteert u de gebruiker aan wie de nieuwe aangepaste rol zal worden toegewezen.
-1. Klikken **[!UICONTROL Opslaan]**.
+1. Selecteer in de sectie **[!UICONTROL Gebruikers]** de gebruiker die wordt toegewezen aan de nieuwe aangepaste rol.
+1. Klik op **[!UICONTROL Opslaan]**.
 
-Wanneer een gebruiker zich aanmeldt als aangepaste beheerder en op **[!UICONTROL Rapporten]** in het linkerdeelvenster worden de transcripties weergegeven, zoals hieronder wordt getoond:
+Wanneer een gebruiker zich als aangepaste beheerder aanmeldt en op **[!UICONTROL Rapporten]** in het linkerdeelvenster klikt, worden de transcripten als volgt weergegeven:
 
 ![](assets/download-gamificationtranscripts.png)
 
 *De gamificationtranscripten downloaden*
 
-Klikken **[!UICONTROL Gamification-transcripten]**, kiest u een gebruiker en genereert u het rapport.
+Klik op **[!UICONTROL Gamificationtranscripten]**, kies een gebruiker en genereer het rapport.
 
-Als een beheerder de niveaupunten wijzigt, worden niveaus in de rapporten weergegeven op basis van de huidige punten.
+Als een beheerder de niveaupunten wijzigt, worden in de rapporten de niveaus weergegeven op basis van de huidige punten.
 
-Met opnieuw instellen van gamification wordt de bereikte niveau niet opnieuw ingesteld.
+Wanneer u gamification opnieuw instelt, wordt de datum voor het bereikte niveau niet opnieuw ingesteld.
 
 ## Veelgestelde vragen {#frequentlyaskedquestions}
 
 +++Een aangepaste rol maken?
 
-Een aangepaste rol is vergelijkbaar met een subset van de rol Auteur of Beheerder. Sta één of meerdere voorrechten toe, bepaal het werkingsgebied, en wijs de rol aan een gebruiker toe.
+Een aangepaste rol is als een subset van een auteurs- of beheerdersrol. Sta een of enkele privileges toe, definieer het bereik en wijs de rol toe aan een gebruiker.
 
-Klikken **[!UICONTROL Gebruikers]** > **[!UICONTROL Aangepaste rollen]**. Klik op de pagina Aangepaste rollen op **[!UICONTROL Rol maken]**. Voer de naam van de aangepaste rol in en stel de bevoegdheden voor de rol in. Zie voor meer informatie [Een aangepaste rol maken](custom-role.md#create-role).
+Klikken **[!UICONTROL Gebruikers]** > **[!UICONTROL Aangepaste rollen]**. Klik op de pagina Aangepaste rollen op **[!UICONTROL Rol maken]**. Voer de naam van de aangepaste rol in en stel de bevoegdheden voor de rol in. Zie [Een aangepaste rol maken](custom-role.md#create-role) voor meer informatie.
 +++

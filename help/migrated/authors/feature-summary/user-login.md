@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 0%
+ht-degree: 42%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Gebruikersaanmelding
 
-Wanneer u Adobe Learning Manager voor het eerst gebruikt, moet u uw account maken door de onderstaande stappen te volgen:
+Wanneer u Adobe Learning Managre voor het eerst gebruikt, moet u de onderstaande stappen volgen om uw account te maken:
 
-1. Start Adobe Learning Manager via de beveiligde koppeling die u hebt ontvangen via welkomstmail van uw beheerder.
+1. Start Adobe Learning Manager via de beveiligde link in de welkomstmail die u van uw beheerder hebt ontvangen.
 
    Het aanmeldingsscherm wordt weergegeven.
 
@@ -34,4 +34,4 @@ Wanneer u Adobe Learning Manager voor het eerst gebruikt, moet u uw account make
 
 >[!NOTE]
 >
->Wanneer u zich voor de eerste keer aanmeldt, is uw Adobe ID gekoppeld aan uw bedrijfsaccount. Voor alle volgende aanmeldingen kunt u een bladwijzer toevoegen voor de account-URL (tweede URL) die u in de welkomstmail hebt ontvangen.
+>Wanneer u zich voor de eerste keer aanmeldt, is uw Adobe ID gekoppeld aan uw bedrijfsaccount. Voor volgende aanmeldingen kunt u een bladwijzer toevoegen voor de account-URL (tweede URL) die u in de welkomstmail hebt ontvangen.

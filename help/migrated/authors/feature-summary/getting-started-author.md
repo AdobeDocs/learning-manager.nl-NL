@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 0%
+ht-degree: 54%
 
 ---
 
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 # Aan de slag als auteur
 
-Aan de slag-pagina helpt u door de belangrijkste functies van de toepassing te bladeren.
+Op de startpagina kunt u de belangrijkste functies van de toepassing doorlopen.
 
 Nadat u zich als auteur hebt aangemeld, kunt u het pop-upvenster met een lijst met video&#39;s weergeven.
 
 ## Voorbeeldvideo&#39;s weergeven {#viewsamplevideos}
 
-Blader door de voorbeeldvideozelfstudies om inzicht te krijgen in de belangrijkste kenmerken van uw rol als auteur. Als u niet wilt dat dit pop-upvenster wordt weergegeven tijdens het aanmelden, kunt u het uitschakelen door te klikken op de optie Niet weergeven bij aanmelden rechtsonder in het pop-upvenster.
+Blader door de voorbeeldvideo&#39;s om inzicht te krijgen in de belangrijkste aspecten van uw rol als auteur. Als u niet wilt dat dit pop-upvenster wordt weergegeven tijdens het aanmelden, kunt u het uitschakelen door te klikken op de optie Niet weergeven bij aanmelden rechtsonder in het pop-upvenster.
 
 Klik op Venster sluiten om de pop-up te sluiten.
 
 <!--![](assets/welcome-videos.png)-->
 
-## De pagina Aan de slag {#gettingstartedpage}
+## Pagina Aan de slag {#gettingstartedpage}
 
-Vanaf de pagina Aan de slag kunt u de volgende activiteiten uitvoeren:
+Op de pagina Aan de slag kunt u de volgende acties uitvoeren:
 
 * Modules maken
 * Cursussen maken
 
-U kunt ook meer informatie over de toepassing Leermanager krijgen door zelfstudievideo&#39;s weer te geven, inhoud te helpen en meer te weten te komen over verschillende rollen.
+U kunt ook meer te weten komen over de Learning Manager-toepassing door tutorialvideo&#39;s en Help-inhoud te bekijken, en meer te leren over verschillende rollen.
 
 <!--![](assets/author-experienceprime.png)-->
 

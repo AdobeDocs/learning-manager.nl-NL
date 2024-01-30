@@ -5,18 +5,18 @@ contentowner: saghosh
 source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
 workflow-type: tm+mt
 source-wordcount: '782'
-ht-degree: 0%
+ht-degree: 39%
 
 ---
 
 
 # Meerdere SSO-aanmeldingen {#multiple-sso-logins}
 
-Een beheerder kan meerdere aanmeldingsmethoden configureren voor zowel interne als externe gebruikers. Adobe Learning Manager ondersteunt meerdere SSO-aanmeldingen waarmee beheerders de aanmeldingsmethode kunnen configureren op basis van hun behoeften en gebruiksscenario&#39;s.
+Een beheerder kan meerdere aanmeldingsmethoden via meerdere SSO-configuraties voor zowel interne als externe gebruikers configureren. Adobe Learning Manager ondersteunt meerdere SSO-aanmeldingen waarmee beheerders de aanmeldingsmethode kunnen configureren op basis van hun wensen en gebruiksscenario&#39;s.
 
-De bedoeling is om beheerders toe te staan om verschillende SSO voor verschillende gebruikersgroepen te vormen die op hun plaats, organisatie, enz. worden gebaseerd.
+De bedoeling is dat beheerders voor verschillende gebruikersgroepen een SSO kunnen configureren op basis van hun locatie, organisatie, enz.
 
-U kunt maximaal 20 SSO-configuraties toevoegen aan een account. Deze kunnen worden gebruikt om SSO in te stellen voor zowel interne als externe gebruikers.
+Er kunnen tot 20 SSO-configuraties aan een account worden toegevoegd. Deze kunnen zowel voor het instellen van interne als externe gebruikers worden gebruikt.
 
 >[!NOTE]
 >
@@ -28,39 +28,39 @@ Selecteer **Instellingen** > **Aanmeldingsmethoden**.
 
 Schakel op de installatiepagina het selectievakje &#39;Multiple Single Sign-On (SSO) inschakelen&#39; in voor interne of externe gebruikers.
 
-Als Multi SSO is ingeschakeld, wordt de aanmeldingsmethode die is geselecteerd voor &#39;Standaardaanmeldingsmethode&#39; het standaardaanmeldingstype voor gebruikersgroepen/profielen die niet zijn gekoppeld aan een SSO-configuratie. De standaardaanmelding kan Adobe ID, SSO of ALM ID (Externe gebruikers) zijn.
+Als Multi SSO is ingeschakeld, wordt de aanmeldingsmethode die is geselecteerd voor &#39;Standaardaanmeldingsmethode&#39; het standaardaanmeldingstype voor gebruikersgroepen/profielen die niet zijn gekoppeld aan een SSO-configuratie. De standaard aanmelding kan Adobe ID of SSO of ALM ID (externe gebruikers) zijn.
 
 Volg onderstaande stappen om een SSO te configureren:
 
 1. Klik op SSO (Single Sign-On) configureren.
 1. Klik op Nieuwe SSO-configuratie toevoegen.
-1. Voeg het volgende toe in het dialoogvenster SSO-configuratie:
+1. Voeg in het dialoogvenster SSO-configuratie het volgende toe:
 
-   * Voer de naam van de SSO in.
-   * Selecteer het type SSO-IDP geïnitieerd, of SP geïnitieerd.
+   * Geef de naam van de SSO op.
+   * Selecteer het type SSO: Door IDP geïnitieerd of Door SP geïnitieerd.
 
-      * Als u IDP hebt geselecteerd in werking gesteld, dan ga IDP URL in. Dit is de URL die de unieke id voor uw toepassing zal zijn en die informatie is die wordt verstrekt door uw IDP-serviceprovider. Dit is de URL waarnaar alle gebruikers van de Adobe Learning Manager worden omgeleid nadat ze zich hebben aangemeld.
-      * Upload de IDP-metagegevens-XML van uw IDP-provider. Dit bestand bevat informatie over de IdP waarmee Adobe Learning Manager SAML-beweringen kan accepteren
-      * Als u SP hebt geselecteerd, ga identiteitskaart van de Entiteit in De entiteit-id is een URL die door de Serviceprovider (SP) wordt verschaft.
-      * Voer de URL voor de SP-aanmelding in. Deze URL wordt door de gebruikers gebruikt om u aan te melden bij de toepassing.
+      * Als u IDP hebt geselecteerd in werking gesteld, dan ga IDP URL in. Deze URL is de unieke identificatie voor uw applicatie en bevat informatie die door uw IDP-serviceprovider wordt geleverd. Dit is de URL waarnaar alle gebruikers van de Adobe Learning Manager worden omgeleid nadat ze zich hebben aangemeld.
+      * Upload de IDP-Metadata-xml van uw IDP-provider. Dit bestand bevat informatie over de IdP waardoor Adobe Learning Manager er SAML-beweringen uit kan accepteren
+      * Als u SP hebt geselecteerd, ga identiteitskaart van de Entiteit in De entiteits-ID is een URL die de serviceprovider (SP) opgeeft.
+      * Geef de SP-aanmeldings-URL op. Deze URL wordt door gebruikers gebruikt om zich aan te melden bij de applicatie.
 
 1. De SSO-configuratie wordt toegevoegd aan de lijst.
 
 ## SSO instellen voor interne gebruikers
 
-### Gebruikers van een CSV
+### Gebruikers uit een CSV
 
-Volg de onderstaande stappen:
+Volg onderstaande stappen:
 
 1. Importeer de CSV die de actieve velden en de bijbehorende waarden bevat.
 1. Klik op Instellingen > Aanmeldingsmethoden.
 1. Schakel het selectievakje Meerdere eenmalige aanmelding (Single Sign-On, SSO) inschakelen in voor aanmelding.
 1. Wijs de configuraties SSO aan de waarden van het actieve gebied toe.
-1. Sla de instellingen op. Importeer de CSV opnieuw.
+1. Sla de instellingen op. Importeer de CSV nogmaals.
 
 ### Eén gebruiker
 
-Volg de onderstaande stappen:
+Volg onderstaande stappen:
 
 1. Klik op Instellingen > Aanmeldingsmethoden.
 1. Schakel het selectievakje Meerdere eenmalige aanmelding (Single Sign-On, SSO) inschakelen in voor aanmelding.
@@ -70,7 +70,7 @@ Volg de onderstaande stappen:
 
 ### Zelfgeregistreerde gebruikers
 
-Volg de onderstaande stappen:
+Volg onderstaande stappen:
 
 1. Klik op Instellingen > Aanmeldingsmethoden.
 1. Schakel het selectievakje Meerdere eenmalige aanmelding (Single Sign-On, SSO) inschakelen in voor aanmelding.
@@ -83,7 +83,7 @@ Nadat u de profielinstellingen hebt opgeslagen, leidt de gekopieerde URL de gebr
 
 ### SSO instellen voor externe gebruikers
 
-Volg de onderstaande stappen:
+Volg onderstaande stappen:
 
 1. Maak een extern profiel.
 1. Klik op Instellingen > Aanmeldingsmethoden.
@@ -97,17 +97,17 @@ Nadat u de profielinstellingen hebt opgeslagen, leidt de gekopieerde URL van het
 
 +++ Wie kan meerdere SSO&#39;s inschakelen voor gebruikers?
 
-Zowel de beheerder als de aangepaste beheerder kunnen meerdere SSO&#39;s inschakelen.
+Zowel de beheerder als de aangepaste beheerder kan meerdere SSO&#39;s inschakelen.
 +++
 
 +++Kan ik een bestaand of een nieuw actief veld met één waarde gebruiken?
 
-Ja, u kunt een bestaand of een nieuw enkel getaxeerd actief veld gebruiken om meerdere SSO&#39;s in te stellen.
+Ja, u kunt een bestaand of nieuw actief veld met één waarde gebruiken om meerdere SSO&#39;s in te stellen.
 +++
 
 +++Als er uitgeschakelde velden in een CSV zijn, mislukt het instellen van meerdere SSO&#39;s?
 
-Nee, het heeft geen invloed op de instelling van de SSO&#39;s. Gebruikers worden omgeleid naar een reeds geconfigureerde SSO.
+Nee, dat heeft geen invloed op het instellen van de SSO&#39;s. Gebruikers worden doorgeleid naar een geconfigureerde SSO.
 +++
 
 +++Kan een beheerder nieuwe waarden toevoegen aan het actieve veld op de pagina tijdens het instellen van de multi-SSO?

@@ -1,34 +1,34 @@
 ---
 jcr-language: en_us
-title: Toegankelijkheid in Adobe Leerbeheer
-description: In dit document wordt de toegankelijkheidsondersteuning beschreven die LMS voor studenten met een handicap biedt. Het biedt de gebruikers ook navigatieopties en toegankelijkheidsfuncties van het platform.
+title: Toegankelijkheid in Adobe Learning Manager
+description: Dit document geeft een overzicht van de toegankelijkheidsondersteuning die Learning Manager Learning Management System biedt voor studenten met een handicap. Het geeft de gebruikers ook informatie over de navigatiemogelijkheden en de toegankelijkheidskenmerken van het platform.
 contentowner: saghosh
 source-git-commit: c4d06af2eee167677fef050a3f2885dfd4c91446
 workflow-type: tm+mt
 source-wordcount: '932'
-ht-degree: 0%
+ht-degree: 71%
 
 ---
 
 
-# Toegankelijkheid in Adobe Leerbeheer
+# Toegankelijkheid in Adobe Learning Manager
 
-In dit document wordt de toegankelijkheidsondersteuning beschreven die LMS voor studenten met een handicap biedt. Het biedt de gebruikers ook navigatieopties en toegankelijkheidsfuncties van het platform.
+Dit document geeft een overzicht van de toegankelijkheidsondersteuning die Learning Manager Learning Management System biedt voor studenten met een handicap. Het geeft de gebruikers ook informatie over de navigatiemogelijkheden en de toegankelijkheidskenmerken van het platform.
 
 Leermanager volgt de WCAG 2.1 Level A en AA toegankelijkheidsstandaarden van W3C voor het platform.
 
 Met de rol Adobe Leermanager kunnen studenten door het platform navigeren en profiteren van de volgende belangrijke toegankelijkheidsmogelijkheden:
 
-* Reader scherm
-* Toetsenbord
-* Ondertiteling
+* Schermlezer
+* Toetsenborder
+* Gesloten ondertiteling
 * Overige
 
-## Ondersteuning voor schermReaders {#supportforscreenreaders}
+## Ondersteuning voor schermlezers {#supportforscreenreaders}
 
-Adobe Learning Manager ondersteunt schermlezers zoals NVDA, JAWS en Voice-over op desktop, Talkback en Voice-over op mobiele apparaten, zodat studenten de tekst op Learning Manager-platform kunnen lezen en dienovereenkomstig kunnen navigeren.
+Adobe Learning Manager ondersteunt schermlezers zoals NVDA, JAWS en Voice-over on desktop, Talkback en Voice-over on mobile waarmee studenten de tekst op het Learning Manager-platform kunnen laten voorlezen en dienovereenkomstig kunnen navigeren.
 
-Hier is de schermlezer- en browsercombinatie die we op het bureaublad ondersteunen:
+De volgende combinaties van schermlezer en browser worden ondersteund op desktop:
 
 <table>
  <tbody>
@@ -44,7 +44,7 @@ Hier is de schermlezer- en browsercombinatie die we op het bureaublad ondersteun
    <td>
     <p>Windows</p></td>
    <td>
-    <p>Chroom</p></td>
+    <p>Chrome</p></td>
    <td>
     <p>NVDA</p></td>
   </tr>
@@ -68,7 +68,7 @@ Hier is de schermlezer- en browsercombinatie die we op het bureaublad ondersteun
    <td>
     <p>Android</p></td>
    <td>
-    <p>Chroom</p></td>
+    <p>Chrome</p></td>
    <td>
     <p>Talkback</p></td>
   </tr>
@@ -85,7 +85,7 @@ Hier is de schermlezer- en browsercombinatie die we op het bureaublad ondersteun
 
 ## Ondersteuning voor toetsenbordnavigatie {#supportforkeyboardnavigation}
 
-Studenten kunnen standaardtoetsen gebruiken om door de pagina&#39;s te navigeren met of zonder schermlezer. Zo kunnen de studenten door elementen op de pagina navigeren en inhoud lezen met een schermlezer.
+Studenten kunnen de standaard toetsen gebruiken om door de pagina&#39;s te navigeren met of zonder een schermlezer. Zo kunnen studenten door elementen op de pagina navigeren en de inhoud lezen met een schermlezer.
 
 Bovendien ondersteunt Learning Manager de volgende sneltoetsen:
 
@@ -93,7 +93,7 @@ Bovendien ondersteunt Learning Manager de volgende sneltoetsen:
  <tbody>
   <tr>
    <td>
-    <p><b>Functie</b></p></td>
+    <p><b>Kenmerk</b></p></td>
    <td>
     <p><b>Windows</b></p></td>
    <td>
@@ -105,11 +105,11 @@ Bovendien ondersteunt Learning Manager de volgende sneltoetsen:
    <td>
     <p>Alt+1</p></td>
    <td>
-    <p>Option+1</p></td>
+    <p>Optie+1</p></td>
   </tr>
   <tr>
    <td>
-    <p>Functie<br></p></td>
+    <p>Kenmerk<br></p></td>
    <td>
     <p>Windows<br></p></td>
    <td>
@@ -121,7 +121,7 @@ Bovendien ondersteunt Learning Manager de volgende sneltoetsen:
    <td>
     <p>Alt+2<br></p></td>
    <td>
-    <p>Option+2<br></p></td>
+    <p>Optie+2<br></p></td>
   </tr>
   <tr>
    <td>
@@ -129,15 +129,15 @@ Bovendien ondersteunt Learning Manager de volgende sneltoetsen:
    <td>
     <p>Alt+3<br></p></td>
    <td>
-    <p>Option+3<br></p></td>
+    <p>Optie+3<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Globaal zoeken<br></p></td>
+    <p>Algemene zoekopdracht<br></p></td>
    <td>
     <p>Alt+4<br></p></td>
    <td>
-    <p>Option+4<br></p></td>
+    <p>Optie+4<br></p></td>
   </tr>
   <tr>
    <td>
@@ -145,18 +145,18 @@ Bovendien ondersteunt Learning Manager de volgende sneltoetsen:
    <td>
     <p>Alt+1<br></p></td>
    <td>
-    <p>Option+1<br></p></td>
+    <p>Optie+1<br></p></td>
   </tr>
  </tbody>
 </table>
 
-## Besturingselementen voor speler
+## Spelerbesturingselementen
 
 <table>
  <tbody>
   <tr>
    <td>
-    <p><b>Functie</b></p></td>
+    <p><b>Kenmerk</b></p></td>
    <td>
     <p><b>Windows</b></p></td>
    <td>
@@ -168,13 +168,13 @@ Bovendien ondersteunt Learning Manager de volgende sneltoetsen:
    <td>
     <p>Alt+P</p></td>
    <td>
-    <p>Option+P</p></td>
+    <p>Optie+P</p></td>
   </tr>
   <tr>
    <td>
     <p>Alt+V</p></td>
    <td>
-    <p>Option+V</p></td>
+    <p>Optie+V</p></td>
    <td>
     <p>Volume</p></td>
   </tr>
@@ -182,20 +182,20 @@ Bovendien ondersteunt Learning Manager de volgende sneltoetsen:
    <td>
     <p>Alt+M</p></td>
    <td>
-    <p>Option+M</p></td>
+    <p>Optie+M</p></td>
    <td>
     <p>Volledig scherm</p></td>
   </tr>
  </tbody>
 </table>
 
-## Overige ondersteuning {#supportforcolorcontrast}
+## Andere ondersteuning {#supportforcolorcontrast}
 
-De studentrol van de Learning Manager ondersteunt verschillende andere toegankelijkheidsfuncties, waaronder, maar niet beperkt tot:
+De rol Learning Manager-student ondersteunt verschillende andere toegankelijkheidsfuncties waaronder, maar niet beperkt tot:
 
-1. Er wordt een semantische structuur voor de rolpagina&#39;s van de student gegeven, waaronder kop, lijstmarkeringen, beschrijvende titels, enz.
-1. Ondersteuning voor browserzoom tot 200% zonder verlies van inhoud of functionaliteit blijft behouden via de studentrol.
-1. Het kleurcontrast voor tekst en niet-tekstuele elementen blijft behouden op de rol van de student. Voor een betere ervaring kunt u de opdracht [Levendig](/help/migrated/administrators/feature-summary/themes.md) thema.
+1. Semantische structuur voor de pagina met studentenrollen, waaronder een titel, lijstopmaak, beschrijvende titels, etc.
+1. Ondersteuning voor inzoomen in browsers tot 200% zonder verlies van inhoud of functionaliteit wordt behouden in de studentenrol.
+1. Kleurcontrast voor element met en zonder tekst wordt behouden in de studentenrol. Gebruik het thema [Levendig](/help/migrated/administrators/feature-summary/themes.md) voor een betere ervaring.
 1. Ondersteuning voor de WAI ARIA-ontwerppatronen van W3C om consistentie en best practices uit de branche te behouden.
 
 Zie voor meer informatie:
@@ -207,12 +207,12 @@ Zie voor meer informatie:
 
 Laten we kijken hoe de toegankelijkheidsfuncties u helpen door enkele belangrijke functies voor studenten in Learning Manager te navigeren.
 
-Gebruik de `kbd Tab`om door de elementen op de pagina te navigeren. Gebruik de `kbd Shift + Tab` toets om de richting van de navigatie om te keren. Focus op toetsenbord wordt aangegeven door een blauwe omtrek rond een element. Een schermlezer moet de tekst voorlezen van het element dat de focus heeft.
+Gebruik de `kbd Tab`om door de elementen op de pagina te navigeren. Gebruik de `kbd Shift + Tab` toets om de richting van de navigatie om te keren. De toetsenbordfocus wordt aangegeven door een blauwe rand rond een element. Een schermlezer moet de tekst van het element met de focus voorlezen.
 
 ## Een training zoeken in Leermanager {#searchforatrainingincaptivateprime}
 
-1. Gebruik deze aanwijzingen om te navigeren en het zoekvak rechtsboven op de startpagina te bereiken.
-1. Typ tekst met het toetsenbord. Zoekresultaten worden weergegeven.
+1. Volg deze aanwijzingen om te navigeren naar en te werken met het zoekvak in de rechterbovenhoek van de startpagina.
+1. Typ tekst met het toetsenbord. Er verschijnen zoekresultaten.
 1. Het toetsenbord gebruiken `kbd Up/Down` pijlen om door de resultaten te navigeren of te klikken `kbd ENTER`om alle resultaten te zien.
 
 1. Zodra de training is vastgesteld, drukt u op `kbd ENTER`om naar de trainingspagina te navigeren.
@@ -230,9 +230,9 @@ Gebruik de `kbd Tab`om door de elementen op de pagina te navigeren. Gebruik de `
    * Volledig scherm
    * Knop Sluiten
    * Instellingen
-   * Modulenaam label
+   * Modulenaamlabel
 
-1. De volgende besturingselementen worden weergegeven op basis van het inhoudstype:
+1. Hieronder volgen de bedieningselementen die verschijnen, gebaseerd het type inhoud:
 
    * VIDEO-inhoud - Vooruit, Achteruit, Slider-besturingselementen.
    * DOCUMENTinhoud - Paginanummer, Page Up, Page Down, Inzoomen, Uitzoomen.
@@ -246,32 +246,32 @@ Gebruik de `kbd Tab`om door de elementen op de pagina te navigeren. Gebruik de `
 
 Laten we kijken welke toegankelijkheidsfuncties studenten kunnen gebruiken op basis van hun specifieke behoeften.
 
-### Gebruikers die doof of hoorbaar zijn
+### Gebruikers die doof of slechthorend zijn
 
-* Gebruik ondertiteling beschikbaar in inhoud die is gemaakt met het Adobe Captivate-ontwerpgereedschap.
-* Voor video&#39;s kunnen auteurs de video&#39;s coderen met tekst voor een gesloten bijschrift. Dergelijke video&#39;s hebben ingesloten bijschriften en kunnen door de studenten worden gebruikt.
-* Learning Manager ondersteunt de mogelijkheid om WebVTT-bestanden met een gesloten bijschrift te uploaden voor video-inhoud. Zie voor meer informatie  [*WebVTT-bestand uploaden voor ondertiteling*](authors/feature-summary/content-library.md#webvtt).
+* Gebruik gesloten ondertiteling die beschikbaar is in inhoud die is gemaakt met de Adobe Captivate-auteurstool.
+* Voor video&#39;s kunnen auteurs de video&#39;s coderen met gesloten ondertitelingstekst. Dergelijke video&#39;s hebben ingesloten ondertiteling en kunnen door de studenten worden gebruikt.
+* Learning Manager ondersteunt het uploaden van WebVTT-bestanden met gesloten ondertiteling voor video-inhoud. Zie voor meer informatie  [*WebVTT-bestand uploaden voor ondertiteling*](authors/feature-summary/content-library.md#webvtt).
 
 ### Gebruikers die blind of slechtziend zijn
 
-* Gebruik de standaardsneltoetsen en -opdrachten om door de pagina te bladeren.
-* Gebruik van schermlezers, zoals hierboven vermeld, om de informatie op de webpagina te lezen.
-* Gebruik schermvergrotingen om op het scherm in te zoomen om de leesbaarheid te verbeteren en kan de browser inzoomen op 200% om de inhoud te lezen.
+* Gebruik de standaard sneltoetsen en opdrachten om door de pagina te bladeren.
+* Gebruik van schermlezers, zoals hierboven vermeld, om de informatie op de webpagina voor te lezen.
+* Gebruik van schermvergroters om op het scherm in te zoomen en zo de leesbaarheid te verbeteren, en kan de browser tot 200% inzoomen om de inhoud te lezen.
 
 ### Gebruikers die moeite hebben met kleur
 
-Adobe Leermanager Leerfunctie streeft ernaar gebruikers een gebruikersinterface te bieden die duidelijk en leesbaar is in overeenstemming met de WCAG 2.1-standaarden.
+De rol van Adobe Learning Manager-student heeft als doel om gebruikers een gebruikersinterface te bieden die duidelijk en leesbaar is, in overeenstemming met WCAG 2.1-normen.
 
-Voor een betere ervaring op de studentenpagina gebruikt u de [Levendig thema](/help/migrated/administrators/feature-summary/themes.md).
+Voor een betere ervaring op de studentpagina gebruikt u het [Levendige thema](/help/migrated/administrators/feature-summary/themes.md).
 
-### Gebruikers met beperkte mobiliteit en bereik
+### Gebruikers met beperkte mobiliteit en reikwijdte
 
-Adobe Learning Manager blijft zich richten op toegankelijkheid en is van plan de huidige mogelijkheden te verbeteren, waardoor studenten van het systeem beter door de rol &#39;Student&#39; kunnen navigeren.
+Adobe Learning Manager blijft zich richten op toegankelijkheid en is van plan om de huidige mogelijkheden te verbeteren, zodat studenten van het systeem beter door de rol van &#39;student&#39; kunnen navigeren.
 
-### Ondersteuning voor ondertiteling voor video&#39;s
+### Ondersteuning voor gesloten ondertiteling voor video&#39;s
 
-Tijdens het maken van een cursus kunnen auteurs WebVTT-bestanden samen met de videobestanden uploaden. Studenten kunnen de ondertiteling vervolgens bekijken wanneer ze de video&#39;s bekijken.
+Bij het aanmaken van een cursus kunnen auteurs webVTT-bestanden uploaden, samen met de videobestanden. De studenten kunnen dan de gesloten ondertiteling bekijken wanneer ze de video&#39;s bekijken.
 
-## Wat in een toekomstige release zal worden behandeld {#whatwillbeaddressedinafuturerelease}
+## Wat in een toekomstige versie wordt aangepakt {#whatwillbeaddressedinafuturerelease}
 
-* Ondersteuning voor ondertiteling voor video&#39;s. Auteurs moeten de mogelijkheid krijgen om SRT-bestanden samen met de videobestanden te uploaden. Studenten moeten ondertitels voor video&#39;s kunnen bekijken.
+* Ondersteuning voor gesloten ondertiteling voor video&#39;s. Auteurs krijgen de mogelijkheid om SRT-bestanden samen met de videobestanden te uploaden. Studenten kunnen gesloten ondertiteling voor video&#39;s bekijken.

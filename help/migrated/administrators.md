@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: Beheerders
-description: Lees verder voor meer informatie over de functies en veelgestelde vragen van de Learning Manager die aan de beheerdersrol zijn gekoppeld.
+description: Lees verder voor meer informatie over de kenmerken van en veelgestelde vragen voor de beheerdersrol in Learning Manager.
 contentowner: manochan
 preview: true
 source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -19,20 +19,20 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/administrator2.png"></td> 
-   <td><p>Lees verder voor meer informatie over de functies en veelgestelde vragen van de Learning Manager die aan de beheerdersrol zijn gekoppeld. </p></td> 
+   <td><p>Lees verder voor meer informatie over de kenmerken van en veelgestelde vragen voor de beheerdersrol in Learning Manager. </p></td> 
   </tr> 
  </tbody>
 </table>
 
-## Handleiding met aanbevolen procedures voor beheerders {#bestpracticesguideforadministrators}
+## Gids met beste praktijken voor beheerders {#bestpracticesguideforadministrators}
 
-[Gids met aanbevolen procedures voor beheerders om Leerbeheer in te stellen en aan de slag te gaan](administrators/getting-started.md)
+[Gids met best practices voor beheerders om Learning Manager in te stellen en te gaan gebruiken](administrators/getting-started.md)
 
 ## Veelgestelde vragen {#frequentlyaskedquestionsfaq}
 
-[Veelgestelde vragen over de beheerdersrol](administrators/frequently-asked-questions-for-administrators.md)
+[Veelgestelde vragen voor de beheerdersrol](administrators/frequently-asked-questions-for-administrators.md)
 
-## Functies {#features}
+## Kenmerken {#features}
 
 * [Kleurenthema&#39;s en branding](administrators/feature-summary/themes.md)
 * [Adobe Connect-integratie](administrators/feature-summary/adobeconnect-integration.md)
@@ -54,9 +54,9 @@ ht-degree: 0%
 * [Vaardigheden en niveaus](administrators/feature-summary/skills-levels.md)
 * [Gebruikersaanmelding](administrators/feature-summary/user-login.md)
 * [Gebruikersmeldingen](administrators/feature-summary/user-notifications.md)
-* [Wachtlijst en aanwezigheidsbeheer](administrators/feature-summary/waitlist-attendance-management.md)
+* [Wachtlijst- en aanwezigheidsbeheer](administrators/feature-summary/waitlist-attendance-management.md)
 * [Collega-accounts](administrators/feature-summary/peer-account.md)
 
-## Technische referentie {#technicalreference}
+## Technische gids {#technicalreference}
 
-[U kunt de technische handleiding voor de Adobe Learning Manager hier downloaden.](assets/technicaloverview.pdf)
+[U kunt de Adobe Learning Manager Technische gids hier downloaden.](assets/technicaloverview.pdf)

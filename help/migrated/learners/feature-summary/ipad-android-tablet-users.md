@@ -1,12 +1,12 @@
 ---
-description: Lees dit artikel om te weten te komen hoe u de Learner-app voor smartphones en tablets kunt downloaden. Leer hoe u cursussen kunt volgen met uw mobiele apparaat of tablet.
+description: Lees dit artikel om te weten te komen hoe u de Learner-app van Learning Manager voor smartphones en tablets kunt downloaden. Lees hoe u cursussen kunt volgen via uw mobiele telefoon of tablet.
 jcr-language: en_us
 title: Learner-app voor mobiele telefoons en tablets
 contentowner: manochan
 source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
 workflow-type: tm+mt
 source-wordcount: '2635'
-ht-degree: 0%
+ht-degree: 63%
 
 ---
 
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Learner-app voor mobiele telefoons en tablets
 
-Lees dit artikel om te weten te komen hoe u de Learner-app voor smartphones en tablets kunt downloaden. Leer hoe u cursussen kunt volgen met uw mobiele apparaat of tablet.
+Lees dit artikel om te weten te komen hoe u de Learner-app van Learning Manager voor smartphones en tablets kunt downloaden. Lees hoe u cursussen kunt volgen via uw mobiele telefoon of tablet.
 
 ## Overzicht {#overview}
 
-De app Learning Manager voor studenten is beschikbaar voor zowel Android-telefoongebruikers als iPhone-gebruikers. Ga naar de Google Play Store (Android OS) of iTunes (macOS) en download de app Learning Manager.
+De Learning Manager-app voor studenten is beschikbaar voor zowel Android- als iPhone-gebruikers. Ga naar de Google Play Store (Android OS) of iTunes (macOS) en download de Learning Manager-app.
 
 Nadat u deze app hebt gedownload en geïnstalleerd, meldt u zich aan bij de app met uw studentgegevens. Wanneer u de mobiele app van Learning Manager opent, wordt standaard het volgende scherm weergegeven.
 
@@ -40,9 +40,9 @@ Voor alle accounts waarvoor de optie Immersive Layout ingeschakeld is, is er een
 
 *Sociale feed van de student*
 
-## Feedbackscore {#feedbackrating}
+## Feedbackbeoordeling {#feedbackrating}
 
-Leermanager vraagt de student om feedback te geven over zijn of haar ervaring met de mobiele app. Deze feedback wordt één keer per maand weergegeven en geeft gebruikers voldoende tijd om de app te ervaren en vervolgens feedback te geven.
+Learning Manager vraagt de student om feedback te geven over hun ervaring met de mobiele app. Deze feedback wordt één keer per maand weergegeven en geeft gebruikers voldoende tijd om de app te ervaren en vervolgens feedback te geven.
 
 <!--
 | ![](assets/image013.png) | ![](assets/image014.png)|
@@ -62,13 +62,13 @@ Studenten kunnen hun badges downloaden in de PDF- en afbeeldingsindeling. Blader
 
 *Een badge downloaden*
 
-## Responsieve lay-out voor mobiel web {#responsive}
+## Responsieve weblay-out op mobiel {#responsive}
 
 Een volledig responsieve mobiele webervaring die ervoor zorgt dat studenten hun apparaten gebruiken om training te volgen, zelfs als ze de mobiele app niet hebben geïnstalleerd.
 
-Wanneer u zich voor het eerst via de browser op uw apparaat aanmeldt bij de Learner-app, verschijnt de Learner-app in de vorm van een mobiel-vriendelijke, responsieve lay-out.
+Wanneer u zich voor het eerst aanmeldt in de learner app via de browser op uw apparaat, verschijnt de leerapplicatie in de vorm van een mobiel-vriendelijke, responsieve schermindeling.
 
-Mobiel web responsieve UI-ondersteuning is alleen beschikbaar als een account **is alleen geconfigureerd voor immersive layout**. De responsieve gebruikersinterface is **niet beschikbaar voor klassieke lay-out**.
+De mobiele webresponsieve support voor de gebruikersinterface is alleen beschikbaar wanneer een account **is geconfigureerd voor alleen een insluitende schermindeling**. De responsieve gebruikersinterface is **niet beschikbaar voor de klassieke schermindeling**.
 
 <!--
 <table>
@@ -91,46 +91,46 @@ Mobiel web responsieve UI-ondersteuning is alleen beschikbaar als een account **
 </table>
 -->
 
-## Niet-ondersteunde functies in mobiele boeiende ervaring {#unsupportedfeaturesinmobileimmersiveexperience}
+## Niet-ondersteunde functies in de insluitende ervaring op mobiel {#unsupportedfeaturesinmobileimmersiveexperience}
 
-De volgende workflows worden weergegeven in de klassieke ervaring voor een student:
+De volgende workflows verschijnen in de klassieke ervaring voor een student:
 
-* Meerdere pogingen
+* Multi-Attempt
 * Flexi LP
-* scenario&#39;s voor het uploaden van bestanden
-* L1-feedback geven
+* Scenario&#39;s voor het uploaden van bestanden
+* Het verstrekken van L1-feedback
 
-Andere niet-ondersteunde appfuncties zijn:
+Andere functies van de app die niet worden ondersteund:
 
-* Sociale app: een student wordt omgeleid naar een klassieke ervaring als hij/zij op de sociale widget op de startpagina klikt
-* Profielinstellingen/Profiel bewerken
-* Badge/Vaardigheden weergeven
-* Leaderboard: Een student wordt omgeleid naar de klassieke ervaring als hij op de Leaderboard-widget op de startpagina klikt
+* Sociale app: een student wordt omgeleid naar de klassieke ervaring als hij/zij op de sociale widget op de startpagina klikt
+* Profielinstellingen/profiel bewerken
+* Badge/vaardigheden weergeven
+* Leaderboard: een student wordt omgeleid naar de klassieke ervaring als hij/zij op de Leaderboard-widget op de startpagina klikt
 * Taakhulpen downloaden.
 * Filteropties in Zoeken.
 
-Sociaal leren ondersteunt nu mobiele, boeiende webervaringen.
+Sociaal leren ondersteunt nu de insluitende webervaringen op mobiel.
 
-Er zijn enkele functies die geen Mobile Immersive App ondersteunen. Dit zijn:
+Er zijn enkele functies die niet worden ondersteund in de insluitende mobiele app. Dit zijn:
 
 | **Gebied** | **Niet ondersteund** |
 |---|---|
-| Raad | board maken, bewerken, URL kopiëren, verwijderen, rapport, sorteren, filteren |
-| Post | Opiniepeilingtype maken, bewerken, Meerdere bijlagen bij het bericht, URL kopiëren, Aan bovenkant vastzetten |
+| Board | board maken, bewerken, URL kopiëren, verwijderen, rapport, sorteren, filteren |
+| Posten | Opiniepeilingtype maken, bewerken, Meerdere bijlagen bij het bericht, URL kopiëren, Aan bovenkant vastzetten |
 | Opmerkingen/antwoorden | Bewerken, markeren als juist antwoord, afbeelding/video/audio uploaden in opmerking of antwoord |
 | Media | Audio vastleggen; alleen audiobestand uploaden |
-| Overige | Meldingen, Post View, Sociaal Leaderboard, Mensen die ik volg, Gebruikersprofiel |
+| Overige | Meldingen, Berichtweergave, Sociaal leaderboard, Mensen die ik volg, Gebruikersprofiel |
 
-## Studenten toestaan taakhulp te downloaden {#download-job-aid}
+## Studenten in staat stellen taakhulpen te downloaden {#download-job-aid}
 
-In de mobiele immersive modus kan een student een taakhulp downloaden. Tikken **Instellingen** en tik vervolgens op **Catalogi**. Download een taakhulp uit de lijst die wordt weergegeven.
+In de mobiele insluitende modus kan een student een taakhulp downloaden. Tikken **Instellingen** en tik vervolgens op **Catalogi**. Download een taakhulp uit de lijst die wordt weergegeven.
 
 | ![](assets/image018.jpg) |
 |---|
 
 *Een taakhulp downloaden*
 
-## Studenten toestaan om het Studenttranscript te downloaden {#download-learner-transcript}
+## Studenten in staat stellen studenttranscripten te downloaden {#download-learner-transcript}
 
 In de mobiele immersive modus kan een student de studenttranscripten downloaden.
 
@@ -141,23 +141,23 @@ In de mobiele immersive modus kan een student de studenttranscripten downloaden.
 
 ## Badges en vaardigheden weergeven {#viewbadgesandskills}
 
-**Badges, vaardigheden en gamificationpunten weergeven**
+**Badges, vaardigheden en gamificationpunten bekijken**
 
-In het standaardscherm worden uw recent behaalde badges, vaardigheden en gamificationpunten net onder uw profielgegevens weergegeven. Als u een telefoon gebruikt, worden de recent behaalde badges weergegeven. Veeg naar rechts voor meer informatie.
+Het standaardscherm toont direct onder uw profielinformatie uw recent behaalde badges, vaardigheden en gamificationpunten. Als u een telefoon gebruikt, worden de recent behaalde badges weergegeven. Veeg naar rechts voor meer informatie.
 
 **Mijn openstaande leermateriaal**
 
-Standaard worden op het scherm de cursussen weergegeven waarvoor u bent ingeschreven. In het donutdiagram worden de achterstallige leerresultaten, de bijna voltooide leerresultaten en de op schema staande leerresultaten weergegeven.
+Standaard worden op het scherm de cursussen weergegeven waarvoor u bent ingeschreven. In de donutgrafiek worden het achterstallige leermateriaal, het bijna voltooide leermateriaal en het leermateriaal dat op schema ligt weergegeven.
 
-Tik op een cursus om de details van de cursus en uw voltooiingsdatum (indien van toepassing) te bekijken. U kunt de cursus voortzetten of opnieuw bekijken vanuit dit scherm, afhankelijk van uw voltooiingsstatus.
+Tik op een cursus om de details van de cursus en uw voltooiingsdatum (indien van toepassing) te bekijken. U kunt de cursus voortzetten of opnieuw bezoeken vanaf dit scherm, afhankelijk van uw voltooiingsstatus.
 
 ![](assets/2.png)
 
 *Leerlingen in behandeling weergeven*
 
-**Catalogi weergeven**
+**Catalogi bekijken**
 
-Tik op het pictogram naast het boekpictogram onder aan het scherm. U kunt de catalogus met alle bijbehorende leerobjecten direct weergeven. U kunt ervoor kiezen om ze in de rasterlay-out weer te geven of de gedetailleerde weergave te kiezen. Selecteer aanbevelingen om cursusaanbevelingen te bekijken op basis van uw leergeschiedenis.
+Tik op het pictogram naast het boekpictogram onderin het scherm. U kunt de catalogus met alle bijbehorende leerobjecten direct bekijken. U kunt ervoor kiezen om ze in de rasterlay-out weer te geven of de gedetailleerde weergave te kiezen. Selecteer aanbevelingen om cursusaanbevelingen te bekijken op basis van uw leergeschiedenis.
 
 ![](assets/4.png)
 
@@ -167,72 +167,72 @@ Tik op het pictogram naast het boekpictogram onder aan het scherm. U kunt de cat
 
 **Sorteren en filteren**
 
-Klik op het sorteerpictogram in de rechterbovenhoek van de cursussen of het catalogusscherm om de leerobjecten alfabetisch (oplopend of aflopend) of op gepubliceerde datum te sorteren. U kunt de leerobjecten ook filteren op type, voltooiingsstatus, vaardigheden of op tags. Tik en selecteer het filter en tik op Toepassen om het filter toe te passen.
+Klik op het sorteerpictogram in de rechterbovenhoek van het cursus- of catalogusscherm om de leerobjecten alfabetisch (oplopend of aflopend) of op gepubliceerde datum te sorteren. U kunt de leerobjecten ook filteren op type, voltooiingsstatus, vaardigheden of op tags. Tik en selecteer het filter en tik op Toepassen om het filter toe te passen.
 
 **De zoekfunctie gebruiken**
 
-Rechtsboven in het telefoonscherm ziet u een zoekpictogram. Tik op dat pictogram om naar leerobjecten te zoeken op cursusmetagegevens, unieke ID, vaardigheden, enzovoort.
+Rechtsboven op uw telefoonscherm ziet u een zoekpictogram. Tik op dat pictogram om naar leerobjecten te zoeken op basis van cursusmetagegevens, unieke ID, vaardigheden, en dergelijke.
 
 **Profiel, instellingen en meldingen beheren**
 
 Tikken ![](assets/hamburger.jpg) linksboven in het scherm om uw profiel, meldingen en accountinstellingen weer te geven.
 
-Met dit menu kunt u ook de QR-code scannen om aanwezigheid voor cursussen te markeren.
+U kunt via dit menu ook de QR-code scannen om de aanwezigheid van studenten bij de cursussen te markeren.
 
 U hoeft alleen maar op de knop **QR-code scannen** en scan de code.
 
-**Offline volgen van cursussen**
+**Offline cursussen volgen**
 
 Wanneer u gedownloade cursussen volgt terwijl u online bent, krijgt de leermanager toegang tot de gedownloade cursus in plaats van dat hij serveraanroepen doet.
 
-## QR-code scannen om in te schrijven {#qrcode}
+## QR-code scannen voor inschrijving {#qrcode}
 
-U kunt een QR-code scannen en u inschrijven voor een cursus. Nadat de leerbeheerder een QR-code heeft gegenereerd, kunt u de QR-code vanuit de app scannen en u inschrijven voor een cursus.
+U kunt een QR-code scannen en u inschrijven voor een cursus. Nadat de Leermateriaalbeheerder een QR-code heeft gegenereerd, kunt u de QR-code uit de app scannen en u inschrijven voor een cursus.
 
 1. Tik op ![](assets/hamburger.jpg) in de linkerbovenhoek van het scherm.
-1. Tikken **QR-code scannen**.
+1. Tik op **QR-code scannen**.
 
-Met de functie QR scannen kan een student een van de onderstaande handelingen uitvoeren, afhankelijk van de QR-code die door de leerbeheerder is gegenereerd:
+Met de functie om QR te scannen kan een student een van de onderstaande acties uitvoeren, afhankelijk van de QR-code die door de Leermateriaalbeheerder is gegenereerd:
 
 * **Inschrijving:** Zo kan de student zich voor een cursus inschrijven door de QR-code te scannen.
-* **Voltooiing:** Zo kan de student de cursus als voltooid markeren door de QR-code te scannen.
-* **Inschrijving en voltooiing:** Zo kan de student zich inschrijven voor en voltooiing markeren door de QR-code tegelijk te scannen.
+* **Voltooiing:** Hiermee kan de student de cursus als voltooid markeren door de QR-code te scannen.
+* **Inschrijving en voltooiing:** Hiermee kan de student zich zowel inschrijven als voltooiing markeren door de QR-code te scannen.
 * **Aanwezigheid markeren:** Zo kan de student aanwezigheid voor een bepaalde sessie markeren door de QR-code te scannen.
 
 ## Naam van leerobjecten wijzigen {#renaminglearningobjects}
 
-Beheerders kunnen de terminologie van leerobjecten wijzigen. Zie [Naam van leerobjecten wijzigen](../../administrators/feature-summary/settings.md#main-pars_header_1570157145).
+Beheerders kunnen terminologie van leerobjecten wijzigen.  Zie [Naam van leerobjecten wijzigen](../../administrators/feature-summary/settings.md#main-pars_header_1570157145) om de naam te wijzigen.
 
 ## Sociaal leren {#socialmobile}
 
-In deze update worden de volgende functies niet ondersteund. U kunt niet:
+In deze update worden de volgende functies niet ondersteund.  Het volgende is niet mogelijk:
 
-* Maak of volg een board.
-* Kopieer een URL naar een bericht.
+* Een board maken of volgen.
+* Een URL naar een bericht kopiëren.
 * Een bericht als artikel toevoegen of een bericht als favoriet toevoegen of boven vastzetten.
-* Bekijk een sociaal leaderboard.
+* Een sociaal leaderboard weergeven.
 
-Sociaal leren is een platform in de mobiele app van Learning Manager, waarin gebruikers ideeën en zinvolle inzichten kunnen delen in een informele omgeving. Het is een methode die het idee van traditioneel leren aanvult.
+Sociaal leren is een platform in de mobiele Learning Manager-app waarin gebruikers ideeën en zinvolle inzichten kunnen delen in een informele omgeving. Deze methode is een aanvulling op de notie van traditioneel leren.
 
-Met Sociaal leren kunnen gebruikers de expertise om hen heen gebruiken om juiste en beknopte informatie te krijgen. Studenten kunnen die informatie snel toepassen om een taak te voltooien en een doel te bereiken.
+Met Sociaal leren kunnen gebruikers de expertise om hen heen benutten om juiste en beknopte informatie te verkrijgen. Studenten kunnen die informatie snel toepassen om taken te voltooien en doelen te bereiken.
 
-Met de mobiele app kunnen gebruikers met elkaar communiceren door inhoud te delen en validatie voor de gedeelde inhoud te krijgen.
+Met de mobiele app kunnen gebruikers interactief met elkaar omgaan door inhoud te delen en bevestiging te krijgen over de gedeelde inhoud.
 
-Op dit platform kunnen verschillende typen inhoud worden gedeeld: video, audio, screenshot, tekst, vraag en opiniepeiling. Gebruikers kunnen hun online leermateriaal ook met hun collega&#39;s delen.
+Op dit platform kunnen verschillende inhoudstypen worden gedeeld: video, audio, screenshots, tekst, vragen en polls. Gebruikers kunnen hun online leermateriaal ook met hun collega&#39;s delen.
 
-Deze functie is alleen beschikbaar in de apparaatapp nadat de beheerder **Sociaal leren** voor de account.
+Deze functie is pas beschikbaar in de app nadat de beheerder **Sociaal leren** voor het account heeft ingeschakeld.
 
-## Sociaal leren starten in de app {#launchsociallearningontheapp}
+## Sociaal leren openen in de app {#launchsociallearningontheapp}
 
-Tik bij het starten van de app op de knop **Sociaal** pictogram.
+Tik bij het starten van de app op het pictogram **Sociaal**.
 
 ![](assets/home.png)
 
 *Sociaal leren weergeven*
 
-## Een bericht op een board maken {#createapostinaboard}
+## Een bericht maken op een board {#createapostinaboard}
 
-Net als elk ander sociaal platform kunt u in de mobiele app van Learning Manager een bericht op een board maken, zodat alle studenten die deel uitmaken van hetzelfde board uw bericht kunnen bekijken, opmerkingen kunnen plaatsen en een bestand met de opmerking kunnen uploaden.
+Net als op andere sociale platforms kunt u in de mobiele Learning Manager-app berichten op een board plaatsen zodat alle studenten die deel uitmaken van hetzelfde board uw bericht kunnen zien, erop kunnen reageren en een bestand bij hun opmerking kunnen uploaden.
 
 Tik op de knop ![pictogram toevoegen](/help/migrated/learners/feature-summary/assets/prime-add.png) rechtsonder in het scherm.
 
@@ -254,7 +254,7 @@ Het volgende scherm wordt weergegeven.
    <td>
     <p><img src="assets/prime-camera.png" alt=""></p></td>
    <td>
-    <p>Neem een foto met uw mobiele camera en upload deze met uw bericht.</p></td>
+    <p>Maak een foto met uw mobiele camera en upload deze bij uw bericht.</p></td>
   </tr>
   <tr>
    <td>
@@ -266,7 +266,7 @@ Het volgende scherm wordt weergegeven.
    <td>
     <p><img src="assets/prime-record.png" alt=""> </p></td>
    <td>
-    <p>Neem audio op met je mobiele apparaat.</p></td>
+    <p>Neem audio op met uw mobiel.</p></td>
   </tr>
   <tr>
    <td>
@@ -284,7 +284,7 @@ Het volgende scherm wordt weergegeven.
    <td>
     <p><img src="assets/prime-poll.png" alt=""> </p></td>
    <td>
-    <p>Maak een opiniepeiling met uw bericht.</p></td>
+    <p>Voeg een poll toe aan uw bericht.</p></td>
   </tr>
  </tbody>
 </table>
@@ -326,26 +326,26 @@ Het volgende scherm wordt weergegeven.
  </tbody>
 </table>
 
-Nadat u een bericht hebt gemaakt, kiest u het board waar u het bericht wilt uploaden. Tik op Board selecteren en zoek het gewenste board.
+Nadat u een bericht hebt gemaakt, kiest u het board waarop u het bericht wilt uploaden. Tik op Board selecteren en zoek het gewenste board.
 
 Nadat u een bericht hebt gemaakt, tikt u op Plaatsen en plaatst u uw opmerking zodat andere studenten uw bericht kunnen bekijken.
 
-In de mobiele app kunt u geen board maken. Als u een board wilt maken, moet u zich als student aanmelden bij de webapp. Zie Sociaal leren in voor meer informatie over het maken van boards [Learning Manager](/help/migrated/learners/feature-summary/social-learning-web-user.md).
+In de mobiele app kunt u geen boards maken.  Om boards te maken moet u zich als student aanmelden bij de web-app.  Ga voor meer informatie over het maken van een board naar sociaal leren in [Learning Manager](/help/migrated/learners/feature-summary/social-learning-web-user.md).
 
-## Handelingen die op een bericht kunnen worden uitgevoerd {#actionsthatcanbeperformedonapost}
+## Acties die op een bericht kunnen worden uitgevoerd {#actionsthatcanbeperformedonapost}
 
-* Plaats een opmerking op een bericht en bekijk het bericht op een board op basis van de machtiging.
+* Plaats een opmerking bij een bericht en bekijk het bericht op het board, afhankelijk van de machtigingen.
 * Bewerk of verwijder opmerkingen op een board.
-* Een bericht bewerken of verwijderen op basis van machtigingen.
-* Meld misbruik van een bericht als het inbreuk maakt op hun privacy of als de inhoud ervan ongepast is. Nadat een bericht is gerapporteerd, wordt een melding verzonden naar de beheerder en moderators van het board voor verdere acties.
+* Bewerk of verwijder een bericht, afhankelijk van de machtigingen.
+* Meld misbruik van een bericht als het de privacy schendt of als de inhoud ongepast is. Nadat een bericht is gerapporteerd, wordt een melding naar de beheerder en moderators van het board gestuurd voor verdere actie.
 * leuk  ![](assets/prime-like.png)  of anders  ![](assets/prime-dislike.png)   een bericht.
 * leuk  ![](assets/prime-like.png) of anders ![](assets/prime-dislike.png) een opmerking.
 
-## Een bericht op andere boards maken {#createapostinotherboards}
+## Een bericht plaatsen op andere boards {#createapostinotherboards}
 
 U kunt ook een bericht op andere boards plaatsen.
 
-Tikken **Alle boards** en u kunt de activiteiten van andere studenten op het board bekijken.
+Tik op **Alle boards** om de activiteiten van andere studenten op het board te bekijken.
 
 ![](assets/all-boards-1.png)
 
@@ -357,61 +357,61 @@ Navigeer naar het gewenste board en plaats uw opmerking.
 
 <!--![](assets/cp-prime-share.png)-->
 
-Deel afbeeldingen, documenten, audio- of videobestanden op elk board, zodat andere leden van het board uw bericht kunnen bekijken en een interactie kunnen starten. Om media te delen:
+Deel afbeeldingen, documenten, audio- of videobestanden op een board zodat andere boardleden uw bericht kunnen zien en een interactie kunnen starten. Om media te delen:
 
 1. Open de media die u wilt delen.
 1. Tik op de knop Delen en kies Leerbeheer.
 1. Kies het board waarin u de media wilt delen.
 1. Tikken **Post**.
 
-U kunt ook inhoud van een externe app posten, bijvoorbeeld een opmerking van Reddit of Quora delen.
+U kunt ook inhoud van een externe app posten, zo kunt u bijvoorbeeld een opmerking van Reddit of Quora delen.
 
-## Elementen uploaden in extern certificaat als bewijs van voltooiing {#externalcert}
+## Items in extern certificaat uploaden als bewijs van voltooiing {#externalcert}
 
-Volg de onderstaande stappen:
+Volg onderstaande stappen:
 
-1. Meld u met uw studentgegevens aan bij de apparaatapp.
-1. Zoek naar het certificaat dat de auteur heeft gemaakt.
-1. Kies het vereiste certificaat in de lijst met externe certificaten en schrijf u in voor het certificaat.
+1. Meld u aan bij de apparaat-app met uw studentgegevens.
+1. Zoek het certificaat op dat de auteur heeft gemaakt.
+1. Kies het benodigde certificaat in de lijst met externe certificaten en schrijf u in voor het certificaat.
 1. Tikken **Bewijs van voltooiing** en uploadt u een bestand, bijvoorbeeld een PDF-bestand of een afbeelding.
 
    | ![](assets/screenshot-3.png) | ![](assets/screenshot-4.png) |
    |---|---|
    *Bewijs van voltooiing uploaden*
 
-1. Na het uploaden van een bestand, tabblad **Verzenden**. Er verschijnt een bevestigingsbericht.
+1. Nadat u het bestand hebt geüpload, tikt u op **Verzenden**. Er verschijnt een bevestigingsbericht.
 
 **Een bestand uploaden**
 
-1. Na het uploaden van een bestand tikt u op **Verzenden**.
+1. Na het uploaden van een bestand tikt u op **Inzenden**.
 
-   U kunt slechts één bestand uploaden als bewijs van voltooiing. Wanneer u meerdere bestanden probeert te uploaden, wordt het volgende bericht weergegeven:
+   U kunt er maar één bestand uploaden als bewijs van voltooiing. Wanneer u meer bestanden probeert te uploaden, ziet u het volgende bericht:
 
    **De wijzigingen die u hebt aangebracht, gaan verloren. Wilt u doorgaan?**
 
-1. De status verandert in **In afwachting van goedkeuring**, weergegeven in een oranje kleur.
+1. De status verandert in **In afwachting van goedkeuring** (oranje).
 
-   U kunt het geüploade bestand niet weergeven of downloaden naar de mobiele app.
+   U kunt het geüploade bestand niet weergeven of downloaden in de mobiele app.
 
-Nadat de manager de inzending heeft goedgekeurd, verandert de status in **Goedgekeurd**, groen gekleurd.
+Wanneer de manager de inzending goedkeurt, verandert de status in **Goedgekeurd** (groen).
 
-Als de manager de inzending afwijst, verandert de status in **Afgewezen**, rood gekleurd.
+Wanneer de manager de inzending afwijst, verandert de status in **Afgewezen** (rood).
 
 | ![](assets/screenshot-7.png) | ![](assets/screenshot-9.png) | ![](assets/screenshot-8.png) |
 |---|---|---|
 
 *Verzendstatus weergeven*
 
-Na afwijzing kunt u een bestand uploaden als bewijs van voltooiing.
+In geval van een afwijzing kunt u een bestand uploaden als bewijs van voltooiing.
 
 * U kunt een bestand alleen verzenden als de status **In behandeling en afgewezen**.
 * U kunt geen bestand verzenden als de status **In afwachting van goedkeuring en goedgekeurd**.
 
-## Cursussen volgen vanuit LinkedIn Learning {#linkedin}
+## Cursussen volgen van LinkedIn Learning {#linkedin}
 
-Learning Manager ondersteunt al LinkedIn Learning-cursussen binnen het leerplatform. Studenten kunnen nu dergelijke LinkedIn Learning-cursussen volgen in de mobiele app van Learning Manager. Zoek in de apparaatapp naar een cursus en start de cursus.
+Learning Manager ondersteunt al cursussen van LinkedIn Learning binnen het studieplatform. Studenten kunnen nu dergelijke cursussen van LinkedIn Learning volgen in de mobiele app van Learning Manager. Zoek in de apparaat-app naar een cursus en start deze vervolgens.
 
-Als u de LinkedIn-app al hebt geïnstalleerd, wordt de cursus geopend in de app, anders wordt de cursus geopend in de standaardbrowser waarin u zich moet aanmelden met uw LinkedIn-referenties.
+Als de LinkedIn-app reeds is geïnstalleerd, wordt de cursus geopend in de app. Zo niet, dan wordt de cursus geopend in de standaard browser waar u zich moet aanmelden met behulp van uw LinkedIn-gegevens.
 
 Als u de cursus volgt via de LinkedIn-app, wordt uw voortgang niet bijgehouden in Leerbeheer. Daarom wordt aangeraden de cursus te starten in de browser in plaats van de LinkedIn Learning-app.
 
@@ -424,13 +424,13 @@ Als u de cursus volgt via de LinkedIn-app, wordt uw voortgang niet bijgehouden i
 
 *Cursussen inschrijven voor LinkedIn Learning*
 
-De leertijd die in LinkedIn Learning-cursussen wordt doorgebracht, wordt door het LinkedIn Content/LinkedIn-platform doorgegeven aan het Learning Manager Learning-leerplatform.
+De tijd die wordt besteed aan cursussen van LinkedIn Learning wordt via het LinkedIn Content/LinkedIn-platform doorgegeven aan het Learning Manager-studieplatform.
 
-Als LinkedIn learning de leertijd niet verstuurt, kan het niet worden opgenomen door ons leerplatform. In dat geval is de leertijd die door de leermanager wordt weergegeven nul.
+In het geval dat LinkedIn Learning de studietijd niet doorstuurt, kan deze tijd niet door ons studieplatform worden geregistreerd. In dat geval is de leertijd die door de leermanager wordt weergegeven nul.
 
-## Bestand verzenden voor klassikale en activiteitsmodules {#submitfile}
+## Bestanden inzenden voor klassikale en activiteitsmodules {#submitfile}
 
-Als student kunt u bestanden als bewijs van voltooiing van de cursus indienen bij uw docent. De docent kan vervolgens uw inzending goedkeuren of afwijzen op basis van de inhoud van het bestand.
+Als student kunt u bestanden naar uw docent sturen als bewijs van voltooiing. De docent kan uw inzending vervolgens goedkeuren of weigeren op basis van de inhoud van het bestand.
 
 Een auteur kan alleen klassikale en activiteitsmodules maken die een student in de mobiele app kan gebruiken.
 
@@ -440,7 +440,7 @@ Nadat de student een cursus heeft gestart, ziet de student de status **Bestandsv
 
 *Status van het indienen van bestanden*
 
-Klik op **Bestand uploaden**.
+Klik op **Bestand uploaden** om het bestand te uploaden.
 
 Upload een bestand en klik op de knop **Verzenden** knop.
 
@@ -485,7 +485,7 @@ Upload een bestand en klik op de knop **Verzenden** knop.
  </tbody>
 </table>
 
-## Goedkeuring of afwijzing van de indiening {#approvalorrejectionofsubmission}
+## Goedkeuring of afwijzing van inzending {#approvalorrejectionofsubmission}
 
 Nadat u het bestand uploadt, verandert de status in **In afwachting van goedkeuring**. De docent bekijkt dan de lijst met [hangende indiening](/help/migrated/instructors/feature-summary/learners.md) en keurt de inzending goed of wijst deze af via de web-app voor docenten.
 
@@ -497,7 +497,7 @@ Wanneer de docent de inzending afwijst, verandert de status in de mobiele app va
 
 <!--![](assets/rejected.jpg)-->
 
-Klik op de koppeling om het bestand opnieuw te verzenden **Bestand uploaden**.
+Om het bestand opnieuw in te dienen, klikt u op de link **Bestand uploaden**.
 
 ## Learning Manager voor iPad en tablets {#captivateforipadandtablets}
 
@@ -511,12 +511,12 @@ Tik op de knop **Menu** en kiest u de gewenste optie.
 
 U hebt een optie om de cursussen in een lijstweergave te bekijken in plaats van naast elkaar/met kaarten.
 
-## De app offline openen {#accesstheappoffline}
+## Offline toegang tot de app {#accesstheappoffline}
 
-U kunt de app Learning Manager offline openen op iPad- en Android-tablets. U kunt cursussen en leerprogramma&#39;s downloaden. Neem cursussen, volg de leerprogramma&#39;s in offline modus en synchroniseer de inhoud weer met de online app wanneer u verbinding maakt met het netwerk.
+U hebt offline toegang tot de Learning Manager-app op iPad- en Android-tablets. U kunt cursussen en leerprogramma&#39;s downloaden. Neem cursussen, volg de leerprogramma&#39;s in offline modus en synchroniseer de inhoud weer met de online app wanneer u verbinding maakt met het netwerk.
 
 1. Tikken **Menu** vervolgkeuzelijst bovenaan en tik op **Leren** gebruiken. Een lijst van alle beschikbare cursussen wordt weergegeven in tegels.
-1. Tik op het downloadpictogram onder aan elke leerobjecttegel om de leerinhoud te downloaden.
+1. Tik op het downloadpictogram onderaan elke leerobjecttegel om de leerinhoud te downloaden.
 
    ![](assets/download-cards.png)
 

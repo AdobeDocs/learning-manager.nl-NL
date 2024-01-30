@@ -1,12 +1,12 @@
 ---
-description: Leer meer over de instellingen van de Learning Manager-account die u als beheerder kunt configureren.
+description: Lees meer over de instellingen van het Learning Manager-account die u kunt configureren als beheerder.
 jcr-language: en_us
 title: Instellingen
 contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '3791'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Instellingen
 
-Leer meer over de instellingen van de Learning Manager-account die u als beheerder kunt configureren.
+Lees meer over de instellingen van het Learning Manager-account die u kunt configureren als beheerder.
 
-U kunt de profielinstellingen van uw beheerder wijzigen en uw accountinstellingen bijwerken. Uw profielgegevens bekijken, profielfoto toevoegen/wijzigen en wijzigen **[!UICONTROL Over mij]** inhoud. Werk uw bedrijfsinfo bij, stel aanmeldingsmethoden voor gebruikers in en stel integratie via accountinstellingen in.
+U kunt uw profielinstellingen voor beheerder wijzigen en uw accountinstellingen bijwerken. Uw profielgegevens bekijken, profielfoto toevoegen/wijzigen en wijzigen **[!UICONTROL Over mij]** inhoud. Update uw bedrijfsinformatie, stel aanmeldingsmethoden voor gebruikers in en stel integratie via accountinstellingen in.
 
 ## Accountinstellingen {#accountsettings}
 
@@ -26,9 +26,9 @@ Klik op **[!UICONTROL Instellingen]** in het linkerdeelvenster.
 
 Klikken **[!UICONTROL Wijzigen]** op de pagina en de instellingen voor land, tijdzone, landinstelling en boekjaar bewerken.
 
-**Contact opnemen met beheerder configureren**
+**Contact met beheerder configureren**
 
-Als u de e-mailadressen van de ondersteuningsbeheerders voor uw organisatie wilt toevoegen of wijzigen, kunt u deze configureren door op **[!UICONTROL Algemeen]** in het linkerdeelvenster. Klikken **[!UICONTROL Wijzigen]** grenzend aan **[!UICONTROL E-mailadres voor ondersteuning]** en voeg de e-mail-ID toe. E-mail wordt naar deze beheerders verzonden wanneer de student klikt **[!UICONTROL Contact opnemen met beheerder]** in de voettekst van de pagina.
+Als u de e-mailadressen van de ondersteuningsbeheerders voor uw organisatie wilt toevoegen of wijzigen, kunt u deze configureren door op **[!UICONTROL Algemeen]** in het linkerdeelvenster te klikken. Klikken **[!UICONTROL Wijzigen]** grenzend aan **[!UICONTROL E-mailadres voor ondersteuning]** en voeg de e-mail-ID toe. E-mail wordt naar deze beheerders verzonden wanneer de student klikt **[!UICONTROL Contact opnemen met beheerder]** in de voettekst van de pagina.
 
 Voeg extra e-mail-ID&#39;s toe met een puntkomma als scheidingsteken.
 
@@ -41,13 +41,13 @@ Indien u dat wenst, kunnen externe gebruikers zich bij dit account aanmelden nad
 
 >[!NOTE]
 >
->Als er meerdere externe profielen zijn ingesteld, kunnen alle profielen elk type aanmelding hebben. Als het aanmeldingstype bijvoorbeeld Adobe ID is, moeten alle profielen zich alleen aanmelden met Adobe ID. Elk profiel kan niet zijn eigen aanmeldingstype hebben.
+>Als er meerdere externe profielen zijn ingesteld, kunnen alle profielen elk type aanmelding hebben. Als Adobe ID bijvoorbeeld als aanmeldingstype is ingesteld, kunnen alle profielen zich alleen met Adobe ID aanmelden. Een profiel kan geen eigen aanmeldingstype hebben.
 
-U kunt de toepassing Learning Manager openen met Adobe ID of door Single Sign-On te gebruiken. Single Sign-On is een mechanisme waarmee een gebruiker zich eenmaal kan verifiëren en meerdere keren toegang krijgt tot meerdere toepassingen. Deze configuratie is niet verplicht voor de organisatie. Als uw organisatie een op SAML 2.0 gebaseerde SSO-provider heeft, kunt u deze gebruiken om de toepassing van Learning Manager te configureren. De configuratie is vereist op organisatieniveau en in de toepassing Learning Manager. Als u SSO gebruikt, neemt u contact op met de ondersteuning van de Adobe voor configuratie-instructies
+U kunt de Learning Manager-toepassing openen met behulp van Adobe ID of eenmalige aanmelding. Eenmalige aanmelding is een mechanisme waarmee een gebruiker zich eenmalig kan authenticeren om meerdere keren toegang te krijgen tot meerdere toepassingen. Deze configuratie is niet verplicht voor de organisatie. Als uw organisatie een SAML 2.0 gebaseerde SSO-provider heeft, kunt u deze gebruiken om de Learning Manager-toepassing te configureren. De configuratie is vereist op organisatieniveau en op Learning Manager-niveau. Kiest u voor SSO, neem dan contact op met de Adobe-ondersteuning voor configuratie-instructies.
 
 **Feedback**
 
-Klikken **[!UICONTROL Feedback]** in het linkerdeelvenster om de vragenlijst in te stellen om na het afronden van een cursus feedback van studenten te krijgen. Raadpleeg [cursusfunctie Help-inhoud](courses.md) over het maken van L1- en L3-feedback.
+Klik op **[!UICONTROL Feedback]** in het linkerdeelvenster om de vragenlijst in te stellen om na afloop van een cursus feedback van studenten te verzamelen. Raadpleeg [cursusfunctie Help-inhoud](courses.md) over het maken van L1- en L3-feedback.
 
 **Meerdere pogingen**
 
@@ -61,19 +61,19 @@ Als u het selectievakje Meerdere pogingen inschakelt, kunnen auteurs Meerdere po
 
 **Cursusmoderatie**
 
-Klikken **[!UICONTROL Algemeen]** in het linkerdeelvenster en selecteer de optie Cursusmoderatie om de functie Cursusmoderatie in te schakelen. Ga voor meer informatie over deze functie naar [Cursusmoderatie](courses.md#main-pars_header_1879001177).
+Klik in het linkerdeelvenster op **[!UICONTROL Algemeen]** en selecteer de optie Cursusmoderatie om de functie Cursusmoderatie in te schakelen. Zie [Cursusmoderatie](courses.md#main-pars_header_1879001177) om meer te weten te komen over deze functie.
 
 **Discussieboard**
 
-Als u het selectievakje Discussieboard inschakelt, kunnen de studenten en docenten opmerkingen voor cursussen plaatsen via het tabblad Discussie op de pagina Cursussen in de Learner-app. Als de instellingen op cursusniveau echter aangeven dat deze functie niet is geselecteerd, hebben de instellingen op cursusniveau voorrang op de beheerdersinstellingen.
+Als u het selectievakje Discussiebord inschakelt, kunnen de studenten en docenten opmerkingen plaatsen voor cursussen via het tabblad Discussie op de pagina Cursussen in de Learner-app. Als de instellingen op cursusniveau echter aangeven dat deze functie niet is geselecteerd, hebben deze instellingen voorrang op de beheerdersinstellingen.
 
 **Studentendashboard**
 
-Klik in het linkerdeelvenster op Studentendashboard. Op deze pagina kunt u de widgets kiezen die u op de pagina Studenten wilt weergeven. Selecteer de widgets die u op de studentenpagina wilt inschakelen. De widgets die niet zijn geselecteerd, worden niet weergegeven op de pagina Studenten.
+Klik op Studentendashboard in het linkerdeelvenster. Op deze pagina kunt u de widgets kiezen die u op de pagina Studenten wilt weergeven. Selecteer de widgets die u op de pagina Studenten wilt inschakelen. De widgets die niet zijn geselecteerd, verschijnen niet op de pagina Studenten.
 
 **Adobe Connect**
 
-Klikken **[!UICONTROL Adobe Connect]** in het linkerdeelvenster om Adobe Connect-account te configureren voor het hosten van virtuele klassikale sessies. Raadpleeg voor meer informatie  [Adobe Connect](adobeconnect-integration.md) Help.
+Klik op **[!UICONTROL Adobe Connect]** in het linkerdeelvenster om het Adobe Connect-account te configureren voor het hosten van virtuele klassikale sessies. Raadpleeg voor meer informatie  [Adobe Connect](adobeconnect-integration.md) Help.
 
 ## Algemene instellingen {#general}
 
@@ -90,37 +90,37 @@ Schakel de volgende instellingen in of uit:
    </th>
   </tr>
   <tr>
-   <td>Cursuseffectiviteit tonen</td>
+   <td>Cursuseffectiviteit weergeven</td>
    <td>Indien ingeschakeld kunnen studenten de huidige cursuseffectiviteit zien op de cursustegel. Deze functie is alleen beschikbaar voor cursussen. Sterrenclassificatie wordt niet ondersteund voor leerprogramma's of certificaten. Het is beschikbaar voor cursussen en leerprogramma's, maar niet voor certificeringen.</td>
   </tr>
   <tr>
    <td>Cursusmoderatie</td>
-   <td>Indien ingeschakeld moeten alle wijzigingen in cursussen worden goedgekeurd door de beheerder voordat de cursussen zichtbaar zijn voor de studenten.</td>
+   <td>Indien ingeschakeld moeten alle wijzigingen aan cursussen door de beheerder worden goedgekeurd voordat de cursussen zichtbaar worden voor de studenten.</td>
   </tr>
   <tr>
    <td>Discussieboard</td>
-   <td>Als u het selectievakje Discussieboard inschakelt, kunnen de studenten en docenten opmerkingen voor cursussen plaatsen via het tabblad Discussie op de pagina Cursussen in de Learner-app. Als de instellingen op cursusniveau echter aangeven dat deze functie niet is geselecteerd, hebben de instellingen op cursusniveau voorrang op de beheerdersinstellingen.</td>
+   <td>Als u het selectievakje Discussiebord inschakelt, kunnen de studenten en docenten opmerkingen plaatsen voor cursussen via het tabblad Discussie op de pagina Cursussen in de Learner-app. Als de instellingen op cursusniveau echter aangeven dat deze functie niet is geselecteerd, hebben deze instellingen voorrang op de beheerdersinstellingen.</td>
   </tr>
   <tr>
    <td>Meerdere pogingen</td>
-   <td>Indien ingeschakeld kan de auteur meerdere pogingen configureren voor cursusmodules.</td>
+   <td>Indien ingeschakeld kan de auteur meerdere pogingen voor cursusmodules configureren.</td>
   </tr>
   <tr>
-   <td>Optie Vaardigheden verkennen</td>
-   <td>Indien ingeschakeld kunnen studenten de vaardigheden van collega's en leidinggevenden verkennen en zich abonneren op de vaardigheden van hun keuze.</td>
+   <td>De optie Vaardigheden ontdekken</td>
+   <td>Indien ingeschakeld kunnen studenten de vaardigheden van collega's en leidinggevenden ontdekken en zich abonneren op de gewenste vaardigheden.</td>
   </tr>
   <tr>
    <td>Zichtbaarheid van vaardigheden/tags</td>
-   <td>Geef alle vaardigheden en tags weer aan studenten. U kunt alle vaardigheden en tags weergeven of vaardigheden en tags weergeven die zijn toegewezen of die deel uitmaken van de catalogi die zichtbaar zijn voor de student.</td>
+   <td>Geef alle vaardigheden en tags weer aan studenten. U kunt alle vaardigheden en tags weergeven of alleen vaardigheden en tags weergeven die zijn toegewezen of die deel uitmaken van de catalogi die zichtbaar zijn voor de student.</td>
   </tr>
   <tr>
-   <td>Unieke ID's voor leerobjecten</td>
-   <td>Indien ingeschakeld kan een beheerder of auteur een unieke ID toevoegen voor elk leerobject.</td>
+   <td>Unieke leerobject-ID's</td>
+   <td>Indien ingeschakeld kan een beheerder of auteur een unieke ID toevoegen per leerobject.</td>
   </tr>
   <tr>
-   <td>Filterdeelvensters tonen</td>
+   <td>Filterpanelen weergeven</td>
    <td>
-    <p><a id="filter-panels"></a>Bepaal welke filterdeelvensters beschikbaar zijn voor gebruikers in de Learner-toepassing om hun zoekresultaten te verfijnen. De volgende opties zijn beschikbaar:</p>
+    <p><a id="filter-panels"></a>Bepaal met welke filterpanelen gebruikers hun zoekresultaten kunnen verfijnen in de Learner-toepassing. De volgende opties zijn beschikbaar:</p>
     <ul>
      <li>Catalogi</li>
      <li>Type</li>
@@ -128,84 +128,84 @@ Schakel de volgende instellingen in of uit:
      <li>Duur</li>
      <li>Vaardigheden</li>
      <li>Vaardigheidsniveaus</li>
-     <li>Labels</li>
+     <li>Tags</li>
     </ul>
-    <p>Wanneer de student de Learner-app start, kan de student in de secties Mijn leerervaring en Catalogus de filters in hun respectievelijke deelvensters zien.</p>
-    <p><b>Opmerking: </b>De filters <b>Indeling </b>en <b>Duur </b>worden standaard uitgeschakeld en worden niet onmiddellijk na de release aan de studenten getoond. De beheerder moet ze inschakelen. <br></p></td>
+    <p>Wanneer de student de Learner-app start, in de secties Mijn Leerervaring en Catalogus, kan de leerling de filters in zijn/haar respectievelijke panelen zien.</p>
+    <p><b>Opmerking: </b>de filters <b>Indeling </b>en <b>Duur </b>zijn standaard uitgeschakeld en zijn niet onmiddellijk na de release zichtbaar voor de studenten. De beheerder moet ze inschakelen. <br></p></td>
   </tr>
   <tr>
-   <td>Cataloguslijst tonen</td>
-   <td>Indien ingeschakeld kunnen studenten een lijst met alle beschikbare catalogi zien. Studenten kunnen hiermee de weergave van de leerobjecten verfijnen.</td>
+   <td>Cataloguslijst weergeven</td>
+   <td>Indien ingeschakeld zien studenten een lijst met alle beschikbare catalogi. Aan de hand hiervan kunnen studenten verfijnen hoe de leerobjecten worden weergegeven.</td>
   </tr>
   <tr>
    <td>Productterminologie</td>
-   <td>Learning Manager heeft een standaardterminologie die in het hele product wordt gebruikt. Pas de terminologie aan de behoeften van uw organisatie aan.</td>
+   <td>Learning Manager heeft standaardterminologie die wordt gebruikt in het product. Wijzig de terminologie om aan de behoeften van uw organisatie te voldoen.</td>
   </tr>
   <tr>
    <td>Versie-update van module</td>
-   <td>Configureer de standaardinstelling om inhoud bij te werken. De instellingen kunnen voor elke inhoud van de cursuspagina worden gewijzigd.</td>
+   <td>Configureer de standaardinstelling om inhoud bij te werken. De instelling kan voor alle inhoud op de cursuspagina worden gewijzigd.</td>
   </tr>
   <tr>
    <td>Gebruikers automatisch registreren</td>
-   <td>Indien ingeschakeld worden nieuwe geïmporteerde gebruikers automatisch geregistreerd. Gebruikers moeten standaard handmatig worden geregistreerd voordat ze Leerbeheer kunnen gaan gebruiken.</td>
+   <td>Indien ingeschakeld worden nieuw geïmporteerde gebruikers automatisch geregistreerd.  Gebruikers moeten standaard handmatig worden geregistreerd voordat ze Learning Manager kunnen gebruiken.</td>
   </tr>
   <tr>
    <td><a id="autodelete"></a>Interne gebruikers automatisch verwijderen</td>
-   <td>Indien ingeschakeld worden interne gebruikers automatisch verwijderd als ze het systeem gedurende een opgegeven aantal dagen niet openen. Deze functie is van toepassing op gebruikers die alleen de rol hebben <b>Student</b>. Om de toegang te herstellen, moeten gebruikers contact opnemen met de beheerder.<br></td>
+   <td>Als dit ingeschakeld is, worden interne gebruikers automatisch verwijderd als ze het systeem gedurende het opgegeven aantal dagen niet gebruiken.  Deze functie is van toepassing op gebruikers die alleen de rol <b>Student</b> hebben.  Om de toegang te herstellen moeten gebruikers contact opnemen met de beheerder.<br></td>
   </tr>
   <tr>
-   <td>Cataloguslabels tonen</td>
-   <td>Indien ingeschakeld kunnen beheerders en auteurs cataloguslabels en waarden instellen en koppelen aan leerobjecten.</td>
+   <td>Cataloguslabels weergeven</td>
+   <td>Indien ingeschakeld kunnen beheerders en auteurs cataloguslabels en waarden instellen en deze koppelen aan leerobjecten.</td>
   </tr>
   <tr>
    <td>Studenten kunnen hun scores bekijken</td>
-   <td>Indien ingeschakeld kunnen de studenten hun scores in het studenttranscript bekijken.</td>
+   <td>Indien ingeschakeld kunnen de studenten hun scores bekijken in het studententranscript</td>
   </tr>
   <tr>
-   <td>E-mail overzicht</td>
+   <td>Overzichtsmail</td>
    <td>
-    <p>Een beheerder kan het verzenden van een e-mail naar studenten in- of uitschakelen. De beheerder kan ook de frequentie van de verzonden e-mails bepalen.</p>
+    <p>Een beheerder kan het sturen van een e-mail aan studenten in- of uitschakelen. De beheerder kan ook de frequentie van de verzonden e-mails regelen.</p>
     <ul>
-     <li>Voor <b>actieve accounts</b>, worden digest-e-mails standaard uitgeschakeld, zodat de beheerder deze handmatig kan inschakelen.</li>
-     <li>Voor <b>proefaccounts</b>, blijft de optie voor digest-e-mails uitgeschakeld en kan de beheerder deze optie niet inschakelen.</li>
+     <li>Overzichtsmail wordt standaard uitgeschakeld voor <b>actieve accounts</b>; de beheerder kan dit handmatig inschakelen.</li>
+     <li>Voor <b>proefaccounts</b> blijft de optie voor overzichtsmail uitgeschakeld. De beheerder kan deze optie niet inschakelen.</li>
     </ul>
-    <p>Als de functie is uitgeschakeld, geldt het volgende:</p>
+    <p>Als de functie is uitgeschakeld:</p>
     <ul>
-     <li>De optie <b>E-mail overzicht</b> wordt uitgeschakeld.</li>
-     <li>Een student kan de gebruikersinstelling voor het digest-e-mailabonnement niet zien.</li>
+     <li>Wordt de optie <b>Overzichtsmail</b> uitgeschakeld.</li>
+     <li>Kan een student de gebruikersinstellingen niet zien voor aanmelding voor overzichtsmail.</li>
     </ul>
     <p> Als de functie is ingeschakeld, dan:</p>
     <ul>
-     <li>De beheerder kan de optie Samenvatting-e-mail inschakelen en wijzigen.</li>
-     <li>Van de <b>Profielinstellingen </b>in de Learber-app kan een student (niet in de DND-lijst) ervoor kiezen om zich in of uit te schrijven voor de digest-e-mail.</li>
+     <li>Kan de beheerder de optie Overzichtsmail inschakelen en wijzigen.</li>
+     <li>Kan een student (niet in de DND-lijst) in de <b>profielinstellingen </b>van de Learner-app ervoor kiezen om zich aan of af te melden voor de overzichtsmail.</li>
     </ul></td>
   </tr>
   <tr>
-   <td>Pictogrammen voor trainingskaart inschakelen<br></td>
-   <td>Indien ingeschakeld worden pictogrammen weergegeven op trainingskaarten in de Learner-app.<br></td>
+   <td>Pictogrammen op trainingskaarten inschakelen<br></td>
+   <td>Indien ingeschakeld, kunt u de pictogrammen op trainingskaarten zien in de Learner-app.<br></td>
   </tr>
   <tr>
-   <td>Voettekstkoppelingen</td>
+   <td>Links in voettekst</td>
    <td>
-    <p>Voeg koppelingen of e-mail-ID's toe die als voetteksten worden weergegeven. U kunt maximaal drie voettekstkoppelingen toevoegen.</p>
-    <p>Voer de volgende stappen uit om de koppelingen in de voettekst aan te passen:</p>
+    <p>Voeg links of e-mail-ID's toe die als voettekst worden weergegeven.  U kunt maximaal drie voettekstlinks toevoegen.</p>
+    <p>Om de links in de voettekst aan te passen, voert u de volgende stappen uit:</p>
     <ol>
-     <li>Klikken <b>Meer toevoegen</b>, voert u de naam en de URL of e-mail-ID in de opgegeven velden in. Geef een voorvoegsel voor de URL op met http:// of https://.</li>
-     <li>Als u de wijziging voor alle landinstellingen wilt trapsgewijs wilt doorvoeren, klikt u op <b>Repliceren</b>. Dit zorgt ervoor dat alle talen de naam en de URL krijgen.</li>
-     <li>Klik op <b>Opslaan</b>. U kunt een pop-upbericht zien waarin de wijziging wordt bevestigd. Nadat u op OK hebt geklikt, wordt de voettekst gevuld met de zojuist toegevoegde koppelingen.</li>
+     <li>Klik op <b>Meer toevoegen</b>, voer de naam in, en voer de URL- of e-mail-ID in de opgegeven velden in.  Begin de URL met http:// of https://.</li>
+     <li>Om de wijziging voor alle landinstellingen door te voeren, klikt u op <b>Repliceren</b>.  Zo krijgen alle talen de naam en URL.</li>
+     <li>Klik op <b>Opslaan</b> om de wijzigingen op te slaan. U ziet een pop-upbericht waarin de wijziging wordt bevestigd.  Nadat u op OK hebt geklikt, worden de pas toegevoegde links in de voettekst ingevuld.</li>
     </ol>
-    <p>Bovendien kunt u:</p>
+    <p>Een alternatieve optie is:</p>
     <ul>
      <li>Klik op de knop <b>Herstellen</b> pictogram om de standaardwaarden in het deelvenster <b>Help</b> en <b>Contact opnemen met beheerder</b> velden.</li>
-     <li>Pas de koppeling in de voettekst aan voor alle talen. Klik op de knop <b>Taal</b> de taal selecteert en voegt de <b>Naam</b> en <b>URL</b> in de opgegeven velden. Nadat u de wijzigingen hebt opgeslagen, worden de bijgewerkte koppelingen weergegeven in de voettekst.<br></li>
+     <li>Pas de link in de voettekst aan voor alle talen.  Klik op de keuzelijst <b>Taal</b>, selecteer de taal en voeg de <b>Naam</b> en <b>URL</b> toe in de opgegeven velden.  Nadat u de wijzigingen hebt opgeslagen, worden de bijgewerkte links in de voettekst weergegeven.<br></li>
     </ul></td>
   </tr>
   <tr>
-   <td>Tijdzone rapport<br></td>
+   <td>Tijdzone van rapport<br></td>
    <td>
     <p>Stel een voorkeur op accountniveau in om het leertranscript te exporteren in de volgende tijdzones:</p>
     <ul>
-     <li>UTC (Standaardgedrag)</li>
+     <li>UTC (standaard)</li>
      <li>Tijdzonevoorkeur op accountniveau</li>
     </ul>
     <p>Het Studenttranscript dat met de Jobs API is gedownload, downloadt ook de gegevens in de geselecteerde tijdzone.</p>
@@ -221,36 +221,36 @@ Schakel de volgende instellingen in of uit:
    <td>Beschrijving</td>
   </tr>
   <tr>
-   <td height="20">Cursuseffectiviteit tonen</td>
-   <td>Indien ingeschakeld kunnen studenten de huidige cursuseffectiviteit zien op de cursustegel.</td>
+   <td height="20">Cursuseffectiviteit weergeven</td>
+   <td>Indien ingeschakeld kunnen studenten de huidige cursuseffectiviteit bekijken op de cursustegel.</td>
   </tr>
   <tr>
    <td height="20">Cursusmoderatie</td>
-   <td>Indien ingeschakeld moeten alle wijzigingen in cursussen worden goedgekeurd door de beheerder voordat de cursussen zichtbaar zijn voor de studenten.</td>
+   <td>Indien ingeschakeld moeten alle wijzigingen aan cursussen door de beheerder worden goedgekeurd voordat de cursussen zichtbaar worden voor de studenten.</td>
   </tr>
   <tr>
    <td height="20">Discussieboard</td>
-   <td>Als u het selectievakje Discussieboard inschakelt, kunnen de studenten en docenten opmerkingen voor cursussen plaatsen via het tabblad Discussie op de pagina Cursussen in de Learner-app. Als de instellingen op cursusniveau echter aangeven dat deze functie niet is geselecteerd, hebben de instellingen op cursusniveau voorrang op de beheerdersinstellingen.</td>
+   <td>Als u het selectievakje Discussiebord inschakelt, kunnen de studenten en docenten opmerkingen plaatsen voor cursussen via het tabblad Discussie op de pagina Cursussen in de Learner-app. Als de instellingen op cursusniveau echter aangeven dat deze functie niet is geselecteerd, hebben deze instellingen voorrang op de beheerdersinstellingen.</td>
   </tr>
   <tr>
    <td height="20">Meerdere pogingen</td>
-   <td>Indien ingeschakeld kan de auteur meerdere pogingen configureren voor cursusmodules.</td>
+   <td>Indien ingeschakeld kan de auteur meerdere pogingen voor cursusmodules configureren.</td>
   </tr>
   <tr>
-   <td height="20">Optie Vaardigheden verkennen</td>
-   <td>Indien ingeschakeld kunnen studenten de vaardigheden van collega's en leidinggevenden verkennen en zich abonneren op de vaardigheden van hun keuze.</td>
+   <td height="20">De optie Vaardigheden ontdekken</td>
+   <td>Indien ingeschakeld kunnen studenten de vaardigheden van collega's en leidinggevenden ontdekken en zich abonneren op de gewenste vaardigheden.</td>
   </tr>
   <tr>
    <td height="20">Zichtbaarheid van vaardigheden/tags</td>
-   <td>Geef alle vaardigheden en tags weer aan studenten. U kunt alle vaardigheden en tags weergeven of vaardigheden en tags weergeven die zijn toegewezen of die deel uitmaken van de catalogi die zichtbaar zijn voor de student.</td>
+   <td>Geef alle vaardigheden en tags weer aan studenten. U kunt alle vaardigheden en tags weergeven of alleen vaardigheden en tags weergeven die zijn toegewezen of die deel uitmaken van de catalogi die zichtbaar zijn voor de student.</td>
   </tr>
   <tr>
-   <td height="20">Unieke ID's voor leerobjecten</td>
-   <td>Indien ingeschakeld kan een beheerder of auteur een unieke ID toevoegen voor elk leerobject.</td>
+   <td height="20">Unieke leerobject-ID's</td>
+   <td>Indien ingeschakeld kan een beheerder of auteur een unieke ID toevoegen per leerobject.</td>
   </tr>
   <tr>
-   <td rowspan="10" height="191">Filterdeelvensters tonen</td>
-   <td>Bepaal welke filterdeelvensters beschikbaar zijn voor gebruikers in de Learner-toepassing om hun zoekresultaten te verfijnen. De volgende opties zijn beschikbaar:</td>
+   <td rowspan="10" height="191">Filterpanelen weergeven</td>
+   <td>Bepaal met welke filterpanelen gebruikers hun zoekresultaten kunnen verfijnen in de Learner-toepassing. De volgende opties zijn beschikbaar:</td>
   </tr>
   <tr>
    <td height="19">Catalogi</td>
@@ -271,45 +271,45 @@ Schakel de volgende instellingen in of uit:
    <td height="19">Vaardigheidsniveaus</td>
   </tr>
   <tr>
-   <td height="19">Labels</td>
+   <td height="19">Tags</td>
   </tr>
   <tr>
-   <td height="19">Wanneer de student de Learner-app start, kan de student in de secties Mijn leerervaring en Catalogus de filters in hun respectievelijke deelvensters zien.</td>
+   <td height="19">Wanneer de student de Learner-app start, in de secties Mijn Leerervaring en Catalogus, kan de leerling de filters in zijn/haar respectievelijke panelen zien.</td>
   </tr>
   <tr>
    <td height="20">Opmerking: Filterindeling en Duur zijn standaard uitgeschakeld en worden niet onmiddellijk na de release weergegeven. De beheerder moet ze inschakelen. </td>
   </tr>
   <tr>
-   <td height="20">Cataloguslijst tonen</td>
-   <td>Indien ingeschakeld kunnen studenten een lijst met alle beschikbare catalogi zien. Studenten kunnen hiermee de weergave van de leerobjecten verfijnen.</td>
+   <td height="20">Cataloguslijst weergeven</td>
+   <td>Indien ingeschakeld zien studenten een lijst met alle beschikbare catalogi. Aan de hand hiervan kunnen studenten verfijnen hoe de leerobjecten worden weergegeven.</td>
   </tr>
   <tr>
    <td height="20">Productterminologie</td>
-   <td>Learning Manager heeft een standaardterminologie die in het hele product wordt gebruikt. Pas de terminologie aan de behoeften van uw organisatie aan.</td>
+   <td>Learning Manager heeft standaardterminologie die wordt gebruikt in het product. Wijzig de terminologie om aan de behoeften van uw organisatie te voldoen.</td>
   </tr>
   <tr>
    <td height="20">Versie-update van module</td>
-   <td>Configureer de standaardinstelling om inhoud bij te werken. De instellingen kunnen voor elke inhoud van de cursuspagina worden gewijzigd.</td>
+   <td>Configureer de standaardinstelling om inhoud bij te werken. De instelling kan voor alle inhoud op de cursuspagina worden gewijzigd.</td>
   </tr>
   <tr>
    <td height="20">Gebruikers automatisch registreren</td>
-   <td>Indien ingeschakeld worden nieuwe geïmporteerde gebruikers automatisch geregistreerd. Gebruikers moeten standaard handmatig worden geregistreerd voordat ze Leerbeheer kunnen gaan gebruiken.</td>
+   <td>Indien ingeschakeld worden nieuw geïmporteerde gebruikers automatisch geregistreerd.  Gebruikers moeten standaard handmatig worden geregistreerd voordat ze Learning Manager kunnen gebruiken.</td>
   </tr>
   <tr>
    <td height="20">Interne gebruikers automatisch verwijderen</td>
-   <td>Indien ingeschakeld worden interne gebruikers automatisch verwijderd als ze het systeem gedurende een opgegeven aantal dagen niet openen. Deze functie is van toepassing op gebruikers die alleen de rol Student hebben. Om de toegang te herstellen, moeten gebruikers contact opnemen met de beheerder.</td>
+   <td>Als dit ingeschakeld is, worden interne gebruikers automatisch verwijderd als ze het systeem gedurende het opgegeven aantal dagen niet gebruiken.  Deze functie is van toepassing op gebruikers die alleen de rol Student hebben. Om de toegang te herstellen moeten gebruikers contact opnemen met de beheerder.</td>
   </tr>
   <tr>
-   <td height="20">Cataloguslabels tonen</td>
-   <td>Indien ingeschakeld kunnen beheerders en auteurs cataloguslabels en waarden instellen en koppelen aan leerobjecten.</td>
+   <td height="20">Cataloguslabels weergeven</td>
+   <td>Indien ingeschakeld kunnen beheerders en auteurs cataloguslabels en waarden instellen en deze koppelen aan leerobjecten.</td>
   </tr>
   <tr>
    <td height="20">Studenten kunnen hun scores bekijken</td>
-   <td>Indien ingeschakeld kunnen de studenten hun scores in het studenttranscript bekijken.</td>
+   <td>Indien ingeschakeld kunnen de studenten hun scores bekijken in het studententranscript</td>
   </tr>
   <tr>
-   <td rowspan="9" height="172">E-mail overzicht</td>
-   <td>Een beheerder kan het verzenden van een e-mail naar studenten in- of uitschakelen. De beheerder kan ook de frequentie van de verzonden e-mails bepalen.</td>
+   <td rowspan="9" height="172">Overzichtsmail</td>
+   <td>Een beheerder kan het sturen van een e-mail aan studenten in- of uitschakelen. De beheerder kan ook de frequentie van de verzonden e-mails regelen.</td>
   </tr>
   <tr>
    <td height="19">Voor actieve accounts worden digest-e-mails standaard uitgeschakeld, zodat de beheerder deze handmatig kan inschakelen.</td>
@@ -318,58 +318,58 @@ Schakel de volgende instellingen in of uit:
    <td height="19">Voor proefaccounts blijft de optie voor digest-e-mails uitgeschakeld en kan de beheerder deze optie niet inschakelen.</td>
   </tr>
   <tr>
-   <td height="19">Als de functie is uitgeschakeld, geldt het volgende:</td>
+   <td height="19">Als de functie is uitgeschakeld:</td>
   </tr>
   <tr>
    <td height="19">De optie E-mail overzicht wordt uitgeschakeld.</td>
   </tr>
   <tr>
-   <td height="19">Een student kan de gebruikersinstelling voor het digest-e-mailabonnement niet zien.</td>
+   <td height="19">Kan een student de gebruikersinstellingen niet zien voor aanmelding voor overzichtsmail.</td>
   </tr>
   <tr>
    <td height="19"> Als de functie is ingeschakeld, dan:</td>
   </tr>
   <tr>
-   <td height="19">De beheerder kan de optie Samenvatting-e-mail inschakelen en wijzigen.</td>
+   <td height="19">Kan de beheerder de optie Overzichtsmail inschakelen en wijzigen.</td>
   </tr>
   <tr>
    <td height="20">Vanuit de profielinstellingen in de Learber-app kan een student (niet in de DND-lijst) ervoor kiezen om zich in of uit te schrijven voor de digest-e-mail.</td>
   </tr>
   <tr>
-   <td height="20">Pictogrammen voor trainingskaart inschakelen</td>
-   <td>Indien ingeschakeld worden pictogrammen weergegeven op trainingskaarten in de Learner-app.</td>
+   <td height="20">Pictogrammen op trainingskaarten inschakelen</td>
+   <td>Indien ingeschakeld, kunt u de pictogrammen op trainingskaarten zien in de Learner-app.</td>
   </tr>
   <tr>
-   <td rowspan="8" height="153">Voettekstkoppelingen</td>
-   <td>Voeg koppelingen of e-mail-ID's toe die als voetteksten worden weergegeven. U kunt maximaal drie voettekstkoppelingen toevoegen.</td>
+   <td rowspan="8" height="153">Links in voettekst</td>
+   <td>Voeg links of e-mail-ID's toe die als voettekst worden weergegeven.  U kunt maximaal drie voettekstlinks toevoegen.</td>
   </tr>
   <tr>
-   <td height="19">Voer de volgende stappen uit om de koppelingen in de voettekst aan te passen:</td>
+   <td height="19">Om de links in de voettekst aan te passen, voert u de volgende stappen uit:</td>
   </tr>
   <tr>
-   <td height="19">1. Klik op Meer toevoegen, voer de naam en de URL- of e-mail-ID in de opgegeven velden in. Geef een voorvoegsel voor de URL op met http:// of https://.</td>
+   <td height="19">1. Klik op Meer toevoegen, voer de naam en de URL- of e-mail-ID in de opgegeven velden in. Begin de URL met http:// of https://.</td>
   </tr>
   <tr>
-   <td height="19">2. Klik op Repliceren om de wijziging voor alle landinstellingen te trapsgewijs door te voeren. Dit zorgt ervoor dat alle talen de naam en de URL krijgen.</td>
+   <td height="19">2. Klik op Repliceren om de wijziging voor alle landinstellingen te trapsgewijs door te voeren. Zo krijgen alle talen de naam en URL.</td>
   </tr>
   <tr>
-   <td height="19">3. Klik op Opslaan om de wijzigingen op te slaan. U kunt een pop-upbericht zien waarin de wijziging wordt bevestigd. Nadat u op OK hebt geklikt, wordt de voettekst gevuld met de zojuist toegevoegde koppelingen.</td>
+   <td height="19">3. Klik op Opslaan om de wijzigingen op te slaan. U ziet een pop-upbericht waarin de wijziging wordt bevestigd.  Nadat u op OK hebt geklikt, worden de pas toegevoegde links in de voettekst ingevuld.</td>
   </tr>
   <tr>
-   <td height="19">Bovendien kunt u:</td>
+   <td height="19">Een alternatieve optie is:</td>
   </tr>
   <tr>
    <td height="19">Klik op het pictogram Opnieuw instellen om de standaardwaarden in de velden Help en Contact opnemen met beheerder opnieuw in te stellen.</td>
   </tr>
   <tr>
-   <td height="20">Pas de koppeling in de voettekst aan voor alle talen. Klik op de vervolgkeuzelijst Taal, selecteer de taal en voeg de Naam en URL toe in de opgegeven velden. Nadat u de wijzigingen hebt opgeslagen, worden de bijgewerkte koppelingen weergegeven in de voettekst.</td>
+   <td height="20">Pas de link in de voettekst aan voor alle talen.  Klik op de vervolgkeuzelijst Taal, selecteer de taal en voeg de Naam en URL toe in de opgegeven velden. Nadat u de wijzigingen hebt opgeslagen, worden de bijgewerkte links in de voettekst weergegeven.</td>
   </tr>
   <tr>
-   <td rowspan="5" height="96">Tijdzone rapport</td>
+   <td rowspan="5" height="96">Tijdzone van rapport</td>
    <td> Stel een voorkeur op accountniveau in om het leertranscript te exporteren in de volgende tijdzones:</td>
   </tr>
   <tr>
-   <td height="19">UTC (Standaardgedrag)</td>
+   <td height="19">UTC (standaard)</td>
   </tr>
   <tr>
    <td height="19">Tijdzonevoorkeur op accountniveau</td>
@@ -382,18 +382,18 @@ Schakel de volgende instellingen in of uit:
   </tr>
   <tr>
    <td height="19">Badgr-integratie</td>
-   <td>Als deze optie is ingeschakeld, kunnen de studenten hun badges uploaden naar de Badgr-website. In klanteducatiescenario's willen organisaties hun klanten kunnen "certificeren" en hen de kans geven die aanmeldgegevens via sociale media weer te geven. Hiermee wordt de student gemotiveerd een training te volgen en zijn/haar prestaties met anderen te delen. </td>
+   <td>Als dit is ingeschakeld, kunnen de leerlingen hun badges uploaden naar de Badgr-website. In het kader van klantenvoorlichting willen organisaties hun klanten kunnen 'certificeren' en hun een mogelijkheid geven hun certificaten op social media te tonen. Hierdoor wordt de student gemotiveerd een training te nemen en de prestaties met anderen te delen. </td>
   </tr>
   <tr>
    <td height="135">
-    <p>Classificatie tonen</p></td>
+    <p>Waardering weergeven</p></td>
    <td>
     <ul>
      <li>Als de optie <b>Cursuseffectiviteit</b> is ingeschakeld, kunnen studenten alleen de waarde van de cursuseffectiviteit zien.</li>
-     <li>Als de optie <b>Sterrenclassificatie</b> is ingeschakeld, kunnen studenten alleen de gemiddelde sterwaardering en het aantal studenten dat de cursus heeft beoordeeld, bekijken.<br></li>
+     <li>Als de optie <b>Waardering met sterren</b> is ingeschakeld, kunnen studenten alleen de gemiddelde sterrenwaardering weergeven en het aantal studenten dat de cursus heeft beoordeeld.<br></li>
     </ul>
-    <p>Deze functie is alleen beschikbaar voor cursussen. Sterrenclassificatie wordt niet ondersteund voor leerprogramma's of certificaten.<br><br><b>Opmerking: </b>Deze wijziging is alleen van invloed op de Learner-app. </p>
-    <p>In alle andere apps (beheerder, auteur, manager, aangepaste beheerder, aangepaste auteur) hebben wijzigingen in de instellingen (sterrenclassificatie/cursuseffectiviteit/uitschakelen van classificatie weergeven) geen invloed op. </p>
+    <p>Deze functie is alleen beschikbaar voor cursussen. Waardering met sterren wordt niet ondersteund voor leerprogramma's of certificaten.<br><br><b>Opmerking: </b>Deze wijziging is alleen van invloed op de Learner-app. </p>
+    <p>Wijzigingen in de instellingen (waardering met sterren/cursuseffectiviteit/waardering weergeven uitschakelen) hebben geen gevolgen voor alle andere apps (beheerder, auteur, manager, aangepaste beheerder, aangepaste auteur). </p>
     <p>Voor nieuwe accounts worden de <b>Classificaties tonen</b> sectie heeft de optie <b>Sterrenclassificatie</b> standaard ingeschakeld.</p>
     <p>Voor bestaande accounts, als het account voorheen de optie <b>Cursuseffectiviteit</b> ingeschakeld, dan de <b>Classificaties tonen</b> sectie wordt ingeschakeld met de optie Cursuseffectiviteit geselecteerd. Als de optie <b>Cursuseffecten</b>s is uitgeschakeld, dan wordt de <b>Classificaties tonen</b> wordt ook uitgeschakeld. Wanneer u <b>Classificaties tonen</b> -sectie is ingeschakeld, de optie <b>Sterrenclassificatie</b> wordt standaard ingeschakeld.</p></td>
   </tr>
@@ -406,36 +406,36 @@ Schakel de volgende instellingen in of uit:
    <td>
     <p>Leerpaden</p></td>
    <td>
-    <p>Als de optie <b>Uitgebreide functies van leerpad inschakelen</b> is ingeschakeld, kunnen beheerders leerpaden opnemen in leerpaden en deze leerpaden combineren met cursussen. De optie is onomkeerbaar.<br></p></td>
+    <p>Als de optie <b>Uitgebreide functies van leerpad inschakelen</b> is ingeschakeld, kunnen beheerders leerpaden in leerpaden opnemen en die leerpaden met cursussen combineren. De optie is onomkeerbaar.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Beheer van docenten<br></p></td>
+    <p>Instructeurbeheer<br></p></td>
    <td>
-    <p>Schakel deze instelling in om de lijst met docenten te beperken die kunnen worden geselecteerd tijdens het maken van klassikale/virtuele klassikale sessies. Alle gebruikers die de geprivilegieerde docent hebben kunnen slechts als docent aan om het even welke zitting worden toegewezen. Deze beperking is niet van toepassing op migratieworkflows.<br></p></td>
+    <p>Schakel deze instelling in om de lijst met docenten die kunnen worden geselecteerd bij het aanmaken van sessies in klaslokalen/virtuele klaslokalen te beperken. Alleen gebruikers met de docentbevoegdheid kunnen worden toegewezen als docent aan een sessie. Deze beperking is niet van toepassing op migratieworkflows.<br></p></td>
   </tr>
  </tbody>
 </table>
 
-## Op AI gebaseerde aanbeveling
+## Aanbeveling op basis van AI
 
-Learning Manager bevat een gloednieuwe startpagina voor studenten, die modern is, meer contentgestuurd en gepersonaliseerd volgens de voorkeuren van de student. AI-gebaseerde leeraanbevelingen hebben tot doel de betrokkenheid van studenten te vergroten en lacunes in het leerproces te identificeren en aan te pakken.
+Learning Manager bevat een gloednieuwe startpagina voor studenten, die modern is, meer contentgestuurd en gepersonaliseerd volgens de voorkeuren van de student. Met aanbevelingen op basis van AI wordt getracht de betrokkenheid van studenten te vergroten en gaten in de kennis vast te stellen en aan te pakken.
 
-Het aanbevelingsalgoritme is ontworpen om meerdere invoerbronnen in te nemen, waaronder branchegegevens over taakrollen, titels en beschrijvingen die de Adobe van haar partners heeft verkregen. Deze gegevens worden vervolgens gebruikt om AI-algoritmen van de Adobe op te leiden, zodat Learning Manager een kaart kan maken die branchespecifieke vaardigheden koppelt aan taaktitels en/of aanwijzingen. Dit wordt vervolgens een invoer voor het aanbevelingsalgoritme
+Het aanbevelingsalgoritme is zo ontworpen dat dit meerdere inputbronnen verwerkt, waaronder branchegegevens over functies, titels en beschrijvingen die Adobe van haar partners heeft gekregen. Deze gegevens worden vervolgens gebruikt om AI-algoritmen van de Adobe op te leiden, zodat Learning Manager een kaart kan maken die branchespecifieke vaardigheden koppelt aan taaktitels en/of aanwijzingen. Dit wordt dan een input voor het aanbevelingsalgoritme.
 
-Leermanager gebruikt vervolgens algoritmen voor onderwerpmodellering om de trainingsinhoud binnen een account te analyseren en deze toe te wijzen aan de vaardigheden.
+Learning Manager gebruikt vervolgens algoritmes van onderwerpmodellen om de trainingsinhoud in een account te analyseren en deze aan de vaardigheden toe te wijzen.
 
-Learning Manager gebruikt peer-activiteitsgegevens als een ander signaal om het aanbevelingsalgoritme op een gepersonaliseerde manier te sturen. Activiteiten zoals inschrijving, voltooiing en eventuele expliciete feedback van studenten worden hier gebruikt.
+Learning Manager gebruikt ook activiteitsgegevens van collega&#39;s als signaal om het aanbevelingsalgoritme op een gepersonaliseerde manier te sturen. Hier worden activiteiten gebruikt zoals inschrijving, voltooiing en expliciete feedback van studenten.
 
-Bovendien gebruikt de leermanager expliciete en impliciete informatie die van individuele studenten wordt verzameld om aanbevelingen verder te personaliseren. Een leerling kan zijn of haar aandachtsgebieden expliciet aangeven via inschrijvingen. De leermanager ontvangt deze informatie impliciet op basis van de manier waarop de leerling de trainingen volgt.
+Om aanbevelingen verder te personaliseren, gebruikt Learning Manager daarnaast nog expliciete en impliciete informatie die van afzonderlijke studenten wordt verzameld. Een student kan zijn of haar interessegebieden expliciet aangeven via inschrijvingen. Learning Manager ontvangt deze informatie ook impliciet op basis van de manier waarop de student de trainingen volgt.
 
-Tot slot kan de beheerder ook het aanbevelingsalgoritme beïnvloeden met behulp van studentkenmerken die Leermanager moet bekijken bij het definiëren van peer-groepen, en ook door trainingen voor specifieke gebruikersgroepen te markeren.
+Tot slot kan ook de beheerder het aanbevelingsalgoritme beïnvloeden door met behulp van studentenkenmerken aan te geven waar Learning Manager op moet letten bij het bepalen van groepen van gelijken en door trainingen voor specifieke gebruikersgroepen te markeren.
 
 ## Naam van leerobjecten wijzigen {#renaminglearningobjects}
 
 Deze functie is alleen beschikbaar in het Engels.
 
-Beheerders kunnen de naam van leerobjecten nu wijzigen in Leerbeheer. Hieronder vindt u de terminologieën die u kunt hernoemen.
+Beheerders kunnen de naam van leerobjecten in Learning Manager nu wijzigen. De naam van het volgende kan worden gewijzigd.
 
 Module\
 Cursus\
@@ -447,20 +447,20 @@ Catalogus\
 Vaardigheid\
 Badge\
 Aankondiging\
-Mijn leerervaring\
+Mijn leermateriaal\
 Leaderboard\
-Doeltreffendheid\
+Effectiviteit\
 Vereiste\
-Voorwerk\
+Voorbereidend werk\
 Kerninhoud\
 Testout\
-Zelf geplaatst\
-Overvloeid\
+Eigen tempo\
+Gemengd\
 Klaslokaal\
-Virtuele lesruimte\
+Virtueel klaslokaal\
 Activiteit
 
-Voer de volgende stappen uit om de naam van de terminologie te wijzigen.
+U kunt dit als volgt doen.
 
 1. Als beheerder klikt u op **[!UICONTROL Instellingen]** > **[!UICONTROL Algemeen]** > **[!UICONTROL Productterminologie]**. De optie voor productterminologie wordt geopend.
 
@@ -469,9 +469,9 @@ Voer de volgende stappen uit om de naam van de terminologie te wijzigen.
    *Productterminologie hernoemen*
 
 1. U kunt wijzigingen aanbrengen door een aangepaste sjabloon voor productterminologie te uploaden door het CSV-voorbeeldbestand te downloaden. Als u het voorbeeld-CSV-bestand wilt downloaden, klikt u op de knop **[!UICONTROL Hier downloaden]** gebruiken.
-1. Het gedownloade CSV-bestand bevat de naam van de objecten in kolom A. Kies in kolom B de naam die u aan het desbetreffende object wilt toewijzen. U moet de enkelvoud- en meervoudsvorm van de naam bijwerken, gescheiden door een (|).
-1. U kunt ervoor kiezen een of meer rijen te wijzigen. U kunt de ongewijzigde rijen behouden of verwijderen uit het CSV-bestand voordat u ze uploadt.
-1. Upload het gewijzigde CSV-bestand en klik op **[!UICONTROL Opslaan]**. Leerbeheer wordt vernieuwd en weerspiegelt uw wijzigingen.
+1. Het gedownloade CSV-bestand bevat de naam van de objecten in kolom A. Kies in kolom B de naam die u aan het desbetreffende object wilt toewijzen. Houd er rekening mee dat u de enkelvouds- en meervoudsvorm van de naam moet scheiden door een (|).
+1. U kunt ervoor kiezen een of meer rijen te wijzigen. U kunt de ongewijzigde rijen behouden of uit het CSV-bestand verwijderen voordat u ze uploadt.
+1. Upload het gewijzigde CSV-bestand en klik op **[!UICONTROL Opslaan]**. Learning Manager wordt ververst om uw wijzigingen te bekrachtigen.
 1. Als u de standaardterminologie wilt herstellen, klikt u op **[!UICONTROL Productterminologie herstellen]**.
 
    ![](assets/with-reset-option.png)
@@ -485,11 +485,11 @@ Voer de volgende stappen uit om de naam van de terminologie te wijzigen.
 1. Toevoegen/wijzigen **[!UICONTROL Info]** inhoud door te klikken **[!UICONTROL Bewerken]** naast de afbeelding.
 1. Klikken **[!UICONTROL Opslaan].**
 
-## Map Inhoud {#content-folder}
+## Inhoudsmap {#content-folder}
 
-Learning Manager ondersteunt mappen met persoonlijke inhoud. Een beheerder kan mappen met persoonlijke inhoud configureren en specifieke aangepaste auteurs toegang bieden met behulp van Aangepaste rollen. Standaardauteurs (ook wel Full Authors genoemd) hebben nog steeds toegang tot alle inhoud in het account. Volledige auteurs hebben daarom toegang tot alle mappen en alle inhoud.
+Learning Manager ondersteunt mappen met persoonlijke inhoud. Een beheerder kan mappen met persoonlijke inhoud configureren en specifieke aangepaste auteurs toegang bieden met behulp van Aangepaste rollen. De standaard auteurs (ook wel volledige auteurs genoemd) hebben echter nog steeds toegang tot alle inhoud in het account. Volledige auteurs hebben daarom toegang tot alle mappen en alle inhoud.
 
-Inhoudsmappen kunnen worden geconfigureerd door beheerders. Slechts eenmaal geconfigureerd worden inhoudsmappen zichtbaar voor auteurs en kunnen ze de inhoud in een of meerdere mappen plaatsen.
+Inhoudsmappen kunnen door beheerders worden geconfigureerd. Alleen nadat ze zijn geconfigureerd worden inhoudsmappen zichtbaar voor de auteurs en krijgen ze de mogelijkheid om de inhoud in een of meerdere mappen te plaatsen.
 
 Als u een inhoudsmap wilt toevoegen, klikt u in de beheerdersapp op **[!UICONTROL Instellingen]** > **[!UICONTROL Map Inhoud]**.
 
@@ -499,28 +499,28 @@ Als u een inhoudsmap wilt toevoegen, klikt u in de beheerdersapp op **[!UICONTRO
 
 ### Map
 
-Een map is een opslagplaats van inhoud, die een subset is van de gehele inhoudsbibliotheek die beschikbaar is in een account met de volgende eigenschappen:
+Een map is een opslagplaats van inhoud, meer bepaald een subgroep van de hele inhoudsbibliotheek die in een account beschikbaar is en de volgende eigenschappen heeft:
 
 * Alleen een beheerder kan een map maken, bewerken of verwijderen.
 * Een beheerder kan de toegang tot mappen beheren als onderdeel van het definiëren van rollen alleen voor aangepaste beheerders.
-* Inhoud **moet te allen tijde aan ten minste één map zijn gekoppeld**. Om te beginnen wordt alle inhoud gekoppeld aan de openbare map, die later kan worden gewijzigd.
-* Inhoud kan tijdens het maken aan meerdere mappen worden gekoppeld, wat ook mogelijk is door een kopieerbewerking
-* Alle mapnamen moeten uniek zijn binnen het account, anders treedt er een fout op bij de mapnaamgeving.
+* Inhoud **moet altijd aan minstens één map worden gekoppeld**. Om te beginnen wordt alle inhoud gekoppeld aan de openbare map. Die kan later worden gewijzigd.
+* Inhoud kan op het moment van het maken aan meerdere mappen worden gekoppeld en kan worden gekopieerd.
+* Alle mapnamen moeten binnen het account uniek zijn, anders zal er een fout optreden bij het benoemen van een map.
 
-Mappen bepalen alleen de zichtbaarheid van inhoud en maken geen kopieën van inhoud. Daarom wordt het bewerken van inhoud weerspiegeld in alle bijbehorende mappen.
+Mappen beheren alleen de zichtbaarheid van inhoud en maken er geen kopieën van. Daarom worden bewerkingen van de inhoud in alle gekoppelde mappen overgenomen.
 
 ### Openbare map
 
-Een openbare map is altijd aanwezig in een account en in eerste instantie zal alle inhoud deel uitmaken van deze map. Later kunnen auteurs inhoud uit deze map naar andere mappen verplaatsen. Een openbare map heeft de volgende eigenschappen:
+Een openbare map is altijd aanwezig in een account en alle inhoud maakt in het begin deel uit van die map. Later kunnen auteurs inhoud uit die map verplaatsen naar andere mappen. Een openbare map heeft de volgende kenmerken:
 
-* Alle inhoud die aan deze map is gekoppeld, is standaard toegankelijk voor alle typen auteurs.
-* Inhoud die deel uitmaakt van een openbare map, kan geen deel uitmaken van een andere map. Het omgekeerde geldt ook.
+* Alle inhoud gekoppeld aan die map is standaard toegankelijk voor alle soorten auteurs.
+* Alle inhoud die deel uitmaakt van een openbare map kan geen deel meer uitmaken van een andere map. Het omgekeerde geldt eveneens.
 
-Deze map kan geen deel uitmaken van een configureerbare roldefinitie. Daarom beperkt het niet hebben van een openbare map in een configureerbare roldefinitie de toegang tot een openbare map niet.
+Deze map kan geen onderdeel zijn van een configureerbare roldefinitie. Hebt u geen openbare map in een configureerbare roldefinitie? Dan beperkt dat niet uw toegang tot een openbare map.
 
 ### Persoonlijke map
 
-* Elke map die door een beheerder wordt gemaakt, is een privémap.
+* Elke map die een beheerder maakt, is een persoonlijke map.
 
 ### Mapbewerkingen
 
@@ -536,36 +536,36 @@ U kunt ook een map verwijderen. Selecteer de map die u wilt verwijderen, klik op
 >
 >Mappen kunnen worden verwijderd wanneer alle bijbehorende inhoud ook aan andere mappen is gekoppeld. Als er inhoud is die alleen is gekoppeld aan de map die wordt verwijderd, verplaatst u de inhoud eerst naar een andere map en verwijdert u de map.
 
-## Locatie van lesruimte
+## Locaties van klaslokalen
 
-Beheerders kunnen deze instelling gebruiken om een bibliotheek van klaslokaallocaties te maken en te configureren. Auteurs kunnen een vooraf geconfigureerde locatie selecteren om hun klassikale gebeurtenis in te stellen. Selecteer een locatie in de bibliotheek om automatisch de locatie-informatie, de URL en de licentielimiet in te vullen.
+Beheerders kunnen deze instelling gebruiken om een bibliotheek van klaslokaallocaties te maken en te configureren. Auteurs kunnen een vooraf geconfigureerde locatie selecteren om hun klaslokaalgebeurtenis in te stellen. Selecteer een locatie in de bibliotheek om automatisch de locatie-informatie, de URL en de licentielimiet in te vullen.
 
 Als beheerder kunt u:
 
 ### CSV-importlocaties
 
-Voeg locaties in uw account toe door een CSV-bestand met locaties te importeren. Het CSV-bestand moet de kolom Stad bevatten.
+Locaties aan uw account toevoegen door een CSV-bestand met locaties te importeren. Het CSV-bestand moet de kolom Plaats bevatten.
 
 ### Een locatie toevoegen
 
 Voeg het volgende toe:
 
-1. Locatienaam: voer de naam in van de lesruimte.
-2. Locatie-informatie: voer de informatie over de locatie in.
+1. Locatienaam: voer de naam van het klaslokaal in.
+2. Locatiegegevens: voer de gegevens over de locatie in.
 3. Locatiegebied: de ingevoerde waarde wordt weergegeven als het filter Trainingslocaties voor studenten.
 4. Locatie-URL: voer de URL van de locatie in.
-5. Plaatslimiet: voer de capaciteit van de ruimte in.
+5. Plaatslimiet: voer het maximale aantal plaatsen van de ruimte in.
 
 ![locatie van lesruimte](assets/location-alm.gif)
 
 *Locaties voor lesruimten toevoegen*
 
-U kunt de locatie ook toevoegen met behulp van een CSV. De CSV moet de velden bevatten:
+U kunt de locatie ook toevoegen met behulp van een CSV. De CSV moet de volgende velden bevatten:
 
 * name
 * info
 * url
-* zeegrens
+* seatlimit
 * regio
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
@@ -576,9 +576,9 @@ U kunt de locatie ook toevoegen met behulp van een CSV. De CSV moet de velden be
 
 Klikken **[!UICONTROL Instellingen]** > **[!UICONTROL Map Inhoud]**. Klik op **[!UICONTROL Toevoegen]** in de rechterbovenhoek en in het dialoogvenster voert u de naam en beschrijving van de map in.
 
-Inhoudsmappen kunnen worden geconfigureerd door beheerders. Slechts eenmaal geconfigureerd worden inhoudsmappen zichtbaar voor auteurs en kunnen ze de inhoud in een of meerdere mappen plaatsen.
+Inhoudsmappen kunnen door beheerders worden geconfigureerd. Alleen nadat ze zijn geconfigureerd worden inhoudsmappen zichtbaar voor de auteurs en krijgen ze de mogelijkheid om de inhoud in een of meerdere mappen te plaatsen.
 
-Zie de sectie over [Map Inhoud](settings.md#content-folder).
+Zie voor meer informatie de sectie over de [inhoudsmap](settings.md#content-folder).
 +++
 
 +++Hoe voeg ik een financieel jaar voor de account toe?

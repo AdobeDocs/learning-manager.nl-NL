@@ -1,34 +1,34 @@
 ---
 jcr-language: en_us
-title: Gebruiker wordt automatisch verwijderd in Leermanager
-description: Een gebruiker wordt uit Leermanager verwijderd, maar de beheerder heeft nooit een dergelijke actie uitgevoerd.
+title: Gebruiker wordt automatisch verwijderd uit Learning Manager
+description: Een gebruiker wordt uit Learning Manager verwijderd, de beheerder heeft een dergelijke actie echter nooit uitgevoerd.
 contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 0%
+ht-degree: 61%
 
 ---
 
 
 
-# Gebruiker wordt automatisch verwijderd in Leermanager {#user-gets-auto-deleted-in-learning-manager}
+# Gebruiker wordt automatisch verwijderd uit Learning Manager {#user-gets-auto-deleted-in-learning-manager}
 
 ## Probleem
 
-Een gebruiker wordt uit Leermanager verwijderd, maar de beheerder heeft nooit een dergelijke actie uitgevoerd.
+Een gebruiker wordt uit Learning Manager verwijderd, de beheerder heeft een dergelijke actie echter nooit uitgevoerd.
 
 ## Oorzaak
 
-In Adobe Learning Manager is er een optie waarmee u een gebruiker kunt verwijderen als deze zich niet gedurende een bepaalde tijd bij het systeem heeft aangemeld.
+In Adobe Learning Manager bestaat een optie waarmee u een gebruiker kunt verwijderen als deze zich gedurende een bepaalde tijdsperiode niet in het systeem heeft aangemeld.
 
-## Hoe kan ik de instelling wijzigen/toepassen?
+## De instelling wijzigen/toepassen
 
 ### Voor interne studenten
 
-1. Aanmelden als een **Beheerder**.
+1. Meld u aan als **Beheerder**.
 1. Onder **Configureren**, klik op **Instellingen** > **Algemeen**.
-1. Ga op de pagina Algemene instellingen naar de optie **Interne gebruikers automatisch verwijderen**.
+1. Zoek op de pagina Algemene instellingen de optie **Interne gebruikers automatisch verwijderen**.
 1. Klikken **[!UICONTROL Bewerken]** om het aantal dagen in het veld in te voeren, om automatisch een student te verwijderen als deze het systeem niet heeft geopend.
 
    ![](assets/cp-autodelete-internal.png)
@@ -44,11 +44,11 @@ In Adobe Learning Manager is er een optie waarmee u een gebruiker kunt verwijder
 
 ### Voor externe studenten:
 
-1. Aanmelden als een **Beheerder**.
+1. Meld u aan als **Beheerder**.
 1. Onder **Beheren**, klik op **[!UICONTROL Gebruikers]** > **[!UICONTROL Extern]**.
-1. Klik op de naam van een externe gebruiker waarop de instelling moet worden toegepast.
+1. Klik op de naam van een Externe gebruiker waarvoor de instellingen moeten worden toegepast.
 
-   Hiermee opent u het dialoogvenster **Extern registratieprofiel bewerken** venster.
+   Hierdoor wordt het venster **Extern registratieprofiel bewerken** geopend.
 
 1. Klikken **[!UICONTROL Geavanceerde instellingen]** linksonder.
 

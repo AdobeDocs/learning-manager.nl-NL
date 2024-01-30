@@ -7,7 +7,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/learner2.png"></td> 
-   <td><p>Lees verder voor meer informatie over de functies van de leermanager en veelgestelde vragen die verband houden met de rol van de student. </p></td> 
+   <td><p>Lees verder voor meer informatie over de kenmerken van en veelgestelde vragen voor de studentenrol in Learning Manager. </p></td> 
   </tr> 
  </tbody>
 </table>
 
 ## Veelgestelde vragen {#frequentlyaskedquestionsfaq}
 
-[Veelgestelde vragen voor studentrol](learners/frequently-asked-questions-for-learners.md)
+[Veelgestelde vragen over de studentrol](learners/frequently-asked-questions-for-learners.md)
 
-## Functies {#features}
+## Kenmerken {#features}
 
 * [Aan de slag](learners/feature-summary/getting-started-learner.md)
 * [Salesforce-app](learners/feature-summary/sfdc-app.md)
@@ -44,4 +44,4 @@ ht-degree: 0%
 * [Vaardigheden en niveaus](learners/feature-summary/skills-levels.md)
 * [Gebruikersaanmelding](learners/feature-summary/user-login.md)
 * [Gebruikersmeldingen](learners/feature-summary/user-notifications.md)
-* [Wachtlijst en aanwezigheidsbeheer](learners/feature-summary/waitlist-attendance-management.md)
+* [Wachtlijst- en aanwezigheidsbeheer](learners/feature-summary/waitlist-attendance-management.md)

@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 In dit document leert u hoe u Adobe Learning Manager kunt integreren met Okta Active Directory (AD). Wanneer u Adobe Learning Manager integreert met Okta AD, kunt u:
 
-* Controleer en beheer de toegang van gebruikers van de Learning Manager in Okta AD.
-* Laat gebruikers automatisch worden aangemeld bij de Adobe Leermanager met hun Okta AD-accounts.
-* Beheer je accounts op één centrale locatie - het Okta-portaal.
+* Gebruikerstoegang tot Learning Manager controleren en beheren in Okta AD;
+* Inschakelen dat gebruikers automatisch worden aangemeld bij Adobe Learning Manager met hun Okta AD-account;
+* uw accounts op één centrale plek beheren: de Okta-portal.
 
-Adobe Learning Manager ondersteunt Identity Provider (IdP) en Service Provider (SP) waarmee SSO is geïnitieerd.
+Adobe Learning Manager biedt ondersteuning voor door Identity Provider (IdP) en door Service Provider (SP) geïnitieerde SSO.
 
 ## Een toepassing maken in OKTA
 
-1. Meld u aan als beheerder op Okta AD.
-1. Klikken **[!UICONTROL Toepassingen]**. Hierdoor wordt de toepassingswinkel in Okta geopend.
+1. Meld u aan als beheerder in Okta AD.
+1. Klik op **[!UICONTROL Toepassingen]**. De appstore in Okta wordt geopend.
 
    ![](assets/cp-application-store.png)
 
@@ -45,7 +45,7 @@ Adobe Learning Manager ondersteunt Identity Provider (IdP) en Service Provider (
 
 1. Selecteren **[!UICONTROL SAML-integratie maken]** > **[!UICONTROL Pagina Algemene instellingen]**. Voer een toepassingsnaam in.
 
-   Let op: dit kan elke naam zijn om uw toepassing uniek te identificeren. Klik op **[!UICONTROL Volgende]**.
+   Let op: dit kan elke naam zijn om uw toepassing uniek te identificeren. Klik op **[!UICONTROL Volgende]** als u klaar bent.
 
    ![](assets/cp-saml-integration.png)
 
@@ -58,8 +58,8 @@ Adobe Learning Manager ondersteunt Identity Provider (IdP) en Service Provider (
    1. Typ de URL in het veld Single Sign-on URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
    1. Typ de URL in het veld Audience URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
    1. In het dialoogvenster **Naam-id-indeling** vervolgkeuzelijst, selecteert u **E-mailadres**.
-   1. In het dialoogvenster **Gebruikersnaam van toepassing** en selecteer Okta-gebruikersnaam.
-   1. Als u aanvullende kenmerken wilt doorgeven, kunt u de kenmerken onder de **Instructie Attributen** (Optioneel)
+   1. Selecteer Gebruikersnaam Okta in de vervolgkeuzelijst **Gebruikersnaam toepassing**.
+   1. Indien u nog kenmerken wilt toevoegen, kunt u dit doen onder de **Kenmerkvermelding** (optioneel)
 
    ![](assets/cp-saml-integration-step1.png)
 
@@ -69,21 +69,21 @@ Adobe Learning Manager ondersteunt Identity Provider (IdP) en Service Provider (
 
    1. Typ de URL in het veld Single Sign-on URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
    1. Typ de URL in het veld Audience URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
-   1. Selecteer in de vervolgkeuzelijst Naam-id-indeling de optie **E-mailadres**.
-   1. Selecteer in de vervolgkeuzelijst Gebruikersnaam de gebruikersnaam Okta-gebruikersnaam.
-   1. Klik op **Geavanceerde instellingen tonen**.
-   1. Onder **Handtekeningalgoritme**, selecteer RSA-SHA256
-   1. In het dialoogvenster **Bevestigingsalgoritme**, selecteer SHA256
-   1. In het dialoogvenster **Assertion Encryption** dropbox, selecteren **Gecodeerd**.
+   1. Selecteer **E-mailadres** in de vervolgkeuzelijst Indeling naam-ID.
+   1. Selecteer Gebruikersnaam Okta in de vervolgkeuzelijst Gebruikersnaam toepassing.
+   1. Klik op **Geavanceerde instellingen weergeven**.
+   1. Selecteer RSA-SHA256 onder **Handtekeningalgoritme**
+   1. Selecteer SHA256 in het **Bevestigingsalgoritme**
+   1. Selecteer **Versleuteld** in de synchronisatielocatie **Bevestigingsversleuteling**.
 
-   1. In het dialoogvenster **Versleutelingscertificaat** uploadt u het certificaatbestand dat wordt gedeeld door de Adobe.
-   1. Als u aanvullende kenmerken wilt doorgeven, kunt u de kenmerken onder de **Instructie Attributen** (Optioneel).
+   1. Upload het door Adobe gedeelde certificaatbestand bij de optie **Versleutelingscertificaat**.
+   1. Indien u nog kenmerken wilt toevoegen, kunt u dit doen onder de **Kenmerkvermelding** (optioneel).
 
    ![](assets/cp-saml-integration-step2.png)
 
    *Extra kenmerken toevoegen*
 
-   Klik op **[!UICONTROL Volgende]**.
+   Klik op **[!UICONTROL Volgende]** als u klaar bent.
 
 1. De **Feedback**  is optioneel. Nadat u de opties hebt geselecteerd en feedback hebt gegeven, klikt u op **[!UICONTROL Voltooien]**.
 
@@ -91,7 +91,7 @@ Adobe Learning Manager ondersteunt Identity Provider (IdP) en Service Provider (
 
    *Volledige SAML-installatie*
 
-## Door IDP geïnitieerde URL- en metagegevensbestand extraheren
+## Door IDP geïnitieerde URL en metadatabestand extraheren
 
 Voer de volgende stappen uit om het door IdP/SP geïnitieerde URL- en metagegevensbestand weer te geven:
 
@@ -104,28 +104,28 @@ Voer de volgende stappen uit om het door IdP/SP geïnitieerde URL- en metagegeve
 
    **Voor IDP:**
 
-   1. De eenmalige aanmelding-URL van identiteitsprovider is de door IdP geïnitieerde URL.
+   1. De URL voor eenmalige aanmelding van de ID-provider is de door IdP geïnitieerde URL.
    1. Kopieer alle tekst die aanwezig is onder de **Optioneel** veld.
-   1. Open een nieuw notitieblokdocument en plak de gekopieerde tekst.
-   1. Klikken **[!UICONTROL Bestand]** > **[!UICONTROL Opslaan als]** > &quot;filename.xml&quot;. Dit wordt het metagegevensbestand.
+   1. Open een nieuw kladblokvenster en plak daar de gekopieerde tekst in.
+   1. Klikken **[!UICONTROL Bestand]** > **[!UICONTROL Opslaan als]** > &quot;filename.xml&quot;. Dit wordt het metadatabestand.
 
    **Voor SP:**
 
-   1. De eenmalige aanmelding-URL van identiteitsprovider is de door IdP geïnitieerde URL.
-   1. Uitgever van identiteitsprovider is de entiteit-id.
+   1. De URL voor eenmalige aanmelding van de ID-provider is de door IdP geïnitieerde URL.
+   1. De uitgever van de ID-provider is de Entiteits-ID.
    1. Kopieer alle tekst die aanwezig is onder de **Optioneel** veld.
-   1. Open een nieuw notitieblokdocument en plak de gekopieerde tekst.
-   1. Klikken **[!UICONTROL Bestand]** > **[!UICONTROL Opslaan als]** > **[!UICONTROL filename.xml]**. Dit wordt het metagegevensbestand.
+   1. Open een nieuw kladblokvenster en plak daar de gekopieerde tekst in.
+   1. Klikken **[!UICONTROL Bestand]** > **[!UICONTROL Opslaan als]** > **[!UICONTROL filename.xml]**. Dit wordt het metadatabestand.
 
    ![](assets/cp-saml-integration-step4.png)
 
    *SP XML-bestand opslaan*
 
-   U moet dit bestand opslaan in XML-indeling.
+   Sla dit bestand op in de indeling XML.
 
-## SSO configureren voor Adobe Learning Manager
+## Adobe Learning Manager SSO configureren
 
-Om Adobe Learning Manager SSO te configureren, voert u de stappen uit die in het onderstaande artikel worden vermeld.
+Voer de stappen uit in onderstaand artikel voor de configuratie van Adobe Learning Manager SSO.
 
 <!--
 

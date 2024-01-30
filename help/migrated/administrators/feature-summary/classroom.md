@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
-title: Locaties voor lesruimten toevoegen
-description: Beheerders kunnen nu een bibliotheek met klaslokalen instellen. Voor elke locatie in de lesruimte kunnen de beheerders de metagegevens instellen die de locatienaam, de plaatslimiet en aanvullende informatie zoals de URL van de locatie bevatten. Auteurs en beheerders kunnen deze vooraf geconfigureerde klassikale locaties vervolgens gebruiken voor door docenten geleide trainingsgebeurtenissen (klassikale modules).
+title: Locaties van klaslokalen toevoegen
+description: Beheerders kunnen nu een bibliotheek met locaties van klaslokalen instellen. Voor elke locatie van een klaslokaal kunnen de beheerders de metadata instellen, waaronder de locatienaam, het aantal plaatsen en aanvullende informatie zoals de locatie-URL. Auteurs en beheerders kunnen deze vooraf geconfigureerde locaties van klaslokalen vervolgens gebruiken voor het instellen van door een docent geleide trainingsgebeurtenissen (klaslokaalmodules).
 contentowner: saghosh
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 0%
+ht-degree: 78%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## Overzicht
 
-Beheerders kunnen nu een bibliotheek met klaslokalen instellen. Voor elke locatie in de lesruimte kunnen de beheerders de metagegevens instellen die de locatienaam, de plaatslimiet en aanvullende informatie zoals de URL van de locatie bevatten. Auteurs en beheerders kunnen deze vooraf geconfigureerde klassikale locaties vervolgens gebruiken voor door docenten geleide trainingsgebeurtenissen (klassikale modules).
+Beheerders kunnen nu een bibliotheek met locaties van klaslokalen instellen. Voor elke locatie van een klaslokaal kunnen de beheerders de metadata instellen, waaronder de locatienaam, het aantal plaatsen en aanvullende informatie zoals de locatie-URL. Auteurs en beheerders kunnen deze vooraf geconfigureerde locaties van klaslokalen vervolgens gebruiken voor het instellen van door een docent geleide trainingsgebeurtenissen (klaslokaalmodules).
 
-U kunt de volgende twee manieren gebruiken om een locatie voor een lesruimte toe te voegen.
+U kunt op de volgende twee manieren een locatie van een klaslokaal toevoegen.
 
-## Een lesruimte toevoegen via de gebruikersinterface
+## Klaslokaal toevoegen met behulp van de gebruikersinterface
 
 U kunt een locatie voor een lesruimte toevoegen via de gebruikersinterface:
 
@@ -28,12 +28,12 @@ U kunt een locatie voor een lesruimte toevoegen via de gebruikersinterface:
 
 1. Klik op de knop **[!UICONTROL Meer toevoegen]** knop.
 
-1. In het dialoogvenster **[!UICONTROL Locatie van lesruimte]** voert u de volgende gegevens in:
+1. Voer in het dialoogvenster **[!UICONTROL Locatie van klaslokaal]** de volgende gegevens in:
 
-   * Typ de **[!UICONTROL Locatienaam lesruimte]**. Gebruik een unieke naam. Anders wordt er een foutbericht weergegeven in Leermanager.
-   * Typ de locatiebeschrijving in het dialoogvenster **[!UICONTROL Locatie-informatie]** veld. Dit veld is optioneel.
-   * Typ de **[!UICONTROL Locatie-URL]**. Studenten kunnen deze informatie zien in de details van de lesruimte. De URL kan indien nodig ook een URL voor een toewijzingslocatie zijn. Dit is een optioneel veld.
-   * Typ het aantal beschikbare plaatsen in het deelvenster **[!UICONTROL Zitlimiet]** veld. Dit geeft de capaciteit van de stoelen van de lesruimte aan. Deze waarde kan worden gewijzigd bij het maken van de trainingsgebeurtenis onder leiding van de instructeur.
+   * Typ de **[!UICONTROL locatienaam van een klaslokaal]**. Gebruik een unieke naam. Anders verschijnt er een foutmelding in Learning Manager.
+   * Typ de locatiebeschrijving in het veld **[!UICONTROL Locatiegegevens]**. Dit veld is optioneel.
+   * Typ de **[!UICONTROL locatie-URL]**. De student kan deze informatie zien in de klaslokaaldetails. Indien nodig kan de URL ook een locatie-URL van een kaart zijn. Dit veld is optioneel.
+   * Typ het aantal beschikbare plaatsen in het veld **[!UICONTROL Plaatslimiet]**. Dit geeft de plaatscapaciteit van het klaslokaal aan. Deze waarde kan worden gewijzigd bij het maken van de daadwerkelijke door een docent geleide trainingsgebeurtenis.
 
    ![](assets/add-classroom-location.png)
 
@@ -45,17 +45,17 @@ Nadat u de locatie hebt toegevoegd, **[!UICONTROL Instellingen]** > **[!UICONTRO
 
 *Alle vergaderruimten weergeven*
 
-De lijst heeft de volgende velden:
+De lijst bevat de volgende velden:
 
 **[!UICONTROL Locatienaam]** - Naam van de locatie van de lesruimte.
 
-**[!UICONTROL Toekomstige sessies]** - Aantal gebeurtenissen dat op de corresponderende locatie zal optreden. Klik op het nummer om de details in een dialoogvenster weer te geven.
+**[!UICONTROL Toekomstige sessies]** - Aantal gebeurtenissen dat op de corresponderende locatie zal optreden. Klik op het aantal om de details in een dialoogvenster te bekijken.
 
 ![](assets/sessions-list.png)
 
 *Bekijk toekomstige sessies*
 
-Het dialoogvenster bevat de details van elke sessie, zoals de naam van de sessie, de naam van de training die de sessie bevat en het sessieschema. De weergegeven tijd wordt afgestemd op de systeemtijdzone van de student.
+Het dialoogvenster toont de details van elke sessie, waaronder de naam van de sessie, de naam van de training die de sessie omvat en het sessieschema. De getoonde tijd komt overeen met de systeemtijdzone van de student.
 
 De **[!UICONTROL Toekomstige sessies]** veldweergaven **nul** als de lesruimte niet wordt gebruikt voor een sessie of als de lesruimte is gekoppeld aan eerdere sessies.
 
@@ -65,38 +65,38 @@ De **[!UICONTROL Toekomstige sessies]** veldweergaven **nul** als de lesruimte n
 
 ## Een lesruimte toevoegen met behulp van CSV
 
-U kunt ook een of meer klassikale locaties toevoegen door een CSV-bestand te importeren dat de lesruimtegegevens bevat.
+U kunt ook een of meer klaslokalen toevoegen door een CSV te importeren die de klaslokaalinformatie bevat.
 
 In **[!UICONTROL Admin-app]** > **[!UICONTROL Instellingen]** > **[!UICONTROL Locaties van lesruimte]**, klikt u op **[!UICONTROL CSV-importlocaties]** knop. Blader naar de locatie met het CSV-bestand en selecteer het bestand.
 
-Het CSV-bestand gebruikt deze velden om gegevens op te slaan over een of meer locaties in de lesruimte:
+Het CSV-bestand maakt gebruik van deze velden om details over een of meer klaslokalen op te slaan:
 
 * name
 * info
 * url
 * seatLimit
 
-U kunt de kopteksten aanpassen.
+U kunt de koppen aanpassen.
 
-Het CSV-bestand moet verplicht alle kolommen in dezelfde volgorde bevatten als hier is opgegeven.
+Het CSV-bestand moet verplicht alle kolommen in dezelfde volgorde bevatten zoals hier aangegeven.
 
 Nadat het systeem het CSV-bestand heeft geïmporteerd, worden de locaties toegevoegd aan de bibliotheek.
 
-## Zoeken naar lesruimten
+## Klaslokalen zoeken
 
-Een auteur of beheerder kan beginnen met het typen van de locatienaam om de relevante resultaten te zien die beginnen te verschijnen. Een auteur of beheerder kan vervolgens een locatie in de weergegeven resultaten selecteren. Als er geen locatie wordt weergegeven in de resultaten van de typekop, kan de gebruiker nog steeds de naam van de nieuwe locatie in de lesruimte toevoegen. Deze locatienaam die is gemaakt met de workflow voor het maken van de sessie, wordt niet toegevoegd aan de locatiebibliotheek die door de beheerder is gemaakt.
+Een auteur of beheerder kan beginnen met het typen van de locatienaam, waarna de relevante resultaten worden weergegeven. Vervolgens kan de auteur of beheerder een locatie selecteren uit de weergegeven resultaten. Als er geen locatie in de typeahead-resultaten wordt weergegeven, kan de gebruiker nog steeds de nieuwe locatienaam van het klaslokaal toevoegen. Houd er rekening mee dat deze locatienaam die is gemaakt met behulp van de workflow voor het maken van sessies niet wordt toegevoegd aan de bibliotheek met locaties die door de beheerder is gemaakt.
 
-Wanneer een lesruimte wordt toegevoegd, geeft het leerplatform ook aan of de lesruimte al is geboekt voor de vermelde periode. Het biedt zelfs alternatieve tijdruimten als suggesties. Hierdoor kan de auteur de vergadertijd aanpassen als hij besluit dezelfde locatie in de lesruimte te gebruiken.
+Wanneer een klaslokaal wordt toegevoegd, geeft het leerplatform ook aan of het klaslokaal al is geboekt voor de aangegeven periode. Er worden zelfs alternatieve periodes geboden als suggestie. Hierdoor kan de auteur de vergadertijd aanpassen als hij of zij besluit dezelfde locatie van een klaslokaal te gebruiken.
 
 ![](assets/classroom-search.png)
 
 *Zoeken naar lesruimten*
 
-## Beperken tot vooraf bepaalde lijst van docenten
+## Beperken tot een vooraf bepaalde lijst met docenten
 
-Op dit moment kunnen gebruikers elke geregistreerde gebruiker toevoegen als docent bij het maken van een sessie in een lesruimte of virtuele lesruimte. Deze functionaliteit blijft ongewijzigd in deze release.
+Momenteel kunnen de gebruikers elke geregistreerde gebruiker als docent toevoegen bij het maken van een klassikale of virtuele sessie. Deze functionaliteit blijft ongewijzigd in deze release.
 
-Beheerders hebben nu echter een extra optie om te bepalen wie als docent aan het leerplatform wordt toegewezen. Zo voorkomt u dat een nieuwe docent per ongeluk wordt toegevoegd wanneer u een sessie maakt.
+Beheerders hebben nu echter een extra optie om verder te bepalen wie als docent wordt toegewezen op het leerplatform. Zo wordt voorkomen dat er per ongeluk een nieuwe docent wordt toegevoegd bij het maken van een sessie.
 
 ## Beheerder
 
@@ -106,65 +106,65 @@ Beheerders kunnen een docent instellen door **[!UICONTROL BEHEREN]** > **[!UICON
 
 ## Auteur
 
-Als de beheerder de optie **[!UICONTROL Beheer van docenten]** kan een auteur alleen zoeken naar en gebruikers met de rol van docent toevoegen aan de klassikale sessies, virtuele klassikale sessies, checklists en de modules voor het indienen van bestanden.
+Als de beheerder de optie **[!UICONTROL Docentbeheer]** selecteert, kan een auteur alleen gebruikers met de rol Docent zoeken en toevoegen aan de klassikale sessies, virtuele sessies, checklists en de modules voor het verzenden van bestanden.
 
-Bovendien kan een auteur:
+Daarnaast kan een auteur:
 
-* Voeg docenten toe aan en verwijder ze uit de bestaande sessies.
-* Voeg docenten toe aan de bestaande sessies die al een of meer docenten hebben.
+* Docenten toevoegen aan en verwijderen uit de bestaande sessies.
+* Docenten toevoegen aan de bestaande sessies die al een of meer docenten hebben.
 
-Daarom nadat een Beheerder toelaat **[!UICONTROL Beheer van docenten]** alleen de gebruikers met de rol Docent kunnen als docent worden toegevoegd.
+Daarom kunnen alleen de gebruikers met de rol Docent worden toegevoegd als docent nadat een beheerder de optie **[!UICONTROL Docentbeheer]** heeft ingeschakeld.
 
 >[!NOTE]
 >
->Dit is niet van toepassing wanneer u sessies migreert met het CSV-bestand voor sessies. In dit geval kan een gebruiker die niet de rol van docent heeft, als docent worden toegevoegd.
+>Dit is niet van toepassing wanneer u sessies migreert met het CSV-bestand voor sessies. In dit geval kan een gebruiker die niet de rol van docent heeft, worden toegevoegd als docent.
 
 ## Bestaande sessie annuleren
 
 Een auteur of beheerder kan een sessie annuleren en indien nodig opnieuw plannen.
 
-Wanneer een gebruiker een sessie annuleert, stuurt het systeem een e-mail over de annulering van de vergadering naar alle ingeschreven studenten en docenten. Het e-mailbericht bevat de bijgewerkte sessiedetails.
+Wanneer een gebruiker een sessie annuleert, stuurt het systeem een e-mail voor het annuleren van een vergadering naar alle ingeschreven studenten en docenten. De e-mail bevat de bijgewerkte sessiedetails.
 
-Er is een sjabloon genaamd **[!UICONTROL Sessieannulering]** dat helpt bij het annuleren van een sessie.
+Er is een sjabloon met de naam **[!UICONTROL Sessie annuleren]** die helpt bij het annuleren van een sessie.
 
-Op de **[!UICONTROL Cursusinstantie]** pagina, bevat elke sessie die onder een cursusinstantie wordt weergegeven een optie om de sessie te annuleren.
+Op de pagina **[!UICONTROL Cursusinstantie]** staat voor elke sessie die onder een cursusinstantie wordt vermeld een optie om de sessie te annuleren.
 
 ![](assets/cancel-session.png)
 
 *Een bestaande sessie annuleren*
 
-Als u op de knop **[!UICONTROL Sessie annuleren]** verschijnt er een waarschuwingsbericht.
+Wanneer u op de link **[!UICONTROL Sessie annuleren]** klikt, verschijnt er een waarschuwingsbericht.
 
-Als u in het dialoogvenster met het waarschuwingsbericht op **[!UICONTROL Doorgaan]**, annuleert het systeem de sessie.
+Als u in het dialoogvenster voor het waarschuwingsbericht op **[!UICONTROL Doorgaan]** klikt, annuleert het systeem de sessie.
 
-Het systeem wist ook de volgende details na het annuleren van een sessie:
+Het systeem wist ook de volgende gegevens na het annuleren van een sessie:
 
 * Begindatum van de sessie
 * Einddatum van de sessie
 * Begintijd van de sessie
 * Eindtijd van de sessie
-* Docenten toegevoegd aan de sessie
-* URL van virtuele lesruimte
-* Locatie/locatie toegevoegd aan de sessie
-* Wachtlijstlimiet toegevoegd door docent
+* Docenten die aan de sessie zijn toegevoegd
+* URL van virtueel klaslokaal
+* Locatie die aan de sessie is toegevoegd
+* Wachtlijstlimiet die door de docent is toegevoegd
 
 ## Beheerder
 
-Op de **[!UICONTROL Cursusinstantie]** kan een beheerder een of meer sessies annuleren. Nadat de beheerder een sessie heeft geannuleerd, wist het systeem alle sessiedetails behalve de limiet van de licentie.
+Op de pagina **[!UICONTROL Cursusinstantie]** kan een beheerder een of meer sessies annuleren. Nadat de beheerder een sessie heeft geannuleerd, wist het systeem alle sessiedetails behalve de plaatslimiet.
 
-Bovendien kan een beheerder:
+Daarnaast kan een beheerder:
 
-* Bekijk de ingeschreven studenten en wacht de studenten van een sessie.
-* Verwijder studenten uit een cursus met een of meer geannuleerde sessies.
-* Aanwezigheid markeren voor geannuleerde sessies
+* De ingeschreven studenten en studenten op de wachtlijst van een sessie bekijken.
+* Studenten uitschrijven van een cursus met een of meer geannuleerde sessies.
+* Aanwezigheid voor sessies markeren die zijn geannuleerd.
 * Een cursus als voltooid markeren die een of meer geannuleerde sessies bevat.
-* Plan een sessie die is geannuleerd opnieuw.
-* Voeg een docent toe aan een geannuleerde sessie wanneer u deze opnieuw plant.
+* Een geannuleerde sessie opnieuw plannen.
+* Een docent toevoegen aan een geannuleerde sessie wanneer deze opnieuw wordt gepland.
 
-Merk op dat zelfs na annulering de studenten die voor de trainingsinstantie zijn ingeschreven zich blijven inschrijven. Hun inschrijvingsstatus - inclusief bevestigde inschrijving, wachtlijst en wachtrijgoedkeuring van de manager - verandert niet. Dit is handig omdat de beheerder de geannuleerde sessie in de toekomst kan instellen en opnieuw kan plannen.
+Houd er rekening mee dat zelfs na annulering de studenten die zijn ingeschreven voor de trainingsinstantie ingeschreven blijven. Hun inschrijvingsstatus - inclusief bevestigde inschrijving, wachtlijst en wachtrijgoedkeuring van de manager - verandert niet. Dit is handig omdat de beheerder de geannuleerde sessie in de toekomst kan instellen en opnieuw kan plannen.
 
 ## Auteur
 
-Op de **[!UICONTROL Cursusinstantie]** kan een auteur een of meer sessies annuleren. Nadat de auteur een sessie heeft geannuleerd, wist het systeem alle sessiedetails behalve de limiet van de licentie.
+Op de pagina **[!UICONTROL Cursusinstantie]** kan een auteur een of meer sessies annuleren. Nadat de auteur een sessie heeft geannuleerd, wist het systeem alle sessiedetails behalve de plaatslimiet.
 
 Daarom kan een auteur de opdracht **[!UICONTROL Sessie annuleren]** koppelingen om een of meer klassikale sessies of virtuele klassikale sessies te annuleren die beschikbaar zijn in dezelfde of verschillende cursusinstanties.

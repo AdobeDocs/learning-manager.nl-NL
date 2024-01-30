@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Cataloguslabels
-description: Met cataloguslabels kunt u leerobjecten coderen met specifieke velden en een of meerdere waarden toepassen. Indien ingeschakeld kunnen beheerders en auteurs cataloguslabels en waarden instellen en koppelen aan leerobjecten.
+description: Met Cataloguslabels kunt u leerobjecten markeren met specifieke velden en een of meerdere waarden toepassen. Indien ingeschakeld kunnen beheerders en auteurs cataloguslabels en waarden instellen en koppelen aan leerobjecten.
 contentowner: dvenkate
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '331'
-ht-degree: 0%
+ht-degree: 85%
 
 ---
 
@@ -14,42 +14,42 @@ ht-degree: 0%
 
 # Cataloguslabels
 
-Met cataloguslabels kunt u leerobjecten coderen met specifieke velden en een of meerdere waarden toepassen. Indien ingeschakeld kunnen beheerders en auteurs cataloguslabels en waarden instellen en koppelen aan leerobjecten.
+Met Cataloguslabels kunt u leerobjecten markeren met specifieke velden en een of meerdere waarden toepassen. Indien ingeschakeld kunnen beheerders en auteurs cataloguslabels en waarden instellen en koppelen aan leerobjecten.
 
-Gebruik deze functie om gegevens eenvoudig te categoriseren. Als u leerobjecten bijvoorbeeld wilt categoriseren op basis van hun locatie, afdeling of vaardigheden. U kunt deze velden toepassen en gegevens filteren.
+Gebruik deze functie om gegevens eenvoudig te categoriseren. Als u leerobjecten bijvoorbeeld op basis van hun locatie, afdeling of vaardigheden wilt categoriseren, kunt u deze velden toepassen en gegevens filteren.
 
-Ga als volgt te werk om cataloguslabels in te schakelen:
+Volg deze stappen om cataloguslabels in te schakelen:
 
 * Als beheerder opent u **[!UICONTROL Instellingen]** > **[!UICONTROL Algemeen]** > **[!UICONTROL Cataloguslabel tonen]**.
-* Schakel het selectievakje in om het label in te schakelen.
+* Gebruik het selectievakje om het label in te schakelen.
 
 ## Cataloguslabels toevoegen {#addcataloglabels}
 
-Ga als volgt te werk om cataloguslabels toe te voegen:
+Doe het volgende om cataloguslabels toe te voegen:
 
-1. Openen  **[!UICONTROL Instellingen]** > **[!UICONTROL Cataloguslabels]** onder de **[!UICONTROL Gedeeld]** gebruiken. De [!UICONTROL Cataloguslabels] wordt geopend.
+1. Openen  **[!UICONTROL Instellingen]** > **[!UICONTROL Cataloguslabels]** onder de **[!UICONTROL Gedeeld]** gebruiken. De pagina [!UICONTROL Cataloguslabels] wordt geopend.
 
    ![](assets/catalog-labels-page.png)
 
-1. Klikken **[!UICONTROL Cataloguslabel toevoegen]** of **[!UICONTROL Toevoegen]** rechtsboven. De **[!UICONTROL Cataloguslabel toevoegen]** wordt weergegeven.
-1. Voeg cataloguslabels en de bijbehorende waarden toe aan de velden. Een aangepast veld kan meerdere waarden hebben. Auteurs kunnen een keuze maken uit deze waarden tijdens het maken van de cursus.
+1. Klik op **[!UICONTROL Cataloguslabel toevoegen]** of **[!UICONTROL Toevoegen]** in de rechterbovenhoek. Het dialoogvenster **[!UICONTROL Cataloguslabels]** toevoegen verschijnt.
+1. Voeg cataloguslabels en de bijbehorende waarden toe aan de velden. Een aangepast veld kan meerdere waarden hebben. Auteurs kunnen tijdens het maken van een cursus uit deze waarden kiezen.
 
    ![](assets/add-labels.png)
 
-1. Klikken **[!UICONTROL Opslaan]**.
-1. Wanneer u het label opslaat, verschijnt het op de pagina Cataloguslabels. U kunt kiezen of u er een verplichte waarde van wilt maken.
+1. Klik op **[!UICONTROL Opslaan]**.
+1. Wanneer u het label opslaat, verschijnt het op de pagina Cataloguslabels. U kunt er desgewenst een verplichte waarde van maken.
 
    ![](assets/catalog-label.png)
 
 ## Labels op catalogi toepassen {#applylabelstocatalogs}
 
-Nadat u cataloguslabels hebt gemaakt, kunt u deze als volgt toepassen op specifieke catalogi:
+Nadat u cataloguslabels hebt gemaakt, kunt u deze als volgt op specifieke catalogi toepassen:
 
-1. Openen **[!UICONTROL Catalogi]** in het linkerdeelvenster. De pagina Catalogus wordt geopend met de lijst met catalogi.
-1. Selecteer de catalogus en pas deze toe op het label.
-1. Open Cataloguslabels vanuit het linkerdeelvenster.
+1. Open **[!UICONTROL Catalogi]** via het linkerdeelvenster. De pagina Catalogus wordt geopend met de lijst van catalogi.
+1. Selecteer de catalogus en pas deze op het label toe.
+1. Open Cataloguslabels via het linkerdeelvenster.
 1. Klikken **[!UICONTROL Bewerken]** rechtsboven. De pagina toont de lijst met beschikbare cataloguslabels.
-1. Als u een label aan de catalogus wilt toevoegen, klikt u op **[!UICONTROL Toevoegen aan catalogus]**.
+1. Klik op **[!UICONTROL Toevoegen aan catalogus]** om een label aan de catalogus toe te voegen.
 1. Als u bestaande labels wilt verwijderen die aan een catalogus zijn toegevoegd, klikt u op **[!UICONTROL Verwijderen]**.
 
 Wanneer het aangepaste veld aan de catalogus wordt toegevoegd, is het van toepassing op alle leerobjecten die deel uitmaken van de catalogus.

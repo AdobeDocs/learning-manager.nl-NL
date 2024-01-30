@@ -1,20 +1,20 @@
 ---
-title: Welkom bij de gebruikershandleiding van de Adobe Learning Manager
+title: Welkom bij de Gebruikersgids voor Adobe Learning Manager
 description: Leer de nieuwste aanbieding in Adobe Learning Manager (eerder Adobe Captivate Prime). Begin aan het begin, bezoek elke sectie individueel, of verbind met de Gemeenschap om uw weg door een project te werken.
 contentowner: dhv
 source-git-commit: 73a1fe972eb8d399dd9ae53b6b1128bb11561924
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
 
-# Welkom bij de gebruikershandleiding van de Adobe Learning Manager
+# Welkom bij de Gebruikersgids voor Adobe Learning Manager
 
 Lees verder om te weten te komen wat de nieuwste aanbieding is in Adobe Learning Manager (eerder Adobe Captivate Prime). Begin aan het begin, bezoek elke sectie individueel, of verbind met de Gemeenschap om uw weg door een project te werken.
 
-## Deelnemen aan het gesprek {#jointheconversation}
+## Neem deel aan het gesprek {#jointheconversation}
 
 Bezoek de [Gebruikerscommunity van Adobe Learning Manager](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all) inspireren en antwoorden krijgen op de belangrijkste vragen.
 

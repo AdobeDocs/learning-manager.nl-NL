@@ -1,13 +1,13 @@
 ---
-description: Leer hoe een beheerder en een docent het antwoord van een student op een agenda-uitnodiging kunnen bekijken.
+description: Kom te weten hoe beheerders en docenten reacties van studenten op een agenda-uitnodiging kunnen bekijken.
 jcr-language: en_us
-title: Bekijk het antwoord van de student op een Outlook-agenda-uitnodiging op Leermanager
+title: De reactie van een student op een uitnodiging in Outlook Agenda weergeven in Learning Manager
 contentowner: kuppan
 preview: true
 source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 0%
+ht-degree: 40%
 
 ---
 
@@ -15,29 +15,29 @@ ht-degree: 0%
 
 # Bekijk het antwoord van de student op een Outlook-agenda-uitnodiging op [!DNL Learning Manager]
 
-Leer hoe een beheerder en een docent het antwoord van een student op een agenda-uitnodiging kunnen bekijken.
+Kom te weten hoe beheerders en docenten reacties van studenten op een agenda-uitnodiging kunnen bekijken.
 
-Wanneer een student in Learning Manager is ingeschreven voor een virtuele klasse/klasruimte-sessie in een cursus, krijgt de student een gedetailleerde uitnodiging voor de outlook-agenda.
+In Learning Manager krijgt de student een gedetailleerde uitnodiging via Outlook Agenda wanneer deze zich heeft ingeschreven voor een virtuele les/virtueel klaslokaal binnen een cursus.
 
 Het antwoord van een student op de sessie-uitnodiging wordt vastgelegd in Leermanager en de beheerder en de docent kunnen de details bekijken.
 
-Als een student meer dan eenmaal op dezelfde uitnodiging reageert, wordt de laatste reactie overwogen en wordt de vorige reactie overschreven. Als de sessietijden worden gewijzigd, worden alle reacties op uitnodigingen gewist en moeten studenten nogmaals op het verzoek reageren.
+Als een student meermaals op dezelfde uitnodiging reageert, geldt de laatste reactie en wordt de vorige overschreven. Als de sessietijden worden gewijzigd, worden alle reacties op uitnodigingen gewist en moeten studenten nogmaals op het verzoek reageren.
 
-## De functie voor het bijhouden van uitnodigingen inschakelen {#enablingtheinvitereplytrackingfeature}
+## De trackingfunctie voor reacties op uitnodigingen inschakelen {#enablingtheinvitereplytrackingfeature}
 
 * Neem contact op met de ondersteuning van Adobe Leermanager om de functie voor het bijhouden van uitnodigingen in te schakelen.
-* Als de functie voor het account is ingeschakeld, kunnen alle toekomstige virtuele klassikale sessies die door een auteur zijn gemaakt, het antwoord van de student op de agenda-uitnodiging vastleggen.
+* Als de functie voor de account is ingeschakeld, kunnen alle toekomstige virtuele lessen/sessies in een virtueel klaslokaal van een auteur de reacties van studenten op de agenda-uitnodiging registreren.
 
-Als studenten zijn ingeschreven voor een virtuele klasse/klaslokaalsessie die is gemaakt voordat de functie voor het bijhouden van uitnodigingen is ingeschakeld, worden de antwoorden van de studenten op de agenda-uitnodiging niet vastgelegd.
+Als er studenten zijn ingeschreven voor een virtuele les/virtueel klaslokaal voordat de trackingfunctie voor reacties op uitnodigingen was ingeschakeld, worden hun reacties op agenda-uitnodigingen niet geregistreerd.
 
-## Uitnodigingsreacties weergeven als beheerder {#viewinginviteresponsesasanadmin}
+## Reacties op uitnodigingen bekijken als beheerder {#viewinginviteresponsesasanadmin}
 
-Als de functie voor het bijhouden van uitnodigingen voor een virtuele klasse/klassesessie is ingeschakeld voor een virtuele klassikale sessie, kan de beheerder de antwoorden van de student op de uitnodiging samen met andere machtigingen als volgt bekijken:
+Wanneer de trackingfunctie voor reacties op uitnodigingen voor een virtuele les/virtueel klaslokaal is ingeschakeld, kan de beheerder de reacties van studenten op de uitnodiging en andere machtigingen als volgt bekijken:
 
 1. Klikken **[!UICONTROL Cursus]** in het linkernavigatievenster en bekijk de cursus die is gemaakt na de activering van de functie voor het bijhouden van uitnodigingen.
 1. Klikken **[!UICONTROL Aanwezigheid en scores]** in het linkernavigatievenster.
 1. Als u hieronder een tabel met namen van studenten en hun reacties op de agenda-uitnodiging wilt weergeven, selecteert u de **Instantie** en **[!UICONTROL Module]** op de pagina Aanwezigheid en scores.
-1. Gebruik de **[!UICONTROL Uitnodigen]** filter om studenten weer te geven op basis van de volgende opties: alle reacties, geaccepteerd, afgewezen, indicatief en verzonden
+1. Gebruik het filter **[!UICONTROL Uitnodigen]** om studenten weer te geven op basis van de volgende opties: alle antwoorden, geaccepteerd, geweigerd, misschien en verzonden
 
    ![](assets/invite-filter.png)
 

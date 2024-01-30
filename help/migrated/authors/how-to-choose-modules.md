@@ -1,20 +1,20 @@
 ---
 jcr-language: en_us
-title: Hoe kies ik cursusmodules?
-description: Adobe Learning Manager ondersteunt vier typen cursusmodules. Als u verantwoordelijk bent voor het maken van een trainingsprogramma, kunt u zich afvragen welk type module u moet kiezen om aan de vereisten van uw organisatie te voldoen. Op basis van het budget van uw organisatie en de behoeften van uw doelgroep kunt u de cursusmodules kiezen. Hieronder worden ter referentie enkele typische gebruikscases voor elk type module uitgelegd.
+title: Hoe kan ik cursusmodules kiezen?
+description: Adobe Learning Manager ondersteunt vier typen cursusmodules. Als u verantwoordelijk bent voor het maken van een trainingsprogramma, kunt u zich afvragen welk type module u moet kiezen om aan de eisen van uw organisatie te voldoen. Op basis van het budget van uw organisatie en de behoeften van het publiek, kunt u de cursusmodules kiezen. Een aantal van de typische gebruikscases voor elk type module worden hieronder uitgelegd ter referentie.
 contentowner: jayakarr
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
 
 
-# Hoe kies ik cursusmodules?
+# Hoe kan ik cursusmodules kiezen?
 
-Leermanager ondersteunt vier typen cursusmodules. Als u verantwoordelijk bent voor het maken van een trainingsprogramma, kunt u zich afvragen welk type module u moet kiezen om aan de vereisten van uw organisatie te voldoen. Op basis van het budget van uw organisatie en de behoeften van uw doelgroep kunt u de cursusmodules kiezen. Hieronder worden ter referentie enkele typische gebruikscases voor elk type module uitgelegd.
+Learning Manager ondersteunt vier soorten cursusmodules. Als u verantwoordelijk bent voor het maken van een trainingsprogramma, kunt u zich afvragen welk type module u moet kiezen om aan de eisen van uw organisatie te voldoen. Op basis van het budget van uw organisatie en de behoeften van het publiek, kunt u de cursusmodules kiezen. Een aantal van de typische gebruikscases voor elk type module worden hieronder uitgelegd ter referentie.
 
 <table>
  <tbody>
@@ -52,12 +52,12 @@ Leermanager ondersteunt vier typen cursusmodules. Als u verantwoordelijk bent vo
   <tr>
    <td><img src="assets/classroom-module.png"></td>
    <td>
-    <p>In de klassikale training volgen studenten de lessen persoonlijk, gefaciliteerd door een docent. Bij dit type training moeten studenten de lessen op een bepaald tijdstip en op een bepaalde locatie bijwonen. Er moeten docenten beschikbaar zijn. Als de studenten en docenten van verschillende locaties afkomstig zijn, kost het de organisatie tijd en geld om alle studenten en docenten op één locatie te brengen.</p>
+    <p>In de klassikale training volgen de studenten de lessen persoonlijk, onder begeleiding van een docent. Bij dit soort training zijn de studenten verplicht de lessen bij te wonen op een bepaalde tijd en plaats. Er moeten docenten beschikbaar zijn. Als de studenten en docenten uit verschillende richtingen moeten komen, kost het de organisatie tijd en geld om alle studenten en docenten op één plaats samen te brengen.</p>
     <p><strong>Voordelen</strong></p>
     <ul>
-     <li>Het belangrijkste voordeel van dit type training is de sociale interactie van de studenten. </li>
+     <li>Het belangrijkste voordeel van dit soort trainingen is de sociale interactie tussen de studenten. </li>
      <li>U kunt klassikale modules kiezen voor cursussen waarvoor veel persoonlijke samenwerking en betrokkenheid van de student vereist is. </li>
-     <li>Ook als het cursusonderwerp complex, nieuw is of als het gaat om de discipline van de studenten bij het plannen en begrijpen van de concepten, is een klassikale module de juiste keuze.</li>
+     <li>Ook als het onderwerp van de cursus complex is, nieuw is of als het gaat om het leren plannen en het begrijpen van bepaalde begrippen door de studenten, dan is een klassikale module de beste keuze.</li>
     </ul></td>
   </tr>
  </tbody>
@@ -70,31 +70,31 @@ Leermanager ondersteunt vier typen cursusmodules. Als u verantwoordelijk bent vo
   <tr>
    <td><img src="assets/self-placed-module.png"></td>
    <td>
-    <p>Bij een training op eigen tempo kunnen studenten cursussen in hun eigen tempo starten en voltooien. Studenten hoeven de lessen niet op een bepaalde tijd en locatie bij te wonen. Studenten moeten echter het tempo bepalen en zelf het leerproces bepalen met een zelfgedisciplineerde aanpak.</p>
+    <p>Bij een training op eigen tempo kunnen de studenten de cursussen op hun eigen tempo starten en volgen. Studenten hoeven de lessen niet op een bepaalde tijd en plaats bij te wonen. De studenten moeten echter zelf het tempo bepalen en de voortgang bewaken. Dit vereist veel zelfdiscipline.</p>
     <p> </p>
     <p><strong>Voordelen</strong></p>
     <ul>
-     <li>U kunt dit type module kiezen voor de studenten die hun eigen leertijdlijnen kunnen beheren. </li>
+     <li>U kunt dit type module kiezen voor de studenten die hun eigen tijdlijn van leermateriaal kunnen beheren. </li>
      <li>Wanneer u meer studenten in minder tijd wilt bereiken, en </li>
-     <li>Wanneer u de bijbehorende kosten wilt beheren.</li>
+     <li>wanneer u controle wilt houden over de bijbehorende kosten.</li>
     </ul></td>
   </tr>
  </tbody>
 </table>
 
-**Wanneer kiest u activiteitenmodules?**
+**Wanneer kiest u voor Activiteitenmodules?**
 
 <table>
  <tbody>
   <tr>
    <td><img src="assets/activity.png"></td>
    <td>
-    <p>Tijdens de activiteitstraining moeten studenten een reeks online activiteiten voltooien, zoals oefeningen, vragenlijsten en workshops. Studenten dragen rechtstreeks bij aan deze activiteiten en ontvangen geen input of bronnen van docenten. Deze activiteiten worden op eigen tempo uitgevoerd, maar kunnen in sommige gevallen tijdgebonden zijn.</p>
+    <p>In de activiteitentraining moeten de studenten een reeks online activiteiten, zoals oefeningen, vragenlijsten en workshops, voltooien. Studenten dragen rechtstreeks bij aan deze activiteiten en ontvangen geen input of leermiddelen van docenten. Deze activiteiten worden op eigen tempo uitgevoerd, maar kunnen in sommige gevallen tijdgebonden zijn.</p>
     <p> </p>
     <p><strong>Voordelen</strong></p>
     <ul>
      <li>U kunt activiteitenmodules kiezen als aanvulling op klassikale en virtuele klassikale training.</li>
-     <li>Na het volgen van een klassikale training kunnen studenten hun kennis toepassen in de activiteiten buiten de lesruimte en in online community's.</li>
+     <li>Na het volgen van een klassikale training kunnen studenten hun kennis toepassen op de activiteiten buiten de klas en in online community's.</li>
     </ul></td>
   </tr>
  </tbody>
@@ -107,14 +107,14 @@ Leermanager ondersteunt vier typen cursusmodules. Als u verantwoordelijk bent vo
   <tr>
    <td><img src="assets/virtual-classroom.png"></td>
    <td>
-    <p>In de virtuele klassikale training geven studenten online met een liverelais van een docent kennis met de lessen. Studenten moeten de lessen op een bepaald tijdstip bijwonen. Maar ze kunnen lessen bijwonen vanaf elke locatie.</p>
+    <p>In de virtuele klassikale training geeft een docent online live les aan studenten. Studenten moeten de lessen op een bepaald tijdstip bijwonen. Maar ze kunnen de lessen vanaf een willekeurige locatie bijwonen.</p>
     <p> </p>
     <p> </p>
     <p><strong>Voordelen</strong></p>
     <ul>
-     <li>U kunt kiezen voor een klassikale module als de cursus niet complex is</li>
-     <li>Wanneer studenten en docenten deel uitmaken van verspreide teams over verschillende locaties. </li>
-     <li>U kunt kosten besparen op logistiek voor studenten en docenten.</li>
+     <li>U kunt kiezen voor een klassikale module wanneer de cursus niet complex is</li>
+     <li>Wanneer studenten en docenten deel uitmaken van teams die verspreid zijn over meerdere locaties. </li>
+     <li>U kunt kosten besparen op de logistiek voor studenten en docenten.</li>
     </ul></td>
   </tr>
  </tbody>
@@ -126,9 +126,9 @@ Leermanager ondersteunt vier typen cursusmodules. Als u verantwoordelijk bent vo
  <tbody>
   <tr>
    <td>
-    <p><strong>Functie </strong></p></td>
+    <p><strong>Kenmerk </strong></p></td>
    <td>
-    <p><strong>Klaslokaalmodule</strong></p></td>
+    <p><strong>Klassikale module</strong></p></td>
    <td>
     <p><strong>Module op eigen tempo</strong><br></p></td>
    <td>
@@ -138,7 +138,7 @@ Leermanager ondersteunt vier typen cursusmodules. Als u verantwoordelijk bent vo
   </tr>
   <tr>
    <td>
-    <p><strong>Op docent gebaseerd</strong></p></td>
+    <p><strong>Met een docent</strong></p></td>
    <td>
     <p>Ja</p></td>
    <td>
@@ -162,7 +162,7 @@ Leermanager ondersteunt vier typen cursusmodules. Als u verantwoordelijk bent vo
   </tr>
   <tr>
    <td>
-    <p><strong>Externe toegang</strong></p></td>
+    <p><strong>Toegang op afstand</strong></p></td>
    <td>
     <p>Nee</p></td>
    <td>

@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
@@ -24,16 +24,16 @@ Tik op de knop **Menu** en kiest u de gewenste optie.
 
 <!--![](assets/menu-ipad.png)-->
 
-## De app offline openen {#accesstheappoffline}
+## Offline toegang tot de app {#accesstheappoffline}
 
-U kunt de app Learning Manager offline openen op een Android-tablet van iPad en Google Nexus 9. Download en volg cursussen in offline modus en synchroniseer de inhoud weer met de online app wanneer u verbinding maakt met het netwerk.
+U kunt de app Learning Manager offline openen op een Android-tablet van iPad en Google Nexus 9. Download en volg cursussen in offline modus en synchroniseer de inhoud met de online app wanneer u verbinding maakt met het netwerk.
 
 1. Tikken **Menu** vervolgkeuzelijst bovenaan en tik op **Leren** gebruiken. Een lijst van alle beschikbare cursussen wordt weergegeven in tegels.
-1. Tik op het downloadpictogram onder aan elke leerobjecttegel om de leerinhoud te downloaden.
+1. Tik op het downloadpictogram onderaan elke leerobjecttegel om de leerinhoud te downloaden.
 
    <!--![](assets/download-ipad.png)-->
 
-1. Wanneer u online bent, verschijnt op een balk boven in de app een vraag om te controleren of u uw inhoud online wilt synchroniseren. Tik op de rode balk als uw antwoord ja is. Een groene balk geeft aan dat uw inhoud synchroon is met de online app.
+1. Wanneer u online bent, verschijnt er op een balk boven in de app een melding om te controleren of u uw inhoud online wilt synchroniseren. Tik op de roodgekleurde balk als uw antwoord ja is. Een groengekleurde balk geeft aan dat uw inhoud met de online app is gesynchroniseerd.
 
 <!--## Track device storage {#trackdevicestorage}
 

@@ -1,41 +1,41 @@
 ---
-description: Leer hoe u tags beheert in Leermanager.
+description: Leer hoe u tags beheert in Learning Manager.
 jcr-language: en_us
-title: Labels
+title: Tags
 contentowner: dvenkate
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
 
 
-# Labels
+# Tags
 
-Beheerders kunnen nu tags beheren in Leerbeheer. Gebruik betere tagging en een beheerbare database om studenten te helpen beter te zoeken en snel de juiste zoekresultaten te behalen. Met deze functie kunt u overbodige, verkeerd gespelde en irrelevante tags beheren. U kunt ook tags toevoegen, bewerken, verwijderen, toevoegen of vervangen.
+Beheerders kunnen nu labels beheren in Learning Manager. Gebruik betere tagging en een beheerbare database om de zoekervaring van studenten te verbeteren zodat ze snel de juiste zoekresultaten vinden. Met behulp deze functie kunt u overbodige, verkeerd gespelde en irrelevante tags beheren. U kunt ook tags toevoegen, bewerken, verwijderen, bijvoegen of vervangen.
 
-U kunt de lijst met leerobjecten die aan de tag zijn gekoppeld bekijken door op het aantal naast elke tag te klikken. De lijst bevat het aantal cursussen, leerprogramma&#39;s, certificaten, taakhulpen en inhoudsgroepen. Klik op een van deze opties om de lijst weer te geven.
+U kunt de lijst met leerobjecten die aan de tag zijn gekoppeld bekijken door op het aantal naast een tag te klikken. De lijst toont het aantal cursussen, leerprogramma&#39;s, certificaten, taakhulpen en inhoudsgroepen. Klik op een van deze opties om de lijst weer te geven.
 
-U kunt de labels sorteren op gebruik of alfabetische volgorde met de opdracht **[!UICONTROL Sorteren op]** gebruiken.
+U kunt de tags sorteren op gebruik of op alfabetische volgorde met de optie **[!UICONTROL Sorteren op]**.
 
 ## Tags toevoegen/verwijderen/bewerken {#adddeleteedittags}
 
-1. Als beheerder klikt u in het linkernavigatievenster op **[!UICONTROL Labels]**. De **[!UICONTROL Tag Management]** wordt geopend.
-1. Klik op **[!UICONTROL Toevoegen]**. De knop Toevoegen staat rechtsboven op de pagina. Als er geen bestaande tags zijn, kunt u **[!UICONTROL Toevoegen]** de knop is ook beschikbaar in het midden van de **[!UICONTROL Tag Management]** pagina.
+1. Klik als beheerder in het linkernavigatievenster op **[!UICONTROL Tags]**. De pagina **[!UICONTROL Tagbeheer]** wordt geopend.
+1. Klik op **[!UICONTROL Toevoegen]** om een nieuwe tag toe te voegen. De knop Toevoegen is beschikbaar in de rechterbovenhoek van de pagina. Als er geen bestaande tags zijn, is de knop **[!UICONTROL Toevoegen]** ook beschikbaar in het midden van de pagina **[!UICONTROL Tagbeheer]**.
 
-   Als u meerdere tags toevoegt, scheidt u deze met (,) of (;). Een labelnaam mag maximaal 50 tekens bevatten.
+   Als u meerdere tags toevoegt, scheidt u ze met (,) of (;). Een tagnaam mag maximaal 50 tekens bevatten.
 
-1. Als u een bestaande tag wilt verwijderen, selecteert u de tag door op het selectievakje te klikken. U kunt meerdere tags tot 50 in aantal selecteren om tegelijk te verwijderen. Ga als volgt te werk om te verwijderen:
+1. Klik op het selectievakje om een bestaande tag te verwijderen. U kunt meerdere tags tot 50 in aantal selecteren om tegelijk te verwijderen. U doet dit als volgt:
 
-   * Selecteer de tags die u wilt verwijderen > open het dialoogvenster **[!UICONTROL Handeling]** vervolgkeuzelijst > Selecteren **[!UICONTROL Verwijderen]**.
+   * Selecteer de tags die u wilt verwijderen > open het vervolgkeuzemenu **[!UICONTROL Acties]** > selecteer **[!UICONTROL Verwijderen]**.
 
-1. U kunt slechts één tag tegelijk bewerken. Ga als volgt te werk om een tag te bewerken:
+1. U kunt maar één tag tegelijk bewerken. U kunt een tag als volgt bewerken:
 
    * Selecteer de tag die u wilt bewerken > open de **[!UICONTROL Handelingen]**vervolgkeuzemenu > klikken **[!UICONTROL Bewerken]**.
 
-   De **[!UICONTROL Tag bewerken]** wordt weergegeven. Voer de nieuwe tagnaam in en klik op **[!UICONTROL Opslaan]**.
+   Het dialoogvenster **[!UICONTROL Tag bewerken]** verschijnt. Voer de nieuwe tagnaam in en klik op **[!UICONTROL Opslaan]**.
 
    Als de ingevoerde tagnaam al bestaat, wordt er een waarschuwingsbericht weergegeven in de Adobe Learning Manager. Er kunnen geen twee tags met dezelfde naam bestaan.
 
@@ -44,23 +44,23 @@ U kunt de labels sorteren op gebruik of alfabetische volgorde met de opdracht **
 1. Selecteer de tags die u wilt vervangen. U kunt maximaal 50 tags tegelijk selecteren. Open de **[!UICONTROL Handelingen]** en selecteert u **[!UICONTROL Vervangen]**.
 1. De **[!UICONTROL Tags vervangen]** worden de geselecteerde tags weergegeven.
 
-1. In het dialoogvenster **[!UICONTROL Naam voor vervangen tags]** voert u de naam in van de nieuwe tag die u wilt gebruiken om de geselecteerde tags te vervangen. U kunt deze vervangen door een bestaande tag uit de vervolgkeuzelijst of u kunt een nieuwe tag toevoegen.
+1. Voer bij de optie **[!UICONTROL Naam voor vervangen tag]** de naam in voor de nieuwe tag waardoor u de geselecteerde tag wilt vervangen. U kunt de tag vervangen door een bestaande tag uit de vervolgkeuzelijst of een nieuwe tag toevoegen.
 
-   Puntkomma of komma mag geen deel uitmaken van de tagnaam.  Merk op dat tags zonder puntkomma&#39;s en weergave van foutberichten tijdens het gebruik van dergelijke tags als onderdeel van sommige LO&#39;s niet worden verwerkt voor migratiescenario&#39;s.
+   Puntkomma of komma mag geen deel uitmaken van de tagnaam.  Merk op dat tags zonder puntkomma&#39;s en weergave van foutmeldingen tijdens het gebruik van dergelijke tags als onderdeel van sommige LO-scenario&#39;s niet worden verwerkt voor migratiescenario&#39;s.
 
-1. Klikken **[!UICONTROL Vervangen]**.
+1. Klik op **[!UICONTROL Vervangen]**.
 
-## Tags toevoegen {#appendtags}
+## Tags bijvoegen {#appendtags}
 
 In het geval van de bewerking Toevoegen voor tags wordt de nieuwe/bestaande tag toegevoegd aan alle lijst met LO&#39;s en inhoudsgroepen die aan de geselecteerde tags zijn gekoppeld.
 
-1. Selecteer de tags die u wilt toevoegen. U kunt maximaal 50 tags tegelijk selecteren. Open het vervolgkeuzemenu Acties en selecteer **[!UICONTROL Toevoegen]**.
+1. Selecteer de tags die u wilt bijvoegen. U kunt maximaal 50 tags tegelijk selecteren. Open het vervolgkeuzemenu Acties en selecteer **[!UICONTROL Toevoegen]**.
 1. De  **[!UICONTROL Tags toevoegen]** worden de geselecteerde tags weergegeven.
-1. U kunt een extra tag toevoegen aan alle leermaterialen met de geselecteerde tags door de naam van de **[!UICONTROL Nieuwe tag]** of uit de vervolgkeuzelijst met de bestaande tags. De nieuwe tag wordt toegevoegd aan alle bijbehorende leermateriaal in Leermanager.
+1. U kunt een extra tag bij al het leermateriaal met de geselecteerde tags voegen door de naam van de **[!UICONTROL Nieuwe tag]** in te voeren of een naam uit de vervolgkeuzelijst van bestaande tags te kiezen. De nieuwe tag wordt toegevoegd bij al het gekoppelde leermateriaal in Learning Manager.
 
-   Puntkomma of komma mag geen deel uitmaken van de tagnaam. Indien gebruikt, toont Prime een foutbericht. Merk op dat tags zonder puntkomma&#39;s en weergave van foutberichten tijdens het gebruik van dergelijke tags als onderdeel van sommige LO&#39;s niet worden verwerkt voor migratiescenario&#39;s.
+   Puntkomma of komma kan geen onderdeel van de tagnaam zijn. Indien gebruikt, toont Prime een foutmelding. Merk op dat tags zonder puntkomma&#39;s en weergave van foutmeldingen tijdens het gebruik van dergelijke tags als onderdeel van sommige LO-scenario&#39;s niet worden verwerkt voor migratiescenario&#39;s.
 
-1. Klikken **[!UICONTROL Toevoegen]**.
+1. Klik op **[!UICONTROL Bijvoegen]**.
 
 ## Instellingen {#settings}
 
@@ -72,7 +72,7 @@ Als beheerder kunt u de auteur toestemming geven om tags te maken door op de opt
 
 * Wanneer een gebruiker toestemming heeft om tags te maken en bestaande tags selecteert die momenteel ongeldig zijn,
 
-  Er verschijnt een foutbericht waarin wordt gesuggereerd dat de geselecteerde tag niet meer geldig is. Er worden nieuwe tags gemaakt door niet-ondersteunde tekens te verwijderen. In dit geval moet de auteur kunnen zien dat zijn oude tags veranderen in nieuwe tags voordat hij opslaat.
+  Er verschijnt een foutbericht waarin wordt gesuggereerd dat de geselecteerde tag niet meer geldig is. Er worden nieuwe tags gemaakt als u niet-ondersteunde tekens verwijdert. In dit geval moet de auteur zien dat oude tags veranderen in nieuwe tags voordat hij/zij opslaat.
 
 * Als de gebruiker niet over de rechten beschikt om nieuwe tags te maken, wordt een foutbericht weergegeven dat de geselecteerde tag niet meer geldig is. Auteurs kunnen contact opnemen met de beheerders om ongeldige tags te wijzigen.
 

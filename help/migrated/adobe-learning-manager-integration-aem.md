@@ -1,69 +1,69 @@
 ---
 jcr-language: en_us
-title: Adobe Learning Manager-referentiesite (ALM-verwijzingssite) voor AEM Sites
-description: Adobe Learning Manager (ALM) integreert met Adobe Experience Manager-sites (AEM). Zo kunt u uw eigen website en responsieve mobiele interfaces voor Adobe Learning Manager maken met minimale coderingsinspanningen. Met deze integratie kun je aangepaste leerervaringen creëren voor je gebruikers.
+title: Pakket voor AEM-sites van Adobe Learning Manager-referentiesite (ALM-referentiesite)
+description: Adobe Learning Manager (ALM) integreert met Adobe Experience Manager (AEM)-sites. Hiermee kunt u uw eigen website en responsieve mobiele interfaces voor Adobe Learning Manager maken met minimale coderingsinspanning. Met deze integratie kunt u aangepaste leerervaringen voor uw gebruikers creëren.
 contentowner: saghosh
 source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
 workflow-type: tm+mt
 source-wordcount: '2146'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
 
-# Adobe Learning Manager-referentiesite (ALM-verwijzingssite) voor AEM Sites
+# Pakket voor AEM-sites van Adobe Learning Manager-referentiesite (ALM-referentiesite)
 
-Adobe Learning Manager (ALM) integreert met Adobe Experience Manager-sites (AEM). Zo kunt u uw eigen website en responsieve mobiele interfaces voor Adobe Learning Manager maken met minimale coderingsinspanningen. Met deze integratie kun je aangepaste leerervaringen creëren voor je gebruikers.
+Adobe Learning Manager (ALM) integreert met Adobe Experience Manager (AEM)-sites. Hiermee kunt u uw eigen website en responsieve mobiele interfaces voor Adobe Learning Manager maken met minimale coderingsinspanning. Met deze integratie kunt u aangepaste leerervaringen voor uw gebruikers creëren.
 
-Voor het bouwen van een dergelijke ervaring biedt ALM een Adobe Learning Manager-referentiesite (ALM-referentiesite) voor AEM Sites in de vorm van een ZIP-bestand dat u op uw AEM Sites-instantie kunt installeren.
+Om zo&#39;n ervaring op te bouwen, biedt ALM een Adobe Learning Manager referentiesite-pakket (ALM reference site package) voor AEM-sites in de vorm van een ZIP-bestand dat u op uw AEM-sites instance kunt installeren.
 
-Het pakket bevat sjablonen voor AEM Sites-webpagina&#39;s en websitecomponenten, samen met insluitbare widgets, zoals een Leercatalogus, insluitbare widgets, kalender enzovoort.
+Het pakket bevat AEM-sites webpaginasjablonen en websitecomponenten, samen met embeddable widgets, bijvoorbeeld leercatalogus, embeddable widgets, kalender, enzovoort.
 
-Nadat u het ALM-referentiesite hebt geïnstalleerd, kunt u beginnen met het bouwen van een website voor Adobe Learning Manager die u op uw AEM Sites-instantie kunt hosten. Uw gebruikers kunnen de componenten vervolgens naar de website slepen.
+Nadat u het ALM referentiesite-pakket geïnstalleerd hebt, kunt u beginnen met het bouwen van een website voor Adobe Learning Manager die u kunt hosten op uw AEM-sites instantie. Dan kunnen uw gebruikers componenten op de website slepen en neerzetten.
 
-ALM-referentiesite installeren
+ALM-referentie-sitepakket installeren
 
-## Voorwaarden
+## vereisten van het proces leren kennen
 
-* Licenties voor AEM Sites en Adobe Commerce.
+* Licenties voor AEM-sites en Adobe Commerce.
 * AEM on-premise 6.5 of Adobe Experience Manager - Cloud Service
 * Adobe Commerce 2.4.3
 
-Nadat u uw omgeving van AEM Sites hebt beveiligd, moet u het ALM-verwijzingspakket installeren. Dit pakket bevat AEM webpagina&#39;s en websitecomponenten die u helpen bij het samenstellen van het leerplatform.
+Nadat u uw omgeving van AEM-sites hebt beveiligd, moet u het ALM-referentiesitepakket installeren. Dit pakket bevat AEM-webpagina&#39;s en website-onderdelen waarmee het leerplatform kan worden opgebouwd.
 
 Het referentiesite wordt gehost op de [**GitHub-repository**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
 
-Zie README voor meer informatie.
+Zie de README voor meer informatie.
 
 ## Een toepassing maken in [!DNL Adobe Learning Manager]
 
-Nadat u het AEM sitepakket hebt geïnstalleerd, moet u een ALM-toepassing configureren om uw leerportal te koppelen aan de AEM site.
+Nadat u het AEM-sitepakket geïnstalleerd hebt, moet u een ALM-toepassing configureren om uw leerportaal met de AEM-site te verbinden.
 
 Dit scenario is van toepassing wanneer AEM wordt gebruikt met [!DNL Adobe Learning Manager].
 
-Volg de onderstaande stappen:
+Volg onderstaande stappen:
 
-1. Als integratiebeheerder klikt u op **[!UICONTROL Toepassingen]**.
-1. Als u een nieuwe toepassing wilt maken, klikt u rechtsboven op de pagina op **[!UICONTROL Registreren]**.
-1. Voer in het scherm Een nieuwe toepassing registreren de volgende gegevens in:
+1. Klik als integratiebeheerder op **[!UICONTROL Applicaties]**.
+1. Klik om een nieuwe applicatie te maken in de rechterbovenhoek op **[!UICONTROL Registreren]**.
+1. Voer in het venster Registreer een nieuwe applicatie de volgende gegevens in:
 
-   1. Toepassingsnaam: de naam van de toepassing die u maakt.
-   1. URL: De URL van uw organisatie.
-   1. Omleidingsdomeinen: de hostdomeinen van de AEM website. U kunt ook jokertekens opgeven.
-   1. Beschrijving: De beschrijving van de toepassing.
-   1. Bereiken: Selecteer Leestoegang studentrol en Schrijftoegang studentrol.
-   1. Alleen voor dit account?: Selecteer Ja als u de toepassing wilt gebruiken voor het bestaande ALM-account.
+   1. Applicatienaam: de naam van de applicatie die u maakt.
+   1. URL: de URL van uw organisatie.
+   1. Redirect-domeinen: de hostingdomeinen van de AEM-website. U kunt ook wildcards opgeven.
+   1. Beschrijving: de beschrijving van de applicatie.
+   1. Scopes: selecteer Student-rol leestoegang en Student-rol schrijftoegang.
+   1. Alleen voor dit account? Kies Ja als u de toepassing voor het bestaande ALM-account wilt gebruiken.
 
-1. Klik op Opslaan nadat u de wijzigingen hebt aangebracht.
+1. Klik op Opslaan nadat u wijzigingen hebt aangebracht.
 
-Noteer de aanmeldingsgegevens van de toepassing vanuit het scherm.
+Noteer de toepassingsgegevens van het scherm.
 
 ![](assets/application-credentials.png)
 *Toepassingsgegevens*
 
-Klik op **[!UICONTROL Goedkeuren]**.
+Klik op **[!UICONTROL Akkoord]** om de toepassing goed te keuren.
 
-## Tokens ophalen
+## Tokens krijgen
 
 1. Klik op het tabblad Developer Resources op **[!UICONTROL Toegangstokens voor testen en ontwikkelen]**.
 
@@ -76,16 +76,16 @@ Klik op **[!UICONTROL Goedkeuren]**.
    ![](assets/access-token-details.png)
    *Voer de tokengegevens in*
 
-   1. OAuth Code ophalen: voer de client-id in uit de vorige sectie en wijzig het bereik. Klik op Verzenden om de OA-code op te halen.
-   1. Token voor vernieuwen ophalen: voer de client-id en het geheim in uit de vorige sectie. Voer ook de OAuth-code in die u uit de vorige stap hebt gekregen. Klik op Verzenden.
-   1. Toegangstoken ophalen: voer de client-id en het geheim in van de vorige sectie. Voer ook het vernieuwingstoken in dat u hebt gekregen van de vorige stap. Klik op Verzenden.
-   1. Tokengegevens voor toegang ophalen: voer het toegangstoken in dat u hebt gekregen van de vorige stap. Klik op Verzenden.
+   1. Get OAuth Code: voer de client ID uit het vorige gedeelte in en verander de scope. Klik op Verzenden om de OA-code op te halen.
+   1. Get Refresh Token: voer bij Vernieuwingstoken ophalen de client-ID en het cliëntgeheim in. Voer ook de OAuth-code in die u in de vorige stap hebt verkregen. Klik op Verzenden.
+   1. Get Refresh Token: voer de client ID en het geheim in uit de vorige sectie. Voer ook de Verversingstoken in die u in de vorige stap hebt verkregen. Klik op Verzenden.
+   1. Get Access Token Details: de aanmeldingstoken in die u in de vorige stap hebt verkregen. Klik op Verzenden.
 
-1. U kunt de details van het JSON-antwoord krijgen dat volgt. De reactie bestaat uit het toegangstoken, het vernieuwingstoken, de gebruikersrol, account-id, de gebruikers-id en de tijd die moet verlopen. Let op het vernieuwingstoken, zoals u dat opnieuw gaat gebruiken.
+1. U kunt de details halen uit het JSON-antwoord dat volgt. Het antwoord bestaat uit de toegangstoken, de verversingstoken, de gebruikersrol, de rekening-id, de gebruikers-id en de tijd tot de vervaldatum. Let op het vernieuwingstoken, zoals u dat opnieuw gaat gebruiken.
 
 ## ALM-account configureren in AEM
 
-1. Start uw AEM.
+1. Lanceer uw AEM-instantie.
 1. Klik op Instellingen > Cloud Servicen.
 1. Klik op Adobe Learning Manager Configuration.
 
@@ -110,36 +110,36 @@ Klik op **[!UICONTROL Goedkeuren]**.
    1. Client-id, clientgeheim en het vernieuwingstoken van auteur: voer de referenties in die u hebt gekregen tijdens het maken van de toepassing in ALM.
    1. Aanpassing van widget: zie voor meer informatie [Integreren met AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
 
-1. Sla de configuratie op en sluit deze.
+1. Sla de configuratie op en sluit deze af.
 
-### AEM + Adobe Learning Manager (aangemelde/niet-aangemelde gebruikers)
+### AEM + Adobe Learning Manager (ingelogde/niet-ingelogde gebruikers)
 
-Met Adobe Learning Manager kunt u uw product en training nu presenteren aan uw bestaande en toekomstige klanten en partners zonder dat u een account hoeft te maken of u zich hoeft aan te melden. Met deze functionaliteit kunt u de adoptie van producten en trainingen stimuleren door studenten een snelle en eenvoudige voorvertoning van de training te geven, zodat ze productfuncties kunnen markeren en promoten. Daarom kun je je producten en aanbiedingen effectief presenteren, met name aan potentiële klanten en partners, wat leidt tot meer productbewustzijn. Het gemak van toegang en betere bereikbaarheid leiden tot een verhoogde interesse, wat helpt om trainingsinschrijvingen en leeradoptie te stimuleren.
+Met Adobe Learning Manager kunt u nu uw product en training aan uw bestaande en potentiële klanten en partners laten zien, zonder dat u een account hoeft aan te maken of in te loggen. Deze functionaliteit zal u helpen om het gebruik van producten en trainingen te bevorderen door de cursisten een snel en gemakkelijk voorproefje van de training te geven, waardoor de producteigenschappen beter uitkomen en gepromoot worden. Zo kunt u uw producten en aanbiedingen doeltreffend onder de aandacht brengen, vooral bij potentiële klanten en partners, wat leidt tot een grotere bekendheid van uw producten. De gemakkelijke toegang en de betere bereikbaarheid zorgen voor een grotere belangstelling, wat de inschrijvingen voor opleidingen en de aanvaarding van het leren stimuleert.
 
-Met deze workflow kan een student een training voorvertonen, toegang krijgen tot trainingsinformatie of naar training zoeken zonder zich aan te melden bij de Adobe Learning Manager. Deze workflow is niet van toepassing op de native Learning Manager-interface (ALLEEN van toepassing op AEM Sites en andere headless interfaces).
+Met deze workflow kan een student een voorbeeld van een training bekijken, toegang tot informatie over een training krijgen of een training zoeken zonder zich bij Adobe Learning Manager aan te melden. Deze workflow is niet van toepassing op de native Learning Manager-interface (ALLEEN van toepassing op AEM-sites en andere headless interfaces).
 
 **De connector van het leerplatform configureren en inschakelen**
 
-Deze sectie onderstreept de stappen nodig om de volgende schakelaar te vormen en toe te laten:
+In dit gedeelte worden de stappen beschreven die nodig zijn om de volgende connector te configureren en in te schakelen:
 
 **Toegang tot trainingsgegevens**
 
-Met deze connector kan uw op AEM Sites gebaseerde of een andere aangepaste headless gebruikersinterface de trainingsinformatie ophalen en naar de studenten renderen en een naadloze zoekfunctie voor trainingsinformatie uitvoeren, zowel voor als na het aanmelden van een student.
+Met deze connector kan uw AEM Sites-gebaseerde of andere op maat gemaakte headless gebruikersinterface opleidingsinformatie ophalen en weergeven aan de student en naadloos opzoeken van opleidingsinformatie realiseren, voor- of nadat een student inlogt.
 
-Deze connector is alleen vereist als u op AEM Sites gebaseerde of andere headless interfaces gebruikt.
+Deze connector is alleen nodig als u AEM Sites-based of andere headless interfaces gebruikt.
 
-De connector exporteert trainingsmetagegevens naar een oplossing voor gegevensopslag en -ophaalbewerking en naar een systeem voor zoekmogelijkheden. Daarom kunt u uw op AEM Sites gebaseerde of een andere aangepaste headless gebruikersinterface configureren om deze twee services te gebruiken om trainingsgegevens op te halen, webpagina&#39;s te renderen en de studenten geoptimaliseerde zoekfunctionaliteit voor training te bieden. Een niet-aangemelde AEM Sites-interface kan de geëxporteerde metagegevens bijvoorbeeld gebruiken om studenten te helpen bij het zoeken naar, bladeren naar en toegang krijgen tot trainingspagina&#39;s met trainingsinformatie.
+De connector exporteert metadata over de opleiding naar een oplossing voor gegevensopslag en -opzoeking, en naar een systeem voor zoekfuncties. Daarom kunt u uw AEM Sites-gebaseerde of andere op maat gemaakte headless gebruikersinterface configureren om deze twee diensten te gebruiken om trainingsgegevens op te halen, webpagina&#39;s te renderen en geoptimaliseerde trainingszoekfunctionaliteit aan de studenten te bieden. Een niet-ingelogde interface op basis van AEM Sites kan bijvoorbeeld de geëxporteerde metadata gebruiken om een student te helpen zoeken, browsen en toegang te krijgen tot opleidingspagina&#39;s met opleidingsinformatie.
 
-Schakel deze connector in om uw op AEM Sites gebaseerde webpagina&#39;s te bouwen en weer te geven en om uw studenten zowel voor als na aanmelding aangepaste ervaringen te bieden. Schakel deze connector in om uw op AEM Sites gebaseerde webpagina&#39;s te bouwen en weer te geven en om uw studenten zowel voor als na aanmelding aangepaste ervaringen te bieden.
+Schakel deze connector in om uw op AEM Sites gebaseerde webpagina&#39;s te bouwen en te renderen, en uw leerlingen aangepaste ervaringen te bezorgen, zowel voor als na het inloggen. Schakel deze connector in om uw op AEM Sites gebaseerde webpagina&#39;s te bouwen en te renderen, en uw leerlingen aangepaste ervaringen te bezorgen, zowel voor als na het inloggen.
 
 * Adobe Leermanager cdn basis-URL - Voer de basis-URL in van het CDN-servicepad voor het ophalen van gegevens op de pagina Toegang tot trainingsgegevens.
 * Beheerder vernieuwingstoken - Voer het vernieuwingstoken in dat u in de vorige sectie hebt bepaald.
 * De basis-URL van de trainingsmetagegevens - Voer de basis-URL in van het pad van de zoekfunctie en de zoekfunctie voor gegevens-ophaalservice van de pagina Toegang tot trainingsgegevens.
-* Adobe Leermanager-register-URL - Voer de zelfregistratie-URL in die door de integratiebeheerder voor het account wordt gegenereerd en die door studenten wordt gebruikt om zich in te schrijven voor training.
+* Adobe Learning Manager Register URL - Voer de zelfregistratie-URL in die door de integratiebeheerder voor het account gegenereerd is, en die door de studenten wordt gebruikt om zich in te schrijven voor de training.
 
-### AEM + Adobe Learning Manager + Adobe Commerce (aangemelde/niet-aangemelde gebruikers)
+### AEM + Adobe Learning Manager + Adobe Commerce (ingelogde/niet-ingelogde gebruikers)
 
-Adobe Learning Manager biedt nu oplossingen waarmee u het leerplatform naadloos kunt integreren met Adobe Commerce. Met deze release kunt u uw native, AEM sites gebaseerde of andere headless Learning Manager-interfaces eenvoudig verbinden met Adobe Commerce. Dankzij deze integratie kun je e-commercemogelijkheden realiseren binnen je leerplatform. U kunt nu betaalde training aanbieden aan uw klanten en zakelijke partners, en u kunt trainingsaankopen eenvoudig inschakelen op zowel de native als de niet-native Learning Manager-interfaces. Een student kan ook een voorvertoning van een training bekijken, toegang krijgen tot trainingsinformatie of naar een training zoeken zonder zich aan te melden bij de Adobe Learning Manager.
+Adobe Learning Manager biedt nu oplossingen om u te helpen het leerplatform naadloos te integreren met Adobe Commerce. Met deze release kunt u uw native, op AEM sites gebaseerde of andere headless Learning Manager-interfaces gemakkelijk verbinden met Adobe Commerce. Dankzij deze integratie kunt u e-commerce-mogelijkheden binnen uw leerplatform realiseren. U kunt nu betaalde opleidingen aanbieden aan uw klanten en zakenpartners, en aankopen van opleidingen gemakkelijk mogelijk maken op zowel native als non-native Learning Manager-interfaces. Een student kan ook een voorbeeld van een training bekijken, toegang tot informatie over een training krijgen of een training zoeken zonder zich bij Adobe Learning Manager aan te melden.
 
 In plaats van een toepassing te maken, kan een gebruiker de reeds AEM toepassing gebruiken en deze goedkeuren.
 
@@ -154,7 +154,7 @@ In plaats van een toepassing te maken, kan een gebruiker de reeds AEM toepassing
 
 Pas uw webpagina&#39;s aan met behulp van de site met AEM referenties en de beschikbare widgets.
 
-1. Start uw AEM.
+1. Lanceer uw AEM-instantie.
 1. Klik op Sites en open de configuratiepagina.
 1. Klikken **[!UICONTROL Leersite]** > **[!UICONTROL Taalmeesters]** > **[!UICONTROL Engels]**. Alle webpagina&#39;s in het project worden opgenomen in de map.
 
@@ -163,7 +163,7 @@ Pas uw webpagina&#39;s aan met behulp van de site met AEM referenties en de besc
 
 1. Selecteer een sjabloon en klik op **[!UICONTROL Bewerken]**.
 
-1. Klik op de knop Componentinstellingen op de pagina en wijzig de eigenschappen van de component.
+1. Klik op de pagina op de knop componentinstellingen en verander de eigenschappen van de component.
 
    ![](assets/settings-button.png)
    *Knop Instellingen selecteren*
@@ -172,11 +172,11 @@ Pas uw webpagina&#39;s aan met behulp van de site met AEM referenties en de besc
 
 ## Webpagina&#39;s maken
 
-Naast de sjablonen die u kunt gebruiken en die worden geleverd door het referentiesite, kunt u ook webpagina&#39;s maken op basis van de sjablonen AEM.
+Afgezien van de sjablonen die u kunt gebruiken en die geleverd worden door het referentiesite-pakket, kunt u ook webpagina&#39;s maken op basis van de sjablonen ibn AEM.
 
 1. Klik op de AEM hoofdpagina op Maken > Pagina.
 
-1. Kies de sjabloon die u wilt aanpassen. Klik op Volgende.
+1. Kies het sjabloon dat u wilt aanpassen. Klik op Volgende.
 
 1. Voer de pagina-eigenschappen in.
 
@@ -194,9 +194,9 @@ Naast de sjablonen die u kunt gebruiken en die worden geleverd door het referent
 
 1. Kies de vereiste catalogusfilters die op de pagina worden weergegeven.
 
-## Site maken van blauwdruk
+## Site maken vanuit Blueprint
 
-Het ALM-referentiesite-pakket biedt de functie ‘Learning Site Blueprint’, waarmee u een website voor uw leerplatform kunt maken. Met AEM blauwdrukken kunt u rechtstreeks vanuit AEM Sites-componenten webpagina&#39;s maken. U hoeft geen sjablonen te gebruiken.
+Het ALM-referentiesite-pakket biedt de functie ‘Learning Site Blueprint’, waarmee u een website voor uw leerplatform kunt maken. Met AEM-blueprints kunt u webpagina&#39;s bouwen direct vanuit AEM Sites-componenten. U hebt geen sjablonen nodig.
 
 1. Klik op de AEM startpagina op **[!UICONTROL Sites]**.
 
@@ -215,55 +215,55 @@ Het ALM-referentiesite-pakket biedt de functie ‘Learning Site Blueprint’, wa
    ![](assets/blueprint-properties.png)
    *Leersite verfijnen selecteren*
 
-1. Klik op de hyperlink Home om naar de startpagina van de site te gaan die u hebt gemaakt. Op deze pagina kunt u de widgets en cataloguscomponenten aanpassen.
+1. Klik op de Home-hyperlink om naar de startpagina te gaan van de site die u hebt gemaakt. Op deze pagina kunt u de widgets en cataloguscomponenten aanpassen.
 
-## Uw website coderen
+## Codeer uw website
 
-Naast het gebruik van de ingebouwde sjablonen en het maken van uw website met behulp van de WYSIWYG-componenten, kunt u ook code schrijven en de site bouwen.
+Naast het gebruik van de ingebouwde sjablonen en het maken van uw website vanaf nul met de WYSIWYG-componenten, kunt u ook code schrijven en de site bouwen.
 
-De code bevindt zich in de [Referentiesite GitHub-repository](https://github.com/adobe/adobe-learning-manager-reference-site) om aan de slag te gaan.
+De code staat in de [Referentiesite GitHub-opslag](https://github.com/adobe/adobe-learning-manager-reference-site) zodat u ermee van start kunt gaan.
 
 De belangrijkste onderdelen van de sjabloon zijn:
 
 * kern: Java-bundel die alle kernfunctionaliteit bevat, zoals OSGi-services, listeners of planners, plus aan componenten gerelateerde Java-code zoals servlets of aanvraagfilters.
 * ui.apps: bevat de onderdelen /apps (en /etc) van het project, dat wil zeggen JS&amp;CSS-clientlibs, componenten, sjablonen.
 * ui.content: bevat voorbeeldinhoud met behulp van de componenten van het ui.apps
-* ui.frontend: bevat React-componenten.
+* ui.frontend: bevat React-componenten
 
-Alle code staat in het rapport om u aan de slag te krijgen.
+Alle code staat klaar zodat u ermee aan de slag kunt.
 
-## Componenten van LMS importeren en toevoegen aan bestaande webpagina of sjabloon
+## Importeer en voeg learning manager-componenten toe aan bestaande webpagina of sjabloon
 
-Als u AEM referentiesite installeert, worden de Leerbeheercomponenten aan uw AEM Sites-instantie toegevoegd. Standaard kunt u deze componenten toevoegen aan de leersite van het webproject (website) die wij kant-en-klare oplossingen bieden. Deze componenten zijn ook beschikbaar op de website die u maakt van de Learning Site Blueprint.
+Door het AEM-referentiesitepakket te installeren voegt u de Learning Manager-componenten toe aan uw AEM Sites-instantie. Standaard kunt u deze componenten toevoegen aan het webproject (website) Learning Site die wij gebruiksklaar leveren. Deze onderdelen zijn ook beschikbaar in de website die u maakt met de Learning Site Blueprint.
 
-Als u deze nieuw toegevoegde Leerbeheercomponenten echter wilt gebruiken voor uw bestaande webproject of website, moet u deze importeren met de volgende procedure.
+Als u echter deze nieuw toegevoegde Learning Manager-componenten in uw bestaande webproject of website wilt gebruiken, moet u ze importeren met de volgende procedure.
 
 1. Installeer het ALM-referentiesite.
 
-1. Open het webproject en navigeer naar het HTML-bestand (voor de webpagina of websjabloon waaraan u de componenten van Leerbeheer wilt toevoegen).
+1. Open het webproject en navigeer naar het HTML-bestand (voor de webpagina of het websjabloon waar u de Learning Manager-componenten wilt toevoegen).
 1. Deelnemen aan een vergadering
 
-   Open het HTML-bestand en voeg de volgende codefragmenten toe aan de paginacomponent, zodat de code wordt uitgevoerd voordat de leercomponenten in de pagina worden weergegeven.
+   Open het HTML-bestand en voeg de volgende codefragmenten toe aan de paginacomponent, zodat de code wordt uitgevoerd voordat de leercomponenten die in de pagina aanwezig zijn, renderen.
 
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   De voorgaande code voegt de toegewezen configuratie in de metatag van de pagina toe, die nodig is om de leercomponenten te renderen. Zie voor meer informatie [Referentiesite van Adobe Learning Manager](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
+   De voorgaande code voegt de in kaart gebrachte configuratie toe in de meta-tag van de pagina, die nodig is om de leercomponenten te laten renderen. Zie voor meer informatie [Referentiesite van Adobe Learning Manager](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Zorg ervoor dat u de configuratie met het Webproject in kaart hebt gebracht.
 1. Open de AEM Sites-sjabloon waarin u de onderdelen van de Learning Manager wilt importeren.
-1. Navigeer in de sjabloonpagina-editor naar de container Toegestane componenten en selecteer **Beleid**.
-1. Navigeer op de beleidspagina naar Eigenschappen > Toegestane componenten en selecteer de volgende componenten &quot;Leren - Inhoud&quot;, &quot;Leren - Formulier&quot; en &quot;Leren - Structuur&quot;
+1. Navigeer in de editor van de sjabloonpagina naar de container Toegestane onderdelen en selecteer **Beleid**.
+1. Ga in de beleidspagina naar Eigenschappen > Toegestane onderdelen en selecteer de volgende onderdelen &quot;Leren - Inhoud&quot;, &quot;Leren - Vorm&quot; en &quot;Leren - Structuur&quot;.
 
-De volgende procedure stelt de sjabloon in staat om te voldoen aan de afhankelijkheden van de clientbibliotheek van de geïmporteerde leerbeheercomponenten.
+De volgende procedure maakt het mogelijk dat de template voldoet aan de cliëntbibliotheek-afhankelijkheden van de geïmporteerde Learning Manager-componenten.
 
-De webpagina&#39;s die deze componenten bevatten, moeten deze bibliotheken laden om de componenten te renderen en te gebruiken.
+De webpagina&#39;s die deze componenten bevatten moeten deze bibliotheken laden om de componenten met succes te renderen en te gebruiken.
 
-1. Klik in de sjabloonpagina-editor op Pagina-informatie en klik vervolgens op Paginabeleid.
-1. Navigeer op de pagina Beleid naar Eigenschappen > Clientbibliotheken en voeg deze toe aan uw sjabloonpagina:
+1. Klik in de editor van de sjabloonpagina op Pagina-informatie en vervolgens op Paginabeleid.
+1. Ga op de Beleidspagina naar Eigenschappen > Cliëntbibliotheken en voeg deze toe aan uw sjabloonpagina:
 
    1. learning.site
    1. learning.ui
    1. learning.commerce
 
-Nadat u deze sjabloon hebt opgeslagen, kunt u de componenten van de Learning Manager toevoegen aan alle webpagina&#39;s die van deze sjabloon zijn afgeleid.
+Nadat u dit sjabloon hebt opgeslagen, kunt u de Learning Manager-componenten toevoegen aan alle webpagina&#39;s die van dit sjabloon zijn afgeleid.

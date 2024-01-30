@@ -1,31 +1,31 @@
 ---
 jcr-language: en_us
-title: Standaardtoewijzing van docentrollen aan gebruikersgroepen in Leermanager
-description: Standaardtoewijzing van docentrollen aan gebruikersgroepen in Leermanager
+title: Standaardtoewijzing van docentrollen aan gebruikersgroepen in Learning Manager
+description: Standaardtoewijzing van docentrollen aan gebruikersgroepen in Learning Manager
 contentowner: nluke
 preview: true
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 0%
+ht-degree: 48%
 
 ---
 
 
 
-# Standaardtoewijzing van docentrollen aan gebruikersgroepen in Leermanager
+# Standaardtoewijzing van docentrollen aan gebruikersgroepen in Learning Manager
 
 ## Probleem
 
-Alle gebruikers die aan een sessie zijn toegewezen, krijgen de rol van docent toegewezen.
+Alle gebruikers die aan een sessie zijn toegewezen, krijgen de rol van docent.
 
 ## Beschrijving
 
-Er zijn scenario&#39;s waarin voor een sessie mogelijk meerdere docenten nodig zijn of waarin een beheerder/auteur een gebruikersgroep aan een sessie toewijst. Dit resulteert in alle gebruikers in de gebruikersgroep die de rol van docent wordt toegewezen.
+Er zijn scenario&#39;s waarin meerdere docenten nodig zijn voor een sessie of waarin een beheerder/auteur een gebruikersgroep aan een sessie toewijst. Hierdoor krijgen alle gebruikers in de gebruikersgroep de rol van docent.
 
 ## Oorzaak
 
-Aangezien rollen niet kunnen worden vertakt tijdens bulktoewijzing van gebruikers in een gebruikersgroep, wordt de docentenrol toegewezen aan alle gebruikers.
+Aangezien rollen niet kunnen worden vertakt tijdens bulktoewijzing van gebruikers in een gebruikersgroep, wordt de rol van docent toegewezen aan alle gebruikers.
 
 ## Oplossing
 
@@ -36,7 +36,7 @@ Maak aangepaste gebruikersgroepen om de gebruikersrollen te filteren die aan een
 
    ![](assets/instructor-disable-all.png)
 
-1. Navigeer naar **Gebruikers** > **Gebruikersgroep**. Klikken **[!UICONTROL Toevoegen]**.
+1. Navigeer naar **Gebruikers** > **Gebruikersgroep**. Klik op **[!UICONTROL Toevoegen]**.
 
    ![](assets/instructor-usergroups.png)
 

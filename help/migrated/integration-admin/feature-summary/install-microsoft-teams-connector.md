@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 ## Overzicht
 
-Microsoft® Teams® is een permanent op chat gebaseerd samenwerkingsplatform dat volledig ondersteuning biedt voor het delen van documenten, online vergaderingen en andere functies voor zakelijke communicatie.
+Microsoft® Teams® is een permanent op chat gebaseerd samenwerkingsplatform dat het delen van documenten, online vergaderingen en andere functies voor zakelijke communicatie volledig ondersteunt.
 
 Adobe Leermanager maakt gebruik van een connector voor virtuele lesruimten die kan worden gebruikt om Microsoft Teams-vergaderingen te integreren met Learning Manager.
 
-Microsoft Teams-connector verbindt Leermanager- en Microsoft Teams-systemen om automatische synchronisatie van virtuele vergaderingen mogelijk te maken. In de volgende lijst worden de verbindingsmogelijkheden van Microsoft Teams beschreven:
+De Microsoft Teams-connector verbindt Learning Manager- en Microsoft Teams-systemen om automatische synchronisatie van virtuele vergaderingen mogelijk te maken. Hier volgt een lijst met de mogelijkheden van de Microsoft Teams-connector:
 
 **Virtuele sessies instellen met Microsoft Teams**
 
-Deze connector helpt uw Adobe Learning Manager-account te integreren met uw Microsoft Teams-account. Als de connector is geïntegreerd, kan een auteur in Leermanager Microsoft Teams gebruiken als technologieserviceprovider voor de virtuele klassikale modules die zijn gemaakt in Learning Manager.
+Deze connector helpt uw Adobe Learning Manager-account te integreren met uw Microsoft Teams-account. Na de integratie kan een auteur in Learning Manager met de connector Microsoft Teams gebruiken als technologieserviceprovider voor de virtuele klassikale modules die in Learning Manager zijn gemaakt.
 
 **Laat Microsoft Teams studenten verifiëren bij het betreden van de virtuele lesruimte**
 
-Deze connector helpt de organisator van vergaderingen van Microsoft Teams vanuit Leermanager in te stellen tijdens het maken van een vergadering. De organisator van de Vergadering kan lobby beheren om toegang tot een vergadering te beperken of toe te laten evenals andere vergaderingsopties te controleren die door Microsoft Teams worden verstrekt.
+Deze connector helpt de organisator van vergaderingen van Microsoft Teams vanuit Leermanager in te stellen tijdens het maken van een vergadering. De organisator van de vergadering kan de lobby beheren om toegang tot een vergadering te beperken of toe te staan en andere vergaderopties beheren die door Microsoft Teams worden geboden.
 
 **Synchronisatie van geautomatiseerde gebruikersvoltooiing gebruiken**
 
@@ -40,9 +40,9 @@ Als u een vergadering met meerdere deelnemers organiseert, kunt u rollen aan elk
 
 U kunt uit twee rollen kiezen: **presentator** en **deelnemer**.
 
-Zie voor meer informatie  [Rollen in een teamvergadering - Microsoft](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+Zie voor meer informatie  [Rollen in een teamvergadering - Microsoft](https://support.microsoft.com/nl-nl/office/rollen-in-een-teams-vergadering-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
-## Microsoft Teams-connector instellen
+## De Microsoft Teams-connector instellen
 
 >[!NOTE]
 >
@@ -54,7 +54,7 @@ U kunt tot de schakelaar van Microsoft Teams toegang hebben als u Office 365 E3 
 
 * Bezoek de [Microsoft plans page](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE) . Op de webpagina kunt u een E3- of E5-account kopen of op Gratis uitproberen klikken.
 
-* Geef de vereiste informatie op en maak een account.
+* Vul de benodigde gegevens in en maak een account aan.
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ U kunt tot de schakelaar van Microsoft Teams toegang hebben als u Office 365 E3 
 1. Klikken **[!UICONTROL Nieuw clientgeheim]** en voeg de volgende details toe:
 
    1. **Beschrijving** - Voer een willekeurige naam in.
-   1. **Verloopt** - Stel dit in op een waarde (aanbevolen waarde is 24 maanden. Zorg ervoor dat er nieuwe clientreferenties worden gegenereerd als de vorige is verlopen).
+   1. **Verloopt** - Stel dit in op een waarde (aanbevolen waarde is 24 maanden. Zorg ervoor dat nieuwe clientreferenties worden gegenereerd zodra de vorige verlopen).
 
 Let op het clientgeheim, dat tijdens de integratie verder wordt gebruikt.
 
@@ -91,7 +91,7 @@ Let op het clientgeheim, dat tijdens de integratie verder wordt gebruikt.
 1. Meld u aan met de Microsoft E5 die u eerder hebt gemaakt.
 1. Zoeken naar **Azure Active Directory**.
 1. Klikken **[!UICONTROL Toepassingsregistraties]**.
-1. Klik op de app die u in de vorige sectie hebt gemaakt.
+1. Klik op de app die u in het vorige gedeelte hebt gemaakt.
 1. Klikken **[!UICONTROL API-machtigingen]**.
 1. Klikken **[!UICONTROL Een machtiging toevoegen]**.
 1. Selecteren **[!UICONTROL Microsoft Graph]** > **[!UICONTROL Toepassingsmachtigingen]** en voeg de volgende machtigingen toe:
@@ -123,7 +123,7 @@ Let op het clientgeheim, dat tijdens de integratie verder wordt gebruikt.
 
 Om het beleid van de toepassingstoegang voor de schakelaar van Microsoft Teams te vormen door manuscripten in werking te stellen PowerShell, volg de procedure die in dit wordt beschreven  [document](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 
-Dit laat de schakelaar toe om tot Microsoft Teams online vergaderingen toegang te hebben.
+Hiermee wordt de connector ingeschakeld voor toegang tot Microsoft Teams-onlinevergaderingen.
 
 >[!NOTE]
 >
@@ -157,27 +157,27 @@ Dit laat de schakelaar toe om tot Microsoft Teams online vergaderingen toegang t
 
 ## Een sessie opnemen
 
-De API voor het opnemen van een sessie is een beveiligde API. Als u toegang wilt tot de API, moet u toegang aanvragen bij Microsoft. Zie deze voor meer informatie  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
+De API die wordt gebruikt voor het opnemen van een sessie is een beveiligde API. U moet Microsoft om toegang vragen voor toegang tot de API. Zie deze voor meer informatie  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
-In het document:
+Uit het document:
 
-*&quot;Voer de volgende handelingen uit om toegang tot deze beveiligde API&#39;s aan te vragen  [aanvraagformulier](https://aka.ms/teamsgraph/requestaccess). We beoordelen elke woensdag toegangsverzoeken en implementeren elke vrijdag, behalve tijdens belangrijke vakantiekweken in de VS. Inzendingen tijdens die weken worden de volgende niet-vakantieweek verwerkt. Als u wilt controleren of uw verzoek is goedgekeurd, test u de toegang tot uw toepassing op de volgende toepasselijke maandag.&quot;*
+*&quot;Voer de volgende handelingen uit om toegang tot deze beveiligde API&#39;s aan te vragen  [aanvraagformulier](https://aka.ms/teamsgraph/requestaccess). We beoordelen elke woensdag toegangsaanvragen en implementeren elke vrijdag goedkeuringen, behalve tijdens belangrijke vakantieweken in de VS. Inzendingen tijdens die weken worden verwerkt in de volgende week die niet in de vakantie valt. Als u wilt controleren of uw verzoek is goedgekeurd, test u de toegang tot uw toepassing op de volgende toepasselijke maandag.&quot;*
 
 Voor studenten wordt de opname-URL weergegeven op de overzichtspagina van de VC-cursus.
 
-Na 30 minuten na het voltooien van een cursus wordt de aanwezigheid van de student gemarkeerd.
+Dertig minuten na het voltooien van een cursus wordt de aanwezigheid van de student gemarkeerd.
 
 ## Veelgestelde vragen
 
 +++Wie is een Organizer en een presentator?
 
-Zie de  [documentatie](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019) van Microsoft voor verschillende rollen en mogelijkheden die door Microsoft Teams worden ondersteund.
+Zie de  [documentatie](https://support.microsoft.com/nl-nl/office/rollen-in-een-teams-vergadering-c16fa7d0-1666-4dde-8686-0a0bfe16e019) van Microsoft voor verschillende rollen en mogelijkheden die door Microsoft Teams worden ondersteund.
 
 +++
 
 +++Moet een organisator een geregistreerde gebruiker zijn in zowel Learning Manager als Microsoft Teams?
 
-Ja, de organisator moet ook onderdeel zijn van zowel Learning Manager als Microsoft Teams. Bovendien moet de organisator deel uitmaken van dezelfde Microsoft-tenant, die is geconfigureerd in de integratiebeheerapp.
+Ja, de organisator moet ook een account hebben bij zowel Learning Manager als Microsoft Teams. Bovendien moet de organisator deel uitmaken van dezelfde Microsoft-tenant, die is geconfigureerd in de integratiebeheerapp.
 
 +++
 
@@ -187,7 +187,7 @@ Ja, de presentator moet ook deel uitmaken van zowel de Learning Manager als de M
 
 +++
 
-+++Microsoft Teams heeft vergaderingen, webinars en live-gebeurtenissen. Welke steunt de schakelaar van Teams?
++++Microsoft Teams heeft vergaderingen, webinars en live-gebeurtenissen. Wat ondersteunt de Teams-connector?
 
 Momenteel ondersteunt de connector Teams alleen vergaderingen in Microsoft Teams. Zie deze voor meer informatie  [document](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
 

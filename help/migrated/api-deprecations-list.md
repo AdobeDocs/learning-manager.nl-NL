@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
 workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -36,7 +36,7 @@ In de volgende tabel staan de maximale snelheid en uitbarstingen voor de API&#39
         <th>Aantal aanvragen-Burst</th>
     </tr>
     <tr>
-        <td>Beheerder</td>
+        <td>Beheer</td>
         <td>5</td>
         <td>5</td>
     </tr>
@@ -126,21 +126,21 @@ In de volgende release van Adobe Learning Manager zijn naam en -naam afgekeurd i
 
 ### Markering overschrijven
 
-In de november 2023-versie van Adobe Learning Manager hebben we de overschrijvingsvlag van de API&#39;s stopgezet. De overschrijvingsvlag maakt geen deel uit van de openbare API-specificatie en is bedoeld voor back-endtesten. De markering wordt nu stopgezet voor studenten-API&#39;s. De markering is echter nog steeds geldig voor Admin API&#39;s.
+In de november 2023-versie van Adobe Learning Manager hebben we de overschrijvingsvlag van de API&#39;s stopgezet. De overschrijvingsmarkering maakt geen deel uit van de openbare API-specificatie en is bedoeld voor back-endtests. De markering wordt nu stopgezet voor student-API&#39;s. De markering is echter nog steeds geldig voor beheerder-API&#39;s.
 
 De reden dat we de markering voor de API&#39;s van de student afschaffen, is omdat de overschrijvingsvlag een grote hoeveelheid gegevens ophaalt via de API&#39;s van de student.
 
-De volgende Learner-API werkt niet meer omdat deze de overschrijvingsvlag heeft.
+Voortaan zal de volgende student-API niet meer werken omdat deze de overschrijvingsmarkering heeft.
 
 <code>https://captivateprime.adobe.com/primeapi/v2/users?page[verschuiven]=0&amp;pagina[limiet]=10&amp;sort=id&amp;override=TRUE</code>
 
 ### API-wijzigingen voor op vaardigheid gebaseerde nieuwe aanbevelingen
 
-Adobe Learning Manager verbetert de aanbevelingen voor accounts die geschikt zijn voor klanten en partners. Deze verbetering in het aanbevelingsalgoritme met de wijziging in het ranking-algoritme voor cursus, leerpad en certificering biedt een betere gebruikerservaring bij het vinden van inhoud.
+Adobe Learning Manager biedt betere aanbevelingen voor accounts van klanten en partners. Dit verbeterde aanbevelingsalgoritme met een gewijzigd classificatiealgoritme voor cursussen, leerpaden en certificeringen zorgt voor een betere gebruikerservaring bij het zoeken naar inhoud.
 
-Het algoritme staat geen peer-based aanbevelingen meer toe. De wijziging is niet van invloed op de bestaande gebruikers, maar de optie Uitgelijnde sector blijft bestaan. Voor de optie Aangepast staat Adobe Learning Manager geen aangepaste peer-gebaseerde selectie meer toe.
+Het algoritme staat niet langer aanbevelingen op basis van collega&#39;s toe. De wijziging heeft geen invloed op bestaande gebruikers, maar de optie Afgestemd op de branche blijft bestaan. Voor de optie Aangepast staat Adobe Learning Manager niet langer aangepaste selectie op basis van collega&#39;s toe.
 
-De collega-groep wordt nu een account en studenten zien een tekenreeks met de trending topics in de groep. Alle aanbevelingen kunnen worden uitgelegd. Als u bijvoorbeeld iets op een onderwerp bekijkt, wordt op de kaart op de strook de reden voor de cursus weergegeven.
+De groep collega&#39;s wordt nu een account en studenten krijgen een tekenreeks te zien met de populaire onderwerpen in de groep. Voor elke aanbeveling is een uitleg beschikbaar. Als u bijvoorbeeld iets over een onderwerp bekijkt, wordt op de kaart op de band de reden van de cursus weergegeven.
 
 ### Wijzigingen in aankondigingsrapport voor meldingen
 

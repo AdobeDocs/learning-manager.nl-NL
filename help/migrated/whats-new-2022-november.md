@@ -5,7 +5,7 @@ hidefromtoc: true
 source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
 workflow-type: tm+mt
 source-wordcount: '1994'
-ht-degree: 0%
+ht-degree: 77%
 
 ---
 
@@ -17,65 +17,65 @@ IN-PROGRESS
 <https://helpx.adobe.com/learning-manager/whats-new-nov-2022.html>
 -->
 
-## Meerdere SSO-configuraties
+## Configuratie van meerdere SSO&#39;s
 
-Adobe Learning Manager ondersteunt momenteel één aanmeldingsmethode voor interne gebruikers en één aanmeldingsmethode voor externe gebruikers. Dit leidt tot beperkingen in gevallen waarin klanten hun werknemers en hun eigen klanten en kanaalpartners op de zelfde rekening hebben.
+Adobe Learning Manager ondersteunt momenteel één aanmeldingsmethode voor interne gebruikers en één aanmeldingsmethode voor externe gebruikers. Dit zorgt voor beperkingen wanneer klanten hun medewerkers en eigen klanten en kanaalpartners in hetzelfde account hebben.
 
-Met de bedoeling om meerdere typen gebruikersgroepen te ondersteunen die zich aanmelden bij het platform, ondersteunt Adobe Learning Manager nu meerdere aanmeldingsmethoden via meerdere SSO-configuraties voor zowel interne als externe gebruikers.
+Adobe Learning Manager ondersteunt nu meerdere aanmeldingsmethoden via meerdere SSO-configuraties voor zowel interne als externe gebruikers, met de bedoeling om aanmelding bij het platform door meerdere typen gebruikersgroepen te ondersteunen.
 
-Zie voor meer informatie [Meerdere SSO-aanmeldingen](/help/migrated/administrators/feature-summary/multiple-sso-logins.md).
+Zie [Meerdere SSO-aanmeldingen](/help/migrated/administrators/feature-summary/multiple-sso-logins.md) voor meer informatie.
 
-## Ondersteuning voor niet-aangemelde functies
+## Ondersteuning voor niet-aangemelde functie
 
-Het eigen portal van de Adobe Learning Manager ondersteunt nu niet-aangemelde toegang tot een trainingsportaal.
+De native Adobe Learning Manager-portal ondersteunt nu een niet-aangemelde modus voor toegang tot een trainingsportal.
 
-Studenten kunnen nu de trainingssite vinden en openen, verschillende beschikbare cursussen en inhoud uitchecken en besluiten zich aan te melden om de cursussen te volgen.
+Studenten kunnen de trainingssite nu verkennen en openen, verschillende beschikbare cursussen en content bekijken, en besluiten zich aan te melden om de cursussen te gebruiken.
 
-Met deze functie kunt u gemakkelijker een klantgericht leerportaal maken, waarin studenten door verschillende cursussen kunnen bladeren zonder zich in eerste instantie aan te melden.
+Met deze functie is het gemakkelijker om een klantgerichte leerportal te maken waar studenten naar diverse cursussen kunnen zoeken zonder zich meteen aan te melden.
 
-Zie voor meer informatie [Niet-aangemelde ervaring voor studenten](/help/migrated/administrators/feature-summary/non-logged-in-experience-learners.md).
+Zie [Niet-aangemelde ervaring voor studenten](/help/migrated/administrators/feature-summary/non-logged-in-experience-learners.md) voor meer informatie.
 
-## Paginaverbeteringen van trainingsoverzicht
+## Verbeteringen in de pagina met trainingsoverzicht
 
-Op de pagina Overzicht van training wordt nu een vernieuwde gebruikersinterface afgespeeld, zodat studenten een verbeterde ervaring hebben tijdens het volgen van een cursus.
-
-Andere verbeteringen zijn:
-
-* Bladwijzer maken van training.
-* Aanbeveling van verwante cursussen.
-* Informatie over leerpad(en) voor cursussen en leerpaden.
-* Clickable author names.
-* Broodkruimels voor eenvoudigere navigatie.
-
-## Paginaverbeteringen van trainingsoverzicht
-
-Op de pagina Overzicht van training wordt nu een vernieuwde gebruikersinterface afgespeeld, zodat studenten een verbeterde ervaring hebben tijdens het volgen van een cursus.
+De pagina met het trainingsoverzicht heeft nu een vernieuwde gebruikersinterface, zodat de studenten een betere ervaring hebben tijdens het gebruik van een cursus.
 
 Andere verbeteringen zijn:
 
-* Bladwijzer maken van training.
-* Aanbeveling van verwante cursussen.
+* U kunt nu bladwijzers voor trainingen instellen.
+* Aanbevelingen van gerelateerde cursussen.
 * Informatie over leerpad(en) voor cursussen en leerpaden.
-* Clickable author names.
-* Broodkruimels voor eenvoudigere navigatie.
+* Klikbare auteursnamen.
+* Navigatiepad voor eenvoudiger navigeren.
 
-## Profielpagina van auteur
+## Verbeteringen in de pagina met trainingsoverzicht
 
-Op de pagina met het auteurprofiel wordt alle training weergegeven die door een bepaalde auteur is gemaakt.
+De pagina met het trainingsoverzicht heeft nu een vernieuwde gebruikersinterface, zodat de studenten een betere ervaring hebben tijdens het gebruik van een cursus.
 
-Studenten kunnen gemakkelijk auteursspecifieke informatie en alle training die door de auteur zijn gemaakt vinden.
+Andere verbeteringen zijn:
 
-## Boekgemarkeerde trainingen
+* U kunt nu bladwijzers voor trainingen instellen.
+* Aanbevelingen van gerelateerde cursussen.
+* Informatie over leerpad(en) voor cursussen en leerpaden.
+* Klikbare auteursnamen.
+* Navigatiepad voor eenvoudiger navigeren.
 
-Studenten kunnen de cursus of de overzichtspagina openen en opslaan (met de knop Opslaan) of een bladwijzertraining. Alle cursussen met bladwijzer zijn beschikbaar op de startpagina van de student.
+## Pagina met auteursprofiel
 
-## Player-aanpassing
+De pagina met auteursprofiel toont alle trainingen die een bepaalde auteur heeft gemaakt.
 
-In deze release kunt u de Fluidic Player aanpassen aan de brandingvereisten van een cursus.
+Studenten kunnen gemakkelijk auteurspecifieke informatie vinden, en alle trainingen die deze auteur heeft gemaakt.
 
-U kunt verschillende spelerinstellingen en -opties tonen en verbergen op basis van de inhoudsvereisten en studenten besturen op basis van het inhoudstype. U kunt deze wijziging toepassen op zowel native als headless implementaties.
+## Trainingen die met een bladwijzer zijn gemarkeerd
 
-U kunt de volgende opties wijzigen:
+Studenten kunnen een training opslaan (met behulp van de knop Opslaan) of een bladwijzer plaatsen vanaf de cursustegel of de overzichtspagina. Alle cursussen met bladwijzer zijn beschikbaar op de startpagina van de student.
+
+## Speler aanpassen
+
+In deze versie kunt u de Fluidic Player aanpassen aan de brandingsvereisten van een cursus.
+
+U kunt verschillende instellingen en opties van de speler tonen en verbergen op basis van de contentvereisten, en controle aan studenten verlenen op basis van type content. U kunt deze wijziging toepassen voor zowel native als headless implementaties.
+
+De verschillende opties die u kunt wijzigen:
 
 * Inhoudsopgave in-/uitschakelen
 * Opmerkingen
@@ -85,156 +85,156 @@ U kunt de volgende opties wijzigen:
 * Volume
 * Besturingselementen voor afspelen
 
-## Imitatie van student en manager
+## Nabootsing van student en manager
 
-Beheerders kunnen een gepersonaliseerde sessie starten waarin ze zich kunnen aanmelden namens elke gebruiker in hun account in hun studentrol en managerrol.
+Beheerders kunnen een nabootsingssessie starten waar ze zich kunnen aanmelden namens iedere gebruiker in hun account, in de rol van student en manager.
 
-Zie voor meer informatie [Imitatie van student en manager](/help/migrated/administrators/feature-summary/impersonation-learner-manager.md).
+Zie [Nabootsing van student en manager](/help/migrated/administrators/feature-summary/impersonation-learner-manager.md) voor meer informatie.
 
-## Andere verbeteringen
+## Verdere verbeteringen
 
-### Auditlogboek van e-mails
+### Controlelogboek van e-mails
 
-Beheerders hebben nu toegang tot alle e-maillogboeken die vanuit het systeem zijn verzonden via een e-mailaudittrail-rapport.
+Beheerders hebben nu toegang tot alle logboeken met e-mails die vanaf het systeem zijn verzonden via een controlespoorrapport voor e-mail.
 
-In dit logbestand worden alle gegevens vastgelegd die betrekking hebben op e-mails die de afgelopen 30 dagen zijn verzonden en die elke dag worden vernieuwd. Bovendien bevat het rapport informatie, bijvoorbeeld de geleverde status, afzender, ontvanger, onderwerp en metagegevens over inhoud.
+Dit logboek legt alle gegevens vast in verband met e-mails die de afgelopen 30 dagen zijn verzonden, en wordt dagelijks vernieuwd. Daarnaast bevat het rapport informatie, bijvoorbeeld metadata over afleverstatus, afzender, ontvanger, onderwerp en content.
 
-Download het rapport via Rapporten > Aangepaste rapporten > Excel-rapporten > E-mailrapport. Er wordt een melding weergegeven waarmee u het rapport kunt downloaden.
+Download het rapport via Rapporten > Aangepaste rapporten > Excel-rapporten > E-mailrapport. Er verschijnt een melding waarmee u het rapport kunt downloaden.
 
-Dit rapport bestaat uit de volgende velden:
+Dit rapport bevat de volgende velden:
 
-* E-mail getriggerde tijd (UTC-tijdzone)
-* Statustijd laatste gebeurtenis (UTC-tijdzone)
+* Tijdstip waarop e-mail is geactiveerd (UTC-tijdzone)
+* Tijdstip van laatste status gebeurtenis (UTC-tijdzone)
 * Leveringsstatus
-* E-mail ontvanger
-* Gebruiker-id afzender
-* E-mailonderwerp
-* Type entiteit
-* Naam entiteit
-* Entiteit-id
+* E-mailadres ontvanger
+* Gebruikers-id verzender
+* Onderwerp van e-mail
+* Entiteitstype
+* Entiteitsnaam
+* Entiteits-id
 
-### Melding van studenten wachtlijst
+### Bericht voor studenten op de wachtlijst
 
-Wanneer een auteur een nieuwe instantie toevoegt, kan de auteur een e-mail activeren om studenten op de wachtlijst op de hoogte te stellen van andere instanties. De studenten krijgen een e-mail met de wijziging.
+Als een auteur een nieuwe instantie toevoegt, kan de auteur een e-mail activeren om studenten op de wachtlijst te berichten over andere instanties. De studenten krijgen een e-mail over de wijziging.
 
-### E-mailsjablonen op instantieniveau
+### E-mailsjablonen instantieniveau
 
 U kunt e-mails aanpassen voor elke instantie van een training.
 
-Telkens wanneer de auteur of beheerder een nieuwe instantie mag toevoegen, kan de sjabloon voor een afzonderlijke instantie worden bewerkt.
+Wanneer de auteur of beheerder een nieuwe instantie mag toevoegen, kan de sjabloon voor een individuele instantie worden bewerkt.
 
-Als een cursus bijvoorbeeld verschillende soorten doelgroepen heeft, kunt u de e-mailsjabloon dienovereenkomstig wijzigen.
+Als een cursus bijvoorbeeld verschillende doelgroeptypen heeft, kunt u de e-mailsjabloon dienovereenkomstig wijzigen.
 
 ![e-mailsjablonen](assets/email-template.png)
 
-De prioriteit van de sjabloon wordt hieronder vermeld:
+De prioriteit van de sjabloon wordt hieronder weergegeven:
 
 1. Sjabloon op instantieniveau
 2. Sjabloon op trainingsniveau
 3. Sjabloon op accountniveau
 
-### Opmerkingen van docenten tijdens het accepteren van inzendingen
+### Docent geeft commentaar bij het accepteren van ingeleverd werk
 
-Docenten kunnen nu opmerkingen toevoegen terwijl ze de inzendingen van studenten accepteren. De student ontvangt een e-mailmelding en een bericht in de app (indien ingeschakeld) nadat de inzending door de docent is goedgekeurd. De opmerkingen met betrekking tot inzendingen zijn te vinden in de Studenttranscripten voor zowel de beheerder als de student.
+Docenten kunnen nu opmerkingen toevoegen terwijl ze het ingezonden werk door studenten accepteren. De student ontvangt een e-mailbericht en een in-appmelding (indien ingeschakeld) zodra het verzoek is goedgekeurd door de docent. De opmerkingen met betrekking tot het ingezonden werk worden voor de beheerder en de student weergegeven in de studenttranscripten.
 
 ### Verbeteringen op gebied van zoekopdrachten
 
-De recente zoekgeschiedenis van een student verschijnt zodat deze alle zoekopdrachten uit het verleden kan bekijken.
+De recente zoekgeschiedenis van een student verschijnt, zodat deze alle vorige zoekacties kan bekijken.
 
-De zoekresultaten zijn nu consistent in alle formele en informele leervormen (Sociaal leren). De resultaten zijn onder andere training, sociaal leren en wedstrijden op de contentmarkt.
+De zoekresultaten zijn nu consistent tussen al het formele en informele lesmateriaal (sociaal leren). De resultaten omvatten training, sociaal leren en matches van Inhoudsmarktplaats.
 
-De zoekopdracht is gerichter en doelgerichter, zodat je de zoekresultaten op drie plaatsen kunt bekijken: formeel leren, Sociaal leren en Contentmarkt.
+Het zoeken is gerichter en doelgerichter, waarbij u de zoekresultaten op drie plaatsen kunt bekijken: formeel leren, sociaal leren en Inhoudsmarktplaats.
 
 ![zoeken](assets/search-image.png)
 
-#### Phrase-gestuurde zoekopdracht
+#### Zoeken op basis van zinnen
 
-In deze versie van Adobe Learning Manager hebben we de Typeahead-zoekopdracht vervangen door fragment-gestuurde zoekopdracht.
+In deze versie van Adobe Learning Manager hebben we Typeahead-zoeken vervangen door zoeken op basis van zinnen.
 
 #### Recente zoekopdrachten
 
 Een student kan hun recente zoekopdrachten alleen in de huidige sessie bekijken.
 
-### Catalogus gratis cursussen op Content Marketplace
+### Catalogus met gratis cursussen in de Inhoudsmarktplaats
 
-Kant-en-klare cursussen met een beheerde gratis catalogus van hoge kwaliteit van 50 gratis cursussen zijn nu beschikbaar op de contentmarkt voor studenten.
+Een kant-en-klare, uitgezochte, hoogwaardige, gratis catalogus met 50 gratis cursussen is nu verkrijgbaar op de Inhoudsmarktplaats voor studenten.
 
-### Ondersteuning voor Indonesische taal
+### Ondersteuning voor de Indonesische taal
 
-Bahasa Indonesia wordt nu toegevoegd als interfacetaal in de leer- en managerapps.
+Bahasa Indonesia is nu toegevoegd als interfacetaal in de apps voor student en manager.
 
 ### Verplicht veld Auteur
 
 Tijdens het maken van een cursus is het veld Auteur verplicht.
 
-### Wijzigingen in Content Marketplace
+### Wijzigingen in de Inhoudsmarktplaats
 
 * Nieuw gemaakte proefaccounts bevatten een nieuwe catalogus voor 50 gratis cursussen in de Content Marketplace, die beschikbaar zijn voor gebruikers.
 * Een student kan nu het aantal zoekresultaten zien en ingesloten koppelingen koppelen om over te gaan naar Content Marketplace.
 
-### Mobiele immersive changes
+### Mobile Immersive-wijzigingen
 
-In deze versie kunnen mobiele immersive webgebruikers de onderstaande taken uitvoeren:
+In deze release kunnen Mobile Immersive-webgebruikers de hieronder vermelde taken uitvoeren:
 
-* Maken - opiniepeilingberichten
+* Maken - Berichten peilen
 * Bericht bewerken - alle typen, RTE
-* E-commerceworkflow.
+* E-commerce-workflow.
 * Een voorvertoning van een module weergeven: studenten beschikken over de functie Modulevoorvertoning in Mobile Immersive. Door deze wijziging kunnen studenten een voorvertoning van de module bekijken voordat ze zich voor een cursus inschrijven.
-* Een URL kopiëren.
-* Een board verwijderen.
+* Kopieer een URL.
+* Verwijder een bord.
 
-### Wijzigingen in Zoomconnector
+### Zoomconnectorwijzigingen
 
-Het JWT-app-type wordt in juni 2023 vervangen. We raden u aan om OAuth- of OAuth-apps voor de server te maken om de functionaliteit van een JWT-app in uw account te vervangen.
+Het JWT-app-type wordt in juni 2023 vervangen. We raden u aan om Server-to-Server OAuth- of OAuth-apps te maken om de functionaliteit van een JWT-app in uw account te vervangen.
 
 ### Rapport voor gamification
 
-In deze release krijgt u toegang tot een rapport waarin verschillende cursussen worden weergegeven waarvoor gamification is ingeschakeld.
+In deze release krijgt u toegang tot een rapport dat verschillende cursussen weergeeft waarin gamification is ingeschakeld.
 
-### Taalvoorkeur importeren via CSV
+### Taalvoorkeur importeren via CSV-bestand
 
 Wanneer u een CSV importeert, bevat de CSV Interfacetaal, Inhoudstaal en Tijdzone als velden.
 
-De beheerder kan het rapport ook exporteren, dat dezelfde velden bevat als hierboven.
+De beheerder kan het rapport ook exporteren en dit bevat dan dezelfde velden als hierboven.
 
-* Interfacetaal
-* Taal van inhoud
+* Taal van interface
+* Inhoudstaal
 * Tijdzone
 
-Behalve beheerders kan een aangepaste beheerder dit rapport ook exporteren.
+Naast beheerders kunnen aangepaste beheerder dit rapport ook exporteren.
 
 ![taalrapport](assets/language-report.png)
 
-#### Gevolgen voor lokalisatie
+#### Invloed op lokalisatie
 
-* De kolomnamen kunnen niet worden gelokaliseerd en moeten hetzelfde zijn (Interfacetaal, Inhoudstaal, Tijdzone).
-* De landinstellingscodes zijn niet hoofdlettergevoelig.
-* Hoewel er geen beperkingen gelden voor het opgeven van de landcode, kunt u alleen de taalcode opgeven. Zo zijn zowel &quot;it_IT&quot; als &quot;it&quot; geldig.
-* Als het rapport een discrepantie vertoont als gevolg van een onjuiste landinstellingscode, gaat de CSV-verwerking zoals gewoonlijk verder en heeft dit geen invloed op de andere records in de CSV. De landinstellingsvoorkeur van de gebruiker met een onjuiste landinstelling wordt niet bijgewerkt. De overige gegevens worden bijgewerkt.
+* De kolomnamen kunnen niet worden gelokaliseerd en moeten blijven zoals ze zijn (Interface Language, Content Language, Timezone).
+* De landinstellingen zijn hoofdlettergevoelig.
+* Omdat er geen beperking geldt voor het invoeren van de landcode kunt u alleen de taalcode opgeven. Zo zijn zowel &quot;it_IT&quot; als &quot;it&quot; geldig.
+* Als er vanwege een onjuiste landinstelling een verschil bestaat in het rapport, dan gaat de verwerking van het CSV-bestand gewoon door en dit heeft geen invloed op de andere gegevens in het CSV-bestand. De voorkeurslandinstelling van de gebruiker met een onjuiste landinstelling wordt niet bijgewerkt. De overige gegevens worden wel bijgewerkt.
 
-## API-wijzigingen en -verbeteringen
+## API-veranderingen en verbeteringen
 
 ### VC-connectoren
 
-Als een e-mail-ID van de beheerder wordt gebruikt om de VC-connector te configureren, moet die specifieke beheerder toestemming hebben voor het volgende:
+Als een e-mail-ID van een beheerder wordt gebruikt om de VC-connector te configureren, moet deze beheerder toestemming hebben voor het volgende:
 
-* Een vergadering maken
-* Een vergadering bijwerken
+* Een bijeenkomst maken
+* Bijeenkomst updaten
 * Aanwezigheidsrapport ophalen
 
 Tijdens het maken of bijwerken van de VC-vergadering moeten docenten de vergadering beëindigen binnen 30 minuten na de geplande eindtijd van de vergadering.
 
-### Bladwijzer
+### Bladwijzers plaatsen
 
-De volgende API&#39;s worden toegevoegd om een bladwijzer te maken voor een cursus op de pagina Overzicht van training:
+De volgende API&#39;s zijn toegevoegd om een bladwijzer te plaatsen bij een cursus op de pagina met trainingsoverzicht:
 
 * Alle bladwijzers ophalen: `primeapi/v2/bookmarks`
 * Een bladwijzer maken: `primeapi/v2/learningObjects/{id}/bookmark`
 * Een bladwijzer verwijderen: `primeapi/v2/learningObjects/{id}/bookmark`
 
-### Ondersteuning voor metagegevens en inhoud van meerdere landinstellingen via migratie
+### Ondersteuning voor metadata en inhoud in meerdere locaties door migratie
 
-Voor alle typen training die worden ondersteund in het platform (cursus, leerpaden, modules, certificeringen en taakhulpen), kan nu de migratie van meerdere talen worden ondersteund via CSV-bestanden met extra kolommen voor extra talen.
+Voor alle typen training die op het platform worden ondersteund (cursus, leerpaden, modules, certificaten en taakhulpen), wordt migratie naar meerdere talen nu ondersteund via CSV-bestanden met extra kolommen voor extra talen.
 
 #### Vereisten
 
@@ -252,20 +252,20 @@ Maak het migratieproject als integratiebeheerder en deel de migrationProjectId m
 
 #### CSV-specificatie
 
-Adobe Learning Manager biedt u een reeks standaard CSV-specificaties voor migratie met meerdere landinstellingen. De beste manier is om deze CSV-specificaties door te nemen voordat u begint met het migratieproces. De integratiebeheerder van uw organisatie kan de bestaande gegevensindelingen analyseren en toewijzen, zodat deze overeenkomen met de door de Learning Manager geleverde CSV-sjabloonitems.
+Learning Manager biedt u een set standaard CSV-specificaties voor migratie in meerdere landinstellngen. Het is verstandig om deze CSV-specificaties door te nemen voordat u het migratieproces start. De integratiebeheerder van uw organisatie kan de bestaande gegevensindelingen analyseren en toewijzen in overeenstemming met de CSV-sjabloonitems van Learning Manager.
 
 #### Wijzigingen met ondersteuning voor meerdere landinstellingen
 
-* De module_version-kolom wordt niet ondersteund in module_version.csv en course_module.csv.
-* Kan module_version niet in dezelfde run bijwerken (in dezelfde run kan de module niet worden gemigreerd met twee versies met dezelfde module).
-* Update van inhoud of metagegevens wordt beschouwd als update van module_version.csv naar moduleversie.
-* Kan de update van Job_Aid_Version niet ondersteunen via job_aid_version.csv
+* De kolom module_version wordt niet ondersteund in module_version.csv en course_module.csv.
+* Kan module_version niet bijwerken in dezelfde run (in dezelfde run kan de module niet worden gemigreerd met twee versies met dezelfde module).
+* Update van inhoud of metadata wordt beschouwd als moduleversie-update van de module_version.csv.
+* Kan geen update van job_Aid_Version via job_aid_version.csv ondersteunen
 
 ### Automatische tokens en cookies intrekken
 
-Een headless LMS-toepassing krijgt toegang tot refresh_token tijdens de eerste aanmelding. Daarna, wordt refresh_token gebruikt voor het produceren van access_token voor zijn cliënttoepassingen om API vraag te maken. Op dezelfde manier gebruikt het afspelen van inhoud een leeg eindpunt om cookie te genereren voor het beheren van het afspelen. Dit betreft meerdere inhoudsbestanden en API-aanroepen die door deze bestanden met behulp van cookie worden aangeroepen. De cookie die door beide wordt gegenereerd, heeft dezelfde geldigheid als de access_token die zeven dagen duurt. Als de cookie eenmaal is gegenereerd, kunt u deze niet wissen, dit in tegenstelling tot wat gebruikelijk is bij het afmelden van webtoepassingen. De Oauth-cookie en webtoepassingscookie zijn twee verschillende cookies en zijn niet op de hoogte van elkaar.
+Een headless LMS-applicatie ontvangt een refresh_token bij de eerste aanmelding. Daarna wordt de refresh_token gebruikt voor het genereren van een access_token voor de clientapplicaties om API-oproepen te doen. Zo wordt door het afspelen van content ook een oauth-eindpunt gebruikt om een cookie te genereren voor het beheer van afspelen, waarbij meerdere contentbestanden en API-aanroepen door bestanden die de cookie gebruiken, betrokken zijn. De cookie die door oauth wordt gegenereerd, heeft dezelfde geldigheid als de access_token, namelijk zeven dagen. Zodra de cookie is gegenereerd, kan deze niet meer worden gewist, in tegenstelling tot bij gebruikelijke webapplicatieafmelding. De Oauth-cookie en de webapplicatiecookie zijn twee verschillende cookies die geen interactie met elkaar hebben.
 
-Om de cookie te wissen, hebben we een nieuw eindpunt geïntroduceerd, dat refresh_token, cookie en zowel cookie als vernieuwingstoken intrekt.
+Voor het wissen van de cookie hebben we dus een nieuw eindpunt geïntroduceerd dat de refresh_token, cookie en zowel cookie als refresh token herroept.
 
 **Details**
 
@@ -280,7 +280,7 @@ Om de cookie te wissen, hebben we een nieuw eindpunt geïntroduceerd, dat refres
 
 **Verzoek om body**
 
-Body vereist voor intrekking refresh_token of (refresh_token en cookie)
+Hoofdtekst vereist voor herroepen van refresh_token of (refresh_token en cookie)
 
 ```
 {
@@ -294,19 +294,19 @@ Body required for revoking oauth cookie only
 }
 ```
 
-### Openbare API&#39;s
+### Openbaar gemaakte API&#39;s
 
-In deze release hebben we een aantal API&#39;s openbaar gemaakt.
+In deze release hebben we een paar API&#39;s publiek gemaakt.
 
 | API | Type | Beschrijving |
 |---|---|---|
-| /social/search | GET | Zoeken in social media. |
+| /social/search | GET | Zoek in social media. |
 | /aankondigingen | GET | Krijg gedetailleerde informatie over de aankondiging op de masthead die aan de student is toegewezen. |
 | /aankondigingen/`{id}` | GET | Krijg gedetailleerde informatie over de aankondiging op de masthead die aan de student is toegewezen. |
 | /learningObjects/`{id}`/loResources/{loResourcesId} | GET | Upload url van het bestand voor loResource van resourceType &#39;Activity&#39; waarbij het bestand moet worden ingediend. |
 | /jobAid/`{jobAidId}`/jobAidDownloaded | GET | Downloadrapport voor taakhulp instellen. |
 | /bulkimport/startrun | POST | Voer bulkimport uit. |
-| /bulkimport/cansync | GET | bulkimport synchroniseren. |
+| /bulkimport/cansync | GET | Synchroniseer bulkimport. |
 | /search | GET | DELETEMEBOB |
 | /uploadInfo | GET | Verwante informatie over contentupdate ophalen. |
 | /uploadSigner | GET | Ontvang de handtekening van de te_ondertekenen inhoud. |
@@ -317,31 +317,31 @@ In deze release hebben we een aantal API&#39;s openbaar gemaakt.
 
 De **LO voor hogere volgorde negeren** moet zijn ingeschakeld in de Salesforce-app, zodat alle cursussen, leerprogramma&#39;s en certificaten tegelijkertijd kunnen worden weergegeven.
 
-### API&#39;s voor Player-aanpassing
+### API&#39;s voor aanpassing van speler
 
-In deze release hebben we API&#39;s beschikbaar gesteld om een speler aan te passen. U kunt:
+In deze release zijn API&#39;s opgenomen waarmee u een speler kunt aanpassen. U kunt:
 
-* Start of laad de speler.
-* Navigeer naar een bepaalde module.
-* Inhoudsopgave in-/uitschakelen.
-* Taal wijzigen.
-* Sluit de speler.
-* Afspelen, pauzeren, vooruit, achteruit, zoeken, volume wijzigen of snelheid wijzigen.
-* Leg gebeurtenissen van de speler vast.
+* De speler starten of laden.
+* Naar een bepaalde module navigeren.
+* De inhoudsopgave in- en uitschakelen.
+* De taal kiezen.
+* De speler sluiten.
+* Afspelen, pauzeren, vooruitspringen, achteruitspringen, zoeken, volume wijzigen of snelheid wijzigen.
+* Gebeurtenissen vastleggen die afkomstig zijn uit de speler.
 
 ### De wachtlijstpositie van een student weergeven
 
-De GET /enrollments/{id}/waitlistPosition-API onder LO API haalt de wachtlijstpositie van een gebruiker voor een opgegeven inschrijving op.
+Met de API GET /enrollments/{id}/waitlistPosition bij de LO-API wordt de wachtlijstpositie van een gebruiker opgehaald voor een opgegeven inschrijving.
 
-### Indiening van voltooiingsdatum in externe certificeringen
+### Verzending van voltooiingsdatum in externe certificeringen
 
-De /primeapi/v2/learningObjects/certification:xxxxx-API heeft het kenmerk &quot;completionDateSameAsApprovalDate&quot; om aan te geven dat voor het certificaat de optie &quot;Certification Completion Date&quot; is ingeschakeld voor de student of niet, samen met de markering true/false.
+De API /primeapi/v2/learningObjects/certification:xxxxx bevat het attribuut &quot;completionDateSameAsApprovalDate&quot; waarmee wordt aangegeven of voor de certificering &quot;Voltooiingsdatum van certificering&quot; is ingeschakeld voor de student, samen met de vlag waar/niet waar.
 
-### LO-voorvertoningsgegevens ophalen
+### LO-voorbeeldgegevens ophalen
 
 De GET /preview/learningObjects/{id} API wordt toegevoegd om voorvertoningsinformatie over een leerobject op te halen.
 
-### Externe gebruikers binnen profielen verplaatsen
+### Externe gebruikers verplaatsen binnen profielen
 
 De `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` call helpt een gebruiker naar een ander extern profiel verplaatsen door een nieuwe externalProfile ID te specificeren.
 
@@ -349,14 +349,14 @@ De `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` call helpt een
 
 De `POST /externalProfiles/{id}/users` voegt externe gebruikers toe aan een extern profiel.
 
-## Opmerkingen bij de release
+## Aanvullende informatie
 
 Voor informatie over de huidige en vorige releases van de webapp en de apparaatapp van Learning Manager raadpleegt u de [Opmerkingen bij de release](/help/migrated/release-note/release-notes.md).
 
-## Opgeloste problemen
+## Foutoplossingen
 
 Als u de fouten wilt zien die in deze update zijn gecorrigeerd, raadpleegt u de [Grenzen van lijst](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Systeemvereisten
 
-[Systeemvereisten voor Learning Manager](/help/migrated/system-requirements.md)
+[Learning Manager-systeemvereisten](/help/migrated/system-requirements.md)

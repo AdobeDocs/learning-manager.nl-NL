@@ -6,7 +6,7 @@ contentowner: admin
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 +++Hoe kan een manager cursussen openen?
 
-In de aanmeldingsmodus voor managers hebt u geen toegang tot cursussen. U moet uw aanmelding overzetten naar de studentmodus om cursussen te kunnen volgen.
+In de aanmeldingsmodus voor managers hebt u geen toegang tot de cursussen. U moet zich aanmelden in de studentenmodus om een cursus te volgen.
 
 +++
 
 +++Hoe geef ik L3-feedback aan mijn studenten?
 
-Beheerders kunnen de L3-feedbackvoorziening voor de juiste cursussen in- en uitschakelen op basis van organisatorische vereisten. Als voor een cursus L3-feedback van de manager is vereist, ontvangt de manager een melding wanneer de student dat type cursus heeft voltooid.
+Beheerders kunnen de L3-feedbackvoorziening voor de juiste cursussen in- en uitschakelen op basis van voorschriften van de organisatie. Als voor een cursus L3-feedback van de manager is vereist, krijgt de manager een melding wanneer de student dat type cursus heeft voltooid.
 
 1. Klik op Meldingen in het linkerdeelvenster.
 1. Klik op het tabblad Openstaande taken.
@@ -38,22 +38,22 @@ Het meldingenpictogram wordt gemarkeerd met het aantal openstaande berichten. Wa
 
 +++Kan ik meerdere studenten aan cursussen toewijzen en studenten importeren?
 
-U kunt alleen uw teamleden voor cursussen aanwijzen. Alleen beheerders kunnen cursussen in bulk toewijzen aan studenten en een set studenten importeren.
+U kunt alleen uw teamleden aanwijzen voor cursussen. Alleen beheerders kunnen cursussen in bulk toewijzen aan studenten en een verzameling studenten importeren.
 
 Klik op Meldingen in het linkerdeelvenster van de toepassing.
 
 1. Er verschijnt een gedetailleerde lijst met meldingen.
-1. Kies op het tabblad Openstaande taken een cursus waaraan u uw teamleden wilt toewijzen en klik op Aanwijzen.\
+1. Kies in het tabblad Openstaande taken een cursus waaraan u uw teamleden wilt toewijzen en klik op Aanwijzen.\
    Het dialoogvenster Cursusaanwijzing verschijnt met het beschikbare aantal plaatsen voor de cursus.
 1. Klik op Aanwijzen in het dialoogvenster.
-1. Selecteer het selectievakje naast elk van uw teamleden voor aanwijzing en klik op Gereed.\
+1. Selecteer het selectievakje naast elk van uw teamleden en klik op Klaar.\
    Boven aan de toepassing verschijnt een pop-up als bevestiging.
 
 +++
 
 +++Kan ik meldingen voor studenten configureren? Hoe?
 
-Wanneer u cursussen toewijst aan studenten, worden ze via de toepassing Leermanager op de hoogte gesteld.
+Wanneer u een cursus toewijst aan studenten, worden ze via de Learning Manager-toepassing op de hoogte gebracht.
 
 De beheerder van uw organisatie configureert de meldingen.
 
@@ -63,7 +63,7 @@ De beheerder van uw organisatie configureert de meldingen.
 
 Ja. U kunt de status van de studenten met hun cursussen binnen een bepaalde periode bekijken door rapporten te maken op basis van de voltooiingsstatus van de cursus binnen een bepaald datumbereik.
 
-U kunt op het vervolgkeuzepictogram klikken om het datumbereik te wijzigen, de rapporten op te slaan en weer te geven.
+U kunt op het vervolgkeuzepictogram klikken om het datumbereik aan te passen, de rapporten op te slaan en te bekijken.
 
 +++
 
@@ -77,23 +77,23 @@ Raadpleeg voor meer informatie [Rapporten](feature-summary/reports.md) in de Hel
 
 +++Hoe kan ik lopende verzoeken van mijn teamleden bekijken?
 
-Wanneer uw teamlid een cursus aanvraagt, wordt het meldingenpictogram gemarkeerd met het aantal openstaande berichten.
+Wanneer uw teamlid een cursus aanvraagt, wordt het aantal openstaande berichten weergegeven op het meldingenpictogram.
 
-Klik op dit meldingspictogram om aanvragen in behandeling te bekijken.
+Klik op het meldingenpictogram om openstaande aanvragen te bekijken.
 
 +++
 
 +++Hoe kan ik rapporten toevoegen of wijzigen?
 
-U kunt nieuwe rapporten toevoegen door Rapporten te selecteren en vervolgens rechtsboven op de pagina op Toevoegen te klikken.
+U kunt nieuwe rapporten toevoegen door Rapporten te selecteren en vervolgens te klikken op Toevoegen in de rechterbovenhoek van de pagina.
 
 Rapporten wijzigen/vergroten/verkleinen
 
 Als u een rapport wilt wijzigen, klikt u op de vervolgkeuzepijl in de rechterbovenhoek van het rapport en klikt u op Bewerken. Breng de wijzigingen in het rapport aan en klik op Opslaan.
 
-Als u de wijzigingen wilt annuleren, klikt u op Herstellen.
+Klik op Herstellen om de wijzigingen te annuleren.
 
-Als u het formaat van het rapport wilt wijzigen, klikt u op Formaat wijzigen en kiest u een van de twee opties: 1×1 is klein en 1×2 is groot.
+Klik om het formaat van het rapport aan te passen, op Formaat wijzigen en kies een van de twee opties: 1×1 is klein, en 1×2 is groot.
 
 Raadpleeg voor meer informatie  [De functie Rapporten.](feature-summary/reports.md)
 
@@ -101,13 +101,13 @@ Raadpleeg voor meer informatie  [De functie Rapporten.](feature-summary/reports.
 
 +++Welk type rapporten kan ik zien?
 
-U kunt de volgende rapporttypen weergeven:
+U kunt de volgende rapporttypen bekijken:
 
 * Toegewezen en bereikte competenties
-* Ingeschreven en voltooide cursus
+* Ingeschreven en afgeronde cursussen
 * Effectiviteit voor cursussen
 * Ingeschreven en voltooide leerprogramma&#39;s
-* Leertijd per cursus
+* Bestede leertijd per cursus
 * Bestede leertijd per kwartaal
 * Certificeringsrapporten
 
@@ -117,27 +117,27 @@ U kunt al deze rapporten met een datumbereik bekijken.
 
 +++Kan ik alle beschikbare cursussen bekijken? Hoe?
 
-U kunt overschakelen op de rol van de student om alle beschikbare cursussen te bekijken. Raadpleeg  [Cursussen](../learners/feature-summary/courses.md) functie voor meer informatie
+U kunt overschakelen naar de rol van de student om alle beschikbare cursussen te bekijken. Raadpleeg  [Cursussen](../learners/feature-summary/courses.md) functie voor meer informatie
 
 +++
 
 +++Hoe krijg ik toegang tot de beheerdersrol?
 
-De beheerder van uw bedrijf wijst een managerrol aan u toe op basis van uw geschiktheid en aanwijzing in uw organisatie. Wanneer u zich aanmeldt, wordt de startpagina voor de managerrol weergegeven in Adobe Learning Manager.
+De beheerder van uw bedrijf zal u een managerrol toewijzen op basis van uw geschiktheid en benoemingsprocedure in uw organisatie. Wanneer u zich aanmeldt, ziet u de startpagina van de managerrol in Adobe Learning Manager.
 
 +++
 
 +++Hoe meld ik me voor het eerst aan bij de Leermanager?
 
-Wanneer u Leerbeheer voor het eerst gebruikt, hebt u drie opties:
+Wanneer u Learning Manager voor het eerst gebruikt, heeft u drie opties:
 
-* Meld u aan met Adobe ID en een wachtwoord. Als u geen Adobe ID hebt, kunt u er een maken door op de link Aanmelden met Adobe ID te klikken en de instructies te volgen.
-* Als u nog geen account hebt gemaakt in Adobe Learning Manager, maakt u uw account door op Account maken te klikken in het aanmeldingsscherm.
+* Aanmelden met Adobe ID en wachtwoord. Als u geen Adobe ID hebt, kunt u deze aanmaken door op de link Aanmelden met Adobe ID te klikken en de instructies te volgen.
+* Als u nog geen account hebt aangemaakt in Adobe Learning Manager, maak dan uw account aan door op het aanmeldingsscherm te klikken.
 
 +++
 
 +++Hoe wijs ik cursussen toe aan mijn teamleden?
 
-Managers kunnen alleen rechtstreeks teamleden voor een bepaalde cursus aanwijzen als een beheerder voor die cursus om de benoeming van de manager heeft verzocht.
+Managers kunnen alleen rechtstreeks teamleden voor een bepaalde cursus aanwijzen wanneer een beheerder een manager voor de betreffende cursus heeft aangewezen.
 
 +++

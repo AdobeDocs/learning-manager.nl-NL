@@ -1,12 +1,12 @@
 ---
-description: Leer hoe u badges kunt weergeven en downloaden met de Learner-app van Learning Manager.
+description: Leer hoe u badges kunt weergeven en downloaden met behulp van de Learning Manager Learner-app.
 jcr-language: en_us
 title: Badges
 contentowner: manochan
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '801'
-ht-degree: 0%
+ht-degree: 51%
 
 ---
 
@@ -14,48 +14,48 @@ ht-degree: 0%
 
 # Badges
 
-Leer hoe u badges kunt weergeven en downloaden met de Learner-app van Learning Manager.
+Leer hoe u badges kunt weergeven en downloaden met behulp van de Learning Manager Learner-app.
 
 ## Badges {#Badges-1}
 
-Badges zijn een maatstaf voor prestaties die uw werknemer kan verdienen wanneer hij een cursus voltooit. Adobe Learning Manager introduceert een van de nieuwste e-learningconcepten genaamd Badges. Professionals over de hele wereld gebruiken deze badges als een weergave van specifieke vaardigheden of een leerprestatie.
+Werknemers kunnen badges verdienen wanneer ze een cursus voltooien en deze laten zien hoe de werknemer presteert. Adobe Learning Manager introduceert een van de nieuwste e-learningconcepten genaamd Badges. Professionals wereldwijd gebruiken deze badges om te laten zien dat ze een bepaalde vaardigheid beheersen of een leerprestatie hebben behaald.
 
-Badges helpen studenten om zichzelf beter te definiëren en hun granulaire set vaardigheden te presenteren. Daarnaast bieden ze geloofwaardigheid en zichtbaarheid voor studenten.
+Badges helpen studenten om zichzelf beter te definiëren en hun granulaire set vaardigheden te presenteren. Daarnaast geven ze de studenten geloofwaardigheid en zichtbaarheid.
 
 ## Badges weergeven en downloaden {#viewinganddownloadingbadges}
 
-Als student kunt u badges van de widget Mijn prestaties bekijken op de startpagina voor studenten. Boven aan de pagina naast uw profiel verschijnt een lijst met badges. U kunt per keer slechts zeven badges op de startpagina bekijken. U kunt echter een volledige lijst met badges in het dialoogvenster weergeven wanneer u op een badge klikt.
+Als student kunt u badges van de widget Mijn prestaties bekijken op de startpagina voor studenten. Een lijst met badges verschijnt bovenaan de pagina naast uw profiel. U kunt per keer slechts zeven badges op de startpagina bekijken. U kunt echter een volledige lijst met badges in het dialoogvenster weergeven wanneer u op een badge klikt.
 
-Onlangs behaalde badges worden links in de lijst weergegeven, gevolgd door nog te behalen badges. Voor een betere identificatie merkt u 40% dekking voor nog te behalen badges in vergelijking met behaalde badges.
+Recentelijk behaalde badges worden links in de lijst weergegeven, gevolgd door nog te behalen badges. Nog te behalen badges hebben een ondoorzichtigheid van 40%, zodat u deze makkelijk kunt onderscheiden van behaalde badges.
 
-Klik op een badge voor een lijst met alle badges die u hebt behaald. U kunt ook alle beschikbare badges weergeven die zijn uitgelijnd op de respectieve cursussen. Klik in nog te behalen badges op de cursusnaam om de cursus weer te geven die op de badge is uitgelijnd. Hieronder ziet u ter referentie een voorbeeld.
+Klik op een badge voor een lijst van alle badges die u hebt behaald. U kunt ook alle beschikbare badges met de betreffende cursussen weergeven. Klik in nog te behalen badges op de cursusnaam om de cursus weer te geven die op de badge is uitgelijnd. Hieronder ziet u een voorbeeld ter referentie.
 
-Klikken **[!UICONTROL Alle badges downloaden]** koppeling om al uw verworven badges in zip-indeling te downloaden. U kunt een individuele badge ook downloaden door op het kubuspictogram naast elke badgenaam te klikken.
+Klikken **[!UICONTROL Alle badges downloaden]** koppeling om al uw verworven badges in zip-indeling te downloaden. U kunt ook een individuele badge downloaden door op het kubuspictogram naast een badgenaam te klikken.
 
-**Badge downloaden als PDF**
+**Badge als PDF downloaden**
 
-U kunt ook een set badges of een afzonderlijke badge in PDF-indeling downloaden.
+U kunt ook een set badges of een individuele badge in PDF-indeling downloaden.
 
 * Klikken **[!UICONTROL Alle badgerecords downloaden]** om de badges te downloaden die u als PDF hebt behaald.
-* Als u afzonderlijke badges wilt downloaden, selecteert u de badge en klikt u op het pdf-pictogram naast de badgenaam.
+* Selecteer de badge en klik op het PDF-pictogram naast de badgenaam om een individuele badge te downloaden.
 
 ![](assets/badges.png)
 
-**Voor certificaten met vervaldatum, d.w.z. terugkerende certificaten, vermeldt de leermanager de geldigheidsdatum voor het certificaat. De datums worden weergegeven in de gebruikersinterface en op de PDF van het certificaat.**
+**Voor certificaten met een vervaldatum, zoals terugkerende certificaten, vermeldt Learning Manager de geldigheidsdatum van het certificaat. De datums verschijnen in de gebruikersinterface en in het PDF-bestand van het certificaat.**
 
-## Badges openen {#openbadges}
+## Open badges {#openbadges}
 
-Het rugzakplatform Open Badges, dat door Learning Manager wordt ondersteund, wordt nu **gepensioneerd**. Op dit moment biedt Learning Manager geen ondersteuning voor Open Badges.
+Het rugxzakplatform Open Badges, dat Learning Manager ondersteunt, wordt **buiten gebruik gesteld**. Op dit moment biedt Learning Manager geen ondersteuning voor Open Badges.
 
-Open badges is een standaard voor het herkennen en verifiëren van leerervaring voor de studenten. U kunt deze badges gebruiken om uw prestaties online te tonen.
+Open Badges is een standaard om te erkennen en verifiëren dat studenten kennis hebben opgedaan. U kunt deze badges gebruiken om uw prestaties online te laten zien.
 
-Leermanager ondersteunt het concept van open badges voor zijn studenten. U kunt de gedownloade badges als open badges gebruiken. Elke badge die u downloadt, heeft de metagegevens die de nieuwe open badge-standaard ondersteunen.
+Learning Manager ondersteunt het open badges-concept voor studenten. U kunt de gedownloade badges als open badges gebruiken. Elke badge die u downloadt, heeft de metagegevens die de nieuwe open badge-standaard ondersteunen.
 
 ## Ondersteuning voor Badgr-badges
 
 Studenten kunnen hun leerplatformaccount integreren met hun Badgr-account. Zo kunnen studenten badges delen naar sociale websites via hun Badgr-account. Badgr biedt ook authenticeerbare badges op basis van de rugzakstandaard, wat betekent dat de badges worden geverifieerd.
 
-Open badges zijn badges waarin metagegevens zijn ingesloten in de badgeafbeelding. Deze metagegevens bevatten informatie over de uitgever, de ontvanger, de uitgevoerde taak, de geldigheid van de badge enz. Badgr-rugzak is rechtstreeks vanuit Learning Manager toegankelijk voor een centrale locatie voor het opslaan en delen van alle badges. Studenten kunnen zich aanmelden bij hun Badgr-account en de integratie tot stand brengen. Vanaf dat moment worden badges die in Leermanager zijn behaald, automatisch geüpload naar het Badgr-account.
+Open badges zijn badges waarin metadata in de badgeafbeelding is ingesloten. Deze metagegevens bevatten informatie over de uitgever, de ontvanger, de uitgevoerde taak, de geldigheid van de badge enz. Badgr-rugzak is rechtstreeks vanuit Learning Manager toegankelijk voor een centrale locatie voor het opslaan en delen van alle badges. Studenten kunnen zich aanmelden bij hun Badgr-account en de integratie tot stand brengen. Vanaf dat moment worden badges die in Leermanager zijn behaald, automatisch geüpload naar het Badgr-account.
 
 Als de beheerder de optie eenmaal heeft ingeschakeld **Badgr-integratie**, kan een student vervolgens integreren met Badgr en zijn/haar badge configureren. Om te integreren, moet de student zich bij het Badgr-account aanmelden via Learning Manager.
 
@@ -69,11 +69,11 @@ In de Learner-app op de pagina Badges ziet u de optie Badgr configureren. Als op
 
 ![](assets/badges.png)
 
-## Badge-update
+## Update Badge
 
-Een student kan zijn/haar badge bijwerken naar de recentste badge door de badge te selecteren en op **Bijwerken ** te klikken in de rechterbovensectie van de pagina. Er vindt een badge-update plaats voor het geval een beheerder/auteur wijzigingen aanbrengt in badge-afbeelding of Badge uit het leerobject.
+Een student kan zijn/haar badge bijwerken naar de recentste badge door de badge te selecteren en op **Bijwerken ** te klikken in de rechterbovensectie van de pagina. De update van een badge vindt plaats op het moment dat een beheerder/auteur wijzigingen aanbrengt in een badge-afbeelding of badge van het leerobject.
 
-Dit proces voor het bijwerken van de pagina wordt Handmatig opnieuw tekenen genoemd. In dit geval wordt de badge opnieuw geüpload naar de Badgr-rugzak nadat het bakken is voltooid, zelfs als deze dezelfde badge-afbeelding/naam heeft. Na het bijwerken van de badge ontvangt de student een melding dat de update is voltooid.
+Dit proces om de pagina bij te werken heet &#39;Handmatig opnieuw bakken&#39;. In dit geval wordt de badge opnieuw naar de Badgr-rugzak geladen nadat het bakken voltooid is, zelfs als dezelfde badge-afbeelding/-naam is gebruikt. Na het bijwerken van de badge ontvangt de student een melding dat de update is voltooid.
 
 ![](assets/badge-update.png)
 

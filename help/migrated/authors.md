@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Auteurs
-description: Lees verder voor meer informatie over de functies en veelgestelde vragen van de Learning Manager die aan de auteursrol zijn gekoppeld.
+description: Lees verder voor meer informatie over de kenmerken van en veelgestelde vragen voor de auteursrol in Learning Manager.
 contentowner: manochan
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/authors2.png"></td> 
-   <td><p>Lees verder voor meer informatie over de functies en veelgestelde vragen van de Learning Manager die aan de auteursrol zijn gekoppeld. </p></td> 
+   <td><p>Lees verder voor meer informatie over de kenmerken van en veelgestelde vragen voor de auteursrol in Learning Manager. </p></td> 
   </tr> 
  </tbody>
 </table>
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 [Veelgestelde vragen over de auteursrol.](authors/frequently-asked-questions-for-authors.md)
 
-## Functies {#features}
+## Kenmerken {#features}
 
 * [Aan de slag](authors/feature-summary/getting-started-author.md)
 * [Catalogi](authors/feature-summary/catalogs.md)

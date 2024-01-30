@@ -1,5 +1,5 @@
 ---
-description: Klik op de koppelingen in dit onderwerp voor meer informatie over docenten in Leermanager
+description: Klik op de links in dit onderwerp om meer te weten te komen over docenten in Learning Manager
 jcr-language: en_us
 title: Docenten
 contentowner: shhivkum
@@ -7,7 +7,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 # Docenten
 
-Klik op de koppelingen in dit onderwerp voor meer informatie over docenten in Leermanager
+Klik op de links in dit onderwerp om meer te weten te komen over docenten in Learning Manager
 
 <table> 
  <tbody>
   <tr> 
    <td><img src="assets/instructoricon.jpg"></td> 
-   <td><p>Lees verder voor meer informatie over de functies en veelgestelde vragen van een docentrol.</p></td> 
+   <td><p>Lees verder voor meer informatie over de kenmerken van en veelgestelde vragen voor de docentrol.</p></td> 
   </tr> 
  </tbody>
 </table>
@@ -30,7 +30,7 @@ Klik op de koppelingen in dit onderwerp voor meer informatie over docenten in Le
 
 [Veelgestelde vragen](instructors/frequently-asked-questions-for-instructors.md)
 
-## Functies {#features}
+## Kenmerken {#features}
 
 [Aan de slag](instructors/feature-summary/getting-started.md)
 

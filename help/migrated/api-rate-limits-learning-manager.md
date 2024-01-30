@@ -6,7 +6,7 @@ preview: true
 source-git-commit: 544c695a77c21dd9162b9b943b6119d27aa373dc
 workflow-type: tm+mt
 source-wordcount: '1757'
-ht-degree: 0%
+ht-degree: 51%
 
 ---
 
@@ -143,7 +143,7 @@ De volgende tabel bevat de limieten voor de verschillende V2-eindpunten. Op dit 
   <tr> 
    <td><p><b>Bewerking</b></p></td> 
    <td><p><b>Admin API</b></p></td> 
-   <td><p><b>Learner-API</b></p></td> 
+   <td><p><b>API Student</b></p></td> 
   </tr> 
   <tr> 
    <td><p>DELETE</p></td> 
