@@ -2,7 +2,7 @@
 description: Leer hoe u inhoud maakt en deze afstemt op cursussen als inhoud op eigen tempo.
 jcr-language: en_us
 title: Inhoudsbibliotheek
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
 workflow-type: tm+mt
 source-wordcount: '3113'
 ht-degree: 65%
@@ -147,7 +147,7 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 1. Voer in het veld Beschrijving de beschrijving van de inhoud in. Voer een zinvolle beschrijving in. De tekenlimiet is 245 tekens.
 1. Klik op Inhoudsbestand toevoegen en upload uw bronbestand om de inhoud toe te voegen. Wanneer u inhoud voor meerdere talen toevoegt, kunt u statische en interactieve inhoud niet in één groep combineren. Uw inhoud moet voor alle locaties ofwel statisch, ofwel interactief zijn.
 
-* [Ondersteunde bestandstypen](content-library.md#supported)*
+* [Ondersteunde bestandstypen](content-library.md#supported)
 
   De interactieve inhoud kan een project zijn dat met SCORM, AICC of Captivate is gepubliceerd. Het bestand moet een ZIP-bestand zijn.
 
