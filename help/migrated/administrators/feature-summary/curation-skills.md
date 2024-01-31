@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Vaardigheid toewijzen aan vaardigheidsdomeinen
 description: Voor automatisch beheer van een bericht geplaatst door een gebruiker door de AI-Curation Engine met betrekking tot een bepaald vaardigheidsdomein, moet de onderneming van de gebruiker de aangepaste vaardigheden hebben toegewezen aan de ondersteunende vaardigheidsdomeinen die aanwezig zijn in de Learning Manager LMS.
 contentowner: kuppan
-source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
+source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 95%
