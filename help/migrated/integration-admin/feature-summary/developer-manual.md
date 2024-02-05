@@ -728,7 +728,7 @@ op\
 name\
 pointsEarned\
 profile\
-ROLE\
+rollen\
 status\
 timeZoneCode\
 uiLocale
@@ -783,7 +783,7 @@ modelIds\
 modelNames\
 modelTypes\
 lezen\
-ROLE
+rol
 
 +++
 
