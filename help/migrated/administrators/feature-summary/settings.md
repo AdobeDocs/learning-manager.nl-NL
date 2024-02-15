@@ -3,10 +3,10 @@ description: Lees meer over de instellingen van het Learning Manager-account die
 jcr-language: en_us
 title: Instellingen
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
 workflow-type: tm+mt
-source-wordcount: '3791'
-ht-degree: 70%
+source-wordcount: '3815'
+ht-degree: 69%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 70%
 Lees meer over de instellingen van het Learning Manager-account die u kunt configureren als beheerder.
 
 U kunt uw profielinstellingen voor beheerder wijzigen en uw accountinstellingen bijwerken. Uw profielgegevens bekijken, profielfoto toevoegen/wijzigen en wijzigen **[!UICONTROL Over mij]** inhoud. Update uw bedrijfsinformatie, stel aanmeldingsmethoden voor gebruikers in en stel integratie via accountinstellingen in.
+
+## Uw Adobe Learning Manager configureren
+
+Deze training legt de basisbeginselen vast van instellingen op accountniveau.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 ## Accountinstellingen {#accountsettings}
 
