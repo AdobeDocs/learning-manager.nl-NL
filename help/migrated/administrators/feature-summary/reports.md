@@ -3,10 +3,10 @@ description: Lees meer over de rapporten die in de Learning Manager-toepassing a
 jcr-language: en_us
 title: Rapporten
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
 workflow-type: tm+mt
-source-wordcount: '6441'
-ht-degree: 65%
+source-wordcount: '6502'
+ht-degree: 64%
 
 ---
 
@@ -25,6 +25,14 @@ Het proces voor het genereren van rapporten is vergelijkbaar voor beheerder en m
 Rapporten worden in een dashboard verzameld. Een rapport moet in een dashboard bestaan. A **[!UICONTROL Standaarddashboard]** bestaat standaard op de pagina Rapporten. Elk rapport dat door u wordt toegevoegd, gaat naar dit standaarddashboard. Als u rapporten wilt toevoegen aan afzonderlijke dashboards, gebruikt u de vervolgkeuzepijl en kiest u **[!UICONTROL Rapport toevoegen]**. Raadpleeg de sectie Dashboards op deze pagina voor meer informatie over het maken van dashboards.
 
 ## Dashboard met overzicht van leermateriaal {#dashboards}
+
+### Dashboard-rapporten genereren
+
+In deze training leert u hoe u dashboardrapporten kunt genereren op basis van de database.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 Zie een overzichtsrapport van alle leeractiviteiten in het platform. Op deze pagina ziet u de volgende overzichtsinformatie voor het geselecteerde team van de basisgebruiker en de externe profielen. U kunt ook een tijdbereik selecteren:
 
@@ -502,6 +510,14 @@ Als er meerdere managers aan u rapporteren, kunt u de rapporten voor elke manage
 >De gebruikte managerwaarden om het rapport te bekijken, zijn tijdelijk. Deze weergave van het rapport wordt niet gedownload wanneer u de downloadoptie kiest. Deze weergave is slechts een tijdelijke weergave.
 
 ## Cursusrapporten weergeven {#viewcoursereports}
+
+### Cursusrapporten genereren
+
+In deze training leert u hoe u cursusrapporten exporteert en e-mailabonnementen instelt voor deze rapporten.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 U kunt de specifieke rapporten van elke cursus bekijken door de onderstaande stappen te volgen:
 
