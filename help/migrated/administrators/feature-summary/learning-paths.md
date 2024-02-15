@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Leerpaden
 description: Leerplannen maken voor beheerders in Learning Manager.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 43%
+source-wordcount: '1940'
+ht-degree: 42%
 
 ---
 
@@ -21,6 +21,14 @@ Vaak zijn beheerders geïnteresseerd in het ontwikkelen van een gedetailleerd st
 Hier komt het leerpad in beeld. Een leerpad is een traject dat een student in de loop der tijd moet doorlopen om een onderwerp onder de knie te krijgen. Studenten hebben hun trainingservaring in eigen hand en kunnen op een meer effectieve manier kennis opdoen en behouden in hun eigen tempo.
 
 Voor de onboarding van nieuwe werknemers geeft een organisatie bijvoorbeeld trainingen over beleid en procedures, cultuur, geschiedenis, enzovoort. In een leerpad worden de cursussen ingericht op de behoefte van de werknemers, zodat ze de cursussen kunnen volgen volgens het voor hen vastgestelde leerpad. kiest en u kunt gebruikers inschrijven voor dit pad zodat zij van cursus tot cursus kunnen doorgaan.
+
+## Leerpaden maken en configureren
+
+In deze training leert u hoe u een leerpad maakt, een cursus eraan toevoegt, een leerpad publiceert en archiveert en instanties binnen een leerpad configureert.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 ## Voordelen van een leerpad
 
