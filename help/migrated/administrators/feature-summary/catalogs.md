@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Catalogi
 description: 'Catalogi zijn een verzameling leermiddelen: cursussen, leerprogramma''s en certificeringen. Gebruik catalogi om studenten te voorzien van toegang tot een aangepaste set leermaterialen. U kunt leermateriaal aan een catalogus koppelen tijdens het maken van een nieuwe catalogus.'
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
 workflow-type: tm+mt
-source-wordcount: '2371'
-ht-degree: 77%
+source-wordcount: '2397'
+ht-degree: 76%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 77%
 Catalogi zijn een verzameling leermiddelen: cursussen, leerprogramma&#39;s en certificeringen. Gebruik catalogi om studenten te voorzien van toegang tot een aangepaste set leermaterialen. U kunt leermateriaal aan een catalogus koppelen tijdens het maken van een nieuwe catalogus.
 
 Als beheerder kunt u aangepaste catalogi maken als u bepaalde cursussen beschikbaar wilt stellen aan verschillende studenten in uw account of meerdere accounts.
+
+## Inleiding tot catalogi
+
+In deze training leert u hoe u catalogi kunt maken en beheren.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+
 
 ## Een catalogus maken {#createacatalog}
 
