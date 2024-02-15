@@ -3,10 +3,10 @@ description: De gebeurtenissen in uw trainingsactiviteit zorgen ervoor dat e-mai
 jcr-language: en_us
 title: E-mailsjablonen
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 62%
+source-wordcount: '1478'
+ht-degree: 60%
 
 ---
 
@@ -21,6 +21,16 @@ Learning Manager-toepassing verstuurt e-mailnotificaties naar meerdere gebruiker
 Als beheerder kunt u e-mailsjablonen aanpassen door inhoud toe te voegen of te wijzigen en meldingen naar gebruikers te sturen voor verschillende gebeurtenissen die door studenten, managers en auteurs worden geactiveerd.
 
 Beheerders kunnen er ook voor kiezen om voor bepaalde gebeurtenissen geen e-mailmeldingen te sturen.
+
+## Inleiding tot e-mailsjablonen
+
+In deze training leert u hoe u afzonderlijke e-mailsjablonen kunt aanpassen en instellingen op cursusniveau en accountniveau voor e-mailsjablonen kunt aanpassen.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 ## E-mailsjablonen configureren {#configureemailtemplates}
 
