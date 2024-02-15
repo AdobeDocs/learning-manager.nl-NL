@@ -3,10 +3,10 @@ description: Kleurenthema's en branding in Learning Manager.
 jcr-language: en_us
 title: Kleurenthema's
 contentowner: jayakarr
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 63%
+source-wordcount: '881'
+ht-degree: 61%
 
 ---
 
@@ -17,6 +17,14 @@ ht-degree: 63%
 Kleurenthema&#39;s en branding in Learning Manager.
 
 In Learning Manager kunt u de weergave van de toepassing aan de merkeisen van uw organisatie aanpassen.
+
+## Uw gebruikersinterface aanpassen
+
+In deze training, zult u manieren onderzoeken om de verschijning van de interface aan te passen om het met de het brandmerken vereisten van een organisatie aan te passen.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 ## Branding {#branding}
 
