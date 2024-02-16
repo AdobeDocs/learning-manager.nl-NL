@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Handleiding voor toepassingsontwikkelaars
 description: Versie 1 van de Learning Manager-API is nu verouderd. De API's van versie 1 werken niet meer vanaf 28 februari 2021. We raden u aan om V2 API's te gebruiken voor interactie met Learning Manager.
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
 workflow-type: tm+mt
-source-wordcount: '3279'
-ht-degree: 65%
+source-wordcount: '3383'
+ht-degree: 62%
 
 ---
 
@@ -14,7 +14,10 @@ ht-degree: 65%
 
 # Handleiding voor toepassingsontwikkelaars
 
-Versie 1 van de Learning Manager-API is nu verouderd. De API&#39;s van versie 1 werken niet meer vanaf 28 februari 2021. We raden u aan om V2 API&#39;s te gebruiken voor interactie met Learning Manager.
+>[!NOTE]
+>
+>Versie 1 van de Learning Manager-API is nu verouderd. We raden u aan om V2 API&#39;s te gebruiken voor interactie met Learning Manager.
+
 
 ## Overzicht {#overview}
 
@@ -29,6 +32,10 @@ Met behulp van Learning Manager-API kunnen ontwikkelaars autonome toepassingen b
 De Learning Manager-API is gebaseerd op de principes van REST en maakt belangrijke elementen van het Learning Manager-objectmodel beschikbaar voor ontwikkelaars van toepassingen via HTTP. Voordat ze volledig op de hoogte zijn van de API-eindpunten en HTTP-methoden kunnen ontwikkelaars eerst vertrouwd raken met de verschillende Learning Manager-objecten, hun attributen en onderlinge relaties. Nadat een inzicht in de modellen is verworven, is het handig om enige basiskennis van de structuur van API-verzoeken en -reacties op te doen, evenals van enkele gemeenschappelijke programmeertermen die we algemeen ondersteunen in de API.
 
 Raadpleeg voor meer informatie over de verschillende API-eindpunten en -methoden de  [API-documentatie van Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
+
+>[!IMPORTANT]
+>
+>Adobe Leermanager LeerAPI&#39;s stellen u in staat een aangepaste leerervaring voor uw gebruikers te maken. Het gebruik van deze API&#39;s vereist een geldig gebruikerstoken en moet alleen worden gebruikt voor workflows waarbij een volledig gelicentieerde/geregistreerde student aanwezig is. Ze mogen niet worden gebruikt, zoals bij het ophalen van gegevens, om niet-aangemelde gebruikers/gedeelde gebruikers of andere dergelijke gevallen te ondersteunen. Niet-aangemelde gebruiksgevallen vereisen een speciale afhandeling. Bereik uit aan het team van de Architectuur van de Oplossing, voor het geval u om het even welke vragen over het aangewezen gebruik van deze APIs hebt en ervoor zorgt dat een Architect van de Oplossing een oplossing heeft onderzocht alvorens u het opstelt.
 
 ## API-verificatie {#apiauthentication}
 
@@ -763,7 +770,7 @@ dateStart\
 ingeschreven\
 op\
 maand\
-kwart
+kwartaal
 
 **Relaties**
 containerLO (learningObject)\

@@ -1,10 +1,10 @@
 ---
 title: Niet-aangemelde ervaring voor studenten
 description: Adobe Leermanager (eigen portal) ondersteunt een niet-geregistreerde manier om toegang te krijgen tot de trainingssite. Als deze modus is ingeschakeld, kunnen studenten de trainingssite vinden en openen en verschillende beschikbare cursussen en inhoud uitchecken. Met de niet-aangemelde ervaring kunnen studenten naar cursussen bladeren zonder in een portal te zijn aangemeld.
-source-git-commit: aef2dfe9d6f49dcccaf1f71b57ffa25a3075efe8
+source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 54%
+source-wordcount: '555'
+ht-degree: 43%
 
 ---
 
@@ -23,6 +23,11 @@ De training kan vervolgens uit de connector worden geëxporteerd.
 >Zorg ervoor dat de optie Native Learning Manager is geselecteerd.
 
 De beheerder kan de startpagina aanpassen en configureren, die bedoeld is voor gebruikers die niet zijn aangemeld.
+
+>[!IMPORTANT]
+>
+>Adobe Leermanager LeerAPI&#39;s stellen u in staat een aangepaste leerervaring voor uw gebruikers te maken. Het gebruik van deze API&#39;s vereist een geldig gebruikerstoken en moet alleen worden gebruikt voor workflows waarbij een volledig gelicentieerde/geregistreerde student aanwezig is. Ze mogen niet worden gebruikt, zoals bij het ophalen van gegevens, om niet-aangemelde gebruikers/gedeelde gebruikers of andere dergelijke gevallen te ondersteunen. Niet-aangemelde gebruiksgevallen vereisen een speciale afhandeling. Bereik uit aan het team van de Architectuur van de Oplossing, voor het geval u om het even welke vragen over het aangewezen gebruik van deze APIs hebt en ervoor zorgt dat een Architect van de Oplossing een oplossing heeft onderzocht alvorens u het opstelt.
+
 
 ## Opties voor de startpagina starten
 
