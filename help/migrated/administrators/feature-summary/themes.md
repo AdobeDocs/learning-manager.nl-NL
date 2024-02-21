@@ -3,10 +3,10 @@ description: Kleurenthema's en branding in Learning Manager.
 jcr-language: en_us
 title: Kleurenthema's
 contentowner: jayakarr
-source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
+source-git-commit: bab53a170e74a9825bb8530bbf1b64b06e6a1cf7
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 61%
+source-wordcount: '887'
+ht-degree: 60%
 
 ---
 
@@ -56,6 +56,11 @@ De toepassing Learning Manager biedt gebruikers vijf opties voor kleurthema&#39;
 * Herfst
 * Winterlucht
 * Levendig
+
+>[!NOTE]
+>
+>Het levendige thema is toegankelijkheidscompatibel.
+
 
 ![](assets/prime-customize-theme.png)
 

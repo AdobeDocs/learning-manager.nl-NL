@@ -3,9 +3,9 @@ description: Leer hoe u diverse connectoren integreert in Learning Manager
 jcr-language: en_us
 title: Learning Manager-connectoren
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: 3ed216c1754d8393647e50892ab9ca4d122099f6
 workflow-type: tm+mt
-source-wordcount: '15880'
+source-wordcount: '15898'
 ht-degree: 65%
 
 ---
@@ -2112,6 +2112,11 @@ De cursus of het leerpad zal niet beschikbaar zijn voor aankoop totdat de gegeve
 ### Cursussen exporteren naar Adobe Commerce
 
 Nadat een auteur de prijzen voor verschillende cursussen, leerpaden of certificeringen heeft ingesteld, exporteert u, als de integratiebeheerder, de cursussen, leerpaden of certificeringen naar Adobe Commerce.
+
+>[!NOTE]
+>
+>In de maart 2024-versie van Adobe Learning Manager hebben we ondersteuning geïntroduceerd voor [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+
 
 1. Klikken **[!UICONTROL Metagegevens van training exporteren]** > **[!UICONTROL Op verzoek]**.
 
