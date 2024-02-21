@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Handleiding voor toepassingsontwikkelaars
 description: Versie 1 van de Learning Manager-API is nu verouderd. De API's van versie 1 werken niet meer vanaf 28 februari 2021. We raden u aan om V2 API's te gebruiken voor interactie met Learning Manager.
 contentowner: jayakarr
-source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
+source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
 workflow-type: tm+mt
-source-wordcount: '3383'
+source-wordcount: '3385'
 ht-degree: 62%
 
 ---
@@ -33,9 +33,17 @@ De Learning Manager-API is gebaseerd op de principes van REST en maakt belangrij
 
 Raadpleeg voor meer informatie over de verschillende API-eindpunten en -methoden de  [API-documentatie van Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
+## Student-API&#39;s
+
+Leermanager Adobe - Met API&#39;s voor studenten kunt u een aangepaste leerervaring voor uw gebruikers maken. Het gebruik van deze API&#39;s vereist een geldig gebruikerstoken en moet alleen worden gebruikt voor workflows waarbij een volledig gelicentieerde/geregistreerde student aanwezig is.
+
 >[!IMPORTANT]
 >
->Adobe Leermanager LeerAPI&#39;s stellen u in staat een aangepaste leerervaring voor uw gebruikers te maken. Het gebruik van deze API&#39;s vereist een geldig gebruikerstoken en moet alleen worden gebruikt voor workflows waarbij een volledig gelicentieerde/geregistreerde student aanwezig is. Ze mogen niet worden gebruikt, zoals bij het ophalen van gegevens, om niet-aangemelde gebruikers/gedeelde gebruikers of andere dergelijke gevallen te ondersteunen. Niet-aangemelde gebruiksgevallen vereisen een speciale afhandeling. Bereik uit aan het team van de Architectuur van de Oplossing, voor het geval u om het even welke vragen over het aangewezen gebruik van deze APIs hebt en ervoor zorgt dat een Architect van de Oplossing een oplossing heeft onderzocht alvorens u het opstelt.
+>Ze mogen niet worden gebruikt, zoals bij het ophalen van gegevens, om niet-aangemelde gebruikers/gedeelde gebruikers of andere dergelijke gevallen te ondersteunen.
+
+Voor de niet-aangemelde gebruiksscenario&#39;s is een speciale afhandeling vereist.
+
+**Bereik aan het team van de Architectuur van de Oplossing, voor het geval u om het even welke vragen over het aangewezen gebruik van deze APIs hebt en ervoor zorgt dat een Architect van de Oplossing een oplossing heeft onderzocht alvorens u het opstelt**.
 
 ## API-verificatie {#apiauthentication}
 
