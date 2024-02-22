@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Startpagina voor studenten aanpassen
 description: Een beheerder kan de startpagina voor studenten aanpassen, deze moderner en inhoudelijker maken en personaliseren voor een student.
 contentowner: saghosh
-source-git-commit: 2dd741a9e0e49986df34bd415ea57f9e64f3b26a
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 47%
+source-wordcount: '1158'
+ht-degree: 46%
 
 ---
 
@@ -18,9 +18,17 @@ ht-degree: 47%
 
 Een beheerder kan de startpagina voor studenten aanpassen, deze moderner en inhoudelijker maken en personaliseren voor een student.
 
-De gepersonaliseerde benadering biedt een uitgebreide manier om een startpagina voor studenten te maken, die de beheerder van de organisatie op WYSIWYG-wijze kan configureren in de beheergebruikersinterface.
+De gepersonaliseerde benadering biedt een op widgets gebaseerde manier om een startpagina voor studenten te maken, die de beheerder van de organisatie op WYSIWYG-wijze kan configureren in de beheergebruikersinterface.
 
 De ervaring wordt aangestuurd door gepersonaliseerde trainingsaanbevelingen van een AI-gedreven algoritme dat content van derden analyseert op branchevaardigheden, peer-activiteit en interessegebieden van studenten integreert met behulp van expliciete en impliciete data.
+
+### Startpagina voor studenten aanpassen
+
+In deze training gaat u manieren onderzoeken om de startpagina voor studenten aan te passen.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 ## De startpagina voor studenten configureren {#configurethelearnerhomepage}
 

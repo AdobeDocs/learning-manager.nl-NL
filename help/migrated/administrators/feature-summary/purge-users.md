@@ -3,10 +3,10 @@ description: Meer weten over het leegmaken van gebruikersgegevens in Learning Ma
 jcr-language: en_us
 title: Gebruikers leegmaken
 contentowner: dvenkate
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 75%
+source-wordcount: '887'
+ht-degree: 72%
 
 ---
 
@@ -27,6 +27,16 @@ Gebruikers leegmaken kan resulteren in het volgende:
 * Als de docenten worden leeggemaakt, worden ze uit de sessies verwijderd. De beheerder moet voor dergelijke sessies docenten vervangen/toevoegen.
 * Als u een gebruiker in Learning Manager leegmaakt, wordt de gebruiker niet uit externe toepassingen (systemen van derden of andere door u geschreven toepassingen) verwijderd. Neem contact op met de eigenaar van de externe toepassing om de gebruikers uit dergelijke toepassingen te laten verwijderen.
 * Als in de configuratie-instellingen van een connector naar een leeggemaakte gebruiker wordt verwezen, wordt de connector uitgeschakeld. De connector moet opnieuw worden geconfigureerd door de beheerder om te kunnen worden hervat.
+
+### Gebruikers beheren
+
+In deze training leert u hoe u rollen toewijst en verwijdert, een welkomstmail verzendt en gebruikers verwijdert en verwijdert.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+
+## Gebruikers leegmaken
 
 Volg deze stappen om gebruikers leeg te maken:
 

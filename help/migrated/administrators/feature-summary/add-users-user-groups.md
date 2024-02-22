@@ -3,10 +3,10 @@ description: Leer hoe u gebruikers of gebruikersgroepen in de Learning Manager-t
 jcr-language: en_us
 title: Gebruikers toevoegen en gebruikersgroepen maken
 contentowner: manochan
-source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '3982'
-ht-degree: 64%
+source-wordcount: '4000'
+ht-degree: 63%
 
 ---
 
@@ -155,13 +155,21 @@ Kies een gebruiker in de gebruikerslijst en klik erop.  Klik op de **[!UICONTRO
 ![](assets/edit-user.png)
 *Dialoogvenster Gebruiker bewerken*
 
-## Workflows voor actieve velden en actieve veldwaarden waarbij de hoofdlettergevoeligheid behouden blijft
+## Actieve velden
 
-In deze release behoudt Leermanager de hoofdlettergevoeligheid van het gebruikerskenmerk en de waarde ervan. **Bijvoorbeeld** is de hoofdlettergevoeligheid van een gebruikerskenmerk &#39;locatie&#39; en wordt de waarde ervan als &#39;PARIS&#39; op dezelfde manier behouden en weergegeven. In het geval van problemen kan de beheerder nu de kenmerknaam en -waarden bewerken om eventuele hoofdlettergevoeligheidsfouten te corrigeren.
+### Gebruikerskenmerken beheren
+
+In deze training leert u hoe u actieve velden kunt toevoegen, aanpassen en configureren.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+
+Adobe Learning Manager behoudt de hoofdlettergevoeligheid van het gebruikerskenmerk en de waarde ervan. **Bijvoorbeeld** is de hoofdlettergevoeligheid van een gebruikerskenmerk &#39;locatie&#39; en wordt de waarde ervan als &#39;PARIS&#39; op dezelfde manier behouden en weergegeven. In het geval van problemen kan de beheerder nu de kenmerknaam en -waarden bewerken om eventuele hoofdlettergevoeligheidsfouten te corrigeren.
 
 De beheerder kan dit doen door naar **[!UICONTROL Admin-app]** > **[!UICONTROL Gebruikers]** > **[!UICONTROL Gebruikersgroepen]** en op de groepsnaam te klikken.
 
-De beheerder kan toegestane attribuutwaarden voor een student toevoegen en bijwerken via de UI.
+Een beheerder kan via de gebruikersinterface toegestane kenmerkwaarden voor een student toevoegen en bijwerken.
 
 Typen actieve velden:
 

@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Gebruikers in bulk toevoegen
 description: Leer meerdere gebruikers tegelijk toevoegen.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 33%
+source-wordcount: '316'
+ht-degree: 25%
 
 ---
 
@@ -14,7 +14,15 @@ ht-degree: 33%
 
 # Gebruikers in bulk toevoegen
 
-Ja, u kunt meerdere gebruikers tegelijk toevoegen door de onderstaande stappen te volgen:
+In deze training leert u hoe u gebruikers in bulk kunt toevoegen via een CSV-bestand.
+
+[![knop](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+
+## Meerdere gebruikers toevoegen
+
+U kunt meerdere gebruikers tegelijk toevoegen door de onderstaande stappen te volgen:
 
 1. Klikken **[!UICONTROL Gebruikers]** in het linkerdeelvenster in Beheerdersaanmelding en klik vervolgens op **[!UICONTROL Toevoegen]** > **[!UICONTROL Een CSV uploaden]**. Er verschijnt een pop-upvenster.
 

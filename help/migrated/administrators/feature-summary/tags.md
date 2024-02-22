@@ -3,10 +3,10 @@ description: Leer hoe u tags beheert in Learning Manager.
 jcr-language: en_us
 title: Tags
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 67%
+source-wordcount: '762'
+ht-degree: 63%
 
 ---
 
@@ -19,6 +19,14 @@ Beheerders kunnen nu labels beheren in Learning Manager. Gebruik betere tagging 
 U kunt de lijst met leerobjecten die aan de tag zijn gekoppeld bekijken door op het aantal naast een tag te klikken. De lijst toont het aantal cursussen, leerprogramma&#39;s, certificaten, taakhulpen en inhoudsgroepen. Klik op een van deze opties om de lijst weer te geven.
 
 U kunt de tags sorteren op gebruik of op alfabetische volgorde met de optie **[!UICONTROL Sorteren op]**.
+
+## Inleiding tot tags
+
+In deze training leert u hoe u tags kunt toevoegen, bewerken, vervangen, toevoegen en verwijderen. U leert ook hoe u machtigingsinstellingen wijzigt en tagfilters gebruikt.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 ## Tags toevoegen/verwijderen/bewerken {#adddeleteedittags}
 
