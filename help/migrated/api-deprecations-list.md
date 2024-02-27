@@ -3,54 +3,55 @@ jcr-language: en_us
 title: API-implementaties in Adobe Learning Manager
 description: Naarmate de API's in Adobe Learning Manager zich ontwikkelen, worden API's periodiek gereorganiseerd of bijgewerkt. Wanneer API's evolueren, is de oude API verouderd en uiteindelijk verwijderd. Deze pagina bevat informatie die u moet weten wanneer u van verouderde API-versies naar nieuwere en stabielere API-versies migreert.
 contentowner: saghosh
-source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
+source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 19%
+source-wordcount: '845'
+ht-degree: 21%
 
 ---
 
 
-# API-implementaties in Adobe Learning Manager
+# API-veroudering en wijzigingen in Adobe Learning Manager
 
 ## API-afwijzingen in de maart 2024-versie van Adobe Learning Manager
 
-### Wijzigingen in snelheidslimieten
+<!-- ### Changes in Rate Limits
 
-Met de volgende release van Adobe Learning Manager herstructureren we API-tarieflimieten voor nieuwe accounts. Voor bestaande accounts zijn alleen de beheer-API&#39;s tariefbeperkt. Na 90 dagen (ongeveer 3 maanden) zullen we de tarieflimieten voor alle API&#39;s herstructureren, maar bestaande accounts worden op de whitelist volgens het huidige gebruik. Bestaande accounts moeten hun API-gebruik voor studenten opnieuw bekijken.
+With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
-Als ze voor nieuwe accounts de tarieflimieten willen verhogen, moeten ze contact opnemen met het Customer Success-team van ALM.
+For new accounts, if they want to increase the rate limits, they must contact the Customer Success team of ALM. 
 
-#### Welke API&#39;s zijn tariefbeperkt
+#### Which APIs will be rate limited 
 
-Voor nieuwe accounts gelden tariefbeperkingen voor alle Admin-, Student- en Search-API&#39;s en worden deze afgedwongen.
+For new accounts, all Admin, Learner, and Search APIs will have rate limits and burst enforced.  
 
-De API-burstsnelheid of burstlimiet verwijst naar het maximum aantal verzoeken dat in een korte tijd in een beperkte tijd aan een API mag worden gedaan.
+The API burst rate or burst limit refers to the maximum number of requests allowed to be made to an API in a short burst within a limited timeframe. 
 
-In de volgende tabel staan de maximale snelheid en uitbarstingen voor de API&#39;s.
+The following table lists the rate and burst limits for the APIs.
 
 <table>
     <tr>
         <th>API</th>
-        <th>Aantal verzoeken-RPM</th>
-        <th>Aantal aanvragen-Burst</th>
+        <th>Number of requests-RPM</th>
+        <th>Number of requests-Burst</th>
     </tr>
     <tr>
-        <td>Beheer</td>
+        <td>Admin</td>
         <td>5</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Student</td>
+        <td>Learner</td>
         <td>20</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Zoeken</td>
+        <td>Search</td>
         <td>50</td>
         <td>5</td>
     </tr>
 </table>
+-->
 
 ### Wijzigingen in verschuivingslimieten
 
