@@ -2,10 +2,10 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: 4e36c95d9186e36746ca2aeaf09b9ac0336881f1
+source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 92%
+source-wordcount: '584'
+ht-degree: 90%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 92%
    * [Ondersteuning voor aangepast domein](custom-domain.md)
    * [Aanbevelingen in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Overgang van Adobe FTP Manager](transition-from-ftp-manager.md)
+   * [API-veroudering en wijzigingen in Adobe Learning Manager](api-deprecations-list.md)
+   * [Whitelabeling in Adobe Learning Manager](white-label.md)
 * Aan de slag {#get-started}
    * [Aan de slag als beheerder](administrators/feature-summary/getting-started-admin.md)
    * [Aan de slag als auteur](authors/feature-summary/getting-started-author.md)
