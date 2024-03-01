@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
-title: API-verouderde functies in Adobe Learning Manager
-description: White labelen is een gewoonte waarbij u een nieuwe merknaam aan een app of service toegeeft aan uw eigen merk en deze aan te passen alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u whitelabels toepassen op de mobiele app, zodat u de app een nieuwe naam kunt wijzigen en de app onder uw eigen merk beschikbaar maken voor uw gebruikers.
+title: API-implementaties in Adobe Learning Manager
+description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
-source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
+source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
 
 
-# White labels in de Mobiele app van Adobe Learning Manager
+# Witte labels in de mobiele app van Adobe learning Manager
 
-De mobiele app van Adobe Learning Manager ondersteunt nu whitelabels. Dit betekent dat je de app nu kunt uitbrengen onder je eigen merknaam.
+De mobiele app van Adobe Learning Manager ondersteunt nu witte labels, wat betekent dat u de app nu onder uw eigen merknaam kunt uitbrengen.
 
 ## Hoe je begint met de voorbereidingen om je app met witlabel te starten
 
@@ -97,7 +97,7 @@ U kunt het volgende aanpassen:
 
   <td>
 
-  <p>De naam waarmee het besturingssysteem de app identificeert. De indeling die meestal wordt gebruikt is: com.company-name.product-name.</p></td>
+  <p>De naam waarmee het besturingssysteem de app identificeert. Meestal wordt de volgende indeling gebruikt: com.company-name.product-name.</p></td>
 
   </tr>
 
@@ -105,7 +105,7 @@ U kunt het volgende aanpassen:
 
   <td>
 
-  <p>Naam van interne app-iOS</p></td>
+  <p>Interne toepassingsnaam-iOS</p></td>
 
   <td>
 
@@ -133,7 +133,7 @@ U kunt het volgende aanpassen:
 
   <td>
 
-  <p>Geef voor het welkomstscherm van uw app een afbeelding (png) op die wordt weergegeven wanneer uw gebruikers de app starten. De indeling die u wilt noemen is account-id_splashIcon.png.</p></td>
+  <p>Geef voor het welkomstscherm van uw app een afbeelding (png) op die wordt weergegeven wanneer uw gebruikers de app starten. De naamnotatie is account-id_splashIcon.png.</p></td>
 
   </tr>
 
@@ -141,15 +141,11 @@ U kunt het volgende aanpassen:
 
   <td>
 
-  <p>Client-id en Clientgeheim</p></td>
+  <p>Client-id en clientgeheim</p></td>
 
   <td>
 
-  <p>De integratiebeheerder van uw account verstrekt de gegevens tijdens het registreren van de app. De integratiebeheerder moet het volgende gebruiken:
-
-  * learner:read,learner:write as role
-
-  * Interne app name://redirect als omleidings-URL
+  <p>De integratiebeheerder van uw account geeft de gegevens op tijdens de registratie van de app. De integratiebeheerder moet het volgende gebruiken: * student:read,student:write als rol * interne app name://redirect as redirect URL
 
   </p></td>
 
@@ -163,7 +159,7 @@ U kunt het volgende aanpassen:
 
   <td>
 
-  <p>De URL die het logo van uw organisatie host. Geef een koppeling naar cpcontents op als het accountlogo. De URL moet via webcodering worden gecodeerd.</p></td>
+  <p>De URL die het logo van uw organisatie host. Geef een link naar inhoud op als het accountlogo. De URL moet via webcodering worden gecodeerd.</p></td>
 
   </tr>
 
@@ -216,15 +212,15 @@ Raadpleeg de volgende koppelingen voor meer informatie:
 
 - [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
 
-- [Ios](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+- [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
 ## Certificaat voor pushmeldingen genereren
 
 ### Certificaat voor pushmeldingen op iOS
 
-Bij de ontwikkeling van iOS-apps is een certificaat voor pushmeldingen een door Apple verstrekte cryptografische aanmeldingsgegevens waarmee een server veilig pushmeldingen naar een iOS-apparaat kan verzenden via de Push Notification Service (API&#39;s van Apple).
+In de ontwikkeling van een iOS-app is een certificaat voor pushmeldingen een cryptografische referentie die door Apple is uitgegeven waarmee een server op een veilige manier pushmeldingen naar een iOS-apparaat kan verzenden via APN&#39;s (Apple Push Notification service).
 
-Het certificaat zorgt voor een veilige communicatie tussen uw server (of provider) en de API&#39;s van Apple wanneer u pushmeldingen verzendt naar iOS-apparaten.
+Het certificaat zorgt voor een veilige communicatie tussen uw server (of provider) en Apple APNs bij het verzenden van pushberichten naar iOS-apparaten.
 
 Zowel Android als iOS gebruiken Firebase Cloud Messaging (FCM) als service voor het verzenden van pushmeldingen naar apparaten.
 
@@ -232,7 +228,7 @@ Zowel Android als iOS gebruiken Firebase Cloud Messaging (FCM) als service voor 
 
 Volg de procedure:
 
-1. Genereer of download het **certificaat** voor pushmeldingen en de persoonlijke sleutel (.p12). Raadpleeg het [Apple-document voor ontwikkelaars](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns) voor meer informatie.
+1. Genereer of download de **Pushmeldingscertificaat** en persoonlijke sleutel (.p12). Raadpleeg het [Apple-document voor ontwikkelaars](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns) voor meer informatie.
 
 1. Installeer het p12-bestand nadat het bestand is gedownload. Gebruik het wachtwoord om uw **Keychain-toegang** te installeren.
 
@@ -298,11 +294,11 @@ Nadat u de binaire bestanden hebt gegenereerd, drukt u de binaire bestanden naar
 
 ## Hoe pas ik de wijzigingen toe
 
-De klant stuurt de vereiste assets en bestanden naar het CSM-team. Het CSM-team vult vervolgens de [formulier](https://forms.office.com/r/bJRRaRBvSh) met de vereiste wijzigingen en voegt de vereiste elementen als bijlage toe. Het team zal dan de technische teams van de veranderingen evalueren en informeren. Het technische team genereert vervolgens een build en deelt deze met het CSM-team.
+Verzendt de vereiste middelen en bestanden naar het CSM-team. Het CSM-team vult vervolgens de [formulier](https://forms.office.com/r/bJRRaRBvSh) met de vereiste wijzigingen en voegt de vereiste elementen als bijlage toe. Het team zal dan de technische teams van de veranderingen evalueren en informeren. Het technische team genereert vervolgens een build en deelt deze met het CSM-team.
 
 Het CSM-team zal de build met de klant delen.
 
 ## Wat kan niet worden aangepast
 
-- Het scherm Wachtwoord bijwerken
+- Scherm Wachtwoord bijwerken
 - Een accountscherm maken
