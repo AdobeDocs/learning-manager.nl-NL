@@ -3,9 +3,9 @@ jcr-language: en_us
 title: API-implementaties in Adobe Learning Manager
 description: Naarmate de API's in Adobe Learning Manager zich ontwikkelen, worden API's periodiek gereorganiseerd of bijgewerkt. Wanneer API's evolueren, is de oude API verouderd en uiteindelijk verwijderd. Deze pagina bevat informatie die u moet weten wanneer u van verouderde API-versies naar nieuwere en stabielere API-versies migreert.
 contentowner: saghosh
-source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
+source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '847'
 ht-degree: 21%
 
 ---
@@ -133,7 +133,7 @@ De reden dat we de markering voor de API&#39;s van de student afschaffen, is omd
 
 Voortaan zal de volgende student-API niet meer werken omdat deze de overschrijvingsmarkering heeft.
 
-<code>https://captivateprime.adobe.com/primeapi/v2/users?page[verschuiven]=0&amp;pagina[limiet]=10&amp;sort=id&amp;override=TRUE</code>
+_/primeapi/v2/users?page[verschuiven]=0&amp;pagina[limiet]=10&amp;sort=id&amp;override=TRUE_
 
 ### API-wijzigingen voor op vaardigheid gebaseerde nieuwe aanbevelingen
 
