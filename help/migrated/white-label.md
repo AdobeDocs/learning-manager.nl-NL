@@ -1,35 +1,35 @@
 ---
 jcr-language: en_us
-title: API-implementaties in Adobe Learning Manager
-description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
+title: API-verouderde functies in Adobe Learning Manager
+description: White labelen is een gewoonte waarbij u een nieuwe merknaam aan een app of service toegeeft aan uw eigen merk en deze aan te passen alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u whitelabels toepassen op de mobiele app, zodat u de app een nieuwe naam kunt wijzigen en de app onder uw eigen merk beschikbaar maken voor uw gebruikers.
 contentowner: saghosh
-source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
+source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
 
 
-# Witte labels in de mobiele app van Adobe learning Manager
+# White labels in de Mobiele app van Adobe Learning Manager
 
-De mobiele app van Adobe Learning Manager ondersteunt nu witte labels, wat betekent dat u de app nu onder uw eigen merknaam kunt uitbrengen.
+De mobiele app van Adobe Learning Manager ondersteunt nu whitelabels. Dit betekent dat je de app nu kunt uitbrengen onder je eigen merknaam.
 
-## Hoe je je voorbereidt om je wit gelabelde app te starten
+## Hoe je begint met de voorbereidingen om je app met witlabel te starten
 
-Voer de volgende stappen uit om uw eigen witte app met labels te implementeren en te beheren:
+Voer de volgende stappen uit om uw eigen whitelabel app te distribueren en te beheren:
 
-1. Bereid de elementen voor (zoals een afbeelding op het welkomstscherm) en de tekst zodat deze beide kunnen worden gebruikt in de app en de beschrijving in de app/play store.
+1. Bereid de middelen (bijvoorbeeld in het welkomstscherm) en de tekst voor, zodat beide kunnen worden gebruikt in de app en de beschrijving in de app/Play Store.
 
-1. Wijs een technische hulpbron toe die in staat is om:
+1. Wijs een technische bron toe die in staat is om:
 
-* Certificaatbestanden voor pushmeldingen genereren.
-* De app-binaire bestanden van het ALM-team ondertekenen.
-* Uploaden en het publicatieproces beheren. Het publicatieproces vereist communicatie tussen uw app-manager en app/play store-teams dat uw app voldoet aan alle publicatierichtlijnen. Vanuit ALM ontvangt u een volledig compatibele binaire app.
+* Het genereren van de certificaatbestanden voor pushmeldingen.
+* Het ondertekenen van de binaire bestanden van de app die worden geleverd door het ALM-team.
+* Het uploaden en beheren van het publicatieproces. Het publicatieproces vereist een communicatie tussen uw app-manager en de teams in de app/Play Store dat uw app voldoet aan alle publicatierichtlijnen. Van ALM ontvangt u een volledig compatibel binair bestand van een app.
 
 ## Overzicht
 
-Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
+White labelen is een gewoonte waarbij u een nieuwe merknaam aan een app of service toegeeft aan uw eigen merk en deze aan te passen alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u whitelabels toepassen op de mobiele app, zodat u de app een nieuwe naam kunt wijzigen en de app onder uw eigen merk beschikbaar maken voor uw gebruikers.
 
 ## Wat kan worden aangepast
 
@@ -97,7 +97,7 @@ U kunt het volgende aanpassen:
 
   <td>
 
-  <p>De naam waarmee het besturingssysteem de app identificeert. De gebruikelijke notatie is- com.`<company-name>"0".<product-name>`.</p></td>
+  <p>De naam waarmee het besturingssysteem de app identificeert. De indeling die meestal wordt gebruikt is: com.company-name.product-name.</p></td>
 
   </tr>
 
@@ -105,7 +105,7 @@ U kunt het volgende aanpassen:
 
   <td>
 
-  <p>Interne toepassingsnaam-iOS</p></td>
+  <p>Naam van interne app-iOS</p></td>
 
   <td>
 
@@ -121,7 +121,7 @@ U kunt het volgende aanpassen:
 
   <td>
 
-  <p>Het app-pictogram als png. Dit pictogram wordt weergegeven in uw app. De naamnotatie is '<account-id>`_appIcon.png.</p></td>
+  <p>Het app-pictogram als png. Dit pictogram wordt weergegeven in uw app. De naamnotatie is account-id_appIcon.png.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ U kunt het volgende aanpassen:
 
   <td>
 
-  <p>Geef voor het spreadscherm van uw app een afbeelding (png) op die wordt weergegeven wanneer uw gebruikers de app starten. De naamnotatie is '<account-id>`_splashIcon.png.</p></td>
+  <p>Geef voor het welkomstscherm van uw app een afbeelding (png) op die wordt weergegeven wanneer uw gebruikers de app starten. De indeling die u wilt noemen is account-id_splashIcon.png.</p></td>
 
   </tr>
 
@@ -141,11 +141,17 @@ U kunt het volgende aanpassen:
 
   <td>
 
-  <p>Client-id en clientgeheim</p></td>
+  <p>Client-id en Clientgeheim</p></td>
 
   <td>
 
-  <p>De integratiebeheerder van uw account geeft de gegevens op tijdens de registratie van de app. De integratiebeheerder moet het volgende gebruiken:<ul><li>"student:lezen,student:schrijven" als rol.</li><li>`<internal app name>`://omleiden als omleidings-URL. </li></ul> </p></td>
+  <p>De integratiebeheerder van uw account verstrekt de gegevens tijdens het registreren van de app. De integratiebeheerder moet het volgende gebruiken:
+
+  * learner:read,learner:write as role
+
+  * Interne app name://redirect als omleidings-URL
+
+  </p></td>
 
   </tr>
 
@@ -157,7 +163,7 @@ U kunt het volgende aanpassen:
 
   <td>
 
-  <p>De URL die het logo van uw organisatie host. Geef een link naar inhoud op als het accountlogo. De URL moet via webcodering worden gecodeerd.</p></td>
+  <p>De URL die het logo van uw organisatie host. Geef een koppeling naar cpcontents op als het accountlogo. De URL moet via webcodering worden gecodeerd.</p></td>
 
   </tr>
 
@@ -210,15 +216,15 @@ Raadpleeg de volgende koppelingen voor meer informatie:
 
 - [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
 
-- [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+- [Ios](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
 ## Certificaat voor pushmeldingen genereren
 
-### Certificaat voor pushberichten op iOS
+### Certificaat voor pushmeldingen op iOS
 
-In de ontwikkeling van een iOS-app is een certificaat voor pushmeldingen een cryptografische referentie die door Apple is uitgegeven waarmee een server op een veilige manier pushmeldingen naar een iOS-apparaat kan verzenden via APN&#39;s (Apple Push Notification service).
+Bij de ontwikkeling van iOS-apps is een certificaat voor pushmeldingen een door Apple verstrekte cryptografische aanmeldingsgegevens waarmee een server veilig pushmeldingen naar een iOS-apparaat kan verzenden via de Push Notification Service (API&#39;s van Apple).
 
-Het certificaat zorgt voor een veilige communicatie tussen uw server (of provider) en Apple APNs bij het verzenden van pushberichten naar iOS-apparaten.
+Het certificaat zorgt voor een veilige communicatie tussen uw server (of provider) en de API&#39;s van Apple wanneer u pushmeldingen verzendt naar iOS-apparaten.
 
 Zowel Android als iOS gebruiken Firebase Cloud Messaging (FCM) als service voor het verzenden van pushmeldingen naar apparaten.
 
@@ -226,13 +232,13 @@ Zowel Android als iOS gebruiken Firebase Cloud Messaging (FCM) als service voor 
 
 Volg de procedure:
 
-1. Genereer of download de **Pushmeldingscertificaat** en persoonlijke sleutel (.p12). Zie de klasse [Apple-document voor ontwikkelaars](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. Genereer of download het **certificaat** voor pushmeldingen en de persoonlijke sleutel (.p12). Raadpleeg het [Apple-document voor ontwikkelaars](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns) voor meer informatie.
 
-1. Installeer het p12-bestand nadat het bestand is gedownload. Gebruik het wachtwoord om in uw **Sleutelhangertoegang**.
+1. Installeer het p12-bestand nadat het bestand is gedownload. Gebruik het wachtwoord om uw **Keychain-toegang** te installeren.
 
-1. Navigeer naar **Mijn certificaten** en exporteer het certificaat. Zorg ervoor dat u het mime-type .cer selecteert.
+1. Navigeer naar **Mijn certificaten** en exporteer het certificaat. Zorg ervoor dat u het MIME-type selecteert .cer.
 
-1. Zodra u het p12-bestand en het cer-bestand beschikbaar hebt, voert u de volgende opdrachten uit:
+1. Zodra het p12-bestand en het cer-bestand beschikbaar zijn, voert u de volgende opdrachten uit:
 
 ```
 - openssl pkcs12 -in privatekey.p12 -out myapnappkey.pem -nodes –clcerts
@@ -242,13 +248,13 @@ Volg de procedure:
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
 
-Als u verbinding kunt maken met de server, is het certificaat dat u hebt gemaakt geldig. Kopieer het certificaat en de waarden voor de persoonlijke sleutel uit het bestand myapnappkey.pem.
+Als u verbinding kunt maken met de server, is het certificaat dat u hebt gemaakt geldig. Kopieer vanuit het bestand myapnappkey.pem het certificaat en de waarden van de persoonlijke sleutel.
 
-1. Neem contact op met het CSM-team en voeg de bestanden toe aan de SNS-services op AWS. Gebruikers moeten de vermelding bij de SNS-service laten registreren voor de pushmelding, waardoor ze de hierboven gegenereerde certificaten moeten delen voor validatie.
+1. Neem contact op met het CSM-team en ontvang de bestanden die zijn toegevoegd aan de SNS-services op AWS. Gebruikers moeten voor de pushmelding een vermelding ophalen die is geregistreerd in de SNS-service, waardoor ze de hierboven gegenereerde certificaten moeten delen voor validatie.
 
 >[!NOTE]
 >
->Voor Android moet de gebruiker de serversleutel opgeven uit het Firebase-project dat hij voor Android maakt om de invoer toe te voegen aan de SNS-service.
+>Voor Android moet de gebruiker de serversleutel opgeven van het Firebase-project dat ze voor Android hebben gemaakt om de vermelding in de SNS-service toe te voegen.
 
 
 ## Het project toevoegen aan Firebase
@@ -298,5 +304,5 @@ Het CSM-team zal de build met de klant delen.
 
 ## Wat kan niet worden aangepast
 
-- Scherm Wachtwoord bijwerken
+- Het scherm Wachtwoord bijwerken
 - Een accountscherm maken
