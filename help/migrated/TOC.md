@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '590'
 ht-degree: 90%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 90%
    * [Inhoudsmarktplaats](administrators/feature-summary/content-marketplace.md)
    * [Rapporten](administrators/feature-summary/reports.md)
    * [Leerpaden](administrators/feature-summary/learning-paths.md)
-   * [Leerprogramma&#39;s](administrators/feature-summary/learning-programs.md)
+   * [Leerplannen](administrators/feature-summary/learning-plans.md)
    * [Bestellingen en facturering van Learning Manager beheren](administrators/feature-summary/billing-management.md)
    * [Taakhulpen](administrators/feature-summary/job-aids.md)
    * [Certificeringen](administrators/feature-summary/certifications.md)
@@ -81,6 +81,7 @@ ht-degree: 90%
    * [Systeemeigen uitbreidbaarheid](administrators/feature-summary/native-extensibility.md)
    * [Meerdere inschrijvingen](administrators/feature-summary/multiple-enrollment.md)
    * [Niet-aangemelde ervaring voor studenten](administrators/feature-summary/non-logged-in-experience-learners.md)
+   * [Leerprogramma&#39;s](administrators/feature-summary/learning-programs.md)
 * Integratiebeheerder {#integration}
    * [Migratiehandleiding](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager-connectoren](integration-admin/feature-summary/connectors.md)
