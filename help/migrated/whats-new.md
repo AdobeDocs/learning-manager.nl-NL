@@ -1,327 +1,462 @@
 ---
-title: Nieuw in deze release
-description: Meer informatie over de nieuwe functies en verbeteringen in Adobe Learning Manager
-source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
+description: Meer informatie over de nieuwe functies en verbeteringen in de Adobe Learning Manager van maart 2024
+jcr-language: en_us
+title: Overzicht van nieuwe functies
+contentowner: jayakarr
+source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
 workflow-type: tm+mt
-source-wordcount: '2372'
-ht-degree: 70%
+source-wordcount: '3102'
+ht-degree: 1%
 
 ---
 
-# Nieuw in deze release
 
-## Vernieuwde gebruikersinterface
 
-De gebruikersinterface van de Adobe Learning Manager heeft een paar updates ondergaan om een schonere en modernere ervaring te bieden. De landingspagina&#39;s voor de rollen Beheerder en Auteur zijn vernieuwd en er zijn thema-updates voor de gebruikersinterface gemaakt voor alle rollen. Er zijn echter geen wijzigingen aangebracht in de locatie van menu&#39;s, knoppen of koppelingen en u kunt deze precies vinden op de plaats waar ze eerder waren geplaatst.
+# Overzicht van nieuwe functies {#new-features-summary}
 
-De thema-updates worden automatisch toegepast op accounts die het standaardthema gebruiken. De thema-updates voor de gebruikersinterface hebben geen invloed op accounts waarin een aangepast thema wordt gebruikt. Deze accounts moeten worden teruggezet naar het standaardthema om de nieuwe thema-updates te krijgen.
+Meer informatie over de nieuwe functies en verbeteringen in Adobe Learning Manager
 
-![UI-afbeelding](assets/refreshed-ui.png)
+## Nieuw in deze release {#whatsnewandchanged}
 
-*Nieuwe gebruikersinterface van Adobe Learning Manager*
+### Vaardigheden importeren uit externe bronnen
 
-### Over deze wijziging
+Importeer Vaardigheden van contentproviders, zoals LinkedIn en Go1, met behulp van de respectievelijke connectoren. Deze verbetering maakt deel uit van de doelstelling van de Learning Manager om te integreren met externe Skills Clouds en Talent Management Systems. De geïmporteerde vaardigheden worden toegevoegd aan de door de beheerder gedefinieerde vaardigheden in Leerbeheer en zijn beschikbaar voor auteurs tijdens de workflow voor het maken van de cursus. Er zijn ook verbeteringen aangebracht in de zoekfunctionaliteit voor vaardigheden op het hele platform om een betere zoekervaring te bieden wanneer het account een groot aantal vaardigheden heeft.
 
-**Wat verandert er in deze versie?**
+Weergave [Vaardigheden importeren](administrators/feature-summary/import-skills-external-sources.md) voor meer informatie.
 
-De koptekst bevat een nieuwe sjabloon die het logo automatisch verkleint naar een vaste grootte en positie, terwijl de beeldverhouding van het logo behouden blijft. De wijziging is bedoeld om de visuele aantrekkingskracht van de leerervaring te verbeteren.
+### Aangepaste branding
 
-De naam van de organisatie in de koptekst wordt ook automatisch aangepast naar 336 (minimaal) x 680 (maximaal) pixels voor studenten.
-
-**Wat is de aanbevolen grootte van het logo?**
-
-De maximale breedte van het logo is 210 px. Logo&#39;s met een breedte van meer dan 210 px of een hoogte van meer dan 42 px worden vergroot of verkleind tot 42 x 210 px.
-
-Als de grootte van het logo kleiner is dan de aanbevolen grootte, wordt het logo zonder wijzigingen geüpload en gecentreerd.
-
-**Wat is de impact?**
-
-Bedrijfsnamen die langer zijn, worden ingekort en de ruimte wordt opgevuld met een ellips.
-
-**Wat bevelen we aan?**
-
-* Pas het formaat van de afbeelding aan zodat de beeldverhouding intact blijft. De aanbevolen maximale grootte van het logo is 42 px (verticaal) x 210 px (horizontaal).
-* Bij veel accounts wordt deze automatisch toegepast; er is geen wijziging nodig.
-
-## Systeemeigen uitbreidbaarheid
-
-U kunt aangepaste ervaringen instellen in de systeemeigen versie van Adobe Learning Manager, zodat u niet zonder koppen hoeft te werken voor minder ingewikkelde gebruikssituaties. U kunt ook aangepaste apps maken en deze op verschillende punten plaatsen in de systeemeigen versie van de workflows voor studenten, managers, auteurs en docenten.
-
-Een student kan een aangepaste app of een extensie gebruiken die een beheerder heeft gemaakt.
-
-Ga naar [Systeemeigen uitbreidbaarheid](/help/migrated/administrators/feature-summary/native-extensibility.md) voor meer informatie.
-
-## Gereedschap Quiz maken
-
-U kunt nu beoordelingen maken in Learning Manager met het nieuwe gereedschap voor het maken van quiz op de pagina Inhoudsbibliotheek. De gemaakte beoordelingen worden onderdeel van de inhoudsbibliotheek en kunnen worden toegevoegd aan een openbare map voor hergebruik van de cursus.
-
-Weergave [Een quiz maken](/help/migrated/authors/feature-summary/content-library.md) voor meer informatie.
-
-## Rapportagewijzigingen in deze versie
-
-### Wijzigingen in het inschrijvingsrapport voor taakhulp
-
-In eerdere versies van Adobe Learning Manager bevatte het Rapport Inschrijving taakhulpen geen filters. Adobe Learning Manager heeft alle gegevens van een account gedownload.
-
-In deze versie hebben we een vervolgkeuzelijst toegevoegd in het dialoogvenster Taakhulpenrapport.
-
-### Wijzigingen in aankondigingsrapport
-
-In eerdere versies van Adobe Learning Manager bevatte het meldingsrapport geen filters. Adobe Learning Manager heeft alle meldingen in het account gedownload.
-
-In deze versie hebben we een datumfilter toegevoegd waarmee u de meldingen binnen een opgegeven periode kunt downloaden.  U kunt het rapport echter alleen voor de laatste zes maanden downloaden.
-
-### Wijzigingen in cursusrevisiegegevens in inschrijvingsrapport
-
-In deze versie kunt u de revisiegegevens van de cursus downloaden in een inschrijvingsrapport door een tijd op te geven. De downloadperiode wordt beperkt tot zes maanden voor accounts met meer dan vijf miljoen inschrijvingen. Voor alle andere accounts is deze periode 15 maanden.
-
-U kunt het rapport downloaden van **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Historische verslagen]** > **[!UICONTROL Cursustoegangsrapport]**.
-
-### Wijzigingen in studenttranscript
-
-In eerdere versies van Adobe Learning Manager bevatte het studenttranscript de verwijderde gebruikers als een aangepaste beheerder het bereik Gebruiker had. In deze versie bevat het studenttranscript de verwijderde gebruikers als de aangepaste beheerder het bereik Gebruiker of toegang tot alle gebruikersgroepen heeft.
-
-### Wijzigingen in aanwezigheidsrapport
-
-Het rapport Aanwezigheid op de aanwezigheidspagina van Cursussen in de Admin-app en op de studentensessiepagina van de app voor docenten werd voorheen synchroon gedownload. In deze versie wordt dit rapport asynchroon gedownload via een melding.
-
-Zie voor meer informatie over rapporten [Rapporten](/help/migrated/administrators/feature-summary/reports.md) in Adobe Learning Manager.
-
-## Opheffing van de Inhoudsmarktplaats
-
-Cursussen in de geïmporteerde catalogus van de Inhoudsmarktplaats die zijn verlopen (Enterprise-training), worden automatisch verwijderd. De cursussen worden gearchiveerd als de inhoud is gemarkeerd voor archivering. Bestaande ingeschreven studenten kunnen deze binnen een beperkte tijd volgen, waarna ze worden verwijderd. Zo blijft de catalogus schoon en krijgen gebruikers geen verlopen cursussen te zien.
-
-## Nieuwe aanbevelingen op basis van vaardigheden
-
-Adobe Learning Manager biedt betere aanbevelingen voor accounts van klanten en partners. Dit verbeterde aanbevelingsalgoritme met een gewijzigd classificatiealgoritme voor cursussen, leerpaden en certificeringen zorgt voor een betere gebruikerservaring bij het zoeken naar inhoud.
-
-Het algoritme staat niet langer aanbevelingen op basis van collega&#39;s toe. De wijziging heeft geen invloed op bestaande gebruikers, maar de optie Afgestemd op de branche blijft bestaan. Voor de optie Aangepast staat Adobe Learning Manager niet langer aangepaste selectie op basis van collega&#39;s toe.
-
-De groep collega&#39;s wordt nu een account en studenten krijgen een tekenreeks te zien met de populaire onderwerpen in de groep. Voor elke aanbeveling is een uitleg beschikbaar. Als u bijvoorbeeld iets over een onderwerp bekijkt, wordt op de kaart op de band de reden van de cursus weergegeven.
-
-## Verbeteringen in de workflow voor aangepaste beheerders
-
-Aangepaste beheerders hebben nu gelijkere toegang tot rapporten ten opzichte van beheerdersrollen. Beheerders kunnen de toegang tot rapporten beter configureren.
-
-In Adobe Learning Manager zijn alleen het studenttransscript en gamificatietranscript beschikbaar voor een aangepaste beheerder. In deze versie heeft een aangepaste beheerder toegang tot alle aangepaste rapporten, behalve xAPI- en e-mailrapporten, die nog steeds alleen beschikbaar zijn voor beheerders. Toegang tot alle rapporten is afhankelijk van de catalogus en het gebruikersbereik dat de aangepaste beheerder heeft. Er zijn weinig rapporten die alleen beschikbaar zijn met een volledig bereik. Dat zijn:
-
-<table>
-    <tbody>
-        <tr>
-            <td>
-    <p style="text-align: left;"><b>Rapport</b></p></td>
-   <td>
-    <p style="text-align: left;"><b>Beschikbaar</b></p></td>
-   <td>
-    <p style="text-align: left;"><b>Bereik</b></p></td>
-        </tr>
-    <tr>
-   <td>
-    <p>Audittrail van inhoud</p></td>
-   <td>
-    <p>Ja</p></td>
-   <td>
-    <p>Volledige catalogus</p></td>
-  </tr>
-  <tr>
-   <td>
-    <p>Audittrail van gebruiker</p></td>
-   <td>
-    <p>Ja</p></td>
-   <td>
-    <p>Volledige gebruiker</p></td>
-  </tr>
-  <tr>
-   <td>
-    <p>Aanmeldingstoegang</p></td>
-   <td>
-    <p>Ja</p></td>
-   <td>
-    <p>Volledige gebruiker</p></td>
-  </tr>
-    </tbody>
-</table>
-
-**Nieuwe alleen-lezen besturingselementen**
-
-Op de pagina Aangepaste rollen hebben we de volgende opties voor Alleen-lezen toegevoegd om beheerders in staat te stellen flexibelere opties te bieden aan de aangepaste beheerder: aangepaste beheerders hebben nu extra machtiging Alleen-lezen voor gebruikers, E-mailsjablonen en leerplannen.
-
-**Gebruikers**:
-
-Als u Alleen-lezen selecteert, kan de aangepaste beheerder alle gebruikers bekijken, maar geen gebruikersgegevens bewerken of een zelfregistratieportaal voor gebruikers maken.
-
-**Leerplannen**:
-
-Als u Alleen-lezen selecteert, kan een aangepaste beheerder geen leerplan toevoegen of bewerken. Ze kunnen een leerplanrapport wel downloaden en de details ervan bekijken. Ze kunnen de cursusdetails echter niet wijzigen.
+U kunt nu bepaalde gebruikersinterface-elementen aanpassen, zoals de naam van de organisatie, het logo en het thema van de gebruikersinterface op basis van de gebruikersgroepen die beschikbaar zijn in het account. Een organisatie met meerdere divisies kan bijvoorbeeld een aangepast logo en UI-thema instellen dat voor elke divisie moet worden weergegeven.
 
 >[!NOTE]
 >
->Leerplannen zijn een extra alleen-lezen-optie en hebben volledige controle.
+>Deze functie voor meerdere branding is niet van toepassing op het standpunt van de beheerder. Ze zullen altijd merken op organisatieniveau in hun account zien. Dit komt doordat deze functie voor studenten zichtbaar is en beheerders deze niet in hun account willen opnemen.
 
-**E-mailsjablonen**
+Weergave [Meerdere aangepaste branding](administrators/feature-summary/themes.md#multiple-branding) voor meer informatie.
 
-Als u Alleen-lezen selecteert, kan een aangepaste beheerder de e-mailsjablonen bekijken. Ze kunnen de instellingen van e-mailsjablonen niet in- of uitschakelen, maar kunnen wel rapporten over e-mailtoegang downloaden.
 
-### Studenttranscripten
+## Wijzigingen voor accounts met een grote gebruikersbasis
 
-Als Gebruikersmachtigingen of Alle gebruikersgroepen zijn geselecteerd en aangepaste beheerders proberen Studenttranscripten te downloaden, retourneert de optie Verwijderde student opnemen alle verwijderde studenten in het rapport.
+### Beheerder- Pagina&#39;s voor cursussen of leerpaden
 
-### Rapporten
+Als een groot aantal studenten voor de cursus is ingeschreven, bijvoorbeeld meer dan 50.000, wordt de lijst met studenten niet weergegeven. U kunt naar een student zoeken in het dialoogvenster *Studenten zoeken* zoekbalk of selecteer de **Downloaden** link boven de zoekbalk om de lijst met studenten te downloaden.
 
-Een aangepaste beheerder heeft toegang tot de volgende rapporten volgens het opgegeven bereik:
+### Beheerder- pagina Studenten
+
+Wanneer u op een gebruiker zoekt, wordt **Student downloaden** en **Exporteren** dezelfde opties downloaden. Tijdens het zoeken naar een gebruikersgroep kunt u nu gefilterde gebruikers downloaden van die gebruikersgroep. Bij het zoeken in een gebruikersgroep wordt **Studentenlijst downloaden** wijzigingen in **Leerlijst voor gebruikersgroep downloaden** De **Exporteren** wordt de gehele lijst gedownload.
+
+### Beheerderspagina - Gebruikers
+
+#### Interne gebruikers
+
+Als het aantal gebruikers bijvoorbeeld 50.000 overschrijdt, wordt er een bericht weergegeven om de gegevens later te downloaden voor een meer gedetailleerde analyse. De zoekbalk is nu prominent aanwezig en geeft een gebruiker weer in de indeling *Naam, e-mail | UUID*.
+
+>[!NOTE]
+>
+>De UUID wordt alleen weergegeven als UUID is ingeschakeld voor het account.
+
+#### Externe gebruikers
+
+Voor externe gebruikers geldt hetzelfde. Als het aantal gebruikers groot is, kunt u de gebruikers downloaden en ook de gegevens van een gebruiker ophalen na een zoekopdracht in de indeling *Naam, e-mail | UUID*.
+
+#### Pagina Gebruikersopschoning
+
+Op de pagina Gebruikers opschonen hebben we voor verwijderde gebruikers de sorteerfunctie verwijderd op **Datum verwijderd**. U kunt alleen op de UUID&#39;s sorteren.
+
+### Beheerderspagina&#39;s
+
+#### Cursus of leerpad
+
+Als het aantal inschrijvingen groot is, geeft Adobe Learning Manager niet het aantal studenten weer. In plaats daarvan is er een pictogram dat u kunt selecteren, het aantal studenten kunt bekijken en naar de pagina Studenten kunt navigeren.
+
+Het aantal studenten wordt bij benadering weergegeven. Als het aantal studenten bijvoorbeeld meer dan 50.000 is, wordt de waarde weergegeven als 50K+.
+
+### Beheerder- L1/L3-pagina&#39;s
+
+Als het aantal cursusinschrijvingen groot is op de L1-feedbackpagina, wordt de lijst met studenten niet weergegeven. In plaats daarvan kunt u de gebruikerslijst later exporteren voor een gedetailleerdere analyse.
+
+De zoekopdracht ondersteunt automatisch tekst en de resultaten zijn beperkt tot het geselecteerde exemplaar.
+
+#### Pagina Aanwezigheid en scores
+
+Wanneer u op de pagina een gebruiker doorzoekt, wordt de zoekopdracht uitgevoerd in alle beschikbare instanties. Het resultaat is echter voor de geselecteerde instantie.
+
+Als u op de pagina Aanwezigheid zoekt naar een gebruikersgroep en het aantal gebruikers in de gebruikersgroep groter is dan 10.000, ongeacht de inschrijving, kunt u alleen acties op bulkniveau uitvoeren. U kunt de lijst met gebruikers niet weergeven.
+
+Als het aantal gebruikers in de gebruikersgroep minder dan 10.000 is, kunt u afzonderlijke acties op gebruikersniveau en acties op bulkniveau uitvoeren. In dit geval is de gebruikerslijst niet uitgeschakeld.
+
+### Beheerder - pagina Certificeringen
+
+Als er in de huidige versies van Adobe Learning Manager een groot aantal gebruikers is ingeschreven voor een certificering, kunt u de uitgeschreven studenten sinds de **Status** is uitgeschakeld.
+
+Als het aantal ingeschreven gebruikers groot is, wordt in deze versie van Adobe Learning Manager **Status** vervolgkeuzelijst geeft slechts twee opties weer **Ingeschreven** en **Uitgeschreven**. De optie **Ingeschreven** is standaard geselecteerd. Als u **Uitgeschreven** wordt de lijst met uitgeschreven studenten weergegeven.
+
+#### Wijzigingen in gebruikersgroep
+
+Als het aantal gebruikers in de gebruikersgroep lager is dan bijvoorbeeld 50.000, wordt in het geval van een gebruikersgroep het **Status** in het vervolgkeuzemenu ziet u alle opties: Gecertificeerd, Toegewezen en Verlopen.
+
+Als een gebruikersgroep een groot aantal gebruikers bevat, wordt de **Status** vervolgkeuzelijst geeft slechts twee opties weer **Ingeschreven** en **Uitgeschreven**, volgens het nieuwe ontwerp.
+
+### Vergelijkingstabel
 
 <table>
     <tbody>
         <tr>
-            <td>
-    <p style="text-align: left;"><b>Rapport</b></p></td>
-   <td>
-    <p style="text-align: left;"><b>Beschikbaar</b></p></td>
-   <td>
-    <p style="text-align: left;"><b>Bereik</b></p></td>
+            <td><b>Pagina</b></td>
+            <td><b>Voor drempelwijziging</b></td>
+            <td><b>Na wijziging van de drempelwaarde</b></td>
         </tr>
-    <tr>
-   <td>
-    <p>Audittrail van inhoud</p></td>
-   <td>
-    <p>Ja</p></td>
-   <td>
-    <p>Volledige catalogus</p></td>
-  </tr>
-  <tr>
-   <td>
-    <p>Audittrail van gebruiker</p></td>
-   <td>
-    <p>Ja</p></td>
-   <td>
-    <p>Volledige gebruiker</p></td>
-  </tr>
-  <tr>
-   <td>
-    <p>Aanmeldingstoegang</p></td>
-   <td>
-    <p>Ja</p></td>
-   <td>
-    <p>Volledige gebruiker</p></td>
-  </tr>
+        <tr>
+            <td>Beheerder- Cursusinstantie</td>
+            <td>Instanties worden als volgt weergegeven:
+            <ul>
+                <li>Modules</li>
+                <li>Ingeschreven studenten</li>
+                <li>Sessies</li>
+                <li>Badge</li>
+                <li>L1-feedback ingeschakeld</li>
+                <li>Meldingswaarschuwingen</li>
+                <li>Gamification-punten</li>
+                <li>QR-code</li>
+                <li>Leerpad-extensie</li>
+            </ul>
+            <td>
+                <ul>
+                    <li>Als het aantal ingeschreven personen de vooraf gedefinieerde drempel overschrijdt, wordt het aantal niet weergegeven door ALM. Het aantal wordt vervangen door een pictogram dat, wanneer erop wordt geklikt, het werkelijke aantal studenten en een koppeling weergeeft waarmee u naar de pagina Studenten gaat.</li>
+                    <li>Het aantal ingeschreven personen wordt bij benadering weergegeven. Als het aantal bijvoorbeeld meer dan 50.000 is, wordt het aantal weergegeven als 50K+ op cursusniveau.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Beheerder- pagina Studenten</td>
+            <td>
+                    <ul>
+                        <li>De lijst met studenten wordt voor elke instantie weergegeven.</li>
+                        <li>U kunt zoeken in een gebruiker of gebruikersgroep die voor een cursus is ingeschreven.</li>
+                        <li>Het geëxporteerde rapport bestaat niet uit een filter voor Gebruikersgroep.</li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Selectie van instantie is uitgeschakeld.</li>
+                    <li>Download ook de studentenlijst en downloadt dezelfde gegevens, op één geval na. Als u naar een gebruikersgroep zoekt en vervolgens de Studentenlijst downloaden selecteert, worden de gegevens van die gebruikersgroep gedownload.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Beheerder- L1/L3-feedbackpagina</td>
+            <td>
+                <p>Geen wijziging in bestaand gedrag</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Selectie van instantie is uitgeschakeld.</li>
+                    <li>Als de inschrijving voor een cursus boven 50 kB ligt, vermeldt ALM geen studenten en wordt alleen de zoekbalk weergegeven. Als de inschrijving minder dan 50 kB is, worden zowel de studentenlijst als de zoekbalk weergegeven.</li>
+                    <li>Lijsten is standaard uitgeschakeld.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Beheerder - Pagina Aanwezigheid en scores</td>
+            <td>
+                <p>Geen wijziging in bestaand gedrag</p>
+            </td>
+            <td>
+                <ul>
+                    <li>Selectie van instanties is uitgeschakeld wanneer u een gebruiker zoekt.</li>
+                    <li>Als het aantal gebruikers bijvoorbeeld 50.000 overschrijdt, verschijnt er een extra bericht om de gegevens later te downloaden voor een meer gedetailleerde analyse. De zoekbalk is nu prominent aanwezig en geeft een gebruiker weer in de indeling Naam, E-mail | UUID.</li>
+                    <li>Als het aantal gebruikers in de gebruikersgroep minder dan 10.000 is, ongeacht de inschrijving, kunt u afzonderlijke acties op gebruikersniveau samen met acties op bulkniveau uitvoeren. In dit geval is de gebruikerslijst niet uitgeschakeld.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Admin-L2 Quiz Score-pagina</td>
+            <td>
+                    <ul>
+                        <li>Gebruikerszoekopdracht wordt ook geïmplementeerd.</li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Gebruikerszoekopdracht wordt ook geïmplementeerd. Terwijl de typeahead-zoekopdrachten op LO-niveau worden uitgevoerd, wordt de lijst gefilterd naar de geselecteerde instantie.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Beheerder- Gebruikers-pagina (intern, extern)</td>
+            <td>
+                    <ul>
+                        <li>De e-mail-ID wordt weergegeven wanneer een gebruiker wordt gezocht.</li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Als het aantal gebruikers bijvoorbeeld 50.000 overschrijdt, verschijnt er een extra bericht om de gegevens later te downloaden voor een meer gedetailleerde analyse. De zoekbalk is nu prominent aanwezig en geeft een gebruiker weer in de indeling Naam, E-mail | UUID.</li>
+                    <li>Op de pagina Gebruikersopschoning hebben we voor verwijderde gebruikers de sorteerfunctie verwijderd op **Datum verwijderd**. U kunt alleen op de UUID's sorteren.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Docenten - Inzending</td>
+            <td>
+                    <ul>
+                        <li>Paginering van in te dienen modules.</li>
+                        <li>Als docent kunt u nu bestandsverzendingen van studenten filteren op basis van status, einde revisie, In afwachting van inzending, Geslaagd en Mislukt. </li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>U kunt alleen in dat geval zoeken naar gebruikers, niet naar gebruikersgroepen.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Tellen bij voorvertoning als studentenpagina</td>
+            <td>
+                    <ul>
+                        <li>Tellen bevat de gegevens van inschrijvingen in een hogere volgorde.</li>
+                    </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Met Aantal worden gegevens uitgesloten van inschrijving in hogere volgorde.</li>
+                </ul>
+            </td>
+        </tr>
     </tbody>
 </table>
 
-<!--| Report | Available | Scope |
-|--- |--- |
-| Content Audit Trail | Yes | Full Catalog |
-| User Audit Trail | Yes | Full User |
-|Login Access | Yes | Full User |-->
+## Geavanceerde zoekmogelijkheden
 
-## Uitgebreide Connect-integratie
+In deze release hebben we de zoekervaring verbeterd. De zoekresultaten worden niet alleen opgehaald op basis van de metagegevens, maar ook op basis van semantische zoekresultaten en zoekopdrachten in de inhoud om resultaten af te leiden op basis van precisie, recentheid en relevante inhoud.
 
-Docenten kunnen hun sessie-ervaring personaliseren door specifieke ruimten voor docenten te selecteren. In deze release zijn de volgende verbeteringen aangebracht:
+Deze wijziging heeft betrekking op het volgende:
+* Pagina Catalogus en Mijn leerervaring: de aanwijsactie voor de cursus, het leerpad en de certificering is verwijderd.
+* De weergave van de zoekbalk.
+* Filtertags toegevoegd in de leerapp.
 
-### Transcripties importeren
+Neem contact op met het CSAM-team van Adobe Learning Manager om de zoekmogelijkheden in te schakelen.
 
-U kunt sessietranscripten importeren uit Connect en de transcripties analyseren. Studenten ontvangen het transcript na de opname, die ze later kunnen downloaden.
+## Wijzigingen in rapporten
 
-### Video&#39;s bewerken
+* De kolommen Tag(s) en Vaardigheid(en) in het trainingsrapport worden gewijzigd in Tag en Vaardigheden.
+* Het rapport is toegevoegd [Audittrail van gamification](administrators/feature-summary/reports.md#gamification-audit-trail).
+* Als een account meer dan 280000 studenten bevat die aan een vaardigheid zijn toegewezen, wordt het vaardigheids-studentrapport gedownload als gecomprimeerde CSV.
+Als het account minder dan 250000 studenten heeft, wordt hetzelfde rapport gedownload als een CSV-bestand.
+Selecteer op de beheerpagina de optie **Beheerder** > **Vaardigheden** > **Vaardigheid** > **Studenten**. Het rapport wordt gedownload als CSV.
+* De [Samenvattingsrapport van sessie](administrators/feature-summary/reports.md#session-summary-report) heeft twee nieuwe kolommen: Locatie-informatie en Locatiegebied.
 
-Docenten kunnen de video bewerken en de kijkervaring van de studenten verbeteren. Docenten krijgen een link te zien op de overzichtspagina van de sessie die hen naar de aanmeldingspagina van Adobe Connect leidt. Na het aanmelden ziet de docent de opnamelink. Als deze op de link klikt, wordt de docent omgeleid naar de video, die vervolgens kan worden ingekort.
+## Wijzigingen in het maken van lesruimten
 
-## Dashboardrapporten beperken tot gebruikers met beheerdersrol
+Gebaseerd op [Beheerdersinstellingen](administrators/feature-summary/classroom.md#classroom-settings)kunt u als auteur [locaties maken, wijzigen en verwijderen](administrators/feature-summary/classroom.md#add-classroom-location).
+>[!NOTE]
+>
+>Tijdens het toevoegen van locatie- en cataloguslabels zien auteurs (op de pagina voor het maken van cursussen) en beheerders (op de instantiepagina) respectievelijk een automatisch gevulde lijst met locaties en cataloguslabels.
 
-Beheerders kunnen alleen managers zoeken in Dashboard-rapporten.
+Net als beheerder kunt u beperkingen opleggen aan auteurs om een locatie in een lesruimte te wijzigen of te verwijderen. Weergave [Klaslokaalinstellingen](administrators/feature-summary/classroom.md#classroom-settings) voor meer informatie.
 
-## Verwerking van oude dashboardrapporten beperken
+## Wijzigingen in flexibel leerpad
 
-Wanneer een beheerder een dashboardrapport probeert uit te zetten en het rapport te lang duurt om uit te zetten (meer dan 2,5 min.), geeft Adobe Learning Manager het volgende bericht weer:
+Alle accounts (oud en nieuw) in worden gestart, inclusief inschrijvingsdeadline, uitschrijvingsdeadline en plaatslimiet in de Learner-app voor een flexibel leerpad.
+Studenten kunnen zich nu inschrijven voor Flexible Learning Path zonder een instantie van de cursus te selecteren.
 
-![oudere rapportafbeelding](assets/error-message.png)
-*Foutbericht wanneer rapport te lang duurt*
+## Nieuwe trigger voor leerplannen
 
-Rapporten van deze grootte kunnen niet worden weergegeven in de gebruikersinterface, maar de beheerder kan deze wel downloaden.
+Er is een nieuwe trigger toegevoegd aan de pagina voor het instellen van het leerplan. Auteurs en beheerders kunnen nu handelingen activeren wanneer een student een module van een cursus niet heeft gehaald.
 
-## Migratieondersteuning voor cataloguslabels
+Weergave [Leerplannen](administrators/feature-summary/learning-plans.md) voor meer informatie.
 
-De migratiewerkstroom ondersteunt nu cataloguslabels. CSV&#39;s voor migratie kunnen worden gebruikt om cataloguslabels en cataloguslabelwaarden te importeren en deze toe te voegen aan cursussen, leerpaden, certificeringen en taakhulpen. De werkstroom kan, indien nodig, ook worden gebruikt om onjuiste waarden en sleutels te verwijderen.
+## Nieuwe verzendstatus
 
-## API-verbeteringen voor complexe cursusfilters
+Als docent kunt u nu bestandsverzendingen van studenten filteren op basis van status, einde revisie, In afwachting van inzending, Geslaagd en Mislukt.
 
-Het geavanceerd filteren van cursussen op tags en cataloguslabels (met een combinatie van de voorwaarden AND en OR) is nu mogelijk via Leermanager-API&#39;s.
+Weergave [Verzendstatus](instructors/feature-summary/learners.md#filter-file-submissions) voor meer informatie.
+
+### Verbeteringen voor checklist
+
+In de huidige versies van Adobe Learning Manager was voor een checklist de voortgang van een module toegestaan, zelfs als een revisor de modules als mislukt heeft gemarkeerd. In deze versie kan een auteur zo configureren dat de voortgang van een student niet aan de controlelijst voldoet.
+
+Zie voor meer informatie [Verbeteringen voor checklist](authors/feature-summary/courses.md#mandatory-checklist) in Adobe Learning Manager.
+
+## Verdere verbeteringen
+
+### Wijzigingen in controlelijst
+
+Tijdens het maken van een controlelijst kunt u de optie **Verplicht controlelijst** selectievakje. Zo voorkomt u dat de module of cursus doorgaat als een student de controlelijst niet doorstaat.
+
+### Wijzigingen op de verwijzingssite AEM
+
+In een AEM-naslagsite hebben we ondersteuning toegevoegd voor het toevoegen van het token voor beheerders vernieuwen aan het toegangstoken voor studenten.
+
+### Inzendingen verbergen voor docenten
+
+Als studenten hun bestanden hebben geüpload met behulp van de workflow voor het verzenden van bestanden en als een docent geen actie onderneemt (goedkeuren of afwijzen) voor de verzending, wordt de URL van de verzending na een vooraf gedefinieerd aantal dagen verborgen in de weergave. Neem contact op met de CSAM-teams van Adobe Learning Manager om het aantal dagen in te stellen of te wijzigen.
+
+### Wijzigingen in productterminologie
+
+We hebben de kolommen toegevoegd *Instantie* en *Student* op de woordenlijst van de productterminologie.
+
+### Wijzigingen in mobiele apps
+
+In deze release van de mobiele app kunnen studenten achterstallige cursusherinneringen plannen en beheren. Als u klikt op een melding voor een verstreken herinnering, hebt u toegang tot de volgende opties:
+
+* Annuleren
+* Naar de cursus
+* Herinneren over 3 dagen
+* Herinneren in een week
+
+Op Android: als u op de pushmelding klikt, wordt de **Cursusoverzicht** pagina.
+In iOS: als u op de pushmelding klikt, gaat u naar de startpagina van de app. Dit is een bekende beperking in iOS.
+
+### Wijzigingen in keuzelijst in Learner-app in Salesforce
+
+Als een student een controlelijst niet heeft, kan hij of zij niet verder gaan naar de volgende module of cursus. Wanneer het selectievakje Verplichte checklist is ingeschakeld, kan de student niet verder gaan in een cursus als deze niet aan de checklist voldoet.
+
+Net als bij de webapp ziet een student een bericht als een controlelijst in de Salesforce-app mislukt en gaat niet verder.
+
+### Wijzigingen in Connect VC
+
+In de huidige versies van Adobe Learning Manager wordt een student gemarkeerd **Niet aanwezig** als ze zijn ingeschreven voor een Connect VC-sessie, maar niet aan de voltooiingscriteria voldeden.
+
+In deze release verandert de status in **Toch te markeren**.
+
+### Witte labels in Adobe Learning Manager
+
+De mobiele app van Adobe Learning Manager ondersteunt nu witte labels, wat betekent dat u de app nu onder uw eigen merknaam kunt uitbrengen.
+
+Witte labels weergeven in [Adobe Learning Manager mobiele app](white-label.md) voor meer informatie.
+
+### Toepassingsclassificatie
+
+Een student kan feedback geven over de app Adobe Learning Manager om de app-ervaring verder te verbeteren. Als de student vier sterren of meer telt, verschijnt er een pop-upvenster met een verzoek aan de student om de app te beoordelen in de Play Store of App Store.
 
 ## API-wijzigingen in deze versie
 
-### Validatie in taak-API
+### Student-API&#39;s
 
-Als in deze release het taakhulprapport groter is dan 10 miljoen die met de taak-API zijn gegenereerd, krijgt het antwoord het bericht &quot;Gevraagd rapport heeft te veel gegevens om te genereren, probeer taakhulpfilters toe te passen!&quot;
+In deze release hebben we API-ondersteuning voor studenten toegevoegd om het merklogo en de gepersonaliseerde thema&#39;s weer te geven op het niveau van de gebruikersgroep.
 
-### Melding voor een verwijderd bericht
+De API&#39;s /account en /user?include=account retourneert vier velden, die specifiek voor het actieve veld van de gebruiker zijn overschreven, behoren tot logoUrl, logoStyling en themeData.
 
-In vorige versies van Adobe Learning Manager kon u, als een cursus, certificering of leerplan was verwijderd en de bijbehorende melding nog actief was, nog steeds toegang krijgen tot de cursus, het certificaat of het leerplan door de melding te openen.
+### Nieuwe kenmerken
 
-In deze release zorgen we ervoor dat een verwijderd bericht niet meer toegankelijk is. Als u de id opgeeft in /posts/{id} API, en de id voor de post is niet meer beschikbaar, toont API het bericht &quot;Post not found for the specified resource&quot;.
+Een nieuw kenmerk, isExpiredSubmission, in learningObjectResource, dat aangeeft of de verzending in de resource al dan niet is verlopen.
 
-### Voltooiingsdeadline student-API’s
+* GET/account-API: retourneert nieuw kenmerk **expiredSubmissionDuration** X, waarbij X het aantal ingestelde dagen is. Indien niet ingesteld, wordt 0 geretourneerd
+* GET/LO API met resource bevat nieuw attribuut **isExpiredSubmission**&quot; Waar of Onwaar.
+   * True, if the submission is expired and &quot;submissionUrl&quot; is not displayed.
+   * Als de waarde Onwaar is, is de verzending niet verlopen en wordt &quot;submissionUrl&quot; opgehaald.
 
-In vorige versies nam Adobe Learning Manager de deadline over van de inschrijvingstabel. In deze versie berekent Adobe Learning Manager de deadline aan de hand van de tabel met cursusinstanties. Als de deadline niet beschikbaar is, wordt de inschrijvingstabel weergegeven.
+### API-wijzigingen in Checklist
 
-### Markering overschrijven
+Een cursus kan uit verschillende modules bestaan, waarvan de Checklist een type module is. Deze controlelijstmodule wordt geëvalueerd door de docent en kan worden gemarkeerd als Mislukt of Succes op basis van evaluatie.
 
-In de Adobe Learning Manager-versie van november 2023 verwijderen we de overschrijvingsmarkering uit de API&#39;s. De overschrijvingsmarkering maakt geen deel uit van de openbare API-specificatie en is bedoeld voor back-endtests. De markering wordt nu stopgezet voor student-API&#39;s. De markering is echter nog steeds geldig voor beheerder-API&#39;s.
+Maar in beide gevallen wordt de status van de checklist als Voltooid gemarkeerd en op deze manier wordt de cursus als Voltooid gemarkeerd.
 
-De reden dat we de markering voor de API&#39;s van de student afschaffen, is omdat de overschrijvingsvlag een grote hoeveelheid gegevens ophaalt via de API&#39;s van de student.
+In deze release bevat de LO API de parameter *isChecklistMandatory*. Als de waarde Waar is, is de controlelijst verplicht.
 
-Voortaan zal de volgende student-API niet meer werken omdat deze de overschrijvingsmarkering heeft.
+### Ondersteuning voor meerdere landinstellingen
 
-`https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&page[limit]=10&sort=id&override=TRUE`
+Een beheerder kan nu L1-feedbackrapport downloaden in de taal van zijn of haar keuze. U kunt echter nog geen L1-feedbackrapporten downloaden voor Power BI. Gebruik in de API-aanvraag de parameter preferredLocale om de landinstelling van uw keuze op te geven.
 
-### Resultaten markeren
+### Wijzigingen in het aantal exemplaren van het overzicht
 
-In de aanstaande versie van Adobe Learning Manager, bijvoorbeeld, in /search API, veranderen wij het gebrek voor highlightResults in vals.
+Dit is van toepassing op accounts waarvoor de inschrijvingen voor een klassikale/VC-cursus groter zijn dan 1000.
 
-Bovendien, zullen wij het gebrek van snippetTypes in courseName veranderen. Als u dit doet, worden alleen de cursusnamen in de zoekopdracht gemarkeerd als highlightResults True is.
+Als het aantal minder dan 1000 is, maken de inschrijvingen het geheime voorgeheugen ongeldig en keert de bijgewerkte waarden in een Samenvatting API vraag van de GET, zoals, aantal inschrijving, voltooiing, en seatLimit terug.
 
-### Nieuw brontype voor quiz
+Als de account voor deze functie is ingeschakeld en het aantal inschrijvingen groter is dan 1000, worden de waarden opgehaald uit de cache.
 
-De `instances.loResources.resources` eindpunt wordt geretourneerd `ResourceContentType` met Quiz.
+### Verouderde paden
 
-## Kennisgeving van stopzetting
+Op dit moment volgen API&#39;s van Learning Manager een grafiekgegevensstructuur waarmee u gegevens kunt ophalen door het API-model door include-bestanden te doorlopen. Hoewel u een API tot zeven niveaus kunt doorlopen, is het ophalen van de gegevens met behulp van één API-aanroep computerduur.
 
-Op 30 november 2023 zal LinkedIn Learning het gebruik van de HTTP GET-methode voor het verkrijgen van een OAuth-token stopzetten. Na de veroudering kunt u alleen een OAuth-token genereren met de HTTP-POST-methode.
-Adobe Learning Manager stopt met BlueJeans in februari 2024. Alle nieuwe accounts na februari 2024 hebben geen BlueJeans-connector.
+Wij adviseren dat alle bestaande en nieuwe klanten kleine vraag veelvoudige tijden in plaats van één grote vraag maken. Deze benadering zal ongewenste gegevens verhinderen in de vraag worden geladen.
 
-## Aanvullende informatie
+#### Welke paden zijn vervangen
 
-Voor informatie over de huidige en vorige releases van de webapp en de apparaatapp van Learning Manager raadpleegt u de [Opmerkingen bij de release](release-note/release-notes.md).
+De volgende paden zijn afgekeurd:
 
-## Bugs die hersteld zijn in deze versie
+* /learningObjects
+   * Afgekeurde paden:
+      * enrollment.loInstance.loResources.resources
+      * instances.loResources.resources
+   * Bestaande paden:
+      * enrollment.loInstance
+      * instances.loResources
+* /learningObjects/{id}
+   * Vervangen pad:
+      * enrollment.instances.subLoInstances.learningObject
+   * Bestaand pad:
+      * enrollment.instances.subLoInstances
+* /enrollments
+   * Vervangen pad:
+      * loInstance.learningObject.enrollment
+   * Nieuw pad:
+      * loInstance.learningObject
+* /learningObjects/{id}
+   * Vervangen pad:
+      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+   * Nieuw pad:
+      * instance.subLoInstances
 
-* Een miniatuur voor een cursus, die een vereiste is voor een leerpad of een andere cursus, wordt niet weergegeven wanneer een deelnemer de voorvertoningspagina van het leerpad of de cursus opent.
-* Als de opties Agenda, Gamificatie en Sociaal leren niet zijn geselecteerd, wordt de volgende instelling van het studentendashboard niet opgeslagen. Opties zoals Aanbevolen in uw interessegebieden en Bladeren op catalogus worden niet als geselecteerd weergegeven, maar wel in de voorvertoning.
-* Zelfs nadat een student een VC-cursus heeft afgerond, ontvangt de student een herinneringsmail om de cursus te voltooien.
-* Voor collega-accounts kunt u geen dashboardrapporten downloaden.
-* Het verwijderen en toevoegen van een controlelijstmodule in een cursus resulteert in een interne fout.
-* In het geval van sessie-uitnodigingssjablonen bevat de e-mail-ID van de afzender de tekst captivatePrime in plaats van AdobeLearningManager.
-* Wanneer u Cursuseffectiviteit als secundaire Y-as gebruikt, mislukt het downloaden van het rapport met een uitzondering van het type Null Pointer.
-* Als aan een student de rol van aangepaste beheerder is toegewezen, navigeert deze standaard naar het profiel voor aangepaste beheerders. Als er echter een URL voor omleiding van studenten in het account is ingesteld, wordt de aangepaste beheerder naar een ander doel geleid, en niet naar het profiel voor de rol Aangepaste beheerder.
-* Het gamificatiebereik werkt niet zoals verwacht als de optie disabled_sub_groups op een groot getal is ingesteld.
-* In sommige gevallen wordt een migratie geactiveerd door verwijderde gebruikers.
-* Een student kan geen LinkedIn-cursussen afspelen in de MS Teams-app.
-* De inschrijving-API retourneert de inschrijvingen voor een Flexibel leerplan of Geïntegreerd leerplan niet zoals verwacht.
-* In de mobiele app worden de namen van een cursus, certificering of leerplan in kleine letters weergegeven.
-* In vorige versies van Adobe Learning Manager kon u, als een cursus, certificering of leerplan was verwijderd en de bijbehorende melding nog actief was, nog steeds toegang krijgen tot de cursus, het certificaat of het leerplan door de melding te openen. In deze release zorgen we ervoor dat een verwijderd bericht niet meer toegankelijk is. Als u de id opgeeft in /posts/{id} API, en de id voor de post is niet meer beschikbaar, toont API het bericht &quot;Post not found for the specified resource&quot;.
-* In de student-API wordt het veld voor de voltooiingsdeadline niet weergegeven in de reactie van de inschrijving-API.
-* In de API Inschrijving ophalen voor studenten worden de inschrijvingsgegevens weergegeven, zelfs nadat u een onjuiste instantie-id hebt opgegeven.
+### Wijzigingen in het archiveringsrapport van aanmeldtoegang en gebruikerscontrole voor taak-API
 
-## Bekende problemen in deze versie
+Met deze release bewaart de API voor aanmelding maximaal vijf kwartalen en een controlerapport van de gebruiker voor zes maanden. Als u de gegevens ouder dan deze tijdsperiode wilt downloaden, moet u de archiefparameter doorgeven, waarbij u een kwartaal en jaar opgeeft. Verwijs naar de monsterlading.
 
-* Een nieuwe inschrijving of het bijwerken van een inschrijving mislukt wanneer een Flexibel leerplan zich in een ander Flexibel leerplan bevindt.
-* De transcript-URL geeft de sessieopnamen niet weer in Adobe Connect-sessies.
-* Een student kan een offline quiz afleggen in de mobiele app, zelfs als de student niet slaagt.
+```
+{
+    "data": {
+        "type": "job",
+        "attributes": {
+            "description": "description of your choice",
+            "jobType": "generateLoginAccessReport",
+            "payload": {
+                "fromDate": "2023-04-01T18:30:00.000Z",
+                "toDate": "2023-04-30T18:30:00.000Z",
+                "archive": {
+                    "quarter": "4",
+                    "year": "2021"
+                }
+            }
+        }
+    }
+}
+```
+
+Als u de **Toegang tot aanmelding** een rapport dat meer dan vijf kwart gaat, een foutenmelding toont. Er wordt een vergelijkbaar foutbericht weergegeven als u de **Gebruikerscontrole** een verslag dat langer dan zes maanden duurt .
+
+## Bugfixes in deze update {#bug-fixes}
+
+* Wanneer een student is ingeschreven voor een cursus en vervolgens probeert zich voor een andere cursus in te schrijven, verschijnt er een waarschuwingsbericht.
+* Een gebruikersgroep is zichtbaar in Zoeken, zelfs nadat deze is verwijderd.
+* Wanneer gebruikers veel studenttranscripten met een grote hoeveelheid gegevens activeren, wordt de wachtrij voor studenttranscripten geblokkeerd en wordt een nieuwe aanvraag voorkomen.
+* Als een onderliggend account een verzoek indient om een rapport te delen, kan het bovenliggende account dit niet doen.
+* De URL&#39;s van een cursus en leerpad worden omgeleid naar onjuiste locaties.
+* Een student bekijkt de cursusinstantie van een andere cursus af en toe door op de cursuskoppeling op de cataloguspagina te klikken.
+* De **Uitschrijven** wordt niet weergegeven zoals verwacht na de eerste inschrijving, maar de knop wordt weergegeven nadat de gebruiker is vernieuwd.
+* U kunt Inhoud of een Quiz met een lege ruimte in de naam niet opslaan.
+* In cursussen die door de manager zijn goedgekeurd, kunt u studenten opnieuw inschrijven voor een gebruikersgroep.
+* In sommige gevallen wordt het foutbericht &#39;&#39;Actieve velden kunnen niet worden opgeslagen&#39;&#39; weergegeven als u een extra actief veld probeert toe te voegen.
+* De tekst stroomt over in de naam van een cursus binnen een cursuskaart in de sectie Verwante cursussen.
+* Nadat u van instantie hebt gewisseld en een student voor de instantie hebt ingeschreven, bestaan de oude exemplaren nog steeds in de Outlook-agenda.
+* Wanneer een student van een collega-account de miniatuur van een cursus probeert te selecteren, wordt een foutbericht weergegeven.
+* Wanneer studenten zich voor een cursus inschrijven, ontvangen ze meerdere meldingen voor de inschrijving.
+* Als een gebruiker de naam van de catalogi die in een connector zijn gemaakt handmatig wijzigt, worden nieuwe catalogi gemaakt en worden de cursussen gepubliceerd naar de onjuiste catalogi.
+* Gebruikers die tot inactieve accounts behoren, ontvangen nog steeds e-mails met een abonnement.
+
+### API-gerelateerde bugcorrecties
+
+* De API-GET/gebruikers halen de gegevens van een manager niet op.
+* In een account zijn gebruikers gemaakt via een geplande FTP-gebruikersimport tijdens een geplande downtime.
+* In de mobiele app of in de immersive modus, nadat u een cursusinstantie hebt verwijderd of gearchiveerd en de volgende actieve instantie hebt geselecteerd, wordt het **Interesse registreren** wordt weergegeven in plaats van **Inschrijven**.
+* Wanneer een student van een collega-account de miniatuur van een cursus probeert te selecteren met behulp van de API voor leerobject, wordt de fout 403 Verboden weergegeven.
 
 ## Systeemvereisten
 
-[Learning Manager-systeemvereisten](system-requirements.md)
+Weergave [Systeemvereisten voor Adobe Learning Manager](system-requirements.md).
 
 ## Eerdere releases van Adobe Learning Manager
 
-<!--* [November 2023 release](whats-new-november-2023.md)-->
+* [Versie van november 2023](whats-new-november-2023.md)
 * [Versie van juli 2023](whats-new-2023-july.md)
-* [Versie van april 2023](whats-new-2023-april.md)

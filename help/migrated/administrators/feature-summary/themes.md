@@ -3,10 +3,10 @@ description: Kleurenthema's en branding in Learning Manager.
 jcr-language: en_us
 title: Kleurenthema's
 contentowner: jayakarr
-source-git-commit: bab53a170e74a9825bb8530bbf1b64b06e6a1cf7
+source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 60%
+source-wordcount: '1195'
+ht-degree: 45%
 
 ---
 
@@ -85,6 +85,39 @@ Klik op **[!UICONTROL Livevoorbeeld]** in de linkerbenedenhoek van de sectie The
 Kies het gewenste thema uit de vervolgkeuzelijst, pas de instellingen aan en klik op **[!UICONTROL Voorbeeld]** om de wijzigingen live in uw toepassing te bekijken. U kunt nu alle functies van de toepassing doorlopen en de veranderingen bekijken. U kunt ook uw rollen veranderen terwijl u het livevoorbeeld doorloopt. Als u tevreden bent met de wijzigingen, kunt u teruggaan naar de pop-upfunctie Voorvertoning livethema en op **[!UICONTROL Thema toepassen]**.
 
 Terwijl u de wijzigingen live bekijkt, blijft het pop-upvenster Voorbeeld van livethema onderaan het scherm staan. U kunt de pop-up minimaliseren.
+
+## Meerdere merken {#multiple-branding}
+
+Hieronder wordt beschreven hoe u meerdere branding implementeert:
+
+1. Selecteer in de Admin-app **Branding** in het linkerdeelvenster.
+1. Selecteren **Bewerken** in de sectie Meerdere branding.
+1. Selecteer de schakelknop en schakel deze in.
+
+### Interne gebruikers
+
+1. Selecteer een actief veld in de vervolgkeuzelijst.
+1. Op basis van de selectie kunt u de naam van de organisatie wijzigen en een nieuw logo voor de gebruikers uploaden.
+
+### Externe gebruikers
+
+1. Selecteer een actief veld in de vervolgkeuzelijst.
+1. Op basis van de selectie kunt u de naam van de organisatie wijzigen en een nieuw logo voor de gebruikers uploaden.
+
+>[!NOTE]
+>
+>Interne gebruikers kunnen actieve velden zoals Externe gebruikers hebben (Admin moet bijvoorbeeld de multibranding voor interne gebruikers en externe gebruikers afzonderlijk toevoegen door de actieve veldwaarden afzonderlijk te selecteren.)
+
+#### Opmerkingen
+
+* Een beheerder kan de merktekens op meerdere niveaus toevoegen voor deze actieve veldwaarde en de externe gebruiker kan zich aanmelden met verschillende mechanismen (SSO Single (Okta, Mini orange), Social Login) en controleren of de multibranding van toepassing is.
+* Een externe gebruiker heeft een actief veld en een actieve veldwaarde zoals de interne gebruiker: hoewel deze wordt gedeeld, moet deze afzonderlijk worden opgegeven in de multibranding door de beheerder. Nadat de toepassing is toegepast, kan de externe gebruiker zich aanmelden met verschillende mechanismen (SSO Single (Okta, Mini orange), Social Login) en controleren of de multi-branding van toepassing is.
+* Een externe gebruiker is verplaatst van het ene profiel naar een ander profiel: het verplaatsen van de externe gebruiker van het ene profiel naar het andere heeft geen invloed op de actieve veldwaarde voor de gebruiker, tenzij de actieve veldwaarde wordt bewerkt/verwijderd door de beheerder of de externe gebruiker tijdens het aanmelden of registreren
+
+>[!NOTE]
+>
+>Wanneer meerdere branding is ingesteld voor zowel interne als externe gebruikers, met dezelfde actieve veldnaam, met dezelfde actieve veldwaarde maar verschillende configuratie. In dit geval kunt u klanten het beste dezelfde configuratie-instelling (logo, thema, organisatienaam) gebruiken om discrepantie te voorkomen.
+
 
 ## Uw account aanpassen {#customize}
 
