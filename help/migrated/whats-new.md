@@ -3,9 +3,9 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de Adob
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3105'
 ht-degree: 1%
 
 ---
@@ -39,7 +39,7 @@ Weergave [Meerdere aangepaste branding](administrators/feature-summary/themes.md
 
 ### Beheerder- Pagina&#39;s voor cursussen of leerpaden
 
-Als een groot aantal studenten voor de cursus is ingeschreven, bijvoorbeeld meer dan 50.000, wordt de lijst met studenten niet weergegeven. U kunt naar een student zoeken in het dialoogvenster *Studenten zoeken* zoekbalk of selecteer de **Downloaden** link boven de zoekbalk om de lijst met studenten te downloaden.
+Als een groot aantal studenten voor de cursus is ingeschreven, bijvoorbeeld meer dan 50.000, wordt de lijst met studenten niet weergegeven. U kunt naar een student zoeken in het dialoogvenster *Studenten zoeken* zoekbalk of selecteer de **Downloaden** link boven aan de zoekbalk om de lijst met studenten te downloaden.
 
 ### Beheerder- pagina Studenten
 
