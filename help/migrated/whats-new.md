@@ -3,9 +3,9 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de Adob
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
-source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
+source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3125'
 ht-degree: 1%
 
 ---
@@ -425,6 +425,10 @@ Met deze release bewaart de API voor aanmelding maximaal vijf kwartalen en een c
 ```
 
 Als u de **Toegang tot aanmelding** een rapport dat meer dan vijf kwart gaat, een foutenmelding toont. Er wordt een vergelijkbaar foutbericht weergegeven als u de **Gebruikerscontrole** een verslag dat langer dan zes maanden duurt .
+
+### Verouderde API&#39;s
+
+Weergave [API-afwijzingen in Adobe Learning Manager](api-deprecations-list.md) voor een cumulatieve lijst van alle verouderde API&#39;s in het product.
 
 ## Bugfixes in deze update {#bug-fixes}
 
