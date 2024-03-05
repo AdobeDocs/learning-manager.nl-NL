@@ -3,9 +3,9 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de Adob
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
-source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
+source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
 workflow-type: tm+mt
-source-wordcount: '3125'
+source-wordcount: '3259'
 ht-degree: 1%
 
 ---
@@ -276,13 +276,33 @@ Weergave [Verzendstatus](instructors/feature-summary/learners.md#filter-file-sub
 
 In de huidige versies van Adobe Learning Manager was voor een checklist de voortgang van een module toegestaan, zelfs als een revisor de modules als mislukt heeft gemarkeerd. In deze versie kan een auteur zo configureren dat de voortgang van een student niet aan de controlelijst voldoet.
 
-Zie voor meer informatie [Verbeteringen voor checklist](authors/feature-summary/courses.md#mandatory-checklist) in Adobe Learning Manager.
+#### Herbeoordeling controlelijst
+
+In dezelfde workflow kunt u, als auteur, een student opnieuw evalueren die niet voor een checklist is geslaagd. Selecteer de **Inschakelen** in de sectie Opnieuw evalueren, tijdens het maken van een controlelijst.
+
+Weergave [Een checklist maken](authors/feature-summary/courses.md#checklist-fail) voor meer informatie.
 
 ## Verdere verbeteringen
 
-### Wijzigingen in controlelijst
+### Sessiegerelateerde e-mailmeldingen
 
-Tijdens het maken van een controlelijst kunt u de optie **Verplicht controlelijst** selectievakje. Zo voorkomt u dat de module of cursus doorgaat als een student de controlelijst niet doorstaat.
+In eerdere versies van Adobe Learning Manager heeft een student geen sessiegerelateerde e-mails, sessiedetails bijgewerkt, Sessieuitnodiging en Sessieherinnering verzonden wanneer:
+
+* Studenten hebben een cursus voltooid,
+* Nieuwe sessies aan een cursus worden toegevoegd, of
+* Er zijn wijzigingen in bestaande sessies.
+
+In de maart 2024-versie van Adobe Learning Manager zijn de volgende wijzigingen aangebracht:
+
+* Sessiedetails bijgewerkt en Sessieuitnodiging (voor student en docent)
+   * Voor toekomstige sessies, e-mails voor **Sessiedetails bijgewerkt**, **Uitnodiging voor sessie** voor ingeschreven studenten en huidige docenten worden vervangen. Voor eerdere sessies, e-mails voor **Sessiedetails bijgewerkt** en **Uitnodiging voor sessie** voor ingeschreven studenten en huidige docenten blijven zoals het is.
+* E-mails over herinneringen (voor beheerder en student)
+   * Alleen voor toekomstige sessies **Sessieherinnering** e-mails worden verzonden.
+
+>[!NOTE]
+>
+>De mails zijn niet afhankelijk van de voltooiing van de sessie en cursus.
+
 
 ### Wijzigingen op de verwijzingssite AEM
 
