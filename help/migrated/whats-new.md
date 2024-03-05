@@ -3,9 +3,9 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de Adob
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
-source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
+source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
 workflow-type: tm+mt
-source-wordcount: '3259'
+source-wordcount: '3261'
 ht-degree: 1%
 
 ---
@@ -272,11 +272,13 @@ Als docent kunt u nu bestandsverzendingen van studenten filteren op basis van st
 
 Weergave [Verzendstatus](instructors/feature-summary/learners.md#filter-file-submissions) voor meer informatie.
 
-### Verbeteringen voor checklist
+## Verbeteringen voor checklist
+
+### Verplicht controlelijst
 
 In de huidige versies van Adobe Learning Manager was voor een checklist de voortgang van een module toegestaan, zelfs als een revisor de modules als mislukt heeft gemarkeerd. In deze versie kan een auteur zo configureren dat de voortgang van een student niet aan de controlelijst voldoet.
 
-#### Herbeoordeling controlelijst
+### Herbeoordeling controlelijst
 
 In dezelfde workflow kunt u, als auteur, een student opnieuw evalueren die niet voor een checklist is geslaagd. Selecteer de **Inschakelen** in de sectie Opnieuw evalueren, tijdens het maken van een controlelijst.
 
