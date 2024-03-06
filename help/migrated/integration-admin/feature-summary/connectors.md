@@ -3,9 +3,9 @@ description: Leer hoe u diverse connectoren integreert in Learning Manager
 jcr-language: en_us
 title: Learning Manager-connectoren
 contentowner: jayakarr
-source-git-commit: 3ed216c1754d8393647e50892ab9ca4d122099f6
+source-git-commit: c48b620ad075708d1e85fe49ed16bb4805bfbbc0
 workflow-type: tm+mt
-source-wordcount: '15898'
+source-wordcount: '15084'
 ht-degree: 65%
 
 ---
@@ -964,50 +964,50 @@ Neem contact op met het CSM-team van Learning Manager om de miniOrange-connector
 
 Voer de volgende stappen uit om een gevestigde miniOrange-verbinding te verwijderen.
 
-## Videoconferentie-connectoren (Bluejeans Meetings en Zoom) {#bluejeansconnector}
+<!---## Video conferencing connectors (Bluejeans Meetings and Zoom) {#bluejeansconnector}
 
-U kunt Learning Manager nu integreren met BlueJeans en Zoom-connectoren en deze gebruiken om lessen te hosten.  Met de connector kunt u vergaderingen/klassen voor videoconferenties met de studenten instellen.
+You can now integrate Learning Manager with BlueJeans and Zoom connectors and use them to host classes.  The connector enables you to set up video conferencing meetings/classes with the learners.
 
-Volg deze stappen om de connector in te stellen en te gebruiken.
+To set up and use the connector, follow these steps.
 
-1. Beweeg de muis over de BlueJeans/Zoom-miniatuur op de startpagina van Learning Manager. Er verschijnt een menu. Klikken  **[!UICONTROL Verbinden]** in het menu.
+1. In Learning Manager  home page , hover the mouse over the BlueJeans/Zoom thumbnail. A menu appears. Click  **[!UICONTROL Connect]** option from the menu.
 
    ![](assets/connectors.png)
 
    *Zoom connector tile*
 
-1. De BlueJeans/Zoom-connector-pagina wordt geopend. Voer de gegevens van uw account in de respectievelijke velden in om de gebruikersfeed te integreren en te synchroniseren. U kunt de gegevens van de beheerder van uw connectoraccount opvragen.
+1. The BlueJeans/ Zoom connector page opens. Enter the details of your account into respective fields to integrate and synchronize the user feed. You can get the details from the administrator of your connector account.
 
    ![](assets/bluejeans-connecotrpage.png)
-   *Verbinden met BlueJeans/Zoom*
+   *Connect to BlueJeans/ Zoom*
 
    >[!NOTE]
    >
-   >Als student gebruikt u bij het inschakelen van de connector dezelfde e-mail-ID die gebruikt wordt voor uw Learning Manager-account om gebruikersfeeds terug te laten keren naar Learning Manager.
+   >As a learner, while enabling the connector, use the same email id used for your Learning Manager account to enable user feeds back into Learning Manager.
 
-1. Zodra de verbinding tot stand is gebracht, kunnen auteurs een VC-cursus maken met BlueJeans/Zoom als conferentiesysteem.
+1. Once the connection is established, as an Author, create a VC course with BlueJeans/ Zoom as the conferencing system.
 
    ![](assets/vc.jpg)
+   
+   *Create a VC course*
 
-   *Een VC-cursus maken*
-
-1. Beheerders, managers en studenten kunnen studenten voor de gemaakte cursus inschrijven. Bij inschrijving ontvangt de student een e-mail. De student kan zich aanmelden op zijn Learning Manager-account om de details van het programma te bekijken en de cursus te volgen.
-1. Na afloop van de cursus wordt het eindrapport naar Learning Manager gestuurd. De beheerder kan het voltooiingsrapport bekijken om de aanwezigheid en de score van de studenten te controleren.
+1. Administrators, managers, and learners can enroll learners  to  the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
+1. When the course is complete, the completion report is sent to Learning Manager. The administrator can see the completion report to check the attendance and score of the learners.
 
    ![](assets/attendence-and-scoringreport.png)
-   *Aanwezigheid en scoringsrapport*
+   *Attendance and scoring report*
 
-### Een zoomserver-naar-server-OAuth-app maken
+### Create a zoom server-to-server OAuth app
 
-Wanneer u een Zoom Server-to-Server OAuth-app maakt voor gebruik in Adobe Learning Manager, moet u het bereik toevoegen dat door Adobe Learning Manager wordt vereist tijdens het maken van de verbinding.
+When you create a Zoom Server-to-Server OAuth app to be used in Adobe Learning Manager, you must add scopes required by Adobe Learning Manager while creating the connection.
 
-Voor Adobe Learning Manager zijn de onderstaande bereiken vereist. De bereiken moeten worden geselecteerd in de OAuth-app.
+Adobe Learning Manager requires the scopes below and the scopes must be selected in the OAuth app.
 
-* Alle gebruikersvergaderingen/vergaderingen weergeven:read:beheerder
-* Alle gebruikersvergaderingen/vergaderingen weergeven en beheren:write:beheerder
-* Rapportgegevens/rapport weergeven:read:beheerder
-* Alle gebruikersinformatie/gebruikers weergeven:read:beheerder
-* Gebruikersgegevens weergeven en gebruikers/gebruikers beheren:write:beheerder
+* View all user meetings /meeting:read:admin
+* View and manage all user meetings /meeting:write:admin
+* View report data /report:read:admin
+* View all user information /user:read:admin
+* View users' information and manage users /user:write:admin-->
 
 ## Box-connector {#boxconnector}
 
@@ -1918,56 +1918,56 @@ Exporteer gegevens van Learning Manager-gebeurtenissen naar een Marketo Engage-i
 * Zelfinschrijving
 * Voltooiing markeren
 
-## BlueJeans Events {#bj-events}
+<!--## BlueJeans Events {#bj-events}
 
-BlueJeans Events-connector verbindt Learning Manager met Blue Jeans-systemen om de synchronisatie van gegevens te automatiseren. Met deze connector kunt u:
+BlueJeans Events connector connects Learning Manager and BlueJeans systems to automate data synchronization. Using this connector, you can:
 
-* **Virtuele sessies instellen met BlueJeans Events:** Configureer een nieuwe gebeurtenis in BlueJeans en stel een VC-sessie in Learning Manager in door de juiste BlueJeans-gebeurtenis te selecteren. Details over datum en tijd worden automatisch uit de BlueJeans-events gehaald.
-* **Synchronisatie van geautomatiseerde gebruikersvoltooiing:** Via een geautomatiseerd proces voor het synchroniseren van gebruikersvoltooi kan de beheerder van de leermanager automatisch voltooiingsrecords voor BlueJeans-gebeurtenissen ophalen.
+* **Set up virtual sessions using BlueJeans Events:** Configure a new event in BlueJeans and setup a VC session in Learning Manager by selecting the appropriate BlueJeans event. Date and time details are picked automatically from the BlueJeans events.
+* **Automated User Completion Syncing:** An Automated user completion syncing process allows the Learning Manager Administrator to fetch completion records for BlueJeans events automatically.
 
-Deze nieuwe connector vereist een afzonderlijke set referenties om de connector te configureren. De referenties voor de bestaande BlueJeans Meetings-connector werken niet voor de BlueJeans Events-connector.
+This new connector requires a separate set of credentials to configure the connector. The credentials of the existing BlueJeans Meetings connector will not work for BlueJeans Events connector.
 
-![](assets/bj-event-connector.png)
-*Referenties voor BlueJeans Event-connector*
+![](assets/bj-event-connector.png) 
+*Credentials for BlueJeans Event Connector*
 
 ### Workflow {#workflow}
 
-1. De BlueJeans Event-moderator maakt een event in BlueJeans.
-1. De auteur maakt een cursus van een BlueJeans-event met behulp van de URL van het BlueJeans-event, die wordt gemaakt met een datum in de toekomst.
-1. Aangezien BlueJeans-events dezelfde titel hebben voor meerdere events, moet de auteur de URL van de bezoeker van het event toevoegen aan de ruimtenaam, zodat hij/zij het juiste event kan kiezen.
+1. The BlueJeans Event moderator creates an event from within BlueJeans.
+1. The author creates BlueJeans event course using the BlueJeans event url, which is created in future dates.
+1. Since BlueJeans events have a similar title for multiple events, the author must append the event attendee url to the room name, so that he/she can choose the appropriate event.
 
-   De indeling voor het invoeren van gebeurtenis-URL: ***naam van gebeurtenis—URL van deelnemer aan de gebeurtenis***
+   The format to enter event url: ***event name--event attendee url***
 
-   Voor dynamische ruimten is het gedrag vergelijkbaar met dat van Adobe Connect.
+   For Dynamic rooms, the behavior is similar to that of Adobe Connect.
 
    ![](assets/bj-eventname.png)
-   *BlueJeans Events-configuratie*
+   *BlueJeans Events configuration*
 
-1. Zodra de auteur de URL van het BlueJeans-event heeft ingevoerd, worden de datum en tijd automatisch ingevuld.
-1. Voeg een docent toe aan het event. De docent heeft nu extra bevoegdheden als presentator tijdens een BlueJeans-event.
+1. Once the author enters the BlueJeans event url, the date and time will be auto populated.
+1. Add an instructor to the event. The instructor will now have elevated privileges as a Presenter in a BlueJeans event.
 
-Beheerders, managers en studenten kunnen studenten voor de gemaakte cursus inschrijven. Bij inschrijving ontvangt de student een e-mail. De student kan zich aanmelden op zijn Learning Manager-account om de details van het programma te bekijken en de cursus te volgen.
+Administrators, managers, and learners can enroll learners to the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
 
-Na afloop van de cursus wordt het eindrapport na een ingestelde duur geactiveerd. De beheerder kan het voltooiingsrapport bekijken om de aanwezigheid en de score van de studenten te controleren.
+When the course is complete, the completion report gets triggered after a scheduled duration. The administrator can see the completion report to check the attendance and score of the learners.
 
-Als de BlueJeans Event-beheerder de opname tijdens de sessie inschakelt, is de opname na de sessie beschikbaar in de studenttoepassing.
+If the BlueJeans Event moderator enables the recording during the session, after session ends, the recording is available in the learner app.
 
 ![](assets/bluejeans-event-configure.png)
-*BlueJeans Events-configuratie*
+*BlueJeans Events configuration*
 
-Wanneer u het selectievakje **Gebeurtenissen gemaakt door de overige gebruikers ophalen** aanvinkt, kunt u vervolgens de lijst BlueJeans-gebeurtenismakers toevoegen in het veld **Extra Gebeurtenismakers**. In de Author-toepassing zijn alleen gebeurtenissen die door deze gebruikers zijn aangemaakt opzoekbaar via het zoekveld.
+When you enable the check-box **Fetch Events created by the other users**, you can then add the list of BlueJeans event creators in the **Additional Event Creators** field. In the Author app, only events created by these users are searchable via the type-ahead field.
 
-Als het veld **Extra Gebeurtenismakers** leeg blijft, worden alle gebeurtenissen die zijn aangemaakt in BlueJeans beschikbaar om te worden opgezocht in de Author-toepassing.
+If the **Additional Event Creators** field is left blank, all events created in BlueJeans will be available for searching in the Author App.
 
-De auteur selecteert vervolgens in de auteurstoepassing een gebeurtenis uit de lijst met beschikbare gebeurtenissen. Bovendien kan de auteur docenten aan de gebeurtenis toevoegen. Deze docenten in Learning Manager worden dan de presentatoren van de BlueJeans-evenementen.
-
->[!NOTE]
->
->Alle gebruikers moeten tot dezelfde onderneming behoren in de BlueJeans Events-app.
+The Author, in the Author app, then selects an event from the list of available events. In addition, the Author can add instructors to the event. These instructors in Learning Manager would become the presenters within BlueJeans events.
 
 >[!NOTE]
 >
->We hebben een caching-mechanisme toegevoegd dat de algehele gebruikerservaring verbetert. Het is van toepassing wanneer u extra gebeurtenismakers selecteert. In deze modus worden de gebeurtenissen de eerste keer opgehaald wanneer een auteur naar een gebeurtenis zoekt. De cache blijft 30 minuten staan, zodat auteurs weten hoelang ze moeten wachten om de nieuwe gebeurtenissen op te halen.
+>All users must belong to the same enterprise in BlueJeans Events App.
+
+>[!NOTE]
+>
+>We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
 ## Microsoft Teams-connector
 
