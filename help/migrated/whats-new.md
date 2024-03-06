@@ -3,9 +3,9 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de Adob
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
-source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
+source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3332'
 ht-degree: 1%
 
 ---
@@ -351,6 +351,12 @@ Witte labels weergeven in [Adobe Learning Manager mobiele app](white-label.md) v
 ### Toepassingsclassificatie
 
 Een student kan feedback geven over de app Adobe Learning Manager om de app-ervaring verder te verbeteren. Als de student vier sterren of meer telt, verschijnt er een pop-upvenster met een verzoek aan de student om de app te beoordelen in de Play Store of App Store.
+
+### Blauwjeans heeft in februari 2024 zijn einde bereikt
+
+We wilden u laten weten dat Bluejeans op februari 2024 zijn levenseinde (EOL) heeft bereikt. Na februari 2024 ontvangen Bluejeans geen updates of ondersteuning meer. Onze CSAM- en ondersteuningsteams helpen je bij vragen of zorgen die je tijdens deze overgangsperiode hebt.
+
+Weergave [Connectoren in Adobe Learning Manager](integration-admin/feature-summary/connectors.md) voor meer informatie over het configureren van connectoren.
 
 ## API-wijzigingen in deze versie
 
