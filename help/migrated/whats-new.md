@@ -3,9 +3,9 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de Adob
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
-source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
+source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
 workflow-type: tm+mt
-source-wordcount: '3332'
+source-wordcount: '3528'
 ht-degree: 1%
 
 ---
@@ -274,13 +274,32 @@ Weergave [Verzendstatus](instructors/feature-summary/learners.md#filter-file-sub
 
 ## Verbeteringen voor checklist
 
-### Verplicht controlelijst
+In de maart 2024-versie van Adobe Learning Manager zijn de volgende verbeteringen aangebracht in de workflow voor checklist:
 
-In de huidige versies van Adobe Learning Manager was voor een checklist de voortgang van een module toegestaan, zelfs als een revisor de modules als mislukt heeft gemarkeerd. In deze versie kan een auteur zo configureren dat de voortgang van een student niet aan de controlelijst voldoet.
+### Voortgang bij mislukken van checklist niet toestaan
 
-### Herbeoordeling controlelijst
+Bij het maken van een controlelijst kan een auteur **Inschakelen** in de sectie Verplichte checklist. Zo voorkomt u dat een student in de module doorgaat als deze niet aan de controlelijst voldoet. Ze kunnen alleen doorgaan als ze de controlelijst hebben gehaald.
 
-In dezelfde workflow kunt u, als auteur, een student opnieuw evalueren die niet voor een checklist is geslaagd. Selecteer de **Inschakelen** in de sectie Opnieuw evalueren, tijdens het maken van een controlelijst.
+De controleurs, d.w.z. instructeurs of managers, kunnen dan de status van de controlelijst controleren. Revisoren kunnen ook de checklist van een student buiten bestelling controleren.
+
+### Herbeoordeling van een checklist
+
+Bij het maken van een controlelijst kan een auteur **Inschakelen** in de sectie Herbeoordeling. Hiermee kan een manager of docent een student opnieuw evalueren totdat deze de controlelijst doorstaan.
+
+Als de module verplicht is, is het selectievakje voor herevaluatie standaard ingeschakeld.
+
+Een docent of manager kan ook de status van een checklist wijzigen van Niet geslaagd in geslaagd wanneer herevaluatie is ingeschakeld.
+
+Op de pagina Controlelijst ziet een docent het aantal studenten in de status In behandeling. Als docent kunt u een student evalueren en hem of haar laten slagen. Als de status van een student is mislukt, kunt u de controlelijst alleen weergeven als herevaluatie niet is ingeschakeld.
+
+Dit betekent dat de **Inschakelen** Selectievakje is niet geselecteerd in de sectie Herbeoordeling tijdens het maken van de controlelijst. Als dit selectievakje is ingeschakeld, ziet u de knop Weergeven/Opnieuw evalueren op de pagina Controlelijst voor docenten.
+
+Als u de knop selecteert, kunt u een student opnieuw evalueren en markeren dat deze geslaagd of gezakt is.
+
+>[!NOTE]
+>
+>Beide functies - herevaluatie en verplichte checklist - zijn alleen van toepassing op nieuwe modules. Nadat een cursus is gepubliceerd, kan deze niet in- of uitschakelen.
+
 
 Weergave [Een checklist maken](authors/feature-summary/courses.md#checklist-fail) voor meer informatie.
 
