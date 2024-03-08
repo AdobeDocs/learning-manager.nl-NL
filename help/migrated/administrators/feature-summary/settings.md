@@ -3,14 +3,13 @@ description: Lees meer over de instellingen van het Learning Manager-account die
 jcr-language: en_us
 title: Instellingen
 contentowner: manochan
-source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
+exl-id: a563d955-f67e-4218-88df-625cde673601
+source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
 workflow-type: tm+mt
-source-wordcount: '3815'
-ht-degree: 69%
+source-wordcount: '3980'
+ht-degree: 66%
 
 ---
-
-
 
 # Instellingen
 
@@ -421,10 +420,26 @@ Schakel de volgende instellingen in of uit:
    <td>
     <p>Instructeurbeheer<br></p></td>
    <td>
-    <p>Schakel deze instelling in om de lijst met docenten die kunnen worden geselecteerd bij het aanmaken van sessies in klaslokalen/virtuele klaslokalen te beperken. Alleen gebruikers met de docentbevoegdheid kunnen worden toegewezen als docent aan een sessie. Deze beperking is niet van toepassing op migratieworkflows.<br></p></td>
+    <p>Schakel deze instelling in om de lijst met docenten die kunnen worden geselecteerd bij het aanmaken van sessies in klaslokalen/virtuele klaslokalen te beperken. Alleen gebruikers met de docentbevoegdheid kunnen worden toegewezen als docent aan een sessie. Deze beperking is niet van toepassing op migratieworkflows.<br></p>
+  </td>
+  <tr>
+    <td>
+      <p>Vaardigheden importeren</p>
+    </td>
+    <td>
+      <p>Indien ingeschakeld, kunt u een externe bron kiezen om Vaardigheden te importeren. De vaardigheden voor bestaande leermiddelen worden één keer tijdens de eerste run geïmporteerd in de dataopslag. Voor alle volgende importen van leermiddelen worden Vaardigheden alleen voor nieuw geïmporteerde items geïmporteerd in de opslagplaats voor vaardigheden.
+      Als de optie eenmaal is ingeschakeld, is de handeling onomkeerbaar. U kunt een andere bron later niet uitschakelen of wijzigen.
+      </p>
+    </td>
+  </tr>
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>Als de instelling voor het importeren van vaardigheden is ingeschakeld, kan de accountlay-out niet meer worden overgezet naar Classic. Dit betekent dat overschakelen naar een Klassieke account is uitgeschakeld nadat het importeren van vaardigheden is ingeschakeld.
+
 
 ## Aanbeveling op basis van AI
 
@@ -578,6 +593,13 @@ U kunt de locatie ook toevoegen met behulp van een CSV. De CSV moet de volgende 
 * regio
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
+
+### Instellingen {#admin-classroom-settings}
+
+Selecteren **Bewerken** om het volgende te wijzigen:
+
+* **Laat auteurs locaties maken**: Als deze optie is ingeschakeld, worden alle locaties die door auteurs zijn gemaakt, weergegeven onder het tabblad Alle locaties. Studenten zien deze locaties ook onder de filters Catalogus en Kalender.
+* **Laat auteurs locaties wijzigen en verwijderen**: Als deze optie is ingeschakeld, kunnen auteurs alle locaties in de lesruimte wijzigen en verwijderen. De wijzigingen door auteurs worden op het hele platform doorgevoerd, inclusief rapporten.
 
 ## Veelgestelde vragen {#frequentlyaskedquestions}
 
