@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Instellingen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
+source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
 workflow-type: tm+mt
-source-wordcount: '3983'
+source-wordcount: '3985'
 ht-degree: 66%
 
 ---
@@ -438,7 +438,7 @@ Schakel de volgende instellingen in of uit:
 
 >[!NOTE]
 >
->Als de instelling voor het importeren van vaardigheden is ingeschakeld, kan de accountlay-out niet meer worden overgezet naar Classic, dat wil zeggen dat de overschakeling naar Classic-account is uitgeschakeld nadat de **Vaardigheidsimport** is ingeschakeld.
+>Als de instelling voor het importeren van vaardigheden is ingeschakeld, kan de accountlay-out niet meer worden overgeschakeld op de klassieke weergave. Het overschakelen naar een Klassieke account wordt dus uitgeschakeld nadat de **Vaardigheidsimport** is ingeschakeld.
 
 
 ## Aanbeveling op basis van AI
