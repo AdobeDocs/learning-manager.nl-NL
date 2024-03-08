@@ -4,10 +4,10 @@ title: Vaardigheden importeren uit externe bronnen
 description: Importeer Vaardigheden van contentproviders, zoals LinkedIn en Go1, met behulp van de respectievelijke connectoren.  De geïmporteerde vaardigheden worden toegevoegd aan de door de beheerder gedefinieerde vaardigheden in Leerbeheer en zijn beschikbaar voor auteurs tijdens de workflow voor het maken van de cursus.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
+source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 1%
+source-wordcount: '445'
+ht-degree: 0%
 
 ---
 
@@ -32,13 +32,13 @@ Het standaardvaardigheidsniveau is één en Credit is 10 nadat de vaardigheden z
 
 U kunt de naam van de vaardigheid, beschrijving en niveaus toevoegen aan externe vaardigheden niet bewerken. U kunt echter wel domein, badges en credits toevoegen.
 
-#### Wijzigingen rapportage
+#### Rapportage
 
-We hebben een nieuwe kolom toegevoegd **Bron** met waarden: Internal, LinkedIn Learning, Go1, die de bron van het importeren van vaardigheden aangeeft.
+De kolom **Bron** met waarden: Internal, LinkedIn Learning, Go1, die de bron van het importeren van vaardigheden aangeeft.
 
 De recent toegevoegde vaardigheden staan bovenaan.
 
-Aan de pagina Cursusinstellingen hebben we een nieuwe kolom toegevoegd **Toegewezen door** met waarden, intern en inhoudsprovider.
+Om de pagina Cursusinstellingen te openen, wordt de kolom **Toegewezen door** met waarden, intern en inhoudsprovider.
 
 
 ## Workflow voor integratiebeheer
