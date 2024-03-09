@@ -3,14 +3,13 @@ description: De gebeurtenissen in uw trainingsactiviteit zorgen ervoor dat e-mai
 jcr-language: en_us
 title: E-mailsjablonen
 contentowner: manochan
-source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
+exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 60%
+source-wordcount: '1520'
+ht-degree: 58%
 
 ---
-
-
 
 # E-mailsjablonen
 
@@ -219,6 +218,14 @@ U kunt ook het volgende aanpassen:
 * Bewerk de e-mailvoettekst. Het voettekstgebied bevat vooraf gedefinieerde variabelen voor de account-URL, de handtekening en eventuele vrije-vormtekst die de gebruiker toevoegt.
 
 De sjablonen ondersteunen ook geavanceerde bewerkingsmogelijkheden, zodat de opmaak behouden blijft wanneer inhoud wordt gekopieerd en geplakt van en naar Microsoft Word.
+
+### Instanties instellen
+
+In deze training leert u hoe u standaardinstellingen voor instanties instelt, een nieuwe instantie toevoegt, een instantie archiveert en opnieuw opent en e-mailsjablonen voor een instantie configureert.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 ## Inline-uitnodigingen {#inlineinvitations}
 

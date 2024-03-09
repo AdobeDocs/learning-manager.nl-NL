@@ -3,14 +3,13 @@ description: Dit document bestaat uit Help om cursusmodules, instanties en cursu
 jcr-language: en_us
 title: Cursusmodules, instanties en leerprogramma's maken
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: aba7417b-26a0-4160-878c-5814f84e5155
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '4544'
-ht-degree: 66%
+source-wordcount: '4604'
+ht-degree: 65%
 
 ---
-
-
 
 # Cursusmodules, instanties en leerprogramma&#39;s maken
 
@@ -23,6 +22,16 @@ Auteurs maken cursussen. Studenten kunnen de cursussen volgen en beheerders kunn
 Auteurs maken cursussen. Studenten kunnen de cursussen dan volgen en beheerders kunnen de prestaties van de studenten volgen op basis van gevolgde cursussen. Beheerders kunnen de cursussen die door auteurs zijn gemaakt, zien en enkele activiteiten uitvoeren, zoals uitgelegd in deze sectie. Als beheerder kunt u unieke leerprogramma&#39;s maken met een vooraf gedefinieerde set cursussen voor studenten.
 
 ## Voorbeeld van een cursus maken {#createinstanceofacourse}
+
+### Instanties beheren
+
+In deze training leert u hoe u instantiedetails en instantie-eigenschappen kunt bewerken.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+
+### Een instantie maken
 
 Nadat een auteur een cursus heeft gemaakt, kunt u instanties van de cursus maken. Door Instanties van een cursus te maken, kunt u dezelfde cursus op verschillende tijdstippen aan uw cursisten aanbieden. Studenten kunnen een willekeurige instantie kiezen en zich inschrijven. U kunt elke instantie configureren met een eigen set badges, feedback en andere instellingen.
 
@@ -105,6 +114,14 @@ E-mails op instantieniveau verzenden naar ingeschreven studenten:
 1. Nadat u op **[!UICONTROL Opslaan]** hebt geklikt, ziet u een bevestigingsbericht voor het maken van de aankondiging. Als u de aankondiging wilt publiceren, klikt u op **[!UICONTROL Nu publiceren]**.
 
    ![Aankondiging is gemaakt](assets/announcement-successful.png)
+
+### Studenten inschrijven voor cursussen
+
+In deze training leert u studenten inschrijven, uitschrijven en opnieuw inschrijven.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 ### Studenten inschrijven in verschillende instanties
 

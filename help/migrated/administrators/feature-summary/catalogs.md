@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Catalogi
 description: 'Catalogi zijn een verzameling leermiddelen: cursussen, leerprogramma''s en certificeringen. Gebruik catalogi om studenten te voorzien van toegang tot een aangepaste set leermaterialen. U kunt leermateriaal aan een catalogus koppelen tijdens het maken van een nieuwe catalogus.'
 contentowner: manochan
-source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
+exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 76%
+source-wordcount: '2429'
+ht-degree: 75%
 
 ---
-
-
 
 # Catalogi
 
@@ -132,6 +131,14 @@ U kunt ook meerdere catalogi verwijderen.
 Een beheerder kan de catalogi delen met interne gebruikers van een organisatie of met externe gebruikers. Het delen is echter exclusief. Met andere woorden, een intern gedeelde catalogus kan niet met externe groepen worden gedeeld en vice versa.
 
 Cursussen, leerprogramma&#39;s, taakhulpen en certificeringen kunt u als leerobjecten toevoegen aan een catalogus die u wilt delen.
+
+### Catalogi delen
+
+Met deze training leert u hoe u catalogi kunt delen met interne gebruikersgroepen en externe Adobe Leerbeheeraccounts.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 ## Een catalogus intern delen {#int}
 
@@ -340,4 +347,3 @@ Nadat u cataloguslabels hebt gemaakt, kunt u deze als volgt op specifieke catalo
 Schakel de standaardcatalogus uit en schakel alleen de catalogus in die is gemaakt en die toegang heeft gekregen tot externe gebruikers.
 
 +++
-

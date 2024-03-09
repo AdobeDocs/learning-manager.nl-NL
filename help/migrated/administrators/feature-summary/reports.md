@@ -3,14 +3,13 @@ description: Lees meer over de rapporten die in de Learning Manager-toepassing a
 jcr-language: en_us
 title: Rapporten
 contentowner: manochan
-source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
+exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '6502'
-ht-degree: 64%
+source-wordcount: '6624'
+ht-degree: 63%
 
 ---
-
-
 
 # Rapporten
 
@@ -580,6 +579,14 @@ Als u tijdens het maken van een collega-account de optie Catalogus delen niet he
 
 U kunt uw favoriete rapporten als e-mail ontvangen door u hierop te abonneren.
 
+### E-mailabonnementen instellen
+
+In deze training leert u hoe u e-mailabonnementen kunt instellen voor dashboardrapporten.
+
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+
 In **[!UICONTROL Rapporten]** op de pagina  **[!UICONTROL Abonnement]** tabblad. De abonnementspagina voor rapporten verschijnt.
 
 Als u de rapportnaam in de vervolgkeuzelijst wilt selecteren, typt u de rapportnaam in het veld Rapporten. Kies in de lijst hoe vaak u e-mail wilt ontvangen. U kunt het onderwerp van de e-mail toevoegen en een alternatief e-mailadres opgeven.
@@ -600,6 +607,7 @@ De volgende rapporttypen zijn beschikbaar om te downloaden.
 * Audittrail van gebruiker
 * Aanmeldings-/toegangsrapport
 * Gamificationtranscripten
+* Gamification Audittrail
 
 ## Studenttranscripten {#learnertranscripts}
 
@@ -841,6 +849,33 @@ Beheerders kunnen gamificationtranscript in CSV-indeling downloaden. U kunt het 
 
    Wanneer de beheerder de gamification herstelt, worden alle punten van de student overeenkomstig hersteld.
 
+## Rapport Gamification-audittrail {#gamification-audit-trail}
+
+Dit rapport bevat de geschiedenis en de redenen voor de gamificationpunten van studenten die voor elke regel zijn verdiend.
+
+### Rapport downloaden
+
+1. Selecteer de URL van het Gamification-audittrail.
+1. Op de **Audittrail van gamification** selecteert u het datumbereik.
+1. Selecteren **Genereren**.
+
+Het rapport wordt gedownload als een CSV-bestand. Het bestand bevat de volgende kolommen:
+
+* Naam
+* E-mail/UUID,
+* Status
+* Actie
+* Punten,
+* Saldo punten
+* Regel/taak
+* Regel-/taaksubtaak,
+* Regel/taakdetails
+* Type
+* Naam
+* InstantienaamDate bereikt (UTC-tijdzone)
+* Regel/Begintijd taak
+* Regel/Eindtijd van taak
+
 ## Inschrijvings- en uitschrijvingsrapport {#enrollmentandunenrollmentreport}
 
 Beheerders en managers kunnen een rapport extraheren van de studenten die zijn ingeschreven en uitgeschreven. Als beheerder kunt u alle studenten, beheerders of managers zien die zijn in- of uitgeschreven voor een instantie van een cursus, leerprogramma of certificering en het rapport exporteren. Als manager kunt u alleen een rapport van uw teamleden ophalen. Als manager kunt u de verwijderde studenten of uw eigen naam niet zien in de managertoepassing als ingeschreven of uitgeschreven student.
@@ -900,7 +935,7 @@ Het rapport zal de volgende velden bevatten:
 ![](assets/more-options.png)
 *Aanvullende opties*
 
-## Overzichtsrapport van de sessie
+## Overzichtsrapport van de sessie {#session-summary-report}
 
 Het rapport Sessiesamenvatting bevat alle sessies die voor een student zijn gepland binnen een opgegeven datum.
 
@@ -925,17 +960,17 @@ De gedownloade csv bevat de volgende velden:
 * Aantal licenties
 * Locatie
 * Instantienaam
-
 * Cursusnaam
 * Cursus-id
 * Naam docent
 * E-mailadres docent
 * Inschrijvingsaantal
-
 * Type sessie
 * Wachtlijstlimiet
 * Aantal wachtlijsten
 * E-mailadressen gebruikers wachtlijst
+* Informatie over locatie
+* Regio locatie
 
 ## Gebruiksrapport van docent
 
