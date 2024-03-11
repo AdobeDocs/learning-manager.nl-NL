@@ -1,10 +1,11 @@
 ---
 title: Niet-aangemelde ervaring voor studenten
 description: Adobe Leermanager (eigen portal) ondersteunt een niet-geregistreerde manier om toegang te krijgen tot de trainingssite. Als deze modus is ingeschakeld, kunnen studenten de trainingssite vinden en openen en verschillende beschikbare cursussen en inhoud uitchecken. Met de niet-aangemelde ervaring kunnen studenten naar cursussen bladeren zonder in een portal te zijn aangemeld.
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 43%
+source-wordcount: '581'
+ht-degree: 41%
 
 ---
 
@@ -30,7 +31,7 @@ Leermanager Adobe - Met API&#39;s voor studenten kunt u een aangepaste leerervar
 
 >[!IMPORTANT]
 >
->Ze mogen niet worden gebruikt, zoals bij het ophalen van gegevens, om niet-aangemelde gebruikers/gedeelde gebruikers of andere dergelijke gevallen te ondersteunen.
+>Ze mogen niet worden gebruikt, zoals bij het ophalen van gegevens, om niet-aangemelde gebruikers/gedeelde gebruikers of andere dergelijke gevallen te ondersteunen. Neem contact met ons op als u een headless of AEM gebaseerde, niet-aangemelde ervaring wilt opbouwen. Wij zullen de juiste benadering voorstellen op basis van uw eisen.
 
 Voor de niet-aangemelde gebruiksscenario&#39;s is een speciale afhandeling vereist.
 

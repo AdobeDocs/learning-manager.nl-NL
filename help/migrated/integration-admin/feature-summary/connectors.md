@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager-connectoren
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: d857ee5d17156e47d20deba22ae88739f82ac3e8
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '15183'
+source-wordcount: '15243'
 ht-degree: 64%
 
 ---
@@ -1946,15 +1946,22 @@ Zie voor meer informatie  [**Microsoft Teams-connector installeren in Adobe Lear
 
 ## Training Data Access
 
+
+>[!IMPORTANT]
+>
+>Deze specifieke functionaliteit is alleen beschikbaar als Adobe Learning Manager wordt verkocht als een Add on aan Adobe Experience Manager. De cursusgegevens zouden over 24 uur stabiel zijn.
+
+
 >[!NOTE]
 >
->**Deze specifieke functionaliteit is alleen beschikbaar als Adobe Learning Manager wordt verkocht als een Add-on bij Adobe Experience Manager.**
+>De sectie laat zien hoe de infrastructuur werkt, maar voor het bouwen van een headless of AEM gebaseerde niet-aangemelde ervaring kunt u contact met ons opnemen. We zullen de juiste benadering voorstellen voor uw gebruik. Deze functionaliteit is momenteel niet beschikbaar als selfservice.
+
 
 De Training Data Access-connector stelt u op AEM-sites gebaseerde gebruikersinterface in staat om trainingsinformatie op te halen en weer te geven aan de lerenden, en helpt om gemakkelijk en sneller te zoeken.
 
 De connector exporteert trainingsmetadata naar een oplossing voor gegevensopslag en -opzoeking. U kunt dan uw interface op basis van AEM Sites configureren om deze twee diensten te gebruiken om trainingsgegevens op te halen, webpagina&#39;s te renderen, en geoptimaliseerde trainingszoekfunctionaliteit aan de lerenden aan te bieden.
 
-Een niet-aangemelde, op AEM Sites gebaseerde interface kan de geëxporteerde metagegevens bijvoorbeeld gebruiken om studenten te helpen bij het zoeken naar, bladeren naar en toegang krijgen tot trainingspagina&#39;s met trainingsinformatie
+Het artikel benadrukt hoe de infrastructuur werkt, maar voor het bouwen van een headless of AEM gebaseerde niet-aangemelde ervaring kunt u contact met ons opnemen. We zullen de juiste benadering voorstellen voor uw gebruik. Deze functionaliteit is momenteel niet beschikbaar als selfservice.
 
 Schakel deze connector in om uw webpagina&#39;s op basis van AEM Sites te bouwen en te renderen, en uw leerlingen aangepaste ervaringen aan te bieden vanuit AEM, waar de cursusinformatie wordt opgehaald door een openbare API te gebruiken (headless LMS).
 
