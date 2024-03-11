@@ -3,14 +3,13 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de Adob
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
-source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
+exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
+source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
 workflow-type: tm+mt
-source-wordcount: '3528'
+source-wordcount: '3600'
 ht-degree: 1%
 
 ---
-
-
 
 # Overzicht van nieuwe functies {#new-features-summary}
 
@@ -376,6 +375,14 @@ Een student kan feedback geven over de app Adobe Learning Manager om de app-erva
 We wilden u laten weten dat Bluejeans op februari 2024 zijn levenseinde (EOL) heeft bereikt. Na februari 2024 ontvangen Bluejeans geen updates of ondersteuning meer. Onze CSAM- en ondersteuningsteams helpen je bij vragen of zorgen die je tijdens deze overgangsperiode hebt.
 
 Weergave [Connectoren in Adobe Learning Manager](integration-admin/feature-summary/connectors.md) voor meer informatie over het configureren van connectoren.
+
+### Wijzigingen in het rapport Toegang tot aanmelding
+
+Het rapport Toegang tot aanmelding is alleen beschikbaar voor de afgelopen vijf kwartalen. Als om het even welke Admin van de Integratie om Download vraagt van de Verenigde Uitvoer met **Toegang tot aanmelding** Als deze optie is ingeschakeld, geeft Adobe Learning Manager een foutbericht weer. Er is echter geen invloed op andere verslagen.
+
+### ADFS-wijzigingen
+
+De velden Employee Type en Employee ID van ADFS zijn nu beschikbaar in Adobe Learning Manager, op basis van de toewijzingen.
 
 ## API-wijzigingen in deze versie
 
