@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Learning Manager-connectoren
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
+source-git-commit: 59d5e166747b332833ca68344691008670219366
 workflow-type: tm+mt
-source-wordcount: '15243'
-ht-degree: 64%
+source-wordcount: '15334'
+ht-degree: 63%
 
 ---
 
@@ -745,6 +745,12 @@ Via Gebruikersvaardigheden exporteren kunnen gebruikers automatisch gebruikersva
 >[!NOTE]
 >
 >Het is niet mogelijk vaardigheden van meerdere Learning Manager-accounts tegelijkertijd met hetzelfde Workday-account te exporteren.
+
+#### Opmerkingen
+
+* Zorg ervoor dat UUID, E-mailadres en naam van de medewerker uniek zijn in meerdere Workday-integraties. Onjuiste waarden leiden tot een verbindingsfout.
+* Het UUID-veld dat eenmaal via Workday is ingevuld, kan niet worden verwijderd door een client-side LMS-beheerder. Als u de waarde wilt wijzigen, neemt u contact op met het Adobe Learning Manager onboarding- of ondersteuningsteam.
+* De optie Gebruikers leegmaken werkt mogelijk ook niet omdat gebruikers leegmaken alleen ondersteuning biedt voor 50 gebruikers die per run moeten worden leeggemaakt. Wees uiterst voorzichtig bij het uploaden van de gebruikers via de UUID&#39;s.
 
 ### Planning {#Scheduling-1}
 
