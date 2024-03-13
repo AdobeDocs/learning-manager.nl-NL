@@ -1,35 +1,35 @@
 ---
 jcr-language: en_us
-title: API-implementaties in Adobe Learning Manager
+title: Witte labels in de mobiele app van Adobe learning Manager
 description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
-source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
+exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
+source-git-commit: 8fe01ca3c0e11d5d62645f4fa7695fce504e0da2
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
-
 
 # Witte labels in de mobiele app van Adobe learning Manager
 
 De mobiele app van Adobe Learning Manager ondersteunt nu witte labels, wat betekent dat u de app nu onder uw eigen merknaam kunt uitbrengen.
 
-## Hoe je begint met de voorbereidingen om je app met witlabel te starten
+## Hoe je je voorbereidt om je wit gelabelde app te starten
 
-Voer de volgende stappen uit om uw eigen whitelabel app te distribueren en te beheren:
+Voer de volgende stappen uit om uw eigen witte app met labels te implementeren en te beheren:
 
-1. Bereid de middelen (bijvoorbeeld in het welkomstscherm) en de tekst voor, zodat beide kunnen worden gebruikt in de app en de beschrijving in de app/Play Store.
+1. Bereid de elementen voor (zoals een afbeelding op het welkomstscherm) en de tekst zodat deze beide kunnen worden gebruikt in de app en de beschrijving in de app/play store.
 
-1. Wijs een technische bron toe die in staat is om:
+1. Wijs een technische hulpbron toe die in staat is om:
 
-* Het genereren van de certificaatbestanden voor pushmeldingen.
-* Het ondertekenen van de binaire bestanden van de app die worden geleverd door het ALM-team.
-* Het uploaden en beheren van het publicatieproces. Het publicatieproces vereist een communicatie tussen uw app-manager en de teams in de app/Play Store dat uw app voldoet aan alle publicatierichtlijnen. Van ALM ontvangt u een volledig compatibel binair bestand van een app.
+* Certificaatbestanden voor pushmeldingen genereren.
+* De app-binaire bestanden van het ALM-team ondertekenen.
+* Uploaden en het publicatieproces beheren. Het publicatieproces vereist communicatie tussen uw app-manager en app/play store-teams dat uw app voldoet aan alle publicatierichtlijnen. Vanuit ALM ontvangt u een volledig compatibele binaire app.
 
 ## Overzicht
 
-White labelen is een gewoonte waarbij u een nieuwe merknaam aan een app of service toegeeft aan uw eigen merk en deze aan te passen alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u whitelabels toepassen op de mobiele app, zodat u de app een nieuwe naam kunt wijzigen en de app onder uw eigen merk beschikbaar maken voor uw gebruikers.
+Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 
 ## Wat kan worden aangepast
 
@@ -216,7 +216,7 @@ Raadpleeg de volgende koppelingen voor meer informatie:
 
 ## Certificaat voor pushmeldingen genereren
 
-### Certificaat voor pushmeldingen op iOS
+### Certificaat voor pushberichten op iOS
 
 In de ontwikkeling van een iOS-app is een certificaat voor pushmeldingen een cryptografische referentie die door Apple is uitgegeven waarmee een server op een veilige manier pushmeldingen naar een iOS-apparaat kan verzenden via APN&#39;s (Apple Push Notification service).
 
@@ -228,13 +228,13 @@ Zowel Android als iOS gebruiken Firebase Cloud Messaging (FCM) als service voor 
 
 Volg de procedure:
 
-1. Genereer of download de **Pushmeldingscertificaat** en persoonlijke sleutel (.p12). Raadpleeg het [Apple-document voor ontwikkelaars](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns) voor meer informatie.
+1. Genereer of download de **Pushmeldingscertificaat** en persoonlijke sleutel (.p12). Zie de klasse [Apple-document voor ontwikkelaars](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
 
-1. Installeer het p12-bestand nadat het bestand is gedownload. Gebruik het wachtwoord om uw **Keychain-toegang** te installeren.
+1. Installeer het p12-bestand nadat het bestand is gedownload. Gebruik het wachtwoord om in uw **Sleutelhangertoegang**.
 
-1. Navigeer naar **Mijn certificaten** en exporteer het certificaat. Zorg ervoor dat u het MIME-type selecteert .cer.
+1. Navigeer naar **Mijn certificaten** en exporteer het certificaat. Zorg ervoor dat u het mime-type .cer selecteert.
 
-1. Zodra het p12-bestand en het cer-bestand beschikbaar zijn, voert u de volgende opdrachten uit:
+1. Zodra u het p12-bestand en het cer-bestand beschikbaar hebt, voert u de volgende opdrachten uit:
 
 ```
 - openssl pkcs12 -in privatekey.p12 -out myapnappkey.pem -nodes –clcerts
@@ -244,13 +244,13 @@ Volg de procedure:
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
 
-Als u verbinding kunt maken met de server, is het certificaat dat u hebt gemaakt geldig. Kopieer vanuit het bestand myapnappkey.pem het certificaat en de waarden van de persoonlijke sleutel.
+Als u verbinding kunt maken met de server, is het certificaat dat u hebt gemaakt geldig. Kopieer het certificaat en de waarden voor de persoonlijke sleutel uit het bestand myapnappkey.pem.
 
-1. Neem contact op met het CSM-team en ontvang de bestanden die zijn toegevoegd aan de SNS-services op AWS. Gebruikers moeten voor de pushmelding een vermelding ophalen die is geregistreerd in de SNS-service, waardoor ze de hierboven gegenereerde certificaten moeten delen voor validatie.
+1. Neem contact op met het CSM-team en voeg de bestanden toe aan de SNS-services op AWS. Gebruikers moeten de vermelding bij de SNS-service laten registreren voor de pushmelding, waardoor ze de hierboven gegenereerde certificaten moeten delen voor validatie.
 
 >[!NOTE]
 >
->Voor Android moet de gebruiker de serversleutel opgeven van het Firebase-project dat ze voor Android hebben gemaakt om de vermelding in de SNS-service toe te voegen.
+>Voor Android moet de gebruiker de serversleutel opgeven uit het Firebase-project dat hij voor Android maakt om de invoer toe te voegen aan de SNS-service.
 
 
 ## Het project toevoegen aan Firebase
