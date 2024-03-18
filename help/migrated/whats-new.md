@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
+source-git-commit: 42d595e167663cb368e3597cfc4d9a49313ff46d
 workflow-type: tm+mt
 source-wordcount: '3661'
 ht-degree: 1%
@@ -368,7 +368,7 @@ Witte labels weergeven in [Adobe Learning Manager mobiele app](white-label.md) v
 
 ### Nieuwe kolom in migratie-CSV&#39;s
 
-Deze release bevat een nieuwe kolom (optioneel), uniqueLoId, in de volgende CSV&#39;s voor migratie.
+Deze release bevat een nieuwe optionele kolom, uniqueLoId, in de volgende CSV&#39;s voor migratie.
 
 * certification.csv
 * course.csv
