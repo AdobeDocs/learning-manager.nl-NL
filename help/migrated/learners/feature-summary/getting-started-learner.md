@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Aan de slag als student
 description: Gebruik de pagina Aan de slag om door de belangrijkste leerpaden van Adobe Learning Manager te navigeren.
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
+source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 66%
 
 ---
-
-
 
 # Aan de slag als student
 
@@ -26,7 +25,7 @@ In de Learning Manager-webtoepassing kunt u, nadat u zich als student hebt aange
 
 **Mijn leerervaring**: u kunt de leerobjecten per type en per deadline bekijken en aanklikken. Klik op de cirkel in de widget Mijn leerervaring om direct naar het type leerobject te gaan, of om de leerobjecten per deadline te bekijken.
 
-**Mijn Vaardigheden**: u kunt ook de vaardighedenkaart in de rechterbovenhoek van de pagina bekijken. Verwijzen  [vaardighedenkaart](skills-levels.md)voor meer informatie.
+**Mijn Vaardigheden**: u kunt ook de vaardighedenkaart in de rechterbovenhoek van de pagina bekijken. Verwijzen  [vaardighedenkaart](skills-levels.md) voor meer informatie.
 
 **Widget leerobject**: u vindt deze direct onder Mijn leerervaring, en u vindt er de leerobjecten voor de gebruiker. Onder Mijn leerervaring kunt u alle  [cursussen](courses.md),  [leerprogramma&#39;s](learning-programs.md) en  [certificeringen](certifications.md) die door u zijn ingeschreven of aan u zijn toegewezen. U kunt direct beginnen met het volgen van een leerobject, of een leerobject opnieuw bekijken vanuit deze widget.
 
