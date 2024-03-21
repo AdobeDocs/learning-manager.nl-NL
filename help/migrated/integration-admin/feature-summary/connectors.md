@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Learning Manager-connectoren
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 59d5e166747b332833ca68344691008670219366
+source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
 workflow-type: tm+mt
-source-wordcount: '15334'
-ht-degree: 63%
+source-wordcount: '15326'
+ht-degree: 64%
 
 ---
 
@@ -1561,45 +1561,45 @@ Voorwaarden om een ADFS-verbinding tot stand te brengen:
 
 1. Klik op Azure Active Directory. Klikken **[!UICONTROL Toevoegen]** > **[!UICONTROL Toepassingsregistratie]**.
 
-   ![](assets/add-app-registration.png)
+   <!--![](assets/add-app-registration.png)-->
    *App-registratie toevoegen*
 
 1. Voer de naam in van de toepassing.
 
-   ![](assets/register-app.png)
+   <!--![](assets/register-app.png)-->
    *Voer de naam van de toepassing in*
 
    Klik op **[!UICONTROL Registreren]**.
 
 1. Selecteer in het rechterdeelvenster **[!UICONTROL Certificaten en geheimen]**.
 
-   ![](assets/add-client-secret.png)
+   <!--![](assets/add-client-secret.png)-->
 
    *Certificaten en geheimen selecteren*
 
 1. Voeg een client-geheim toe.
 
-   ![](assets/add-description.png)
+   <!--![](assets/add-description.png)-->
 
    *Een clientgeheim toevoegen*
 
 1. Voeg een beschrijving toe aan het geheim en stel de vervaldatum in op 24 maanden.
 
-   ![](assets/copy-values.png)
+<!-- ![](assets/copy-values.png)-->
 
-   *Beschrijving toevoegen*
+*Beschrijving toevoegen*
 
 1. Kopieer de waarde en het geheim naar bijvoorbeeld het kladblok.
 
-   ![](assets/copy-secret.png)
+<!-- ![](assets/copy-secret.png)-->
 
-   *Waarde en geheime sleutel kopiëren*
+*Waarde en geheime sleutel kopiëren*
 
 1. Klik op **API-machtigingen**.
 
-   ![](assets/click-api-permission.png)
+   <!--![](assets/click-api-permission.png)-->
 
-   *Linkerdeelvenster met API-machtigingen*
+<!-- *Left pane containing API Permissions*-->
 
 1. Selecteer **Machtigingen toevoegen**. Schakel ook de optie **Admin toestemming verlenen** in.
 
@@ -1609,9 +1609,9 @@ Voorwaarden om een ADFS-verbinding tot stand te brengen:
 
 1. Selecteer **Microsoft Graph**.
 
-   ![](assets/ms-graph.png)
+   <!--![](assets/ms-graph.png)-->
 
-   *Microsoft-grafiek selecteren*
+   <!--*Select Microsoft Graph*-->
 
 1. Selecteer **Toepassingstoestemmingen**.
 
@@ -1639,9 +1639,11 @@ Voorwaarden om een ADFS-verbinding tot stand te brengen:
 
 1. Selecteer **Machtigingen toevoegen**.
 
-   ![](assets/select-add-permission.png)
+   <!--![](assets/select-add-permission.png)-->
 
-   *Selecteer Machtigingen toevoegen*
+<!-- *Select Add Permissions*-->
+
+### ADFS-configuratiepagina
 
 1. Voer op de ADFS-configuratiepagina in Adobe Learning Manager de client-id en het eerder verkregen client-geheim in.
 
