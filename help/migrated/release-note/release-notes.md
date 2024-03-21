@@ -3,14 +3,13 @@ description: Meer informatie over de nieuwe functies en verbeteringen in Adobe L
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
-source-git-commit: 35dc1f0880793a3f26ee70a3e9993d7520866b44
+exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
+source-git-commit: 8f7793ff878a13560ac556440fa1c18dc7675db9
 workflow-type: tm+mt
-source-wordcount: '26196'
+source-wordcount: '26225'
 ht-degree: 72%
 
 ---
-
-
 
 # Overzicht van nieuwe functies
 
@@ -24,13 +23,22 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
-+++Update 95: de november 2023-versie van Adobe Learning Manager
++++Update 96: De Adobe Learning Manager van maart 2024
 
 **Releasedatum:** 18 november 2023
 
 ## Nieuw in deze release
 
 Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new.md) voor meer informatie.
++++
+
++++Update 95: de november 2023-versie van Adobe Learning Manager
+
+**Releasedatum:** 18 november 2023
+
+## Nieuw in deze release
+
+Bekijk [Wat is er nieuw in Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023) voor meer informatie.
 +++
 
 +++Update 94
