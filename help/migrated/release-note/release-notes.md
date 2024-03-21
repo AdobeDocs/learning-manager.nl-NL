@@ -1,12 +1,12 @@
 ---
-description: Meer informatie over de nieuwe functies en verbeteringen in Adobe Learning Manager
+description: Opmerkingen bij de release van Adobe Learning Manager
 jcr-language: en_us
-title: Overzicht van nieuwe functies
+title: Opmerkingen bij de release van Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 8f7793ff878a13560ac556440fa1c18dc7675db9
+source-git-commit: adf75b7f451e7977f6b5ccd3550dc26d33162d66
 workflow-type: tm+mt
-source-wordcount: '26225'
+source-wordcount: '26221'
 ht-degree: 72%
 
 ---
