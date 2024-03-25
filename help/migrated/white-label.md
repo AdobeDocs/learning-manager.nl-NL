@@ -4,9 +4,9 @@ title: Witte labels in de mobiele app van Adobe learning Manager
 description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
+source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -201,10 +201,19 @@ U kunt het volgende aanpassen:
 
 </table>
 
+>[!NOTE]
+>
+>Geef de gegevens op aan uw CSAM&#39;s, zodat ze deze kunnen toevoegen aan uw aangepaste binaire toepassingscode.
 
-#### Site-koppeling bijwerken
+
+#### Koppeling naar sites bijwerken om aangepaste diepte te verwerken
 
 Als u een aangepast domein of leermanager als host gebruikt, hoeft u geen actie te ondernemen. Als u echter een aangepaste oplossing of een specifieke hostnaam voor de URL&#39;s gebruikt, voegt u de sitegekoppelde bestanden toe.
+
+>[!CAUTION]
+>
+>Als de bestanden niet aanwezig zijn, werken de vervormingen niet. Zorg ervoor dat de bestanden aanwezig zijn.
+
 
 Raadpleeg de volgende koppelingen voor meer informatie:
 
@@ -212,9 +221,16 @@ Raadpleeg de volgende koppelingen voor meer informatie:
 
 - [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
-## Certificaat voor pushmeldingen genereren
+## Pushmeldingen genereren
 
-### Certificaat voor pushberichten op iOS
+Voor het verzenden van pushmeldingen naar Android- en iOS-apps zijn twee verschillende mechanismen vereist.
+
+* Voor iOS genereert u de certificaten voor pushmeldingen.
+* Geef voor Android een serversleutel op die is gegenereerd uit het Firebase-project.
+
+Volg de onderstaande instructies om de projecten in Firebase in te stellen:
+
+### Pushmeldingen op iOS
 
 In de ontwikkeling van een iOS-app is een certificaat voor pushmeldingen een cryptografische referentie die door Apple is uitgegeven waarmee een server op een veilige manier pushmeldingen naar een iOS-apparaat kan verzenden via APN&#39;s (Apple Push Notification service).
 
@@ -241,19 +257,24 @@ Volg de procedure:
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
-
 Als u verbinding kunt maken met de server, is het certificaat dat u hebt gemaakt geldig. Kopieer het certificaat en de waarden voor de persoonlijke sleutel uit het bestand myapnappkey.pem.
 
-1. Neem contact op met het CSM-team en voeg de bestanden toe aan de SNS-services op AWS. Gebruikers moeten de vermelding bij de SNS-service laten registreren voor de pushmelding, waardoor ze de hierboven gegenereerde certificaten moeten delen voor validatie.
+### Pushmeldingen op Android
+
+Stel een project in op Firebase en deel de serversleutel met de CSAM.
+
+Neem contact op met het CSM-team en voeg de bestanden toe aan de SNS-services op AWS. Gebruikers moeten de vermelding bij de SNS-service laten registreren voor de pushmelding, waardoor ze de hierboven gegenereerde certificaten moeten delen voor validatie.
 
 >[!NOTE]
 >
 >Voor Android moet de gebruiker de serversleutel opgeven uit het Firebase-project dat hij voor Android maakt om de invoer toe te voegen aan de SNS-service.
 
 
-## Het project toevoegen aan Firebase
+## Project maken in Firebase
 
 ### Android
+
+Hergebruik hetzelfde project dat u in de bovenstaande stappen hebt gemaakt voor pushmeldingen.
 
 [Het project toevoegen](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Firebase en haalt het ***google-services.json*** bestand.
 
@@ -261,19 +282,24 @@ Als u verbinding kunt maken met de server, is het certificaat dat u hebt gemaakt
 
 [Het project toevoegen](https://firebase.google.com/docs/ios/setup) naar Firebase en haalt de ***GoogleService-Info.plist*** bestand.
 
+>[!IMPORTANT]
+>
+>Verzend de bestanden naar het CSAM-team van Adobe Learning Manager om de build van uw binaire bestand voor de app op te nemen.
+
+
 ## De ondertekende binaire bestanden genereren
 
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath ./mobile-app-embedding-immersive/build/ios/archive/Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
 
 >[!NOTE]
 >
->U hebt XCode 14.2 of hoger nodig om de ondertekende binaire bestanden te maken.
+>U hebt XCode 15.2 of hoger nodig om de ondertekende binaire bestanden te maken.
 
 
 ## Android
