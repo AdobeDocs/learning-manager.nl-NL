@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: df56839b761ec3ab5354b5ea84b805608c36451c
+source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3764'
 ht-degree: 1%
 
 ---
@@ -42,7 +42,7 @@ Als een groot aantal studenten voor de cursus is ingeschreven, bijvoorbeeld meer
 
 ### Beheerder- pagina Studenten
 
-Wanneer u op een gebruiker zoekt, wordt **Student downloaden** en **Exporteren** dezelfde opties downloaden. Tijdens het zoeken naar een gebruikersgroep kunt u nu gefilterde gebruikers downloaden van die gebruikersgroep. Bij het zoeken in een gebruikersgroep wordt **Studentenlijst downloaden** wijzigingen in **Leerlijst voor gebruikersgroep downloaden** De **Exporteren** wordt de gehele lijst gedownload.
+Wanneer u op een gebruiker zoekt, wordt **Student downloaden** en **Exporteren** dezelfde opties downloaden. Tijdens het zoeken naar een gebruikersgroep kunt u nu gefilterde gebruikers downloaden van die gebruikersgroep. Bij het zoeken in een gebruikersgroep wordt **Studentenlijst downloaden** wijzigingen in **Studentenlijst voor gebruikersgroep downloaden** De **Exporteren** wordt de gehele lijst gedownload.
 
 ### Beheerderspagina - Gebruikers
 
@@ -230,11 +230,24 @@ Als een gebruikersgroep een groot aantal gebruikers bevat, wordt de **Status** v
 In deze release hebben we de zoekervaring verbeterd. De zoekresultaten worden niet alleen opgehaald op basis van de metagegevens, maar ook op basis van semantische zoekresultaten en zoekopdrachten in de inhoud om resultaten af te leiden op basis van precisie, recentheid en relevante inhoud.
 
 Deze wijziging heeft betrekking op het volgende:
+
 * Pagina Catalogus en Mijn leerervaring: de aanwijsactie voor de cursus, het leerpad en de certificering is verwijderd.
 * De weergave van de zoekbalk.
 * Filtertags toegevoegd in de leerapp.
 
 Neem contact op met het CSAM-team van Adobe Learning Manager om de zoekmogelijkheden in te schakelen.
+
+## Veranderingen in gebruikersinterface {#ui-changes}
+
+### Pagina Cursusontwerp
+
+Tijdens het toewijzen van de cursussen aan een vaardigheidsniveau, is de lijst met vaardigheden het eerst zoeken. Met andere woorden, zoekvaardigheden en een lijst met vaardigheden die overeenkomen met de zoekterm.
+
+### Gebruikersgroepen
+
+#### Beheerder- pagina Studenten
+
+Wanneer u op een gebruiker zoekt, wordt **Student downloaden** en **Exporteren** dezelfde opties downloaden. Tijdens het zoeken naar een gebruikersgroep kunt u nu gefilterde gebruikers downloaden van die gebruikersgroep. Bij het zoeken in een gebruikersgroep wordt **Studentenlijst downloaden** wijzigingen in **Studentenlijst voor gebruikersgroep downloaden** De **Exporteren** wordt de gehele lijst gedownload.
 
 ## Wijzigingen in rapporten
 
