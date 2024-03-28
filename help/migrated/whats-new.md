@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
+source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -245,7 +245,7 @@ Tijdens het toewijzen van de cursussen aan een vaardigheidsniveau, is de lijst m
 
 ### Gebruikersgroepen
 
-#### Beheerder- pagina Studenten
+#### Beheerder: pagina Studenten
 
 Wanneer u op een gebruiker zoekt, wordt **Student downloaden** en **Exporteren** dezelfde opties downloaden. Tijdens het zoeken naar een gebruikersgroep kunt u nu gefilterde gebruikers downloaden van die gebruikersgroep. Bij het zoeken in een gebruikersgroep wordt **Studentenlijst downloaden** wijzigingen in **Studentenlijst voor gebruikersgroep downloaden** De **Exporteren** wordt de gehele lijst gedownload.
 
