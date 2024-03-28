@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
+source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -261,6 +261,7 @@ Selecteer op de beheerpagina de optie **Beheerder** > **Vaardigheden** > **Vaard
 ## Wijzigingen in het maken van lesruimten
 
 Gebaseerd op [Beheerdersinstellingen](administrators/feature-summary/classroom.md#classroom-settings)kunt u als auteur [locaties maken, wijzigen en verwijderen](administrators/feature-summary/classroom.md#add-classroom-location).
+
 >[!NOTE]
 >
 >Tijdens het toevoegen van locatie- en cataloguslabels zien auteurs (op de pagina voor het maken van cursussen) en beheerders (op de instantiepagina) respectievelijk een automatisch gevulde lijst met locaties en cataloguslabels.

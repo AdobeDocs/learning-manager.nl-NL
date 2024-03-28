@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Rapporten
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '6624'
+source-wordcount: '6629'
 ht-degree: 63%
 
 ---
@@ -46,7 +46,7 @@ Als er interne managers op hoofdniveau zijn, worden deze achter elkaar weergegev
 
 Alle externe profielen worden weergegeven na interne profielen (interne gebruikers op hoofdniveau).
 
-Als een extern profiel een manager heeft, wordt de managerhiërarchie weergegeven in het dialoogvenster **[!UICONTROL Gegevens weergeven voor]** vervolgkeuzelijst. - De gebruiker wordt weergegeven in de managerhiërarchie op alle detailpagina (Overzicht van leermateriaal, compatibiliteit en vaardigheidsstatus)
+Als een extern profiel een manager heeft, wordt de managerhiërarchie weergegeven in het dialoogvenster **[!UICONTROL Gegevens weergeven voor]** vervolgkeuzelijst. De gebruiker wordt weergegeven in de beheerhiërarchie op de detailpagina (Overzicht van leermateriaal, compatibiliteit en vaardigheidsstatus)
 
 Als dit niet het geval is, worden alle afzonderlijke gebruikersgegevens weergegeven in de lijst.
 
@@ -58,9 +58,9 @@ Voor meer gedetailleerde informatie over inschrijvingen van verschillende intern
 Wanneer u op een inschrijving klikt, ziet u de studenten voor elke manager en ziet u de inschrijving voor welke leerobjecten. U kunt ook de gegevens over voortgang en voltooiing van elke student zien.
 
 ![](assets/learners-for-a-manager.png)
-*Studenten aan een manager toewijzen*
+*studenten toegewezen aan een manager*
 
-Klik op een team en exporteer het rapport als csv-bestand. Een beheerder kan het rapport exporteren voor een gebruikersgroep of individuele gebruiker door de gebruikersgroep of individuele gebruiker te selecteren en vervolgens de gegevens te exporteren uit de vervolgkeuzelijst Handeling.
+Klik op een team en exporteer het rapport als csv-bestand. Een beheerder kan het rapport exporteren voor een gebruikersgroep of individuele gebruiker door de gebruikersgroep of individuele gebruiker te selecteren en vervolgens de gegevens te exporteren uit de **[!UICONTROL Handeling]** vervolgkeuzelijst.
 
 U kunt ook een staafdiagramweergave zien van vaardigheden die in uitvoering zijn en zijn bereikt. U kunt vaardigheden toevoegen/verwijderen die u in de grafiek wilt opnemen.
 
@@ -69,7 +69,7 @@ U kunt ook een staafdiagramweergave zien van vaardigheden die in uitvoering zijn
 
 In de uiteindelijke visualisatie kunt u de nalevingsstatus van de studenten controleren en passende maatregelen nemen.
 
-Een beheerder kan ook gegevens van individuele trainingen bekijken in het Nalevingsdashboard.
+Een beheerder kan ook individuele trainingsgegevens bekijken in het dialoogvenster **[!UICONTROL Dashboard Naleving]**.
 
 De beheerder heeft bijvoorbeeld bepaald dat de naleving van drie trainingen moet worden gevolgd. Learning Manager creëert een overzicht van de naleving van deze drie trainingen.
 
@@ -617,7 +617,7 @@ In de Studenttranscripten in Excel-rapporten worden de kolommen Punten vereist e
 
 Als beheerder kunt u rapporten voor cursussen downloaden. Volg deze stappen:
 
-1. Openen **[!UICONTROL Rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Cursusrapporten]**.
+1. Openen **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Cursusrapporten]**.
 1. Het dialoogvenster **[!UICONTROL Cursusrapporten]** verschijnt. Selecteer de cursus waarvoor u het rapport wilt ophalen en klik op **[!UICONTROL Weergeven]**.
 
    ![](assets/course-reports.png)
@@ -657,13 +657,13 @@ Als beheerder kunt u een rapport genereren van alle aankondigingen die u verzend
 
 Volg een van deze stappen om een rapport te downloaden:
 
-1. Openen **[!UICONTROL Rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Aankondigingenrapport]**. Het dialoogvenster **[!UICONTROL Rapportaanvraag genereren]** wordt geopend. Klik op OK.
+1. Openen **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Aankondigingenrapport]**. Het dialoogvenster **[!UICONTROL Rapportaanvraag genereren]** wordt geopend. Klik op OK.
 1. [!UICONTROL **Aankondigingen**] > [!UICONTROL **Handelingen**] > [!UICONTROL **Rapport exporteren**].
 
    ![](assets/announcements.png)
    *Aankondigingsrapport*
 
-1. U kunt een rapport voor een specifieke aankondiging extraheren door onder het instellingenpictogram op Rapport exporteren te klikken.
+1. U kunt een rapport voor een specifieke aankondiging extraheren door op **[!UICONTROL Rapport exporteren]** onder het instellingenpictogram.
 
    ![](assets/announcements-specific-report.png)
    *Rapport voor specifieke aankondigingen*
@@ -686,7 +686,7 @@ Het geëxtraheerde rapport bevat informatie over het volgende:
 
 Voer een van de volgende handelingen uit om een rapport te downloaden:
 
-* Openen  **[!UICONTROL Rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Taakhulpenrapporten]**. Het dialoogvenster **[!UICONTROL Rapportaanvraag genereren]** wordt geopend. Klik op **[!UICONTROL OK]**.
+* Openen  **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Taakhulpenrapporten]**. Het dialoogvenster **[!UICONTROL Rapportaanvraag genereren]** wordt geopend. Klik op **[!UICONTROL OK]**.
 * Openen **[!UICONTROL Taakhulp]** > **[!UICONTROL Handelingen]** > **[!UICONTROL Rapport exporteren]**.
 
 ![](assets/job-aids.png)

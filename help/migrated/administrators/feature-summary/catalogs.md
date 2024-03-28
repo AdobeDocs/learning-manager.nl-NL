@@ -4,7 +4,7 @@ title: Catalogi
 description: 'Catalogi zijn een verzameling leermiddelen: cursussen, leerprogramma''s en certificeringen. Gebruik catalogi om studenten te voorzien van toegang tot een aangepaste set leermaterialen. U kunt leermateriaal aan een catalogus koppelen tijdens het maken van een nieuwe catalogus.'
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 75%
@@ -220,31 +220,31 @@ Eventuele wijzigingen die worden uitgevoerd voor leerobjecten in de eigenaarstoe
    <td>
     <p><strong>Leerprogramma</strong></p></td>
    <td>
-    <p>naam, beschrijving en andere velden in het LP-object, behalve badgeId, archiveren</p></td>
+    <p>Naam, beschrijving en andere velden in het LP-object, behalve badgeId, archiveren</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Certificering</strong></p></td>
    <td>
-    <p>alle eigenschappen van een certificeringsobject, behalve badgeId, archiveren van certificering</p></td>
+    <p>Alle eigenschappen van een certificeringsobject, behalve badgeId, archiveren van certificering</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Badge</strong></p></td>
    <td>
-    <p>naam en archivering van badge</p></td>
+    <p>Naam en archivering van badge</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Categorie </strong></p></td>
    <td>
-    <p>naam, beschrijving, kleur en archivering van de categorie, toevoeging van een nieuw niveau</p></td>
+    <p>Naam, beschrijving, kleur en archivering van de categorie, toevoeging van een nieuw niveau</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>Taakhulp</strong></p></td>
    <td>
-    <p>alle eigenschappen van het jobAid-object</p></td>
+    <p>Alle eigenschappen van het object jobAid</p></td>
   </tr>
   <tr>
    <td>

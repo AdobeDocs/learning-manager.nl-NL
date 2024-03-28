@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Leerpaden
 description: Leerplannen maken voor beheerders in Learning Manager.
 contentowner: saghosh
-source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
+exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1941'
 ht-degree: 42%
 
 ---
-
-
 
 # Leerpaden
 
@@ -132,9 +131,9 @@ De **[!UICONTROL Studenten in staat stellen instanties te kiezen (flexibel leerp
 
 Er zijn drie opties:
 
-1. **[!UICONTROL Alle Niveaus Cursussen en Leerpaden (standaard geselecteerd)]:** De student ontvangt meldingen voor een onvolledige cursus, ongeacht het niveau in een leerpad.
+1. **[!UICONTROL Alle vaardigheidsniveaus voor cursussen en leerpaden (standaard geselecteerd)]:** De student ontvangt meldingen voor een onvolledige cursus, ongeacht het niveau in een leerpad.
 1. **[!UICONTROL Leerpad hoofdmap]:** De student ontvangt meldingen voor onvolledige cursussen die horen bij een bovenliggend leerpad.
-1. **[!UICONTROL Alleen leerpad en onderliggend niveau]:** De student ontvangt meldingen van onvolledige cursussen die het eerste onderliggende onderdeel van een bovenliggend leerpad vormen.
+1. **[!UICONTROL Leerpad + alleen kinderen op het eerste vaardigheidsniveau]:** De student ontvangt meldingen van onvolledige cursussen die het eerste onderliggende onderdeel van een bovenliggend leerpad vormen.
 
 De meldingsherinneringen worden geactiveerd afhankelijk van de optie. Standaard kunt u de optie **[!UICONTROL Alle niveaus voor cursussen en leerpaden]** is ingeschakeld voor een instantie.
 

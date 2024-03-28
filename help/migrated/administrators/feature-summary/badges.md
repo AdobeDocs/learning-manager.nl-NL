@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Badges
 description: Werknemers kunnen badges verdienen wanneer ze een cursus voltooien en deze laten zien hoe de werknemer presteert. Adobe Learning Manager introduceert een van de nieuwste e-learningconcepten genaamd Badges. Professionals wereldwijd gebruiken deze badges om te laten zien dat ze een bepaalde vaardigheid beheersen of een leerprestatie hebben behaald.
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c056e5d0-d646-4d15-979d-bae57c627eab
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 58%
 
 ---
-
-
 
 # Badges
 
@@ -26,7 +25,7 @@ Beheerders kunnen de badges voor studenten als volgt aanmaken:
    >
    >Standaard is er een lijst met enkele voorbeeldbadges beschikbaar.
 
-1. Klikken **[!UICONTROL Badge toevoegen]** rechtsboven op de pagina. Het dialoogvenster Badge toevoegen verschijnt.
+1. Klikken **[!UICONTROL Toevoegen]** rechtsboven op de pagina. Het dialoogvenster Badge toevoegen verschijnt.
 
    ![](assets/add-badge1.png)
 

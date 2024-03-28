@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Aangepaste rollen
 description: Met de functie Leerpaden kunt u aangepaste rollen definiëren en specifieke verantwoordelijkheden toewijzen aan een gebruikersset. Met deze functie kunt u verantwoordelijkheden toewijzen die buiten de bestaande rol van de persoon vallen.
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
-source-wordcount: '2224'
-ht-degree: 64%
+source-wordcount: '2223'
+ht-degree: 65%
 
 ---
-
-
 
 # Aangepaste rollen
 
@@ -142,16 +141,16 @@ Een gebruiker met een aangepaste rol kan:
 * alleen inhoud bekijken van de catalogi waartoe hij/zij toegang heeft.
 * Toegang tot elk leerobject op basis van de machtigingen van de catalogus waar het leerobject deel van uitmaakt.
 
-Als beheerder kunt u:
+  Als beheerder kunt u:
 
 * meer dan een catalogus voor een aangepaste rol kiezen.
 * de machtigingen van een catalogus op elk moment wijzigen.
 * de catalogi verwijderen uit een bereik waarvoor u niet langer machtigingen wilt verlenen.
 * een impliciete Alleen lezen-machtiging voor een catalogus verlenen, wanneer u machtigingen voor de catalogus verleent.
 
-De onderstaande tabel illustreert hoe de machtigingen worden verleend.
+  De onderstaande tabel illustreert hoe de machtigingen worden verleend.
 
-<table>
+  <table>
     <tbody>
      <tr>
       <td>
@@ -222,17 +221,17 @@ De onderstaande tabel illustreert hoe de machtigingen worden verleend.
      </tr>
     </tbody>
    </table>
-1. **Gebruikers:** Gebruik deze optie om te bepalen aan welke gebruikers deze rol is toegewezen. U kunt een of meer gebruikers kiezen met behulp van het zoekvak.
+1. **Gebruikers:** gebruik deze optie om te bepalen welke gebruikers deze rol toegewezen krijgen. U kunt een of meer gebruikers kiezen met behulp van het zoekvak.
 
-**Gebruikers toevoegen aan CSV-upload met aangepaste rol:** Als u gebruikers via CSV-update wilt toevoegen, voegt u een kolom CustomRole toe aan het CSV-bestand dat de beheerder heeft gebruikt om gebruikers te importeren. Voer de rol van de gebruiker onder de kolom CustomRole in voor de gebruikers aan wie u een aangepaste rol wilt toewijzen. Klik op  **[!UICONTROL Toevoegen > Een CSV uploaden]**.
+   **Gebruikers toevoegen aan CSV-upload met aangepaste rol:** Als u gebruikers via CSV-update wilt toevoegen, voegt u een kolom CustomRole toe aan het CSV-bestand dat de beheerder heeft gebruikt om gebruikers te importeren. Voer de rol van de gebruiker onder de kolom CustomRole in voor de gebruikers aan wie u een aangepaste rol wilt toewijzen. Klik op  **[!UICONTROL Toevoegen > Een CSV uploaden]**.
 
-CustomRole columnNote:
+   CustomRole columnNote:
 
 * U kunt geen gebruikersgroepen zoeken.
 * U kunt geen gebruikers zoeken die al een beheerderrol toegewezen gekregen hebben.
 * Het toewijzen van een nieuwe aangepaste rol aan een gebruiker heeft voorrang op de vorige aangepaste rol van de gebruiker.
 
-<!--![](assets/users.png)-->
+  <!--![](assets/users.png)-->
 
 * Een aangepaste beheerder met de machtiging Instellingen kan het schema configureren voor synchronisatie of synchronisatie van gebruikers vanuit de gegevensbron, zelfs als deze geen toestemming hebben voor de gebruikersentiteit.
 * Als een aangepaste beheerder toestemming heeft voor de gebruikersentiteit, kan hij of zij zichzelf de rol van beheerder toewijzen en een standaardbeheerder worden.

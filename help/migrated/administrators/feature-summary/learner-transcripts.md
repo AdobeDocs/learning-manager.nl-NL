@@ -3,14 +3,13 @@ description: Download het studenttranscript en beheer rapporten met behulp van L
 jcr-language: en_us
 title: Studenttranscripten
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 67%
+source-wordcount: '1912'
+ht-degree: 66%
 
 ---
-
-
 
 # Studenttranscripten
 
@@ -22,7 +21,7 @@ Adobe Learning Manager stelt de beheerders van een organisatie in staat om de tr
 
 1. Klik op **[!UICONTROL Rapporten]** in het linkerdeelvenster in Beheerdersaanmelding.
 
-   De beheerder gaat naar het tabblad Excel-rapporten op de pagina **[!UICONTROL Rapporten]**.
+   De beheerder navigeert naar de **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten]** in het dialoogvenster **[!UICONTROL Rapporten]** pagina.
 
 1. Klik op de koppeling **[!UICONTROL Studenttranscripten]**.
 

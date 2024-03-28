@@ -3,14 +3,13 @@ description: Gamification is het gebruik van gamedenken en gamemechanismen buite
 jcr-language: en_us
 title: Gamification
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1419'
 ht-degree: 67%
 
 ---
-
-
 
 # Gamification
 
@@ -76,7 +75,7 @@ Klik op Gamification opnieuw instellen en kies de gewenste optie om score en con
 
 ## Gamification uitschakelen {#disablegamification}
 
-Klikken [!UICONTROL **Gamification**] > [!UICONTROL **Gamificationfunctie**]. Hiermee kunt u de gamificationfunctie en het leaderboard apart inschakelen voor uw studenten. Maak een keuze tussen Inschakelen voor interne studenten en Inschakelen voor externe studenten volgens de vereiste en klik op OK. Alle punten blijven behouden wanneer u de gamification weer inschakelt.
+Klikken [!UICONTROL **Gamification**] > **[!UICONTROL Instellingen]** > [!UICONTROL **Gamificationfunctie**]. Hiermee kunt u de gamificationfunctie en het leaderboard apart inschakelen voor uw studenten. Maak een keuze tussen Inschakelen voor interne studenten en Inschakelen voor externe studenten volgens de vereiste en klik op OK. Alle punten blijven behouden wanneer u de gamification weer inschakelt.
 
 ![](assets/gamification-feature.png)
 

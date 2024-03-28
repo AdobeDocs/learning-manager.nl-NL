@@ -3,14 +3,13 @@ description: Maak vaardigheden, wijs ze toe en wijzig ze.
 jcr-language: en_us
 title: Vaardigheden en niveaus maken en wijzigen
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 80%
+source-wordcount: '1721'
+ht-degree: 79%
 
 ---
-
-
 
 # Vaardigheden en niveaus maken en wijzigen
 
@@ -32,7 +31,7 @@ Als beheerder kunt u de volgende acties uitvoeren:
 
 Volg de onderstaande stappen om een vaardigheid toe te voegen:
 
-1. Klik op **[!UICONTROL Vaardigheden]** in het linkerdeelvenster. Geef de vaardigheid een naam en beschrijving.
+1. Selecteer in het linkerdeelvenster de optie **[!UICONTROL Vaardigheden]** > **[!UICONTROL Toevoegen]** > **[!UICONTROL SKills toevoegen]**. Geef de vaardigheid een naam en beschrijving.
 
    ![](assets/add-skill-name-anddescription.png)
 

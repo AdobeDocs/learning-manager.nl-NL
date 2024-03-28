@@ -3,14 +3,13 @@ description: U kunt als beheerder de activiteiten die zijn uitgevoerd in Sociaal
 jcr-language: en_us
 title: Als beheerder Sociaal leren bewaken en modereren
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
 source-wordcount: '3604'
 ht-degree: 63%
 
 ---
-
-
 
 # Als beheerder Sociaal leren bewaken en modereren
 
@@ -265,9 +264,9 @@ U hebt een paar andere opties:
 * **[!UICONTROL Repliceren]:** Klik op deze knop om de titel en de subtitel in alle talen te repliceren.
 * **[!UICONTROL Herstellen]:** Klik op deze knop om terug te keren naar de oorspronkelijke titel en subtitel.
 
-De informatie van de beheerder wordt op de startpagina Sociaal leren als de paginakoptekst weergegeven.
+  De informatie van de beheerder wordt op de startpagina Sociaal leren als de paginakoptekst weergegeven.
 
-<!--![](assets/banner-learner.png)-->
+  <!--![](assets/banner-learner.png)-->
 
 ## Trends {#trends}
 

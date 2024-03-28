@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Locaties van klaslokalen toevoegen
 description: Beheerders kunnen nu een bibliotheek met locaties van klaslokalen instellen. Voor elke locatie van een klaslokaal kunnen de beheerders de metadata instellen, waaronder de locatienaam, het aantal plaatsen en aanvullende informatie zoals de locatie-URL. Auteurs en beheerders kunnen deze vooraf geconfigureerde locaties van klaslokalen vervolgens gebruiken voor het instellen van door een docent geleide trainingsgebeurtenissen (klaslokaalmodules).
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 78%
+source-wordcount: '1240'
+ht-degree: 77%
 
 ---
-
-
 
 # Klaslokaal
 
@@ -26,13 +25,14 @@ U kunt een locatie voor een lesruimte toevoegen via de gebruikersinterface:
 
 1. Klik in de Admin-app (de gebruikersinterface voor beheerdersrollen) op **[!UICONTROL Instellingen]** > **[!UICONTROL Locaties van lesruimte]**.
 
-1. Klik op de knop **[!UICONTROL Meer toevoegen]** knop.
+1. Klikken **[!UICONTROL Toevoegen]** > **[!UICONTROL Nieuwe locatie]**.
 
 1. Voer in het dialoogvenster **[!UICONTROL Locatie van klaslokaal]** de volgende gegevens in:
 
-   * Typ de **[!UICONTROL locatienaam van een klaslokaal]**. Gebruik een unieke naam. Anders verschijnt er een foutmelding in Learning Manager.
+   * Typ de **[!UICONTROL Locatienaam]**. Gebruik een unieke naam. Anders verschijnt er een foutmelding in Learning Manager.
    * Typ de locatiebeschrijving in het veld **[!UICONTROL Locatiegegevens]**. Dit veld is optioneel.
    * Typ de **[!UICONTROL locatie-URL]**. De student kan deze informatie zien in de klaslokaaldetails. Indien nodig kan de URL ook een locatie-URL van een kaart zijn. Dit veld is optioneel.
+   * Typ en selecteer de **[!UICONTROL Locatiegebied]**. Dit veld is optioneel.
    * Typ het aantal beschikbare plaatsen in het veld **[!UICONTROL Plaatslimiet]**. Dit geeft de plaatscapaciteit van het klaslokaal aan. Deze waarde kan worden gewijzigd bij het maken van de daadwerkelijke door een docent geleide trainingsgebeurtenis.
 
    ![](assets/add-classroom-location.png)
@@ -59,6 +59,8 @@ Het dialoogvenster toont de details van elke sessie, waaronder de naam van de se
 
 De **[!UICONTROL Toekomstige sessies]** veldweergaven **nul** als de lesruimte niet wordt gebruikt voor een sessie of als de lesruimte is gekoppeld aan eerdere sessies.
 
+**[!UICONTROL Zitlimiet]** - Geeft de capaciteit van de stoelen van de lesruimte weer.
+
 **Locatie-URL** - URL die u hebt opgegeven bij het maken van de locatie van de lesruimte.
 
 **Locatie-informatie** - De lesruimtegegevens die u hebt opgegeven bij het maken van de lesruimte.
@@ -67,7 +69,7 @@ De **[!UICONTROL Toekomstige sessies]** veldweergaven **nul** als de lesruimte n
 
 U kunt ook een of meer klaslokalen toevoegen door een CSV te importeren die de klaslokaalinformatie bevat.
 
-In **[!UICONTROL Admin-app]** > **[!UICONTROL Instellingen]** > **[!UICONTROL Locaties van lesruimte]**, klikt u op **[!UICONTROL CSV-importlocaties]** knop. Blader naar de locatie met het CSV-bestand en selecteer het bestand.
+In **[!UICONTROL Admin-app]** > **[!UICONTROL Instellingen]** > **[!UICONTROL Locaties van lesruimte]** > **[!UICONTROL Toevoegen]**, klikt u op **[!UICONTROL Locaties voor bulkimport]** knop. Blader naar de locatie met het CSV-bestand en selecteer het bestand.
 
 Het CSV-bestand maakt gebruik van deze velden om details over een of meer klaslokalen op te slaan:
 

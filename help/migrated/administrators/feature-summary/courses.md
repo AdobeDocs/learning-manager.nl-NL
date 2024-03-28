@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Cursusmodules, instanties en leerprogramma's maken
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '4604'
+source-wordcount: '4613'
 ht-degree: 65%
 
 ---
@@ -53,6 +53,7 @@ Als u een instantie wilt maken,
    * Klikken **[!UICONTROL Meer opties tonen]** om andere deadline-opties weer te geven.
    * **[!UICONTROL Deadline voor inschrijving]:** Dit is de datum waarop een student zich moet inschrijven voor een leerobject in geval van zelfinschrijving.
    * **[!UICONTROL Deadline voor uitschrijving]:** U kunt uitschrijving door de student zelf beperken door een uitschrijvingsdeadline te hebben.
+   * **[!UICONTROL Tijdzone]:** Zoek en selecteer vervolgens de **[!UICONTROL Tijdzone]** uit de vervolgkeuzelijst.
 
    Een beheerder kan besluiten om voltooiingsdeadlines voor een leerprogramma in te stellen afhankelijk van vereisten. Het is echter raadzaam er een te hebben voor klassikale/virtuele klassikale trainingen.
 
@@ -99,13 +100,13 @@ Voer de volgende stappen uit om een gearchiveerde instantie te herstellen naar e
 
 E-mails op instantieniveau verzenden naar ingeschreven studenten:
 
-1. Selecteer op de pagina Instanties de opties op een instantie en klik op **[!UICONTROL E-mail verzenden naar ingeschreven studenten]**.
+1. Op de **[!UICONTROL Instanties]** pagina, selecteert u de opties op een willekeurig exemplaar en klikt u op **[!UICONTROL Ingeschreven studenten e-mailen]**.
 
 ![e-mails op instantieniveau](assets/adhoc-email.png)
 
 *E-mailstudenten ingeschreven voor instantie*
 
-1. Selecteer in het dialoogvenster Aankondiging maken de optie Type als e-mail. Geef het onderwerp op, typ het bericht en klik op Opslaan. De training wordt automatisch geselecteerd.
+1. Op de **[!UICONTROL Aankondiging maken]** selecteert u Type als e-mail. Geef het onderwerp op, typ het bericht en klik op **[!UICONTROL Opslaan]**. De training wordt automatisch geselecteerd.
 
    ![Aankondiging maken als e-mail](assets/email-announcement.png)
 
@@ -178,7 +179,7 @@ Het Excel-bestand bevat werkbladen voor elke instantie. Een werkblad bestaat uit
 
 >[!NOTE]
 >
->Opmerking: Als u meervoudige inschrijving inschakelt, worden voor elke cursus meerdere rijen toegevoegd aan het Studenttranscriptrapport (één rij voor elke instantie).
+>Als u meerdere inschrijvingen inschakelt, worden er meerdere rijen toegevoegd aan het Studenttranscriptrapport voor elke cursus (één rij voor elke instantie).
 >
 >Als u een automatiseringsinstelling hebt ingesteld die slechts één rij per cursus verwacht, moet u de vereiste aanpassingen in de rapportautomatisering aanbrengen voordat u de functie voor meervoudige inschrijving inschakelt.
 
