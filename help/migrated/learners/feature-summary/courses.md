@@ -3,14 +3,13 @@ description: Lees dit artikel om te weten te komen hoe u cursussen weergeeft en 
 jcr-language: en_us
 title: Cursussen
 contentowner: manochan
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2736'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
-
-
 
 # Cursussen
 
@@ -170,7 +169,7 @@ Alleen na inschrijving voor een cursus kan een student een sterrenfeedback op de
 
 Een student kan een bepaalde ster (van de 5) selecteren en de classificatie indienen. De student kan de selectie ook bewerken door op een andere ster te klikken. Na verzending wordt het feedbackbericht Hartelijk dank weergegeven.
 
-Als de student de feedback opnieuw wil indienen, kan hij/zij dit doen door op het bericht te klikken. De knop **Verzenden **wordt opnieuw ingeschakeld. Een student kan meerdere malen sterrenwaardering geven na inschrijving voor een cursus. De meest recente waardering wordt altijd in beschouwing genomen.
+Als de student de feedback opnieuw wil indienen, kan hij/zij dit doen door op het bericht te klikken. De **Verzenden** wordt opnieuw ingeschakeld. Een student kan meerdere malen sterrenwaardering geven na inschrijving voor een cursus. De meest recente waardering wordt altijd in beschouwing genomen.
 
 Wanneer de student een score heeft gegeven, wordt een gemiddelde sterwaardering gegeven en wordt het aantal studenten dat de functie voor sterwaarderingen heeft aangeboden in het dialoogvenster **Cursusoverzicht** pagina.
 
@@ -211,7 +210,7 @@ Alle filters en andere opties worden in de onderstaande video getoond.
 
 ### Voorbeeld van inhoud bekijken
 
-U kunt een voorbeeld van de cursus bekijken en ontdekken en zien welke cursus bij uw leerbehoeften past. Klik op de knop **Voorvertoning **en bekijk de voorvertoning van de cursus. Het voorbeeld is twee minuten beschikbaar.
+U kunt een voorbeeld van de cursus bekijken en ontdekken en zien welke cursus bij uw leerbehoeften past. Klik op de knop **Voorvertoning** en bekijk de voorvertoning van de cursus. Het voorbeeld is twee minuten beschikbaar.
 
 ![](assets/content-marketplace-learner.gif)
 *Inhoud voorvertonen op de markt*
@@ -266,13 +265,13 @@ Als de auteur modules in een bepaalde volgorde heeft gezet, moet u het vereiste 
 
 Nadat u een cursus hebt afgerond met het vereiste aantal modules kunt u, als u de optionele modules wilt afronden, teruggaan naar de cursus.
 
-## Deelnemen aan discussies en deze weergeven {#viewingandpariticpatingindiscussions}
+## Weergeven van en deelnemen aan discussies {#viewingandpariticpatingindiscussions}
 
 Als student kunt u via het tabblad Discussies communiceren met andere studenten en uw docenten. U kunt de berichten zien van elke cursus die u bekijkt of waarvoor u zich inschrijft. Als een beheerder discussies voor een cursus heeft ingeschakeld, ziet u voor die cursus het tabblad Discussies naast het tabblad Notities.
 
 Wanneer u op het tabblad Discussies klikt, kunt u de bestaande berichten en opmerkingen voor die cursus zien. Als u zich al voor de cursus hebt ingeschreven, kunt u ook berichten of opmerkingen typen die andere gebruikers kunnen zien. Klik nadat u het bericht hebt getypt op Plaatsen. Uw bericht moet ten minste 10 tekens bevatten.
 
-Het bericht is direct zichtbaar op het tabblad Discussies. U kunt de berichten sorteren op Nieuwste eerst, Oudste eerst, en de berichten die u hebt geschreven verwijderen. Zelfs nadat u zich hebt afgemeld van de cursus, kunt u nog steeds alle berichten bekijken en berichten die u hebt geschreven verwijderen.
+Het bericht is direct zichtbaar op het tabblad Discussies. U kunt de berichten sorteren op Nieuwste eerst of Oudste eerst en de berichten die u hebt geschreven verwijderen. Zelfs nadat u zich hebt afgemeld van de cursus, kunt u nog steeds alle berichten bekijken en berichten die u hebt geschreven verwijderen.
 
 ![](assets/learner-discussion.png)
 *Deelnemerdiscussies weergeven*

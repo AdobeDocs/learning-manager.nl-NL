@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Learning Manager integreren met AEM
 description: 'Learning Manager is Learning Management System met een geïntegreerd Learning Content Management System. Gebruikers beheren hun leerinhoud door deze naar Learning Manager te uploaden, zodat Learning Manager het volgende uitvoert: versiebeheer, toewijzingen aan cursussen, het bepalen van de zichtbaarheid voor studenten, traceren van gevolgde cursussen en rapportage naar beheerders.'
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1078'
 ht-degree: 45%
 
 ---
-
-
 
 # Learning Manager integreren met AEM
 
@@ -136,7 +135,7 @@ De widget Catalogus bevat de volgende opties:
 
 * **[!UICONTROL Catalogus-id&#39;s]:** De door komma&#39;s gescheiden catalogus-id&#39;s waarvoor de training moet worden weergegeven.
 * **[!UICONTROL Sorteren]:** Sorteervolgorde voor de training. De opties zijn: naam, datum, aanmaakdatum, datumIngeschreven, enzovoort.
-* **[!UICONTROL Studentenstatus]:** Retourneert alle training die het volgende gebruikt als filters ingeschreven, gestart, voltooid en ingeschreven. De zoekresultaten worden niet weergegeven als de sorteeroptie dateEnrolled, dueDate of dateEnrolled is.
+* **[!UICONTROL Studentenstatus]:** Retourneert alle training die het volgende gebruikt als filters ingeschreven, gestart, voltooid en niet ingeschreven. De zoekresultaten worden niet weergegeven als de sorteeroptie dateEnrolled, dueDate of dateEnrolled is.
 * **[!UICONTROL Naam van vaardigheid]:** De vaardigheid die wordt gebruikt om de exacte training te filteren.
 * **[!UICONTROL Tagnaam]:** De tag die wordt gebruikt om exacte resultaten te filteren.
 

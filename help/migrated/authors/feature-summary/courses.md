@@ -3,14 +3,13 @@ description: Lees dit artikel om te leren hoe u cursussen, certificeringen en le
 jcr-language: en_us
 title: Cursussen maken, wijzigen en publiceren
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '6843'
 ht-degree: 75%
 
 ---
-
-
 
 # Cursussen maken, aanpassen en publiceren
 
@@ -70,6 +69,7 @@ Volg de onderstaande stappen om een cursus te maken:
    OPMERKING: deze optie is alleen ingeschakeld wanneer de Adobe Commerce-connector is geconfigureerd.
 
 1. Schakel het selectievakje **Studenten kunnen zichzelf uitschrijven** in als u studenten de mogelijkheid wilt geven zich van uw cursus uit te schrijven.
+
 1. **Configuratie van instanties**
 
    Als u deze optie inschakelt, kunnen studenten met de status In bewerking naar andere instanties gaan en zich daar inschrijven. Een student kan vervolgens de voortgang van de vorige instantie behouden.
@@ -898,4 +898,3 @@ Zie voor meer informatie de [sectie over meerdere pogingen](courses.md#Allowmult
 Nee, de inhoud die is geüpload in Learning Manager is een gepubliceerd ZIP-bestand en is niet het bronbestand. Daarom kan de inhoud niet worden bewerkt in een auteurstool, zelfs niet wanneer de inhoud is gedownload. U hebt een bronbestand nodig om de inhoud te kunnen bewerken.
 
 +++
-

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Handleiding voor toepassingsontwikkelaars
 description: Versie 1 van de Learning Manager-API is nu verouderd. De API's van versie 1 werken niet meer vanaf 28 februari 2021. We raden u aan om V2 API's te gebruiken voor interactie met Learning Manager.
 contentowner: jayakarr
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '3385'
 ht-degree: 62%
 
 ---
-
-
 
 # Handleiding voor toepassingsontwikkelaars
 
@@ -133,7 +132,7 @@ Wanneer een API-verzoek mislukt, wordt een Foutreactie verkregen. De HTTP-status
 
 **Velden**
 
-De attributen van API-objecten en hun relatie worden gezamenlijk velden genoemd. Raadpleeg de [JSON API voor meer informatie.](http://jsonapi.org/format/#document-resource-object-fields) U kunt Velden als parameter gebruiken tijdens het maken van API-aanroepen om een of meer specifieke kenmerken van het model op te halen. Bij afwezigheid van de parameter Velden, haalt de API-aanroep alle beschikbare attributen van het model op. In de volgende API-aanroep worden bijvoorbeeld velden[vaardigheid]=name haalt u het naamkenmerk van het vaardigheidsmodel alleen op.
+De attributen van API-objecten en hun relatie worden gezamenlijk velden genoemd. Raadpleeg de [JSON API voor meer informatie.](http://jsonapi.org/format/#document-resource-object-fields) U kunt Velden als parameter gebruiken terwijl u API-aanroepen doet om een of meer specifieke kenmerken van het model op te halen. Bij afwezigheid van de parameter Velden, haalt de API-aanroep alle beschikbare attributen van het model op. In de volgende API-aanroep worden bijvoorbeeld velden[vaardigheid]=name haalt u het naamkenmerk van het vaardigheidsmodel alleen op.
 
 https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
 
