@@ -23,7 +23,7 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
-+++Update 96: De Adobe Learning Manager van maart 2024
++++Update 96: De Adobe Learning Manager-versie van maart 2024
 
 **Releasedatum:** 1 maart 2023
 
@@ -121,7 +121,7 @@ Zie voor meer informatie [Nieuwe functies in de juli 2023-versie van Adobe Learn
 SAML-aanmelding mislukt als de SSO-aanmeldings-URL de entity_id bevat.
 +++
 
-+++Update 89: De Adobe Learning Manager van maart 2023
++++Update 89: De Adobe Learning Manager-versie van maart 2023
 
 **Releasedatum:** 4 april 2023
 
@@ -472,7 +472,7 @@ Voor meer informatie zie [Nieuw in de Adobe Learning Manager-release van novembe
 
 Dit is een update over een aanstaande wijziging en helpt u zich hierop voor te bereiden.
 
-**Adobe Learning Manager als product wordt in juli 2022 omgedoopt tot Adobe Learning Manager**. Deze strategische inspanning wordt gedaan om de aansluiting van het product op bepaalde bedrijfsprioriteiten beter uit te dragen.
+**Adobe Learning Manager als product zal in juli 2022 worden hernoemd naar Adobe Learning Manager**. Deze strategische inspanning wordt gedaan om de aansluiting van het product op bepaalde bedrijfsprioriteiten beter uit te dragen.
 
 Het productteam neemt alle nodige stappen om ervoor te zorgen dat dit geen effect heeft op uw gebruik van het platform. U kunt het product op dezelfde manier blijven gebruiken. Voor beheerders van het platform is de nieuwe merknaam vanaf juli in bepaalde vensters zichtbaar.
 
@@ -627,7 +627,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 **Publiceren**
 
-* In de European instance of Learning Manager content die rechtstreeks werd gepubliceerd naar de Adobe Learning Manager van Adobe Captivate, werd standaard gepubliceerd in de landinstelling Deutsch. Dit is nu opgelost.
+* In de European instance of Learning Manager content die rechtstreeks vanuit Adobe Captivate naar Adobe Learning Manager werd gepubliceerd, werd standaard gepubliceerd in de landinstelling Deutsch. Dit is nu opgelost.
 
 **API**
 
@@ -2366,7 +2366,7 @@ U kunt URL&#39;s toevoegen als aankondigingen door de URL in HTML toe te voegen.
 
 **Nieuwe leveringstypes toevoegen (cursussen)**
 
-Met Adobe Learning Manager kunt u nu leveringstypen voor uw cursussen toevoegen.
+Met Adobe Learning Manager kunt u nu leveringstypen toevoegen voor uw cursussen.
 
 **Verbeteringen van auteursrol**
 
