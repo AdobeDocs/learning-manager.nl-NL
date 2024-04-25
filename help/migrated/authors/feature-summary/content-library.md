@@ -2,14 +2,13 @@
 description: Leer hoe u inhoud maakt en deze afstemt op cursussen als inhoud op eigen tempo.
 jcr-language: en_us
 title: Inhoudsbibliotheek
-source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
+exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
+source-git-commit: 0a096888ab9913bb38391f9dc7b21fad3d90e91d
 workflow-type: tm+mt
-source-wordcount: '3113'
-ht-degree: 65%
+source-wordcount: '3145'
+ht-degree: 53%
 
 ---
-
-
 
 # Inhoudsbibliotheek
 
@@ -115,21 +114,26 @@ Zoals reeds vermeld in de vorige sectie, kunt u zowel interactieve als statische
 
 ## Statische inhoud toevoegen {#addstaticcontent}
 
-1. Klik op Inhoudsbibliotheek in het linkerdeelvenster nadat u zich als auteur hebt aangemeld en klik op Toevoegen.
+1. Selecteer de **[!UICONTROL Inhoudsbibliotheek]** in het linkerdeelvenster nadat u zich als **Auteur** en selecteer **[!UICONTROL Toevoegen]** > **[!UICONTROL Inhoud]**.
 
-   U kunt ook klikken op Inhoud maken op de pagina Aan de slag.
+>[!NOTE]
+>
+>Selecteren **[!UICONTROL Toevoegen]** twee opties weergeven. **[!UICONTROL Inhoud]** en **[!UICONTROL Quiz]**: Zie [Een quiz maken](content-library.md#createaquiz) voor meer informatie.
 
-1. Geef in het veld Naam een naam op voor de inhoud die u wilt uploaden.
-1. Voer in het veld Beschrijving de beschrijving van de inhoud in. Voer een zinvolle beschrijving in. De tekenlimiet is 400 tekens.
-1. Klik op Inhoudsbestand toevoegen en upload uw bronbestand om de inhoud toe te voegen. Wanneer u inhoud voor meerdere talen toevoegt, kunt u statische en interactieve inhoud niet in één groep combineren. Uw inhoud moet voor alle locaties ofwel statisch, ofwel interactief zijn.
+
+U kunt ook **[!UICONTROL Inhoud maken]** van de **[!UICONTROL Aan de slag]** pagina.
+
+1. In het dialoogvenster **[!UICONTROL Naam]** typt u een naam voor de inhoud die u wilt uploaden.
+1. In het dialoogvenster **[!UICONTROL Beschrijving]** typt u de beschrijving van de inhoud. Voer een zinvolle beschrijving in. De tekenlimiet is 400 tekens.
+1. Als u inhoud wilt toevoegen, selecteert u **[!UICONTROL Inhoudbestand toevoegen]** en uploadt u uw bronbestand. Wanneer u inhoud voor meerdere talen toevoegt, kunt u statische en interactieve inhoud niet in één groep combineren. Uw inhoud moet voor alle locaties ofwel statisch, ofwel interactief zijn.
 
    Als u de inhoud wilt vervangen, kunt u statische inhoud door andere statische inhoud vervangen. Hetzelfde geldt voor interactieve inhoud.
 
-1. In het veld Duur kunt u optioneel invoeren hoeveel tijd de student naar verwachting aan deze module zou moeten besteden. De duur is in minuten.
+1. In het dialoogvenster **[!UICONTROL Duur]** kunt u desgewenst typen hoeveel tijd een student naar verwachting in deze module zal doorbrengen. De duur is in minuten.
 
-   De leertijd die de student heeft besteed, wordt berekend op basis van de duur die wordt opgegeven wanneer de student een cursus als voltooid heeft gemarkeerd. Als de student de inhoud in de speler voltooit, wordt de tijd die in de speler is doorgebracht, bij de bestede leertijd opgeteld. Als de werkelijke inhoudsduur korter is dan de opgegeven duur, gebeurt er niets, omdat de speler altijd de inhoudsduur voor weergave aanhoudt.
+   De leertijd die de student heeft besteed, wordt berekend op basis van de duur die wordt opgegeven wanneer de student een cursus als voltooid heeft gemarkeerd. Als de student de inhoud in de speler verwerkt, wordt de tijd die in de speler is doorgebracht, opgeteld bij de bestede leertijd. Als de werkelijke inhoudsduur korter is dan de opgegeven duur, gebeurt er niets, omdat de speler altijd de inhoudsduur voor weergave aanhoudt.
 
-1. Voer in het veld Inhoudstags de tags voor de geüploade inhoud in, zodat uw inhoud vindbaar wordt.
+1. In het dialoogvenster **[!UICONTROL Labels]** voert u de tags in voor de geüploade inhoud, zodat uw inhoud vindbaar wordt.
 
    Een auteur kan deze tags gebruiken om te zoeken naar de inhoud terwijl de inhoud aan de cursus wordt toegevoegd.
 
@@ -139,23 +143,25 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
 ## Interactieve inhoud toevoegen {#addinteractivecontent}
 
-1. Klik op Inhoudsbibliotheek in het linkerdeelvenster nadat u zich als auteur hebt aangemeld en klik op Toevoegen.
+1. Selecteren **[!UICONTROL Inhoudsbibliotheek]** in het linkerdeelvenster nadat u zich als **Auteur** en selecteer **[!UICONTROL Toevoegen]** > **[!UICONTROL Inhoud]**.
 
-   U kunt ook klikken op Inhoud maken op de pagina Aan de slag.
+>[!NOTE]
+>
+>Selecteren **[!UICONTROL Toevoegen]** twee opties weergeven. **[!UICONTROL Inhoud]** en **[!UICONTROL Quiz]**: Zie [Een quiz maken](content-library.md#createaquiz) voor meer informatie.
 
-1. Geef in het veld Naam een naam op voor de inhoud die u wilt uploaden.
-1. Voer in het veld Beschrijving de beschrijving van de inhoud in. Voer een zinvolle beschrijving in. De tekenlimiet is 245 tekens.
-1. Klik op Inhoudsbestand toevoegen en upload uw bronbestand om de inhoud toe te voegen. Wanneer u inhoud voor meerdere talen toevoegt, kunt u statische en interactieve inhoud niet in één groep combineren. Uw inhoud moet voor alle locaties ofwel statisch, ofwel interactief zijn.
+U kunt ook **[!UICONTROL Inhoud maken]** van de **[!UICONTROL Aan de slag]** pagina.
+
+1. In het dialoogvenster **[!UICONTROL Naam]** typt u een naam voor de inhoud die u wilt uploaden.
+1. In het dialoogvenster **[!UICONTROL Beschrijving]** typt u de beschrijving van de inhoud. Voer een zinvolle beschrijving in. De tekenlimiet is 245 tekens.
+1. Als u inhoud wilt toevoegen, selecteert u **[!UICONTROL Inhoudbestand toevoegen]** en uploadt u uw bronbestand. Wanneer u inhoud voor meerdere talen toevoegt, kunt u statische en interactieve inhoud niet in één groep combineren. Uw inhoud moet voor alle locaties ofwel statisch, ofwel interactief zijn.
 
 * [Ondersteunde bestandstypen](content-library.md#supported)
 
   De interactieve inhoud kan een project zijn dat met SCORM, AICC of Captivate is gepubliceerd. Het bestand moet een ZIP-bestand zijn.
 
-  U kunt ook HTML-inhoud toevoegen die met Captivate, Presenter of Presenter Video Express is gegenereerd.
+U kunt ook HTML-inhoud toevoegen die met Captivate, Presenter of Presenter Video Express is gegenereerd.
 
-[Ondersteunde bestandstypen](content-library.md#supported)
-
-1. Learning Manager ondersteunt bijschriften voor video-inhoud die is geüpload in Learning Manager. Nu kunnen auteurs het bestand met bijschriften samen met het videobestand uploaden.
+1. **Learning Manager** ondersteunt bijschriften voor video-inhoud die is geüpload in Leerbeheer. Nu kunnen auteurs het bestand met bijschriften samen met het videobestand uploaden.
 
    Vervolgens kunnen de studenten de bijschriften bekijken tijdens het afspelen van de videomodule.
 
@@ -163,11 +169,11 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
    Bijschriften worden ondersteund voor video-inhoud die is geüpload in de inhoudsbibliotheek in Learning Manager.
 
-   Wanneer u als auteur een video- of audio-inhoud uploadt, kunt u ook het .vtt-bestand uploaden dat de bijschriften bevat.
+   Wanneer u als auteur een video- of audio-inhoud uploadt, kunt u ook het VTT-bestand uploaden dat de bijschriften bevat.
 
    De ondertitels verschijnen dan in de Fluidic Player. De bijschriften zijn ook compatibel met [WCAG2.0-standaarden](https://www.w3.org/TR/WCAG20/).
 
-   Wanneer u een video-inhoud aan de bibliotheek toevoegt, kunt u ook het vtt-bestand toevoegen dat **moeten** zijn een geldig bestand.
+   Wanneer u video-inhoud aan de bibliotheek toevoegt, kunt u ook het VTT-bestand toevoegen. Dit moet een geldig bestand zijn.
 
    ![](assets/webvtt.png)
 
@@ -185,44 +191,44 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
    Nadat u deze inhoud aan een cursus hebt toegevoegd en wanneer u een voorvertoning van de cursus als student bekijkt, kunt u de bijschriften op de video zien.
 
-   Schakel op de speler de CC-toets op de Fluidic Player in om de bijschriften weer te geven of te verbergen.
+   Schakel in de speler de CC-knop op de Fluidic Player in om de bijschriften weer te geven of te verbergen.
 
    Dezelfde weergave is aanwezig in de **Learner-app** en in **Voorvertoning als student**.
 
-   Wanneer u **toevoegen, bijwerken of verwijderen** voor het vtt-bestand ontvangt u een melding.
+   Wanneer u **toevoegen, bijwerken of verwijderen** voor het VTT-bestand ontvangt u een melding.
 WebVTT-ondersteuning is niet beschikbaar voor:
 
    1. Video-aankondigingen.
-   1. Video afgespeeld in de eLearningcontent. Dit wordt aangestuurd door de inhoud.
+   1. Video die wordt afgespeeld in de eLearning-inhoud. Dit wordt aangestuurd door de inhoud.
    1. Video geüpload in Social Learning.
    1. Video gemaakt in de Learning Manager-desktopapp.
    1. Video-inhoud gemaakt met behulp van migratieproces.
    1. Video afspelen in mobiele app in offline modus.
 
-1. In het veld Duur kunt u optioneel invoeren hoeveel tijd de student naar verwachting aan deze module zou moeten besteden. De duur is in minuten.
-1. Voer in het veld Inhoudstags de tags voor de geüploade inhoud in, zodat uw inhoud vindbaar wordt.
+1. In het dialoogvenster **[!UICONTROL Duur]** kunt u desgewenst typen hoeveel tijd een student naar verwachting in deze module zal doorbrengen. De duur is in minuten.
+1. In het dialoogvenster **[!UICONTROL Labels]** typt u de tags voor de geüploade inhoud, zodat uw inhoud vindbaar wordt.
 
 ### Ondersteuning voor gedeelde catalogus
 
 Als een verkopersaccount een catalogus deelt die de cursussen bevat en de cursussen de modules, audio of video met de ondertitels bevatten, moeten de cursussen zich in het kopersaccount op dezelfde manier gedragen.
 
-Moduledoorgifte moet correct werken van verkopers- naar kopersaccount. Dit kan zijn: bewerken/verwijderen/toevoegen van het vtt-bestand in de module.
+Moduledoorgave moet correct werken van verkoper naar kopersaccount. Dit kan zijn: bewerken/verwijderen/toevoegen van het VTT-bestand in de module.
 
-Zodra u de inhoud hebt geüpload, kunt u een melding weergeven door op het belletje in de rechterbovenhoek van de pagina te klikken. Telkens wanneer u inhoud wijzigt en opnieuw uploadt, krijgt u een melding. Als u de wijzigingen aanbrengt, krijgt alleen u de melding. Andere auteurs ontvangen geen melding.
+Als u de inhoud hebt geüpload, kunt u een melding zien door het **Bell** in de rechterbovenhoek van de pagina. Telkens wanneer u inhoud wijzigt en opnieuw uploadt, krijgt u een melding. Als u de wijzigingen aanbrengt, krijgt alleen u de melding. Andere auteurs ontvangen geen melding.
 
-## Een quiz maken
+## Een quiz maken {#createaquiz}
 
-Maak beoordelingen in Adobe Learning Manager met de nieuwe tool voor het maken een van quiz op de pagina Inhoudsbibliotheek. De gemaakte beoordelingen worden onderdeel van de inhoudsbibliotheek en kunnen worden toegevoegd aan een openbare map voor hergebruik van de cursus.
+Beoordelingen maken in Adobe Learning Manager met het nieuwe gereedschap voor het maken van quiz op het tabblad **[!UICONTROL Inhoudsbibliotheek]** pagina. De gemaakte beoordelingen maken deel uit van de **Inhoudsbibliotheek** en kan worden toegevoegd aan een openbare map voor hergebruik van cursussen.
 
-1. Selecteer Inhoudsbibliotheek in het linkerdeelvenster.
+1. Selecteer **[!UICONTROL Inhoudsbibliotheek]** in het linkerdeelvenster.
 1. Selecteer in de rechterbovenhoek van het scherm **Toevoegen > Quiz**.
-1. Typ de naam en beschrijving van de quiz op de pagina Quiz maken.
-1. Selecteer in de sectie Quizinhoud de optie **quizvraag toevoegen**.
-1. Selecteer het type vraag in het dialoogvenster Quizvraag. Er zijn drie typen vragen:
+1. In het dialoogvenster **[!UICONTROL Quiz maken]** typt u de naam en beschrijving van de quiz.
+1. In het dialoogvenster **[!UICONTROL Quizinhoud]** sectie, selecteert u **quizvraag toevoegen**.
+1. In het dialoogvenster **[!UICONTROL Quizvraag]** selecteert u het type vraag. Er zijn drie typen vragen:
    * Meerkeuzevragen
    * Waar of niet waar
    * De lege ruimte invullen
-1. Voer de vraag in en selecteer het juiste antwoord.
+1. Typ de vraag en selecteer het juiste antwoord.
 1. Stel de punten in voor de quiz.
 1. Schakel het selectievakje in als u wilt dat de vraag juist wordt beantwoord om te slagen voor de quiz **Verplicht om correct te antwoorden om voor de quiz te slagen**.
 1. Selecteer **Opslaan en sluiten**.
@@ -242,17 +248,17 @@ De quiz wordt toegevoegd aan de Inhoudsbibliotheek. Net als alle andere inhoud i
 
 ## Aan map toevoegen {#add-folder}
 
-Nadat een beheerder de inhoudsmappen heeft gemaakt, kunt u als auteur inhoud uploaden naar een inhoudsmap, zodat de inhoud alleen zichtbaar is voor u of een bepaalde groep van auteurs in het account. U kunt de inhoud ook openbaar en zichtbaar maken voor alle auteurs in het account.
+Nadat een beheerder de inhoudsmappen heeft gemaakt, kunt u, een auteur, inhoud uploaden naar een inhoudsmap, zodat de inhoud alleen zichtbaar is voor u of een geselecteerde groep auteurs in het account. U kunt de inhoud ook openbaar en zichtbaar maken voor alle auteurs in het account.
 
 **Voorbeeld van gebruik**
 
 Bijvoorbeeld, willen de agentschappen volledige controle van de inhoud handhaven en iemand die de inhoud over het hoofd ziet moet toegang tot al inhoud hebben. Tegelijkertijd moeten contentmakers in bureaus alleen toegang hebben tot hun eigen content en in sommige gevallen tot de content van iemand anders.
 
-Inhoudsbibliotheek met bestaande inhoud (dat wil zeggen inhoud die is geüpload voordat de inhoudsmappen worden geconfigureerd) wordt gedefinieerd als **Openbare map**. Deze map kan niet worden gearchiveerd of verwijderd. Inhoud die deel uitmaakt van de openbare map, is toegankelijk voor alle typen auteurs. Als Inhoudsmappen zijn geconfigureerd, moeten standaardauteurs en aangepaste auteurs de map selecteren waarin de inhoud moet worden geplaatst, terwijl ze nieuwe inhoud uploaden.
+Inhoudsbibliotheek met bestaande inhoud (dat wil zeggen inhoud die is geüpload voordat de inhoudsmappen worden geconfigureerd) wordt gedefinieerd als **Openbare map**. Deze map kan niet worden gearchiveerd of verwijderd. Inhoud die deel uitmaakt van een openbare map, is toegankelijk voor alle typen auteurs. Als Inhoudsmappen zijn geconfigureerd, moeten standaardauteurs en aangepaste auteurs de map selecteren waarin de inhoud moet worden geplaatst, terwijl ze nieuwe inhoud uploaden.
 
 >[!NOTE]
 >
->Openbare mappen en privémappen sluiten elkaar uit. Dit betekent dat inhoud **kan** tegelijkertijd worden gekoppeld aan de openbare map en de privémap. Deze kan aan een openbare map zijn gekoppeld, **of** kan worden gekoppeld aan een of meer privémappen op elk gewenst moment.
+>Openbare mappen en privémappen sluiten elkaar uit. Dit betekent dat inhoud **kan** tegelijkertijd worden gekoppeld aan een openbare map en een persoonlijke map. Deze kan aan een openbare map zijn gekoppeld, **of** kan worden gekoppeld aan een of meer privémappen op elk gewenst moment.
 
 Wanneer u inhoud toevoegt, kunt u de map kiezen waarin de inhoud zich bevindt.
 
@@ -294,13 +300,13 @@ Als u inhoud van een openbare map naar een persoonlijke map wilt verplaatsen,
 
    *Alle geüploade inhoud weergeven*
 
-1. Kies de inhoud die u naar een map wilt verplaatsen. Klik vervolgens op **[!UICONTROL Handelingen]** > **[!UICONTROL Inhoud ordenen]** > **[!UICONTROL Inhoud naar map verplaatsen]**.
+1. Kies de inhoud die u naar een map wilt verplaatsen. Selecteer vervolgens **[!UICONTROL Handelingen]** > **[!UICONTROL Inhoud ordenen]** > **[!UICONTROL Inhoud naar map verplaatsen]**.
 
    ![](assets/move-content-to-folder.png)
 
    *Geselecteerde inhoud naar map verplaatsen*
 
-1. Kies de map waarnaar u de inhoud wilt verplaatsen. Klikken **[!UICONTROL Verplaatsen]**.
+1. Kies de map waarnaar u de inhoud wilt verplaatsen. Selecteren **[!UICONTROL Verplaatsen]**.
 
 ## Inhoud naar map kopiëren {#copycontenttofolder}
 
@@ -326,14 +332,14 @@ Inhoud kan worden losgekoppeld van een opgegeven map **ALLEEN** als deze ook aan
 
 ## Inhoud voor andere talen toevoegen {#addcontentfordifferentlanguages}
 
-1. Als u de inhoud voor verschillende talen wilt toevoegen, klikt u op de knop **Nieuwe taal toevoegen** en kiest u de vereiste talen. Op deze manier kunt u meertalige ondersteuning voor uw inhoud toevoegen.
+1. Als u de inhoud voor verschillende talen wilt toevoegen, selecteert u de optie **Nieuwe taal toevoegen** en kiest u de vereiste talen. Op deze manier kunt u meertalige ondersteuning voor uw inhoud toevoegen.
 
    ![](assets/add-new-languagetab.png)
 
    *Nieuwe taal toevoegen voor inhoud*
 
 1. Herhaal de procedure voor het uploaden van inhoud voor de nieuwe talen.
-1. Als u een taal wilt verwijderen, klikt u op het tabblad Nieuwe taal toevoegen en wist u uw selectie.
+1. Als u een taal wilt verwijderen, selecteert u de **[!UICONTROL Nieuwe taal toevoegen]** en wist u uw selectie.
 
    Klik op Opslaan nadat u de wijzigingen hebt aangebracht. De nieuwe inhoud is nu beschikbaar in de bibliotheek.
 
