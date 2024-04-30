@@ -3,10 +3,10 @@ description: Leer hoe u inhoud maakt en deze afstemt op cursussen als inhoud op 
 jcr-language: en_us
 title: Inhoudsbibliotheek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: e80f68843d7f6b937d9be8917e7bf9c8a69b23db
+source-git-commit: c1231f48c87c14f7b3acd23b0c0d5e93f0cc692c
 workflow-type: tm+mt
-source-wordcount: '3113'
-ht-degree: 65%
+source-wordcount: '3124'
+ht-degree: 57%
 
 ---
 
@@ -110,25 +110,25 @@ De onderstaande tabel toont de interactieve en statische bestandstypen die u naa
 
 ## Nieuwe inhoud toevoegen aan de bibliotheek {#addnewcontentinthelibrary}
 
-Zoals reeds vermeld in de vorige sectie, kunt u zowel interactieve als statische inhoud aan de bibliotheek toevoegen.
+**Auteurs** kan inhoud toevoegen in ALM. Er zijn twee typen inhoud in ALM: **[!UICONTROL Inhoud]** en **[!UICONTROL Quiz]**. Zie voor meer informatie over het toevoegen van inhoud [Statische inhoud toevoegen](content-library.md#addstaticcontent) en [Een quiz maken](content-library.md##createaquiz).
 
 ## Statische inhoud toevoegen {#addstaticcontent}
 
-1. Klik op Inhoudsbibliotheek in het linkerdeelvenster nadat u zich als auteur hebt aangemeld en klik op Toevoegen.
+1. Selecteren **[!UICONTROL Inhoudsbibliotheek]** in het linkerdeelvenster nadat u zich als **Auteur** en selecteer **[!UICONTROL Toevoegen]**.
 
-   U kunt ook klikken op Inhoud maken op de pagina Aan de slag.
+   U kunt ook **[!UICONTROL Inhoud maken]** van de **[!UICONTROL Aan de slag]** pagina.
 
-1. Geef in het veld Naam een naam op voor de inhoud die u wilt uploaden.
-1. Voer in het veld Beschrijving de beschrijving van de inhoud in. Voer een zinvolle beschrijving in. De tekenlimiet is 400 tekens.
-1. Klik op Inhoudsbestand toevoegen en upload uw bronbestand om de inhoud toe te voegen. Wanneer u inhoud voor meerdere talen toevoegt, kunt u statische en interactieve inhoud niet in één groep combineren. Uw inhoud moet voor alle locaties ofwel statisch, ofwel interactief zijn.
+1. In het dialoogvenster **[!UICONTROL Naam]** typt u een naam voor de inhoud die u wilt uploaden.
+1. In het dialoogvenster **[!UICONTROL Beschrijving]** typt u de beschrijving van de inhoud. Voer een zinvolle beschrijving in. De tekenlimiet is 400 tekens.
+1. Als u inhoud wilt toevoegen, selecteert u **[!UICONTROL Inhoudbestand toevoegen]** en uploadt u uw bronbestand. Wanneer u inhoud voor meerdere talen toevoegt, kunt u statische en interactieve inhoud niet in één groep combineren. Uw inhoud moet voor alle locaties ofwel statisch, ofwel interactief zijn.
 
    Als u de inhoud wilt vervangen, kunt u statische inhoud door andere statische inhoud vervangen. Hetzelfde geldt voor interactieve inhoud.
 
-1. In het veld Duur kunt u optioneel invoeren hoeveel tijd de student naar verwachting aan deze module zou moeten besteden. De duur is in minuten.
+1. In het dialoogvenster **[!UICONTROL Duur]** kunt u desgewenst typen hoeveel tijd een student naar verwachting in deze module zal doorbrengen. De duur is in minuten.
 
-   De leertijd die de student heeft besteed, wordt berekend op basis van de duur die wordt opgegeven wanneer de student een cursus als voltooid heeft gemarkeerd. Als de student de inhoud in de speler voltooit, wordt de tijd die in de speler is doorgebracht, bij de bestede leertijd opgeteld. Als de werkelijke inhoudsduur korter is dan de opgegeven duur, gebeurt er niets, omdat de speler altijd de inhoudsduur voor weergave aanhoudt.
+   De leertijd die de student heeft besteed, wordt berekend op basis van de duur die wordt opgegeven wanneer de student een cursus als voltooid heeft gemarkeerd. Als de student de inhoud in de speler verwerkt, wordt de tijd die in de speler is doorgebracht, opgeteld bij de bestede leertijd. Als de werkelijke inhoudsduur korter is dan de opgegeven duur, gebeurt er niets, omdat de speler altijd de inhoudsduur voor weergave aanhoudt.
 
-1. Voer in het veld Inhoudstags de tags voor de geüploade inhoud in, zodat uw inhoud vindbaar wordt.
+1. In het dialoogvenster **[!UICONTROL Labels]** typt u de tags voor de geüploade inhoud, zodat uw inhoud vindbaar wordt.
 
    Een auteur kan deze tags gebruiken om te zoeken naar de inhoud terwijl de inhoud aan de cursus wordt toegevoegd.
 
@@ -138,21 +138,19 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
 ## Interactieve inhoud toevoegen {#addinteractivecontent}
 
-1. Klik op Inhoudsbibliotheek in het linkerdeelvenster nadat u zich als auteur hebt aangemeld en klik op Toevoegen.
+1. Selecteren **[!UICONTROL Inhoudsbibliotheek]** in het linkerdeelvenster nadat u zich als **Auteur** en selecteer **[!UICONTROL Toevoegen]**.
 
-   U kunt ook klikken op Inhoud maken op de pagina Aan de slag.
+   U kunt ook **[!UICONTROL Inhoud maken]** van de **[!UICONTROL Aan de slag]** pagina.
 
-1. Geef in het veld Naam een naam op voor de inhoud die u wilt uploaden.
-1. Voer in het veld Beschrijving de beschrijving van de inhoud in. Voer een zinvolle beschrijving in. De tekenlimiet is 245 tekens.
-1. Klik op Inhoudsbestand toevoegen en upload uw bronbestand om de inhoud toe te voegen. Wanneer u inhoud voor meerdere talen toevoegt, kunt u statische en interactieve inhoud niet in één groep combineren. Uw inhoud moet voor alle locaties ofwel statisch, ofwel interactief zijn.
+1. In het dialoogvenster **[!UICONTROL Naam]** typt u een naam voor de inhoud die u wilt uploaden.
+1. In het dialoogvenster **[!UICONTROL Beschrijving]** typt u de beschrijving van de inhoud. Voer een zinvolle beschrijving in. De tekenlimiet is 245 tekens.
+1. Als u inhoud wilt toevoegen, selecteert u **[!UICONTROL Inhoudbestand toevoegen]** en uploadt u uw bronbestand. Wanneer u inhoud voor meerdere talen toevoegt, kunt u statische en interactieve inhoud niet in één groep combineren. Uw inhoud moet voor alle locaties ofwel statisch, ofwel interactief zijn.
 
 * [Ondersteunde bestandstypen](content-library.md#supported)
 
   De interactieve inhoud kan een project zijn dat met SCORM, AICC of Captivate is gepubliceerd. Het bestand moet een ZIP-bestand zijn.
 
   U kunt ook HTML-inhoud toevoegen die met Captivate, Presenter of Presenter Video Express is gegenereerd.
-
-[Ondersteunde bestandstypen](content-library.md#supported)
 
 1. Learning Manager ondersteunt bijschriften voor video-inhoud die is geüpload in Learning Manager. Nu kunnen auteurs het bestand met bijschriften samen met het videobestand uploaden.
 
@@ -162,11 +160,11 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
    Bijschriften worden ondersteund voor video-inhoud die is geüpload in de inhoudsbibliotheek in Learning Manager.
 
-   Wanneer u als auteur een video- of audio-inhoud uploadt, kunt u ook het .vtt-bestand uploaden dat de bijschriften bevat.
+   Wanneer u als auteur een video- of audio-inhoud uploadt, kunt u ook het VTT-bestand uploaden dat de bijschriften bevat.
 
    De ondertitels verschijnen dan in de Fluidic Player. De bijschriften zijn ook compatibel met [WCAG2.0-standaarden](https://www.w3.org/TR/WCAG20/).
 
-   Wanneer u een video-inhoud aan de bibliotheek toevoegt, kunt u ook het vtt-bestand toevoegen dat **moeten** zijn een geldig bestand.
+   Wanneer u een video-inhoud aan de bibliotheek toevoegt, kunt u ook het VTT-bestand toevoegen dat **moeten** zijn een geldig bestand.
 
    ![](assets/webvtt.png)
 
@@ -192,14 +190,14 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 WebVTT-ondersteuning is niet beschikbaar voor:
 
    1. Video-aankondigingen.
-   1. Video afgespeeld in de eLearningcontent. Dit wordt aangestuurd door de inhoud.
+   1. Video die wordt afgespeeld in de eLearning-inhoud. Dit wordt aangestuurd door de inhoud.
    1. Video geüpload in Social Learning.
    1. Video gemaakt in de Learning Manager-desktopapp.
    1. Video-inhoud gemaakt met behulp van migratieproces.
    1. Video afspelen in mobiele app in offline modus.
 
-1. In het veld Duur kunt u optioneel invoeren hoeveel tijd de student naar verwachting aan deze module zou moeten besteden. De duur is in minuten.
-1. Voer in het veld Inhoudstags de tags voor de geüploade inhoud in, zodat uw inhoud vindbaar wordt.
+1. In het dialoogvenster **[!UICONTROL Duur]** kunt u desgewenst de verwachte tijd invoeren die een student in deze module zou doorbrengen. De duur is in minuten.
+1. In het dialoogvenster **[!UICONTROL Labels]** voert u de tags in voor de geüploade inhoud, zodat uw inhoud vindbaar wordt.
 
 ### Ondersteuning voor gedeelde catalogus
 
@@ -209,7 +207,7 @@ Moduledoorgifte moet correct werken van verkopers- naar kopersaccount. Dit kan z
 
 Zodra u de inhoud hebt geüpload, kunt u een melding weergeven door op het belletje in de rechterbovenhoek van de pagina te klikken. Telkens wanneer u inhoud wijzigt en opnieuw uploadt, krijgt u een melding. Als u de wijzigingen aanbrengt, krijgt alleen u de melding. Andere auteurs ontvangen geen melding.
 
-## Een quiz maken
+## Een quiz maken {#createaquiz}
 
 Maak beoordelingen in Adobe Learning Manager met de nieuwe tool voor het maken een van quiz op de pagina Inhoudsbibliotheek. De gemaakte beoordelingen worden onderdeel van de inhoudsbibliotheek en kunnen worden toegevoegd aan een openbare map voor hergebruik van de cursus.
 
