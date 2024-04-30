@@ -1,19 +1,19 @@
 ---
-description: Meer informatie over de nieuwe functies en verbeteringen in de Adobe Learning Manager van maart 2024
+description: Meer informatie over de nieuwe functies en verbeteringen in de Adobe Learning Manager-versie van maart 2024
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
+source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
 workflow-type: tm+mt
-source-wordcount: '3764'
+source-wordcount: '3861'
 ht-degree: 1%
 
 ---
 
 # Overzicht van nieuwe functies {#new-features-summary}
 
-Lees meer over de nieuwe functies en verbeteringen in de Adobe Learning Manager-versie van maart 2024.
+Meer informatie over de nieuwe functies en verbeteringen in de Adobe Learning Manager-versie van maart 2024.
 
 ## Nieuw in deze release {#whatsnewandchanged}
 
@@ -88,7 +88,7 @@ Als het aantal gebruikers in de gebruikersgroep minder dan 10.000 is, kunt u afz
 
 Als er in de huidige versies van Adobe Learning Manager een groot aantal gebruikers is ingeschreven voor een certificering, kunt u de uitgeschreven studenten sinds de **Status** is uitgeschakeld.
 
-Als het aantal ingeschreven gebruikers groot is, wordt in deze versie van Adobe Learning Manager **Status** vervolgkeuzelijst geeft slechts twee opties weer **Ingeschreven** en **Uitgeschreven**. De optie **Ingeschreven** is standaard geselecteerd. Als u **Uitgeschreven** wordt de lijst met uitgeschreven studenten weergegeven.
+Als in deze versie van Adobe Learning Manager het aantal ingeschreven gebruikers groot is, wordt **Status** vervolgkeuzelijst geeft slechts twee opties weer **Ingeschreven** en **Uitgeschreven**. De optie **Ingeschreven** is standaard geselecteerd. Als u **Uitgeschreven** wordt de lijst met uitgeschreven studenten weergegeven.
 
 #### Wijzigingen in gebruikersgroep
 
@@ -287,7 +287,7 @@ Weergave [Verzendstatus](instructors/feature-summary/learners.md#filter-file-sub
 
 ## Verbeteringen voor checklist
 
-In de maart 2024-versie van Adobe Learning Manager zijn de volgende verbeteringen aangebracht in de workflow voor checklist:
+In de Adobe Learning Manager-versie van maart 2024 zijn de volgende verbeteringen aangebracht in de workflow voor checklist:
 
 ### Voortgang bij mislukken van checklist niet toestaan
 
@@ -320,7 +320,7 @@ Weergave [Een checklist maken](authors/feature-summary/courses.md#checklist-fail
 
 ### Sessiegerelateerde e-mailmeldingen
 
-In eerdere versies van Adobe Learning Manager heeft een student geen sessiegerelateerde e-mails, sessiedetails bijgewerkt, Sessieuitnodiging en Sessieherinnering verzonden wanneer:
+In eerdere versies van Adobe Learning Manager had een student geen sessiegerelateerde e-mails, Sessiedetails bijgewerkt, Sessieuitnodiging en Sessieherinnering wanneer:
 
 * Studenten hebben een cursus voltooid,
 * Nieuwe sessies aan een cursus worden toegevoegd, of
@@ -374,9 +374,9 @@ In de huidige versies van Adobe Learning Manager wordt een student gemarkeerd **
 
 In deze release verandert de status in **Toch te markeren**.
 
-### Witte labels in Adobe Learning Manager
+### Witte etikettering in Adobe Learning Manager
 
-De mobiele app van Adobe Learning Manager ondersteunt nu witte labels, wat betekent dat u de app nu onder uw eigen merknaam kunt uitbrengen.
+De mobiele Adobe Learning Manager-app ondersteunt nu witte labels, wat betekent dat u de app nu kunt vrijgeven onder uw eigen branding.
 
 Witte labels weergeven in [Adobe Learning Manager mobiele app](white-label.md) voor meer informatie.
 
@@ -388,7 +388,21 @@ Deze release bevat een nieuwe optionele kolom, uniqueLoId, in de volgende CSV&#3
 * course.csv
 * learning_program.csv
 
-De kolom uniqueLoId is niet van toepassing op de CSV voor taakhulp.
+>[!NOTE]
+>
+>De **uniqueLoId** kolom is optioneel.
+
+
+Als u een migratie uitvoert om een bestaande cursus of een bestaand leerplan of certificering bij te werken, voert u de cursus of het leerplan of de certificering uit met de **uniqueLOId** worden toegevoegd aan de auteurstoepassing.
+
+Tijdens het migreren moet u het dialoogvenster **uniqueLOId** waarden in de CSV&#39;s voor cursussen of leerplannen of certificering, ook al is het een optionele kolom.
+
+Als de **uniqueLoId** geen kolom toegevoegd voordat de migratie wordt uitgevoerd bij het bijwerken van de bestaande cursus of het bestaande leerplan of de certificering die **uniqueLOId** s, en vervolgens na de migratie **uniqueLOId** waarden worden overschreven met NULL-waarden.
+
+>[!NOTE]
+>
+>De kolom uniqueLoId is niet van toepassing op de CSV voor taakhulp.
+
 
 >[!IMPORTANT]
 >
@@ -399,7 +413,7 @@ Download de CSV&#39;s van de [Migratiehandleiding](integration-admin/feature-sum
 
 ### Toepassingsclassificatie
 
-Een student kan feedback geven over de app Adobe Learning Manager om de app-ervaring verder te verbeteren. Als de student vier sterren of meer telt, verschijnt er een pop-upvenster met een verzoek aan de student om de app te beoordelen in de Play Store of App Store.
+Een student kan feedback geven over de Adobe Learning Manager-app om de app-ervaring verder te verbeteren. Als de student vier sterren of meer telt, verschijnt er een pop-upvenster met een verzoek aan de student om de app te beoordelen in de Play Store of App Store.
 
 ### Blauwjeans heeft in februari 2024 zijn einde bereikt
 
@@ -413,7 +427,7 @@ Het rapport Toegang tot aanmelding is alleen beschikbaar voor de afgelopen vijf 
 
 ### ADFS-wijzigingen
 
-De velden Employee Type en Employee ID van ADFS zijn nu beschikbaar in Adobe Learning Manager, op basis van de toewijzingen.
+De velden Employee Type en Employee ID van ADFS zijn nu beschikbaar op Adobe Learning Manager, op basis van de toewijzingen.
 
 ## API-wijzigingen in deze versie
 
@@ -543,7 +557,7 @@ Weergave [API-afwijzingen in Adobe Learning Manager](api-deprecations-list.md) v
 
 ## Systeemvereisten
 
-Weergave [Systeemvereisten voor Adobe Learning Manager](system-requirements.md).
+Weergave [Adobe Learning Manager-systeemvereisten](system-requirements.md).
 
 ## Eerdere releases van Adobe Learning Manager
 
