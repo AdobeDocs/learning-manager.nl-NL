@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Gebruikers toevoegen en gebruikersgroepen maken
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 11bdb71c7d584a69ce1bb5acafa7dbcebcdbfe85
 workflow-type: tm+mt
 source-wordcount: '4000'
 ht-degree: 62%
@@ -15,15 +15,22 @@ ht-degree: 62%
 
 Leer hoe u gebruikers of gebruikersgroepen in de Learning Manager-toepassing toevoegt.
 
+
 <!--![](assets/user-mgmt-new.png)-->
 
 ## Gebruikersgroepen beheren
 
-In deze training leert u hoe u een gebruikersgroep kunt maken op naam, e-mail-id&#39;s en meerdere automatisch gegenereerde gebruikersgroepen combineert.
+>[!INFO]
+>
+>In deze training leert u hoe u een gebruikersgroep kunt maken op naam, e-mail-id&#39;s en meerdere automatisch gegenereerde gebruikersgroepen combineert.<br><br>
+[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
@@ -44,7 +51,7 @@ Als beheerder kunt u gebruikers op drie manieren toevoegen:
 
 ## Eén gebruiker toevoegen {#addasingleuser}
 
-Voeg interne studenten toe aan de Adobe Learning Manager met behulp van één gebruikersoptie.
+Voeg interne studenten aan de Adobe Learning Manager toe met behulp van één gebruikersoptie.
 
 [![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
 
