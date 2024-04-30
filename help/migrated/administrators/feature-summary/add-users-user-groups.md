@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gebruikers toevoegen en gebruikersgroepen maken
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 82a327fa4a472f58319528a11e427549bd4bd728
+source-git-commit: 18feaeb3a5d1995385a792696cdc536afaceac41
 workflow-type: tm+mt
-source-wordcount: '4000'
-ht-degree: 62%
+source-wordcount: '3978'
+ht-degree: 63%
 
 ---
 
@@ -20,12 +20,12 @@ Leer hoe u gebruikers of gebruikersgroepen in de Learning Manager-toepassing toe
 
 ## Gebruikersgroepen beheren
 
->[!INFO]
+<!-- >[!INFO]
 >
->In deze training leert u hoe u een gebruikersgroep kunt maken op naam, e-mail-id&#39;s en meerdere automatisch gegenereerde gebruikersgroepen combineert.<br/><br/>
+>In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694) -->
+
 [![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
-
-
 <!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
