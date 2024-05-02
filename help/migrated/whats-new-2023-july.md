@@ -2,9 +2,10 @@
 title: Nieuwe functies in deze release (juli 2023)
 description: Meer informatie over de nieuwe functies en verbeteringen in Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
+exl-id: c6f192b6-f377-47b2-9151-516ac8179543
+source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2059'
 ht-degree: 67%
 
 ---
@@ -59,7 +60,7 @@ Deze verandering zal ook de ExaVault-connector vervangen, die niet langer beschi
 
 ## Herinneringen in vooruitzichten voor klassikale en virtuele sessies
 
-Sessies in de lesruimte en de virtuele lesruimte die zijn gemaakt met de Adobe Learning Manager en die zijn toegevoegd aan de Outlook-agenda van de student, ondersteunen nu consistent herinneringen vanuit Outlook (vergelijkbaar met herinneringen voor vergaderingen in Outlook).
+Op Adobe Learning Manager gemaakte klassikale en virtuele klassikale sessies die zijn toegevoegd aan de Outlook-agenda van de student ondersteunen nu consistent herinneringen vanuit Outlook (vergelijkbaar met herinneringen voor vergaderingen in Outlook).
 
 ## Verbeteringen voor het toewijzen van vaardigheden aan cursussen
 
@@ -530,7 +531,11 @@ Stemming is het proces waarbij een woord tot de basisvorm wordt verkleind. Dit z
 
 In deze release hebben we stamstamversies toegevoegd voor Engelse landinstellingen, die de volgende varianten omvatten: en_US, en_AU, en_GB.
 
-Het stamvormattribuut geeft aan of stamvorming is vereist in zoekresultaten. Dit is standaard ingesteld op Onwaar
+Het stamvormattribuut geeft aan of stamvorming is vereist in zoekresultaten. Dit is standaard ingesteld op Onwaar.
+
+API-queryparameters:
+
+matchType=frase_and_match stemmed=true
 
 ### Verwijderen van V1-eindpunten
 
