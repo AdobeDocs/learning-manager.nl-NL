@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Taakhulpen
 description: Taakhulpen is een opslagplaats van trainingsinhoud die zonder enige inschrijvings- of voltooiingscriteria toegankelijk is voor studenten. Studenten kunnen deze taakhulpen gebruiken om een activiteit of taak in een organisatie uit te voeren.
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 73%
+source-wordcount: '590'
+ht-degree: 66%
 
 ---
-
-
 
 # Taakhulpen
 
@@ -35,6 +34,19 @@ Auteurs kunnen taakhulpen voor studenten maken. Gebruik taakhulpen om studenten 
 1. Klik op **[!UICONTROL Opslaan]**.
 
    De taakhulp wordt gepubliceerd.
+
+## Taakhulp toevoegen in verschillende talen {#addcontentfordifferentlanguages}
+
+1. Als u de taakhulp in verschillende talen wilt toevoegen, selecteert u de optie **Nieuwe taal toevoegen** en kiest u de vereiste talen. Op deze manier kunt u meertalige ondersteuning voor uw inhoud toevoegen.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Nieuwe taal toevoegen voor inhoud*
+
+1. Herhaal het uploadproces voor taakhulp voor de nieuwe talen.
+1. Als u een taal wilt verwijderen, selecteert u het tabblad Nieuwe taal toevoegen en wist u uw selectie.
+
+   Nadat u de wijzigingen hebt aangebracht, selecteert u Opslaan.
 
 ## Soorten ondersteunde taakhulpen {#typesofsupportedjobaids}
 

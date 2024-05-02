@@ -3,10 +3,10 @@ description: Leer hoe u inhoud maakt en deze afstemt op cursussen als inhoud op 
 jcr-language: en_us
 title: Inhoudsbibliotheek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: c1231f48c87c14f7b3acd23b0c0d5e93f0cc692c
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '3124'
-ht-degree: 57%
+source-wordcount: '3239'
+ht-degree: 56%
 
 ---
 
@@ -234,7 +234,20 @@ Maak beoordelingen in Adobe Learning Manager met de nieuwe tool voor het maken e
 1. Voeg een logo en achtergrond toe aan de quiz.
 1. Selecteer rechtsboven op de pagina de optie **Publiceren**.
 
-De quiz wordt toegevoegd aan de Inhoudsbibliotheek. Net als alle andere inhoud in de Inhoudsbibliotheek kunt u een quiz archiveren en vervolgens verwijderen.
+Volg de onderstaande stappen om de quizzen in een andere taal toe te voegen:
+
+1. Als u de quiz voor verschillende talen wilt toevoegen, selecteert u de optie **Nieuwe taal toevoegen** en kiest u de vereiste talen. Op deze manier kunt u meertalige ondersteuning voor uw inhoud toevoegen.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Nieuwe taal toevoegen voor inhoud*
+
+1. Herhaal de procedure voor het uploaden van inhoud voor de nieuwe talen.
+1. Als u een taal wilt verwijderen, selecteert u de **[!UICONTROL Nieuwe taal toevoegen]** en wist u uw selectie.
+
+   Nadat u de wijzigingen hebt aangebracht, klikt u op **[!UICONTROL Opslaan]**. De nieuwe inhoud is nu beschikbaar in de bibliotheek.
+
+De quiz wordt toegevoegd aan de **[!UICONTROL Inhoudsbibliotheek]**. Net als alle andere inhoud in de Inhoudsbibliotheek kunt u een quiz archiveren en vervolgens verwijderen.
 
 
 ## Aan map toevoegen {#add-folder}
@@ -430,6 +443,11 @@ Volg deze stappen om de inhoud te archiveren:
 * Selecteer Actie > Archiveren.
 
 Dit is niet van invloed op inhoud die in leerobjecten wordt gebruikt. Studenten hebben nog steeds toegang tot de inhoud.
+
+>[!NOTE]
+>
+>U kunt ook inhoud toevoegen uit de **[!UICONTROL Gearchiveerd]** sectie, navigeren naar **[!UICONTROL Inhoudsbibliotheek]** > **[!UICONTROL Gearchiveerd]** en selecteer **[!UICONTROL Inhoud toevoegen]**. Zie voor meer informatie [Statische inhoud toevoegen](content-library.md#addstaticcontent).
+
 
 ## Gearchiveerde inhoud publiceren {#republishretiredcontent}
 
