@@ -3,16 +3,16 @@ jcr-language: en_us
 title: Taakhulpen
 description: Taakhulpen is een opslagplaats van trainingsinhoud die zonder enige inschrijvings- of voltooiingscriteria toegankelijk is voor studenten. Studenten kunnen deze taakhulpen gebruiken om een activiteit of taak in een organisatie uit te voeren.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 66%
+ht-degree: 65%
 
 ---
 
 # Taakhulpen
 
-Taakhulpen is een opslagplaats van trainingsinhoud die zonder enige inschrijvings- of voltooiingscriteria toegankelijk is voor studenten. Studenten kunnen deze taakhulpen gebruiken om een activiteit of taak in een organisatie uit te voeren.
+**Taakhulpen** is een opslagplaats van trainingsinhoud die zonder enige inschrijvings- of voltooiingscriteria toegankelijk is voor studenten. Studenten kunnen deze taakhulpen gebruiken om een activiteit of taak in een organisatie uit te voeren.
 
 Taakhulpen kunnen onafhankelijk worden gebruikt of in combinatie met een cursus in Learning Manager.
 
@@ -20,9 +20,9 @@ Auteurs kunnen taakhulpen voor studenten maken. Gebruik taakhulpen om studenten 
 
 ## Taakhulp maken {#createjobaid}
 
-1. Klik op Taakhulpen in het linkerdeelvenster bij de aanmelding voor de auteur.
-1. Klik op Maken in de rechterbovenhoek van de pagina die wordt weergegeven.
-1. Voer de naam, beschrijving en tags in. Kies de vaardigheden en de bijbehorende niveaus. Selecteer de inhoud als privé als u niet wilt dat andere auteurs de taakhulp kunnen toewijzen aan hun cursussen.
+1. Selecteer bij aanmelding bij de auteur **[!UICONTROL Taakhulpen]** in het linkerdeelvenster.
+1. Selecteren **[!UICONTROL Maken]** rechtsboven op de pagina die wordt weergegeven.
+1. Typ de naam, beschrijving en tags. Kies de vaardigheden en de bijbehorende niveaus. Selecteer de inhoud als privé als u niet wilt dat andere auteurs de taakhulp kunnen toewijzen aan hun cursussen.
 
    Alleen bestaande vaardigheden kunnen worden gebruikt voor taakhulpen. Vaardigheden zijn niet verplicht.
 
@@ -44,7 +44,7 @@ Auteurs kunnen taakhulpen voor studenten maken. Gebruik taakhulpen om studenten 
    *Nieuwe taal toevoegen voor inhoud*
 
 1. Herhaal het uploadproces voor taakhulp voor de nieuwe talen.
-1. Als u een taal wilt verwijderen, selecteert u het tabblad Nieuwe taal toevoegen en wist u uw selectie.
+1. Als u een taal wilt verwijderen, selecteert u de **[!UICONTROL Nieuwe taal toevoegen]** en wist u uw selectie.
 
    Nadat u de wijzigingen hebt aangebracht, selecteert u Opslaan.
 

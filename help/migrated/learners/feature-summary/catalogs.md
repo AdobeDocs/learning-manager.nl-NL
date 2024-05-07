@@ -3,14 +3,13 @@ description: Lees hoe u catalogi in Learning Manager kunt gebruiken om de in aan
 jcr-language: en_us
 title: Catalogi
 contentowner: manochan
-source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
+exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 23%
+source-wordcount: '294'
+ht-degree: 22%
 
 ---
-
-
 
 # Catalogi
 
@@ -22,7 +21,7 @@ Studenten kunnen alle toegewezen en in aanmerking komende leerobjecten (leerprog
 
 U kunt de lijst met leerobjecten filteren op vaardigheden en het leerobjecttype (eigen tempo, blended, klassikaal, virtueel klassikaal, activiteit). U kunt ook filteren met de opties in het linkerdeelvenster: op leerobjecten, op vaardigheden en op voltooiingsstatus.
 
-Gebruik de zoekbalk boven aan de pagina om de namen van uw vertrouwde leerobjecten in te voeren.
+Gebruik de zoekbalk boven aan de pagina om de namen van uw vertrouwde leerobjecten in te voeren. Studenten kunnen schakelen tussen het raster en de lijstweergave door deze optie te selecteren ![](assets/icon-list.png) pictogram.
 
 ![](assets/catalogs.png)
 *Catalogi weergeven*
