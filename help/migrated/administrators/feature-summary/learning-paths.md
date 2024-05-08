@@ -4,9 +4,9 @@ title: Leerpaden
 description: Leerplannen maken voor beheerders in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1970'
 ht-degree: 42%
 
 ---
@@ -56,6 +56,10 @@ U kunt vaardigheden toevoegen en een badge toewijzen aan het leerpad. Als u een 
 ![](assets/add-skills.png)
 
 Wijs een badge toe aan het leerpad. Kies een badge uit de lijst met beschikbare badges.
+
+Selecteer de producten, rollen en rolniveau van het **[!UICONTROL Aanbevelen voor]** om dit leerpad voor te stellen aan de gebruikers die belangstelling hebben getoond voor deze producten en rollen.
+
+![](assets/recommend-for.png)
 
 Kies het sequentietype voor de secties en trainingen zoals Besteld of Niet op volgorde op basis van uw voorkeur.
 

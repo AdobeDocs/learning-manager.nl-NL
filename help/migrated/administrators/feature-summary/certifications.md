@@ -3,14 +3,13 @@ description: Lees hoe u certificeringen kunt maken, studenten kunt inschrijven e
 jcr-language: en_us
 title: Certificeringen
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 70%
+source-wordcount: '1020'
+ht-degree: 68%
 
 ---
-
-
 
 # Certificeringen
 
@@ -103,6 +102,10 @@ Als beheerder kunt u een certificeringsprogramma maken dat intern of door een de
  </tbody>
 </table>
 
+Selecteer de producten, rollen en rolniveau van het **[!UICONTROL Aanbevelen voor]** om dit leerpad voor te stellen aan de gebruikers die belangstelling hebben getoond voor deze producten en rollen.
+
+![](assets/recommend-for.png)
+
 Kies uit de cursussen die u aan de certificering wilt toevoegen **[!UICONTROL Cursussen]** > **[!UICONTROL Catalogus]** tabblad.
 
 Houd de muis op elke cursustegel en klik op + om deze aan de certificering toe te voegen. Klikken **[!UICONTROL Voorvertoning]** om de cursus als student weer te geven voordat u deze toevoegt.
@@ -165,6 +168,8 @@ Een certificering in de status Gepubliceerd kan worden bewerkt door een beheerde
 Als u een gepubliceerde certificering wilt bewerken, klikt u op de certificeringskaart en klikt u op **[!UICONTROL Bewerken]** rechtsboven op de pagina.
 
 Als u tijdens het bewerken van de onderdelen van een certificering de pagina moet verlaten, moet u de certificering opnieuw publiceren. U krijgt een bevestiging in een dialoogvenster waarin u wordt gevraagd om de certificering opnieuw te publiceren.
+
+![](assets/edit-a-certificate.png)
 
 ## Abonnement {#subscription}
 
