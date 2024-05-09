@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Aangepaste rollen via CSV-bestanden beheren
 description: De integratiebeheerder kan via CSV een aantal aangepaste rollen in bulk aan zijn/haar account toevoegen en deze aan verschillende gebruikers toewijzen. Deze aanpak automatiseert het maken van aangepaste rollen.
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: fce2f457-2834-491a-8331-64086f5a51b5
+source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 86%
+source-wordcount: '907'
+ht-degree: 83%
 
 ---
-
-
 
 # Aangepaste rollen via CSV-bestanden beheren
 
@@ -18,7 +17,7 @@ De integratiebeheerder kan via CSV een aantal aangepaste rollen in bulk aan zijn
 
 U kunt rollen configureren via de Learning Manager FTP en Box-connectors.
 
-Nadat u zich bij uw Box- of ExaVault-opslagaccount hebt aangemeld, kan de integratiebeheerder de volgende CSV&#39;s aan het account toevoegen:
+Nadat u zich hebt aangemeld bij uw Box-opslagaccount, kan de integratiebeheerder de volgende CSV&#39;s toevoegen aan het account:
 
 * role.csv
 * user_role.csv
@@ -26,7 +25,8 @@ Nadat u zich bij uw Box- of ExaVault-opslagaccount hebt aangemeld, kan de integr
 Download om te beginnen de CSV&#39;s en pas de waarden aan uw vereisten aan.
 
 **role.csv**
-[Voorbeeldbestand - role.csv](assets/role.csv) [Voorbeeldbestand- user_role.csv](assets/user-role.csv)
+* Voorbeeldbestand: [role.csv](assets/role.csv)
+* Voorbeeldbestand: [user_role.csv](assets/user_role.csv)
 
 <table>
  <tbody>
@@ -143,7 +143,7 @@ Als er Catalogusnamen of namen van Gebruikersgroepen in de CSV worden vermeld, w
 * Leerplannen
 * E-mailsjablonen
 
-## Voeg de rol-CSV&#39;s aan de account toe {#addtherolecsvsintheaccount}
+## De rol CSV&#39;s toevoegen aan het account {#addtherolecsvsintheaccount}
 
 Kies in uw Box-account **Importeren > gebruiker > intern** en upload de bestanden role.csv en user_role.csv.
 
