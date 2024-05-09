@@ -3,59 +3,15 @@ jcr-language: en_us
 title: Systeemvereisten
 description: Systeemvereisten voor Adobe Learning Manager
 contentowner: dvenkate
-source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
+exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '565'
 ht-degree: 65%
 
 ---
 
-
 # Systeemvereisten voor Adobe Learning Manager
-
-## Windows {#windows}
-
-Microsoft Windows 7, 8, 10 (alleen 64-bits versies).
-
-## macOS {#macos}
-
-macOS X 10.12, 10.13, 10.14, 10.15
-
-## RAM
-
-8 GB RAM.
-
-## Weergave
-
-Minimaal ondersteunde resolutie: 1024 x 720.
-
-## Schijfruimte
-
-Minimaal 5 GB beschikbare ruimte op de harde schijf.
-
-## Opnemen
-
-* Microfoon vereist voor audio-opname.
-* Webcam vereist voor video-opname.
-
-## Diversen
-
-Een actieve internetverbinding en Adobe Learning Manager-studentenaccount zijn vereist om deze toepassing te gebruiken.
-
-## Browserspecificaties
-
-De insluitende lay-out van de startpagina wordt niet ondersteund door de browser IE 11.
-
-* Google Chrome versie 43 en hoger.
-* Nieuwste versies van Edge, Safari (versie 13 en hoger) en Firefox.
-* Internet Explorer versie 11 en hoger
-
-## Aanbevolen grootte van afbeeldingen {#recommendedsizeofimages}
-
-* Impressum: 1280 x 360 px.
-* Afbeelding op de cataloguskaart: 280 x 100 px
-* Grootte trainingskaart: 300 x 240 px
-* Social-banner: 1600 x 240 px
 
 ## Desktop
 
@@ -114,6 +70,25 @@ Een microfoon is vereist voor audio-opname; een webcam vereist voor video-opname
 >[!NOTE]
 >
 >De Learning Manager-mobiele app ondersteunt alleen de studentenrol.
+
+## Diversen
+
+Een actieve internetverbinding en Adobe Learning Manager-studentenaccount zijn vereist om deze toepassing te gebruiken.
+
+## Browserspecificaties
+
+De insluitende lay-out van de startpagina wordt niet ondersteund door de browser IE 11.
+
+* Google Chrome versie 43 en hoger.
+* Nieuwste versies van Edge, Safari (versie 13 en hoger) en Firefox.
+* Internet Explorer versie 11 en hoger
+
+## Aanbevolen grootte van afbeeldingen {#recommendedsizeofimages}
+
+* Impressum: 1280 x 360 px.
+* Afbeelding op de cataloguskaart: 280 x 100 px
+* Grootte trainingskaart: 300 x 240 px
+* Social-banner: 1600 x 240 px
 
 ## Maximale grootte van de inhoud {#maximumcontentsize}
 

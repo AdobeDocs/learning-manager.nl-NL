@@ -4,9 +4,9 @@ title: Catalogi
 description: 'Catalogi zijn een verzameling leermiddelen: cursussen, leerprogramma''s en certificeringen. Gebruik catalogi om studenten te voorzien van toegang tot een aangepaste set leermaterialen. U kunt leermateriaal aan een catalogus koppelen tijdens het maken van een nieuwe catalogus.'
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2453'
 ht-degree: 75%
 
 ---
@@ -56,7 +56,7 @@ U maakt een catalogus als volgt:
    *Een catalogus maken*
 
    U kunt meerdere cursussen aan de catalogus toevoegen.
-
+1. U kunt de cursussen filteren op vaardigheden, rollen en taal. De geselecteerde cursus wordt aanbevolen voor studenten die geïnteresseerd zijn in deze vaardigheden en rollen.
 1. Sla de wijzigingen op. Ga terug naar de lijst met catalogi en klik op de nieuwe catalogus in de lijst.
 1. Klik op de pagina voor de nieuwe catalogus op **[!UICONTROL Inhoud]** in het linkerdeelvenster.
 
@@ -134,7 +134,7 @@ Cursussen, leerprogramma&#39;s, taakhulpen en certificeringen kunt u als leerobj
 
 ### Catalogi delen
 
-Met deze training leert u hoe u catalogi kunt delen met interne gebruikersgroepen en externe Adobe Leerbeheeraccounts.
+Met deze training leert u hoe u catalogi kunt delen met interne gebruikersgroepen en externe Adobe Learning Manager-accounts.
 
 [![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 

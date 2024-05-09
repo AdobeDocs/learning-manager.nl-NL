@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rapporten
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '6629'
-ht-degree: 63%
+source-wordcount: '6931'
+ht-degree: 60%
 
 ---
 
@@ -23,107 +23,17 @@ Het proces voor het genereren van rapporten is vergelijkbaar voor beheerder en m
 
 Rapporten worden in een dashboard verzameld. Een rapport moet in een dashboard bestaan. A **[!UICONTROL Standaarddashboard]** bestaat standaard op de pagina Rapporten. Elk rapport dat door u wordt toegevoegd, gaat naar dit standaarddashboard. Als u rapporten wilt toevoegen aan afzonderlijke dashboards, gebruikt u de vervolgkeuzepijl en kiest u **[!UICONTROL Rapport toevoegen]**. Raadpleeg de sectie Dashboards op deze pagina voor meer informatie over het maken van dashboards.
 
-## Dashboard met overzicht van leermateriaal {#dashboards}
+## Rapporttypen {#typesofreports}
 
-### Dashboard-rapporten genereren
+Adobe Learning Manager ondersteunt vier belangrijke rapporttypen, zoals voltooiing, bestede tijd, vaardigheden en effectiviteit. U kunt de volgende rapporttypen gebruiken om meer dan 300 varianten te genereren:
 
-In deze training leert u hoe u dashboardrapporten kunt genereren op basis van de database.
-
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
-
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
-
-Zie een overzichtsrapport van alle leeractiviteiten in het platform. Op deze pagina ziet u de volgende overzichtsinformatie voor het geselecteerde team van de basisgebruiker en de externe profielen. U kunt ook een tijdbereik selecteren:
-
-* Overzicht van leermateriaal in de vorm van inschrijvingen, weergaven en voltooiingen
-* Topvaardigheden
-* Overzicht van compliance
-
-![](assets/summary-charts.png)
-*Samenvattingsdiagrammen*
-
-Als er interne managers op hoofdniveau zijn, worden deze achter elkaar weergegeven.
-
-Alle externe profielen worden weergegeven na interne profielen (interne gebruikers op hoofdniveau).
-
-Als een extern profiel een manager heeft, wordt de managerhiërarchie weergegeven in het dialoogvenster **[!UICONTROL Gegevens weergeven voor]** vervolgkeuzelijst. De gebruiker wordt weergegeven in de beheerhiërarchie op de detailpagina (Overzicht van leermateriaal, compatibiliteit en vaardigheidsstatus)
-
-Als dit niet het geval is, worden alle afzonderlijke gebruikersgegevens weergegeven in de lijst.
-
-Voor meer gedetailleerde informatie over inschrijvingen van verschillende interne teams klikt u op **[!UICONTROL Informatie over leeroverzicht]**.
-
-![](assets/learning-sunnarydetails.png)
-*Informatie over leeroverzicht*
-
-Wanneer u op een inschrijving klikt, ziet u de studenten voor elke manager en ziet u de inschrijving voor welke leerobjecten. U kunt ook de gegevens over voortgang en voltooiing van elke student zien.
-
-![](assets/learners-for-a-manager.png)
-*studenten toegewezen aan een manager*
-
-Klik op een team en exporteer het rapport als csv-bestand. Een beheerder kan het rapport exporteren voor een gebruikersgroep of individuele gebruiker door de gebruikersgroep of individuele gebruiker te selecteren en vervolgens de gegevens te exporteren uit de **[!UICONTROL Handeling]** vervolgkeuzelijst.
-
-U kunt ook een staafdiagramweergave zien van vaardigheden die in uitvoering zijn en zijn bereikt. U kunt vaardigheden toevoegen/verwijderen die u in de grafiek wilt opnemen.
-
-![](assets/skill-status-stackedbarchart.png)
-*Vaardigheidsstatus gestapeld staafdiagram*
-
-In de uiteindelijke visualisatie kunt u de nalevingsstatus van de studenten controleren en passende maatregelen nemen.
-
-Een beheerder kan ook individuele trainingsgegevens bekijken in het dialoogvenster **[!UICONTROL Dashboard Naleving]**.
-
-De beheerder heeft bijvoorbeeld bepaald dat de naleving van drie trainingen moet worden gevolgd. Learning Manager creëert een overzicht van de naleving van deze drie trainingen.
-
-Een beheerder kan nu op een willekeurige training klikken en de naleving van de geselecteerde training snel bekijken.
-
-![](assets/compliance-dashboard.png)
-*Dashboard Naleving weergeven*
-
-U kunt ook de nalevingsstatus van elk intern team zien.
-
-Klik op de koppeling **[!UICONTROL Nalevingsstatus]** onderaan de visualisatie.
-
-U kunt zien dat voor een team het aantal studenten in het team de leernaleving schendt of volgt.
-
-![](assets/compliance-statusofateam.png)
-*Compatibiliteitsstatus van een team*
-
-## Training delen met managers
-
-Learning Manager biedt het dashboard Naleving aan alle beheerders en managers. Managers vinden het zeer nuttig om naleving van hun teamleden voor een bepaalde opleiding te volgen. Tegelijkertijd willen beheerders dat alle managers compatibiliteitstrainingen toevoegen aan hun dashboard en deze bijhouden.
-
-In Learning Manager wordt de **[!UICONTROL Delen met managers]** Met deze workflow kunnen beheerders training delen met managers, zodat ze kunnen worden toegevoegd aan het dashboard Naleving van een manager. Managers hoeven dus geen actie te ondernemen en kunnen meteen beginnen met het volgen van de naleving.
-
-Een beheerder kan een reeks trainingscursussen delen met individuele managers of met een groep. Met deze deelstatus kan een manager gemakkelijk controleren of zijn/haar team voldoet aan de vereisten voor de opgegeven training.
-
-De beheerder kan een standaardlijst met compatibiliteitstraining &#39;push&#39; geven die moet worden weergegeven op het dashboard Naleving van de manager.
-
-### Training delen
-
-1. In **[!UICONTROL Rapporten]** > **[!UICONTROL Leeroverzicht]**, schuift u omlaag en klikt u op de tab **[!UICONTROL Delen met managers]**.
-
-   ![](assets/share-with-managers.png)
-   *Training delen met managers*
-
-1. Als u training of meerdere trainingen wilt toevoegen, klikt u op **[!UICONTROL Meer delen]**.
-
-1. In het dialoogvenster **[!UICONTROL Delen met managers]** de trainingen en de manager(s) te kiezen.
-
-   ![](assets/select-training.png)
-   *Selecteer training die u wilt delen met managers*
-
-1. Klik op **[!UICONTROL Delen]**.
-
-De training wordt nu gedeeld met de opgegeven manager.
-
-### Training weergeven
-
-Klik in de lijst met gedeelde trainingen op **[!UICONTROL Weergave]**. U kunt de training bekijken die is toegewezen aan een manager of sommige managers.
-
-### Opleiding intrekken
-
-1. Als u de training voor een manager wilt intrekken, klikt u op **[!UICONTROL Opzeggen]**.
-
-1. Klikken **[!UICONTROL Doorgaan]**. Hiermee trekt u eerder gedeelde training van het dashboard Naleving van de manager in.
+* Statistieken levering cursus voor studenten
+* Rapport over effectiviteit van cursussen
+* Rapport gebaseerd op vaardigheden van student
+* Inschrijvingstatistieken voor studenten van leerprogramma
+* Bestede leertijd door studenten
+* Aantal studenten
+* Voltooiing certificering
 
 ## Dashboard Gebruikersactiviteit {#useractivitydashboards}
 
@@ -137,7 +47,7 @@ Het dashboard Gebruikersactiviteit geeft de activiteit van de gebruikers in het 
 
 * **Rapport over bestede leertijd:** Dit rapport biedt dagelijks informatie over de bestede leertijd in het platform. Er is ook een maandrapport beschikbaar.
 
-## Geregistreerde gebruikers {#registeredusers}
+### Geregistreerde gebruikers {#registeredusers}
 
 Learning Manager registreert het aantal gebruikers dat wekelijks in het systeem wordt geregistreerd. Beheerders kunnen dit rapport bekijken om het geregistreerde aantal gebruikers op die dag van de week te begrijpen. Geregistreerd aantal dat eenmaal is opgeslagen voor een week verandert niet. Vandaar dat het historische geregistreerde aantal niet gerelateerd is aan de huidige groep studenten in het systeem.
 
@@ -156,18 +66,18 @@ Dit rapport toont het aantal studenten dat maandelijks op het leerplatform actie
 
 Het maandelijks actieve aantal dat eenmaal is geteld en opgeslagen voor een maand verandert niet. Vandaar dat het getoonde historische aantal niet is gerelateerd aan de huidige groep studenten in het systeem.
 
-## Gebruikersbezoeken {#uservisits}
+### Gebruikersbezoeken {#uservisits}
 
-Dit rapport toont het totale aantal studenten dat toegang heeft tot het systeem in een dag- of maandperiode. Ook surfen op het leerplatform zonder dat leermateriaal wordt gebruikt, wordt beschouwd als toegang tot het leerplatform. Dit helpt de beheerder om de totale groep van gebruikers die toegang hebben tot het systeem te begrijpen. Op de eerste van de maand registreert Learning Manager het totaal aantal gebruikers dat in de vorige maand toegang had tot het platform. Tevens wordt de informatie van de gebruikersgroep geregistreerd voor deze gebruikers.
+Dit rapport toont het totale aantal studenten dat toegang heeft tot het systeem in een dag- of maandperiode. Ook surfen op het leerplatform zonder dat leermateriaal wordt gebruikt, wordt beschouwd als toegang tot het leerplatform. Dit helpt de beheerder om de totale groep van gebruikers die toegang hebben tot het systeem te begrijpen. Op de eerste van de maand registreert Learning Manager het totaal aantal gebruikers dat in de vorige maand toegang had tot het platform. Ook worden de gegevens van de gebruikersgroep voor deze gebruikers vastgelegd.
 
-Alleen de door de beheerder geconfigureerde gebruikersgroepen worden geregistreerd. Hierdoor kunnen de beheerders ook op gebruikersgroepen een filter toepassen voor historische maandgegevens. Merk op dat als de configuratie van de gebruikersgroepen gewijzigd wordt en Learning Manager heeft in de vorige maanden geen gegevens voor deze gebruikersgroep geregistreerd, dan kan Learning Manager de gegevens voor deze nieuw geconfigureerde gebruikersgroepen in de vorige maanden niet weergeven.
+Alleen de gebruikersgroepen die door de beheerder zijn geconfigureerd, worden opgenomen. Hierdoor kunnen beheerders ook filters toepassen op gebruikersgroepen voor historische maandelijkse gegevens. Merk op dat de configuratie van gebruikersgroepen wordt gewijzigd en de Leermanager geen gegevens voor deze gebruikersgroep in vroegere maanden heeft geregistreerd, dan kan de Leermanager niet de gegevens voor deze nieuw gevormde gebruikersgroepen voor vorige maanden tonen.
 
 Dit rapport bevat gebruikers die toegang hebben tot het platform met behulp van alle indelingen, zoals web, mobiele app, aangepaste headless-oplossingen enz. De gebruiksgrafiek van de apparaat-app vermeldt specifiek alleen de gebruikers die toegang hebben tot het platform via de apparaat-app van Learning Manager. Dit helpt beheerders bij het identificeren van het gebruik van de mobiele app in hun account.
 
 ![](assets/user-visit-report.png)
 *Bezoek gebruikersrapport*
 
-## Rapport met bestede leertijd {#learningtimespentreport}
+### Rapport met bestede leertijd {#learningtimespentreport}
 
 Hier ziet u een twee-assige lijndiagram dat de totale leertijd voor alle studenten over een periode van 12 maanden laat zien. De tweede as vertegenwoordigt de mediane tijd die een persoon besteedt aan leren.
 
@@ -194,14 +104,14 @@ De geselecteerde datum- en gebruikersgroepfilter wordt toegepast op alle relevan
 
 Het dashboard met trainingsinhoud biedt inzicht in de trainingen die beschikbaar zijn op het platform. U kunt populaire trainingen bekijken of alle beschikbare trainingen volgen.
 
-## Trainingsrapport {#trainingsreport}
+### Trainingsrapport {#trainingsreport}
 
 Dit rapport bevat informatie over de totale hoeveelheid trainingen die maandelijks op het platform (in gepubliceerde staat) beschikbaar zijn. Het geeft een indicatie van het aantal trainingen dat in de loop van de tijd wordt aangeboden.
 
 ![](assets/training-report.png)
 *Trainingsrapport*
 
-## Rapport over actieve trainingen {#activetrainingsreport}
+### Rapport over actieve trainingen {#activetrainingsreport}
 
 Dit rapport bevat informatie over de trainingen die actief zijn in het geselecteerde tijdsbestek. Actieve trainingen zijn trainingen waarvoor wordt ingeschreven, die worden weergeven in de speler of die in de gegeven periode worden voltooid.
 
@@ -275,17 +185,622 @@ Het trainingsrapport heeft twee extra kolommen:
 >
 >Voor beide rapporten (Trainingsinhoud, Gebruikersactiviteit) kunt u maximaal 10 gebruikersgroepen configureren. Het kan tot 24 uur duren voordat de verwerking is voltooid en de nieuw geconfigureerde filters beschikbaar zijn.
 
-## Dashboard Rapporten {#dashboardreports}
+## Dashboard met overzicht van leermateriaal {#dashboards}
 
-Een dashboard is een verzameling rapporten. Rapporten kunnen naar keuze worden gegroepeerd in een dashboard.
+### Dashboard-rapporten genereren
 
-## Voorbeeldrapporten {#samplereports}
+>[!INFO]
+>
+>In deze training leert u hoe u dashboardrapporten kunt genereren op basis van de database.<br><br>[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)</br></br>
+
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+
+Zie een overzichtsrapport van alle leeractiviteiten in het platform. Op deze pagina ziet u de volgende overzichtsinformatie voor het geselecteerde team van de basisgebruiker en de externe profielen. U kunt ook een tijdbereik selecteren:
+
+* Overzicht van leermateriaal in de vorm van inschrijvingen, weergaven en voltooiingen
+* Topvaardigheden
+* Overzicht van compliance
+
+![](assets/summary-charts.png)
+*Samenvattingsdiagrammen*
+
+Als er interne managers op hoofdniveau zijn, worden deze achter elkaar weergegeven.
+
+Alle externe profielen worden weergegeven na interne profielen (interne gebruikers op hoofdniveau).
+
+Als een extern profiel een manager heeft, wordt de managerhiërarchie weergegeven in het dialoogvenster **[!UICONTROL Gegevens weergeven voor]** vervolgkeuzelijst. De gebruiker wordt weergegeven in de beheerhiërarchie op de detailpagina (Overzicht van leermateriaal, compatibiliteit en vaardigheidsstatus)
+
+Als dit niet het geval is, worden alle afzonderlijke gebruikersgegevens weergegeven in de lijst.
+
+Voor meer gedetailleerde informatie over inschrijvingen van verschillende interne teams klikt u op **[!UICONTROL Informatie over leeroverzicht]**.
+
+![](assets/learning-sunnarydetails.png)
+*Informatie over leeroverzicht*
+
+Wanneer u op een inschrijving klikt, ziet u de studenten voor elke manager en ziet u de inschrijving voor welke leerobjecten. U kunt ook de gegevens over voortgang en voltooiing van elke student zien.
+
+![](assets/learners-for-a-manager.png)
+*studenten toegewezen aan een manager*
+
+Klik op een team en exporteer het rapport als csv-bestand. Een beheerder kan het rapport exporteren voor een gebruikersgroep of individuele gebruiker door de gebruikersgroep of individuele gebruiker te selecteren en vervolgens de gegevens te exporteren uit de **[!UICONTROL Handeling]** vervolgkeuzelijst.
+
+U kunt ook een staafdiagramweergave zien van vaardigheden die in uitvoering zijn en zijn bereikt. U kunt vaardigheden toevoegen/verwijderen die u in de grafiek wilt opnemen.
+
+![](assets/skill-status-stackedbarchart.png)
+*Vaardigheidsstatus gestapeld staafdiagram*
+
+In de uiteindelijke visualisatie kunt u de nalevingsstatus van de studenten controleren en passende maatregelen nemen.
+
+Een beheerder kan ook individuele trainingsgegevens bekijken in het dialoogvenster **[!UICONTROL Dashboard Naleving]**.
+
+De beheerder heeft bijvoorbeeld bepaald dat de naleving van drie trainingen moet worden gevolgd. Learning Manager creëert een overzicht van de naleving van deze drie trainingen.
+
+Een beheerder kan nu op een willekeurige training klikken en de naleving van de geselecteerde training snel bekijken.
+
+![](assets/compliance-dashboard.png)
+*Dashboard Naleving weergeven*
+
+U kunt ook de nalevingsstatus van elk intern team zien.
+
+Klik op de koppeling **[!UICONTROL Nalevingsstatus]** onderaan de visualisatie.
+
+U kunt zien dat voor een team het aantal studenten in het team de leernaleving schendt of volgt.
+
+![](assets/compliance-statusofateam.png)
+*Compatibiliteitsstatus van een team*
+
+### Training delen met managers
+
+Learning Manager biedt het dashboard Naleving aan alle beheerders en managers. Managers vinden het zeer nuttig om naleving van hun teamleden voor een bepaalde opleiding te volgen. Tegelijkertijd willen beheerders dat alle managers compatibiliteitstrainingen toevoegen aan hun dashboard en deze bijhouden.
+
+In Learning Manager wordt de **[!UICONTROL Delen met managers]** Met deze workflow kunnen beheerders training delen met managers, zodat ze kunnen worden toegevoegd aan het dashboard Naleving van een manager. Managers hoeven dus geen actie te ondernemen en kunnen meteen beginnen met het volgen van de naleving.
+
+Een beheerder kan een reeks trainingscursussen delen met individuele managers of met een groep. Met deze deelstatus kan een manager gemakkelijk controleren of zijn/haar team voldoet aan de vereisten voor de opgegeven training.
+
+De beheerder kan een standaardlijst met compatibiliteitstraining &#39;push&#39; geven die moet worden weergegeven op het dashboard Naleving van de manager.
+
+### Training delen
+
+1. In **[!UICONTROL Rapporten]** > **[!UICONTROL Leeroverzicht]**, schuift u omlaag en klikt u op de tab **[!UICONTROL Delen met managers]**.
+
+   ![](assets/share-with-managers.png)
+   *Training delen met managers*
+
+1. Als u training of meerdere trainingen wilt toevoegen, klikt u op **[!UICONTROL Meer delen]**.
+
+1. In het dialoogvenster **[!UICONTROL Delen met managers]** de trainingen en de manager(s) te kiezen.
+
+   ![](assets/select-training.png)
+   *Selecteer training die u wilt delen met managers*
+
+1. Klik op **[!UICONTROL Delen]**.
+
+De training wordt nu gedeeld met de opgegeven manager.
+
+### Training weergeven
+
+Klik in de lijst met gedeelde trainingen op **[!UICONTROL Weergave]**. U kunt de training bekijken die is toegewezen aan een manager of sommige managers.
+
+### Opleiding intrekken
+
+1. Als u de training voor een manager wilt intrekken, klikt u op **[!UICONTROL Opzeggen]**.
+
+1. Klikken **[!UICONTROL Doorgaan]**. Hiermee trekt u eerder gedeelde training van het dashboard Naleving van de manager in.
+
+## Aangepaste rapporten
+
+Beheerders kunnen specifieke rapporten genereren met behulp van de aangepaste sjabloon die beschikbaar is in het **[!UICONTROL Rapporten]** sectie.
+
+### Voorbeeldrapporten {#samplereports}
 
 Op het tabblad **[!UICONTROL Voorbeeldrapporten]** worden enkele indicatieve rapporten weergegeven die op voorbeeldgegevenspunten zijn gebaseerd. Bekijk deze rapporten om een idee te krijgen van de verschillende soorten rapporten boordevol informatie die u kunt genereren met behulp van uw accountgegevens.
 
-## Dashboard Rapporten {#DashboardReports-1}
+### Dashboardrapporten {#dashboardreports}
 
-Klik op dit tabblad om alle boards te bekijken die u hebt gemaakt. Van de **[!UICONTROL Dashboard weergeven]** kunt u het standaardboard selecteren of een dashboard dat u hebt gemaakt.
+Een dashboard is een verzameling rapporten. Rapporten kunnen naar keuze worden gegroepeerd in een dashboard. Klik op dit tabblad om alle boards te bekijken die u hebt gemaakt. Van de **[!UICONTROL Dashboard weergeven]** kunt u het standaardboard selecteren of een dashboard dat u hebt gemaakt.
+
+### Excel-rapporten {#excelreports}
+
+Via het tabblad **[!UICONTROL Excel-rapporten]** kunt u rapporten in XLS-indeling exporteren.
+
+De volgende rapporttypen zijn beschikbaar om te downloaden.
+
+* Cursusrapporten
+* Studenttranscripten
+* Aankondigingenrapport
+* Taakhulpenrapport
+* Audittrail van inhoud
+* Audittrail van gebruiker
+* Aanmeldings-/toegangsrapport
+* Gamificationtranscripten
+* Gamification Audittrail
+
+### Studenttranscripten {#learnertranscripts}
+
+In de Studenttranscripten in Excel-rapporten worden de kolommen Punten vereist en Punten verdiend in decimale getallen weergegeven.
+
+### Cursusrapporten {#coursereports}
+
+Als beheerder kunt u rapporten voor cursussen downloaden. Volg deze stappen:
+
+1. Openen **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Cursusrapporten]**.
+1. Het dialoogvenster **[!UICONTROL Cursusrapporten]** verschijnt. Selecteer de cursus waarvoor u het rapport wilt ophalen en klik op **[!UICONTROL Weergeven]**.
+
+   ![](assets/course-reports.png)
+   *Cursusrapporten*
+
+1. U wordt omgeleid naar de cursuspagina. U kunt de quizscore per gebruiker en per vraag exporteren op basis van elke inschrijving door het specifieke inschrijvingstype te kiezen.
+1. Selecteer **[!UICONTROL Quizscore exporteren]** om het rapport te exporteren. Het dialoogvenster **[!UICONTROL Rapportaanvraag genereren]** verschijnt. Klik op **[!UICONTROL OK]** om te bevestigen.
+
+   ![](assets/generating-reportrequest.png)
+   *Rapportaanvraag genereren*
+
+   >[!NOTE]
+   >
+   >Het geëxporteerde quizscorerapport bevat de scoregegevens voor elke poging als de optie voor meerdere pogingen voor de module is geconfigureerd.
+
+### Studenttranscripten {#LearnerTranscripts-1}
+
+Adobe Learning Manager stelt de beheerders van een organisatie in staat om de transcripten van de studenten te genereren. Het rapport Studenttranscript bevat het volgende:
+
+1. Studenttranscript: dashboard Leeractiviteit
+1. Vaardigheid: Dashboard Vaardigheid
+1. Dashboard Naleving
+
+In de Studenttranscripten in Excel-rapporten worden de kolommen Punten vereist en Punten verdiend in decimale getallen weergegeven.
+
+Zie voor informatie over het genereren van studenttranscriptrapporten en meer informatie [Studenttranscripten](learner-transcripts.md).
+
+### Aankondigingenrapporten {#announcementsreports}
+
+Als beheerder kunt u een rapport genereren van alle aankondigingen die u verzendt. Het rapport bevat details over het volgende:
+
+* Type aankondiging
+* Naam van aankondiging
+* Datum van aankondiging
+* Status van aankondiging
+* Naam van student
+
+Volg een van deze stappen om een rapport te downloaden:
+
+1. Openen **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Aankondigingenrapport]**. Het dialoogvenster **[!UICONTROL Rapportaanvraag genereren]** wordt geopend. Klik op OK.
+1. [!UICONTROL **Aankondigingen**] > [!UICONTROL **Handelingen**] > [!UICONTROL **Rapport exporteren**].
+
+   ![](assets/announcements.png)
+   *Aankondigingsrapport*
+
+1. U kunt een rapport voor een specifieke aankondiging extraheren door op **[!UICONTROL Rapport exporteren]** onder het instellingenpictogram.
+
+   ![](assets/announcements-specific-report.png)
+   *Rapport voor specifieke aankondigingen*
+
+### Taakhulpenrapport {#jobaidsreport}
+
+Taakhulpen zijn trainingsinhoud waartoe een studenten toegang hebben zonder dat zij zich moeten inschrijven voor een specifiek leerobject zoals een cursus of leerprogramma. Beheerders kunnen het Taakhulpenrapport extraheren en downloaden.
+
+Het geëxtraheerde rapport bevat informatie over het volgende:
+
+* Naam
+* Type taakhulp
+* Status van taakhulp (gepubliceerd of ingetrokken)
+* Inschrijvingsdatum
+* Voltooiingsdatum
+* Downloaddatum
+* Naam van student
+* Naam van manager
+* Gemaakt door
+
+Voer een van de volgende handelingen uit om een rapport te downloaden:
+
+* Openen  **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Taakhulpenrapporten]**. Het dialoogvenster **[!UICONTROL Rapportaanvraag genereren]** wordt geopend. Klik op **[!UICONTROL OK]**.
+* Openen **[!UICONTROL Taakhulp]** > **[!UICONTROL Handelingen]** > **[!UICONTROL Rapport exporteren]**.
+
+![](assets/job-aids.png)
+*Taakhulpenrapport*
+
+* U kunt ook een rapport voor een specifieke taakhulp extraheren door onder het instellingenpictogram op **[!UICONTROL Rapport exporteren]** te klikken.
+
+![](assets/job-aid-specific-download.png)
+*Rapport voor specifieke taakhulp*
+
+### Taakhulpenrapport
+
+Nadat u **[!UICONTROL Taakhulpenrapport]** in de lijst ziet u twee opties :
+
+![rapport over taakhulpen](assets/job-aids-new.png)
+*Taakhulpen inschrijvingsrapport voor VS downloaden*
+
+**Alle taakhulpen**: Als het aantal taakhulpen in de account minder dan 10 miljoen is, bevat het gegenereerde rapport inschrijvingsgegevens van alle taakhulpen. Dit is de standaardselectie. Als het aantal rijen groter is dan 10 miljoen, wordt een fout weergegeven en moet u de vereiste taakhulpen handmatig selecteren.
+
+**Geselecteerde taakhulpen**: Als u deze optie selecteert, kunt u de taakhulpen invoeren waarvoor u het rapport wilt genereren. U kunt maximaal 10 taakhulpen selecteren. Adobe Learning Manager controleert of er meer dan 10 miljoen taakhulpen zijn.
+
+![job aids rapport inschrijven](assets/job-aids-2-new.png)
+*Een taakhulp selecteren*
+
+**Taakhulpenrapport**
+
+Als u deze optie selecteert, worden de details gedownload van alle taakhulpen die in het systeem aanwezig zijn, samen met de bijbehorende metadata en training.
+
+Het gedownloade rapport bestaat uit de volgende velden:
+
+* Naam van taakhulp
+* Taal/talen
+* Id
+* Type
+* Duur (minuten)
+* Status
+* Publicatiedatum (tijdzone UTC)
+* Gemaakt, op naam
+* Gemaakt, op e-mailadres
+* Gemaakt, op unieke ID van gebruiker
+* Catalogus(sen)
+* Leerpad(en)
+* Cursus(sen)
+* Tag(s)
+* Vaardigheid/vaardigheden
+
+**Inschrijvingsrapport van gebruikers voor taakhulpen**
+
+Het inschrijvingsrapport bevat details over inschrijving van gebruikers en andere informatie.
+
+Het gedownloade rapport bestaat uit de volgende velden:
+
+* Naam van taakhulp
+* Type
+* Status
+* Datum ingeschreven (tijdzone UTC)
+* Voltooiingsdatum (UTC-tijdzone)
+* Downloaddatum (UTC-tijdzone)
+* Naam van student
+* E-mail
+* Unieke ID van gebruiker
+* Naam van manager
+* E-mailadres van manager
+* Unieke ID van managergebruiker
+* Toegewezen op naam
+* Toegewezen op e-mail
+* Toegewezen op unieke ID van gebruiker
+* Gemaakt op naam
+* Gemaakt op e-mail
+* Gemaakt op unieke ID van gebruiker
+* Taakcode
+* Nieuw veld
+* Profiel
+
+### Rapporten voor audittrail van inhoud {#contentaudittrailreports}
+
+Gebruik de **[!UICONTROL Audittrail van inhoud]** rapportgenerator om een rapport te genereren van alle wijzigingen en bewerkingen die tijdens de levensduur van een cursus in het systeem zijn aangebracht. Het gegenereerde rapport bevat de volgende informatie.
+
+* Object-ID
+* Objectnaam
+* Objecttype
+* Wijzigingstype
+* Beschrijving
+* Verwezen object-ID
+* Verwezen objectnaam
+* Gewijzigd op gebruikersnaam
+* Gewijzigd in gebruikers-ID
+* Datum gewijzigd (UTC-tijdzone)
+
+Informatie over metagegevens wordt niet in het gegenereerde rapport opgenomen.
+
+Volg deze stappen om een rapport Audittrail van cursus te genereren.
+
+1. Selecteren **[!UICONTROL Rapport]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Audittrail van cursus]**. Het dialoogvenster **[!UICONTROL Audittrail van inhoud]** verschijnt.
+
+   ![](assets/course-audit-trial.png)
+   *Audittrail van cursus*
+
+1. Selecteer de cursus, het leerprogramma en de certificering waarvoor u het rapport wilt downloaden. Indien niet gespecificeerd, worden standaard alle rapporten gedownload.
+1. Selecteer een datumbereik voor het rapport en klik op **[!UICONTROL Genereren]**.
+1. Het rapport wordt gegenereerd en u ontvangt bericht wanneer het rapport Audittrail van inhoud klaar is. U kunt het rapport downloaden.
+
+### Rapporten Audittrail van gebruiker {#useraudittrailreports}
+
+Audittrail van gebruikers legt de levenscyclus van gebruikers, gebruikersgroepen en zelfregistratieprofielen vast. Toevoeging, verwijdering en wijziging in Manager van gebruiker worden allemaal vastgelegd. Maken en verwijderen van zelfregistratieprofielen wordt vastgelegd. U kunt ook pauzeren en de zelfregistratie hervatten.
+
+U kunt Toevoegen, Inschakelen, Uitschakelen, Pauzeren of Hervatten voor Externe profielen. Voor zelfregistratie kunt u Toevoegen, Verwijderen, Pauzeren of Hervatten. CSV-uploads worden ook vastgelegd.
+
+1. Selecteren  **[!UICONTROL Rapport > Excel-rapport > Handtekening]**. Het dialoogvenster Audittrail van gebruiker wordt weergegeven.
+1. Het dialoogvenster Audittrail van gebruiker verschijnt. Selecteer het datumbereik in het pop-upmenu. U kunt een rapport voor de laatste week of laatste maand genereren, of een aangepaste datum selecteren.
+
+   ![](assets/user-audit-trail.png)
+   *Audittrail van gebruiker*
+
+1. Klik op **[!UICONTROL Genereren]** om het rapport te genereren.
+
+Er zijn twee filters in het dialoogvenster **[!UICONTROL Rapport Audittrail van gebruiker]**.
+
+**Datumbereik, filter:** Kies het datumbereik waarvoor u het rapport wilt genereren. Er zijn drie opties:
+
+* Laatste week
+* Laatste maand
+* Aangepaste datum
+
+Selecteer het filter Studenten: zoek naar een gebruiker of een gebruikersgroep.
+
+Het geëxporteerde rapport bevat gegevens van de gebruikers die aan beide opgegeven zoekcriteria voldoen.
+
+![](assets/user-audit-trail.png)
+*Audittrail van gebruiker*
+
+>[!NOTE]
+>
+>Wanneer een vaardigheid wordt toegewezen of verwijderd, kan deze worden bijgehouden voor het controlerapport van de gebruiker voor zowel toegewezen als verwijderde vaardigheid.
+
+### Rapport over extensieconfiguratie
+
+Dit rapport bevat informatie over de configuratiedetails van alle toegevoegde native extensies, inclusief hun activeringsstatus. Lees hoe u het extensierapport kunt downloaden. Ga naar [Extensierapport downloaden](native-extensibility.md#download-extension-report).
+
+### xAPI-activiteitsrapport
+
+Deze rapporten bevatten de gegevens van alle xAPI-statements die zijn opgenomen en gegenereerd tijdens xAPI-activiteitsmodules.
+
+Ga als volgt te werk om dit rapport te downloaden:
+
+1. Selecteren  **[!UICONTROL Rapport > Excel-rapport > xAPI-activiteitsrapport]**. Het dialoogvenster xAPI-activiteitsrapport wordt weergegeven.
+1. Selecteer het datumbereik in het pop-upmenu. U kunt een rapport voor de laatste week of laatste maand genereren, of een aangepaste datum selecteren.
+1. Selecteer de studenten en activiteit in het vervolgkeuzemenu.
+1. Selecteren **[!UICONTROL Genereren]** om het rapport te genereren.
+
+### Gamificationrapporten {#gamification}
+
+Beheerders kunnen gamificationtranscript in CSV-indeling downloaden. U kunt het rapport voor individuele gebruikers of gebruikersgroepen downloaden. Gebruikersnaam, e-mail van de gebruiker, UUID van de gebruiker, totaal aantal gescoorde gebruikerspunten, opsplitsing van verzamelde punten, naam van groepen waarin de gebruiker speelt, naam van de manager, en actieve veldwaarden worden allen opgehaald in het rapport. Beheerders kunnen dit rapport gebruiken om de ranglijsten van gebruikers op organisatieniveau of voor een specifieke groep te evalueren en te begrijpen.
+
+1. Selecteer Rapport > Excel-rapport > Gamificationrapport.
+
+   ![](assets/gamification.png)
+   *Gamificationrapport*
+
+1. Het dialoogvenster Gamificationtranscripten verschijnt. Selecteer studenten aan de hand van hun Naam, Profiel, Gebruikersgroepen, E-mail-ID of UUID.
+
+   ![](assets/gamification-transcriptsdialog.png)
+   *Dialoogvenster Gamificationtranscripten*
+
+1. Klikken  **[!UICONTROL Genereren]** om het rapport te genereren.
+
+   Nadat u het rapport van een student hebt gegenereerd, moet u de huidige informatie en de informatie op een gereed niveau kunnen exporteren voor alle gebruikers (intern, extern of verwijderd) in het account. U kunt ook de datums controleren waarop een student de niveaus heeft behaald:
+
+   * Datum brons behaald
+   * Datum zilver behaald
+   * Datum goud behaald
+   * Datum platina behaald
+
+   Deze kolommen bevatten de datums waarop het niveau voor het eerst werd behaald. De kolom **[!UICONTROL Huidig niveau]** geeft het huidige niveau van de student weer.
+
+   Wanneer de beheerder de gamification herstelt, worden alle punten van de student overeenkomstig hersteld.
+
+### Rapport Gamification-audittrail {#gamification-audit-trail}
+
+Dit rapport bevat de geschiedenis en de redenen voor de gamificationpunten van studenten die voor elke regel zijn verdiend.
+
+### Rapport downloaden
+
+1. Selecteer de URL van het Gamification-audittrail.
+1. Op de **Audittrail van gamification** selecteert u het datumbereik.
+1. Selecteren **Genereren**.
+
+Het rapport wordt gedownload als een CSV-bestand. Het bestand bevat de volgende kolommen:
+
+* Naam
+* E-mail/UUID,
+* Status
+* Actie
+* Punten,
+* Saldo punten
+* Regel/taak
+* Regel-/taaksubtaak,
+* Regel/taakdetails
+* Type
+* Naam
+* InstantienaamDate bereikt (UTC-tijdzone)
+* Regel/Begintijd taak
+* Regel/Eindtijd van taak
+
+### Inschrijvings- en uitschrijvingsrapport {#enrollmentandunenrollmentreport}
+
+Beheerders en managers kunnen een rapport extraheren van de studenten die zijn ingeschreven en uitgeschreven. Als beheerder kunt u alle studenten, beheerders of managers zien die zijn in- of uitgeschreven voor een instantie van een cursus, leerprogramma of certificering en het rapport exporteren. Als manager kunt u alleen een rapport van uw teamleden ophalen. Als manager kunt u de verwijderde studenten of uw eigen naam niet zien in de managertoepassing als ingeschreven of uitgeschreven student.
+
+Ga als volgt te werk om een rapport te downloaden: Open de  **[!UICONTROL Cursus/Leerprogramma/Certificering]** > **[!UICONTROL Studenten]** > **[!UICONTROL Handeling]** > **[!UICONTROL Rapport exporteren]**.
+
+![](assets/unenrollment.png)
+*Uitschrijvingsrapport*
+
+### Feedbackrapport {#feedback-report}
+
+Als beheerder kunt u nu zowel feedback van de student (L1) als van de manager (L3) krijgen voor geselecteerde trainingen voor een bepaalde periode.
+
+U kunt de gegevens vanuit de gebruikersinterface of via de PowerBI-connector exporteren voor een diepgaandere analyse.
+
+L1- en L3-feedbackrapporten bieden een optie om een geconsolideerd feedbackrapport te downloaden voor de L1- en L3-reacties voor geselecteerde trainingen voor een **eenjarig** bereik of voor maximaal 10 geselecteerde trainingen voor elk datumbereik.
+
+Meld u aan als beheerder en klik op **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** en klikt u in de lijst met rapporten op **[!UICONTROL Feedbackrapport]**.
+
+![](assets/download-feedbackreport.png)
+*Feedbackrapport downloaden*
+
+Als u na het selecteren van de filters op downloaden klikt, ontvangt u een melding om het rapport in CSV-indeling te downloaden.
+
+Het gedownloade rapport bevat gegevens zoals Naam en type van training, Instantienaam, Naam van student en e-mail, Type feedback: L1 of L3, Datum van de feedback die voor nieuwe gegevens is verzonden.
+
+Voor bestaande gegevens voorafgaand aan deze functie-implementatie wordt de LO-voltooiingsdatum weergegeven, de datum van LO-voltooiing, de L1-feedbackvraag Zelf-geplaatste tekst en de klassekst in verschillende kolommen, de L1-feedbackreacties, de managernaam en e-mail, de L3-feedbackwaarde en de verzenddatum, de actieve velden.
+
+U kunt de gegevens ook exporteren vanuit de gebruikersinterface of naar Power BI. Deze indeling ondersteunt alle trainingen voor elk datumbereik en biedt een grondiger analyse
+
+### Trainingsrapport {#training-report}
+
+Leermanager ondersteunt een trainingsrapport waarmee beheerders trainingsgegevens en de bijbehorende metagegevens kunnen downloaden, zoals auteur, gepubliceerde datum, vaardigheden, cataloguslabels, enz.
+
+Klik in de Admin-app op **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL trainingsrapport]**.
+
+U kunt rapporten downloaden voor het volgende:
+
+* Geselecteerde trainingen (maximaal 10) - Selecteert één of meerdere trainingen tegelijk (tot 10) van elke catalogus
+* Trainingen in de geselecteerde catalogus (maximaal 5) - (selectie van catalogi is beschikbaar tot maximaal vijf catalogi).
+* Alle trainingen - (alle trainingen in het account)
+
+![](assets/download-trainingreport.png)
+*Trainingsrapport downloaden*
+
+In het gedeelte Geavanceerde opties zijn de volgende opties beschikbaar:
+
+* Cursustoewijzingen toevoegen aan leerprogramma/certificering
+* Informatie over moduleniveau toevoegen
+
+Nadat u de filters hebt geselecteerd en op Downloaden hebt geklikt, ontvangt u een melding om het rapport in CSV-indeling te downloaden.
+
+Het rapport zal de volgende velden bevatten:
+
+*Catalogusnaam, trainingstype, trainings-id, unieke trainingsnaam, subtrainingen, modules, duur van training of module, indeling, status van training, vaardigheden, auteur, laatst gepubliceerde datum, laatst voltooide datum, aantal inschrijvingen voor docenten, aantal beginnende gebruikers, aantal voltooide trainingen, gemiddelde L1-score, gemiddelde L2-score, Avg L3-score, ontvangen L1-reacties, L2-reacties ontvangen; 3 ontvangen reacties, cataloguslabels en tags.*
+
+![](assets/more-options.png)
+*Aanvullende opties*
+
+### Overzichtsrapport van de sessie {#session-summary-report}
+
+Het rapport Sessiesamenvatting bevat alle sessies die voor een student zijn gepland binnen een opgegeven datum.
+
+Hiermee kan de beheerder alle virtuele sessiedetails en de gegevens van de lesruimtesessie exporteren die binnen het opgegeven datumbereik vallen. De beheerder kan het sessierapport ook exporteren voor specifieke trainingen of docenten.
+
+Dit zal de Beheerder ook helpen om de sessies te begrijpen die op een maandelijkse basis worden gepland en het programma van instructeurs en reeds geleverde zittingen te identificeren.
+
+Als beheerder klikt u op **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Rapport Sessiesamenvatting]**.
+
+Kies in het volgende dialoogvenster het datumbereik en de training of docent voor een overzicht.
+
+![](assets/session-summary-report.png)
+*Rapport Sessiesamenvatting*
+
+De gedownloade csv bevat de volgende velden:
+
+* Startdatum en -tijd
+* Einddatum en -tijd
+
+* Modulenaam
+* Duur sessie (in minuten)
+* Aantal licenties
+* Locatie
+* Instantienaam
+* Cursusnaam
+* Cursus-id
+* Naam docent
+* E-mailadres docent
+* Inschrijvingsaantal
+* Type sessie
+* Wachtlijstlimiet
+* Aantal wachtlijsten
+* E-mailadressen gebruikers wachtlijst
+* Informatie over locatie
+* Regio locatie
+
+### Gebruiksrapport van docent
+
+Dit rapport bevat de tijd (in minuten) die een docent dagelijks besteedt aan het lesgeven van toegewezen sessies. Het rapport kan worden gedownload voor een periode van drie maanden vanaf de geselecteerde startdatum.
+
+Klik op **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Gebruiksrapport docent]**.
+
+Selecteer een docent of meerdere docenten en het datumbereik.
+
+![Rapport voor gebruik docent downloaden](assets/utilization-report.png)
+*Rapport voor gebruik docent downloaden*
+
+Het gedownloade rapport bevat de volgende velden:
+
+* Naam van docent
+* Docent-ID
+* Competentieniveau
+* Datums als kolommen. Als de docent wordt gebruikt om een datum, wordt het aantal sessies vermeld. Als de docent niet wordt gebruikt op een dag, is de waarde nul.
+
+Het rapport bevat records voor drie maanden vanaf de geselecteerde maand.
+
+Laat het veld Docent leeg om records van alle docenten op te halen.
+
+Ook kan een aangepaste beheerder met toestemming voor het genereren van rapporten dit rapport ophalen.
+
+### Rapport Audittrail van gebruiker
+
+In dit rapport wordt informatie vastgelegd over de studenten die van instantie zijn veranderd, van instantie naar instantie, van tijd tot datum, enz.
+
+Selecteer de studenten of een gebruikersgroep.
+
+Klik op **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Rapport Audittrail gebruiker]**.
+
+![Rapport Audittrail gebruiker downloaden](assets/user-audit-report.png)
+
+*Rapport Audittrail gebruiker downloaden*
+
+### Rapport leerplan
+
+Dit rapport bevat details van alle leerplannen in een account, zoals verwante gebruikersgroepen, status en triggerinformatie.
+
+Het rapport bevat het volgende:
+
+* Naam van het leerplan
+* Type (treedt wanneer op)
+* Training (voltooid)
+* Vaardigheid (behaald)
+* Datum (op datum)
+* Actie
+* Status, gemaakt door
+* Datum gemaakt
+* Datum laatst gewijzigd
+* Gebruikersgroep (van toepassing op)
+* Gebruikersgroep (toevoegen aan)
+* Inschrijven na
+* Type(n) leerelement(en)
+* Leerelement(en)
+* Instantie(s) van leerelement
+* Leerelement
+* Voltooiingsdatum
+* Herinnering leerelement
+* Scope-catalogus
+* Scope-gebruikersgroep
+
+## E-mailabonnementen {#emailsubscriptions}
+
+U kunt uw favoriete rapporten als e-mail ontvangen door u hierop te abonneren.
+
+### E-mailabonnementen instellen
+
+>[!INFO]
+>
+>In deze training leert u hoe u e-mailabonnementen kunt instellen voor dashboardrapporten.<br><br>[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)</br></br>
+
+
+Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+
+In **[!UICONTROL Rapporten]** op de pagina  **[!UICONTROL Abonnement]** tabblad. De abonnementspagina voor rapporten verschijnt.
+
+Als u de rapportnaam in de vervolgkeuzelijst wilt selecteren, typt u de rapportnaam in het veld Rapporten. Kies in de lijst hoe vaak u e-mail wilt ontvangen. U kunt het onderwerp van de e-mail toevoegen en een alternatief e-mailadres opgeven.
+
+U kunt abonnementen bewerken en verwijderen.
+
+## Historische verslagen
+
+Historische rapporten in Adobe Learning Manager (ALM) verwijzen naar de rapporten die de historische gegevens en activiteiten binnen het leerplatform vastleggen. Deze rapporten bieden inzichten in eerdere studentactiviteiten, trainingsinhoud, prestaties van gebruikersgroepen en andere relevante gegevens. Met de historische rapporten kunnen beheerders de voortgang en effectiviteit van leerinitiatieven in de loop der tijd volgen, controleren en analyseren.
+
+### Cursustoegangsrapporten
+
+De cursustoegangsrapporten bevatten informatie over het reviseren van elke cursus.
+
+Ga als volgt te werk om dit rapport te downloaden:
+
+1. Ga naar **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Historische verslagen]**.
+1. Selecteren **[!UICONTROL Cursustoegangsrapport]**. Het dialoogvenster Rapportaanvraag genereren wordt geopend.
+1. Selecteer het jaar en het kwartaal in de vervolgkeuzelijst.
+1. Selecteren **[!UICONTROL Genereren]**.
+
+### Aanmeldings-/toegangsrapporten
+
+De inlognaam-/toegangsrapporten bieden informatie over gebruikersaanmeldingen en -toegang. U kunt een rapport genereren met gegevens van drie maanden per keer.
+
+Ga als volgt te werk om dit rapport te downloaden:
+
+1. Ga naar **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Historische verslagen]**.
+1. Selecteren **[!UICONTROL Aanmeldings-/toegangsrapport]**. Het dialoogvenster Rapportaanvraag genereren wordt geopend.
+1. Selecteer het jaar en het kwartaal in de vervolgkeuzelijst.
+1. Selecteren **[!UICONTROL Genereren]**.
 
 ## Een dashboard maken {#createadashboard}
 
@@ -473,18 +988,6 @@ U kunt ook aangepaste gebruikersgroepen aanmaken met de functie Gebruikers/Gebru
 
 Kies in de x-as de optie Gebruikerskenmerk en selecteer het kenmerk in het **selecteren** naast de afbeelding. Als u op basis van deze kenmerken een aangepast gebruikersgroeprapport wilt maken, moet u ook de juiste gebruikersgroep in het filter kiezen.
 
-## Rapporttypen {#typesofreports}
-
-Adobe Learning Manager ondersteunt vier belangrijke rapporttypen, zoals voltooiing, bestede tijd, vaardigheden en effectiviteit. U kunt de volgende rapporttypen gebruiken om meer dan 300 varianten te genereren:
-
-* Statistieken levering cursus voor studenten
-* Rapport over effectiviteit van cursussen
-* Rapport gebaseerd op vaardigheden van student
-* Inschrijvingstatistieken voor studenten van leerprogramma
-* Bestede leertijd door studenten
-* Aantal studenten
-* Voltooiing certificering
-
 ## Rapporten weergeven {#viewingreports}
 
 Op de pagina Rapporten kunt u alle rapporten bekijken. U kunt elk rapport minimaliseren door rechtsboven in het rapport op het minteken (-) te klikken. Klik op het plusteken (+) om uw rapport opnieuw weer te geven.
@@ -512,9 +1015,10 @@ Als er meerdere managers aan u rapporteren, kunt u de rapporten voor elke manage
 
 ### Cursusrapporten genereren
 
-In deze training leert u hoe u cursusrapporten exporteert en e-mailabonnementen instelt voor deze rapporten.
+>[!INFO]
+>
+>In deze training leert u hoe u cursusrapporten exporteert en e-mailabonnementen instelt voor deze rapporten.<br><br>[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)</br></br>
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
 
 Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
@@ -574,466 +1078,6 @@ Als u tijdens het maken van een collega-account de optie Catalogus delen niet he
    >[!NOTE]
    >
    >Managers kunnen geen collegarapporten bekijken.
-
-## E-mailabonnementen {#emailsubscriptions}
-
-U kunt uw favoriete rapporten als e-mail ontvangen door u hierop te abonneren.
-
-### E-mailabonnementen instellen
-
-In deze training leert u hoe u e-mailabonnementen kunt instellen voor dashboardrapporten.
-
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
-
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
-
-In **[!UICONTROL Rapporten]** op de pagina  **[!UICONTROL Abonnement]** tabblad. De abonnementspagina voor rapporten verschijnt.
-
-Als u de rapportnaam in de vervolgkeuzelijst wilt selecteren, typt u de rapportnaam in het veld Rapporten. Kies in de lijst hoe vaak u e-mail wilt ontvangen. U kunt het onderwerp van de e-mail toevoegen en een alternatief e-mailadres opgeven.
-
-U kunt abonnementen bewerken en verwijderen.
-
-## Excel-rapporten {#excelreports}
-
-Via het tabblad **[!UICONTROL Excel-rapporten]** kunt u rapporten in XLS-indeling exporteren.
-
-De volgende rapporttypen zijn beschikbaar om te downloaden.
-
-* Cursusrapporten
-* Studenttranscripten
-* Aankondigingenrapport
-* Taakhulpenrapport
-* Audittrail van inhoud
-* Audittrail van gebruiker
-* Aanmeldings-/toegangsrapport
-* Gamificationtranscripten
-* Gamification Audittrail
-
-## Studenttranscripten {#learnertranscripts}
-
-In de Studenttranscripten in Excel-rapporten worden de kolommen Punten vereist en Punten verdiend in decimale getallen weergegeven.
-
-## Cursusrapporten {#coursereports}
-
-Als beheerder kunt u rapporten voor cursussen downloaden. Volg deze stappen:
-
-1. Openen **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Cursusrapporten]**.
-1. Het dialoogvenster **[!UICONTROL Cursusrapporten]** verschijnt. Selecteer de cursus waarvoor u het rapport wilt ophalen en klik op **[!UICONTROL Weergeven]**.
-
-   ![](assets/course-reports.png)
-   *Cursusrapporten*
-
-1. U wordt omgeleid naar de cursuspagina. U kunt de quizscore per gebruiker en per vraag exporteren op basis van elke inschrijving door het specifieke inschrijvingstype te kiezen.
-1. Selecteer **[!UICONTROL Quizscore exporteren]** om het rapport te exporteren. Het dialoogvenster **[!UICONTROL Rapportaanvraag genereren]** verschijnt. Klik op **[!UICONTROL OK]** om te bevestigen.
-
-   ![](assets/generating-reportrequest.png)
-   *Rapportaanvraag genereren*
-
-   >[!NOTE]
-   >
-   >Het geëxporteerde quizscorerapport bevat de scoregegevens voor elke poging als de optie voor meerdere pogingen voor de module is geconfigureerd.
-
-## Studenttranscripten {#LearnerTranscripts-1}
-
-Adobe Learning Manager stelt de beheerders van een organisatie in staat om de transcripten van de studenten te genereren. Het rapport Studenttranscript bevat het volgende:
-
-1. Studenttranscript: dashboard Leeractiviteit
-1. Vaardigheid: Dashboard Vaardigheid
-1. Dashboard Naleving
-
-In de Studenttranscripten in Excel-rapporten worden de kolommen Punten vereist en Punten verdiend in decimale getallen weergegeven.
-
-Zie voor informatie over het genereren van studenttranscriptrapporten en meer informatie [Studenttranscripten](learner-transcripts.md).
-
-## Aankondigingenrapporten {#announcementsreports}
-
-Als beheerder kunt u een rapport genereren van alle aankondigingen die u verzendt. Het rapport bevat details over het volgende:
-
-* Type aankondiging
-* Naam van aankondiging
-* Datum van aankondiging
-* Status van aankondiging
-* Naam van student
-
-Volg een van deze stappen om een rapport te downloaden:
-
-1. Openen **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Aankondigingenrapport]**. Het dialoogvenster **[!UICONTROL Rapportaanvraag genereren]** wordt geopend. Klik op OK.
-1. [!UICONTROL **Aankondigingen**] > [!UICONTROL **Handelingen**] > [!UICONTROL **Rapport exporteren**].
-
-   ![](assets/announcements.png)
-   *Aankondigingsrapport*
-
-1. U kunt een rapport voor een specifieke aankondiging extraheren door op **[!UICONTROL Rapport exporteren]** onder het instellingenpictogram.
-
-   ![](assets/announcements-specific-report.png)
-   *Rapport voor specifieke aankondigingen*
-
-## Taakhulpenrapport {#jobaidsreport}
-
-Taakhulpen zijn trainingsinhoud waartoe een studenten toegang hebben zonder dat zij zich moeten inschrijven voor een specifiek leerobject zoals een cursus of leerprogramma. Beheerders kunnen het Taakhulpenrapport extraheren en downloaden.
-
-Het geëxtraheerde rapport bevat informatie over het volgende:
-
-* Naam
-* Type taakhulp
-* Status van taakhulp (gepubliceerd of ingetrokken)
-* Inschrijvingsdatum
-* Voltooiingsdatum
-* Downloaddatum
-* Naam van student
-* Naam van manager
-* Gemaakt door
-
-Voer een van de volgende handelingen uit om een rapport te downloaden:
-
-* Openen  **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Taakhulpenrapporten]**. Het dialoogvenster **[!UICONTROL Rapportaanvraag genereren]** wordt geopend. Klik op **[!UICONTROL OK]**.
-* Openen **[!UICONTROL Taakhulp]** > **[!UICONTROL Handelingen]** > **[!UICONTROL Rapport exporteren]**.
-
-![](assets/job-aids.png)
-*Taakhulpenrapport*
-
-* U kunt ook een rapport voor een specifieke taakhulp extraheren door onder het instellingenpictogram op **[!UICONTROL Rapport exporteren]** te klikken.
-
-![](assets/job-aid-specific-download.png)
-*Rapport voor specifieke taakhulp*
-
-### Taakhulpenrapport
-
-Nadat u **[!UICONTROL Taakhulpenrapport]** in de lijst ziet u twee opties :
-
-![rapport over taakhulpen](assets/job-aids-new.png)
-*Taakhulpen inschrijvingsrapport voor VS downloaden*
-
-**Alle taakhulpen**: Als het aantal taakhulpen in de account minder dan 10 miljoen is, bevat het gegenereerde rapport inschrijvingsgegevens van alle taakhulpen. Dit is de standaardselectie. Als het aantal rijen groter is dan 10 miljoen, wordt een fout weergegeven en moet u de vereiste taakhulpen handmatig selecteren.
-
-**Geselecteerde taakhulpen**: Als u deze optie selecteert, kunt u de taakhulpen invoeren waarvoor u het rapport wilt genereren. U kunt maximaal 10 taakhulpen selecteren. Adobe Leermanager controleert of er meer dan 10 miljoen taakhulpen zijn.
-
-![job aids rapport inschrijven](assets/job-aids-2-new.png)
-*Een taakhulp selecteren*
-
-**Taakhulpenrapport**
-
-Als u deze optie selecteert, worden de details gedownload van alle taakhulpen die in het systeem aanwezig zijn, samen met de bijbehorende metadata en training.
-
-Het gedownloade rapport bestaat uit de volgende velden:
-
-* Naam van taakhulp
-* Taal/talen
-* Id
-* Type
-* Duur (minuten)
-* Status
-* Publicatiedatum (tijdzone UTC)
-* Gemaakt, op naam
-* Gemaakt, op e-mailadres
-* Gemaakt, op unieke ID van gebruiker
-* Catalogus(sen)
-* Leerpad(en)
-* Cursus(sen)
-* Tag(s)
-* Vaardigheid/vaardigheden
-
-**Inschrijvingsrapport van gebruikers voor taakhulpen**
-
-Het inschrijvingsrapport bevat details over inschrijving van gebruikers en andere informatie.
-
-Het gedownloade rapport bestaat uit de volgende velden:
-
-* Naam van taakhulp
-* Type
-* Status
-* Datum ingeschreven (tijdzone UTC)
-* Voltooiingsdatum (UTC-tijdzone)
-* Downloaddatum (UTC-tijdzone)
-* Naam van student
-* E-mail
-* Unieke ID van gebruiker
-* Naam van manager
-* E-mailadres van manager
-* Unieke ID van managergebruiker
-* Toegewezen op naam
-* Toegewezen op e-mail
-* Toegewezen op unieke ID van gebruiker
-* Gemaakt op naam
-* Gemaakt op e-mail
-* Gemaakt op unieke ID van gebruiker
-* Taakcode
-* Nieuw veld
-* Profiel
-
-### Rapporten voor audittrail van inhoud {#contentaudittrailreports}
-
-Gebruik de **[!UICONTROL Audittrail van inhoud]** rapportgenerator om een rapport te genereren van alle wijzigingen en bewerkingen die tijdens de levensduur van een cursus in het systeem zijn aangebracht. Het gegenereerde rapport bevat de volgende informatie.
-
-* Object-ID
-* Objectnaam
-* Objecttype
-* Wijzigingstype
-* Beschrijving
-* Verwezen object-ID
-* Verwezen objectnaam
-* Gewijzigd op gebruikersnaam
-* Gewijzigd in gebruikers-ID
-* Datum gewijzigd (UTC-tijdzone)
-
-Informatie over metagegevens wordt niet in het gegenereerde rapport opgenomen.
-
-Volg deze stappen om een rapport Audittrail van cursus te genereren.
-
-1. Selecteren **[!UICONTROL Rapport]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL Audittrail van cursus]**. Het dialoogvenster **[!UICONTROL Audittrail van inhoud]** verschijnt.
-
-   ![](assets/course-audit-trial.png)
-   *Audittrail van cursus*
-
-1. Selecteer de cursus, het leerprogramma en de certificering waarvoor u het rapport wilt downloaden. Indien niet gespecificeerd, worden standaard alle rapporten gedownload.
-1. Selecteer een datumbereik voor het rapport en klik op **[!UICONTROL Genereren]**.
-1. Het rapport wordt gegenereerd en u ontvangt bericht wanneer het rapport Audittrail van inhoud klaar is. U kunt het rapport downloaden.
-
-## Rapporten Audittrail van gebruiker {#useraudittrailreports}
-
-Audittrail van gebruikers legt de levenscyclus van gebruikers, gebruikersgroepen en zelfregistratieprofielen vast. Toevoeging, verwijdering en wijziging in Manager van gebruiker worden allemaal vastgelegd. Maken en verwijderen van zelfregistratieprofielen wordt vastgelegd. U kunt ook pauzeren en de zelfregistratie hervatten.
-
-U kunt Toevoegen, Inschakelen, Uitschakelen, Pauzeren of Hervatten voor Externe profielen. Voor zelfregistratie kunt u Toevoegen, Verwijderen, Pauzeren of Hervatten. CSV-uploads worden ook vastgelegd.
-
-1. Selecteren  **[!UICONTROL Rapport > Excel-rapport > Handtekening]**. Het dialoogvenster Audittrail van gebruiker wordt weergegeven.
-1. Het dialoogvenster Audittrail van gebruiker verschijnt. Selecteer het datumbereik in het pop-upmenu. U kunt een rapport voor de laatste week of laatste maand genereren, of een aangepaste datum selecteren.
-
-   ![](assets/user-audit-trail.png)
-   *Audittrail van gebruiker*
-
-1. Klik op **[!UICONTROL Genereren]** om het rapport te genereren.
-
-Er zijn twee filters in het dialoogvenster **[!UICONTROL Rapport Audittrail van gebruiker]**.
-
-**Datumbereik, filter:** Kies het datumbereik waarvoor u het rapport wilt genereren. Er zijn drie opties:
-
-* Laatste week
-* Laatste maand
-* Aangepaste datum
-
-Selecteer het filter Studenten: zoek naar een gebruiker of een gebruikersgroep.
-
-Het geëxporteerde rapport bevat gegevens van de gebruikers die aan beide opgegeven zoekcriteria voldoen.
-
-![](assets/user-audit-trail.png)
-*Audittrail van gebruiker*
-
->[!NOTE]
->
->Wanneer een vaardigheid wordt toegewezen of verwijderd, kan deze worden bijgehouden voor het controlerapport van de gebruiker voor zowel toegewezen als verwijderde vaardigheid.
-
-## Gamificationrapporten {#gamification}
-
-Beheerders kunnen gamificationtranscript in CSV-indeling downloaden. U kunt het rapport voor individuele gebruikers of gebruikersgroepen downloaden. Gebruikersnaam, e-mail van de gebruiker, UUID van de gebruiker, totaal aantal gescoorde gebruikerspunten, opsplitsing van verzamelde punten, naam van groepen waarin de gebruiker speelt, naam van de manager, en actieve veldwaarden worden allen opgehaald in het rapport. Beheerders kunnen dit rapport gebruiken om de ranglijsten van gebruikers op organisatieniveau of voor een specifieke groep te evalueren en te begrijpen.
-
-1. Selecteer Rapport > Excel-rapport > Gamificationrapport.
-
-   ![](assets/gamification.png)
-   *Gamificationrapport*
-
-1. Het dialoogvenster Gamificationtranscripten verschijnt. Selecteer studenten aan de hand van hun Naam, Profiel, Gebruikersgroepen, E-mail-ID of UUID.
-
-   ![](assets/gamification-transcriptsdialog.png)
-   *Dialoogvenster Gamificationtranscripten*
-
-1. Klikken  **[!UICONTROL Genereren]** om het rapport te genereren.
-
-   Nadat u het rapport van een student hebt gegenereerd, moet u de huidige informatie en de informatie op een gereed niveau kunnen exporteren voor alle gebruikers (intern, extern of verwijderd) in het account. U kunt ook de datums controleren waarop een student de niveaus heeft behaald:
-
-   * Datum brons behaald
-   * Datum zilver behaald
-   * Datum goud behaald
-   * Datum platina behaald
-
-   Deze kolommen bevatten de datums waarop het niveau voor het eerst werd behaald. De kolom **[!UICONTROL Huidig niveau]** geeft het huidige niveau van de student weer.
-
-   Wanneer de beheerder de gamification herstelt, worden alle punten van de student overeenkomstig hersteld.
-
-## Rapport Gamification-audittrail {#gamification-audit-trail}
-
-Dit rapport bevat de geschiedenis en de redenen voor de gamificationpunten van studenten die voor elke regel zijn verdiend.
-
-### Rapport downloaden
-
-1. Selecteer de URL van het Gamification-audittrail.
-1. Op de **Audittrail van gamification** selecteert u het datumbereik.
-1. Selecteren **Genereren**.
-
-Het rapport wordt gedownload als een CSV-bestand. Het bestand bevat de volgende kolommen:
-
-* Naam
-* E-mail/UUID,
-* Status
-* Actie
-* Punten,
-* Saldo punten
-* Regel/taak
-* Regel-/taaksubtaak,
-* Regel/taakdetails
-* Type
-* Naam
-* InstantienaamDate bereikt (UTC-tijdzone)
-* Regel/Begintijd taak
-* Regel/Eindtijd van taak
-
-## Inschrijvings- en uitschrijvingsrapport {#enrollmentandunenrollmentreport}
-
-Beheerders en managers kunnen een rapport extraheren van de studenten die zijn ingeschreven en uitgeschreven. Als beheerder kunt u alle studenten, beheerders of managers zien die zijn in- of uitgeschreven voor een instantie van een cursus, leerprogramma of certificering en het rapport exporteren. Als manager kunt u alleen een rapport van uw teamleden ophalen. Als manager kunt u de verwijderde studenten of uw eigen naam niet zien in de managertoepassing als ingeschreven of uitgeschreven student.
-
-Ga als volgt te werk om een rapport te downloaden: Open de  **[!UICONTROL Cursus/Leerprogramma/Certificering]** > **[!UICONTROL Studenten]** > **[!UICONTROL Handeling]** > **[!UICONTROL Rapport exporteren]**.
-
-![](assets/unenrollment.png)
-*Uitschrijvingsrapport*
-
-## Feedbackrapport {#feedback-report}
-
-Als beheerder kunt u nu zowel feedback van de student (L1) als van de manager (L3) krijgen voor geselecteerde trainingen voor een bepaalde periode.
-
-U kunt de gegevens vanuit de gebruikersinterface of via de PowerBI-connector exporteren voor een diepgaandere analyse.
-
-L1- en L3-feedbackrapporten bieden een optie om een geconsolideerd feedbackrapport te downloaden voor de L1- en L3-reacties voor geselecteerde trainingen voor een **eenjarig** bereik of voor maximaal 10 geselecteerde trainingen voor elk datumbereik.
-
-Meld u aan als beheerder en klik op **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** en klikt u in de lijst met rapporten op **[!UICONTROL Feedbackrapport]**.
-
-![](assets/download-feedbackreport.png)
-*Feedbackrapport downloaden*
-
-Als u na het selecteren van de filters op downloaden klikt, ontvangt u een melding om het rapport in CSV-indeling te downloaden.
-
-Het gedownloade rapport bevat gegevens zoals Naam en type van training, Instantienaam, Naam van student en e-mail, Type feedback: L1 of L3, Datum van de feedback die voor nieuwe gegevens is verzonden.
-
-Voor bestaande gegevens voorafgaand aan deze functie-implementatie wordt de LO-voltooiingsdatum weergegeven, de datum van LO-voltooiing, de L1-feedbackvraag Zelf-geplaatste tekst en de klassekst in verschillende kolommen, de L1-feedbackreacties, de managernaam en e-mail, de L3-feedbackwaarde en de verzenddatum, de actieve velden.
-
-U kunt de gegevens ook exporteren vanuit de gebruikersinterface of naar Power BI. Deze indeling ondersteunt alle trainingen voor elk datumbereik en biedt een grondiger analyse
-
-## Trainingsrapport {#training-report}
-
-Leermanager ondersteunt een trainingsrapport waarmee beheerders trainingsgegevens en de bijbehorende metagegevens kunnen downloaden, zoals auteur, gepubliceerde datum, vaardigheden, cataloguslabels, enz.
-
-Klik in de Admin-app op **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten]** > **[!UICONTROL trainingsrapport]**.
-
-U kunt rapporten downloaden voor het volgende:
-
-* Geselecteerde trainingen (maximaal 10) - Selecteert één of meerdere trainingen tegelijk (tot 10) van elke catalogus
-* Trainingen in de geselecteerde catalogus (maximaal 5) - (selectie van catalogi is beschikbaar tot maximaal vijf catalogi).
-* Alle trainingen - (alle trainingen in het account)
-
-![](assets/download-trainingreport.png)
-*Trainingsrapport downloaden*
-
-In het gedeelte Geavanceerde opties zijn de volgende opties beschikbaar:
-
-* Cursustoewijzingen toevoegen aan leerprogramma/certificering
-* Informatie over moduleniveau toevoegen
-
-Nadat u de filters hebt geselecteerd en op Downloaden hebt geklikt, ontvangt u een melding om het rapport in CSV-indeling te downloaden.
-
-Het rapport zal de volgende velden bevatten:
-
-*Catalogusnaam, trainingstype, trainings-id, unieke trainingsnaam, subtrainingen, modules, duur van training of module, indeling, status van training, vaardigheden, auteur, laatst gepubliceerde datum, laatst voltooide datum, aantal inschrijvingen voor docenten, aantal beginnende gebruikers, aantal voltooide trainingen, gemiddelde L1-score, gemiddelde L2-score, Avg L3-score, ontvangen L1-reacties, L2-reacties ontvangen; 3 ontvangen reacties, cataloguslabels en tags.*
-
-![](assets/more-options.png)
-*Aanvullende opties*
-
-## Overzichtsrapport van de sessie {#session-summary-report}
-
-Het rapport Sessiesamenvatting bevat alle sessies die voor een student zijn gepland binnen een opgegeven datum.
-
-Hiermee kan de beheerder alle virtuele sessiedetails en de gegevens van de lesruimtesessie exporteren die binnen het opgegeven datumbereik vallen. De beheerder kan het sessierapport ook exporteren voor specifieke trainingen of docenten.
-
-Dit zal de Beheerder ook helpen om de sessies te begrijpen die op een maandelijkse basis worden gepland en het programma van instructeurs en reeds geleverde zittingen te identificeren.
-
-Als beheerder klikt u op **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Rapport Sessiesamenvatting]**.
-
-Kies in het volgende dialoogvenster het datumbereik en de training of docent voor een overzicht.
-
-![](assets/session-summary-report.png)
-*Rapport Sessiesamenvatting*
-
-De gedownloade csv bevat de volgende velden:
-
-* Startdatum en -tijd
-* Einddatum en -tijd
-
-* Modulenaam
-* Duur sessie (in minuten)
-* Aantal licenties
-* Locatie
-* Instantienaam
-* Cursusnaam
-* Cursus-id
-* Naam docent
-* E-mailadres docent
-* Inschrijvingsaantal
-* Type sessie
-* Wachtlijstlimiet
-* Aantal wachtlijsten
-* E-mailadressen gebruikers wachtlijst
-* Informatie over locatie
-* Regio locatie
-
-## Gebruiksrapport van docent
-
-Dit rapport bevat de tijd (in minuten) die een docent dagelijks besteedt aan het lesgeven van toegewezen sessies. Het rapport kan worden gedownload voor een periode van drie maanden vanaf de geselecteerde startdatum.
-
-Klik op **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Gebruiksrapport docent]**.
-
-Selecteer een docent of meerdere docenten en het datumbereik.
-
-![Rapport voor gebruik docent downloaden](assets/utilization-report.png)
-*Rapport voor gebruik docent downloaden*
-
-Het gedownloade rapport bevat de volgende velden:
-
-* Naam van docent
-* Docent-ID
-* Competentieniveau
-* Datums als kolommen. Als de docent wordt gebruikt om een datum, wordt het aantal sessies vermeld. Als de docent niet wordt gebruikt op een dag, is de waarde nul.
-
-Het rapport bevat records voor drie maanden vanaf de geselecteerde maand.
-
-Laat het veld Docent leeg om records van alle docenten op te halen.
-
-Ook kan een aangepaste beheerder met toestemming voor het genereren van rapporten dit rapport ophalen.
-
-## Rapport Audittrail van gebruiker
-
-In dit rapport wordt informatie vastgelegd over de studenten die van instantie zijn veranderd, van instantie naar instantie, van tijd tot datum, enz.
-
-Selecteer de studenten of een gebruikersgroep.
-
-Klik op **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Rapport Audittrail gebruiker]**.
-
-![Rapport Audittrail gebruiker downloaden](assets/user-audit-report.png)
-
-*Rapport Audittrail gebruiker downloaden*
-
-## Rapport leerplan
-
-Dit rapport bevat details van alle leerplannen in een account, zoals verwante gebruikersgroepen, status en triggerinformatie.
-
-Het rapport bevat het volgende:
-
-* Naam van het leerplan
-* Type (treedt wanneer op)
-* Training (voltooid)
-* Vaardigheid (behaald)
-* Datum (op datum)
-* Actie
-* Status, gemaakt door
-* Datum gemaakt
-* Datum laatst gewijzigd
-* Gebruikersgroep (van toepassing op)
-* Gebruikersgroep (toevoegen aan)
-* Inschrijven na
-* Type(n) leerelement(en)
-* Leerelement(en)
-* Instantie(s) van leerelement
-* Leerelement
-* Voltooiingsdatum
-* Herinnering leerelement
-* Scope-catalogus
-* Scope-gebruikersgroep
 
 ## Veelgestelde vragen {#frequentlyaskedquestions}
 
