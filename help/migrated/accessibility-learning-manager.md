@@ -4,14 +4,13 @@ title: Toegankelijkheid in Adobe Learning Manager
 description: Dit document geeft een overzicht van de toegankelijkheidsondersteuning die Learning Manager Learning Management System biedt voor studenten met een handicap. Het geeft de gebruikers ook informatie over de navigatiemogelijkheden en de toegankelijkheidskenmerken van het platform.
 contentowner: saghosh
 preview: true
-source-git-commit: 92b3c83ec04de927f9066db6b79e8b19872d2b46
+exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
+source-git-commit: 6f7442f2cfa4bc8c564e1eccc3a6aabf00958d77
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 71%
 
 ---
-
-
 
 # Toegankelijkheid in Adobe Learning Manager
 
@@ -19,7 +18,7 @@ Dit document geeft een overzicht van de toegankelijkheidsondersteuning die Learn
 
 Leermanager volgt de WCAG 2.1 Level A en AA toegankelijkheidsstandaarden van W3C voor het platform.
 
-Met de rol Adobe Leermanager kunnen studenten door het platform navigeren en profiteren van de volgende belangrijke toegankelijkheidsmogelijkheden:
+Met de Adobe Learning Manager-studentrol kunnen studenten door het platform navigeren en profiteren van de volgende belangrijke toegankelijkheidsfuncties:
 
 * Schermlezer
 * Toetsenborder
@@ -151,8 +150,8 @@ De rol Learning Manager-student ondersteunt verschillende andere toegankelijkhei
 
 Zie voor meer informatie:
 
-* [Toegankelijkheidsrapport voor een student](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [Toegankelijkheidsrapport voor alle rollen](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [Toegankelijkheidsrapport voor een student](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [Toegankelijkheidsrapport voor alle rollen](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## De bovenste workflows van Learning Manager (studentrol) {#captivateprimetopworkflowslearnerrole}
 

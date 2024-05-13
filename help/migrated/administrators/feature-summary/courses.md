@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Cursusmodules, instanties en leerprogramma's maken
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 65%
@@ -25,9 +25,10 @@ Auteurs maken cursussen. Studenten kunnen de cursussen dan volgen en beheerders 
 
 ### Instanties beheren
 
-In deze training leert u hoe u instantiedetails en instantie-eigenschappen kunt bewerken.
+>[!INFO]
+>
+>In deze training leert u hoe u instantiedetails en instantie-eigenschappen kunt bewerken.<br><br>[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
 
 Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
@@ -638,7 +639,7 @@ De levenscyclus van een cursus ziet er meestal als volgt uit:
 
 **Gearchiveerd** - Een auteur kan een cursus na publicatie archiveren als hij niet wil dat de cursus in de cursuscatalogus voor studenten verschijnt.  U kunt de cursus op dit punt opnieuw publiceren of verwijderen.
 
-**Verwijderd** - Een cursus heeft de status Verwijderd wanneer deze volledig is verwijderd uit de Adobe Learning Manager-toepassing. Auteurs kunnen alleen cursussen met conceptstatus verwijderen. U kunt cursussen ook uit gearchiveerde status verwijderen.
+**Verwijderd** - Een cursus heeft de status Verwijderd wanneer deze volledig uit de Adobe Learning Manager-toepassing is verwijderd. Auteurs kunnen alleen cursussen met conceptstatus verwijderen. U kunt cursussen ook uit gearchiveerde status verwijderen.
 
 ![](assets/lifecycle-03.png)
 

@@ -4,7 +4,7 @@ title: Aangepaste rollen via CSV-bestanden beheren
 description: De integratiebeheerder kan via CSV een aantal aangepaste rollen in bulk aan zijn/haar account toevoegen en deze aan verschillende gebruikers toewijzen. Deze aanpak automatiseert het maken van aangepaste rollen.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
+source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
 workflow-type: tm+mt
 source-wordcount: '907'
 ht-degree: 83%
