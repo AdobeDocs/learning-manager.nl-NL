@@ -3,17 +3,17 @@ jcr-language: en_us
 title: API-implementaties in Adobe Learning Manager
 description: Naarmate de API's in Adobe Learning Manager zich ontwikkelen, worden API's periodiek gereorganiseerd of bijgewerkt. Wanneer API's evolueren, is de oude API verouderd en uiteindelijk verwijderd. Deze pagina bevat informatie die u moet weten wanneer u van verouderde API-versies naar nieuwere en stabielere API-versies migreert.
 contentowner: saghosh
-source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
+exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
+source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 21%
+source-wordcount: '897'
+ht-degree: 20%
 
 ---
 
+# API-afwijzingen en -wijzigingen in Adobe Learning Manager
 
-# API-veroudering en wijzigingen in Adobe Learning Manager
-
-## API-afwijzingen in de maart 2024-versie van Adobe Learning Manager
+## API-afwijzingen in de Adobe Learning Manager-versie van maart 2024
 
 <!-- ### Changes in Rate Limits
 
@@ -105,7 +105,7 @@ Op dit moment haalt u in het LO-overzichtseindpunt het aantal mogelijke instanti
 
 Het ophalen van de aantallen voor voltooiing en inschrijving is een kostbare rekenkracht, zodat de berekening op aanvraagbasis wordt uitgevoerd. Als de gegevens niet aanwezig zijn in het cachegeheugen, worden de gegevens opnieuw geladen. Dit is verwerkingsintensief. Als er veel gebruikers zijn die zich inschrijven voor een cursus, zijn de tellingen groot en hebben deze invloed op de CPU-prestaties.
 
-In de volgende versie van de Leermanager van de Adobe, in het overzichtseindpunt van de Instantie LO, worden de completionCount, enrollmentCount, seatLimit, en wachtlistCount in het cachegeheugen ondergebracht. De gegevens in de cache blijven behouden totdat er wijzigingen zijn opgetreden in inschrijvingen of uitschrijvingen. Voor aantallen die meer dan 1000 inschrijvingen tellen, gaan we ervan uit dat de geschatte aantallen zijn en maken we de resultaten ongeldig voor alle bestaande en nieuwe accounts.
+In de volgende versie van Adobe Learning Manager, in het overzichtseindpunt van de Instantie LO, worden de completionCount, enrollmentCount, seatLimit, en wachtlistCount in het cachegeheugen geplaatst. De gegevens in de cache blijven behouden totdat er wijzigingen zijn opgetreden in inschrijvingen of uitschrijvingen. Voor aantallen die meer dan 1000 inschrijvingen tellen, gaan we ervan uit dat de geschatte aantallen zijn en maken we de resultaten ongeldig voor alle bestaande en nieuwe accounts.
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ In de volgende versie van de Leermanager van de Adobe, in het overzichtseindpunt
 
 ### Sorteren op naam
 
-In de volgende release van Adobe Learning Manager zijn naam en -naam afgekeurd in het sorteerveld van de volgende API&#39;s:
+In de volgende versie van Adobe Learning Manager zijn naam en -naam afgekeurd in het sorteerveld van de volgende API&#39;s:
 
 * GET /userGroups/{userGroupId}/users
 * GET/gebruikers
@@ -145,6 +145,11 @@ De groep collega&#39;s wordt nu een account en studenten krijgen een tekenreeks 
 
 ### Wijzigingen in aankondigingsrapport voor meldingen
 
-In eerdere versies van Adobe Learning Manager bevatte het meldingsrapport geen filters. Adobe Learning Manager heeft alle meldingen in het account gedownload.
+In eerdere versies van Adobe Learning Manager beschikte het meldingsrapport niet over filters. Adobe Learning Manager heeft alle meldingen in het account gedownload.
 
 In de versie van november 2023 hebben we een datumfilter toegevoegd waarmee u de meldingen binnen een opgegeven periode kunt downloaden.  U kunt het rapport echter alleen voor de laatste zes maanden downloaden.
+
+### Veroudering van hoge verschuivingswaarden in GET/gebruikers-eindpunt
+
+Om systeemprestaties te verbeteren en middelgebruik effectiever te beheren, heeft de Adobe hoge compensatiewaarden in het GET /users eindpunt voor allebei vervangen **ADMIN** en **STUDENT** bereik. We raden u aan de **Job API** om de records met een verschuivingswaarde op te halen.
+
