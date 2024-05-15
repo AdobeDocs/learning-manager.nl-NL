@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Certificeringen
 contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 68%
+source-wordcount: '1024'
+ht-degree: 67%
 
 ---
 
@@ -106,6 +106,8 @@ Selecteer de producten, rollen en rolniveau van het **[!UICONTROL Aanbevelen voo
 
 ![](assets/recommend-for.png)
 
+*Aanbeveling*
+
 Kies uit de cursussen die u aan de certificering wilt toevoegen **[!UICONTROL Cursussen]** > **[!UICONTROL Catalogus]** tabblad.
 
 Houd de muis op elke cursustegel en klik op + om deze aan de certificering toe te voegen. Klikken **[!UICONTROL Voorvertoning]** om de cursus als student weer te geven voordat u deze toevoegt.
@@ -170,6 +172,8 @@ Als u een gepubliceerde certificering wilt bewerken, klikt u op de certificering
 Als u tijdens het bewerken van de onderdelen van een certificering de pagina moet verlaten, moet u de certificering opnieuw publiceren. U krijgt een bevestiging in een dialoogvenster waarin u wordt gevraagd om de certificering opnieuw te publiceren.
 
 ![](assets/edit-a-certificate.png)
+
+*Een certificaat bewerken*
 
 ## Abonnement {#subscription}
 

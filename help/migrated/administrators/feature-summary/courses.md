@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Cursusmodules, instanties en leerprogramma's maken
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
+source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
 workflow-type: tm+mt
-source-wordcount: '4613'
-ht-degree: 65%
+source-wordcount: '4659'
+ht-degree: 64%
 
 ---
 
@@ -96,6 +96,18 @@ Voer de volgende stappen uit om een gearchiveerde instantie te herstellen naar e
    *Instantie herstellen*
 
 1. De instantie wordt nu hersteld naar een actieve modus.
+
+## Instantie verwijderen
+
+Beheerders kunnen de instantie verwijderen met **Dit exemplaar verwijderen** onmiddellijk na het maken. U kunt geen instanties verwijderen als er een bijbehorende sessie is of als er studenten voor zijn ingeschreven.
+
+![](assets/delete-this-instance.png)
+
+*Instantie verwijderen*
+
+>[!NOTE]
+>
+>U kunt de standaardinstantie niet verwijderen.
 
 ## E-mails op instantieniveau verzenden
 

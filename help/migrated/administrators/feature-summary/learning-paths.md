@@ -4,10 +4,10 @@ title: Leerpaden
 description: Leerplannen maken voor beheerders in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 42%
+source-wordcount: '1329'
+ht-degree: 37%
 
 ---
 
@@ -49,17 +49,27 @@ In het dialoogvenster **[!UICONTROL Leerpad]** pagina, klikken **[!UICONTROL Toe
 
 *Een nieuw leerpad toevoegen*
 
+In het dialoogvenster **Type inschrijving** selecteert u **Zelfinschrijving** of **Beheerderinschrijving**.
+
+>[!NOTE]
+>
+>Als u **Beheerderinschrijving** zullen studenten alleen door de manager of door de manager goedgekeurde cursussen zien. Studenten kunnen het leerpad niet zien in de sectie met aanbevelingen.
+
 Nadat u het leerpad hebt gemaakt, selecteert u het nieuw gemaakte leerpad en voegt u de cursussen toe aan het pad.
 
 U kunt vaardigheden toevoegen en een badge toewijzen aan het leerpad. Als u een vaardigheid wilt toevoegen, selecteert u de vereiste vaardigheid of vaardigheden in het menu **[!UICONTROL Kies een vaardigheid]** vervolgkeuzelijst. Selecteer ook het niveau voor de vaardigheid of vaardigheden.
 
 ![](assets/add-skills.png)
 
+*Vaardigheid toevoegen*
+
 Wijs een badge toe aan het leerpad. Kies een badge uit de lijst met beschikbare badges.
 
 Selecteer de producten, rollen en rolniveau van het **[!UICONTROL Aanbevelen voor]** om dit leerpad voor te stellen aan de gebruikers die belangstelling hebben getoond voor deze producten en rollen.
 
 ![](assets/recommend-for.png)
+
+*Aanbeveling*
 
 Kies het sequentietype voor de secties en trainingen zoals Besteld of Niet op volgorde op basis van uw voorkeur.
 
@@ -141,6 +151,20 @@ Er zijn drie opties:
 
 De meldingsherinneringen worden geactiveerd afhankelijk van de optie. Standaard kunt u de optie **[!UICONTROL Alle niveaus voor cursussen en leerpaden]** is ingeschakeld voor een instantie.
 
+## Abonnementen
+
+U kunt zich op de afzonderlijke leerpaden abonneren om uitgebreide gegevens, waaronder quizscores en de status van de student, rechtstreeks in uw Postvak IN te ontvangen.
+
+Volg de onderstaande stappen:
+
+1. Ga naar een leerpad > Abonnementen.
+1. Selecteer Meer toevoegen.
+1. Selecteer de gegevens en typ de e-mail-ID waarop u de rapporten wilt ontvangen.
+
+![](assets/subscriptions.png)
+
+*Abonneren op individueel leerpad*
+
 ## Belangrijke opmerking
 
 Houd er rekening mee dat de naam van de bestaande functie van leerprogramma&#39;s meteen na de release wordt gewijzigd in Leerpad. Als u het wilt blijven noemen als leerprogramma&#39;s, raden we u aan de functie &#39;Terminologieën&#39; te gebruiken om de vereiste terminologie toe te passen. Op deze manier kunt u het woord Leerprogramma blijven gebruiken.
@@ -151,76 +175,76 @@ Studenten kunnen leerprogramma&#39;s (nu leerpaden genoemd) blijven volgen en au
 
 De **[!UICONTROL Instellingen]** > **[!UICONTROL Algemeen]** Deze pagina heeft een nieuwe optie om leerpaden in te schakelen. Als deze optie is ingeschakeld, kunt u cursussen en leerprogramma&#39;s toevoegen aan een leerpad. U kunt de optie niet wijzigen als deze eenmaal is ingeschakeld.
 
-## Andere padgerelateerde leergegevens
+<!-- ## Other Learning Path-related details 
 
-### De optie Leerpad is uitgeschakeld/niet geselecteerd in de beheerinstellingen
+### Learning Path option is disabled/unchecked in Admin Settings
 
-**Accounts die native web-apps gebruiken**
+**Accounts using Native Web apps**
 
-**Studenten**
+**Learners**
 
-* Standaard zullen studenten een wijziging in de terminologie opmerken van &quot;Leerprogramma&quot; naar Leerpad&quot;. Dit is om de interface intuïtiever te maken. Raadpleeg de onderstaande punten als u deze wijziging niet wilt aanbrengen.
+* By default, learners will notice a change in terminology from "Learning Program" to Learning Path". This has been done to make the interface more intuitive. If you do not want this change, refer to the below points.  
 
-* Deze wijziging wordt echter niet weerspiegeld in de gebruikersinterface als u de functie &#39;Aangepaste terminologie&#39; al hebt gebruikt om de terminologie &#39;Leerprogramma&#39;s&#39; te vervangen door aangepaste tekst.
-* Als u de functie Eigen terminologie nog niet hebt gebruikt, maar nu de functie Leerprogramma&#39;s wilt behouden als terminologie, kunt u dit doen via de functie Eigen terminologie na de release.
+* This change however will not be reflected in the UI if you have already used the 'Custom Terminology" function to replace the terminology "Learning Programs" with some custom text. 
+* In case you had not used the Custom Terminology function yet but now wish to retain "Learning Programs" as the terminology, you can do so via the 'Custom Terminology' feature post the release.
 
-* De algehele cosmetische look and feel van eerdere &#39;Leerprogramma&#39;s&#39; zullen worden aangepast aan een meer visueel rijke look and feel.
+* The overall cosmetic look and feel of erstwhile 'Learning Programs' will get updated to a more visually rich look and feel.
 
-**Auteurs en beheerders**
+**Authors and Admins**
 
-* De terminologie binnen de beheerders-/auteursapps is dezelfde als die voor studenten.
-* De gebruikersinterface voor auteurs en beheerders om de oude leerprogramma-objecten te maken, bij te werken, wordt nu bijgewerkt naar de nieuwe gebruikersinterface. De functionaliteit gaat niet verloren, alleen de gebruikersinterface om de bewerking uit te voeren wordt een stuk intuïtiever. Deze wijzigingen in de gebruikersinterface worden weergegeven in uw account, zelfs als u ervoor hebt gekozen &#39;Uitgebreide functies van leerpad&#39; niet in te schakelen zonder verlies van functionaliteit.
+* The terminology within the Admin/Author apps is the same as that of learners.
+* The UI for Authors and Admins to create, update the erstwhile 'Learning Program' objects will now be updated to the new UI. There is no loss of functionality, just that the User Interface to do the operation will be much more intuitive. These UI changes will reflect in your account, even if you have chosen not to enable 'Extended Features of Learning Path', with no loss in functionality. 
 
-* Houd er rekening mee dat bestaande leerprogramma-objecten niet worden gewijzigd, dus dit heeft geen invloed op studenten (behalve het hierboven vermelde punt over de terminologie). Auteurs/beheerders kunnen een standaardgroep met de naam &#39;Sectie&#39; opmerken binnen hun bestaande objecten. Deze groep heeft geen materiële invloed op de functionaliteit. Auteurs/beheerders zullen ook toegevoegde functionaliteiten zien, zoals Vaardigheden, Taakhulpen enz. Maar aangezien u het nog niet hebt gebruikt, heeft dit geen invloed op de studentzijde totdat u het daadwerkelijk gaat gebruiken.
+* Note that any existing Learning Program objects will not change so there is no impact on learners (other than the terminology point noted above). Authors/Admins might notice a default grouping called "Section" within their existing objects, which would be of no material impact as far as functionality goes. Authors/Admins will also see added functionalities like Skills, Job Aids etc. But as you haven't used it yet, it will not create any impact on the learner side till you actually start using it.
 
-**Rapportage**
+**Reporting**
 
-* Als u de optie Leerpad niet inschakelt, zijn er geen wijzigingen in de rapportstructuur van het Studenttranscript als gevolg van het leerpad. Maar zoals eerder meegedeeld (verwijs naar de tabel die in eerdere communicatie is gedeeld); er wordt direct na de release één nieuwe kolom toegevoegd aan uiterst rechts van het Studenttranscript.
+* If you do not enable the option, Learning Path , there are no changes in the Learner Transcript report structure due to Learning Path. But as communicated in earlier notice (refer to the table shared in earlier communication); one new column will get added to the extreme right of the Learner Transcript immediately after the release.
 
-**Accounts die gebruikmaken van een headless LMS**
+**Accounts using Headless LMS**
 
-**Studenten**
+**Learners**
 
-* Er zijn geen wijzigingen voor studenten in de headless-interface. API&#39;s die ook worden gebruikt om de rapporten te genereren, hebben geen directe wijzigingen.
+* There are no changes for learners in headless interface. APIs as well that are used to generate the reports does not have immediate changes. 
 
-**Auteurs en beheerders**
+**Authors and Admins**
 
-* Dezelfde wijzigingen als die van auteurs/beheerders zoals hierboven vermeld.
+* Same changes as that of Authors/Admins stated above.
 
-**Rapportage**
+**Reporting**
 
-* Hier gelden dezelfde wijzigingen als die voor rapportage die hierboven zijn vermeld.
+* Same changes as that of Reporting stated above.
 
-### De optie Leerpaden is ingeschakeld/geselecteerd in de beheerinstellingen
+### Learning Paths option is enabled/checked in Admin Settings
 
-**Accounts die native web-apps gebruiken**
+**Accounts using Native Web apps**
 
-**Studenten**
+**Learners**
 
-* Hier gelden dezelfde wijzigingen als die voor studenten wanneer de optie is uitgeschakeld.
-* Wanneer u de uitgebreide functionaliteit van leerpaden gaat gebruiken, zullen studenten profiteren van uitgebreidere paden met ingesloten paden en secties, vaardigheden en badges die worden verdiend op padvoltooiing, resources op padniveau en andere voordelen.
+* Same changes as that of Learners when the option is disabled.
+* As you start using the extended functionality of Learning Paths, Learners will benefit from seeing more elaborate paths with embedded paths and sections, Skills and badges being earned on path completion, resources at path level, and other benefits.
 
-**Auteurs en beheerders**
+**Authors and Admins**
 
-* Hier gelden dezelfde wijzigingen als die voor auteurs en beheerders wanneer de optie is uitgeschakeld.
+* Same changes as that of Authors and Admins when the option is disabled.
 
-* Gebruikers krijgen meer functionaliteit bij het maken van uitgebreide paden. U kunt vaardigheidsniveaus definiëren die automatisch door een student worden bereikt wanneer het pad is voltooid (u hoeft zich niet te richten op de rekenkundige van studiepunten voor de niveaus). Hulpbronnen kunnen op padniveau worden toegevoegd (dit is vanaf nu niet mogelijk). Onderdelen kunnen worden gemaakt waarbij elk onderdeel de mogelijkheid heeft X- of Y-opties te hebben. Een leerpad kan in een ander leerpad worden ingesloten (er wordt één hiërarchieniveau ondersteund)
+* Users will get more functionality in crafting elaborate paths. You can define Skill-Levels that would automatically be achieved by a learner on completion of path (not have to focus on the arithmetic of Credits for the levels). Resources can be added at the path level (Not possible as of today). Sections can be created with each section having the ability to have X of Y options. One can embed a Learning Path within another Learning Path (one level of hierarchy supported)
 
-**Rapportage**
+**Reporting**
 
-* Er worden een paar nieuwe kolommen toegevoegd aan de structuren Studenttranscript en Inhoudsrapport om de nieuwe functie voor het insluiten van paden in paden op te nemen. Dit kan van invloed zijn op de integratiecode die u mogelijk hebt geschreven om deze gegevens te exporteren naar uw aangepaste datawarehouse/DB buiten Learning Manager. Deze informatie staat in de tabel die in eerdere communicatie is verstrekt.
+* A few new columns will get added to the 'Learner Transcript' and 'Content Report' structures to incorporate the new feature of embedding of paths within paths. This may impact integration code that you may have written to export this data to your custom data warehouse/DB outside Learning Manager. This information is communicated in the table provided in earlier communication.
 
-**Accounts die gebruikmaken van een headless LMS**
+**Accounts using Headless LMS**
 
-**Studenten**
+**Learners**
 
-* Er verandert niets voor uw studenten, tenzij u wijzigingen aanbrengt in uw headless LMS-implementatie, aangezien de API&#39;s waarop u uw headless-interface hebt gebouwd niet worden gewijzigd.
-* Als u de uitgebreide functies van leerpaden gaat gebruiken door nieuwe leerpaden te maken, moet u echter wijzigingen aanbrengen in de headless LMS-implementatie om die in uw Learner-app weer te geven. Met de Prime-API&#39;s kunt u dat doen.
+* There is no change for your learners, unless you make changes to your headless LMS implementation, as the APIs on which you have built your headless interface will not be changing.
+* If you do start using the extended features of Learning Paths by creating new Learning Paths, however you will have to make changes to the headless LMS implementation to reflect those on your learner app. The Learning Manager APIs will allow you to do that.
 
-**Auteurs en beheerders**
+**Authors and Admins**
 
-* Dezelfde wijzigingen als die van auteurs/beheerders zoals hierboven vermeld.
+* Same changes as that of Authors/Admins stated above.
 
-**Rapportage**
+**Reporting**
 
-* Hier gelden dezelfde wijzigingen als die voor rapportage die hierboven zijn vermeld.
+* Same changes as that of Reporting stated above. -->

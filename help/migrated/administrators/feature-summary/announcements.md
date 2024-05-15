@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Aankondigingen
 description: Een aankondiging is een multimediabericht (tekst, beeld of video) dat een beheerder kan uitzenden naar een specifieke groep gebruikers.
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 70%
+source-wordcount: '1021'
+ht-degree: 69%
 
 ---
-
-
 
 # Aankondigingen
 
@@ -29,6 +28,11 @@ Er zijn vier soorten aankondigingen:
 1. Als beheerder klikt u op Aankondigingen in het linkerdeelvenster.
 1. Klik op Toevoegen rechtsboven op de pagina.
 1. Selecteer uit de vervolgkeuzelijst Type de optie **Als melding**.
+
+![](assets/as-notofocation.png)
+
+*De melding aanpassen*
+
 1. Voeg in het veld Bericht het aankondigingsbericht toe. U kunt hier ook een URL voor aankondigingen toevoegen. U moet echter wel de URL in het HTML-formulier toevoegen.
 
    Bijvoorbeeld:  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`

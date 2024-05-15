@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Gamification
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1649'
 ht-degree: 54%
 
 ---
@@ -43,6 +43,8 @@ Aan de hand van onderstaande stappen kunnen beheerders gamificationpunten voor s
 1. Klik op **[!UICONTROL Opslaan]**.
 
 ![](assets/set-up-points.png)
+
+*Punten instellen*
 
 ## Taken {#tasks}
 

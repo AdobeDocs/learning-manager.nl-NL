@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Meldingen
 description: De meldingsfunctie is van toepassing op alle gebruikers van Adobe Learning Manager. Maar elke gebruiker krijgt verschillende soorten meldingen in verschillende scenario's op basis van zijn of haar rol.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 69%
+source-wordcount: '733'
+ht-degree: 66%
 
 ---
-
-
 
 # Meldingen
 
@@ -42,7 +41,11 @@ Het onderstaande screenshot toont een voorbeeld van het meldingsvenster voor de 
 
 Dit pop-upvenster toont de hooglichten van alle meldingen, het tijdstip waarop deze verschenen en een schuifbalk. Het gemarkeerde getal boven het meldingenpictogram geeft het aantal nieuwe meldingen aan. Als er bijvoorbeeld vijf nieuwe meldingen zijn sinds uw vorige aanmelding, ziet u het getal vijf boven het meldingenpictogram. De cijfers verdwijnen zodra u de meldingen hebt gelezen.
 
-Klikken **[!UICONTROL Alle meldingen tonen]** onder aan het meldingsvenster om alle meldingen op een aparte pagina weer te geven.
+Klikken **[!UICONTROL Alle meldingen tonen]** onder aan het meldingsvenster om alle meldingen op een aparte pagina weer te geven. Op de pagina met meldingen ziet u het volgende:
+
+* **Alle meldingen**: Alle meldingen hier weergeven
+* **In behandeling**: bekijk hier alle openstaande meldingen
+* **Discussie**: Zoek naar cursussen om te zien welke discussies plaatsvinden.
 
 ## Escalatiemeldingen voor meerdere niveaus instellen {#setupmultilevelescalationnotifications}
 
