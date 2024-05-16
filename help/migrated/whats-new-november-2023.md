@@ -1,8 +1,8 @@
 ---
 title: Nieuw in deze release
-description: Lees meer over de nieuwe functies en verbeteringen in de november 2023-versie van Adobe Learning Manager.
+description: Meer informatie over de nieuwe functies en verbeteringen in de november 2023-versie van Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 2d74bc46e8b4aa5f443e34dc48929a807c1d8924
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 ## Vernieuwde gebruikersinterface
 
-De gebruikersinterface van de Adobe Learning Manager heeft een paar updates ondergaan om een schonere en modernere ervaring te bieden. De landingspagina&#39;s voor de rollen Beheerder en Auteur zijn vernieuwd en er zijn thema-updates voor de gebruikersinterface gemaakt voor alle rollen. Er zijn echter geen wijzigingen aangebracht in de locatie van menu&#39;s, knoppen of koppelingen en u kunt deze precies vinden op de plaats waar ze eerder waren geplaatst.
+De Adobe Learning Manager-gebruikersinterface is een aantal updates doorgevoerd om een schonere en modernere ervaring te bieden. De landingspagina&#39;s voor de rollen Beheerder en Auteur zijn vernieuwd en er zijn thema-updates voor de gebruikersinterface gemaakt voor alle rollen. Er zijn echter geen wijzigingen aangebracht in de locatie van menu&#39;s, knoppen of koppelingen en u kunt deze precies vinden op de plaats waar ze eerder waren geplaatst.
 
 De thema-updates worden automatisch toegepast op accounts die het standaardthema gebruiken. De thema-updates voor de gebruikersinterface hebben geen invloed op accounts waarin een aangepast thema wordt gebruikt. Deze accounts moeten worden teruggezet naar het standaardthema om de nieuwe thema-updates te krijgen.
 
@@ -66,7 +66,7 @@ In deze versie hebben we een vervolgkeuzelijst toegevoegd in het dialoogvenster 
 
 ### Wijzigingen in aankondigingsrapport
 
-In eerdere versies van Adobe Learning Manager bevatte het meldingsrapport geen filters. Adobe Learning Manager heeft alle meldingen in het account gedownload.
+In eerdere versies van Adobe Learning Manager beschikte het meldingsrapport niet over filters. Adobe Learning Manager heeft alle meldingen in het account gedownload.
 
 In deze versie hebben we een datumfilter toegevoegd waarmee u de meldingen binnen een opgegeven periode kunt downloaden.  U kunt het rapport echter alleen voor de laatste zes maanden downloaden.
 
@@ -230,7 +230,7 @@ Beheerders kunnen alleen managers zoeken in Dashboard-rapporten.
 
 ## Verwerking van oude dashboardrapporten beperken
 
-Wanneer een beheerder een dashboardrapport probeert uit te zetten en het rapport te lang duurt om uit te zetten (meer dan 2,5 min.), geeft Adobe Learning Manager het volgende bericht weer:
+Wanneer een beheerder een dashboardrapport probeert uit te zetten en het rapport te lang duurt om te plotten (meer dan 2,5 min.), geeft Adobe Learning Manager het volgende bericht weer:
 
 ![oudere rapportafbeelding](assets/error-message.png)
 *Foutbericht wanneer rapport te lang duurt*
@@ -273,7 +273,7 @@ Voortaan zal de volgende student-API niet meer werken omdat deze de overschrijvi
 
 ### Resultaten markeren
 
-In de aanstaande versie van Adobe Learning Manager, bijvoorbeeld, in /search API, veranderen wij het gebrek voor highlightResults in vals.
+In de komende versie van Adobe Learning Manager, bijvoorbeeld, in /search API, veranderen wij het gebrek voor highlightResults in vals.
 
 Bovendien, zullen wij het gebrek van snippetTypes in courseName veranderen. Als u dit doet, worden alleen de cursusnamen in de zoekopdracht gemarkeerd als highlightResults True is.
 
@@ -324,3 +324,5 @@ Voor informatie over de huidige en vorige releases van de webapp en de apparaata
 * [Versie van juli 2023](whats-new-2023-july.md)
 * [Versie van april 2023](whats-new-2023-april.md)
 * [Versie van november 2022](whats-new-2022-november.md)
+
+<!-- [ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->
