@@ -3,14 +3,13 @@ description: Lees verder voor de veelgestelde vragen voor docenten in Learning M
 jcr-language: en_us
 title: Veelgestelde vragen voor docenten
 contentowner: shhivkum
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
+source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 85%
 
 ---
-
-
 
 # Veelgestelde vragen voor docenten
 
@@ -49,4 +48,3 @@ Ja, een auteur kan meerdere docenten aan één module toewijzen. In dit geval ka
 Als docent kunt u alleen de details bekijken en wijzigen van de sessies waaraan u bent toegewezen. U kunt de sessie of deelnemerslijst van andere sessies niet wijzigen.
 
 +++
-
