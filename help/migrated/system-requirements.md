@@ -4,10 +4,10 @@ title: Systeemvereisten
 description: Systeemvereisten voor Adobe Learning Manager
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
+source-git-commit: 566716404c1cff34108e39014e14416d65088a80
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 65%
+source-wordcount: '570'
+ht-degree: 64%
 
 ---
 
@@ -337,3 +337,7 @@ Zorg ervoor dat de volgende domeinen van derden op de whitelist staan als u op e
 ## Technisch overzicht {#technicaloverview}
 
 [Learning Manager technisch overzicht](assets/learning-manager-technicaloverview.pdf)
+
+## ALM-beveiligingsrapport
+
+[ALM-rapport](assets/alm-security-whitepaper.pdf)
