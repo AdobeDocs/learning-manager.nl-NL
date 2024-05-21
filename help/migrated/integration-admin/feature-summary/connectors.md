@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager-connectoren
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: ec8d204ba7d85fab84c7d1db4a1ba741f363566c
+source-git-commit: f7333304fe42b0b05ed342bb2f41822f15da909d
 workflow-type: tm+mt
-source-wordcount: '15572'
+source-wordcount: '15590'
 ht-degree: 63%
 
 ---
@@ -152,6 +152,10 @@ Zo maakt u de objecten:
 1. Hernoem de namen van de aangepaste objecten in Salesforce.
 1. Selecteer de gebeurtenis en klik op **[!UICONTROL Opslaan]**.
 
+>[!NOTE]
+>
+>Zorg ervoor dat de systeembeheerder toegang heeft tot alle actieve velden die na de pakketinstallatie zijn toegevoegd.
+
 **Gebeurtenissen koppelen met:** Kies welke sectie u wilt exporteren - Gebruiker of Contactpersoon. Als u Contactobject kiest, worden gebruikers die wel in Leerbeheer aanwezig zijn maar niet in Salesforce, in Salesforce gemaakt.
 
 ![](assets/link-events.png)
@@ -195,7 +199,7 @@ Als u het pakket wilt installeren, moet u eerst het bestaande pakket in Salesfor
 
 >[!NOTE]
 >
->De app Adobe Learning Manager wordt alleen ondersteund in de Salesforce Lightning-weergave.
+>De Adobe Learning Manager-app wordt alleen ondersteund in de Salesforce Lightning-weergave.
 
 1. Start de [Learning Manager-pakket-URL](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
 1. In het dialoogvenster **Aanmelden** pagina, klikken **[!UICONTROL Aangepast domein gebruiken]**.
@@ -749,7 +753,7 @@ Via Gebruikersvaardigheden exporteren kunnen gebruikers automatisch gebruikersva
 #### Opmerkingen
 
 * Zorg ervoor dat UUID, E-mailadres en naam van de medewerker uniek zijn in meerdere Workday-integraties. Onjuiste waarden leiden tot een verbindingsfout.
-* Het UUID-veld dat eenmaal via Workday is ingevuld, kan niet worden verwijderd door een client-side LMS-beheerder. Als u de waarde wilt wijzigen, neemt u contact op met het Adobe Learning Manager onboarding- of ondersteuningsteam.
+* Het UUID-veld dat eenmaal via Workday is ingevuld, kan niet worden verwijderd door een client-side LMS-beheerder. Als je de waarde wilt wijzigen, neem dan contact op met het Adobe Learning Manager-team voor onboarding of ondersteuning.
 * De optie Gebruikers leegmaken werkt mogelijk ook niet omdat gebruikers leegmaken alleen ondersteuning biedt voor 50 gebruikers die per run moeten worden leeggemaakt. Wees uiterst voorzichtig bij het uploaden van de gebruikers via de UUID&#39;s.
 
 ### Planning {#Scheduling-1}
@@ -958,7 +962,7 @@ Volg deze stappen om de connector in te stellen en te gebruiken.
 
 ### Een zoomserver-naar-server-OAuth-app maken
 
-Wanneer u een Zoom Server-to-Server OAuth-app maakt voor gebruik in Adobe Learning Manager, moet u het bereik toevoegen dat door Adobe Learning Manager wordt vereist tijdens het maken van de verbinding.
+Wanneer u een Zoom Server-to-Server OAuth-app maakt voor gebruik in Adobe Learning Manager, moet u het bereik toevoegen dat door Adobe Learning Manager is vereist tijdens het maken van de verbinding.
 
 Voor Adobe Learning Manager zijn de onderstaande bereiken vereist. De bereiken moeten worden geselecteerd in de OAuth-app.
 
@@ -1423,7 +1427,7 @@ U kunt de gewenste lijst exporteren en Power BI gebruiken om het rapport later t
 
 ### Power BI-sjablonen downloaden {#template}
 
-Learning Manager biedt ook kant-en-klare sjablonen voor Power BI. Deze sjablonen bieden betere analysemogelijkheden voor Adobe Leermanager-accountbeheerders.
+Learning Manager biedt ook kant-en-klare sjablonen voor Power BI. Deze sjablonen bieden betere analysemogelijkheden voor Adobe Learning Manager-accountbeheerders.
 
 U kunt de sjablonen eenvoudig downloaden, relevante rapporten exporteren en rapporten met een plotbestand samenstellen met behulp van deze beschikbare sjablonen.
 
@@ -1957,7 +1961,7 @@ Zie voor meer informatie  [**Microsoft Teams-connector installeren in Adobe Lear
 
 >[!IMPORTANT]
 >
->Deze specifieke functionaliteit is alleen beschikbaar als Adobe Learning Manager wordt verkocht als een Add on aan Adobe Experience Manager. De cursusgegevens zouden over 24 uur stabiel zijn.
+>Deze specifieke functionaliteit is alleen beschikbaar als Adobe Learning Manager wordt verkocht als een Toevoegen aan Adobe Experience Manager. De cursusgegevens zouden over 24 uur stabiel zijn.
 
 
 >[!NOTE]
@@ -2020,7 +2024,7 @@ Wanneer een student op cursus, certificaat of leerpad klikt, wordt de overzichts
 
 >[!NOTE]
 >
->Deze specifieke functionaliteit is alleen beschikbaar als Adobe Learning Manager wordt verkocht als invoegtoepassing voor Adobe Experience Manager.
+>Deze specifieke functionaliteit is alleen beschikbaar als Adobe Learning Manager als invoegtoepassing wordt verkocht aan Adobe Experience Manager.
 
 >[!NOTE]
 >
@@ -2083,7 +2087,7 @@ Nadat een auteur de prijzen voor verschillende cursussen, leerpaden of certifice
 
 >[!NOTE]
 >
->In de maart 2024-versie van Adobe Learning Manager hebben we ondersteuning geïntroduceerd voor [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+>In de versie van maart 2024 van Adobe Learning Manager hebben we ondersteuning geïntroduceerd voor [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
 
 
 1. Klikken **[!UICONTROL Metagegevens van training exporteren]** > **[!UICONTROL Op verzoek]**.
@@ -2126,7 +2130,7 @@ Met de integratie van Adobe Commerce ondersteunt Adobe Learning Manager het kope
 
 De belangrijkste doelen van deze integratie zijn:
 
-* Gebruikers kunnen omzet genereren door cursussen te verkopen op de Adobe Learning Manager of op een Headless Learning-interface.
+* Gebruikers kunnen omzet genereren door cursussen te verkopen op Adobe Learning Manager of via een Headless Learning-interface.
 * Schakel Adobe Commerce-integratie in het platform in om cursussen te verkopen met behulp van de native app en AEM van Learning Manager.
 * Laat de klanten van de leermanager formeel leren aanbieden in de vorm van betaalde cursussen.
 * Studenten in staat stellen een voorvertoning van cursussen te bekijken voordat ze besluiten de training aan te schaffen.
