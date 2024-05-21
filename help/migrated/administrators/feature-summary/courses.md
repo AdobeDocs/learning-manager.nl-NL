@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Cursusmodules, instanties en leerprogramma's maken
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '4659'
-ht-degree: 64%
+source-wordcount: '4746'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,14 @@ Als een beheerder de e-mailmeldingen wil verzenden, moet deze er expliciet voor 
 ![](assets/escalation-notification.png)
 
 *escalatieniveau instellen*
+
+## Wachtlijst
+
+In de sectie Wachtlijst kunnen studenten op basis van hun inschrijvingsvolgorde voor klassikale cursussen worden weergegeven wanneer de plaatsen beperkt zijn. Beheerders kunnen dit beheren door studenten op de wachtlijst te selecteren en plaatsen toe te wijzen die de oorspronkelijke limiet overschrijden. Nadat de beheerder een licentie heeft toegewezen, wordt de student onmiddellijk ingeschreven voor de cursus.
+
+## Discussieboard
+
+Met de functie Discussieboard kunnen studenten de cursusdiscussies bekijken. Als beheerder kunt u opmerkingen naar wens verwijderen. Beheerders kunnen deze optie inschakelen onder cursusinstellingen.
 
 ## Cursusmoderatie {#coursemoderation}
 

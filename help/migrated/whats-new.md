@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Overzicht van nieuwe functies
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '3861'
+source-wordcount: '3903'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,18 @@ ht-degree: 1%
 # Overzicht van nieuwe functies {#new-features-summary}
 
 Meer informatie over de nieuwe functies en verbeteringen in de Adobe Learning Manager-versie van maart 2024.
+
+Bekijk een aantal van de nieuwste Adobe Learning Manager-functies, zoals:
+
+1. Vaardigheden importeren uit externe bronnen
+1. Ondersteuning voor meerdere merken
+1. Module voor herevaluatie van de controlelijst
+1. Witte-gelabelde app voor mobiel leren
+
+>[!NOTE]
+>
+>Bekijk dit [webinar](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) voor meer informatie over de nieuwe functies in deze release.
+
 
 ## Nieuw in deze release {#whatsnewandchanged}
 

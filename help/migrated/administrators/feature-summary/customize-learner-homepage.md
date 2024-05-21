@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Startpagina voor studenten aanpassen
 description: Een beheerder kan de startpagina voor studenten aanpassen, deze moderner en inhoudelijker maken en personaliseren voor een student.
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 46%
 
 ---
-
-
 
 # Startpagina voor studenten aanpassen
 
@@ -85,7 +84,7 @@ Deze functie wordt ingeschakeld en grijs weergegeven als de optie Boeiende ervar
 
 ![](assets/option-immersive.png)
 
-*Selectie voor Klassieke ervaring*
+*Startpagina-instellingen student*
 
 De boeiende lay-out is de standaardindeling voor alle nieuwe accounts. De indeling wordt bestuurd door widgets die een beheerder kan in- of uitschakelen. Op basis van de positie van de widgets wordt hetzelfde weergegeven op de startpagina van de student.
 
