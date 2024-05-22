@@ -4,10 +4,10 @@ title: API-implementaties in Adobe Learning Manager
 description: Naarmate de API's in Adobe Learning Manager zich ontwikkelen, worden API's periodiek gereorganiseerd of bijgewerkt. Wanneer API's evolueren, is de oude API verouderd en uiteindelijk verwijderd. Deze pagina bevat informatie die u moet weten wanneer u van verouderde API-versies naar nieuwere en stabielere API-versies migreert.
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
+source-git-commit: 670d0477b246af2a0257e41eca799817e391b348
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 20%
+source-wordcount: '577'
+ht-degree: 32%
 
 ---
 
@@ -59,15 +59,13 @@ Omdat veel records worden opgehaald door de verschuivingswaarde en de algehele p
 
 Als u meer records wilt ophalen, gebruikt u de opdracht **GET-taken** API.
 
-De verschuivingslimieten zijn van toepassing op alle nieuwe klanten. Voor bestaande klanten geldt de regel van 90 dagen.
+<!--### Exclude paths 
 
-### Paden uitsluiten
+At present, Learning Manager APIs follow a graph data structure, which allows you to fetch data by traversing the API model through includes. Even though you could traverse an API up to seven levels, fetching the data using a single API call is computationally expensive. 
 
-Op dit moment volgen API&#39;s van Learning Manager een grafiekgegevensstructuur waarmee u gegevens kunt ophalen door het API-model door include-bestanden te doorlopen. Hoewel u een API tot zeven niveaus kunt doorlopen, is het ophalen van de gegevens met behulp van één API-aanroep computerduur.
+We recommend that all existing and new customers make small calls multiple times instead of one large call. This approach will prevent unwanted data from being loaded in the call. 
 
-Wij adviseren dat alle bestaande en nieuwe klanten kleine vraag veelvoudige tijden in plaats van één grote vraag maken. Deze benadering zal ongewenste gegevens verhinderen in de vraag worden geladen.
-
-We willen deze beperkingen voor nieuwe accounts opleggen en een whitelist van bestaande accounts bijhouden.
+We want to enforce these restrictions on new accounts and maintain a whitelist of existing accounts.-->
 
 #### Welke paden zijn vervangen
 
@@ -99,17 +97,17 @@ De volgende paden zijn afgekeurd:
    * Nieuw pad:
       * instance.subLoInstances
 
-### Wijzigingen in aantal samenvattingen van instanties
+<!--### Instance summary count changes 
 
-Op dit moment haalt u in het LO-overzichtseindpunt het aantal mogelijke instanties op. U kunt bijvoorbeeld voor een cursus het aantal inschrijvingen en wachtlijsten bekijken in de reactie op **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. Vervolgens kunt u de informatie over het aantal afhandelingen en het aantal inschrijvingen bekijken in de reactie. Als de cursus een VC of een lesruimte is, kunt u ook de limiet van de zitplaatsen en de wachtlijst bekijken.
+Currently, in the LO summary endpoint, you fetch the number of all possible instances. For example, for a course, you can view the number of enrollments and waitlists in the response for **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. You can then view the completionCount and enrollmentCount in the response. If the course is a VC or classroom, you can also view its seat limit and waitlist limit. 
 
-Het ophalen van de aantallen voor voltooiing en inschrijving is een kostbare rekenkracht, zodat de berekening op aanvraagbasis wordt uitgevoerd. Als de gegevens niet aanwezig zijn in het cachegeheugen, worden de gegevens opnieuw geladen. Dit is verwerkingsintensief. Als er veel gebruikers zijn die zich inschrijven voor een cursus, zijn de tellingen groot en hebben deze invloed op de CPU-prestaties.
+The process of retrieving the completion and enrollment counts is computationally expensive, therefore the calculation is done on a request basis. If the data is not present in the cache, the data is reloaded, which is computationally intensive. If there are many users enrolling in a course, the counts will be large, and effectively impacts CPU performance. 
 
-In de volgende versie van Adobe Learning Manager, in het overzichtseindpunt van de Instantie LO, worden de completionCount, enrollmentCount, seatLimit, en wachtlistCount in het cachegeheugen geplaatst. De gegevens in de cache blijven behouden totdat er wijzigingen zijn opgetreden in inschrijvingen of uitschrijvingen. Voor aantallen die meer dan 1000 inschrijvingen tellen, gaan we ervan uit dat de geschatte aantallen zijn en maken we de resultaten ongeldig voor alle bestaande en nieuwe accounts.
+In the next release of Adobe Learning Manager, in the LO Instance summary endpoint, the completionCount, enrollmentCount, seatLimit, and waitlistCount are cached. The cached information persists till there are changes in enrollments or unenrollments. For counts exceeding 1000 enrollments, we'll assume the estimated counts, and invalidate the results for all existing and new accounts.
 
 >[!NOTE]
 >
->Voor tellingen, zoals, completionCount, enrollmentCount, seatLimit, en wachtlistCount groter dan1000, is het raadzaam om hen als schattingen eerder dan nauwkeurige cijfers te interpreteren, aangezien deze uit geheim voorgeheugen zullen worden teruggewonnen.
+>For counts, such as, completionCount, enrollmentCount, seatLimit, and waitlistCount exceeding1000, it's advisable to interpret them as estimates rather than precise figures, as these will be retrieved from cache.-->
 
 ### Sorteren op naam
 
