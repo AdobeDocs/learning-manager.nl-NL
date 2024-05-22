@@ -4,9 +4,9 @@ title: Startpagina voor studenten aanpassen
 description: Een beheerder kan de startpagina voor studenten aanpassen, deze moderner en inhoudelijker maken en personaliseren voor een student.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1139'
 ht-degree: 46%
 
 ---
@@ -137,6 +137,12 @@ Voor bestaande accounts is de optie **Immersive** zal **UIT**. Het is ingeschake
   </tr>
   <tr>
    <td>
+    <p>Deadline voor inschrijving</p></td>
+   <td>
+    <p>Geeft inschrijvingen weer die te laat zijn, aanstaande deadlines hebben of op schema liggen. </p></td>
+  </tr>
+  <tr>
+   <td>
     <p>Gamification</p></td>
    <td>
     <p>Geeft het leaderboard weer op basis van leeractiviteiten.</p></td>
@@ -159,24 +165,24 @@ Voor bestaande accounts is de optie **Immersive** zal **UIT**. Het is ingeschake
       <p>Ten tweede kan de beheerder ook bepalen of de aanbevelingen onmiddellijk of op een gespecificeerde datum in werking treden.</p></li>
     </ul></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Aanbeveling op basis van het betrokken gebied</p></td>
+    <p>Recommendation based on area of interest</p></td>
    <td>
-    <p>Geeft leerobjecten weer op basis van het gekozen interessegebied van de student. De aanbeveling wordt aangestuurd door een Machine Learning-algoritme.</p></td>
-  </tr>
+    <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
   <tr>
    <td>
     <p>Bladeren op catalogus<br></p></td>
    <td>
     <p>Geeft catalogi als tegels op de startpagina weer. </p></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Aanbeveling op basis van activiteiten van uw collega's<br></p></td>
+    <p>Recommendation based on peer activity<br></p></td>
    <td>
-    <p>Hiermee geeft u de training weer op basis van wat de collega's van een student afleggen. Dit wordt opnieuw aangestuurd door een Machine Learning-algoritme.</p></td>
-  </tr>
+    <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
  </tbody>
 </table>
 
@@ -277,3 +283,8 @@ Op de **Algemeen** hebt u de volgende opties:
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>Voor het nieuwe account zijn de instellingen startpagina student, trainingstype en bereik aanbeveling niet zichtbaar.
+
