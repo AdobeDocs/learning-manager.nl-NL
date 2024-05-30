@@ -4,16 +4,16 @@ title: Witte labels in de mobiele app van Adobe learning Manager
 description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
 
 # Witte labels in de mobiele app van Adobe learning Manager
 
-De mobiele app van Adobe Learning Manager ondersteunt nu witte labels, wat betekent dat u de app nu onder uw eigen merknaam kunt uitbrengen.
+De mobiele Adobe Learning Manager-app ondersteunt nu witte labels, wat betekent dat u de app nu kunt vrijgeven onder uw eigen branding.
 
 ## Hoe je je voorbereidt om je wit gelabelde app te starten
 
@@ -121,7 +121,7 @@ U kunt het volgende aanpassen:
 
   <td>
 
-  <p>Het app-pictogram als png. Dit pictogram wordt weergegeven in uw app. De naamnotatie is account-id_appIcon.png.</p></td>
+  <p>Het app-pictogram als png. Dit pictogram wordt weergegeven in uw app. De naamnotatie is account-id_appIcon.png. De afmetingen van het app-pictogram zijn 512 x 512 pixels.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ U kunt het volgende aanpassen:
 
   <td>
 
-  <p>Geef voor het welkomstscherm van uw app een afbeelding (png) op die wordt weergegeven wanneer uw gebruikers de app starten. De naamnotatie is account-id_splashIcon.png.</p></td>
+  <p>Geef voor het welkomstscherm van uw app een afbeelding (png) op die wordt weergegeven wanneer uw gebruikers de app starten. De naamnotatie is account-id_splashIcon.png. De afmetingen van de op vierkant gebaseerde welkomstschermen zijn 1052 × 1052 pixels en de cirkelvormige welkomstschermen zijn 768 x 768 pixels.</p></td>
 
   </tr>
 
@@ -284,7 +284,7 @@ Hergebruik hetzelfde project dat u in de bovenstaande stappen hebt gemaakt voor 
 
 >[!IMPORTANT]
 >
->Verzend de bestanden naar het CSAM-team van Adobe Learning Manager om de build van uw binaire bestand voor de app op te nemen.
+>Verzend de bestanden naar het Adobe Learning Manager CSAM-team om de bestanden op te nemen voor de build van uw binaire bestand voor de app.
 
 
 ## De ondertekende binaire bestanden genereren
