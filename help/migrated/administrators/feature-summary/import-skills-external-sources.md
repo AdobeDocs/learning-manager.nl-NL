@@ -4,9 +4,9 @@ title: Vaardigheden importeren uit externe bronnen
 description: Importeer Vaardigheden van contentproviders, zoals LinkedIn en Go1, met behulp van de respectievelijke connectoren.  De geïmporteerde vaardigheden worden toegevoegd aan de door de beheerder gedefinieerde vaardigheden in Leerbeheer en zijn beschikbaar voor auteurs tijdens de workflow voor het maken van de cursus.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
+source-git-commit: 64d63c46fc0f9e5daada1eb391e720dc45fbab89
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,20 @@ Voer de stappen in de procedure uit om het importeren van vaardigheden in het ac
 
 1. Selecteer in de beheertoepassing **Instellingen** in het linkerdeelvenster.
 1. Selecteren **Algemeen**.
-1. In het dialoogvenster **Vaardigheden importeren** sectie, selecteert u **Inschakelen**. Indien ingeschakeld kunt u een externe bron kiezen om te importeren **Vaardigheden**. De vaardigheden voor bestaande leermiddelen worden één keer tijdens de eerste run geïmporteerd in de dataopslag. Voor alle volgende importen van leermiddelen worden Vaardigheden alleen voor nieuw geïmporteerde items geïmporteerd in de opslagplaats voor vaardigheden.
+1. In het dialoogvenster **Vaardigheden importeren** sectie, selecteert u **Inschakelen**. Indien ingeschakeld kunt u een externe bron kiezen om vaardigheden te importeren. Als deze optie is ingeschakeld, worden de vaardigheden voor alle volgende importeerbewerkingen van leermiddelen geïmporteerd in de vaardigheidsopslagplaats voor nieuw geïmporteerde items. De vaardigheden voor bestaande leermiddelen kunnen één keer worden geïmporteerd in de vaardigheidsrepository en neem contact op met uw CSM om deze eerste run uit te voeren.
 1. Selecteer een inhoudsprovider in de vervolgkeuzelijst.
 
-Als beheerder kunt u slechts één vaardigheid als bron importeren.
+Als beheerder kunt u vaardigheden slechts uit één vaardigheidsbron importeren.
 
 ### Standaardvaardigheidsniveau
 
 Het standaardvaardigheidsniveau is één en Credit is 10 nadat de vaardigheden zijn gemigreerd. Later kan de beheerder de creditering wijzigen.
 
 U kunt de naam van de vaardigheid, beschrijving en niveaus toevoegen aan externe vaardigheden niet bewerken. U kunt echter wel domein, badges en credits toevoegen.
+
+### Standaardcursusvaardigheden en studiepunten
+
+Nadat u vaardigheden hebt geïmporteerd, worden deze toegevoegd aan de leermiddelen die uit de bron zijn geïmporteerd en die als vaardigheidsbron zijn geselecteerd. Als uw vaardigheidsbron bijvoorbeeld LinkedIn Learning was, zullen alle leermiddelen die uit LinkedIn Learning zijn geïmporteerd de vaardigheden hebben die door Learning worden geboden. Als elke leerbron wordt geïmporteerd in leermiddelen, krijgt deze standaard 10 studiepunten. Neem contact op met uw CSM als u dit wilt wijzigen.
 
 #### Rapportage
 
