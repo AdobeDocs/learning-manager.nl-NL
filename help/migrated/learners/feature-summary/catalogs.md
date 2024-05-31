@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Catalogi
 contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 22%
+source-wordcount: '244'
+ht-degree: 12%
 
 ---
 
@@ -19,14 +19,14 @@ Lees hoe u catalogi in Learning Manager kunt gebruiken om de in aanmerking komen
 
 Studenten kunnen alle toegewezen en in aanmerking komende leerobjecten (leerprogramma&#39;s, cursussen en certificeringen) in het **Standaardcatalogus**. Deze leerobjecten zijn uniek voor elke student op basis van zijn rol, benoeming, gebruikersgroep, profiel, enzovoort.
 
-U kunt de lijst met leerobjecten filteren op vaardigheden en het leerobjecttype (eigen tempo, blended, klassikaal, virtueel klassikaal, activiteit). U kunt ook filteren met de opties in het linkerdeelvenster: op leerobjecten, op vaardigheden en op voltooiingsstatus.
+U kunt de leerobjecten sorteren op verschillende categorieën, zoals Producten, Functies, Typen, Tijd nodig, Vaardigheden en Trefwoorden. U kunt ook filteren met de opties in het linkerdeelvenster: op leerobjecten, op vaardigheden en op voltooiingsstatus.
 
 Gebruik de zoekbalk boven aan de pagina om de namen van uw vertrouwde leerobjecten in te voeren. Studenten kunnen schakelen tussen het raster en de lijstweergave door deze optie te selecteren ![](assets/icon-list.png) pictogram.
 
 ![](assets/catalogs.png)
 *Catalogi weergeven*
 
-Als student kunt u training filteren op basis van de trainingsindeling, bijvoorbeeld Lesruimte, Op eigen tempo of Virtuele lesruimte. Daarnaast kan de student de trainingen ook filteren op basis van de Duur van de training. Het filter Vaardigheidsniveaus dat al beschikbaar is, kan nu door de beheerder worden in- of uitgeschakeld.
+<!--As a learner, you can  filter training based on the format of training, for example, Classroom, Self-paced, or Virtual Classroom. In addition, the learner can also filter the trainings based on Training Duration. Skill Levels filter which is already available, can now be enabled/disabled by Administrator. -->
 
 ![](assets/image014.png)
 

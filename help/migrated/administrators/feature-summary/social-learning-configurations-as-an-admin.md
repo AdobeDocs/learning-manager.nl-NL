@@ -4,16 +4,18 @@ jcr-language: en_us
 title: Als beheerder Sociaal leren bewaken en modereren
 contentowner: kuppan
 exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '3604'
-ht-degree: 63%
+source-wordcount: '3756'
+ht-degree: 62%
 
 ---
 
 # Als beheerder Sociaal leren bewaken en modereren
 
 U kunt als beheerder de activiteiten die zijn uitgevoerd in Sociaal leren inschakelen, uitschakelen en bewaken. Wanneer de functie Sociaal leren is ingeschakeld, kunnen studenten dit weergeven en gaan deelnemen aan Sociaal leren.
+
+Met Sociaal leren kunnen studenten overal studeren en inhoud delen met hun collega&#39;s. Met deze functie kunnen studenten communiceren, ideeën uitwisselen en samenwerken om hun algemene leerervaring te verbeteren.
 
 ## Instellingen in Sociaal leren inschakelen en configureren {#enableandconfiguresettingsinsociallearning}
 
@@ -32,7 +34,7 @@ U kunt als volgt de functie Sociaal leren inschakelen en configureren:
 
 De beheerder kan instellingen voor Sociaal leren configureren. De instellingen omvatten typen inhoudsbeheerprogramma&#39;s zoals **[!UICONTROL Uitsluitend handmatig beheer]** en **[!UICONTROL Geen beheer]**. Bereik-instellingen kunnen op een ander bereik worden ingesteld, zoals het gebruikerstype (intern/extern) of andere actieve velden in het account. Een beheerder kan het URL-pad instellen via welke studenten de Adobe Learning Manager-desktopapp kunnen downloaden.
 
-## Inhoudsbeheer {#contentcuration}
+### Inhoudsbeheer {#contentcuration}
 
 Aangezien Sociaal leren een informele manier van leren is, is de functionaliteit vergelijkbaar met alle social media. Mensen vinden sociale media vaak storend omdat ze vaak irrelevante content consumeren die hun productiviteit beïnvloedt. Dit kan worden verholpen door inhoud te modereren en te beheren.
 
@@ -40,11 +42,163 @@ Aangezien Sociaal leren een informele manier van leren is, is de functionaliteit
 
 **[!UICONTROL Handmatig beheer met automatische hulp]:** Learning Manager beschikt over een engine voor automatisch beheer op basis van kunstmatige intelligentie die op intelligente wijze de essentie van de inhoud van elke indeling kan achterhalen die later aan de gewenste studenten kan worden aangeboden. Het kan ook goedkeuren of weigeren dat inhoud wordt gepost op basis van de gegeven vertrouwensscore.
 
-Adarsh is bijvoorbeeld een student en vond een blog interessant, zodat hij het op het platform Sociaal leren van Adobe Learning Manager plaatst. Het bericht wordt vervolgens doorgegeven aan de AI-gestuurde Content Curation Engine, die de vaardigheden in de inhoud voorspelt en deze vaardigheden vergelijkt met de bijbehorende boardvaardigheden. Als een van de vaardigheden overeenkomt, wordt de inhoud gepost, anders wordt deze verzonden voor alleen handmatig beheer.
+Adarsh is bijvoorbeeld een student en heeft een blog interessant gevonden, zodat hij het op het platform voor Sociaal leren van Adobe Learning Manager plaatst. Het bericht wordt vervolgens doorgegeven aan de AI-gestuurde Content Curation Engine, die de vaardigheden in de inhoud voorspelt en deze vaardigheden vergelijkt met de bijbehorende boardvaardigheden. Als een van de vaardigheden overeenkomt, wordt de inhoud gepost, anders wordt deze verzonden voor alleen handmatig beheer.
 
 De minimaal vereiste vertrouwensscore voor het posten is 50%.
 
 **[!UICONTROL Uitsluitend handmatig beheer]:** Om de authenticiteit van de inhoud te controleren voordat deze live gaat, kan de beheerder de instelling Uitsluitend handmatig beheer inschakelen. Wanneer de instelling Uitsluitend handmatig beheer eenmaal is ingeschakeld, gaat de inhoud naar de beste SME&#39;s (maximaal drie) voor beheer. Op basis van de gemiddelde respons wordt het bericht goedgekeurd/afgewezen. Als de respons groter is dan of gelijk is aan 50 procent, gaat het bericht live. Anders wordt het afgewezen. [Klik hier](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs) voor meer informatie over SME&#39;s.
+
+
+In het nieuwe bereik krijgt hij/zij punten voor activiteiten op boards.
+
+In de secties voor sociaal leaderboard ziet een gebruiker alle gebruikers in zijn/haar bereik, samen met speciale gebruikers.
+
+Als u speciale gebruikersbevoegdheden hebt gekregen, kunt u alle gebruikers in het account op uw leaderboard zien, ongeacht het bereik van de gebruikers.
+
+Als speciale gebruikers SME&#39;s worden door voldoende punten te behalen, worden ze weergegeven in de **[!UICONTROL Toonaangevende vakexperts]** op het board van de sociale leider.
+
+Wacht 60 minuten totdat de wijzigingen worden doorgevoerd.
+
+### Omvanginstellingen {#scopesettings}
+
+In Sociaal leren bepaalt een bereik de boards die u kunt zien, wat bepalend is voor de zichtbaarheid van de inhoud.  Als een gebruiker een bereik heeft, bijvoorbeeld ***Leverancier_A***, kan hij/zij alleen boards en bijbehorende posten zien die zijn gecreëerd door anderen die tot hetzelfde bereik behoren ***Leverancier_A***.
+
+Met deze functie kunnen beheerders gebruikersgroepen apart beheren, zoals leveranciers, partners of afdelingen van een organisatie.
+
+Schakel Sociaal leren en leaderboards in voor zowel interne als externe gebruikers.
+
+Er zijn apart secties om dit voor interne en externe gebruikers in te schakelen.
+
+**Inschakelen voor interne studenten**
+
+In deze sectie kunt u de gebruikerskenmerken kiezen om het bereik van Sociaal leren voor interne gebruikers te definiëren. Gebruikers met dezelfde kenmerken **value** deel dezelfde ruimte voor Sociaal leren.
+
+Van de **Gebruikerskenmerk** de gewenste optie te kiezen.
+
+![](assets/choose-value-of-usercharacteristic.png)
+
+*Selecteer de gebruikerskenmerken om het bereik te definiëren*
+
+Standaard kunt u de optie **[!UICONTROL Alle interne gebruikers]** in de vervolgkeuzelijst Gebruikerseigenschappen is altijd geselecteerd.
+
+U kunt het bereik van interne gebruikers bepalen op basis van hun actieve velden.
+
+**Inschakelen voor externe studenten**
+
+Gebruik een extern profiel om het bereik van leermateriaal voor externe gebruikers te bepalen.  Studenten met hetzelfde externe profiel delen een gemeenschappelijke ruimte in Sociaal leren.
+
+![](assets/choose-an-externalprofile.png)
+
+*Reikwijdte voor externe studenten inschakelen*
+
+Het bereik van externe gebruikers wordt bepaald op basis van hun externe profiel.
+
+Als u bijvoorbeeld in de bovenstaande lijst **[!UICONTROL Acme Corp]** inschakelt, zien alle studenten die tot Acme Corp behoren de boards die ze hebben gemaakt.  Als u de optie **Henry Cavill** uitschakelt, kunnen studenten geen boards zien die door Henry Cavill zijn gemaakt.
+
+Een beheerder kan de omvang van de zichtbaarheid van inhoud bepalen op basis van het actieve veld dat wordt vermeld in het veld **[!UICONTROL Gebruikerskenmerk]**.
+
+De beheerder kan de omvang bijvoorbeeld instellen op **[!UICONTROL Gebruikerstype (intern/extern)]**. Wanneer u het bereik instelt op gebruikerstype, is de inhoud die door een interne student op het platform Sociaal leren wordt gedeeld, alleen zichtbaar voor andere interne studenten in de organisatie, niet voor externe gebruikers en omgekeerd.
+
+Nadat een gebruikerskenmerk door de beheerder is geselecteerd, kan hij of zij de functie Sociaal leren beperken tot studenten en studentgroepen door het vakje onder het veld Gebruikerskenmerk aan te vinken. Klik op het waardeveld om de student of studentgroepen te selecteren waarvoor u de functie Sociaal leren wilt inschakelen.
+
+Standaard wordt het bereik ingesteld door de **[!UICONTROL Gebruikerstype]** Dit zijn interne of externe studenten.
+
+Als het actieve veld geen waarde bevat, is de vervolgkeuzelijst van het veld **[!UICONTROL Waarde]** niet zichtbaar voor de beheerder.
+
+<!--![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)-->
+
+Gebruikers kunnen hun inhoud ook plaatsen met de Adobe Learning Manager-bureaubladtoepassing. Afhankelijk van of u een Mac- of Windows-gebruiker bent, klikt u op de link voor het downloaden van uw desktopapp en volgt u de stappen om de app op uw systeem te installeren. [Klik hier](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md) als u problemen ondervindt bij de installatie.
+
+### Configuraties downloaden {#downloadconfigurations}
+
+<!--![](assets/download-config.png)-->
+
+Voor Enterprise-servers kan de beheerder de locatie wijzigen waar studenten de desktopapp voor Windows en Mac kunnen downloaden.
+
+![](assets/enterprise-servers.png)
+
+*De downloadlocatie wijzigen*
+
+De URL van de Enterprise-server moet openbaar worden gehost.
+
+### Machtigingen voor het maken van boards {#permission}
+
+Om het maken van boards door alle studenten te beperken en de boards op een efficiënte manier te modereren, kan een beheerder aan een selecte gebruikersgroep toestemming geven om boards te maken.
+
+![](assets/grant-permissiontocreateboards.png)
+
+*Machtigingen instellen om een board te maken*
+
+Standaard is de optie **[!UICONTROL Alle studenten]** ingeschakeld.
+
+**[!UICONTROL Alle studenten]:** Als u deze optie kiest, kunnen alle interne en externe gebruikers boards maken.
+
+**Een groep studenten:** als u deze optie kiest, zien alleen gebruikers met de machtiging om boards te maken de link **[!UICONTROL Nieuw board maken]** in Sociaal leren.  Kies de gebruikersgroep waarvoor u toestemming moet krijgen om een board te maken. U kunt ook automatisch gegenereerde en aangepaste gebruikersgroepen toevoegen.
+
+<!--![](assets/grant-permissiontoausergroup.png)-->
+
+Het board is alleen zichtbaar voor gebruikers met hetzelfde bereik.  Voor gebruikers die geen toestemming hebben, is de link **[!UICONTROL Nieuw board maken]** niet zichtbaar.
+
+Wacht 60 minuten totdat de wijzigingen worden doorgevoerd.
+
+## Speciale gebruikers {#privilege}
+
+Een beheerder kan een gebruikersgroep speciale bevoegdheden geven op basis van welke groepsleden aan alle boards kunnen deelnemen. Beperkingen die zijn ingesteld in het gedeelte Omvanginstellingen worden omzeild door de speciale gebruikersgroep.
+
+De gebruikersgroep kan automatisch gegenereerd of aangepast zijn.
+
+Een gebruiker aan wie deze bevoegdheid is verleend, heeft toegang tot alle boards, behalve **privéboards**.
+
+![](assets/special-users.png)
+
+*Speciale rechten verlenen*
+
+Wanneer de beheerder een gebruikersgroep selecteert, krijgen standaard alle gebruikers in de groep toegang tot alle boards, ongeacht het bereik van de gebruiker. Elke gebruiker met deze extra bevoegdheden kan alle interne en externe boards bekijken en eraan deelnemen.
+
+Speciale gebruikers ontvangen verzoeken voor inhoudsbeheer in alle bereiken als gebruikers voldoende SME-punten hebben voor die vaardigheid.
+
+Als de gebruiker niet over de vereiste SME-punten beschikt, worden de bevoegdheden voor inhoudsbeheer doorgegeven aan de top drie vakexperts voor die vaardigheid.
+
+In het nieuwe bereik krijgt hij/zij punten voor activiteiten op boards.
+
+In de secties voor sociaal leaderboard ziet een gebruiker alle gebruikers in zijn/haar bereik, samen met speciale gebruikers.
+
+Als u speciale gebruikersbevoegdheden hebt gekregen, kunt u alle gebruikers in het account op uw leaderboard zien, ongeacht het bereik van de gebruikers.
+
+Als speciale gebruikers SME&#39;s worden door voldoende punten te behalen, worden ze weergegeven in de **[!UICONTROL Toonaangevende vakexperts]** op het board van de sociale leider.
+
+Wacht 60 minuten totdat de wijzigingen worden doorgevoerd.
+
+### De social-banner aanpassen {#customize-social-banner}
+
+De beheerder kan de titel en de subtitel aanpassen die worden weergegeven in de koptekstafbeelding op de startpagina voor Sociaal leren. Wat de beheerder ook als titel en subtitel besluit in te voeren, dezelfde functies op de startpagina voor sociaal leren van de student.
+
+1. Klik in de Admin-app op **[!UICONTROL Sociaal leren]** > **[!UICONTROL Instellingen]**.
+1. Klikken **[!UICONTROL Aanpassen]**.
+1. Wijzig de bannerafbeelding. De afmetingen van de afbeelding moeten ten minste **1600 px X 240 px**.
+1. Schakel de optie in om de **[!UICONTROL Meer informatie]** koppeling op de banner.
+1. Voer de titel en de subtitel in de onderstaande velden in:
+
+   ![](assets/image012.png)
+
+   *De sociale banner aanpassen*
+
+U hebt een paar andere opties:
+
+* **[!UICONTROL Taal]:** Kies in de vervolgkeuzelijst de taal waarin u de titel en de ondertitel wilt vertalen. U kunt ook aangepaste tekst voor verschillende talen toevoegen.
+* **[!UICONTROL Repliceren]:** Klik op deze knop om de titel en de subtitel in alle talen te repliceren.
+* **[!UICONTROL Herstellen]:** Klik op deze knop om terug te keren naar de oorspronkelijke titel en subtitel.
+
+  De informatie van de beheerder wordt op de startpagina Sociaal leren als de paginakoptekst weergegeven.
+
+  <!--![](assets/banner-learner.png)-->
+
+### Weergave Sociaal leren
+
+Een beheerder kan de weergave Sociaal leren selecteren uit de volgende instellingen:
+
+* Weergave na - Als u deze optie selecteert, worden de afzonderlijke berichten van alle boards weergegeven.
+* Boardweergave - Als u deze optie selecteert, worden alle beschikbare boards weergegeven.
 
 ## Automatisch beheer van inhoud {#autocuration}
 
@@ -146,128 +300,6 @@ Als deze op de eerste dag geen 50% heeft behaald, wordt de goedkeuring naar de v
 
 +++
 
-## Omvanginstellingen {#scopesettings}
-
-In Sociaal leren bepaalt een bereik de boards die u kunt zien, wat bepalend is voor de zichtbaarheid van de inhoud.  Als een gebruiker een bereik heeft, bijvoorbeeld ***Leverancier_A***, kan hij/zij alleen boards en bijbehorende posten zien die zijn gecreëerd door anderen die tot hetzelfde bereik behoren ***Leverancier_A***.
-
-Met deze functie kunnen beheerders gebruikersgroepen apart beheren, zoals leveranciers, partners of afdelingen van een organisatie.
-
-Schakel Sociaal leren en leaderboards in voor zowel interne als externe gebruikers.
-
-Er zijn apart secties om dit voor interne en externe gebruikers in te schakelen.
-
-**Inschakelen voor interne studenten**
-
-In deze sectie kunt u de gebruikerskenmerken kiezen om het bereik van Sociaal leren voor interne gebruikers te definiëren. Gebruikers met dezelfde kenmerken **value** deel dezelfde ruimte voor Sociaal leren.
-
-Van de **Gebruikerskenmerk** de gewenste optie te kiezen.
-
-![](assets/choose-value-of-usercharacteristic.png)
-
-*Selecteer de gebruikerskenmerken om het bereik te definiëren*
-
-Standaard kunt u de optie **[!UICONTROL Alle interne gebruikers]** in de vervolgkeuzelijst Gebruikerseigenschappen is altijd geselecteerd.
-
-U kunt het bereik van interne gebruikers bepalen op basis van hun actieve velden.
-
-**Inschakelen voor externe studenten**
-
-Gebruik een extern profiel om het bereik van leermateriaal voor externe gebruikers te bepalen.  Studenten met hetzelfde externe profiel delen een gemeenschappelijke ruimte in Sociaal leren.
-
-![](assets/choose-an-externalprofile.png)
-
-*Reikwijdte voor externe studenten inschakelen*
-
-Het bereik van externe gebruikers wordt bepaald op basis van hun externe profiel.
-
-Als u bijvoorbeeld in de bovenstaande lijst **[!UICONTROL Acme Corp]** inschakelt, zien alle studenten die tot Acme Corp behoren de boards die ze hebben gemaakt.  Als u de optie **Henry Cavill** uitschakelt, kunnen studenten geen boards zien die door Henry Cavill zijn gemaakt.
-
-Een beheerder kan de omvang van de zichtbaarheid van inhoud bepalen op basis van het actieve veld dat wordt vermeld in het veld **[!UICONTROL Gebruikerskenmerk]**.
-
-De beheerder kan de omvang bijvoorbeeld instellen op **[!UICONTROL Gebruikerstype (intern/extern)]**. Wanneer u het bereik instelt op gebruikerstype, is de inhoud die door een interne student op het platform Sociaal leren wordt gedeeld, alleen zichtbaar voor andere interne studenten in de organisatie, niet voor externe gebruikers en omgekeerd.
-
-Nadat een gebruikerskenmerk door de beheerder is geselecteerd, kan hij of zij de functie Sociaal leren beperken tot studenten en studentgroepen door het vakje onder het veld Gebruikerskenmerk aan te vinken. Klik op het waardeveld om de student of studentgroepen te selecteren waarvoor u de functie Sociaal leren wilt inschakelen.
-
-Standaard wordt het bereik ingesteld door de **[!UICONTROL Gebruikerstype]** Dit zijn interne of externe studenten.
-
-Als het actieve veld geen waarde bevat, is de vervolgkeuzelijst van het veld **[!UICONTROL Waarde]** niet zichtbaar voor de beheerder.
-
-<!--![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)-->
-
-Gebruikers kunnen hun inhoud ook plaatsen met de Adobe Learning Manager-bureaubladtoepassing. Afhankelijk van of u een Mac- of Windows-gebruiker bent, klikt u op de link voor het downloaden van uw desktopapp en volgt u de stappen om de app op uw systeem te installeren. [Klik hier](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md) als u problemen ondervindt bij de installatie.
-
-## Machtigingen voor het maken van boards {#permission}
-
-Om het maken van boards door alle studenten te beperken en de boards op een efficiënte manier te modereren, kan een beheerder aan een selecte gebruikersgroep toestemming geven om boards te maken.
-
-![](assets/grant-permissiontocreateboards.png)
-
-*Machtigingen instellen om een board te maken*
-
-Standaard is de optie **[!UICONTROL Alle studenten]** ingeschakeld.
-
-**[!UICONTROL Alle studenten]:** Als u deze optie kiest, kunnen alle interne en externe gebruikers boards maken.
-
-**Een groep studenten:** als u deze optie kiest, zien alleen gebruikers met de machtiging om boards te maken de link **[!UICONTROL Nieuw board maken]** in Sociaal leren.  Kies de gebruikersgroep waarvoor u toestemming moet krijgen om een board te maken. U kunt ook automatisch gegenereerde en aangepaste gebruikersgroepen toevoegen.
-
-<!--![](assets/grant-permissiontoausergroup.png)-->
-
-Het board is alleen zichtbaar voor gebruikers met hetzelfde bereik.  Voor gebruikers die geen toestemming hebben, is de link **[!UICONTROL Nieuw board maken]** niet zichtbaar.
-
-Wacht 60 minuten totdat de wijzigingen worden doorgevoerd.
-
-## Speciale gebruikers {#privilege}
-
-Een beheerder kan een gebruikersgroep speciale bevoegdheden geven op basis van welke groepsleden aan alle boards kunnen deelnemen. Beperkingen die zijn ingesteld in het gedeelte Omvanginstellingen worden omzeild door de speciale gebruikersgroep.
-
-De gebruikersgroep kan automatisch gegenereerd of aangepast zijn.
-
-Een gebruiker aan wie deze bevoegdheid is verleend, heeft toegang tot alle boards, behalve **privéboards**.
-
-![](assets/special-users.png)
-
-*Speciale rechten verlenen*
-
-Wanneer de beheerder een gebruikersgroep selecteert, krijgen standaard alle gebruikers in de groep toegang tot alle boards, ongeacht het bereik van de gebruiker. Elke gebruiker met deze extra bevoegdheden kan alle interne en externe boards bekijken en eraan deelnemen.
-
-Speciale gebruikers ontvangen verzoeken voor inhoudsbeheer in alle bereiken als gebruikers voldoende SME-punten hebben voor die vaardigheid.
-
-Als de gebruiker niet over de vereiste SME-punten beschikt, worden de bevoegdheden voor inhoudsbeheer doorgegeven aan de top drie vakexperts voor die vaardigheid.
-
-In het nieuwe bereik krijgt hij/zij punten voor activiteiten op boards.
-
-In de secties voor sociaal leaderboard ziet een gebruiker alle gebruikers in zijn/haar bereik, samen met speciale gebruikers.
-
-Als u speciale gebruikersbevoegdheden hebt gekregen, kunt u alle gebruikers in het account op uw leaderboard zien, ongeacht het bereik van de gebruikers.
-
-Als speciale gebruikers SME&#39;s worden door voldoende punten te behalen, worden ze weergegeven in de **[!UICONTROL Toonaangevende vakexperts]** op het board van de sociale leider.
-
-Wacht 60 minuten totdat de wijzigingen worden doorgevoerd.
-
-## De social-banner aanpassen {#customize-social-banner}
-
-De beheerder kan de titel en de subtitel aanpassen die worden weergegeven in de koptekstafbeelding op de startpagina voor Sociaal leren. Wat de beheerder ook als titel en subtitel besluit in te voeren, dezelfde functies op de startpagina voor sociaal leren van de student.
-
-1. Klik in de Admin-app op **[!UICONTROL Sociaal leren]** > **[!UICONTROL Instellingen]**.
-1. Klikken **[!UICONTROL Aanpassen]**.
-1. Wijzig de bannerafbeelding. De afmetingen van de afbeelding moeten ten minste **1600 px X 240 px**.
-1. Schakel de optie in om de **[!UICONTROL Meer informatie]** koppeling op de banner.
-1. Voer de titel en de subtitel in de onderstaande velden in:
-
-   ![](assets/image012.png)
-
-   *De sociale banner aanpassen*
-
-U hebt een paar andere opties:
-
-* **[!UICONTROL Taal]:** Kies in de vervolgkeuzelijst de taal waarin u de titel en de ondertitel wilt vertalen. U kunt ook aangepaste tekst voor verschillende talen toevoegen.
-* **[!UICONTROL Repliceren]:** Klik op deze knop om de titel en de subtitel in alle talen te repliceren.
-* **[!UICONTROL Herstellen]:** Klik op deze knop om terug te keren naar de oorspronkelijke titel en subtitel.
-
-  De informatie van de beheerder wordt op de startpagina Sociaal leren als de paginakoptekst weergegeven.
-
-  <!--![](assets/banner-learner.png)-->
-
 ## Trends {#trends}
 
 De trends in de sociale activiteit van studenten kunnen worden bekeken en bijgehouden op het tabblad Activiteit in de trendssectie. Deze gegevens kunnen worden bekeken voor verschillende perioden, zoals de afgelopen zeven dagen, vorige maand, de afgelopen drie maanden of altijd.
@@ -363,7 +395,7 @@ De beheerder kan de activiteitsscore, het aantal berichten, de boards en de gebr
 
 ## Vaardigheidsdomein {#skilldomain}
 
-Op basis van de vaardigheden die vooral worden gebruikt door eindgebruikers van Learning Manager, heeft Adobe Learning Manager een lijst van 25 vaardigheidsdomeinen gecategoriseerd die het systeem voor automatisch beheer gebruikt om inhoud te beheren. De beheerder moet de geconfigureerde bedrijfsvaardigheden toewijzen aan de vaardigheidsdomeinen die Prime verschaft. U kunt vaardigheden toewijzen vanaf de beheerpagina tijdens het maken van een vaardigheid of door een bestaande vaardigheid te wijzigen. Voor meer informatie over het toewijzen of toevoegen van een vaardigheid: [hier klikken](skills-levels.md#Createaskillandalevel).
+Op basis van de vaardigheden die vooral worden gebruikt door eindgebruikers van Learning Manager, heeft Adobe Learning Manager een lijst met 25 vaardigheidsdomeinen gecategoriseerd die het systeem voor automatisch beheer gebruikt om inhoud te beheren. De beheerder moet de geconfigureerde bedrijfsvaardigheden toewijzen aan de vaardigheidsdomeinen die Prime verschaft. U kunt vaardigheden toewijzen vanaf de beheerpagina tijdens het maken van een vaardigheid of door een bestaande vaardigheid te wijzigen. Voor meer informatie over het toewijzen of toevoegen van een vaardigheid: [hier klikken](skills-levels.md#Createaskillandalevel).
 
 +++Lijst van vaardigheidsdomeinen die door het het beheerssysteem van de Leermanager worden gebruikt
 
@@ -449,18 +481,6 @@ Volg deze stappen om SME&#39;s aan een vaardigheid toe te voegen:
 **SME&#39;s krijgen ook punten toegewezen op basis van beheeractiviteiten voor het volgende:**
 
 * Wanneer een bericht worden verzonden voor handmatig beheer omdat bij automatisch beheer niet kan worden vastgesteld of de inhoud wel of niet relevant is, krijgt de SME 5 punten voor het modereren van de inhoud.
-
-## Configuraties downloaden {#downloadconfigurations}
-
-<!--![](assets/download-config.png)-->
-
-Voor Enterprise-servers kan de beheerder de locatie wijzigen waar studenten de desktopapp voor Windows en Mac kunnen downloaden.
-
-![](assets/enterprise-servers.png)
-
-*De downloadlocatie wijzigen*
-
-De URL van de Enterprise-server moet openbaar worden gehost.
 
 ## Sociale activiteiten voor MAU-factureringsplan (Monthly Active Users) {#socialactivitiesformonthlyactiveusersbillingplan}
 

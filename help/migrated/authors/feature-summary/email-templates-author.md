@@ -2,14 +2,13 @@
 description: Lees dit artikel om te weten te komen hoe u e-mailsjablonen kunt configureren voor gebeurtenissen die betrekking hebben op alle leerobjecten.
 jcr-language: en_us
 title: E-mailsjablonen
-source-git-commit: fda58bc18bee6d21ee904a442884e4759587d053
+exl-id: 3b17f889-52be-4073-ab91-7c76dd79f1d2
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 89%
+source-wordcount: '475'
+ht-degree: 72%
 
 ---
-
-
 
 # E-mailsjablonen
 
@@ -21,11 +20,13 @@ Als auteur kunt u e-mailsjablonen aanpassen door inhoud toe te voegen of te wijz
 
 U kunt er ook voor kiezen om voor bepaalde gebeurtenissen geen e-mailnotificaties te versturen door de optie voor het e-mailsjabloon uit te schakelen.
 
-## Instellen van e-mailmeldingen {#settingemailnotifications}
+## E-mailmeldingen configureren {#settingemailnotifications}
 
-1. Klik vanuit de auteurstoepassing op het leerobject waarvoor u het e-mailsjabloon wilt configureren. Cursussen, bijvoorbeeld.
+1. Selecteer in de auteurstoepassing het leerobject waarvoor u de e-mailsjabloon wilt configureren. Cursussen, bijvoorbeeld.
+
 1. Klik vanuit de pagina Leerobject op de cursus, de certificering of het leerprogramma waarvoor u de e-mailinstellingen wilt configureren.
-1. Klik vanuit de pagina met de details van het leerobject op E-mailsjablonen.
+
+1. Selecteer op de pagina met leerobjectdetails de optie **E-mailsjablonen** > **Alle sjablonen**. E-mailsjablonen zijn beschikbaar voor **Standaardinstantie** en **Huidige cursus**. U kunt schakelen tussen de twee met behulp van het vervolgkeuzemenu rechtsboven.
 
    U kunt de lijst met sjablonen zien die beschikbaar zijn voor het leerobject dat u hebt gekozen.
 
@@ -68,3 +69,11 @@ U kunt er ook voor kiezen om voor bepaalde gebeurtenissen geen e-mailnotificatie
 Als de schuifknop bij elke gebeurtenisnaam naast Ja staat (blauwe achtergrond), is de melding ingeschakeld. Staat de knop naast Nee (grijze achtergrond), dan is de melding uitgeschakeld.
 
 Wanneer u op cursusniveau een e-mailsjabloon configureert, krijgt deze sjabloon voor die specifieke cursus voorrang op instellingen op beheerdersniveau.
+
+## E-mailsjablooninstellingen
+
+De auteur kan het volgende instellen in de instellingen van de e-mailsjabloon:
+
+* **E-mailbanner**: Hiermee kunt u de e-mailbanner wijzigen.
+
+* **E-mailhandtekening**: Hiermee kunt u de e-mailhandtekening toevoegen of bewerken.

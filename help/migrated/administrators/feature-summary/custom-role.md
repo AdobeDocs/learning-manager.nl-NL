@@ -4,7 +4,7 @@ title: Aangepaste rollen
 description: Met de functie Leerpaden kunt u aangepaste rollen definiëren en specifieke verantwoordelijkheden toewijzen aan een gebruikersset. Met deze functie kunt u verantwoordelijkheden toewijzen die buiten de bestaande rol van de persoon vallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
 source-wordcount: '2223'
 ht-degree: 65%
@@ -224,7 +224,7 @@ Een gebruiker met een aangepaste rol kan:
 
 1. **Gebruikers:** gebruik deze optie om te bepalen welke gebruikers deze rol toegewezen krijgen. U kunt een of meer gebruikers kiezen met behulp van het zoekvak.
 
-   **Gebruikers toevoegen aan CSV-upload met aangepaste rol:** Als u gebruikers via CSV-update wilt toevoegen, voegt u een kolom CustomRole toe aan het CSV-bestand dat de beheerder heeft gebruikt om gebruikers te importeren. Voer de rol van de gebruiker onder de kolom CustomRole in voor de gebruikers aan wie u een aangepaste rol wilt toewijzen. Klik op  **[!UICONTROL Toevoegen > Een CSV uploaden]**.
+   **Gebruikers toevoegen aan CSV-upload met aangepaste rol:** Als u gebruikers wilt toevoegen via CSV-upload, voegt u een kolom CustomRole toe aan het CSV-bestand dat de beheerder heeft gebruikt om gebruikers te importeren. Voer de rol van de gebruiker onder de kolom CustomRole in voor de gebruikers aan wie u een aangepaste rol wilt toewijzen. Klik op  **[!UICONTROL Toevoegen > Een CSV uploaden]**.
 
    CustomRole columnNote:
 

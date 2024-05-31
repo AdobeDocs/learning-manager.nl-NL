@@ -2,26 +2,30 @@
 description: Dit document bestaat uit informatie over leerobjecten voor managers.
 jcr-language: en_us
 title: Leerobjecten
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 72%
+source-wordcount: '1725'
+ht-degree: 60%
 
 ---
-
-
 
 # Leerobjecten
 
 Dit document bestaat uit informatie over leerobjecten voor managers.
 
-Een manager kan de studenten onder hem inschrijven voor cursussen, leerprogramma&#39;s en certificeringen. Raadpleeg [Studenten inschrijven](../../administrators/feature-summary/courses.md#main-pars_header_1058138132) voor meer informatie over de inschrijfprocedure en de te volgen stappen.
+Een manager kan de studenten onder hem inschrijven voor cursussen, leerpaden en certificeringen. Raadpleeg [Studenten inschrijven](../../administrators/feature-summary/courses.md#main-pars_header_1058138132) voor meer informatie over de inschrijfprocedure en de te volgen stappen.
 
 ## Cursussen {#courses}
 
 ## Cursussen weergeven {#viewingcourses}
 
 Als manager kunt u een lijst van alle beschikbare cursussen bekijken. Klikken **[!UICONTROL Cursussen]** in het linkerdeelvenster om de lijst met cursussen met zoek- en filteropties weer te geven. U kunt ook het effectiviteitspercentage voor elke cursus bekijken op de cursusminiaturen. Let op: U kunt alleen teamleden inschrijven voor cursussen die zichtbaar zijn voor u onder de studententoepassing.
+
+![](assets/view-course.png)
+
+*Cursussen weergeven*
+
 
 >[!NOTE]
 >
@@ -46,6 +50,10 @@ Als manager kunt u de studentenlijst voor uw teamleden beheren.
 ![](assets/courses-learners.png)
 
 *Een studentactie selecteren*
+
+>[!NOTE]
+>
+>**In behandeling zijnde goedkeuringen exporteren** kan worden uitgevoerd vanuit de Learner-app.
 
 Op de pagina Studenten kunt u de volgende acties uitvoeren:
 
@@ -98,20 +106,30 @@ In dit voorbeeld heeft 1 van de 5 gebruikers alle drie de feedbacks ontvangen, v
 
 Zoals te zien in het bovenstaande taartdiagram wordt er meer gewicht gegeven aan de L3-feedback van de manager.
 
-## Zoeken naar cursussen, leerprogramma&#39;s en certificeringen {#searchingcourseslearningprogramsandcertifications}
+## Cursussen, leerpaden en certificeringen zoeken {#searchingcourseslearningprogramsandcertifications}
 
-Adobe Learning Manager maakt het u gemakkelijker om snel de gewenste cursussen of leerprogramma&#39;s te vinden. U kunt op twee manieren naar uw cursussen zoeken:
+Met Adobe Learning Manager kunt u gemakkelijker snel de gewenste cursussen/leerpaden vinden. U kunt op twee manieren naar uw cursussen zoeken:
 
-1. Met behulp van het zoekveld. Klik op het zoekpictogram in de rechterbovenhoek. Er verschijnt een zoekveld. Typ de naam van de cursus of eventuele trefwoorden die bij uw cursussen horen om uw cursussen/leerprogramma&#39;s te vinden. U kunt ook zoeken met vooraf gedefinieerde tags, zoals Captivate, C, Java en HTML. U kunt naar tags zoeken in het veld Zoeken, wat betekent dat de tags in het zoekveld worden weergegeven terwijl u ze typt. Het zoeken kan ook worden uitgevoerd door gebruik te maken van een uniek ID.
-1. Door de lijst van cursussen/leerprogramma&#39;s/certificeringen met behulp van de filters te filteren. U kunt de cursussen filteren op status zoals Alle, Gepubliceerd en Gearchiveerd.
+1. Met behulp van het zoekveld. Klik op het zoekpictogram in de rechterbovenhoek. Er verschijnt een zoekveld. Typ de naam van de cursus of eventuele trefwoorden die bij uw cursussen horen om uw cursussen/leerpaden te vinden. U kunt ook zoeken met vooraf gedefinieerde tags, zoals Captivate, C, Java en HTML. U kunt naar tags zoeken in het veld Zoeken, wat betekent dat de tags in het zoekveld worden weergegeven terwijl u ze typt. Het zoeken kan ook worden uitgevoerd door gebruik te maken van een uniek ID.
+1. Door de lijst van cursussen/leerpaden/certificeringen met de filters te filteren. U kunt de cursussen filteren op status zoals Alle, Gepubliceerd en Gearchiveerd.
 
-U kunt zoeken op basis van competenties door op Competenties te klikken en ze te kiezen. Als manager kunt u de cursussen op vier manieren sorteren om de gewenste cursus beter te vinden. Klik op Sorteren op en kies alfabetische oplopende volgorde, alfabetische aflopende volgorde, datum waarop cursus is bijgewerkt of effectiviteit van cursussen:
+U kunt zoeken op basis van competenties door **Competenties** en ze te kiezen. Als manager kunt u de cursussen op vier manieren sorteren om de gewenste cursus beter te vinden. Klik op Sorteren op en kies alfabetische oplopende volgorde, alfabetische aflopende volgorde, datum waarop cursus is bijgewerkt, datum waarop cursus is gemaakt of effectiviteit van cursussen:
 
-![](assets/admin-sortby.png)
+* Naam (a-z)
+* Naam (z-a)
+* Datum bijgewerkt
+* Datum gemaakt
+* Cursuseffectiviteit
 
-*Onderzoek op basis van competenties*
+![](assets/filter-courses.png)
 
-U kunt leerprogramma&#39;s op drie manieren sorteren: alfabetisch oplopend, alfabetisch aflopend en op basis van datum waarop deze is bijgewerkt.
+*Cursussen filteren*
+
+U kunt leerpaden op drie manieren sorteren: alfabetisch oplopend, alfabetisch aflopend en op basis van bijgewerkte datum.
+
+![](assets/filter-learning-paths.png)
+
+*Leerpad filteren*
 
 ## Studenten inschrijven voor cursussen {#enrollinglearnersintocourses}
 
@@ -128,28 +146,28 @@ De manager schrijft sommige studenten in voor verplichte cursussen volgens de ve
 >
 >U kunt alleen studenten inschrijven die tot uw team behoren.
 
-## Leerprogramma&#39;s {#learningprograms}
+## Leerpaden {#learningprograms}
 
 De manager kan inschrijven, quizscores bekijken, L1- en L3-feedback bekijken en alleen zijn rapporteurs uitschrijven.
 
-## Deelnemers toevoegen aan een leerprogramma {#addlearnerstoalearningprogram}
+## Studenten toevoegen aan een leerpad {#addlearnerstoalearningprogram}
 
-1. Klik in de managermodus op Leerprogramma&#39;s in het linkerdeelvenster.
-1. Selecteer het gepubliceerde leerprogramma waaraan u de studenten wilt toevoegen uit de lijst met tegels.
+1. Klik in de beheermodus op Leerpaden in het linkerdeelvenster.
+1. Selecteer het gepubliceerde leerpad in de lijst met tegels waaraan u studenten wilt toevoegen.
 1. Klik op Studenten in het linkerdeelvenster onder de categorie Programmarapporten. Opmerking: Het leerprogramma moet worden gepubliceerd voordat u studenten kunt toevoegen.
 1. Klik op de link Inschrijven op de pagina.
 1. Begin met het typen van de naam of het profiel van de student en kies de studenten uit de vervolgkeuzelijst van studenten. Klik op Opslaan.
 
 ## Quizscores weergeven {#Viewquizscores-1}
 
-1. Klik op een willekeurige leerprogrammategel.
+1. Klik op een willekeurige leerpadtegel.
 1. Klik op Quizscore in het linkerdeelvenster.
 
-U kunt de quizscores van een bepaald leerprogramma bekijken op basis van een gebruikersnaam of op basis van elke vraag. Kies het bijbehorende tabblad Op gebruiker of Op vraag. Er verschijnen quizscores voor één cursus per keer. Wijzig de naam van de cursus uit de vervolgkeuzelijst om de quizscores voor andere cursussen te bekijken. U kunt ook quizscores van elke cursus exporteren. Kies het type instantie uit de vervolgkeuzelijst om de scores weer te geven op basis van elke instantie van het leerprogramma.
+U kunt de quizscores van een bepaald leerpad bekijken op basis van de gebruikersnaam of op basis van elke vraag. Kies het bijbehorende tabblad Op gebruiker of Op vraag. Er verschijnen quizscores voor één cursus per keer. Wijzig de naam van de cursus uit de vervolgkeuzelijst om de quizscores voor andere cursussen te bekijken. U kunt ook quizscores van elke cursus exporteren. Kies het type instantie in de vervolgkeuzelijst om de scores weer te geven op basis van elke instantie van het leerpad.
 
 ## Uitschrijving voor studenten {#unenrollmentforlearners}
 
-De manager kan een student uitschrijven als de student nog niet is gestart met het leerprogramma.
+De manager kan een student uitschrijven als de student nog niet met het leerpad is begonnen.
 
 ## Voltooiing markeren {#markcompletion}
 
@@ -217,7 +235,7 @@ Als de student het bestand indient, kan de Manager het bekijken via de pagina In
 
 Wanneer cursussen verplicht worden gesteld:
 
-* De inzendpagina is pas beschikbaar nadat de studenten de cursussen hebben voltooid.
+* Op de pagina Verzenden staan alleen de studenten nadat ze de cursussen hebben voltooid.
 * De student kan een bestand pas uploaden nadat de cursus is afgerond.
 
 ## Taakhulpen {#jobaids}
