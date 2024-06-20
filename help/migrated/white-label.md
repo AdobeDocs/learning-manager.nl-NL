@@ -4,9 +4,9 @@ title: Witte labels in de mobiele app van Adobe learning Manager
 description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
+source-git-commit: c056c126a61f16198d42b3a73a3b009a58bd641c
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ Voer de volgende stappen uit om uw eigen witte app met labels te implementeren e
 
 1. Wijs een technische hulpbron toe die in staat is om:
 
-* Certificaatbestanden voor pushmeldingen genereren.
-* De app-binaire bestanden van het ALM-team ondertekenen.
-* Uploaden en het publicatieproces beheren. Het publicatieproces vereist communicatie tussen uw app-manager en app/play store-teams dat uw app voldoet aan alle publicatierichtlijnen. Vanuit ALM ontvangt u een volledig compatibele binaire app.
+   * Certificaatbestanden voor pushmeldingen genereren.
+   * De app-binaire bestanden van het ALM-team ondertekenen.
+   * Uploaden en het publicatieproces beheren. Het publicatieproces vereist communicatie tussen uw app-manager en app/play store-teams dat uw app voldoet aan alle publicatierichtlijnen. Vanuit ALM ontvangt u een volledig compatibele binaire app.
 
 ## Overzicht
 
@@ -39,165 +39,211 @@ U kunt het volgende aanpassen:
 
 <table>
 
-    <tbody>
-
-    <tr>
-
-   <td>
-
-    <p>Account-id</p></td>
-
-   <td>
-
-    <p>De id van uw account. Let op: de witte gelabelde app is niet toegankelijk voor studenten die tot een ander account behoren.</p></td>
-
-  </tr>
+ <tbody>
 
   <tr>
 
    <td>
 
-    <p>Aanvullende account-id's</p></td>
+    <p>Account-id</p>
+
+   </td>
 
    <td>
 
-    <p>Voeg desgewenst meerdere accounts (subdomeinen) toe. Voeg de subdomeinen toe als komma's gescheiden zonder spaties. Bijvoorbeeld acc01,acc02,acc03 enzovoort.<br> <b>Opmerking:</b> U moet de account-id toevoegen wanneer u de subdomeinen opgeeft.</br> </p></td>
+    <p>De id van uw account. Let op: de witte gelabelde app is niet toegankelijk voor studenten die tot een ander account behoren.</p>
+
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Toepassingsnaam</p></td>
+    <p>Aanvullende account-id's</p>
 
-  <td>
+   </td>
 
-  <p>De naam die u voor de app wilt gebruiken.</p></td>
+   <td>
 
-  </tr>
+    <p>Voeg desgewenst meerdere accounts (subdomeinen) toe. Voeg de subdomeinen toe als komma's gescheiden zonder spaties. Bijvoorbeeld acc01,acc02,acc03 enzovoort.<br> <b>Opmerking:</b> U moet de account-id toevoegen wanneer u de subdomeinen opgeeft.</br> </p>
 
-  <tr>
-
-  <td>
-
-  <p>Korte naam app</p></td>
-
-  <td>
-
-  <p>Als de naam van de app lang is, geeft u de app een korte naam die op het apparaat wordt weergegeven.</p></td>
-
-  </tr>
-
-   <tr>
-
-  <td>
-
-  <p>Interne toepassingsnaam</p></td>
-
-  <td>
-
-  <p>De naam waarmee het besturingssysteem de app identificeert. Meestal wordt de volgende indeling gebruikt: com.company-name.product-name.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Interne toepassingsnaam-iOS</p></td>
+    <p>Toepassingsnaam</p></td>
 
-  <td>
+   <td>
 
-  <p>Geef de app een andere naam als uw gebruikers zich op iOS bevinden. We raden u aan dezelfde naam te gebruiken voor zowel iOS als Android.</p></td>
+    <p>De naam die u voor de app wilt gebruiken.</p>
 
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>App-pictogram</p></td>
-
-  <td>
-
-  <p>Het app-pictogram als png. Dit pictogram wordt weergegeven in uw app. De naamnotatie is account-id_appIcon.png. De afmetingen van het app-pictogram zijn 512 x 512 pixels.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>App-welkomstscherm</p></td>
+    <p>Korte naam app</p>
 
-  <td>
+   </td>
 
-  <p>Geef voor het welkomstscherm van uw app een afbeelding (png) op die wordt weergegeven wanneer uw gebruikers de app starten. De naamnotatie is account-id_splashIcon.png. De afmetingen van de op vierkant gebaseerde welkomstschermen zijn 1052 × 1052 pixels en de cirkelvormige welkomstschermen zijn 768 x 768 pixels.</p></td>
+   <td>
 
-  </tr>
+    <p>Als de naam van de app lang is, geeft u de app een korte naam die op het apparaat wordt weergegeven.</p>
 
-  <tr>
-
-  <td>
-
-  <p>Client-id en clientgeheim</p></td>
-
-  <td>
-
-  <p>De integratiebeheerder van uw account geeft de gegevens op tijdens de registratie van de app. De integratiebeheerder moet het volgende gebruiken:<ul><li>student:lezen,student:schrijven als rol</li><li>interne app name://redirect als redirect URL</li></ul></p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Accountlogo</p></td>
+    <p>Interne toepassingsnaam</p></td>
 
-  <td>
+   <td>
 
-  <p>De URL die het logo van uw organisatie host. Geef een link naar inhoud op als het accountlogo. De URL moet via webcodering worden gecodeerd.</p></td>
+    <p>De naam waarmee het besturingssysteem de app identificeert. Meestal wordt de volgende indeling gebruikt: com.company-name.product-name.</p>
 
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>App Store-id voor de app (iOS)</p></td>
-
-  <td>
-
-  <p>De id die is vereist voor het implementeren van de geforceerde update. De app moet weten dat de student moet worden omgeleid naar de App Store om de app bij te werken.</p></td>
-
-  </tr>
-
-   <tr>
-
-  <td>
-
-  <p>Google Play Store-id voor de app (Android)</p></td>
-
-  <td>
-
-  <p>De id die is vereist voor het implementeren van de geforceerde update.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Hostnaam voor deep linking</p></td>
+    <p>Interne toepassingsnaam-iOS</p>
 
-  <td>
+   </td>
 
-  <p>Gebruik Learningmanager om uw diepe koppelingen te hosten. Geef de URL van de host op als u een andere hostnaam-URL wilt gebruiken als een diepe koppeling. Bijvoorbeeld learningmanager.adobe.com.</p></td>
+   <td>
+
+    <p>Geef de app een andere naam als uw gebruikers zich op iOS bevinden. We raden u aan dezelfde naam te gebruiken voor zowel iOS als Android.</p>
+
+   </td>
 
   </tr>
 
-    </tbody>
+  <tr>
+
+   <td>
+
+    <p>App-pictogram</p>
+
+   </td>
+
+   <td>
+
+    <p>Het app-pictogram als png. Dit pictogram wordt weergegeven in uw app. De naamnotatie is account-id_appIcon.png. De afmetingen van het app-pictogram zijn 512 x 512 pixels.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>App-welkomstscherm</p></td>
+
+   <td>
+
+    <p>Geef voor het welkomstscherm van uw app een afbeelding (png) op die wordt weergegeven wanneer uw gebruikers de app starten. De naamnotatie is account-id_splashIcon.png. De afmetingen van de op vierkant gebaseerde welkomstschermen zijn 1052 × 1052 pixels en de cirkelvormige welkomstschermen zijn 768 x 768 pixels.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Client-id en clientgeheim</p>
+
+   </td>
+
+   <td>
+
+    <p>De integratiebeheerder van uw account geeft de gegevens op tijdens de registratie van de app. De integratiebeheerder moet het volgende gebruiken:<ul><li>student:lezen,student:schrijven als rol</li><li>interne app name://redirect als redirect URL</li></ul></p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Accountlogo</p>
+
+   </td>
+
+   <td>
+
+    <p>De URL die het logo van uw organisatie host. Geef een link naar inhoud op als het accountlogo. De URL moet via webcodering worden gecodeerd.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>App Store-id voor de app (iOS)</p>
+
+   </td>
+
+   <td>
+
+    <p>De id die is vereist voor het implementeren van de geforceerde update. De app moet weten dat de student moet worden omgeleid naar de App Store om de app bij te werken.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Google Play Store-id voor de app (Android)</p>
+
+   </td>
+
+   <td>
+
+    <p>De id die is vereist voor het implementeren van de geforceerde update.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Hostnaam voor deep linking</p>
+
+   </td>
+
+   <td>
+
+    <p>Gebruik Learningmanager om uw diepe koppelingen te hosten. Geef de URL van de host op als u een andere hostnaam-URL wilt gebruiken als een diepe koppeling. Bijvoorbeeld learningmanager.adobe.com.</p>
+
+   </td>
+
+  </tr>
+
+ </tbody>
 
 </table>
 
@@ -261,16 +307,31 @@ Als u verbinding kunt maken met de server, is het certificaat dat u hebt gemaakt
 
 ### Pushmeldingen op Android
 
-Stel een project in op Firebase en deel de serversleutel met de CSAM.
+Voor Android moet de gebruiker het bestand services.json uit het Firebase-project leveren om de vermelding toe te voegen aan de SNS-service.
 
-Neem contact op met het CSM-team en voeg de bestanden toe aan de SNS-services op AWS. Gebruikers moeten de vermelding bij de SNS-service laten registreren voor de pushmelding, waardoor ze de hierboven gegenereerde certificaten moeten delen voor validatie.
+Maak een project in Firebase en deel het bestand services.json met het CSM-team. Dit dossier is nodig voor op token-gebaseerde ingang in SNS. De serversleutel wordt niet meer gebruikt. Zie [Project maken in Firebase](#create-project-in-firebase).
 
->[!NOTE]
->
->Voor Android moet de gebruiker de serversleutel opgeven uit het Firebase-project dat hij voor Android maakt om de invoer toe te voegen aan de SNS-service.
+Ga als volgt te werk om het bestand services.json te downloaden:
 
+1. Meld u aan bij de **Firebase** console.
+1. Ga naar **Projectinstellingen** en selecteer **Cloud Messaging**.
+1. Zoeken **Firebase Cloud Messaging API** en selecteer **Serviceaccounts beheren**.
+1. In het dialoogvenster **Serviceaccounts** pagina selecteert u de **Serviceaccounts** in het linkerdeelvenster.
+1. Zoek uw projectitem en selecteer **Details beheren** onder handelingen.
 
-## Project maken in Firebase
+   >[!NOTE]
+   >
+   >   De indeling voor het invoeren van projecten is &lt;-accountnaam->@appspot.gserviceaccount.com.
+
+1. Ga naar de **Toetsen** tab en selecteer **Sleutel toevoegen**.
+1. Als er geen sleutel is, selecteert u **Nieuwe sleutel maken** en selecteer **JSON** als het toetstype. Hiermee wordt het JSON-bestand gegenereerd en gedownload.
+1. Als er al een sleutel is, selecteert u **Bestaande sleutel uploaden** plakken, de toets plakken en uploaden. Hiermee wordt het JSON-bestand gegenereerd en gedownload.
+
+<!-- Set up a project in Firebase and share the server key with the CSAM.-->
+
+Neem contact op met het CSM-team en deel het JSON-bestand om de vermelding toe te voegen aan de SNS-services op AWS. Gebruikers moeten de vermelding bij de SNS-service laten registreren voor de pushmelding, waardoor ze de hierboven gegenereerde certificaten moeten delen voor validatie.
+
+## Project maken in Firebase {#create-project-in-firebase}
 
 ### Android
 
