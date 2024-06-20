@@ -4,9 +4,9 @@ title: Vaardigheden importeren uit externe bronnen
 description: Importeer Vaardigheden van contentproviders, zoals LinkedIn en Go1, met behulp van de respectievelijke connectoren.  De geïmporteerde vaardigheden worden toegevoegd aan de door de beheerder gedefinieerde vaardigheden in Leerbeheer en zijn beschikbaar voor auteurs tijdens de workflow voor het maken van de cursus.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 64d63c46fc0f9e5daada1eb391e720dc45fbab89
+source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ U kunt de naam van de vaardigheid, beschrijving en niveaus toevoegen aan externe
 
 ### Standaardcursusvaardigheden en studiepunten
 
-Nadat u vaardigheden hebt geïmporteerd, worden deze toegevoegd aan de leermiddelen die uit de bron zijn geïmporteerd en die als vaardigheidsbron zijn geselecteerd. Als uw vaardigheidsbron bijvoorbeeld LinkedIn Learning was, zullen alle leermiddelen die uit LinkedIn Learning zijn geïmporteerd de vaardigheden hebben die door Learning worden geboden. Als elke leerbron wordt geïmporteerd in leermiddelen, krijgt deze standaard 10 studiepunten. Neem contact op met uw CSM als u dit wilt wijzigen.
+Nadat u vaardigheden hebt geïmporteerd, worden deze toegevoegd aan de leermiddelen die uit de bron zijn geïmporteerd en die als vaardigheidsbron zijn geselecteerd. Als uw vaardigheidsbron bijvoorbeeld LinkedIn Learning was, zullen alle leermiddelen die uit LinkedIn Learning zijn geïmporteerd de vaardigheden hebben die door Learning worden geboden. Als elke leerbron wordt geïmporteerd in leermiddelen, krijgt deze standaard 10 studiepunten.
 
 #### Rapportage
 
