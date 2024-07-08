@@ -4,9 +4,9 @@ title: Het Salesforce-pakket installeren
 description: Learning Manager biedt een Salesforce-apppakket aan. Na de installatie en configuratie in SFDC kunnen verkoopmedewerkers hun trainingsactiviteiten uitvoeren in de SFDC-portal. Met deze app kunnen SFDC-gebruikers nieuwe trainingen verkennen, aanbevelingen bekijken en deze rechtstreeks in de SFDC-portal gebruiken. Gebruikers ontvangen de aankondigingen ook door beheerders in de vorm van mastheads rechtstreeks in de app binnen de SFDC-portal.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: dffa765061b35d4559388e4120e51943768c8db8
+source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 47%
 
 ---
@@ -87,7 +87,7 @@ Ga als volgt te werk om het Adobe-domein toe te voegen aan vertrouwde URL&#39;s:
 1. Ga in de Salesforce-console naar **[!UICONTROL Setup]** > **[!UICONTROL Snel zoeken]**.
 1. **[!UICONTROL Zoek naar vertrouwde URL&#39;s]** en selecteer **[!UICONTROL Nieuwe vertrouwde URL]**.
 1. Typ een naam in het **[!UICONTROL veld API-naam]** .
-1. Voeg de URL toe als `{}.adobe.com{*}`.
+1. Typ `*.adobe.com` in het URL-veld.
 1. Selecteer alle selectievakjes in **CSP-aanwijzingen** en sla de wijzigingen op.
 1. Bewerk de vernieuwingstoken van de Salesforce-app en sla deze op.
 1. Start de Salesforce-app opnieuw.
