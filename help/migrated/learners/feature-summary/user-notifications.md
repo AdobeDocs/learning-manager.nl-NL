@@ -3,20 +3,19 @@ description: Gebruikersmeldingen voor studenten in Learning Manager.
 jcr-language: en_us
 title: Gebruikersmeldingen
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 2c775635-1e86-4bef-9ca1-b56fbc353ea8
+source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 81%
+source-wordcount: '464'
+ht-degree: 72%
 
 ---
-
-
 
 # Gebruikersmeldingen
 
 <!--User notifications for Learners in Learning Manager.-->
 
-De meldingsfunctie is van toepassing op alle gebruikers van Adobe Learning Manager. Iedere gebruiker krijgt echter op basis van zijn rol verschillende soorten meldingen onder verschillende scenario&#39;s. Alle waarschuwingen en meldingen voor gebruikers worden weergegeven via het meldingsvenster.
+De functie voor meldingen is van toepassing op alle gebruikers van Adobe Learning Manager. Iedere gebruiker krijgt echter op basis van zijn rol verschillende soorten meldingen onder verschillende scenario&#39;s. Alle waarschuwingen en meldingen voor gebruikers worden weergegeven via het meldingsvenster.
 
 ## Toegangsmeldingen {#accessnotifications}
 
@@ -34,9 +33,13 @@ Het gemarkeerde getal boven het meldingenpictogram geeft het aantal nieuwe meldi
 
 Studenten kunnen een cursus die een manager aan hen heeft toegewezen, weigeren door op Afwijzen te klikken in het meldingsvenster.
 
+## De pushmelding plannen
+
+Studenten ontvangen pushmeldingen wanneer ze de deadline van een cursus missen. Lerenden hebben de optie om gedurende 24 uur een herinnering te snoozen of volgende week te worden herinnerd voor elke achterstallig ontvangen herinnering. Dit is alleen van toepassing op meldingen die nog niet zijn verstreken.
+
 ## Alle meldingen weergeven {#showallnotifications}
 
-Klikken **[!UICONTROL Alle meldingen tonen]** onder aan het meldingsvenster om alle meldingen op een aparte pagina weer te geven.
+Klik op **[!UICONTROL de koppeling Alle meldingen]** weergeven onder in het pop-upvenster voor meldingen om alle meldingen op een aparte pagina weer te geven.
 
 ![](assets/notifications-page.png)
 
@@ -58,7 +61,7 @@ Studenten ontvangen meldingen telkens wanneer de volgende gebeurtenissen zich vo
 1. Student heeft aanwijzing afgewezen
 1. Voor cursussen die door de manager zijn goedgekeurd, keurt de manager een verzoek tot inschrijving goed of af
 1. De wachtlijst van studenten wordt gewist.
-1. De student is automatisch ingeschreven voor een cursus, leerprogramma of certificering
+1. De leerling is automatisch ingeschreven voor een cursus, leerprogramma of een certificering
 1. Student voltooit een certificaat
 1. Manager keurt het door de student geüploade bewijs van voltooiing van de certificering goed/af
 1. Wanneer de deadline voor een bepaalde cursusinstantie nadert. (De beheerder kan instellen vanaf welke datum de student herinneringen ontvangt).
@@ -69,8 +72,8 @@ Studenten kunnen L1-feedback geven nadat ze een cursus met een feedbackoptie heb
 
 ![](assets/feedback.png)
 
-*Cursusfeedback geven*
+*Geef cursusfeedback*
 
 >[!NOTE]
 >
->Studenten krijgen de feedbackoptie voor cursussen alleen wanneer een beheerder deze voor een bepaalde cursus heeft ingeschakeld.
+>Studenten kunnen de feedbackoptie alleen gebruiken voor cursussen wanneer een beheerder deze optie heeft ingeschakeld voor een bepaalde cursus.

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Studenttranscripten
 contentowner: jayakarr
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
 source-wordcount: '1912'
-ht-degree: 66%
+ht-degree: 65%
 
 ---
 
@@ -19,34 +19,34 @@ Adobe Learning Manager stelt de beheerders van een organisatie in staat om de tr
 
 ## Studenttranscripten genereren {#generatelearnertranscripts}
 
-1. Klik op **[!UICONTROL Rapporten]** in het linkerdeelvenster in Beheerdersaanmelding.
+1. Als u de transcripties van een leerling wilt genereren, klikt u op **[!UICONTROL Rapporten]** in het linkerdeelvenster voor beheerdersaanmelding.
 
-   De beheerder navigeert naar de **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten]** in het dialoogvenster **[!UICONTROL Rapporten]** pagina.
+   De beheerder navigeert naar de **[!UICONTROL pagina Rapporten > Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten****]**.
 
-1. Klik op de koppeling **[!UICONTROL Studenttranscripten]**.
+1. Klik op de koppeling **[!UICONTROL Transcripties]** voor lerende.
 
-   De **[!UICONTROL Studenttranscript]** de geschiedenispagina toont met bericht - **Er zijn nog geen studenttranscripten gegenereerd** of een lijst met downloads die zijn geactiveerd na implementatie van de geschiedenispagina Transcripties voor eLearning.
+   De **[!UICONTROL pagina Met de geschiedenis]** van de leeraar wordt het bericht weergegeven: **er zijn nog** geen studententranscripten gegenereerd of een lijst met downloads die zijn geactiveerd na implementatie van de geschiedenis van het leerproces.
 
    <!--[](assets/learner-transcripts.png)-->
 
-   Het dialoogvenster Studenttranscripten verschijnt. Kies het datumbereik waarvoor het transcript moet worden gegenereerd.
+   Er wordt een dialoogvenster met de transcriptie van de leerling weergegeven. Kies het datumbereik waarvoor het transcript moet worden gegenereerd.
 
    >[!NOTE]
    >
-   >Standaard is de startdatum de registratiedatum van de student en is de einddatum altijd de huidige datum. U kunt alleen wijzigen vanaf welke begindatum u de gegevens nodig hebt.
+   >Standaard is vanaf de begindatum de registratiedatum van de leerling en de to-date altijd de huidige datum. U kunt alleen wijzigen vanaf welke begindatum u de gegevens nodig hebt.
 
-1. Kies de namen van de studenten in het menu **[!UICONTROL Studenten selecteren]** en klik op **[!UICONTROL Genereren].**
+1. Kies de namen van de studenten in het **[!UICONTROL veld Studenten]** selecteren en klik op **[!UICONTROL Genereren].**
 1. U kunt kiezen voor één student of groepen studenten. Klik op **[!UICONTROL Meer studenten toevoegen]** om meer dan een student toe te voegen.
 
    ![](assets/add-learners-lt.png)
 
    *Meer studenten toevoegen*
 
-1. U kunt specifieke catalogi kiezen door het selectievakje in te schakelen. Transcript wordt alleen gedownload voor de gespecificeerde catalogi. U kunt specifieke catalogi kiezen door de catalogus te selecteren in het menu **[!UICONTROL Catalogi selecteren]** vervolgkeuzelijst.
+1. U kunt specifieke catalogi kiezen door het selectievakje in te schakelen. Transcript wordt alleen gedownload voor de gespecificeerde catalogi. U kunt specifieke catalogi kiezen door de catalogus te selecteren in de **[!UICONTROL vervolgkeuzelijst Catalogi]** selecteren.
 
    ![](assets/select-catalogs-lt.png)
 
-1. Bij het exporteren van Studenttranscripten is er een optie: **[!UICONTROL Inschrijvingsstatus]**. Dit dropdownmenu heeft de volgende opties:
+1. Bij het exporteren van de transcriptie van een leerling is er een optie: **[!UICONTROL Inschrijvingsstatus]**. Dit dropdownmenu heeft de volgende opties:
 
    * Alle selecteren
    * Voltooid
@@ -56,64 +56,64 @@ Adobe Learning Manager stelt de beheerders van een organisatie in staat om de tr
 
    ![](assets/add-enrollment-status-lt.png)
 
-   *De catalogus selecteren*
+   *Selecteer de catalogus*
 
-1. U kunt ook transcripten downloaden voor studenten die uit een account zijn verwijderd.
+1. Je kunt ook transcripties downloaden voor studenten die uit een account zijn verwijderd.
 
-   Als u Studenttranscripten van verwijderde gebruikers wilt downloaden, klikt u op de knop **[!UICONTROL Geavanceerde opties]** en schakelt u het selectievakje in **[!UICONTROL Inclusief gegevens van verwijderde studenten]**.
+   Als u de transcripties van de lerende gebruiker wilt downloaden, klikt u op de **[!UICONTROL pijl Geavanceerde opties]** en schakelt u het selectievakje **[!UICONTROL Gegevens van verwijderde studenten]** opnemen in.
 
    ![](assets/data-deleted-learners.png)
 
-   *Studenttranscripten van verwijderde studenten downloaden*
+   *De transcripties van verwijderde studenten downloaden*
 
-1. U kunt informatie op moduleniveau in het Studenttranscript downloaden door de optie &quot;**[!UICONTROL Informatie op moduleniveau inschakelen]**&quot;. Als deze optie is ingeschakeld worden modulenamen en de tijd die aan elke module is besteed, als deel van het transcript opgehaald.
-1. U kunt vaardigheidsgegevens en overzichtsbladen downloaden door de optie &quot;**[!UICONTROL Vaardigheidsgegevens en overzichtsbladen opnemen]**&quot;.
+1. U kunt ervoor kiezen om informatie op moduleniveau te downloaden in het transcript van de leerling door het selectievakje Informatie **** op moduleniveau inschakelen in te schakelen. Als deze optie is ingeschakeld worden modulenamen en de tijd die aan elke module is besteed, als deel van het transcript opgehaald.
+1. U kunt vaardigheidsgegevens en samenvattingsbladen downloaden door het selectievakje &#39;**[!UICONTROL Inclusief vaardigheidsgegevens en samenvattingsbladen]**&#39; in te schakelen.
 
-   Transcripten worden als CSV-bestanden gegenereerd en naar uw computer gedownload wanneer de vaardigheidsgegevens niet worden opgenomen. Als het selectievakje Vaardigheidsgegevens is ingeschakeld, worden transcripten als XLS-bestanden gegenereerd en gedownload.
+   Transcripties worden gegenereerd en gedownload naar uw computer als .zip bestanden wanneer de vaardighedengegevens niet zijn opgenomen. Als het selectievakje Vaardigheidsgegevens is ingeschakeld, worden transcripten als XLS-bestanden gegenereerd en gedownload.
 
 ## Studenttranscripten genereren met kopiëren en plakken
 
 Studenttranscripten ophalen is een moeizaam proces, omdat dit enkel voor één afzonderlijke student of gebruikersgroep per keer kan. Met de kopiëren- en plakkenfunctie kunt u nu in één keer de lijst met e-mail-ID&#39;s van studenten kopiëren en plakken.
 
-1. Aanmelden als een **[!UICONTROL Beheerder]** of **[!UICONTROL Manager]**.
-1. Ga naar **[!UICONTROL Rapporten]** krachtens **[!UICONTROL Beheren]**, wordt de **[!UICONTROL Gebruikersactiviteit]** pagina.
-1. Klikken **[!UICONTROL Aangepaste rapporten]** in het linkerdeelvenster en selecteer **[!UICONTROL Studenttranscripten]** in de lijst.
-1. Op de **[!UICONTROL Studenttranscripten]** pagina, klikken **[!UICONTROL Nieuw genereren]** in de linkerbovenhoek.
-1. Selecteer de gewenste datums door te klikken op **[!UICONTROL Datumbereik selecteren]** vervolgkeuzelijst. Klikken **[!UICONTROL E-mail-id&#39;s]** om de gekopieerde lijst met unieke e-mailadressen in te voeren.
+1. Meld u aan als **[!UICONTROL beheerder]** of **[!UICONTROL beheerder]**.
+1. Ga naar **[!UICONTROL Rapporten]** onder **[!UICONTROL Beheren]**. De **[!UICONTROL pagina Gebruikersactiviteit]** wordt geladen.
+1. Klik op **[!UICONTROL Aangepaste rapporten]** in het linkerdeelvenster en selecteer **[!UICONTROL Transcripties]** voor lerende gebruikers in de lijst.
+1. Klik linksboven op de **[!UICONTROL pagina Transcripties]** voor lerende op **[!UICONTROL De knop Nieuw]** genereren.
+1. Selecteer de gewenste datums door te klikken in **[!UICONTROL de vervolgkeuzelijst Datumbereik]** selecteren. Klik op **[!UICONTROL het tabblad E-mail-id&#39;s]** om de gekopieerde lijst met unieke e-mail-id&#39;s in te voeren.
 
    ![](assets/cp-copy-paste-feature.png)
 
    *E-mail-id&#39;s kopiëren en plakken*
 
-1. Gebruik **[!UICONTROL E-mail-ID&#39;s valideren]** om te controleren of de ingevoerde id juist is.
+1. Gebruik **[!UICONTROL E-mail-id&#39;s]** valideren om te controleren of de ingevoerde id correct is.
 
    ![](assets/cp-learnertran-gdpr.png)
 
-   *E-mailadressen valideren*
+   *De e-mail-id&#39;s valideren*
 
    Als een ingevoerd e-mail-ID onjuist is, wordt dit in het rood gemarkeerd met een validatiebericht, zoals hierboven.
 
-   **[!UICONTROL Genereren]** Knop is alleen beschikbaar als alle ingevoerde e-mailadressen correct zijn.
+   **[!UICONTROL Knop Genereren]** is niet beschikbaar, tenzij alle ingevoerde e-mail-id&#39;s correct zijn.
 
    ![](assets/cp-copy-paste-generate.png)
 
-   *Studenttranscripten genereren*
+   *De transcripties van de leerling genereren*
 
-1. Klikken **[!UICONTROL Genereren]** om Studenttranscripten te genereren voor alle vermelde e-mail-ID&#39;s. U ontvangt een bevestigingsbericht zoals hieronder waarin de rapportgeneratie wordt bevestigd.
+1. Klik op **[!UICONTROL de knop Genereren]** om de transcripties van de lerende persoon te genereren voor alle vermelde e-mail-id&#39;s. U ontvangt een bevestigingsbericht zoals hieronder waarin de rapportgeneratie wordt bevestigd.
 
    ![](assets/cp-copy-paste-gmessage.png)
 
-   *Bevestigingsbericht van rapport dat wordt gegenereerd*
+   *Bevestigingsbericht voor rapport dat wordt gegenereerd*
 
-   Het genereren van studenttranscripten kan worden gecombineerd voor e-mail-id&#39;s die onder beide **[!UICONTROL Gebruikers]** en **[!UICONTROL E-mail-id&#39;s]** tabblad.
+   Het genereren van de studententranscripties kan worden gecombineerd voor e-mail-id&#39;s die zijn ingevoerd op de **[!UICONTROL tabbladen Gebruikers]** en **[!UICONTROL E-mail-id&#39;s]** .
 
 ## Geschiedenis van studenttranscript downloaden {#ltdownload}
 
-Op de **[!UICONTROL Studenttranscript]** downloadpagina om een rapport te genereren wanneer u op de knop **[!UICONTROL Nieuw genereren]** in, wordt het dialoogvenster Studenttranscripten weergegeven.
+Wanneer u op de **[!UICONTROL pagina Voor het downloaden van het transcript]** van de leerling een rapport wilt genereren, wordt het dialoogvenster Transcripten voor lerenden weergegeven wanneer u op de **[!UICONTROL knop Nieuw]** genereren klikt.
 
 ![](assets/history-lt.png)
 
-*Een rapport genereren van alle studenttranscripten*
+*Een rapport genereren met alle transcripties van studenten*
 
 Klik op **[!UICONTROL Geavanceerde Opties]** en vouw het venster uit.
 
@@ -125,45 +125,45 @@ Kies de gebruikers en de catalogus waartoe ze behoren. Nadat u op de knop **[!UI
 
 Het transcript wordt op de achtergrond gegenereerd, zodat u uw taken in Learning Manager kunt voortzetten. Zodra het transcript is gegenereerd, kunt u het transcript uit de lijst downloaden.
 
-Als beheerder kunt u alle transcripten bekijken die door iedereen in het systeem zijn gegenereerd.
+Als beheerder kunt u alle transcripties bekijken die door iedereen in het systeem zijn gegenereerd.
 
 ![](assets/download-history.png)
 
-*Geschiedenis van downloads weergeven*
+*De geschiedenis van downloads bekijken*
 
 De lijst met downloads geeft de volgende attributen weer:
 
-* **Studenten:** De studenten/studentengroepen waarvan de transcripten moeten worden gedownload.
+* **Studenten:** de groepen studenten/studenten waarvan de transcripties moeten worden gedownload.
 * **Extra gegevens opgenomen:** afhankelijk van de extra gegevens die de beheerder wil downloaden via de optie Geavanceerd in het modale venster Studenttranscript toevoegen.
-* **Status:** Gedownload, in de wachtrij geplaatst of in uitvoering.
+* **Status:** Gedownload, in wachtrij of in uitvoering.
 * **Van** en **Tot**: duur van het downloaden van de transcripten.
 * **Toegepaste filters:** of u de filters voor inschrijfstatus hebt toegepast.
-* **Genereert door:** De gebruikers-id van de gebruiker van de Learning Manager die om het downloaden heeft verzocht.
-* **Status:** Gedownload, in de wachtrij geplaatst of in uitvoering.
+* **Gegenereerd door:** De gebruikers-id van de Learning Manager-gebruiker die de download heeft aangevraagd.
+* **Status:** Gedownload, in wachtrij of in uitvoering.
 
 U kunt de download op elk moment annuleren. Learning Manager verstuurt een in-app melding naar de gebruiker die het transcript van de student heeft geactiveerd, als de taak door de beheerder is geannuleerd.
 
 ![](assets/queued-status.png)
 
-*Downloadwachtrij voor studenttranscript*
+*Wachtrij voor het downloaden van het transcript voor lerende studenten*
 
-U kunt **annuleren** de download op elk gewenst moment. Als een taak wordt geannuleerd, stuurt Leermanager een melding in de app naar de gebruiker die de taak heeft geannuleerd.
+Je kunt **de download op elk moment annuleren** . Als een taak is geannuleerd, stuurt Learning Manager een in-app melding naar de gebruiker die de taak heeft geannuleerd.
 
 ## Gegevens van verwijderde studenten {#dataofdeletedlearners}
 
-U kunt de gegevens van verwijderde studenten opnemen in de lijst met studenttranscripten. Schakel in het dialoogvenster Studenttranscripten de optie **[!UICONTROL Inclusief gegevens van verwijderde studenten]**.
+U kunt de gegevens van verwijderde studenten opnemen in de lijst met studenttranscripten. Schakel in het dialoogvenster Transcripten van lerende de optie **[!UICONTROL Gegevens van verwijderde studenten]** opnemen in.
 
 Nadat u de optie hebt ingeschakeld en op **[!UICONTROL Genereren]** hebt geklikt, staan de gegevens van verwijderde studenten op de downloadpagina Studenttranscript, zoals hieronder weergegeven:
 
 ![](assets/deleted-learnersondownloadpage.png)
 
-*Gegevens van verwijderde studenten weergeven*
+*Gegevens van verwijderde learbers weergeven*
 
 ## Kolommen aanpassen {#customize-columns-lt}
 
 Een beheerder kan de geëxporteerde kolommen in een studenttranscriptrapport aanpassen. Beheerders, aangepaste beheerders en managers kunnen de kolommen configureren voordat ze het rapport exporteren.
 
-Op de **[!UICONTROL Studenttranscripten]** dialoogvenster, klikken **[!UICONTROL Geavanceerde opties]**. In het dialoogvenster **[!UICONTROL Exportindeling configureren]** de kolommen kiezen die u wilt exporteren.
+Klik in het **[!UICONTROL dialoogvenster Transcripties]** voor lerende op **[!UICONTROL Geavanceerde opties]**. Kies in de **[!UICONTROL sectie Exportindeling]** configureren de kolommen die u wilt exporteren.
 
 ![](assets/image024.png)
 
@@ -173,11 +173,11 @@ Aanpassing is alleen toegestaan &#x200B;&#x200B;wanneer een gebruiker het studen
 
 ## Inhoud van het studenttranscriptbestand {#learnertranscriptfilecontent}
 
-Een typisch studenttranscriptbestand bestaat uit zes Excel-bladen in één bestand. De studenttranscriptbladen geven een algemeen inzicht in gegevens, waaronder het aantal studenten per cursus, hun vaardigheden, het voltooiingspercentage op basis van de cursus of student en een dashboard Naleving. De volgende dashboards zijn beschikbaar in studenttranscripten:
+Een typisch studenttranscriptbestand bestaat uit zes Excel-bladen in één bestand. De transcriptbladen voor de leerders geven een algemeen inzicht in gegevens, met inbegrip van het aantal betrokken studenten per cursus, hun vaardigheden, het voltooiingspercentage op basis van een cursus of leerling, en een nalevingsdashboard. De volgende dashboards zijn beschikbaar in studenttranscripten:
 
 **Studenttranscript**
 
-Naast profielgegevens van de student staan in het Excel-blad van het studenttranscript details van gevolgde leerobjecten, zoals inschrijvingsdatum, startdatum, behaalde cijfers en behaalde quizscore. Als cursussen deel uitmaken van een leerprogramma, worden ze apart vermeld, los van de individuele gegevens over het cursusverbruik.
+Naast profielgegevens van de student staan in het Excel-blad van het studenttranscript details van gevolgde leerobjecten, zoals inschrijvingsdatum, startdatum, behaalde cijfers en behaalde quizscore. Als cursussen deel uitmaken van een leerprogramma, worden ze afzonderlijk vermeld, afgezien van informatie over individueel gebruik van de cursus.
 
 **1- Dashboard Leeractiviteit**
 
@@ -197,7 +197,7 @@ Op het vaardighedenblad staan de vaardigheidsnaam, het vaardigheidsniveau, de ve
 
 ![](assets/skills-learner-transcript.png)
 
-*Voorbeeld van het Excel-vaardighedenblad*
+*Voorbeeld van de Excel-werkblad vaardigheden*
 
 **1- Dashboard Vaardigheden**
 
@@ -223,15 +223,15 @@ De minuten van de waarden in de volgende kolommen worden afgrond tot op de dicht
 
 ![](assets/time-columns-in-thetranscript.png)
 
-*Tijd- en datumkolommen op het Excel-werkblad*
+*De kolommen Tijd en datum in het Excel-werkblad*
 
 ### Tijdsduur van de module en ID-kolommen in het transcript {#moduledurationandidcolumnsinthetranscript}
 
-Het Studenttranscript geeft ook de kolommen weer: **[!UICONTROL Moduleduur]** en **[!UICONTROL ID]**.
+In het transcript worden ook de kolommen **[!UICONTROL Duur en**[!UICONTROL  Id ]**van de module]** weergegeven.
 
 ![](assets/lt-id-duration.png)
 
-*Moduleduur en id-kolommen in het transcript*
+*De kolommen Duur en Id van de module in het transcript*
 
 ### ANDERE kolommen in het transcript {#ModuledurationandIDcolumnsinthetranscript-1}
 
@@ -246,5 +246,5 @@ Het Studenttranscript geeft ook de kolommen weer: **[!UICONTROL Moduleduur]** en
 | Aantal vaardigheden dat moet worden opgefrist | Aantal studenten dat vaardigheden moet opfrissen |
 | Nalevingspercentage | Het vooruitgangspercentage van de toegewezen vaardigheid |
 | Ingesloten pad | In deze rijen wordt de naam van het ingesloten leerprogramma weergegeven. |
-| Ingesloten pad-ID | In deze rijen worden de id&#39;s van het ingesloten leerprogramma weergegeven |
+| Ingesloten pad-ID | Deze rijen tonen de id&#39;s van het ingesloten leerprogramma |
 | Taal ingesloten pad | Deze rijen tonen de taal waarin het leerprogramma is opgesteld. |
