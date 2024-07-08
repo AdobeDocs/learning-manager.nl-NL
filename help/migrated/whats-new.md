@@ -1,16 +1,16 @@
 ---
 description: Meer informatie over de nieuwe functies en verbeteringen in de release van Adobe Learning Manager van juli 2024
 jcr-language: en_us
-title: Nieuw in deze release
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+title: Overzicht van nieuwe functies
+source-git-commit: 7e3b19d29b9de23ea489c5651ef0aef1d4ec3005
 workflow-type: tm+mt
-source-wordcount: '2170'
-ht-degree: 3%
+source-wordcount: '2178'
+ht-degree: 2%
 
 ---
 
 
-# Nieuw in deze release {#whatsnewandchanged}
+# Overzicht van nieuwe functies {#new-features-summary}
 
 Meer informatie over de nieuwe functies en verbeteringen in de release van Adobe Learning Manager van juli 2024.
 
@@ -77,7 +77,7 @@ Zonder aanmelding kunt u een realtime-ervaring creëren voor niet-aangemelde kla
 
 ### Wat er verandert in deze versie
 
-Klanten kunnen een premiumlidmaatschap aanschaffen om deze zeer schaalbare, niet-aangemelde gebruikerservaring te ontwikkelen. Deze niet-geregistreerde ervaring, mogelijk gemaakt door [Toegang](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access) tot trainingsgegevens, biedt realtime-gegevens over limieten, ingenomen licenties, limieten voor wachtlijsten en aantal wachtlijsten met behulp van ADOBE Learning Manager-API&#39;s. Klanten kunnen deze API&#39;s gebruiken om zoek- en filtermogelijkheden en een volledig cursusoverzicht te bieden aan studenten die niet zijn aangemeld.
+Klanten kunnen een premiumlidmaatschap aanschaffen om deze zeer schaalbare, niet-aangemelde gebruikerservaring te ontwikkelen. Deze niet-geregistreerde ervaring, mogelijk gemaakt door [Toegang](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access) tot trainingsgegevens, biedt realtime-gegevens over limieten, ingenomen licenties, limieten voor wachtlijsten en aantal wachtlijsten met behulp van ADOBE Learning Manager-API&#39;s. Klanten kunnen deze API&#39;s gebruiken om zoek- en filtermogelijkheden en een volledig cursusoverzicht te bieden aan studenten die niet zijn aangemeld. Raadpleeg dit artikel [Niet-aangemelde API&#39;s](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) voor meer informatie over de API&#39;s.
 
 >[!NOTE]
 >
@@ -337,4 +337,4 @@ Bekijk de [systeemvereisten](/help/migrated/system-requirements.md) voor Adobe L
 ## Eerdere releases van Adobe Learning Manager
 
 * [Versie van maart 2024](/help/migrated/whats-new-march-2024.md)
-* [Versie van november 2024](/help/migrated/whats-new-november-2023.md)
+* [Versie van november 2023](/help/migrated/whats-new-november-2023.md)
