@@ -1,12 +1,12 @@
 ---
-description: Lees dit artikel om te weten te komen hoe u terminologieën instelt in de gebruikersinterface.
+description: Adobe Learning Manager gebruikt een standaardset terminologieën in de gebruikersinterface. Als beheerder kunt u de terminologieën aanpassen aan de behoeften van uw organisatie.
 jcr-language: en_us
 title: Productterminologie
 contentowner: chandrum
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: b48e97151c95c55db72f91a2b187189c786d43ae
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 65%
+source-wordcount: '278'
+ht-degree: 72%
 
 ---
 
@@ -80,6 +80,5 @@ De terminologieën worden teruggezet naar de oorspronkelijke naam.
 De terminologiewijzigingen zijn niet van toepassing op:
 
 * E-mailsjablonen (**[!UICONTROL Beheerder]** > **[!UICONTROL E-mailsjablonen]**)
-
 * Rapporten (**[!UICONTROL Beheerder]** > **[!UICONTROL Rapporten]**)
 
