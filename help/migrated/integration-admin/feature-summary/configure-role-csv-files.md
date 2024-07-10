@@ -4,10 +4,10 @@ title: Aangepaste rollen via CSV-bestanden beheren
 description: De integratiebeheerder kan via CSV een aantal aangepaste rollen in bulk aan zijn/haar account toevoegen en deze aan verschillende gebruikers toewijzen. Deze aanpak automatiseert het maken van aangepaste rollen.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 83%
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
@@ -19,14 +19,16 @@ U kunt rollen configureren via de Learning Manager FTP en Box-connectors.
 
 Nadat u zich hebt aangemeld bij uw Box-opslagaccount, kan de integratiebeheerder de volgende CSV&#39;s toevoegen aan het account:
 
+* user.csv
 * role.csv
 * user_role.csv
 
 Download om te beginnen de CSV&#39;s en pas de waarden aan uw vereisten aan.
 
-**role.csv**
 * Voorbeeldbestand: [role.csv](assets/role.csv)
 * Voorbeeldbestand: [user_role.csv](assets/user_role.csv)
+
+**role.csv**
 
 <table>
  <tbody>
@@ -147,10 +149,10 @@ Als er Catalogusnamen of namen van Gebruikersgroepen in de CSV worden vermeld, w
 
 Kies in uw Box-account **Importeren > gebruiker > intern** en upload de bestanden role.csv en user_role.csv.
 
-* De aangepaste CSV&#39;s moeten worden gekopieerd in de map &quot;import->user->internal->user_role&quot;
-* De gebruikers-CSV moet worden gekopieerd in de map &quot;import->user->internal&quot;
+* De bestanden role.csv en user_role.csv moeten naar de map worden gekopieerd **Importeren** > **gebruiker** > **internal** > **user_role**.
+* De user.csv moet in de map worden gekopieerd **Importeren** > **gebruiker** > **internal**.
 
-Beide CSV&#39;s mogen alleen via Box of FTP worden geüpload en kunnen niet via UI worden geüpload.
+Beide CSV&#39;s moeten alleen via Box worden geüpload en kunnen niet via UI worden geüpload.
 
 >[!NOTE]
 >

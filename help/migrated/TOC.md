@@ -2,42 +2,42 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: 5769b88c430cc5c0cfccaa75ceaca4862ee7e52e
+source-git-commit: 6b26c48e3195b76b30bb837b37a40a1484d72c5d
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '601'
 ht-degree: 88%
 
 ---
 
 
-# Gids voor leermanagers {#using}
+# Leermanshandleiding {#using}
 
 * [Gebruikersgids voor Learning Manager](user-guide.md)
-* Introductie {#introduction}
+* Inleiding {#introduction}
    * [Overzicht van nieuwe functies](whats-new.md)
    * [Nieuwe functies maart 2024](whats-new-march-2024.md)
    * [Nieuwe functies november 2023](whats-new-november-2023.md)
-   * [Nieuwe functies van juli 2023](whats-new-2023-july.md)
+   * [Nieuwe functies juli 2023](whats-new-2023-july.md)
    * [Nieuwe functies april 2023](whats-new-2023-april.md)
    * [Nieuwe functies november 2022](whats-new-2022-november.md)
    * [Aanvullende informatie](release-note/release-notes.md)
    * [Systeemvereisten](system-requirements.md)
-   * [ALM-referentiesitepakket voor AEM-sites](adobe-learning-manager-integration-aem.md)
+   * [ALM-referentiesite voor AEM Sites](adobe-learning-manager-integration-aem.md)
    * [Adobe Learning Manager-app voor Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
    * [Learning Manager en naleving van AVG](kb/prime-gdpr.md)
    * [Toegankelijkheid in Learning Manager](accessibility-learning-manager.md)
    * [Ondersteuning voor aangepast domein](custom-domain.md)
    * [Aanbevelingen in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Overgang van Adobe FTP Manager](transition-from-ftp-manager.md)
-   * [Api-verouderde en gewijzigde functies in Adobe Learning Manager](api-deprecations-list.md)
-   * [Whitelabels in Adobe Learning Manager](white-label.md)
-* Slag {#get-started}
+   * [API-afwijzingen en -wijzigingen in Adobe Learning Manager](api-deprecations-list.md)
+   * [Whitelabeling in Adobe Learning Manager](white-label.md)
+* Aan de slag {#get-started}
    * [Aan de slag als beheerder](administrators/feature-summary/getting-started-admin.md)
    * [Aan de slag als auteur](authors/feature-summary/getting-started-author.md)
    * [Aan de slag als student](learners/feature-summary/getting-started-learner.md)
    * [Aan de slag voor managers](managers/feature-summary/getting-started-manager.md)
    * [Aan de slag als docent in Learning Manager](instructors/feature-summary/getting-started.md)
-* Administrateur {#admin}
+* Beheerder {#admin}
    * [Gebruikersaanmelding](administrators/feature-summary/user-login.md)
    * [Gebruikers toevoegen en gebruikersgroepen maken](administrators/feature-summary/add-users-user-groups.md)
    * [Locaties van klaslokalen toevoegen](administrators/feature-summary/classroom.md)
@@ -80,9 +80,10 @@ ht-degree: 88%
    * [Volledig beheer van gedeelde catalogus inschakelen](administrators/feature-summary/shared-catalog-full-control.md)
    * [Vaardigheid toewijzen aan vaardigheidsdomeinen](administrators/feature-summary/curation-skills.md)
    * [Systeemeigen uitbreidbaarheid](administrators/feature-summary/native-extensibility.md)
-   * [Meervoudige inschrijving](administrators/feature-summary/multiple-enrollment.md)
+   * [Meerdere inschrijvingen](administrators/feature-summary/multiple-enrollment.md)
    * [Niet-aangemelde ervaring voor studenten](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Leerprogramma&#39;s](administrators/feature-summary/learning-programs.md)
+   * [Productterminologie](administrators/feature-summary/product-terminology.md)
 * Integratiebeheerder {#integration}
    * [Migratiehandleiding](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager-connectoren](integration-admin/feature-summary/connectors.md)
@@ -94,7 +95,7 @@ ht-degree: 88%
    * [Learning Manager-app voor Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Instellingen](integration-admin/feature-summary/settings.md)
    * [Aangepaste rollen via CSV-bestanden beheren](integration-admin/feature-summary/configure-role-csv-files.md)
-* Authors {#authors}
+* Auteurs {#authors}
    * [Gebruikersaanmelding](authors/feature-summary/user-login.md)
    * [Inhoudsbibliotheek](authors/feature-summary/content-library.md)
    * [Cursussen maken, aanpassen en publiceren](authors/feature-summary/courses.md)
@@ -107,10 +108,10 @@ ht-degree: 88%
    * [Hoe kan ik cursusmodules kiezen?](authors/how-to-choose-modules.md)
    * [Voorbeeld bekijken als student](authors/feature-summary/fluidic-player.md)
    * [Instellingen](authors/feature-summary/settings.md)
-* Instructeur {#instructor}
+* Docent {#instructor}
    * [Modules](instructors/feature-summary/modules.md)
    * [Studenten beheren voor uw sessie](instructors/feature-summary/learners.md)
-* Leerling {#learner}
+* Student {#learner}
    * [Aanmelden](learners/feature-summary/user-login.md)
    * [Profielinstellingen](learners/feature-summary/settings.md)
    * [Catalogi](learners/feature-summary/catalogs.md)
@@ -119,7 +120,7 @@ ht-degree: 88%
    * [Leerprogramma&#39;s](learners/feature-summary/learning-programs.md)
    * [Certificeringen](learners/feature-summary/certifications.md)
    * [Taakhulpen](learners/feature-summary/job-aids.md)
-   * [Winkelwagen met meerdere items in ALM](learners/feature-summary/multi-item-cart.md)
+   * [Meerdere items winkelwagentje in ALM](learners/feature-summary/multi-item-cart.md)
    * [Badges](learners/feature-summary/badges.md)
    * [Vaardigheden en niveaus](learners/feature-summary/skills-levels.md)
    * [Gamification](learners/feature-summary/gamification.md)
@@ -134,7 +135,7 @@ ht-degree: 88%
    * [Startpagina Student](learners/feature-summary/learner-home-page.md)
    * [Delen naar Sociaal Leren](learners/feature-summary/share-to-social.md)
    * [Systeemvereisten | Adobe Learning Manager-desktopapplicatie](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
-* Directeur {#manager}
+* Manager {#manager}
    * [Gebruikersaanmelding](managers/feature-summary/user-login.md)
    * [Managerdashboard](managers/feature-summary/manager-dashboard.md)
    * [Rapporten](managers/feature-summary/reports.md)
@@ -148,7 +149,7 @@ ht-degree: 88%
    * [Veelgestelde vragen voor auteurs](authors/frequently-asked-questions-for-authors.md)
    * [Veelgestelde vragen voor docenten](instructors/frequently-asked-questions-for-instructors.md)
    * [Veelgestelde vragen voor managers](managers/frequently-asked-questions-for-managers.md)
-* Knowledge base {#knowledge-base}
+* Knowledge Base {#knowledge-base}
    * [Ik kan me niet aanmelden bij Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Overzicht van leermateriaal toont niet de huidige gegevens](kb/learning-summary-not-display-data.md)
    * [Kan geen CSV uploaden](kb/unable-to-upload-csv.md)

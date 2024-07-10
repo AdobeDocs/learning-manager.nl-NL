@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Instellingen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fbab332b92dd6d017c2517d7df09a4c37ce3f6bf
+source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
 workflow-type: tm+mt
-source-wordcount: '3985'
-ht-degree: 66%
+source-wordcount: '3836'
+ht-degree: 68%
 
 ---
 
@@ -483,24 +483,6 @@ Gemengd\
 Klaslokaal\
 Virtueel klaslokaal\
 Activiteit
-
-U kunt dit als volgt doen.
-
-1. Als beheerder klikt u op **[!UICONTROL Instellingen]** > **[!UICONTROL Algemeen]** > **[!UICONTROL Productterminologie]**. De optie voor productterminologie wordt geopend.
-
-   ![](assets/product-terminology.png)
-
-   *Productterminologie hernoemen*
-
-1. U kunt wijzigingen aanbrengen door een aangepaste sjabloon voor productterminologie te uploaden door het CSV-voorbeeldbestand te downloaden. Als u het voorbeeld-CSV-bestand wilt downloaden, klikt u op de knop **[!UICONTROL Hier downloaden]** gebruiken.
-1. Het gedownloade CSV-bestand bevat de naam van de objecten in kolom A. Kies in kolom B de naam die u aan het desbetreffende object wilt toewijzen. Houd er rekening mee dat u de enkelvouds- en meervoudsvorm van de naam moet scheiden door een (|).
-1. U kunt ervoor kiezen een of meer rijen te wijzigen. U kunt de ongewijzigde rijen behouden of uit het CSV-bestand verwijderen voordat u ze uploadt.
-1. Upload het gewijzigde CSV-bestand en klik op **[!UICONTROL Opslaan]**. Learning Manager wordt ververst om uw wijzigingen te bekrachtigen.
-1. Als u de standaardterminologie wilt herstellen, klikt u op **[!UICONTROL Productterminologie herstellen]**.
-
-   ![](assets/with-reset-option.png)
-
-   *Productterminologie herstellen*
 
 ## Profielinstellingen {#profilesettings}
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Cursusmodules, instanties en leerprogramma's maken
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '4746'
-ht-degree: 63%
+source-wordcount: '4868'
+ht-degree: 62%
 
 ---
 
@@ -62,7 +62,7 @@ Als u een instantie wilt maken,
 
    *Einddeadline instellen*
 
-## Eigenschappen van de instantie weergeven {#viewpropertiesoftheinstance}
+### Eigenschappen van de instantie weergeven {#viewpropertiesoftheinstance}
 
 ![](assets/properties-of-aninstance.png)
 
@@ -73,7 +73,11 @@ Als u een instantie wilt maken,
 1. **Sessies:** Het aantal virtuele klassikale en klassikale modules in de cursus.
 1. **Feedback ingeschakeld:** Geeft aan of L1-, L2- en L3-feedback is ingeschakeld voor deze cursus.
 
-## Instantie archiveren {#retireaninstance}
+>[!NOTE]
+>
+>De beheerder annuleert de sessies door naar Instanties > Sessies te gaan en Sessie annuleren te selecteren.
+
+### Instantie archiveren {#retireaninstance}
 
 Voer de onderstaande stappen uit om een instantie te archiveren:
 
@@ -85,7 +89,7 @@ Voer de onderstaande stappen uit om een instantie te archiveren:
 
 1. Klik op het tabblad **[!UICONTROL Gearchiveerd]** op de pagina Instanties om naar alle gearchiveerde instanties te zoeken.
 
-## Instantie herstellen {#restoreaninstance}
+### Instantie herstellen {#restoreaninstance}
 
 Voer de volgende stappen uit om een gearchiveerde instantie te herstellen naar een actieve status:
 
@@ -97,7 +101,7 @@ Voer de volgende stappen uit om een gearchiveerde instantie te herstellen naar e
 
 1. De instantie wordt nu hersteld naar een actieve modus.
 
-## Instantie verwijderen
+### Instantie verwijderen
 
 Beheerders kunnen de instantie verwijderen met **Dit exemplaar verwijderen** onmiddellijk na het maken. U kunt geen instanties verwijderen als er een bijbehorende sessie is of als er studenten voor zijn ingeschreven.
 
@@ -109,7 +113,7 @@ Beheerders kunnen de instantie verwijderen met **Dit exemplaar verwijderen** onm
 >
 >U kunt de standaardinstantie niet verwijderen.
 
-## E-mails op instantieniveau verzenden
+### E-mails op instantieniveau verzenden
 
 E-mails op instantieniveau verzenden naar ingeschreven studenten:
 
@@ -129,7 +133,7 @@ E-mails op instantieniveau verzenden naar ingeschreven studenten:
 
    ![Aankondiging is gemaakt](assets/announcement-successful.png)
 
-### Studenten inschrijven voor cursussen
+## Studenten inschrijven voor cursussen
 
 In deze training leert u studenten inschrijven, uitschrijven en opnieuw inschrijven.
 
@@ -145,7 +149,7 @@ Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
    ![Studenten inschrijven](assets/enroll-learners-new.png)
 
-   *Cursus publiceren*
+   *De cursus Publish*
 
 1. In het dialoogvenster [!UICONTROL **Studenten inschrijven**] kunt u:
 
@@ -196,42 +200,57 @@ Het Excel-bestand bevat werkbladen voor elke instantie. Een werkblad bestaat uit
 >
 >Als u een automatiseringsinstelling hebt ingesteld die slechts één rij per cursus verwacht, moet u de vereiste aanpassingen in de rapportautomatisering aanbrengen voordat u de functie voor meervoudige inschrijving inschakelt.
 
-## Escalatieniveau instellen {#escalation}
+### Studenten voor een cursus beheren {#managelearnerslistforacourse}
 
-Als een beheerder de e-mailmeldingen wil verzenden, moet deze er expliciet voor kiezen om te escaleren naar:
+1. Klik op de naam van de cursus op de cursusminiatuur.
+1. Klik in het linkerdeelvenster op **[!UICONTROL Studenten]**.
 
-* Manager
-* Manager en Niveau manager overslaan
+![](assets/courses-learners.png)
 
-![](assets/escalation-notification.png)
+*Studenten in een cursus selecteren*
 
-*escalatieniveau instellen*
+Op de pagina Studenten kunt u de volgende acties uitvoeren:
+
+* Selecteer de student die u wilt verwijderen en klik op [!UICONTROL **Handelingen**] > [!UICONTROL **Verwijderen**].
+* Selecteer de student van wie u de aanwezigheid wilt markeren en klik op [!UICONTROL **Handelingen**] > [!UICONTROL **Markeren als voltooid**].
+
+Als u studenten wilt toestaan een module opnieuw in te stellen en de module opnieuw te gebruiken, klikt u op [!UICONTROL **Herstellen**]. Klik op Ja in het pop-upvenster om de actie te bevestigen. Modules die zijn voltooid, kunnen niet opnieuw worden ingesteld. Alleen mislukte of onvolledige modules kunnen opnieuw worden ingesteld.
+
+U kunt de lijst met studenten ook naar Excel-blad exporteren. Als u de lijst met studenten wilt exporteren, klikt u op [!UICONTROL **Handelingen**] > [!UICONTROL **Exporteren**].
+
+>[!NOTE]
+>
+>Als een cursus meerdere instanties heeft, wordt de lijst met studenten in Excel op elk tabblad afzonderlijk weergegeven. In de lijst met studenten staan naam, status en selectiecriteria van de student. De status van studenten kan **Niet gestart**, of **In uitvoering**, of **Voltooid**.
+
+### Studenten exporteren met de status In afwachting van goedkeuring
+
+Een beheerder, manager of aangepaste beheerder kan gegevens van studenten exporteren die de status In afwachting van goedkeuring voor inschrijving hebben. U kunt de gegevens exporteren via het tabblad **Cursus > Student** en op de vervolgkeuzelijst Actie klikken.
+
+De optie is aanwezig als er geen student is ingeschreven of als een student niet in afwachting van goedkeuring is voor de door de manager goedgekeurde cursus. Er wordt dan een leeg rapport gegenereerd. U kunt ook exporteren wanneer studenten zich in de status In afwachting van goedkeuring, Ingeschreven, In afwachting en Uitgeschreven bevinden.
+
+Het rapport bevat gegevens van actieve, verwijderde en geblokkeerde gebruikers als ze in afwachting van goedkeuring zijn. Het rapport bevat ook gegevens van interne en externe gebruikers die zich in de goedkeuringsstatus bevinden.
+
+Als een student die eerder de status In afwachting van goedkeuring had, zich uitschrijft, zal zijn/haar record niet aanwezig zijn in het rapport. Ook als een student die eerder de status In afwachting van goedkeuring had, is ingeschreven voor de cursus door een beheerder/manager/aangepaste beheerder, dan is zijn/haar record aanwezig in het rapport.
 
 ## Wachtlijst
 
 In de sectie Wachtlijst kunnen studenten op basis van hun inschrijvingsvolgorde voor klassikale cursussen worden weergegeven wanneer de plaatsen beperkt zijn. Beheerders kunnen dit beheren door studenten op de wachtlijst te selecteren en plaatsen toe te wijzen die de oorspronkelijke limiet overschrijden. Nadat de beheerder een licentie heeft toegewezen, wordt de student onmiddellijk ingeschreven voor de cursus.
 
-## Discussieboard
+## Aanwezigheid van studenten exporteren {#attendance}
 
-Met de functie Discussieboard kunnen studenten de cursusdiscussies bekijken. Als beheerder kunt u opmerkingen naar wens verwijderen. Beheerders kunnen deze optie inschakelen onder cursusinstellingen.
+U kunt voor elk klaslokaal en elke VC-cursus de lijst met studenten downloaden die deze cursus hebben bijgewoond, voor elke instantie.
 
-## Cursusmoderatie {#coursemoderation}
+Klik op de pagina Cursusdetails in het rechterdeelvenster op **[!UICONTROL Aanwezigheid en scores]**.
 
-Telkens wanneer een auteur modules toevoegt, bijwerkt of verwijdert en een cursus opnieuw publiceert, ontvangen alle beheerders hierover een melding. Als beheerder kunt u vervolgens de wijzigingen bekijken, de oude en nieuwe inhoud vergelijken door op de link te klikken, en de wijzigingen goedkeuren of afwijzen.
+Klik in de rechterbovenhoek van de pagina op de vervolgkeuzelijst **[!UICONTROL Acties]**. Klik vervolgens op de optie **[!UICONTROL Studentenlijst exporteren (PDF)]**.
 
-Klik op **[!UICONTROL Instellingen]** > **[!UICONTROL Algemeen]**. Selecteer het vakje **[!UICONTROL Cursusmoderatie]** om deze functie in te schakelen.
+![](assets/export-list-of-learners.png)
 
-![](assets/2.png)
+*Lijst met studenten exporteren als PDF*
 
-*Cursusmoderatie inschakelen*
+In de PDF kunt u dezelfde set studenten bekijken als een docent.
 
-Klik op de melding om te zien wat de auteur in de cursus heeft gewijzigd. Vervolgens moet u de aangebrachte wijzigingen goedkeuren of afwijzen. Als u deze goedkeurt, wordt de cursus opnieuw gepubliceerd. Als u de updates afwijst, wordt de vorige versie van de cursus behouden. In beide gevallen wordt de auteur een melding gestuurd.
-
-![](assets/1.png)
-
-*Aanvragen van auteurs voor cursusupdates*
-
-Als meerdere auteurs dezelfde cursus bijwerken, wordt de laatste of de laatst uitgevoerde wijziging in de beheerdersmelding weergegeven. U kunt dan de laatste wijzigingen goedkeuren of afwijzen.
+Wanneer u de PDF downloadt, kunt u de tijdzone (UTC) zien die is gebruikt bij het maken van de cursus.
 
 ## L1- en L3-feedback toevoegen {#addl1andl3feedback}
 
@@ -243,7 +262,7 @@ U kunt L1- en L3-feedbackopties toevoegen terwijl u de cursussen maakt:
 1. Klik op de cirkel op de wisselknop naast L1- of L3-feedback om deze in te schakelen.
 1. Voeg de L3-feedbackvraag in het tekstgebied onder L3-vraag toe.
 
-## Verplichte L1-feedback {#mandatory-l1-feedback}
+### Verplichte L1-feedback {#mandatory-l1-feedback}
 
 In L1-feedback kunt u alle vragen of de eerste vraag verplicht stellen.
 
@@ -269,7 +288,7 @@ Als u deze optie inschakelt, wordt op de pagina Standaardinstellingen **[!UICONT
 
 *De pagina Standaardinstellingen voor instanties weergeven*
 
-## L1-feedback op cursusniveau {#l1-feedback-course-level}
+### L1-feedback op cursusniveau {#l1-feedback-course-level}
 
 In eerdere versies van Learning Manager kon een beheerder L1-feedback voor het leerprogramma inschakelen.
 
@@ -293,7 +312,7 @@ In deze release van Learning Manager kan de beheerder L1-feedback sturen voor al
 
    Als L1-feedback voor alle cursussen is ingeschakeld, maar in de leerprogrammainstantie is uitgeschakeld, wordt de L1-feedback niet geactiveerd voor de cursussen.
 
-## Taalspecifieke quizrapporten
+### Taalspecifieke quizrapporten
 
 Quizrapporten helpen bij het evalueren van de prestaties van een student na voltooiing van een leerprogramma of cursus.
 
@@ -303,7 +322,7 @@ Quizrapporten geven gegevens in verschillende talen weer als de cursus in meerde
 
 Dit is nu verholpen omdat de beheerder nu alle rapporten in de respectievelijke taal die de student heeft geprobeerd in één keer kan bekijken ongeacht de gekozen taalinstelling. De geprobeerde quiz wordt in verschillende talen toegevoegd als extra kolommen in het quizrapport.
 
-## L1-feedback op accountniveau inschakelen {#l1-feedback-account-level}
+### L1-feedback op accountniveau inschakelen {#l1-feedback-account-level}
 
 *L1-feedback op accountniveau inschakelen*
 
@@ -329,7 +348,7 @@ U kunt de L1-feedback ook uitschakelen door de **[!UICONTROL Inschakelen]** zoal
 
 *L1-feedback in- of uitschakelen*
 
-## Beschrijvende vragen toevoegen voor L1- en L3-feedback {#descriptive}
+### Beschrijvende vragen toevoegen voor L1- en L3-feedback {#descriptive}
 
 Als onderdeel van de november-release van Learning Manager is er nu een optie om beschrijvende vragen toe te voegen. Beheerders kunnen deze vragen aan studenten toevoegen. Deze is in aanvulling op de standaard vragenreeks van Learning Manager. U kunt deze desgewenst ook verplicht maken door de optie onder de vraag te kiezen.
 
@@ -363,7 +382,7 @@ Hieronder vindt u ter referentie een voorbeeld van de L3-vragenlijst. Studenten 
 
 *L3-feedbackuitvoer weergeven*
 
-## Vragenlijst voor L1- en L3-feedback instellen {#setupl1andl3feedbackquestionnaire}
+### Vragenlijst voor L1- en L3-feedback instellen {#setupl1andl3feedbackquestionnaire}
 
 U kunt de vragenlijst voor L1- en L3-feedback instellen evenals herinneringen op accountniveau.
 
@@ -379,6 +398,36 @@ U kunt de vragenlijst voor L1- en L3-feedback instellen evenals herinneringen op
 1. Klikken **[!UICONTROL Opslaan]** rechtsboven op de pagina.
 
 In L1-feedback ziet u twee sets vragenlijsten met een standaardvraag. De eerste set vragenlijsten heeft betrekking op cursussen op eigen tempo die ook kunnen worden gebruikt voor cursussen die op activiteiten zijn gebaseerd. Tweede set vragenlijsten kan worden gebruikt voor cursussen van het type klaslokaal en virtueel klaslokaal.
+
+## L1- en L3-feedback weergeven {#viewl1andl3feedback}
+
+U kunt de L1-feedback van studenten voor een cursus en de L3-feedback van de managers voor studenten weergeven.
+
+1. Klik op een willekeurige tegel in de lijst Cursussen.
+1. Klik op L1-feedback of L3-feedback in het linkerdeelvenster om de ontvangen feedback te bekijken.
+1. Selecteer een instantie in de vervolgkeuzelijst om de feedback voor die specifieke instantie te bekijken.
+
+## Discussieboard
+
+Met de functie Discussieboard kunnen studenten de cursusdiscussies bekijken. Als beheerder kunt u opmerkingen naar wens verwijderen. Beheerders kunnen deze optie inschakelen onder cursusinstellingen.
+
+## Cursusmoderatie {#coursemoderation}
+
+Telkens wanneer een auteur modules toevoegt, bijwerkt of verwijdert en een cursus opnieuw publiceert, ontvangen alle beheerders hierover een melding. Als beheerder kunt u vervolgens de wijzigingen bekijken, de oude en nieuwe inhoud vergelijken door op de link te klikken, en de wijzigingen goedkeuren of afwijzen.
+
+Klik op **[!UICONTROL Instellingen]** > **[!UICONTROL Algemeen]**. Selecteer het vakje **[!UICONTROL Cursusmoderatie]** om deze functie in te schakelen.
+
+![](assets/2.png)
+
+*Cursusmoderatie inschakelen*
+
+Klik op de melding om te zien wat de auteur in de cursus heeft gewijzigd. Vervolgens moet u de aangebrachte wijzigingen goedkeuren of afwijzen. Als u deze goedkeurt, wordt de cursus opnieuw gepubliceerd. Als u de updates afwijst, wordt de vorige versie van de cursus behouden. In beide gevallen wordt de auteur een melding gestuurd.
+
+![](assets/1.png)
+
+*Aanvragen van auteurs voor cursusupdates*
+
+Als meerdere auteurs dezelfde cursus bijwerken, wordt de laatste of de laatst uitgevoerde wijziging in de beheerdersmelding weergegeven. U kunt dan de laatste wijzigingen goedkeuren of afwijzen.
 
 ## Gegevens controlelijst exporteren {#export-checklist-data}
 
@@ -429,61 +478,26 @@ U kunt de quizscores van een bepaalde cursus bekijken op basis van de gebruikers
 
 Kies het type instantie uit de vervolgkeuzelijst om de scores weer te geven op basis van elke instantie van de cursus.
 
-## Studenten voor een cursus beheren {#managelearnerslistforacourse}
+## Standaardinstantie
 
-1. Klik op de naam van de cursus op de cursusminiatuur.
-1. Klik in het linkerdeelvenster op **[!UICONTROL Studenten]**.
+Beheerders kunnen standaardbadges, gamificationinstellingen en herinneringen instellen in **[!UICONTROL Standaardinstantie]** pagina. Selecteer **[!UICONTROL Standaardinstantie]** > **[!UICONTROL Bewerken]**.
 
-![](assets/courses-learners.png)
+* **[!UICONTROL Badge]**: Selecteer de standaardbadges in de vervolgkeuzelijst.
+* **[!UICONTROL Gamification]**: Configureer gamificationinstellingen, inclusief punten voor voltooiing, vroegtijdige voltooiing en tijdige voltooiing. Beheerders kunnen instellingen op accountniveau selecteren of de gamificationpunten voor deze instantie aanpassen.
+* **[!UICONTROL Feedback op reacties van L1]**: Schakel vooraf gedefinieerde vragen in voor feedback van studenten wanneer de cursus is voltooid, met opties om vragen verplicht te stellen.
+***[!UICONTROL Feedback voor wijziging van L3-gedrag]**: Schakel feedbackvragen in voor de manager van de student wanneer de cursus is voltooid.
+***[!UICONTROL Instellingen voor herinneringen]**: Stel herinneringen voor deadlines in en beheer ze, met opties voor escalatie.
 
-*Studenten in een cursus selecteren*
+### Escalatieniveau instellen {#escalation}
 
-Op de pagina Studenten kunt u de volgende acties uitvoeren:
+Als een beheerder de e-mailmeldingen wil verzenden, moet deze er expliciet voor kiezen om te escaleren naar:
 
-* Selecteer de student die u wilt verwijderen en klik op [!UICONTROL **Handelingen**] > [!UICONTROL **Verwijderen**].
-* Selecteer de student van wie u de aanwezigheid wilt markeren en klik op [!UICONTROL **Handelingen**] > [!UICONTROL **Markeren als voltooid**].
+* Manager
+* Manager en Niveau manager overslaan
 
-Als u studenten wilt toestaan een module opnieuw in te stellen en de module opnieuw te gebruiken, klikt u op [!UICONTROL **Herstellen**]. Klik op Ja in het pop-upvenster om de actie te bevestigen. Modules die zijn voltooid, kunnen niet opnieuw worden ingesteld. Alleen mislukte of onvolledige modules kunnen opnieuw worden ingesteld.
+![](assets/escalation-notification.png)
 
-U kunt de lijst met studenten ook naar Excel-blad exporteren. Als u de lijst met studenten wilt exporteren, klikt u op [!UICONTROL **Handelingen**] > [!UICONTROL **Exporteren**].
-
->[!NOTE]
->
->Als een cursus meerdere instanties heeft, wordt de lijst met studenten in Excel op elk tabblad afzonderlijk weergegeven. In de lijst met studenten staan naam, status en selectiecriteria van de student. De status van studenten kan **Niet gestart**, of **In uitvoering**, of **Voltooid**.
-
-## Aanwezigheid van studenten exporteren {#attendance}
-
-U kunt voor elk klaslokaal en elke VC-cursus de lijst met studenten downloaden die deze cursus hebben bijgewoond, voor elke instantie.
-
-Klik op de pagina Cursusdetails in het rechterdeelvenster op **[!UICONTROL Aanwezigheid en scores]**.
-
-Klik in de rechterbovenhoek van de pagina op de vervolgkeuzelijst **[!UICONTROL Acties]**. Klik vervolgens op de optie **[!UICONTROL Studentenlijst exporteren (PDF)]**.
-
-![](assets/export-list-of-learners.png)
-
-*Lijst met studenten exporteren als PDF*
-
-In de PDF kunt u dezelfde set studenten bekijken als een docent.
-
-Wanneer u de PDF downloadt, kunt u de tijdzone (UTC) zien die is gebruikt bij het maken van de cursus.
-
-## Studenten exporteren met de status In afwachting van goedkeuring
-
-Een beheerder, manager of aangepaste beheerder kan gegevens van studenten exporteren die de status In afwachting van goedkeuring voor inschrijving hebben. U kunt de gegevens exporteren via het tabblad **Cursus > Student** en op de vervolgkeuzelijst Actie klikken.
-
-De optie is aanwezig als er geen student is ingeschreven of als een student niet in afwachting van goedkeuring is voor de door de manager goedgekeurde cursus. Er wordt dan een leeg rapport gegenereerd. U kunt ook exporteren wanneer studenten zich in de status In afwachting van goedkeuring, Ingeschreven, In afwachting en Uitgeschreven bevinden.
-
-Het rapport bevat gegevens van actieve, verwijderde en geblokkeerde gebruikers als ze in afwachting van goedkeuring zijn. Het rapport bevat ook gegevens van interne en externe gebruikers die zich in de goedkeuringsstatus bevinden.
-
-Als een student die eerder de status In afwachting van goedkeuring had, zich uitschrijft, zal zijn/haar record niet aanwezig zijn in het rapport. Ook als een student die eerder de status In afwachting van goedkeuring had, is ingeschreven voor de cursus door een beheerder/manager/aangepaste beheerder, dan is zijn/haar record aanwezig in het rapport.
-
-## L1- en L3-feedback weergeven {#viewl1andl3feedback}
-
-U kunt de L1-feedback van studenten voor een cursus en de L3-feedback van de managers voor studenten weergeven.
-
-1. Klik op een willekeurige tegel in de lijst Cursussen.
-1. Klik op L1-feedback of L3-feedback in het linkerdeelvenster om de ontvangen feedback te bekijken.
-1. Selecteer een instantie in de vervolgkeuzelijst om de feedback voor die specifieke instantie te bekijken.
+*escalatieniveau instellen*
 
 ## Voorbeeld van cursussen bekijken {#previewcourses}
 
