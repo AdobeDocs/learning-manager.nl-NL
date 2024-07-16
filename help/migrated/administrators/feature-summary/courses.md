@@ -4,14 +4,14 @@ jcr-language: en_us
 title: Cursusmodules, instanties en leerprogramma's maken
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
+source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
 workflow-type: tm+mt
 source-wordcount: '4868'
-ht-degree: 62%
+ht-degree: 61%
 
 ---
 
-# Cursusmodules, instanties en leerprogramma&#39;s maken
+# Cursusmodules, instanties en leerpaden maken
 
 Dit document bestaat uit Help om cursusmodules, instanties en cursussen voor de beheerdersrol te maken.
 
@@ -27,10 +27,10 @@ Auteurs maken cursussen. Studenten kunnen de cursussen dan volgen en beheerders 
 
 >[!INFO]
 >
->In deze training leert u hoe u instantiedetails en instantie-eigenschappen kunt bewerken.<br><br>[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
+>In deze training leert u hoe u instantiedetails en instantie-eigenschappen kunt bewerken.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912) </br></br>
 
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ### Een instantie maken
 
@@ -43,30 +43,30 @@ Als u een instantie wilt maken,
 
    ![](assets/view-course.png)
 
-   *Een cursus weergeven*
+   *Mening een cursus*
 
 1. Klik op **[!UICONTROL Instanties]** aan de linkerkant van het venster om instanties te maken. Elke cursus heeft standaard een instantie. U kunt de standaardinstantie wijzigen of instanties toevoegen. U kunt deze cursusinstantie niet verwijderen.
 1. Klik op **[!UICONTROL Nieuwe instantie toevoegen]** rechtsboven van de cursusinformatie om een instantie te maken. Er wordt een nieuwe instantie van de cursus weergegeven.
 1. Voer de eigenschappen van de instantie in:
 
-   * In het dialoogvenster **[!UICONTROL Instantienaam]** voert u de naam in van de instantie die u aan de cursus wilt koppelen. Zorg ervoor dat u een unieke naam voor de instantie gebruikt.
+   * Op het **[!UICONTROL gebied van de Naam van de Instantie]**, ga de naam van de instantie in u met de cursus wilt associëren. Zorg ervoor dat u een unieke naam voor de instantie gebruikt.
    * Geef de voltooiingsdeadline voor de instantie op. Studenten moeten hun cursus vóór deze datum voltooien.
-   * Klikken **[!UICONTROL Meer opties tonen]** om andere deadline-opties weer te geven.
-   * **[!UICONTROL Deadline voor inschrijving]:** Dit is de datum waarop een student zich moet inschrijven voor een leerobject in geval van zelfinschrijving.
-   * **[!UICONTROL Deadline voor uitschrijving]:** U kunt uitschrijving door de student zelf beperken door een uitschrijvingsdeadline te hebben.
-   * **[!UICONTROL Tijdzone]:** Zoek en selecteer vervolgens de **[!UICONTROL Tijdzone]** uit de vervolgkeuzelijst.
+   * Klik **[!UICONTROL tonen Meer Opties]** om andere deadline opties te tonen.
+   * **[!UICONTROL Deadline van de Inschrijving ]:** dit is de datum waardoor een student naar verwachting in een het leren voorwerp in het geval van zelf-inschrijving moet inschrijven.
+   * **[!UICONTROL Deadline van de Uitschrijving ]:** u kunt verkiezen om uitschrijving door student zelf te beperken door een uitschrijvingsdeadline te hebben.
+   * **[!UICONTROL Tijdzone ]:** Onderzoek en selecteer dan de **[!UICONTROL Tijdzone]** van dropdown.
 
    Een beheerder kan besluiten om voltooiingsdeadlines voor een leerprogramma in te stellen afhankelijk van vereisten. Het is echter raadzaam er een te hebben voor klassikale/virtuele klassikale trainingen.
 
    ![](assets/create-an-instance.png)
 
-   *Einddeadline instellen*
+   *Vastgestelde voltooiingsdeadline*
 
 ### Eigenschappen van de instantie weergeven {#viewpropertiesoftheinstance}
 
 ![](assets/properties-of-aninstance.png)
 
-*Eigenschappen van de instantie weergeven*
+*eigenschappen van de Mening van de instantie*
 
 1. **Modules:** Het aantal modules dat door de auteur van de cursus is gemaakt
 1. **Ingeschreven studenten**: Het aantal studenten dat door de beheerder voor de cursus is ingeschreven.
@@ -85,7 +85,7 @@ Voer de onderstaande stappen uit om een instantie te archiveren:
 
    ![](assets/retire-an-instance.png)
 
-   *Een instantie archiveren*
+   *Retire een instantie*
 
 1. Klik op het tabblad **[!UICONTROL Gearchiveerd]** op de pagina Instanties om naar alle gearchiveerde instanties te zoeken.
 
@@ -97,17 +97,17 @@ Voer de volgende stappen uit om een gearchiveerde instantie te herstellen naar e
 
    ![](assets/restore-an-instance.png)
 
-   *Instantie herstellen*
+   *herstel een instantie*
 
 1. De instantie wordt nu hersteld naar een actieve modus.
 
 ### Instantie verwijderen
 
-Beheerders kunnen de instantie verwijderen met **Dit exemplaar verwijderen** onmiddellijk na het maken. U kunt geen instanties verwijderen als er een bijbehorende sessie is of als er studenten voor zijn ingeschreven.
+Beheerders kunnen de instantie schrappen gebruikend **schrapt deze instantie** optie onmiddellijk na de verwezenlijking. U kunt geen instanties verwijderen als er een bijbehorende sessie is of als er studenten voor zijn ingeschreven.
 
 ![](assets/delete-this-instance.png)
 
-*Instantie verwijderen*
+*schrap een instantie*
 
 >[!NOTE]
 >
@@ -117,29 +117,29 @@ Beheerders kunnen de instantie verwijderen met **Dit exemplaar verwijderen** onm
 
 E-mails op instantieniveau verzenden naar ingeschreven studenten:
 
-1. Op de **[!UICONTROL Instanties]** pagina, selecteert u de opties op een willekeurig exemplaar en klikt u op **[!UICONTROL Ingeschreven studenten e-mailen]**.
+1. Op de **[!UICONTROL pagina van Instanties]**, selecteer de opties op om het even welke instantie, en klik dan **[!UICONTROL E-mail Ingeschreven Studenten]**.
 
-![e-mails op instantieniveau](assets/adhoc-email.png)
+![ e-mails van het instantieniveau ](assets/adhoc-email.png)
 
-*E-mailstudenten ingeschreven voor instantie*
+*E-mail studenten ingeschreven in de instantie*
 
-1. Op de **[!UICONTROL Aankondiging maken]** selecteert u Type als e-mail. Geef het onderwerp op, typ het bericht en klik op **[!UICONTROL Opslaan]**. De training wordt automatisch geselecteerd.
+1. Voor het **[!UICONTROL Create de dialoog van de Aankondiging]**, selecteer Type als E-mail. Geef het onderwerp op, typ het bericht en klik op **[!UICONTROL Opslaan]**. De training wordt automatisch geselecteerd.
 
-   ![Aankondiging maken als e-mail](assets/email-announcement.png)
+   ![ Creeer aankondiging als e-mail ](assets/email-announcement.png)
 
-   *Aankondiging maken als e-mail*
+   *Creeer aankondiging als e-mail*
 
 1. Nadat u op **[!UICONTROL Opslaan]** hebt geklikt, ziet u een bevestigingsbericht voor het maken van de aankondiging. Als u de aankondiging wilt publiceren, klikt u op **[!UICONTROL Nu publiceren]**.
 
-   ![Aankondiging is gemaakt](assets/announcement-successful.png)
+   ![ Bevestiging die met succes ](assets/announcement-successful.png) wordt gecreeerd
 
 ## Studenten inschrijven voor cursussen
 
 In deze training leert u studenten inschrijven, uitschrijven en opnieuw inschrijven.
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ### Studenten inschrijven in verschillende instanties
 
@@ -147,9 +147,9 @@ Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 1. Selecteer **[!UICONTROL Studenten]** in het linkerdeelvenster.
 1. Selecteer **[!UICONTROL Inschrijven]**.
 
-   ![Studenten inschrijven](assets/enroll-learners-new.png)
+   ![ schrijf studenten ](assets/enroll-learners-new.png) in
 
-   *De cursus Publish*
+   *Publish de cursus*
 
 1. In het dialoogvenster [!UICONTROL **Studenten inschrijven**] kunt u:
 
@@ -160,15 +160,15 @@ Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 1. Selecteer **[!UICONTROL Doorgaan]**.
 
-   ![doorgaan](assets/proceed.png)
+   ![ te werk gaat ](assets/proceed.png)
 
-   *Ga door met het inschrijven van studenten*
+   *ga aan het inschrijven van studenten*
 
 ### Inschrijvingsrapport van een instantie weergeven
 
 1. Selecteer een cursus in de lijst met cursussen.
 1. Selecteer **[!UICONTROL Studenten]** in het linkerdeelvenster.
-1. Selecteren **[!UICONTROL Handelingen]** > **[!UICONTROL Exporteren]**.
+1. Selecteer **[!UICONTROL Acties]** > **[!UICONTROL Uitvoer]**.
 
 Het Excel-bestand bevat werkbladen voor elke instantie. Een werkblad bestaat uit de volgende velden:
 
@@ -203,24 +203,24 @@ Het Excel-bestand bevat werkbladen voor elke instantie. Een werkblad bestaat uit
 ### Studenten voor een cursus beheren {#managelearnerslistforacourse}
 
 1. Klik op de naam van de cursus op de cursusminiatuur.
-1. Klik in het linkerdeelvenster op **[!UICONTROL Studenten]**.
+1. Van de linkerruit, klik **[!UICONTROL Studenten]**.
 
 ![](assets/courses-learners.png)
 
-*Studenten in een cursus selecteren*
+*selecteer studenten in een cursus*
 
 Op de pagina Studenten kunt u de volgende acties uitvoeren:
 
-* Selecteer de student die u wilt verwijderen en klik op [!UICONTROL **Handelingen**] > [!UICONTROL **Verwijderen**].
-* Selecteer de student van wie u de aanwezigheid wilt markeren en klik op [!UICONTROL **Handelingen**] > [!UICONTROL **Markeren als voltooid**].
+* Selecteer de student u wilt verwijderen, en klik [!UICONTROL **Acties**] > [!UICONTROL **verwijderen**].
+* Selecteer de Student van wie aanwezigheid u wilt merken, en klik [!UICONTROL **Acties**] > [!UICONTROL **Voltooiing van het Teken**].
 
-Als u studenten wilt toestaan een module opnieuw in te stellen en de module opnieuw te gebruiken, klikt u op [!UICONTROL **Herstellen**]. Klik op Ja in het pop-upvenster om de actie te bevestigen. Modules die zijn voltooid, kunnen niet opnieuw worden ingesteld. Alleen mislukte of onvolledige modules kunnen opnieuw worden ingesteld.
+Om studenten toe te staan om een module terug te stellen en de module opnieuw te verbruiken, klik [!UICONTROL **Terugstellen**]. Klik op Ja in het pop-upvenster om de actie te bevestigen. Modules die zijn voltooid, kunnen niet opnieuw worden ingesteld. Alleen mislukte of onvolledige modules kunnen opnieuw worden ingesteld.
 
-U kunt de lijst met studenten ook naar Excel-blad exporteren. Als u de lijst met studenten wilt exporteren, klikt u op [!UICONTROL **Handelingen**] > [!UICONTROL **Exporteren**].
+U kunt de lijst met studenten ook naar Excel-blad exporteren. Om de studentenlijst uit te voeren, klik [!UICONTROL **Acties**] > [!UICONTROL **Uitvoer**].
 
 >[!NOTE]
 >
->Als een cursus meerdere instanties heeft, wordt de lijst met studenten in Excel op elk tabblad afzonderlijk weergegeven. In de lijst met studenten staan naam, status en selectiecriteria van de student. De status van studenten kan **Niet gestart**, of **In uitvoering**, of **Voltooid**.
+>Als een cursus meerdere instanties heeft, wordt de lijst met studenten in Excel op elk tabblad afzonderlijk weergegeven. In de lijst met studenten staan naam, status en selectiecriteria van de student. De status van studenten kan **niet zijn begonnen**, of **lopend**, of **Voltooid**.
 
 ### Studenten exporteren met de status In afwachting van goedkeuring
 
@@ -246,7 +246,7 @@ Klik in de rechterbovenhoek van de pagina op de vervolgkeuzelijst **[!UICONTROL 
 
 ![](assets/export-list-of-learners.png)
 
-*Lijst met studenten exporteren als PDF*
+*lijst van studenten van de Uitvoer als PDF*
 
 In de PDF kunt u dezelfde set studenten bekijken als een docent.
 
@@ -268,13 +268,13 @@ In L1-feedback kunt u alle vragen of de eerste vraag verplicht stellen.
 
 ![](assets/make-all-questionsmandatory.png)
 
-*Alle vragen of de eerste vraag verplicht stellen in L1-feedback*
+*maak alle vragen of de eerste vraag verplicht in L1 terugkoppelen*
 
 Nu kunt u de vragen maken, die nu verplicht worden.
 
 ![](assets/create-mandatoryquestions.png)
 
-*Vragen maken*
+*creeer de vragen*
 
 Als de twee verplichte vragen om een bepaalde reden geen tekst hebben, worden de vragen niet weergegeven in het feedbackformulier.
 
@@ -282,11 +282,11 @@ Als de twee verplichte vragen om een bepaalde reden geen tekst hebben, worden de
 >
 >Het is niet voldoende dat u deze instellingen inschakelt in de leerprogrammainstantie. U moet deze instellingen ook op cursusinstantieniveau inschakelen voor elke cursus in het leerprogramma.
 
-Als u deze optie inschakelt, wordt op de pagina Standaardinstellingen **[!UICONTROL Alle vragen verplicht stellen]** worden deze instellingen overgenomen door alle nieuwe instanties die daarna worden gemaakt.
+In de pagina van de Gebreken van de Instantie, als u **[!UICONTROL toelaat maak Alle Vragen Verplicht]**, dan zullen alle nieuwe die instanties daarna worden gecreeerd deze montages erven.
 
 ![](assets/instance-defaults-makeallquestionsmandatory.png)
 
-*De pagina Standaardinstellingen voor instanties weergeven*
+*Bekijk de pagina van de Gebreken van de Instantie*
 
 ### L1-feedback op cursusniveau {#l1-feedback-course-level}
 
@@ -294,21 +294,21 @@ In eerdere versies van Learning Manager kon een beheerder L1-feedback voor het l
 
 In deze release van Learning Manager kan de beheerder L1-feedback sturen voor alle cursussen die deel uitmaken van het leerprogramma. De beheerder moet ervoor zorgen dat L1-feedback is ingeschakeld voor alle cursussen op cursusinstantieniveau.
 
-1. Klik in de Admin-app op **[!UICONTROL Leerprogramma&#39;s]** > **[!UICONTROL Leerprogramma weergeven]**.
+1. Om L1 terug voor elke cursus toe te laten, in Admin app, klik **[!UICONTROL Leerprogramma&#39;s]** > **[!UICONTROL het Leren Programma van de Mening]**.
 
-1. Klikken **[!UICONTROL Instanties]** > **[!UICONTROL L1-feedback ingeschakeld]**.
+1. Klik **[!UICONTROL Instanties]** > **[!UICONTROL L1 toegelaten Terugkoppeling]**.
 
-1. De optie inschakelen **[!UICONTROL Inschakelen voor elke cursus]**.
+1. Laat de optie **[!UICONTROL toe toelaten voor Elke Cursus]**.
 
    ![](assets/enable-l1-feedbackforcourse.png)
 
-   *Cursusfeedback inschakelen*
+   *laat cursusfeedback* toe
 
    Alleen als u deze schakelknop op het niveau van het leerprogramma inschakelt, wordt de L1-feedback voor de cursussen in dit programma niet geactiveerd. Als u L1-feedback wilt inschakelen, gaat u naar elke cursus in het leerprogramma en schakelt u de L1-feedbackschakelaar in.
 
    ![](assets/l1-reaction-feedback.png)
 
-   *L1-feedback voor elke cursus inschakelen*
+   *laat L1 terugkoppelen voor elke cursus* toe
 
    Als L1-feedback voor alle cursussen is ingeschakeld, maar in de leerprogrammainstantie is uitgeschakeld, wordt de L1-feedback niet geactiveerd voor de cursussen.
 
@@ -318,35 +318,35 @@ Quizrapporten helpen bij het evalueren van de prestaties van een student na volt
 
 Learning Manager vergemakkelijkt momenteel het leren in 13 interfacetalen en 32 inhoudstalen. Hoewel deze optie gebruiksvriendelijk is en gemak biedt bij het ondersteunen van onze studenten wereldwijd, is het voor beheerders geen eenvoudige taak om rapporten op te halen over de pogingen die in verschillende landen zijn gedaan.
 
-Quizrapporten geven gegevens in verschillende talen weer als de cursus in meerdere talen wordt aangeboden. Tot nu toe werden in rapporten die zijn gegenereerd door de beheerder onder elkaar reacties weergegeven, ongeacht de taal waarin de quiz is uitgevoerd. **Bijvoorbeeld** Als een gebruiker een quiz in het Nederlands heeft afgelegd, kan de beheerder alleen die quizrapporten bekijken die gebruikers in het Nederlands hebben geprobeerd. De beheerder die Engels als interfacetaal heeft geselecteerd, kon geen rapporten voor alle gebruikers tegelijkertijd bekijken, ongeacht de taal waarin pogingen werden gedaan om de quiz te doen.
+Quizrapporten geven gegevens in verschillende talen weer als de cursus in meerdere talen wordt aangeboden. Tot nu toe werden in rapporten die zijn gegenereerd door de beheerder onder elkaar reacties weergegeven, ongeacht de taal waarin de quiz is uitgevoerd. **bijvoorbeeld**, als een gebruiker een quiz in het Nederlands heeft genomen, zal Admin slechts die quizrapporten kunnen bekijken die door gebruikers in het Nederlands tegelijkertijd worden geprobeerd. De beheerder die Engels als interfacetaal heeft geselecteerd, kon geen rapporten voor alle gebruikers tegelijkertijd bekijken, ongeacht de taal waarin pogingen werden gedaan om de quiz te doen.
 
 Dit is nu verholpen omdat de beheerder nu alle rapporten in de respectievelijke taal die de student heeft geprobeerd in één keer kan bekijken ongeacht de gekozen taalinstelling. De geprobeerde quiz wordt in verschillende talen toegevoegd als extra kolommen in het quizrapport.
 
 ### L1-feedback op accountniveau inschakelen {#l1-feedback-account-level}
 
-*L1-feedback op accountniveau inschakelen*
+*laat L1 terugkoppelen op accountniveau toe*
 
 Een beheerder kan L1-feedback inschakelen voor nieuwe cursussen en leerprogramma&#39;s door deze instelling op accountniveau in te schakelen. Deze instelling heeft echter geen invloed op de bestaande cursussen en leerprogramma&#39;s
 
 Indien ingeschakeld, wordt bij alle nieuwe trainingen en instanties de feedback standaard ingeschakeld. In het geval dat een auteur/beheerder de instantie opent, de instantie standaardinstellingen heeft en deze handmatig uitschakelt, dan wordt deze gehonoreerd.
 
-Klik in de Admin-app op **[!UICONTROL Instellingen]** > **[!UICONTROL Feedback]**.
+Om L1 terug toe te laten, in Admin app, klik **[!UICONTROL Montages]** > **[!UICONTROL Terugkoppeling]**.
 
 ![](assets/l1-feedback-settings.png)
 
-*De pagina Feedbackinstellingen weergeven*
+*Bekijk de pagina van de Montages van de Terugkoppeling*
 
-Klikken **[!UICONTROL Bewerken]** in de rechterbovenhoek en schakel de optie in om L1-feedback in te schakelen.
+Klik **[!UICONTROL uitgeven]** op de hoger-juiste hoek en knevel de optie om L1 terug toe te laten terugkoppelen.
 
-Wanneer een auteur een cursus maakt, wordt op de Instantiepagina van de Admin-app het **[!UICONTROL L1-feedback]** wordt automatisch ingeschakeld voor de nieuwe cursus.
+Wanneer een auteur een cursus, op de pagina van de Instantie van Admin app creeert, **[!UICONTROL L1 terugkoppelt]** automatisch voor de nieuwe cursus wordt toegelaten.
 
 <!--![](assets/l1-feedback-enabled.png)-->
 
-U kunt de L1-feedback ook uitschakelen door de **[!UICONTROL Inschakelen]** zoals hieronder weergegeven:
+U kunt L1 ook onbruikbaar maken terugkoppelt door **[!UICONTROL in en uit te schakelen toelaten]** optie, zoals hieronder getoond:
 
 ![](assets/disable-l1-feedback.png)
 
-*L1-feedback in- of uitschakelen*
+*laat of maak L1 terug* onbruikbaar terug
 
 ### Beschrijvende vragen toevoegen voor L1- en L3-feedback {#descriptive}
 
@@ -358,7 +358,7 @@ Nadat u L1 feedback hebt ingeschakeld, ziet u de opties zoals weergegeven in de 
 
 ![](assets/l1-feedback-desc-questions.png)
 
-*Beschrijvende vragen toevoegen voor L1- en L3-feedback*
+*voeg beschrijvende vragen voor L1 toe en L3 terugkoppelen*
 
 Als de vragenlijst onmiddellijk na afloop van de cursus moet verschijnen, kiest u de bijpassende optie.
 
@@ -366,13 +366,13 @@ Hieronder vindt u ter referentie een voorbeeld van de L1-vragenlijst. Studenten 
 
 ![](assets/l1-output.png)
 
-*Een voorbeeld van feedbackvragen voor een cursus*
+*een voorbeeldcursus terugkoppelt vragen*
 
 Nadat u L3-feedback hebt ingeschakeld, kunt u de opties bekijken zoals weergegeven in de onderstaande afbeelding:
 
 ![](assets/l3-feedback-desc-questions.png)
 
-*L3-feedback inschakelen*
+*laat L3 terugkoppelen* toe
 
 Vraag 2 is de beschrijvende vraag voor L3-feedback. U kunt deze verplicht maken door op de bijpassende optie onder de vraag te klikken.
 
@@ -380,22 +380,22 @@ Hieronder vindt u ter referentie een voorbeeld van de L3-vragenlijst. Studenten 
 
 ![](assets/l3-output.png)
 
-*L3-feedbackuitvoer weergeven*
+*mening L3 terugkoppelt output*
 
 ### Vragenlijst voor L1- en L3-feedback instellen {#setupl1andl3feedbackquestionnaire}
 
 U kunt de vragenlijst voor L1- en L3-feedback instellen evenals herinneringen op accountniveau.
 
-1. Klikken **[!UICONTROL Instellingen]** en dan **[!UICONTROL Feedback]** in het linkerdeelvenster nadat u zich als beheerder hebt aangemeld.\
-   De pagina Feedbackinstellingen wordt weergegeven met twee tabbladen: **[!UICONTROL L1-feedback]** en **[!UICONTROL L3-feedback]**.\
-   **[!UICONTROL L1-feedback]** tab bestaat uit een lijst met standaardinstellingen **[!UICONTROL L1-feedback]** vragenlijst voor klaslokalen en cursussen op eigen tempo, samen met herinneringsinstellingen. In **[!UICONTROL L3-feedback]** kunt u de standaardinstellingen voor L3-feedback en herinneringen weergeven.
+1. Klik **[!UICONTROL Montages]** en dan **[!UICONTROL Terugkoppeling]** op de linkerruit nadat u login als Beheerder.\
+   De de montagespagina van de terugkoppeling verschijnt met twee lusjes: **[!UICONTROL L1 Terugkoppeling]** en **[!UICONTROL L3 Terugkoppeling]**.\
+   ]**lusje van de Terugkoppeling 0} L1 bestaat uit een lijst van gebrek**[!UICONTROL  L1 terugkoppelt ]**vragenlijst voor klassenruimte en zelf-afgepaste cursussen samen met herinneringsmontages.**[!UICONTROL  In **[!UICONTROL L3 Terugkoppeling]** tabel, kunt u L3 terugkoppelen standaardverklaring en herinneringsmontages bekijken.
 
 1. Klik op Bewerken rechtsboven op de pagina om de bestaande vragenlijst aan te passen.\
-   In **[!UICONTROL L1-feedback]** kunt u elke vraag in- of uitschakelen door op de schakelknop Ja/Nee te klikken.\
-   In **[!UICONTROL L3-feedback]** kunt u de standaardfeedbackinstructie wijzigen.\
-   Klikken **[!UICONTROL Nieuwe herinnering toevoegen]** onder aan de pagina en kies wanneer u de herinneringen wilt verzenden.
+   In **[!UICONTROL L1 terugkoppeling]** tabel, kunt u elke vraag toelaten/onbruikbaar maken door ja/neen knevelknoop te klikken.\
+   In **[!UICONTROL L3 Terugkoppeling]** tabel, kunt u het gebrek wijzigen terugkoppelt verklaring.\
+   Klik **[!UICONTROL voeg Nieuwe Herinnering]** bij de bodem van de pagina toe en kies wanneer om de herinneringen te verzenden.
 
-1. Klikken **[!UICONTROL Opslaan]** rechtsboven op de pagina.
+1. Klik **[!UICONTROL sparen]** bij de hoger-juiste hoek van de pagina.
 
 In L1-feedback ziet u twee sets vragenlijsten met een standaardvraag. De eerste set vragenlijsten heeft betrekking op cursussen op eigen tempo die ook kunnen worden gebruikt voor cursussen die op activiteiten zijn gebaseerd. Tweede set vragenlijsten kan worden gebruikt voor cursussen van het type klaslokaal en virtueel klaslokaal.
 
@@ -415,17 +415,17 @@ Met de functie Discussieboard kunnen studenten de cursusdiscussies bekijken. Als
 
 Telkens wanneer een auteur modules toevoegt, bijwerkt of verwijdert en een cursus opnieuw publiceert, ontvangen alle beheerders hierover een melding. Als beheerder kunt u vervolgens de wijzigingen bekijken, de oude en nieuwe inhoud vergelijken door op de link te klikken, en de wijzigingen goedkeuren of afwijzen.
 
-Klik op **[!UICONTROL Instellingen]** > **[!UICONTROL Algemeen]**. Selecteer het vakje **[!UICONTROL Cursusmoderatie]** om deze functie in te schakelen.
+Om de Moderatie van de Cursus toe te laten, klik **[!UICONTROL Montages]** > **[!UICONTROL Algemeen]**. Selecteer het vakje **[!UICONTROL Cursusmoderatie]** om deze functie in te schakelen.
 
 ![](assets/2.png)
 
-*Cursusmoderatie inschakelen*
+*laat cursusmoderatie* toe
 
 Klik op de melding om te zien wat de auteur in de cursus heeft gewijzigd. Vervolgens moet u de aangebrachte wijzigingen goedkeuren of afwijzen. Als u deze goedkeurt, wordt de cursus opnieuw gepubliceerd. Als u de updates afwijst, wordt de vorige versie van de cursus behouden. In beide gevallen wordt de auteur een melding gestuurd.
 
 ![](assets/1.png)
 
-*Aanvragen van auteurs voor cursusupdates*
+*de verzoeken van de auteur om cursusupdates*
 
 Als meerdere auteurs dezelfde cursus bijwerken, wordt de laatste of de laatst uitgevoerde wijziging in de beheerdersmelding weergegeven. U kunt dan de laatste wijzigingen goedkeuren of afwijzen.
 
@@ -435,14 +435,14 @@ Open in de lijst met cursussen een cursus waarin een controlelijst is opgenomen.
 
 ![](assets/export-checklist.png)
 
-*Gegevens in controlelijst exporteren*
+*de controlelijstgegevens van de Uitvoer*
 
 Klik op de optie en voer op de cursuspagina het volgende uit:
 
 1. Selecteer de instantie en de module.
-1. Klikken **[!UICONTROL Handelingen]** > **[!UICONTROL Exporteren]** en exporteer vervolgens het controlelijstrapport voor studenten.
+1. Klik **[!UICONTROL Acties]** > **[!UICONTROL Uitvoer]**, en voer dan het rapport van de studentenchecklist uit.
 
-Op de **[!UICONTROL Checklist]** een docent het controlelijstrapport kan exporteren vanuit de **[!UICONTROL Handelingen]** vervolgkeuzelijst.
+Op de **[!UICONTROL pagina van de Controlelijst]**, kan een Docent het controlelijstrapport van de **[!UICONTROL drop-down lijst van Acties]** uitvoeren.
 
 Het CSV-rapport bevat de volgende velden:
 
@@ -463,11 +463,11 @@ Wanneer u een rapport downloadt nadat u een statusfilter hebt geselecteerd, beva
 
 ## Cursussen weergeven {#viewingcourses}
 
-Als beheerder kunt u een lijst met alle beschikbare cursussen weergeven.   Klikken **[!UICONTROL Cursussen]** in het linkerdeelvenster om de lijst met cursussen met zoek- en filteropties weer te geven. U kunt ook het effectiviteitspercentage voor elke cursus bekijken op de cursusminiaturen.
+Als beheerder kunt u een lijst met alle beschikbare cursussen weergeven.   Klik **[!UICONTROL Cursussen]** op de linkerruit om de lijst van cursussen met onderzoek en filteropties te bekijken. U kunt ook het effectiviteitspercentage voor elke cursus bekijken op de cursusminiaturen.
 
 >[!NOTE]
 >
->U kunt een cursus archiveren nadat deze door studenten is gevolgd of wanneer u een bepaalde cursus na publicatie wilt uitstellen. U kunt een cursus alleen archiveren wanneer deze de status Gepubliceerd heeft. Klik op de knop **[!UICONTROL Gearchiveerd]** tabblad.
+>U kunt een cursus archiveren nadat deze door studenten is gevolgd of wanneer u een bepaalde cursus na publicatie wilt uitstellen. U kunt een cursus alleen archiveren wanneer deze de status Gepubliceerd heeft. De lijst van alle gearchiveerde cursussen kan worden bekeken door het **[!UICONTROL Gearchiveerde]** lusje te klikken.
 
 ## Quizscores weergeven {#viewquizscores}
 
@@ -480,13 +480,13 @@ Kies het type instantie uit de vervolgkeuzelijst om de scores weer te geven op b
 
 ## Standaardinstantie
 
-Beheerders kunnen standaardbadges, gamificationinstellingen en herinneringen instellen in **[!UICONTROL Standaardinstantie]** pagina. Selecteer **[!UICONTROL Standaardinstantie]** > **[!UICONTROL Bewerken]**.
+Beheerders kunnen standaardBadges, gamificationmontages en herinneringen in **[!UICONTROL Standaardinstantie]** pagina plaatsen. Om de standaardinstantiemontages te wijzigen, uitgezocht **[!UICONTROL StandaardInstantie]** > **[!UICONTROL geef]** uit.
 
-* **[!UICONTROL Badge]**: Selecteer de standaardbadges in de vervolgkeuzelijst.
-* **[!UICONTROL Gamification]**: Configureer gamificationinstellingen, inclusief punten voor voltooiing, vroegtijdige voltooiing en tijdige voltooiing. Beheerders kunnen instellingen op accountniveau selecteren of de gamificationpunten voor deze instantie aanpassen.
-* **[!UICONTROL Feedback op reacties van L1]**: Schakel vooraf gedefinieerde vragen in voor feedback van studenten wanneer de cursus is voltooid, met opties om vragen verplicht te stellen.
-***[!UICONTROL Feedback voor wijziging van L3-gedrag]**: Schakel feedbackvragen in voor de manager van de student wanneer de cursus is voltooid.
-***[!UICONTROL Instellingen voor herinneringen]**: Stel herinneringen voor deadlines in en beheer ze, met opties voor escalatie.
+* **[!UICONTROL Badge]**: Selecteer de standaardbadges van het dropdown menu.
+* **[!UICONTROL Gamification]**: Vorm gamificationmontages, met inbegrip van punten voor voltooiing, vroege voltooiing, en geschikte voltooiing. Beheerders kunnen instellingen op accountniveau selecteren of de gamificationpunten voor deze instantie aanpassen.
+* **[!UICONTROL L1 Reactie Feedback]**: Laat vooraf bepaalde vragen voor student toe terugkoppelt op cursusvoltooiing, met opties om vragen verplicht te maken.
+***[!UICONTROL Feedback voor wijziging van L3-gedrag]**: feedbackvragen inschakelen voor de manager van de student na voltooiing van de cursus.
+***[!UICONTROL Instellingen voor herinneringen]**: stel herinneringen voor deadlines in en beheer deze, met opties voor escalatie.
 
 ### Escalatieniveau instellen {#escalation}
 
@@ -497,13 +497,13 @@ Als een beheerder de e-mailmeldingen wil verzenden, moet deze er expliciet voor 
 
 ![](assets/escalation-notification.png)
 
-*escalatieniveau instellen*
+*plaats escalatieniveau*
 
 ## Voorbeeld van cursussen bekijken {#previewcourses}
 
-Beheerder kan een voorbeeld van cursussen bekijken door op de knop **[!UICONTROL Voorvertonen als student]** tijdens het bekijken van de cursusmodules.
+De beheerder kan cursussen voorproef door de **[!UICONTROL Voorproef als student]** optie te klikken terwijl het bekijken van de cursusmodules.
 
-1. Klikken **[!UICONTROL Cursussen]** in het linkerdeelvenster nadat u zich als beheerder hebt aangemeld.
+1. Klik **[!UICONTROL Cursussen]** op de linkerruit nadat u login als beheerder.
 1. Klik op een willekeurige cursustegel in de lijst met cursussen op de pagina.
 1. Klik op Voorbeeld bekijken als student in het linkerdeelvenster. Klik vervolgens op de naam van de module op de pagina om een voorbeeld van de cursusmodule in de speler weer te geven.
 
@@ -519,13 +519,13 @@ De effectiviteitsscore van de cursus wordt bepaald aan de hand van de L1-, L2- e
 
 ![](assets/course-effectiveness.png)
 
-*Cursuseffectiviteit bekijken voor L1-, L2- en L3-feedback*
+*de cursusdoeltreffendheid van de mening voor L1, L2, en L3 terugkoppelen*
 
 In dit voorbeeld heeft 1 van de 5 gebruikers alle drie de feedbacks ontvangen, vandaar dat de score 100/100 is. Deze tabel laat u zien dat als een van de drie feedbacks (L1, L2 en L3 ) niet wordt gegeven voor een cursus, dit een negatief effect heeft op de algehele effectiviteit. Klik op het omlaagwijzende pijltje in de rechterbenedenhoek van het pop-upvenster om te zien hoe de effectiviteit van de cursus wordt berekend.
 
 ![](assets/course-effectiveness-calculations.png)
 
-*Berekening van cursuseffectiviteit*
+*berekening van de cursuseffectiviteit*
 
 Zoals te zien in het bovenstaande taartdiagram wordt er meer gewicht gegeven aan de L3-feedback van de manager.
 
@@ -556,13 +556,13 @@ Beheerder schrijft sommige studenten in voor verplichte cursussen volgens de ver
 
 >[!NOTE]
 >
->Beheerder kan alle geregistreerde studenten van een cursus verwijderen door op de studentenpagina op de vervolgkeuzepijl te klikken en op **[!UICONTROL Handelingen]** > **[!UICONTROL Verwijderen]**.
+>Admin kan om het even welke geregistreerde studenten van een cursus verwijderen door de drop-down pijl op de studentenpagina te klikken en door **[!UICONTROL Acties]** > **[!UICONTROL te klikken verwijdert]**.
 
 ![](assets/enroll-learners.png)
 
-*Opmerkingen toevoegen tijdens het inschrijven van studenten*
+*voeg commentaren toe terwijl het inschrijven van studenten*
 
-*Studenten inschrijven*
+*schrijf studenten* in
 
 ## Gebruikers
 
@@ -586,7 +586,7 @@ Kopieer en plak e-mail-ID&#39;s van studenten die u wilt inschrijven, gescheiden
 
 ![](assets/email-id-option.png)
 
-*Studenten inschrijven*
+*schrijf studenten* in
 
 Het dialoogvenster Overzicht verschijnt met het aantal gebruikers uit de opnameset, de uitsluitingsset en de gebruikers die al voor de cursusinstantie zijn ingeschreven.
 
@@ -598,15 +598,15 @@ Het dialoogvenster Overzicht verschijnt met het aantal gebruikers uit de opnames
 
 Als beheerder of manager kunt u opmerkingen toevoegen terwijl u studenten voor een cursus inschrijft. U kunt aanvullende informatie geven over de groep gebruikers die zich inschrijven. Deze gegevens worden geëxporteerd in cursusrapporten.
 
-De opmerking is **niet** weergegeven aan de student.
+De opmerking wordt **niet** getoond aan de student.
 
 Wanneer een beheerder het cursusrapport van de student genereert, verschijnen alle opmerkingen, indien toegevoegd, in het rapport. Het dialoogvenster Overzicht verschijnt met het aantal gebruikers uit de opnameset, de uitsluitingsset en de gebruikers die al voor de cursusinstantie zijn ingeschreven.
 
-Vouw in het dialoogvenster **[!UICONTROL Studenten inschrijven]** de optie **[!UICONTROL Geavanceerde opties]** uit. In het dialoogvenster **[!UICONTROL Aanvullende opmerking]** voert u de gewenste opmerking in.
+Vouw in het dialoogvenster **[!UICONTROL Studenten inschrijven]** de optie **[!UICONTROL Geavanceerde opties]** uit. Op het **[!UICONTROL Extra gebied van de Commentaar]**, ga de vereiste commentaar in.
 
 ![](assets/comment-for-learner.png)
 
-*Opmerkingen voor studenten toevoegen*
+*voeg commentaren voor studenten toe*
 
 ## Naar ingeschreven gebruikers zoeken {#searchforusers}
 
@@ -622,11 +622,11 @@ Terwijl u een student of een gebruikersgroep in het zoekveld typt, worden een of
 
 Dit is sneller en minder omslachtig dan meerdere zoekopdrachten achter elkaar uitvoeren.
 
-Na een zoekopdracht worden studenten of gebruikersgroepen in alle instanties weergegeven. Voor elke student wordt de instantie waarin de student is ingeschreven, weergegeven in de **[!UICONTROL Instantie]** kolom.
+Na een zoekopdracht worden studenten of gebruikersgroepen in alle instanties weergegeven. Voor elke student, toont de instantie waarin de student wordt ingeschreven in de **[!UICONTROL kolom van de Instantie]**.
 
 ![](assets/search-result.png)
 
-*Zoekresultaten weergeven*
+*de onderzoeksresultaten van de Mening*
 
 Met behulp van automatisch aangevulde zoeksuggesties kunt u:
 
@@ -651,9 +651,9 @@ Studenten kunnen gewoon de Adobe Learning Manager-apparaattoepassing gebruiken o
 
 **Doe het volgende om de QR-code te downloaden**:
 
-1. Klikken **[!UICONTROL Cursussen]** in de sectie Leren in het linkernavigatievenster.
-1. Selecteer een cursus > **[!UICONTROL Cursus weergeven]**.
-1. Klikken **[!UICONTROL Instanties]** > **[!UICONTROL Meer]** > **[!UICONTROL QR-code]**.
+1. Klik **[!UICONTROL Cursussen]** van het Leren sectie in het linkernavigatievenster.
+1. Selecteer een cursus > **[!UICONTROL cursus van de Mening]**.
+1. Klik **[!UICONTROL Instanties]** > **[!UICONTROL Meer]** > **[!UICONTROL QR code]**.
 
    <!--![](assets/admin-instance-edit.png)-->
 
@@ -661,23 +661,23 @@ Studenten kunnen gewoon de Adobe Learning Manager-apparaattoepassing gebruiken o
 
    ![](assets/qr-code-download-01.png)
 
-   *QR-code delen met markeringen*
+   *QR code van het Aandeel met parameters*
 
 ## Levenscyclus van cursus {#courselifecycle}
 
 De levenscyclus van een cursus ziet er meestal als volgt uit:
 
-**Concept** - Wanneer een auteur een cursus heeft gemaakt en opgeslagen. Op dit punt is de cursus nog niet beschikbaar voor studenten. U kunt een cursus op deze status verwijderen.
+**Ontwerp** - wanneer een auteur het creëren van een cursus voltooit en het bewaart. Op dit punt is de cursus nog niet beschikbaar voor studenten. U kunt een cursus op deze status verwijderen.
 
-**Gepubliceerd** - Wanneer een auteur een cursus heeft gepubliceerd. Studenten kunnen zich inschrijven voor een cursus met deze status.
+**Gepubliceerd** - wanneer een auteur voltooit het publiceren van een cursus. Studenten kunnen zich inschrijven voor een cursus met deze status.
 
-**Gearchiveerd** - Een auteur kan een cursus na publicatie archiveren als hij niet wil dat de cursus in de cursuscatalogus voor studenten verschijnt.  U kunt de cursus op dit punt opnieuw publiceren of verwijderen.
+**Gearchiveerd** - Na het publiceren van een cursus, kan een auteur het naar een gearchiveerde staat verplaatsen als hij niet de cursus in cursuscatalogus voor studenten wil verschijnen.  U kunt de cursus op dit punt opnieuw publiceren of verwijderen.
 
-**Verwijderd** - Een cursus heeft de status Verwijderd wanneer deze volledig uit de Adobe Learning Manager-toepassing is verwijderd. Auteurs kunnen alleen cursussen met conceptstatus verwijderen. U kunt cursussen ook uit gearchiveerde status verwijderen.
+**Geschrapt** - een cursus onder geschrapte staat is wanneer het volledig uit de toepassing van Adobe Learning Manager wordt verwijderd. Auteurs kunnen alleen cursussen met conceptstatus verwijderen. U kunt cursussen ook uit gearchiveerde status verwijderen.
 
 ![](assets/lifecycle-03.png)
 
-*Workflow van een cursuslevenscyclus*
+*Werkschema van een cursuslevenscyclus*
 
 ## Meldingsinstellingen {#notificationsettings}
 
@@ -687,11 +687,11 @@ Als beheerder kunt u de meldingsinstellingen aanpassen. Zie [Meldingen](user-not
 
 +++Module herstellen als beheerder?
 
-Kies op de pagina Studenten voor een cursus de student of studenten of een groep en klik op **[!UICONTROL Handelingen]** > **[!UICONTROL Modules opnieuw instellen]**.
+Voor de pagina van Studenten voor een cursus, kies de student of de studenten of een groep, klik **[!UICONTROL Acties]** > **[!UICONTROL Modules van het Terugstellen]**.
 
 ![](assets/reset-modules.png)
 
-*Optie weergeven om modules opnieuw in te stellen*
+*optie van de Mening om modules* terug te stellen
 
 Nadat u op de optie hebt geklikt, wordt de status van modules van alle geselecteerde studenten opnieuw ingesteld. De modules die zijn voltooid, worden niet opnieuw ingesteld.
 

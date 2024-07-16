@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Instellingen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
 workflow-type: tm+mt
-source-wordcount: '3836'
-ht-degree: 68%
+source-wordcount: '3595'
+ht-degree: 67%
 
 ---
 
@@ -15,35 +15,37 @@ ht-degree: 68%
 
 Lees meer over de instellingen van het Learning Manager-account die u kunt configureren als beheerder.
 
-U kunt uw profielinstellingen voor beheerder wijzigen en uw accountinstellingen bijwerken. Uw profielgegevens bekijken, profielfoto toevoegen/wijzigen en wijzigen **[!UICONTROL Over mij]** inhoud. Update uw bedrijfsinformatie, stel aanmeldingsmethoden voor gebruikers in en stel integratie via accountinstellingen in.
+U kunt uw profielinstellingen voor beheerder wijzigen en uw accountinstellingen bijwerken. Bekijk uw profielinformatie, voeg/verander profielfoto toe, en wijzig **[!UICONTROL over me]** inhoud. Update uw bedrijfsinformatie, stel aanmeldingsmethoden voor gebruikers in en stel integratie via accountinstellingen in.
+
+![](assets/settings-admin.png)
 
 ## Uw Adobe Learning Manager configureren
 
 Deze training legt de basisbeginselen vast van instellingen op accountniveau.
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
 
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ## Accountinstellingen {#accountsettings}
 
-Klik op **[!UICONTROL Instellingen]** in het linkerdeelvenster.
+Om de de rekeningsmontages van uw organisatie bij te werken, klik **[!UICONTROL Montages]** op de linkerruit.
 
-**Basisinformatie (Bedrijfsinformatie)**
+**Basisinfo (de info van het Bedrijf)**
 
-Klikken **[!UICONTROL Wijzigen]** op de pagina en de instellingen voor land, tijdzone, landinstelling en boekjaar bewerken.
+Klik **[!UICONTROL Verandering]** op de pagina en geef land, timezone, locale, en de montages van het financieel jaar uit.
 
 **Contact met beheerder configureren**
 
-Als u de e-mailadressen van de ondersteuningsbeheerders voor uw organisatie wilt toevoegen of wijzigen, kunt u deze configureren door op **[!UICONTROL Algemeen]** in het linkerdeelvenster te klikken. Klikken **[!UICONTROL Wijzigen]** grenzend aan **[!UICONTROL E-mailadres voor ondersteuning]** en voeg de e-mail-ID toe. E-mail wordt naar deze beheerders verzonden wanneer de student klikt **[!UICONTROL Contact opnemen met beheerder]** in de voettekst van de pagina.
+Als u de e-mailadressen van de ondersteuningsbeheerders voor uw organisatie wilt toevoegen of wijzigen, kunt u deze configureren door op **[!UICONTROL Algemeen]** in het linkerdeelvenster te klikken. Klik **[!UICONTROL Verandering]** naast **[!UICONTROL E-mailidentiteitskaart van de Steun]** en voeg e-mailID toe. E-mail wordt verzonden naar deze beheerders wanneer de student **[!UICONTROL Admin van het Contact]** bij footer van de pagina klikt.
 
 Voeg extra e-mail-ID&#39;s toe met een puntkomma als scheidingsteken.
 
-**Aanmeldingsmethoden** - Beheerders kunnen de modus kiezen waarmee uw interne of externe gebruikers toegang hebben tot het account.
+**Login methodes** - de Beheerders kunnen de wijze kiezen waarmee uw interne of externe gebruikers tot de rekening kunnen toegang hebben.
 
-* **Interne gebruikers:** Voor interne gebruikers kunt u Adobe ID of Single Sign-On instellen als aanmeldingsmodus.
-* **Externe gebruikers:** Voor externe gebruikers kunt u Adobe ID, Single Sign-On of Learning Manager ID instellen.
+* **Interne gebruikers:** voor interne gebruikers, kunt u Adobe ID of Enige Sign-On als login wijze plaatsen.
+* **Externe gebruikers:** voor externe gebruikers, kunt u Adobe ID of Enige Sign-On of het Leren identiteitskaart van de Manager plaatsen
 
 Indien u dat wenst, kunnen externe gebruikers zich bij dit account aanmelden nadat ze hun gebruikersnaam en wachtwoord voor de Learning Manager hebben gemaakt.
 
@@ -55,17 +57,17 @@ U kunt de Learning Manager-toepassing openen met behulp van Adobe ID of eenmalig
 
 **Feedback**
 
-Klik op **[!UICONTROL Feedback]** in het linkerdeelvenster om de vragenlijst in te stellen om na afloop van een cursus feedback van studenten te verzamelen. Raadpleeg [cursusfunctie Help-inhoud](courses.md) over het maken van L1- en L3-feedback.
+Klik op **[!UICONTROL Feedback]** in het linkerdeelvenster om de vragenlijst in te stellen om na afloop van een cursus feedback van studenten te verzamelen. Verwijs naar [ inhoud van de de eigenschaphulp van cursussen ](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) bij het creëren van L1 en L3 terugkoppelt.
 
 **Meerdere pogingen**
 
-Selecteren **[!UICONTROL Instellingen]** > **[!UICONTROL Algemeen]** > **[!UICONTROL Meerdere pogingen]**.
+Selecteer **[!UICONTROL Montages]** > **[!UICONTROL Algemeen]** > **[!UICONTROL Veelvoudige Pogingen]**.
 
 Als u het selectievakje Meerdere pogingen inschakelt, kunnen auteurs Meerdere pogingen instellen voor interactieve e-learningcursussen of -modules. Als u het tweede selectievakje inschakelt, kunnen beheerders de optie Oneindige pogingen standaard instellen voor nieuwe interactieve e-learningcursussen.
 
 ![](assets/admin-config.png)
 
-*Schakel het selectievakje Meerdere pogingen in*
+*selecteer de Veelvoudige checkbox van Pogingen*
 
 **Cursusmoderatie**
 
@@ -81,7 +83,7 @@ Klik op Studentendashboard in het linkerdeelvenster. Op deze pagina kunt u de wi
 
 **Adobe Connect**
 
-Klik op **[!UICONTROL Adobe Connect]** in het linkerdeelvenster om het Adobe Connect-account te configureren voor het hosten van virtuele klassikale sessies. Raadpleeg voor meer informatie  [Adobe Connect](adobeconnect-integration.md) Help.
+Klik op **[!UICONTROL Adobe Connect]** in het linkerdeelvenster om het Adobe Connect-account te configureren voor het hosten van virtuele klassikale sessies. Voor meer informatie, verwijs naar [ Adobe Connect ](adobeconnect-integration.md) eigenschaphulp.
 
 ## Algemene instellingen {#general}
 
@@ -204,7 +206,7 @@ Schakel de volgende instellingen in of uit:
     </ol>
     <p>Een alternatieve optie is:</p>
     <ul>
-     <li>Klik op de knop <b>Herstellen</b> pictogram om de standaardwaarden in het deelvenster <b>Help</b> en <b>Contact opnemen met beheerder</b> velden.</li>
+     <li>Klik het <b> pictogram van het Terugstellen </b> om de standaardwaarden in de <b> Hulp </b> en <b> gebieden van Admin van het Contact terug te stellen </b>.</li>
      <li>Pas de link in de voettekst aan voor alle talen.  Klik op de keuzelijst <b>Taal</b>, selecteer de taal en voeg de <b>Naam</b> en <b>URL</b> toe in de opgegeven velden.  Nadat u de wijzigingen hebt opgeslagen, worden de bijgewerkte links in de voettekst weergegeven.<br></li>
     </ul></td>
   </tr>
@@ -217,7 +219,7 @@ Schakel de volgende instellingen in of uit:
      <li>Tijdzonevoorkeur op accountniveau</li>
     </ul>
     <p>Het Studenttranscript dat met de Jobs API is gedownload, downloadt ook de gegevens in de geselecteerde tijdzone.</p>
-    <p><b>Opmerking: </b>Onmiddellijk na de release wordt standaard geen wijziging verwacht in het Studenttranscript. Beheerders kunnen deze instelling configureren via Beheer &gt; Instellingen &gt; Algemeen &gt; Tijdzone rapporteren.</p></td>
+    <p><b> Opmerking: </b> er wordt geen verandering verwacht in het Studenttranscript direct na de release. Beheerders kunnen deze instelling configureren via Beheer &gt; Instellingen &gt; Algemeen &gt; Tijdzone rapporteren.</p></td>
   </tr>
  </tbody>
 </table>
@@ -400,10 +402,10 @@ Schakel de volgende instellingen in of uit:
      <li>Als de optie <b>Cursuseffectiviteit</b> is ingeschakeld, kunnen studenten alleen de waarde van de cursuseffectiviteit zien.</li>
      <li>Als de optie <b>Waardering met sterren</b> is ingeschakeld, kunnen studenten alleen de gemiddelde sterrenwaardering weergeven en het aantal studenten dat de cursus heeft beoordeeld.<br></li>
     </ul>
-    <p>Deze functie is alleen beschikbaar voor cursussen. Waardering met sterren wordt niet ondersteund voor leerprogramma's of certificaten.<br><br><b>Opmerking: </b>Deze wijziging is alleen van invloed op de Learner-app. </p>
+    <p>Deze functie is alleen beschikbaar voor cursussen. Waardering met sterren wordt niet ondersteund voor leerprogramma's of certificaten.<br><br><b> Opmerking: </b> deze wijziging is alleen van invloed op de Learner-app. </p>
     <p>Wijzigingen in de instellingen (waardering met sterren/cursuseffectiviteit/waardering weergeven uitschakelen) hebben geen gevolgen voor alle andere apps (beheerder, auteur, manager, aangepaste beheerder, aangepaste auteur). </p>
-    <p>Voor nieuwe accounts worden de <b>Classificaties tonen</b> sectie heeft de optie <b>Sterrenclassificatie</b> standaard ingeschakeld.</p>
-    <p>Voor bestaande accounts, als het account voorheen de optie <b>Cursuseffectiviteit</b> ingeschakeld, dan de <b>Classificaties tonen</b> sectie wordt ingeschakeld met de optie Cursuseffectiviteit geselecteerd. Als de optie <b>Cursuseffecten</b>s is uitgeschakeld, dan wordt de <b>Classificaties tonen</b> wordt ook uitgeschakeld. Wanneer u <b>Classificaties tonen</b> -sectie is ingeschakeld, de optie <b>Sterrenclassificatie</b> wordt standaard ingeschakeld.</p></td>
+    <p>Voor nieuwe rekeningen, zal de <b> sectie van de Classificaties van de Tonen </b> de optie <b> Classificatie van de Ster </b> hebben die door gebrek wordt toegelaten.</p>
+    <p>Voor bestaande rekeningen, als de rekening eerder de toegelaten doeltreffendheid van de optie <b> Cursus </b> had, dan zal de <b> toon sectie </b> van Classificaties {met de geselecteerde doeltreffendheid van de optieCursus worden toegelaten. Als de optie <b> gevolgen van de Cursus </b> gehandicapt is, dan zal de <b> tonen sectie </b> ook gehandicapt zijn. Wanneer de <b> sectie van de Classificaties </b> wordt toegelaten, zal de classificatie van de optie <b> Ster </b> door gebrek worden toegelaten.</p></td>
   </tr>
  </tbody>
 </table>
@@ -438,22 +440,7 @@ Schakel de volgende instellingen in of uit:
 
 >[!NOTE]
 >
->Als de instelling voor het importeren van vaardigheden is ingeschakeld, kan de accountlay-out niet meer worden overgeschakeld op de klassieke weergave. Het overschakelen naar een Klassieke account wordt dus uitgeschakeld nadat de **Vaardigheidsimport** is ingeschakeld.
-
-
-## Aanbeveling op basis van AI
-
-Learning Manager bevat een gloednieuwe startpagina voor studenten, die modern is, meer contentgestuurd en gepersonaliseerd volgens de voorkeuren van de student. Met aanbevelingen op basis van AI wordt getracht de betrokkenheid van studenten te vergroten en gaten in de kennis vast te stellen en aan te pakken.
-
-Het aanbevelingsalgoritme is zo ontworpen dat dit meerdere inputbronnen verwerkt, waaronder branchegegevens over functies, titels en beschrijvingen die Adobe van haar partners heeft gekregen. Deze gegevens worden vervolgens gebruikt om AI-algoritmen van de Adobe op te leiden, zodat Learning Manager een kaart kan maken die branchespecifieke vaardigheden koppelt aan taaktitels en/of aanwijzingen. Dit wordt dan een input voor het aanbevelingsalgoritme.
-
-Learning Manager gebruikt vervolgens algoritmes van onderwerpmodellen om de trainingsinhoud in een account te analyseren en deze aan de vaardigheden toe te wijzen.
-
-Learning Manager gebruikt ook activiteitsgegevens van collega&#39;s als signaal om het aanbevelingsalgoritme op een gepersonaliseerde manier te sturen. Hier worden activiteiten gebruikt zoals inschrijving, voltooiing en expliciete feedback van studenten.
-
-Om aanbevelingen verder te personaliseren, gebruikt Learning Manager daarnaast nog expliciete en impliciete informatie die van afzonderlijke studenten wordt verzameld. Een student kan zijn of haar interessegebieden expliciet aangeven via inschrijvingen. Learning Manager ontvangt deze informatie ook impliciet op basis van de manier waarop de student de trainingen volgt.
-
-Tot slot kan ook de beheerder het aanbevelingsalgoritme beïnvloeden door met behulp van studentenkenmerken aan te geven waar Learning Manager op moet letten bij het bepalen van groepen van gelijken en door trainingen voor specifieke gebruikersgroepen te markeren.
+>Zodra vaardigheids het invoeren plaatsen wordt toegelaten, kan de accountlay-out niet worden geschakeld aan de Klassieke mening, d.w.z. wordt de omschakeling aan Klassieke rekening onbruikbaar gemaakt nadat de **de invoeroptie van de Vaardigheid** wordt toegelaten.
 
 ## Naam van leerobjecten wijzigen {#renaminglearningobjects}
 
@@ -486,10 +473,10 @@ Activiteit
 
 ## Profielinstellingen {#profilesettings}
 
-1. Klik op de vervolgkeuzepijl in de rechterbovenhoek naast uw foto/account en kies **[!UICONTROL Profielinstellingen]**.
-1. In het pop-upvenster kunt u een foto toevoegen/wijzigen door de muis erop te plaatsen en op **[!UICONTROL Bewerken]** in het profielfotogebied.
-1. Toevoegen/wijzigen **[!UICONTROL Info]** inhoud door te klikken **[!UICONTROL Bewerken]** naast de afbeelding.
-1. Klikken **[!UICONTROL Opslaan].**
+1. Klik de drop-down pijl bij de hoger-juiste hoek, naast uw foto/rekening en kies **[!UICONTROL Montages van het Profiel]**.
+1. Van de pop-up dialoog, kunt u een foto toevoegen/veranderen door de muis te hangen en **[!UICONTROL te klikken geeft]** in het gebied van de profielfoto uit.
+1. Voeg toe/wijzig **[!UICONTROL Ongeveer]** inhoud door **[!UICONTROL te klikken geeft]** naast het uit.
+1. Klik **[!UICONTROL sparen ].**
 
 ## Inhoudsmap {#content-folder}
 
@@ -497,11 +484,11 @@ Learning Manager ondersteunt mappen met persoonlijke inhoud. Een beheerder kan m
 
 Inhoudsmappen kunnen door beheerders worden geconfigureerd. Alleen nadat ze zijn geconfigureerd worden inhoudsmappen zichtbaar voor de auteurs en krijgen ze de mogelijkheid om de inhoud in een of meerdere mappen te plaatsen.
 
-Als u een inhoudsmap wilt toevoegen, klikt u in de beheerdersapp op **[!UICONTROL Instellingen]** > **[!UICONTROL Map Inhoud]**.
+Om een inhoudsomslag, in de app van de Beheerder toe te voegen, klik **[!UICONTROL Montages]** > **[!UICONTROL Omslag van de Inhoud]**.
 
 ![](assets/manage-content-folders.png)
 
-*Instellingen voor inhoudsmappen wijzigen*
+*montages van de Omslag van de Verandering van de Inhoud*
 
 ### Map
 
@@ -532,11 +519,11 @@ Deze map kan geen onderdeel zijn van een configureerbare roldefinitie. Hebt u ge
 
 **Een map toevoegen**
 
-Klik op **[!UICONTROL Toevoegen]** rechtsboven in het venster.
+Om een omslag toe te voegen, voeg **[!UICONTROL toe]** op de hoger-juiste hoek van het venster.
 
 **Een map verwijderen**
 
-U kunt ook een map verwijderen. Selecteer de map die u wilt verwijderen, klik op het menu Acties en klik op **[!UICONTROL Map verwijderen]**.
+U kunt ook een map verwijderen. Selecteer de omslag om te schrappen, het menu van Acties te klikken, en **[!UICONTROL de Omslag van de Schrapping]** te klikken.
 
 >[!NOTE]
 >
@@ -562,9 +549,9 @@ Voeg het volgende toe:
 4. Locatie-URL: voer de URL van de locatie in.
 5. Plaatslimiet: voer het maximale aantal plaatsen van de ruimte in.
 
-![locatie van lesruimte](assets/location-alm.gif)
+![ klaslokaalplaats ](assets/location-alm.gif)
 
-*Locaties voor lesruimten toevoegen*
+*voeg klaslokalen* toe
 
 U kunt de locatie ook toevoegen met behulp van een CSV. De CSV moet de volgende velden bevatten:
 
@@ -578,16 +565,17 @@ U kunt de locatie ook toevoegen met behulp van een CSV. De CSV moet de volgende 
 
 ### Instellingen {#admin-classroom-settings}
 
-Selecteren **Bewerken** om het volgende te wijzigen:
+Selecteer **uitgeven** om het volgende te veranderen:
 
-* **Laat auteurs locaties maken**: Als deze optie is ingeschakeld, worden alle locaties die door auteurs zijn gemaakt, weergegeven onder het tabblad Alle locaties. Studenten zien deze locaties ook onder de filters Catalogus en Kalender.
-* **Laat auteurs locaties wijzigen en verwijderen**: Als deze optie is ingeschakeld, kunnen auteurs alle locaties in de lesruimte wijzigen en verwijderen. De wijzigingen door auteurs worden op het hele platform doorgevoerd, inclusief rapporten.
+* **sta auteurs toe om plaatsen** tot stand te brengen: Zodra toegelaten, zullen alle plaatsen die door auteurs worden gecreeerd onder &quot;Alle Plaatsen&quot;tabel worden vermeld. Studenten zien deze locaties ook onder de filters Catalogus en Kalender.
+* **sta auteurs toe om plaatsen** te wijzigen en te schrappen:
+Als deze optie is ingeschakeld, kunnen auteurs alle locaties in de lesruimte wijzigen en verwijderen. De wijzigingen door auteurs worden op het hele platform doorgevoerd, inclusief rapporten.
 
 ## Veelgestelde vragen {#frequentlyaskedquestions}
 
 +++Hoe maak ik verschillende mappen voor de inhoudsbibliotheek?
 
-Klikken **[!UICONTROL Instellingen]** > **[!UICONTROL Map Inhoud]**. Klik op **[!UICONTROL Toevoegen]** in de rechterbovenhoek en in het dialoogvenster voert u de naam en beschrijving van de map in.
+Klik **[!UICONTROL Montages]** > **[!UICONTROL Omslag van de Inhoud]**. Om een omslag toe te voegen, **[!UICONTROL voeg]** op de hoger-juiste hoek toe, en in de dialoog, ga de naam en de beschrijving van de omslag in.
 
 Inhoudsmappen kunnen door beheerders worden geconfigureerd. Alleen nadat ze zijn geconfigureerd worden inhoudsmappen zichtbaar voor de auteurs en krijgen ze de mogelijkheid om de inhoud in een of meerdere mappen te plaatsen.
 
@@ -596,5 +584,5 @@ Zie voor meer informatie de sectie over de [inhoudsmap](settings.md#content-fold
 
 +++Hoe voeg ik een financieel jaar voor de account toe?
 
-In **[!UICONTROL Instellingen]** > **[!UICONTROL Basisinformatie]**, klik op **[!UICONTROL Wijzigen]**. Van de **[!UICONTROL Het boekjaar begint bij]** de maand selecteren.
+In **[!UICONTROL Montages]** > **[!UICONTROL BasisInfo]**, klik **[!UICONTROL Verandering]**. Van het **[!UICONTROL Financiële jaar begint van]** drop-down lijst, selecteer de maand.
 +++
