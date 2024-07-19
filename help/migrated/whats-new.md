@@ -1,53 +1,54 @@
 ---
-description: Meer informatie over de nieuwe functies en verbeteringen in de release van Adobe Learning Manager van juli 2024
+description: Meer informatie over de nieuwe functies en verbeteringen in de juli 2024-versie van Adobe Learning Manager
 jcr-language: en_us
 title: Overzicht van nieuwe functies
-source-git-commit: 7e3b19d29b9de23ea489c5651ef0aef1d4ec3005
+source-git-commit: b27bacab34c39dc99f72ff77819b89e16aca2d5f
 workflow-type: tm+mt
-source-wordcount: '2178'
-ht-degree: 2%
+source-wordcount: '2240'
+ht-degree: 3%
 
 ---
 
 
 # Overzicht van nieuwe functies {#new-features-summary}
 
-Meer informatie over de nieuwe functies en verbeteringen in de release van Adobe Learning Manager van juli 2024.
+Meer informatie over de nieuwe functies en verbeteringen in de Adobe Learning Manager-versie van juli 2024.
 
-## Verbeteringen in nalevingsdashboard
+## Verbetering in dashboard Naleving
 
-### Wat is een nalevingsdashboard? {#whatiscompliancedashboard}
+### Wat is een dashboard Naleving? {#whatiscompliancedashboard}
 
-Via het **[!UICONTROL Nalevingsdashboard]** in **Adobe Learning Manager** kunnen managers de voortgang van de studenten naar hun leerdoelen volgen en controleren. Ze kunnen controleren of teamleden de deadlines halen en hun leerproces bijhouden om compatibiliteit te waarborgen. De beheerder kan het nalevingsdashboard instellen en deze delen met de managers.
+Het **[!UICONTROL dashboard van de Naleving]** in **Adobe Learning Manager** staat managers toe om de vooruitgang van de studenten in de richting van hun het leren doelstellingen te controleren en te controleren. Ze kunnen controleren of teamleden aan deadlines voldoen en hun leerproces volgen, zodat naleving gewaarborgd blijft. De beheerder kan het dashboard Naleving instellen en delen met de managers.
 
-Als u het nalevingsdashboard wilt openen in de beheerapp, selecteert u **[!UICONTROL Rapporten]** > **[!UICONTROL Leeroverzicht]** > **[!UICONTROL Nalevingsdashboard]**.
+Om tot het nalevingsdashboard in Admin app toegang te hebben, selecteer **[!UICONTROL Rapporten]** > **[!UICONTROL het Leren Samenvatting]** > **[!UICONTROL Dashboard van de Naleving]**.
 
-### Wat er verandert in de release
+### Wat verandert in de release
 
-Met het uitgebreide nalevingsdashboard kunnen beheerders en managers cursussen van het type compatibiliteit, het leerpad of certificeringen voor hun specifieke categorie bekijken (bijvoorbeeld Sales, Marketing en Juridisch). Beheerders kunnen aangepaste compatibiliteitscursussen categoriseren in specifieke categorieën. Aangepaste compatibiliteitscategorieën worden mogelijk gemaakt door cataloguslabels.  Beheerders kunnen een cursusdashboard maken en deze delen met managers. Beheerders kunnen vervolgens hetzelfde dashboard weergeven op hun respectievelijke instanties. Ook de gebruikersinterface van het nalevingsdashboard en e-mailmeldingen over naleving zijn verbeterd.![](assets/compliance-dashboard-admin.png)
+Met het verbeterde compliance-dashboard kunnen beheerders en managers de compatibiliteitscursussen, het leerpad of certificeringen bekijken die betrekking hebben op hun specifieke categorie (bijvoorbeeld Sales, Marketing en Legal). Beheerders kunnen aangepaste compatibiliteitscursussen in specifieke categorieën indelen. Categorieën voor aangepaste compatibiliteit worden aangestuurd door cataloguslabels.  Beheerders kunnen een cursusdashboard maken en dit delen met managers. Managers kunnen vervolgens hetzelfde dashboard op hun respectievelijke instanties bekijken. De gebruikersinterface van het dashboard Naleving en e-mailmeldingen over naleving zijn verbeterd.
+![](assets/compliance-dashboard-admin.png)
 
 #### Workflow
 
-Hier volgen de stappen voor het gebruik van het verbeterde nalevingsdashboard:
+Hier volgen de stappen voor het gebruik van het verbeterde dashboard Naleving:
 
 | Rol | Taak | Aanvullende informatie |
 |---|---|---|
-| Beheer | Aangepaste nalevingslabels maken | Raadpleeg dit artikel [Aangepaste compatibiliteitslabels](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) maken voor meer informatie |
-| Auteur | Voeg deze labels toe aan de cursus | Raadpleeg dit artikel [Compatibiliteitslabels toevoegen aan een cursus/leerpad/certificering](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) voor meer informatie. |
-| Beheer | Maak het dashboard met de nalevingscursus en deel dit met managers | Raadpleeg dit artikel [Een nalevingsdashboard](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) maken en delen voor meer informatie. |
-| Manager | Het nalevingsdashboard weergeven | Raadpleeg de compatibiliteitsstatus](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) van dit artikel [voor meer informatie |
+| Beheer | Aangepaste compatibiliteitslabels maken | Verwijs naar dit artikel [ tot de etiketten van de douaneverplichting ](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) voor meer informatie leiden |
+| Auteur | Deze labels aan de cursus toevoegen | Verwijs naar dit artikel [ nalevingsetiketten aan cursus/het leren weg/certificatie ](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) voor meer informatie toevoegen. |
+| Beheer | Maak het dashboard met de nalevingscursus en deel het met managers | Verwijs naar dit artikel [ creeer en deel een nalevingsdashboard ](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) voor meer informatie. |
+| Manager | Het dashboard Naleving weergeven | Verwijs naar dit artikel [ status van de Naleving ](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) voor meer informatie |
 
-## Vernieuwde gebruikersinterface voor lerenden
+## Omzetting van de gebruikersinterface van de student
 
 >[!IMPORTANT]
 >
->De nieuwe gebruikersinterface voor leren wordt in fasen vrijgegeven.
+>De nieuwe studentinterface wordt in fasen vrijgegeven.
 
-De **gebruikersinterface** voor leren is bijgewerkt met een eleganter en moderner ontwerp. De **[!UICONTROL startpagina van de leerling]**, **[!UICONTROL mijn leeromgeving]**, **[!UICONTROL de catalogus]** en **[!UICONTROL het cursusoverzicht]** krijgen een nieuwe en moderne look. De cursuskaarten hebben ook een nieuw ontwerp om details op een moderne manier weer te geven. Als je de muis boven een cursuskaart houdt, zie je de beschrijving en publicatiedatum.
+De **Learner UI** is bijgewerkt met een eleganter en modern ontwerp. Het **[!UICONTROL Leerhuis]**, **[!UICONTROL Mijn Leren]**, **[!UICONTROL Catalogus]**, en **[!UICONTROL het Overzicht van de Cursus]** landende pagina&#39;s krijgen een nieuwe en moderne blik. Cursuskaarten hebben ook een nieuw ontwerp om details op een moderne manier weer te geven. Als u de muis boven een cursuskaart houdt, worden de cursusbeschrijving en de publicatiedatum weergegeven.
 
 >[!NOTE]
 >
->De vernieuwde gebruikersinterface is alleen van toepassing op de meeslepende lay-out. Deze wijzigingen worden nog niet ondersteund op mobiele internet of in een mobiele app en worden in een toekomstige release bijgewerkt.
+>De vernieuwde gebruikersinterface is alleen van toepassing op de meeslepende lay-out. Deze wijzigingen worden nog niet ondersteund op het mobiele web of de mobiele app en worden in een toekomstige versie bijgewerkt.
 
 ![](assets/old-ui.png)
 _Oude gebruikersinterface_
@@ -55,128 +56,128 @@ _Oude gebruikersinterface_
 ![](assets/new-ui.png)
 _Nieuwe gebruikersinterface_
 
-### Wat verandert er in deze versie?
+### Wat verandert in deze release
 
-**Moderniseer uiterlijk**
+**Moderniseer blik en voel**
 
-De nieuwe, vernieuwde visuele elementen passen bij moderne ontwerptrends en maken het product er intuïtief en aantrekkelijk uit. Dit omvat een nieuwe masthead, zijpaneel en modern uitziende widgets.
+De nieuwe vernieuwde visuele elementen zijn afgestemd op moderne ontwerptrends, waardoor het product er intuïtief en aantrekkelijk uitziet. Dit omvat een nieuwe masthead, een zijpaneel en moderne widgets.
 
 **Verbeterde gebruikerservaring**
 
-Studenten kunnen nu een vergelijkbare kaartweergave bekijken op de volgende pagina&#39;s: Startpagina, Catalogus, Mijn leren en Cursusoverzichtspagina&#39;s die een eenduidige ervaring bieden.
+Studenten zien nu een vergelijkbare kaartweergave op de volgende pagina&#39;s: de pagina&#39;s Homepage, Catalogus, Mijn leerervaring en Cursusoverzicht die een uniforme ervaring bieden.
 
-Bekijk de [startpagina](/help/migrated/learners/feature-summary/learner-home-page.md) van de leerling voor meer informatie.
+De homepage van de Leerling van de mening ](/help/migrated/learners/feature-summary/learner-home-page.md) voor meer informatie.[
 
-**Wijzigingen in de publicatiedatums van cursussen**
+**Veranderingen in de data van de cursuspublicatie**
 
-Met deze verbetering worden de publicatiedatums voor LinkedIn- en Go1-cursussen die worden geïmporteerd in Adobe Learning Manager, de werkelijke publicatiedatums op LinkedIn en Go1. U kunt de werkelijke publicatiedatums voor de LinkedIn- en Go1-cursussen ook bekijken op de gebruikersinterface. Bekijk [cursuskaarten](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) voor meer informatie.
+Dankzij deze verbetering zijn de publicatiedatums voor LinkedIn- en Go1-cursussen die in Adobe Learning Manager worden geïmporteerd, de feitelijke publicatiedatums voor LinkedIn en Go1. U kunt ook de feitelijk gepubliceerde datums voor de LinkedIn- en Go1-cursussen bekijken in de gebruikersinterface. Bekijk [ kaarten van de Cursus ](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) voor meer informatie.
 
-## Updates voor de ervaring voor niet-aangemeld
+## Updates voor ervaring zonder aanmelding
 
-Zonder aanmelding kunt u een realtime-ervaring creëren voor niet-aangemelde klanten. Dit dient als openingspagina voor hun marketingcampagnes en biedt voldoende informatie om zich aan te melden.
+Dankzij de niet-aangemelde ervaring kunt u een real-time ervaring creëren voor niet-aangemelde klanten. Dit fungeert als landingspagina voor hun marketingcampagnes en biedt voldoende informatie om aanmelding te stimuleren.
 
-### Wat er verandert in deze versie
+### Wat verandert in deze release
 
-Klanten kunnen een premiumlidmaatschap aanschaffen om deze zeer schaalbare, niet-aangemelde gebruikerservaring te ontwikkelen. Deze niet-geregistreerde ervaring, mogelijk gemaakt door [Toegang](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access) tot trainingsgegevens, biedt realtime-gegevens over limieten, ingenomen licenties, limieten voor wachtlijsten en aantal wachtlijsten met behulp van ADOBE Learning Manager-API&#39;s. Klanten kunnen deze API&#39;s gebruiken om zoek- en filtermogelijkheden en een volledig cursusoverzicht te bieden aan studenten die niet zijn aangemeld. Raadpleeg dit artikel [Niet-aangemelde API&#39;s](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) voor meer informatie over de API&#39;s.
+Klanten kunnen een Premium-lidmaatschap aanschaffen om deze uiterst schaalbare, niet-aangemelde ervaringen te creëren. Deze niet-geregistreerde ervaring, die door de [ Toegang van de Gegevens van de Opleiding ](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access) wordt aangedreven, verstrekt gegevens in real time over zetelgrenzen, bezette plaatsen, wachtlijstgrenzen, en wachtlijsttellingen gebruikend Adobe Learning Manager APIs. Klanten kunnen deze API&#39;s gebruiken om zoekmogelijkheden en filtermogelijkheden voor niet-aangemelde studenten en een volledig cursusoverzicht aan te bieden. Verwijs naar dit artikel [ niet-het programma geopend APIs ](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) voor meer informatie over APIs.
 
 >[!NOTE]
 >
->Neem contact op met het ondersteuningsteam of CSAM om het premiumlidmaatschap aan te schaffen.
+>Neem contact op met het ondersteuningsteam of CSAM om het Premium-lidmaatschap aan te schaffen.
 
-## Ondersteuning voor meerdere Stock Keeping Units (SKU&#39;s)
+## Ondersteuning voor meerdere SKU&#39;s (Stock Keeping Units)
 
-Studenten kunnen nu verschillende cursussen, leerpaden of certificeringen toevoegen aan het winkelwagentje en deze samen kopen.
+Studenten kunnen nu meerdere cursussen, leerpaden of certificeringen aan het winkelwagentje toevoegen en ze samen kopen.
 
-### Wat er verandert in de release
+### Wat verandert in de release
 
-Voorheen konden studenten slechts één cursus tegelijk kopen. In deze versie van **Adobe Learning Manager** kunnen ze meerdere cursussen, leerpaden of certificeringen tegelijk aanschaffen met het winkelwagentje.
+Voorheen konden studenten slechts één cursus tegelijk kopen. In deze versie van **Adobe Learning Manager**, kunnen zij veelvoudige cursussen, het leren wegen, of certificeringen onmiddellijk kopen gebruikend kar.
 
-Deze functie is alleen beschikbaar in de apps voor studenten (bestaande gebruikersinterface, nieuwe gebruikersinterface en mobiele immersieve app).
+Deze functie is alleen beschikbaar in de Learner-apps (bestaande gebruikersinterface, nieuwe gebruikersinterface voor studenten en mobiele, boeiende app).
 
-Bekijk [de multi-itemmand in ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)
+Bekijk [ Meerdere punthart in ALM ](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
 ## Ondersteuning voor HTML5-inhoud in Fluidic Player
 
-**Adobe Learning Manager** biedt nu ondersteuning voor het uploaden van HTML5-inhoud als een .zip-bestand naar de inhoudsbibliotheek. Nadat deze bestanden zijn geüpload, kunnen ze als modules in een cursus worden opgenomen. Auteurs kunnen ook de voltooiingscriteria definiëren voor zelfstandige HTML5-modules, zodat een door een gebruiker gemarkeerde aanvulling of automatische voltooiing mogelijk is bij het opstarten.
+**Adobe Learning Manager** steunt nu het uploaden van inhoud HTML5 als .zip dossier aan de inhoudsbibliotheek. Na het uploaden kunnen deze bestanden als modules in een cursus worden opgenomen. Auteurs kunnen ook de voltooiingscriteria definiëren voor HTML5-modules op eigen tempo, zodat studenten deze kunnen voltooien of automatisch kunnen invullen wanneer ze de app starten.
 
-### Wat er verandert in deze versie
+### Wat verandert in deze release
 
-Adobe Learning Manager biedt nu ondersteuning voor inhoud met HTML5-ondersteuning in zelfstandige cursussen. Auteurs kunnen HTML5-inhoud als een .zip bestand toevoegen aan inhoud uit eigen tempo. Studenten kunnen de HTML5-inhoud weergeven in de Fluidic Player. Met de nieuwe functie kunnen studenten de cursus nu direct in de Fluidic Player als voltooid markeren voor cursussen in hun eigen tempo. Bekijk [het bestandstype HTML5 toevoegen in de inhoudsbibliotheek](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library) voor meer informatie.
+Adobe Learning Manager biedt nu ondersteuning voor inhoud die door HTML5 wordt ondersteund in cursussen op eigen tempo. Auteurs kunnen HTML5-inhoud als zip-bestand toevoegen aan inhoud op eigen tempo. Studenten kunnen de HTML5-inhoud bekijken in de Fluidic Player. Met de nieuwe functie kunnen studenten de cursus nu rechtstreeks in de Fluidic Player als voltooid markeren voor cursussen op eigen tempo. De mening [ voegt HTML5 dossiertype in de inhoudsbibliotheek ](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library) voor meer informatie toe.
 
-Met de nieuwe verbetering wordt de cursus met de externe koppeling automatisch gemarkeerd als voltooid wanneer de URL wordt bezocht, zolang de auteur de voltooiingscriteria heeft ingesteld voor de nieuwe optie **[!UICONTROL Bij het starten van inhoud]**. De nieuwe optie **[!UICONTROL Criteria voor voltooiing]** is toegevoegd aan de pagina van de module Activiteit, waar de auteur de voltooiingscriteria voor de externe koppelingen kan instellen. Bekijk [HTML-koppeling toevoegen in de module](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) Activiteit voor meer informatie.
+Met de nieuwe verbetering, zal de cursus met de externe verbinding automatisch als volledig worden gemerkt wanneer URL wordt bezocht, zolang de auteur de voltooiingscriteria aan de nieuwe optie **[!UICONTROL bij het Lanceren van inhoud]** heeft geplaatst. De nieuwe criteria van de optie **[!UICONTROL Voltooiing]** is toegevoegd in de pagina van de Module van de Activiteit waar de auteur de voltooiingscriteria voor de externe verbindingen kan plaatsen. De mening [ voegt de verbinding van de HTML in de activiteitenmodule ](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) voor meer informatie toe.
 
 ![](assets/completion-criteria-activity-module.png)
-_Voltooiingscriteria, optie en module Activiteit_
+_optie-Activiteitenmodule van de criteria van de Voltooiing_
 
-## Achterstallig pushmeldingen voor de mobiele app
+## Pushmeldingen op de mobiele app die al eerder hadden moeten plaatsvinden
 
-Studenten ontvangen pushmeldingen wanneer ze de deadline van een cursus missen. Met deze nieuwe verbetering hebben leerlingen nu de mogelijkheid om gedurende 24 uur een herinnering te snoozen of volgende week te worden herinnerd voor elke achterstallig herinnering dat ze ontvangen. Dit is alleen van toepassing op meldingen die nog niet zijn verstreken. Bekijk [De pushmelding plannen](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
+Studenten ontvangen pushmeldingen wanneer ze een cursusdeadline missen. Dankzij deze nieuwe verbetering hebben studenten nu de optie om een herinnering gedurende 24 uur te noteren of volgende week te herinneren voor elke achterstallige herinnering die ze ontvangen. Dit is alleen van toepassing op meldingen die te laat zijn ingediend. De mening [ plant het dupbericht ](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
 
 ## API-wijzigingen in deze versie
 
-### Zoeken in API
+### Search API
 
-De Zoek-API bevat de volgende wijzigingen:
+De zoekAPI bevat de volgende wijzigingen:
 
-Studenten kunnen met behulp van API ```GET /search``` zoeken naar tags in catalogusfilters. Studenten kunnen naar de tags zoeken door ze als waarde voor ```filter.loTypes``` parameter te ```tag``` selecteren.
+Studenten kunnen met de API ```GET /search``` naar tags in catalogusfilters zoeken. Studenten kunnen naar de tags zoeken door ```tag``` als waarde voor de parameter ```filter.loTypes``` te selecteren.
 
-**Voorbeeld van krullen**
+**Steekproef krullen**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 5a858f23924f4feafa38ae8d6c4d97b6' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
 ```
 
-De nieuwe filters, beschikbare licenties, wachtlijsten en het filter tijdbereik zijn toegevoegd aan de volgende API&#39;s: ```GET /search``` en `GET /learningObjects`.
+De nieuwe filters, beschikbare licentie, beschikbare wachtlijst en tijdbereikfilter zijn toegevoegd aan de volgende API&#39;s: ```GET /search``` en `GET /learningObjects` .
 
-De nieuwe filters `filter.session.includeEnrollmentDeadline` zijn toegevoegd aan de volgende API ```GET /search```.
+De nieuwe filters `filter.session.includeEnrollmentDeadline` zijn toegevoegd aan de volgende API ```GET /search``` .
 
 ### Account-API
 
-De nieuwe kolom `custom_injections`, `showComplianceLabel`en `complianceLabelDefaultID` zijn toegevoegd aan de API om accountgegevens van het ```GET /account``` gebruikerseindpunt op te halen.
+De nieuwe kolom `custom_injections`, `showComplianceLabel` en `complianceLabelDefaultID` zijn toegevoegd aan de ```GET /account``` API om accountgegevens van het eindpunt van de gebruiker op te halen.
 
 ### Leerobject-API
 
-Hier volgen de wijzigingen die in deze update aan de API voor het leerobject zijn aangebracht:
+De volgende wijzigingen zijn aangebracht in de API voor leerobjecten in deze update:
 
-De verouderde auteurs-id voor de respons en andere gegevens die onder `authorDetails` zijn toegevoegd aan de `GET /learningObjects` API. Bovendien is er een nieuw filter `filter.authors`toegevoegd, om verouderde auteurs en hun cursussen te filteren.
+De nieuwe verouderde reactie-id van de auteur en andere gegevens die zijn toegevoegd onder `authorDetails` in de `GET /learningObjects` -API. Bovendien is er een nieuw filter, `filter.authors` , toegevoegd om verouderde auteurs en hun cursussen te filteren.
 
-Met het nieuwe kenmerk dat wordt aangeroepen `effectivenessIndex` , krijgt u gegevens over de effectiviteit van een cursus weer.
+Met het nieuwe kenmerk `effectivenessIndex` kunt u de effectiviteitsgegevens van de cursus verkrijgen.
 
-**Voorbeeld van krullen**
+**Steekproef krullen**
 
 ```
 curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A9790045?enforcedFields%5BlearningObject%5D=effectivenessData' \
 --header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth 598665ab5c8a99bea0e774d9faf7f3ca'
+--header 'Authorization: oauth <oauth_token>'
 ```
 
-De nieuwe respons `whoShouldTake`, waarin wordt beschreven wie deze cursus moet volgen, is toegevoegd aan de volgende API&#39;s: `POST /learningObjects/query`, `GET /learningObjects/{id}`, en `GET /learningObjects`.
+De nieuwe reactie `whoShouldTake` , die informatie bevat over wie deze cursus moet volgen, is toegevoegd aan de volgende API&#39;s: `POST /learningObjects/query` , `GET /learningObjects/{id}` en `GET /learningObjects` .
 
-**Voorbeeld van krullen**
-
-```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 28a83fb8c87579af8ebc4434cc80f0c0' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
-```
-
-De nieuwe respons `waitlistLimit`, met details over beperking van wachtlijsten, is toegevoegd aan de `GET /learningObjects` API.
-
-De nieuwe respons `count` , die een totaal aantal leerobjecten geeft, is toegevoegd aan de API&#39;s `GET/ learningObjects` en `POST/ learningObjects/query`.
-
-De nieuwe reacties `catalogFieldId` `fieldValueId` zijn toegevoegd onder `catalogLabels` in `GET/ learningObjects` DE API.
-
-Studenten kunnen de cataloguslabelwaarden ophalen in de API `GET /preview/learningObjects`.
-
-### Nieuwe API om marketplace-aantal op te halen
-
-In deze release is een nieuwe API `GET /search/marketplace/count` toegevoegd. Dit helpt je om te rekenen op de beschikbare leerobjecten op de marktplaats voor inhoud.
-
-**Voorbeeld van krullen**
+**Steekproef krullen**
 
 ```
-curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth d8631c7b0e3b5d2ae00422ef30aaecfc' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
 ```
 
-**Voorbeeldreactie**
+De nieuwe reactie `waitlistLimit` , die informatie geeft over de beperking van wachtlijsten, is toegevoegd aan de API van `GET /learningObjects` .
+
+De nieuwe reactie `count` die het totale aantal leerobjecten oplevert, is toegevoegd aan de API&#39;s `GET/ learningObjects` en `POST/ learningObjects/query` .
+
+De nieuwe reacties `catalogFieldId` en `fieldValueId` zijn toegevoegd onder `catalogLabels` in de `GET/ learningObjects` API.
+
+Studenten kunnen de labelwaarden van de catalogus in de API `GET /preview/learningObjects` ophalen.
+
+### Nieuwe API om het aantal marketplace te verkrijgen
+
+In deze release is een nieuwe API, `GET /search/marketplace/count` , toegevoegd. Zo kunt u profiteren van de beschikbare leerobjecten in de contentmarkt.
+
+**Steekproef krullen**
+
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
+```
+
+**reactie van de Steekproef**
 
 ```
 {
@@ -184,54 +185,63 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 }
 ```
 
-### Leerobjectinstantie-API
+### API voor leerobjectinstantie
 
-De volgende wijzigingen zijn aangebracht aan de API van de instantie van het leerobject in deze update:
+De volgende wijzigingen zijn aangebracht in de API voor leerobjectinstantie in deze update:
 
-In deze versie is een nieuwe sleutel aangeroepen `gamificationEnabled` toegevoegd aan de API `GET /learningObjects/{loId}/instances/{loInstanceId}`van de instantie van het leerobject.
+In deze release is een nieuwe sleutel met de naam `gamificationEnabled` toegevoegd aan de API voor de leerobjectinstantie `GET /learningObjects/{loId}/instances/{loInstanceId}` .
 
-**Voorbeeld van krullen**
+**Steekproef krullen**
 
 ```
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
 ```
 
-Het nieuwe `gamificationSettings` kenmerk voor de bovenstaande API om de details van de gamification-instellingen op te halen. Bijvoorbeeld: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
+Het nieuwe `gamificationSettings` -kenmerk van de bovenstaande API voor meer informatie over de Gamification-instellingen. Bijvoorbeeld: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
 
-**Voorbeeld van krullen**
+**Steekproef krullen**
 
 ```
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
 ```
 
-Het nieuwe `leaderboard` kenmerk voor de bovenstaande API om de details van de gamification-instellingen op te halen. Bijvoorbeeld: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
+Het nieuwe `leaderboard` -kenmerk van de bovenstaande API voor meer informatie over de Gamification-instellingen. Bijvoorbeeld: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
 
-**Voorbeeld van krullen**
+**Steekproef krullen**
 
 ```
 curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram:106339/instances/learningProgram:106339_105775/leaderboard' \
 --header 'Accept: application/vnd.api+json' \
---header 'Authorization: oauth de4b5ee6efdd42375130db27ff503dd4'
+--header 'Authorization: oauth <oauth_token>'
 ```
+
+### Verandering in sorteergedrag voor datum en datum
+
+API&#39;s die sorteren op datum en datum ondersteunen, geven resultaten weer op basis van de publicatiedatum voor alle leerobjecten, behalve voor leerpad. Het leren Weg zal nog een lijst maken die op de **wordt gebaseerd effectiveModified** datum. Deze wijziging wordt weergegeven in de volgende API&#39;s:
+
+* GET /learningObjects
+* GET /search
+* POST /learningObjects/query
+* POST/zoekopdracht/query
 
 ### Wijzigingen in verschuivingslimieten
 
-Om de systeemprestaties te verbeteren en het resourcegebruik beter te beheren, heeft Adobe hoge offsetwaarden in het eindpunt GET /users voor zowel ADMIN- als LEARNER-bereiken afgeschaft. We raden u aan de Taken-API te gebruiken om de records met een offsetwaarde op te halen.
+Om systeemprestaties te verbeteren en middelgebruik effectiever te beheren, heeft de Adobe hoge compensatiewaarden in het GET /users eindpunt voor zowel het werkingsgebied ADMIN als LEARNER vervangen. We raden u aan de Jobs API te gebruiken om de records met een verschuivingswaarde op te halen.
 
-### Niet meer ondersteunde API&#39;s
+### Verouderde API&#39;s
 
-Bekijk [API-verouderde functies in Adobe Learning Manager](/help/migrated/api-deprecations-list.md) voor een cumulatieve lijst van alle verouderde API&#39;s in het product.
+De veroudering van de mening [ API in Adobe Learning Manager ](/help/migrated/api-deprecations-list.md) voor een cumulatieve lijst van alle afgekeurde APIs in het product.
 
 ## Wijzigingen in de rapportage
 
 ### Nalevingsdashboard
 
-In deze versie bevat het rapport van het nalevingsdashboard twee nieuwe kolommen:
+In deze versie heeft het dashboardrapport voor naleving twee nieuwe kolommen:
 
 * Status
 * Nalevingstype
 
-Dit is in aanvulling op de reeds bestaande kolommen:
+Dit is een aanvulling op de reeds bestaande kolommen:
 
 * Gebruikersnaam
 * E-mailadres van gebruiker
@@ -244,95 +254,95 @@ Dit is in aanvulling op de reeds bestaande kolommen:
 
 ### Trainingsrapport
 
-Het trainingsrapport in Beheer >-rapporten **>** aangepaste rapporten **en de Taken-API** bevatten voorheen kolommen met de **naam** Skill(s)**en** Tag(s)**.****** Deze kolommen hernoemd naar **Vaardigheden** en **tags**.
+Het trainingsrapport in **Admin** > **Rapporten** > **de Rapporten van de Douane** en **Banen API** gebruikt om kolommen te hebben geroepen **Vaardigheid(s)** en **Markering(s)**. Deze kolommen worden nu anders genoemd aan **Vaardigheden** en **Markeringen**.
 
 ### Controlerapport voor inhoud
 
-In deze versie bevat het rapport van de **[!UICONTROL audittrail]** voor inhoud nu de volgende nieuwe kenmerken in de kolom Type wijziging:
+In deze versie, omvat het ]**rapport van de Controle van de Inhoud**[!UICONTROL  nu de volgende nieuwe attributen in de het type van Wijziging kolom:
 
 * Gebruikersgroep toevoegen
-* Gebruikersgroepen verwijderen
+* Gebruikersgroep verwijderen
 * Aangepast label toevoegen
-* Aangepast label verwijderen
+* Eigen label verwijderen
 * Gedeelde catalogus toevoegen
 * Gedeelde catalogus verwijderen
-* Update voor gedeelde catalogus
+* Update gedeelde catalogus
 
-## Opgelost probleem in deze update
+## Fout gecorrigeerd in deze update
 
-**Activiteit inzenden**
+**Voorlegging van de Activiteit**
 
-* Wanneer u probeert een bestand opnieuw te uploaden naar de module voor het indienen van activiteiten, treedt er een fout van 500 op in de netwerkoproep.
+* Het opnieuw uploaden van een bestand naar de module voor het indienen van activiteiten mislukt met een fout 500 in de netwerkaanroep.
 
 **API**
 
-* Het maken van een Connect VC-vergadering mislukt als meerdere cursusleiders hetzelfde e-mailadres hebben.
-* Nadat u zich hebt aangemeld voor een leerpad, geeft DE VC voor MS Teams een onjuiste URL weer op de overzichtspagina.
-* De vooraf ondertekende URL voor het rapport van de gebruiker die als onderdeel van de Job API-respons wordt geleverd, verloopt na zes uur.
-* Bij het genereren van een inschrijvingsrapport voor een cursus, wordt in de kolom Cursusnaam een onjuiste naam van de cursus weergegeven.
-* De migratie worker kan de unieke lo id niet verzenden bij het aanroepen van de bulk-API, maar de id wordt verwijderd.
-* Wanneer een cursus is opgenomen in een specifieke catalogus waartoe een gebruiker toegang heeft (terwijl de standaardcatalogus is uitgeschakeld), kunt u, ondanks de instelling die voorkomt dat niet-ingeschreven studenten de cursus kunnen bekijken, de metagegevens van de cursus nog steeds ophalen via het learningobject/id-eindpunt.
-* Het vaardighedenfilter werkt niet zoals verwacht wanneer de naam van skillname komma&#39;s bevat in de GET /learningObject-API.
-* Er is inconsistentie in de tijdstempelmetagegevens van het bestand in de worker voor gegevensbehoud voor SFTP.
-* Als een connector wordt verwijderd en opnieuw wordt geconfigureerd, lijkt de migratiestatus van het project gesloten.
-* Het trainingsrapport heeft &#39;Tags&#39; als kolomkop in plaats van &#39;Tags&#39;.
-* Exporteren van Commerce connector mislukt als de catalogus is uitgeschakeld en een van de geëxporteerde cursus slechts een deel van de uitgeschakelde catalogus is.
+* Het maken van een Connect VC-vergadering mislukt als meerdere docenten hetzelfde e-mailadres hebben.
+* Na het inschrijven voor een leerpad geeft MS Teams VC een onjuiste URL weer op de overzichtspagina.
+* De vooraf ondertekende URL van het gebruikersrapport die als onderdeel van de taak-API-reactie is opgegeven, verloopt na zes uur.
+* Tijdens het genereren van een inschrijvingsrapport voor een cursus wordt in de kolom Cursusnaam een onjuiste cursusnaam weergegeven.
+* De migratieworker verzendt de unieke lo-id niet wanneer de bulkAPI voor de cursus wordt aangeroepen, maar de id wordt verwijderd.
+* Wanneer een cursus is opgenomen in een specifieke catalogus waartoe een gebruiker toegang heeft (terwijl de standaardcatalogus is uitgeschakeld), kunt u, ondanks de instelling die voorkomt dat uitgeschreven studenten de cursus kunnen bekijken, nog steeds de metagegevens van de cursus ophalen via het leerobject/id-eindpunt.
+* Het vaardigheidsfilter werkt niet zoals verwacht wanneer vaardigheidsnaam komma&#39;s in de naam in de GET /learningObject API heeft.
+* De tijdstempelmetagegevens van het bestand komen niet consistent voor in de gegevensretentieworker voor SFTP.
+* Als een connector wordt verwijderd en opnieuw geconfigureerd, lijkt de migratiestatus van het project te zijn gesloten.
+* Het trainingsrapport heeft &quot;Tags&quot; als kolomkop in plaats van &quot;Tags&quot;.
+* Het exporteren van de Commerce-connector mislukt als de catalogus is uitgeschakeld en als een van de geëxporteerde cursussen slechts deel uitmaakt van de uitgeschakelde catalogus.
 
 **Certificering**
 
 * Soms mislukt het opnieuw inschrijven van een gebruiker voor een terugkerende certificering.
 
-**Aangepaste rol**
+**rol van de Douane**
 
-* Als een aangepaste beheerder probeert over te schakelen naar de rol van cursusleider, wordt Fout 403 in bepaalde gevallen niet weergegeven.
+* Wanneer een aangepaste beheerder probeert over te schakelen op een docentrol, wordt Fout 403 niet weergegeven.
 
-**E-mailsjabloon en melding**
+**E-mailmalplaatje en bericht**
 
-* De e-mailmeldingen worden, nadat een sessie is geannuleerd, niet verzonden naar de laatste set cursusleiders wanneer de cursusleiders uit de sessie zijn verwijderd.
-* De organizer ontvangt geen e-mailmeldingen voor MS-teams na het maken van een virtuele training door een instructeur. Alleen nadat de cursus is gepubliceerd en e-mailsjablonen zijn ingeschakeld, worden e-mails geactiveerd.
+* Nadat een sessie is geannuleerd, worden de e-mailmeldingen niet verzonden naar de laatste set docenten wanneer de docenten uit de sessie worden verwijderd.
+* De organisator ontvangt geen e-mailmeldingen voor MS Teams na het maken van een door een virtuele instructeur geleide training. Pas nadat de cursus is gepubliceerd en e-mailsjablonen zijn ingeschakeld, worden de e-mails geactiveerd.
 * Soms bestaat een e-mailsjabloon uit een onjuiste datumnotatie en vertaling.
 
 **Student**
 
-* Wanneer een leerling meerdere keren is ingeschreven voor een cursus en u het aanwezigheidsrapport downloadt, bevat het rapport onjuiste informatie.
-* Een gebruiker kan de privéberichten van een andere gebruiker bekijken als deze worden toegevoegd aan een openbaar artikel.
-* In bepaalde gevallen kunt u geen studenten afmelden voor een certificering. Er wordt een foutbericht weergegeven wanneer wordt geprobeerd de inschrijving uit te voeren.
-* Een certificering wordt gemarkeerd als voltooid, zelfs nadat een beheerder het voltooid markeert na het selecteren van slechts één cursus.
+* Wanneer een student is ingeschreven voor meerdere instanties van een cursus en u het aanwezigheidsrapport downloadt, bevat het rapport onjuiste informatie.
+* Een gebruiker kan de privéberichten van een andere gebruiker weergeven als deze aan een openbaar artikel zijn toegevoegd.
+* In sommige gevallen kunt u studenten niet uitschrijven voor een certificering. Er wordt een foutbericht weergegeven wanneer u probeert de inschrijving te annuleren.
+* Een certificering is gemarkeerd als voltooid, zelfs nadat een beheerder de certificering heeft voltooid nadat hij slechts één cursus heeft geselecteerd.
 * Een beheerder kan een VC niet als voltooid markeren als de eindtijd van de sessie is gewijzigd in een vorige datum.
-* Het rapport voor aanwezigheid op een sessie wordt weergegeven als &#39;Niet aanwezig&#39; voor leerlingen die op een wachtlijst staan.
+* Het rapport Sessieaanwezigheid wordt weergegeven als &quot;Niet bijgewoond&quot; voor studenten die op een wachtlijst staan.
 
 **Learner-app**
 
-* Nadat de cursusnotities zijn gedownload als PDF, worden de notities op willekeurige wijze weergegeven. Ze volgen de volgorde niet.
+* Nadat u de cursusnotities als PDF hebt gedownload, worden de notities willekeurig weergegeven. Ze volgen de volgorde niet.
 
-**Leerpad**
+**het Leren Weg**
 
-* Nadat u een vaardigheid in een leerpad hebt geselecteerd, wordt het vervolgkeuzemenu niet meer zoals verwacht weergegeven wanneer u het tekstveld selecteert.
-* In bepaalde gevallen kunt u uw vaardigheden niet verwijderen uit een leerpad.
+* Nadat u een vaardigheid in een leerpad hebt geselecteerd, wordt het vervolgkeuzemenu niet weergegeven zoals verwacht wanneer u het tekstveld selecteert.
+* In sommige gevallen kunt u geen vaardigheden uit een leerpad verwijderen.
 
 **Leerprogramma**
 
-* Als een flexibel leerprogramma veel cursussen bevat, wordt het leerplan niet voltooid, zelfs niet nadat een beheerder het lidmaatschap voltooid heeft gemarkeerd.
-* De kolom last_modified_by in het rapport Inschrijving wordt niet bijgewerkt wanneer een leerling een instantie wijzigt.
+* Als een Flexible Learning-programma veel cursussen bevat, wordt het leerplan niet voltooid, zelfs niet nadat een beheerder het heeft voltooid.
+* De kolom last_modified_by in het inschrijvingsrapport wordt niet bijgewerkt wanneer een student instanties verandert.
 
 **Rapporteren**
 
-* In bepaalde gevallen kan een beheerder het trainingsrapport niet exporteren.
-* Wanneer een SCORM-inhoud vragen of antwoorden bevat van meer dan 32.767 tekens, kunt u het quizrapport niet in Excel downloaden.
-* Nadat u Gamification opnieuw instellen hebt geselecteerd, wordt de datum waarop het niveau is bereikt niet opnieuw ingesteld.
+* Soms kan een beheerder het trainingsrapport niet exporteren.
+* Als een SCORM-inhoud vragen of antwoorden van meer dan 32.767 tekens bevat, kunt u het quizrapport van de cursus niet downloaden in Excel.
+* Nadat u Gamification opnieuw instellen hebt geselecteerd, wordt de bereikte Niveau-datum niet opnieuw ingesteld.
 
 **Zoeken**
 
-* Na het exporteren van alle gebruikersgroepen, zijn verwijderde gebruikersgroepen momenteel ook opgenomen in de uitvoer.
-* Vanwege onregelmatige zoekproblemen kunt u niet zoeken naar een certificering.
+* Op dit moment worden, nadat alle gebruikersgroepen zijn geëxporteerd, ook verwijderde gebruikersgroepen weergegeven in de uitvoer.
+* Vanwege doorlopende zoekproblemen kunt u niet zoeken naar een certificering.
 
-## Bekend probleem in deze versie
+## Bekend probleem in deze release
 
-De mobiele offlinespeler laadt de HTML5-inhoud niet.
+De mobiele offline speler laadt de HTML5-inhoud niet.
 
 ## Systeemvereisten
 
-Bekijk de [systeemvereisten](/help/migrated/system-requirements.md) voor Adobe Learning Manager.
+De systeemvereisten van de mening [ Adobe Learning Manager ](/help/migrated/system-requirements.md).
 
 ## Eerdere releases van Adobe Learning Manager
 
