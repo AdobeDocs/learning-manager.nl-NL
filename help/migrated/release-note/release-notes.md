@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Opmerkingen bij de release van Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 5525aa6f5b4c795e4ffbd008e9fe865abfbe4980
+source-git-commit: aae70c4dc7c0e613794c294a39001071e9f131d4
 workflow-type: tm+mt
-source-wordcount: '26223'
+source-wordcount: '26251'
 ht-degree: 72%
 
 ---
@@ -23,18 +23,27 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
-+++Update 96: De Adobe Learning Manager-versie van maart 2024
++++Update 97: de juli 2024-versie van Adobe Learning Manager
 
-**Releasedatum:** 1 maart 2023
+**de datum van de Versie:** 13 Juli, 2024
 
 ## Nieuw in deze release
 
 Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new.md) voor meer informatie.
 +++
 
++++Update 96: De Adobe Learning Manager-versie van maart 2024
+
+**Releasedatum:** 1 maart 2023
+
+## Nieuw in deze release
+
+Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new-march-2024.md) voor meer informatie.
++++
+
 +++Update 95: de november 2023-versie van Adobe Learning Manager
 
-**Releasedatum:** 18 november 2023
+**de datum van de Versie:** 18 november, 2023
 
 ## Nieuw in deze release
 
@@ -51,9 +60,9 @@ Bekijk [Wat is er nieuw in Adobe Learning Manager](https://experienceleague.adob
 * Wijzig de kwaliteit en snelheid van een video op social media.
 +++
 
-+++Update 93: de juli 2023-versie van Adobe Learning Manager
++++Update 93: De Adobe Learning Manager-versie van juli 2023
 
-**Releasedatum:** 10 jul. 2023
+**de datum van de Versie:** 10 jul, 2023
 
 Nieuw in deze release
 
@@ -69,14 +78,14 @@ In deze versie van Adobe Learning Manager introduceren we meerdere inschrijvinge
 
 Deze versie van Adobe Learning Manager bevat een nieuwe connector die gebruik maakt van het SFTP-protocol van AWS Transfer Family.
 
-Zie voor meer informatie [Nieuwe functies in de juli 2023-versie van Adobe Learning Manager](/help/migrated/whats-new-2023-july.md).
+Voor meer informatie, zie [ wat in de versie van Juli 2023 van Adobe Learning Manager ](/help/migrated/whats-new-2023-july.md) nieuw is.
 +++
 
 +++Update: 92
 
 **Releasedatum:** 23 juni 2023
 
-**bugs gecorrigeerd in deze update**
+**bugs die in deze update worden bevestigd**
 
 * Nadat u een module hebt voltooid, wordt de graad-API niet automatisch geactiveerd, wat resulteert in een groen vinkje dat niet wordt weergegeven zoals verwacht in de gebruikersinterface.
 * Na het voltooien van een paar modules in een leerpad of een certificering wordt het groene vinkje, dat aangeeft dat het pad of de certificering is voltooid, niet weergegeven zoals verwacht.
@@ -104,7 +113,7 @@ Zie voor meer informatie [Nieuwe functies in de juli 2023-versie van Adobe Learn
 
 ### Bugfixes in deze update
 
-* In de beschrijving van de mobiele app Adobe Leermanager van de Play Store wordt ten onrechte gezegd dat een student een cursus offline kan volgen.
+* In de beschrijving van de mobiele app Adobe Learning Manager van de Play Store wordt verkeerd gezegd dat een student een cursus offline kan volgen.
 * Er zijn problemen opgetreden bij het migreren van inhoud (module_version.csv en course_module.csv) van LinkedIn naar Adobe Learning Manager.
 * Als een account inactief is en meer dan drie jaar geleden is aangemaakt, worden alle gebruikers van het account verwijderd uit de AVG, ongeacht de status van de gebruikers.
 * Wanneer u in de app voor docenten de wachtlijstlimiet instelt op nul in een sessie en de sessie opslaat, wordt in de gebruikersinterface onjuist &#39;Niet van toepassing&#39; weergegeven in plaats van nul.
@@ -127,27 +136,27 @@ SAML-aanmelding mislukt als de SSO-aanmeldings-URL de entity_id bevat.
 
 ### Nieuw in deze update
 
-**Verbeteringen aan de ILT-ervaring (Instructor Led Training)**
+**Verbeteringen aan de Ervaring van de Opleiding van de Instructeur Led (ILT)**
 
 Er zijn verschillende verbeteringen aangebracht in de ILT-ervaring (Instructor-Led Training). Belangrijke verbeteringen zijn: de mogelijkheid om klassikale sessies te filteren op basis van locatie, de mogelijkheid om van instantie te wisselen (VILT) zonder dat de voortgang verloren gaat, een nieuwe &quot;Planningsassistent&quot; voor het beheren van conflicten in het boeken van docenten en klaslokalen, de mogelijkheid om &quot;Vaardigheden&quot; aan docenten te koppelen en op vaardigheden gebaseerde docenten te kiezen.
 
-**Verbeteringen van de controlelijst voor waarneming**:
+**Verbeteringen aan Checklist van de Waarneming**:
 
 Auteurs kunnen nu &quot;Manager&quot; en &quot;Winkelmanager&quot; selecteren als waarnemer voor checklists. Managers kunnen de controlelijsten bekijken en invullen binnen de Manager-interface zonder dat ze de rol hoeven wijzigen naar een docent. Wanneer een controlelijst aan een manager is toegewezen, krijgt hij/zij hier een melding van.
 
-**Gebruik elke app-/smartphone-camera om QR-codes voor Learning Manager te scannen**
+**Gebruik om het even welke camera App/Smartphone om het Leren QR van de Manager Codes** af te tasten
 
 Studenten kunnen nu elke QR Code scanning-app of hun smartphone gebruiken om de door de Learning Manager gegenereerde QR-codes te scannen voor cursusinschrijving, voltooiing en meer.
 
-**Rapportageverbeteringen**
+**het Melden Verbeteringen**
 
 Een nieuw gebruiksrapport voor docenten, Revisit-rapport voor trainingen, taakhulpenrapport en andere rapportverbeteringen.
 
-**Ondersteuning voor &#39;hybride&#39; sessies**
+**Steun voor &quot;Hybride&quot;Zessies**
 
-Adobe Learning Manager ondersteunt nu de mogelijkheid om &quot;hybride&quot; ILT-sessies (Instructor Led Training) te maken. Virtuele ILT-sessies kunnen worden gemaakt met optionele locatie-informatie zodat studenten ook fysiek kunnen deelnemen aan de sessie als ze beschikbaar zijn op de locatie.
+Adobe Learning Manager ondersteunt nu de mogelijkheid om ILT-sessies (Instructor Led Training) te maken. Virtuele ILT-sessies kunnen worden gemaakt met optionele locatie-informatie zodat studenten ook fysiek kunnen deelnemen aan de sessie als ze beschikbaar zijn op de locatie.
 
-**Betere voortgang bijhouden voor klaslokaal en virtuele ILT**
+**Betere Voortgang het Volgen voor Klaslokaal en Virtuele ILT**
 
 De klassikale en virtuele ILT-modules bieden nu de mogelijkheid om de quizstatus van een student (geslaagd of gezakt) samen met de aanwezigheidsstatus te melden. Zowel vastgelegde aanwezigheid als geslaagde quiz kunnen in acht worden genomen bij het beslissen van de voortgang van de student.
 
@@ -172,11 +181,11 @@ De nieuwe Adobe Learning Manager-app op Microsoft Teams is ontworpen om leren in
 * Knopinfo wordt mooi weergegeven wanneer de interfacetaal Engels is, maar genereert een consolefout wanneer de interfacetaal anders is.
 * Wijzig de naam &quot;Verplicht&quot; in &quot;Vereist&quot; in het Studentendashboard.
 
-**Docent-app**
+**app van de Instructeur**
 
 * De tijdnotatie in de docent-app is niet consistent met de andere apps.
 
-**Sociaal**
+**Sociale**
 
 * Voor bepaalde typen berichten opent het sociale board na het plaatsen niet zoals verwacht.
 
@@ -192,22 +201,22 @@ De nieuwe Adobe Learning Manager-app op Microsoft Teams is ontworpen om leren in
 
 * U kunt de naam van de cursus niet zien op de widget Taakhulp.
 
-**Publiceren**
+**het Publiceren**
 
 * De modulebeschrijving die is toegevoegd in Adobe Captivate is niet zichtbaar in Learning Manager wanneer de module wordt gepubliceerd in ALM.
 
-**Actieve velden**
+**Actieve gebieden**
 
 * Wanneer een CSV met een groot aantal verslagen in proces is, vergt het een significante hoeveelheid tijd, waarin, als een gebruiker het programma opent en een waarde voor één van de attributen ingaat, het tot een nieuwe gebruikersgroep kan leiden die in fouten CSV zou kunnen resulteren. Om dat te verhelpen, wordt het pop-upbericht voor het kenmerk Actieve velden uitgeschakeld en wordt het opnieuw ingeschakeld zodra het CSV-uploaden is voltooid. Dit bericht wordt weergegeven wanneer de CSV-bestanden worden geïmporteerd.
 * Als de kolom in het CSV-bestand van Gebruikers dezelfde naam heeft als het actieve veld voor externe gebruikers, mislukt het uploaden van de CSV.
 
-**API-gerelateerde oplossingen**
+**API-verwante moeilijke situaties**
 
 * In de learningObjects-reactie ontbreekt het bladwijzerattribuut.
 * Er wordt een toegangsinvoer gemaakt tijdens het genereren van een oauth-vernieuwingstoken voor verwijderde gebruikers.
 * De LO-API retourneert een onjuiste loFormat, omdat er voor de berekening van het cursustype samen met de kerninhoud rekening is gehouden met voorbewerkingsmodules.
 
-**Bekende problemen in deze update**
+**Bekende kwesties in deze update**
 
 * De knop Delen in de studentencatalogus werkt niet zoals verwacht in de Safari-browser, de mobiele en iPad MS Teams-app.
 * Meldingen worden niet weergegeven op het tabblad Activiteit nadat de app is verwijderd op andere computers.
@@ -247,7 +256,7 @@ We hebben het verwerken van Leerplannen voor grote accounts geoptimaliseerd. Zo 
 ## In deze update opgeloste bugs
 
 * Een student ontvangt geen e-mail over de sessieannulering als de CR/VC-module uit de ingeschreven cursus is verwijderd.
-* Wijzig GetNotificationData van GET naar POST. De oorspronkelijke implementatie heeft de fout veroorzaakt, **IllegalArgumentException: Request header is too large**, wat heeft geleid tot mislukte meldingen.
+* Wijzig GetNotificationData van GET naar POST. De originele implementatie produceerde de fout, **IllegalArgumentException: De kopbal van het verzoek is te groot**, die tot ontbroken berichten leidde.
 +++
 
 +++Update: 86
@@ -279,11 +288,11 @@ De metadata van de cursus worden overschreven als de cursus meer dan één varia
 
 ### Wat is gewijzigd in deze update
 
-**Taakhulpenrapport**
+**rapport van de Hulp van de Taak**
 
 Deze update bevat een nieuw taakhulprapport met alle taakhulpen in het account.
 
-**Versiebeheer**
+**de controle van de Versie**
 
 Er is versiebeheer voor resources toegevoegd wanneer u tijdens het maken van een cursus resources toevoegt.
 
@@ -291,7 +300,7 @@ Er is versiebeheer voor resources toegevoegd wanneer u tijdens het maken van een
 
 U kunt een rapport bekijken waarin staat hoe vaak een student elke training opnieuw heeft geprobeerd en bezocht.
 
-**Module reset API**
+**Module terugstellen API**
 
 Een beheerder kan nu modules herstellen met behulp van de API voor moduleherstel. Ga voor meer informatie naar de [Adobe Learning Manager API-referentie](https://captivateprime.adobe.com/docs/primeapi/v2/).
 
@@ -299,7 +308,7 @@ Een beheerder kan nu modules herstellen met behulp van de API voor moduleherstel
 
 Voor een aantal e-mailsjablonen kunt u nu een vereiste aan de sjabloon toevoegen.
 
-**Overige wijzigingen**
+**Andere veranderingen**
 
 * U kunt een door de manager goedgekeurde cursus als vereiste toevoegen.
 * Verbeterde prestaties bij het vernieuwen van het dashboard met een overzicht van het leermateriaal.
@@ -324,11 +333,11 @@ Voor een aantal e-mailsjablonen kunt u nu een vereiste aan de sjabloon toevoegen
 
 **Nieuwe kolom**
 
-Een nieuwe kolom, **uitschrijvingToegestaan**, wordt toegevoegd aan course.xlsx. Download het bestand uit deze handleiding.
+Een nieuwe kolom, **unenrollmentAllowed**, wordt toegevoegd aan course.xlsx. Download het bestand uit deze handleiding.
 
-**LinkedIn Learning-connector**
+**LinkedIn het Leren schakelaar**
 
-Voor de LinkedIn Learning-connector staat er een nieuw selectievakje Student kan zich uitschrijven op de pagina Filters. Zie voor meer informatie [LinkedIn Learning-connector](/help/migrated/integration-admin/feature-summary/connectors.md).
+Voor de LinkedIn Learning-connector staat er een nieuw selectievakje Student kan zich uitschrijven op de pagina Filters. Voor meer informatie, zie [ LinkedIn Lerende schakelaar ](/help/migrated/integration-admin/feature-summary/connectors.md).
 
 ### In deze update opgeloste bugs
 
@@ -354,14 +363,14 @@ Voor de LinkedIn Learning-connector staat er een nieuw selectievakje Student kan
 
 +++Update 82
 
-**Releasedatum:** 15 december 2022
+**de datum van de Versie:** 15 December 2022
 
 * De GET LO-API bevat nu prijsinformatie, indien beschikbaar.
 * Aan LT-rapporten wordt een nieuwe kolom, Voltooid door, toegevoegd. Zo kan de beheerder de voltooiingsbron van een LO beter identificeren.
 * We hebben een nieuwe ILT-module toegevoegd die het slagings- en deelnamepercentage van studenten kan bijhouden. Docenten kunnen nu een optie gebruiken om een student te markeren als geslaagd of als deelgenomen maar niet geslaagd.
 * Een beheerder kan nu verplichten dat studenten een module moeten afronden en moeten slagen voordat ze doorgaan naar de volgende module/cursus. Dit geldt voor vereisten, bestelde cursussen en LP&#39;s.
 
-**Opgeloste problemen**
+**Bugfixes**
 
 * Taalproblemen voor Bahasa in de zijbalk en voettekst van de immersieve mobiele ervaring.
 * Er zijn problemen opgelost met de immersieve weergave van de voorbeeldweergave van de module.
@@ -373,9 +382,9 @@ Voor de LinkedIn Learning-connector staat er een nieuw selectievakje Student kan
 
 +++Update 81 - november 2022-versie van Adobe Learning Manager
 
-**Releasedatum:** 5 november 2022
+**datum van de Versie:** 05 November 2022
 
-**Opmerking:** Met deze versie van Adobe Learning Manager hebben gebruikers met inactieve accounts geen toegang meer tot hun accounts met behulp van subdomeinen. De accounts kunnen worden geopend met de account-id of door de pagina acapindex.html te gebruiken en de e-mail-ID in te voeren.
+**Nota:** met deze versie van Adobe Learning Manager, kunnen de gebruikers met inactieve rekeningen niet meer tot hun rekeningen toegang hebben gebruikend subdomeinen. De accounts kunnen worden geopend met de account-id of door de pagina acapindex.html te gebruiken en de e-mail-ID in te voeren.
 
 ### Nieuw in deze release
 
@@ -389,7 +398,7 @@ De release van november 2022 van Adobe Learning Manager bestaat uit de volgende 
 
 Voor meer informatie zie [Nieuw in de Adobe Learning Manager-release van november 2022](/help/migrated/whats-new-2022-november.md).
 
-**Opmerking:** Met de november 2022-versie van Adobe Learning Manager wordt Zoomen afgekeurd [JWT-verificatie in juni 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Volgens deze aankondiging werkt de Zoom-connector met JWT tot de genoemde datum, maar wij raden gebruikers aan om een server-naar-server OAuth-app te maken om deze functionaliteit in de accounts te vervangen. Elke nieuwe verbinding beschikt standaard over Zoom OAuth-verificatie.
+**Nota:** met de versie van november 2022 van Adobe Learning Manager, zal het Gezoem [ authentificatie JWT tegen Juni 2023 ](https://marketplace.zoom.us/docs/guides/auth/jwt/) verwerpen. Volgens deze aankondiging werkt de Zoom-connector met JWT tot de genoemde datum, maar wij raden gebruikers aan om een server-naar-server OAuth-app te maken om deze functionaliteit in de accounts te vervangen. Elke nieuwe verbinding beschikt standaard over Zoom OAuth-verificatie.
 
 ### Bugfixes in deze update
 
@@ -416,7 +425,7 @@ Voor meer informatie zie [Nieuw in de Adobe Learning Manager-release van novembe
 
 +++Update 80
 
-**Releasedatum:** 20 september 2022
+**datum van de Versie:** 20 September 2022
 
 * Aanmeldingsproblemen met de mobiele app in iOS zijn nu opgelost.
 * Er is een probleem met niet-bezorgde e-mails opgelost.
@@ -452,7 +461,7 @@ Voor meer informatie zie [Nieuw in de Adobe Learning Manager-release van novembe
 
 * Als u een cursus hebt die een module met een voorvertoning bevat en vervolgens een API gebruikt om de leermiddelen van de cursus op te halen, bevat de reactie geen gegevens van locatie, contentZipUrl en contentStructureInfoUrl.
 * Onjuiste reactie na het verzenden van een XAPI-aanvraag van het Swagger-document, waarin de domeinnaam LearningManager is.
-* In de map /boards/{id}/posts-API-reactie, wordt de eigenschap &quot;post.attributes.myPoll&quot; weergegeven als een leeg object.
+* In de reactie /boards/{id}/post API, verschijnt het &quot;post.attributes.myPoll&quot;bezit als leeg voorwerp.
 * In sommige gevallen is voor een niet-aangemelde gebruiker de knop Toevoegen aan winkelwagen uitgeschakeld voor sommige cursussen of leerpaden.
 * Onjuiste subdomein-URL op de brandingpagina.
 +++
@@ -461,7 +470,7 @@ Voor meer informatie zie [Nieuw in de Adobe Learning Manager-release van novembe
 
 **Releasedatum:** 24 mei 2022
 
-**Opgeloste problemen in deze update:**
+**Kwesties die in deze update worden bevestigd:**
 
 * In nieuwe cursussen wordt geen rekening gehouden met de volgorde in de Salesforce-app. Als u de volgorde wijzigt, wordt de cursus niet weergegeven in de bedoelde volgorde.
 * Nadat u de instellingen op de klassieke startpagina hebt aangepast en opgeslagen, worden de wijzigingen niet opgeslagen zoals verwacht. Dit gebeurt af en toe.
@@ -472,17 +481,17 @@ Voor meer informatie zie [Nieuw in de Adobe Learning Manager-release van novembe
 
 Dit is een update over een aanstaande wijziging en helpt u zich hierop voor te bereiden.
 
-**Adobe Learning Manager als product zal in juli 2022 worden hernoemd naar Adobe Learning Manager**. Deze strategische inspanning wordt gedaan om de aansluiting van het product op bepaalde bedrijfsprioriteiten beter uit te dragen.
+**Adobe Learning Manager als product zal aan Adobe Learning Manager in Juli 2022** worden herbenoemd. Deze strategische inspanning wordt gedaan om de aansluiting van het product op bepaalde bedrijfsprioriteiten beter uit te dragen.
 
 Het productteam neemt alle nodige stappen om ervoor te zorgen dat dit geen effect heeft op uw gebruik van het platform. U kunt het product op dezelfde manier blijven gebruiken. Voor beheerders van het platform is de nieuwe merknaam vanaf juli in bepaalde vensters zichtbaar.
 
 Als onderdeel van deze wijziging worden de toegangs-URL&#39;s voor Leerbeheer beïnvloed.
 
-Als de toegangs-URL voor uw account bijvoorbeeld `https://learningmanager.adobe.com/XYZ`, wordt de nieuwe URL `https://learningmanager.adobe.com/XYZ`.
+Als de toegangs-URL voor uw account bijvoorbeeld `https://learningmanager.adobe.com/XYZ` is, is de nieuwe URL `https://learningmanager.adobe.com/XYZ` .
 
 Alle bestaande URL&#39;s blijven werken.
 
-Werk samen met de IT-afdeling van uw organisatie om deze actie te voltooien. Neem voor meer informatie contact met ons op via `learningmanagersupport@adobe.com`.
+Werk samen met de IT-afdeling van uw organisatie om deze actie te voltooien. Neem voor meer informatie contact met ons op via `learningmanagersupport@adobe.com` .
 +++
 
 +++Update 76
@@ -511,7 +520,7 @@ Werk samen met de IT-afdeling van uw organisatie om deze actie te voltooien. Nee
 
 ### Overzicht
 
-An [instantie](https://learningmanagerapac.adobe.com/acapindex.html) van Learning Manager wordt nu gehost op AWS in Mumbai (ap-south-1). Voor klanten die dit Indiase exemplaar gebruiken, worden de persoonlijk geïdentificeerde informatie (PII) en de leerrecords van gebruikers alleen in India opgeslagen.
+Een [ geval ](https://learningmanagerapac.adobe.com/acapindex.html) van het Leren Manager zal nu op AWS in Mumbai (ap-zuid-1) worden ontvangen. Voor klanten die dit Indiase exemplaar gebruiken, worden de persoonlijk geïdentificeerde informatie (PII) en de leerrecords van gebruikers alleen in India opgeslagen.
 
 ### Wat wordt ondersteund
 
@@ -524,7 +533,7 @@ De India-instantie van Adobe Learning Manager heeft dezelfde functiemogelijkhede
 
 ### Veelgestelde vragen
 
-**Hoe verschilt deze instantie in Mumbai van andere omgevingen met alleen AWS?**
+**hoe is deze instantie in Mumbai verschillend van andere AWS-enige milieu&#39;s?**
 
 Er is geen verschil. De instantie in Mumbai is hetzelfde als de [AWS US](http://learningmanager.adobe.com/)- of [AWS EU](http://learningmanagereu.adobe.com/)-instantie. Deze instantie wordt in India gehost en alle leer- en gebruikersgegevens blijven in India. De volgende functies worden ondersteund in de India-instantie:
 
@@ -533,7 +542,7 @@ Er is geen verschil. De instantie in Mumbai is hetzelfde als de [AWS US](http://
 * Slack-app
 * **&#42;** Wachten op certificering voor SOC2-compatibiliteit
 
-**Zal dit milieu gemeenschappelijk Kader van Controles (CCF)-Volgzaam zijn?**
+**zal dit milieu gemeenschappelijk Kader van Controles (CCF)-volgzaam zijn?**
 
 Ja. De nieuwe instantie voldoet aan Common Control Framework (CCF).
 +++
@@ -625,7 +634,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 * Een manager kan het rapport voor zijn directe team niet exporteren van de pagina met teamvaardigheden van het Managerdashboard. Dit probleem is nu opgelost.
 
-**Publiceren**
+**Publish**
 
 * In de European instance of Learning Manager content die rechtstreeks vanuit Adobe Captivate naar Adobe Learning Manager werd gepubliceerd, werd standaard gepubliceerd in de landinstelling Deutsch. Dit is nu opgelost.
 
@@ -635,9 +644,9 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 * Voor de aanbeveling-API&#39;s retourneert een verzoek van een GET soms Error 500.
 * Wanneer u trainingen migreert via Exavault en als de tekst niet-Engelse tekens bevat, werd deze altijd bijgewerkt met extra tekens in de tekst. Dit probleem is nu opgelost.
 
-**Lokalisatie**
+**Localization**
 
-* `NormalTextRun  BCX0 SCXW38820519 For the`Admin-, auteur- en Learner-apps, sommige inhoud in het Duits wordt niet weergegeven zoals verwacht.
+* `NormalTextRun  BCX0 SCXW38820519 For the` Admin-, Auteur- en Learner-apps, sommige inhoud in het Duits wordt niet weergegeven zoals verwacht.
 
 ## Bekende problemen in deze release
 
@@ -655,9 +664,9 @@ Releasedatum: 17 november 2021
 
 Learning Manager biedt het dashboard Naleving aan alle beheerders en managers. Managers vinden het zeer nuttig om naleving van hun teamleden voor een bepaalde opleiding te volgen. Tegelijkertijd willen beheerders dat alle managers compatibiliteitstrainingen toevoegen aan hun dashboard en deze bijhouden.
 
-In Learning Manager wordt de **Delen met managers** Met deze workflow kunnen beheerders training delen met managers, zodat ze kunnen worden toegevoegd aan het dashboard Naleving van een manager. Managers hoeven dus geen actie te ondernemen en kunnen meteen beginnen met het volgen van de naleving.
+In het Leren Manager, staat het **Aandeel met Managers** werkschema beheerders toe om opleiding met Managers te delen, zodat zij aan Dashboard van de Naleving van een manager kunnen worden toegevoegd. Managers hoeven dus geen actie te ondernemen en kunnen meteen beginnen met het volgen van de naleving.
 
-Zie voor meer informatie  [**Training delen met managers**](../administrators/feature-summary/reports.md#share_training_managers).
+Voor meer informatie, zie [**opleiding van het Aandeel met managers**](../administrators/feature-summary/reports.md#share_training_managers).
 
 ### Bugfixes in deze update
 
@@ -689,11 +698,11 @@ Releasedatum: 28 oktober 2021
 
 ### Leerpad
 
-De **Oktober 2021-versie van Adobe Learning Manager** introduceert het concept leerpaden.
+De **versie van oktober 2021 van Adobe Learning Manager** introduceert het concept het Leren Wegen.
 
 >[!NOTE]
 >
->De **Instellingen > Algemeen** Deze pagina heeft een nieuwe optie om de uitgebreide mogelijkheden van leerpaden in te schakelen. Als deze optie is ingeschakeld, kunt u leerpaden toevoegen aan een ander leerpad. U kunt de optie niet wijzigen als deze eenmaal is ingeschakeld.
+>De **Montages > Algemene** pagina heeft een nieuwe optie om uitgebreide mogelijkheden van het Leren Wegen toe te laten. Als deze optie is ingeschakeld, kunt u leerpaden toevoegen aan een ander leerpad. U kunt de optie niet wijzigen als deze eenmaal is ingeschakeld.
 
 Leerpaden vervangen onze bestaande functie van leerprogramma&#39;s. Stel je leerprogramma&#39;s voor die krachtige verbeteringen krijgen zonder dat je bestaande mogelijkheden kwijtraakt. Bovendien wordt de functie gemarkeerd als een leerpad.
 
@@ -714,7 +723,7 @@ Zie voor meer informatie [***Nieuw in de Learning Manager-release van oktober 20
 ### Bugfixes in deze update
 
 * E-mailsjablonen, zoals Cursusuitschrijving, Uitschrijving van leerprogramma of Uitschrijving van certificering, weerspiegelen niet de nieuwste productterminologieën zoals gedefinieerd in de CSV. De standaardtekst in e-mailsjablonen ondersteunt nu aangepaste terminologieën.
-* De gebruikerstaal in Learning Manager wordt niet ondersteund in de workflow Publiceren naar Learning Manager. Als de gebruikerstaal anders is, wordt Publiceren naar Leermanager in het Engels uitgevoerd.
+* De gebruikerstaal in Learning Manager wordt niet ondersteund in de workflow Publiceren naar Learning Manager. Als de gebruikerstaal anders is, gebeurt Publish naar Learning Manager in het Engels.
 * Als u veel catalogi toevoegt aan een aangepaste rol, treedt er een fout op wanneer u de rol bijwerkt. Nu wordt de limiet van het aantal catalogi verhoogd tot 50 catalogi.
 * In sommige gevallen zijn verwijderde trainingen nog steeds zichtbaar in een catalogus. Dit probleem deed zich alleen voor in de beheerdersapp en is nu opgelost.
 * Wanneer de beheerdersrol van de ene gebruiker naar de andere gebruiker wordt gewijzigd, wordt de beheerdersrol van de vorige gebruiker nog steeds weergegeven in de gebruikersinterface. Dit is nu opgelost. Dit probleem is alleen aanwezig voor externe gebruikers en niet voor interne gebruikers.
@@ -771,22 +780,22 @@ Deze update introduceert een nieuwe instantie van Azure.
 >
 >De volgende functies worden niet ondersteund in de instantie:
 >
->* [Aangepast domein](../custom-domain.md)
->* [Aankoop creditcard](../administrators/feature-summary/billing-management.md)
->* [Inhoudscatalogus](../administrators/feature-summary/content-catalogs.md)
+>* [ Eigen domein ](../custom-domain.md)
+>* [ Kredietkaartaankoop ](../administrators/feature-summary/billing-management.md)
+>* [ de catalogus van de Inhoud ](../administrators/feature-summary/content-catalogs.md)
 
 +++
 
 +++Update 66 - Augustus 2021-versie van Learning Manager
 
-De **Augustus 2021** **release van Adobe Learning Manager** is gericht op het verbeteren van de leerervaring, rapportage en administratieve workflows. Een aantal belangrijke punten zijn:
+**Augustus 2021** **versie van Adobe Learning Manager** concentreert zich op het verbeteren van de Ervaring van de Student, het Rapporteren, en Administratieve werkschema&#39;s. Een aantal belangrijke punten zijn:
 
-* **Contentmarktplaats:** Learning Manager biedt nu meer dan 70000 cursussen op verschillende domeinen, zoals Technologie, Beheer, Leiderschap, enzovoort.
-* **Verbeterde toegankelijkheidsondersteuning:** Toegankelijkheidsondersteuning voor de studentrol versterkt via verbeterde toetsenbordnavigatie, mogelijkheden voor schermlezers en compliance met contrastverhouding.
-* **RTF-opmaak:** Learning Manager biedt nu uitgebreide tekstbewerking voor beschrijvingen in cursussen, programma&#39;s, certificaten en taakhulpen. Op deze manier kunnen auteurs beschrijvingen in tekst met opmaak opgeven, zoals hyperlinks, afbeeldingen en andere tekstopmaakopties, in plaats van tekst zonder opmaak.
-* **Sterrenclassificatie:** Een student kan nu een cursus beoordelen op een schaal van 5 punten. Een beheerder kan kiezen uit een bestaande effectiviteitsscore of een classificatie van 5 sterren.
-* **Badgr-integratie:** Studenten kunnen Leermanager nu toestaan om badges die ze in Leermanager hebben verdiend, automatisch naar hun Badgr-account te pushen, vanwaar ze hun badges in hun sociale netwerken kunnen delen.
-* **Leergebeurtenissen exporteren naar Salesforce:** Learning Manager biedt nu de mogelijkheid om bepaalde specifieke gebeurtenissen in Learning Manager te exporteren, zoals toevoeging, inschrijving en voltooiing van nieuwe gebruikers, naar een Salesforce-tenant, en biedt de mogelijkheid om deze te koppelen aan het juiste gebruikersobject of Contact-object in Salesforce.
+* **de marktplaats van de Inhoud:** Leermanager biedt nu meer dan 70000 cursussen van gevarieerde domeinen, zoals Technologie, Beheer, Leiderschap, etc. aan.
+* **Verbeterde steun van de Toegankelijkheid:** de steun van de Toegankelijkheid voor de studentrol versterkt via verbeterde toetsenbordnavigatie, het vermogen van de schermlezer, en de naleving van de contrastverhouding.
+* **Rich Text Formatting:** het Leren Manager biedt nu rijke tekst het uitgeven voor beschrijvingen in cursussen, programma&#39;s, certificaten, en de Hulp van de Baan. Op deze manier kunnen auteurs beschrijvingen in tekst met opmaak opgeven, zoals hyperlinks, afbeeldingen en andere tekstopmaakopties, in plaats van tekst zonder opmaak.
+* **Classificatie van de Ster:** een student kan een cursus op een 5 puntschaal nu schatten. Een beheerder kan kiezen uit een bestaande effectiviteitsscore of een classificatie van 5 sterren.
+* **Integratie van de Badgr:** de studenten kunnen het Leermanager nu machtigen om badges automatisch te duwen die zij in Leermanager aan hun rekening van Badgr hebben verdiend, van waar zij hun badges in hun sociale netwerken kunnen delen.
+* **Exporteer leergebeurtenissen naar Salesforce:** Leermanager biedt nu de mogelijkheid om bepaalde specifieke gebeurtenissen in Leermanager te exporteren, zoals nieuwe gebruikerstoevoeging, inschrijving en voltooiing naar een Salesforce-tenant, en biedt de mogelijkheid om deze te koppelen aan het juiste gebruikersobject of Contact-object in Salesforce.
 
 Voor meer informatie zie [***Nieuwe functies en wijzigingen in de Learning Manager-release van augustus 2021***](../whats-new.md).
 
@@ -795,7 +804,7 @@ Voor meer informatie zie [***Nieuwe functies en wijzigingen in de Learning Manag
 
 ### Bugfixes in deze update
 
-**Leerervaring**
+**Ervaring van de Student**
 
 * Als een student is toegevoegd aan twee gebruikersgroepen en er een leerplan wordt toegevoegd, wordt de student ingeschreven voor een andere instantie van dezelfde cursus.
 * Na het inschrijven voor een cursus, speelt de inhoud in sommige situaties niet af zoals verwacht.
@@ -820,7 +829,7 @@ Voor meer informatie zie [***Nieuwe functies en wijzigingen in de Learning Manag
 * Een gebruiker met een auteur- of aangepaste beheerders-/auteurmachtiging kan een taakhulp die door een andere gebruiker is gemaakt, niet bewerken.
 * Wanneer de gebruiker vanuit de beheerdersrol naar Cursus > Instantie navigeert en voor een instantie de optie &#39;Ingeschreven studenten&#39; selecteert, toont deze eerder de studenten uit &#39;Standaardinstantie&#39;. De beheerder moest handmatig de instantie wijzigen in het dropdown-menu. Nu navigeert Leermanager correct de gebruiker naar de studentenpagina met de juiste instantie geselecteerd.
 
-**Apparaatapp**
+**app van het Apparaat**
 
 * Op Android- en iPhone-apparaten kan een student op willekeurige momenten geen cursusmodules openen. Dit leidt tot een 401-fout (geen toegang).
 * Een student kan twee QR-codes scannen, maar bij het scannen van de derde QR-code wordt een foutmelding weergegeven.
@@ -918,15 +927,15 @@ Releasedatum: april 2021
 **Learner-app**
 
 * Op de pagina Overzicht van certificering wordt bij Externe certificering niet de duur weergegeven die is toegevoegd door een auteur.
-* De optie toevoegen **Alles** in het filter Vaardigheid.
+* Voeg de optie **allen** in de filter van de Vaardigheid toe.
 * Studenten hebben meerdere overzichtsmails ontvangen.
 * Het aantal geselecteerde rijen wordt niet zoals verwacht aangegeven op een pagina.
 
-**AEM**
+**AEM component**
 
 * Widgets worden niet zoals verwacht bijgewerkt na het vernieuwen van een pagina.
 
-**Lokalisatie**
+**Localization**
 
 * Een aantal Duitse tekenreeksen zijn niet gelokaliseerd zoals verwacht.
 * De vertaling van tekenreeksen gaat standaard naar Engels als een student geen taal heeft geselecteerd voor de interface en inhoud.
@@ -968,7 +977,7 @@ Captivate Learning Manager Mobile App-update 3.3 introduceert een gloednieuwe st
 
 Bovendien kunnen studenten met deze update ook hun badge als PDF en een afbeelding downloaden. De update introduceert ook een pop-up met feedback, waarmee studenten anoniem feedback over de app kunnen geven.
 
-Zie voor meer informatie  [Apparaatapp van Learning Manager](../learners/feature-summary/ipad-android-tablet-users.md).
+Voor meer informatie, zie [ het apparaat app van de Lerende Manager ](../learners/feature-summary/ipad-android-tablet-users.md).
 
 Lees verder om hier meer over te weten te komen.
 
@@ -1007,7 +1016,7 @@ Voor meer informatie zie [Nieuw in de Learning Manager-update van februari 2021]
 **Certificering**
 
 * In sommige gevallen kon een student een cursus, die deel uitmaakt van een certificering, niet opnieuw proberen, ondanks dat het maximum aantal pogingen voor de cursus op oneindig is gezet. Dit probleem is nu opgelost.
-* In sommige gevallen kan een student zich niet inschrijven voor een certificering vanwege de **Inschrijven** niet zichtbaar zijn zoals verwacht.
+* In sommige gevallen, kan een student niet in een certificatie wegens **inschrijven** knoop die niet zichtbaar is zoals verwacht.
 
 **Inhoudsbibliotheek**
 
@@ -1026,12 +1035,12 @@ Voor meer informatie zie [Nieuw in de Learning Manager-update van februari 2021]
 **Beheer**
 
 * Gearchiveerde cursussen worden niet zoals verwacht weergegeven in de zoekresultaten. Dit probleem is opgelost.
-* Beheerder kan niet zoeken naar gearchiveerde cursussen in **Admin-app** -> **Aangepaste rapporten** -> **Excel-rapporten** -> **Cursusrapporten**, die nu is opgelost.
+* Admin kon niet naar gearchiveerde cursussen in **Admin app** zoeken -> **de rapporten van de Douane** -> **de rapporten van Excel** -> **de Rapporten van de Cursus**, die nu vast is.
 
 * Het downloaden van een quizrapport als Excel werkt niet als het bestand studenten bevat die de trainingen hebben gevolgd voor en na de inhoudsupdate. Dit probleem is opgelost.
 * Een CSV-upload mislukt als de actieve velden speciale tekens bevatten. Dit is opgelost.
 * In enkele gevallen, wanneer een student een test aflegt in Captivate, worden de antwoorden niet vastgelegd zoals het hoort.
-* Nadat u een abonnement hebt gemaakt en hebt geprobeerd het abonnement te bewerken, kunt u het **Opslaan** en **Annuleren** knoppen worden niet zoals verwacht weergegeven. Dit is opgelost.
+* Na het creëren van een abonnement en het proberen om het abonnement uit te geven, **sparen** en **annuleer** knopen verschijnen niet zoals verwacht. Dit is opgelost.
 
 **Speler**
 
@@ -1051,7 +1060,7 @@ Voor meer informatie zie [Nieuw in de Learning Manager-update van februari 2021]
 
 * Enkele studenten, van wie de gebruikersnaam speciale tekens bevat, ontvangen geen e-mail meldingen zoals verwacht.
 * In de immersieve weergave geeft de Kalenderwidget in sommige gevallen de komende VC-sessies niet weer zoals verwacht.
-* In de Learner-app **Vaardigheid** werkt niet zoals verwacht. Dit probleem is opgelost.
+* In de Learner-app werkte het **filter van de Vaardigheid** niet zoals verwacht. Dit probleem is opgelost.
 
 **Zoeken**
 
@@ -1061,7 +1070,7 @@ Voor meer informatie zie [Nieuw in de Learning Manager-update van februari 2021]
 
 * Bij het exporteren van een gebruikersgroeprapport met meer dan 500 gebruikers kwamen de gegevenswaarden en de kolomkoppen in het rapport niet overeen wat nu is gecorrigeerd.
 * Wanneer een beheerder een E-mailhandtekening bewerkt in een E-mailsjabloon en meerdere regels toevoegt, zag hij de html-tags alleen in de Beheerdersinterface. Dit probleem is nu opgelost.
-* In **Admin App > Catalog > Zoeken naar catalogus**, kunt u niet zoeken.
+* In **Admin App > Catalogus > onderzoek naar catalogus**, kunt u niet zoeken.
 
 **Gebruikers**
 
@@ -1087,7 +1096,7 @@ Voor meer informatie zie [Nieuw in de Learning Manager-update van februari 2021]
 
 * We hebben de foutmelding bijgewerkt die je te zien krijgt als de SSO referenties verlopen zijn.
 
-**Learning Manager-API**
+**het Leren Manager API**
 
 * De getlearningObject API retourneerde onjuiste inschrijvingsgegevens als gevolg van problemen met het opnemen in cache. Dit probleem is opgelost.
 * Een VC-sessie toont nu de URL van de vergadering in het Locatie veld in een uitnodiging voor een vergadering.
@@ -1098,11 +1107,11 @@ Voor meer informatie zie [Nieuw in de Learning Manager-update van februari 2021]
 
 ### Bekende problemen in deze update {#known-issues}
 
-* Als u de **Duur** in de Learner-app. De inhoud en het filter zijn mogelijk niet synchroon als de student een andere landinstelling voor inhoud gebruikt en geen deel uitmaakt van de standaardinstantie wat betreft inschrijving.
+* Wanneer het gebruiken van de **filter van de Duur** in de Learner app, kunnen de inhoud en de filter niet synchroon zijn als de student één of andere andere inhoudsplaats gebruikt en geen deel van de standaardinstantie in termen van inschrijving is.
 
 >[!NOTE]
 >
->De training &#39;**Duur**&#39; en &#39;**Indeling**&#39;-filters worden geïdentificeerd op basis van de trainingsinhoud die beschikbaar is voor de standaardinstantie en voor de voorkeurslandinstelling van het account.
+>De opleiding &quot;**Duur** &quot; en &quot;**Formaat**&quot;filters worden geïdentificeerd gebaseerd op de opleidingsinhoud beschikbaar voor standaardinstantie en voor rekening aangewezen scène.
 
 +++
 
@@ -1116,8 +1125,8 @@ Releasedatum: 18 december 2020.
 
 BlueJeans Events-connector verbindt Learning Manager met Blue Jeans-systemen om de synchronisatie van gegevens te automatiseren. Met deze connector kunt u:
 
-* **Virtuele sessies instellen met BlueJeans Events:** Configureer een nieuwe gebeurtenis in BlueJeans en stel een VC-sessie in Learning Manager in door de juiste BlueJeans-gebeurtenis te selecteren. Details over datum en tijd worden automatisch uit de BlueJeans-events gehaald.
-* **Synchronisatie van geautomatiseerde gebruikersvoltooiing:** Via een geautomatiseerd proces voor het synchroniseren van gebruikersvoltooi kan de beheerder van de leermanager automatisch voltooiingsrecords voor BlueJeans-gebeurtenissen ophalen.
+* **de virtuele zittingen van de opstelling gebruikend Gebeurtenissen BlueJeans:** Vorm een nieuwe gebeurtenis in BlueJeans en opstelling een VC zitting in het Leren Manager door de aangewezen gebeurtenis te selecteren BlueJeans. Details over datum en tijd worden automatisch uit de BlueJeans-events gehaald.
+* **Geautomatiseerde het Synchroniseren van de Voltooiing van de Gebruiker:** een Geautomatiseerd proces van de gebruikersvoltooiing staat de Beheerder van de Leermanager toe om voltooiingsverslagen voor gebeurtenissen te halen BlueJeans automatisch.
 
 Deze nieuwe connector vereist een afzonderlijke set referenties om de connector te configureren.
 
@@ -1147,7 +1156,7 @@ Deze release focust op het volgende:
 * Verbeteringen in LinkedIn Learning
 * ... en veel meer
 
-Zie voor meer informatie  [***Nieuwe functies in de december 2020-versie van Adobe Learning Manager***](../whats-new.md).
+Voor meer informatie, zie [***wat in de versie van December 2020 van Adobe Learning Manager***](../whats-new.md) nieuw is.
 
 ### Niet-ondersteunde functies in de Mobile Immersive-ervaring {#unsupportedfeaturesinmobileimmersiveexperience}
 
@@ -1185,8 +1194,8 @@ Releasedatum: 23 september 2020.
 
 **Inhoudsbibliotheek**
 
-* Als u een inhoud uit de inhoudsbibliotheek archiveert, wordt de inhoud in de **Gepubliceerd** tabblad. Wanneer u de pagina vernieuwt, wordt de gearchiveerde inhoud niet meer weergegeven.
-* Wanneer u een inhoudsmap maakt, **Naam** het veld is niet als verplicht gemarkeerd , hetgeen in feite een verplicht veld is .
+* In de inhoudsbibliotheek, verwijdert het terugtrekken van een inhoud niet de inhoud in het **Gepubliceerde** lusje. Wanneer u de pagina vernieuwt, wordt de gearchiveerde inhoud niet meer weergegeven.
+* Wanneer het creëren van een inhoudsomslag, is het **gebied van de Naam** niet zoals verplicht, dat in feite een verplicht gebied is.
 
 **Klantenverzoek**
 
@@ -1259,7 +1268,7 @@ Deze release focust op het volgende:
 * Wijzigingen aan beleid voor gegevensbewaring
 * ... en veel meer
 
-Zie voor meer informatie  [***Nieuwe functies in de augustus 2020-versie van Adobe Learning Manager***](../whats-new.md).
+Voor meer informatie, zie [***wat in de versie van Augustus 2020 van Adobe Learning Manager***](../whats-new.md) nieuw is.
 
 ### Opmerkingen over deze release {#notes}
 
@@ -1281,7 +1290,7 @@ Zie voor meer informatie  [***Nieuwe functies in de augustus 2020-versie van Ado
 * Een student kan geen bronnen downloaden, zelfs niet als de student is ingeschreven voor een cursus die is gedupliceerd.
 * Wanneer een beheerder of auteur een voorbeeld van een cursus bekijkt als student, kan hij/zij geen bronnen downloaden, tenzij hij/zij voor de cursus is ingeschreven.
 
-**Apparaatapp**
+**app van het Apparaat**
 
 * Bij bepaalde aanmeldingen geeft de donutgrafiek onder Mijn openstaande leermateriaal verschillende waarden van de studententoepassing weer van de browser naar de mobiele toepassing.
 
@@ -1353,7 +1362,7 @@ Zie voor meer informatie  [***Nieuwe functies in de augustus 2020-versie van Ado
 
 **Aankondigingen**
 
-* Als een aankondiging de tag bevat `<a>`, wordt de aankondiging niet zoals verwacht tot stand gebracht.
+* Als een aankondiging het label `<a>` bevat, wordt de aankondiging niet zoals verwacht gemaakt.
 
 **Account**
 
@@ -1453,7 +1462,7 @@ In deze update kan een student activa uploaden als bewijs van voltooiing voor ee
 
 Een student kan een extern certificaat openen en activa uploaden, zoals een PDF, tekst of beeldbestanden.
 
-Zie voor meer informatie  [***Elementen uploaden in extern certificaat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
+Voor meer informatie, zie [***activa in extern certificaat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert) uploaden***
 
 ### Opgeloste problemen in deze release {#issuesfixedinthisrelease}
 
@@ -1486,11 +1495,11 @@ Zie [***Bereik van leerprogramma&#39;s op basis van rollen***](../administrators
 
 ### Actieve velden in rapporten beperken {#restrictactivefieldsinreports}
 
-Voor actieve velden hebben we twee nieuwe opties toegevoegd: **Te rapporteren** en **Exportable**.
+Voor Actieve Gebieden, hebben wij twee nieuwe opties toegevoegd **Te Rapporteren** en **Exporteerbaar**.
 
 Voor CSV-velden en handmatig toegevoegde velden geldt dat als een actief veld is gemarkeerd als **Rapporteerbaar**, het actieve veld kan worden gezocht in een filter in een dashboardrapport.
 
-Zie voor meer informatie  [***Actieve velden in rapporten beperken***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields)***.**
+Voor meer informatie, zie [***Beperk Actieve Gebieden in rapporten***](../administrators/feature-summary/add-users-user-groups.md#restrictactivefields) ***.***
 
 ### Beschrijving van inhoudsmodule bekijken {#viewdescriptionofcontentmodule}
 
@@ -1506,7 +1515,7 @@ Als docent kunt u de sessie- en cursusnamen zien in de weergave Aanwezigheid. U 
 
 Studenten kunnen nu een aankondiging in volledige weergave in plaats van in lijstweergave zien. Dit gebeurt wanneer de student één ongelezen aankondiging heeft. Hierdoor kan de student de aankondiging gemakkelijker lezen.
 
-Met Adobe Learning Manager kunt u uw account aanpassen om een rijkere gebruikerservaring te bieden. Hier volgt een lijst met elementen die kunnen worden aangepast. Contact [Ondersteuning voor Learning Manager](mailto:learningmanagersupport@adobe.com)om deze wijzigingen aan te brengen.
+Met Adobe Learning Manager kunt u uw account aanpassen om een rijkere gebruikerservaring te bieden. Hier volgt een lijst met elementen die kunnen worden aangepast. De steun van de Manager van het contact [ Leren ](mailto:learningmanagersupport@adobe.com) om deze veranderingen aan te brengen.
 
 * Kleuren trainingskaart.
 * Voortgangspictogram
@@ -1545,7 +1554,7 @@ Alle student- en gamificationpunten in het bereik van een student kunnen nu word
 
 **Verzoek:** `GET\\ users?page[offset]=0&page[limit]=10&sort=id&filter=gamification`
 
-**Reactie:** *Het antwoord bevat de gesorteerde gebruikers in volgorde van gamificationpunten.*
+**Reactie:** *de reactie zal de gebruikers bevatten die in volgorde van gamificationpunten worden gesorteerd.*
 
 **Niet storen**
 
@@ -1558,8 +1567,8 @@ Op dit moment kunnen alleen beheerders gebruikers toevoegen aan een Niet storen-
 
 Zie het volgende voor meer informatie over API&#39;s in Learning Manager:
 
-* [***API-referentie***](<https://learningmanager.adobe.com/docs/Learning> Managerapi/v2/)
-* [***Handleiding voor API-ontwikkelaars***](<https://helpx.adobe.com/captivate-Learning> Manager/integration-admin/feature-summary/developer-manual.html)
+* [***API verwijzing***] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v2/)
+* [***API ontwikkelaarsgids***] (<https://helpx.adobe.com/captivate-Learning> Manager/integration-admin/feature-summary/developer-manual.html)
 
 ### Opgeloste problemen in deze release {#Issuesfixedinthisrelease-1}
 
@@ -1734,7 +1743,7 @@ Een beheerder kan een gebruikersgroep speciale bevoegdheden geven op basis van w
 
 **Veranderingen in de gebruikersinterface**
 
-* In het dialoogvenster **Rapport toevoegen** de **Tijdspanne** en **Filters** kiezers worden weergegeven als afzonderlijke secties, die standaard zijn samengevouwen. Zie [***Rapporten maken***](../administrators/feature-summary/reports.md#report) voor meer informatie.
+* In **voeg de dialoog van het Rapport** toe, de **Steekproef** en **de selecteurs van Filters** verschijnen als afzonderlijke secties, die in doen ineenstorten staat, door gebrek zijn. Zie [***Rapporten maken***](../administrators/feature-summary/reports.md#report) voor meer informatie.
 
 * In het dialoogvenster **Rapport toevoegen** voor een gebruikersgroep kunt u de functie voor automatisch aanvullen van zoekresultaten gebruiken om één of meerdere gebruikersgroepen te kiezen. Zie [***Gebruikersgroeprapporten***](../administrators/feature-summary/reports.md#user-group-reporting) voor meer informatie.
 
@@ -1746,9 +1755,9 @@ In de studenttranscripten zijn in de tijdkolommen de minuten afgerond tot de dic
 
 **Studentendashboard**
 
-* De status wordt weergegeven in een studentenagenda **Ingeschreven sessie** zelfs als een manager de inschrijving nog moest goedkeuren. Nu de juiste status **In behandeling** wordt weergegeven aan de student totdat de manager de inschrijving goedkeurt.
+* Een het leren Kalender toonde de status **Ingeschreven Zitting** zelfs toen een Manager nog de inschrijving moest goedkeuren. Nu wordt de correcte status **In afwachting** getoond aan de student tot de Manager de inschrijving goedkeurt.
 
-* In een bepaald geval werd voor een sessie de status weergegeven in de studentenagenda **Ingeschreven** ook al heeft de student een cursus voltooid.
+* In een bepaald geval, voor een zitting, toonde de het Leren kalender de status **Ingeschreven** alhoewel de student een cursus heeft voltooid.
 
 **Managerdashboard**
 
@@ -1777,7 +1786,7 @@ Releasedatum: 2 augustus 2019
 
 ### Nieuwe en verbeterde functies {#Newandenhancedfeatures-5}
 
-**Scheiding van het bereik in Sociaal leren voor interne en externe gebruikers** Een beheerder kan afzonderlijke bereiken definiëren voor interne en externe studenten. Er zijn twee nieuwe secties voor interne en externe gebruikers.  U kunt het bereik voor studentengroepen in beide secties bepalen.  De waarden van gebruikerseigenschappen kunnen voor interne gebruikers worden bepaald.  Het externe profiel, waarin studenten dezelfde sociale ruimte kunnen delen, kan voor externe gebruikers worden bepaald.  Zie voor meer informatie [***Bereik-instellingen***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).  **Sociaal-Beperken van het maken van sociale boards** Om het maken van boards door alle studenten te beperken en de boards effectief te modereren, kan een beheerder een bepaalde groep gebruikers machtigingen verlenen om boards te maken. De beheerder kan het maken van boards tot een selecte groep beperken zodat niet elke student die deelneemt aan Sociaal leren boards kan maken.  Zie voor meer informatie [***Machtigingen voor het maken van boards***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission).  **Alleen lege actieve velden voor studenten weergeven** Een beheerder kan ervoor kiezen om de actieve velden weer te geven of te verbergen nadat de waarden zijn ingevuld. Zie voor meer informatie [***Gebruikersweergave***](../administrators/feature-summary/add-users-user-groups.md#activefields).  **Interne gebruikers worden na een opgegeven inactiviteitsduur verwijderd** Een beheerder kan de duur (in dagen) instellen waarbinnen een interne student wordt verwijderd als de student tijdens de opgegeven periode inactief blijft. Zie *** voor meer informatie[Gebruikers automatisch verwijderen](../administrators/feature-summary/settings.md#autodelete)***.  **Koppelingen in de voettekst aanpassen** Een beheerder kan koppelingen toevoegen aan en aanpassen in de voettekst. De links kunnen ook voor verschillende talen aangepast worden.  De bestaande methode voor het toevoegen van de koppeling Contact opnemen met beheerder aan de voettekst is ook beschikbaar in het dialoogvenster **Voettekstkoppelingen** sectie. Zie voor meer informatie [***Voettekstkoppelingen aanpassen***](../administrators/feature-summary/settings.md#footer).
+**Scheiding van werkingsgebied in Sociaal leren voor interne en externe gebruikers** Een beheerder kan afzonderlijke werkingsgebieden voor interne en externe studenten bepalen. Er zijn twee nieuwe secties voor interne en externe gebruikers.  U kunt het bereik voor studentengroepen in beide secties bepalen.  De waarden van gebruikerseigenschappen kunnen voor interne gebruikers worden bepaald.  Het externe profiel, waarin studenten dezelfde sociale ruimte kunnen delen, kan voor externe gebruikers worden bepaald.  Voor meer informatie, zie [***montages van het Reikwijdte***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).  **sociaal-Beperk verwezenlijking van sociale boards** om de verwezenlijking van boards door alle studenten te beperken en de boards effectief te matigen, kan een Beheerder toestemmingen verlenen om boards tot stand te brengen aan een uitgezochte groep gebruikers. De beheerder kan het maken van boards tot een selecte groep beperken zodat niet elke student die deelneemt aan Sociaal leren boards kan maken.  Voor meer informatie, zie {de toestemmingen van de de creatie van de tekstrij 0} ***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission).[***  **Vertoning slechts lege Actieve gebieden aan studenten** Een Beheerder kan verkiezen om de Actieve gebieden te tonen of de gebieden te verbergen nadat de waarden zijn bevolkt. Voor meer informatie, zie [***vertoning van de Gebruiker***](../administrators/feature-summary/add-users-user-groups.md#activefields).  **de Interne gebruikers worden geschrapt op een gespecificeerde duur van inactiviteit** een Beheerder kan de duur (in dagen) plaatsen waarbinnen een interne student wordt geschrapt als de student inactief voor de gespecificeerde duur blijft. Voor meer informatie, zie *** [ Auto schrapt gebruikers ](../administrators/feature-summary/settings.md#autodelete) ***.  **pas verbindingen op de footer** aan een Beheerder kan verbindingen op footer toevoegen en aanpassen. De links kunnen ook voor verschillende talen aangepast worden.  De bestaande methode om de verbinding van Admin van het Contact op footer toe te voegen is ook beschikbaar in de **sectie van de Verbindingen van de Voettekst**. Voor meer informatie, zie [***footer verbindingen***](../administrators/feature-summary/settings.md#footer) aanpassen.
 
 ### Bekende problemen in deze release {#Knownissuesinthisrelease-2}
 
@@ -1807,7 +1816,7 @@ Deel ideeën en zinvolle inzichten in een informele omgeving.  Vind berichten w
 
 **Media op een board delen**
 
-Deel afbeeldingen, documenten, audio- of videobestanden op elk board, zodat andere leden van het board uw bericht kunnen bekijken en een interactie kunnen starten.  Zie voor meer informatie [***Bericht delen***](../learners/feature-summary/ipad-android-tablet-users.md#socialmobile).
+Deel afbeeldingen, documenten, audio- of videobestanden op elk board, zodat andere leden van het board uw bericht kunnen bekijken en een interactie kunnen starten.  Voor meer informatie, zie [***post van het Aandeel***](../learners/feature-summary/ipad-android-tablet-users.md#socialmobile).
 
 **Bestanden inzenden voor klassikale en activiteitsmodules**
 
@@ -1836,7 +1845,7 @@ Releasedatum: 20 juni 2019
 
 **Automatisch beheer van inhoud**
 
-Met Sociaal leren kunt u inhoud die door studenten is geplaatst op twee manieren beheren, namelijk: - **Geen beheer** en **Handmatig beheer**. In deze release verbetert Adobe Learning Manager de mogelijkheden voor sociaal leren door functies voor automatisch beheer op basis van AI te bieden. Wanneer inhoud wordt plaatst, wordt de inhoud geanalyseerd om te zien of de inhoud bij de vaardigheid hoort waarvoor de inhoud is geplaatst. Op basis van de vertrouwensscore wordt de inhoud live geplaatst of verzonden voor handmatig beheer. Zie voor meer informatie *[** Auto-ondersteund beheer **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Sociaal leren staat inhoud toe die door studenten wordt gepost om op twee manieren worden beheerd, namelijk - **Geen Kromming** en **Handmatige Kromming**. In deze release verbetert Adobe Learning Manager de mogelijkheden voor sociaal leren door functies voor automatisch beheer op basis van AI te bieden. Wanneer inhoud wordt plaatst, wordt de inhoud geanalyseerd om te zien of de inhoud bij de vaardigheid hoort waarvoor de inhoud is geplaatst. Op basis van de vertrouwensscore wordt de inhoud live geplaatst of verzonden voor handmatig beheer. Voor meer informatie, zie *[** auto-gesteunde beheer **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Vaardigheid toewijzen aan vaardigheidsdomeinen**
 
@@ -1844,17 +1853,17 @@ Wijs vaardigheden in uw account toe aan de vaardigheidsdomeinen die aanwezig zij
 
 **CSV-specificaties en voorbeeld-CSV&#39;s**
 
-Bijgewerkte CSV-specificaties die u kunt gebruiken om uw bestaande LMS-migratiegegevens toe te wijzen. Gebruik de nieuwste downloadbare CSV-specifications en sample-csvs zip-bestanden om inzicht te krijgen in de voorgeschreven indeling van in te voeren gegevens. Zie voor meer informatie  [***Migratiehandleiding***.](../integration-admin/feature-summary/migration-manual.md)
+Bijgewerkte CSV-specificaties die u kunt gebruiken om uw bestaande LMS-migratiegegevens toe te wijzen. Gebruik de nieuwste downloadbare CSV-specifications en sample-csvs zip-bestanden om inzicht te krijgen in de voorgeschreven indeling van in te voeren gegevens. Voor meer informatie, zie [***handleiding van de Migratie***.](../integration-admin/feature-summary/migration-manual.md)
 
 ### Opgeloste problemen in deze release {#Issuesfixedinthisrelease-4}
 
-**Learning Manager-API**
+**het Leren Manager API**
 
 * Wanneer een extern profiel werd toegevoegd met behulp van de POST-methode van de API *externalProfile*, werd de welkomstmail niet weergegeven.
 
 **Managerdashboard**
 
-* Wanneer een manager de optie heeft geselecteerd **Dit kwartaal**, werden de gegevens over inschrijving, voortgang en voltooiing van een leerobject niet weergegeven. In deze release worden deze gegevens wel weergegeven.
+* Wanneer een manager de optie **dit kwart** selecteerde, werden de inschrijving, de vooruitgang, en de voltooiingsdetails van een het Leren Voorwerp niet getoond. In deze release worden deze gegevens wel weergegeven.
 
 **Studenten op de wachtlijst**
 
@@ -1877,12 +1886,12 @@ Releasedatum: 30 mei 2019
 **Nieuwe en verbeterde functies**
 
 * Geconsolideerd zoeken in alle instanties naar ingeschreven studenten in de studentsectie van het leerobject. Zoek naar ingeschreven gebruikers in de sectie Student van het leerobject met automatisch aangevulde zoeksuggesties. Zie [***Naar ingeschreven gebruikers zoeken***](../administrators/feature-summary/courses.md#searchforusers) voor meer informatie.
-* Volledige bewerkingsmogelijkheden van leerobjecten die via een gedeelde catalogus zijn verkregen. Zie voor meer informatie [***Besturing gedeelde catalogus***](../administrators/feature-summary/shared-catalog-full-control.md). Neem contact op met de ondersteuning van Adobe Learning Manager om de functie in te schakelen.
-* Docenten kunnen nu gemakkelijk de sessies en modules identificeren met openstaande beoordelingen. Zie voor meer informatie [***Beoordelingen in behandeling***](../instructors/feature-summary/learners.md#pending).
+* Volledige bewerkingsmogelijkheden van leerobjecten die via een gedeelde catalogus zijn verkregen. Voor meer informatie, zie [***Gedeelde cataloguscontrole***](../administrators/feature-summary/shared-catalog-full-control.md). Neem contact op met de ondersteuning van Adobe Learning Manager om de functie in te schakelen.
+* Docenten kunnen nu gemakkelijk de sessies en modules identificeren met openstaande beoordelingen. Voor meer informatie, zie [***In afwachting van revisies***](../instructors/feature-summary/learners.md#pending).
 
-* Vaardigheden ondersteunen nu het toekennen van puntwaarden in decimale notatie. Op deze manier kunnen auteurs een decimaal niveau aan een bepaalde cursus toekennen. Zie voor meer informatie [***Decimale ondersteuning***](../administrators/feature-summary/skills-levels.md#decimal).
+* Vaardigheden ondersteunen nu het toekennen van puntwaarden in decimale notatie. Op deze manier kunnen auteurs een decimaal niveau aan een bepaalde cursus toekennen. Voor meer informatie, zie [***Decimale steun***](../administrators/feature-summary/skills-levels.md#decimal).
 * Automatiseer het maken van aangepaste rollen. Zie [***Rollen configureren via CSV-bestanden***](../integration-admin/feature-summary/configure-role-csv-files.md) voor meer informatie.
-* Inzendingen vereist voor externe certificeringen en activiteitenmodules zijn nu optioneel. Hierdoor kunnen managers en docenten evalueren zonder indiening. Zie voor meer informatie [***Optionele indiening***](../managers/feature-summary/learning-objects.md#optional).
+* Inzendingen vereist voor externe certificeringen en activiteitenmodules zijn nu optioneel. Hierdoor kunnen managers en docenten evalueren zonder indiening. Voor meer informatie, zie [***Facultatieve voorlegging***](../managers/feature-summary/learning-objects.md#optional).
 * Download Studenttranscripten voor verwijderde gebruikers. Zie [***Studenttranscripten***](../administrators/feature-summary/learner-transcripts.md) voor meer informatie.
 * Ondersteuning voor de volgende talen:
 
@@ -1910,15 +1919,15 @@ Releasedatum: 30 mei 2019
 
 Releasedatum: 26 april 2019
 
-* **Wijzigingen in gebruikersinterface:** In de app  ![](assets/hamburger.jpg) en de  ![](assets/search-magnifying-glass-icon.png) boven in het scherm worden nu opties weergegeven.
+* **veranderingen van het Gebruikersinterface:** op app, verschijnen de ![](assets/hamburger.jpg) en de ![](assets/search-magnifying-glass-icon.png) opties nu bij de bovenkant.
 
 ![](assets/1.png)
 
-* **QR-code scannen voor inschrijving:** De mogelijkheden voor QR-codes zijn verbeterd. QR-code ondersteunt nu niet alleen het markeren van aanwezigheid, maar ook het inschrijven voor een cursus en het voltooien van een cursus.
+* **Scan QR code om in te schrijven:** QR codemogelijkheden worden verbeterd. QR-code ondersteunt nu niet alleen het markeren van aanwezigheid, maar ook het inschrijven voor een cursus en het voltooien van een cursus.
 
-  Als u zich voor een cursus wilt inschrijven en de cursus wilt voltooien, kunt u een QR-code scannen die uw beheerder heeft verstrekt. Ga voor meer informatie over het scannen van QR-codes in de webversie van Learning Manager naar  [***QR-code scannen***](<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompletenrollcompleteaccourse).
+  Als u zich voor een cursus wilt inschrijven en de cursus wilt voltooien, kunt u een QR-code scannen die uw beheerder heeft verstrekt. Voor meer informatie bij het aftasten van QR codes in de Webversie van het Leren Manager, zie [***QR code van het Aftasten***] (<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompletencompletrollcompleteaccourse).
 
-* **Meerdere pogingen op cursus:** Met de app Leermanager kan de student cursussen volgen waarvoor meerdere pogingen zijn ingeschakeld. Zie voor meer informatie over het instellen van meerdere pogingen  [***Meerdere pogingen***](<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#multiPogingen).
+* **Meerdere pogingen bij cursus:** De app van de Leermanager staat de student toe cursussen te volgen met toegelaten veelvoudige pogingen. Voor meer informatie bij vestiging veelvoudige pogingen, zie [***Meerdere pogingen***] (<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multipoogs).
 
 +++
 
@@ -1997,9 +2006,9 @@ Prestatieverbetering
 
 Releasedatum: 19 mei 2018.
 
-* In deze release van Adobe Learning Manager worden nieuwe functies en verbeteringen uitgerold. Het biedt de mogelijkheid om aangepaste rollen te maken, cataloguslabels toe te voegen, gebruikers leegte, tags te beheren, leerobjecten een andere naam te geven, Slack-integratie, nieuwe connectorintegraties, ondersteuning voor xAPI en nog veel meer. Ga voor meer informatie over de nieuwe functies en verbeteringen naar  [Overzicht van de nieuwe functie](../whats-new.md#main-pars_text).
+* In deze release van Adobe Learning Manager worden nieuwe functies en verbeteringen uitgerold. Het biedt de mogelijkheid om aangepaste rollen te maken, cataloguslabels toe te voegen, gebruikers leegte, tags te beheren, leerobjecten een andere naam te geven, Slack-integratie, nieuwe connectorintegraties, ondersteuning voor xAPI en nog veel meer. Voor meer informatie over de nieuwe eigenschappen en de verhogingen, zie [ Overzicht van de Nieuwe eigenschap ](../whats-new.md#main-pars_text).
 
-* Learning Manager voldoet aan de AVG. Zie voor meer informatie [Compatibiliteit van Learning Manager met AVG](/help/migrated/kb/prime-gdpr.md).
+* Learning Manager voldoet aan de AVG. Voor meer informatie, zie [ het Leren de naleving van de Manager aan AVG ](/help/migrated/kb/prime-gdpr.md).
 
 ## Bekend probleem {#knownissue}
 
@@ -2034,13 +2043,13 @@ Releasedatum: 25 maart 2018.
 
 In de Adobe Learning Manager-versie van maart 2018 worden aantrekkelijke nieuwe functies en verbeteringen uitgerold. Het biedt u de mogelijkheid om rapporten van de audittrail van gebruikers en aanmeldings-/toegangsrapporten te genereren, studenten de mogelijkheid te bieden cursusinstanties te kiezen, klaslokalen en virtuele lesruimten te verbeteren, en nog veel meer. Deze release omvat daarnaast ook bugfixes en prestatieverbeteringen.
 
-Als u alle nieuwe functies in deze versie wilt lezen, raadpleegt u  [Nieuwe functies in Adobe Learning Manager](../whats-new.md).
+Om alles te lezen dat in deze versie nieuw is, zie [ wat in Adobe Learning Manager ](../whats-new.md) Nieuw is.
 
 ### Bekend probleem {#KnownIssue-1}
 
-**Probleem:** Het openen van een aantal specifieke leerobjecten met Internet Explorer v11.1478.10586.0 kan ertoe leiden dat de leermanager vastloopt.
+**Uitgave:** de toegang tot van een paar specifieke het Leren Voorwerpen die Internet Explorer v11.1478.10586.0 gebruiken zou Leermanager kunnen leiden om te crashen.
 
-**Oplossing:** Werk uw Internet Explorer 11-browser bij naar de nieuwste versie door contact op te nemen met het IT-team in uw organisatie.
+**Oplossing:** werk uw browser van Internet Explorer 11 aan de recentste versie door uit te reiken aan het team van IT in uw organisatie bij.
 
 +++
 
@@ -2132,7 +2141,7 @@ Wijzigingen in een gedeelde cursus worden niet doorgegeven naar een tenantaccoun
 
 Gebruikers konden de deadline van een instantie niet wijzigen in activiteitscursussen, omdat de vorige deadline dan werd hersteld. Dit probleem is opgelost.
 
-**Geen mogelijkheid om een unieke id te gebruiken nadat deze uit een leerobject is verwijderd.**
+**Onvermogen om unieke identiteitskaart te gebruiken zodra verwijderd uit een het leren voorwerp.**
 
 Wanneer u een unieke ID aan een cursus toewijst en deze verwijdert, kunt u de ID niet meer gebruiken. Dit probleem is opgelost.
 
@@ -2144,11 +2153,11 @@ Als een leerprogramma al is ingeschreven als onderdeel van een leerplangebeurten
 
 Studenten kregen vaak e-mails met onjuiste herinneringen voor de deadline of de sessietijd vanwege tijdzonecorrecties. Dit probleem is opgelost.
 
-**De tijdlijn van het gamificationleaderboard toont externe studenten als hij wordt omgezet van een externe student in een interne student.**
+**de tijdlijn van het leaderboard van de Gamification toont externe studenten als hij van een externe student in interne wordt omgezet.**
 
 De tijdlijn van het gamificationleaderboard van een interne student kan externe student tonen wanneer deze van een externe naar een interne student wordt geconverteerd. Dit probleem is opgelost.
 
-**Het UUID-veld voor een student wordt in bewerkbare indeling weergegeven terwijl er één gebruiker en CSV-gebruikers in een UUID-account worden gemaakt.**
+**UUID gebied voor een student wordt getoond in editable formaat terwijl het creëren van enige en gebruikers CSV in een UUID toegelaten rekening.**
 
 De student zag het UUID-veld tijdens het invullen van diens profiel, zelfs wanneer de beheerder de UUID voor één gebruiker of CSV-gebruikers heeft verstrekt. Dit probleem is opgelost.
 
@@ -2159,7 +2168,7 @@ Bestede leertijd werd niet weergegeven in rapporten voor een student
 * Als zijn/haar aanwezigheid automatisch wordt gemarkeerd door het systeem voor het aansluiten van modules.
 * Wanneer een QR-code wordt gescand voor CR- en VC-modules met behulp van de toepassing Learning Manager-apparaat.
 
-**Deze release van Learning Manager introduceerde ook verbeteringen en foutoplossingen met betrekking tot de apparaatspeler.**
+**deze versie van het Leren Manager introduceerde ook verhogingen en insectenmoeilijke situaties met betrekking tot apparatenspeler.**
 
 * Problemen met de voltooiing van activiteitenmodules. Dit is opgelost.
 * Wanneer de student een video in staande modus afspeelt, werken de knoppen +10 en -10 niet. Dit is opgelost
@@ -2212,7 +2221,7 @@ Dankzij deze verbetering kunt u een tijdsbereik instellen waarna gebruikers auto
 
 Taakhulpen zijn trainingsinhoud waartoe een studenten toegang hebben zonder dat zij zich moeten inschrijven voor een specifiek leerobject zoals een cursus of leerprogramma. Dankzij deze verbetering kunnen beheerders het Taakhulpenrapport extraheren en downloaden. Als beheerder kunt u ook een rapport genereren van alle aankondigingen die door u zijn verzonden. Beheerders en managers kunnen ook een rapport extraheren van de studenten die zijn uitgeschreven.
 
-**Leermanagerconnectoren**
+**de connectoren van de Lerende Manager**
 
 U kunt nu gebruikersvaardigheden exporteren naar een FTP-locatie voor integratie met systemen van derden via de optie Gegevensexport. U kunt de verbindingsnaam voor uw integratie opgeven en kiezen of u interne gebruikers wilt importeren of gebruikersvaardigheden wilt exporteren door deze te configureren of op verzoek op te halen.
 
@@ -2252,7 +2261,7 @@ Met deze update ondersteunt de leerervaring van Learning Manager nu sectie 508 v
 
 In herinneringen voor deadlines werd het aantal resterende dagen voor studenten in bepaalde tijdzones onjuist vermeld. Dit probleem is opgelost.
 
-**Problemen met het leerprogramma in het geval van een verlopen programma-instantie**
+**het Leren de kwesties van het Programma in het geval van verlopen instantie van het Programma**
 
 Er waren problemen bij het starten van modules vanuit Leerprogramma als programma-instantie was verlopen. Hierdoor werkte de uitbreiding van de module niet, en studenten konden de speler niet starten en de inhoud niet bekijken. Dit probleem is opgelost.
 
@@ -2272,23 +2281,23 @@ Releasedatum: 9 april 2017.
 
 ### Nieuwe functies {#newfeatures}
 
-Voor een lijst met nieuwe functies en verbeteringen in de Learning Manager-release van april raadpleegt u [Nieuwe functies.](../whats-new.md)
+Voor een lijst van nieuwe eigenschappen en verhogingen in het Leren van de versie van de Manager van April, verwijs naar [ wat Nieuw is.](../whats-new.md)
 
 **Op widgets gebaseerde Learner-app**
 
 Gebruik widgets op de startpagina om uw cursussen, vaardigheden en resultaten te beheren. Gebruik de zoekbalk om het gehele LMS te doorzoeken dat alle leerobjecten, catalogi, vaardigheden, notities en discussies omvat
 
-Ga voor meer informatie over de nieuwe startpagina naar  [Startpagina voor studenten in Leermanager](../learners/feature-summary/getting-started-learner.md).
+Voor gedetailleerde informatie over de nieuwe homepage, zie [ homepage van de Student in het Leren Manager ](../learners/feature-summary/getting-started-learner.md).
 
 **Beheerdersinstellingen voor het Studentendashboard**
 
 Als beheerder kunt u de startpagina van de student beheren door verschillende widgets in en uit te schakelen.
 
-**Mobiele app van Learning Manager voor studenten**
+**de mobiele app van de Leermanager voor studenten**
 
 De nieuwe mobiele Learning Manager-app laat studenten de app gebruiken om zich in te schrijven voor cursussen en deze te volgen. De app kan ook gebruikt worden om dashboards te beheren.
 
-Ga voor meer informatie over het gebruik van Learning Manager in mobiele telefoons naar  [Leerprogramma van Learning Manager voor mobiele telefoons](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907).
+Meer over het gebruiken van het Leren Manager in mobiele telefoons, zie [ Leerprogramma app van de Manager voor mobiele telefoons ](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907).
 
 **Aanwezigheid noteren met behulp van QR-code**
 
@@ -2298,17 +2307,17 @@ Gebruik de QR-code scannen om uw aanwezigheid voor klassikale sessies met een mo
 
 Learning Manager heeft nu modules voor docenten. Docenten kunnen modulesessies beheren, waaronder de tijd, locatie en het maximumaantal plaatsen, voor de modules die aan hen zijn toegewezen.
 
-Zie voor gedetailleerde informatie over docenten  [Docenten in Leermanager](../instructors/feature-summary/getting-started.md#main-pars_header).
+Om gedetailleerde informatie over Docenten te bekijken, zie [ Instructeurs in Lerende Manager ](../instructors/feature-summary/getting-started.md#main-pars_header).
 
 **Collega-account**
 
 Als u een beheerder bent, kunt u collega-accounts maken waarmee u uw gekochte plaatsen kunt delen.
 
-Zie voor meer informatie over het maken en beheren van collega-accounts  [Collega-accounts](../administrators/feature-summary/peer-account.md#main-pars_text).
+Om te weten om peer rekeningen tot stand te brengen en te beheren, zie [ Collega rekeningen ](../administrators/feature-summary/peer-account.md#main-pars_text).
 
 **Aanbod equivalente cursussen**
 
-Gebruik **[!UICONTROL Nieuwe taal toevoegen]** wanneer u een module of cursus toevoegt om deze beschikbaar te maken in meerdere talen en in verschillende indelingen.
+Het gebruik **[!UICONTROL voegt de Nieuwe optie van de Taal]** toe wanneer u een module of een cursus toevoegt om het in veelvoudige taal en formaat ter beschikking te stellen.
 
 **Studenttranscript**
 
@@ -2318,7 +2327,7 @@ Learning Manager biedt managers en beheerders de mogelijkheid om transcriptgegev
 
 Learning Manager heeft drie nieuwe connectoren in deze release geïntroduceerd, zodat studenten cursussen van de volgende contentproviders kunnen openen en volgen: Lynda.com, getAbstract en Harvard ManageMentor.
 
-Om te weten te komen hoe te om elk van deze schakelaars te vormen en te gebruiken, zie  [Connectoren](../integration-admin/feature-summary/connectors.md#main-pars_header).
+Om te weten hoe te om elk van deze schakelaars te vormen en te gebruiken, zie [ Connectors ](../integration-admin/feature-summary/connectors.md#main-pars_header).
 
 **Uniek ID voor leerobjecten**
 
@@ -2326,7 +2335,7 @@ Tijdens het maken van leerobjecten kunnen auteurs en beheerders nu unieke id&#39
 
 **Discussieboard voor studenten**
 
-Gebruik het Discussieboard in cursussen om met uw collega&#39;s en docenten te communiceren. Als student kunt u alle berichten voor cursussen bekijken. U kunt echter ook alleen de berichten verwijderen die u hebt ingevoerd. Zie voor meer informatie over het Discussieboard  [Weergeven van en deelnemen aan discussies](../learners/feature-summary/courses.md#main-pars_header_1772461149).
+Gebruik het Discussieboard in cursussen om met uw collega&#39;s en docenten te communiceren. Als student kunt u alle berichten voor cursussen bekijken. U kunt echter ook alleen de berichten verwijderen die u hebt ingevoerd. Voor meer informatie over de raad van de Discussie, zie [ het Bekijken van en het deelnemen aan besprekingen ](../learners/feature-summary/courses.md#main-pars_header_1772461149).
 
 ### Verbeteringen {#Enhancements-3}
 
@@ -2334,7 +2343,7 @@ Gebruik het Discussieboard in cursussen om met uw collega&#39;s en docenten te c
 
 De voltooiingscriteria voor leerobjecten zoals cursussen, certificeringen en leerplannen kunnen zo worden ingesteld dat studenten slechts X van Y modules of cursussen hoeven te voltooien. Auteurs kunnen ook de criteria voor de voltooiing van certificeringen en leerplannen bepalen.
 
-Zie voor meer informatie over deze functie  [Voltooiingscriteria voor cursussen](../learners/feature-summary/courses.md#main-pars_image_1164377098).
+Voor meer informatie van deze eigenschap, zie [ de voltooiingscriteria van de Cursus ](../learners/feature-summary/courses.md#main-pars_image_1164377098).
 
 **Cursusmoderatie**
 
@@ -2434,7 +2443,7 @@ Adobe stelt ondernemingen in staat om de opleidingsgegevens en trainingsinhoud v
 
 Learning Manager biedt de tools en sjablonen waarmee de integratiebeheerder van uw organisatie de migratietaken kan opzetten en uitvoeren.
 
-Raadpleeg voor meer informatie over de functie Migratie  [Help bij Migratiehandleiding](../integration-admin/feature-summary/migration-manual.md)
+Voor meer informatie over de eigenschap van de Migratie, verwijs naar [ handleiding van de Migratie Hulp ](../integration-admin/feature-summary/migration-manual.md)
 
 ### Verbeteringen {#Enhancements-4}
 
@@ -2442,13 +2451,13 @@ Raadpleeg voor meer informatie over de functie Migratie  [Help bij Migratiehandl
 
 Als beheerder kunt u nu specifieke domeinnamen toevoegen terwijl u externe gebruikers toevoegt. Wanneer studenten zich bij het account registreren, kunnen ze alleen e-mailadressen van die domeinnamen invoeren.
 
-U kunt ook e-mailverificatielinks naar het e-mailadres van gebruikers sturen wanneer zij zich bij het account registreren. Zie voor meer informatie over deze verbetering  [Gebruikers/gebruikersgroepen toevoegen](../administrators/feature-summary/add-users-user-groups.md#main-pars_header_1217981931).
+U kunt ook e-mailverificatielinks naar het e-mailadres van gebruikers sturen wanneer zij zich bij het account registreren. Voor meer informatie over deze verbetering, zie [ gebruikers/gebruikersgroepen ](../administrators/feature-summary/add-users-user-groups.md#main-pars_header_1217981931) toevoegen.
 
 **Fluidic Player**
 
 U kunt nu de afspeelsnelheid aanpassen met Fluidic Player. U kunt kiezen uit vijf snelheden. U kunt ook het volume van een cursus regelen met Fluidic Player.
 
-Als student kunt u ook 10 seconden vooruit- of achteruitspringen met behulp van de nieuwe pictogrammen aan weerszijden van de afspeelknop in de Fluidic Player. Zie voor meer informatie over deze verbeteringen  [Fluidic Player](../learners/feature-summary/fluidic-player.md).
+Als student kunt u ook 10 seconden vooruit- of achteruitspringen met behulp van de nieuwe pictogrammen aan weerszijden van de afspeelknop in de Fluidic Player. Voor meer informatie over deze verhogingen, zie [ Fluidic Player ](../learners/feature-summary/fluidic-player.md).
 
 De verbeteringen van de Fluidic Player zijn alleen van toepassing op video.
 
@@ -2460,7 +2469,7 @@ Releasedatum: 6 december 2016.
 
 ### Verbetering {#enhancement}
 
-Als onderdeel van deze update biedt Learning Manager een eindpunt [PATCH/gebruikers/{id}](<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id) om gebruikers in een toepassing bij te werken. U moet de beheerdersrol hebben om toegang te krijgen tot dit API-eindpunt. Met****dit eindpunt kunt u de volgende informatie over gebruikers van Learning Manager bijwerken:
+Als deel van deze update, verstrekt de Lerende Manager een eindpunt [ PATCH/users/{id} ] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id) om gebruikers in een toepassing bij te werken. U moet de beheerdersrol hebben om toegang te krijgen tot dit API-eindpunt. Met****dit eindpunt kunt u de volgende informatie over gebruikers van Learning Manager bijwerken:
 
 * Naam
 * E-mail
@@ -2472,7 +2481,7 @@ Als onderdeel van deze update biedt Learning Manager een eindpunt [PATCH/gebruik
 
 **Fluidic Player**
 
-Wanneer u een cursus volgt die in de Captivate is ontwikkeld met  `code cpQuizInfoStudentName` variabele, verscheen de studentnaam niet zoals verwacht. Dit probleem is opgelost.
+Wanneer u een cursus volgt die in Captivate is ontwikkeld met behulp van de variabele `code cpQuizInfoStudentName` , verscheen de naam van de student niet zoals verwacht. Dit probleem is opgelost.
 
 +++
 
@@ -2486,17 +2495,17 @@ Releasedatum: 17 november 2016.
 
 Met de functie Gedeelde catalogi kunnen beheerders van verschillende accounts catalogi met leerobjecten delen of verwerven. Als uitbreiding op deze functie ondersteunen we het doorgeven van de updates naar leerobjecten zoals badges, vaardigheden, modules, cursussen, leerprogramma&#39;s, certificaten en taakhulpen.
 
-Raadpleeg voor meer informatie over deze functie  [Help voor gedeelde catalogi](../administrators/feature-summary/catalogs.md#propagation)
+Voor meer informatie over deze eigenschap, verwijs naar [ Gedeelde Hulp van catalogi ](../administrators/feature-summary/catalogs.md#propagation)
 
 **L1- en L3-feedback**
 
 * Het dialoogvenster L1-feedback verschijnt zodra een student een cursus heeft afgerond. De student ontvangt ook een bericht over het invullen van L1-feedback.
 * De functie voor L1- en L3-feedback biedt de optie om beschrijvende vragen toe te voegen. Beheerders kunnen deze beschrijvende vragen voor studenten toevoegen. Deze is in aanvulling op de standaard vragenreeks van Learning Manager. U kunt twee beschrijvende vragen toevoegen voor L1-feedback en één vraag voor L3-feedback.\
-  Raadpleeg voor meer informatie over deze functie [Help voor beschrijvende vragen over L1- en L3-feedback](../administrators/feature-summary/courses.md#descriptive)
+  Voor meer informatie over deze eigenschap, verwijs naar [ L1 &amp; L3 terugkoppel beschrijvende vragen Help ](../administrators/feature-summary/courses.md#descriptive)
 
 **Gebruikers exporteren**
 
-* Op verzoek van enkele grote zakelijke gebruikers is er een nieuwe optie toegevoegd om de lijst van alle gebruikers in het Learning Manager-account te downloaden. Klik in Beheerdersaanmelding op **[!UICONTROL Gebruikers]** in het linkerdeelvenster en klik op **[!UICONTROL Gebruikersgegevens exporteren]** om de lijst met gebruikers als Excel-blad te downloaden.
+* Op verzoek van enkele grote zakelijke gebruikers is er een nieuwe optie toegevoegd om de lijst van alle gebruikers in het Learning Manager-account te downloaden. In login van de Beheerder, klik **[!UICONTROL Gebruikers]** op de linkerruit en klik **[!UICONTROL de gebruikersgegevens van de Uitvoer]** om de lijst van gebruikers als Excel blad te downloaden.
 
 ### Opgeloste problemen {#Issuesfixed-1}
 
@@ -2559,7 +2568,7 @@ Releasedatum: 12 oktober 2016.
 
 **Cursuseffectiviteit**
 
-* In de studentrol werd de effectiviteit van de cursus weergegeven als een van de **Sorteren op** filteropties, zelfs als een beheerder de cursuseffectiviteit voor studenten heeft uitgeschakeld. Dit probleem is opgelost.
+* In studentrol, werd de cursuseffectiviteit getoond als één van de **Soort door** filteropties zelfs wanneer een Beheerder de cursuseffectiviteit voor studenten onbruikbaar maakte. Dit probleem is opgelost.
 
 **Certificeringen**
 
@@ -2567,7 +2576,7 @@ Releasedatum: 12 oktober 2016.
 
 **Rapporten**
 
-* Wanneer een beheerder een certificeringsrapport probeert te genereren met **Einddatum** als optie, werden de inactieve gebruikers niet getoond in het rapport. Dit probleem is opgelost.
+* Wanneer een Beheerder probeert om een certificatierapport met **te produceren datum** als optie, werden de inactieve gebruikers niet getoond in het rapport. Dit probleem is opgelost.
 * Wanneer een beheerder op de link Cursusrapporten klikte op het tabblad Rapporten>Mijn rapporten, verscheen een pop-upvenster zonder de knop Sluiten. Dit probleem is opgelost.
 
 **Fluidic Player**
@@ -2614,7 +2623,7 @@ In deze updaterelease hebben we een aantal back-endproblemen met productengineer
 ### Opgeloste problemen {#Issuesfixed-4}
 
 * Er was een probleem met het exporteren van modulegegevens in studenttranscripten wat resulteerde in onjuiste exportgegevens. Dit probleem is opgelost.
-* Als een gebruiker een e-mail-ID-extensie met meer dan vier tekens gebruikte, werd deze niet ondersteund. Als een e-mail-ID bijvoorbeeld <abcd@company.world> het werd niet ondersteund omdat de extensiewereld uit meer dan vier tekens bestaat. We hebben dit opgelost om extensies met meer dan vier tekens te ondersteunen.
+* Als een gebruiker een e-mail-ID-extensie met meer dan vier tekens gebruikte, werd deze niet ondersteund. Als een e-mail-ID bijvoorbeeld <abcd@company.world> is, wordt deze niet ondersteund omdat de extensiewereld uit meer dan vier tekens bestaat. We hebben dit opgelost om extensies met meer dan vier tekens te ondersteunen.
 
 +++
 
@@ -2817,11 +2826,11 @@ Hieronder vindt u een aantal van de verbeteringen en functies ter referentie.
 
 **Studenttranscript**
 
-Learning Manager biedt u een functie om transcripten te genereren voor de Learning Manager-studenten in uw organisatie. Raadpleeg voor meer informatie  [Help-inhoud van de functie Studenttranscripten](../administrators/feature-summary/learner-transcripts.md).
+Learning Manager biedt u een functie om transcripten te genereren voor de Learning Manager-studenten in uw organisatie. Voor meer informatie, verwijs naar [ de inhoud van de de eigenschaphulp van de Transcripten van de Student ](../administrators/feature-summary/learner-transcripts.md).
 
-**Badge exporteren als PDF**
+**badge van de Uitvoer als PDF**
 
-Met Learning Manager kunt u uw badges als PDF-bestanden exporteren. Raadpleeg voor meer informatie  [Inhoud van badges](../administrators/feature-summary/badges.md).
+Met Learning Manager kunt u uw badges als PDF-bestanden exporteren. Voor meer informatie, verwijs naar [ de eigenschapinhoud van Badges ](../administrators/feature-summary/badges.md).
 
 **Quizscore voor modules**
 
@@ -2846,7 +2855,7 @@ Beheerders kunnen nu een leeractiviteit van studenten als compleet markeren.
 **Rapporten**
 
 * U kunt zich abonneren op cursusrapporten, leerprogramma- of certificaatrapporten. U kunt zich ook abonneren op individuele cursusrapporten voor gegevens zoals quizscore en studentstatus. De abonnementen worden naar uw e-mailadres gestuurd zoals dat is geregistreerd in het Learning Manager-account. U kunt deze e-mail-ID ook wijzigen.
-* Bij het exporteren van een inschrijvingsrapport voor certificering, wordt een nieuwe kolom met de naam **Vervaldatum** wordt ook geëxporteerd. Met deze kolomgegevens kunnen beheerders de studenten kennen die de consumptietermijnen van hun leerobject niet hebben gehaald.
+* Wanneer u het inschrijvingsrapport van de Certificatie uitvoert, wordt een nieuwe kolom genoemd **Verdachte Datum** ook uitgevoerd. Met deze kolomgegevens kunnen beheerders de studenten kennen die de consumptietermijnen van hun leerobject niet hebben gehaald.
 
 **E-mailsjablonen**
 
@@ -2876,7 +2885,7 @@ Releasedatum: 10 juni 2016.
 
 ## Probleem opgelost {#Issuefixed-1}
 
-Sommige klanten ondervonden problemen bij eenmalige aanmelding in Learning Manager. Dit probleem is opgelost door de entityId van de leermanager naar een URL te verwijzen (<https://learningmanager.adobe.com>) in plaats van een trefwoord. Learning Manager voldoet aan de SAML 2.0-specificatie.
+Sommige klanten ondervonden problemen bij eenmalige aanmelding in Learning Manager. Dit probleem is opgelost door de entityId van de leermanager te verwijzen naar een URL (<https://learningmanager.adobe.com>) in plaats van een trefwoord. Learning Manager voldoet aan de SAML 2.0-specificatie.
 
 +++
 
@@ -2903,13 +2912,13 @@ Wanneer externe studenten de registratiepagina bezoeken met behulp van de URL va
 
 **Cursussen bekijken en publiceren**
 
-* Als u in de auteursrol een voorvertoning weergeeft van een cursus die vanuit de Captivate is geüpload als SCORM+SWF-inhoud met `code $$cpQuizInfoStudentName$$` variabele, null-waarde weergegeven voor variabele. Dit probleem is opgelost.
+* Als u in de auteursrol een voorvertoning weergeeft van een cursus die vanuit de Captivate is geüpload als inhoud SCORM+SWF met `code $$cpQuizInfoStudentName$$` -variabele, wordt de waarde null weergegeven voor de variabele. Dit probleem is opgelost.
 * Wanneer er een apostrof (&#39;) in de titel van een Presenter-cursus stond en deze werd gepubliceerd en bekeken in Learning Manager, verschenen er vraagtekens (???) in de inhoudsopgave. Dit probleem is opgelost.
 
 **Certificeringen**
 
 * Als een certificering aan een catalogus is gekoppeld en wanneer de certificering terugkeert, verschijnt deze in alle bijbehorende catalogi. Eerder konden gebruikers de terugkerende certificeringen soms niet zien in hun catalogi.
-* Als een beheerder tijdens het maken van certificeringen de **dagen om te voltooien** een waarde die groter is dan of gelijk is aan de geldigheidsperiode van de certificering, wordt een waarschuwingsbericht weergegeven. Eerder werd het waarschuwingsbericht niet weergegeven aan de beheerders.
+* Terwijl het creëren van certificatie, als een beheerder de **dagen ingaat om** waarde te voltooien die groter dan of gelijk aan geldigheidsperiode van de certificatie is, verschijnt een waarschuwingsbericht. Eerder werd het waarschuwingsbericht niet weergegeven aan de beheerders.
 * Gebruiker zien de **geldigheid** van de certificering in maanden. Eerder verscheen de basiswaarde in jaren.
 
 **Leerprogramma&#39;s definiëren**
@@ -2970,10 +2979,10 @@ Exporteren van inschrijvingsgegevens mislukte als een van de ingeschreven studen
 
 **E-mailsjablonen**
 
-* Het woord **partners,** die werd gebruikt om externe groepen te vertegenwoordigen,**** is **** verwijderd uit de hoofdtekst en titel van e-mailsjablonen. Externe groepen worden niet noodzakelijkerwijs partners genoemd.\
-  **Opmerking:** Deze bijgewerkte sjabloon wordt niet weergegeven als de standaardsjabloon al is gewijzigd. Klik op **Origineel herstellen** in **Sjabloonvoorbeeld** in.
+* Het woord **partners,** dat werd gebruikt om externe groepen te vertegenwoordigen, **** is **** verwijderd uit het lichaam en de titel van e-mailmalplaatjes. Externe groepen worden niet noodzakelijkerwijs partners genoemd.\
+  **Nota:** Dit bijgewerkte malplaatje verschijnt niet als het standaardmalplaatje reeds wordt gewijzigd. Om het bijgewerkte malplaatje te bekijken klik **terugkeert aan Origineel** in **dialoog van de Voorproef van het Malplaatje**.
 
-* Er kan niet op de URL worden geklikt in het e-mailbericht dat Beheerders altijd ontvangen **Profiel gemaakt (zelfregistratie)** en **Profiel gemaakt (extern/partners)** e-mailsjablonen worden bewerkt. Dit probleem is opgelost.
+* URL is niet klikbaar in de e-mail die door Beheerders wordt ontvangen wanneer **Gecreeerd Profiel (Zelfregistratie)** en **Gecreeerd Profiel (Extern/Partners)** e-mailmalplaatjes worden uitgegeven. Dit probleem is opgelost.
 
 +++
 
@@ -3011,9 +3020,9 @@ Paginering werkte niet op de pagina Aankondigingen in Beheerdersaanmelding. Dit 
 
 **Leerprogramma&#39;s en -plannen**
 
-* Wanneer een student een cursusmodule op volgorde in een leerprogramma probeerde over te slaan, werd er geen foutmelding weergegeven. Dit probleem is nu opgelost. Een foutbericht **Kan modules niet overslaan** wordt weergegeven.
+* Wanneer een student een cursusmodule op volgorde in een leerprogramma probeerde over te slaan, werd er geen foutmelding weergegeven. Dit probleem is nu opgelost. Een foutenbericht **kan geen modules overslaan** verschijnt.
 * Cursussen werden niet aan leerprogramma&#39;s toegevoegd wanneer paginering werd gebruikt in de cursussenlijst. Dit probleem is opgelost.
-* **Gearchiveerd** werd twee keer weergegeven in Leerprogramma&#39;s > Instanties. Dit probleem is opgelost.
+* **het Gearchiveerde** lusje verscheen tweemaal in het Leren programma&#39;s > instanties. Dit probleem is opgelost.
 
 **Taakhulpen**
 
@@ -3028,16 +3037,16 @@ Paginering werkte niet op de pagina Aankondigingen in Beheerdersaanmelding. Dit 
 
 **Vaardigheden maken**
 
-In de aanmelding van studenten verschijnt de knopinfo voor vaardigheidsnaam in **Vaardighedenkaart **was** **geeft de***volledige naam niet weer. Dit probleem is opgelost.
+In studentenlogin, was de het hulpmiddeluiteinde van de vaardigheidsnaam in **Vaardighedenkaart **** **niet tonend***volledige naam. Dit probleem is opgelost.
 
 **Externe partners toevoegen**
 
-* Er is een tekstbericht opgenomen op de registratiepagina voor externe gebruikers als **Gebruikers moeten zich eerst registreren en een gebruikersnaam-wachtwoord maken voor volgende aanmeldingen**.
+* Een tekstbericht is inbegrepen in de externe pagina van de gebruikersregistratie aangezien **Gebruikers eerst een gebruikersnaamwachtwoord voor verdere logins** moeten registreren en creëren.
 
 **Gebruikersmeldingen**
 
-* Wanneer een externe student op de knop **Notities openen** in E-mailmelding Cursus opnieuw bekijken wordt de speler geopend, maar het deelvenster Notities werkte niet. Dit probleem is opgelost.
-* Wanneer een externe student de voorbereidings- of evaluatiemodules probeert te openen met **Notities openen** koppeling in e-mailmelding Cursus opnieuw bekijken. Notitie-inhoud is niet zichtbaar. Dit probleem is opgelost.
+* Wanneer een externe student de **Open verbinding van Nota&#39;s** in het Opnieuw bezoek cursusbericht van e-mail klikt, opent de speler omhoog maar het notitiepaneel werkte niet. Dit probleem is opgelost.
+* Wanneer een externe student probeert om de pre-work of test-out modules te openen gebruikend **Open Nota&#39;s** verbinding in het Opnieuw bezoek cursus e-mailbericht, was de nota&#39;s inhoud niet zichtbaar. Dit probleem is opgelost.
 
 **Cursussen maken met behulp van modules**
 
@@ -3057,7 +3066,7 @@ Releasedatum: 15 maart 2016.
 
 **Cursussen met modules maken**
 
-* Wanneer u in Beheerdersaanmelding probeert een nieuwe instantie voor cursussen te maken van **Gearchiveerd** is opgetreden, is een fout opgetreden. Dit probleem is opgelost.
+* In login van de Beheerder, wanneer u probeert om nieuwe instantie voor cursussen van **Gearchiveerd** lusje tot stand te brengen, kwam een fout voor. Dit probleem is opgelost.
 * De indelingen voor de acties en het inschrijvingsscherm waren vervormd in Beheerdersaanmelding van gelokaliseerde inhoud, tijdens het inschrijven van studenten voor cursusinstanties. Dit probleem is opgelost.
 * Wanneer een auteur klassikale of virtuele klassikale modules maakte, werd de kalendermaand standaard weergegeven als januari 2015. Dit probleem is opgelost. De huidige datum wordt standaard weergegeven.
 * Wanneer de naam van een cursusinstantie een schuine streep vooruit of achteruit bevatte, mislukte de export van de studentenlijst. Dit probleem is opgelost.
@@ -3068,7 +3077,7 @@ Wanneer een student met de muis op een videomelding ging staan, veranderde de cu
 
 **Gebruikersmeldingen**
 
-Wanneer een externe student op de knop **Notities openen** koppeling in e-mailmelding Cursus opnieuw bezoeken, werkt niet. Dit probleem is nu opgelost. Deze koppeling opent de speler met notities, zelfs als de gebruiker niet is aangemeld bij Leermanager.
+Wanneer een externe student de **Open verbinding van Nota&#39;s** in het bericht van het opnieuw bezoek cursus e-mail klikt, werkte het niet. Dit probleem is nu opgelost. Deze koppeling opent de speler met notities, zelfs als de gebruiker niet is aangemeld bij Leermanager.
 
 **Ondersteuning voor Frans en Duits**
 
@@ -3098,13 +3107,13 @@ Releasedatum: 28 februari 2016.
 
 Taakhulpen is een opslagplaats van trainingsinhoud die zonder enige inschrijvings- of voltooiingscriteria toegankelijk is voor studenten. Studenten kunnen naar deze taakhulpen verwijzen om hulp te krijgen bij het uitvoeren van activiteiten of taken in een organisatie. De beheerder kan het aantal downloads per taakhulp bijhouden.
 
-Raadpleeg voor meer informatie over deze functie  [Help bij taakhulpen](../learners/feature-summary/job-aids.md).
+Voor meer informatie over deze eigenschap, verwijs naar [ Hulp van de Hulpmiddelen van de Taak ](../learners/feature-summary/job-aids.md).
 
 ### Aankondigingen
 
 Een aankondiging is een multimediabericht (tekst, beeld of video) dat een beheerder kan maken en uitzenden naar een specifieke groep gebruikers. Gebruik aankondigingen om studenten te motiveren om trainingen te volgen en zo een leercultuur op te bouwen.
 
-Raadpleeg voor meer informatie over deze functie  [Help voor aankondigingen](../learners/feature-summary/announcements.md).
+Voor meer informatie over deze eigenschap, verwijs naar [ Hulp van Aankondigingen ](../learners/feature-summary/announcements.md).
 
 ### Tin Can API-ondersteuning
 
@@ -3116,7 +3125,7 @@ Neem voor meer informatie contact op met het ondersteuningsteam van Adobe.
 
 U kunt een leerpad creëren door automatisch een vervolgcursus of leeractiviteit toe te wijzen.
 
-Gebeurtenissen voor leerplannen zijn bijgewerkt. Er zijn enkele nieuwe gebeurtenissen toegevoegd. Raadpleeg  [Leerplannen](../learners/feature-summary/learning-programs.md) voor meer informatie.
+Gebeurtenissen voor leerplannen zijn bijgewerkt. Er zijn enkele nieuwe gebeurtenissen toegevoegd. Verwijs naar [ het Leren plannen ](../learners/feature-summary/learning-programs.md) voor meer informatie.
 
 ### Herinnering voor notities
 
@@ -3124,7 +3133,7 @@ Als u notities maakt terwijl u een cursus volgt, herinnert Learning Manager u hi
 
 ### Gamification op groepsniveau
 
-Beheerders kunnen de omvang van gamification definiëren door de omvangsinstellingen te wijzigen. U kunt gamification selectief inschakelen onder vergelijkbare profielgebruikers, groepen of locatie. Raadpleeg  [Gamification](../learners/feature-summary/gamification.md) voor meer informatie.
+Beheerders kunnen de omvang van gamification definiëren door de omvangsinstellingen te wijzigen. U kunt gamification selectief inschakelen onder vergelijkbare profielgebruikers, groepen of locatie. Verwijs naar [ Gamification ](../learners/feature-summary/gamification.md) eigenschap voor meer informatie.
 
 ### Ondersteuning voor Frans en Duits
 
@@ -3136,7 +3145,7 @@ De bestaande kenmerken van Learning Manager zijn aanzienlijk verbeterd. Enkele v
 
 ### CSV importeren
 
-Als u gebruikers verwijdert, kunt u dezelfde gebruikers niet opnieuw aan de toepassing toevoegen door één gebruiker toe te voegen. U kunt de verwijderde gebruiker echter wel weer toevoegen met behulp van het CSV-uploadproces. Er zijn belangrijke wijzigingen in de beperking voor verplichte velden in de CSV-uploadfunctie. Raadpleeg  [Veelgestelde vragen over CSV](../administrators/add-users-in-bulk.md) voor meer informatie.
+Als u gebruikers verwijdert, kunt u dezelfde gebruikers niet opnieuw aan de toepassing toevoegen door één gebruiker toe te voegen. U kunt de verwijderde gebruiker echter wel weer toevoegen met behulp van het CSV-uploadproces. Er zijn belangrijke wijzigingen in de beperking voor verplichte velden in de CSV-uploadfunctie. Verwijs naar [ Veelgestelde vragen over CSV ](../administrators/add-users-in-bulk.md) voor meer informatie.
 
 ### Cursuslijstweergave
 
@@ -3144,7 +3153,7 @@ U kunt cursussen standaard als kaarten bekijken. In deze release is een lijstwee
 
 ### Cursussen verwijderen
 
-U kunt nu cursussen in de fasen Concept en Gearchiveerd verwijderen. Raadpleeg  [Cursussen](../administrators/feature-summary/courses.md) voor meer informatie. Als een leerobject wordt verwijderd, worden ook alle bijbehorende rapportagegegevens verwijderd. Als een cursus wordt verwijderd en als deze deel uitmaakte van een ander leerobject, verschijnt een geschikt bericht voor de gebruiker.
+U kunt nu cursussen in de fasen Concept en Gearchiveerd verwijderen. Verwijs naar [ eigenschap van Cursussen ](../administrators/feature-summary/courses.md) voor meer informatie. Als een leerobject wordt verwijderd, worden ook alle bijbehorende rapportagegegevens verwijderd. Als een cursus wordt verwijderd en als deze deel uitmaakte van een ander leerobject, verschijnt een geschikt bericht voor de gebruiker.
 
 **Leerprogramma&#39;s en -plannen**
 
@@ -3194,7 +3203,7 @@ Als een bestaande gebruiker die zichzelf heeft geregistreerd, zichzelf opnieuw p
 
 **Rapporten**
 
-Als u wilt dat in de inhoud wordt aangegeven hoeveel tijd de gebruiker heeft besteed aan het consumeren van inhoud, kunt u dit herkennen aan de hand van een variabele. `code cmi.core.session_time`. De variabele was eerder niet ingesteld. Dit probleem is opgelost.
+Als u wilt dat in de inhoud wordt aangegeven hoeveel tijd de gebruiker heeft besteed aan het consumeren van inhoud, kunt u dit herkennen aan de hand van een variabele, namelijk `code cmi.core.session_time` . De variabele was eerder niet ingesteld. Dit probleem is opgelost.
 
 **Cursussen met modules maken**
 
@@ -3212,7 +3221,7 @@ Releasedatum: 9 februari 2016.
 
 ## Afmeldgedrag bijgewerkt {#signoutbehaviorupdated}
 
-Wanneer gebruikers op **[!UICONTROL Afmelden]** in Leermanager worden ze nu afgemeld bij de toepassing Leermanager en worden ze ook afgemeld bij hun Adobe-id&#39;s.
+Wanneer de gebruikers **[!UICONTROL Teken uit]** in het Leren Manager klikken, worden zij nu geregistreerd uit de toepassing van de Leermanager en ook worden zij geregistreerd uit hun Adobe IDs.
 
 +++
 
@@ -3232,7 +3241,7 @@ Releasedatum: 20 januari 2016.
 
 **Directe link naar leerobjecten**
 
-* U heeft toegang tot de leerobjecten (met uitzondering van Certificering) via een directe URL. De **[!UICONTROL URL kopiëren]** wordt weergegeven op de tegels van leerobjecten. Gebruikers kunnen klikken **[!UICONTROL URL kopiëren]** en plak de koppeling in een aparte browserpagina om het leerobject rechtstreeks te openen.
+* U heeft toegang tot de leerobjecten (met uitzondering van Certificering) via een directe URL. De **[!UICONTROL url van het Exemplaar]** optie wordt getoond op de tegels van het leren voorwerpen. De gebruikers kunnen **[!UICONTROL URL van het Exemplaar]** klikken en de verbinding in een afzonderlijke browser pagina kleven om tot het het leren voorwerp direct toegang te hebben.
 
 **Cursussen maken met behulp van modules**
 
@@ -3246,11 +3255,11 @@ Releasedatum: 20 januari 2016.
 
 **Catalogus maken**
 
-* In de beheerdersrol tijdens het maken van catalogi met **Leerobjecten toevoegen** gearchiveerde cursussen niet in de lijst met cursussen worden weergegeven.
+* In de rol van de Beheerder, terwijl het creëren van catalogi gebruikend **voeg het leren voorwerpen** dialoog toe, verschijnen de gearchiveerde cursussen niet in de lijst van cursussen.
 
 **Andere oplossingen**
 
-* In de beheerdersrol wordt de volledige naam van de studenten weergegeven in **Studenten** tabblad. Eerder verscheen alleen de voornaam van de student.
+* In de rol van de Beheerder, wordt de volledige naam van de studenten getoond in **Studenten** tabel. Eerder verscheen alleen de voornaam van de student.
 
 +++
 
@@ -3279,7 +3288,7 @@ Releasedatum: 22 december 2015.
 
 **Persoonlijk dashboard**
 
-* Bij het openen van cursussen, catalogi en leerprogramma&#39;s in de beheerders- en auteursrollen wordt de tabvolgorde gewijzigd in **Gepubliceerd - concept - alles - gearchiveerd**. De standaardselectie is **Gepubliceerd**
+* Terwijl de toegang tot van cursussen, catalogi, en het leren programma&#39;s in de rollen van de Beheerder en van de Auteur, wordt de orde van lusjes veranderd in **Gepubliceerd - Ontwerp - allen - Gearchiveerd**. De standaardselectie wordt **Gepubliceerd.**
 
 ### Opgeloste problemen {#Issuesfixed-16}
 
@@ -3297,7 +3306,7 @@ Releasedatum: 22 december 2015.
 
 **Aangepaste catalogus maken voor de gebruikersgroep**
 
-* Tijdens het gebruik **Leerobjecten toevoegen** in de beheerdersrol, kunt u cursussen filteren, een cursus kiezen en toevoegen met **Toevoegen** onder aan het dialoogvenster. In sommige gevallen: **Toevoegen** niet voor sommige gebruikers werd weergegeven.
+* Terwijl het gebruiken van **voeg het leren voorwerpen** dialoog in de rol van de Beheerder toe, kunt u cursussen filteren, een cursus kiezen, en toevoegen gebruikend **voeg** knoop bij de bodem van de dialoog toe. In sommige gevallen, **voeg** knoop toe was niet verschijnend voor sommige gebruikers.
 
 +++
 
@@ -3357,7 +3366,7 @@ Releasedatum: 9 december 2015.
 * De problemen met betrekking tot URL-links in e-mailsjablonen zijn opgelost.
 * Ondersteuning voor
 
-   * Publiceren naar Leermanager
+   * Publish naar Learning Manager
    * Ondersteuning voor sneller uploaden van inhoud voor CP 8-versie (CP803-patch is vereist)
 
 +++
@@ -3378,7 +3387,7 @@ Releasedatum: 26 oktober 2015.
 
 **Facturering**
 
-* Wanneer een gebruiker in de beheerdersrol het aantal studenten invoert en op **Bestelling plaatsen,** er verschijnt een dialoogvenster met informatie over maandelijkse en jaarlijkse abonnementskosten per gebruiker.
+* In de rol van de Beheerder, wanneer een gebruiker aantal studenten ingaat en **orde van de Plaats klikt,** verschijnt een dialoog met details over maandelijkse en jaarlijkse abonnementskosten per gebruiker.
 
 ### Opgeloste problemen {#Issuesfixed-19}
 

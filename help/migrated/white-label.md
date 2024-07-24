@@ -4,9 +4,9 @@ title: Witte labels in de mobiele app van Adobe learning Manager
 description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 0faea8c9282e501e6dbabbf3b59343d8ebbf174d
+source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1375'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ U kunt het volgende aanpassen:
 
    <td>
 
-    <p>Het app-pictogram als png. Dit pictogram wordt weergegeven in uw app. De naamnotatie is account-id_appIcon.png. De afmetingen van het app-pictogram zijn 512 x 512 pixels.<div><b> Nota:</b> gelieve te merken op dat Apple geen kanaal van de Alpha in app pictogrammen toestaat. Verwijder dus het kanaal van de Alpha uit het element voordat u het verzendt.</div></p>
+    <p>Het app-pictogram als png. Dit pictogram wordt weergegeven in uw app. De naamnotatie is account-id_appIcon.png. De afmetingen van het app-pictogram zijn 512 x 512 pixels.<div>Houd er rekening mee dat Apple Alpha in app-pictogrammen niet toestaat. Verwijder dus het kanaal van de Alpha uit het element voordat u het verzendt.</div></p>
 
    </td>
 
