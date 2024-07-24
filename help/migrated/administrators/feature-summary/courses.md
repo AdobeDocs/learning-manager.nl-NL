@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Cursusinstanties en leerpaden maken
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
 workflow-type: tm+mt
 source-wordcount: '4866'
 ht-degree: 61%
@@ -81,7 +81,7 @@ Als u een instantie wilt maken,
 
 Voer de onderstaande stappen uit om een instantie te archiveren:
 
-1. Klik op de instantie, klik op het vervolgkeuzemenu en kies de optie **[!UICONTROL Instantie archiveren]**.
+1. Voor de instantie, selecteer het drop-down menu en kies de optie **[!UICONTROL Retire instantie]**.
 
    ![](assets/retire-an-instance.png)
 
