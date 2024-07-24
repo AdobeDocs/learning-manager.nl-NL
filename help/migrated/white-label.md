@@ -4,9 +4,9 @@ title: Witte labels in de mobiele app van Adobe learning Manager
 description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: c056c126a61f16198d42b3a73a3b009a58bd641c
+source-git-commit: 0faea8c9282e501e6dbabbf3b59343d8ebbf174d
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1376'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ U kunt het volgende aanpassen:
 
    <td>
 
-    <p>Voeg desgewenst meerdere accounts (subdomeinen) toe. Voeg de subdomeinen toe als komma's gescheiden zonder spaties. Bijvoorbeeld acc01,acc02,acc03 enzovoort.<br> <b>Opmerking:</b> U moet de account-id toevoegen wanneer u de subdomeinen opgeeft.</br> </p>
+    <p>Voeg desgewenst meerdere accounts (subdomeinen) toe. Voeg de subdomeinen toe als komma's gescheiden zonder spaties. Bijvoorbeeld acc01,acc02,acc03 enzovoort.<br> <b> Nota:</b> u moet accountidentiteitskaart toevoegen wanneer het specificeren van sub-domeinen.</br> </p>
 
    </td>
 
@@ -143,7 +143,7 @@ U kunt het volgende aanpassen:
 
    <td>
 
-    <p>Het app-pictogram als png. Dit pictogram wordt weergegeven in uw app. De naamnotatie is account-id_appIcon.png. De afmetingen van het app-pictogram zijn 512 x 512 pixels.</p>
+    <p>Het app-pictogram als png. Dit pictogram wordt weergegeven in uw app. De naamnotatie is account-id_appIcon.png. De afmetingen van het app-pictogram zijn 512 x 512 pixels.<div><b> Nota:</b> gelieve te merken op dat Apple geen kanaal van de Alpha in app pictogrammen toestaat. Verwijder dus het kanaal van de Alpha uit het element voordat u het verzendt.</div></p>
 
    </td>
 
@@ -263,8 +263,8 @@ Als u een aangepast domein of leermanager als host gebruikt, hoeft u geen actie 
 
 Raadpleeg de volgende koppelingen voor meer informatie:
 
-* [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
-* [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+* [ Android ](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [ iOS ](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
 ## Pushmeldingen genereren
 
@@ -287,11 +287,11 @@ Zowel Android als iOS gebruiken Firebase Cloud Messaging (FCM) als service voor 
 
 Volg de procedure:
 
-1. Genereer of download de **Pushmeldingscertificaat** en persoonlijke sleutel (.p12). Zie de klasse [Apple-document voor ontwikkelaars](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. Genereer of download het **Push meldingscertificaat** en privé sleutel (.p12). Voor meer informatie, zie het [ document van de ontwikkelaar van Apple ](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
 
-1. Installeer het p12-bestand nadat het bestand is gedownload. Gebruik het wachtwoord om in uw **Sleutelhangertoegang**.
+1. Installeer het p12-bestand nadat het bestand is gedownload. Gebruik het wachtwoord in uw **toegang Keychain** te installeren.
 
-1. Navigeer naar **Mijn certificaten** en exporteer het certificaat. Zorg ervoor dat u het mime-type .cer selecteert.
+1. Navigeer aan **Mijn certificaten** en voer het certificaat uit. Zorg ervoor dat u het mime-type .cer selecteert.
 
 1. Zodra u het p12-bestand en het cer-bestand beschikbaar hebt, voert u de volgende opdrachten uit:
 
@@ -309,23 +309,23 @@ Als u verbinding kunt maken met de server, is het certificaat dat u hebt gemaakt
 
 Voor Android moet de gebruiker het bestand services.json uit het Firebase-project leveren om de vermelding toe te voegen aan de SNS-service.
 
-Maak een project in Firebase en deel het bestand services.json met het CSM-team. Dit dossier is nodig voor op token-gebaseerde ingang in SNS. De serversleutel wordt niet meer gebruikt. Zie [Project maken in Firebase](#create-project-in-firebase).
+Maak een project in Firebase en deel het bestand services.json met het CSM-team. Dit dossier is nodig voor op token-gebaseerde ingang in SNS. De serversleutel wordt niet meer gebruikt. Zie [ project in Vuurbasis ](#create-project-in-firebase) creëren.
 
 Ga als volgt te werk om het bestand services.json te downloaden:
 
-1. Meld u aan bij de **Firebase** console.
-1. Ga naar **Projectinstellingen** en selecteer **Cloud Messaging**.
-1. Zoeken **Firebase Cloud Messaging API** en selecteer **Serviceaccounts beheren**.
-1. In het dialoogvenster **Serviceaccounts** pagina selecteert u de **Serviceaccounts** in het linkerdeelvenster.
-1. Zoek uw projectitem en selecteer **Details beheren** onder handelingen.
+1. Login aan de **console van het Vuurwerk**.
+1. Ga naar **montages van het Project** en selecteer **het Overseinen van de Wolk**.
+1. Vind **het Overseinen API van de Wolk van de Wolk van de Vuurstand** en selecteer **leiden de Rekeningen van de Dienst**.
+1. In de **pagina van de Rekening van de Dienst**, selecteer de **Rekeningen van de Dienst** in het linkerpaneel.
+1. Vind uw projectingang, en selecteer **leiden details** onder acties.
 
    >[!NOTE]
    >
    >   De indeling voor het invoeren van projecten is &lt;-accountnaam->@appspot.gserviceaccount.com.
 
-1. Ga naar de **Toetsen** tab en selecteer **Sleutel toevoegen**.
-1. Als er geen sleutel is, selecteert u **Nieuwe sleutel maken** en selecteer **JSON** als het toetstype. Hiermee wordt het JSON-bestand gegenereerd en gedownload.
-1. Als er al een sleutel is, selecteert u **Bestaande sleutel uploaden** plakken, de toets plakken en uploaden. Hiermee wordt het JSON-bestand gegenereerd en gedownload.
+1. Ga naar het **lusje van Sleutels** en selecteer **Sleutel** toevoegen.
+1. Als er geen sleutel is, creeer **nieuwe sleutel** en selecteer **JSON** als zeer belangrijk type. Hiermee wordt het JSON-bestand gegenereerd en gedownload.
+1. Als er reeds een sleutel is, uitgezochte **upload bestaande sleutel**, kleef de sleutel, en upload het. Hiermee wordt het JSON-bestand gegenereerd en gedownload.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
@@ -337,11 +337,11 @@ Neem contact op met het CSM-team en deel het JSON-bestand om de vermelding toe t
 
 Hergebruik hetzelfde project dat u in de bovenstaande stappen hebt gemaakt voor pushmeldingen.
 
-[Het project toevoegen](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Firebase en haalt het ***google-services.json*** bestand.
+[ voeg het project ](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Vuurbasis toe en wint het {***dossier 2} google-services.json terug.***
 
 ### iOS
 
-[Het project toevoegen](https://firebase.google.com/docs/ios/setup) naar Firebase en haalt de ***GoogleService-Info.plist*** bestand.
+[ voeg het project ](https://firebase.google.com/docs/ios/setup) aan Firebase toe en wint het {***dossier 2} GoogleService-Info.plist terug.***
 
 >[!IMPORTANT]
 >
@@ -373,13 +373,13 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >
 >U hebt Android SDK-hulpprogramma&#39;s nodig om de ondertekende binaire bestanden te maken.
 
-**Volgende stappen**
+**Wat is volgende**
 
 Nadat u de binaire bestanden hebt gegenereerd, drukt u de binaire bestanden naar de Play Store of App Store.
 
 ## Hoe pas ik de wijzigingen toe
 
-Verzendt de vereiste middelen en bestanden naar het CSM-team. Het CSM-team vult vervolgens de [formulier](https://forms.office.com/r/bJRRaRBvSh) met de vereiste wijzigingen en voegt de vereiste elementen als bijlage toe. Het team zal dan de technische teams van de veranderingen evalueren en informeren. Het technische team genereert vervolgens een build en deelt deze met het CSM-team.
+Verzendt de vereiste middelen en bestanden naar het CSM-team. Het team CSM vult dan de [ vorm ](https://forms.office.com/r/bJRRaRBvSh) met de vereiste veranderingen en maakt de vereiste activa vast. Het team zal dan de technische teams van de veranderingen evalueren en informeren. Het technische team genereert vervolgens een build en deelt deze met het CSM-team.
 
 Het CSM-team zal de build met de klant delen.
 
