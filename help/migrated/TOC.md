@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '606'
 ht-degree: 87%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 87%
    * [Aanmelden](learners/feature-summary/user-login.md)
    * [Profielinstellingen](learners/feature-summary/settings.md)
    * [Catalogi](learners/feature-summary/catalogs.md)
-   * [en](learners/feature-summary/courses.md)
+   * [Mijn leermateriaal](learners/feature-summary/courses.md)
    * [Fluidic Player](learners/feature-summary/fluidic-player.md)
    * [Leerprogramma&#39;s](learners/feature-summary/learning-programs.md)
    * [Certificeringen](learners/feature-summary/certifications.md)
@@ -149,6 +149,7 @@ ht-degree: 87%
    * [Veelgestelde vragen voor auteurs](authors/frequently-asked-questions-for-authors.md)
    * [Veelgestelde vragen voor docenten](instructors/frequently-asked-questions-for-instructors.md)
    * [Veelgestelde vragen voor managers](managers/frequently-asked-questions-for-managers.md)
+   * [Veelgestelde vragen voor studenten](learners/frequently-asked-questions-for-learners.md)
 * Knowledge Base {#knowledge-base}
    * [Ik kan me niet aanmelden bij Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Overzicht van leermateriaal toont niet de huidige gegevens](kb/learning-summary-not-display-data.md)

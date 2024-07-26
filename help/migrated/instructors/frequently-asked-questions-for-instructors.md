@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Veelgestelde vragen voor docenten
 contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
-source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 85%
+source-wordcount: '381'
+ht-degree: 70%
 
 ---
 
@@ -46,5 +46,12 @@ Ja, een auteur kan meerdere docenten aan één module toewijzen. In dit geval ka
 +++Kan een docent een sessie wijzigen?
 
 Als docent kunt u alleen de details bekijken en wijzigen van de sessies waaraan u bent toegewezen. U kunt de sessie of deelnemerslijst van andere sessies niet wijzigen.
+
++++
+
++++How om docentrol aan Externe Gebruikers toe te wijzen?
+
+* Door gebrek, in **[!UICONTROL wijs]** sectie voor **[!UICONTROL Externe Gebruiker toe]** het toont slechts **[!UICONTROL Manager van het Merk]** of **[!UICONTROL maak Auteur]**.
+* Als u **rol van 0} Instructeur {aan om het even welke gebruiker in LMS zou willen toewijzen, kunt u hen als** Instructeur **aan om het even welke**[!UICONTROL  Klaslokaal ]**of**[!UICONTROL  Virtuele module van de Lesruimte ]**toevoegen en** de rol van de Instructeur **zou automatisch aan de gebruiker in LMS worden verstrekt.**
 
 +++

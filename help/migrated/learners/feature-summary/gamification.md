@@ -3,14 +3,13 @@ description: Betrek gebruikers met behulp van gamification-technieken in Learnin
 jcr-language: en_us
 title: Gamification
 contentowner: manochan
-source-git-commit: a8dec2a5e91b6d989a7fb9161e84fcb1f8de752d
+exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 67%
 
 ---
-
-
 
 # Gamification
 
@@ -28,13 +27,15 @@ Studenten kunnen ook het prestatieniveau zien aan de hand van de punten die ze h
 
 Leaderboard is een gamificationfunctie die fungeert als scorebord om de ranglijsten van toonaangevende concurrenten te presenteren. Studenten kunnen hun gamificationpunten zien met behulp van Leaderboard.
 
-Klik op de startpagina van de student op **[!UICONTROL Gamification]** in het linkerdeelvenster. Om het Leaderboard te bekijken, klikt u op de link Leaderboard. Deze functie stelt de studenten in staat om te begrijpen waar ze staan ten opzichte van een bepaald teamlid. Het toont ook hun positie in de rangschikking ten opzichte van de andere leden van het team.
+![](assets/leaderboard.png)
+
+Van de homepage van de Student, klik **[!UICONTROL Gamification]** van de linkerruit. Om het Leaderboard te bekijken, klikt u op de link Leaderboard. Deze functie stelt de studenten in staat om te begrijpen waar ze staan ten opzichte van een bepaald teamlid. Het toont ook hun positie in de rangschikking ten opzichte van de andere leden van het team.
 
 Enkele kenmerken van het Leaderboard voor studenten:
 
 * Studenten die zijn ingeschreven voor een leerprogramma-instantie kunnen elkaars punten zien als gamification voor die instantie is ingeschakeld.
 * Klik op **[!UICONTROL Collega&#39;s toevoegen]** om teamleden op te nemen waarmee u zich wilt vergelijken. De profielfoto van uw teamlid wordt toegevoegd aan de tijdlijnschaal boven aan de leaderboardpagina. Deze tijdlijnschaal toont uw punten aan het begin en verplaatst uw positie naar rechts wanneer u meer punten behaalt dan uw teamleden. Vergelijken is alleen mogelijk met andere leden van dezelfde groep.
-* **Gebruikersgroepen:** U kunt op elk gewenst moment de profielen van uw teamleden kiezen waarmee u uw rang wilt vergelijken, met behulp van de **[!UICONTROL Rang me met]** gebruiken. Typ en kies de groep in het veld Gebruikersgroepen selecteren. Hieronder vindt u een lijst van alle teamleden met hun laatste punten. Zowel interne als externe gebruikers kunnen de lijst bekijken, maar alleen interne gebruikers kunnen andere interne studenten doorzoeken.
+* **gebruikersgroepen:** Op elk ogenblik kunt u uw profielen van teamleden kiezen die u uw rang met wilt vergelijken, gebruikend **[!UICONTROL Rank me met]** optie. Typ en kies de groep in het veld Gebruikersgroepen selecteren. Hieronder vindt u een lijst van alle teamleden met hun laatste punten. Zowel interne als externe gebruikers kunnen de lijst bekijken, maar alleen interne gebruikers kunnen andere interne studenten doorzoeken.
 
 * Het dialoogvenster &quot;Mensen rond uw classificering&quot; toont ook de namen van de teamleden die zich boven, onder of op hetzelfde niveau als u bevinden.
 * Wanneer een externe gebruiker inwisselt in een interne gebruiker, wordt de tijdlijn automatisch bijgewerkt.
@@ -55,13 +56,13 @@ De volgende activiteiten worden als leeractiviteiten beschouwd:
 * Reageren op het dashboard Sociaal leren.
 * Berichten plaatsen op het dashboard Sociaal leren.
 
-**Gamificationpunten voor het bieden van L1- en L3-feedback en sterrenclassificatie**
+**gamificationpunten voor het verstrekken van L1 en L3 terugkoppelen en sterclassificatie**
 
 In Adobe Learning Manager kan een beheerder nu een gamificationcriterium activeren dat punten toekent aan gebruikers wanneer ze een L1-feedback, L3-feedback en een waardering met sterren geven.
 
 ![](assets/feedback-rating.png)
 
-*Feedback weergeven*
+*mening terugkoppelt classificatie*
 
 Deze functie moedigt de gebruikers aan actief feedback te geven, wat gunstig is voor zowel studenten als de beheerders, die nu het standpunt van de student beter begrijpen en de efficiëntie van een cursus beter kunnen evalueren.
 
@@ -176,6 +177,6 @@ De status van het niveau van de studenten wordt rechtsboven op de pagina in een 
 
 ## Veelgestelde vragen {#frequentlyaskedquestions}
 
-**1. Hoe kan ik het Leaderboard zien als student?**
+**1. Hoe kan ik het Leaderboard als student zien?**
 
 Klik in de Learner-app in het linkerdeelvenster op **[!UICONTROL Sociaal leren]**. U kunt het sociale leaderboard in de rechterbenedenhoek van de pagina zien.

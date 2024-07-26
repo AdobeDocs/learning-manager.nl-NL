@@ -4,10 +4,10 @@ title: Veelgestelde vragen voor studenten
 description: Veelgestelde vragen voor studenten van Adobe Learning Manager
 contentowner: admin
 preview: true
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 56%
+source-wordcount: '2374'
+ht-degree: 55%
 
 ---
 
@@ -32,7 +32,7 @@ U kunt de weergegeven cursussen onder CATALOGUS doorkijken door de onderstaande 
 
 Ja, u kunt de offline inhoud bekijken op iPads, Android-tablets en smartphones.
 
-Raadpleeg voor meer informatie over offline toegang de  [Gebruikers van iPad- en Android-tablets](feature-summary/ipad-android-tablet-users.md) gebruiken.
+Voor meer informatie over off-line toegang, verwijs naar [ iPad en Android tabletgebruikers ](feature-summary/ipad-android-tablet-users.md) eigenschap.
 
 +++
 
@@ -48,7 +48,7 @@ Klik op het zoekveld. Terwijl u typt in dit veld worden automatisch zoekresultat
 
 Ja, u kunt uw leerpunten vergelijken met die van uw collega&#39;s. Beweeg de muis over de profielcirkel. Hier kunt u uw eigen punten bekijken. Klik op Ga naar leaderboard om het dialoogvenster Leaderboard te bekijken. In dit dialoogvenster kunt u een lijst met collega&#39;s bekijken die een vergelijkbare score hebben behaald als u.
 
-Raadpleeg voor meer informatie  [Leaderboard](feature-summary/gamification.md)gebruiken.
+Voor meer informatie, verwijs naar [ Leaderboard ](feature-summary/gamification.md) eigenschap.
 
 +++
 
@@ -68,7 +68,7 @@ Klik op het omlaagwijzende pijltje in de rechterbenedenhoek van het pop-upvenste
 
 +++Wat is het verschil tussen Leren en Catalogus?
 
-In het tabblad Leermateriaal kunt u alle  [cursussen](feature-summary/courses.md),  [leerprogramma&#39;s](feature-summary/learning-programs.md) en  [certificeringen](feature-summary/certifications.md) die door u zijn ingeschreven of aan u zijn toegewezen. U kunt ook naar het tabblad Leermateriaal gaan door op de link Ga naar Leermateriaal te klikken.
+In het Leren lusje, kunt u alle [ cursussen ](feature-summary/courses.md) bekijken, [ het leren programma&#39;s ](feature-summary/learning-programs.md) en [ certificatie ](feature-summary/certifications.md) die door u worden ingeschreven of aan u worden toegewezen. U kunt ook naar het tabblad Leermateriaal gaan door op de link Ga naar Leermateriaal te klikken.
 
 Op het tabblad Catalogus ziet u alle cursussen, leerprogramma&#39;s en certificeringen die beschikbaar zijn voor uw rol in het bedrijfsaccount. U kunt ook naar het tabblad Catalogus gaan door op de koppeling Ga naar catalogus te klikken.
 
@@ -94,7 +94,7 @@ Wanneer studenten het volgen van bepaalde cursussen voltooien, kunnen ze hun sta
 
 Klik om de vaardigheden te bekijken op de naam van een vaardigheid in het gebied van de vaardighedenkaart in de rechterbovenhoek van uw landingspagina. Vaardigheden worden weergegeven met daarnaast het behaalde niveau.
 
-Raadpleeg voor meer informatie  [Vaardigheden en niveaus](feature-summary/skills-levels.md) gebruiken.
+Voor meer informatie, verwijs naar [ Vaardigheden en niveaus ](feature-summary/skills-levels.md) eigenschap.
 
 +++
 
@@ -102,7 +102,7 @@ Raadpleeg voor meer informatie  [Vaardigheden en niveaus](feature-summary/skills
 
 Ja, u hebt toegang tot Learning Manager op smartphones, iPads of andere Android-tablets.
 
-Raadpleeg voor meer informatie over deze functie  [Gebruikers van de iPad- en Android-app](feature-summary/ipad-android-tablet-users.md) gebruiken.
+Voor meer informatie over deze eigenschap, verwijs [ iPad en Android toepassingsgebruikers ](feature-summary/ipad-android-tablet-users.md) eigenschap.
 
 +++
 
@@ -110,19 +110,19 @@ Raadpleeg voor meer informatie over deze functie  [Gebruikers van de iPad- en An
 
 Ja, Learning Manager is toegankelijk via een iPad. U kunt de app downloaden via de app store of Google Play.
 
-Alleen de functies voor studentrollen zijn toegankelijk via een iPad of een Android-tablet. U kunt ook offline cursussen volgen en synchroniseren met de app wanneer u weer online bent. Raadpleeg voor meer informatie  [Gebruikers van de iPad- en Android-app](feature-summary/ipad-android-tablet-users.md) functie
+Alleen de functies voor studentrollen zijn toegankelijk via een iPad of een Android-tablet. U kunt ook offline cursussen volgen en synchroniseren met de app wanneer u weer online bent. Voor meer informatie, verwijs ](feature-summary/ipad-android-tablet-users.md) eigenschap van de 30} iPad en van Android toepassingsgebruikers[
 
 +++
 
 +++Kan niet aanmelden bij Leermanager. Wat moet ik doen?
 
-Als u een Adobe ID hebt, kunt u zich aanmelden op Learning Manager. Volg de instructies op  [gebruikersaanmelding](feature-summary/user-login.md) voor meer informatie over het aanmelden bij de toepassing. Neem contact op met ons ondersteuningsteam als het probleem aanhoudt.
+Als u een Adobe ID hebt, kunt u zich aanmelden op Learning Manager. Volg de instructies bij [ gebruikerslogin ](feature-summary/user-login.md) eigenschap voor meer informatie over hoe te aan login aan de toepassing. Neem contact op met ons ondersteuningsteam als het probleem aanhoudt.
 
 +++
 
 +++Hoe kan ik een vaardigheidsniveau bereiken?
 
-U verwerft studiepunten wanneer u een nieuw vaardigheidsniveau verwerft. Studieunten worden geassocieerd met vaardigheidsniveaus. Raadpleeg voor meer informatie over vaardigheden en niveaus  [vaardigheden en niveaus](feature-summary/skills-levels.md) gebruiken.
+U verwerft studiepunten wanneer u een nieuw vaardigheidsniveau verwerft. Studieunten worden geassocieerd met vaardigheidsniveaus. Voor meer informatie over vaardigheden en niveaus verwijzen naar [ vaardigheden en niveaus ](feature-summary/skills-levels.md) eigenschap.
 
 +++
 
@@ -140,9 +140,9 @@ U kunt interesse tonen om deel te nemen aan klaslokaalcursussen waarvoor geen se
 
 +++Wat is het verschil tussen credits en gamificationpunten?
 
-U verwerft studiepunten wanneer u een nieuw vaardigheidsniveau verwerft. Studieunten worden geassocieerd met vaardigheidsniveaus. Raadpleeg voor meer informatie over studiepunten, vaardigheden en niveaus  [vaardigheden en niveaus](feature-summary/skills-levels.md) gebruiken.
+U verwerft studiepunten wanneer u een nieuw vaardigheidsniveau verwerft. Studieunten worden geassocieerd met vaardigheidsniveaus. Voor meer informatie over kredieten, verwijzen de vaardigheden en de niveaus naar [ vaardigheden en niveaus ](feature-summary/skills-levels.md) eigenschap.
 
-U krijgt gamificationpunten wanneer u een taak voltooit. Er zijn momenteel zes gamificationtaken beschikbaar in Learning Manager. Na voltooiing van elke taak verwerft u een specifiek aantal punten verbonden aan die taak. Raadpleeg voor meer informatie  [gamification](feature-summary/gamification.md) gebruiken.
+U krijgt gamificationpunten wanneer u een taak voltooit. Er zijn momenteel zes gamificationtaken beschikbaar in Learning Manager. Na voltooiing van elke taak verwerft u een specifiek aantal punten verbonden aan die taak. Voor meer informatie, verwijs naar [ gamification ](feature-summary/gamification.md) eigenschap.
 
 +++
 
@@ -154,7 +154,7 @@ Bovenaan de pagina verschijnt een lijst met badges die de student verdiend heeft
 
 De badges worden aan de deelnemers toegekend op basis van specifieke criteria die door uw organisatie zijn gedefinieerd. Dit is over het algemeen een succesvolle afronding van een cursus of een leerobject.
 
-Raadpleeg voor meer informatie  [badges](feature-summary/badges.md) gebruiken.
+Voor meer informatie, verwijs naar [ badges ](feature-summary/badges.md) eigenschap.
 
 +++
 
@@ -164,7 +164,7 @@ Leerprogramma&#39;s zijn een reeks uniek ontworpen cursussen die voldoen aan spe
 
 Klik op het aan u toegewezen programma om het leerprogramma te starten. U kunt gedetailleerde informatie over dat specifieke programma bekijken.
 
-A **Start programma** wordt rechtsboven op de pagina van het leerprogramma weergegeven. Klikken **[!UICONTROL Start programma]** om de cursus te starten.
+De knoop van het Programma van het A **Begin** verschijnt op de hoger-juiste hoek van de het leren programmapagina. Klik **[!UICONTROL Programma van het Begin]** om op de cursus te beginnen.
 
 +++
 
@@ -181,7 +181,7 @@ Op basis van de punten die u hebt behaald bij het afronden van de cursussen, wor
 
 U kunt uw huidige niveaupunten in uw profiel bekijken en richten om hogere punten, indien nodig te bereiken.
 
-Verwijzen  [Gamification, functie](feature-summary/gamification.md) voor meer informatie.
+Verwijs [ eigenschap van de Gamification ](feature-summary/gamification.md) voor meer informatie.
 
 +++
 
@@ -189,7 +189,7 @@ Verwijzen  [Gamification, functie](feature-summary/gamification.md) voor meer in
 
 Alle cursussen in Leerbeheer worden in browsers afgespeeld. U kunt de cursussen op volledig scherm bekijken met de Fluidic Player van Learning Manager.
 
-Verwijzen  [Functie Fluidic Player](feature-summary/fluidic-player.md) voor meer informatie over Player.
+Verwijs [ Fluidic spelereigenschap ](feature-summary/fluidic-player.md) voor meer informatie over Speler.
 
 [Kan ik mijn persoonlijke opmerkingen exporteren?](frequently-asked-questions-for-learners.md)
 
@@ -220,15 +220,15 @@ U kunt tijdens het lezen van uw cursusinhoud opmerkingen maken door deze stappen
 >
 >De bladwijzerfunctie wordt alleen ondersteund voor HTML-uitvoerinhoud van Captivate 9 en hoger en van Presenter 11 en hoger.
 
-**Cursusnotities downloaden/e-mailen**
+**Download/E-mail cursusnota&#39;s**
 
 U kunt uw cursusnotities downloaden of via e-mail versturen door de onderstaande stappen te volgen:
 
 1. Klik op de cursustegel waarvoor u de opmerkingen wilt bekijken.
-1. Klik op de knop **Opmerkingen** tabblad naast **Modules** tabblad.
+1. Klik het **lusje van Nota&#39;s** naast **Modules** tabel.
 
-1. Klikken **[!UICONTROL Opmerkingen downloaden]** om te downloaden als pdf.
-1. Klikken **[!UICONTROL E-mailnotities]** om de opmerkingen als e-mail naar uw e-mailaccount te ontvangen.
+1. Klik **[!UICONTROL Nota&#39;s van de Download]** om als pdf te downloaden.
+1. Klik **[!UICONTROL E-mailNota&#39;s]** om de nota&#39;s als e-mail aan uw e-mailrekening te ontvangen.
 
 +++
 
@@ -259,7 +259,7 @@ U ontvangt een melding voor het voltooien van de cursus, samen met een link om f
 
 Als onderdeel van de beloning en erkenning van de prestaties van de student, introduceert Learning Manager online badges voor studenten. Badges worden toegekend op basis van een aantal criteria en worden vervolgens weergegeven op het profiel van een student boven aan de startpagina voor studenten.
 
-Verwijzen  [Certificeringsfunctie](feature-summary/certifications.md) voor meer informatie over certificeringen voor studenten.
+Verwijs [ eigenschap van Certificatie ](feature-summary/certifications.md) voor meer informatie over certificatie voor studenten.
 
 +++
 
@@ -308,8 +308,8 @@ U krijgt een gefilterde lijst met cursussen waarin u de gewenste cursussen kunt 
 
 +++Hoe krijg ik toegang tot mijn cursussen in Leerbeheer?
 
-1. Inloggen bij Learning Manager als student. Als u het wachtwoord bent vergeten, klikt u op **[!UICONTROL Wachtwoord vergeten]** op de aanmeldingspagina om deze terug te sturen naar uw e-mail-ID.
-1. Zodra u zich hebt aangemeld, wordt het tabblad CURSUSSEN bovenaan weergegeven. Klikken **[!UICONTROL CURSUSSEN]** om de lijst weer te geven met cursussen die aan u zijn toegewezen.
+1. Inloggen bij Learning Manager als student. Als u wachtwoord vergat, klik **[!UICONTROL vergeten wachtwoord]** verbinding die in de login pagina wordt verstrekt om het terug naar uw e-mail-identiteitskaart te krijgen.
+1. Zodra u zich hebt aangemeld, wordt het tabblad CURSUSSEN bovenaan weergegeven. Klik **[!UICONTROL CURSUSSEN]** lusje om de lijst van cursussen te tonen die aan u worden toegewezen.
 
 +++
 
@@ -351,6 +351,18 @@ Ja, u kunt de inhoud van uw opmerkingen als pdf exporteren door de onderstaande 
 1. Klik op het tabblad Opmerkingen.
 1. Klik op de optie E-mail-meldingen om meldingen naar uw geregistreerde e-mail-ID te sturen.
 1. Klik op Opmerkingen downloaden om de opmerkingen als pdf te downloaden.
+
++++
+
++++Waar kan ik de desktopversie van de app downloaden?
+
+Volg de onderstaande stappen om de bureaubladversie te downloaden:
+
+1. Meld u aan als student.
+2. Klik op **[!UICONTROL Sociaal Leren]**.
+3. Klik op **[!UICONTROL Nieuwe Post]** en klik op om het even welk pictogram zoals hieronder getoond in het schermafbeelding.
+
+Hiermee wordt het downloaden van de toepassing gestart.
 
 +++
 

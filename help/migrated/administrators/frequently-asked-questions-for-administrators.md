@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Veelgestelde vragen voor beheerders
-description: Veelgestelde vragen voor Adobe Leermanager-beheerders
+description: Veelgestelde vragen voor Adobe Learning Manager-beheerders
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 55%
+source-wordcount: '2515'
+ht-degree: 52%
 
 ---
-
-
 
 # Veelgestelde vragen voor beheerders
 
@@ -26,7 +25,7 @@ ht-degree: 55%
 
 +++Kan ik gebruikers in bulk toevoegen? Hoe?
 
-Ja, u kunt gebruikers in bulk toevoegen door de functie CSV-upload te gebruiken. Klikken  [hier](/help/migrated/administrators/add-users-in-bulk.md) voor meer informatie.
+Ja, u kunt gebruikers in bulk toevoegen door de functie CSV-upload te gebruiken. Klik [ hier ](/help/migrated/administrators/add-users-in-bulk.md) voor meer informatie.
 
 +++
 
@@ -42,13 +41,13 @@ U moet CSV in Learning Manager importeren om een gebruikersaanmelding te corrige
 
 Gebruikers moeten worden toegevoegd aan de pagina Studenten.
 
-[Voorbeeld van Learning Manager CSV.csv](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
+[ het Leren Manager Voorbeeld CSV.csv ](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
 
 +++
 
 +++Hoe stel ik waarschuwingen in?
 
-In de release Adobe Learning Manager 1.0 kunt u meldingen maken. Verwijzen  [meldingsvraag](/help/migrated/administrators/feature-summary/user-notifications.md) voor meer informatie.
+In de release Adobe Learning Manager 1.0 kunt u meldingen maken. Verwijs [ meldingsvraag ](/help/migrated/administrators/feature-summary/user-notifications.md) voor meer informatie.
 
 +++
 
@@ -66,7 +65,7 @@ In Adobe Learning Manager is er geen functie om handtekeningen voor de certifice
 
 +++Kan ik een kalender voor de cursussen instellen? Hoe?
 
-In de Adobe Learning Manager 1.0-versie hebben we geen voorzieningen om een agenda voor de cursussen in te stellen.
+In de Adobe Learning Manager 1.0-versie hebben we geen voorzieningen om een kalender voor de cursussen in te stellen.
 
 +++
 
@@ -79,7 +78,7 @@ Wanneer de plaatsen beperkt zijn, worden studenten op de wachtlijst gezet voor e
 1. Klik op Wachtlijst in het linkerdeelvenster van de pagina met cursusdetails. Op de pagina verschijnt een wachtlijst van studenten.
 1. Selecteer de studenten en klik op Plaatsen toewijzen om hen direct in te schrijven voor de cursussen en daarbij de plaatslimiet te overschrijden.
 
-Raadpleeg voor meer informatie  [wachtlijst en aanwezigheid](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) gebruiken.
+Voor meer informatie, verwijs [ wachtlijst en aanwezigheid ](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) eigenschap.
 
 +++
 
@@ -93,7 +92,7 @@ U kunt aanwezigheid als volgt registreren:
 
 Als een cursus uit meerdere modules bestaat en de student er slechts één heeft voltooid, kunt u één module selecteren en op Opslaan klikken om dit voor de student te markeren. Als de student alle modules van een cursus heeft voltooid, kunt u op Alles selecteren klikken en vervolgens op Opslaan.
 
-Raadpleeg voor meer informatie  [wachtlijst en aanwezigheid](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) gebruiken.
+Voor meer informatie, verwijs [ wachtlijst en aanwezigheid ](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) eigenschap.
 
 +++
 
@@ -114,9 +113,9 @@ U kunt L3-feedback toevoegen terwijl u studenten inschrijft voor de cursussen. V
 Als beheerder kunt u de aanwijzing van de manager voor de cursussen opvragen door de onderstaande stappen te volgen:
 
 1. Klik op Cursussen in het linkerdeelvenster
-1. Houd de muis boven een door manager aangewezen cursus en klik op **[!UICONTROL Aanwijzing van zoekmanager]**.
+1. Beweeg de muis op om het even welke manager aangewezen cursus en klik **[!UICONTROL de Aanwijzing van de Manager van het Onderzoek]**.
 
-1. Klik in de lijst met instanties op **[!UICONTROL Aangewezen managers]** link gevolgd door **[!UICONTROL Managers toevoegen]** koppeling.
+1. In de lijst van instanties, klik **[!UICONTROL Managers nomineerde]** verbinding die door **[!UICONTROL wordt gevolgd voeg Managers]** verbinding toe.
 
 1. Voeg de naam van de manager en het aantal toegewezen plaatsen toe en klik op het vinkje om de wijzigingen op te slaan.
 
@@ -130,7 +129,7 @@ Volg onderstaande stappen om studenten voor cursussen in te schrijven:
 
 1. Klik op Cursussen in het linkerdeelvenster nadat u zich als Administrator hebt aangemeld. Rechts op de pagina verschijnen lijsten van alle cursussen.
 1. Kies de cursus waaraan u studenten wilt toevoegen en zet uw muis hierop.
-1. Klik op Studenten inschrijven en voeg de naam van de studenten toe. **Opmerking:** U kunt een of meer studenten tegelijk toevoegen.
+1. Klik op Studenten inschrijven en voeg de naam van de studenten toe. **Nota:** u kunt één of vele studenten tegelijkertijd toevoegen.
 
 +++
 
@@ -138,10 +137,10 @@ Volg onderstaande stappen om studenten voor cursussen in te schrijven:
 
 Volg de onderstaande stappen om studenten aan competenties toe te wijzen:
 
-1. Klikken **[!UICONTROL Vaardigheden]** in het linkerdeelvenster nadat u zich als beheerder hebt aangemeld.
-1. Selecteer een of meer vaardigheden door op selectievakjes naast elke competentie te klikken en klik op **[!UICONTROL Handelingen]** rechtsboven op de pagina.
+1. Klik **[!UICONTROL Vaardigheden]** bij de linkerruit nadat u login als Beheerder.
+1. Selecteer één of veelvoudige vaardigheden door controledozen tegen elke competentie te klikken en **[!UICONTROL drop-down Acties]** bij de hoger-juiste hoek van de pagina te klikken.
 1. Klik op Toewijzen aan gebruikers.
-1. Typ de naam van de gebruiker, kies een optie in de vervolgkeuzelijst en klik op **[!UICONTROL Opslaan]**.
+1. Begin de naam van de gebruiker te typen, verkies van de drop-down lijst en klik **[!UICONTROL sparen]**.
 
    >[!NOTE]
    >
@@ -163,9 +162,9 @@ Volg de onderstaande stappen om een leerprogramma te maken:
    >
    >U moet het leerprogramma publiceren voordat u studenten of een instantie inschrijft.
 
-1. Klik op Instanties in het linkerdeelvenster en klik op **[!UICONTROL Nieuwe instanties toevoegen]** rechts op de pagina om details van de instantie op te nemen.
+1. Klik Instanties op de linkerruit en klik **[!UICONTROL voeg nieuwe instanties]** op de juiste hoek van de pagina toe om details van de instantie te omvatten.
 
-Raadpleeg voor meer informatie over leerprogramma&#39;s  [Leerprogramma&#39;s](/help/migrated/administrators/feature-summary/learning-programs.md)
+Voor meer informatie over het leren van programma&#39;s, verwijs [ het Leren programmaeigenschap.](/help/migrated/administrators/feature-summary/learning-programs.md)
 
 +++
 
@@ -177,9 +176,9 @@ Klik op het omlaagwijzende pijltje in de rechterbovenhoek van elk rapport om dit
 
 +++Hoe wijzig ik cursussen, leerprogramma&#39;s en het bedrijfsprofiel?
 
-U kunt cursussen of leerprogramma&#39;s ook na publicatie bewerken. Raadpleeg voor meer informatie  [Cursussen](/help/migrated/administrators/feature-summary/courses.md) en  [leerprogramma&#39;s](/help/migrated/administrators/feature-summary/learning-programs.md) Help content.
+U kunt cursussen of leerprogramma&#39;s ook na publicatie bewerken. Voor meer informatie, verwijs naar [ Cursussen ](/help/migrated/administrators/feature-summary/courses.md) en [ het leren van programma&#39;s ](/help/migrated/administrators/feature-summary/learning-programs.md) inhoud van de Hulp.
 
-Als u het bedrijfsprofiel wilt wijzigen, klikt u op **[!UICONTROL Instellingen]** in het linkerdeelvenster en klik op **[!UICONTROL Wijzigen]** rechtsboven op de pagina.
+Om bedrijfprofiel te wijzigen, klik **[!UICONTROL Montages]** bij de linkerruit en klik **[!UICONTROL Verandering]** op de hoger-juiste hoek van de pagina.
 
 +++
 
@@ -202,9 +201,9 @@ U krijgt een gefilterde lijst met cursussen waarin u de gewenste cursussen kunt 
 
 Ja, u kunt de thema&#39;s en branding van de toepassing Learning Manager aanpassen aan de vereisten van uw organisatie. Een set van vijf representatieve afbeeldingen is meegeleverd, zodat u een voorbeeld van uw kleurenthema kunt bekijken voordat u het op uw toepassing toepast. Klik op de symbolen &lt; en > links en rechts van de afbeeldingen om deze vooraf te bekijken.
 
-Klikken **[!UICONTROL Branding]** in het linkerdeelvenster om de naam van uw organisatie bij te werken, wijzigt u het subdomein, de logstijlen en de thema&#39;s. Klikken **[!UICONTROL Bewerken]** naast elk van deze onderwerpen om de inhoud te wijzigen.
+Klik **[!UICONTROL Branding]** op de linkerruit om uw organisatienaam bij te werken, subdomein, logboekstijlen en thema&#39;s te veranderen. Klik **[!UICONTROL geef]** naast elk van deze onderwerpen uit om de inhoud te wijzigen.
 
-Raadpleeg  [Help voor kleurthema&#39;s en branding](/help/migrated/administrators/feature-summary/themes.md) voor meer informatie.
+Verwijs naar [ de thema&#39;s van de Kleur en brandingHulp ](/help/migrated/administrators/feature-summary/themes.md) voor meer informatie.
 
 +++
 
@@ -224,7 +223,7 @@ Volg onderstaande stappen om gamificationpunten voor studenten in te stellen:
 1. Klik op Gamification nadat u zich als Beheerder hebt aangemeld. Er verschijnt een pagina met een lijst van bronzen, zilveren, gouden en platina niveaus en de vereiste punten om elk overeenkomstig niveau te behalen. Er is een lijst met taken en bijbehorende punten beschikbaar.
 1. Klik op het pictogram Bewerken naast elke taak om de punten in te stellen/te wijzigen.
 
-Verwijzen  [Gamification, functie](/help/migrated/administrators/feature-summary/gamification.md) voor meer informatie.
+Verwijs [ eigenschap van de Gamification ](/help/migrated/administrators/feature-summary/gamification.md) voor meer informatie.
 
 +++
 
@@ -233,13 +232,13 @@ Verwijzen  [Gamification, functie](/help/migrated/administrators/feature-summary
 Volg onderstaande stappen om rapporten te maken:
 
 1. Klik op Rapporten in het linkerdeelvenster. De pagina Rapportoverzicht wordt geopend.
-1. Klik op de pagina Rapporten op **[!UICONTROL Toevoegen]** rechtsboven.
+1. Voor de pagina van Rapporten, voegt de klik **** bij de hoger-juiste hoek toe.
 
-   **[!UICONTROL Rapport toevoegen]** wordt weergegeven.
+   **[!UICONTROL voeg de dialoog van het Rapport]** toe verschijnt.
 
 1. Vul alle verplichte velden in en klik op Opslaan.
 
-Alleen beheerders en managers kunnen rapporten maken of bekijken. Raadpleeg [rapportfunctie](/help/migrated/administrators/feature-summary/reports.md) voor meer informatie.
+Alleen beheerders en managers kunnen rapporten maken of bekijken. Verwijs naar [ rapporteigenschap ](/help/migrated/administrators/feature-summary/reports.md) voor meer informatie.
 
 +++
 
@@ -266,9 +265,9 @@ Managers, auteurs en studenten kunnen meldingen zien op basis van de cursusactiv
 
 Adobe Learning Manager biedt u de mogelijkheid om externe afdelingsleden of externe medewerkers van uw organisatie in te schrijven voor de toepassing.
 
-1. Klikken **[!UICONTROL Gebruikers]** in het linkerdeelvenster.
-1. Klikken **[!UICONTROL Extern]** in het linkerdeelvenster.
-1. Klikken **[!UICONTROL Toevoegen]** rechtsboven op de pagina.
+1. Klik **[!UICONTROL Gebruikers]** op de linkerruit.
+1. Klik **[!UICONTROL Extern]** op de linkerruit.
+1. Klik **[!UICONTROL toevoegen]** bij de hoger-juiste hoek van de pagina.
 
    Het dialoogvenster Gebruiker toevoegen verschijnt.
 
@@ -284,7 +283,7 @@ Beheerder kan de registratie-URL kopiëren en naar de externe inschrijvingsgroep
 Maak een feedbackvragenlijst aan die studenten na het afronden van de cursussen kunnen invullen. Standaard zijn er drie voorbeeldvragen beschikbaar. Volg de onderstaande stappen om een vragenlijst te maken.
 
 1. Klik op Feedback in het linkerdeelvenster. Er verschijnt een venster met feedbackvragenlijsten.
-1. Klikken **[!UICONTROL Bewerken]** om de vragenlijst toe te voegen of te wijzigen.
+1. Klik **[!UICONTROL uitgeven]** om de vragenlijst toe te voegen/te wijzigen.
 
 U kunt een set vragenlijsten toevoegen en ervoor kiezen deze niet te tonen als u ze niet nodig hebt. Klik op het selectievakje om een bepaalde vraag in of uit te schakelen.
 
@@ -298,7 +297,7 @@ U kunt een set vragenlijsten toevoegen en ervoor kiezen deze niet te tonen als u
 
    Standaard is er voor elke competentie één niveau met 0 punten beschikbaar.
 
-1. Klikken [!UICONTROL **Niveau toevoegen**] om een nieuw niveau aan elke competentie toe te voegen en klik op Opslaan. U kunt maximaal 5 niveaus toevoegen.
+1. Klik [!UICONTROL **voeg niveau**] toe om nieuw niveau aan elke competentie toe te voegen en klik sparen. U kunt maximaal 5 niveaus toevoegen.
 
 Nadat de competentie is opgeslagen, kunt u de niveaus van de competentie niet meer verwijderen. De beheerder kan ook studenten aan een bepaalde competentie en een bepaald niveau toewijzen.
 
@@ -306,18 +305,18 @@ Nadat de competentie is opgeslagen, kunt u de niveaus van de competentie niet me
 
 +++Hoe stel ik een factureringssysteem in voor de cursussen van mijn organisatie?
 
-1. Klikken [!UICONTROL **Facturering**] in het linkerdeelvenster.
+1. Klik [!UICONTROL **Facturering**] bij de linkerruit.
 
    Factureringsgegevens worden op de pagina weergegeven.
 
-1. Klik op de knop [!UICONTROL **Abonneren**] tabblad.
+1. Klik het [!UICONTROL **Abonneren**] lusje.
 1. Voer het aantal pakketten in dat u wilt bestellen in het veld voor studentenpakketten en klik op Bestelling plaatsen rechtsboven op de pagina.
 
-   Kies het aantal pakketten op basis van het aantal studenten in uw organisatie en plaats uw bestelling. Voor een proces dat wordt aangestuurd door een inkooporder, kunt u ons schrijven op  [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
+   Kies het aantal pakketten op basis van het aantal studenten in uw organisatie en plaats uw bestelling. Voor een bestelde proces van de kooporde, schrijf aan ons in [ learningmanagersales@adobe.com ](mailto:learningmanagersales@adobe.com).
 
 1. Voer uw contactgegevens in, kies het type creditcard, geef uw creditcardgegevens op en klik op Bestelling voltooien.
 
-Verwijzen [Factureringsbeheer](/help/migrated/administrators/feature-summary/billing-management.md) voor meer informatie.
+Verwijs ](/help/migrated/administrators/feature-summary/billing-management.md) eigenschap van het 0} Factureringsbeheer voor meer informatie.[
 
 +++
 
@@ -329,16 +328,16 @@ In Adobe Learning Manager kunt u studenten herkennen door badges uit te geven. R
 
 +++Hoe stel ik mijn bedrijfsprofiel in?
 
-1. Nadat u zich als beheerder hebt aangemeld, klikt u op **[!UICONTROL Bedrijfsinformatie]** in het linkerdeelvenster.
+1. Nadat u login als Beheerder, klik **[!UICONTROL Info van het Bedrijf]** bij de linkerruit.
 1. Voeg Bedrijfsprofiel, subdomein en logo toe door elk van deze opties op de pagina aan te klikken.
 
 +++
 
 +++Hoe voeg ik cursussen toe?
 
-U moet uw rol als auteur veranderen om cursussen toe te voegen. U kunt de lijst met beschikbare cursussen alleen weergeven op basis van hun status als **[!UICONTROL Voltooid]**, **[!UICONTROL Gepubliceerd]**, en **[!UICONTROL Gearchiveerd]**.
+U moet uw rol als auteur veranderen om cursussen toe te voegen. U kunt de lijst van beschikbare cursussen slechts bekijken die op hun staat worden gebaseerd zoals **[!UICONTROL Voltooid]**, **[!UICONTROL Gepubliceerd]**, en **[!UICONTROL Gearchiveerd]**.
 
-Als u cursussen wilt weergeven, klikt u op **[!UICONTROL Cursussen]** in het linkerdeelvenster. Verwijzen  [Cursussen maken](/help/migrated/administrators/feature-summary/courses.md)voor meer informatie
+Om cursussen te bekijken, klik **[!UICONTROL Cursussen]** op linkerruit. Verwijs [ Creërend cursussen ](/help/migrated/administrators/feature-summary/courses.md) voor meer informatie
 
 +++
 
@@ -349,9 +348,9 @@ Volg de onderstaande stappen om nieuwe gebruikers toe te voegen:
 1. Klik op Gebruikers in het linkerdeelvenster nadat u zich als beheerder hebt aangemeld. U kunt ook gebruikers toevoegen door in het linkerdeelvenster van het venster op Aan de slag te klikken en vervolgens op Gebruikers toevoegen.
 1. Klik op Toevoegen rechtsboven op de pagina om nieuwe gebruikers toe te voegen.
 
-Standaard wordt aan alle nieuwe gebruikers de rol student toegewezen. U kunt beheerders- of auteursrollen aan de studenten toewijzen door op **[!UICONTROL Handelingen]** in de rechterbovenhoek van de pagina en kies **[!UICONTROL Rol toewijzen]** > **[!UICONTROL Auteur maken]** of **[!UICONTROL Beheerder maken]**.
+Standaard wordt aan alle nieuwe gebruikers de rol student toegewezen. U kunt Admin of auteursrollen aan de studenten toewijzen door **[!UICONTROL Acties]** bij de hoger-juiste hoek van de pagina te klikken en **[!UICONTROL te kiezen wijs Rol]** toe > **[!UICONTROL maakt Auteur]** of **[!UICONTROL maak Admin]**.
 
-Verwijzen  [Nieuwe gebruikers toevoegen](/help/migrated/administrators/feature-summary/add-users-user-groups.md) voor gedetailleerde informatie over het toevoegen van studenten, auteurs en beheerders.
+Verwijs [ nieuwe gebruikers ](/help/migrated/administrators/feature-summary/add-users-user-groups.md) eigenschap voor gedetailleerde informatie bij het toevoegen van studenten, auteurs en beheerders toevoegen.
 
 +++
 
@@ -365,6 +364,27 @@ Neem contact op met het ondersteuningsteam van Leermanager.
 
 U kunt de account-ID vinden in de browser waarin Learning Manager is geopend.
 
-*/app/admin?i_qp_user_id=12761637&amp;**accountId=6849***
+*/app/admin?i_qp_user_id=12761637 &amp;**accountId=6849***
+
++++
+
++++Is er een rapport dat ik kan opvragen, of een rapport dat iemand voor mij kan opvragen, dat me een lijst zal laten zien van alle cursussen in het LMS?
+
+Ja, kunt u het Rapport van de a **[!UICONTROL Opleiding]** trekken dat alle Cursussen, het Leren Programma, Certificatie in LMS bevat. Volg de onderstaande stappen om het rapport te downloaden:
+
+1. Meld u aan als beheerder.
+2. Klik op **[!UICONTROL Rapporten]** > **[!UICONTROL de Rapporten van de Douane]** > **[!UICONTROL Rapporten van Excel]** > **[!UICONTROL Rapport van de Leeringen]**.
+3. Selecteer **[!UICONTROL Alle Opleidingen]** van dropdown.
+4. Klik op **[!UICONTROL Download]**.
+
++++
+
++++Waar kan ik de desktopversie van de app downloaden?
+
+Volg de onderstaande stappen om de bureaubladversie te downloaden:
+
+1. Meld u aan als beheerder.
+2. Klik op **[!UICONTROL Sociaal Leren]** > **[!UICONTROL Montages]**.
+3. Onder **[!UICONTROL Configuratie van de Download]**, klik op hyperlink afhankelijk van uw Werkende Systeem.
 
 +++

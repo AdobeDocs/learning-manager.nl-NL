@@ -1,14 +1,13 @@
 ---
 title: Aanbevelingen in Adobe Learning Manager
 description: De kern van de aanbevelingsengine wordt bepaald door het nieuwe algoritme voor cursusrangschikking van de leermanager. Het algoritme gebruikt 50 miljoen datapunten en vijf jaar geaggregeerde leergegevens voor miljoenen gebruikers om cursussen te rangschikken op basis van hun kans op inschrijving. Deze rangschikking zorgt ervoor dat de cursussen met de meeste kans op inschrijving als eerste aan studenten worden weergegeven.
-source-git-commit: 40f6732147b7babeb1f11ce52045e6baf6338ce1
+exl-id: 42083095-60a0-4e20-9097-3344d290da1a
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 60%
+source-wordcount: '1470'
+ht-degree: 58%
 
 ---
-
-
 
 # Aanbevelingen in Adobe Learning Manager
 
@@ -22,24 +21,24 @@ Om aan de slag te gaan met deze functie, moet u de functie inschakelen in de beh
 
 1. Upload de cursus- en gebruikersgegevens (optioneel).
 1. Voer de wijzigingen live door.
-1. Nadat u de aanbevelingen hebt ingeschakeld en geconfigureerd, uploadt u de gegevens naar de Adobe Learning Manager voor aanbevelingen om te beginnen met werken. Deze gegevens bestaan uit:
+1. Nadat u de aanbevelingen hebt ingeschakeld en geconfigureerd, uploadt u de gegevens naar Adobe Learning Manager voor aanbevelingen om te beginnen met werken. Deze gegevens bestaan uit:
 
    * Cursusgegevens
    * Gebruikersgegevens (optioneel)
 
 ## Algoritme voor cursusrangschikking
 
-De kern van de aanbevelingsengine wordt bepaald door de nieuwe **[!UICONTROL Algoritme voor cursusvolgorde]**. Het algoritme gebruikt 50 miljoen datapunten en vijf jaar geaggregeerde leergegevens voor miljoenen gebruikers om cursussen te rangschikken op basis van hun kans op inschrijving. Deze rangschikking zorgt ervoor dat de cursussen met de meeste kans op inschrijving als eerste aan studenten worden weergegeven.
+De kern van de aanbevelingsmotor wordt gedreven door het nieuwe **[!UICONTROL het Rangschikkende Algoritme van de Cursus van de Leermanager]**. Het algoritme gebruikt 50 miljoen datapunten en vijf jaar geaggregeerde leergegevens voor miljoenen gebruikers om cursussen te rangschikken op basis van hun kans op inschrijving. Deze rangschikking zorgt ervoor dat de cursussen met de meeste kans op inschrijving als eerste aan studenten worden weergegeven.
 
 ## Belangrijkste voorwaarden
 
 De nieuwe AI-gebaseerde aanbevelingsengine van Learning Manager biedt leerleiders een configureerbaar op parameters gebaseerd aanbevelingssysteem voor het maken van een gepersonaliseerde ervaring voor studenten.
 
-De parameters zijn: **Producten/onderwerpen**, **Rollen**, en **Niveaus**. Bovendien kunnen de namen van deze parameters worden afgestemd op uw behoeften. &#39;producten&#39; kunnen dus &#39;onderwerpen&#39; worden of &#39;rollen&#39; kunnen &#39;regio&#39; worden.
+De parameters zijn - **Producten/onderwerpen**, **Rollen**, en **Niveaus**. Bovendien kunnen de namen van deze parameters worden afgestemd op uw behoeften. &#39;producten&#39; kunnen dus &#39;onderwerpen&#39; worden of &#39;rollen&#39; kunnen &#39;regio&#39; worden.
 
 ## Het aanbevelingssysteem instellen
 
-De nieuwe aanbevelingsengine van Adobe Learning Manager vereenvoudigt de beheerworkflow voor het instellen van gepersonaliseerde aanbevelingen, omdat gegevens over producten en rollen die aan een klant/partner zijn gekoppeld doorgaans beschikbaar zijn voor beheerders (bijvoorbeeld van aankooprecords).
+De nieuwe aanbevelingsengine van Adobe Learning Manager vereenvoudigt de beheerworkflow voor het instellen van gepersonaliseerde aanbevelingen, omdat gegevens over producten en rollen die aan een klant/partner zijn gekoppeld doorgaans beschikbaar zijn voor beheerders (bijvoorbeeld via aankooprecords).
 
 Bij het instellen van de nieuwe aanbevelingsengine zijn met name drie workflows betrokken:
 
@@ -51,53 +50,53 @@ Beheerders configureren de parameterwaarden Producten, Rollen en Niveaus van het
 
 Beheerders krijgen een begeleide workflow in Leerbeheer om de aanbevelingsengine optimaal in te stellen en de engine aan te passen op basis van het gebruiksscenario van het account. Bovendien krijgen beheerders de mogelijkheid om PRL-aanbevelingen in te stellen via een eenmalige CSV-upload.
 
-1. Selecteren **[!UICONTROL Recommendations]** in de Admin-app.
+1. Selecteer **[!UICONTROL Recommendations]** op Admin app.
 
-   ![Selecteer Recommendations in de Admin-app](assets/image831538.png)
+   ![ selecteer Recommendations op Admin app ](assets/image831538.png)
 
-   *Selecteer de Recommendations-optie*
+   *selecteer de optie van Recommendations*
 
 1. Klik op **[!UICONTROL Upgraden]**.
 
-   ![Upgrade naar het nieuwe systeem](assets/image784236.png)
+   ![ Verbetering aan het nieuwe systeem ](assets/image784236.png)
 
-   *Selecteer de optie Upgrade*
+   *selecteer de optie van de Verbetering*
 
 1. Klik op **[!UICONTROL Doorgaan]** om te upgraden naar het nieuwe aanbevelingssysteem.
 
-   ![Naar het nieuwe systeem gaan](assets/image521152.png)
-   *Selecteer de knop Doorgaan*
+   <!--![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*-->
 
 1. Maak de aanbevelingsparameters voor Producten en Rollen.
 
-   ![De parameters maken](assets/image43406.png)
-   *Parameters voor aanbeveling maken*
+   ![ creeer de parameters ](assets/image43406.png)
+   *creeer parameters voor aanbeveling*
 
 1. Klik op **[!UICONTROL Meer waarden toevoegen]**.
 1. Voeg de producten toe. Typ de naam van een product en druk op Enter.
 
    U moet ten minste twee producten toevoegen om aan de slag te gaan.
 
-   ![producten toevoegen](assets/image623058.png)
-   *Producten toevoegen*
+   ![ voeg producten ](assets/image623058.png) toe
+   *voeg producten* toe
 
 1. Voeg de rollen toe. Typ de namen van de rollen en druk op Enter.
 
-   ![rollen toevoegen](assets/image156786.png)
-   *Rollen toevoegen*
+   ![ voeg rollen ](assets/image156786.png) toe
+   *voeg de rollen* toe
 
 1. Klik op **[!UICONTROL Doorgaan]**.
 
    De Producten en Rollen staan nu in de lijst met parameters.
 
-   ![producten en rollen](assets/image266930.png)
+   ![ producten en rollen ](assets/image266930.png)
    *Lijst van producten en rollen*
 
 ## Gegevensvoorbereiding
 
 De aanbevelingen werken alleen correct als de interessedata, Product, Roles en Levels zijn geüpload.
 
-**Gegevensopties uploaden**
+**upload gegevensopties**
 
 De functie Aanbevelingen kan worden geconfigureerd. In plaats van producten/rollen/niveaus kunt u dus onderwerpen/rollen/niveau gebruiken of een van deze opties kiezen: alleen product/onderwerpen, alleen rollen, alleen product/onderwerpen en rollen, alleen rollen/niveaus of alleen producten-niveaus.
 
@@ -151,8 +150,8 @@ Vul deze CSV&#39;s in en neem contact op met uw Customer Success-team om de inde
 
 Klik op Ga live nadat beide CSV&#39;s zijn geüpload. Zo wordt het nieuwe aanbevelingssysteem zichtbaar voor de studenten.
 
-![live gaan](assets/computerdescription-automatically.png)
-*Maak de aanbevelingen live*
+![ ga levend ](assets/computerdescription-automatically.png)
+*maak de aanbevelingen levend*
 
 Het aanbevelingssysteem is nu beschikbaar voor uw studenten.
 
@@ -160,26 +159,26 @@ Het aanbevelingssysteem is nu beschikbaar voor uw studenten.
 
 1. Selecteer in de lijst met parameters het pictogram met de drie puntjes en selecteer **[!UICONTROL Parameternaam bewerken]**.
 
-   ![Parameter bewerken](assets/edit-parameter.png)
+   ![ geef parameter ](assets/edit-parameter.png) uit
 
 1. Wijzig de naam van de parameter en klik op **[!UICONTROL Opslaan]**.
 
-   ![resultaten](assets/image688522.png)
-   *De parameter bewerken*
+   ![ resultaten ](assets/image688522.png)
+   *geef de parameter* uit
 
 ## Een parameter verwijderen
 
-1. Selecteer in de lijst met parameters het pictogram met de drie puntjes en selecteer **[!UICONTROL Parameter verwijderen]**.
+De beheerders kunnen een parameter schrappen door het drie puntenpictogram te klikken en **[!UICONTROL te selecteren schrapt Parameter]**. Beheerders kunnen een parameter verwijderen als deze niet aan een leerobject is gekoppeld. Als de parameter is gekoppeld, kunnen deze alleen de parameter verbergen. De laatste twee parameters kunnen echter niet worden verborgen, omdat er minstens twee parameters nodig zijn om de aanbevelingen te laten werken.
 
-![delete, parameter](assets/delete-parameter.png)
-*De parameter verwijderen*
+![ schrappingsparameter ](assets/delete-parameter.png)
+*schrap de parameter*
 
 ## Pagina met de cursusinstellingen
 
 Op de instellingenpagina van een cursus worden de aanbevelingen voor Producten en Rollen weergegeven. Deze cursus wordt aanbevolen aan studenten die interesse hebben getoond in deze producten en rollen.
 
-![afbeelding instellen](assets/course-settings-image.png)
-*Pagina Cursusinstellingen*
+![ plaatsend beeld ](assets/course-settings-image.png)
+*pagina van de montages van de Cursus*
 
 ## Studentenweergave
 
@@ -198,22 +197,22 @@ De studenten kunnen het volgende zien:
 
 Na het selecteren van Aanbevelingen in het linkerdeelvenster ziet de student een pop-upvenster om de aanbevelingen in te stellen.
 
-![setup-aanbevelingen](assets/image575540.png)
-*Student stelt de aanbeveling in*
+![ opstellingsaanbevelingen ](assets/image575540.png)
+*De reeksen van de Student omhoog de aanbeveling*
 
 Als u op Instelaanbevelingen klikt, gaat de student naar het pop-up voor productselectie.
 
-![pop-up productselectie](assets/product-selection-popup.png)
-*Producten selecteren*
+![ popup van de productselectie ](assets/product-selection-popup.png)
+*Uitgezochte producten*
 
 Vervolgens kan de student in de volgende pop-up de rol selecteren.
 
-![rol selecteren](assets/image270860.png)
-*Rollen selecteren*
+![ uitgezochte rol ](assets/image270860.png)
+*Uitgezochte rollen*
 
 De student kan vervolgens de niveaus toevoegen.
 
-![niveaus toevoegen](assets/image650040.png)
+![ voeg niveaus ](assets/image650040.png) toe
 *Niveaus selecteren*
 
 ## Leermateriaal strips op de Learner-app
@@ -232,14 +231,14 @@ Een student kan de volgende strips in de app zien:
 
 ### Kaarten op mijn leerstrook
 
-![leerstripkaarten](assets/image770606.png)
-*Kaarten op de leerstrook*
+![ het leren stripkaarten ](assets/image770606.png)
+*Kaarten op het leren strook*
 
 Elke kaart heeft een waardering, kaartafbeelding, titel, vaardigheid, publicatiedatum, auteur, duur, voortgangsbalk en een knop Doorgaan of Verkennen.
 
 ### Kaarten opgeslagen door mij strip
 
-![opgeslagen kaarten](assets/cards-saved-by-me.png)
+![ opgeslagen kaarten ](assets/cards-saved-by-me.png)
 *Opgeslagen kaarten*
 
 Elke kaart heeft een waardering, kaartafbeelding, titel, vaardigheid, publicatiedatum, auteur, duur, voortgangsbalk en een knop Doorgaan of Verkennen.
@@ -248,11 +247,11 @@ Er is geen voortgangsbalk op de kaart nadat een student de cursus is begonnen. E
 
 ### Kaarten op superrelevante strip
 
-![superrelevante stripkaarten](assets/super-relevant-cards.png)
+![ super relevante strippenkaarten ](assets/super-relevant-cards.png)
 *Relevante kaarten*
 
 Elke kaart heeft een waardering, kaartafbeelding, titel, vaardigheid, publicatiedatum, auteur, duur, voortgangsbalk en een knop Doorgaan of Verkennen.
 
 Er is geen voortgangsbalk op de kaart nadat een student de cursus is begonnen.
 
-Er zijn twee opties in het menu: **[!UICONTROL Opslaan]** en **[!UICONTROL Dit niet aanraden]**. Als de student klikt **[!UICONTROL Opslaan]**, wordt de cursus opgeslagen op de strook &#39;Opgeslagen door mij&#39;. Als de student klikt **[!UICONTROL Dit niet aanraden]**, wordt de aanbevolen training uit de lijst verwijderd.
+Op het menu, zijn er twee opties, **[!UICONTROL sparen]** en **[!UICONTROL adviseer dit]** niet. Als de student **[!UICONTROL sparen]** klikt, wordt de cursus bewaard aan de &quot;Opgeslagen door me&quot;strook. Als de student **[!UICONTROL klikt adviseer dit]** niet, wordt de geadviseerde opleiding verwijderd uit de lijst.

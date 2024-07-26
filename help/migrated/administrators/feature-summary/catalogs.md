@@ -4,10 +4,10 @@ title: Catalogi
 description: 'Catalogi zijn een verzameling leermiddelen: cursussen, leerprogramma''s en certificeringen. Gebruik catalogi om studenten te voorzien van toegang tot een aangepaste set leermaterialen. U kunt leermateriaal aan een catalogus koppelen tijdens het maken van een nieuwe catalogus.'
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2453'
-ht-degree: 75%
+source-wordcount: '2498'
+ht-degree: 73%
 
 ---
 
@@ -21,9 +21,9 @@ Als beheerder kunt u aangepaste catalogi maken als u bepaalde cursussen beschikb
 
 In deze training leert u hoe u catalogi kunt maken en beheren.
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 
 ## Een catalogus maken {#createacatalog}
@@ -53,16 +53,21 @@ U maakt een catalogus als volgt:
 
    ![](assets/add-course-to-catalog.png)
 
-   *Een catalogus maken*
+   *creeer een catalogus*
 
    U kunt meerdere cursussen aan de catalogus toevoegen.
 1. U kunt de cursussen filteren op vaardigheden, rollen en taal. De geselecteerde cursus wordt aanbevolen voor studenten die geïnteresseerd zijn in deze vaardigheden en rollen.
+
+   * **[!UICONTROL Vaardigheden]**: De filters van de vaardigheid staan gebruikers toe om cursussen te vinden die zich op bijzondere vaardigheden concentreren.
+   * **[!UICONTROL Rollen]**: De filters van de rol helpen gebruikers om tot cursussen toegang te hebben die aan de verantwoordelijkheden en de vereisten van verschillende rollen worden aangepast.
+   * **[!UICONTROL Taal]**: De filters van de taal helpen gebruikers bij het selecteren van cursussen beschikbaar in hun aangewezen of vereiste taal
+
 1. Sla de wijzigingen op. Ga terug naar de lijst met catalogi en klik op de nieuwe catalogus in de lijst.
 1. Klik op de pagina voor de nieuwe catalogus op **[!UICONTROL Inhoud]** in het linkerdeelvenster.
 
    ![](assets/click-content-inthecatalog.png)
 
-   *Een cursus selecteren om aan de catalogus toe te voegen*
+   *selecteer een cursus om aan de catalogus toe te voegen*
 
    De cursus die u hebt toegevoegd, wordt weergegeven op het tabblad **[!UICONTROL Cursussen]**.
 
@@ -72,7 +77,7 @@ U maakt een catalogus als volgt:
 1. Sla de wijzigingen op. Ga terug naar de lijst met catalogi en klik op de nieuwe catalogus in de lijst.
 1. Klik op de pagina voor de nieuwe catalogus op **[!UICONTROL Inhoud]** in het linkerdeelvenster.
 
-   Het leerprogramma dat u hebt toegevoegd, verschijnt in het **[!UICONTROL Leerprogramma&#39;s]** tabblad.
+   Het het leren Programma dat u hebt toegevoegd verschijnt in het **[!UICONTROL Leren Programma&#39;s]** lusje.
 
 ## Een certificering aan de catalogus toevoegen {#cert}
 
@@ -80,7 +85,7 @@ U maakt een catalogus als volgt:
 1. Sla de wijzigingen op. Ga terug naar de lijst met catalogi en klik op de nieuwe catalogus in de lijst.
 1. Klik op de pagina voor de nieuwe catalogus op **[!UICONTROL Inhoud]** in het linkerdeelvenster.
 
-   De certificering die u hebt toegevoegd, wordt weergegeven in het dialoogvenster **[!UICONTROL Certificeringen]** tabblad.
+   De certificatie die u hebt toegevoegd verschijnt in de **[!UICONTROL Certificeringen]** tabel.
 
 ## Een taakhulp aan de catalogus toevoegen {#job}
 
@@ -88,7 +93,7 @@ U maakt een catalogus als volgt:
 1. Sla de wijzigingen op. Ga terug naar de lijst met catalogi en klik op de nieuwe catalogus in de lijst.
 1. Klik op de pagina voor de nieuwe catalogus op **[!UICONTROL Inhoud]** in het linkerdeelvenster.
 
-   De taakhulp die u hebt toegevoegd, wordt weergegeven in het dialoogvenster **[!UICONTROL Taakhulpen]** tabblad.
+   De taakhulp die u hebt toegevoegd verschijnt in de **[!UICONTROL Hulp van de Baan]** tabel.
 
 De inhoud verschijnt op elk van deze tabbladen als deze al beschikbaar is in het account. Anders moet u eerst de inhoud maken. Als u bijvoorbeeld nog geen van de cursussen of leerprogramma&#39;s hebt toegevoegd die al in de toepassing Learning Manager zitten, moet u deze eerst gaan aanmaken.
 
@@ -96,11 +101,11 @@ De inhoud verschijnt op elk van deze tabbladen als deze al beschikbaar is in het
 
 Een beheerder kan een diepe link voor een catalogus genereren die de studenten naar de specifieke cataloguspagina kan leiden.
 
-Op de **[!UICONTROL Catalogi]** , beweegt u de muis over de catalogus waarvoor u de diepe koppeling hebt gemaakt en klikt u op het gemarkeerde pictogram.
+Voor de **[!UICONTROL pagina van Catalogi]**, muis over de catalogus die u de diepe verbinding voor en het benadrukte pictogram klikt.
 
 ![](assets/catalog-deep-link.png)
 
-*Een diepe koppeling genereren voor studenten*
+*produceer een diepe verbinding voor studenten*
 
 ## Een catalogus inschakelen {#enablethecatalog}
 
@@ -116,13 +121,13 @@ U schakelt de catalogus als volgt in:
 
 U kunt een catalogus uitschakelen door de optie bij de catalogus uit te zetten.
 
-U kunt ook het selectievakje bij de catalogus inschakelen, op Acties in de rechterbovenhoek klikken en vervolgens op **[!UICONTROL Uitschakelen]**.
+Alternatief, kunt u de controle-doos dichtbij de catalogus selecteren, Acties op de hoger-juiste hoek klikken, en **[!UICONTROL onbruikbaar maken]** klikken.
 
-U kunt ook meerdere catalogi in de lijst uitschakelen. Selecteer de catalogi en kies in het menu Actie de optie **[!UICONTROL Uitschakelen]**.
+U kunt ook meerdere catalogi in de lijst uitschakelen. Selecteer de catalogi, en van het menu van de Actie, kies de optie **[!UICONTROL onbruikbaar maken]**.
 
 ## Een catalogus verwijderen {#deletethecatalog}
 
-Wanneer u een catalogus wilt verwijderen, selecteert u eerst de catalogus in de lijst. Klik op de knop Verwijderen bij de catalogus of klik op **[!UICONTROL Handelingen]** > **[!UICONTROL Verwijderen]**.
+Wanneer u een catalogus wilt verwijderen, selecteert u eerst de catalogus in de lijst. Of klik de knoop van de Schrapping dichtbij de catalogus of klik **[!UICONTROL Acties]** > **[!UICONTROL Schrapping]**.
 
 U kunt ook meerdere catalogi verwijderen.
 
@@ -136,9 +141,9 @@ Cursussen, leerprogramma&#39;s, taakhulpen en certificeringen kunt u als leerobj
 
 Met deze training leert u hoe u catalogi kunt delen met interne gebruikersgroepen en externe Adobe Learning Manager-accounts.
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ## Een catalogus intern delen {#int}
 
@@ -152,7 +157,7 @@ Klik op **[!UICONTROL Gebruikersgroepen toevoegen]** om een interne gebruikersgr
 
 ![](assets/internal-usergroups.png)
 
-*Een catalogus intern delen*
+*Deel intern een catalogus*
 
 Er is geen optie om een gedeelde gebruikersgroep in of uit te schakelen. U moet de gebruikersgroep verwijderen om dit uit te schakelen. Plaats de muis op de drie puntjes en klik op het verwijderingspictogram. U kunt ook in het vervolgkeuzemenu Acties rechtsboven op de pagina klikken en vervolgens op Verwijderen.
 
@@ -162,9 +167,9 @@ Klik op de pagina Catalogi op de catalogus die u wilt delen. Klik op **[!UICONTR
 
 ![](assets/shared-catalog-external.png)
 
-*Een catalogus extern delen*
+*Deel een catalogus extern*
 
-Voer het subdomein in dat hoort bij uw Learning Manager-account. Klik op **[!UICONTROL Hoe kan ik een subdomein ophalen?]** voor meer informatie over het subdomeingebruik. U kunt ook op **[!UICONTROL Branding]** in het linkerdeelvenster op de startpagina Beheerder om het subdomein weer te geven dat is gekoppeld aan uw organisatieaccount.
+Voer het subdomein in dat hoort bij uw Learning Manager-account. Klik op **[!UICONTROL Hoe kan ik een subdomein ophalen?]** voor meer informatie over het subdomeingebruik. U kunt **[!UICONTROL Branding]** op de linkerruit in de homepage van de Beheerder ook klikken om subdomain te bekijken verbonden aan uw organisatierekening.
 
 **Inschrijvingslimiet**
 
@@ -172,9 +177,9 @@ U kunt de limiet voor het aantal inschrijvingen per cursus op de gedeelde catalo
 
 **Vervaldatum**
 
-U kunt de geldigheid van de gedeelde catalogus instellen door een vervaldatum in te stellen in **[!UICONTROL Vervaldatum]** veld. Als de vervaldatum van de gedeelde catalogus is gepasseerd, zijn inschrijvingen voor cursussen niet meer toegestaan. Bestaande studenten kunnen nog steeds toegang hebben tot de inhoud. Leerobjecten zijn gearchiveerd, maar de badges en vaardigheden zijn actief. In deze status kan de ontvanger van de gedeelde catalogus de gearchiveerde leerobjecten niet dearchiveren.
+U kunt de geldigheid van de gedeelde catalogus plaatsen door opstelling een vervaldatum op **[!UICONTROL Vervaldatum]** gebied. Als de vervaldatum van de gedeelde catalogus is gepasseerd, zijn inschrijvingen voor cursussen niet meer toegestaan. Bestaande studenten kunnen nog steeds toegang hebben tot de inhoud. Leerobjecten zijn gearchiveerd, maar de badges en vaardigheden zijn actief. In deze status kan de ontvanger van de gedeelde catalogus de gearchiveerde leerobjecten niet dearchiveren.
 
-Klik op **[!UICONTROL Opslaan]** nadat alle benodigde informatie is toegevoegd. Klikken **[!UICONTROL Handelingen]** rechtsboven op de pagina en klik op **[!UICONTROL Delen]** om de catalogus te delen met externe accounts.
+Klik op **[!UICONTROL Opslaan]** nadat alle benodigde informatie is toegevoegd. Klik **[!UICONTROL drop-down Acties]** bij de hoger-juiste hoek van de pagina en klik **[!UICONTROL Aandeel]** om de catalogus met externe rekeningen te delen.
 
 De catalogi die eigendom zijn van de accounthouder die ze deelt, mogen alleen met externe accounts worden gedeeld. U kunt de catalogi die al door andere accounts met u worden gedeeld, niet delen.
 
@@ -186,13 +191,13 @@ De leerobjecten met open/actieve status voor inschrijving worden alleen aan gede
 
 **Delen van catalogi ongedaan maken**
 
-U maakt het delen van een catalogus ongedaan door een extern account in de toepassing uit te schakelen. Als u een catalogus niet meer wilt delen, klikt u op **[!UICONTROL Handelingen]** rechtsboven op de pagina en klik op **[!UICONTROL Delen opheffen]**. U kunt het delen van een catalogus op elk moment ongedaan maken. Wanneer het delen van een catalogus ongedaan wordt gemaakt, worden alle leerobjecten in die gedeelde catalogus gearchiveerd. De uitgeschakelde catalogi worden weergegeven als gearchiveerd in de toepassing van de ontvanger.
+U maakt het delen van een catalogus ongedaan door een extern account in de toepassing uit te schakelen. Om een catalogus niet te delen, klik **[!UICONTROL Acties]** bij de hoger-juiste hoek van de pagina en klik **[!UICONTROL Unshare]**. U kunt het delen van een catalogus op elk moment ongedaan maken. Wanneer het delen van een catalogus ongedaan wordt gemaakt, worden alle leerobjecten in die gedeelde catalogus gearchiveerd. De uitgeschakelde catalogi worden weergegeven als gearchiveerd in de toepassing van de ontvanger.
 
 U kunt een extern account alleen uit een gedeelde lijst verwijderen voordat de ontvanger het verzoek heeft geaccepteerd.
 
 **Catalogi verwijderen**
 
-Klik op **[!UICONTROL Handelingen]** vervolgkeuzelijst en klikken **[!UICONTROL Verwijderen]**.
+Om een gedeelde catalogus te schrappen, klik **[!UICONTROL drop-down Acties]** en klik **[!UICONTROL Schrapping]**.
 
 * U kunt standaardcatalogus niet met externe accounts delen.
 * U kunt een catalogus die door u extern is gedeeld, niet verwijderen.
@@ -267,7 +272,7 @@ Eventuele wijzigingen die worden uitgevoerd voor leerobjecten in de eigenaarstoe
 * Ontvangers kunnen items die nieuw aan een gedeelde catalogus worden toegevoegd, automatisch zien.
 * Vaardigheden gekoppeld het leerobjecten worden naar het account van de ontvanger van de gedeelde catalogus gekopieerd.
 
-* Als het account van de ontvanger van de gedeelde catalogus al dezelfde vaardigheidsnaam had, wordt er een nieuwe vaardigheid gemaakt &#42; na de naam.
+* Als het account van de ontvanger van de gedeelde catalogus al dezelfde vaardigheidsnaam had, wordt er een nieuwe vaardigheid gemaakt door &#42; achter de naam te plaatsen.
 * Gegevens (bijvoorbeeld Badges, L1, L3, meldingen) in de standaardinstanties van cursussen en leerprogramma&#39;s worden ook naar het account van de ontvanger gekopieerd, samen met cursussen en leerprogramma&#39;s.
 
 Terugkerende certificeringen kunnen geen deel uitmaken van een extern gedeelde catalogus. Ontvanger kan verworven leerobjecten niet gebruiken in terugkerende certificeringen als hiervoor een inschrijvingslimiet of vervaldatum is ingesteld in de catalogus.
@@ -328,9 +333,9 @@ Nadat u cataloguslabels hebt gemaakt, kunt u deze als volgt op specifieke catalo
 1. Open Catalogi vanuit het linkerdeelvenster.
 1. Selecteer de catalogus en pas deze op het label toe.
 1. Open Cataloguslabels via het linkerdeelvenster.
-1. Klikken **[!UICONTROL Bewerken]** rechtsboven. De pagina toont de lijst met beschikbare cataloguslabels.
+1. Klik **[!UICONTROL uitgeven]** op de hoger-juiste hoek. De pagina toont de lijst met beschikbare cataloguslabels.
 1. Klik op **[!UICONTROL Toevoegen aan catalogus]** om een label aan de catalogus toe te voegen.
-1. Als u bestaande labels wilt verwijderen die aan een catalogus zijn toegevoegd, klikt u op **[!UICONTROL Verwijderen]**.
+1. Om bestaande labels te verwijderen die aan een Catalogus worden toegevoegd, verwijder ****.
 
 +++
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Instellingen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '3595'
-ht-degree: 67%
+source-wordcount: '3651'
+ht-degree: 66%
 
 ---
 
@@ -406,6 +406,10 @@ Schakel de volgende instellingen in of uit:
     <p>Wijzigingen in de instellingen (waardering met sterren/cursuseffectiviteit/waardering weergeven uitschakelen) hebben geen gevolgen voor alle andere apps (beheerder, auteur, manager, aangepaste beheerder, aangepaste auteur). </p>
     <p>Voor nieuwe rekeningen, zal de <b> sectie van de Classificaties van de Tonen </b> de optie <b> Classificatie van de Ster </b> hebben die door gebrek wordt toegelaten.</p>
     <p>Voor bestaande rekeningen, als de rekening eerder de toegelaten doeltreffendheid van de optie <b> Cursus </b> had, dan zal de <b> toon sectie </b> van Classificaties {met de geselecteerde doeltreffendheid van de optieCursus worden toegelaten. Als de optie <b> gevolgen van de Cursus </b> gehandicapt is, dan zal de <b> tonen sectie </b> ook gehandicapt zijn. Wanneer de <b> sectie van de Classificaties </b> wordt toegelaten, zal de classificatie van de optie <b> Ster </b> door gebrek worden toegelaten.</p></td>
+  </tr>
+  <tr>
+   <td height="19">Archiveren</td>
+   <td>Selecteer een van de volgende opties voor archiveren:<li>Na archivering kunnen ingeschreven studenten acties bekijken en uitvoeren, maar nog niet ingeschreven studenten verliezen hun toegang.</li><li>Na archivering verliezen zowel ingeschreven als nog niet ingeschreven studenten de toegang.</li><div><b> Nota:</b> u kunt cursussen, het leren wegen, of certificeringen van hun overzichtspagina's archiveren.</div> </td>
   </tr>
  </tbody>
 </table>
