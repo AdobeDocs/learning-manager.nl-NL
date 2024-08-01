@@ -2,13 +2,13 @@
 description: Adobe Learning Manager ondersteunt meerdere aanmeldingsmethoden via meerdere SSO-configuraties voor zowel interne als externe gebruikers.
 title: Meerdere SSO-aanmeldingen
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 39%
 
 ---
-
 
 # Meerdere SSO-aanmeldingen {#multiple-sso-logins}
 
@@ -24,7 +24,7 @@ Er kunnen tot 20 SSO-configuraties aan een account worden toegevoegd. Deze kunne
 
 ## Meerdere SSO&#39;s inschakelen
 
-Selecteer **Instellingen** > **Aanmeldingsmethoden**.
+Om veelvoudige SSO toe te laten, selecteer **Montages** > **Aanmeldingsmethodes**.
 
 Schakel op de installatiepagina het selectievakje &#39;Multiple Single Sign-On (SSO) inschakelen&#39; in voor interne of externe gebruikers.
 
@@ -39,7 +39,7 @@ Volg onderstaande stappen om een SSO te configureren:
    * Geef de naam van de SSO op.
    * Selecteer het type SSO: Door IDP geïnitieerd of Door SP geïnitieerd.
 
-      * Als u IDP hebt geselecteerd in werking gesteld, dan ga IDP URL in. Deze URL is de unieke identificatie voor uw applicatie en bevat informatie die door uw IDP-serviceprovider wordt geleverd. Dit is de URL waarnaar alle gebruikers van de Adobe Learning Manager worden omgeleid nadat ze zich hebben aangemeld.
+      * Als u IDP hebt geselecteerd in werking gesteld, dan ga IDP URL in. Deze URL is de unieke identificatie voor uw applicatie en bevat informatie die door uw IDP-serviceprovider wordt geleverd. Dit is de URL waarnaar alle Adobe Learning Manager-gebruikers worden omgeleid nadat ze zich hebben aangemeld.
       * Upload de IDP-Metadata-xml van uw IDP-provider. Dit bestand bevat informatie over de IdP waardoor Adobe Learning Manager er SAML-beweringen uit kan accepteren
       * Als u SP hebt geselecteerd, ga identiteitskaart van de Entiteit in De entiteits-ID is een URL die de serviceprovider (SP) opgeeft.
       * Geef de SP-aanmeldings-URL op. Deze URL wordt door gebruikers gebruikt om zich aan te melden bij de applicatie.
@@ -54,7 +54,7 @@ Volg onderstaande stappen:
 
 1. Importeer de CSV die de actieve velden en de bijbehorende waarden bevat.
 1. Klik op Instellingen > Aanmeldingsmethoden.
-1. Schakel het selectievakje Meerdere eenmalige aanmelding (Single Sign-On, SSO) inschakelen in voor aanmelding.
+1. Selecteer **[!UICONTROL toelaten Meervoudig Enige Sign-On (SSO)]** voor login checkbox.
 1. Wijs de configuraties SSO aan de waarden van het actieve gebied toe.
 1. Sla de instellingen op. Importeer de CSV nogmaals.
 
@@ -63,7 +63,7 @@ Volg onderstaande stappen:
 Volg onderstaande stappen:
 
 1. Klik op Instellingen > Aanmeldingsmethoden.
-1. Schakel het selectievakje Meerdere eenmalige aanmelding (Single Sign-On, SSO) inschakelen in voor aanmelding.
+1. Selecteer **[!UICONTROL toelaten Meervoudig Enige Sign-On (SSO)]** voor login checkbox.
 1. Selecteer een actief veld voor een SSO.
 1. Koppel de SSO-configuraties aan de waarden van het veld.
 1. Sla de instellingen op. Voeg één gebruiker toe en wijs een waarde toe voor het actieve veld.
@@ -73,7 +73,7 @@ Volg onderstaande stappen:
 Volg onderstaande stappen:
 
 1. Klik op Instellingen > Aanmeldingsmethoden.
-1. Schakel het selectievakje Meerdere eenmalige aanmelding (Single Sign-On, SSO) inschakelen in voor aanmelding.
+1. Selecteer **[!UICONTROL toelaten Meervoudig Enige Sign-On (SSO)]** voor login checkbox.
 1. Koppel de SSO-configuraties aan de waarden van het veld.
 1. Sla de instellingen op. Voeg één gebruiker toe en wijs een waarde toe voor het actieve veld.
 1. Voeg een zelfregistratieprofiel toe.
@@ -87,7 +87,7 @@ Volg onderstaande stappen:
 
 1. Maak een extern profiel.
 1. Klik op Instellingen > Aanmeldingsmethoden.
-1. Schakel het selectievakje Meerdere eenmalige aanmelding (Single Sign-On, SSO) inschakelen in voor aanmelding.
+1. Selecteer **[!UICONTROL toelaten Meervoudig Enige Sign-On (SSO)]** voor login checkbox.
 1. Koppel de SSO-configuratie aan het gemaakte externe profiel.
 1. Sla de instellingen op.
 

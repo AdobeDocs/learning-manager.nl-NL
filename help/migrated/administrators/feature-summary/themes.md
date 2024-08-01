@@ -3,14 +3,13 @@ description: Kleurenthema's en branding in Learning Manager.
 jcr-language: en_us
 title: Kleurenthema's
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1203'
 ht-degree: 45%
 
 ---
-
-
 
 # Kleurenthema&#39;s
 
@@ -22,19 +21,19 @@ In Learning Manager kunt u de weergave van de toepassing aan de merkeisen van uw
 
 In deze training, zult u manieren onderzoeken om de verschijning van de interface aan te passen om het met de het brandmerken vereisten van een organisatie aan te passen.
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
+[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ## Branding {#branding}
 
-Klikken **[!UICONTROL Branding]** in het linkerdeelvenster om de naam van uw organisatie bij te werken, wijzigt u het subdomein, de logstijlen en de thema&#39;s. Klikken **[!UICONTROL Bewerken]** naast elk van deze onderwerpen om de inhoud te wijzigen.
+Klik **[!UICONTROL Branding]** op de linkerruit om uw organisatienaam bij te werken, subdomein, logboekstijlen en thema&#39;s te veranderen. Klik **[!UICONTROL geef]** naast elk van deze onderwerpen uit om de inhoud te wijzigen.
 
 ## Logostijl {#logostyling}
 
-Klikken **[!UICONTROL Bewerken]** om de weergave van uw logo en bedrijfsnaam in te stellen in de toepassing Learning Manager.
+Klik **[!UICONTROL geef]** uit om de verschijning van uw embleem en bedrijfsnaam op de toepassing van de Leermanager te plaatsen.
 
-Klik op **[!UICONTROL Nieuw logo uploaden]** en kies op uw computer het logo dat u wilt uploaden. Hieronder kunt u een voorbeeld van het logo en de naam van uw organisatie bekijken. Kies de koptekststijl naar keuze en klik op **[!UICONTROL Opslaan]**.
+Klik op **[!UICONTROL Nieuw logo uploaden]** en kies op uw computer het logo dat u wilt uploaden. Hieronder kunt u een voorbeeld van het logo en de naam van uw organisatie bekijken. Kies de koptekststijl van uw keus en klik **[!UICONTROL sparen]**.
 
 ## Thema&#39;s {#themes}
 
@@ -42,11 +41,11 @@ Een set van vijf representatieve afbeeldingen is meegeleverd, zodat u een voorbe
 
 **Kies een thema**
 
-Klik op de knop **[!UICONTROL Hints weergeven]** onder deze sectie om de hints op de afbeelding weer te geven, zoals hieronder wordt weergegeven.
+Klik **[!UICONTROL tonen wenken]** onder deze sectie om de wenken op het beeld zoals hieronder getoond te tonen.
 
 ![](assets/themes-preview-images.png)
 
-*Hints weergeven op een thema*
+*wenken van de Mening op een thema*
 
 De toepassing Learning Manager biedt gebruikers vijf opties voor kleurthema&#39;s:
 
@@ -64,15 +63,15 @@ De toepassing Learning Manager biedt gebruikers vijf opties voor kleurthema&#39;
 
 ![](assets/prime-customize-theme.png)
 
-*Kleuren van een thema aanpassen*
+*pas kleuren van een thema* aan
 
 U kunt de kleur van de bovenste balk, de Accentkleur (bijvoorbeeld de kleur van de pictogrammen in het linkerpaneel), de primaire kleur en de helderheid van de zijbalk aanpassen voor thema&#39;s, met uitzondering van het Prime-standaardthema.
 
-In het dialoogvenster **[!UICONTROL Primaire kleur]** kiezer, kunt u de kleur kiezen die wordt gebruikt voor de Immersive UI.
+In de **[!UICONTROL Primaire kleur]** plukker, kunt u de kleur kiezen die voor Immersive UI wordt gebruikt.
 
 Kies het type thema in het linkerdeelvenster en klik op de vierkantjes naast de merkkleur en de pictogramkleuren op de zijbalk. Klik op de zijbalk in de helderheid van de zijbalk, sleep deze naar voren of naar achteren om de helderheid aan te passen. Kijk naar het voorbeeld in de bovenstaande afbeeldingen terwijl u deze opties wijzigt.
 
-Klikken **[!UICONTROL Thema opnieuw instellen]** om de oorspronkelijke instellingen van het thema te herstellen. Klikken **[!UICONTROL Opslaan]** nadat de wijzigingen zijn voltooid.
+Klik **[!UICONTROL het Thema van het Terugstellen]** om de originele montages van het thema te herstellen. Klik **[!UICONTROL sparen]** na de voltooiing van de veranderingen.
 
 **Livevoorbeeld**
 
@@ -80,9 +79,9 @@ Klik op **[!UICONTROL Livevoorbeeld]** in de linkerbenedenhoek van de sectie The
 
 ![](assets/live-theme-preview.png)
 
-*Het pop-upvenster Live voorvertoning*
+*Live Voorproef pop-up*
 
-Kies het gewenste thema uit de vervolgkeuzelijst, pas de instellingen aan en klik op **[!UICONTROL Voorbeeld]** om de wijzigingen live in uw toepassing te bekijken. U kunt nu alle functies van de toepassing doorlopen en de veranderingen bekijken. U kunt ook uw rollen veranderen terwijl u het livevoorbeeld doorloopt. Als u tevreden bent met de wijzigingen, kunt u teruggaan naar de pop-upfunctie Voorvertoning livethema en op **[!UICONTROL Thema toepassen]**.
+Kies het gewenste thema uit de vervolgkeuzelijst, pas de instellingen aan en klik op **[!UICONTROL Voorbeeld]** om de wijzigingen live in uw toepassing te bekijken. U kunt nu alle functies van de toepassing doorlopen en de veranderingen bekijken. U kunt ook uw rollen veranderen terwijl u het livevoorbeeld doorloopt. Zodra u met de veranderingen wordt tevreden, kunt u terug naar de Levende pop-up eigenschap van de themavoorproef komen en klikken **[!UICONTROL pas Thema]** toe.
 
 Terwijl u de wijzigingen live bekijkt, blijft het pop-upvenster Voorbeeld van livethema onderaan het scherm staan. U kunt de pop-up minimaliseren.
 
@@ -90,8 +89,8 @@ Terwijl u de wijzigingen live bekijkt, blijft het pop-upvenster Voorbeeld van li
 
 Hieronder wordt beschreven hoe u meerdere branding implementeert:
 
-1. Selecteer in de Admin-app **Branding** in het linkerdeelvenster.
-1. Selecteren **Bewerken** in de sectie Meerdere branding.
+1. Voor Admin app, selecteer **Branding** op de linkerruit.
+1. Selecteer **geef** in de Meerdere het Brandmerken sectie uit.
 1. Selecteer de schakelknop en schakel deze in.
 
 ### Interne gebruikers
@@ -108,6 +107,11 @@ Hieronder wordt beschreven hoe u meerdere branding implementeert:
 >
 >Interne gebruikers kunnen actieve velden zoals Externe gebruikers hebben (Admin moet bijvoorbeeld de multibranding voor interne gebruikers en externe gebruikers afzonderlijk toevoegen door de actieve veldwaarden afzonderlijk te selecteren.)
 
+>[!INFO]
+>
+>Controle uit dit [ blog ](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/) voor meer informatie.
+
+
 #### Opmerkingen
 
 * Een beheerder kan de merktekens op meerdere niveaus toevoegen voor deze actieve veldwaarde en de externe gebruiker kan zich aanmelden met verschillende mechanismen (SSO Single (Okta, Mini orange), Social Login) en controleren of de multibranding van toepassing is.
@@ -123,7 +127,7 @@ Hieronder wordt beschreven hoe u meerdere branding implementeert:
 
 Met Adobe Learning Manager kunt u uw account aanpassen voor een verbeterde gebruikerservaring.
 
-De lijst hieronder geeft de onderdelen weer die kunnen worden aangepast. Neem contact op met Leermanager om het account aan te passen  [ondersteuning](mailto:captivateprimesupport@adobe.com).
+De lijst hieronder geeft de onderdelen weer die kunnen worden aangepast. Om de rekening aan te passen, contacteer het Leren Manager [ steun ](mailto:captivateprimesupport@adobe.com).
 
 <table>
  <tbody>
@@ -189,9 +193,9 @@ De lijst hieronder geeft de onderdelen weer die kunnen worden aangepast. Neem co
 
 ## Instellingen voor aanbevelingen configureren {#configurerecommendationsettings}
 
-Aan **Branding** > **Algemeen** kunt u aanbevelingsbereiken voor interne en externe studenten configureren en studenten in staat stellen vaardigheden te kiezen op de startpagina van de student.
+Op **Branding** > **Algemeen**, kunt u aanbevelingswerkingsgebieden voor interne en externe studenten vormen, en studenten toelaten kiezen vaardigheden op de studentenhomepage.
 
-Op de **Algemeen** hebt u de volgende opties:
+Op de **Algemene** pagina, hebt u de volgende opties:
 
 <table>
  <tbody>
@@ -211,19 +215,19 @@ Op de **Algemeen** hebt u de volgende opties:
    <td>
     <p>Instelling voor aanbevelingsomvang<br></p></td>
    <td>
-    <p>Kies een of meer actieve velden. Voor <strong>Aangepast</strong> kunt u maximaal één actief veld kiezen. Voor <strong>Branches uitgelijnd</strong>kunt u maximaal vijf actieve velden kiezen.<br></p></td>
+    <p>Kies een of meer actieve velden. Voor <strong>Aangepast</strong> kunt u maximaal één actief veld kiezen. Voor <strong> Uitgelijnde Industrie </strong>, kunt u maximaal vijf actieve gebieden kiezen.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Studenten toestaan om interessegebieden te verkennen</p></td>
    <td>
-    <p>Alleen voor klassieke ervaring. Kies <strong>Ja </strong>of <strong>Nee</strong>.<br></p></td>
+    <p>Alleen voor klassieke ervaring. Kies <strong> Ja </strong> of <strong> Nr </strong>.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Gebruikers vragen om interessegebieden (vaardigheden) te selecteren <br></p></td>
    <td>
-    <p>Alleen voor insluitende ervaring. Kies <strong>Ja</strong> of <strong>Nee</strong>. </p></td>
+    <p>Alleen voor insluitende ervaring. Kies <strong> Ja </strong> of <strong> Nr </strong>. </p></td>
   </tr>
  </tbody>
 </table>

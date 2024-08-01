@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager-connectoren
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -762,14 +762,14 @@ De Harvard ManageMentor-connector wordt gebruikt door zakelijke klanten van Harv
 
    Om de synchronisatie te laten slagen, moet u ervoor zorgen dat ten minste één van de volgende bestanden aanwezig is in de FTP-map van Harvard ManageMentor:
 
-   hmm12_metadata.xlsx: Dit bestand geeft de cursusmetagegevens voor de Harvard ManageMentor-connector. Zorg ervoor dat u de naamconventie volgt wanneer u het bestand uploadt.
+   hmm12_metadata.csv: Dit bestand bevat de cursusmetagegevens voor de Harvard ManageMentor-connector. Zorg ervoor dat u de naamconventie volgt wanneer u het bestand uploadt.
 
-   client_hmm12_20150125.xlsx: dit is de gebruikersfeed voor de Harvard ManageMentor-connector. De bestandsnaamconventie die gevolgd moet worden is **client_hmm12_yyyyMMMdd.xlsx.**
+   client_hmm12_20150125.csv: Het is de gebruikersfeed voor de Harvard ManageMentor-connector. Het dossier het noemen overeenkomst die volgt is **client_hmm12_yyyyMMdd.csv.**
 
    Zie de volgende twee voorbeelden van gebruikersfeed- en cursusfeed-bestanden voor deze connector:
 
-   * [ dossier van de meta-gegevens van de cursus voor de schakelaar van Harvard ManageMentor ](assets/hmm12-metadata.xlsx)
-   * [Gebruikersfeed voor de Harvard ManageMentor-connector](assets/client-hmm12-20170304.xlsx)
+   * [ dossier van de meta-gegevens van de cursus voor de schakelaar van Harvard ManageMentor ](assets/hmm12-metadata.csv)
+   * [Gebruikersfeed voor de Harvard ManageMentor-connector](assets/client-hmm12-20170304.csv)
 
 ## Workday-connector {#workdayconnector}
 
