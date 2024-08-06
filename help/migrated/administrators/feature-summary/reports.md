@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Rapporten
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
 workflow-type: tm+mt
 source-wordcount: '7133'
 ht-degree: 57%
@@ -256,7 +256,7 @@ Ga als volgt te werk om een label voor aangepaste compatibiliteit te maken:
 
    >[!NOTE]
    >
-   >Dit nieuwe cataloguslabel is geïntroduceerd om de cursussen, leerpaden en certificeringen te categoriseren als een compliancetype. Om de **[!UICONTROL het type van Naleving van de Douane]** optie toe te laten, moet u **[!UICONTROL eerst toelaten tonen optie van het Etiket van de Catalogus]** in de zelfde pagina.
+   >Dit nieuwe cataloguslabel is geïntroduceerd om de cursussen, leerpaden en certificeringen te categoriseren als een compliancetype. Om het **[!UICONTROL type van Naleving van de Douane]** optie toe te laten, moet u **[!UICONTROL eerst toelaten tonen optie van het Etiket van de Catalogus]** in de zelfde pagina.
 
 1. Ga naar **[!UICONTROL Montages]** > **[!UICONTROL het Etiket van de Catalogus]** en selecteer het **[!UICONTROL type van Naleving]**.
 1. Typ de waarden (b.v. Juridisch, Verkoop) in het **[!UICONTROL de tekstvakje van de Waarde]** en selecteer **[!UICONTROL toevoegen Waarde]**.
