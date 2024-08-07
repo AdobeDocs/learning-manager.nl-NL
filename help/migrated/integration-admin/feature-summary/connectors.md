@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager-connectoren
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: 7b842c08c5804175045ef3ce1910c47587f3ff66
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -441,7 +441,7 @@ Zodra de verbinding tot stand is gebracht, kunt u de kolommen van de CSV-bestand
    >
    >Het veld Manager moet worden toegewezen aan een veld van het type e-mailadres. U moet alle kolommen toewijzen voordat u de connector kunt gebruiken.
 
-1. Klik **[!UICONTROL sparen]** na de voltooiing van de afbeelding.
+1. Selecteer **[!UICONTROL sparen]** na de voltooiing van de afbeelding.
 
    De connector is nu klaar voor gebruik. Het geconfigureerde account verschijnt als gegevensbron in de beheerdersapp zodat de beheerder de import of de synchronisatie op verzoek kan plannen.
 
@@ -2073,32 +2073,7 @@ Met het geautomatiseerde synchronisatieproces voor de voltooiing van gebruikers 
 
 Voor meer informatie, zie [**de schakelaar van Microsoft Teams in Adobe Learning Manager**](install-microsoft-teams-connector.md) installeren.
 
-## Niet-aangemelde ervaring
-
-Dankzij de niet-aangemelde ervaring kunt u een real-time ervaring creëren voor niet-aangemelde gebruikers. Een niet-aangemelde ervaring fungeert bijvoorbeeld als startpagina voor marketingcampagnes om aanmelding-ups te stimuleren.
-
-De niet-het programma geopende ervaring in Adobe Learning Manager kan worden gevormd gebruikend de ]**schakelaar van de Toegang van de Gegevens van de Opleiding**[!UICONTROL . De connector biedt de volgende mogelijkheden:
-
-* Standard-aanbieding
-* Premium-aanbieding
-
-**Standaard het aanbieden**
-
-De standaardaanbieding is om de native versie van Adobe Learning Manager te bouwen. Gebruikers kunnen een headless ervaring bouwen die alleen voor demonstraties en niet-aangemelde headless is. De headless ervaring van de demonstratie is niet schaalbaar en mag niet worden gebruikt in een productieomgeving.
-
-**het Aanbieden van de Premie**
-
-Het premieaanbieden helpt gebruikers een headless interface bouwen, die door de **[!UICONTROL schakelaar van de Toegang van de Gegevens van de Opleiding]** wordt gevormd. Hiermee kunnen gebruikers real-time gegevens over cursussen en leerpaden ophalen, zoals naam, beschrijving, auteur, vaardigheden, duur, enz. Voor overvloeiingsscenario&#39;s krijgt u ook real-time beperkingen voor licenties, bezette plaatsen, wachtlijstlimieten en wachtlijstaantallen. Klanten kunnen deze API&#39;s gebruiken om zoek- en filtermogelijkheden en een volledig cursusoverzicht voor niet-aangemelde studenten te maken.
-
-Klanten kunnen een Premium-lidmaatschap aanschaffen om deze uiterst schaalbare, niet-aangemelde ervaring te creëren.
-
->[!NOTE]
->
->Neem contact op met het ondersteuningsteam of de CSM om het Premium-lidmaatschap aan te schaffen.
-
-Nadat een gebruiker een lidmaatschap heeft gekocht, activeert het CSM-team het Premium-lidmaatschap voor hen. Met behulp van de connector Trainingsgegevenstoegang kunnen gebruikers een niet-aangemelde ervaring instellen met de eerder vermelde functies.
-
-### Interface voor trainingsgegevens
+## Interface voor trainingsgegevens {#training-data-access-connector}
 
 >[!IMPORTANT]
 >
@@ -2110,7 +2085,7 @@ Nadat een gebruiker een lidmaatschap heeft gekocht, activeert het CSM-team het P
 
 De ]**schakelaar van de Toegang van de Gegevens van de Opleiding**[!UICONTROL  laat u een headless ervaring creëren. Deze ervaring kan op zichzelf staan of een aangepaste gebruikersinterface zijn op basis van AEM Sites. Het helpt studenten trainingsinformatie op te halen en weer te geven en maakt zoeken en filteren mogelijk. Zodra de gegevensconnector is ingeschakeld, is er een set openbare API&#39;s beschikbaar om de interface te bouwen, waarin de cursus-/leerpadinformatie voor de studenten wordt weergegeven.
 
-#### De connector configureren
+### De connector configureren
 
 Gebruik de ]**schakelaar van de Toegang van de Gegevens van de Opleiding**[!UICONTROL  om uw rekening van Adobe Learning Manager met gegevensopslag en onderzoekssystemen te integreren. Zo krijgt uw op AEM Sites gebaseerde interface trainingsgegevens, worden webpagina&#39;s weergegeven en krijgen studenten betere zoekopties.
 
@@ -2164,6 +2139,31 @@ Voor meer informatie, zie dit [**document**](../../adobe-learning-manager-integr
 De gepubliceerde website toont een lijst met alle gemigreerde cursussen, certificaten en leertrajecten die zijn opgehaald uit de zoekservice voor niet-aangemelde studenten.
 
 Wanneer een student op cursus, certificaat of leerpad klikt, wordt de overzichtspagina geopend. Wanneer de student zich inschrijft, moet deze zich eerst op de pagina aanmelden en daarna de cursus volgen.
+
+### Niet-aangemelde ervaring
+
+Dankzij de niet-aangemelde ervaring kunt u een real-time ervaring creëren voor niet-aangemelde gebruikers. Een niet-aangemelde ervaring fungeert bijvoorbeeld als startpagina voor marketingcampagnes om aanmelding-ups te stimuleren.
+
+De niet-het programma geopende ervaring in Adobe Learning Manager kan worden gevormd gebruikend de ]**schakelaar van de Toegang van de Gegevens van de Opleiding**[!UICONTROL . De connector biedt de volgende mogelijkheden:
+
+* Standard-aanbieding
+* Premium-aanbieding
+
+**Standaard het aanbieden**
+
+De standaardaanbieding is om de native versie van Adobe Learning Manager te bouwen. Gebruikers kunnen een headless ervaring bouwen die alleen voor demonstraties en niet-aangemelde headless is. De headless ervaring van de demonstratie is niet schaalbaar en mag niet worden gebruikt in een productieomgeving.
+
+**het Aanbieden van de Premie**
+
+Het premieaanbieden helpt gebruikers een headless interface bouwen, die door de **[!UICONTROL schakelaar van de Toegang van de Gegevens van de Opleiding]** wordt gevormd. Hiermee kunnen gebruikers real-time gegevens over cursussen en leerpaden ophalen, zoals naam, beschrijving, auteur, vaardigheden, duur, enz. Voor overvloeiingsscenario&#39;s krijgt u ook real-time beperkingen voor licenties, bezette plaatsen, wachtlijstlimieten en wachtlijstaantallen. Klanten kunnen deze API&#39;s gebruiken om zoek- en filtermogelijkheden en een volledig cursusoverzicht voor niet-aangemelde studenten te maken.
+
+Klanten kunnen een Premium-lidmaatschap aanschaffen om deze uiterst schaalbare, niet-aangemelde ervaring te creëren.
+
+>[!NOTE]
+>
+>Neem contact op met het ondersteuningsteam of de CSM om het Premium-lidmaatschap aan te schaffen.
+
+Nadat een gebruiker een lidmaatschap heeft gekocht, activeert het CSM-team het Premium-lidmaatschap voor hen. Met behulp van de connector Trainingsgegevenstoegang kunnen gebruikers een niet-aangemelde ervaring instellen met de eerder vermelde functies.
 
 ## Adobe Commerce-connector
 
