@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager-connectoren
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 7b842c08c5804175045ef3ce1910c47587f3ff66
+source-git-commit: e7a88bac3bbe7814368a98d40f548b38806e7f1a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -40,19 +40,19 @@ Lees verder om te weten te komen hoe u elk van deze connectoren in Learning Mana
 
 De Salesforce-connector verbindt Learning Manager met Salesforce-accounts om de synchronisatie van gegevens te automatiseren. De mogelijkheden van de Salesforce-connector zijn als volgt:
 
-### Kenmerken toewijzen
+### Kenmerken toewijzen {#map-attributes}
 
 De integratiebeheerder kan Salesforce-kolommen kiezen en aan de overeenkomstige groepeerbare kenmerken van Learning Manager toewijzen. Wanneer de toewijzing is voltooid, wordt dezelfde toewijzing voor verdere gebruikersimporten gebruikt. De beheerder kan de toewijzing opnieuw configureren als deze een andere toewijzing voor het importeren van gebruikers wil.
 
-### Geautomatiseerde gebruikersimport
+### Geautomatiseerde gebruikersimport {#automated-user-import}
 
 Via het proces voor gebruikersimport kan de Learning Manager-beheerder werknemersgegevens uit Salesforce ophalen en automatisch in Learning Manager importeren. Door deze automatisering hoeft het creëren van CSV&#39;s en het uploaden naar Learning Manager niet handmatig te gebeuren.
 
-### Automatisch plannen
+### Automatisch plannen {#auto-schedule}
 
 Het kan effectief zijn om de functie voor automatische planning samen met de functie voor geautomatiseerde gebruikersimport te gebruiken. De Learning Manager-beheerder kan het schema volgens de behoeften van de organisatie instellen. Gebruikers in de toepassing Leermanager kunnen volgens het schema up-to-date zijn. De synchronisatie kan dagelijks worden uitgevoerd in de Learning Manager-toepassing.
 
-### Gebruikers filteren
+### Gebruikers filteren {#filtering-user}
 
 De Learning Manager-beheerder kan gebruikers filteren voordat ze worden geïmporteerd. Zo kan de Learning Manager-beheerder er bijvoorbeeld voor kiezen om alle gebruikers in de hiërarchie onder één of meer specifieke managers te importeren.
 
@@ -130,14 +130,14 @@ Kies de Salesforce-kolommen en wijs deze toe aan de overeenkomstige groepeerbare
 1. Als u **[!UICONTROL Nr klikt. Importeer alle Contacten]**, kunt u de gebieden direct in kaart brengen zonder de contacten te filtreren. Hier importeert u alle contactpersonen uit Salesforce.
 1. Om te beginnen invoerend, klik **[!UICONTROL sparen]**.
 
-## Leerrecords exporteren
+## Leerrecords exporteren {#export-learning-records}
 
 Learning Manager biedt de mogelijkheid om leerrecords zoals transcripten, gebruikersrapporten en vaardigheidsrapporten te exporteren naar Salesforce. U kunt bepalen of de geëxporteerde gegevens moeten worden gekoppeld aan de tabel &#39;Gebruiker&#39; of de tabel &#39;Contactpersonen&#39; in Salesforce.
 
 ![](assets/export-events-new.png)
 *het Exporteren leerverslagen*
 
-### Aangepaste objecten in Salesforce
+### Aangepaste objecten in Salesforce {#custom-objects-in-salesforce}
 
 Voordat u leerrecords uit Leerbeheer exporteert, moet u aangepaste objecten in Salesforce maken. Aangepaste objecten zijn objecten die u maakt om informatie op te slaan die specifiek is voor uw bedrijf of sector. Zie [Aangepaste objecten van Salesforce](https://trailhead.salesforce.com/en/content/learn/modules/data_modeling/objects_intro) voor meer informatie.
 
@@ -171,11 +171,11 @@ Zo maakt u de objecten:
 >
 >Op de pagina Uitvoeringsstatus voor Salesforce kan het aantal verwerkte records alleen worden gecontroleerd vanuit Salesforce. In Learning Manager wordt de status weergegeven als voltooid, zelfs als alle records die zijn verwerkt gedeeltelijk zijn geëxporteerd of niet zijn voltooid.
 
-## Het Salesforce-pakket installeren
+## Het Salesforce-pakket installeren {#install-salesforce-package}
 
 Learning Manager biedt een Salesforce App-pakket. Na de installatie en configuratie in SFDC kunnen verkoopmedewerkers hun trainingsactiviteiten uitvoeren in de SFDC-portal. Met deze app kunnen SFDC-gebruikers nieuwe trainingen verkennen, aanbevelingen bekijken en deze rechtstreeks in de SFDC-portal gebruiken. Gebruikers ontvangen de aankondigingen die door beheerders worden verzonden in de vorm van mastheads rechtstreeks binnen de app in de SFDC-portal.
 
-### Instellen in de Learning Manager-app.
+### Instellen in de Learning Manager-app. {#setup-in-learning-manager-app}
 
 1. Meld u als integratiebeheerder bij uw Learning Manager-beheerdersaccount aan.
 1. Klik **[!UICONTROL Toepassingen]** > **[!UICONTROL Aanbevolen Apps]**.
@@ -186,14 +186,14 @@ Learning Manager biedt een Salesforce App-pakket. Na de installatie en configura
 1. In de sectie OAuth Code ophalen moeten de client-id en het bereik worden ingesteld op - admin:read,admin:write. Klik **[!UICONTROL voorleggen]**.
 1. Voer bij Vernieuwingstoken ophalen de client-ID en het clientgeheim in. Klik **[!UICONTROL voorleggen]** en neem nota van het vernieuwingstoken.
 
-### Account aanmaken in de Salesforce-app
+### Account aanmaken in de Salesforce-app {#create-account-in-salesforce-app}
 
 1. Maak een account aan op de aanmeldingspagina van Salesforce. U moet een Salesforce-account maken in de editie voor ontwikkelaars of ondernemingen.  [ de inschrijver URL van de Ontwikkelaar ](https://developer.salesforce.com/signup). Zorg ervoor dat u de e-mail-ID gebruikt om u aan te melden voor Salesforce die u voor Leerbeheer hebt gebruikt.
 1. Verifieer uw account via de verificatie-e-mail.
 1. Maak een wachtwoord aan en meld u aan bij Salesforce.
 1. Noteer de Salesforce-URL na aanmelding (bijvoorbeeld site.lightning.force.com)
 
-### Installeer het Learning Manager-pakket
+### Installeer het Learning Manager-pakket {#install-learning-manager-package}
 
 Als u het pakket wilt installeren, moet u eerst het bestaande pakket in Salesforce verwijderen. Voordat u de installatie ongedaan maakt, moet u de instellingen inschakelen, zoals hieronder weergegeven. U moet deze instellingen toepassen, anders kunt u het pakket niet installeren.
 
@@ -215,7 +215,7 @@ Als u het pakket wilt installeren, moet u eerst het bestaande pakket in Salesfor
    * **RefreshToken:** ga de waarde in die u van de eerste sectie had verkregen.
    * **LearningManagerBaseURL:** URL van de plaats waar het Leren Manager wordt ontvangen.
 
-### Instellingen voor externe site toevoegen
+### Instellingen voor externe site toevoegen {#add-remote-site-settings}
 
 1. In de hoger-juiste hoek van de pagina, klik **[!UICONTROL Opstelling]**.
 1. In **[!UICONTROL Snelle Vondst]**, onderzoek naar de Montages van de Verre Plaats.
@@ -227,7 +227,7 @@ Als u het pakket wilt installeren, moet u eerst het bestaande pakket in Salesfor
 
 1. Start Learning Manager.
 
-### Meldingen inschakelen voor de app Leermanager
+### Meldingen inschakelen voor de app Leermanager {#enable-notifications-for-learning-manager-app}
 
 1. In de hoger-juiste hoek, klik **[!UICONTROL Opstelling]**.
 1. Zoek naar aangepaste meldingen.
@@ -252,7 +252,7 @@ Als u het pakket wilt installeren, moet u eerst het bestaande pakket in Salesfor
 1. Ga in de Salesforce-app naar Geïnstalleerde pakketten.
 1. Klik **[!UICONTROL Uninstall]**.
 
-## Learning Manager configureren voor Salesforce-gebruikers
+## Learning Manager configureren voor Salesforce-gebruikers {#configure-learning-manager-for-salesforce-users}
 
 De Learning Manager-app is ook beschikbaar voor gebruikers die in een Salesforce-account aanwezig zijn. De beheerder van Salesforce kan gebruikers toevoegen op basis van de profielen. De Salesforce-profielen komen overeen met die in Learning Manager. Bijvoorbeeld beheerder, integratiebeheerder, docent enzovoort. De Salesforce-beheerder kan ook een aangepast profiel maken.
 
@@ -292,9 +292,9 @@ U moet de app voor alle profielen zichtbaar maken.
 
 Klik **[!UICONTROL sparen]** en de studenten die tot alle profielen behoren zullen tot de app van de Leermanager toegang hebben.
 
-### Wijzigingen met betrekking tot leerpad
+### Wijzigingen met betrekking tot leerpad {#learning-path-changes}
 
-#### Bestaande verbindingen
+#### Bestaande verbindingen {#existing-connections}
 
 Als de optie Leerpad is uitgeschakeld in het beheerdersaccount, worden er geen rijen en kolommen toegevoegd aan het rapport.
 
@@ -304,7 +304,7 @@ Als de optie Leerpad is ingeschakeld in het beheerdersaccount, wordt de kolom &q
 >
 >Als de vlag wordt toegelaten en u een bestaande verbinding gebruikt, kunnen een paar verslagen worden gemist.
 
-#### Nieuwe verbindingen
+#### Nieuwe verbindingen {#new-connections}
 
 Als de optie Leerpad is uitgeschakeld in het beheerdersaccount, bestaat het trainingsrapport uit de volgende kolommen, maar bevat het geen gegevens.
 
@@ -324,7 +324,7 @@ Met behulp van de FTP-connector kunt u Learning Manager integreren met willekeur
 
 U kunt ook de Box-connector gebruiken voor gegevensmigratie, gebruikersimport en gegevensexport. Zie Box connector voor meer informatie.
 
-### Gegevensimport {#dataimport}
+### Gegevensimport {#data-import}
 
 Met het gebruikersimportproces kan de beheerder van de leermanager werknemersgegevens ophalen van de FTP-service van de Learning Manager en deze automatisch importeren in Learning Manager. Met behulp van deze functie kunt u meerdere systemen integreren door de door deze systemen gegenereerde CSV in de juiste mappen van de FTP-accounts te plaatsen. De Learning Manager haalt de CSV-bestanden op, voegt deze samen en importeert de gegevens volgens de planning. Raadpleeg de planningsfunctie voor meer informatie.
 
@@ -333,19 +333,19 @@ Met het gebruikersimportproces kan de beheerder van de leermanager werknemersgeg
 De integratiebeheerder kan de kolommen van CSV kiezen en deze toewijzen aan de groepeerbare kenmerken van de Learning Manager. Deze toewijzing is een tijdsinspanning. Zodra de toewijzing is voltooid, wordt dezelfde toewijzing gebruikt voor de daaropvolgende gebruikersimporten. De toewijzing kan opnieuw worden geconfigureerd als de beheerder een andere toewijzing voor het importeren van gebruikers wil hebben.
 
 
-#### Gegevens exporteren {#exportdata}
+#### Gegevens exporteren {#export-data}
 
 Gevensexport stelt gebruikers in staat om de vaardigheden van de gebruiker en de transcripten van de student te exporteren naar een FTP-locatie om deze te integreren met een willekeurig systeem van derden.
 
-#### Planning
+#### Planning {#scheduling}
 
 Beheerders kunnen planningstaken volgens de vereisten van de organisatie instellen en gebruikers in de toepassing Leermanager zijn up-to-date volgens de planning. Op dezelfde manier kan de integratiebeheerder de export van vaardigheden tijdig plannen om deze te integreren met een extern systeem. Synchronisatie kan dagelijks worden uitgevoerd in de toepassing Learning Manager.
 
-### Learning Manager FTP-connector configureren {#configurecaptivateprimeftpconnector}
+### Learning Manager FTP-connector configureren {#configure-captivate-prime-ftp-connector}
 
 Leer het proces om de FTP-connector te integreren met Learning Manager.
 
-#### Een verbinding maken {#Createaconnection-1}
+#### Een verbinding maken {#Create-a-connection-1}
 
 1. Beweeg de muis over de FTP-kaart/miniatuur op de startpagina van Learning Manager. Er verschijnt een menu. Selecteer het Connect-item in het menu.
 
@@ -422,7 +422,7 @@ Zodra de verbinding tot stand is gebracht, ziet u de externe bestanden aan de re
    ![](assets/ftp-connector-dashboard.png)
    *Export options*-->
 
-### Importeren
+### Importeren {#import}
 
 +++ interne gebruiker
 
@@ -572,7 +572,7 @@ The auto-exported files are present in the location **Home/export/&#42;FTP_locat
 
 The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**-->
 
-### Ondersteuning voor handmatige csv-velden {#supportformanualcsvfields}
+### Ondersteuning voor handmatige csv-velden {#support-for-manual-csv-fields}
 
 Bij het importeren van gebruikersgegevens via FTP moet een beheerder alle actieve velden in het systeem toewijzen aan het juiste veld in de csv.
 
@@ -587,11 +587,11 @@ Door deze optie te selecteren worden de waarden van handmatig geactiveerde velde
 ![](assets/ftp-conector-foractivefields.png)
 *de schakelaar van FTP voor Actieve gebieden*
 
-## Lynda-connector {#lyndaconnector}
+## Lynda-connector {#lynda-connector}
 
 De Lynda-connector wordt gebruikt door zakelijke klanten van Lynda.com die graag willen dat hun studenten Lynda-cursussen kunnen zoeken en volgen in Learning Manager. De connector kan worden geconfigureerd om periodiek cursussen van Lynda.com op te halen met uw API-sleutel. Zodra een cursus binnen Learning Manager is gemaakt, kunnen gebruikers deze opzoeken en volgen. De voortgang van de student kan vervolgens binnen Learning Manager worden bijgehouden.
 
-### De Lynda-connector configureren {#configurethelyndaconnector}
+### De Lynda-connector configureren {#configure-the-lynda-connector}
 
 1. Klik op Lynda in het dashboard van de integratiebeheerder.
 
@@ -655,7 +655,7 @@ De Lynda-connector wordt gebruikt door zakelijke klanten van Lynda.com die graag
 
 De getAbstract-connector kan gebruikt worden door zakelijke klanten van getAbstract.com die graag willen dat hun studenten getAbstract-samenvattingen kunnen zoeken en volgen in Captivate Prime. De connector kan worden geconfigureerd om periodiek gebruiksgegevens op te halen, op basis waarvan de voltooiingsrecords van studenten in Learning Manager worden gemaakt. Lees verder om te weten te komen hoe u deze connector in Learning Manager moet configureren.
 
-### De getAbstract-connector configureren {#configurethegetabstractconnector}
+### De getAbstract-connector configureren {#configure-the-get-abstract-connector}
 
 1. Klik in het dashboard van de integratiebeheerder op getAbstract.
 
@@ -717,7 +717,7 @@ De getAbstract-connector kan gebruikt worden door zakelijke klanten van getAbstr
 
 De Harvard ManageMentor-connector wordt gebruikt door zakelijke klanten van Harvard ManageMentor die graag willen dat hun studenten Harvard ManageMentor-cursussen kunnen zoeken en volgen. De connector helpt bij het maken van cursussen binnen Learning Manager en kan worden geconfigureerd om periodiek de voortgangsgegevens van studenten op te halen. Voer de volgende procedure uit om deze connector te configureren:
 
-### De Harvard ManagerMentor-connector configureren {#configuretheharvardmanagermentorconnector}
+### De Harvard ManagerMentor-connector configureren {#configure-the-harvard-managermentor-connector}
 
 1. Klik in het dashboard van de integratiebeheerder op Harvard ManageMentor.
 
@@ -775,21 +775,21 @@ De Harvard ManageMentor-connector wordt gebruikt door zakelijke klanten van Harv
 
 Met behulp van de Workday-connector kunt u Learning Manager integreren met Workday tenant om de synchronisatie van gegevens te automatiseren.
 
-### Importeren
+### Importeren {#import-1}
 
-#### Kenmerken toewijzen
+#### Kenmerken toewijzen {#map-attributes-1}
 
 De integratiebeheerder kan Workday-kolommen kiezen en aan de overeenkomstige groepeerbare kenmerken van Learning Manager toewijzen. Wanneer de toewijzing is voltooid, wordt dezelfde toewijzing voor verdere gebruikersimporten gebruikt. De beheerder kan de toewijzing opnieuw configureren als deze een andere toewijzing voor het importeren van gebruikers wil.
 
-#### Geautomatiseerde gebruikersimport
+#### Geautomatiseerde gebruikersimport {#automated-user-import-1}
 
 Met het gebruikersimportproces kan de Learning Manager Administrator werknemersgegevens uit Workforce halen en ze automatisch in Learning Manager importeren.
 
-#### Gebruikers filteren
+#### Gebruikers filteren {#filtering-users}
 
 Learning Manager Administrator kan gebruikers filteren voordat ze worden geïmporteerd. Zo kan de Learning Manager-beheerder er bijvoorbeeld voor kiezen om alle gebruikers in de hiërarchie onder één of meer specifieke managers te importeren.
 
-### Exporteren
+### Exporteren {#export}
 
 Via Gebruikersvaardigheden exporteren kunnen gebruikers automatisch gebruikersvaardigheden naar Workday exporteren.
 
@@ -797,7 +797,7 @@ Via Gebruikersvaardigheden exporteren kunnen gebruikers automatisch gebruikersva
 >
 >Het is niet mogelijk vaardigheden van meerdere Learning Manager-accounts tegelijkertijd met hetzelfde Workday-account te exporteren.
 
-#### Opmerkingen
+#### Opmerkingen {#points-to-note}
 
 * Zorg ervoor dat UUID, E-mailadres en naam van de medewerker uniek zijn in meerdere Workday-integraties. Onjuiste waarden leiden tot een verbindingsfout.
 * Het UUID-veld dat eenmaal via Workday is ingevuld, kan niet worden verwijderd door een client-side LMS-beheerder. Als je de waarde wilt wijzigen, neem dan contact op met het Adobe Learning Manager-team voor onboarding of ondersteuning.
@@ -807,7 +807,7 @@ Via Gebruikersvaardigheden exporteren kunnen gebruikers automatisch gebruikersva
 
 De beheerder kan planningstaken volgens de vereisten van de organisatie instellen en gebruikers in de Learning Manager-toepassing zijn up-to-date volgens de planning. Op dezelfde manier kan de integratiebeheerder de export van vaardigheden op een tijdige basis plannen om deze te integreren met een extern systeem. De synchronisatie kan dagelijks worden uitgevoerd in de Learning Manager-toepassing.
 
-### De Workday-connector configureren {#configureworkdayconnector}
+### De Workday-connector configureren {#configure-workday-connector}
 
 >[!PREREQUISITES]
 >
@@ -851,9 +851,9 @@ Op de overzichtspagina kunt u de verbindingsnaam voor uw integratie opgeven. Kie
 ![](assets/overview.png)
 *Overzicht van Workday*
 
-### Importeren
+### Importeren {#import-5}
 
-#### Kenmerken toewijzen {#MapAttributes-1}
+#### Kenmerken toewijzen {#map-attributes-4}
 
 U kunt de Workday-connector gebruiken om Learning Manager en Workday te integreren om de synchronisatie van gegevens te automatiseren. U kunt alle actieve gebruikers van Workday naar Learning Manager importeren. Gebruikers kunnen worden geïmporteerd vanuit verschillende gegevensbronnen, waaronder FTP en Salesforce.
 
@@ -948,7 +948,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Gemeente
 
 +++
 
-### Exporteren
+### Exporteren {#export-1}
 
 U kunt alle vaardigheden van een gebruiker van Learning Manager naar Workday exporteren. Alleen actieve gebruikersvaardigheden worden geëxporteerd en Learning Manager exporteert geen gearchiveerde vaardigheden. U kunt ook meerdere Leerbeheer verbinden\
 accounts aan dezelfde Workday-connector. Als de vaardigheidsnamen in twee Learning Manager-accounts hetzelfde zijn, worden ze toegewezen aan dezelfde vaardigheid in Workday. Als twee Learning Manager-accounts hetzelfde Workday-account gebruiken, is het raadzaam om de vaardigheidsnamen in alle Learning Manager-accounts bij te werken voordat u de vaardigheid in Workday bijwerkt.
@@ -980,27 +980,27 @@ Hier kunt u de samenvatting van alle taken bekijken en een statusrapport daarvan
 
 +++
 
-## miniOrange-connector {#miniorangeconnector}
+## miniOrange-connector {#mini-orange-connector}
 
 Met behulp van de miniOrange-connector kunt u Learning Manager integreren met miniOrange-tenant om de synchronisatie van gegevens te automatiseren.
 
-### Importeren
+### Importeren {#import-6}
 
-#### Kenmerken toewijzen
+#### Kenmerken toewijzen {#map-attributes-5}
 
 De integratiebeheerder kan miniOrange-kenmerken kiezen en deze toewijzen aan de overeenkomstige groepeerbare kenmerken van de Learning Manager. Wanneer de toewijzing is voltooid, wordt dezelfde toewijzing voor verdere gebruikersimporten gebruikt. De beheerder kan de toewijzing opnieuw configureren als deze een andere toewijzing voor het importeren van gebruikers wil.
 
-#### Geautomatiseerde gebruikersimport
+#### Geautomatiseerde gebruikersimport {#automated-user-import-3}
 
 Via het gebruikersimportproces kan de beheerder van de leermanager werknemersgegevens ophalen uit miniOrange en deze automatisch importeren in Learning Manager.
 
-#### Gebruikers filteren
+#### Gebruikers filteren {#filtering-users-3}
 
 Learning Manager Administrator kan gebruikers filteren voordat ze worden geïmporteerd. Zo kan de Learning Manager-beheerder er bijvoorbeeld voor kiezen om alle gebruikers in de hiërarchie onder één of meer specifieke managers te importeren.
 
 Instellen   miniOrange   contact op met het CSM-team van Learning Manager.
 
-### De miniOrange-connector configureren {#configureminiorangeconnector}
+### De miniOrange-connector configureren {#configure-mini-orange-connector}
 
 1. Beweeg de muis over de miniOrange-kaart/miniatuur op de startpagina van Learning Manager. Er verschijnt een menu. Klik **[!UICONTROL verbind]** optie in het menu.
 
@@ -1073,7 +1073,7 @@ Volg deze stappen om de connector in te stellen en te gebruiken.
    ![](assets/attendence-and-scoringreport.png)
    *Aanwezigheid en het schrapen rapport*
 
-### Een zoomserver-naar-server-OAuth-app maken
+### Een zoomserver-naar-server-OAuth-app maken {#create-a-zoom-server-to-server-oauth-app}
 
 Wanneer u een Zoom Server-to-Server OAuth-app maakt voor gebruik in Adobe Learning Manager, moet u het bereik toevoegen dat door Adobe Learning Manager is vereist tijdens het maken van de verbinding.
 
@@ -1085,13 +1085,13 @@ Voor Adobe Learning Manager zijn de onderstaande bereiken vereist. De bereiken m
 * Alle gebruikersinformatie weergeven `/user:read:admin`
 * Gebruikersgegevens weergeven en gebruikers beheren `/user:write:admin`
 
-## Box-connector {#boxconnector}
+## Box-connector {#box_connector}
 
 Met de Box-connector kunt u Learning Manager integreren met willekeurige externe systemen om de synchronisatie van gegevens te automatiseren. Verwacht wordt dat externe systemen gegevens kunnen exporteren in een CSV-indeling en deze in de juiste map van het Learning Manager Box-account kunnen plaatsen. De mogelijkheden van de Box-connector zijn als volgt:
 
 U kunt de FTP-connector ook gebruiken voor gegevensmigratie, gebruikersimport en gegevensexport. Ga voor meer informatie naar [Learning Manager FTP-connector.](connectors.md#main-pars_header_1427405935)
 
-### Gegevensimport {#DataImport-1}
+### Gegevensimport {#data-import-1}
 
 Met het gebruikersimportproces kan de Learning Manager Administrator werknemersgegevens uit de Learning Manager Box-service halen en ze automatisch in Learning Manager importeren. Met behulp van deze functie kunt u meerdere systemen integreren door de door deze systemen gegenereerde CSV in de juiste mappen van de Box-accounts te plaatsen. Learning Manager haalt de CSV-bestanden op, voegt ze samen en importeert de gegevens volgens de planning. Raadpleeg de planningsfunctie voor meer informatie.
 
@@ -1099,15 +1099,15 @@ Met het gebruikersimportproces kan de Learning Manager Administrator werknemersg
 
 Kenmerken toewijzen Deze toewijzing is een eenmalige inspanning. Zodra de toewijzing is voltooid, wordt dezelfde toewijzing gebruikt voor de daaropvolgende gebruikersimporten. De toewijzing kan opnieuw worden geconfigureerd als de beheerder een andere toewijzing voor het importeren van gebruikers wil hebben.
 
-## Gegevensexport {#dataexport}
+## Gegevensexport {#data-export}
 
 De gegevensexport stelt gebruikers in staat om de vaardigheden van de gebruiker en de studenttranscripten te exporteren naar een Box-locatie om deze te integreren met een willekeurig extern systeem.
 
-## Rapporten plannen {#schedulereports}
+## Rapporten plannen {#schedule-reports}
 
 De beheerder kan planningstaken volgens de vereisten van de organisatie instellen en gebruikers in de Learning Manager-toepassing zijn up-to-date volgens de planning. Op dezelfde manier kan de integratiebeheerder de export van vaardigheden op een tijdige basis plannen om deze te integreren met een extern systeem. De synchronisatie kan dagelijks worden uitgevoerd in de Learning Manager-toepassing.
 
-## Box-connector configureren {#configureboxconnector}
+## Box-connector configureren {#boxconnector}
 
 U kunt de Box-connector integreren met Learning Manager door het proces te leren kennen.
 
@@ -1133,7 +1133,7 @@ U kunt de Box-connector integreren met Learning Manager door het proces te leren
    * Studenttranscript exporteren - Een planning configureren
    * Studenttranscript exporteren - Op verzoek
 
-## Importeren
+## Importeren {#import-7}
 
 +++Interne gebruiker
 
@@ -1236,7 +1236,7 @@ Bij het importeren van gebruikers in Learning Manager, moet de beheerder ook wet
 
 +++
 
-## Badge als
+## Badge als {#export-2}
 
 +++Vaardigheden
 
@@ -1258,7 +1258,7 @@ De auto-uitgevoerde dossiers zijn beschikbaar met de titel, **skill_results_ &#4
 >
 >De klant beheert de toegangsrechten en de inhoud in de Box-map die door het team van Leermanager wordt gedeeld.  Ook de inhoud in de map wordt fysiek opgeslagen in de regio Frankfurt.
 
-### Ondersteuning voor handmatige csv-velden {#Supportformanualcsvfields-1}
+### Ondersteuning voor handmatige csv-velden {#support-for-manual-csv-fields-1}
 
 Bij het importeren van gebruikersgegevens via Box moet een beheerder alle actieve velden in het systeem toewijzen aan het juiste veld in de csv.
 
@@ -1291,7 +1291,7 @@ De LinkedIn Learning-connector wordt gebruikt door zakelijke klanten van LinkedI
 >
 >De tijd die wordt besteed aan cursussen van LinkedIn Learning wordt via het LinkedIn Content/LinkedIn-platform doorgegeven aan het Learning Manager-studieplatform. Als LinkedIn Learning de studietijd niet doorstuurt, kan deze tijd niet door ons studieplatform worden geregistreerd. In dat geval is de leertijd die door de leermanager wordt weergegeven nul.
 
-### Instellingen configureren in Linkedln Learning-portaal {#configuresettingsinlinkedlnlearningportal}
+### Instellingen configureren in Linkedln Learning-portaal {#configure-settings-in-linkedln-learning-portal}
 
 1. Meld u als beheerder aan bij Linkedln Learning LMS.
 1. Klik **[!UICONTROL admin]** van het hoogste navigatievenster.
@@ -1305,7 +1305,7 @@ De LinkedIn Learning-connector wordt gebruikt door zakelijke klanten van LinkedI
 
    *LinkedIn het Leren configuratie*
 
-### LinkedIn Learning-connector configureren {#configurelinkedinlearningconnector}
+### LinkedIn Learning-connector configureren {#configure-linkedin-learning-connector}
 
 1. Van het dashboard van de Admin van de Integratie, klik [!UICONTROL  het Leren van LinkedIn ]. De opties Aan de slag, Verbinden en Verbindingen beheren worden weergegeven.
 1. Als u de het Leren van LinkedIn schakelaar voor het eerst vormt, klik [!UICONTROL  verbind ].
@@ -1404,7 +1404,7 @@ De inhoud wordt pas na de migratie opgeslagen. De inhoud wordt in respectieve ca
 
 U kunt integratie met deze connector gebruiken om uw bestaande Power BI-accounts te benutten voor het analyseren en visualiseren van leergegevens uit Learning Manager binnen Power BI. Tijdens de configuratie kan de integratiebeheerder zijn Power BI-werkruimte zo instellen dat deze stapsgewijs wordt gevuld met twee live-datasets - studenttranscript en rapporten over gebruikersvaardigheden. U kunt vervolgens alle functies en mogelijkheden van Power BI gebruiken om aangepaste dashboards te ontwikkelen, implementeren en distribueren naar wens van de organisatie.
 
-### De connector configureren {#configuringtheconnector}
+### De connector configureren {#configuring-the-connector}
 
 Om de schakelaar, in de **[!UICONTROL pagina van Connectoren]** te vormen, beweeg over de **[!UICONTROL Power BI]** tegel en klik **[!UICONTROL verbind]**. De Power BI-pagina wordt geopend. Verstrek de client-ID en het clientgeheim van de app, de naam van de tenant en de werkruimte-ID (optioneel) om een verbinding tot stand te brengen. Volg deze stappen om deze gegevens te verkrijgen.
 
@@ -1451,7 +1451,7 @@ Schakel het selectievakje **[!UICONTROL Gebruikersvaardigheid/Studenttranscript-
 
 De geëxporteerde gegevens kunnen worden bekeken door u aan te melden bij uw Power BI-account. De geëxporteerde gegevens staan vermeld onder de optie gegevenssets.
 
-### xAPI Activiteitsrapporten exporteren in Learning Manager {#exportxapiactivityreportsincaptivateprime}
+### xAPI Activiteitsrapporten exporteren in Learning Manager {#export-xapi-activity-reports-in-captivate-prime}
 
 Van de PowerBI-xAPI capaciteitspagina, klik **[!UICONTROL het Rapport van de xAPI van de Uitvoer]**.
 
@@ -1566,7 +1566,7 @@ Zo kunnen gebruikers deze sjablonen downloaden en gebruiken in een Power BI-toep
 
 U kunt de sjablonen ook handmatig downloaden via de bovenstaande link. Gebruik de sjablonen en pas uw rapporten aan de hand daarvan aan.
 
-### Trainingsrapport exporteren
+### Trainingsrapport exporteren {#export-training-report}
 
 De trainingsrapporten kunnen worden geëxporteerd naar Power BI als onderdeel van de functie Gecombineerde rapporten.
 
@@ -1578,9 +1578,9 @@ Het trainingsrapport heeft deze extra velden:
 ![](assets/export-training-report.png)
 *het trainingsrapport van de Uitvoer*
 
-### Wijzigingen met betrekking tot leerpad
+### Wijzigingen met betrekking tot leerpad {#learning-path-related-changes}
 
-#### Beheerder: transcripten leren en geïntegreerd rapport
+#### Beheerder: transcripten leren en geïntegreerd rapport {#learning-transcripts-and-unified-reports}
 
 **Bestaande verbindingen**
 
@@ -1600,7 +1600,7 @@ Bovendien bevat het rapport het kolomtype Leerpad (hoger niveau) voor alle stude
 
 In de kolom Type wordt de naam leerprogramma gewijzigd naar leerpad. Bestaande verbindingen wijzigen niet. Voor nieuwe verbindingen worden de wijzigingen echter na 30 dagen doorgevoerd.
 
-#### Trainingsrapport: Uniform rapport
+#### Trainingsrapport: Uniform rapport {#training-report}
 
 **Bestaande verbindingen**
 
@@ -1634,7 +1634,7 @@ Learning Manager biedt de mogelijkheid om verbinding te maken met uw aangepaste 
 
 Uw FTP zal deze ondersteunen:
 
-### Gegevensimport
+### Gegevensimport {#data-import-2}
 
 Met het gebruikersimportproces kan de Learning Manager Administrator werknemersgegevens ophalen van de FTP-service van Learning Manager en ze automatisch in Learning Manager importeren. Met behulp van deze functie kunt u meerdere systemen integreren door de door deze systemen gegenereerde CSV in de juiste mappen van de FTP-accounts te plaatsen. Learning Manager haalt de CSV-bestanden op, voegt ze samen en importeert de gegevens volgens de planning. Raadpleeg de planningsfunctie voor meer informatie.
 
@@ -1642,11 +1642,11 @@ Met het gebruikersimportproces kan de Learning Manager Administrator werknemersg
 
 Kenmerken toewijzen Deze toewijzing is een eenmalige inspanning. Zodra de toewijzing is voltooid, wordt dezelfde toewijzing gebruikt voor de daaropvolgende gebruikersimporten. De toewijzing kan opnieuw worden geconfigureerd als de beheerder een andere toewijzing voor het importeren van gebruikers wil hebben.
 
-### Gegevensexport
+### Gegevensexport {#data-export-3}
 
 Met de gegevensexport kunnen gebruikers gebruikersvaardigheden en studenttranscripten exporteren naar de FTP-locatie om deze te integreren met elk systeem van een derde partij.
 
-### Rapporten plannen
+### Rapporten plannen {#schedule-reports-2}
 
 De beheerder kan planningstaken volgens de vereisten van de organisatie instellen en gebruikers in de Learning Manager-toepassing zijn up-to-date volgens de planning. Op dezelfde manier kan de integratiebeheerder de export van vaardigheden op een tijdige basis plannen om deze te integreren met een extern systeem. De synchronisatie kan dagelijks worden uitgevoerd in de Learning Manager-toepassing.
 
@@ -1678,7 +1678,7 @@ Voorwaarden om een ADFS-verbinding tot stand te brengen:
 * Login aan uw Azure Portal gebruikend dit URL: [ https://portal.azure.com/ ](https://portal.azure.com/) alvorens uw app te registreren.
 * Azure Active Directory openen.
 
-## Stappen om uw toepassing te registreren {#stepstoregisteryourapplication}
+## Stappen om uw toepassing te registreren {#steps-to-register-your-application}
 
 * Klik op Azure Active Directory. Klik **[!UICONTROL toevoegen]** > **[!UICONTROL registratie van de App]**.
 
@@ -1764,7 +1764,7 @@ Voorwaarden om een ADFS-verbinding tot stand te brengen:
 
   <!-- *Select Add Permissions*-->
 
-### ADFS-configuratiepagina
+### ADFS-configuratiepagina {#adfs-configuration-page}
 
 1. Voer op de ADFS-configuratiepagina in Adobe Learning Manager de client-id en het eerder verkregen client-geheim in.
 
@@ -1772,23 +1772,23 @@ Voorwaarden om een ADFS-verbinding tot stand te brengen:
 
 1. Login aan **portal.azure.com**. De waarden worden ingevuld in de velden Tenant-id en Primair domein.
 
-### Importeren
+### Importeren {#import-8}
 
-#### Kenmerken toewijzen
+#### Kenmerken toewijzen {#map-attributes-6}
 
 De integratiebeheerder kan ADFS-kenmerken kiezen en deze toewijzen aan de groepeerbare kenmerken van de overeenkomstige Learning Manager. Wanneer de toewijzing is voltooid, wordt dezelfde toewijzing voor verdere gebruikersimporten gebruikt. Het kan opnieuw worden geconfigureerd als de beheerder een andere toewijzing voor het importeren van gebruikers wil hebben.
 
-#### Geautomatiseerde gebruikersimport
+#### Geautomatiseerde gebruikersimport {#automated-user-import-4}
 
 Via het proces voor gebruikersimport kan de beheerder van de leermanager werknemersgegevens ophalen uit ADFS en deze automatisch importeren in Learning Manager.
 
-#### Gebruikers filteren
+#### Gebruikers filteren {#filtering-users-4}
 
 De beheerder van de leermanager kan filteren op de gebruikers toepassen voordat deze worden geïmporteerd. Zo kan de Learning Manager-beheerder er bijvoorbeeld voor kiezen om alle gebruikers in de hiërarchie onder één of meer specifieke managers te importeren.
 
 Neem contact op met het CSM-team van Learning Manager om de ADFS-connector in te stellen.
 
-## De ADFS-connector configureren {#configureadfsconnector}
+## De ADFS-connector configureren {#configure-adfs-connector}
 
 1. Beweeg de muis over de ADFS-kaart/miniatuur op de startpagina van Learning Manager. Er verschijnt een menu. Klik op de optie Verbinden in het menu.
 
@@ -1823,7 +1823,7 @@ Neem contact op met het CSM-team van Learning Manager om de ADFS-connector in te
 
 1. U ontvangt een melding na voltooiing van de import. Om het de invoerlogboek te bekijken of uit te geven, klik **[!UICONTROL Gebruikers]** > **[!UICONTROL logboek van de Invoer]**.
 
-### Een verbinding verwijderen {#Deleteaconnection-1}
+### Een verbinding verwijderen {#delete-a-connection-1}
 
 Voer de volgende stappen uit om een gevestigde miniOrange-verbinding te verwijderen.
 
@@ -1851,7 +1851,7 @@ Voer de volgende stappen uit om een gevestigde miniOrange-verbinding te verwijde
    >
    >De Adobe Connect-accountbeheerder moet de algemene gebruiksvoorwaarden van Adobe Connect accepteren. Als deze niet worden geaccepteerd, mislukt uw aanmeldpoging mogelijk. Meld u na het aanmaken van het Adobe Connect-account eenmaal aan op het account. Bij de eerste aanmeldpoging verschijnt er een pagina met de Algemene voorwaarden.
 
-### Sessie-informatie voor virtueel klaslokaal toevoegen {#addvirtualclassroomsessioninformation}
+### Sessie-informatie voor virtueel klaslokaal toevoegen {#add-virtual-classroom-session-information}
 
 Als de auteur van een virtuele klassikale cursus de sessie-informatie niet heeft verstrekt, dan kan de beheerder de sessiedetails opnemen.
 
@@ -1974,7 +1974,7 @@ Op de **Verenigde sectie van Rapporten** van de verbinding van de Engage van de 
 
 Net als bij elke andere connector kunt u op verzoek gegevens plannen en exporteren.
 
-### Kolomtoewijzing in Marketo Engage {#columnmappinginmarketoengage}
+### Kolomtoewijzing in Marketo Engage {#column-mapping-in-marketo-engage}
 
 Er zijn twee typen databases in Marketo:
 
@@ -2051,7 +2051,7 @@ The Author, in the Author app, then selects an event from the list of available 
 >
 >We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
-## Microsoft Teams-connector
+## Microsoft Teams-connector {#microsoft-teams-connector}
 
 Microsoft® Teams® is een permanent op chat gebaseerd samenwerkingsplatform dat het delen van documenten, online vergaderingen en andere functies voor zakelijke communicatie ondersteunt.
 
@@ -2073,7 +2073,7 @@ Met het geautomatiseerde synchronisatieproces voor de voltooiing van gebruikers 
 
 Voor meer informatie, zie [**de schakelaar van Microsoft Teams in Adobe Learning Manager**](install-microsoft-teams-connector.md) installeren.
 
-## Interface voor trainingsgegevens {#training-data-access-connector}
+## Interface voor trainingsgegevens {#training-data-access}
 
 >[!IMPORTANT]
 >
@@ -2085,7 +2085,7 @@ Voor meer informatie, zie [**de schakelaar van Microsoft Teams in Adobe Learning
 
 De ]**schakelaar van de Toegang van de Gegevens van de Opleiding**[!UICONTROL  laat u een headless ervaring creëren. Deze ervaring kan op zichzelf staan of een aangepaste gebruikersinterface zijn op basis van AEM Sites. Het helpt studenten trainingsinformatie op te halen en weer te geven en maakt zoeken en filteren mogelijk. Zodra de gegevensconnector is ingeschakeld, is er een set openbare API&#39;s beschikbaar om de interface te bouwen, waarin de cursus-/leerpadinformatie voor de studenten wordt weergegeven.
 
-### De connector configureren
+### De connector configureren {#configure-training-data-connector}
 
 Gebruik de ]**schakelaar van de Toegang van de Gegevens van de Opleiding**[!UICONTROL  om uw rekening van Adobe Learning Manager met gegevensopslag en onderzoekssystemen te integreren. Zo krijgt uw op AEM Sites gebaseerde interface trainingsgegevens, worden webpagina&#39;s weergegeven en krijgen studenten betere zoekopties.
 
@@ -2124,7 +2124,7 @@ U kunt deze URL&#39;s gebruiken om de gegevens op te halen via API&#39;s.
 1. Voor een rapport op bestelling, ga naar **[!UICONTROL Op bestelling]**, selecteer de **[!UICONTROL datum van het Begin]**, en dan **[!UICONTROL klik]** uitvoert.
 U kunt de status van de rapportuitvoering op de **[!UICONTROL pagina van de Status van de Uitvoering controleren]**.
 
-### Website maken in AEM
+### Website maken in AEM {#create-website-in-aem}
 
 **Vereiste:** installeer het AEM pakket van de [**bewaarplaats GitHub** ](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
 
@@ -2134,13 +2134,13 @@ U kunt de status van de rapportuitvoering op de **[!UICONTROL pagina van de Stat
 
 Voor meer informatie, zie dit [**document**](../../adobe-learning-manager-integration-aem.md).
 
-### Studenten
+### Studenten {#learners}
 
 De gepubliceerde website toont een lijst met alle gemigreerde cursussen, certificaten en leertrajecten die zijn opgehaald uit de zoekservice voor niet-aangemelde studenten.
 
 Wanneer een student op cursus, certificaat of leerpad klikt, wordt de overzichtspagina geopend. Wanneer de student zich inschrijft, moet deze zich eerst op de pagina aanmelden en daarna de cursus volgen.
 
-### Niet-aangemelde ervaring
+### Niet-aangemelde ervaring {#non-logged-in-experience}
 
 Dankzij de niet-aangemelde ervaring kunt u een real-time ervaring creëren voor niet-aangemelde gebruikers. Een niet-aangemelde ervaring fungeert bijvoorbeeld als startpagina voor marketingcampagnes om aanmelding-ups te stimuleren.
 
@@ -2165,7 +2165,7 @@ Klanten kunnen een Premium-lidmaatschap aanschaffen om deze uiterst schaalbare, 
 
 Nadat een gebruiker een lidmaatschap heeft gekocht, activeert het CSM-team het Premium-lidmaatschap voor hen. Met behulp van de connector Trainingsgegevenstoegang kunnen gebruikers een niet-aangemelde ervaring instellen met de eerder vermelde functies.
 
-## Adobe Commerce-connector
+## Adobe Commerce-connector {#adobe-commerce-connector}
 
 >[!NOTE]
 >
@@ -2202,7 +2202,7 @@ Naast het initiëren van een aankoop, verzamelt de connector ook aankoopgegevens
 1. Pas de volgende patches toe. Voor meer informatie, zie [ flarden ](https://devdocs.magento.com/cloud/project/project-patch.html) toepassen.
 1. Configureer snel.  Voor Adobe Commerce is een snelle implementatie van cloudinfrastructuur vereist. Deze wordt gebruikt in Staging- en Productomgevingen. Zie [Fastly instellen](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) voor meer informatie.
 
-### De connector configureren
+### De connector configureren {#configure-connector}
 
 Klik, als integratiebeheerder, in de Adobe Commerce-connector op **[!UICONTROL Connect]**.
 
@@ -2218,7 +2218,7 @@ Nadat de cursus, het leerpad of het certificaat gepubliceerd is, kan een cursist
 * **Native Learning Manager:** De student kan een cursus, Leerplan of een certificaat kopen vanuit Learning Manager. Dit is alleen van toepassing wanneer de auteur een prijs heeft toegevoegd.
 * **Op maat gemaakt met behulp van AEM sites:** De leerling kan een cursus kopen op een AEM-site.
 
-### Workflow
+### Workflow {#workflow}
 
 De Adobe Commerce Administrator configureert Learning Manager als een integratie.
 
@@ -2226,7 +2226,7 @@ De auteur markeert de cursussen, leerpaden of certificaten als premium en kent p
 
 De cursus of het leerpad zal niet beschikbaar zijn voor aankoop totdat de gegevens gesynchroniseerd zijn in Adobe Commerce.
 
-### Cursussen exporteren naar Adobe Commerce
+### Cursussen exporteren naar Adobe Commerce {#export-commerce}
 
 Nadat een auteur de prijzen voor verschillende cursussen, leerpaden of certificeringen heeft ingesteld, exporteert u, als de integratiebeheerder, de cursussen, leerpaden of certificeringen naar Adobe Commerce.
 
@@ -2241,9 +2241,9 @@ Nadat een auteur de prijzen voor verschillende cursussen, leerpaden of certifice
 
 1. Klik op **[!UICONTROL Uitvoeren]**. Bij een succesvolle uitvoering zullen alle cursussen of leerpaden die geprijsd zijn, verplaatst worden naar Adobe Commerce. De student kan de cursus vervolgens kopen via Leermanager.
 
-### Native Learning Manager met Adobe Commerce
+### Native Learning Manager met Adobe Commerce {#learning-manager-with-commerce}
 
-#### Student
+#### Student {#learner}
 
 Als student moet u aangemeld zijn om een cursus, een certificaat of een leerpad te kopen.
 
@@ -2253,7 +2253,7 @@ Als u een cursus, certificaat of leerpad aanschaft via ALM Native of AEM, ontvan
 
 Bovendien kunt u e-mails van Adobe Commerce in- en uitschakelen.
 
-### AEM sites met Adobe Commerce
+### AEM sites met Adobe Commerce {#aem-sites-with-adobe-commerce}
 
 Als de optie Op maat gemaakt met behulp van AEM-sites ingeschakeld is, kunt u als leerling cursussen kopen van een op maat gemaakte AEM-site.
 
@@ -2263,9 +2263,9 @@ Zowel ingelogd als niet ingelogd is mogelijk. Niet-aangemelde gebruikers kunnen 
 
 Net als bij de native Learning Manager kunt u, nadat u ingelogd bent, een cursus aan het winkelwagentje toevoegen en vervolgens de cursus bekijken of kopen.
 
-### Adobe Commerce-connector instellen
+### Adobe Commerce-connector instellen {#setup-commerce-connector}
 
-#### Vereisten
+#### Vereisten {#pre-requisites}
 
 De beheerder laat checkbox toe, **laat tarifering voor trainingen**, in **Montages > Algemeen** in Admin app. Als de optie is ingeschakeld, kunnen auteurs prijzen voor trainingen opgeven.  Als u een Adobe Commerce-koppeling toevoegt, is dit vinkje automatisch van toepassing.
 
@@ -2280,7 +2280,7 @@ De belangrijkste doelen van deze integratie zijn:
 * Laat de klanten van de leermanager formeel leren aanbieden in de vorm van betaalde cursussen.
 * Studenten in staat stellen een voorvertoning van cursussen te bekijken voordat ze besluiten de training aan te schaffen.
 
-#### Adobe Learning Manager-playlist
+#### Adobe Learning Manager-playlist {#native-learning-manager}
 
 **Beheerder van de Integratie**
 
@@ -2291,7 +2291,7 @@ De belangrijkste doelen van deze integratie zijn:
 >
 >Adobe Learning Manager en Adobe Commerce hebben verschillende aanmeldingsgegevens.
 
-### AEM
+### AEM {#aem}
 
 In deze modus volgt een Student de cursus op een AEM-gebaseerde site, die gebouwd is met behulp van AEM-gebaseerde sjablonen en componenten.
 
@@ -2301,7 +2301,7 @@ Als de gebruiker niet ingelogd is, kan deze nog steeds zoeken naar cursuscatalog
 
 Nadat de Student de cursus gekocht heeft, wordt hij doorverwezen naar de overzichtspagina van de cursus in de staat van inschrijving, waar hij de gekochte cursus kan volgen.
 
-#### Headless: niet-ingelogd
+#### Headless: niet-ingelogd {#headless-non-logged-in}
 
 Een student kan:
 
@@ -2313,7 +2313,7 @@ Een student kan niet:
 * Een cursus aanschaffen via de Overzichtspagina.
 * Betaalde inhoud bekijken.
 
-#### Headless: ingelogd
+#### Headless: ingelogd {#headless-logged-in}
 
 Een student kan:
 
@@ -2327,7 +2327,7 @@ Een student kan:
 
 * De factuur zien als bijlage bij de e-mail na het kopen van de cursus.
 
-#### On-demand synchronisatie
+#### On-demand synchronisatie {#on-demand-sync}
 
 De synchronisatie tussen Learning Manager en Adobe Commerce vindt tweemaal per dag plaats. Nadat de Beheerder een rekening voor e-commerce toelaat, **laat de uitvoer van opleidingsmeta-gegevens toe gebruikend deze verbinding** optie, wanneer toegelaten, slaat de beelden van de Cursus, het Leren Weg, en Certificaten in een openbare CDN op.
 
@@ -2337,7 +2337,7 @@ Als e-commerce voor de native Learning Manager is ingeschakeld en de synchronisa
 
 Voor AEM, is er geen Nu kopen, slechts **voeg aan Kaart** knoop toe. Deze knop blijft ook uitgeschakeld als de synchronisatie niet wordt uitgevoerd.
 
-#### Veelgestelde vragen
+#### Veelgestelde vragen {#faqs}
 
 +++Welke cursussen kunnen niet worden aangeschaft?
 
