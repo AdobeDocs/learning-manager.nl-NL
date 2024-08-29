@@ -1,17 +1,17 @@
 ---
 title: Niet-aangemelde ervaring voor studenten
-description: Adobe Leermanager (eigen portal) ondersteunt een niet-geregistreerde manier om toegang te krijgen tot de trainingssite. Als deze modus is ingeschakeld, kunnen studenten de trainingssite vinden en openen en verschillende beschikbare cursussen en inhoud uitchecken. Met de niet-aangemelde ervaring kunnen studenten naar cursussen bladeren zonder in een portal te zijn aangemeld.
+description: De eigen Adobe Learning Manager-portal biedt ondersteuning voor een niet-gelogde manier om toegang te krijgen tot de trainingssite. Als deze modus is ingeschakeld, kunnen studenten de trainingssite vinden en openen en verschillende beschikbare cursussen en inhoud uitchecken. Met de niet-aangemelde ervaring kunnen studenten naar cursussen bladeren zonder in een portal te zijn aangemeld.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 41%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Niet-aangemelde ervaring voor studenten
 
-Adobe Leermanager (eigen portal) ondersteunt een niet-geregistreerde manier om toegang te krijgen tot de trainingssite. Als deze modus is ingeschakeld, kunnen studenten de trainingssite vinden en openen en verschillende beschikbare cursussen en inhoud uitchecken.
+De eigen Adobe Learning Manager-portal biedt ondersteuning voor een niet-gelogde manier om toegang te krijgen tot de trainingssite. Als deze modus is ingeschakeld, kunnen studenten de trainingssite vinden en openen en verschillende beschikbare cursussen en inhoud uitchecken.
 
 Met de niet-aangemelde ervaring kunnen studenten naar cursussen bladeren zonder in een portal te zijn aangemeld.
 
@@ -27,7 +27,7 @@ De beheerder kan de startpagina aanpassen en configureren, die bedoeld is voor g
 
 ## Student-API&#39;s
 
-Leermanager Adobe - Met API&#39;s voor studenten kunt u een aangepaste leerervaring voor uw gebruikers maken. Het gebruik van deze API&#39;s vereist een geldig gebruikerstoken en moet alleen worden gebruikt voor workflows waarbij een volledig gelicentieerde/geregistreerde student aanwezig is.
+Adobe Learning Manager - Met API&#39;s voor studenten kunt u een aangepaste leerervaring voor uw gebruikers maken. Het gebruik van deze API&#39;s vereist een geldig gebruikerstoken en moet alleen worden gebruikt voor workflows waarbij een volledig gelicentieerde/geregistreerde student aanwezig is.
 
 >[!IMPORTANT]
 >
@@ -35,23 +35,23 @@ Leermanager Adobe - Met API&#39;s voor studenten kunt u een aangepaste leerervar
 
 Voor de niet-aangemelde gebruiksscenario&#39;s is een speciale afhandeling vereist.
 
-**Bereik aan het team van de Architectuur van de Oplossing, voor het geval u om het even welke vragen over het aangewezen gebruik van deze APIs hebt en ervoor zorgt dat een Architect van de Oplossing een oplossing heeft onderzocht alvorens u het opstelt**.
+**Bereik uit aan het team van de Architectuur van de Oplossing, voor het geval u om het even welke vragen over het aangewezen gebruik van deze APIs hebt en ervoor zorgt dat een Architect van de Oplossing een oplossing heeft onderzocht alvorens u het opstelt**.
 
 ## Opties voor de startpagina starten
 
-Selecteer op de startpagina van Adobe Learning Manager de optie **Branding**. Selecteer vervolgens Niet-aangemelde startpagina in het linkerdeelvenster.
+Voor de homepage van Adobe Learning Manager, uitgezochte **Branding**. Selecteer vervolgens Niet-aangemelde startpagina in het linkerdeelvenster.
 
-![homepage-opties](assets/non-logged-in-homepage.png)
+![ homepage opties ](assets/non-logged-in-homepage.png)
 
-*Selecteer de optie Niet-aangemelde startpagina*
+*selecteer de optie niet-het programma geopende Homepage*
 
 ## Banner toevoegen
 
-Voeg een banner toe voor elke marketingaankondiging of voor het trending onderwerp van de dag. Selecteren **banner toevoegen**.
+Voeg een banner toe voor elke marketingaankondiging of voor het trending onderwerp van de dag. Selecteer **banner** toevoegen.
 
-![banner](assets/add-banner-image.png)
+![ banner ](assets/add-banner-image.png)
 
-*Een banner toevoegen*
+*voeg een banner toe*
 
 Blader naar de locatie van de afbeelding die als banner moet worden gebruikt. Geef vervolgens een koppeling op als actieknop op de bannerafbeelding.
 
@@ -59,11 +59,11 @@ Blader naar de locatie van de afbeelding die als banner moet worden gebruikt. Ge
 
 Dit onderdeel kan worden gebruikt om de catalogus te filteren op tags, vaardigheden en catalogus. Deze sectie bevat een kop en een beschrijving voor elke categorie. Na klikken komt de gebruiker bij de cataloguspagina met de toegepaste filters.
 
-Selecteren **[!UICONTROL Categorie toevoegen]**. Voer vervolgens de gegevens voor de categorie in.
+Selecteer **[!UICONTROL voeg categorie]** toe. Voer vervolgens de gegevens voor de categorie in.
 
-![categorie toevoegen](assets/add-category.png)
+![ voeg categorie ](assets/add-category.png) toe
 
-*Categorieën toevoegen*
+*voeg de categorieën* toe
 
 Sla de categorie op. Vervolgens wordt de categorie aan de sectie toegevoegd.
 
@@ -71,9 +71,9 @@ Sla de categorie op. Vervolgens wordt de categorie aan de sectie toegevoegd.
 
 Voeg een catalogus toe voor gebruikers die niet zijn aangemeld, zodat ze door alle trainingen op het platform kunnen bladeren.
 
-![catalogus toevoegen](assets/add-catalog.png)
+![ voeg catalogus ](assets/add-catalog.png) toe
 
-*Een catalogus toevoegen*
+*voeg een catalogus toe*
 
 Alle geëxporteerde trainingen zijn aanwezig.
 
@@ -88,3 +88,4 @@ Alle geëxporteerde trainingen zijn aanwezig.
 * Student-appweergave die per catalogus wordt weergegeven.
 * Trainingsoverzicht-pagina&#39;s - Als u op de kaart klikt, wordt u naar  Aanmelden geleid, waarna een gebruiker wordt doorgeleid naar de pagina met trainingsoverzicht/instantie.
 * Alle ingeschakelde catalogi zijn aanwezig. Studenten die geen toegang tot een catalogus hebben, kunnen de catalogus na aanmelding niet zien of gebruiken.
+* Voor de native optie worden wijzigingen in een cursus of leerpad na 24 uur weerspiegeld, niet in real-time.

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Instellingen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '3651'
-ht-degree: 66%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -165,7 +165,7 @@ Schakel de volgende instellingen in of uit:
   </tr>
   <tr>
    <td>Cataloguslabels weergeven</td>
-   <td>Indien ingeschakeld kunnen beheerders en auteurs cataloguslabels en waarden instellen en deze koppelen aan leerobjecten.</td>
+   <td>Indien ingeschakeld kunnen beheerders en auteurs cataloguslabels en waarden instellen en koppelen aan leerobjecten. Als u deze optie selecteert, kunnen auteurs ook cursussen, leerpaden, certificeringen of taakhulpen aan de catalogi toevoegen.</td>
   </tr>
   <tr>
    <td>Studenten kunnen hun scores bekijken</td>
