@@ -2,10 +2,10 @@
 title: Niet-aangemelde ervaring voor studenten
 description: De eigen Adobe Learning Manager-portal biedt ondersteuning voor een niet-gelogde manier om toegang te krijgen tot de trainingssite. Als deze modus is ingeschakeld, kunnen studenten de trainingssite vinden en openen en verschillende beschikbare cursussen en inhoud uitchecken. Met de niet-aangemelde ervaring kunnen studenten naar cursussen bladeren zonder in een portal te zijn aangemeld.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 664b9c867fc767e11d4d91e3be9ae172e7e85035
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '619'
+ht-degree: 39%
 
 ---
 
@@ -88,4 +88,4 @@ Alle geëxporteerde trainingen zijn aanwezig.
 * Student-appweergave die per catalogus wordt weergegeven.
 * Trainingsoverzicht-pagina&#39;s - Als u op de kaart klikt, wordt u naar  Aanmelden geleid, waarna een gebruiker wordt doorgeleid naar de pagina met trainingsoverzicht/instantie.
 * Alle ingeschakelde catalogi zijn aanwezig. Studenten die geen toegang tot een catalogus hebben, kunnen de catalogus na aanmelding niet zien of gebruiken.
-* Voor de native optie worden wijzigingen in een cursus of leerpad na 24 uur weerspiegeld, niet in real-time.
+* Voor de native optie worden wijzigingen in een cursus of leerpad pas na 24 uur in plaats van in real-time weerspiegeld, terwijl voor de premium aanbieding ze na minimaal 3 uur worden weergegeven.
