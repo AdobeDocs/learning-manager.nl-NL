@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Mijn leermateriaal
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2789'
+ht-degree: 63%
 
 ---
 
@@ -163,6 +163,10 @@ U kunt alle modules voor de cursus in een browservenster bekijken.
 **Cursus sluiten** Klik op het kruisje (x) rechtsboven in de speler om de cursus af te sluiten.
 
 *Na het weggaan van de cursus, kunt u de cursus opnieuw bekijken door op de knoop van de Cursus van de cursusbeschrijving te klikken.*
+
+## Meerdere inschrijvingsinstanties
+
+Als een cursus meerdere instanties heeft, kunnen studenten kiezen voor een specifieke instantie en zich hiervoor inschrijven. Indien nodig kunnen ze ook schakelen tussen instanties.
 
 ## Waardering met sterren
 
