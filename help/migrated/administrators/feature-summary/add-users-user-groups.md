@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gebruikers toevoegen en gebruikersgroepen maken
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '4050'
-ht-degree: 62%
+source-wordcount: '4061'
+ht-degree: 61%
 
 ---
 
@@ -22,7 +22,7 @@ Leer hoe u gebruikers of gebruikersgroepen in de Learning Manager-toepassing toe
 
 >[!INFO]
 >
->In deze training leert u hoe u een gebruikersgroep kunt maken op naam, e-mail-id&#39;s en meerdere automatisch gegenereerde gebruikersgroepen combineert.<br><br>[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)</br></br>
+>In deze training leert u hoe u een gebruikersgroep kunt maken op naam, e-mail-id&#39;s en meerdere automatisch gegenereerde gebruikersgroepen combineert.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694) </br></br>
 
 <!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
@@ -30,7 +30,7 @@ Leer hoe u gebruikers of gebruikersgroepen in de Learning Manager-toepassing toe
 
 <!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ## Overzicht {#overview}
 
@@ -53,10 +53,10 @@ Voeg interne studenten aan de Adobe Learning Manager toe met behulp van één ge
 
 >[!INFO]
 >
->In deze training leert u hoe u interne studenten aan de Adobe Learning Manager kunt toevoegen.<br><br>[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)</br></br>
+>In deze training leert u hoe u interne studenten aan de Adobe Learning Manager kunt toevoegen.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534) </br></br>
 
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 Gebruikers toevoegen:
 
@@ -68,12 +68,12 @@ Gebruikers toevoegen:
 
 
    ![](assets/single-user.png)
-   *Eén interne gebruiker toevoegen*
+   *voeg één enkele interne gebruiker toe*
 
 1. In het dialoogvenster **[!UICONTROL Gebruiker toevoegen]** voert u de gegevens van de student in. Kies in het veld **[!UICONTROL Naam van manager]** de naam van een bestaande gebruiker in het systeem.
 
    ![](assets/manager.png)
-   *Gebruikersdialoogvenster toevoegen*
+   *voeg gebruikersdialoogdoos toe*
 
 1. Klik op **[!UICONTROL Toevoegen]** om een nieuwe gebruiker aan Learning Manager toe te voegen. Nadat de gebruiker is toegevoegd, ontvangt hij/zij een verificatiemail.  De student activeert vervolgens zijn/haar account en kan Learning Manager dan beginnen te gebruiken. Deze workflow is handig als u een beperkt aantal studenten moet toevoegen aan uw LMS-account. Maar als u alle werknemers van een grote organisatie wilt inschrijven, kunt u ze ook in een keer toevoegen. In het volgende gedeelte vindt u meer informatie.
 
@@ -83,9 +83,9 @@ Gebruikers toevoegen:
 
 In deze training leert u hoe u rollen toewijst en verwijdert, een welkomstmail verzendt en gebruikers verwijdert en verwijdert.
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 Doorgaans werken organisaties met een HRMS (HR Management System) met daarin alle werknemersrecords zoals benoeming, locatie, datum van indiensttreding of werknemershiërarchie. U kunt deze gegevens in CSV-indeling exporteren. Volg de onderstaande stappen om een CSV te importeren:
 
@@ -93,12 +93,12 @@ Doorgaans werken organisaties met een HRMS (HR Management System) met daarin all
 1. Klik op **[!UICONTROL Toevoegen]** in de rechterbovenhoek en kies de optie **[!UICONTROL Een CSV uploaden]**.
 
    ![](assets/upload-a-csv.png)
-   *Een CSV uploaden om gebruikers in bulk toe te voegen*
+   *upload een CSV om gebruikers in bulk toe te voegen*
 
 1. De CSV die u uploadt bevat de velden, zoals hieronder weergegeven:
 
    ![](assets/csv.png)
-   *Structuur van de CSV*
+   *Structuur van CSV*
 
    U moet een CSV-master bijhouden en alle toevoegingen en verwijderingen in de CSV-master uitvoeren. Het master-CSV-bestand bevat de volgende velden:
 
@@ -112,22 +112,22 @@ Doorgaans werken organisaties met een HRMS (HR Management System) met daarin all
 1. Nadat u op de optie **[!UICONTROL Een CSV uploaden]** hebt geklikt, wordt het volgende dialoogvenster weergegeven.
 
    ![](assets/upload-a-csv-dialog.png)
-   *Een CSV-dialoogvenster uploaden*
+   *upload een dialoog CSV*
 
 1. Kies de CSV of sleep het bestand ernaartoe. Nadat u het bestand hebt gekozen, wijst u de gegevensvelden toe aan die in het CSV-bestand. Klik op de toepasselijke keuzelijst en kies het juiste veld.
 
    ![](assets/map-data-fields.png)
-   *Velden toewijzen in CSV*
+   *gebieden van de Kaart in CSV*
 
 1. Klik op **[!UICONTROL Opslaan]** om de gebruikers te importeren. Er wordt een bevestigingsbericht weergegeven.
 
    ![](assets/save-csv.png)
-   *Bevestigingsbericht voor geslaagde upload van de CSV*
+   *Bevestigingsbericht voor succesvolle upload van CSV*
 
 1. De nieuwe gebruikers zijn nu toegevoegd aan uw Adobe Learning Manager-account. Om de nieuwe gebruikers te selecteren, vinkt u het vakje naast de namen aan.
 
    ![](assets/select-new-users.png)
-   *Nieuwe gebruikers toegevoegd*
+   *Nieuwe toegevoegde gebruikers*
 
 >[!NOTE]
 >
@@ -146,11 +146,11 @@ De geselecteerde gebruikers ontvangen een welkomstmail. Als de gebruikers een be
 Nadat u studenten aan het Adobe Learning Manager-account hebt toegevoegd, kunt u hun rollen wijzigen door op Acties te klikken in de rechterbovenhoek van de pagina. Kies de optie **[!UICONTROL Rol toewijzen]**. Hier kunt u bepalen of u de student auteurs- of beheerderstoegang wilt geven. Nadat u een rol hebt toegewezen, heeft deze student auteurstoegang tot het account en kan hij modules toevoegen en cursussen maken.
 
 ![](assets/assign-a-role.png)
-*Een rol toewijzen aan een gebruiker*
+*wijs een rol aan een gebruiker* toe
 
 ## Een rol verwijderen {#removearole}
 
-U kunt ook auteurs- en beheerderstoegang voor gebruikers verwijderen.  Selecteer een of meer studenten, klik op **[!UICONTROL Acties]** en selecteer **[!UICONTROL Rol verwijderen]**. Kies bijvoorbeeld een optie **[!UICONTROL Auteur verwijderen]** en wordt de auteurstoegang voor deze student ingetrokken.
+U kunt ook auteurs- en beheerderstoegang voor gebruikers verwijderen.  Selecteer een of meer studenten, klik op **[!UICONTROL Acties]** en selecteer **[!UICONTROL Rol verwijderen]**. Kies een optie, bijvoorbeeld, **[!UICONTROL verwijder Auteur]**, en de auteurstoegang wordt ingetrokken voor deze student.
 
 >[!NOTE]
 >
@@ -161,14 +161,14 @@ U kunt ook auteurs- en beheerderstoegang voor gebruikers verwijderen.  Selectee
 Om een gebruiker te verwijderen klikt u op **[!UICONTROL Acties]** en kiest u **[!UICONTROL Gebruiker verwijderen]**. Klik in het bevestigingsvenster op **[!UICONTROL Ja]** om de verwijdering te bevestigen.
 
 ![](assets/delete-a-role.png)
-*Bevestigingsbericht om een gebruiker te verwijderen*
+*Bevestigingsbericht om een gebruiker* te schrappen
 
 ## Een gebruiker bewerken {#editauser}
 
-Kies een gebruiker in de gebruikerslijst en klik erop.  Klik op de **[!UICONTROL Bewerken]** ( ![](assets/edit-pen.png)). Maak de benodigde wijzigingen in het dialoogvenster **[!UICONTROL Gebruiker bewerken]** en klik op **[!UICONTROL Opslaan]** om de wijzigingen op te slaan.
+Kies een gebruiker in de gebruikerslijst en klik erop.  Voor de gebruikersdetails, klik **[!UICONTROL uitgeven]** ( ![](assets/edit-pen.png)) knoop. Maak de benodigde wijzigingen in het dialoogvenster **[!UICONTROL Gebruiker bewerken]** en klik op **[!UICONTROL Opslaan]** om de wijzigingen op te slaan.
 
 ![](assets/edit-user.png)
-*Dialoogvenster Gebruiker bewerken*
+*geef de dialoog van de Gebruiker* uit
 
 ## Actieve velden
 
@@ -176,13 +176,13 @@ Kies een gebruiker in de gebruikerslijst en klik erop.  Klik op de **[!UICONTRO
 
 >[!INFO]
 >
->In deze training leert u hoe u actieve velden kunt toevoegen, aanpassen en configureren.<br><br>[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)</br></br>
+>In deze training leert u hoe u actieve velden kunt toevoegen, aanpassen en configureren.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741) </br></br>
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
-Adobe Learning Manager behoudt de hoofdlettergevoeligheid van het gebruikerskenmerk en de waarde ervan. **Bijvoorbeeld** is de hoofdlettergevoeligheid van een gebruikerskenmerk &#39;locatie&#39; en wordt de waarde ervan als &#39;PARIS&#39; op dezelfde manier behouden en weergegeven. In het geval van problemen kan de beheerder nu de kenmerknaam en -waarden bewerken om eventuele hoofdlettergevoeligheidsfouten te corrigeren.
+Adobe Learning Manager behoudt de hoofdlettergevoeligheid van het gebruikerskenmerk en de waarde ervan. **bijvoorbeeld**, is de gevalgevoeligheid van een gebruikersattribuut &quot;plaats&quot;en zijn waarde als &quot;PARIS&quot;zal worden bewaard en op de zelfde manier getoond. In het geval van problemen kan de beheerder nu de kenmerknaam en -waarden bewerken om eventuele hoofdlettergevoeligheidsfouten te corrigeren.
 
-De beheerder kan dit doen door naar **[!UICONTROL Admin-app]** > **[!UICONTROL Gebruikers]** > **[!UICONTROL Gebruikersgroepen]** en op de groepsnaam te klikken.
+De beheerder kan dit doen door **[!UICONTROL app Admin]** > **[!UICONTROL Gebruikers]** > **[!UICONTROL Gebruikersgroepen]** te bezoeken en op de groepsnaam te klikken.
 
 Een beheerder kan via de gebruikersinterface toegestane kenmerkwaarden voor een student toevoegen en bijwerken.
 
@@ -198,16 +198,16 @@ U kunt werknemers van uw organisatie ook in staat stellen zichzelf als student i
 
 
 
-Klik rechtsboven op de pagina op **[!UICONTROL Toevoegen]** en selecteert u **[!UICONTROL Zelfregistratie]**.
+Op de hoger-juiste hoek van de pagina, klik **** toevoegen, en selecteer **[!UICONTROL Zelfregistratie]**.
 
 
 ![](assets/self-registration.png)
-*Koppeling maken om zichzelf als student te registreren*
+*creeer verbinding aan zelf-register als student*
 
 Het dialoogvenster **[!UICONTROL Zelfregistratieprofiel toevoegen]** wordt weergegeven.  Geef dit profiel een naam. Voeg vervolgens de naam van de manager toe.  Het is belangrijk om te weten dat de manager al een student moet zijn geregistreerd in Leermanager.
 
 ![](assets/add-self-registrationprofile.png)
-*Profiel toevoegen voor zelfregistratie*
+*voeg profiel voor zelfregistratie* toe
 
 Nadat u op **[!UICONTROL Opslaan]** hebt geklikt, wordt een URL gegenereerd die u met de studenten kunt delen. Zij kunnen op de URL klikken en zichzelf inschrijven.
 
@@ -235,7 +235,7 @@ Er zijn enkele verschillen tussen interne en externe registraties.
    <td>
     <p>Gamification is beschikbaar</p></td>
    <td>
-    <p>Gamification is niet beschikbaar</p></td>
+    <p>Gamification is beschikbaar. De beheerder moet gamification voor externe studenten inschakelen in de Gamification-instellingen.</p></td>
   </tr>
   <tr>
    <td>
@@ -252,7 +252,7 @@ Volg de onderstaande stappen om externe gebruikers in te schrijven:
 
    ![](assets/click-external.png)
 
-   *Externe gebruikers inschrijven*
+   *schrijf externe gebruikers* in
 
 1. Klik rechtsboven op de pagina op **[!UICONTROL Toevoegen]**.
 
@@ -266,17 +266,17 @@ Volg de onderstaande stappen om externe gebruikers in te schrijven:
 
    ![](assets/map-data-fields-2.png)
 
-   *Dialoogvenster Extern registratieprofiel toevoegen*
+   *voeg de Externe dialoog van het Profiel van de Registratie toe*
 
-   * In het dialoogvenster **[!UICONTROL Geavanceerde instellingen]** voert u de volgende gegevens in:
+   * In de **[!UICONTROL Geavanceerde sectie van Montages]**, ga het volgende in:
 
-      * **[!UICONTROL Aanmeldingsvereiste]:** Geef een waarde op in dagen. Studenten worden verwijderd als ze zich gedurende de bovenstaande periode niet aanmelden.
-      * **[!UICONTROL Toegestane domeinen]:** Een door komma&#39;s gescheiden lijst met e-maildomeinnamen op de whitelist.
-      * **[!UICONTROL E-mailverificatie vereist]:** Selecteer deze optie om e-mailverificatie verplicht te maken voor een student.
+      * **[!UICONTROL het Vereiste van de Login ]:** specificeer een waarde in dagen. Studenten worden verwijderd als ze zich gedurende de bovenstaande periode niet aanmelden.
+      * **[!UICONTROL Toegestane Domeinen ]:** een komma-gescheiden lijst van gewhitelisteerde e-maildomeinnamen.
+      * **[!UICONTROL Vereiste E-mailverificatie ]:** selecteer deze optie om e-mailverificatie voor een student verplicht te maken.
 
    ![](assets/email-verificationrequired.png)
 
-   *Voer de details in het gedeelte Geavanceerde instellingen in*
+   *ga de details in de Geavanceerde sectie van Montages in*
 
 1. Wanneer u op **[!UICONTROL Opslaan]** klikt, ziet u het volgende bevestigingsbericht. U moet de URL met uw externe partner delen.
 
@@ -287,7 +287,7 @@ Volg de onderstaande stappen om externe gebruikers in te schrijven:
 Nadat een extern profiel is gemaakt, moet u de status ervan inschakelen.  Kies het gewenste profiel uit de lijst met externe profielen en zet de statusschakelaar op Aan.
 
 ![](assets/choose-required-profiles.png)
-*Een extern profiel inschakelen*
+*laat een extern profiel* toe
 
 Hiermee wordt de link voor externe inschrijving geactiveerd. Er wordt automatisch een welkomstmail naar de partner gestuurd. U kunt de link ook kopiëren en delen door op het pictogram URL kopiëren () te klikken, of de welkomstmail nogmaals naar de partnerorganisatie sturen door op het e-mailpictogram () te klikken.
 
@@ -301,11 +301,11 @@ Kies een groep of groepen, klik op **[!UICONTROL Acties]** in de rechterbovenhoe
 
 ## Een extern profiel hervatten {#resumeanexternalprofile}
 
-U kunt de gepauzeerde status van een externe partner op elk moment intrekken en de normale services hervatten. Klikken **[!UICONTROL Handelingen]** in de rechterbovenhoek van de pagina en selecteer **[!UICONTROL Hervatten]**.
+U kunt de gepauzeerde status van een externe partner op elk moment intrekken en de normale services hervatten. Klik **[!UICONTROL Acties]** bij de hoger-juiste hoek van de pagina en selecteer **[!UICONTROL Hervatten]**.
 
 De volgende statussen zijn van toepassing voor externe gebruikers:
 
-* **Inactief frame** - In deze status is de registratie van externe gebruikers verlopen. Beheerders stellen de vervaldatum voor de externe gebruikers in wanneer ze deze toevoegen via de workflow Gebruiker toevoegen.
+* **Inactieve staat** - in deze staat, is de registratie van de externe gebruikers verlopen. Beheerders stellen de vervaldatum voor de externe gebruikers in wanneer ze deze toevoegen via de workflow Gebruiker toevoegen.
 * **Actief**: in deze status kunnen externe gebruikers zich bij de Learning Manager-toepassing registreren en zich bij de toepassing aanmelden.
 * **Pauzeren**: in deze status is het registratieproces voor externe gebruikers geblokkeerd. Bestaande gebruikers kunnen zich echter nog steeds aanmelden.
 
@@ -314,23 +314,23 @@ De volgende statussen zijn van toepassing voor externe gebruikers:
 Klik in de lijst met externe profielen op **[!UICONTROL Gebruikte plaatsen]**. U kunt het aantal toegevoegde studenten van de partnerorganisatie bekijken.
 
 ![](assets/seats-used.png)
-*Gebruikte licenties controleren*
+*Controle gebruikte plaatsen*
 
 ## Een gebruiker verwijderen {#Deleteauser-1}
 
-Kies een gebruiker en klik rechtsboven op **[!UICONTROL Handelingen]** > **[!UICONTROL Gebruiker verwijderen]**.
+Kies een gebruiker, en van de hoger-juiste hoek, klik **[!UICONTROL Acties]** > **[!UICONTROL Schrapping Gebruiker]**.
 
 ## Profiel wijzigen {#changeprofile}
 
-Als u een gebruiker naar een ander extern profiel wilt verplaatsen, kiest u een gebruiker en klikt u in de rechterbovenhoek op **[!UICONTROL Handelingen]** > **[!UICONTROL Profiel wijzigen]**. Kies een profiel uit de lijst met profielen en klik op **[!UICONTROL Wijzigen]**.
+Om een gebruiker naar een ander extern profiel te bewegen, verkies een gebruiker, van de hoger-juiste hoek, klik **[!UICONTROL Acties]** > **[!UICONTROL Profiel van de Verandering]**. Kies een profiel uit de lijst met profielen en klik op **[!UICONTROL Wijzigen]**.
 
 ## Een rol toewijzen {#Assignarole-1}
 
-Kies een gebruiker en klik rechtsboven op **[!UICONTROL Handelingen]** > **[!UICONTROL Rol toewijzen]** > **Merk`<role>`**. De gebruiker krijgt een nieuwe rol.
+Kies een gebruiker, en van de hoger-juiste hoek, klik **[!UICONTROL Acties]** > **[!UICONTROL wijs Rol]** toe > **maak`<role>`**. De gebruiker krijgt een nieuwe rol.
 
 ## Een rol verwijderen {#Removearole-1}
 
-Kies een gebruiker en klik rechtsboven op **[!UICONTROL Handelingen]** > **[!UICONTROL Rol verwijderen]** > **Verwijderen`<role>`**. De geselecteerde rol wordt verwijderd uit de lijst met rollen die aan de gebruiker zijn toegewezen.
+Kies een gebruiker, en van de hoger-juiste hoek, klik **[!UICONTROL Acties]** > **[!UICONTROL verwijdert Rol]** > **verwijdert`<role>`**. De geselecteerde rol wordt verwijderd uit de lijst met rollen die aan de gebruiker zijn toegewezen.
 
 ## Gebruikersgroepen maken {#createusergroups}
 
@@ -339,23 +339,23 @@ Een gebruikersgroep is een verzameling gebruikers die tot een categorie behoren.
 Om toegang te krijgen tot gebruikersgroepen klikt u in het linkerdeelvenster op **[!UICONTROL Gebruikersgroepen]**.
 
 ![](assets/user-groups.png)
-*Gebruikersgroepen maken*
+*creeer gebruikersgroepen*
 
 Er zijn twee soorten groepen in Adobe Learning Manager: Aangepast en Automatisch gegenereerd. Wanneer u studenten aan uw account toevoegt, worden bepaalde groepen automatisch aangemaakt op basis van gemeenschappelijke eigenschappen.
 
 Klik op het tabblad **[!UICONTROL Automatisch gegenereerd]** om de automatisch gemaakte groepen weer te geven.
 
 ![](assets/auto-generated.png)
-*Automatisch gegenereerde groepen weergeven*
+*Mening Auto-geproduceerde groepen*
 
 U kunt zien dat er verschillende groepen zijn, zoals Alle interne gebruikers, Alle managers, en groepen op basis van de kostenplaats, afdeling en het team van de managers.
 
-Naast de automatisch gegenereerde groepen kunt u ook aangepaste groepen maken. Als u een nieuwe aangepaste groep wilt toevoegen, klikt u rechtsboven op **[!UICONTROL Toevoegen]**.
+Naast de automatisch gegenereerde groepen kunt u ook aangepaste groepen maken. Om een nieuwe Groep van de Douane, op de hoger-juiste hoek toe te voegen, klik **[!UICONTROL voeg]** toe.
 
 1. Voer de naam en beschrijving voor de groep in.
 1. Voer de naam of het profiel van een gebruiker in het zoekveld in en selecteer gebruikers om deze toe te voegen.
 
-1. Klik op **[!UICONTROL Meer gebruikers toevoegen]**.
+1. Om meer studenten toe te voegen, klik **[!UICONTROL Meer Gebruikers]** toevoegen.
 
 1. Klik op **[!UICONTROL Opslaan]** om de gebruikersgroep te maken.
 
@@ -366,7 +366,7 @@ Deze aangepaste groep is nu aangemaakt en aan het profiel toegevoegd.  De gebru
 Soms wilt u een kleine set gebruikers uitsluiten van een grote gebruikersgroep. Dit is vereist om deze specifieke groep gebruikers in te schrijven voor training via leerplannen of om de juiste zichtbaarheid van catalogi in te stellen. In deze versie van Leermanager kunt u studenten of gebruikersgroepen uitsluiten wanneer u een aangepaste gebruikersgroep maakt. In het dialoogvenster Gebruikersgroep toevoegen kunt u dit bereiken met de sectie Studenten uitsluiten.
 
 ![](assets/exclude-user-groups.png)
-*Gebruikersgroepen uitsluiten*
+*sluit gebruikersgroepen* uit
 
 Als u bijvoorbeeld een leerplan wilt instellen, zodat alle gebruikers die tot de locatie = Californië behalve Store-5 (locatie Californië) behoren worden ingeschreven.
 
@@ -377,14 +377,14 @@ Als u bijvoorbeeld een leerplan wilt instellen, zodat alle gebruikers die tot de
 U kunt deze functie gebruiken wanneer u de gebruikers of leergegevens uit de database van uw organisatie wilt importeren in of synchroniseren met de toepassing Leermanager. U kunt ook de frequentie van deze synchronisatie instellen.
 
 
-Klikken **[!UICONTROL Gegevensbronnen]** in het linkerdeelvenster onder **[!UICONTROL Gedeeld]** sectie.
+Klik **[!UICONTROL Gegevensbronnen]** op de linkerruit onder **[!UICONTROL Geavanceerde]** sectie.
 
 
 ![](assets/data-sources-add-users.png)
 
-*Gegevensbronnen voor het importeren of synchroniseren van gebruikers*
+*bronnen van Gegevens aan invoert of synchroniseert gebruikers*
 
-Kies het type gegevensbron in het menu **[!UICONTROL Bron]** , selecteert u de updatefrequentie en klikt u op **[!UICONTROL Nu synchroniseren]** als u direct moet synchroniseren of klik op **[!UICONTROL Opslaan].** Gegevensbrontypen zijn SFDC, FTP, enzovoort voor interne gebruikers.
+Kies het gegevensbrontype van de **[!UICONTROL Bron]** drop-down, selecteer de updatefrequentie, en klik **[!UICONTROL Synchronisatie nu]** als u onmiddellijk moet synchroniseren of **[!UICONTROL sparen ] klikken.** Gegevenstypen zijn SFDC, FTP, enzovoort voor interne gebruikers.
 
 U kunt meerdere gegevensbronnen toevoegen.
 
@@ -392,10 +392,10 @@ U kunt meerdere gegevensbronnen toevoegen.
 
 Beheerders kunnen met deze functie meer actieve velden toevoegen in aanvulling op de velden die tijdens gebruikersregistratie zijn verstrekt.
 
-Klikken **[!UICONTROL Actieve velden]** beschikbaar binnen de gebruikerspagina. Studenten kunnen alleen kiezen uit de waarden in aangepaste waarden.
+Klik **[!UICONTROL Actieve Gebieden]** beschikbaar binnen gebruikerspagina. Studenten kunnen alleen kiezen uit de waarden in aangepaste waarden.
 
 ![](assets/active-fields.png)
-*Actieve velden*
+*Actieve gebieden*
 
 ### Velden configureren {#configurefields}
 
@@ -405,15 +405,15 @@ U kunt aangepaste waarden toevoegen voor gebruikersvelden voor interne gebruiker
 
 Ga als volgt te werk om aangepaste waarden toe te voegen:
 
-1. Klikken  **[!UICONTROL Waarden wijzigen]** voor een interne gebruiker.
+1. Klik **[!UICONTROL wijzig Waarden]** voor een Interne gebruiker.
 
    ![](assets/modify-values.png)
-   *Waarden wijzigen voor interne gebruikers*
+   *wijzig waarden voor interne gebruikers*
 
-1. De **Waarden in veld Aangepast** wordt weergegeven.
+1. De **Waarden op het gebied van de Douane** dialoogdoos verschijnt.
 
    ![](assets/values-in-customfields.png)
-   *Dialoogvenster Waarden in aangepaste velden*
+   *Waarden in de dialoogdoos van de Gebieden van de Douane*
 
 1. Selecteer de waarde die u wilt toevoegen in het keuzemenu **[!UICONTROL Veld selecteren]**.
 1. Voer nieuwe waarden in het veld **[!UICONTROL Nieuwe waarde]** in.
@@ -425,25 +425,25 @@ Ga als volgt te werk om aangepaste waarden toe te voegen:
 Voeg aangepaste waarden toe die vergelijkbaar zijn met die voor interne gebruikers.
 
 ![](assets/modify-values-forexternalusers.png)
-*Waarden wijzigen voor externe gebruikers*
+*wijzig waarden voor externe gebruikers*
 
 ### Instellingen {#settings}
 
 **Gebruikersweergave**
 
-Als de optie **Alleen niet-ingevulde velden weergeven bij aanmeldnaam student** is ingeschakeld, ziet een gebruiker alleen de lege velden bij het aanmelden.
+Als de optie **toont slechts ongevulde gebieden op login van de Student** wordt toegelaten, ziet een gebruiker slechts de lege gebieden bij login.
 
 ![](assets/settings-tab.png)
-*Niet-gevulde velden weergeven*
+*toon niet-gevulde gebieden*
 
 Met deze optie kan een beheerder beslissen of hij/zij de velden wilt weergeven of verbergen zodra ze zijn ingevuld.
 
 ## Actieve velden in rapporten beperken {#restrictactivefields}
 
-Learning Manager 27.7 introduceert twee nieuwe opties: **[!UICONTROL Te rapporteren]** en **[!UICONTROL Exportable]**, voor Actieve velden.
+Het leren Manager 27.7 introduceert twee nieuwe opties - **[!UICONTROL Te Rapporteren]** en **[!UICONTROL Exporteerbaar]**, voor Actieve Gebieden.
 
 ![](assets/options-in-activefields.png)
-*Opties in actieve velden*
+*Opties in Actieve Gebieden*
 
 Voor CSV-velden en handmatig toegevoegde velden geldt dat als een actief veld is gemarkeerd als **[!UICONTROL Rapporteerbaar]**, het actieve veld kan worden gezocht in een filter in een dashboardrapport.
 
@@ -465,7 +465,7 @@ Het bestaande standaardgedrag verandert niet. Deze optionele mogelijkheid is nu 
 Schakel de opties hieronder in:
 
 ![](assets/user-display.png)
-*Gebruikersweergave, sectie*
+*sectie van de Vertoning van de Gebruiker*
 
 ## Ondersteuning voor handmatige CSV-velden via FTP- en Box-connectors {#import-connector}
 
@@ -475,16 +475,16 @@ Het CSV-bestand mag niet alle actieve velden bevatten. Voor alle actieve velden 
 
 Momenteel moeten alle actieve velden worden toegewezen aan een veld van de bron-CSV.
 
-Soms wil een gebruiker een Actief veld niet toewijzen aan een veld dat is opgegeven in de CSV. In dergelijke gevallen kan de gebruiker het veld Actief toewijzen aan de waarde **[!UICONTROL DontImportFromSource]**. Selecteer deze waarde in de vervolgkeuzelijst wanneer u gebruikers importeert van FTP- en Box-connectoren.
+Soms wil een gebruiker een Actief veld niet toewijzen aan een veld dat is opgegeven in de CSV. In dergelijke gevallen, kan de gebruiker het Actieve gebied aan de waarde **[!UICONTROL DontImportFromSource]** in kaart brengen. Selecteer deze waarde in de vervolgkeuzelijst wanneer u gebruikers importeert van FTP- en Box-connectoren.
 
 ## Aangepaste rollen {#customroles}
 
-Voeg de gewenste velden aan uw gebruikersinformatie toe en klik op **[!UICONTROL Opslaan]**. Nadat u de velden hebt toegevoegd, kunt u ook de beschikbaarheid van de velden in de **[!UICONTROL Gebruikers bewerken]** in.
+Voeg de gewenste velden aan uw gebruikersinformatie toe en klik op **[!UICONTROL Opslaan]**. Na het toevoegen van de gebieden, kunt u de beschikbaarheid van de gebieden in **[!UICONTROL ook controleren uitgeeft gebruikers]** dialoog.
 
 
 De velden met een vinkje komen uit de gegevensbron of CSV zoals te zien in het onderstaande voorbeeld. De beheerder kan deze velden bewerken door ze in of uit te schakelen.
 
-**Waarden voor actieve velden in Leermanager**
+**Waarden voor actieve gebieden in het Leren Manager**
 
 De waarden voor actieve velden worden als volgt opgehaald:
 
@@ -510,11 +510,11 @@ Aangepaste velden kunnen worden toegevoegd en verwijderd. Ze zijn van toepassing
 Als het selectievakje **[!UICONTROL Selectie beperken]** is ingeschakeld, kunnen gebruikers alleen kiezen uit vooraf gedefinieerde velden voor CSV-velden.
 
 ![](assets/value-field-for-csv.png)
-*Selectievakje Selectie beperken*
+*beperk selectie controle-doos*
 
 ## Importlogboeken {#importlogs}
 
-In deze ruimte kunt u de CSV-importgeschiedenis bekijken voor de gebruikers die de beheerder via bulkimport heeft toegevoegd. U kunt ook op **[!UICONTROL Toevoegen]** rechtsboven op de pagina om gebruikers toe te voegen met behulp van de CSV-uploadfunctie.
+In deze ruimte kunt u de CSV-importgeschiedenis bekijken voor de gebruikers die de beheerder via bulkimport heeft toegevoegd. U kunt **[!UICONTROL ook klikken toevoegt]** bij de hoger-juiste hoek van de pagina om gebruikers toe te voegen gebruikend CSV uploadt eigenschap.
 
 ## Actieve velden met meerdere waarden
 
@@ -528,21 +528,21 @@ Volg de onderstaande stappen om een actief veld met meerdere waarden te maken:
 
 1. Voeg een actief veld toe.
 
-   ![Een actief veld toevoegen](assets/add-active-field.png)
-   *Een actief veld toevoegen*
+   ![ voeg een actief gebied ](assets/add-active-field.png) toe
+   *voeg een actief gebied* toe
 
 1. Klik op Toevoegen.
 1. Markeer op het tabblad Instellingen het nieuwe veld als een veld met meerdere waarden.
 
-   ![Markeren als meervoudig getaxeerd](assets/mark-multi-valued.png)
-   *Markeren als meervoudig getaxeerd*
+   ![ Teken als multi-getaxeerd ](assets/mark-multi-valued.png)
+   *Teken als multi-getaxeerd*
 
-   Er is nog een selectievakje, **[!UICONTROL Student configureerbaar]**, die de student het veld op de profielpagina niet kan zien als hij of zij dit heeft uitgeschakeld.
+   Er is een andere checkbox, **[!UICONTROL Configurable van de Student]**, die wanneer gehandicapt, de student niet het gebied op de pagina van het Profiel zal kunnen zien.
 
 1. Voeg de waarden toe met behulp van een CSV of door op Waarden wijzigen te klikken.
 
-   ![Waarden toevoegen](assets/add-values.png)
-   *Waarden toevoegen*
+   ![ voeg waarden ](assets/add-values.png) toe
+   *voeg waarden* toe
 
 1. Klik op [!UICONTROL **Klaar**].
 
@@ -563,8 +563,8 @@ Volg onderstaande stappen:
 
 De CSV bevat de velden:
 
-* **[!UICONTROL Gebruiker]**: Gebruikersgroepen die zijn gemaakt als rollen.
-* **[!UICONTROL Rollen]**: Actief veld met meerdere waarden.
+* **[!UICONTROL Gebruiker]**: De groepen van de gebruiker die als rollen worden gecreeerd.
+* **[!UICONTROL Rollen]**: Multi-getaxeerd actief gebied met waarden.
 
 Als de CSV opnieuw wordt geüpload met nieuwe waarden of verwijderde waarden, worden de actieve velden en groepen dienovereenkomstig geüpdatet.
 
@@ -582,7 +582,7 @@ Het studenttranscript-rapport bevat alle actieve velden en door een komma gesche
 
 Nadat u een gebruiker hebt toegevoegd en een rol aan de gebruiker hebt toegewezen, kunt u de gebruiker registreren door de onderstaande stappen uit te voeren:
 
-1. Selecteer de gebruiker of gebruikers en klik op **[!UICONTROL Handelingen]** in de rechterbovenhoek en klik op **[!UICONTROL Registreren]**.
+1. Met de gebruiker of de geselecteerde gebruikers, klik **[!UICONTROL Acties]** op de hoger-juiste hoek, en klik **[!UICONTROL Register]**.
 
 1. Klik in het pop-upvenster op **[!UICONTROL Ja]**.
 
@@ -607,7 +607,7 @@ Werk de velden bij in het dialoogvenster **Gebruiker bewerken**. Klik op **[!UIC
 
 +++Een externe gebruiker pauzeren en hervatten in Leerbeheer?
 
-Kies in de lijst met externe gebruikers de gebruiker die u wilt verwijderen. Klik rechtsboven op **[!UICONTROL Handelingen]** > **[!UICONTROL Pauze]**.
+Kies in de lijst met externe gebruikers de gebruiker die u wilt verwijderen. Op de hoger-juiste hoek, klik **[!UICONTROL Acties]** > **[!UICONTROL Pauze]**.
 
 Zie [Een extern profiel pauzeren](add-users-user-groups.md#pause) voor meer informatie.
 
@@ -617,7 +617,7 @@ Nadat u een profiel hebt gepauzeerd, wordt de status van het externe profiel als
 
 +++Hoe kan ik welkomstmail verzenden naar nieuw gemaakt extern profiel?
 
-Wanneer u een externe gebruiker toevoegt, kunt u in het dialoogvenster **[!UICONTROL Extern registratieprofiel toevoegen]** voert u de e-mail van de externe manager in. Als u op Opslaan klikt, wordt er ook een welkomstmail naar het gespecificeerde e-mailadres verzonden. Als u de welkomstmail nog een keer wilt verzenden, klikt u op het pictogram met een envelop, zoals hieronder weergegeven:
+Wanneer het toevoegen van een externe gebruiker, in **[!UICONTROL voeg de Externe dialoog van het Profiel van de Registratie]** toe, ga e-mail van de externe manager in. Als u op Opslaan klikt, wordt er ook een welkomstmail naar het gespecificeerde e-mailadres verzonden. Als u de welkomstmail nog een keer wilt verzenden, klikt u op het pictogram met een envelop, zoals hieronder weergegeven:
 
 ![](assets/send-welcome-mail.png)
 
@@ -625,7 +625,7 @@ Wanneer u een externe gebruiker toevoegt, kunt u in het dialoogvenster **[!UICON
 
 +++Hoe maak ik aangepaste gebruikersgroepen?
 
-Klikken **[!UICONTROL Gebruikers]** > **[!UICONTROL Gebruikersgroepen]** en op de pagina Gebruikersgroepen klikt u op **[!UICONTROL Toevoegen]**. Voeg in het dialoogvenster Gebruikersgroep toevoegen de gebruikers zowel afzonderlijk als als als als team toe.
+Klik **[!UICONTROL Gebruikers]** > **[!UICONTROL Gebruikersgroepen]** en op de pagina van de Groepen van de Gebruiker, klik **[!UICONTROL toevoegen]**. Voeg in het dialoogvenster Gebruikersgroep toevoegen de gebruikers zowel afzonderlijk als als als als team toe.
 
 ![](assets/custom-user-group.png)
 
@@ -635,9 +635,9 @@ Klikken **[!UICONTROL Gebruikers]** > **[!UICONTROL Gebruikersgroepen]** en op d
 
 Als u wilt dat studenten alleen de actieve velden zien die niet door hen zijn ingevuld, volgt u de stappen hieronder:
 
-1. Klikken **[!UICONTROL Gebruikers]** > **[!UICONTROL Actieve velden]**.
+1. Klik **[!UICONTROL Gebruikers]** > **[!UICONTROL Actieve Gebieden]**.
 
-1. Klikken **[!UICONTROL Instellingen]** en de optie **[!UICONTROL Alleen niet-ingevulde velden weergeven bij aanmeldnaam student]**.
+1. Klik **[!UICONTROL Montages]** en laat de optie **[!UICONTROL toe tonen slechts ongevulde gebieden op login van de Student]**.
 
 1. Klik op **[!UICONTROL Opslaan]**.
 
@@ -647,7 +647,7 @@ Als u wilt dat studenten alleen de actieve velden zien die niet door hen zijn in
 
 U kunt de selectie voor studenten beperken, zodat ze alleen de waarden kunnen selecteren die vooraf gedefinieerd zijn en geen willekeurige waarden kunnen invoeren. Volg onderstaande stappen:
 
-1. Klikken **[!UICONTROL Gebruikers]** > **[!UICONTROL Actieve velden]**.
+1. Klik **[!UICONTROL Gebruikers]** > **[!UICONTROL Actieve Gebieden]**.
 1. De optie **[!UICONTROL Selectie beperken]** inschakelen.
 1. Klik op **[!UICONTROL Klaar]**.
 
