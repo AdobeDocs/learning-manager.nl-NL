@@ -4,9 +4,9 @@ title: Witte labels in de mobiele app van Adobe learning Manager
 description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
+source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -372,6 +372,50 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >[!NOTE]
 >
 >U hebt Android SDK-hulpprogramma&#39;s nodig om de ondertekende binaire bestanden te maken.
+
+De Play Store vereist voor publicatie Android-binaire bestanden in de tabbladindeling. Daarom zullen wij het niet ondertekende .aab dossier verstrekken.
+
+>[!NOTE]
+>
+>Wanneer u een sleutelarchiefbestand maakt, moet u een keystore-wachtwoord, een alias voor de ondertekeningssleutel en een aliaswachtwoord voor de ondertekeningssleutel genereren.
+
+Volg de onderstaande stappen om het Ab-bestand te ondertekenen:
+
+Voer de volgende opdracht uit:
+
+```
+<path>/jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore <keystore-file> app-release.aab <signingKeyAlias>
+```
+
+>[!NOTE]
+>
+>**[!UICONTROL jarsigner]** is inbegrepen met Java. Zorg ervoor dat u Java 21 gebruikt.
+
+Voer bij de aanwijzing de volgende wachtwoorden in:
+
+* Wachtwoord sleutelarchief
+* wachtwoord voor het ondertekenen van sleutelalias
+
+U kunt de meegeleverde apk gebruiken. Als u echter een apk wilt genereren op basis van een abb-bestand, voert u de volgende stappen uit:
+
+>[!NOTE]
+>
+>U zult **[!UICONTROL bundletool]** moeten installeren om APKs te produceren.
+
+
+Voer de volgende opdracht uit om het apk-bestand te maken:
+
+```
+java -jar <path>/bundletool-all.jar  build-apks --bundle=app-release.aab --output=my_app.apks --mode=universal
+```
+
+Als u het bestand wilt uitpakken, voert u de volgende opdracht uit:
+
+```
+unzip my_app.apks -d output_dir
+```
+
+U zult het apk dossier van de **[!UICONTROL output_dir]** omslag krijgen.
 
 **Wat is volgende**
 
