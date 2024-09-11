@@ -4,9 +4,9 @@ title: Witte labels in de mobiele app van Adobe learning Manager
 description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
+source-git-commit: 1be901d1667c53ced996953440df6293485a4088
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -352,22 +352,66 @@ Hergebruik hetzelfde project dat u in de bovenstaande stappen hebt gemaakt voor 
 
 ### iOS
 
-```
+<!--```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```
+```-->
+
+De wortelomslag bevat het {**dossier 0} Runner.xcarchive.zip.** Voer de onderstaande opdrachten uit om het ondertekende binaire getal te genereren:
+
+1. Voer de volgende opdracht uit om het archief te decomprimeren:
+
+   ```
+   unzip Runner.xcarchive.zip
+   ```
+
+2. Navigeer naar de map met apps:
+
+   ```
+   cd Runner.xcarchive/Products/Applications/Runner.app
+   ```
+
+3. Kopieer het mobiele inrichtingsbestand:
+
+   ```
+   cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
+   ```
+
+4. Ga terug naar de hoofdmap (waar Runner.xcarchive.zip zich bevindt):
+
+   ```
+   cd <root>
+   ```
+
+5. Het archief exporteren met Xcodebuild:
+
+   ```
+   xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
+   ```
+
+6. Zoek het .ipa-bestand in de map ipa_path.
+7. Upload het .ipa-bestand naar de Diawi-website.
+8. Zodra volledig geupload, selecteer **[!UICONTROL verzend]** knoop.
+9. Na voltooiing, zult u een QR code en een verbinding ontvangen.
+10. Open de QR-code of de koppeling rechtstreeks in Safari.
+
+Als het apparaat is opgenomen in het inrichtingsprofiel, moet de installatie op het apparaat worden uitgevoerd.
 
 >[!NOTE]
 >
 >U hebt XCode 15.2 of hoger nodig om de ondertekende binaire bestanden te maken.
 
 
-## Android
+### Android
+
+**voor apk- dossier**
 
 ```
-sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --ks-pass "pass:$store\_password" --ks-key-alias $key\_alias --key-pass "pass:$key\_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
 ```
+
+**voor aab dossier**
 
 >[!NOTE]
 >
