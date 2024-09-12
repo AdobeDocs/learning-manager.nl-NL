@@ -4,9 +4,9 @@ title: Witte labels in de mobiele app van Adobe learning Manager
 description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 1be901d1667c53ced996953440df6293485a4088
+source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -358,7 +358,7 @@ sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_p
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```-->
 
-De wortelomslag bevat het {**dossier 0} Runner.xcarchive.zip.** Voer de onderstaande opdrachten uit om het ondertekende binaire getal te genereren:
+De `<root>` omslag bevat het {**dossier 1} Runner.xcarchive.zip.** Voer de onderstaande opdrachten uit om het ondertekende binaire getal te genereren:
 
 1. Voer de volgende opdracht uit om het archief te decomprimeren:
 
@@ -378,7 +378,7 @@ De wortelomslag bevat het {**dossier 0} Runner.xcarchive.zip.** Voer de ondersta
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Ga terug naar de hoofdmap (waar Runner.xcarchive.zip zich bevindt):
+4. Ga terug naar de map `<root>` (waar Runner.xcarchive.zip zich bevindt):
 
    ```
    cd <root>
