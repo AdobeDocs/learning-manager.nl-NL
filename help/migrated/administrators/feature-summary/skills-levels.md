@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Vaardigheden en niveaus maken en wijzigen
 contentowner: manochan
 exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
 source-wordcount: '1721'
 ht-degree: 79%
@@ -31,11 +31,11 @@ Als beheerder kunt u de volgende acties uitvoeren:
 
 Volg de onderstaande stappen om een vaardigheid toe te voegen:
 
-1. Selecteer in het linkerdeelvenster de optie **[!UICONTROL Vaardigheden]** > **[!UICONTROL Toevoegen]** > **[!UICONTROL SKills toevoegen]**. Geef de vaardigheid een naam en beschrijving.
+1. Voor de linkerruit, uitgezochte **[!UICONTROL Vaardigheden]** > **[!UICONTROL voeg]** toe > **[!UICONTROL voeg SKills]** toe. Geef de vaardigheid een naam en beschrijving.
 
    ![](assets/add-skill-name-anddescription.png)
 
-   *Naam en beschrijving van een vaardigheid toevoegen*
+   *voeg naam en beschrijving van een vaardigheid toe*
 
 1. Wijs een domein aan de vaardigheid toe. Tijdens het maken van een vaardigheid kunt u deze toewijzen aan de meest relevante vaardigheidsdomeinen die door Learning Manager worden ondersteund. Zie [***Vaardigheid toewijzen aan domeinen***](/help/migrated/administrators/feature-summary/curation-skills.md) voor meer informatie.
 
@@ -43,7 +43,7 @@ Volg de onderstaande stappen om een vaardigheid toe te voegen:
 
    ![](assets/map-domain-with-skills.png)
 
-   *Een domein toevoegen*
+   *voeg een domein* toe
 
 1. Wijs de niveaus aan de vaardigheid toe. Klik op **[!UICONTROL Toevoegen]** om een niveau toe te voegen.
 
@@ -55,7 +55,7 @@ Volg de onderstaande stappen om een vaardigheid toe te voegen:
 
    ![](assets/add-skill-levels.png)
 
-   *Vaardigheidsniveaus toevoegen*
+   *voeg vaardigheidsniveaus* toe
 
    Wanneer u een vaardigheid toevoegt, kunt u ook decimalen aan punten toewijzen. De punten worden tot op twee decimalen weergegeven.
 
@@ -68,7 +68,7 @@ Volg de onderstaande stappen om een vaardigheid toe te voegen:
 
    ![](assets/list-of-skills.png)
 
-   *Lijsten met vaardigheden weergeven*
+   *lijst van de Mening van vaardigheden*
 
 ## Een vaardigheid aan studenten toewijzen {#assigntheskilltolearners}
 
@@ -80,7 +80,7 @@ Nadat u uw vaardigheden hebt gemaakt en opgeslagen, worden deze op de vaardighed
 
    ![](assets/number-of-learnersenrolledtoaskill.png)
 
-   *Studenten weergeven die aan een vaardigheid zijn toegewezen*
+   *de studenten van de mening die aan een vaardigheid* worden toegewezen
 
    In dit voorbeeld voegt u studenten toe voor Niveau 1. Klik op de hyperlink naast Niveau 1.
 
@@ -94,7 +94,7 @@ Nadat u uw vaardigheden hebt gemaakt en opgeslagen, worden deze op de vaardighed
 
    ![](assets/search-and-add-learners.png)
 
-   *Studenten zoeken en toevoegen*
+   *Onderzoek en voeg studenten* toe
 
 1. Klik op **[!UICONTROL Opslaan]** om de wijzigingen op te slaan.
 
@@ -102,7 +102,7 @@ Nadat u uw vaardigheden hebt gemaakt en opgeslagen, worden deze op de vaardighed
 
    ![](assets/turn-off-auto-enrollment.png)
 
-   *Automatische inschrijving uitschakelen*
+   *maak auto-inschrijving* onbruikbaar
 
    Individuele studenten kunnen zichzelf automatisch inschrijven of kunnen door de beheerder worden ingeschreven voor een leerprogramma.
 
@@ -112,7 +112,7 @@ Nadat u uw vaardigheden hebt gemaakt en opgeslagen, worden deze op de vaardighed
 
    ![](assets/learners-assignedtoaskill.png)
 
-   *Aantal studenten dat aan een vaardigheid is toegewezen*
+   *Aantal studenten die aan een vaardigheid* worden toegewezen
 
 ## De vaardigheid aan een cursus toewijzen {#assignskilltocourse}
 
@@ -120,13 +120,13 @@ Nadat u de vaardigheid hebt gemaakt, kan een auteur een cursus maken en de vaard
 
 ![](assets/assign-skill-to-acourse.png)
 
-*Vaardigheden aan een cursus toewijzen*
+*wijs vaardigheden aan een cursus* toe
 
 Nadat de auteur de cursus op de pagina **[!UICONTROL Vaardigheid]** heeft gepubliceerd, ziet u het aantal cursussen dat aan een vaardigheidsniveau is gekoppeld. Dit wordt verhoogd wanneer u de vaardigheid aan een nieuwe cursus toewijst.
 
 ![](assets/skill-assigned-tothecourse.png)
 
-*Aantal cursussen gekoppeld aan vaardigheidsniveau*
+*Aantal cursussen verbonden aan een vaardigheidsniveau*
 
 ## Een taakhulp aan de vaardigheid toewijzen {#assignajobaidtotheskill}
 
@@ -136,13 +136,13 @@ Wanneer een auteur een taakhulp maakt, kan hij/zij hier een vaardigheidsniveau a
 
 ![](assets/create-a-job-aid.png)
 
-*Een taakhulp maken*
+*creeer een Hulp van de Baan*
 
 Op de pagina **[!UICONTROL Vaardigheid]** ziet u het aantal taakhulpen dat aan dat vaardigheidsniveau is gekoppeld.
 
 ![](assets/job-aid-assignedtotheskill.png)
 
-*Aantal taakhulpen van een vaardigheid*
+*Aantal Hulp van de Baan van een vaardigheid*
 
 ## Vaardigheid zoeken {#searchskill}
 
@@ -152,7 +152,7 @@ U kunt op de pagina Vaardigheden zowel in de secties **[!UICONTROL Actief]** als
 
 ## Vaardigheid bewerken {#editaskill}
 
-Klik op de pagina **[!UICONTROL Vaardigheid]** op de vaardigheid die u wilt wijzigen. In het dialoogvenster **[!UICONTROL Vaardigheid bewerken]** de vereiste wijzigingen aan te brengen, bijvoorbeeld
+Klik op de pagina **[!UICONTROL Vaardigheid]** op de vaardigheid die u wilt wijzigen. In de **[!UICONTROL Edit dialoog van de Vaardigheid]**, breng de vereiste veranderingen aan, bijvoorbeeld:
 
 * Een vaardigheidsdomein toevoegen of verwijderen.
 * De naam en beschrijving van de vaardigheid opgeven.
@@ -191,7 +191,7 @@ U kunt een vaardigheid alleen verwijderen als deze niet aan studenten of cursuss
 
 Voeg een CSV-bestand toe dat bestaat uit de vaardigheden van docenten. Deze vaardigheden worden vervolgens toegevoegd aan de lijst met vaardigheden.
 
-1. Selecteer in de rechterbovenhoek van het scherm **[!UICONTROL Toevoegen]** > **[!UICONTROL Vaardigheden toewijzen aan docent]**.
+1. Op de hoger-juiste hoek van het scherm, uitgezocht **[!UICONTROL voeg]** toe > **[!UICONTROL wijs vaardigheden aan instructeur]** toe.
 1. Een CSV uploaden. De kolommen in CSV zijn:
 
    * Vaardigheidsnaam
@@ -202,30 +202,30 @@ Voeg een CSV-bestand toe dat bestaat uit de vaardigheden van docenten. Deze vaar
 
    Klik op Opslaan.
 
-   ![CSV-vaardigheden voor docenten toevoegen](assets/instructor-skills.png)
+   ![ voeg instructeursvaardigheden CSV ](assets/instructor-skills.png) toe
 
-   *Docentvaardigheden toevoegen vanuit een CSV*
+   *voeg instructeursvaardigheden van een CSV* toe
 
 1. Er verschijnt een bevestigingspop-upbericht.
 
    Opmerking: het volgende foutbericht verschijnt als de CSV onjuiste velden heeft.
 
-   ![Foutbericht als CSV onjuiste velden heeft](assets/error-csv-upload.png)
+   ![ bericht van de Fout als CSV onjuiste gebieden ](assets/error-csv-upload.png) heeft
 
-   *Foutbericht voor onjuiste velden*
+   *bericht van de Fout voor onjuiste gebieden*
 
 ### Pagina Vaardigheden
 
 Op de pagina Vaardigheden is er een kolom met de naam Docenten, die het aantal docenten aangeeft dat aan een vaardigheid is toegewezen. Als u op het aantal docenten klikt, wordt er een pop-up weergegeven met daarin de docenten die aan de vaardigheid zijn toegewezen.
 
-![Vaardigheden toegewezen aan docenten](assets/instructor-skill-assigned.png)
+![ Vaardigheden die aan instructeurs ](assets/instructor-skill-assigned.png) worden toegewezen
 
-*Pagina Vaardigheden*
+*pagina van Vaardigheden*
 
 ### CSV downloaden voor vaardigheidstoewijzing
 
-1. Klik op de pagina Vaardigheden op **[!UICONTROL Toevoegen]** > **[!UICONTROL Vaardigheden toewijzen aan docent]**.
-1. Klik op **[!UICONTROL Eerder toegevoegde toewijzing]**.
+1. Op de pagina van Vaardigheden, voeg **[!UICONTROL toe]** > **[!UICONTROL wijs Vaardigheden aan instructeur]** toe.
+1. Voor de dialoog, klik **[!UICONTROL eerder Toevoeging]** toevoegde.
 1. De CSV die u het laatst hebt geüpload, wordt gedownload.
 
 >[!NOTE]
@@ -283,4 +283,4 @@ Met andere woorden, om de badge te behalen, **moet de student het bijbehorende L
 
 ### Verwante informatie
 
-* [Vaardigheden en Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
+* [ Vaardigheden en Adobe Learning Manager ](https://elearning.adobe.com/2018/11/skills-captivate-prime/)

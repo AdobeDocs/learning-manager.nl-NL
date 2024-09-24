@@ -4,9 +4,9 @@ title: Witte labels in de mobiele app van Adobe learning Manager
 description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,7 @@ De `<root>` omslag bevat het {**dossier 1} Runner.xcarchive.zip.** Voer de onder
    ```
 
 6. Zoek het .ipa-bestand in de map ipa_path.
-7. Upload het .ipa-bestand naar de Diawi-website.
+7. Upload het .ipa-bestand naar de `Diawi` -website.
 8. Zodra volledig geupload, selecteer **[!UICONTROL verzend]** knoop.
 9. Na voltooiing, zult u een QR code en een verbinding ontvangen.
 10. Open de QR-code of de koppeling rechtstreeks in Safari.
