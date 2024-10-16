@@ -3,10 +3,10 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de juli
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
-source-wordcount: '2255'
-ht-degree: 3%
+source-wordcount: '2325'
+ht-degree: 2%
 
 ---
 
@@ -231,6 +231,12 @@ API&#39;s die sorteren op datum en datum ondersteunen, geven resultaten weer op 
 ### Wijzigingen in verschuivingslimieten
 
 Om systeemprestaties te verbeteren en middelgebruik effectiever te beheren, heeft de Adobe hoge compensatiewaarden in het GET /users eindpunt voor zowel het werkingsgebied ADMIN als LEARNER vervangen. We raden u aan de Jobs API te gebruiken om de records met een verschuivingswaarde op te halen.
+
+### Wijzigingen in RPM en burstbeperking
+
+In deze release zijn voor alle API&#39;s RPM (Requests per minuut) en burst-limieten toegevoegd. U kunt de maximale RPM voor elke API op de Swagger-pagina controleren.
+
+RPM is het aantal verzoeken dat u in één minuut naar de API-server kunt verzenden. De burst limit staat een hoger aantal verzoeken voor een korte tijd toe, die verder gaan dan de gebruikelijke tarieflimiet.
 
 ### Verouderde API&#39;s
 

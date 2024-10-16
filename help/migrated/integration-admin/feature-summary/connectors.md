@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager-connectoren
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 4b6426f836b345421401103db0f14c353323c3fc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -2103,7 +2103,7 @@ Verbindingsnaam en domeinnaam typen
 1. Selecteer het **[!UICONTROL Type van interface]** van de volgende opties:
 
    * **[!UICONTROL Inheemse Lerende Manager]**: Dit is het standaardaanbod, dat slechts voor inheemse interface beschikbaar is.
-***[!UICONTROL Headless interfaces]**: Dit is de premium aanbieding die APIs blootstelt om een niet-het programma geopende ervaring te bouwen.
+   * **[!UICONTROL Headless interfaces]**: Dit is de premium aanbieding die API&#39;s blootstelt aan het bouwen van een niet-aangemelde ervaring.
 
    ![](assets/types-of-interface.png)
 Typen interface
