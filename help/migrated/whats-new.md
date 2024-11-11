@@ -2,7 +2,7 @@
 description: Meer informatie over de nieuwe functies en verbeteringen in de november 2024-versie van Adobe Learning Manager
 jcr-language: en_us
 title: Overzicht van nieuwe functies
-source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
+source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
 workflow-type: tm+mt
 source-wordcount: '3034'
 ht-degree: 2%
@@ -223,7 +223,7 @@ Hier volgen de voorwaarden voor de nieuwe kolommen:
 3. `quizData`:
 
    * Het gegevenstype moet een tekenreekswaarde zijn en de ondersteunde waarden zijn `QUIZ_ATTEMPTED` , `QUIZ_PASSED` en `QUIZPASSED_OR_LIMITREACHED` .
-   * Als `completionCriteria` is ingesteld op `QUIZ` , voert u de desbetreffende quizwaarde in deze kolom in of laat u deze leeg.
+   * Als `completionCriteria` is ingesteld op `QUIZ` , voert u de desbetreffende quizwaarde in de kolom `quizData` in.
 
 Verwijs [ module_version csv specificc ](assets/4-module_version.xlsx) dossier voor meer informatie.
 
@@ -239,7 +239,7 @@ Hier volgen de voorwaarden voor de kolom `completionCriteria` :
 * Als u `completionCriteria` aan `SELECTEDMODULES` plaatst, moet u de verplichte modules in het {](assets/course_module.csv) dossier 2} course_module.csv merken.[
 * Typ `TRUE` of `FALSE` in de kolom `optionalCriteria` . Als u de waarde instelt als `TRUE` , wordt de module verplicht.
 
-Verwijs ](assets/3-course.xlsx) dossier van 0} cursus csv spec {voor meer informatie.[
+Verwijs [ cursus csv spec ](assets/3-course.xlsx) en [ course_module csv spec ](assets/6-course_module.xlsx) dossier voor meer informatie.
 
 ## API-wijzigingen
 
