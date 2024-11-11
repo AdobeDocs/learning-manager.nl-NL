@@ -2,7 +2,7 @@
 jcr-language: en_us
 title: AI-gedreven zoekfunctie in Adobe Learning Manager
 description: Meer informatie over de door AI aangestuurde zoekfunctie in Adobe Learning Manager
-source-git-commit: c23a8f958910b130a1e8591c97d323523f864f1b
+source-git-commit: 9005b77444135c2709ca3fc68b9bdd725f521290
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -21,7 +21,7 @@ _Contextuele onderzoeksresultaten die op AI_ worden gebaseerd
 
 In het scherm hierboven, wanneer wij naar **Photoshop zoeken begonnen wordt**, toont het AI-gedreven onderzoek de meest nauwkeurige resultaten voor dat sleutelwoord.
 
-Met deze functie kunt u uw inhoud en cursustitels, beschrijvingen, tags, gepersonaliseerde notities en andere metagegevens doorzoeken. Het algoritme transcripteert en zoekt automatisch binnen het transcript naar inhoudstypen zoals Video, PDF en zelfs opnamen van Adobe Connect-sessies.
+Met deze functie kunt u uw inhoud en cursustitels, beschrijvingen, tags, gepersonaliseerde notities en andere metagegevens doorzoeken. Het algoritme transcripeert en zoekt automatisch recht binnen het transcript naar inhoudstypes zoals Video, PDF, en zelfs opnamen van **Adobe Connect** zittingen.
 
 Het algoritme gebruikt geavanceerde AI en NLP (Natural Language Processing) om de zoekquery te begrijpen, de essentiële trefwoorden te markeren en logischerwijze de andere zinnen uit de doorzochte query uit te breiden. Deze queryuitbreiding versterkt relevante termen en semantisch gerelateerde context om cursussen, certificaten of leerpaden intelligenter op te halen. De semantische zoekopdracht ondersteunt momenteel alleen Engelse inhoud.
 
