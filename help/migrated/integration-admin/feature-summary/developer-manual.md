@@ -4,10 +4,10 @@ title: Handleiding voor toepassingsontwikkelaars
 description: Versie 1 van de Learning Manager-API is nu verouderd. De API's van versie 1 werken niet meer vanaf 28 februari 2021. We raden u aan om V2 API's te gebruiken voor interactie met Learning Manager.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
 workflow-type: tm+mt
-source-wordcount: '3385'
-ht-degree: 62%
+source-wordcount: '3377'
+ht-degree: 63%
 
 ---
 
@@ -30,11 +30,11 @@ Met behulp van Learning Manager-API kunnen ontwikkelaars autonome toepassingen b
 
 De Learning Manager-API is gebaseerd op de principes van REST en maakt belangrijke elementen van het Learning Manager-objectmodel beschikbaar voor ontwikkelaars van toepassingen via HTTP. Voordat ze volledig op de hoogte zijn van de API-eindpunten en HTTP-methoden kunnen ontwikkelaars eerst vertrouwd raken met de verschillende Learning Manager-objecten, hun attributen en onderlinge relaties. Nadat een inzicht in de modellen is verworven, is het handig om enige basiskennis van de structuur van API-verzoeken en -reacties op te doen, evenals van enkele gemeenschappelijke programmeertermen die we algemeen ondersteunen in de API.
 
-Raadpleeg voor meer informatie over de verschillende API-eindpunten en -methoden de  [API-documentatie van Learning Manager](https://learningmanager.adobe.com/docs/primeapi/v2/).
+Voor details van de diverse API eindpunten en methodes, verwijs naar de [ het Leren API documentatie van de Manager ](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
 ## Student-API&#39;s
 
-Leermanager Adobe - Met API&#39;s voor studenten kunt u een aangepaste leerervaring voor uw gebruikers maken. Het gebruik van deze API&#39;s vereist een geldig gebruikerstoken en moet alleen worden gebruikt voor workflows waarbij een volledig gelicentieerde/geregistreerde student aanwezig is.
+Adobe Learning Manager - Met API&#39;s voor studenten kunt u een aangepaste leerervaring voor uw gebruikers maken. Het gebruik van deze API&#39;s vereist een geldig gebruikerstoken en moet alleen worden gebruikt voor workflows waarbij een volledig gelicentieerde/geregistreerde student aanwezig is.
 
 >[!IMPORTANT]
 >
@@ -42,7 +42,7 @@ Leermanager Adobe - Met API&#39;s voor studenten kunt u een aangepaste leerervar
 
 Voor de niet-aangemelde gebruiksscenario&#39;s is een speciale afhandeling vereist.
 
-**Bereik aan het team van de Architectuur van de Oplossing, voor het geval u om het even welke vragen over het aangewezen gebruik van deze APIs hebt en ervoor zorgt dat een Architect van de Oplossing een oplossing heeft onderzocht alvorens u het opstelt**.
+**Bereik uit aan het team van de Architectuur van de Oplossing, voor het geval u om het even welke vragen over het aangewezen gebruik van deze APIs hebt en ervoor zorgt dat een Architect van de Oplossing een oplossing heeft onderzocht alvorens u het opstelt**.
 
 ## API-verificatie {#apiauthentication}
 
@@ -52,7 +52,7 @@ Learning Manager xAPI gebruikt OAuth 2.0 framework om uw cliëntapplicaties te v
 
 **Procedure**
 
-**1. Uw toepassing instellen**
+**1. Opstelling uw toepassing**
 
 U kunt uw toepassing instellen met de client-ID en het clientgeheim om de juiste eindpunten te gebruiken. Zodra u uw toepassing registreert, kunt u clientId en clientSecret krijgen. U gebruikt GET URL in uw browser omdat deze de Learning Manager-gebruikers authenticeert met behulp van hun vooraf geconfigureerde accounts zoals SSO, Adobe ID enzovoort.
 
@@ -81,7 +81,7 @@ client_id:
 </enter>
 ```
 
-**3.** **Verkrijg een toegangstoken van vernieuwingstoken**
+**3.** **verkrijg een toegangstoken van vernieuwingstoken**
 
 URL om toegangstoken te verkrijgen:
 
@@ -116,7 +116,7 @@ Enkele van de meestgebruikte termen in Learning Manager-API worden hieronder uit
 
 **Inclusief**
 
-Ontwikkelaars hebben toegang tot één API-objectmodel en ook tot meerdere modellen die bij dat model horen. Om toegang te krijgen tot de volgende gerelateerde modellen, moet u de relatie van elk model met andere modellen begrijpen. **Omvat** parameter laat ontwikkelaars toe om tot de afhankelijke modellen toegang te hebben. U kunt een kommascheidingsteken gebruiken om toegang te krijgen tot meerdere modellen. Voor voorbeeldgebruik en meer informatie over **include**, raadpleeg de voorbeeldsectie voor het API-model op deze pagina.
+Ontwikkelaars hebben toegang tot één API-objectmodel en ook tot meerdere modellen die bij dat model horen. Om toegang te krijgen tot de volgende gerelateerde modellen, moet u de relatie van elk model met andere modellen begrijpen. **omvat** parameter laat ontwikkelaars toe om tot de afhankelijke modellen toegang te hebben. U kunt een kommascheidingsteken gebruiken om toegang te krijgen tot meerdere modellen. Voor steekproefgebruik en meer details op **omvat**, verwijs naar de modelsectie van steekproefAPI in deze pagina.
 
 **API-verzoek**
 
@@ -124,7 +124,7 @@ De API-verzoeken kunnen worden gedaan door een HTTP-verzoek in te dienen. Afhank
 
 **API-respons**
 
-Wanneer een API-verzoek wordt gedaan door een klant, wordt een SON-document verkregen volgens de JSON API-specificatie. De reactie bevat ook de HTTP-statuscode, die de ontwikkelaar kan verifiëren om de juiste volgende stappen in zijn toepassingslogica uit te voeren. De structuur van een typische API-respons wordt beschreven in  [voorbeeldmodelgebruik](#main-pars_header_1415780624).
+Wanneer een API-verzoek wordt gedaan door een klant, wordt een SON-document verkregen volgens de JSON API-specificatie. De reactie bevat ook de HTTP-statuscode, die de ontwikkelaar kan verifiëren om de juiste volgende stappen in zijn toepassingslogica uit te voeren. De structuur van een typische API Reactie wordt beschreven in [ gebruik van het steekproefmodel ](#main-pars_header_1415780624).
 
 **Fouten**
 
@@ -132,9 +132,9 @@ Wanneer een API-verzoek mislukt, wordt een Foutreactie verkregen. De HTTP-status
 
 **Velden**
 
-De attributen van API-objecten en hun relatie worden gezamenlijk velden genoemd. Raadpleeg de [JSON API voor meer informatie.](http://jsonapi.org/format/#document-resource-object-fields) U kunt Velden als parameter gebruiken terwijl u API-aanroepen doet om een of meer specifieke kenmerken van het model op te halen. Bij afwezigheid van de parameter Velden, haalt de API-aanroep alle beschikbare attributen van het model op. In de volgende API-aanroep worden bijvoorbeeld velden[vaardigheid]=name haalt u het naamkenmerk van het vaardigheidsmodel alleen op.
+De attributen van API-objecten en hun relatie worden gezamenlijk velden genoemd. Raadpleeg de [JSON API voor meer informatie.](http://jsonapi.org/format/#document-resource-object-fields) U kunt Velden als parameter gebruiken terwijl u API-aanroepen doet om een of meer specifieke kenmerken van het model op te halen. Bij afwezigheid van de parameter Velden, haalt de API-aanroep alle beschikbare attributen van het model op. Bijvoorbeeld, in de volgende API vraag, haalt de gebieden [ vaardigheid ]=name u het naamattribuut van het vaardigheidsmodel alleen.
 
-https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
+`https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name `
 
 **Paginering**
 
@@ -142,7 +142,7 @@ Soms resulteert een API-verzoek in een lange lijst van objecten die in de reacti
 
 **Sorteren**
 
-Sorteren is toegestaan in API-modellen. Kies op basis van het model het type sortering dat op de resultaten moet worden toegepast. Sorteren kan oplopend of aflopend worden toegepast. Als u bijvoorbeeld `code sort=name`, dan wordt er oplopend gesorteerd op naam. Als u `code sort=-name`, wordt er aflopend gesorteerd op naam. Raadpleeg [JSON API-specificaties voor meer informatie](http://jsonapi.org/format/#fetching-sorting).
+Sorteren is toegestaan in API-modellen. Kies op basis van het model het type sortering dat op de resultaten moet worden toegepast. Sorteren kan oplopend of aflopend worden toegepast. Als u bijvoorbeeld `code sort=name` opgeeft, wordt oplopend gesorteerd op naam. Als u `code sort=-name` opgeeft, wordt er aflopend gesorteerd op naam. Verwijs naar [ JSON API specificaties voor meer informatie ](http://jsonapi.org/format/#fetching-sorting).
 
 ## API-gebruiksillustratie {#samplemodel}
 
@@ -150,7 +150,7 @@ Laten we een scenario overwegen waarbij een ontwikkelaar vaardigheidsnaam, maxim
 
 Een userSkill-model in Learning Manager-API&#39;s heeft id, type, dateAchieved, dateCreated en pointsEarned als standaardattributen. Dus, wanneer een ontwikkelaar de GET-methode gebruikt om details van userSkill-model te verkrijgen, worden de huidige gegevens met betrekking tot de standaardattributen getoond in de responsuitvoer.
 
-Maar in dit scenario wil de ontwikkelaar de naam van de vaardigheid en het vaardigheidsniveau van de gebruiker weten. Learning Manager-API stelt u in staat om toegang te krijgen tot deze gerelateerde informatie met behulp van relatievelden en de parameter include. De bijbehorende modellen voor userSkill worden verkregen in relatietags. U kunt de details van elk van de bijbehorende modellen opvragen door deze modellen samen met de userSkill op te roepen. Voor deze informatie gebruikt u **`code include`** parameter met door punt (punt) gescheiden waarden voor elk van de bijbehorende modellen. U kunt een komma als scheidingsteken gebruiken om een ander model aan te vragen, zoals user include=skillLevel.skill,course
+Maar in dit scenario wil de ontwikkelaar de naam van de vaardigheid en het vaardigheidsniveau van de gebruiker weten. Learning Manager-API stelt u in staat om toegang te krijgen tot deze gerelateerde informatie met behulp van relatievelden en de parameter include. De bijbehorende modellen voor userSkill worden verkregen in relatietags. U kunt de details van elk van de bijbehorende modellen opvragen door deze modellen samen met de userSkill op te roepen. Gebruik voor deze informatie de parameter **`code include`** met door punten (punten) gescheiden waarden voor elk van de bijbehorende modellen. U kunt een komma als scheidingsteken gebruiken om een ander model aan te vragen, zoals user include=skillLevel.skill,course
 
 **API-aanroep**
 
@@ -406,11 +406,11 @@ Hieronder volgen de verschillende elementen van het Learning Manager-klasdiagram
   </tr>
   <tr>
    <td>resource</td>
-   <td>Leermiddel wordt gebruikt voor het modelleren van elke inhoudsbron die voor een module moet worden geordend. Alle bronnen ingekapseld in <code>
+   <td>Leermiddel wordt gebruikt voor het modelleren van elke inhoudsbron die voor een module moet worden geordend. Alle bronnen die zijn ingekapseld in <code>
      an
     </code> <code>
      loResource
-    </code> zijn gelijkwaardig in termen van het leerdoel, maar verschillen van elkaar in termen van leveringstype of landinstelling van inhoud.<br></td>
+    </code> , zijn equivalent in termen van het leerdoel, maar verschillen van elkaar in termen van leveringstype of landinstelling van inhoud.<br></td>
   </tr>
   <tr>
    <td>userNotification</td>
@@ -422,11 +422,11 @@ Hieronder volgen de verschillende elementen van het Learning Manager-klasdiagram
   </tr>
   <tr>
    <td>userBadge</td>
-   <td>UserBadge koppelt een enkele badge <code>
+   <td>UserBadge koppelt één badge <code>
      with
-    </code> één gebruiker. Het bevat details zoals wanneer het werd bereikt, <code>
+    </code> aan één gebruiker. Het bevat details zoals wanneer het werd bereikt, <code>
      assertionUrl
-    </code> enzovoort. <br></td>
+    </code> etc. <br></td>
   </tr>
   <tr>
    <td>skill</td>
@@ -448,19 +448,19 @@ Hieronder volgen de verschillende elementen van het Learning Manager-klasdiagram
   </tr>
   <tr>
    <td>learningObjectResource</td>
-   <td>Dit komt overeen met het concept <code>
+   <td>Dit is gelijk aan het concept <code>
      module
-    </code>. Een cursus bestaat uit één <code>
+    </code> . Een cursus bestaat uit een <code>
      of
-    </code> meer modules. In Learning Manager kan een module op verschillende gelijkwaardige manieren worden geleverd. Daarom <code>
+    </code> of meer modules. In Learning Manager kan een module op verschillende gelijkwaardige manieren worden geleverd. Daarom omvat <code>
      loResource
-    </code> omvat in wezen al die gelijkwaardige middelen.<br></td>
+    </code> in feite al die gelijkwaardige middelen.<br></td>
   </tr>
   <tr>
    <td>loResourceGrade<br></td>
-   <td>Dit vat het resultaat samen van de gebruiker die een specifieke bron gebruikt in de context van een leerobject waarvoor hij/zij is ingeschreven. Het bevat informatie zoals de duur die door <code>
+   <td>Dit vat het resultaat samen van de gebruiker die een specifieke bron gebruikt in de context van een leerobject waarvoor hij/zij is ingeschreven. Deze bevat informatie zoals de duur die <code>
      user
-    </code> in de resource, de procentuele voortgang die de gebruiker heeft geboekt, de status geslaagd/gezakt en de score die de gebruiker heeft behaald in een bijbehorende quiz.<br></td>
+    </code> in de bron heeft doorgebracht, de procentuele voortgang die de gebruiker heeft gemaakt, de status geslaagd/gezakt en de score die de gebruiker in een gekoppelde quiz heeft behaald.<br></td>
   </tr>
   <tr>
    <td>calendar<br></td>
@@ -485,7 +485,7 @@ Lijst met objectkenmerken en -relaties.
 
 +++account
 
-**Kenmerken**
+**Attributen**
 dateCreated\
 gamificationEnabled\
 op\
@@ -497,7 +497,7 @@ subdomein\
 themeData\
 timeZoneCode
 
-**Relaties**
+**Verhoudingen**
 contentLocales(localizationMetadata)\
 gamificationLevels(gamificationLevel)\
 timeZones(timeZone)\
@@ -507,7 +507,7 @@ uiLocales(localizationMetadata)
 
 +++badge
 
-**Kenmerken**
+**Attributen**
 id\
 imageUrl\
 name\
@@ -517,7 +517,7 @@ status
 
 +++catalogus
 
-**Kenmerken**
+**Attributen**
 dateCreated\
 dateUpdated\
 beschrijving\
@@ -532,7 +532,7 @@ status
 
 +++data
 
-**Kenmerken**
+**Attributen**
 id\
 names
 
@@ -540,7 +540,7 @@ names
 
 +++gamification
 
-**Kenmerken**
+**Attributen**
 kleur\
 name\
 punten
@@ -549,7 +549,7 @@ punten
 
 +++learningObject
 
-**Kenmerken**
+**Attributen**
 authorNames\
 dateCreated\
 datePublished\
@@ -564,7 +564,7 @@ loType\
 status\
 tags
 
-**Relaties**
+**Verhoudingen**
 auteurs (gebruiker)\
 enrollment(learningObjectInstanceEnrollment)\
 instances(learningObjectInstance)\
@@ -578,7 +578,7 @@ additionalResources(resource)
 
 +++learningObjectInstance
 
-**Kenmerken**
+**Attributen**
 completionDeadline\
 dateCreated\
 enrollmentCount\
@@ -588,7 +588,7 @@ seatLimit\
 status\
 geldigheid
 
-**Relaties**
+**Verhoudingen**
 badge(badge)\
 l1FeedbackInfo(feedbackInfo)\
 learningObject(learningObject)\
@@ -600,7 +600,7 @@ subLoInstance(learningObjectInstance)
 
 +++learningObjectInstanceEnrollment
 
-**Kenmerken**
+**Attributen**
 dateCompleted\
 dateEnrolled\
 dateStarted\
@@ -610,7 +610,7 @@ progressPercent\
 score\
 status
 
-**Relaties**
+**Verhoudingen**
 student (gebruiker)\
 learnerBadge(userBadge)\
 learningObject(learningObject)\
@@ -621,14 +621,14 @@ loResourceGrades(learningObjectResourceGrade)
 
 +++learningObjectResource
 
-**Kenmerken**
+**Attributen**
 externalReporting\
 op\
 loResourceType\
 resourceType\
 versie
 
-**Relaties**
+**Verhoudingen**
 learningObject(learningObject)\
 loInstance(learningObjectInstance)\
 localizedMetadata(localizationMetadata)\
@@ -638,7 +638,7 @@ resources (resource)
 
 +++learningObjectResourceGrade
 
-**Kenmerken**
+**Attributen**
 dateCompleted\
 dateStarted\
 dateSuccess\
@@ -648,17 +648,17 @@ op\
 progressPercent\
 score
 
-**Relaties**
+**Verhoudingen**
 loResource(learningObjectResource)
 
 +++
 
 +++learningObjectSkill
 
-**Kenmerken**
+**Attributen**
 credits\
 op\
-**Relaties**
+**Verhoudingen**
 learningObject(learningObject)\
 skillLevel(skillLevel)
 
@@ -666,18 +666,18 @@ skillLevel(skillLevel)
 
 +++aanbeveling
 
-**Kenmerken**
+**Attributen**
 id\
 reden
 
-**Relaties**
+**Verhoudingen**
 learningObject(learningObject)
 
 +++
 
 +++resource
 
-**Kenmerken**
+**Attributen**
 authorDesiredDuration\
 completionDeadline\
 contentStructureInfoUrl\
@@ -706,25 +706,25 @@ seatLimit
 
 +++skill
 
-**Kenmerken**
+**Attributen**
 beschrijving\
 op\
 name\
 status
 
-**Relaties**
+**Verhoudingen**
 niveaus (skillLevel)
 
 +++
 
 +++skillLevel
 
-**Kenmerken**
+**Attributen**
 id\
 niveau\
 maxCredits\
 name\
-**Relaties**
+**Verhoudingen**
 badge(badge)\
 skill(skill)
 
@@ -732,7 +732,7 @@ skill(skill)
 
 +++gebruiker
 
-**Kenmerken**
+**Attributen**
 avatarUrl\
 bio\
 contentLocale\
@@ -747,7 +747,7 @@ status\
 timeZoneCode\
 uiLocale
 
-**Relaties**
+**Verhoudingen**
 account(account)\
 manager(gebruiker)
 
@@ -755,13 +755,13 @@ manager(gebruiker)
 
 +++userBadge
 
-**Kenmerken**
+**Attributen**
 assertionUrl\
 dateAchieved\
 op\
 modelType
 
-**Relaties**
+**Verhoudingen**
 badge(badge)\
 student (gebruiker)\
 model (learningObject)
@@ -770,7 +770,7 @@ model (learningObject)
 
 +++userCalendar
 
-**Kenmerken**
+**Attributen**
 cursus\
 courseType\
 dateStart\
@@ -779,7 +779,7 @@ op\
 maand\
 kwartaal
 
-**Relaties**
+**Verhoudingen**
 containerLO (learningObject)\
 course (learningObject)
 
@@ -787,7 +787,7 @@ course (learningObject)
 
 +++userNotification
 
-**Kenmerken**
+**Attributen**
 actiontaken\
 kanaal\
 dateCreated\
@@ -803,13 +803,13 @@ rol
 
 +++userSkill
 
-**Kenmerken**
+**Attributen**
 dateAchieved\
 dateCreated\
 op\
 pointsEarned
 
-**Relaties**
+**Verhoudingen**
 learnerBadge(userBadge)\
 learningObject(learningObject)\
 skillLevel(skillLevel)\
@@ -825,17 +825,17 @@ Als ontwikkelaar moet u een proefaccount bij Learning Manager aanmaken, zodat u 
 
 ## Maak client-ID en -geheim {#createclientidandsecret}
 
-1. In **Integratiebeheerder** aanmelden, klikken **[!UICONTROL Toepassingen]** in het linkerdeelvenster.
+1. In **login van Admin van de Integratie**, klik **[!UICONTROL Toepassingen]** op de linkerruit.
 
    ![](assets/application-development-menu.png)
 
-   *Toepassingen selecteren op integratiebeheerder*
+   *Uitgezochte Toepassingen op de Admin van de Integratie*
 
-1. Klikken **[!UICONTROL Registreren]** rechtsboven op de pagina om uw toepassingsgegevens te registreren. Registratiepagina verschijnt.
+1. Klik **[!UICONTROL Register]** bij de hoger-juiste hoek van de pagina om uw toepassingsdetails te registreren. Registratiepagina verschijnt.
 
    ![](assets/register-application.png)
 
-   *De toepassing registreren*
+   *Registreer de toepassing*
 
    Het is verplicht om alle velden op deze pagina in te vullen.
 
@@ -843,17 +843,17 @@ Als ontwikkelaar moet u een proefaccount bij Learning Manager aanmaken, zodat u 
 
    **URL**: als u de exacte URL weet waar de toepassing gehost wordt, kunt u deze vermelden. Als u die niet weet, kunt u de URL van uw bedrijf vermelden. Geldige URL-naam is verplicht in dit veld.
 
-   **Doorstuurdomeinen**: voer de domeinnaam in van de toepassing waarnaar u de Learning Manager-toepassing na de OAuth-authenticatie wilt omleiden. U kunt hier meerdere URL&#39;s vermelden, maar u moet wel geldige URL&#39;s gebruiken, zoals `http://google.com`, `http://yahoo.com` enzovoort.
+   **Doorstuurdomeinen**: voer de domeinnaam in van de toepassing waarnaar u de Learning Manager-toepassing na de OAuth-authenticatie wilt omleiden. U kunt hier meerdere URL&#39;s vermelden, maar u moet wel geldige URL&#39;s gebruiken, zoals `http://google.com` , `http://yahoo.com` , enzovoort.
 
-   **Omschrijving:** Voer een korte beschrijving in voor uw toepassing.
+   **Beschrijving:** ga de korte beschrijving voor uw toepassing in.
 
-   **Bereiken:** Kies een van de vier beschikbare opties om het bereik van uw toepassing te definiëren. Op basis van uw hier vermelde keuze zijn Learning Manager-API-eindpunten toegankelijk voor uw toepassing. Als u bijvoorbeeld **Leestoegang studentrol** en zijn alle API-eindpunten voor studenten van de Learning Manager alleen-lezen voor uw toepassing toegankelijk.
+   **Bereiken:** kies één van de vier beschikbare opties om het werkingsgebied van uw toepassing te bepalen. Op basis van uw hier vermelde keuze zijn Learning Manager-API-eindpunten toegankelijk voor uw toepassing. Bijvoorbeeld, als u **de rol van de Student leest toegang** kiest, dan zijn alle het eindAPI van de Leermanager punten read-only toegankelijk voor uw toepassing.
 
-   **Alleen voor dit account?**\
-   **Ja** - als u Ja kiest, is de toepassing niet zichtbaar voor andere accountbeheerders.\
-   **Nee** - als u Nee kiest, kunnen andere accountbeheerders deze toepassing ook openen, maar ze moeten de toepassings-id gebruiken om toegang te krijgen tot deze toepassing. Toepassings-id wordt gegenereerd en weergegeven in de bewerkingsmodus van de Learning Manager-toepassing.
+   **slechts voor deze rekening?**\
+   **ja** - als u ja kiest, dan is de toepassing niet zichtbaar aan andere accountbeheerders.\
+   **Nr** - als u Nr kiest, kunnen andere accountbeheerders tot deze toepassing ook toegang hebben maar zij moeten toepassings identiteitskaart gebruiken om tot deze toepassing toegang te hebben. Toepassings-id wordt gegenereerd en weergegeven in de bewerkingsmodus van de Learning Manager-toepassing.
 
-   Als u **Beheerdersrol lees- en schrijftoegang** als bereik tijdens de registratie van de toepassing en kies **Leestoegang beheerdersrol** tijdens het ontwerpen van de API&#39;s kunt u nog steeds schrijftoegang voor de toepassing hebben, aangezien het registratiebereik van de app de autorisatieworkflow vervangt.
+   Als u {de rol van 0} Admin lees en schrijf toegang **als werkingsgebied terwijl het registreren van de toepassing kiest en** rol Admin leest toegang **terwijl het ontwerpen van APIs, kunt u nog schrijftoegang voor de toepassing hebben aangezien het werkingsgebied van de toepassingsregistratie het vergunningswerkschema vervangt.**
 
 1. Klik na het invullen van de gegevens op de registratiepagina op **[!UICONTROL Registreren]** in de rechterbovenhoek.
 
@@ -867,11 +867,11 @@ We raden aan dat de Learning Manager-beheerder of een integratiebeheerder voor h
 
 ## Externe goedkeuring van de toepassing {#externalapplicationapproval}
 
-U kunt externe toepassingen toevoegen door op **Goedkeuren** in de rechterbovenhoek van het deelvenster **Toepassingen** pagina. Geef de externe toepassings-ID op en klik op **Opslaan.**
+U kunt externe toepassingen toevoegen door **te klikken keurt** in de hoger-juiste hoek van de **pagina van Toepassingen** goed. Geef de externe toepassings-ID op en klik op **Opslaan.**
 
 ![](assets/add-external-application.png)
 
-*Een externe toepassing toevoegen en goedkeuren*
+*voeg en keur een externe toepassing toe*
 
 ## Veelgestelde vragen
 

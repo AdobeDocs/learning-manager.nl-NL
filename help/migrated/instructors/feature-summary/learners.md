@@ -3,14 +3,13 @@ description: Lees dit artikel voor informatie om deelnemers te beheren en e-mail
 jcr-language: en_us
 title: Studenten beheren voor uw sessie
 contentowner: shhivkum
-source-git-commit: c4ea252656bfbe86a0d69ffdb21dba46783d5848
+exl-id: 2f4f8589-2350-4683-a141-809084d6309a
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 91%
+source-wordcount: '1029'
+ht-degree: 84%
 
 ---
-
-
 
 # Studenten beheren voor uw sessie
 
@@ -20,7 +19,7 @@ Lees dit artikel voor informatie om deelnemers te beheren en e-mails over cursus
 
 Als docent kunt u de sessies of modules met lopende beoordelingen zien.
 
-Op de pagina Sessies/Modules ziet u een kolom **Revisies in behandeling** Dit toont het aantal openstaande beoordelingen voor de bijbehorende sessie/activiteit.
+Voor de pagina van Zittingen/van Modules, kunt u een kolom **In afwachting van Recensies** zien die het aantal hangende revisies voor de overeenkomstige zitting/de activiteit toont.
 
 ## Wachtlijst voor uw sessie beheren {#managewaitlistforyoursession}
 
@@ -31,17 +30,43 @@ Wanneer studenten zich voor uw module registreren, kunt u de recentste status va
    U kunt de Plaatslimiet en het aantal geboekte en vrije plaatsen bekijken. U ziet ook een tabel met studenten die op de wachtlijst zijn geplaatst. Deze is leeg als er niemand op de wachtlijst staat.
 
    ![](assets/waitlist.png)
-   *Studenten op de wachtlijst weergeven*
+   *de wachtlijst van de Mening studenten*
 
 1. Selecteer in de tabel Wachtlijst de student of studenten die u wilt bevestigen.
 1. Selecteer Acties > Studenten bevestigen.
 
    De studenten die u hebt bevestigd, worden aan de lijst met bevestigde studenten toegevoegd.
 
-Docenten kunnen studenten van sessies uitschrijven. Ze worden dan ook van het bijbehorende leermateriaal uitgeschreven. Selecteer het tabblad **[!UICONTROL Wachtlijst]**. Gebruik het selectievakje om de studenten die u wilt uitschrijven te selecteren. Als u wilt uitschrijven, selecteert u **[!UICONTROL Handelingen]** > **[!UICONTROL Studenten uitschrijven]**.
+Docenten kunnen studenten van sessies uitschrijven. Ze worden dan ook van het bijbehorende leermateriaal uitgeschreven. Selecteer het tabblad **[!UICONTROL Wachtlijst]**. Gebruik het selectievakje om de studenten die u wilt uitschrijven te selecteren. Om uit te schrijven, uitgezochte **[!UICONTROL Acties]** > **[!UICONTROL studenten]** uitschrijven.
 
 ![](assets/unenroll-learners.png)
-*De studenten uitschrijven*
+*uitschrijven de studenten*
+
+### Wachtlijstrapport
+
+Het nieuwe **[!UICONTROL Wachtlijstrapport van Adobe Learning Manager]** staat instructeurs toe om wachtlijst studentenlijst voor alle instanties van een cursus te downloaden. De instructeurs kunnen tot dit rapport van de **[!UICONTROL Wachtlijst]** sectie op de **[!UICONTROL pagina van het Overzicht van de Zitting]** toegang hebben.
+
+De volgende kolommen zijn beschikbaar in het rapport Wachtlijst:
+
+* Cursusnaam
+* Instantienaam
+* Instantie-ID
+* Instantiestatus
+* Gebruikersnaam
+* E-mail
+* Unieke ID van gebruiker
+* Datum ingeschreven (tijdzone UTC)
+* Status
+* Wachtlijstnummer
+* Wachtlijstlimiet
+* Plaatslimiet
+
+Het rapport downloaden van de sectie Docent:
+
+1. Login als **[!UICONTROL Instructeur]**.
+2. Selecteer een sessie op de startpagina.
+3. Selecteer de **[!UICONTROL optie Wachtlijst]** in de **[!UICONTROL pagina van het Overzicht van de Zitting]**.
+4. Selecteer **[!UICONTROL Acties]** > **[!UICONTROL Rapport van de Uitvoer]** om het **[!UICONTROL Wachtlijst]** rapport te downloaden.
 
 ## Aanwezigheid voor uw sessie markeren {#markattendanceforyoursession}
 
@@ -57,7 +82,7 @@ U kunt het aantal bevestigde studenten voor de sessie, hun naam, aanwezigheidsst
    Een student kan een module niet voltooien totdat de aanwezigheidsstatus van de module Aanwezig weergeeft.
 
    ![](assets/markattendance.png)
-   *Aanwezigheid van student markeren*
+   *Aanwezigheid van de student van het Teken*
 
 ## E-mails naar studenten sturen {#sendemailstolearners}
 
@@ -77,7 +102,7 @@ Nadat de deelnemerlijst voor uw sessie is bevestigd, kunt u deze als PDF exporte
 Rechtsboven in deze PDF staat een QR-code. Studenten kunnen deze code scannen met de mobiele Learning Manager-app voor studenten om hun aanwezigheid te markeren.
 
 ![](assets/exportpdf.png)
-*De QR-code scannen om aanwezigheid te markeren*
+*Scan de code QR om aanwezigheid* te merken
 
 ## Inzendingen goedkeuren of afwijzen {#approveorrejectsubmissions}
 
@@ -99,7 +124,7 @@ Als studenten documenten zoals opdrachten, rapporten of beoordelingen voor uw se
 1. Klik in de tegel Herinnering selecteren op Herinnering instellen.
 
    ![](assets/setreminder.png)
-   *Herinneringen voor uw sessie configureren*
+   *vorm herinneringen voor uw zitting*
 
 1. Ga als volgt te werk:
 
@@ -108,7 +133,7 @@ Als studenten documenten zoals opdrachten, rapporten of beoordelingen voor uw se
    * Stel de herhaling voor uw herinnering in.
 
    ![](assets/remindersettings.png)
-   *Herinneringsinstellingen weergeven*
+   *de herinneringsmontages van de Mening*
 
 1. Voer een van de volgende handelingen uit:
 

@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Aankondigingen
 description: Een aankondiging is een multimediabericht (tekst, beeld of video) dat een beheerder kan uitzenden naar een specifieke groep gebruikers.
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 69%
+source-wordcount: '1061'
+ht-degree: 57%
 
 ---
 
@@ -31,11 +31,11 @@ Er zijn vier soorten aankondigingen:
 
 ![](assets/as-notofocation.png)
 
-*De melding aanpassen*
+*pas het bericht* aan
 
 1. Voeg in het veld Bericht het aankondigingsbericht toe. U kunt hier ook een URL voor aankondigingen toevoegen. U moet echter wel de URL in het HTML-formulier toevoegen.
 
-   Bijvoorbeeld:  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
+   Bijvoorbeeld: `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
 
    Wanneer u het doel als blanco opgeeft, zal wanneer een gebruiker op de aankondigings-URL klikt, de link openen in een nieuw tabblad. Als u geen doel opgeeft, wordt de link in dezelfde browser geopend.
 
@@ -49,7 +49,7 @@ Er zijn vier soorten aankondigingen:
    * Maak van deze aankondiging een sticky-aankondiging door het selectievakje Sticky-aankondigingen inschakelen aan te vinken.
    * Selecteer een bezorgtijd voor de aankondiging.
 
-1. Selecteren **[!UICONTROL Op een datum]** als u de aankondiging voor een latere datum wilt plannen en op het tekstgebied ernaast wilt klikken. Een kalenderpop-up verschijnt, waarin u de startdatum kunt kiezen. Kies de einddatum door dezelfde stappen te volgen.
+1. Selecteer **[!UICONTROL op een datum]** als u aankondiging voor een recentere datum wilt plannen en het tekstgebied naast het klikken. Een kalenderpop-up verschijnt, waarin u de startdatum kunt kiezen. Kies de einddatum door dezelfde stappen te volgen.
 1. Klik op **[!UICONTROL Opslaan]**.
 1. Klik op het tabblad Concepten op het instellingenpictogram naast een aankondiging en klik op Verzenden.
 
@@ -59,26 +59,32 @@ Als de multimediabijlage groot is, kan het uploaden enige tijd in beslag nemen. 
 
 Wanneer u deze optie kiest, verschijnt elk mediabestand dat u kiest, als een impressum op de studentstartpagina. Het impressum fungeert als een oproep tot actie voor de studenten waarvoor het bedoeld is.
 
-![](assets/masthead-announcement.png)
+Beheerders kunnen alt-tekst toevoegen voor alle mastheads om de toegankelijkheid voor studenten te verbeteren. Zo kunnen studenten met speciale behoeften de alt-tekst lezen en de afbeelding begrijpen met behulp van schermlezers. U kunt meerdere talen selecteren en voor elke taal alternatieve tekst bieden. Voeg de alt-tekst toe in de desbetreffende talen.
 
-*De masthead aanpassen*
+Ga als volgt te werk om de masthead toe te voegen:
 
-1. Blader en kies een afbeelding die past bij het impressum. De aanbevolen grootte is 1280 x 360 px.
-1. Kies de landinstellingen waaraan u het impressum wilt toevoegen. U moet voor elke taal een impressumitem kiezen.
-1. Voeg een URL toe in het veld **[!UICONTROL Actieknop]** zodat studenten die op de knop op het impressum klikken, naar de URL worden geleid. Dit veld is optioneel.
-1. Kies de doelgroepen of de beoogde leerobjecten. U kunt er per aankondiging maar één kiezen.
+1. Login als **[!UICONTROL Admin]**.
+2. Selecteer **[!UICONTROL aankondigingen]** > **[!UICONTROL voeg]** toe.
+3. Selecteer **[!UICONTROL als Masthead]** van het drop-down menu van het Type.
 
-   Begin met het typen van de naam van de gebruikersgroep in het tekstvak en kies uit de vervolgkeuzelijst. Kies op dezelfde manier de training door de objectnaam in het tekstvak te typen.
+   ![](assets/announcement.png)
+   _creeer een aankondiging_
 
-1. In het dialoogvenster **[!UICONTROL Geavanceerde instellingen]** hebt u de volgende opties:
+4. Selecteer de taal en upload de afbeelding.
 
-   * Klikken **[!UICONTROL Meteen]** als je wilt dat de aankondiging meteen wordt gepubliceerd .
-   * Klikken **[!UICONTROL Nooit]** als u niet wilt dat uw aankondiging verloopt.
-   * Selecteer de **[!UICONTROL Starten]** en **[!UICONTROL Einde]** data voor de aankondiging.
+   >[!NOTE]
+   >
+   >U kunt meerdere talen selecteren en voor elke taal alternatieve tekst bieden. Voeg de alt-tekst toe in de desbetreffende talen.
 
-   ![](assets/advanced-settings.png)
+5. Ga de geschikte tekst op het **[!UICONTROL gebied van de Tekst van Alt]** in.
+6. In het **[!UICONTROL gebied van de Knoop van de Actie]**, voeg een URL toe om studenten om te leiden wanneer zij de knoop op masthead klikken.
+7. Selecteer de doelgebruikersgroepen of de doelleerobjecten. U kunt er per aankondiging maar één kiezen.
+8. In de **[!UICONTROL Geavanceerde sectie van Montages]**, hebt u de volgende opties:
 
-   *Tijd instellen voor weergave van een masthead*
+   * Selecteer **[!UICONTROL onmiddellijk]** als u de aankondiging wilt onmiddellijk worden gepost dan.
+   * Selecteer **[!UICONTROL nooit]** als u uw aankondiging niet wilt verlopen.
+   * Selecteer het **[!UICONTROL Begin]** en **[!UICONTROL Eind]** data voor de aankondiging.
+9. Selecteer Opslaan en publiceer de aankondiging.
 
 **Zit er een limiet aan de hoeveelheid live aankondigingen van Impressums?**
 
@@ -90,7 +96,7 @@ Wanneer u deze optie kiest, wordt elke training die u kiest aanbevolen aan vastg
 
 ![](assets/recommendation-announcement.png)
 
-*Aanbevolen training selecteren om weer te geven aan een student*
+*selecteer geadviseerde opleiding om aan een student worden getoond*
 
 1. Kies de training die u wilt aanbevelen aan studenten. U kunt maximaal 10 trainingen toevoegen.
 
@@ -102,9 +108,9 @@ Wanneer u deze optie kiest, wordt elke training die u kiest aanbevolen aan vastg
 
 1. In het gedeelte Geavanceerde instellingen hebt u de volgende opties:
 
-   * Klikken **[!UICONTROL Meteen]** als je wilt dat de aankondiging meteen wordt gepubliceerd .
-   * Klikken **[!UICONTROL Nooit]** als u niet wilt dat uw aankondiging verloopt.
-   * Selecteer de **[!UICONTROL Starten]** en **[!UICONTROL Einde]** data voor de aankondiging.
+   * Klik **[!UICONTROL onmiddellijk]** als u de aankondiging wilt onmiddellijk worden gepost dan.
+   * Klik **[!UICONTROL nooit]** als u uw aankondiging niet wilt verlopen.
+   * Selecteer het **[!UICONTROL Begin]** en **[!UICONTROL Eind]** data voor de aankondiging.
 
    <!--![](assets/advanced-settings.png)-->
 
@@ -137,13 +143,13 @@ Op het tabblad Verzonden kunt u alle aankondigingen bekijken die al zijn uitgezo
 
 Gebruik deze optie om doelgerichte ad-hoc-e-mails te verzenden naar studenten van een geselecteerde gebruikersgroep of naar studenten die zijn ingeschreven voor een specifieke training.
 
-![Beheerder maakt een e-mailaankondiging](assets/email-announcement-admin.png)
+![ Admin leidt tot een e-mailaankondiging ](assets/email-announcement-admin.png)
 
-*Doelgerichte ad-hoc-e-mails naar studenten sturen*
+*Wend gerichte ad-hoc e-mails aan studenten*
 
-*Beheerder maakt een e-mailaankondiging*
+*Admin leidt tot een e-mailaankondiging*
 
-1. Selecteren **[!UICONTROL Type als e-mail]**.
+1. Selecteer **[!UICONTROL Type als E-mail]**.
 1. Voer het onderwerp en de hoofdtekst van de e-mail in.
 1. In het onderdeel Doel kunt u:
 

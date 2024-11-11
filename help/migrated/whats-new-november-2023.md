@@ -2,9 +2,9 @@
 title: Nieuw in deze release
 description: Meer informatie over de nieuwe functies en verbeteringen in de november 2023-versie van Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: eed6dd4d31a62d10a6b2901c48f14e3f4fe571d8
+source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2370'
 ht-degree: 70%
 
 ---
@@ -17,7 +17,7 @@ De Adobe Learning Manager-gebruikersinterface is een aantal updates doorgevoerd 
 
 De thema-updates worden automatisch toegepast op accounts die het standaardthema gebruiken. De thema-updates voor de gebruikersinterface hebben geen invloed op accounts waarin een aangepast thema wordt gebruikt. Deze accounts moeten worden teruggezet naar het standaardthema om de nieuwe thema-updates te krijgen.
 
-![UI-afbeelding](assets/refreshed-ui.png)
+![ beeld UI ](assets/refreshed-ui.png)
 
 ### Over deze wijziging
 
@@ -27,17 +27,17 @@ De koptekst bevat een nieuwe sjabloon die het logo automatisch verkleint naar ee
 
 De naam van de organisatie in de koptekst wordt ook automatisch aangepast naar 336 (minimaal) x 680 (maximaal) pixels voor studenten.
 
-**Wat is de aanbevolen grootte van het logo?**
+**wat is de geadviseerde grootte van het embleem?**
 
 De maximale breedte van het logo is 210 px. Logo&#39;s met een breedte van meer dan 210 px of een hoogte van meer dan 42 px worden vergroot of verkleind tot 42 x 210 px.
 
 Als de grootte van het logo kleiner is dan de aanbevolen grootte, wordt het logo zonder wijzigingen geüpload en gecentreerd.
 
-**Wat is de impact?**
+**wat is het effect?**
 
 Bedrijfsnamen die langer zijn, worden ingekort en de ruimte wordt opgevuld met een ellips.
 
-**Wat bevelen we aan?**
+**wat adviseren wij?**
 
 * Pas het formaat van de afbeelding aan zodat de beeldverhouding intact blijft. De aanbevolen maximale grootte van het logo is 42 px (verticaal) x 210 px (horizontaal).
 * Bij veel accounts wordt deze automatisch toegepast; er is geen wijziging nodig.
@@ -54,7 +54,7 @@ Ga naar [Systeemeigen uitbreidbaarheid](/help/migrated/administrators/feature-su
 
 U kunt nu beoordelingen maken in Learning Manager met het nieuwe gereedschap voor het maken van quiz op de pagina Inhoudsbibliotheek. De gemaakte beoordelingen worden onderdeel van de inhoudsbibliotheek en kunnen worden toegevoegd aan een openbare map voor hergebruik van de cursus.
 
-Weergave [Een quiz maken](/help/migrated/authors/feature-summary/content-library.md) voor meer informatie.
+De mening [ leidt tot een quiz ](/help/migrated/authors/feature-summary/content-library.md) om meer te leren.
 
 ## Rapportagewijzigingen in deze versie
 
@@ -74,7 +74,7 @@ In deze versie hebben we een datumfilter toegevoegd waarmee u de meldingen binne
 
 In deze versie kunt u de revisiegegevens van de cursus downloaden in een inschrijvingsrapport door een tijd op te geven. De downloadperiode wordt beperkt tot zes maanden voor accounts met meer dan vijf miljoen inschrijvingen. Voor alle andere accounts is deze periode 15 maanden.
 
-U kunt het rapport downloaden van **[!UICONTROL Rapporten]** > **[!UICONTROL Aangepaste rapporten]** > **[!UICONTROL Historische verslagen]** > **[!UICONTROL Cursustoegangsrapport]**.
+U kunt het rapport van **[!UICONTROL Rapporten]** > **[!UICONTROL de Rapporten van de Douane]** > **[!UICONTROL Historische Rapporten]** > **[!UICONTROL Rapport van de Toegang van de Cursus]** downloaden.
 
 ### Wijzigingen in studenttranscript
 
@@ -84,7 +84,7 @@ In eerdere versies van Adobe Learning Manager bevatte het studenttranscript de v
 
 Het rapport Aanwezigheid op de aanwezigheidspagina van Cursussen in de Admin-app en op de studentensessiepagina van de app voor docenten werd voorheen synchroon gedownload. In deze versie wordt dit rapport asynchroon gedownload via een melding.
 
-Zie voor meer informatie over rapporten [Rapporten](/help/migrated/administrators/feature-summary/reports.md) in Adobe Learning Manager.
+Voor meer informatie over rapporten, zie [ Rapporten ](/help/migrated/administrators/feature-summary/reports.md) in Adobe Learning Manager.
 
 ## Opheffing van de Inhoudsmarktplaats
 
@@ -141,7 +141,7 @@ In Adobe Learning Manager zijn alleen het studenttransscript en gamificatietrans
     </tbody>
 </table>
 
-**Nieuwe alleen-lezen besturingselementen**
+**Nieuwe read-only controles**
 
 Op de pagina Aangepaste rollen hebben we de volgende opties voor Alleen-lezen toegevoegd om beheerders in staat te stellen flexibelere opties te bieden aan de aangepaste beheerder: aangepaste beheerders hebben nu extra machtiging Alleen-lezen voor gebruikers, E-mailsjablonen en leerplannen.
 
@@ -149,7 +149,7 @@ Op de pagina Aangepaste rollen hebben we de volgende opties voor Alleen-lezen to
 
 Als u Alleen-lezen selecteert, kan de aangepaste beheerder alle gebruikers bekijken, maar geen gebruikersgegevens bewerken of een zelfregistratieportaal voor gebruikers maken.
 
-**Leerplannen**:
+**het Leren plannen**:
 
 Als u Alleen-lezen selecteert, kan een aangepaste beheerder geen leerplan toevoegen of bewerken. Ze kunnen een leerplanrapport wel downloaden en de details ervan bekijken. Ze kunnen de cursusdetails echter niet wijzigen.
 
@@ -157,7 +157,7 @@ Als u Alleen-lezen selecteert, kan een aangepaste beheerder geen leerplan toevoe
 >
 >Leerplannen zijn een extra alleen-lezen-optie en hebben volledige controle.
 
-**E-mailsjablonen**
+**E-mailmalplaatjes**
 
 Als u Alleen-lezen selecteert, kan een aangepaste beheerder de e-mailsjablonen bekijken. Ze kunnen de instellingen van e-mailsjablonen niet in- of uitschakelen, maar kunnen wel rapporten over e-mailtoegang downloaden.
 
@@ -232,8 +232,8 @@ Beheerders kunnen alleen managers zoeken in Dashboard-rapporten.
 
 Wanneer een beheerder een dashboardrapport probeert uit te zetten en het rapport te lang duurt om te plotten (meer dan 2,5 min.), geeft Adobe Learning Manager het volgende bericht weer:
 
-![oudere rapportafbeelding](assets/error-message.png)
-*Foutbericht wanneer rapport te lang duurt*
+![ beeld van het erfenisrapport ](assets/error-message.png)
+*het bericht van de Fout wanneer het rapport te lang duurt*
 
 Rapporten van deze grootte kunnen niet worden weergegeven in de gebruikersinterface, maar de beheerder kan deze wel downloaden.
 
@@ -255,7 +255,7 @@ Als in deze release het taakhulprapport groter is dan 10 miljoen die met de taak
 
 In vorige versies van Adobe Learning Manager kon u, als een cursus, certificering of leerplan was verwijderd en de bijbehorende melding nog actief was, nog steeds toegang krijgen tot de cursus, het certificaat of het leerplan door de melding te openen.
 
-In deze release zorgen we ervoor dat een verwijderd bericht niet meer toegankelijk is. Als u de id opgeeft in /posts/{id} API, en de id voor de post is niet meer beschikbaar, toont API het bericht &quot;Post not found for the specified resource&quot;.
+In deze release zorgen we ervoor dat een verwijderd bericht niet meer toegankelijk is. Als u de id opgeeft in de /posts/{id} API en de id voor de post niet meer beschikbaar is, geeft de API het bericht &quot;Post not found for the specified resource&quot; weer.
 
 ### Voltooiingsdeadline student-API’s
 
@@ -279,7 +279,7 @@ Bovendien, zullen wij het gebrek van snippetTypes in courseName veranderen. Als 
 
 ### Nieuw brontype voor quiz
 
-De `instances.loResources.resources` eindpunt wordt geretourneerd `ResourceContentType` met Quiz.
+Het `instances.loResources.resources` eindpunt retourneert `ResourceContentType` met Quiz.
 
 ## Kennisgeving van stopzetting
 
@@ -288,7 +288,7 @@ Adobe Learning Manager stopt met BlueJeans in februari 2024. Alle nieuwe account
 
 ## Aanvullende informatie
 
-Voor informatie over de huidige en vorige releases van de webapp en de apparaatapp van Learning Manager raadpleegt u de [Opmerkingen bij de release](release-note/release-notes.md).
+Voor informatie betreffende huidige en vorige versies van het Leren Web app van de Manager en apparaat app, zie de [ nota&#39;s van de Versie ](release-note/release-notes.md).
 
 ## Bugs die hersteld zijn in deze versie
 
@@ -305,7 +305,7 @@ Voor informatie over de huidige en vorige releases van de webapp en de apparaata
 * Een student kan geen LinkedIn-cursussen afspelen in de MS Teams-app.
 * De inschrijving-API retourneert de inschrijvingen voor een Flexibel leerplan of Geïntegreerd leerplan niet zoals verwacht.
 * In de mobiele app worden de namen van een cursus, certificering of leerplan in kleine letters weergegeven.
-* In vorige versies van Adobe Learning Manager kon u, als een cursus, certificering of leerplan was verwijderd en de bijbehorende melding nog actief was, nog steeds toegang krijgen tot de cursus, het certificaat of het leerplan door de melding te openen. In deze release zorgen we ervoor dat een verwijderd bericht niet meer toegankelijk is. Als u de id opgeeft in /posts/{id} API, en de id voor de post is niet meer beschikbaar, toont API het bericht &quot;Post not found for the specified resource&quot;.
+* In vorige versies van Adobe Learning Manager kon u, als een cursus, certificering of leerplan was verwijderd en de bijbehorende melding nog actief was, nog steeds toegang krijgen tot de cursus, het certificaat of het leerplan door de melding te openen. In deze release zorgen we ervoor dat een verwijderd bericht niet meer toegankelijk is. Als u de id opgeeft in de /posts/{id} API en de id voor de post niet meer beschikbaar is, geeft de API het bericht &quot;Post not found for the specified resource&quot; weer.
 * In de student-API wordt het veld voor de voltooiingsdeadline niet weergegeven in de reactie van de inschrijving-API.
 * In de API Inschrijving ophalen voor studenten worden de inschrijvingsgegevens weergegeven, zelfs nadat u een onjuiste instantie-id hebt opgegeven.
 
@@ -323,4 +323,3 @@ Voor informatie over de huidige en vorige releases van de webapp en de apparaata
 
 * [Versie van juli 2023](whats-new-2023-july.md)
 * [Versie van april 2023](whats-new-2023-april.md)
-* [Versie van november 2022](whats-new-2022-november.md)

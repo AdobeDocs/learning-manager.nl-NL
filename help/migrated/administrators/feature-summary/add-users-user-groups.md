@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gebruikers toevoegen en gebruikersgroepen maken
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4061'
-ht-degree: 61%
+source-wordcount: '4150'
+ht-degree: 60%
 
 ---
 
@@ -195,8 +195,6 @@ Typen actieve velden:
 ## Een zelfregistratielink maken {#createaselfregistrationlink}
 
 U kunt werknemers van uw organisatie ook in staat stellen zichzelf als student in te schrijven bij een Adobe Learning Manager-account zonder uw hulp als beheerder. De beheerder kan een koppeling voor zelfregistratie maken en deze delen met de medewerkers, die zich verder kunnen registreren bij Leermanager met hun Adobe-referenties.
-
-
 
 Op de hoger-juiste hoek van de pagina, klik **** toevoegen, en selecteer **[!UICONTROL Zelfregistratie]**.
 
@@ -575,6 +573,27 @@ Alle rapporten omvatten de actieve velden met meerdere waarden, en hun waarden.
 De beheerder kan automatisch aangemaakte actieve velden toevoegen, en gebruikersactiviteit en trainingsrapporten configureren.
 
 Het studenttranscript-rapport bevat alle actieve velden en door een komma gescheiden waarden. De beheerder kan de gegevens dienovereenkomstig filteren.
+
+## Rapport voor gebruikersgroep
+
+Met het nieuwe gebruikersgroeprapport van Adobe Learning Manager kunt u gebruikersgroepen beheren door ze zichtbaar te maken in groepen die niet worden beheerd als beheerders naar links gaan. Beheerders kunnen tot de rapporten onder de **[!UICONTROL Gebruikers]** toegang hebben > **[!UICONTROL sectie van de Groep van de Gebruiker]**. Het biedt gedetailleerde informatie over elke groep, waaronder:
+
+* Type gebruikersgroep
+* Groepsnaam
+* Beschrijving
+* Gemaakt door (naam)
+* Gemaakt door (e-mail)
+* Gemaakt op (UTC-tijdzone)
+* Aantal gebruikers
+
+Ga als volgt te werk om het rapport te downloaden:
+
+1. Login als **[!UICONTROL Admin]**.
+2. Selecteer **[!UICONTROL Gebruikers]** > **[!UICONTROL Gebruikersgroep]**.
+3. Selecteer **[!UICONTROL Acties]** > **[!UICONTROL Rapport van de Groep van de Gebruiker van de Download]**.
+
+![](assets/download-user-group-report.png)
+_Download het rapport van de Gebruikersgroep_
 
 ## Veelgestelde vragen {#faq}
 

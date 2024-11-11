@@ -4,10 +4,10 @@ title: Aangepaste rollen
 description: Met de functie Leerpaden kunt u aangepaste rollen definiëren en specifieke verantwoordelijkheden toewijzen aan een gebruikersset. Met deze functie kunt u verantwoordelijkheden toewijzen die buiten de bestaande rol van de persoon vallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '2223'
-ht-degree: 65%
+source-wordcount: '2485'
+ht-degree: 57%
 
 ---
 
@@ -17,28 +17,33 @@ Met deze functie kunt u aangepaste rollen definiëren en specifieke verantwoorde
 
 U kunt een aangepaste rol maken om auteursmogelijkheden te bieden die beperkt zijn tot een bepaalde catalogus. U kunt ook een rol maken voor rapportagebeheer. Dergelijke rollen kunnen dan worden toegewezen aan personen die geacht worden deze specifieke verantwoordelijkheden op zich te nemen.
 
+Beheerders kunnen nu door CSV gemaakte machtigingen bekijken in Adobe Learning Manager. Met dit filter filtert u aangepaste rollen op beheerder die is gemaakt en op beheerders die via een CSV zijn geïmporteerd. Nadat u een aangepaste rol hebt geselecteerd, kunt u de bijbehorende machtigingen zien.
+
+![](assets/filter.png)
+_de douanerollen van de Filter_
+
 ## Een aangepaste rol maken {#create-role}
 
-1. Meld u aan als beheerder. Openen **[!UICONTROL Gebruikers]** > **[!UICONTROL Aangepaste rol]**.
-1. Selecteren **[!UICONTROL Rol maken]**. Het tabblad **[!UICONTROL Nieuwe rol maken]** wordt geopend.
+1. Meld u aan als beheerder. Open **[!UICONTROL Gebruikers]** > **[!UICONTROL Rol van de Douane]**.
+2. Selecteer **[!UICONTROL creeer Rol]**. Het tabblad **[!UICONTROL Nieuwe rol maken]** wordt geopend.
 
    ![](assets/create-new-role.png)
 
-   *Een aangepaste rol maken*
+   *creeer een douanerol*
 
-1. Voer de naam in het dialoogvenster **[!UICONTROL Naam van de rol]** veld.
-1. **[!UICONTROL Accountbevoegdheden]**: Deze bevoegdheden geven de roleigenaars toegang tot specifieke aspecten van de systeemconfiguratie en die op het gehele account werken. Kies de toegangsrechten. De gebruiker krijgt volledige controle over de toegewezen rechten.
+3. Ga de naam in de **[!UICONTROL Naam van het gebied van de Rol]** in.
+4. **[!UICONTROL de voorrechten van de Rekening]**: Deze voorrechten geven de roleigenaars toegang tot specifieke aspecten van de systeemconfiguratie en die op de volledige rekening handelen. Kies de toegangsrechten. De gebruiker krijgt volledige controle over de toegewezen machtigingen. Beheerders kunnen gedetailleerde machtigingen verlenen voor de sectie Gebruiker, waarin interne/externe gebruikers, gebruikersgroepen en geavanceerde gebruikers zijn opgenomen.
 
->[!NOTE]
->
->   Bereik is niet van toepassing op deze rechten.
+   >[!NOTE]
+   >
+   >   Bereik is niet van toepassing op deze rechten.
 
 
-![](assets/account-privileges.png)
+   ![](assets/account-privileges.png)
 
-*Bereik instellen*
+   *plaats het werkingsgebied*
 
-1. **Functiebevoegdheden - Kernfuncties**: Wordt gebruikt om toegang te verlenen tot specifieke functies voor het beheer van leeractiviteiten. Met deze optie kan toestemming worden gegeven voor de volgende functies.
+5. **de voorrechten van de Eigenschap - de eigenschappen van de Kern**: Gebruikt om toegang tot specifieke eigenschappen voor het beheren van het leren activiteiten te verlenen. Met deze optie kunt u machtigingen voor de volgende functies geven. Beheerders kunnen gedetailleerde machtigingen bieden, zoals alleen-lezen, machtigingen voor de catalogi maken, bewerken en verwijderen.
 
    * Catalogi
    * Rapporten
@@ -46,9 +51,9 @@ U kunt een aangepaste rol maken om auteursmogelijkheden te bieden die beperkt zi
 
    ![](assets/core-features.png)
 
-   *Bereik instellen voor catalogi, rapporten en tags*
+   *plaats werkingsgebied voor Catalogi, Rapporten, en Markeringen*
 
-1. **Functiebevoegdheden - Leerobjecten:**  Gebruik deze optie om toegang te verlenen tot functies die gerelateerd zijn aan LO&#39;s. U kunt toegang verlenen tot de volgende LO&#39;s.
+6. **de voorrechten van de Eigenschap - het Leren Objecten:** gebruik deze optie om toegang tot verwante eigenschappen te verlenen LOs. Beheerders kunnen gedetailleerde machtigingen bieden voor alle leerobjecten, inclusief cursussen, leerpaden, certificeringen en taakhulpen. Ze kunnen gebruikersmachtigingen toewijzen, zoals maken, bewerken, verwijderen of alleen-lezen toegang.
 
    * Certificeringen
    * Cursussen
@@ -57,16 +62,20 @@ U kunt een aangepaste rol maken om auteursmogelijkheden te bieden die beperkt zi
 
    U kunt ook specifieke besturingselementen voor de LO&#39;s toekennen. De toestemming kan een van de volgende zijn:
 
-   * Volledig beheer
-   * Bewerken en verwijderen
+   * Alleen-lezen
+   * Creëer
+   * Bewerken
+   * Verwijderen
    * Inschrijving
    * Rapport
 
-   ![](assets/learning-objects.png)
+   U kunt de LO&#39;s ook volledig besturen.
 
-   *Specifieke machtigingen verlenen*
+   ![](assets/learningobjects.png)
 
-1. **Bereik voor functiebevoegdheden:** Het bereik van de functiebevoegdheden die aan deze rol zijn toegewezen, kan worden beperkt tot een specifieke gebruikersgroep of een of meer catalogi.
+   *Verleen specifieke toestemmingen*
+
+7. **Reikwijdte voor eigenschapvoorrechten:** het werkingsgebied van de voorrechten van de Eigenschap die aan deze rol worden toegewezen kan tot een specifieke Groep van de Gebruiker of één of meerdere Catalogi worden beperkt.
 
    Catalogi: gebruik het keuzerondje om controle te geven over **[!UICONTROL Alle catalogi]** of gebruik de optie **[!UICONTROL Toegang instellen per catalogus]** om toegang te bieden tot specifieke catalogi. U kunt ook meerdere catalogi selecteren.
 
@@ -80,7 +89,7 @@ U kunt een aangepaste rol maken om auteursmogelijkheden te bieden die beperkt zi
 
    ![](assets/define-scope-of-privileges.png)
 
-   *Omvang van rechten definiëren*
+   *bepaal werkingsgebied van voorrechten*
 
 >[!NOTE]
 >
@@ -224,18 +233,43 @@ Een gebruiker met een aangepaste rol kan:
 
 1. **Gebruikers:** gebruik deze optie om te bepalen welke gebruikers deze rol toegewezen krijgen. U kunt een of meer gebruikers kiezen met behulp van het zoekvak.
 
-   **Gebruikers toevoegen aan CSV-upload met aangepaste rol:** Als u gebruikers via CSV-update wilt toevoegen, voegt u een kolom CustomRole toe aan het CSV-bestand dat de beheerder heeft gebruikt om gebruikers te importeren. Voer de rol van de gebruiker onder de kolom CustomRole in voor de gebruikers aan wie u een aangepaste rol wilt toewijzen. Klik op  **[!UICONTROL Toevoegen > Een CSV uploaden]**.
+   **voeg gebruikers aan de upload CSV van de douanerol toe:** om gebruikers via geüploade CSV toe te voegen, voeg een kolom CustomRole aan het .csv dossier toe dat de Beheerder gebruikte om gebruikers in te voeren. Voer de rol van de gebruiker onder de kolom CustomRole in voor de gebruikers aan wie u een aangepaste rol wilt toewijzen. Om het Csv- dossier te uploaden, klik **[!UICONTROL toevoegen > upload een CSV]**.
 
-   CustomRole columnNote:
+   * U kunt geen gebruikersgroepen zoeken.
+   * U kunt geen gebruikers zoeken die al een beheerderrol toegewezen gekregen hebben.
+   * Het toewijzen van een nieuwe aangepaste rol aan een gebruiker heeft voorrang op de vorige aangepaste rol van de gebruiker.
 
-* U kunt geen gebruikersgroepen zoeken.
-* U kunt geen gebruikers zoeken die al een beheerderrol toegewezen gekregen hebben.
-* Het toewijzen van een nieuwe aangepaste rol aan een gebruiker heeft voorrang op de vorige aangepaste rol van de gebruiker.
+   <!--![](assets/users.png)-->
 
-  <!--![](assets/users.png)-->
+   * Een aangepaste beheerder met de machtiging Instellingen kan het schema configureren voor synchronisatie of synchronisatie van gebruikers vanuit de gegevensbron, zelfs als deze geen toestemming hebben voor de gebruikersentiteit.
+   * Als een aangepaste beheerder toestemming heeft voor de gebruikersentiteit, kan hij of zij zichzelf de rol van beheerder toewijzen en een standaardbeheerder worden.
 
-* Een aangepaste beheerder met de machtiging Instellingen kan het schema configureren voor synchronisatie of synchronisatie van gebruikers vanuit de gegevensbron, zelfs als deze geen toestemming hebben voor de gebruikersentiteit.
-* Als een aangepaste beheerder toestemming heeft voor de gebruikersentiteit, kan hij of zij zichzelf de rol van beheerder toewijzen en een standaardbeheerder worden.
+## Rapport voor aangepaste rol
+
+Beheerders kunnen een CSV-rapport downloaden van alle aangepaste rollen en hun machtigingen. Het rapport toont hoe elke rol is gemaakt, door een beheerder of via een CSV-bestand, en geeft een overzicht van de toegang die aan elke rol is verleend.
+
+Ga als volgt te werk om het rapport te downloaden:
+
+1. Login als **[!UICONTROL Admin]**.
+2. Selecteer **[!UICONTROL Gebruikers]** > **[!UICONTROL de Rollen van de Douane]**.
+3. Selecteer de **[!UICONTROL optie van de Download]** om het CSV- rapport te downloaden.
+
+![](assets/download-report.png)
+_Rapport van de Download van douanerollen_
+
+Het rapport heeft twee CSV-bestanden: role.csv en user_role.csv. Het bestand role.csv bevat:
+
+* Aangepaste rol
+* Gebruikers-id&#39;s
+* Bron van ontwerp.
+
+Het bestand user_role.csv bevat de velden, de aangepaste rol, de aanmaakbron en gedetailleerde informatie voor catalogi, gebruikers, cursussen, leerpaden en meer.
+
+## Audittrail voor aangepaste rollen
+
+Beheerders kunnen het controlerapport voor de aangepaste rol downloaden om alle wijzigingen te volgen die zijn aangebracht in de aangepaste rollen, zoals het maken, wijzigen en verwijderen van aangepaste rollen en de bijbehorende functietoegang.
+
+Verwijs dit artikel [ spoor van de Controle voor douanerollen ](/help/migrated/administrators/feature-summary/reports.md#audit-trail-for-custom-roles) voor meer informatie.
 
 ## Toegang tot mappen beperken voor aangepaste auteurs {#folder-custom-author}
 
@@ -247,29 +281,29 @@ Als beheerders de toegang tot deze aangepaste auteurs willen beperken, moeten ze
 
 *Toegang tot mappen beperken voor aangepaste auteurs*
 
-Terwijl u een aangepaste auteur aanmaakt, kunt u nu inhoudsmappen aan de auteur toewijzen. Kies de optie **Geselecteerde mappen**.
+Terwijl u een aangepaste auteur aanmaakt, kunt u nu inhoudsmappen aan de auteur toewijzen. Kies de optie **Geselecteerde Omslagen**.
 
 Nadat u op de optie hebt geklikt, verschijnt een nieuw dialoogvenster waarin u de mappen aan de aangepaste auteur kunt toewijzen.
 
 ![](assets/choose-folder.png)
 
-*Selecteer de mappen voor de aangepaste auteur*
+*selecteer de omslagen voor de douaneauteur*
 
-Kies de mappen en klik op **[!UICONTROL OK]**.
+Kies de omslagen en klik **[!UICONTROL OK]**.
 
 ## Dashboard met overzicht van leermateriaal voor aangepaste beheerder {#custom-admin-dashboard}
 
-Aangepaste beheerders kunnen dezelfde weergave zien als de beheerder. Een aangepaste beheerder kan gegevens buiten dit bereik plaatsen. Dit is alleen van toepassing als de aangepaste beheerder een volledig bereik heeft. Als u een volledig bereik wilt toekennen terwijl u een aangepaste beheerder maakt, schakelt u de optie **[!UICONTROL Volledig beheer]** in het rapport Accountoverzicht.
+Aangepaste beheerders kunnen dezelfde weergave zien als de beheerder. Een aangepaste beheerder kan gegevens buiten dit bereik plaatsen. Dit is alleen van toepassing als de aangepaste beheerder een volledig bereik heeft. Om volledig werkingsgebied te verlenen, terwijl het creëren van een douane admin, laat de optie **[!UICONTROL Volledige Controle]** in het Rapport van de Rekening toe.
 
 ![](assets/create-custom-role.png)
 
-*Een aangepaste rol maken*
+*creeer een douanerol*
 
-Als gevolg hiervan zijn de opties **[!UICONTROL Alle catalogi]** en **[!UICONTROL Alle gebruikersgroepen]** wordt geselecteerd en de rest wordt uitgeschakeld.
+Dientengevolge, zullen de opties, **[!UICONTROL Alle Catalogi]** en **[!UICONTROL Alle Gebruikersgroepen]** worden geselecteerd en de rest gehandicapt.
 
 ![](assets/scope-of-featureprivileges.png)
 
-*Omvang van rechten definiëren*
+*bepaal werkingsgebied van voorrechten*
 
 ## Impliciete toestemmingen {#implicitpermissions}
 
@@ -292,14 +326,14 @@ Wanneer een gebruiker een rol krijgt toegewezen aan een specifieke entiteit, kun
   <tr>
    <td>Inschrijven</td>
    <td>Alle IO’s (cursus, taakhulp, leerprogramma, certificering)</td>
-   <td>Gebruiker<br>
+   <td>Gebruiker <br>
      Leerplan</td>
    <td>Lees</td>
   </tr>
   <tr>
    <td>Creëer</td>
    <td>
-    <p>Inhoudsgroep<br>
+    <p>Inhoudsgroep <br>
       Taakhulp<br></p></td>
    <td>Tag</td>
    <td>Lees</td>
@@ -307,37 +341,37 @@ Wanneer een gebruiker een rol krijgt toegewezen aan een specifieke entiteit, kun
   <tr>
    <td>Creëer</td>
    <td>Cursus</td>
-   <td>Inhoudsgroep<br>
-     Tag<br>
-     Vaardigheid<br>
-     Badge<br>
+   <td>Inhoudsgroep <br>
+     Tag <br>
+     Vaardigheid <br>
+     Badge <br>
      Taakhulp</td>
    <td>Lees op alle</td>
   </tr>
   <tr>
    <td>Creëer</td>
-   <td>Leerprogramma<br>
+   <td>Leerprogramma <br>
      Certificering<br></td>
-   <td>Cursus<br>
-     Tag<br>
-     Vaardigheid<br>
+   <td>Cursus <br>
+     Tag <br>
+     Vaardigheid <br>
      Badge</td>
    <td>Lees</td>
   </tr>
   <tr>
    <td>Creëer</td>
    <td>Leerplan</td>
-   <td>Catalogus<br>
-     Groep<br>
-     Vaardigheid<br>
+   <td>Catalogus <br>
+     Groep <br>
+     Vaardigheid <br>
      Alle verliezen (cursus, taakhulp, leerprogramma, certificering)</td>
    <td>Lees</td>
   </tr>
   <tr>
    <td>Creëer</td>
    <td>Aankondiging</td>
-   <td>Gebruiker<br>
-     Groep<br>
+   <td>Gebruiker <br>
+     Groep <br>
      Alle verliezen (cursus, taakhulp, leerprogramma, certificering)</td>
    <td>Lees</td>
   </tr>
@@ -356,14 +390,14 @@ Wanneer een gebruiker een rol krijgt toegewezen aan een specifieke entiteit, kun
   <tr>
    <td>*</td>
    <td>Catalogus</td>
-   <td>Groep<br>
+   <td>Groep <br>
      Alle verliezen (cursus, taakhulp, leerprogramma, certificering)</td>
    <td>Lees</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Instelling</td>
-   <td>Branding<br>
+   <td>Branding <br>
      Gebruiker</td>
    <td>Lees</td>
   </tr>
@@ -375,7 +409,7 @@ Wanneer een gebruiker een rol krijgt toegewezen aan een specifieke entiteit, kun
   </tr>
   <tr>
    <td>*</td>
-   <td>Facturering<br>
+   <td>Facturering <br>
      Gamification</td>
    <td>Gebruiker</td>
    <td>Lees</td>
@@ -413,13 +447,13 @@ Geef in de sectie **Omvang van functiebevoegdheden** toegang tot Gebruikersgroep
 
 ![](assets/scope-for-featureprivileges.png)
 
-*Toegang verlenen tot gebruikersgroepen en/of catalogus voor de aangepaste rol*
+*toegang van de Verlening tot de Groepen van de Gebruiker en/of Catalogus voor de Rol van de Douane*
 
 Een gebruiker toewijzen aan de aangepaste rol.
 
 ![](assets/assign-users-to-customrole.png)
 
-*Een gebruiker toewijzen aan een aangepaste rol*
+*wijs een gebruiker aan een Rol van de Douane toe*
 
 De gebruiker meldt zich nu aan bij Learning Manager als aangepaste beheerder en voegt een Leerprogramma toe.
 
@@ -441,7 +475,7 @@ Wanneer de beheerder de omvang van de aangepaste rol wijzigt, heeft deze wijzigi
 
 ![](assets/change-scope.png)
 
-*Bericht na bereikwijzigingen*
+*Bericht na werkingsgebiedveranderingen*
 
 De aangepaste beheerder moet de eerdere omvang nu bijwerken of vernieuwen naar de nieuwe omvang.
 
@@ -449,7 +483,7 @@ Klik op **[!UICONTROL Omvang vernieuwen]** om de omvang bij te werken. Er versch
 
 ![](assets/refresh-scope-message.png)
 
-*Waarschuwingsbericht na vernieuwen van bereik*
+*het bericht van de Waarschuwing na het vernieuwen van een werkingsgebied*
 
 Klik op **[!UICONTROL Ja]** om de omvang bij te werken.
 
@@ -458,7 +492,7 @@ Klik op **[!UICONTROL Ja]** om de omvang bij te werken.
 Een beheerder kan gamificationrapporten inschakelen voor een aangepaste gebruiker.
 
 1. Voer op de pagina **[!UICONTROL Aangepaste rollen]** de naam van de aangepaste rol in.
-1. In het dialoogvenster **[!UICONTROL Functieprivileges: kernfuncties]** de optie **[!UICONTROL Volledig beheer]** voor de categorie **[!UICONTROL Rapporten]**.
+1. In de **[!UICONTROL Privileges van de Eigenschap: De sectie van de Eigenschappen van de Kern]**, laat de optie **[!UICONTROL Volledige Controle]** voor de categorie **[!UICONTROL Rapporten]** toe.
 
 1. Selecteer in de sectie **[!UICONTROL Gebruikers]** de gebruiker die wordt toegewezen aan de nieuwe aangepaste rol.
 1. Klik op **[!UICONTROL Opslaan]**.
@@ -467,7 +501,7 @@ Wanneer een gebruiker zich als aangepaste beheerder aanmeldt en op **[!UICONTROL
 
 ![](assets/download-gamificationtranscripts.png)
 
-*De gamificationtranscripten downloaden*
+*Download de gamificationtranscripten*
 
 Klik op **[!UICONTROL Gamificationtranscripten]**, kies een gebruiker en genereer het rapport.
 
@@ -481,6 +515,6 @@ Wanneer u gamification opnieuw instelt, wordt de datum voor het bereikte niveau 
 
 Een aangepaste rol is als een subset van een auteurs- of beheerdersrol. Sta een of enkele privileges toe, definieer het bereik en wijs de rol toe aan een gebruiker.
 
-Klikken **[!UICONTROL Gebruikers]** > **[!UICONTROL Aangepaste rollen]**. Klik op de pagina Aangepaste rollen op **[!UICONTROL Rol maken]**. Voer de naam van de aangepaste rol in en stel de bevoegdheden voor de rol in. Zie [Een aangepaste rol maken](custom-role.md#create-role) voor meer informatie.
+Klik **[!UICONTROL Gebruikers]** > **[!UICONTROL de Rollen van de Douane]**. Klik op de pagina Aangepaste rollen op **[!UICONTROL Rol maken]**. Voer de naam van de aangepaste rol in en stel de bevoegdheden voor de rol in. Zie [Een aangepaste rol maken](custom-role.md#create-role) voor meer informatie.
 +++
 

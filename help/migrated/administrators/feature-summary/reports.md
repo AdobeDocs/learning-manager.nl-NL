@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Rapporten
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '7133'
-ht-degree: 57%
+source-wordcount: '7828'
+ht-degree: 52%
 
 ---
 
@@ -289,63 +289,107 @@ Ga als volgt te werk om een compatibiliteitsdashboard te maken en te delen:
 >
 >Als u het nieuwe dashboard deelt, wordt het bestaande dashboard in de app van de geselecteerde manager overschreven. Managers kunnen het net gedeelde dashboard bekijken door de beheerders.
 
-<!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
+#### Deel compliance-dashboard met beheerders en aangepaste beheerders
 
-Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
+Beheerders kunnen het dashboard delen met andere beheerders en aangepaste beheerders, zodat ze direct toegang hebben tot alle dashboards voor naleving.
 
-For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
+Ga als volgt te werk om het dashboard te delen met beheerders en aangepaste beheerders:
 
-Now an Admin can click on any training and quickly view the compliance for the selected training.
+1. Login als **[!UICONTROL Admin]**.
+2. Navigeer aan de **[!UICONTROL Rapporten]** > **[!UICONTROL het Leren Samenvatting]**.
+3. Selecteer **[!UICONTROL Mening Admin]** op de **[!UICONTROL sectie van het Dashboard van de Naleving]**.
+4. Selecteer de **[!UICONTROL knoop van het Dashboard van het Aandeel]**.
 
-![](assets/compliance-dashboard.png)
-*View Compliance dashboard*
+   ![](assets/share-dashboard.png)
+   _dashboard van het Aandeel - Admin_
 
-You can also see the compliance status for each internal team.
+5. Selecteer de nalevingsetiketten van het **[!UICONTROL Uitgezochte drop-down menu van de Naleving van de Douane]**. Met deze optie selecteert u alle cursussen waarvoor de compatibiliteitslabels zijn geselecteerd.
+6. Selecteer de extra cursussen, leerpaden of certificeringen die u met beheerders wilt delen.
 
-Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
+   ![](assets/share-button.png)
+   _de nalevingsdashboard van het Aandeel_
 
-You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
+7. Selecteer de gebruikers of de gebruikersgroepen u het dashboard wilt delen en **[!UICONTROL Delen]** selecteren.
 
-![](assets/compliance-statusofateam.png)
-*Compliance status of a team*
+##### Het dashboard Naleving weergeven - Aangepaste beheerders en andere beheerders
 
-### Share training with managers
+Alle aangepaste beheerders en andere beheerders van de geselecteerde gebruikersgroep kunnen het dashboard Naleving in hun app zien.
 
-Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+Ga als volgt te werk om het dashboard Compatibiliteit weer te geven:
 
-In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+1. Navigeer aan de **[!UICONTROL Rapporten]** > **[!UICONTROL het Leren Samenvatting]** > **[!UICONTROL Dashboard van de Naleving]**.
+2. Selecteer **[!UICONTROL Uw Mening]** op de **[!UICONTROL sectie van het Dashboard van de Naleving]**.
+3. Selecteer **[!UICONTROL ga naar de optie van het Dashboard van de Naleving]**, en u kunt het nieuwe nalevingsdashboard zien dat door admin wordt gedeeld.
 
-An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
+   ![](assets/compliance-custom-view.png)
+   _Bekijk het nalevingsdashboard - Douane admin_
 
-The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
+#### Delen met winkelmanagers
 
-### Share training
+Beheerders kunnen het dashboard Naleving delen met winkelmanagers, zodat ze de voortgang van de naleving door hun studenten kunnen volgen.
 
-1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
+Ga als volgt te werk om het dashboard te delen met winkelmanagers:
 
-   ![](assets/share-with-managers.png)
-   *Share training with managers*
+1. Login als **[!UICONTROL Admin]**.
+2. Navigeer aan de **[!UICONTROL Rapporten]** > **[!UICONTROL het Leren Samenvatting]** > **[!UICONTROL Dashboard van de Naleving]**.
+3. Selecteer **[!UICONTROL Mening van de Manager]** op de **[!UICONTROL sectie van het Dashboard van de Naleving]**.
+4. Selecteer de **[!UICONTROL knoop van het Dashboard van het Aandeel]**.
 
-1. To add training or multiple training, click **[!UICONTROL Share more]**.   
+   ![](assets/share-manager.png)
+   _Deel het nalevingsdashboard met Managers_
 
-1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
+5. Selecteer de nalevingsetiketten van het **[!UICONTROL Uitgezochte drop-down menu van de Naleving van de Douane]**.
+Met deze optie selecteert u alle cursussen waarvoor de compatibiliteitslabels zijn geselecteerd.
+6. Selecteer de extra cursussen, leerpaden of certificeringen die u met beheerders wilt delen.
+7. Selecteer de gebruikers of de gebruikersgroepen u het dashboard wilt delen en **[!UICONTROL Delen]** selecteren.
 
-   ![](assets/select-training.png)
-   *Select training to share with managers*
+##### Het dashboard Naleving weergeven - Manager
 
-1. Click **[!UICONTROL Share]**.
+Verwijs dit artikel [ Bekijk het nalevingsdashboard ](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard) voor meer informatie.
 
-The training is now shared with the specified manager.
+#### Het dashboard bewerken
 
-### View training
+Ga als volgt te werk om het dashboard Compatibiliteit te bewerken:
 
-In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
+1. Login als **[!UICONTROL Admin]**.
+2. Navigeer aan de **[!UICONTROL Rapporten]** > **[!UICONTROL het Leren Samenvatting]** > **[!UICONTROL Dashboard van de Naleving]**.
+3. Selecteer **[!UICONTROL Mening Admin]** of **[!UICONTROL Mening van de Manager]** op de **[!UICONTROL sectie van het Dashboard van de Naleving]**. In deze sectie ziet u de dashboards voor compliance.
+4. Selecteer **[!UICONTROL geef]** op het nalevingsdashboard uit u wilt uitgeven.
 
-### Withdraw training
+   ![](assets/edit.png)
+   _geef het nalevingsdashboard_ uit
 
-1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
+5. Verander de vereiste details en selecteer **[!UICONTROL Aandeel]**.
+6. Het compatibiliteitsdashboard wordt gedeeld met de geselecteerde managers.
 
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.-->
+#### Het dashboard intrekken - Beheer
+
+Ga als volgt te werk om het dashboard Naleving in te trekken:
+
+1. Login als **[!UICONTROL Admin]**.
+2. Navigeer aan de **[!UICONTROL Rapporten]** > **[!UICONTROL het Leren Samenvatting]** > **[!UICONTROL Dashboard van de Naleving]**.
+3. Selecteer **[!UICONTROL Mening Admin]** of **[!UICONTROL Mening van de Manager]** op de **[!UICONTROL sectie van het Dashboard van de Naleving]**. In deze sectie ziet u de dashboards voor compliance.
+4. Selecteer **[!UICONTROL terugtrekken]** op het nalevingsdashboard u wilt verwijderen en selecteren **[!UICONTROL ga]** verder.
+5. Hiermee verwijdert u het dashboard voor gedeelde naleving uit de app van de manager.
+
+   ![](assets/manager-edit.png)
+   _trek het nalevingsdashboard_ terug
+
+#### Standaardcompatibiliteitswidget voor studenten instellen
+
+Ga als volgt te werk om de standaardcompatibiliteitswidget voor studenten in te stellen:
+
+1. Login als **[!UICONTROL Admin]**.
+2. Navigeer aan de **[!UICONTROL Rapporten]** > **[!UICONTROL het Leren Samenvatting]** > **[!UICONTROL Dashboard van de Naleving]**.
+3. Selecteer **[!UICONTROL de Mening van de Student]** op de **[!UICONTROL sectie van het Dashboard van de Naleving]**.
+4. Selecteer **[!UICONTROL Verandering]** in de **[!UICONTROL sectie van de Mening van de Student]**.
+
+   ![](assets/learner-widget.png)
+   _plaats standaard nalevingswidget voor studenten_
+5. Selecteer de nalevingsetiketten van **[!UICONTROL drop-down Naleving van de Douane]**. Met deze optie selecteert u alle cursussen waarvoor de compatibiliteitslabels zijn geselecteerd.
+6. Selecteer **[!UICONTROL ga]** verder om de standaard nalevingswidget te plaatsen.
+
+Studenten kunnen de geselecteerde cursussen of leerpaden op de compatibiliteitswidget op hun startpagina zien. Verwijs [ widget van het dashboard van de Naleving ](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget) voor meer informatie.
 
 ## Aangepaste rapporten
 
@@ -846,6 +890,34 @@ Het rapport bevat het volgende:
 * Herinnering leerelement
 * Scope-catalogus
 * Scope-gebruikersgroep
+
+### Audittrail voor aangepaste rollen
+
+Beheerders kunnen het controlerapport voor de aangepaste rol downloaden om alle wijzigingen bij te houden die zijn aangebracht in de aangepaste rollen, zoals het maken, wijzigen en verwijderen van aangepaste rollen en de bijbehorende functietoegang.
+
+Ga als volgt te werk om het rapport te downloaden:
+
+1. Meld u aan als beheerder.
+2. Selecteer Rapporten > Aangepaste rapporten.
+3. Selecteer Audittrail van aangepaste rol en kies het datumbereik
+4. Selecteer Genereren om het rapport te downloaden.
+
+Het rapport Audittrail van aangepaste rol bevat de volgende velden:
+
+* Rol-ID
+* Rolnaam
+* Activiteitstype
+* Wijzigingstype
+* Beschrijving
+* Verwezen objecttype
+* Verwezen object-ID
+* Verwezen objectnaam
+* Verwezen object-e-mail
+* Gewijzigd in gebruikersnaam
+* Gewijzigd door UUID van gebruiker
+* Gewijzigd in e-mailadres van gebruiker
+* Gewijzigde datum (tijdzone UTC)
+* Bron
 
 ## E-mailabonnementen {#emailsubscriptions}
 

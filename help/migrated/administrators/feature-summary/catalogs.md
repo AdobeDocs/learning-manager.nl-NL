@@ -4,10 +4,10 @@ title: Catalogi
 description: 'Catalogi zijn een verzameling leermiddelen: cursussen, leerprogramma''s en certificeringen. Gebruik catalogi om studenten te voorzien van toegang tot een aangepaste set leermaterialen. U kunt leermateriaal aan een catalogus koppelen tijdens het maken van een nieuwe catalogus.'
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
 workflow-type: tm+mt
-source-wordcount: '2498'
-ht-degree: 73%
+source-wordcount: '2552'
+ht-degree: 72%
 
 ---
 
@@ -96,6 +96,10 @@ U maakt een catalogus als volgt:
    De taakhulp die u hebt toegevoegd verschijnt in de **[!UICONTROL Hulp van de Baan]** tabel.
 
 De inhoud verschijnt op elk van deze tabbladen als deze al beschikbaar is in het account. Anders moet u eerst de inhoud maken. Als u bijvoorbeeld nog geen van de cursussen of leerprogramma&#39;s hebt toegevoegd die al in de toepassing Learning Manager zitten, moet u deze eerst gaan aanmaken.
+
+## Bulksgewijs verwijderen van cursussen, leerpaden of taakhulpen
+
+Beheerders of aangepaste beheerders kunnen grote hoeveelheden cursussen, leerpaden of taakhulpen verwijderen. Ga naar **[!UICONTROL Catalogi]** en selecteer een catalogus. Op de **[!UICONTROL pagina van de Inhoud]**, uitgezocht **[!UICONTROL geef Inhoud]** uit. Dan, selecteer **[!UICONTROL verwijder]** optie naast de cursussen, het leren wegen, of taakhulpmiddelen, en selecteer **[!UICONTROL sparen]**.
 
 ## Diepe link naar catalogus voor studenten {#deep-link}
 

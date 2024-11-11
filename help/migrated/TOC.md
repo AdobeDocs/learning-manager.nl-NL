@@ -2,10 +2,10 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 8c4d00ed9213c21463a046f74d1db17b331da85f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 87%
+source-wordcount: '618'
+ht-degree: 85%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 87%
 * [Gebruikersgids voor Learning Manager](user-guide.md)
 * Inleiding {#introduction}
    * [Overzicht van nieuwe functies](whats-new.md)
+   * [Overzicht van nieuwe functies, juli 2024](whats-new-july-2024.md)
    * [Nieuwe functies maart 2024](whats-new-march-2024.md)
    * [Nieuwe functies november 2023](whats-new-november-2023.md)
    * [Nieuwe functies juli 2023](whats-new-2023-july.md)
    * [Nieuwe functies april 2023](whats-new-2023-april.md)
-   * [Nieuwe functies november 2022](whats-new-2022-november.md)
    * [Aanvullende informatie](release-note/release-notes.md)
    * [Systeemvereisten](system-requirements.md)
    * [ALM-referentiesite voor AEM Sites](adobe-learning-manager-integration-aem.md)
@@ -88,6 +88,9 @@ ht-degree: 87%
    * [Migratiehandleiding](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager-connectoren](integration-admin/feature-summary/connectors.md)
    * [Niet-aangemelde API&#39;s](integration-admin/feature-summary/non-logged-in-apis.md)
+   * [Webhooks](integration-admin/feature-summary/webhooks.md)
+   * [Credly](integration-admin/feature-summary/credly-integration.md)
+   * [Interoperabiliteit leergereedschappen](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [Learning Manager integreren met AEM](integrate-aem-learning-manager.md)
    * [Salesforce-pakket in Learning Manager installeren](integration-admin/feature-summary/install-salesforce-package.md)
    * [Microsoft Teams-connector installeren](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -127,6 +130,7 @@ ht-degree: 87%
    * [Gebruikersmeldingen](learners/feature-summary/user-notifications.md)
    * [Aankondigingen](learners/feature-summary/announcements.md)
    * [Wachtlijst- en aanwezigheidsbeheer](learners/feature-summary/waitlist-attendance-management.md)
+   * [AI-gedreven zoekfunctie in Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Learning Manager-app voor Salesforce](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect-integratie](learners/feature-summary/adobeconnect-integration.md)
    * [Learner-app voor mobiele telefoons en tablets](learners/feature-summary/ipad-android-tablet-users.md)

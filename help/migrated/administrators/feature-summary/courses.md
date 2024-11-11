@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Cursusinstanties en leerpaden maken
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4866'
-ht-degree: 61%
+source-wordcount: '5111'
+ht-degree: 58%
 
 ---
 
@@ -235,6 +235,35 @@ Als een student die eerder de status In afwachting van goedkeuring had, zich uit
 ## Wachtlijst
 
 In de sectie Wachtlijst kunnen studenten op basis van hun inschrijvingsvolgorde voor klassikale cursussen worden weergegeven wanneer de plaatsen beperkt zijn. Beheerders kunnen dit beheren door studenten op de wachtlijst te selecteren en plaatsen toe te wijzen die de oorspronkelijke limiet overschrijden. Nadat de beheerder een licentie heeft toegewezen, wordt de student onmiddellijk ingeschreven voor de cursus.
+
+### Wachtlijstrapport
+
+Met Adobe Learning Manager kunnen beheerders de lijst met studenten op de wachtlijst downloaden voor alle instanties van een cursus. Beheerders kunnen tot dit rapport van de sectie van de Wachtlijst op de **[!UICONTROL pagina van het Overzicht van de Cursus]** toegang hebben.
+
+De volgende kolommen zijn beschikbaar in het rapport Wachtlijst:
+
+* Cursusnaam
+* Instantienaam
+* Instantie-ID
+* Instantiestatus
+* Gebruikersnaam
+* E-mail
+* Unieke ID van gebruiker
+* Datum ingeschreven (tijdzone UTC)
+* Status
+* Wachtlijstnummer
+* Wachtlijstlimiet
+* Plaatslimiet
+
+Het rapport downloaden uit de beheersectie:
+
+1. Login als **[!UICONTROL Admin]**.
+2. Ga naar de **[!UICONTROL sectie van de Cursus]** en selecteer de vereiste cursus.
+3. Selecteer de **[!UICONTROL optie van de Wachtlijst]** in de **[!UICONTROL het overzicht van de Cursus]** pagina.
+4. Selecteer **[!UICONTROL Acties]** > **[!UICONTROL Rapport van de Uitvoer]** om het **[!UICONTROL Wachtlijst]** rapport te downloaden.
+
+   ![](assets/export-report-waitlist.png)
+   _Rapport van de Uitvoer_
 
 ## Aanwezigheid van studenten exporteren {#attendance}
 
@@ -498,6 +527,31 @@ Als een beheerder de e-mailmeldingen wil verzenden, moet deze er expliciet voor 
 ![](assets/escalation-notification.png)
 
 *plaats escalatieniveau*
+
+## Opmerkingen bij voltooiing
+
+Beheerders kunnen opmerkingen achterlaten wanneer ze een student als voltooid markeren voor cursussen, leerpaden of certificeringen. Deze opmerkingen helpen bij compatibiliteits- en controledoeleinden. Beheerders kunnen eenvoudig opmerkingen voor één student of meerdere studenten tegelijk toevoegen.
+
+### Opmerkingen bij voltooiing toevoegen
+
+Ga als volgt te werk om opmerkingen bij voltooiing toe te voegen:
+
+1. Login als **[!UICONTROL Admin]**.
+2. Ga naar de **[!UICONTROL pagina van Cursussen]** en selecteer een cursus.
+3. Selecteer **[!UICONTROL Studenten]** op de cursuspagina.
+4. Kies de individuele student of meerdere studenten.
+5. Selecteer **[!UICONTROL Acties]** en selecteer dan *** [!UICONTROL  Voltooiing van het Teken ] **.
+6. Voer in het dialoogvenster uw voltooiingsopmerking in.
+
+   ![](assets/comments.png)
+   _Commentaar van de Voltooiing_
+
+Dit proces is hetzelfde voor leerpaden en certificeringen. Voor leerpaden kunt u filteren om alle cursussen te selecteren of alleen afzonderlijke cursussen om als voltooid te markeren.
+
+![](assets/learning-path.png)
+_Selecteer veelvoudige cursussen voor voltooiing_
+
+De commentaren zullen in het [ rapport van de Transcripten van de Student ](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) zichtbaar zijn.
 
 ## Voorbeeld van cursussen bekijken {#previewcourses}
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Opmerkingen bij de release van Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: aae70c4dc7c0e613794c294a39001071e9f131d4
+source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
 workflow-type: tm+mt
-source-wordcount: '26251'
+source-wordcount: '26237'
 ht-degree: 72%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 ## Nieuw in deze release
 
-Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new.md) voor meer informatie.
+Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new-july-2024.md) voor meer informatie.
 +++
 
 +++Update 96: De Adobe Learning Manager-versie van maart 2024
@@ -47,7 +47,7 @@ Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new-marc
 
 ## Nieuw in deze release
 
-Bekijk [Wat is er nieuw in Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023) voor meer informatie.
+Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new-november-2023.md) voor meer informatie.
 +++
 
 +++Update 94
@@ -395,8 +395,6 @@ De release van november 2022 van Adobe Learning Manager bestaat uit de volgende 
 * Verbeteringen in de pagina met trainingsoverzicht
 * Speler aanpassen
 * Nabootsing van student en manager
-
-Voor meer informatie zie [Nieuw in de Adobe Learning Manager-release van november 2022](/help/migrated/whats-new-2022-november.md).
 
 **Nota:** met de versie van november 2022 van Adobe Learning Manager, zal het Gezoem [ authentificatie JWT tegen Juni 2023 ](https://marketplace.zoom.us/docs/guides/auth/jwt/) verwerpen. Volgens deze aankondiging werkt de Zoom-connector met JWT tot de genoemde datum, maar wij raden gebruikers aan om een server-naar-server OAuth-app te maken om deze functionaliteit in de accounts te vervangen. Elke nieuwe verbinding beschikt standaard over Zoom OAuth-verificatie.
 
@@ -3037,7 +3035,7 @@ Paginering werkte niet op de pagina Aankondigingen in Beheerdersaanmelding. Dit 
 
 **Vaardigheden maken**
 
-In studentenlogin, was de het hulpmiddeluiteinde van de vaardigheidsnaam in **Vaardighedenkaart **** **niet tonend***volledige naam. Dit probleem is opgelost.
+In studentenlogin, was het het hulpmiddeluiteinde van de vaardigheidsnaam in **Skills kaart **niet ****tonend de**** volledige naam. Dit probleem is opgelost.
 
 **Externe partners toevoegen**
 
