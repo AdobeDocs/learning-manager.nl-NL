@@ -2,9 +2,9 @@
 description: Meer informatie over de nieuwe functies en verbeteringen in de november 2024-versie van Adobe Learning Manager
 jcr-language: en_us
 title: Overzicht van nieuwe functies
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
 workflow-type: tm+mt
-source-wordcount: '3035'
+source-wordcount: '3034'
 ht-degree: 2%
 
 ---
@@ -101,7 +101,7 @@ Verwijs dit artikel [ de rollen van de Douane ](/help/migrated/administrators/fe
 
 ## Opmerkingen bij voltooiing
 
-Beheerders kunnen nu opmerkingen toevoegen wanneer studenten als voltooid worden gemarkeerd in cursussen, leerpaden of certificeringen. Beheerders kunnen tegelijkertijd opmerkingen toevoegen voor een of meerdere studenten en de opmerkingen verschijnen in het rapport [ Studenttranscripten ](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) .
+Beheerders kunnen nu opmerkingen toevoegen wanneer studenten als voltooid worden gemarkeerd in cursussen, leerpaden of certificeringen. Beheerders kunnen tegelijkertijd opmerkingen toevoegen voor een of meerdere studenten en de opmerkingen verschijnen in het rapport ](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) Studenttranscripten.[
 
 Verwijs dit artikel [ commentaren van de Voltooiing ](/help/migrated/administrators/feature-summary/courses.md#completion-comments) voor meer informatie.
 
