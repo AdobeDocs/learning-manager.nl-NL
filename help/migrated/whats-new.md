@@ -2,9 +2,9 @@
 description: Meer informatie over de nieuwe functies en verbeteringen in de november 2024-versie van Adobe Learning Manager
 jcr-language: en_us
 title: Overzicht van nieuwe functies
-source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
+source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
 workflow-type: tm+mt
-source-wordcount: '3034'
+source-wordcount: '3133'
 ht-degree: 2%
 
 ---
@@ -494,17 +494,19 @@ Beheerders kunnen deze rapporteringsveranderingen in **Admin** > **sectie van Ra
 
 Het **[!UICONTROL Lerende rapport van Transcripten]** zal twee nieuwe kolommen bevatten:
 
-* Module-ID
-* Cursusinstantie-ID
+* **[!UICONTROL identiteitskaart van de Module]**: Toont het unieke herkenningsteken voor elke module. Deze nieuwe kolom is toegevoegd na de bestaande **[!UICONTROL kolom van de Module]**.
+* **[!UICONTROL identiteitskaart van de Instantie van de Cursus]**: Toont het unieke herkenningsteken voor elke cursusinstantie.Deze nieuwe kolom is toegevoegd na de bestaande **[!UICONTROL kolom van de Instantie]**.
+* **[!UICONTROL Commentaar van de Voltooiing]**: Deze kolom vangt de commentaren die door admin zijn ingegaan wanneer het merken van gebruikersvoltooiing. Deze nieuwe kolom is toegevoegd aan het einde van het rapport.
+
 
 ### Overzichtsrapport van de sessie
 
 Het **[!UICONTROL Samenvatting van de Zitting]** rapport zal drie nieuwe kolommen bevatten:
 
-* Module-ID
-* Sessie-ID
-* Cursusinstantie-ID
-* Aantal afhandelingen
+* ]**de kolom van identiteitskaart van de Module**[!UICONTROL  is toegevoegd vóór de **[!UICONTROL kolom van de Naam van de Zitting]**.
+* ]**de kolom van identiteitskaart van de Zitting**[!UICONTROL  is toegevoegd vóór de **[!UICONTROL kolom van de Naam van de Zitting]**.
+* ]**kolom van identiteitskaart van de Instantie van 0} Cursus is toegevoegd na de**[!UICONTROL  kolom van de Naam van de Instantie ]**.**[!UICONTROL 
+* ]**de kolom van de Telling van 0} Voltooiing {is toegevoegd na de**[!UICONTROL  kolom van de Telling van de Inschrijving ]**.**[!UICONTROL 
 
 ## Bugfixes in deze update
 
