@@ -2,7 +2,7 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: 8c4d00ed9213c21463a046f74d1db17b331da85f
+source-git-commit: 685220000be6be524c0829fe400abec911cf067e
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 85%
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 * [Gebruikersgids voor Learning Manager](user-guide.md)
 * Inleiding {#introduction}
-   * [Overzicht van nieuwe functies](whats-new.md)
+   * [Overzicht van nieuwe functies](/help/migrated/whats-new.md)
    * [Overzicht van nieuwe functies, juli 2024](whats-new-july-2024.md)
    * [Nieuwe functies maart 2024](whats-new-march-2024.md)
    * [Nieuwe functies november 2023](whats-new-november-2023.md)

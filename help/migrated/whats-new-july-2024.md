@@ -3,14 +3,14 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de juli
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 685220000be6be524c0829fe400abec911cf067e
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2327'
 ht-degree: 2%
 
 ---
 
-# Overzicht van nieuwe functies {#new-features-summary}
+# Overzicht van nieuwe functies, juli 2024 {#new-features-summary-july-2024}
 
 Meer informatie over de nieuwe functies en verbeteringen in de Adobe Learning Manager-versie van juli 2024.
 
