@@ -3,9 +3,9 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de nove
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3149'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ De volgende kolommen zijn beschikbaar in het rapport Wachtlijst:
 * Wachtlijstlimiet
 * Plaatslimiet
 
-Verwijs dit artikel [ Wachtlijst rapport ](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) en [ rapport Wachtlijst ](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) om rapport van Admin en de sectie van de Instructeur te downloaden.
+Verwijs dit artikel [ Wachtlijstrapport (Admin) ](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) en [ Wachtlijstrapport (Instructeurs) ](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) om rapport van Admin en de sectie van de Instructeur te downloaden.
 
 ## Toegankelijkheid op studentstartpagina
 
@@ -149,6 +149,10 @@ Verwijs dit artikel [ Bekendmaking ](/help/migrated/administrators/feature-summa
 ## Ondersteuning voor Hindi
 
 Adobe Learning Manager introduceert nu Hindi als een van de interfacetalen van het platform en ondersteunt de groei van het platform in India. Ondersteuning voor native Hindi-luidsprekers zorgt ervoor dat alle functies, rapporten en de algemene gebruikerservaring volledig toegankelijk zijn voor de gebruikers.
+
+>[!NOTE]
+>
+>Badge-certificaten die door het systeem in de PDF-indeling worden gegenereerd, ondersteunen Hindi niet.
 
 Ga als volgt te werk om de interfacetaal te wijzigen:
 

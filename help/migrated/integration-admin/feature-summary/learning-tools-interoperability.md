@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Interoperabiliteit van leergereedschappen (LTI)
 description: Meer informatie over LTI-integratie ALM
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
@@ -235,6 +236,16 @@ Het volgende is beperkingen LTI voor zowel consument als leverancier LTI:
 * Het actieve LTI-veld is één waarde en ondersteunt geen meerdere waarden.
 * Er zijn geen redenen voor een fout beschikbaar als het exporteren mislukt tijdens de migratie van cursussen zonder kerninhoud.
 * Externe cijfers voor LTI-cursussen worden niet weergegeven in het Studenttranscript en scores zijn niet zichtbaar op de L2 Quiz-pagina, wat van invloed is op de prestaties van de studenten.
+
+## Problemen met LTI-lancering
+
+Hieronder volgen de cursussen die de externe LTI-speler niet kan starten als gevolg van recente wijzigingen die in ALM zijn aangebracht nadat de starlinks zijn gemaakt:
+
+* Cursussen waarop het exemplaar is gearchiveerd.
+* Gearchiveerde cursussen zonder inschrijvingen in ALM.
+* Cursussen met inschrijvingen in ALM maar met pensioen.
+* Cursussen die zijn verwijderd in ALM.
+* Cursussen waarvoor de inschrijvingslimiet is bereikt.
 
 ## Best practice
 
