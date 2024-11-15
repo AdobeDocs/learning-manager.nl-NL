@@ -3,7 +3,7 @@ jcr-language: en_us
 title: AI-gedreven zoekfunctie in Adobe Learning Manager
 description: Meer informatie over de door AI aangestuurde zoekfunctie in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: ee78b7e0b81faa7003438a8a3dc9e46af3e10c17
+source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -25,7 +25,8 @@ De zoekfunctie is om verschillende redenen belangrijk:
 * **Toegankelijkheid**: De efficiënte onderzoeksmogelijkheden maken informatie toegankelijker, die ervoor zorgen dat de gebruikers met inhoud kunnen interactie aangaan relevant voor hun behoeften.
 * **Personalisatie**: De geavanceerde onderzoekssystemen kunnen resultaten aanpassen die op gebruikersvoorkeur worden gebaseerd, verbeterend de relevantie van de voorgestelde informatie.
 
-Bewegend zoekgedrag op het web
+## Bewegend zoekgedrag op het web
+
 Terwijl mensen online zoeken, verandert de manier waarop ze zoeken, en zoekmachines passen zich aan om het bij te houden. Hier volgen enkele belangrijke manieren waarop mensen tegenwoordig naar informatie zoeken:
 
 * **intent-gedreven**: In plaats van het typen van nauwkeurige sleutelwoorden, uiten de gebruikers nu hun behoeften met uitdrukkingen zoals ik wil of ik moet. Moderne zoekmachines begrijpen het doel van deze zinnen en geven relevantere resultaten.
