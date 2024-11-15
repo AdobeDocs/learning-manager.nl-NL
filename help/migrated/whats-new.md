@@ -3,7 +3,7 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de nove
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+source-git-commit: 269e5532786de90208e23ffd6ef95479a1295c97
 workflow-type: tm+mt
 source-wordcount: '3149'
 ht-degree: 2%
@@ -53,9 +53,9 @@ Adobe Learning Manager ondersteunt nu LTI om de interoperabiliteit tussen Adobe 
 
 LTI (Learning Tools Interoperability) is een standaard waarmee tools en contentproviders van derden verbinding kunnen maken met een LMS (Learning Management System). Gebruikers hebben rechtstreeks vanuit hun LMS toegang tot externe leerinhoud van externe inhoudsproviders zonder zich aan te melden bij of naar een ander LMS te navigeren.
 
-LTI als toolprovider: met LTI als toolprovider kunnen externe systemen worden geïntegreerd met een LMS. Adobe Learning Manager fungeert als LTI Tool Provider, waardoor andere LMS-platforms rechtstreeks vanuit hun LMS toegang hebben tot cursussen, certificaten of leerpaden van de Adobe Learning Manager.
+**LTI als hulpmiddelleverancier**: LTI als hulpmiddelleverancier staat externe systemen toe om met een LMS te integreren. Adobe Learning Manager fungeert als LTI Tool Provider, waardoor andere LMS-platforms rechtstreeks vanuit hun LMS toegang hebben tot cursussen, certificaten of leerpaden van de Adobe Learning Manager.
 
-LTI als toolconsument: LTI als toolconsument staat LMS toe om externe tools te integreren via Learning Tools Interoperability (LTI). In dit scenario is LMS een consument van diensten die door externe instrumenten worden geleverd. Adobe Learning Manager fungeert als consument van een LTI-tool, waardoor het programma leermiddelen van derden kan integreren. Op deze manier kunnen Adobe Learning Manager-studenten cursussen, certificaten of leerpaden volgen met de tools van derden in de Adobe Learning Manager.
+**LTI als hulpmiddelconsument**: LTI als de consument van het Hulpmiddel staat LMS toe om externe hulpmiddelen via het LTI (het Leren Interoperability van Hulpmiddelen) te integreren. In dit scenario is LMS een consument van diensten die door externe instrumenten worden geleverd. Adobe Learning Manager fungeert als consument van een LTI-tool, waardoor het programma leermiddelen van derden kan integreren. Op deze manier kunnen Adobe Learning Manager-studenten cursussen, certificaten of leerpaden volgen met de tools van derden in de Adobe Learning Manager.
 
 Verwijs dit artikel [ het Leren Interoperabiliteit van het Hulpmiddel ](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md) voor meer informatie.
 

@@ -4,9 +4,9 @@ title: Gebruiksgids voor webhooks
 description: Meer informatie over het gebruik van Webhooks, best practices en beperkingen
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
+source-git-commit: 4b26eddf1285651a13ee9c71fdf677e8b92e6dc3
 workflow-type: tm+mt
-source-wordcount: '3310'
+source-wordcount: '3369'
 ht-degree: 1%
 
 ---
@@ -291,6 +291,8 @@ Om deze fouten te voorkomen, moeten abonnees webhookgebeurtenissen actief contro
 * Sessiewijzigingen worden vastgelegd als onderdeel van de gebeurtenis voor het bijwerken van de instantie. Dit geldt alleen voor cursussen. Er zal geen opwaartse propagatie van lagere-niveauentiteiten voor de instanties van de leerweg of certificatieinstanties zijn.
 * Als een het leren weg een cursus bevat en een student de cursus via de het leren weg voltooit, zullen twee **LearnerProgress** gebeurtenissen worden geproduceerd-voor de cursus en voor de het leren weg.
 * Bepaalde workflows berekenen asynchroon kenmerken van leerobjecten, zoals duur en leveringstype. Daarom worden gebeurtenissen voor dit leerobject gegenereerd zodra de uitsnijdtaak is voltooid met de verwerking.
+* Als een cursus is ingeschreven via een bovenliggend leerprogramma of certificering, worden de gebeurtenissen voor inschrijving, uitschrijving en voltooiing alleen geactiveerd voor het bovenliggende leerprogramma of de bovenliggende certificering. Deze gebeurtenissen worden niet geactiveerd voor de onderliggende cursus sinds de inschrijving indirect plaatsvindt.
+* Webhooks worden slechts gesteund voor rekeningen met **[!UICONTROL ACTIEVE]** status. Zij zijn niet beschikbaar voor **[!UICONTROL PROEF]** of **[!UICONTROL INACTIEVE]** rekeningen.
 
 ## Voorbeelden van ladingen voor de gebeurtenissen
 
