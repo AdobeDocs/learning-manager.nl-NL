@@ -3,9 +3,10 @@ jcr-language: en_us
 title: Gebruiksgids voor webhooks
 description: Meer informatie over het gebruik van Webhooks, best practices en beperkingen
 contentowner: chandrum
-source-git-commit: d7f7652c38c3eb623be083fd2fdde36eec25c1e4
+exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
+source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
 workflow-type: tm+mt
-source-wordcount: '3377'
+source-wordcount: '3310'
 ht-degree: 1%
 
 ---
@@ -250,12 +251,6 @@ Het proces voor opnieuw proberen begint met een eerste interval van 5 seconden. 
 ### Gebeurtenissen dupliceren
 
 Als een abonnee na het verwerken van een gebeurtenis meer dan 5 seconden nodig heeft om te reageren, probeert het systeem dezelfde gebeurtenis mogelijk opnieuw te verwerken. Het wordt aanbevolen om gebeurtenis-id&#39;s te gebruiken om bij te houden welke gebeurtenissen al zijn verwerkt. Ook als de webhook vastloopt na het verzenden van de gebeurtenis, maar voordat het opslaan is voltooid, kan dezelfde groep gebeurtenissen opnieuw worden geprobeerd. Het wordt aanbevolen batch-id&#39;s of afzonderlijke gebeurtenis-id&#39;s te gebruiken om eventuele duplicaten te herkennen en te negeren.
-
-### Gebeurtenissen buiten de bestelling
-
-ALM probeert gebeurtenissen in de juiste volgorde te houden, maar soms kunnen gebeurtenissen op volgorde worden geleverd, vooral tussen real-time en niet-real-time gebeurtenissen.
-
-Als een beheerder meerdere studenten tegelijk voor een cursus inschrijft, worden de inschrijvingsgebeurtenissen gemarkeerd als niet-real-time. Als een student de cursus echter snel voltooit, wordt die voltooiingsgebeurtenis gemarkeerd als real-time en kan deze vóór de inschrijvingsgebeurtenissen worden afgeleverd.
 
 ### Aanbeveling voor fouttolerantie
 
