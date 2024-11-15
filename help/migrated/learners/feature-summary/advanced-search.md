@@ -3,9 +3,9 @@ jcr-language: en_us
 title: AI-gedreven zoekfunctie in Adobe Learning Manager
 description: Meer informatie over de door AI aangestuurde zoekfunctie in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 De zoekfunctie in ALM verbetert de gebruikerservaring doordat gebruikers relevante content efficiënt kunnen vinden en de juiste content kunnen consumeren.
 
 Adobe Learning Manager introduceert een door AI gedreven zoekfunctie waarin lexicale en semantische zoekopdrachten worden gecombineerd. De zoekopdracht is slimmer omdat er wordt gezocht naar specifieke termen en omdat deze de context en de bedoeling achter de termen bevatten. De geavanceerde AI-zoekfunctie begrijpt de betekenis van je zoekopdracht en levert relevante resultaten op.
+
+>[!NOTE]
+>
+>Zoeken op basis van AI is alleen beschikbaar voor studenten.
 
 ## Waarom is zoeken belangrijk?
 

@@ -3,9 +3,9 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de nove
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 269e5532786de90208e23ffd6ef95479a1295c97
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '3149'
+source-wordcount: '3158'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,10 @@ Meer informatie over de nieuwe functies en verbeteringen in de november 2024-ver
 ## AI-gedreven zoekfunctie in Adobe Learning Manager
 
 Adobe Learning Manager vernieuwt de manier waarop studenten naar cursussen of trainingen zoeken. Het introduceert een AI-gedreven zoekfunctie die lexicale en semantische zoekopdrachten combineert. Het zoeken is nu slimmer, omdat het zoekt naar specifieke termen en de context en bedoeling achter die termen begrijpt. De geavanceerde zoekopdracht begrijpt de betekenis van uw zoekopdracht en levert relevante resultaten op. Het geeft de belangrijkste focus van de zoekopdracht aan, zodat je de meest volledige set resultaten krijgt.
+
+>[!NOTE]
+>
+>Zoeken op basis van AI is alleen beschikbaar voor studenten.
 
 Verwijs dit artikel [ Geavanceerd Onderzoek ](/help/migrated/learners/feature-summary/advanced-search.md) voor meer informatie.
 
