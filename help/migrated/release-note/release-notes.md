@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Opmerkingen bij de release van Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
+source-git-commit: 81d6ae6c552d8509d311ac9a12eb962968151a60
 workflow-type: tm+mt
-source-wordcount: '26237'
+source-wordcount: '26265'
 ht-degree: 72%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++Update 98: de november 2024-versie van Adobe Learning Manager
+
+**de datum van de Versie**: 16 november, 2024
+
+## Nieuw in deze release
+
+Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new.md) voor meer informatie.
++++
 
 +++Update 97: de juli 2024-versie van Adobe Learning Manager
 
