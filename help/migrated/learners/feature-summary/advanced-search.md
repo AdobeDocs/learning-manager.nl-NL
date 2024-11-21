@@ -3,9 +3,9 @@ jcr-language: en_us
 title: AI-gedreven zoekfunctie in Adobe Learning Manager
 description: Meer informatie over de door AI aangestuurde zoekfunctie in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -101,3 +101,4 @@ Al met al is de AI-gedreven zoekfunctie van ALM grondig, nauwkeurig en gebruiksv
 >
 >1. Klanten die een headless implementatie gebruiken, moeten de API-documentatie volgen om Geavanceerd zoeken in te schakelen
 >2. Geavanceerd zoeken is momenteel niet beschikbaar voor de Salesforce-app.
+>3. Klantgegevens, inclusief content en transcripten, worden niet gedeeld met externe services voor door AI gedreven zoekopdrachten. Alle inhoud blijft veilig opgeslagen in het bestaande opslagsysteem.
