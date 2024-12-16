@@ -3,9 +3,9 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de nove
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3173'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,10 @@ Meer informatie over de nieuwe functies en verbeteringen in de november 2024-ver
 * **optimalisering van het E-mailmalplaatje**: Gecombineerde en geoptimaliseerde e-mailmalplaatjes voor instructeurtoewijzingen en zittingsannuleringen.
 * **de voltooiingscriteria van de Teams van MS**: Vastgestelde minimumaanwezigheidstijd voor zittingen VILT.
 * **Nieuwe migratiewerkschema&#39;s**: De veranderingen van de migratie omvatten voltooiingscriteria voor cursussen en modules en het migreren modules in omslagen.
+
+>[!NOTE]
+>
+>Controle uit dit [ webinar ](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course) om meer over de nieuwe eigenschappen in deze versie te leren.
 
 ## AI-gedreven zoekfunctie in Adobe Learning Manager
 

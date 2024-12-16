@@ -4,10 +4,10 @@ title: Aangepaste rollen
 description: Met de functie Leerpaden kunt u aangepaste rollen definiëren en specifieke verantwoordelijkheden toewijzen aan een gebruikersset. Met deze functie kunt u verantwoordelijkheden toewijzen die buiten de bestaande rol van de persoon vallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 57%
+source-wordcount: '2662'
+ht-degree: 54%
 
 ---
 
@@ -16,6 +16,37 @@ ht-degree: 57%
 Met deze functie kunt u aangepaste rollen definiëren en specifieke verantwoordelijkheden toewijzen aan een gebruikersset. Met deze functie kunt u verantwoordelijkheden toewijzen die buiten de bestaande rol van de persoon vallen.
 
 U kunt een aangepaste rol maken om auteursmogelijkheden te bieden die beperkt zijn tot een bepaalde catalogus. U kunt ook een rol maken voor rapportagebeheer. Dergelijke rollen kunnen dan worden toegewezen aan personen die geacht worden deze specifieke verantwoordelijkheden op zich te nemen.
+
+Beheerders kunnen aangepaste beheerders- en aangepaste auteursrollen maken met op maat gemaakte machtigingen voor elke rol. Hieronder ziet u een overzicht van de machtigingen die aan elke rol zijn gekoppeld:
+
+**Toestemmingen van de Rol van de Auteur van 0}**
+
+Aangepaste auteurs kunnen de volgende taken uitvoeren:
+
+* Open de inhoudsbibliotheek om kerninhoud toe te voegen, te bewerken of te verwijderen.
+* Maken, bewerken en verwijderen:
+   * Cursussen
+   * Taakhulpen
+   * Certificeringen
+   * Leerpaden
+   * Leerplannen
+
+Beheerders en auteurs, inclusief aangepaste beheerders en aangepaste auteurs, kunnen leerobjecten (LO&#39;s) delen met extern gedeelde catalogi. Beheerders en auteurs moeten kunnen zoeken naar extern gedeelde catalogi tijdens het maken van leerobjecten (LO&#39;s).
+
+**de Toestemmingen van de Rol Admin van de Douane**
+
+De aangepaste beheerdersrol repliceert een reeks beheerdersverantwoordelijkheden, waaronder toegang tot bevoegdheden op accountniveau. Aangepaste beheerders krijgen machtigingen voor het beheer van belangrijke functies met betrekking tot leeractiviteiten, zoals:
+
+* Leerplannen
+* Catalogi
+* Rapporten
+* Tags
+
+Bovendien kunnen aangepaste beheerders:
+
+* Beheer cursussen en taakhulpen, waaronder gebruikers inschrijven en verwijderen.
+* Creëer, bewerk en verwijder certificeringen, leerpaden en leerplannen.
+* Toegang tot rapportage- en inschrijvingsfuncties voor alle leerobjecten (LO&#39;s).
 
 Beheerders kunnen nu door CSV gemaakte machtigingen bekijken in Adobe Learning Manager. Met dit filter filtert u aangepaste rollen op beheerder die is gemaakt en op beheerders die via een CSV zijn geïmporteerd. Nadat u een aangepaste rol hebt geselecteerd, kunt u de bijbehorende machtigingen zien.
 
@@ -32,7 +63,9 @@ _de douanerollen van de Filter_
    *creeer een douanerol*
 
 3. Ga de naam in de **[!UICONTROL Naam van het gebied van de Rol]** in.
-4. **[!UICONTROL de voorrechten van de Rekening]**: Deze voorrechten geven de roleigenaars toegang tot specifieke aspecten van de systeemconfiguratie en die op de volledige rekening handelen. Kies de toegangsrechten. De gebruiker krijgt volledige controle over de toegewezen machtigingen. Beheerders kunnen gedetailleerde machtigingen verlenen voor de sectie Gebruiker, waarin interne/externe gebruikers, gebruikersgroepen en geavanceerde gebruikers zijn opgenomen.
+4. **[!UICONTROL de voorrechten van de Rekening]**: Deze voorrechten geven de roleigenaars toegang tot specifieke aspecten van de systeemconfiguratie en die op de volledige rekening handelen. Kies de toegangsrechten. De gebruiker krijgt volledige controle over de toegewezen rechten.
+
+   Beheerders kunnen gedetailleerde machtigingen verlenen voor de sectie Gebruiker, waarin interne/externe gebruikers, gebruikersgroepen en geavanceerde gebruikers zijn opgenomen.
 
    >[!NOTE]
    >
@@ -43,7 +76,9 @@ _de douanerollen van de Filter_
 
    *plaats het werkingsgebied*
 
-5. **de voorrechten van de Eigenschap - de eigenschappen van de Kern**: Gebruikt om toegang tot specifieke eigenschappen voor het beheren van het leren activiteiten te verlenen. Met deze optie kunt u machtigingen voor de volgende functies geven. Beheerders kunnen gedetailleerde machtigingen bieden, zoals alleen-lezen, machtigingen voor de catalogi maken, bewerken en verwijderen.
+5. **de voorrechten van de Eigenschap - de eigenschappen van de Kern**: Gebruikt om toegang tot specifieke eigenschappen voor het beheren van het leren activiteiten te verlenen. Met deze optie kan toestemming worden gegeven voor de volgende functies.
+
+   Beheerders kunnen gedetailleerde machtigingen bieden, zoals alleen-lezen, machtigingen voor de catalogi maken, bewerken en verwijderen.
 
    * Catalogi
    * Rapporten
@@ -60,7 +95,7 @@ _de douanerollen van de Filter_
    * Taakhulpen
    * Leerprogramma&#39;s
 
-   U kunt ook specifieke besturingselementen voor de LO&#39;s toekennen. De toestemming kan een van de volgende zijn:
+   U kunt ook specifieke besturingselementen voor de leerobjecten toekennen. De toestemming kan een van de volgende zijn:
 
    * Alleen-lezen
    * Creëer
