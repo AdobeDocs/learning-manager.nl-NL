@@ -4,9 +4,9 @@ title: Witte labels in de mobiele app van Adobe learning Manager
 description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -378,23 +378,29 @@ De `<root>` omslag bevat het {**dossier 1} Runner.xcarchive.zip.** Voer de onder
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Ga terug naar de map `<root>` (waar Runner.xcarchive.zip zich bevindt):
+4. Voer de volgende opdracht uit om uw ondertekeningsgegevens bij te werken naar de frameworkbibliotheek:
+
+   ```
+   codesign -f -s "Distribution Certificate Name" Frameworks/*
+   ```
+
+5. Ga terug naar de map `<root>` (waar Runner.xcarchive.zip zich bevindt):
 
    ```
    cd <root>
    ```
 
-5. Het archief exporteren met Xcodebuild:
+6. Het archief exporteren met Xcodebuild:
 
    ```
    xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
    ```
 
-6. Zoek het .ipa-bestand in de map ipa_path.
-7. Upload het .ipa-bestand naar de `Diawi` -website.
-8. Zodra volledig geupload, selecteer **[!UICONTROL verzend]** knoop.
-9. Na voltooiing, zult u een QR code en een verbinding ontvangen.
-10. Open de QR-code of de koppeling rechtstreeks in Safari.
+7. Zoek het .ipa-bestand in de map ipa_path.
+8. Upload het .ipa-bestand naar de `Diawi` -website.
+9. Zodra volledig geupload, selecteer **[!UICONTROL verzend]** knoop.
+10. Na voltooiing, zult u een QR code en een verbinding ontvangen.
+11. Open de QR-code of de koppeling rechtstreeks in Safari.
 
 Als het apparaat is opgenomen in het inrichtingsprofiel, moet de installatie op het apparaat worden uitgevoerd.
 
@@ -408,8 +414,12 @@ Als het apparaat is opgenomen in het inrichtingsprofiel, moet de installatie op 
 **voor apk- dossier**
 
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
+
+>[!NOTE]
+>
+>Het pad naar het gereedschap `apksigner` ziet er meestal als volgt uit: ~/Library/Android/sdk/build-tools/30.0.3/apksigner.
 
 **voor aab dossier**
 
@@ -464,6 +474,36 @@ U zult het apk dossier van de **[!UICONTROL output_dir]** omslag krijgen.
 **Wat is volgende**
 
 Nadat u de binaire bestanden hebt gegenereerd, drukt u de binaire bestanden naar de Play Store of App Store.
+
+### Apps naar de winkel sturen voor revisie
+
+Nadat u de definitieve binaire bestanden hebt ontvangen, kunt u deze uploaden naar de respectievelijke App Store (iOS of Android) voor revisie. Voer de volgende stappen uit om de binaire bestanden te uploaden naar de App Store.
+
+**iOS**
+
+1. Meld u met uw App Store-gegevens aan bij de Transporter-app.
+2. Selecteer **+** knoop bij de linkerbovenkant en upload het productiecertificaat (.ipa dossier).
+3. Als het .ipa-bestand correct is, wordt u gevraagd om de app te uploaden naar de App Store.
+4. Meld u aan bij de App Store nadat de app is geleverd. Binnen een paar uur, zal het binaire getal in de sectie TestFlight verschijnen. U kunt de app inschakelen voor het testen van de uiteindelijke hygiëne in TestFlight vóór de revisie van de app en deze IPA als binair bestand gebruiken bij het indienen van de app voor een nieuwe release.
+
+**Android**
+
+1. Open de Google Play Store Console.
+2. Ga naar **[!UICONTROL Dashboard]** > **[!UICONTROL de Versies van de App van de Mening]** > **[!UICONTROL Dashboard van de Versie]** en selecteer dan **[!UICONTROL creeer Nieuwe Versie]**.
+3. Upload het gegenereerde .aab-bestand als de appbundel en typ releasedetails zoals het versienummer en de nieuwe functies.
+4. Sla uw wijzigingen op en verzend de app voor revisie.
+5. Stel de distributie van de app in op 100% (Google stelt deze standaard in op 20%).
+
+#### Nuttige koppelingen voor het publiceren van apps
+
+**Android**
+
+[ creeer en opstelling uw app ](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
+[ Bereid uw app voor overzicht ](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP) voor
+
+**iOS**
+
+[ legt voor overzicht ](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review) voor
 
 ## Hoe pas ik de wijzigingen toe
 
