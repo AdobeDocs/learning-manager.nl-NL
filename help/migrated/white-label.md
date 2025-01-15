@@ -4,9 +4,9 @@ title: Witte labels in de mobiele app van Adobe learning Manager
 description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: eb93f8c5fd3d64366756840789b984ca986dbf0b
+source-git-commit: b7050db4b7129028ada51b15e2d76fce2bb62f64
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '1987'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,14 @@ ht-degree: 0%
 # Witte labels in de mobiele app van Adobe learning Manager
 
 De mobiele Adobe Learning Manager-app ondersteunt nu witte labels, wat betekent dat u de app nu kunt vrijgeven onder uw eigen branding.
+
+ALM zal bijgewerkte wit geëtiketteerde binaire dossiers volgens de volgende chronologie beschikbaar maken:
+
+1. Voor belangrijke releases naar de mobiele app worden de bestanden twee weken van tevoren beschikbaar gesteld
+2. Voor geplande updates voor urgente oplossingen worden de bestanden één week van tevoren beschikbaar gesteld
+3. Voor niet-geplande, urgente en onmiddellijke oplossingen worden bestanden beschikbaar gesteld op basis van de best mogelijke inspanning
+
+Binaire bestanden worden beschikbaar gesteld in de door de klant aangewezen mappen. Neem contact op met uw CSM&#39;s om de bestanden te openen. De klant is verantwoordelijk voor tijdige publicatie en verwante processen.
 
 ## Hoe je je voorbereidt om je wit gelabelde app te starten
 
