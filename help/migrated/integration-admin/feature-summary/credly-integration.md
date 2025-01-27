@@ -3,9 +3,10 @@ jcr-language: en_us
 title: Credly
 description: Meer informatie over de integratie van Credly met ALM voor het beheren en delen van externe badges vanaf het platform via verschillende social-mediakanalen
 contentowner: chandrum
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
+source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -41,8 +42,8 @@ Ga als volgt te werk om de Credly-connector aan Adobe Learning Manager toe te vo
 
 Met badge.csv in Adobe Learning Manager kunt u badges migreren van het bestaande LMS of externe systeem. De badge.csv is bijgewerkt met twee nieuwe kolommen:
 
-* Externe badge-id
-* Externe badgeprovider.
+* externalBadgeId
+* externalBadgeProvider
 
 Externe badge-id verwijst naar de badgesjabloon-id in het Referentieplatform en de externe badgeprovider is Credly. Voeg deze waarden in badge.csv toe en volg de stappen die in het [ handboek van de Migratie ](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) worden vermeld om csv te migreren.
 
@@ -55,4 +56,3 @@ Zodra de badge is geïmporteerd in Adobe Learning Manager, kan de beheerder deze
 De auteur/beheerder kan deze door Credly geïmporteerde ALM-badges toewijzen aan een cursus, leerpad of certificering (niet alleen vaardigheden). Bij gebruik van deze leerobjecten wordt de badge behaald en weergegeven in Credly en ALM App.
 
 Studenten kunnen zich aanmelden bij Credly en de badges bekijken op het Credly-platform. Vanuit Credly kunnen ze de badges delen op externe platforms zoals LinkedIn en andere social media.
-
