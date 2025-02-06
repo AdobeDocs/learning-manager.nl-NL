@@ -46,213 +46,109 @@ U kunt het volgende aanpassen:
 ### Velden
 
 <table>
-
  <tbody>
-
   <tr>
-
    <td>
-
     <p>Account-id</p>
-
    </td>
-
    <td>
-
     <p>De id van uw account. Let op: de witte gelabelde app is niet toegankelijk voor studenten die tot een ander account behoren.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Aanvullende account-id's</p>
-
    </td>
-
    <td>
-
     <p>Voeg desgewenst meerdere accounts (subdomeinen) toe. Voeg de subdomeinen toe als komma's gescheiden zonder spaties. Bijvoorbeeld acc01,acc02,acc03 enzovoort.<br> <b> Nota:</b> u moet accountidentiteitskaart toevoegen wanneer het specificeren van sub-domeinen.</br> </p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Toepassingsnaam</p></td>
-
    <td>
-
     <p>De naam die u voor de app wilt gebruiken.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Korte naam app</p>
-
    </td>
-
    <td>
-
     <p>Als de naam van de app lang is, geeft u de app een korte naam die op het apparaat wordt weergegeven.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Interne toepassingsnaam</p></td>
-
    <td>
-
     <p>De naam waarmee het besturingssysteem de app identificeert. Meestal wordt de volgende indeling gebruikt: com.company-name.product-name.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Interne toepassingsnaam-iOS</p>
-
    </td>
-
    <td>
-
     <p>Geef de app een andere naam als uw gebruikers zich op iOS bevinden. We raden u aan dezelfde naam te gebruiken voor zowel iOS als Android.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>App-pictogram</p>
-
    </td>
-
    <td>
-
     <p>Het app-pictogram als png. Dit pictogram wordt weergegeven in uw app. De naamnotatie is account-id_appIcon.png. De afmetingen van het app-pictogram zijn 512 x 512 pixels.<div>Houd er rekening mee dat Apple Alpha in app-pictogrammen niet toestaat. Verwijder dus het kanaal van de Alpha uit het element voordat u het verzendt.</div></p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>App-welkomstscherm</p></td>
-
    <td>
-
     <p>Geef voor het welkomstscherm van uw app een afbeelding (png) op die wordt weergegeven wanneer uw gebruikers de app starten. De naamnotatie is account-id_splashIcon.png. De afmetingen van de op vierkant gebaseerde welkomstschermen zijn 1052 × 1052 pixels en de cirkelvormige welkomstschermen zijn 768 x 768 pixels.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Client-id en clientgeheim</p>
-
    </td>
-
    <td>
-
     <p>De integratiebeheerder van uw account geeft de gegevens op tijdens de registratie van de app. De integratiebeheerder moet het volgende gebruiken:<ul><li>student:lezen,student:schrijven als rol</li><li>interne app name://redirect als redirect URL</li></ul></p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Accountlogo</p>
-
    </td>
-
    <td>
-
     <p>De URL die het logo van uw organisatie host. Geef een link naar inhoud op als het accountlogo. De URL moet via webcodering worden gecodeerd.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>App Store-id voor de app (iOS)</p>
-
    </td>
-
    <td>
-
     <p>De id die is vereist voor het implementeren van de geforceerde update. De app moet weten dat de student moet worden omgeleid naar de App Store om de app bij te werken.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Google Play Store-id voor de app (Android)</p>
-
    </td>
-
    <td>
-
     <p>De id die is vereist voor het implementeren van de geforceerde update.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Hostnaam voor deep linking</p>
-
    </td>
-
    <td>
-
     <p>Gebruik Learningmanager om uw diepe koppelingen te hosten. Geef de URL van de host op als u een andere hostnaam-URL wilt gebruiken als een diepe koppeling. Bijvoorbeeld learningmanager.adobe.com.</p>
-
    </td>
-
   </tr>
-
  </tbody>
-
 </table>
 
 >[!NOTE]
