@@ -4,7 +4,7 @@ title: Handleiding voor toepassingsontwikkelaars
 description: Versie 1 van de Learning Manager-API is nu verouderd. De API's van versie 1 werken niet meer vanaf 28 februari 2021. We raden u aan om V2 API's te gebruiken voor interactie met Learning Manager.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
 workflow-type: tm+mt
 source-wordcount: '3377'
 ht-degree: 63%
@@ -120,11 +120,11 @@ Ontwikkelaars hebben toegang tot één API-objectmodel en ook tot meerdere model
 
 **API-verzoek**
 
-De API-verzoeken kunnen worden gedaan door een HTTP-verzoek in te dienen. Afhankelijk van het eindpunt en de methode kan de ontwikkelaar een keuze maken uit verschillende HTTP-woorden zoals GET, PUT, POST, DELETE, PATCH, enz. Voor sommige verzoeken kunnen queryparameters worden doorgegeven. Bij het aanvragen van een specifiek gegevensmodel kan de gebruiker ook een verzoek indienen voor gerelateerde modellen zoals beschreven in de JSON API-specificaties. De structuur van een typisch API-verzoek wordt beschreven in [voorbeeld modelgebruik](#main-pars_header_1415780624).
+De API-verzoeken kunnen worden gedaan door een HTTP-verzoek in te dienen. Afhankelijk van het eindpunt en de methode kan de ontwikkelaar een keuze maken uit verschillende HTTP-woorden zoals GET, PUT, POST, DELETE, PATCH, enz. Voor sommige verzoeken kunnen queryparameters worden doorgegeven. Bij het aanvragen van een specifiek gegevensmodel kan de gebruiker ook een verzoek indienen voor gerelateerde modellen zoals beschreven in de JSON API-specificaties. De structuur van een typisch API-verzoek wordt beschreven in [voorbeeld modelgebruik](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration).
 
 **API-respons**
 
-Wanneer een API-verzoek wordt gedaan door een klant, wordt een SON-document verkregen volgens de JSON API-specificatie. De reactie bevat ook de HTTP-statuscode, die de ontwikkelaar kan verifiëren om de juiste volgende stappen in zijn toepassingslogica uit te voeren. De structuur van een typische API Reactie wordt beschreven in [ gebruik van het steekproefmodel ](#main-pars_header_1415780624).
+Wanneer een API-verzoek wordt gedaan door een klant, wordt een SON-document verkregen volgens de JSON API-specificatie. De reactie bevat ook de HTTP-statuscode, die de ontwikkelaar kan verifiëren om de juiste volgende stappen in zijn toepassingslogica uit te voeren. De structuur van een typische API Reactie wordt beschreven in [ gebruik van het steekproefmodel ](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration).
 
 **Fouten**
 

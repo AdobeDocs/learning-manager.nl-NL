@@ -3,9 +3,9 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de nove
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
+source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
 workflow-type: tm+mt
-source-wordcount: '3173'
+source-wordcount: '3184'
 ht-degree: 2%
 
 ---
@@ -551,6 +551,10 @@ Het **[!UICONTROL Samenvatting van de Zitting]** rapport zal drie nieuwe kolomme
 ## Systeemvereisten
 
 De systeemvereisten van de mening [ Adobe Learning Manager ](/help/migrated/system-requirements.md).
+
+## Opmerkingen bij de release
+
+Controle uit de [ versienota&#39;s ](/help/migrated/release-note/release-notes.md) voor recentste versieupdates.
 
 ## Eerdere releases van Adobe Learning Manager
 

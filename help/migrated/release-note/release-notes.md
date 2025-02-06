@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Opmerkingen bij de release van Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 81d6ae6c552d8509d311ac9a12eb962968151a60
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '26265'
-ht-degree: 72%
+source-wordcount: '26470'
+ht-degree: 71%
 
 ---
 
@@ -22,6 +22,26 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++Update 99: De Adobe Learning Manager-versie van februari 2025
+
+## Interface instellen via SAML
+
+Adobe Learning Manager (ALM) accepteert nu een SAML-kenmerk voor de taal. Dit kenmerk wordt vervolgens toegewezen aan de interface- en inhoudstaal-instellingen van de gebruiker, zodat de interactie met het LMS in de voorkeurstaal soepel verloopt. De configuratie van deze taalinstellingen wordt beheerd via het platform Identity and Access Management (IAM), dat SAML gebruikt voor Single Sign-On (SSO). Dit biedt ondersteuning voor door de Service Provider (SP) geïnitieerde aanmeldingen en IdP-aanmeldingen (Identity Provider), zodat gebruikers de interface en inhoud in hun gekozen taal kunnen zien.
+
+Verwijs dit [ artikel ](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md) voor meer informatie.
+
+## Verbeteringen in migratie-API&#39;s
+
+Eerder, migreerden de activiteitenmodules met externe verbindingen gebruikend APIs (`GET /bulkimport/cansync` en `POST /bulkimport/startrun`) niet het **[!UICONTROL Teken als Volledige]** optie voor studenten na de toegang tot van de verbinding. Dit probleem is opgelost. Nu, zullen de activiteitenmodules met externe verbindingen die door APIs worden gemigreerd correct het **[!UICONTROL Teken als Volledige]** optie voor studenten tonen.
+
+## Sorteerfunctionaliteit in de Learner-app
+
+De sorteerfunctie in de Learner-app biedt gepersonaliseerde cursusaanbevelingen op basis van de inhoud en de interfacetaal. &#x200B; Deze verbetering vereenvoudigt het proces voor studenten om cursussen in hun voorkeurstaal te vinden en intelligentere sorteeropties te gebruiken.
+
+Verwijs dit [ artikel ](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app) voor meer informatie.
+
++++
 
 +++Update 98: de november 2024-versie van Adobe Learning Manager
 

@@ -2,10 +2,10 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: eb7dfd6c170830d96ca9581ca023d543d7391c95
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 84%
+source-wordcount: '634'
+ht-degree: 83%
 
 ---
 
@@ -54,6 +54,7 @@ ht-degree: 84%
    * [Gebruikers in bulk toevoegen](administrators/add-users-in-bulk.md)
    * [Een student en een manager nabootsen](administrators/feature-summary/impersonation-learner-manager.md)
    * [Meerdere SSO-aanmeldingen](administrators/feature-summary/multiple-sso-logins.md)
+   * [Interface instellen via SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [Collega-accounts](administrators/feature-summary/peer-account.md)
    * [Vaardigheden en niveaus maken en wijzigen](administrators/feature-summary/skills-levels.md)
    * [Cursusaanbevelingen op basis van AI](ai-based-recommendations.md)
