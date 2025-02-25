@@ -3,9 +3,9 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de nove
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
+source-git-commit: 537d324d6e266552fdfdd9ba16557fd3228870b7
 workflow-type: tm+mt
-source-wordcount: '3255'
+source-wordcount: '3260'
 ht-degree: 1%
 
 ---
@@ -207,7 +207,7 @@ De volgende IP-adressen worden toegevoegd aan onze pool voor e-maillevering:
 
 >[!NOTE]
 >
->Indien nodig stellen we samenwerking met uw IT-team voor om de nieuwe IP-adressen op een whitelist te plaatsen.
+>Indien nodig stellen we samenwerking met uw IT-team voor om de IP-adressen toe te voegen aan de lijst met toegestane URL&#39;s.
 
 ## Migratiewijzigingen
 
