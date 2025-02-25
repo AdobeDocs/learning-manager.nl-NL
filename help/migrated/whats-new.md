@@ -3,10 +3,10 @@ description: Meer informatie over de nieuwe functies en verbeteringen in de nove
 jcr-language: en_us
 title: Overzicht van nieuwe functies
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
+source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
 workflow-type: tm+mt
-source-wordcount: '3184'
-ht-degree: 2%
+source-wordcount: '3255'
+ht-degree: 1%
 
 ---
 
@@ -188,6 +188,26 @@ De docenten die uit een sessie zijn verwijderd, ontvangen nu alleen een e-mail o
 Studenten worden op dit moment als bijgewoond gemarkeerd, zelfs als ze gedurende een paar seconden deelnemen aan een VILT-sessie (Virtual Instructor-Led Training). Met deze release hebben we voltooiingscriteria voor Teams-modules geïntroduceerd om een nauwkeuriger aanwezigheid te garanderen. Auteurs kunnen nu een minimumtijd instellen dat studenten in een VILT-sessie moeten doorbrengen om hun aanwezigheid te kunnen tellen.
 
 Dit is een back-endfunctie die standaard is uitgeschakeld. Neem contact op met uw CSM om deze functie in te schakelen.
+
+## Nieuwe IP-adressen voor e-maillevering bijwerken
+
+Om de betrouwbaarheid van de levering van e-mail te verbeteren, voegen wij nieuwe IP adressen aan onze bestaande pool toe. Werk de e-mailinstellingen van uw organisatie zo nodig bij om te zorgen voor ononderbroken e-mailcommunicatie.
+
+Momenteel gebruiken we de volgende IP-adressen voor e-maillevering:
+
+* 149.72.162.66
+* 167.89.5.155
+
+De volgende IP-adressen worden toegevoegd aan onze pool voor e-maillevering:
+
+* 159.183.228.93
+* 159.183.225.26
+* 159.183.218.22
+* 168.245.57.144
+
+>[!NOTE]
+>
+>Indien nodig stellen we samenwerking met uw IT-team voor om de nieuwe IP-adressen op een whitelist te plaatsen.
 
 ## Migratiewijzigingen
 
