@@ -3,9 +3,9 @@ jcr-language: en_us
 title: AI-gedreven zoekfunctie in Adobe Learning Manager
 description: Meer informatie over de door AI aangestuurde zoekfunctie in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
+source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ _Semantic onderzoek_
 
 ### Zoeken in inhoud
 
-De zoekfunctionaliteit van Adobe Learning Manager is verbeterd en nu kunt u zoeken op basis van werkelijke inhoud. Hiermee worden automatisch video&#39;s, audiobestanden en PDF getranscripeerd, waarbij deze transcripten worden opgenomen in de zoekresultaten. Bovendien maakt het gebruik van Adobe Connect-vergaderingsopnamen om uitgebreidere en relevantere resultaten te bieden. Deze verbetering zorgt ervoor dat cursussen met rijke inhoud, zoals video&#39;s en vergadernotities, worden opgenomen, wat de nauwkeurigheid en effectiviteit van zoekopdrachten aanzienlijk verbetert.
+De zoekfunctionaliteit van Adobe Learning Manager is verbeterd en nu kunt u zoeken op basis van werkelijke inhoud. Hiermee worden automatisch video&#39;s, audiobestanden, PDF, docs, ppt en xls getranscripeerd, waarbij deze transcripten worden opgenomen in zoekresultaten. Bovendien maakt het gebruik van Adobe Connect-vergaderingsopnamen om uitgebreidere en relevantere resultaten te bieden. Deze verbetering zorgt ervoor dat cursussen met rijke inhoud, zoals video&#39;s en vergadernotities, worden opgenomen, wat de nauwkeurigheid en effectiviteit van zoekopdrachten aanzienlijk verbetert. De overeenkomst met de inhoud verbetert de positie van zoekresultaten door de resultaten die worden gevonden via traditionele woordafstemming en semantische afstemming te verbeteren.
 
 >[!NOTE]
 >
