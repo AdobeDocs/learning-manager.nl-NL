@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Managerdashboard
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 49%
+source-wordcount: '1486'
+ht-degree: 47%
 
 ---
 
@@ -19,7 +19,7 @@ Managers spelen een belangrijke rol in de leerinitiatieven van een team. Het lee
 
 ![](assets/dashboard-final.png)
 
-*Dashboardrapport voor een Manager*
+*rapport van het Dashboard voor een Manager*
 
 Klik op de grafiek of klik op de hyperlink **[!UICONTROL Details]** om de details van een grafiek te bekijken.
 
@@ -31,7 +31,7 @@ Een manager kan een samenvatting bekijken van leeractiviteiten voor zijn team ov
 
 ![](assets/learning-summarydashboard.png)
 
-*Leeractiviteiten gedurende een tijd bekijken perios*
+*het leren van de mening activiteiten over een tijdspanne*
 
 ## Teamoverzicht {#teamview}
 
@@ -39,31 +39,31 @@ Het teamoverzicht toont de teams, de leden en hun respectievelijke inschrijvinge
 
 ![](assets/ls-team-view.png)
 
-*In de teamweergave worden de teams, hun leden en hun respectieve inschrijvingen weergegeven.*
+*de Mening van het Team toont de teams, hun leden, en hun respectieve inschrijvingen*
 
-Door op de teamnamen te klikken, bijvoorbeeld het team van Venkatesh, kun je de leden in het Venkatesh-team bekijken samen met het totale aantal inschrijvingen, progressies en voltooien van een leerobject.
+Wanneer u op de teamnamen klikt, bijvoorbeeld Venkatesh&#39;s Team, kunt u de leden in het team van Venkatesh bekijken, samen met het totale aantal inschrijvingen, progressies en voltooide versies voor een leerobject.
 
 ![](assets/ls-click-team-names.png)
 
-*Selecteer een teamlid*
+*selecteer een teamlid*
 
 Klik op het aantal in de kolom die aan de teammanager is gekoppeld om de leersamenvatting van elk teamlid te bekijken. Een tabel wordt geopend en de lijst van leerobjecten met inschrijvingsdatum, vervaldatum en vorderingsinformatie wordt weergegeven.
 
 ![](assets/ls-click-on-valuestogetlearningsofamember.png)
 
-*Selecteer een teammanager*
+*selecteer een teammanager*
 
 Op dezelfde manier kunt u de leerobjecten bekijken samen met het aantal inschrijvingen, vorderingen of voltooiingen door op de waarden te klikken die onder de overeenkomstige kolommen staan.
 
 ![](assets/ls-on-clicking-valuesinteamviewforateam.png)
 
-*Cursussen en leeroverzicht weergeven*
+*de cursussen van de mening en het leren samenvatting*
 
-Wanneer u verder klikt op het aantal inschrijvingen, voortgang of voltooiingen voor elk leerproces, kunt u de volgende gegevens bekijken: personen, inschrijvings-/voltooiingsdatum, vervaldatum en gemaakte voortgang.
+Als u nogmaals klikt op het aantal inschrijvingen, progressies of voltooide leerresultaten, kunt u de volgende gegevens bekijken: Personen, Inschrijvings-/voltooiingsdatum, Vervaldatum en geboekte vooruitgang.
 
 ![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png)
 
-*De inschrijvings-/voltooiingsdatum, vervaldatum en gemaakte voortgang weergeven*
+*Inschrijving/voltooiingsdatum van de mening, vervaldatum, en geboekte vooruitgang*
 
 ## Leermateriaaloverzicht {#learningsview}
 
@@ -75,67 +75,71 @@ Om details te bekijken zoals mensen, inschrijvingsdatums, vervaldatums en vorder
 
 ![](assets/ls-learnings-view-onfurtherclickingvalues.png)
 
-*Weergave Leren*
+*mening van Leeringen*
 
 ## Rapport exporteren {#exportreport}
 
-Als u een Excel-rapport wilt genereren, selecteert u **[!UICONTROL Handelingen] > [!UICONTROL Rapport]**
+Om een Excel- rapport te produceren, selecteer **[!UICONTROL Acties ] > [!UICONTROL  Rapport]**
 
 ## Nalevingsstatus {#compliancestatus}
 
-In het nalevingsdashboard kunnen beheerders de algehele compatibiliteitsstatus van het team voor geconfigureerde lessen voor specifieke categorieën bekijken (bijvoorbeeld verkoop, marketing en juridisch). Beheerders kunnen een dashboard maken met compatibiliteitscursussen, leerpaden of certificering en deze delen met de managers. Beheerders kunnen het dashboard bekijken dat door de beheerder wordt gedeeld in hun instanties.
+In het dashboard Naleving kunnen managers de algemene nalevingsstatus van het team voor geconfigureerde leerresultaten bekijken in verschillende specifieke categorieën (bijvoorbeeld verkoop, marketing en juridische status). Beheerders kunnen een dashboard maken met compatibiliteitscursussen, leerpaden of certificering en delen met de managers. Managers kunnen het dashboard zien dat door de beheerder wordt gedeeld in hun instanties.
+
+Gebruiker A is de manager van Gebruiker B, Gebruiker C, Gebruiker D, en Gebruiker E. Gebruiker B en Gebruiker C zijn managers van hun respectieve teams.
+
+Gebruiker A kan rapporten bekijken voor hun directe rapporten (Gebruiker B, Gebruiker C, Gebruiker D, en Gebruiker E) en de teams die door Gebruiker B en Gebruiker C worden beheerd.
 
 ### Het dashboard weergeven
 
-Selecteer **[!UICONTROL Nalevingsdashboard]** in de managerapp om het dashboard weer te geven.
+Om dashboard te bekijken, selecteer **[!UICONTROL Dashboard van de Naleving]** van manager app.
 
 ![](assets/compliance-dashboard-manager.png)
-_Compatibiliteitsdashboard - Manager-app_
+_dashboard-Manager app van de Naleving_
 
-Het nalevingsdashboard bevat de volgende compatibiliteitsstatussen:
+Het dashboard Compatibiliteit bevat de volgende compatibiliteitsstatussen:
 
-* **[!UICONTROL Niet-conforme studenten]**: hier wordt het aantal studenten weergegeven dat deadlines heeft gemist.
-* **[!UICONTROL Leerders die deadlines]** naderen: toont het aantal studenten met een deadline in minder dan 30 dagen.
-* **[!UICONTROL Studenten met veilige deadlines]**: hier ziet u het aantal studenten met nog meer deadlines (meer dan 30 dagen).
-* **[!UICONTROL Volledig compatibele studenten]**: het aantal volledig compatibele studenten.
-* **[!UICONTROL Studenten die nergens zijn ingeschreven]**: het aantal leerlingen dat niet is ingeschreven voor cursussen, leerpaden of certificeringen.
+* **[!UICONTROL Niet-compatibele Studenten]**: toont het aantal studenten dat deadlines heeft gemist.
+* **[!UICONTROL Studenten die deadlines naderen]**: toont het aantal studenten met deadlines in minder dan 30 dagen.
+* **[!UICONTROL Studenten met veilige deadlines]**: toont het aantal studenten met deadlines verder uit (meer dan 30 dagen).
+* **[!UICONTROL volledig volgzame Studenten]**: toont het aantal volledig volgzame studenten.
+* **[!UICONTROL Studenten hebben nergens ingeschreven]**: toont het aantal studenten dat niet is ingeschreven voor cursussen, leerpaden of certificeringen.
 
 ### E-mailmanagers en studenten
 
-**Meerdere teams beheren**
+**Beherend veelvoudige teams**
 
-Als u meerdere teams beheert, kunt u uw managers op de hoogte stellen van de leerstatus van hun teamleden door de **[!UICONTROL optie E-mailmanagers]** in de **[!UICONTROL sectie Teamweergave]** te selecteren.
+Als u veelvoudige teams beheert, kunt u uw managers op de hoogte brengen over de het leren status van hun teamleden door de **[!UICONTROL E-mailManagers]** optie te selecteren beschikbaar in de **[!UICONTROL sectie van de mening van het Team]**.
 
 ![](assets/email-managers.png)
 _E-mailmanagers_
 
-De **[!UICONTROL E-mailmanagers]** bieden u de volgende opties:
+De **[!UICONTROL E-mailManagers]** voorziet u van de volgende opties:
 
-* **[!UICONTROL E-mailmanagers van niet-compatibele studenten]**: stel managers op de hoogte van hun teamleden die deadlines hebben gemist.
-* **[!UICONTROL E-mailmanagers van deadlines]** van studenten die naderen: stel managers op de hoogte van hun teamleden die nog naderende deadlines hebben.
+* **[!UICONTROL E-mailmanagers van niet-compatibele Studenten]**: breng managers op de hoogte van wie teamleden deadlines hebben gemist.
+* **[!UICONTROL E-mailmanagers van studenten die Deadlines]** naderen: breng managers op de hoogte van wie teamleden aanstaande deadlines hebben.
 
-**Eén team beheren**
+**Beherend enig team**
 
-Als u één team beheert, kunt u uw studenten op de hoogte stellen van hun leerstatus door de **[!UICONTROL optie E-mail lerenden]** te selecteren die beschikbaar is in de **[!UICONTROL sectie teamweergave]** .
+Als u één enkel team beheert, kunt u uw studenten over hun het leren status meedelen door de **[!UICONTROL E-mailStudenten]** optie te selecteren beschikbaar in de **[!UICONTROL mening van het Team]** sectie.
 
 ![](assets/email-learners.png)
-_Studenten e-mailen_
+_E-mail studenten_
 
-De **[!UICONTROL optie Studenten e-mailen]** biedt je de volgende opties:
+De **[!UICONTROL optie van de Studenten van de E-mail]** voorziet u van de volgende opties:
 
-* **[!UICONTROL Niet-conforme studenten]** via e-mail verzenden: stel leerlingen op de hoogte die deadlines hebben gemist.
-* **[!UICONTROL E-mailen aan studenten die deadlines]** naderen: stel leerlingen op de hoogte van aanstaande deadlines.
+* **[!UICONTROL E-mail niet-volgzame Studenten]**: Vermeld studenten die deadlines gemist hebben.
+* **[!UICONTROL E-mailStudenten die Deadlines]** naderen: Deel studenten mee die aanstaande deadlines hebben.
 
 ### Rapport downloaden
 
 Ga als volgt te werk om het rapport te downloaden:
 
-1. Ga in de Manager-app naar Het Nalevingsdashboard **** > **[!UICONTROL weergave Team]**.
-1. Selecteer **[!UICONTROL Rapport]** downloaden om uw dashboard op te slaan als een rapport.
-Hiermee kunt u de algemene leervoortgang van uw team volgen.
+1. In de managerapp, ga naar **[!UICONTROL Dashboard van de Naleving]** > **[!UICONTROL mening van het Team]**.
+1. Selecteer **[!UICONTROL rapport van de Download]** om uw dashboard als rapport te bewaren.
+Hiermee kunt u de algemene leervoortgang van uw team bijhouden.
 
 ![](assets/download-report.png)
-_Rapporten downloaden_
+_de rapporten van de Download_
 
 <!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
@@ -199,26 +203,26 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ## Teamvaardigheden {#teamskills}
 
-Managers kunnen de grafiek met voltooiing van vaardigheden bekijken en de voltooiing van vaardigheden voorspellen op verschillende niveaus. De vervolgkeuzelijst met vaardigheidsvaardigheden bevat vijf vaardigheden. De manager maakt kennis met de expertise die de teamleden opdoen en identificeert sterke talenten in bepaalde vaardigheden.
+Managers kunnen de grafiek met voltooiing van vaardigheden bekijken en de voltooiing van vaardigheden voorspellen op verschillende niveaus. De vervolgkeuzelijst Vaardigheden bevat vijf vaardigheden. De manager krijgt kennis van de expertise die de teamleden hebben opgedaan en identificeert sterke talenten in bepaalde vaardigheden.
 
-Managers kunnen ook bepaalde vaardigheden in een team stimuleren door een doel in te stellen en te voorspellen hoe lang het duurt om een vaardigheid voor een bepaald percentage van een team binnen een tijdlijn te bereiken.
+Managers kunnen ook bepaalde vaardigheden in een team aansturen door een doel in te stellen en te voorspellen hoe lang het zou duren om een vaardigheid voor een specifiek percentage van een team binnen een tijdslijn te behalen.
 
 Deze voorspelling is gebaseerd op systeemberekeningen die een blik in de toekomst geven voor vorderingen voor die specifieke vaardigheid.
 
 ![](assets/ts-dashboard-02.png)
 
-*Vaardigheidsprognoses weergeven*
+*de vaardigheidsprognose van de Mening*
 
-Volg de onderstaande stappen om de vaardigheidsstatus van een team weer te geven:
+Volg de onderstaande stappen om de vaardigheidsstatus van een team te bekijken:
 
-1. Klik op **[!UICONTROL Teamvaardigheden]** in het linkerdeelvenster onder Mijn teamweergave.
+1. Klik **[!UICONTROL Vaardigheden van het Team]** van de linkerruit onder Mijn sectie van de Mening van het Team.
 1. Klik op het vaardigheidsfilter en selecteer een vaardigheid in de vervolgkeuzelijst om de weergegeven vaardigheden te bekijken.
 1. Klik op het vervolgkeuzemenu van het niveau om een niveau te selecteren (Niveau 1, Niveau 2 of Niveau 3).
 1. Op basis van geselecteerde vaardigheid en niveau wordt een grafiek getoond met de vaardigheidsstatus. Door met uw muis over de grafiek te bewegen, kunt u de volgende percentages van de vaardigheidsstatus zien: **In uitvoering** en **Behaald**.
 
    ![](assets/first-graph.png)
 
-   *Percentage van de vaardigheidsstatus weergeven*
+   *percentage van de mening van vaardigheidsstatus*
 
 ## Het voltooiingspercentage van het team voor een vaardigheid voorspellen {#howtoforecasttheteamcompletionforaskill}
 
@@ -228,19 +232,19 @@ Volg de onderstaande stappen om het voltooiingspercentage van het team voor een 
 
    ![](assets/configure.png)
 
-   *Selecteer de hyperlink Configureren*
+   *selecteer Configure hyperlink*
 
-1. Voer in het pop-upvenster Configureren voor de vaardigheid die u wilt configureren een percentage in het **veld Voltooiingspercentage** doel in en de datum voor wanneer u het gewenste voltooiingspercentage wilt bereiken in het **veld Doeldatum** .?
+1. Van vorm pop - op dialoog, voor de vaardigheid u wilt vormen, ga een percentagewaarde op het **de voltooiing %** gebied van het Doel in, en de datum wanneer u de doelvoltooiing % op het **de datum** gebied van het Doel wilt bereiken.****
 
    ![](assets/configure-tracker.png)
 
-   *Percentage voor doelvoltooiing invoeren*
+   *ga het percentage van de doelvoltooiing* in
 
-1. Klik op de knop **Schatting** om de uitvoer van uw voorspelling te bekijken. De uitvoer ziet eruit als de onderstaande schermafbeelding.
+1. Klik op de knop **Schatting** om de uitvoer van uw voorspelling te bekijken. De uitvoer lijkt op de onderstaande schermafbeelding.
 
    ![](assets/skill-tracker-output.png)
 
-   *Uitvoer van skilltracxker weergeven*
+   *de output van de vaardigheidscontrole van de Mening*
 
 ## Voorspelling voltooiing vaardigheidsniveau {#skilllevelcompletionforecast}
 
@@ -252,19 +256,19 @@ Het eerste punt op de doorgetrokken lijn geeft de datum van de eerste inschrijvi
 
 ![](assets/1-dotted-line.png)
 
-*Eerste inschrijving voor een vaardigheidsniveau bekijken*
+*eerste inschrijving van de Mening voor een vaardigheidsniveau*
 
 Het tweede punt geeft de huidige datum en het voltooiingspercentage van het team weer voor die vaardigheid.
 
 ![](assets/2-solid-line.png)
 
-*Huidige datum en voltooiingsniveau van het team weergeven*
+*Huidige datum en teamvoltooiing % niveau van de vaardigheid* bekijken
 
 Het derde punt op de lijn geeft het verwachte doelpercentage voor voltooiing en de streefdatum voor voltooiing weer.
 
 ![](assets/3-solid-line.png)
 
-*De verwachte beoogde voltooiing % en de beoogde voltooiingsdatum weergeven*
+*Bekijk de verwachte doelvoltooiing % en doelvoltooiingsdatum*
 
 ## Voorspellingslijn {#forecastline}
 
@@ -274,37 +278,37 @@ Het eerste punt op de stippellijn staat voor het voltooiingspercentage van het t
 
 ![](assets/1-dotted-line.png)
 
-*Bekijk de teamvoltooiing % en de verwachte teamvoltooiing % voor een vaardigheid*
+*Bekijk de teamvoltooiing % en projecteerde teamvoltooiing % voor een vaardigheid*
 
 Het tweede punt toont de datum waarop het voorspelde voltooiingspercentage van het team voor een vaardigheid is behaald.
 
 ![](assets/2-dotted-line.png)
 
-*Bekijk de datum waarop de verwachte teamvoltooiing % voor een vaardigheid werd bereikt*
+*Bekijk de datum waarop het voorgenomen team voltooiing % voor een vaardigheid werd bereikt*
 
 Het derde punt op de voorspellingslijn toont het voltooiingspercentage van het team dat is behaald op de streefdatum die in de vaardigheidsvolger is opgegeven.
 
 ![](assets/3-dotted-line.png)
 
-*Het voltooiings%-percentage van het team weergeven dat wordt bereikt op de doeldatum die is opgegeven in de Skill Tracker*
+*Bekijk de teamvoltooiing % die op de doeldatum wordt bereikt die in de vaardigheidsteller wordt verstrekt*
 
 Onder de grafiek staat een tabel met het overzicht van het team en het aantal vaardigheden dat is ingeschreven, behaald en in uitvoering is. Als een leermateriaal een voltooiingsdatum heeft, staat ook de verwachte voltooiingsdatum vermeld.
 
 ![](assets/ts-details.png)
 
-*Tabel met de teamweergave en het aantal vaardigheden dat is ingeschreven, bereikt en wordt uitgevoerd*
+*Lijst met de mening van het team en het aantal vaardigheden die zijn ingeschreven, bereikt, en in voortgang*
 
 Door op de teamnaam te klikken, wordt de lijst weergegeven met leden die zijn ingeschreven voor de vaardigheid, de vaardigheidsstatus en de voltooiingsdatum.
 
 ![](assets/ts-click-the-teamnames.png)
 
-*Lijst met leden weergeven*
+*lijst van de Mening van leden*
 
-Wanneer u op het team klikt, kunt u de leden in het team bekijken en de bijbehorende details voor de geselecteerde skill, zoals bijvoorbeeld wanneer u bent ingeschreven, de status (al dan niet in uitvoering of bereikt) en de voltooiingsdatum als deze is ingesteld.
+Wanneer u op het team klikt, kunt u de leden in het team en de bijbehorende details voor de geselecteerde vaardigheid bekijken, zoals de ingeschreven persoon, de status (bezig of bereikt) en de voltooiingsdatum indien ingesteld.
 
 ![](assets/on-clicking-the-teamnames.png)
 
-*De vaardigheden van leden weergeven*
+*de vaardigheden van de Mening van leden*
 
 Door de waarden voor een team te selecteren onder de kolommen Inschrijving, Behaald en In uitvoering, kunt u het aantal gebruikers bekijken dat zich heeft ingeschreven voor de vaardigheid. U kunt ook de datum zien waarop de gebruiker zich heeft ingeschreven voor de vaardigheid, de status en de voltooiingsdatum als de vaardigheid al is voltooid door de gebruiker.
 
@@ -312,8 +316,8 @@ Door de waarden voor een team te selecteren onder de kolommen Inschrijving, Beha
 
 ## Rapport exporteren {#Exportreport-1}
 
-* Klik op **[!UICONTROL Handelingen]** > **[!UICONTROL exporteren]** om de gegevens als een Excel-bestand te exporteren.
+* Klik **[!UICONTROL Acties]** > **[!UICONTROL Uitvoer]** om de gegevens als Excel dossier uit te voeren.
 
 ![](assets/export-report.png)
 
-*De gegevens exporteren*
+*voer de gegevens uit*
