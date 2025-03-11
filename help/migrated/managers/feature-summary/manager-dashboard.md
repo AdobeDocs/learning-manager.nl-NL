@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Managerdashboard
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
+source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 47%
+source-wordcount: '1499'
+ht-degree: 46%
 
 ---
 
@@ -22,6 +22,8 @@ Managers spelen een belangrijke rol in de leerinitiatieven van een team. Het lee
 *rapport van het Dashboard voor een Manager*
 
 Klik op de grafiek of klik op de hyperlink **[!UICONTROL Details]** om de details van een grafiek te bekijken.
+
+Managers kunnen ook het dashboard van het team van hun manager op het volgende niveau bekijken. Gebruiker A is bijvoorbeeld de manager van Gebruiker B, Gebruiker C, Gebruiker D en Gebruiker E. Gebruiker B en Gebruiker C zijn managers van hun respectieve teams. Gebruiker A kan rapporten bekijken voor hun directe rapporten (Gebruiker B, Gebruiker C, Gebruiker D, en Gebruiker E) en de teams die door Gebruiker B en Gebruiker C worden beheerd.
 
 ## Leersamenvatting {#learningsummary}
 
@@ -84,10 +86,6 @@ Om een Excel- rapport te produceren, selecteer **[!UICONTROL Acties ] > [!UICONT
 ## Nalevingsstatus {#compliancestatus}
 
 In het dashboard Naleving kunnen managers de algemene nalevingsstatus van het team voor geconfigureerde leerresultaten bekijken in verschillende specifieke categorieën (bijvoorbeeld verkoop, marketing en juridische status). Beheerders kunnen een dashboard maken met compatibiliteitscursussen, leerpaden of certificering en delen met de managers. Managers kunnen het dashboard zien dat door de beheerder wordt gedeeld in hun instanties.
-
-Gebruiker A is de manager van Gebruiker B, Gebruiker C, Gebruiker D, en Gebruiker E. Gebruiker B en Gebruiker C zijn managers van hun respectieve teams.
-
-Gebruiker A kan rapporten bekijken voor hun directe rapporten (Gebruiker B, Gebruiker C, Gebruiker D, en Gebruiker E) en de teams die door Gebruiker B en Gebruiker C worden beheerd.
 
 ### Het dashboard weergeven
 
