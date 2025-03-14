@@ -4,7 +4,7 @@ title: Leerpaden
 description: Leerplannen maken voor beheerders in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
 workflow-type: tm+mt
 source-wordcount: '1329'
 ht-degree: 37%
@@ -25,9 +25,9 @@ Voor de onboarding van nieuwe werknemers geeft een organisatie bijvoorbeeld trai
 
 In deze training leert u hoe u een leerpad maakt, een cursus eraan toevoegt, een leerpad publiceert en archiveert en instanties binnen een leerpad configureert.
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ## Voordelen van een leerpad
 
@@ -41,31 +41,31 @@ Dankzij leerpaden kunt u gemakkelijk en probleemloos een trainingsprogramma aanb
 
 ## Een leerpad toevoegen in Leerbeheer
 
-Klik in Learning Manager in de Admin-app op **[!UICONTROL Leerpad]** in het linkerdeelvenster.
+In Leermanager, in Admin app, klik **[!UICONTROL Leerweg]** op het linkerpaneel.
 
-In het dialoogvenster **[!UICONTROL Leerpad]** pagina, klikken **[!UICONTROL Toevoegen]**. Voer de gegevens in.
+In de **[!UICONTROL het Leren Weg]** pagina, klik **[!UICONTROL voeg]** toe. Voer de gegevens in.
 
 ![](assets/add-learning-path.png)
 
-*Een nieuw leerpad toevoegen*
+*voeg een nieuw Leerweg* toe
 
-In het dialoogvenster **Type inschrijving** selecteert u **Zelfinschrijving** of **Beheerderinschrijving**.
+In de **optie van het Type van Inschrijving**, uitgezochte **Zelfinschrijving** of **Inschrijven Admin**.
 
 >[!NOTE]
 >
->Als u **Beheerderinschrijving** zullen studenten alleen door de manager of door de manager goedgekeurde cursussen zien. Studenten kunnen het leerpad niet zien in de sectie met aanbevelingen.
+>Als u de **Inschrijving Admin** optie selecteert, zullen de studenten slechts manager-aangewezen of manager-goedgekeurde cursussen zien. Studenten kunnen het leerpad niet zien in de sectie met aanbevelingen.
 
 Nadat u het leerpad hebt gemaakt, selecteert u het nieuw gemaakte leerpad en voegt u de cursussen toe aan het pad.
 
-U kunt vaardigheden toevoegen en een badge toewijzen aan het leerpad. Als u een vaardigheid wilt toevoegen, selecteert u de vereiste vaardigheid of vaardigheden in het menu **[!UICONTROL Kies een vaardigheid]** vervolgkeuzelijst. Selecteer ook het niveau voor de vaardigheid of vaardigheden.
+U kunt vaardigheden toevoegen en een badge toewijzen aan het leerpad. Om een vaardigheid toe te voegen, selecteer de vereiste vaardigheid of de vaardigheden van de **[!UICONTROL Keuze een drop-down lijst van de Vaardigheid]**. Selecteer ook het niveau voor de vaardigheid of vaardigheden.
 
 ![](assets/add-skills.png)
 
-*Vaardigheid toevoegen*
+*voeg een vaardigheid* toe
 
 Wijs een badge toe aan het leerpad. Kies een badge uit de lijst met beschikbare badges.
 
-Selecteer de producten, rollen en rolniveau van het **[!UICONTROL Aanbevelen voor]** om dit leerpad voor te stellen aan de gebruikers die belangstelling hebben getoond voor deze producten en rollen.
+Selecteer de producten, de rollen en het rolniveau van **[!UICONTROL adviseren voor]** sectie om deze het leren weg aan de gebruikers voor te stellen die interesse in die producten en rollen hebben uitgedrukt.
 
 ![](assets/recommend-for.png)
 
@@ -75,41 +75,41 @@ Kies het sequentietype voor de secties en trainingen zoals Besteld of Niet op vo
 
 Als u Op volgorde kiest, verschijnen de cursussen in de volgorde waarin u ze hebt gemaakt. Kiest u Niet op volgorde, dan worden de cursussen niet op volgorde gezet. Studenten kunnen de cursussen in elke gewenste volgorde voltooien.
 
-Klik op **[!UICONTROL Cursussen of leerpaden toevoegen]**.
+Om een cursus in de het Leren Weg toe te voegen, klik **[!UICONTROL Cursussen of Lerende Wegen]** toevoegen.
 
 Kies in het dialoogvenster dat verschijnt de training die u aan het leerpad wilt toevoegen.
 
 ![](assets/choose-training.png)
 
-*Training toevoegen aan het leerpad*
+*voeg opleiding aan de het Leren Weg* toe
 
 U kunt de cursussen verder sorteren op de toegewezen vaardigheden, de wijzigingsdatum en cursuseffectiviteit.
 
-Klik na het selecteren van de cursussen of het leerpad op **[!UICONTROL Opslaan]**.
+Na het selecteren van de cursussen of het Leren Weg, klik **[!UICONTROL sparen]**.
 
 In het leerpad kunt u het volgende doen:
 
-**Een sectie maken en configureren:** Er wordt een sectie gemaakt om meerdere trainingscursussen te groeperen die een gebied of een wezenlijk onderdeel van de training afronden. Elk onderdeel kan een titel hebben. Elke sectie kan ook als verplicht worden gemarkeerd met specifieke voltooiingsvereisten.
+**creeer en vorm een Sectie:** een Sectie wordt gecreeerd om veelvoudige opleidingscursussen te groeperen die een gebied of een belangrijke component van de opleiding voltooien. Elk onderdeel kan een titel hebben. Elke sectie kan ook als verplicht worden gemarkeerd met specifieke voltooiingsvereisten.
 
-**Maak de cursussen verplicht in elke sectie:** Schakel het selectievakje Verplicht in of uit als u de trainingen in het leerpad verplicht wilt of niet wilt maken. Als u het selectievakje inschakelt, kunt u alle trainingen verplicht stellen of een deel van de trainingen verplicht stellen.
+**maak de cursussen in elke sectie verplicht:** laat of maak het Verplichte vakje toe onbruikbaar als u wilt/niet de trainingen binnen de het Leren Weg verplicht wilt maken. Als u het selectievakje inschakelt, kunt u alle trainingen verplicht stellen of een deel van de trainingen verplicht stellen.
 
 ![](assets/choose-mandatory.png)
 
-*Maak cursussen verplicht in elke sectie*
+*maak de cursussen verplicht in elke sectie*
 
-**Rangschik de volgorde:** U kunt de cursussen omhoog of omlaag verplaatsen en de volgorde ervan wijzigen.
+**herschik de orde:** u kunt de cursussen naar boven of naar onder bewegen en hun orde veranderen.
 
 ![](assets/rearrange.png)
 
-*De volgorde van de training wijzigen*
+*herschikt de orde van de opleiding*
 
-**Een cursus verwijderen:** Klik op de cursuskaart op X en verwijder de cursus uit het leerpad.
+**verwijder een cursus:** op de cursuskaart, klik X, en verwijder de cursus uit de het Leren Weg.
 
 ![](assets/remove-course.png)
 
-*Een cursus verwijderen uit het leerpad*
+*verwijder een cursus uit de het Leren Weg*
 
-Nadat u de wijzigingen hebt aangebracht, klikt u op Publiceren om het leerpad te publiceren.
+Klik op Publish nadat u de wijzigingen hebt aangebracht om het leerpad te publiceren.
 
 ## Genest leerpad
 
@@ -119,7 +119,7 @@ Voeg het leerpad in zoals u een cursus zou invoegen.
 
 ![](assets/nested-learning-path.png)
 
-*Voeg een leerpad toe binnen een leerpad*
+*voeg een het Leren Weg binnen een Leerweg* toe
 
 ## Instellingen voor leerpaden
 
@@ -127,29 +127,29 @@ In het gedeelte Instellingen kunt u de vereisten en de taakhulpen toevoegen die 
 
 ![](assets/learing-path-settings.png)
 
-*Instellingen van een leerpad wijzigen*
+*montages van de Verandering van een Leerweg*
 
 ## Instanties
 
 De leerpadinstanties geven de extra tegel **[!UICONTROL Leerpaden]** weer. De tegel geeft het aantal leerprogramma&#39;s weer dat aan een leerpad is toegevoegd.
 
-In het dialoogvenster **Cursussen** naast elkaar ziet u de cursusinstanties die zichtbaar zijn voor de studenten die voor deze instantie zijn ingeschreven.
+In de **tegel van Cursussen**, kunt u de cursusinstanties zien die aan de studenten zichtbaar zijn die in deze instantie worden ingeschreven.
 
-De **[!UICONTROL Studenten in staat stellen instanties te kiezen (flexibel leerpad)]** is alleen van toepassing op cursussen. Alle onderliggende leerpaden krijgen een optie om een leerprogrammainstantie toe te wijzen aan het leerpad. De toewijzing is standaard ingesteld op Standaardinstantie.
+Het **[!UICONTROL laat Studenten toe om instanties (Flexible het Leren Weg) te kiezen]** controlevakje is slechts toepasselijk op cursussen. Alle onderliggende leerpaden krijgen een optie om een leerprogrammainstantie toe te wijzen aan het leerpad. De toewijzing is standaard ingesteld op Standaardinstantie.
 
 ![](assets/default-instance.png)
 
-*Leerpadinstanties*
+*het Leren instanties van de Weg*
 
 ## Meldingen
 
 Er zijn drie opties:
 
-1. **[!UICONTROL Alle vaardigheidsniveaus voor cursussen en leerpaden (standaard geselecteerd)]:** De student ontvangt meldingen voor een onvolledige cursus, ongeacht het niveau in een leerpad.
-1. **[!UICONTROL Leerpad hoofdmap]:** De student ontvangt meldingen voor onvolledige cursussen die horen bij een bovenliggend leerpad.
-1. **[!UICONTROL Leerpad + alleen kinderen op het eerste vaardigheidsniveau]:** De student ontvangt meldingen van onvolledige cursussen die het eerste onderliggende onderdeel van een bovenliggend leerpad vormen.
+1. **[!UICONTROL Alle Cursussen van de Niveaus van de Vaardigheid en Leerwegen (die door gebrek worden geselecteerd) ]:** de student krijgt berichten voor om het even welke onvolledige cursus ongeacht het niveau binnen een het Leren Weg.
+1. **[!UICONTROL het Leren Weg van de Wortel ]:** de student krijgt berichten voor om het even welke onvolledige cursus die tot een ouder Lerend Weg behoort.
+1. **[!UICONTROL het Leren Weg + eerste slechts kinderen van het Niveau van de Vaardigheid ]:** de student krijgt berichten van om het even welke onvolledige cursus die een eerste kind van een ouder Lerend Weg is.
 
-De meldingsherinneringen worden geactiveerd afhankelijk van de optie. Standaard kunt u de optie **[!UICONTROL Alle niveaus voor cursussen en leerpaden]** is ingeschakeld voor een instantie.
+De meldingsherinneringen worden geactiveerd afhankelijk van de optie. Door gebrek, wordt de optie **[!UICONTROL Alle Cursussen van Niveaus en Lerende Wegen]** toegelaten voor een instantie.
 
 ## Abonnementen
 
@@ -163,7 +163,7 @@ Volg de onderstaande stappen:
 
 ![](assets/subscriptions.png)
 
-*Abonneren op individueel leerpad*
+*schrijf aan individuele het leren weg* in
 
 ## Belangrijke opmerking
 
@@ -173,7 +173,7 @@ Leerpaden bieden u een reeks mogelijkheden. Sommige zijn direct na de release be
 
 Studenten kunnen leerprogramma&#39;s (nu leerpaden genoemd) blijven volgen en auteurs/beheerders kunnen deze ook blijven maken. Om gebruik te maken van de hierboven vermelde uitgebreide functies van het leerpad, dient de beheerder de instelling in te schakelen zoals hieronder vermeld. Als deze optie is ingeschakeld, worden alle nieuwe uitgebreide mogelijkheden van het leerpad beschikbaar.
 
-De **[!UICONTROL Instellingen]** > **[!UICONTROL Algemeen]** Deze pagina heeft een nieuwe optie om leerpaden in te schakelen. Als deze optie is ingeschakeld, kunt u cursussen en leerprogramma&#39;s toevoegen aan een leerpad. U kunt de optie niet wijzigen als deze eenmaal is ingeschakeld.
+De **[!UICONTROL pagina van Montages]** > **[!UICONTROL Algemene]** heeft een nieuwe optie om het Leren Wegen toe te laten. Als deze optie is ingeschakeld, kunt u cursussen en leerprogramma&#39;s toevoegen aan een leerpad. U kunt de optie niet wijzigen als deze eenmaal is ingeschakeld.
 
 <!-- ## Other Learning Path-related details 
 
