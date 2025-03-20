@@ -3,14 +3,13 @@ description: Beheerders kunnen een nabootsingssessie starten waar ze zich namens
 jcr-language: en_us
 title: Een student en een manager nabootsen
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
+source-git-commit: ba0c87447755729cd98cea1d40083e05f2159f37
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 71%
+source-wordcount: '547'
+ht-degree: 70%
 
 ---
-
-
 
 # Een student en een manager nabootsen {#impersonation-of-learner-and-manager}
 
@@ -31,6 +30,7 @@ Houd rekening met het volgende wanneer u een gebruiker imiteert:
 * Een beheerder kan niet zichzelf nabootsen.
 * Een aangepaste beheerder met toegang tot de pagina Gebruikers kan gebruikers nabootsen.
 * Een beheerder/aangepaste beheerder kan maximaal 60 minuten nabootsen.
+* Een aangepaste beheerder met alleen-lezen-toegang kan zich niet als gebruiker gedragen.
 
 ## Een gebruiker nabootsen
 
@@ -51,7 +51,7 @@ Volg de onderstaande stappen om een gebruiker na te bootsen:
 
    Een bevestigingsbericht, &quot;Imitatiemodus: U bent aangemeld als &quot;gebruikersnaam (e-mail van de gebruiker). Afmelden&quot; wordt weergegeven op de koptekst van de pagina.
 
-**Een gepersonaliseerde sessie duurt 60 minuten.**
+**een nagemaakte zitting duurt 60 minuten.**
 
 Bij het wisselen naar een student- of managerrol wordt een bericht weergegeven dat de beheerder/aangepaste beheerder de gebruiker nabootst.
 
