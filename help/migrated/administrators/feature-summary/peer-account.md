@@ -3,14 +3,13 @@ description: Lees dit artikel voor informatie om collega-accounts in Learning Ma
 jcr-language: en_us
 title: Collega-accounts
 contentowner: shhivkum
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 62%
+source-wordcount: '638'
+ht-degree: 57%
 
 ---
-
-
 
 # Collega-accounts
 
@@ -20,18 +19,30 @@ Het is mogelijk gekochte plaatsen te delen in Learning Manager met behulp van de
 
 ## Een collega-account toevoegen {#addapeeraccount}
 
-1. Klik in het dashboard Beheerder op **[!UICONTROL Instellingen]** > **[!UICONTROL Collega-accounts]**.
-1. Klik rechtsboven op **[!UICONTROL Toevoegen]**.
+1. Van het dashboard van de Beheerder, klik **[!UICONTROL Montages]** > **[!UICONTROL Collega Rekeningen]**.
+1. Van de hoger-juiste hoek klik **[!UICONTROL toevoegen]**.
 
    ![](assets/peeraccount.png)
 
-   *Collega-account toevoegen*
+   *voeg peer rekening* toe
 
-1. In het dialoogvenster **[!UICONTROL Accountsubdomein]** het subdomein opgeven waarmee u een collega-account wilt maken.
+1. Op het **[!UICONTROL Subdomain van de Rekening]** gebied, specificeer subdomein waarmee u een peer rekening wilt vestigen.
 
    ![](assets/addpeer.png)
 
-   *Een subdomein toevoegen*
+   *voeg een subdomein toe*
+
+>[!NOTE]
+>
+>Controleer de URL van het account om het subdomein van een ander account te zoeken. Het subdomein wordt vóór het hoofddomein weergegeven en helpt bij het identificeren van het specifieke account.
+>
+>Bijvoorbeeld:
+>
+>In URL [ https://www.learningmanager.com/accountname ](https://www.learningmanager.com/accountname), is subdomain **accountname**.
+>
+>In URL [ https://www.accountname.learningmanager.com ](https://www.accountname.learningmanager.com), is subdomain ook **accountnaam**.
+>
+>Het subdomein is uniek voor elke account en wordt gebruikt om toegang te krijgen tot de betreffende Learning Manager-instantie.
 
 1. Voer de e-mail-ID in van de beheerder die het verzoek voor het collega-account accepteert of afwijst.
 1. Geef het aantal plaatsen op dat u met uw collega wilt delen. Wanneer u plaatsen deelt met het collega-account, krijgt het collega-account de status Actief met de ontvangen plaatsen of met de eigen gekochte plaatsen van de collega.
@@ -69,13 +80,13 @@ Als u plaatsen of aankopen niet langer met een account wilt delen, kunt u het co
 De beheerder kan het gebruikersrapport van het collega-account bekijken. De bovenliggende accountbeheerder kan verzoeken om toegang te krijgen tot het rapport. Zodra de beheerder van het collega-account dit accepteert, kan de bovenliggende beheerder het aantal geregistreerde gebruikers in het collega-account bekijken en het gebruikersrapport voor het collega-account downloaden.
 
 1. Klik op de pagina Collega-accounts op **[!UICONTROL Toevoegen]**.
-1. Schakel de optie in **[!UICONTROL Toestemming vragen om gebruikersrapporten voor het gehele account te downloaden]**.
+1. Laat de optie, **[!UICONTROL toestemming van het Verzoek om gebruikersrapporten voor volledige rekening]** te downloaden.
 
 ![](assets/image034.png)
 
-*Gebruikersrapport van een collega-account weergeven*
+*gebruikersrapport van de Mening van een peer rekening*
 
-Klik op **[!UICONTROL Downloaden]**.
+Om de rapporten voor peer rekeningen te downloaden, klik **[!UICONTROL Download]**.
 
 ## Veelgestelde vragen {#frequentlyaskedquestions}
 
@@ -85,5 +96,5 @@ Wanneer u een collega-account toevoegt, kunt u het aantal plaatsen opgeven dat u
 
 ![](assets/share-seats.png)
 
-*Licenties van het ene account naar het andere delen*
+*de plaatsen van het Aandeel van één rekening aan een andere*
 +++

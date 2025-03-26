@@ -2,10 +2,11 @@
 title: Nieuwe functies in deze release (april 2023)
 description: Meer informatie over de nieuwe functies en verbeteringen in Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 62%
+source-wordcount: '3205'
+ht-degree: 61%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 62%
 
 De nieuwe Adobe Learning Manager-app op Microsoft Teams is ontworpen om leren in de flow van het werk te bevorderen en sociaal leren te stimuleren. Studenten hebben binnen het Microsoft Teams-platform toegang tot leermateriaal zonder over te hoeven schakelen op een browser. Neem contact op met uw CSAM voor de bèta-release van Adobe Learning Manager-app op MS Teams.
 
-Zie voor meer informatie [Adobe Learning Manager-app voor Microsoft Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
+Voor meer informatie, zie [ Adobe Learning Manager App voor Microsoft Teams ](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
 
 ## Verbeteringen aan de ILT-ervaring (door docent geleide training)
 
@@ -28,7 +29,7 @@ Er zijn verschillende verbeteringen aangebracht aan de ILT-ervaring. Belangrijke
 
 Zie voor meer informatie [Vaardigheden toewijzen aan docenten](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
 
-![CSV-docent](assets/instructor-csv-new.png)
+![ docent CSV ](assets/instructor-csv-new.png)
 
 ### Plannende assistent
 
@@ -42,7 +43,7 @@ Zie voor meer informatie [Planningsassistent](/help/migrated/authors/feature-sum
 
 Een splinternieuwe mobiele Adobe Learning Manager-app voor Android en iOS die studenten altijd en overal soepele toegang biedt tot lesmateriaal. Met de app kunnen studenten trainingen volgen op hun mobiele apparaten en deze later op hun computers weer oppakken. Met ondersteuning voor meldingen, bestandsuploads, eenvoudig bladwijzers toevoegen en lesmateriaal delen, sociaal leren en meer, biedt de mobiele app meer flexibiliteit aan studenten en ondersteunt de app just-in-time-leren.
 
-![Nieuwe interface-afbeelding voor mobiele kaart](assets/mobile-app.png)
+![ Nieuwe mobiele afbeelding van de kaartinterface ](assets/mobile-app.png)
 
 Download het mobiele apparaat van de Google Play Store en de Apple App Store. Gebruikers van de oudere versie van de app worden gevraagd om de nieuwe app te downloaden en installeren.
 
@@ -64,7 +65,7 @@ De nieuwe mobiele app ondersteunt de volgende belangrijke functies in deze relea
 * Ondersteuning voor Badges.
 * Ondersteuning voor inloggen door externe gebruikers.
 
-**Wat wordt niet ondersteund in deze release**
+**wat niet in deze versie** wordt gesteund
 
 * Ondersteuning voor meerdere pogingen tot een quizmodule in een cursus wanneer de cursus wordt gevolgd vanuit de mobiele app.
 * Zoekopties waarmee u zoekparameters kunt opgeven, zoals cursusmetagegevens, tags en vaardigheden voor het opgeven van het zoekbereik.
@@ -88,11 +89,11 @@ In deze release hebben we de aanbevelingsstrook bijgewerkt van een organisatie n
 
 Beheerders kunnen bepaalde cursussen of trainingen richten op studenten op basis van de profielen van de studenten. Studenten kunnen dan naar cursussen zoeken op basis van het profiel waarin ze zich bevinden.
 
-**Wat er is veranderd**
+**wat is veranderd**
 
 Op de pagina Aankondiging ziet u een optie met de reden waarom deze cursus of training aan hen is aanbevolen.
 
-![aankondiging maken](assets/create-announcement.png)
+![ creeer aankondiging ](assets/create-announcement.png)
 
 ### Nieuwe beheerdersinstelling
 
@@ -103,17 +104,17 @@ De beheerder heeft een nieuwe optie genaamd Groepen in Instellingen > Filterpane
 | De optie Groepen is ingeschakeld | <ul><li> Hiermee geeft u de gebruikersgroep op de tegel weer, samen met de link naar de cataloguspagina.</li><li> De gebruikersgroep wordt weergegeven op de catalogusfilter.</li></ul> | <ul><li>De naam van de gebruikersgroep wordt niet weergegeven op de tegel.</li><li>De gebruikersgroep wordt niet vermeld in de catalogusfilter.</li></ul> |
 | De optie Groepen is uitgeschakeld | <ul><li>Hiermee wordt de naam van de gebruikersgroep op de cursustegel weergegeven als tekstbeschrijving.</li><li>De gebruikersgroep wordt niet vermeld in de catalogusfilter.</li></ul> | <ul><li>De cursustegel geeft de tekst of de naam van de gebruikersgroep niet weer.</li><li>De gebruikersgroep wordt niet vermeld in de catalogusfilter.</li></ul> |
 
-**Hoe werkt het?**
+**Hoe het** werkt
 
 De Beheerder maakt een aankondiging door de cursus voor een gebruikersgroep toe te voegen en publiceert deze.
 
 Een student ziet een strook met aanbevolen cursussen op de startpagina en een link naar de cursus op de tegel.
 
-![aanbevelingsstrook voor student](assets/recommendation-strip-learner.png)
+![ aanbeveling ontkoppelt student ](assets/recommendation-strip-learner.png)
 
 Wanneer de student op de link of op de knop Ga naar catalogus klikt, wordt de student omgeleid naar de pagina met de cursuscatalogus. De student bekijkt dan de lijst met gebruikersgroepen waarop moet worden gefilterd op basis van de gebruikersgroepen in de catalogus en de pagina Mijn leerervaring.
 
-![zoekresultaten](assets/search-results.png)
+![ onderzoeksresultaten ](assets/search-results.png)
 
 ## Sessies zoeken met behulp van locaties
 
@@ -121,7 +122,7 @@ Wanneer de student op de link of op de knop Ga naar catalogus klikt, wordt de st
 
 Soms moet een student een sessie op de agenda filteren op basis van locatie. Nadat een locatie is toegevoegd met behulp van het dialoogvenster Locaties van klaslokalen of het CSV-bestand, kan de student het filter toepassen.
 
-![Locaties voor lesruimten toevoegen](assets/add-classroom-locations.png)
+![ voeg klaslokalen ](assets/add-classroom-locations.png) toe
 
 Zie voor meer informatie [Locaties van klaslokalen toevoegen](/help/migrated/administrators/feature-summary/settings.md#classroom-locations).
 
@@ -129,13 +130,13 @@ Zie voor meer informatie [Locaties van klaslokalen toevoegen](/help/migrated/adm
 
 Als student kunt u sessies die aan u zijn toegewezen, filteren op locatie. Ga naar de agendawidget, selecteer Sessies filteren en selecteer de locatie.
 
-![Geen filters toegepast](assets/no-filters-applied.png)
+![ Geen toegepaste filters ](assets/no-filters-applied.png)
 
-![Sessies op kalender zonder toegepaste filters](assets/sessions-on-calendar-no-filters.png)
+![ zittingen op kalender zonder toegepaste filters ](assets/sessions-on-calendar-no-filters.png)
 
-![Filters die op locaties zijn toegepast](assets/location-filter-applied.png)
+![ Filters die op plaatsen ](assets/location-filter-applied.png) worden toegepast
 
-![Sessies op kalender met toegepaste locatiefilters](assets/session-with-location-filters-applied.png)
+![ zittingen op kalender met toegepaste plaatsfilters ](assets/session-with-location-filters-applied.png)
 
 Bovendien wordt de trainingslocatie nu weergegeven op de pagina met het cursusoverzicht als de locatie door de auteur is toegevoegd tijdens het maken van de cursus.
 
@@ -160,7 +161,7 @@ De chatbot:
 * Draagt de chat over naar een live medewerker.
 * Bewaart uw chatgeschiedenis.
 
-![chatbot](assets/chatbot-new.png)
+![ chatbot ](assets/chatbot-new.png)
 
 ## Verbeteringen aan de Observatiecontrolelijst
 
@@ -189,7 +190,7 @@ De zoekfunctionaliteit is ook verbeterd voor studenten. Studenten kunnen nu met 
 
 Op de overzichtspagina wordt een pop-up bij inschrijving weergegeven wanneer een student conflicterende sessies heeft. Als de inschrijving op de cataloguspagina of overzichtspagina en een student al conflicterende sessies heeft, wordt een conflicterende pop-up met conflicterende sessiedetails geactiveerd. Zelfs als een student een conflicterende sessie heeft, kunnen hij of zij zich inschrijven voor de nieuwe sessie.
 
-![waarschuwing](assets/learner-pop-up.png)
+![ waarschuwing ](assets/learner-pop-up.png)
 
 Dit bericht is slechts een waarschuwing. U kunt zich nog steeds inschrijven voor een cursus.
 
@@ -215,19 +216,26 @@ Als de optie Schakelen tussen instanties is ingeschakeld, kunnen studenten tusse
 
 Wanneer de student **Alle instanties bekijken** selecteert, ziet de student alle cursusinstanties.
 
-![alle instanties bekijken](assets/view-all-instances-new.png)
+![ alt tekst ](assets/view-all-instance.png)
 
-Een beheerder kan de instanties voor studenten wisselen.
+_Bekijk al instantiepagina van studentenconsole_
 
-![switch-instanties](assets/switch-instances.png)
+![](assets/switch-instance-learner.png)
+_instantie van de Schakelaar van studentenpagina_
 
-![varianten selecteren](assets/switch-instances-select.png)
+Een beheerder kan van instantie veranderen voor studenten. Selecteer een cursus van de admin console, ga naar de **[!UICONTROL sectie van Studenten]**, kies een gebruiker, en selecteer de **[!UICONTROL knoop van de Actie]**. Dan, selecteer **[!UICONTROL Instantie van de Schakelaar]** en kies de gewenste instantie.
+
+![ alt tekst ](assets/switch-instance-admin.png)
+_instantie van de Schakelaar van Admin console_
+
+![ geselecteerde schakelaarinstanties ](assets/switch-instances-select.png)
+_de instantieherinnering van de Schakelaar_
 
 U kunt niet van instantie wisselen totdat een instantie van de cursus is voltooid vanuit de Learner- of Admin-app.
 
 Auteurs kunnen tijdens het maken van een cursus schakelen tussen het in- en uitschakelen van de optie Instantieverwisselen. Schakelen van instantie is alleen beschikbaar voor gratis cursussen.
 
-Zie voor meer informatie [Instantieconfiguratie](/help/migrated/authors/feature-summary/courses.md).
+Voor meer informatie, zie [ configuratie van de Instantie ](/help/migrated/authors/feature-summary/courses.md).
 
 **Studenten**
 
@@ -245,7 +253,7 @@ Nadat ze zich hebben ingeschreven voor het leerpad of de certificering, kunnen z
 
 In het controlerapport van de gebruiker wordt informatie vastgelegd over de studenten die van instantie zijn overgeschakeld, van instantie naar instantie, van tijd tot datum, enz.
 
-![Rapport Audittrail gebruiker weergeven](assets/user-audit-trail.png)
+![ Rapport van het Trail van de Controle van de Gebruiker van de Mening ](assets/user-audit-trail.png)
 
 Zie voor meer informatie [Rapport Audittrail van gebruiker](/help/migrated/administrators/feature-summary/reports.md#useraudittrailreports).
 
@@ -253,23 +261,23 @@ Zie voor meer informatie [Rapport Audittrail van gebruiker](/help/migrated/admin
 
 Dit rapport bevat de tijd (in minuten) die een docent dagelijks besteedt aan het lesgeven van toegewezen sessies. Het rapport kan worden gedownload voor een periode van drie maanden vanaf de geselecteerde startdatum.
 
-Zie voor meer informatie [Gebruiksrapport docent](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+Voor meer informatie, zie [ Rapport van het Gebruik van de Instructeur ](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
-![instructiegebruikrapport](assets/instructor-utilization.png)
+![ rapport van het instructiegebruik ](assets/instructor-utilization.png)
 
 ### Taakhulpenrapport
 
 Een nieuw rapport om de taakhulpen bij te houden die aanwezig zijn in de account en verschillende informatie over de taakhulpen, zoals taal, type, duur, auteur, tags etc.
 
-Zie voor meer informatie [Inschrijvingsrapport voor taakhulpen](/help/migrated/administrators/feature-summary/reports.md).
+Voor meer informatie, zie [ het inschrijvingsrapport van de Hulp van de Baan ](/help/migrated/administrators/feature-summary/reports.md).
 
 ### Gerichte ad hoc e-mails naar studenten die zijn ingeschreven voor een specifieke cursusinstantie
 
 Beheerders en auteurs kunnen gerichte ad hoc e-mails verzenden naar studenten die zijn ingeschreven voor een specifieke instantie van een cursus. De optie om e-mails op instantieniveau te verzenden is toegevoegd voor Cursussen en Leerprogramma&#39;s.
 
-![E-mails op instantieniveau verzenden](assets/adhoc-email.png)
+![ verzend instantie-vlakke e-mails ](assets/adhoc-email.png)
 
-*E-mails op instantieniveau verzenden*
+*verzend instantie-vlakke e-mails*
 
 In het dialoogvenster Aankondiging maken is de optie Type als e-mail en training, samen met de instantie, standaard geselecteerd. Geef het onderwerp op, typ het bericht en klik op Opslaan.
 
@@ -281,7 +289,7 @@ Voor Beheerders is een nieuw type Aankondiging, &#39;Als e-mail&#39;, toegevoegd
 
 Aangepaste beheerders en auteurs kunnen deze optie ook op instantieniveau bekijken als ze de benodigde toegang hebben.
 
-Zie voor meer informatie [Aankondigingen](/help/migrated/administrators/feature-summary/announcements.md#as-email).
+Voor meer informatie, zie [ Aankondigingen ](/help/migrated/administrators/feature-summary/announcements.md#as-email).
 
 ### Nieuwe e-mailsjablonen
 
@@ -302,8 +310,8 @@ De opties zijn standaard ingeschakeld.
 
 We hebben een nieuw kenmerk, jobType, toegevoegd aan de API voor taken. Het attribuut accepteert de volgende waarden:
 
-* **generateInstructorUtilisationReport**: Retourneert het gebruiksrapport van een docent.
-* **generateJobAidMetadataReport**: Retourneert de metagegevens van een taakhulprapport.
+* **generateInstructorUtilisationReport**: Keert het gebruiksrapport van een instructeur terug.
+* **generateJobAidMetadataReport**: keert de meta-gegevens van een rapport van de Hulp van de Baan terug.
 
 **Eindpunt**: POST /primeapi/v2/jobs
 
@@ -424,10 +432,10 @@ De volgende attributen zijn toegevoegd:
 | Beschrijving | Nieuwe parameter/reactie | Eindpunt |
 |--- |--- |--- |
 | Alle steden weergeven | filter.cityName=true/false | GET /primeapi/v2/data |
-| Plaatsen zoeken en filteren | filter.cityName=city_name<br>ondersteunt ook een door komma&#39;s gescheiden lijst van steden |
+| Plaatsen zoeken en filteren | filter.cityName=city_name <br> steunt ook een komma-gescheiden lijst van steden |
 | GET /primeapi/v2/search |
-| Details van de ruimte retourneren | include=room | GET /primeapi/v2/users/`<id>`/agenda |
-| Leerobject om plaatsen te filteren | filter.cityName=city_name <br> Tevens wordt ondersteuning geboden voor een door komma&#39;s gescheiden lijst met steden. | GET /primeapi/v2/learningObjects |
+| Details van de ruimte retourneren | include=room | GET /primeapi/v2/users/`<id>`/endar |
+| Leerobject om plaatsen te filteren | filter.cityName=city_name <br> Hiermee wordt ook een door komma&#39;s gescheiden lijst met steden ondersteund. | GET /primeapi/v2/learningObjects |
 | Deelvenster Plaats toevoegen | De reactie bevat een nieuw kenmerk, filterPanelSetting=true/false. | GET /primeapi/v2/account |
 
 ### Studentsessies die een conflict hebben
@@ -474,7 +482,7 @@ Een nieuwe queryparameter, suggestionType. De toegestane waarden zijn:
 * learnerHistory (standaard)
 * accountHistory
 
-**Eindpunt**: GET /primeapi/v2/search/Suggesties/?suggestieType=learnerHistory
+**Eindpunt**: GET /primeapi/v2/search/suggestis/?suggestieType=learnerHistory
 
 ### Filteren op gebruikersgroepen
 
@@ -492,7 +500,7 @@ U kunt externe gebruikers toevoegen aan en verwijderen uit Aangepaste groepen vi
 
 POST /userGroups/{id}/users
 
-**Body**
+**Lichaam**
 
 ```javascript {line-numbers="true"}
 "data": [ 
@@ -507,7 +515,7 @@ POST /userGroups/{id}/users
 
 DELETE /userGroups/{id}/users
 
-**Body**
+**Lichaam**
 
 ```javascript {line-numbers="true"}
 "data": [  
@@ -520,7 +528,7 @@ DELETE /userGroups/{id}/users
 
 ### Aankondiging van gebruikersgroepfiltering voor verlies in Learner-app
 
-* De GET /users/{userId}/userGroups API heeft een nieuwe parameter, filter.publishedGroupsOnly, die een Booleaanse waarde (true/false) gebruikt. Hiermee worden alleen gebruikersgroepen gefilterd die de beheerder aankondigt. De standaardwaarde van de parameter is niet waar.
+* De GET /users/{userId}/userGroups API heeft een nieuwe parameter, filter.knownGroupsOnly, die een Booleaanse waarde (true/false) gebruikt. Hiermee worden alleen gebruikersgroepen gefilterd die de beheerder aankondigt. De standaardwaarde van de parameter is niet waar.
 * De API GET /learningObjects heeft een nieuwe parameter, filter.knownGroups, die id&#39;s van aankondigingsgroepen accepteert om resultaten te filteren.
 * De GET /search API heeft een nieuwe parameter, filter.publishedGroups, die aankondigingsgroep-id&#39;s accepteert om resultaten te filteren.
 
@@ -631,11 +639,11 @@ Voorbeeldreactie hieronder:
 
 ## Aanvullende informatie
 
-Voor informatie over de huidige en vorige releases van de webapp en de apparaatapp van Learning Manager raadpleegt u de [Opmerkingen bij de release](/help/migrated/release-note/release-notes.md).
+Voor informatie betreffende huidige en vorige versies van het Leren Web app van de Manager en apparaat app, zie de [ nota&#39;s van de Versie ](/help/migrated/release-note/release-notes.md).
 
 ## Foutoplossingen
 
-Als u de fouten wilt zien die in deze update zijn gecorrigeerd, raadpleegt u de [Grenzen van lijst](release-note/release-notes.md#bugs-fixed-in-this-release).
+Om de insecten te zien die in deze update worden bevestigd, verwijs naar de [ Bugs vaste lijst ](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Systeemvereisten
 

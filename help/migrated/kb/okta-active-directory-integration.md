@@ -3,18 +3,17 @@ jcr-language: en_us
 title: Integratie van Okta Active Directory met Adobe Learning Manager
 description: Integratie van Okta Active Directory met Adobe Learning Manager
 contentowner: nluke
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 57%
+source-wordcount: '561'
+ht-degree: 55%
 
 ---
 
-
-
 # Integratie van Okta Active Directory met Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 
-In dit document leert u hoe u Adobe Learning Manager kunt integreren met Okta Active Directory (AD). Wanneer u Adobe Learning Manager integreert met Okta AD, kunt u:
+In dit document, zult u leren hoe te om Adobe Learning Manager met Okta Actieve Folder (ADVERTENTIE) te integreren. Wanneer je Adobe Learning Manager integreert met Okta AD, kun je:
 
 * Gebruikerstoegang tot Learning Manager controleren en beheren in Okta AD;
 * Inschakelen dat gebruikers automatisch worden aangemeld bij Adobe Learning Manager met hun Okta AD-account;
@@ -24,51 +23,56 @@ Adobe Learning Manager biedt ondersteuning voor door Identity Provider (IdP) en 
 
 ## Een toepassing maken in OKTA
 
-1. Meld u aan als beheerder in Okta AD.
+1. Meld u aan bij Okta AD.
+
+   >[!NOTE]
+   >
+   >U hebt geen ALM-beheertoegang nodig om een toepassing te maken en een IDP in te stellen.
+
 1. Klik op **[!UICONTROL Toepassingen]**. De appstore in Okta wordt geopend.
 
    ![](assets/cp-application-store.png)
 
-   *Toepassingsarchief in Okta weergeven*
+   *de toepassingsopslag van de Mening in Okta*
 
-1. Klikken **[!UICONTROL App-integratie maken]**.
+1. Klik **[!UICONTROL creeer de Integratie van de Toepassing]**.
 
    ![](assets/cp-app-integrations.png)
 
-   *Selecteer App-integratie maken*
+   *uitgezocht creeer toepassingsintegratie*
 
-1. Selecteren **[!UICONTROL SAML 2.0]** uit het nieuwe app-integratievenster.
+1. Selecteer **[!UICONTROL SAML 2.0]** van het nieuwe venster van de toepassingsintegratie.
 
    ![](assets/cp-saml2.0.png)
 
-   *De optie SAML2.0 selecteren*
+   *Uitgezochte SAML2.0 optie*
 
-1. Selecteren **[!UICONTROL SAML-integratie maken]** > **[!UICONTROL Pagina Algemene instellingen]**. Voer een toepassingsnaam in.
+1. Selecteer **[!UICONTROL tot de integratie van SAML]** > **[!UICONTROL Algemene montagespagina]**. Voer een toepassingsnaam in.
 
    Let op: dit kan elke naam zijn om uw toepassing uniek te identificeren. Klik op **[!UICONTROL Volgende]** als u klaar bent.
 
    ![](assets/cp-saml-integration.png)
 
-   *Voer de naam van de toepassing in*
+   *ga de naam van de toepassing* in
 
 1. Voer de volgende stappen uit op de pagina SAML-instellingen configureren:
 
-   **Voor IDP-instelling:**
+   **voor opstelling IDP:**
 
-   1. Typ de URL in het veld Single Sign-on URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. Typ de URL in het veld Audience URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
-   1. In het dialoogvenster **Naam-id-indeling** vervolgkeuzelijst, selecteert u **E-mailadres**.
+   1. In het Enige Sign-op gebied URL, typ URL: [ https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. Op het gebied van het Publiek URL, typ URL: [ https://learningmanager.adobe.com ](https://learningmanager.adobe.com/)
+   1. In de **drop-down doos van het Formaat van de Naam** identiteitskaart, uitgezochte **E-mailAdres**.
    1. Selecteer Gebruikersnaam Okta in de vervolgkeuzelijst **Gebruikersnaam toepassing**.
    1. Indien u nog kenmerken wilt toevoegen, kunt u dit doen onder de **Kenmerkvermelding** (optioneel)
 
    ![](assets/cp-saml-integration-step1.png)
 
-   *SAML-kenmerken toevoegen*
+   *voeg attributen SAML* toe
 
-   **Voor SP-instelling:**
+   **voor de opstelling van SP:**
 
-   1. Typ de URL in het veld Single Sign-on URL: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. Typ de URL in het veld Audience URL: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
+   1. In het Enige Sign-op gebied URL, typ URL: [ https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. Op het gebied van het Publiek URL, typ URL: [ https://learningmanager.adobe.com ](https://learningmanager.adobe.com/)
    1. Selecteer **E-mailadres** in de vervolgkeuzelijst Indeling naam-ID.
    1. Selecteer Gebruikersnaam Okta in de vervolgkeuzelijst Gebruikersnaam toepassing.
    1. Klik op **Geavanceerde instellingen weergeven**.
@@ -81,45 +85,45 @@ Adobe Learning Manager biedt ondersteuning voor door Identity Provider (IdP) en 
 
    ![](assets/cp-saml-integration-step2.png)
 
-   *Extra kenmerken toevoegen*
+   *voeg extra attributen toe*
 
    Klik op **[!UICONTROL Volgende]** als u klaar bent.
 
-1. De **Feedback**  is optioneel. Nadat u de opties hebt geselecteerd en feedback hebt gegeven, klikt u op **[!UICONTROL Voltooien]**.
+1. Het **lusje van de Terugkoppeling** is facultatief. Zodra u de opties hebt geselecteerd en uw gegeven terugkoppelt, klik **[!UICONTROL Afwerking]**.
 
    ![](assets/cp-saml-integration-step3.png)
 
-   *Volledige SAML-installatie*
+   *Volledige opstelling SAML*
 
 ## Door IDP geïnitieerde URL en metadatabestand extraheren
 
 Voer de volgende stappen uit om het door IdP/SP geïnitieerde URL- en metagegevensbestand weer te geven:
 
 1. Open de toepassing die u hebt gemaakt.
-1. Onder de **Single Sign-On** tabblad, klikt u op **[!UICONTROL Instructies weergeven]**.
+1. Onder het **Enige Sign-On** lusje, klik **[!UICONTROL Instructies van de Mening]**.
 
    ![](assets/cp-prime-sso.png)
 
-   *Tabblad SSO selecteren*
+   *Uitgezochte SSO lusje*
 
-   **Voor IDP:**
+   **voor IDP:**
 
    1. De URL voor eenmalige aanmelding van de ID-provider is de door IdP geïnitieerde URL.
-   1. Kopieer alle tekst die aanwezig is onder de **Optioneel** veld.
+   1. Kopieer al tekst die onder het **Facultatieve** gebied aanwezig is.
    1. Open een nieuw kladblokvenster en plak daar de gekopieerde tekst in.
-   1. Klikken **[!UICONTROL Bestand]** > **[!UICONTROL Opslaan als]** > &quot;filename.xml&quot;. Dit wordt het metadatabestand.
+   1. Klik **[!UICONTROL Dossier]** > **[!UICONTROL sparen als]** > &quot;filename.xml&quot;. Dit wordt het metadatabestand.
 
-   **Voor SP:**
+   **voor SP:**
 
    1. De URL voor eenmalige aanmelding van de ID-provider is de door IdP geïnitieerde URL.
    1. De uitgever van de ID-provider is de Entiteits-ID.
-   1. Kopieer alle tekst die aanwezig is onder de **Optioneel** veld.
+   1. Kopieer al tekst die onder het **Facultatieve** gebied aanwezig is.
    1. Open een nieuw kladblokvenster en plak daar de gekopieerde tekst in.
-   1. Klikken **[!UICONTROL Bestand]** > **[!UICONTROL Opslaan als]** > **[!UICONTROL filename.xml]**. Dit wordt het metadatabestand.
+   1. Klik **[!UICONTROL Dossier]** > **[!UICONTROL sparen als]** > **[!UICONTROL filename.xml]**. Dit wordt het metadatabestand.
 
    ![](assets/cp-saml-integration-step4.png)
 
-   *SP XML-bestand opslaan*
+   *sparen het dossier van XML van SP*
 
    Sla dit bestand op in de indeling XML.
 

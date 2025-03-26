@@ -3,10 +3,10 @@ description: Adobe Learning Manager ondersteunt meerdere aanmeldingsmethoden via
 title: Meerdere SSO-aanmeldingen
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 39%
+source-wordcount: '794'
+ht-degree: 38%
 
 ---
 
@@ -26,14 +26,19 @@ Er kunnen tot 20 SSO-configuraties aan een account worden toegevoegd. Deze kunne
 
 Om veelvoudige SSO toe te laten, selecteer **Montages** > **Aanmeldingsmethodes**.
 
-Schakel op de installatiepagina het selectievakje &#39;Multiple Single Sign-On (SSO) inschakelen&#39; in voor interne of externe gebruikers.
+Voor de opstellingspagina, selecteer checkbox &#39;**[!UICONTROL toelaten Veelvoudige Enige Sign-On (SSO)]**&#39; voor Interne of Externe gebruikers.
 
 Als Multi SSO is ingeschakeld, wordt de aanmeldingsmethode die is geselecteerd voor &#39;Standaardaanmeldingsmethode&#39; het standaardaanmeldingstype voor gebruikersgroepen/profielen die niet zijn gekoppeld aan een SSO-configuratie. De standaard aanmelding kan Adobe ID of SSO of ALM ID (externe gebruikers) zijn.
+
+>[!NOTE]
+>
+>Beheerders en aangepaste beheerders met de benodigde machtigingen kunnen deze stappen uitvoeren.
 
 Volg onderstaande stappen om een SSO te configureren:
 
 1. Klik op SSO (Single Sign-On) configureren.
-1. Klik op Nieuwe SSO-configuratie toevoegen.
+1. Klik op Nieuwe SSO-configuratie toevoegen.\
+   ![](assets/sso.png)
 1. Voeg in het dialoogvenster SSO-configuratie het volgende toe:
 
    * Geef de naam van de SSO op.

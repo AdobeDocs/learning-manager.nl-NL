@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gebruikers toevoegen en gebruikersgroepen maken
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '4150'
-ht-degree: 60%
+source-wordcount: '4231'
+ht-degree: 59%
 
 ---
 
@@ -358,6 +358,16 @@ Naast de automatisch gegenereerde groepen kunt u ook aangepaste groepen maken. O
 1. Klik op **[!UICONTROL Opslaan]** om de gebruikersgroep te maken.
 
 Deze aangepaste groep is nu aangemaakt en aan het profiel toegevoegd.  De gebruikersgroepen die u maakt zijn dynamisch van aard. Als er nieuwe gebruikers met vergelijkbare kenmerken worden toegevoegd, worden ze automatisch aan de gebruikersgroep toegevoegd.
+
+Om de lijst van groepen te bekijken behoort een gebruiker tot, navigeer aan **[!UICONTROL Gebruiker]** > **[!UICONTROL Gebruikersgroepen]**, onderzoek naar de naam van de gebruiker, en selecteer het. Hiermee worden alle groepen weergegeven waarvan de gebruiker deel uitmaakt.
+
+![](assets/list-of-group.png)
+
+### De lijst met gebruikers in een gebruikersgroep downloaden
+
+Om de lijst van gebruikers in een specifieke gebruikersgroep te downloaden, navigeer aan **[!UICONTROL Gebruiker]** > **[!UICONTROL de Groepen van de Gebruiker]**, selecteer het **[!UICONTROL pictogram van de Download]** naast de groep. Hiermee wordt een CSV-bestand gegenereerd dat de lijst met gebruikers in die groep bevat.
+
+![](assets/download-list-of-user.png)
 
 ## Uitsluiting van gebruikersgroepen
 

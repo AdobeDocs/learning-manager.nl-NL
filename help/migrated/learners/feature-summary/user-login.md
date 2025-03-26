@@ -3,20 +3,26 @@ description: Inloggen als student in Learning Manager.
 jcr-language: en_us
 title: Aanmelden
 contentowner: manochan
-source-git-commit: b6ee04d062bf6df477a1e8782cfec8fa3700d744
+exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 58%
+source-wordcount: '196'
+ht-degree: 33%
 
 ---
-
-
 
 # Aanmelden
 
 Inloggen als student in Learning Manager.
 
-Wanneer u Adobe Learning Manager voor het eerst gebruikt, moet u de onderstaande stappen volgen om uw account te maken:
+Wanneer studenten voor het eerst Adobe Learning Manager gebruiken, moeten ze een account maken. U kunt dit op twee manieren doen:
+
+* Zelfregistratie: gebruik de URL in de welkomstmail om uw account te maken.
+* Door beheerder gemaakt account: een beheerder kan namens u een account maken.
+
+## Een account maken met de welkomstmail-URL
+
+Ga als volgt te werk om uw account te maken met behulp van de URL in de welkomstmail:
 
 1. Start Adobe Learning Manager via de beveiligde link in de welkomstmail die u van uw beheerder hebt ontvangen.
 
@@ -26,7 +32,7 @@ Wanneer u Adobe Learning Manager voor het eerst gebruikt, moet u de onderstaande
 
    ![](assets/adobeid-signin.png)
 
-   *Aanmelden met gebruikersnaam en wachtwoord*
+   *Teken binnen met gebruikersnaam en wachtwoord*
 
 1. Voer Adobe ID en wachtwoord in en klik op Aanmelden.
 

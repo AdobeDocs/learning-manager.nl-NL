@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Mijn leermateriaal
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '2789'
+source-wordcount: '3080'
 ht-degree: 63%
 
 ---
@@ -99,6 +99,37 @@ U kunt aangeven dat u geïnteresseerd bent in klassikale cursussen zonder geplan
 >[!NOTE]
 >
 >Studenten moeten een conflictbericht zien als ze zich tegelijkertijd of overlappend in twee verschillende sessies inschrijven.
+
+## Schakelen tussen instanties
+
+Een student die is ingeschreven voor een bepaalde instantie van een cursus kan een lijst met alle beschikbare instanties van de cursus bekijken en schakelen naar een andere instantie die voor de student beter werkt. De reden voor overschakeling is bijvoorbeeld dat de student niet aanwezig was bij de vorige instantie, of de sessietiming voor de nieuwe instantie beter uitkomt. Het kan ook iets anders zijn.
+
+De voortgang van de student als onderdeel van de cursus, quizscores van de leerling etc. worden overgedragen naar de nieuwe instantie. Deze functie is voornamelijk bedoeld voor klaslokaal- en gemengde cursussen, maar we ondersteunen alle typen cursussen, inclusief zelfstudiecursussen.
+
+Bij deze optie wordt Alle instanties weergeven getoond, ongeacht de instellingen voor Schakelen tussen instanties. Studenten zien nu een optie om alle instanties te bekijken als er meer dan één instantie van een cursus is.
+
+Als de optie Schakelen tussen instanties is ingeschakeld, kunnen studenten tussen verschillende instanties schakelen totdat ze de cursus voltooien. Als de optie is uitgeschakeld, kunnen studenten de instanties bekijken, maar kunnen ze zich niet inschrijven voor de cursus.
+
+Wanneer de student **Alle instanties bekijken** selecteert, ziet de student alle cursusinstanties.
+
+![ alt tekst ](assets/view-all-instance.png)
+
+_Bekijk al instantiepagina van studentenconsole_
+
+![](assets/switch-instance-learner.png)
+_instantie van de Schakelaar van studentenpagina_
+
+Een beheerder kan van instantie veranderen voor studenten. Selecteer een cursus van de admin console, ga naar de **[!UICONTROL sectie van Studenten]**, kies een gebruiker, en selecteer de **[!UICONTROL knoop van de Actie]**. Dan, selecteer **[!UICONTROL Instantie van de Schakelaar]** en kies de gewenste instantie.
+
+![ alt tekst ](assets/switch-instance-admin.png)
+_instantie van de Schakelaar van Admin console_
+
+![ geselecteerde schakelaarinstanties ](assets/switch-instances-select.png)
+_de instantieherinnering van de Schakelaar_
+
+U kunt niet van instantie wisselen totdat een instantie van de cursus is voltooid vanuit de Learner- of Admin-app.
+
+Auteurs kunnen tijdens het maken van een cursus schakelen tussen het in- en uitschakelen van de optie Instantieverwisselen. Schakelen van instantie is alleen beschikbaar voor gratis cursussen.
 
 ## Workflow als student
 

@@ -4,10 +4,10 @@ title: Systeemvereisten
 description: Systeemvereisten voor Adobe Learning Manager
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 4096b80a5e939ef72a9bbe2aede3d9d91402e4ee
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 64%
+source-wordcount: '590'
+ht-degree: 61%
 
 ---
 
@@ -65,7 +65,7 @@ Een microfoon is vereist voor audio-opname; een webcam vereist voor video-opname
 
 >[!NOTE]
 >
->Mobiele browser ondersteunt alleen de studentrol in **boeiende lay-out**.
+>Mobiele browser steunt slechts studentrol in **meeslepende lay-out**.
 
 >[!NOTE]
 >
@@ -85,7 +85,10 @@ De insluitende lay-out van de startpagina wordt niet ondersteund door de browser
 
 ## Aanbevolen grootte van afbeeldingen {#recommendedsizeofimages}
 
-* Impressum: 1280 x 360 px.
+* Masthead:
+   * Voor grote instellingen: 1280 x 360 PX
+   * Voor instellingen als normaal: 1280 x 273 PX
+   * Voor kleine instellingen: 1280 x 187 PX
 * Afbeelding op de cataloguskaart: 280 x 100 px
 * Grootte trainingskaart: 300 x 240 px
 * Social-banner: 1600 x 240 px
@@ -98,7 +101,7 @@ De maximale bestandsgrootte die kan worden geüpload is 600 MB.
 >
 >Als het bestand *user.csv* groter is dan 100 MB, kan de browser zich onverwacht gedrag vertonen bij het importeren van dit bestand. Het probleem treedt op, omdat de browser onvoldoende geheugen heeft.
 
-We raden u aan grote bestanden te importeren *user.csv* bestanden die gebruikmaken van de geautomatiseerde Box/Exavault-workflow. Ga voor meer informatie naar [Bestanden migreren](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+Wij adviseren invoerend grote grootte *user.csv* dossiers gebruikend het geautomatiseerde Box/Exavault werkschema. Meer weten, zie [ Migrerend dossiers ](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Ondersteunde inhoudsindelingen
@@ -297,19 +300,19 @@ Zorg ervoor dat de volgende domeinen van derden op de whitelist staan als u op e
   </tr>
   <tr>
    <td>Migratie</td>
-   <td><a href="https://www.box.com/" target="_blank">www.box.com</a><br><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a></td>
+   <td><a href="https://www.box.com/" target="_blank"> www.box.com </a><br> <a href="https://www.exavault.com/" target="_blank"> www.exavault.com </a></td>
   </tr>
   <tr>
    <td>Lynda-connector</td>
-   <td><a href="https://www.box.com/" target="_blank">www.box.com</a><br><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.lynda.com/" target="_blank">www.lynda.com</a></td>
+   <td><a href="https://www.box.com/" target="_blank"> www.box.com </a><br> <a href="https://www.exavault.com/" target="_blank"> www.exavault.com </a><br> <a href="https://www.lynda.com/" target="_blank"> www.lynda.com </a></td>
   </tr>
   <tr>
    <td>Harvard ManageMentor-connector</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://myhbp.org" target="_blank">www.myhbp.org</a></td>
+   <td><a href="https://www.exavault.com/" target="_blank"> www.exavault.com </a><br> <a href="https://myhbp.org" target="_blank"> www.myhbp.org </a></td>
   </tr>
   <tr>
    <td>GetAbstracts-connector</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
+   <td><a href="https://www.exavault.com/" target="_blank"> www.exavault.com </a><br> <a href="https://www.getabstract.com/en/" target="_blank"> www.getabstract.com </a></td>
   </tr>
   <tr>
    <td>Box-connector</td>

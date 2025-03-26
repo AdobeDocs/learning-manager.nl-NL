@@ -4,10 +4,10 @@ title: Leerpaden
 description: Leerplannen maken voor beheerders in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 37%
+source-wordcount: '1334'
+ht-degree: 35%
 
 ---
 
@@ -111,15 +111,13 @@ In het leerpad kunt u het volgende doen:
 
 Klik op Publish nadat u de wijzigingen hebt aangebracht om het leerpad te publiceren.
 
-## Genest leerpad
+## Genest of verbeterd leerpad
 
-U kunt een leerpad in een leerpad opnemen, maar u kunt er maximaal één leerpad in nesten.
-
-Voeg het leerpad in zoals u een cursus zou invoegen.
+Een genest of verbeterd leerpad is een leerpad dat meerdere leerpaden bevat. Als u een leerpad wilt invoegen, volgt u hetzelfde proces als het toevoegen van een cursus in een leerpad.
 
 ![](assets/nested-learning-path.png)
 
-*voeg een het Leren Weg binnen een Leerweg* toe
+*Geneste of Verbeterde het Leren Weg*
 
 ## Instellingen voor leerpaden
 
