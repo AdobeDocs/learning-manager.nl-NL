@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Een student en een manager nabootsen
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
+source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 64%
+source-wordcount: '532'
+ht-degree: 59%
 
 ---
 
@@ -55,7 +55,7 @@ Volg de onderstaande stappen om een gebruiker na te bootsen:
 
 **een nagemaakte zitting duurt 60 minuten.**
 
-Bij het wisselen naar een student- of managerrol wordt een bericht weergegeven dat de beheerder/aangepaste beheerder de gebruiker nabootst.
+Wanneer u overschakelt naar een student- of managerrol, verschijnt een bericht waarin wordt aangegeven dat de beheerder zich in een imitatiemodus van de gebruiker bevindt.
 
 ## Aanmelden en rapport openen
 
