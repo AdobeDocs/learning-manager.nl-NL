@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Een student en een manager nabootsen
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
+source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 59%
+source-wordcount: '517'
+ht-degree: 56%
 
 ---
 
@@ -30,8 +30,7 @@ Houd rekening met het volgende wanneer u een gebruiker imiteert:
 * Alle beheerders kunnen standaard deze functie zien.
 * Alleen actieve gebruikers in het account kunnen worden nagebootst.
 * Een beheerder kan niet zichzelf nabootsen.
-* Een aangepaste beheerder met toegang tot de pagina Gebruikers kan gebruikers nabootsen.
-* Een beheerder/aangepaste beheerder kan maximaal 60 minuten nabootsen.
+* Een beheerder kan zich slechts 60 minuten imiteren.
 * Een aangepaste beheerder met alleen-lezen-toegang kan zich niet als gebruiker gedragen.
 
 ## Een gebruiker nabootsen
