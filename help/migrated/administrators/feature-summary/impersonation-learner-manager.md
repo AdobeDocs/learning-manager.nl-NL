@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Een student en een manager nabootsen
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: ba0c87447755729cd98cea1d40083e05f2159f37
+source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 70%
+source-wordcount: '534'
+ht-degree: 64%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 70%
 
 In grote organisaties hebben medewerkers van de klantenondersteuning behoefte aan imitatiemogelijkheden om fouten op te sporen waarmee studenten worden geconfronteerd.
 
-Met deze mogelijkheid om andere gebruikers na te bootsen kunnen beheerders en aangepaste beheerders alle activiteiten die studenten en managers van hun organisatie uitvoeren, identificeren en uitvoeren.
+Dankzij deze mogelijkheid om zich te laten verpersoonlijken op andere gebruikers, kunnen beheerders alle activiteiten van studenten en managers van hun organisatie identificeren en uitvoeren.
+
+>[!NOTE]
+>
+>Aangepaste beheerders hebben niet de mogelijkheid om gebruikers te imiteren; alleen beheerders kunnen gebruikersimitatie uitvoeren.
 
 ## Zo werkt het
 
-Beheerders (en/of aangepaste beheerders) kunnen een gebruiker zoeken (intern of extern) en deze vervolgens nabootsen. De beheerder wordt vervolgens doorgeleid naar de gebruikerspagina (manager-app indien van toepassing, of anders student-app), en de beheerder wordt afgemeld bij de sessie. De beheerder wordt vervolgens doorgeleid naar de pagina Profiel voltooien, als dit is ingesteld voor de gebruiker die door de beheerder wordt nagebootst.
-
-Als een aangepaste beheerder toestemming heeft om toegang te krijgen tot de pagina van een gebruiker, kunnen ze zoeken naar gebruikers die ze willen nadoen.
+Beheerders kunnen een gebruiker (intern of extern) opzoeken en zich vervolgens als gebruiker gedragen. De beheerder wordt vervolgens doorgeleid naar de gebruikerspagina (manager-app indien van toepassing, of anders student-app), en de beheerder wordt afgemeld bij de sessie. De beheerder wordt vervolgens doorgeleid naar de pagina Profiel voltooien, als dit is ingesteld voor de gebruiker die door de beheerder wordt nagebootst.
 
 Houd rekening met het volgende wanneer u een gebruiker imiteert:
 
