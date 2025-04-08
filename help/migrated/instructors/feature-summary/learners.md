@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Studenten beheren voor uw sessie
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 84%
+source-wordcount: '1056'
+ht-degree: 82%
 
 ---
 
@@ -92,6 +92,12 @@ Voer een van de volgende handelingen uit om e-mails naar studenten te sturen via
 
 * Selecteer een deelnemer en klik op Acties > E-mail naar bepaalde mensen verzenden om e-mails naar die specifieke deelnemer te sturen.
 * Klik op Acties >E-mail verzenden naar iedereen om e-mails, cursusmateriaal of een opdracht naar alle bezoekers te sturen.
+
+## Antwoorden uitnodigingen vastleggen
+
+U kunt reacties op uitnodigingen weergeven in de sectie Studenten. Ga naar om het even welke zitting, selecteer **[!UICONTROL Studenten]**, en selecteer de uitnodigingsreactie van het dropdown menu.
+
+![](assets/invitation-status.png)
 
 ## Studentenlijst exporteren {#exportinglearnerslist}
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gebruikers toevoegen en gebruikersgroepen maken
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '4231'
-ht-degree: 59%
+source-wordcount: '4290'
+ht-degree: 58%
 
 ---
 
@@ -172,6 +172,8 @@ Kies een gebruiker in de gebruikerslijst en klik erop.  Voor de gebruikersdetai
 
 ## Actieve velden
 
+Actieve velden in Adobe Learning Manager zijn aanpasbare metagegevensvelden die worden gebruikt voor het opslaan en beheren van gebruikersspecifieke informatie. Met deze velden kunt u de belangrijkste kenmerken of kenmerken definiëren die aan elke gebruiker in het systeem zijn gekoppeld.
+
 ### Gebruikerskenmerken beheren
 
 >[!INFO]
@@ -329,6 +331,10 @@ Kies een gebruiker, en van de hoger-juiste hoek, klik **[!UICONTROL Acties]** > 
 ## Een rol verwijderen {#Removearole-1}
 
 Kies een gebruiker, en van de hoger-juiste hoek, klik **[!UICONTROL Acties]** > **[!UICONTROL verwijdert Rol]** > **verwijdert`<role>`**. De geselecteerde rol wordt verwijderd uit de lijst met rollen die aan de gebruiker zijn toegewezen.
+
+>[!NOTE]
+>
+>Het toewijzen van een nieuwe rol heeft geen invloed op aangepaste gebruikersgroepen. Dit is echter wel van invloed op automatisch gegenereerde gebruikersgroepen zoals Alle beheerders, Alle auteurs en vergelijkbare op rollen gebaseerde groepen.
 
 ## Gebruikersgroepen maken {#createusergroups}
 

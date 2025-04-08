@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager-connectoren
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '15848'
+source-wordcount: '15865'
 ht-degree: 59%
 
 ---
@@ -1084,6 +1084,10 @@ Voor Adobe Learning Manager zijn de onderstaande bereiken vereist. De bereiken m
 * Rapportgegevens weergeven `/report:read:admin`
 * Alle gebruikersinformatie weergeven `/user:read:admin`
 * Gebruikersgegevens weergeven en gebruikers beheren `/user:write:admin`
+* Een registrant voor een vergadering toevoegen `/meeting:write:registrant:admin`
+* Alle registranten van vergaderingen weergeven `/meeting:read:list_registrants:admin`
+* Gebruikersvergaderingen van subaccounts weergeven en beheren `/meeting:write:meeting:master`
+* Rapportgegevens weergeven `/report:read:list_meeting_participants:admin`
 
 ## Box-connector {#box_connector}
 
