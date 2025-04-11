@@ -4,10 +4,10 @@ title: Veelgestelde vragen voor beheerders
 description: Veelgestelde vragen voor Adobe Learning Manager-beheerders
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 2548370c5b943964e200b6c1d5a4d0d9ca386ba6
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 52%
+source-wordcount: '2612'
+ht-degree: 50%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 52%
   </tr>
  </tbody>
 </table>
+
++++Nieuwe aankondiging van Experience League
+
+We zijn enthousiast om aan te kondigen dat Adobe Learning Manager tijdens ons traject om beter te worden verbonden met de Adobe-reeks oplossingen nog een kanaal zal toevoegen aan het supportinnameproces. Vanaf 12 mei 2025 kun je nu rechtstreeks vanuit Adobe Experience League zaken creëren. Experience League is momenteel de thuisbasis van zelfhulpdocumentatie, gebruikershandleidingen en best practices van Adobe Learning Manager en zal uw primaire hulpbron worden voor alle ondersteuningsbehoeften, van zelfservice tot door medewerkers aangestuurde communicatie. We waarderen uw begrip en steun bij deze belangrijke overgang.
+
++++
 
 +++Kan ik gebruikers in bulk toevoegen? Hoe?
 

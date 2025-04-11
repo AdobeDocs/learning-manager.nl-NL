@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Gebruikers toevoegen en gebruikersgroepen maken
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '4290'
 ht-degree: 58%
@@ -22,7 +22,7 @@ Leer hoe u gebruikers of gebruikersgroepen in de Learning Manager-toepassing toe
 
 >[!INFO]
 >
->In deze training leert u hoe u een gebruikersgroep kunt maken op naam, e-mail-id&#39;s en meerdere automatisch gegenereerde gebruikersgroepen combineert.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694) </br></br>
+>In deze training leert u hoe u een gebruikersgroep kunt maken op naam, e-mail-id&#39;s en meerdere automatisch gegenereerde gebruikersgroepen combineert.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694) </br></br>
 
 <!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
@@ -53,7 +53,7 @@ Voeg interne studenten aan de Adobe Learning Manager toe met behulp van één ge
 
 >[!INFO]
 >
->In deze training leert u hoe u interne studenten aan de Adobe Learning Manager kunt toevoegen.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534) </br></br>
+>In deze training leert u hoe u interne studenten aan de Adobe Learning Manager kunt toevoegen.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534) </br></br>
 
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
@@ -83,7 +83,7 @@ Gebruikers toevoegen:
 
 In deze training leert u hoe u rollen toewijst en verwijdert, een welkomstmail verzendt en gebruikers verwijdert en verwijdert.
 
-[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
@@ -178,7 +178,7 @@ Actieve velden in Adobe Learning Manager zijn aanpasbare metagegevensvelden die 
 
 >[!INFO]
 >
->In deze training leert u hoe u actieve velden kunt toevoegen, aanpassen en configureren.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741) </br></br>
+>In deze training leert u hoe u actieve velden kunt toevoegen, aanpassen en configureren.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741) </br></br>
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 

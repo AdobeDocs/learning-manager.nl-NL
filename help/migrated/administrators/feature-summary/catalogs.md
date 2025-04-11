@@ -4,7 +4,7 @@ title: Catalogi
 description: 'Catalogi zijn een verzameling leermiddelen: cursussen, leerprogramma''s en certificeringen. Gebruik catalogi om studenten te voorzien van toegang tot een aangepaste set leermaterialen. U kunt leermateriaal aan een catalogus koppelen tijdens het maken van een nieuwe catalogus.'
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '2552'
 ht-degree: 72%
@@ -21,7 +21,7 @@ Als beheerder kunt u aangepaste catalogi maken als u bepaalde cursussen beschikb
 
 In deze training leert u hoe u catalogi kunt maken en beheren.
 
-[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318922)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
@@ -145,7 +145,7 @@ Cursussen, leerprogramma&#39;s, taakhulpen en certificeringen kunt u als leerobj
 
 Met deze training leert u hoe u catalogi kunt delen met interne gebruikersgroepen en externe Adobe Learning Manager-accounts.
 
-[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318924)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 

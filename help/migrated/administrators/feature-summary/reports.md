@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Rapporten
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '7828'
 ht-degree: 52%
@@ -191,7 +191,7 @@ Het trainingsrapport heeft twee extra kolommen:
 
 >[!INFO]
 >
->In deze training leert u hoe u dashboardrapporten kunt genereren op basis van de database.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854) </br></br>
+>In deze training leert u hoe u dashboardrapporten kunt genereren op basis van de database.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854) </br></br>
 
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
@@ -927,7 +927,7 @@ U kunt uw favoriete rapporten als e-mail ontvangen door u hierop te abonneren.
 
 >[!INFO]
 >
->In deze training leert u hoe u e-mailabonnementen kunt instellen voor dashboardrapporten.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927) </br></br>
+>In deze training leert u hoe u e-mailabonnementen kunt instellen voor dashboardrapporten.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927) </br></br>
 
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
@@ -1179,7 +1179,7 @@ Als er meerdere managers aan u rapporteren, kunt u de rapporten voor elke manage
 
 >[!INFO]
 >
->In deze training leert u hoe u cursusrapporten exporteert en e-mailabonnementen instelt voor deze rapporten.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904) </br></br>
+>In deze training leert u hoe u cursusrapporten exporteert en e-mailabonnementen instelt voor deze rapporten.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904) </br></br>
 
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.

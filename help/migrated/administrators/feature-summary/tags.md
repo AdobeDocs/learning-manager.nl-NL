@@ -3,14 +3,13 @@ description: Leer hoe u tags beheert in Learning Manager.
 jcr-language: en_us
 title: Tags
 contentowner: dvenkate
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 63%
 
 ---
-
-
 
 # Tags
 
@@ -24,9 +23,9 @@ U kunt de tags sorteren op gebruik of op alfabetische volgorde met de optie **[!
 
 In deze training leert u hoe u tags kunt toevoegen, bewerken, vervangen, toevoegen en verwijderen. U leert ook hoe u machtigingsinstellingen wijzigt en tagfilters gebruikt.
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318920)
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ## Tags toevoegen/verwijderen/bewerken {#adddeleteedittags}
 
@@ -41,16 +40,16 @@ Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 1. U kunt maar één tag tegelijk bewerken. U kunt een tag als volgt bewerken:
 
-   * Selecteer de tag die u wilt bewerken > open de **[!UICONTROL Handelingen]**vervolgkeuzemenu > klikken **[!UICONTROL Bewerken]**.
+   * Selecteer de markering om uit te geven > open de **[!UICONTROL  Acties ] **drop-down menu > klik **[!UICONTROL uitgeven]**.
 
    Het dialoogvenster **[!UICONTROL Tag bewerken]** verschijnt. Voer de nieuwe tagnaam in en klik op **[!UICONTROL Opslaan]**.
 
-   Als de ingevoerde tagnaam al bestaat, wordt er een waarschuwingsbericht weergegeven in de Adobe Learning Manager. Er kunnen geen twee tags met dezelfde naam bestaan.
+   Als de ingevoerde tagnaam al bestaat, geeft Adobe Learning Manager een waarschuwingsbericht weer. Er kunnen geen twee tags met dezelfde naam bestaan.
 
 ## Tags vervangen {#replacetags}
 
-1. Selecteer de tags die u wilt vervangen. U kunt maximaal 50 tags tegelijk selecteren. Open de **[!UICONTROL Handelingen]** en selecteert u **[!UICONTROL Vervangen]**.
-1. De **[!UICONTROL Tags vervangen]** worden de geselecteerde tags weergegeven.
+1. Selecteer de tags die u wilt vervangen. U kunt maximaal 50 tags tegelijk selecteren. Open het **[!UICONTROL drop-down menu van Acties]** en selecteer **[!UICONTROL vervangen]**.
+1. Het **[!UICONTROL vervangt de dialoogvakje van Markeringen]** verschijnt tonend de geselecteerde markeringen.
 
 1. Voer bij de optie **[!UICONTROL Naam voor vervangen tag]** de naam in voor de nieuwe tag waardoor u de geselecteerde tag wilt vervangen. U kunt de tag vervangen door een bestaande tag uit de vervolgkeuzelijst of een nieuwe tag toevoegen.
 
@@ -62,8 +61,8 @@ Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
 
 In het geval van de bewerking Toevoegen voor tags wordt de nieuwe/bestaande tag toegevoegd aan alle lijst met LO&#39;s en inhoudsgroepen die aan de geselecteerde tags zijn gekoppeld.
 
-1. Selecteer de tags die u wilt bijvoegen. U kunt maximaal 50 tags tegelijk selecteren. Open het vervolgkeuzemenu Acties en selecteer **[!UICONTROL Toevoegen]**.
-1. De  **[!UICONTROL Tags toevoegen]** worden de geselecteerde tags weergegeven.
+1. Selecteer de tags die u wilt bijvoegen. U kunt maximaal 50 tags tegelijk selecteren. Open het drop-down menu van Acties en selecteer **[!UICONTROL toevoegen]**.
+1. Het **[!UICONTROL toevoegt de dialoogvakje van Markeringen]** verschijnt tonend de geselecteerde markeringen.
 1. U kunt een extra tag bij al het leermateriaal met de geselecteerde tags voegen door de naam van de **[!UICONTROL Nieuwe tag]** in te voeren of een naam uit de vervolgkeuzelijst van bestaande tags te kiezen. De nieuwe tag wordt toegevoegd bij al het gekoppelde leermateriaal in Learning Manager.
 
    Puntkomma of komma kan geen onderdeel van de tagnaam zijn. Indien gebruikt, toont Prime een foutmelding. Merk op dat tags zonder puntkomma&#39;s en weergave van foutmeldingen tijdens het gebruik van dergelijke tags als onderdeel van sommige LO-scenario&#39;s niet worden verwerkt voor migratiescenario&#39;s.
@@ -76,7 +75,7 @@ Als beheerder kunt u de auteur toestemming geven om tags te maken door op de opt
 
 ![](assets/unknown-1.jpeg)
 
-*Pagina Instellingen voor het maken van een tag*
+*pagina van Montages voor het creëren van een markering*
 
 * Wanneer een gebruiker toestemming heeft om tags te maken en bestaande tags selecteert die momenteel ongeldig zijn,
 

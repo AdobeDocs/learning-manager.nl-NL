@@ -4,7 +4,7 @@ title: Gebruikers in bulk toevoegen
 description: Leer meerdere gebruikers tegelijk toevoegen.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 23%
@@ -15,7 +15,7 @@ ht-degree: 23%
 
 In deze training leert u hoe u gebruikers in bulk kunt toevoegen via een CSV-bestand.
 
-[![ knoop ](feature-summary/assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+[![ knoop ](feature-summary/assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 

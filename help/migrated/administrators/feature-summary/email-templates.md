@@ -4,7 +4,7 @@ jcr-language: en_us
 title: E-mailsjablonen
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 58%
@@ -25,27 +25,27 @@ Beheerders kunnen er ook voor kiezen om voor bepaalde gebeurtenissen geen e-mail
 
 In deze training leert u hoe u afzonderlijke e-mailsjablonen kunt aanpassen en instellingen op cursusniveau en accountniveau voor e-mailsjablonen kunt aanpassen.
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318925)
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ## E-mailsjablonen configureren {#configureemailtemplates}
 
 Als beheerder kunt u deze e-mailsjablonen eenvoudig in- en uitschakelen of wijzigen.
 
-1. Als u de sjablonen wilt openen, klikt u op **[!UICONTROL E-mailsjablonen]** in het linkerdeelvenster. Op deze pagina ziet u drie verschillende categorieën sjablonen: **[!UICONTROL Algemeen]**, **[!UICONTROL Leeractiviteit]**, en **[!UICONTROL Herinneringen en updates]**. Er is een vierde tabblad, **[!UICONTROL Instellingen]**, waar u de sjablonen kunt configureren.
+1. Om tot de malplaatjes toegang te hebben, klik **[!UICONTROL E-mailMalplaatjes]** op de linkerruit. Op deze pagina kunt u drie verschillende categorieën malplaatjes zien, **[!UICONTROL Algemeen]**, **[!UICONTROL Lerende Activiteit]**, en **[!UICONTROL Herinneringen en Updates]**. Er is een vierde lusje, **[!UICONTROL Montages]**, waar u de malplaatjes kunt vormen.
 
    ![](assets/categories-of-emailtemplates.png)
 
-   *Selecteer het tabblad Algemeen*
+   *selecteer het Algemene lusje*
 
 1. Klik op een willekeurig tabblad om de lijst met e-mailsjablonen weer te geven.
 
    ![](assets/email-templates-ingeneraltab.png)
 
-   *De lijst met e-mailsjablonen weergeven*
+   *Mening de lijst van e-mailmalplaatjes*
 
    U kunt deze e-mailwaarschuwingen eenvoudig in- of uitschakelen door op de wisselknop te klikken.
 
@@ -53,7 +53,7 @@ Als beheerder kunt u deze e-mailsjablonen eenvoudig in- en uitschakelen of wijzi
 
    ![](assets/preview-of-an-emailtemplate.png)
 
-   *De sjabloon van een e-mailbericht weergeven*
+   *Mening het malplaatje van een e-mail*
 
 1. Klik op de hoofdtekst van de e-mail om de inhoud van deze e-mailsjabloon aan te passen Breng nu de wijzigingen in de sjabloon aan. U kunt de tekst aanpassen. U kunt ook een van deze variabelen in uw e-mail gebruiken. De wijzigingen in de hoofdtekst kunnen alleen op deze e-mailsjabloon worden toegepast. Als u echter wijzigingen aanbrengt in de handtekening van deze e-mail, kan deze algemeen op alle sjablonen worden toegepast.
 
@@ -61,7 +61,7 @@ Als beheerder kunt u deze e-mailsjablonen eenvoudig in- en uitschakelen of wijzi
 
    ![](assets/modify-the-emailtemplate.png)
 
-   *De e-mailsjabloon wijzigen*
+   *wijzig het e-mailmalplaatje*
 
    U kunt de standaardinhoud van het bericht herstellen door op de link **[!UICONTROL Origineel herstellen]** boven de sjabloon te klikken.
 
@@ -70,17 +70,17 @@ Als beheerder kunt u deze e-mailsjablonen eenvoudig in- en uitschakelen of wijzi
 ## Instellingen van een e-mailsjabloon aanpassen {#customizesettingsofanemailtemplate}
 
 1. Klik op **[!UICONTROL Instellingen]** om de instellingenpagina te openen. U kunt nu uw e-mailsjablonen aanpassen.
-1. Bewerk de **[!UICONTROL Naam en adres van afzender].**
+1. Om de naam en e-mail-ID aan te passen waarvan de studenten e-mails ontvangen, geef de **[!UICONTROL Naam en het Adres van de Afzender ] uit.**
 
-   Contact [***Ondersteuning voor Adoben***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) om deze gegevens te configureren of te wijzigen.
+   De Steun van de Adobe van het contact ***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) om deze details te vormen of te veranderen.[***
 
-1. Pas uw e-mailbanner aan vanuit de **[!UICONTROL E-mailbanner]** gebruiken. De kleur van de banner wijzigen door **[!UICONTROL Bannerachtergrond]**.
+1. Pas uw e-mailbanner van de **[!UICONTROL optie E-mailbanner]** aan. Verander de kleur van de banner door **[!UICONTROL Achtergrond van de Banner te selecteren]**.
 
-   U kunt een aangepaste afbeelding als banner gebruiken door het **[!UICONTROL Aangepaste afbeelding]** gebruiken. Klik op **[!UICONTROL Opslaan]** nadat u wijzigingen hebt aangebracht.
+   U kunt een douanebeeld als banner gebruiken door de **[!UICONTROL optie van het Beeld van de Douane te selecteren]**. Klik op **[!UICONTROL Opslaan]** nadat u wijzigingen hebt aangebracht.
 
    ![](assets/solid-color-banner.png) ![](assets/custom-image-banner.png)
 
-   *De afbeelding van een banner aanpassen*
+   *pas het beeld van een banner* aan
 
    De aangepaste afbeelding moet 1240x200px groot zijn en .JPG, .JPEG en .PNG ondersteunen.
 
@@ -88,35 +88,35 @@ Als beheerder kunt u deze e-mailsjablonen eenvoudig in- en uitschakelen of wijzi
 
    ![](assets/customize-email-signature.png)
 
-   *Uw e-mailhandtekening aanpassen*
+   *Pas uw e-mailhandtekening* aan
 
-1. Bewerk de URL van uw account door op Bewerken te klikken **[!UICONTROL Account-URL]**.
+1. Bewerk uw rekening URL door op Edit op de optie **[!UICONTROL te klikken Account URL]**.
 
    De link van de account-URL wordt in alle e-mails weergegeven, vlak voor de handtekening. Voer de gewenste URL in en klik op **[!UICONTROL Opslaan]**. Alleen interne gebruikers kunnen deze URL zien.
 
    ![](assets/customize-accounturl.png)
 
-   *De account-URL aanpassen*
+   *pas account URL* aan
 
-1. Configureer of managers ook e-mails moeten ontvangen die naar hun directe rapporten worden verzonden via het selectievakje onder **[!UICONTROL Optionele manager-e-mail]** gebruiken.
+1. Vorm of de managers e-mails moeten ook ontvangen die naar hun directe rapporten gebruikend de controledoos onder **[!UICONTROL Facultatieve E-mail van de Manager]** optie worden verzonden.
 
 ## De frequentie van overzichtsmails instellen {#setfrequencyofdigestemails}
 
-Op de **[!UICONTROL E-mailsjablonen]** > **[!UICONTROL Instellingen]** kan de beheerder de frequentie wijzigen van de Digest-e-mails die naar studenten worden verzonden.
+Op de **[!UICONTROL pagina van E-mailmalplaatjes]** > **[!UICONTROL Montages]**, kan Admin de frequentie veranderen van Samenvatting E-mails die naar studenten moeten worden verzonden.
 
 Klik in het deel **[!UICONTROL Instellingen overzichtsmail]** op **[!UICONTROL Bewerken]**.
 
-Kies in de vervolgkeuzelijst een van de volgende opties: **[!UICONTROL Tweewekelijks]** of **[!UICONTROL Maandelijks]**.
+In drop-down, kies of **[!UICONTROL Tweewekelijks]** of **[!UICONTROL Maandelijks]**.
 
-* **[!UICONTROL Tweewekelijks]:** Als u de frequentie instelt op **[!UICONTROL Tweewekelijks]**, ontvangen de studenten de e-mail eenmaal per twee weken.
+* **[!UICONTROL Tweewekelijks ]:** Als u de frequentie aan **[!UICONTROL Tweewekelijks]** plaatst, ontvangen de studenten één keer per twee weken e-mail.
 
-* **[!UICONTROL Maandelijks]:** Als u de frequentie instelt op **[!UICONTROL Maandelijks]**, ontvangen de studenten de e-mail eenmaal per maand.
+* **[!UICONTROL Maandelijks ]:** als u de frequentie aan **[!UICONTROL Maandelijks]** plaatst, ontvangen de studenten één keer per maand e-mail.
 
 ![](assets/digest-email-settings.png)
 
 *De frequentie van overzichtsmails instellen*
 
-Wanneer u deze optie inschakelt, wordt de frequentie ingesteld op **[!UICONTROL Tweewekelijks]** voor bestaande/nieuwe actieve accounts standaard.
+Wanneer u deze optie toelaat, wordt de frequentie geplaatst aan **[!UICONTROL Tweewekelijkse]** voor bestaande/nieuwe actieve rekeningen door gebrek.
 
 ### DND-lijst van studenten
 
@@ -128,7 +128,7 @@ De volgende voorbeelden zijn een weergave van de e-mail die studenten ontvangen.
 
 ![](assets/email-1.png)
 
-*Voorbeeldmail*
+*Steekproef e-mail*
 
 ### Leeractiviteit
 
@@ -140,7 +140,7 @@ De volgende voorbeelden zijn een weergave van de e-mail die studenten ontvangen.
 
 ![](assets/email3.png)
 
-*E-mail met aanbevolen training*
+*E-mail van geadviseerde opleiding*
 
 ### Leaderboard
 
@@ -152,15 +152,15 @@ De volgende voorbeelden zijn een weergave van de e-mail die studenten ontvangen.
 
 ![](assets/email5.png)
 
-*E-mail met laatste berichten*
+*E-mail van recentste berichten*
 
 ### Rapport over e-mailtoegang downloaden
 
-U kunt het rapport voor e-mailtoegang downloaden door op de knop **[!UICONTROL Downloaden]** knop. Dit rapport bevat het aantal gebruikers dat de e-mail heeft ontvangen en het aantal gebruikers dat de koppelingen heeft geopend en erop heeft geklikt.
+U kunt het rapport van de e-mailtoegang downloaden door de **[!UICONTROL knoop van de Download]** te klikken. Dit rapport bevat het aantal gebruikers dat de e-mail heeft ontvangen en het aantal gebruikers dat de koppelingen heeft geopend en erop heeft geklikt.
 
 ## E-maildomein aanpassen {#customizeemaildomain}
 
-Neem contact op met de [***Ondersteuning voor Learning Manager***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) en geef de gegevens op van het domein dat u wilt toevoegen en uw nieuwe e-mail-ID.
+Om het e-maildomein en e-mail-ID aan te passen waarvan uw studenten berichten ontvangen, contacteer de [***Lerende steun van de Manager*** ](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) en verstrek de details van het domein u, en uw nieuwe e-mail-ID wilt toevoegen.
 
 Uw verzoek wordt verwerkt en u ontvangt een bevestigingslink op het nieuwe e-mailadres dat u hebt opgegeven. Klik op de verificatielink in de e-mail om het verificatieproces te bevestigen en te voltooien.
 
@@ -168,7 +168,7 @@ Uw verzoek wordt verwerkt en u ontvangt een bevestigingslink op het nieuwe e-mai
 
 Als beheerder kunt selecteren welke gebruikers e-mails van Learning Manager ontvangen.
 
-U kunt dit uitvoeren door **[!UICONTROL Niet storen]** onder de optie **[!UICONTROL Instellingen]** tabblad. Voeg gebruikers toe door hun naam, e-mail-ID of unieke gebruikers-ID op de lijst te zetten.
+U kunt dit uitvoeren door **[!UICONTROL te gebruiken storen]** optie niet onder de **[!UICONTROL Montages]** tabel. Voeg gebruikers toe door hun naam, e-mail-ID of unieke gebruikers-ID op de lijst te zetten.
 
 Zoek een gebruiker om deze toe te voegen aan de lijst.
 
@@ -176,13 +176,13 @@ Zoek een gebruiker om deze toe te voegen aan de lijst.
 
 ## Geblokkeerde e-mails {#blockedemails}
 
-Van de **Geblokkeerde e-mails** vervolgkeuzelijst voor elke gebruiker om de e-mailtypen te selecteren die voor hen moeten worden geblokkeerd.
+Van de **Geblokkeerde drop-down lijst van E-mails** voor elke gebruiker om de types van e-mail te selecteren voor hen te blokkeren.
 
 <!--![](assets/options-for-blockedemails.png)-->
 
 Dit zijn de beschikbare opties:
 
-* **Directe e-mail naar student:** Hiermee worden e-mails naar de student beperkt of toegestaan.
+* **Directe e-mail aan student:** Deze optie beperkt of staat e-mails toe die naar de student worden verzonden.
 * **Escalatiemails naar Manager van Student**: hiermee worden e-mails naar de manager van de student toegestaan of beperkt.
 * **Informatie over directe ondergeschikten**: hiermee worden inkomende escalatiemails naar de gebruikers over hun directe ondergeschikten toegestaan of beperkt.
 * **Informatie over ondergeschikten op 2e niveau**: hiermee worden inkomende escalatiemails naar de gebruikers over hun ondergeschikten op 2e niveau beperkt of toegestaan.
@@ -206,11 +206,11 @@ De belangrijkste verbeteringen voor het aanpassen van e-mailsjablonen zijn:
 
 ### De aanhef van e-mails aanpassen op accountniveau
 
-Selecteren **[!UICONTROL E-mailsjablonen]** > **[!UICONTROL Instellingen]**. Selecteer **[!UICONTROL Bewerken]** in de sectie **[!UICONTROL Aanhef e-mail]**.
+Selecteer **[!UICONTROL E-mailMalplaatjes]** > **[!UICONTROL Montages]**. Selecteer **[!UICONTROL Bewerken]** in de sectie **[!UICONTROL Aanhef e-mail]**.
 
-![e-mail aanpassen](assets/email-salutation.png)
+![ pas e-mail ](assets/email-salutation.png) aan
 
-*E-mailaanhef aanpassen*
+*pas e-mailaanhef* aan
 
 U kunt ook het volgende aanpassen:
 
@@ -223,9 +223,9 @@ De sjablonen ondersteunen ook geavanceerde bewerkingsmogelijkheden, zodat de opm
 
 In deze training leert u hoe u standaardinstellingen voor instanties instelt, een nieuwe instantie toevoegt, een instantie archiveert en opnieuw opent en e-mailsjablonen voor een instantie configureert.
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ## Inline-uitnodigingen {#inlineinvitations}
 
@@ -246,7 +246,7 @@ Op dit moment is het niet mogelijk om in Learning Manager de **Help** in e-mails
 1. Meld u als beheerder bij uw Learning Manager-account aan.
 1. Klik in het linkerdeelvenster op **[!UICONTROL E-mailsjablonen]** en selecteer de e-mailsjabloon die u wilt wijzigen.
 1. Klik op de hoofdtekst van het sjabloon om de sjabloon aan te passen. U kunt variabelen in de tekst invoegen door op de toepasselijke pictogrammen te klikken, zoals te zien in de afbeelding. Beweeg de muis over elk pictogram om de namen te bekijken en er een toe te passen op de sjabloon.
-1. Nadat u de sjabloon hebt gewijzigd, klikt u op **[!UICONTROL Opslaan]**.
+1. Na het aanbrengen van veranderingen in het malplaatje, klik **[!UICONTROL sparen]**.
 
 
 +++
@@ -265,6 +265,6 @@ Selecteer de sjabloon die u wilt uitschakelen en klik op de cirkelvormige knop J
 
 +++Hoe wijzig ik de naam en het adres van de afzender in de sjabloon?
 
-Als u de naam en het e-mailadres van de afzender wilt wijzigen, neemt u contact op met [Ondersteuning voor Adobe Learning Manager](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
+Om de afzendernaam en e-mailadres te veranderen, de steun van Adobe Learning Manager van het contact [ ](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++

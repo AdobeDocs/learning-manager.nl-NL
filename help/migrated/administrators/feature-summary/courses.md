@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Cursusinstanties en leerpaden maken
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '5111'
 ht-degree: 58%
@@ -27,7 +27,7 @@ Auteurs maken cursussen. Studenten kunnen de cursussen dan volgen en beheerders 
 
 >[!INFO]
 >
->In deze training leert u hoe u instantiedetails en instantie-eigenschappen kunt bewerken.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912) </br></br>
+>In deze training leert u hoe u instantiedetails en instantie-eigenschappen kunt bewerken.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912) </br></br>
 
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
@@ -137,7 +137,7 @@ E-mails op instantieniveau verzenden naar ingeschreven studenten:
 
 In deze training leert u studenten inschrijven, uitschrijven en opnieuw inschrijven.
 
-[![ knoop ](assets/launch-training-button.png) ](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318916)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 

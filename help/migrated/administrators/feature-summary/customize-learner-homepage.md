@@ -4,7 +4,7 @@ title: Startpagina voor studenten aanpassen
 description: Een beheerder kan de startpagina voor studenten aanpassen, deze moderner en inhoudelijker maken en personaliseren voor een student.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1139'
 ht-degree: 46%
@@ -25,19 +25,19 @@ De ervaring wordt aangestuurd door gepersonaliseerde trainingsaanbevelingen van 
 
 In deze training gaat u manieren onderzoeken om de startpagina voor studenten aan te passen.
 
-[![knop](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318825)
 
-Als u de training niet kunt starten, schrijft u naar <almacademy@adobe.com>.
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ## De startpagina voor studenten configureren {#configurethelearnerhomepage}
 
-Op de **Branding** > **Studentenstartpagina** een beheerder kan de startpagina-ervaring van een student aanpassen, zodat de student een volledig vernieuwde look and feel ziet wanneer hij/zij zich aanmeldt in de Learner-app.
+Op de **Branding** > **Homepage van de Student** pagina, kan een Beheerder de homepage ervaring van een student aanpassen, zodat wanneer de student zich in de student app aanmeldt, hij/zij een volledig vernieuwde blik en voelen ziet.
 
-Beheerders kunnen de gebruikersinterface (look and feel) instellen in de Admin-app (**Branding** > **Startpagina student** ).
+Beheerders kunnen UI (blik en voelen) van Admin app (**Branding** > **Pagina van het Huis van de Student** tabel) plaatsen.
 
 Beheerders kunnen overschakelen naar de widgetweergave van de ingesloten gebruikersinterface, widgets/functies naar wens aanpassen en vervolgens de ingesloten gebruikersinterface inschakelen.
 
-De **Studentenstartpagina** scherm bevat de volgende secties:
+Het **scherm van de Homepage van de Student** bevat deze secties:
 
 ## Insluitende lay-outoptie {#immersivelayoutoption}
 
@@ -47,15 +47,15 @@ In eerdere versies waren de opties voor de startpagina voor studenten te vinden 
 
 Dit zijn de opties die u kunt instellen:
 
-**Homepage-ervaring:** Schakel **Klassiek** of **Immersive**. Als u kiest voor Insluitend, verschijnen de volgende opties:
+**Ervaring van de Homepage:** laat één van beide **Klassieke** of **Immersive** toe. Als u kiest voor Insluitend, verschijnen de volgende opties:
 
-* **Type training:** Kies **Industrie** of **Aangepast uitgelijnd**. Aangepaste trainingen worden intern ontwikkeld. Trainingen die zijn afgestemd op de branche omvatten kant-en-klare content van externe providers.
+* **Type van Opleiding:** kies of **Industrie** of **Douane Uitgelijnd**. Aangepaste trainingen worden intern ontwikkeld. Trainingen die zijn afgestemd op de branche omvatten kant-en-klare content van externe providers.
 
 ![](assets/select-homepage-experience.png)
 
-*Stel de ervaring van de startpagina in door Industry of Custom Align te selecteren*
+*plaats de ervaring van de homepage door Industrie of Aangepast Uitgelijnd te selecteren*
 
-De optie **Studenten in staat stellen interessegebieden te verkennen** is beschikbaar voor zowel Classic als Immersive Experience.
+De optie **laat studenten toe om Gebieden van Interesse** te onderzoeken is beschikbaar voor zowel Klassieke als Immersive ervaring.
 
 <table>
  <tbody>
@@ -78,13 +78,13 @@ Als er minder dan 1000 studenten zijn, wordt het gehele account als één enkele
 
 >[!NOTE]
 >
->Het selectievakje **Vaardigheden ontdekken** is verplaatst naar Instellingen > Algemeen.
+>Het selectievakje **verken vaardigheden** is verplaatst naar Instellingen > Algemeen.
 
 Deze functie wordt ingeschakeld en grijs weergegeven als de optie Boeiende ervaring wordt gekozen. Dit selectievakje wordt alleen ingeschakeld voor de klassieke ervaring.
 
 ![](assets/option-immersive.png)
 
-*Startpagina-instellingen student*
+*de homepage montages van de Student*
 
 De boeiende lay-out is de standaardindeling voor alle nieuwe accounts. De indeling wordt bestuurd door widgets die een beheerder kan in- of uitschakelen. Op basis van de positie van de widgets wordt hetzelfde weergegeven op de startpagina van de student.
 
@@ -92,11 +92,11 @@ Hier zijn de widgets die u kunt in-/uitschakelen.
 
 Hiermee kunt u een voorbeeld van de gebruikersinterface voor studenten bekijken voordat de gebruikersinterface live gaat.
 
-Voor bestaande accounts is de optie **Immersive** zal **UIT**. Het is ingeschakeld voor een nieuw account met Social and Gamification ON.
+Voor bestaande rekeningen, zal de optie **Immersive** **VAN** zijn. Het is ingeschakeld voor een nieuw account met Social and Gamification ON.
 
 ![](assets/immersive-layout-widgets.png)
 
-*Voorbeeld van de gebruikersinterface van de student*
+*Voorproef de student UI*
 
 <table>
  <tbody>
@@ -114,7 +114,7 @@ Voor bestaande accounts is de optie **Immersive** zal **UIT**. Het is ingeschake
     <p>Het is een welkomstbanner voor studenten. De banner kan een afbeelding of een video zijn. U kunt de masthead richten op specifieke gebruikersgroepen en een student bekijkt de Masthead zodra hij/zij op de startpagina komt. Een gebruikersgroep kan meerdere hero images of video's zien volgens het doelabonnement dat door de beheerder is ingesteld. </p>
     <p>Zo kan een Beheerder een banner uploaden:</p>
     <ol>
-     <li>Klik in het linkerdeelvenster op <b>Aankondigingen</b>.<br></li>
+     <li>Op het linkerpaneel, klik <b> Aankondigingen </b>.<br></li>
      <li>Klik rechtsboven op de pagina op <b>Toevoegen</b>.</li>
      <li>Kies in de vervolgkeuzelijst <b>Type </b> <b>Als Impressum</b>.</li>
      <li>Schrijf een bericht dat te zien zal zijn in het impressum.</li>
@@ -160,7 +160,7 @@ Voor bestaande accounts is de optie **Immersive** zal **UIT**. Het is ingeschake
     <p>Wanneer ingeschakeld, adviseert deze widget trainingen aan specifieke gebruikersgroepen. Elke gebruikersgroep kan worden gericht op een of meer trainingen en het doelabonnement is gebaseerd op een tijdsperiode. <br></p>
     <ul>
      <li>
-      <p>Ten eerste, de beheerder <a href="announcements.md#recommendation">maakt een aankondiging</a> van type <b>Als aanbeveling</b> en selecteert vervolgens de vereiste training en gebruikt groepen. Een student die tot een gebruikersgroep behoort, krijgt de aanbevolen training te zien.</p></li>
+      <p>Eerst, leidt Admin <a href="announcements.md#recommendation"> tot een aankondiging </a> van type <b> als Aanbeveling </b> en selecteert dan de vereiste opleiding en de gebruiks groepen. Een student die tot een gebruikersgroep behoort, krijgt de aanbevolen training te zien.</p></li>
      <li>
       <p>Ten tweede kan de beheerder ook bepalen of de aanbevelingen onmiddellijk of op een gespecificeerde datum in werking treden.</p></li>
     </ul></td>
@@ -203,7 +203,7 @@ Wanneer de student zich via een browser aanmeldt bij de Learner-app, ziet hij of
  </tbody>
 </table>
 
-*Overweldigende lay-out weergeven voor verschillende secties op de startpagina*
+*Mening Immersive lay-out voor diverse secties op de homepage*
 
 ## Klassieke lay-outoptie {#classiclayoutoption}
 
@@ -211,13 +211,13 @@ De klassieke lay-out is de gebruikersinterface die er tot nu toe altijd al was. 
 
 ![](assets/classic-layout.png)
 
-*Een voorvertoning van de klassieke lay-out weergeven*
+*Voorproef de klassieke lay-out*
 
 ## Instellingen voor aanbevelingen configureren {#configurerecommendationsettings}
 
-Aan **Branding** > **Algemeen** kunt u aanbevelingsbereiken voor interne en externe studenten configureren en studenten in staat stellen vaardigheden te kiezen op de startpagina van de student.
+Op **Branding** > **Algemeen**, kunt u aanbevelingswerkingsgebieden voor interne en externe studenten vormen, en studenten toelaten kiezen vaardigheden op de studentenhomepage.
 
-Op de **Algemeen** hebt u de volgende opties:
+Op de **Algemene** pagina, hebt u de volgende opties:
 
 <table>
  <tbody>
@@ -267,19 +267,19 @@ Op de **Algemeen** hebt u de volgende opties:
    <td>
     <p>Instelling voor aanbevelingsomvang<br></p></td>
    <td>
-    <p>Kies een of meer actieve velden. Voor <b>Aangepast</b> kunt u maximaal één actief veld kiezen. Voor <b>Branches uitgelijnd</b>kunt u maximaal vijf actieve velden kiezen.<br></p></td>
+    <p>Kies een of meer actieve velden. Voor <b>Aangepast</b> kunt u maximaal één actief veld kiezen. Voor <b> Uitgelijnde Industrie </b>, kunt u maximaal vijf actieve gebieden kiezen.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Studenten toestaan om interessegebieden te verkennen</p></td>
    <td>
-    <p>Alleen voor klassieke ervaring. Kies <b>Ja </b>of <b>Nee</b>.<br></p></td>
+    <p>Alleen voor klassieke ervaring. Kies <b> Ja </b> of <b> Nr </b>.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Gebruikers vragen om interessegebieden (vaardigheden) te selecteren <br></p></td>
    <td>
-    <p>Alleen voor insluitende ervaring. Kies <b>Ja</b> of <b>Nee</b>. <br></p></td>
+    <p>Alleen voor insluitende ervaring. Kies <b> Ja </b> of <b> Nr </b>. <br></p></td>
   </tr>
  </tbody>
 </table>
