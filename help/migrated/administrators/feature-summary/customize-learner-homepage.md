@@ -17,15 +17,15 @@ ht-degree: 46%
 
 Een beheerder kan de startpagina voor studenten aanpassen, deze moderner en inhoudelijker maken en personaliseren voor een student.
 
-De gepersonaliseerde benadering biedt een op widgets gebaseerde manier om een startpagina voor studenten te maken, die de beheerder van de organisatie op WYSIWYG-wijze kan configureren in de beheergebruikersinterface.
+De persoonlijke aanpak biedt een widgetgebaseerde manier om een startpagina voor een lerende gebruiker te maken, die de beheerder van de organisatie op een WYSIWYG-manier kan configureren in de beheerdersinterface.
 
-De ervaring wordt aangestuurd door gepersonaliseerde trainingsaanbevelingen van een AI-gedreven algoritme dat content van derden analyseert op branchevaardigheden, peer-activiteit en interessegebieden van studenten integreert met behulp van expliciete en impliciete data.
+De ervaring wordt gestuurd door gepersonaliseerde trainingsaanbevelingen van een AI-gestuurd algoritme dat inhoud van derden analyseert op industriële vaardigheden, gebruikmaakt van peer-activiteit en interessegebieden van studenten met behulp van expliciete en impliciete gegevens.
 
 ### Startpagina voor studenten aanpassen
 
-In deze training gaat u manieren onderzoeken om de startpagina voor studenten aan te passen.
+In deze training leer je hoe je de startpagina van de leerling kunt aanpassen.
 
-[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318825)
+[![knoop](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318825)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
@@ -37,7 +37,7 @@ Beheerders kunnen UI (blik en voelen) van Admin app (**Branding** > **Pagina van
 
 Beheerders kunnen overschakelen naar de widgetweergave van de ingesloten gebruikersinterface, widgets/functies naar wens aanpassen en vervolgens de ingesloten gebruikersinterface inschakelen.
 
-Het **scherm van de Homepage van de Student** bevat deze secties:
+Het **scherm Startpagina** voor lerenden bevat de volgende secties:
 
 ## Insluitende lay-outoptie {#immersivelayoutoption}
 
@@ -47,7 +47,7 @@ In eerdere versies waren de opties voor de startpagina voor studenten te vinden 
 
 Dit zijn de opties die u kunt instellen:
 
-**Ervaring van de Homepage:** laat één van beide **Klassieke** of **Immersive** toe. Als u kiest voor Insluitend, verschijnen de volgende opties:
+**Startpaginaervaring:** schakel **Klassiek** of **Immersive in**. Als u kiest voor Insluitend, verschijnen de volgende opties:
 
 * **Type van Opleiding:** kies of **Industrie** of **Douane Uitgelijnd**. Aangepaste trainingen worden intern ontwikkeld. Trainingen die zijn afgestemd op de branche omvatten kant-en-klare content van externe providers.
 
@@ -63,7 +63,7 @@ De optie **laat studenten toe om Gebieden van Interesse** te onderzoeken is besc
    <td>
     <p><b>Als u kiest voor Aangepast ...</b></p></td>
    <td>
-    <p><b>Als u Industrie uitgelijnd kiest...</b><br></p></td>
+    <p><b>Als u Uitgelijnde industrie kiest...</b><br></p></td>
   </tr>
   <tr>
    <td>
@@ -78,7 +78,7 @@ Als er minder dan 1000 studenten zijn, wordt het gehele account als één enkele
 
 >[!NOTE]
 >
->Het selectievakje **verken vaardigheden** is verplaatst naar Instellingen > Algemeen.
+>Het selectievakje **Vaardigheden** verkennen is verplaatst naar Instellingen > Algemeen.
 
 Deze functie wordt ingeschakeld en grijs weergegeven als de optie Boeiende ervaring wordt gekozen. Dit selectievakje wordt alleen ingeschakeld voor de klassieke ervaring.
 
@@ -86,17 +86,17 @@ Deze functie wordt ingeschakeld en grijs weergegeven als de optie Boeiende ervar
 
 *de homepage montages van de Student*
 
-De boeiende lay-out is de standaardindeling voor alle nieuwe accounts. De indeling wordt bestuurd door widgets die een beheerder kan in- of uitschakelen. Op basis van de positie van de widgets wordt hetzelfde weergegeven op de startpagina van de student.
+De boeiende lay-out is de standaardindeling voor alle nieuwe accounts. De lay-out wordt bestuurd door widgets die een beheerder kan in- of uitschakelen. Afhankelijk van de positie van de widgets, wordt hetzelfde weergegeven op de startpagina van de lerende.
 
-Hier zijn de widgets die u kunt in-/uitschakelen.
+Hier zijn de widgets die u kunt in- of uitschakelen.
 
 Hiermee kunt u een voorbeeld van de gebruikersinterface voor studenten bekijken voordat de gebruikersinterface live gaat.
 
-Voor bestaande rekeningen, zal de optie **Immersive** **VAN** zijn. Het is ingeschakeld voor een nieuw account met Social and Gamification ON.
+Voor bestaande accounts is **de optie** Immersive **UITGESCHAKELD**. Dit is ingeschakeld voor nieuwe accounts met social en gamification INGESCHAKELD.
 
 ![](assets/immersive-layout-widgets.png)
 
-*Voorproef de student UI*
+*Voorbeeld van de gebruikersinterface voorvertonen*
 
 <table>
  <tbody>
@@ -111,7 +111,7 @@ Voor bestaande rekeningen, zal de optie **Immersive** **VAN** zijn. Het is inges
     <p>Impressum</p></td>
    <td>
     <p><b>Wat is een Masthead en hoe pas ik de studenten Masthead aan? </b><br></p>
-    <p>Het is een welkomstbanner voor studenten. De banner kan een afbeelding of een video zijn. U kunt de masthead richten op specifieke gebruikersgroepen en een student bekijkt de Masthead zodra hij/zij op de startpagina komt. Een gebruikersgroep kan meerdere hero images of video's zien volgens het doelabonnement dat door de beheerder is ingesteld. </p>
+    <p>Het is een welkomstbanner voor studenten. De banner kan een afbeelding of een video zijn. Je kunt de masthead richten op specifieke gebruikersgroepen en een leerling bekijkt de masthead zodra hij of zij op de startpagina landt. Een gebruikersgroep kan meerdere heldenafbeeldingen of video's zien volgens het door de beheerder opgegeven doelplan. </p>
     <p>Zo kan een Beheerder een banner uploaden:</p>
     <ol>
      <li>Op het linkerpaneel, klik <b> Aankondigingen </b>.<br></li>
@@ -127,7 +127,7 @@ Voor bestaande rekeningen, zal de optie **Immersive** **VAN** zijn. Het is inges
    <td>
     <p>Mijn leermateriaal</p></td>
    <td>
-    <p>Toont de leerobjecten die onlangs door de student zijn bezocht. </p></td>
+    <p>Hiermee worden de leerobjecten weergegeven die recent door de leerling zijn bezocht. </p></td>
   </tr>
   <tr>
    <td>
@@ -151,16 +151,16 @@ Voor bestaande rekeningen, zal de optie **Immersive** **VAN** zijn. Het is inges
    <td>
     <p>Sociaal leren</p></td>
    <td>
-    <p>Hiermee geeft u activiteiten en berichten weer van gebruikers die zich in hetzelfde gebruikersbereik als de student bevinden. </p></td>
+    <p>Hier worden activiteiten en berichten weergegeven van gebruikers die tot hetzelfde gebruikersbereik vallen als de gebruiker. </p></td>
   </tr>
   <tr>
    <td>
     <p>Aanbevolen per organisatie</p></td>
    <td>
-    <p>Wanneer ingeschakeld, adviseert deze widget trainingen aan specifieke gebruikersgroepen. Elke gebruikersgroep kan worden gericht op een of meer trainingen en het doelabonnement is gebaseerd op een tijdsperiode. <br></p>
+    <p>Wanneer ingeschakeld, adviseert deze widget trainingen aan specifieke gebruikersgroepen. Elke gebruikersgroep kan worden gedoeld op een of meer trainingen en het doelplan is gebaseerd op een tijdsbestek. <br></p>
     <ul>
      <li>
-      <p>Eerst, leidt Admin <a href="announcements.md#recommendation"> tot een aankondiging </a> van type <b> als Aanbeveling </b> en selecteert dan de vereiste opleiding en de gebruiks groepen. Een student die tot een gebruikersgroep behoort, krijgt de aanbevolen training te zien.</p></li>
+      <p>Eerst, leidt Admin <a href="announcements.md#recommendation"> tot een aankondiging </a> van type <b> als Aanbeveling </b> en selecteert dan de vereiste opleiding en de gebruiks groepen. Een gebruiker die tot een gebruikersgroep behoort, krijgt de aanbevolen training te zien.</p></li>
      <li>
       <p>Ten tweede kan de beheerder ook bepalen of de aanbevelingen onmiddellijk of op een gespecificeerde datum in werking treden.</p></li>
     </ul></td>
@@ -188,7 +188,7 @@ Voor bestaande rekeningen, zal de optie **Immersive** **VAN** zijn. Het is inges
 
 Nadat u de wijzigingen hebt opgeslagen, worden deze allemaal weergegeven op de startpagina voor studenten.
 
-Wanneer de student zich via een browser aanmeldt bij de Learner-app, ziet hij of zij de volgende meeslepende lay-out:
+Wanneer een leerling zich via een browser aanmeldt bij de app voor de leerling, kan hij de volgende meeslepende lay-out zien:
 
 <table>
  <tbody>
@@ -203,7 +203,7 @@ Wanneer de student zich via een browser aanmeldt bij de Learner-app, ziet hij of
  </tbody>
 </table>
 
-*Mening Immersive lay-out voor diverse secties op de homepage*
+*Meeslepende lay-out voor verschillende secties weergeven op de startpagina*
 
 ## Klassieke lay-outoptie {#classiclayoutoption}
 
@@ -217,7 +217,7 @@ De klassieke lay-out is de gebruikersinterface die er tot nu toe altijd al was. 
 
 Op **Branding** > **Algemeen**, kunt u aanbevelingswerkingsgebieden voor interne en externe studenten vormen, en studenten toelaten kiezen vaardigheden op de studentenhomepage.
 
-Op de **Algemene** pagina, hebt u de volgende opties:
+Op de **pagina Algemeen** kunt u de volgende opties kiezen:
 
 <table>
  <tbody>
@@ -267,13 +267,13 @@ Op de **Algemene** pagina, hebt u de volgende opties:
    <td>
     <p>Instelling voor aanbevelingsomvang<br></p></td>
    <td>
-    <p>Kies een of meer actieve velden. Voor <b>Aangepast</b> kunt u maximaal één actief veld kiezen. Voor <b> Uitgelijnde Industrie </b>, kunt u maximaal vijf actieve gebieden kiezen.<br></p></td>
+    <p>Kies een of meer actieve velden. Voor <b>Aangepast</b> kunt u maximaal één actief veld kiezen. Voor <b>industrie-uitlijning</b> kunt u maximaal vijf actieve velden kiezen.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Studenten toestaan om interessegebieden te verkennen</p></td>
    <td>
-    <p>Alleen voor klassieke ervaring. Kies <b> Ja </b> of <b> Nr </b>.<br></p></td>
+    <p>Alleen voor klassieke ervaring. Kies <b>Ja </b>of <b>Nee</b>.<br></p></td>
   </tr>
   <tr>
    <td>
