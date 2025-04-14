@@ -1,10 +1,11 @@
 ---
 title: Meervoudige inschrijvingen in Adobe Learning Manager
 description: Een van uw primaire taken als accountbeheerder is het maken van verschillende exemplaren van VILT-sessies in verschillende tijdzones en het mogelijk maken van sessies voor specifieke gebruikersgroepen.
-source-git-commit: fc5b5afd8dd42ac3aa0e5190d6f421035df41a89
+exl-id: c430545d-b48e-432d-a278-658c9281818f
+source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 68%
+source-wordcount: '586'
+ht-degree: 65%
 
 ---
 
@@ -16,12 +17,20 @@ Vóór de release van juli 2023 kon een student zich maar voor een instantie ins
 
 Met de functie Meervoudige inschrijvingen van Adobe Learning Manager kan een beheerder dergelijke scenario&#39;s vermijden.
 
+## Instanties beheren
+
+>[!INFO]
+>
+>In deze training leert u hoe u instantiedetails en instantie-eigenschappen kunt bewerken.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912) </br></br>
+
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
+
 ## Wat is Meervoudige inschrijving?
 
 Meervoudige inschrijvingen schrijft een student meerdere keren in een cursus in via verschillende beschikbare instanties.  Een student kan zich in meerdere cursusinstanties inschrijven, ongeacht de status waarvoor hij of zij zich heeft ingeschreven, die is voltooid of nog moet starten. Wanneer de auteur [!UICONTROL Meervoudige inschrijvingen] inschakelt, kan een student zich vervolgens voor meerdere instanties van de cursus inschrijven.
 
-![afbeelding met meerdere inschrijvingen](assets/multi-enrollment-author.png)
-*Meerdere inschrijvingen starten vanuit instellingen*
+![ multi-inschrijvingsbeeld ](assets/multi-enrollment-author.png)
+*Lanceer Meerdere Inschrijving van Montages*
 
 De voortgang van elke instantie kan afzonderlijk worden bijgehouden en er kan een rapport worden geëxporteerd om de voortgang van elke instantie bij te houden.
 
@@ -35,10 +44,10 @@ De voortgang van elke instantie kan afzonderlijk worden bijgehouden en er kan ee
 
 1. Meld u als auteur aan bij uw Adobe Learning Manager-account.
 1. Selecteer de cursus waarvoor u studenten meerdere keren wilt inschrijven.
-1. Selecteer in het linkerdeelvenster de optie **[!UICONTROL Instellingen]** > **[!UICONTROL Bewerken]** > **[!UICONTROL Instantieconfiguratie]** > **[!UICONTROL Meerdere inschrijvingen inschakelen]**.
+1. In het linkerpaneel, uitgezocht **[!UICONTROL Montages]** > **[!UICONTROL geef]** uit > **[!UICONTROL configuratie van de Instantie]** > **[!UICONTROL laat Veelvoudige Inschrijving]** toe.
 
-![afbeelding met meerdere inschrijvingen](assets/multi-enrollment-author.png)
-*Meerdere inschrijvingen inschakelen*
+![ multi-inschrijvingsbeeld ](assets/multi-enrollment-author.png)
+*laat multi-Inschrijving* toe
 
 >[!NOTE]
 >
@@ -50,18 +59,18 @@ Meervoudige inschrijvingen zijn handig wanneer een student zich wil inschrijven 
 
 Voor studenten die zich niet hebben ingeschreven, zien ze, wanneer ze een cursus selecteren, het scherm onder de cursus met meerdere instanties. Vervolgens kunnen gebruikers elke instantie selecteren en zich inschrijven.
 
-![afbeelding van studentenweergave](assets/learner-view.png)
-*De instanties weergeven*
+![ beeld van de studentenmening ](assets/learner-view.png)
+*Bekijk de instanties*
 
 Nadat ze zich in één instantie hebben ingeschreven, kunnen ze zich in andere gevallen inschrijven door de optie Alle instanties weergeven in het rechterdeelvenster te selecteren.
 
-![afbeelding van meerdere inschrijvingscursussen](assets/enroll-instance.png)
-*Inschrijven voor een instantie*
+![ beeld van de multi-inschrijvingscursus ](assets/enroll-instance.png)
+*schrijf in een instantie* in
 
 De voortgang van elke instantie kan als volgt, worden bijgehouden:
 
-![voortgang bijhouden](assets/check-progress.png)
-*Voortgang van elke instantie bijhouden*
+![ spoorvooruitgang ](assets/check-progress.png)
+*vooruitgang van het spoor van elke instantie*
 
 ## Wijzigingen in meervoudige inschrijvingen in de beheerder
 
@@ -69,10 +78,10 @@ De voortgang van elke instantie kan als volgt, worden bijgehouden:
 
 Tijdens het inschrijven van de studenten kunt u het volgende selectievakje inschakelen:
 
-*&quot;Geselecteerde studenten zijn mogelijk al ingeschreven voor andere cursusinstanties. Geef deze student(en) ook de mogelijkheid zich in te schrijven voor de instantie...*
+*&quot;Geselecteerde studenten zijn mogelijk al ingeschreven voor andere instanties van deze cursus. Geef deze student(en) ook de mogelijkheid zich in te schrijven voor de instantie...*
 
-![wijzigingen in beheer](assets/admin-changes.png)
-*Inschrijvingsoptie voor beheerders*
+![ admin verandert ](assets/admin-changes.png)
+*optie van de Inschrijving voor Admins*
 
 Als de student al voor één instantie is ingeschreven en u als beheerder probeert de student in te schrijven voor een andere cursusinstantie, selecteert u Ja.
 

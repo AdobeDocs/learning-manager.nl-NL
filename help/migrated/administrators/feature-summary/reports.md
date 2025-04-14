@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Rapporten
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
 source-wordcount: '7828'
 ht-degree: 52%
@@ -442,6 +442,15 @@ Als beheerder kunt u rapporten voor cursussen downloaden. Volg deze stappen:
    >[!NOTE]
    >
    >Het geëxporteerde quizscorerapport bevat de scoregegevens voor elke poging als de optie voor meerdere pogingen voor de module is geconfigureerd.
+
+### Cursusrapporten genereren
+
+>[!INFO]
+>
+>In deze training leert u hoe u cursusrapporten exporteert en e-mailabonnementen instelt voor deze rapporten.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904) </br></br>
+
+
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ### Studenttranscripten {#LearnerTranscripts-1}
 
@@ -1174,15 +1183,6 @@ Als er meerdere managers aan u rapporteren, kunt u de rapporten voor elke manage
 >De gebruikte managerwaarden om het rapport te bekijken, zijn tijdelijk. Deze weergave van het rapport wordt niet gedownload wanneer u de downloadoptie kiest. Deze weergave is slechts een tijdelijke weergave.
 
 ## Cursusrapporten weergeven {#viewcoursereports}
-
-### Cursusrapporten genereren
-
->[!INFO]
->
->In deze training leert u hoe u cursusrapporten exporteert en e-mailabonnementen instelt voor deze rapporten.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904) </br></br>
-
-
-Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 U kunt de specifieke rapporten van elke cursus bekijken door de onderstaande stappen te volgen:
 

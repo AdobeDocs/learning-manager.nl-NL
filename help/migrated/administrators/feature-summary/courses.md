@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Cursusinstanties en leerpaden maken
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '5111'
+source-wordcount: '5153'
 ht-degree: 58%
 
 ---
@@ -23,12 +23,11 @@ Auteurs maken cursussen. Studenten kunnen de cursussen dan volgen en beheerders 
 
 ## Voorbeeld van een cursus maken {#createinstanceofacourse}
 
-### Instanties beheren
+### Instanties instellen
 
->[!INFO]
->
->In deze training leert u hoe u instantiedetails en instantie-eigenschappen kunt bewerken.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912) </br></br>
+In deze training leert u hoe u standaardinstellingen voor instanties instelt, een nieuwe instantie toevoegt, een instantie archiveert en opnieuw opent en e-mailsjablonen voor een instantie configureert.
 
+[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
@@ -76,6 +75,14 @@ Als u een instantie wilt maken,
 >[!NOTE]
 >
 >De beheerder annuleert de sessies door naar Instanties > Sessies te gaan en Sessie annuleren te selecteren.
+
+### Instanties beheren
+
+>[!INFO]
+>
+>In deze training leert u hoe u instantiedetails en instantie-eigenschappen kunt bewerken.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912) </br></br>
+
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ### Instantie archiveren {#retireaninstance}
 

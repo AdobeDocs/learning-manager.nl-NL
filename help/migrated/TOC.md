@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '643'
 ht-degree: 83%
 
 ---
@@ -159,6 +159,7 @@ ht-degree: 83%
    * [Veelgestelde vragen voor docenten](instructors/frequently-asked-questions-for-instructors.md)
    * [Veelgestelde vragen voor managers](managers/frequently-asked-questions-for-managers.md)
    * [Veelgestelde vragen voor studenten](learners/frequently-asked-questions-for-learners.md)
+   * [Nieuwe ervaringenliga-aankondigingen](/help/migrated/new-experience-league-announcement.md)
 * Knowledge Base {#knowledge-base}
    * [Ik kan me niet aanmelden bij Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Overzicht van leermateriaal toont niet de huidige gegevens](kb/learning-summary-not-display-data.md)
