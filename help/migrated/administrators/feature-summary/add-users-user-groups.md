@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Gebruikers toevoegen en gebruikersgroepen maken
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
+source-git-commit: 81b3b2ef5f430968b107d3e9d67fea672c6dea98
 workflow-type: tm+mt
-source-wordcount: '4296'
+source-wordcount: '4290'
 ht-degree: 58%
 
 ---
@@ -15,7 +15,22 @@ ht-degree: 58%
 
 Leer hoe u gebruikers of gebruikersgroepen in de Learning Manager-toepassing toevoegt.
 
+
 <!--![](assets/user-mgmt-new.png)-->
+
+## Gebruikersgroepen beheren
+
+>[!INFO]
+>
+>In deze training leert u hoe u een gebruikersgroep kunt maken op naam, e-mail-id&#39;s en meerdere automatisch gegenereerde gebruikersgroepen combineert.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694) </br></br>
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ## Overzicht {#overview}
 
@@ -49,6 +64,9 @@ Gebruikers toevoegen:
 1. Klik op de startpagina op **[!UICONTROL Gebruikers toevoegen]**. Op deze pagina kunt u een of meerdere gebruikers toevoegen met behulp van een CSV-bestand. U kunt ook een zelfregistratielink maken voor interne werknemers of een extern studentenprofiel aanmaken.
 1. Om één gebruiker toe te voegen, klikt u op **[!UICONTROL Toevoegen]** in de rechterbovenhoek en kiest u de optie **[!UICONTROL Enkele gebruiker]**.
 
+1. Om één gebruiker toe te voegen, klikt u op **[!UICONTROL Toevoegen]** in de rechterbovenhoek en kiest u de optie **Enkele gebruiker**.
+
+
    ![](assets/single-user.png)
    *voeg één enkele interne gebruiker toe*
 
@@ -61,7 +79,16 @@ Gebruikers toevoegen:
 
 ## Gebruikers in bulk toevoegen {#addusersinbulk}
 
+### Gebruikers beheren
+
+In deze training leert u hoe u rollen toewijst en verwijdert, een welkomstmail verzendt en gebruikers verwijdert en verwijdert.
+
+[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+
+Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
+
 Doorgaans werken organisaties met een HRMS (HR Management System) met daarin alle werknemersrecords zoals benoeming, locatie, datum van indiensttreding of werknemershiërarchie. U kunt deze gegevens in CSV-indeling exporteren. Volg de onderstaande stappen om een CSV te importeren:
+
 
 1. Klik op **[!UICONTROL Toevoegen]** in de rechterbovenhoek en kies de optie **[!UICONTROL Een CSV uploaden]**.
 
@@ -108,25 +135,11 @@ Doorgaans werken organisaties met een HRMS (HR Management System) met daarin all
 
 Nadat u de gebruikers hebt geselecteerd, kunt u het volgende doen:
 
->[!INFO]
->
->In deze training leert u hoe u gebruikers in bulk kunt toevoegen via een CSV-bestand.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555) </br></br>
-
-Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
-
 ## Een gebruiker registreren {#registerauser}
 
 Selecteer de gebruiker en klik op **[!UICONTROL Acties]** in de rechterbovenhoek. Klik vervolgens op **[!UICONTROL Registreren]**.
 
 De geselecteerde gebruikers ontvangen een welkomstmail. Als de gebruikers een bestaande Adobe ID hebben, kunnen ze op deze link klikken.  Als ze geen bestaande Adobe ID hebben, kunnen ze op de welkomstkoppeling klikken om een Adobe ID te maken en deze koppelen aan hun Learning Manager-account.
-
-### Gebruikers beheren
-
-In deze training leert u hoe u rollen toewijst en verwijdert, een welkomstmail verzendt en gebruikers verwijdert en verwijdert.
-
-[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
-
-Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 ## Een rol toewijzen {#assignarole}
 
@@ -326,18 +339,6 @@ Kies een gebruiker, en van de hoger-juiste hoek, klik **[!UICONTROL Acties]** > 
 ## Gebruikersgroepen maken {#createusergroups}
 
 Een gebruikersgroep is een verzameling gebruikers die tot een categorie behoren. Met gebruikersgroepen kunnen beheerders studenten in hun organisatie op basis van hun kenmerken selecteren en vervolgens leermateriaal aan hen toewijzen. Met behulp van deze gebruikersgroepen kunnen beheerders ook aangepaste logo&#39;s en catalogi aan studenten toewijzen en aangepaste rapporten over hun voortgang weergeven.
-
->[!INFO]
->
->In deze training leert u hoe u een gebruikersgroep kunt maken op naam, e-mail-id&#39;s en meerdere automatisch gegenereerde gebruikersgroepen combineert.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694) </br></br>
-
-<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
-
-<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 Om toegang te krijgen tot gebruikersgroepen klikt u in het linkerdeelvenster op **[!UICONTROL Gebruikersgroepen]**.
 
