@@ -4,7 +4,7 @@ title: Gebruikers in bulk toevoegen
 description: Leer meerdere gebruikers tegelijk toevoegen.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 23%
@@ -13,9 +13,9 @@ ht-degree: 23%
 
 # Gebruikers in bulk toevoegen
 
-In deze training leert u hoe u gebruikers in bulk kunt toevoegen via een CSV-bestand.
-
-[![ knoop ](feature-summary/assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
+>[!INFO]
+>
+>In deze training leert u hoe u gebruikers in bulk kunt toevoegen via een CSV-bestand.<br><br>[![ knoop ](feature-summary/assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555) </br></br>
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
@@ -56,7 +56,7 @@ Voordat u de e-mail-ID van de manager voor een medewerker toevoegt, moet u ervoo
 
 *CSV malplaatje voor upload*
 
-Beheerders van een organisatie kunnen zichzelf ook toevoegen als werknemers en de e-mail-ID van hun manager als hoofdmap vermelden.
+Ook, kunnen de Beheerders van een organisatie **zelf** als werknemers toevoegen en e-mail-identiteitskaart van hun Manager als wortel vermelden.
 
 **Voorbeeld-CSV**
 
