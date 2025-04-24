@@ -2,16 +2,16 @@
 title: Aanbevelingen in Adobe Learning Manager
 description: De kern van de aanbevelingsengine wordt bepaald door het nieuwe algoritme voor cursusrangschikking van de leermanager. Het algoritme gebruikt 50 miljoen datapunten en vijf jaar geaggregeerde leergegevens voor miljoenen gebruikers om cursussen te rangschikken op basis van hun kans op inschrijving. Deze rangschikking zorgt ervoor dat de cursussen met de meeste kans op inschrijving als eerste aan studenten worden weergegeven.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 58%
+source-wordcount: '1483'
+ht-degree: 57%
 
 ---
 
 # Aanbevelingen in Adobe Learning Manager
 
-Adobe Learning Manager heeft een nieuw en verbeterd aanbevelingssysteem voor cursussen geïntroduceerd. Deze aanbevelingsfunctie gebruikt AI-algoritmen en gebruikersinteresses zoals Producten, Rollen en Niveaus om gepersonaliseerde contentaanbevelingen te bieden.
+Adobe Learning Manager heeft een nieuw en verbeterd aanbevelingssysteem voor cursussen geïntroduceerd. Deze aanbevelingsfunctie gebruikt AI-algoritmen en gebruikersinteresses zoals Producten, Rollen en Niveaus om gepersonaliseerde contentaanbevelingen te bieden. Beheerders kunnen hun account instellen op basis van de producten, rollen en niveaus.
 
 Met het nieuwe aanbevelingssysteem kunt u aangepaste parameters maken die studenten kunnen selecteren om gepersonaliseerde aanbevelingen te ontvangen. Deze aanbevelingen worden voor deelnemers op hun startpagina als cursussen, leerpaden en certificaten weergegeven.
 

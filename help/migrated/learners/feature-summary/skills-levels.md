@@ -3,14 +3,13 @@ description: Lees dit artikel om te weten te komen hoe u als student vaardighede
 jcr-language: en_us
 title: Vaardigheden en niveaus
 contentowner: manochan
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 90%
+source-wordcount: '326'
+ht-degree: 86%
 
 ---
-
-
 
 # Vaardigheden en niveaus
 
@@ -26,7 +25,7 @@ Klik op de naam van een vaardigheid in de widget Mijn vaardigheden om de vaardig
 
 ![](assets/learner-skills1.png)
 
-*Alle vaardigheden weergeven*
+*Mening alle vaardigheden*
 
 In de widget staat naast elke vaardigheid een percentage dat aangeeft in hoeverre de vaardigheid is voltooid. Wanneer u op een vaardigheid klikt, leidt de app u naar de pagina Vaardigheden, waar u de details van de vaardigheid waarop u hebt geklikt, kunt bekijken.
 
@@ -36,9 +35,13 @@ Op deze pagina kunt u op elk van uw vaardigheden klikken om de bijbehorende gege
 
 ![](assets/learner-skills2.png)
 
-*Elke vaardigheid bekijken*
+*Mening elke vaardigheid*
 
 Alleen beheerders kunnen vaardigheden maken en aan studenten toewijzen. Studenten worden automatisch aan een vaardigheid toegewezen overeenkomstig de cursussen/leerprogramma&#39;s waarvoor zij zijn ingeschreven.
+
+>[!NOTE]
+>
+>Studenten kunnen hun vaardigheden op collegiaal niveau alleen bekijken in een Classic Learner-app.
 
 ## Vaardigheid behalen {#achieveskill}
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gebruikers leegmaken
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 75%
+source-wordcount: '883'
+ht-degree: 72%
 
 ---
 
@@ -40,26 +40,30 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 Volg deze stappen om gebruikers leeg te maken:
 
 1. Als beheerder selecteert u **[!UICONTROL Gebruikers]** in het linkerdeelvenster. De pagina **[!UICONTROL Interne gebruikers]** wordt geopend.
-1. Verwijder de gebruikers die u wilt leegmaken. Selecteer een of meer gebruikers met behulp van het selectievakje om deze te verwijderen. Open de **[!UICONTROL Handeling]** en selecteert u **[!UICONTROL Gebruiker verwijderen.]**
+1. Verwijder de gebruikers die u wilt leegmaken. Selecteer een of meer gebruikers met behulp van het selectievakje om deze te verwijderen. Open het **[!UICONTROL drop-down van de Actie]** en selecteer **[!UICONTROL Gebruiker van de Schrapping.]**
 1. Selecteer in het linkerdeelvenster de optie **[!UICONTROL Gebruikers opschonen]**. De pagina **[!UICONTROL Gebruikers opschonen]** verschijnt met een lijst met verwijderde gebruikers. Gebruik de keuzerondjes om de leeg te maken gebruiker te selecteren. U kunt slechts één gebruiker tegelijk leegmaken.
 
    ![](assets/purge-1.png)
 
-   *Selecteer een gebruiker die u wilt leegmaken*
+   *selecteer een gebruiker om te zuiveren*
 
-1. Open de **[!UICONTROL Handelingen]** en selecteert u **[!UICONTROL Gebruiker leegmaken]**.
+1. Open het **[!UICONTROL drop-down menu van Acties]** en selecteer **[!UICONTROL Leegmaken Gebruiker]**.
 
    ![](assets/purge-2.png)
 
-   *Selecteer de optie Gebruikers leegmaken*
+   *selecteer de optie van de Gebruiker van de Wrijving*
 
-1. Er verschijnt een dialoogvenster dat waarin om bevestiging wordt gevraagd. Zodra de gebruiker is leeggemaakt, worden alle gebruikersgegevens en leerrecords van de geselecteerde gebruiker permanent verwijderd. Na leegmaken kan de actie niet meer ongedaan worden gemaakt. Klik ter bevestiging op **[!UICONTROL Leegmaken]**.
+1. Er verschijnt een dialoogvenster dat waarin om bevestiging wordt gevraagd. Zodra de gebruiker is leeggemaakt, worden alle gebruikersgegevens en leerrecords van de geselecteerde gebruiker permanent verwijderd. Na leegmaken kan de actie niet meer ongedaan worden gemaakt. Om te bevestigen, klik **[!UICONTROL Wissen]**.
 
    ![](assets/purge-3.png)
 
-   *Bevestigingsbericht na leegmaken van een gebruiker*
+   *Bevestigingsbericht na het zuiveren van een gebruiker*
 
 1. Zodra u deze actie bevestigt en op Leegmaken klikt, wordt het verzoek tot leegmaken geaccepteerd. U ontvangt een melding zodra de actie is voltooid. Er wordt ook een ID voor het verzoek verstrekt. U kunt het ID aan de CSM verstrekken om het verzoek te volgen.
+
+>[!NOTE]
+>
+>Zodra de verwijderde gebruiker weer aan het systeem is toegevoegd, blijven de vorige rollen (bijvoorbeeld beheerder, manager, auteur, docent, enz.) niet behouden. Deze rollen worden toegevoegd met de rol van de student.
 
 ## Gebruikers in bulk leegmaken
 
@@ -67,7 +71,7 @@ U kunt de eerste 50 gebruikers selecteren en de gebruikers in één keer leegmak
 
 ![](assets/bulk-purge-users.png)
 
-*Gebruikers in bulk leegmaken*
+*Leeg gebruikers in bulk*
 
 +++Lees over de resultaten van de actie Gebruiker leegmaken
 
@@ -138,7 +142,7 @@ U kunt de eerste 50 gebruikers selecteren en de gebruikers in één keer leegmak
    <td>Ja</td>
   </tr>
   <tr>
-   <td><strong>Leegmaken</strong> <strong>andere gebruikers - Non-Enterprise (personen die geen interne of externe gebruikers van de Learning Manager zijn)</strong></td>
+   <td><strong> zuivering </strong> <strong> andere gebruikers - niet-Onderneming (individuen die geen interne of externe gebruikers van de Leermanager zijn) </strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -186,7 +190,7 @@ U kunt de eerste 50 gebruikers selecteren en de gebruikers in één keer leegmak
 
 +++
 
-Learning Manager voldoet nu aan de AVG. Zie voor meer informatie over AVG-naleving  [Compatibiliteit van Learning Manager met AVG](../../kb/prime-gdpr.md).
+Learning Manager voldoet nu aan de AVG. Voor meer informatie over naleving van de AVG, zie [ het Leren de naleving van de Manager aan AVG ](../../kb/prime-gdpr.md).
 
 ## Veelgestelde vragen {#frequentlyaskedquestions}
 
