@@ -805,7 +805,7 @@ U kunt de cursusmodules ook naar Learning Manager publiceren vanuit Adobe Captiv
 1. Meld u aan met uw Adobe-gegevens. Klik op **[!UICONTROL Account aanmaken]** als u geen Adobe ID hebt. Na autorisatie wordt u doorverwezen naar de pagina voor het publiceren van de module.
 1. Geef alle basisinformatie over de module en klik op Publiceren.
 
-U kunt de gepubliceerde module bekijken op de Learning Manager-pagina voor modules. Ga voor meer informatie naar [Project publiceren naar Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
+U kunt de gepubliceerde module bekijken op de Learning Manager-pagina voor modules. Ga voor meer informatie naar [Project publiceren naar Adobe Learning Manager](https://helpx.adobe.com/nl/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Cursuseffectiviteit {#courseeffectiveness}
 

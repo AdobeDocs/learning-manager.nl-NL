@@ -45,11 +45,11 @@ Met badge.csv in Adobe Learning Manager kunt u badges migreren van het bestaande
 * externalBadgeId
 * externalBadgeProvider
 
-Externe badge-id verwijst naar de badgesjabloon-id in het Referentieplatform en de externe badgeprovider is Credly. Voeg deze waarden in badge.csv toe en volg de stappen die in het [ handboek van de Migratie ](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) worden vermeld om csv te migreren.
+Externe badge-id verwijst naar de badgesjabloon-id in het Referentieplatform en de externe badgeprovider is Credly. Voeg deze waarden in badge.csv toe en volg de stappen die in het [ handboek van de Migratie ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/migration-manual#migrationprocedure) worden vermeld om csv te migreren.
 
 ## Vaardigheid maken - Beheerder
 
-Zodra de badge is geïmporteerd in Adobe Learning Manager, kan de beheerder deze badges als een vaardigheid maken. Om te weten hoe te om een vaardigheid tot stand te brengen, zie [ Vaardigheden ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels) creëren en wijzigen.
+Zodra de badge is geïmporteerd in Adobe Learning Manager, kan de beheerder deze badges als een vaardigheid maken. Om te weten hoe te om een vaardigheid tot stand te brengen, zie [ Vaardigheden ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/skills-levels) creëren en wijzigen.
 
 ### De vaardigheid/badge toewijzen aan het leerobject - Auteur
 

@@ -15,13 +15,13 @@ Dit project heeft de [Adobe-gedragscode voor open source](code-of-conduct.md) of
 
 ## Over uw bijdragen aan inhoud van de Adobe
 
-Zie de [Adobe Docenten-bijdragersgids](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Zie de [Adobe Docenten-bijdragersgids](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL).
 
 Hoe je een bijdrage levert, hangt af van wie je bent en het soort wijzigingen dat je wilt bijdragen:
 
 ### Kleine wijzigingen
 
-Als u vanuit uw hart kleine updates wilt toevoegen, gaat u naar het artikel en klikt u op de knop **Bewerken** koppeling in het artikel dat naar de GitHub-bron voor het artikel gaat. Dan, gebruik enkel GitHub UI om uw updates te maken. Zie het algemene [Handleiding voor Adobe Docenten](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) voor meer informatie.
+Als u vanuit uw hart kleine updates wilt toevoegen, gaat u naar het artikel en klikt u op de knop **Bewerken** koppeling in het artikel dat naar de GitHub-bron voor het artikel gaat. Dan, gebruik enkel GitHub UI om uw updates te maken. Zie het algemene [Handleiding voor Adobe Docenten](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL) voor meer informatie.
 
 Kleine correcties of verduidelijkingen die u voor documentatie en codevoorbeelden in dit rapport opgeeft, worden behandeld in de gebruiksvoorwaarden van de Adobe.
 
@@ -43,7 +43,7 @@ Als u een technisch schrijver, programmamanager of ontwikkelaar van het productt
 
 Community-bijdragers kunnen de GitHub UI gebruiken voor basisbewerking of de vork in het rapport om belangrijke bijdragen te leveren.
 
-Zie de [Adobe Docenten-bijdragersgids](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) voor meer informatie.
+Zie de [Adobe Docenten-bijdragersgids](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=nl-NL) voor meer informatie.
 
 ## Markeringen gebruiken om uw onderwerp op te maken
 
