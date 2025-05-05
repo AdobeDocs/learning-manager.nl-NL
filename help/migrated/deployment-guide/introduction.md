@@ -82,7 +82,7 @@ Met Learning Manager kunt u het uiterlijk van uw site wijzigen met behulp van th
 
 U kunt een van de kleurenschema&#39;s kiezen die passen bij uw bedrijfsmerk.
 
-1. ****
+1. **&#x200B;**
 1. Klik in het gedeelte **Thema&#39;s** op **[!UICONTROL Bewerken]**. Met de toepassing kunt u een nieuw thema kiezen. Terwijl u een thema selecteert, ziet u meteen de kleurenschema&#39;s die worden gebruikt voor de belangrijkste interface-elementen.
 
    ![](assets/setting-the-themesforyoursite.png)
@@ -100,7 +100,7 @@ U kunt een van de kleurenschema&#39;s kiezen die passen bij uw bedrijfsmerk.
    ![](assets/setting-the-themesforyoursite-step6.png)
 
 1. De gekozen opties worden tijdelijk toegepast op uw site. Als u het geselecteerde thema en de kleurinstellingen wilt opslaan, klikt u op **[!UICONTROL Toepassen]**.
-1. Nadat u een thema hebt geselecteerd en toegepast, klikt u op ****[!UICONTROL Opslaan]**** om uw keuze op te slaan.
+1. Nadat u een thema hebt geselecteerd en toegepast, klikt u op **&#x200B;**&#x200B;[!UICONTROL Opslaan]&#x200B;**&#x200B;** om uw keuze op te slaan.
 
 ## E-mailsjablonen configureren {#configureemailtemplates}
 
@@ -112,9 +112,9 @@ Als beheerder is uw volgende stap het configureren van e-mailsjablonen voor vers
 
 U kunt elk van deze e-mailmeldingen inschakelen en configureren vanuit het dashboard Beheerder. Voer de volgende stappen uit om te leren hoe u e-mailsjablonen instelt:
 
-1. Klik in het linkerdeelvenster op **[!UICONTROL ** E-mailsjablonen **.]**
-1. Klik op een van de volgende tabbladen:**[!UICONTROL ** Algemeen **/** Leeractiviteit **/** Herinneringen en updates **.]** Laten we er bijvoorbeeld van uitgaan dat u op **[!UICONTROL ** Leeractiviteit **.]**
-1. Klik op de wisselknop voor de activiteit waarvoor u een e-mail wilt activeren. In dit voorbeeld, veronderstellen wij u klikt **[!UICONTROL ** Leerprogramma - Ingeschreven door beheerder/manager **.]**
+1. Klik in het linkerdeelvenster op **[!UICONTROL **&#x200B; E-mailsjablonen &#x200B;**.]**
+1. Klik op een van de volgende tabbladen:**[!UICONTROL ** Algemeen **/** Leeractiviteit **/** Herinneringen en updates **.]** Laten we er bijvoorbeeld van uitgaan dat u op **[!UICONTROL **&#x200B; Leeractiviteit &#x200B;**.]**
+1. Klik op de wisselknop voor de activiteit waarvoor u een e-mail wilt activeren. In dit voorbeeld, veronderstellen wij u klikt **[!UICONTROL **&#x200B; Leerprogramma - Ingeschreven door beheerder/manager &#x200B;**.]**
 
    ![](assets/configure-email-templates-step3.png)
 
@@ -135,7 +135,7 @@ U kunt elk van deze e-mailmeldingen inschakelen en configureren vanuit het dashb
 
    De link van de account-URL wordt in alle e-mails weergegeven, vlak voor de handtekening. Voer de gewenste URL in en klik op **[!UICONTROL Opslaan]**. Deze URL is alleen zichtbaar voor de interne gebruikers.
 
-   Voor E-mailbanner kunt u de kleur van de banner wijzigen door  **[!UICONTROL ** Bannerachtergrond **.]** U kunt een aangepaste afbeelding ook als een banner gebruiken door het **[!UICONTROL Aangepaste afbeelding]** gebruiken. Klikken  **[!UICONTROL Opslaan]** na het aanbrengen van de wijzigingen.
+   Voor E-mailbanner kunt u de kleur van de banner wijzigen door  **[!UICONTROL **&#x200B; Bannerachtergrond &#x200B;**.] **&#x200B; U kunt een aangepaste afbeelding ook als een banner gebruiken door het &#x200B;** [!UICONTROL Aangepaste afbeelding] **&#x200B; gebruiken. Klikken  &#x200B;** [!UICONTROL Opslaan]** na het aanbrengen van de wijzigingen.
 
    ***Opmerking: de aangepaste afbeeldingsgrootte voor de e-mailbanner moet 1240 x 200 px zijn. Afbeeldingen die groter zijn dan de aanbevolen grootte, worden uitgesneden.***
 
@@ -156,13 +156,13 @@ Deze optie is ook beschikbaar voor auteurs, wanneer ze een leerobject instellen.
 E-mailsjablonen configureren voor een leerobject:
 
 1. Klik op de cursus, het leerprogramma of de certificering waarvoor u het e-mailsjabloon wilt configureren.
-1. Klik in het linkerdeelvenster op **[!UICONTROL ** E-mailsjablonen **.]** Het systeem geeft het pop-upvenster ****[!UICONTROL Voorbeeld van sjabloon]**** weer.
-1. Wijzig het onderwerp of de hoofdtekst van de e-mailsjabloon en klik op **[!UICONTROL **Opslaan**]**om de wijzigingen toe te passen.
-1. Klik op **[!UICONTROL ** Origineel herstellen **.]**
+1. Klik in het linkerdeelvenster op **[!UICONTROL **&#x200B; E-mailsjablonen &#x200B;**.] **&#x200B; Het systeem geeft het pop-upvenster &#x200B;**&#x200B;**[!UICONTROL Voorbeeld van sjabloon]**&#x200B;** weer.
+1. Wijzig het onderwerp of de hoofdtekst van de e-mailsjabloon en klik op **[!UICONTROL **Opslaan**]**&#x200B;om de wijzigingen toe te passen.
+1. Klik op **[!UICONTROL **&#x200B; Origineel herstellen &#x200B;**.]**
 
 ### Gebruikers beperken in het ontvangen van e-mails {#restrictusersfromreceivingemails}
 
-Als beheerder kunt u selecteren wie e-mails van Learning Manager ontvangt. U kunt dit bereiken met de ****[!UICONTROL Beperkte gebruiker]**** optie onder ****[!UICONTROL Instellingen]** **tab. Voeg gebruikers toe door hun naam, e-mail-ID of unieke gebruikers-ID op de lijst te zetten. De gebruikers die onder deze optie worden vermeld, worden beperkt in het ontvangen van e-mailcommunicatie van Learning Manager.
+Als beheerder kunt u selecteren wie e-mails van Learning Manager ontvangt. U kunt dit bereiken met de **&#x200B;**&#x200B;[!UICONTROL Beperkte gebruiker]&#x200B;**&#x200B;** optie onder **&#x200B;**&#x200B;[!UICONTROL Instellingen] **&#x200B; **&#x200B;tab. Voeg gebruikers toe door hun naam, e-mail-ID of unieke gebruikers-ID op de lijst te zetten. De gebruikers die onder deze optie worden vermeld, worden beperkt in het ontvangen van e-mailcommunicatie van Learning Manager.
 
 ## Uw accountinstellingen configureren {#configureyouraccountsettings}
 
@@ -170,8 +170,8 @@ Met Learning Manager kunt u een aantal accountinstellingen configureren, zoals b
 
 ### Basisinstellingen configureren {#configurebasicsettings}
 
-1. Klik op de startpgina van Learning Manager op ****[!UICONTROL Instelllingen]****. Standaard geeft het systeem de pagina Basisgegevens weer, met de standaardtaal en locatievelden.
-1. Klik op ****[!UICONTROL Wijzigen]**** in de rechterbovenhoek van de pagina om de basisgegevens te bewerken.
+1. Klik op de startpgina van Learning Manager op **&#x200B;**&#x200B;[!UICONTROL Instelllingen]&#x200B;**&#x200B;**. Standaard geeft het systeem de pagina Basisgegevens weer, met de standaardtaal en locatievelden.
+1. Klik op **&#x200B;**&#x200B;[!UICONTROL Wijzigen]&#x200B;**&#x200B;** in de rechterbovenhoek van de pagina om de basisgegevens te bewerken.
 1. Configureer de volgende opties:
 
    * **Land**: selecteer het land in dit vervolgkeuzeveld.
@@ -201,7 +201,7 @@ Als beheerder kunt u de feedbackinstellingen globaal configureren. Volg hiervoor
 
    ![](assets/configure-feedbacksettings-step3.png)
 
-1. Om de andere vragen voor uw feedbackvragenlijst te configureren, klikt u op de vragen in de ****[!UICONTROL cursussen op eigen tempo]**** of ****[!UICONTROL klassikale cursussen]****. Wanneer u op een vraag klikt, kunt u de standaardvragen bewerken.
+1. Om de andere vragen voor uw feedbackvragenlijst te configureren, klikt u op de vragen in de **&#x200B;**&#x200B;[!UICONTROL cursussen op eigen tempo]&#x200B;**&#x200B;** of **&#x200B;**&#x200B;[!UICONTROL klassikale cursussen]&#x200B;**&#x200B;**. Wanneer u op een vraag klikt, kunt u de standaardvragen bewerken.
 
 
 
@@ -215,7 +215,7 @@ Als beheerder kunt u de feedbackinstellingen globaal configureren. Volg hiervoor
 1. Configureer de herinneringsinstellingen door de volgende opties te voltooien:
 
    * **Wanneer te verzenden**: geef aan of u de feedbackaanvraag wilt verzenden bij voltooiing van de cursus of na voltooiing van de cursus.
-   * **Dagen na voltooiing**: Geef het aantal dagen op waarna u de feedbackaanvraag wilt verzenden. Dit veld is alleen zichtbaar als ****[!UICONTROL Na cursusvoltooiing]**** is geselecteerd.
+   * **Dagen na voltooiing**: Geef het aantal dagen op waarna u de feedbackaanvraag wilt verzenden. Dit veld is alleen zichtbaar als **&#x200B;**&#x200B;[!UICONTROL Na cursusvoltooiing]&#x200B;**&#x200B;** is geselecteerd.
 
    * **Herhaling**: geef aan of u de feedbackherinnering elke dag, elke week of elke maand wilt verzenden. U kunt ook aangeven hoeveel weken de herinnering moet worden verzonden.
 
@@ -224,13 +224,13 @@ Als beheerder kunt u de feedbackinstellingen globaal configureren. Volg hiervoor
 
 ## L3-feedback configureren: {#configurel3feedback}
 
-L3-feedback bevat de vragen die naar de manager van een student worden verzonden nadat de student een cursus heeft voltooid. Met L3-feedback kan een beheerder wijzigingen bijhouden in het gedrag of de vaardigheid van een student in de loop der tijd. Klik op de pagina Feedback op het tabblad ****[!UICONTROL L3-feedback]**** om deze feedback te configureren. U ziet één standaardvraag. De manager moet deze vraag beantwoorden met een beoordelingsschaal van vijf punten.
+L3-feedback bevat de vragen die naar de manager van een student worden verzonden nadat de student een cursus heeft voltooid. Met L3-feedback kan een beheerder wijzigingen bijhouden in het gedrag of de vaardigheid van een student in de loop der tijd. Klik op de pagina Feedback op het tabblad **&#x200B;**&#x200B;[!UICONTROL L3-feedback]&#x200B;**&#x200B;** om deze feedback te configureren. U ziet één standaardvraag. De manager moet deze vraag beantwoorden met een beoordelingsschaal van vijf punten.
 
 ![](assets/configure-l3-feedback.png)
 
 U kunt de herinneringen voor L3-feedback configureren, net als bij de L1-feedback. U kunt de bestaande herinnering wijzigen of een nieuwe feedbackherinnering toevoegen.
 
-Nadat u de feedbackvraag en de herinneringsinstellingen hebt voltooid, klikt u op ****[!UICONTROL Opslaan]**** om uw instellingen toe te passen.
+Nadat u de feedbackvraag en de herinneringsinstellingen hebt voltooid, klikt u op **&#x200B;**&#x200B;[!UICONTROL Opslaan]&#x200B;**&#x200B;** om uw instellingen toe te passen.
 
 ## Feedback configureren op instantieniveau {#configurefeedbackataninstancelevel}
 
@@ -251,10 +251,10 @@ De feedbackinstellingen configureren op instantieniveau:
 
    ![](assets/configure-feedbackataninstancelevel-step7.png)
 
-1. De L3-feedback over gedragswijziging op instantieniveau configureren ****[!UICONTROL Inschakelen]**** de L3-feedback. De toepassing toont een vooraf gedefinieerde, verplichte vraag en een vraag die u zelf kunt invullen.
+1. De L3-feedback over gedragswijziging op instantieniveau configureren **&#x200B;**&#x200B;[!UICONTROL Inschakelen]&#x200B;**&#x200B;** de L3-feedback. De toepassing toont een vooraf gedefinieerde, verplichte vraag en een vraag die u zelf kunt invullen.
 1. Voor de vooraf gedefinieerde vraag over de verbetering van de student na het volgen van de cursus, heeft het antwoord de Likert-schaal-indeling. Dat wil zeggen dat managers een optie moeten kiezen op een schaal van zeer mee eens tot zeer oneens.
 1. Geef de tweede vraag voor de manager op. Managers kunnen op deze vraag een beschrijvend antwoord geven.
-1. Schakel het selectievakje ****[!UICONTROL Verplicht maken]**** in als u de tweede vraag verplicht wilt stellen.
+1. Schakel het selectievakje **&#x200B;**&#x200B;[!UICONTROL Verplicht maken]&#x200B;**&#x200B;** in als u de tweede vraag verplicht wilt stellen.
 
    ![](assets/configure-feedbackataninstancelevel-step11.png)
 
@@ -267,8 +267,8 @@ De feedbackinstellingen configureren op instantieniveau:
 
 Met de algemene instellingen in Learning Manager kunnen beheerders algemene instellingen configureren die van invloed zijn op andere functies in de toepassing. U kunt bijvoorbeeld algemene instellingen gebruiken om aan te geven of de cursuseffectiviteit zichtbaar kan worden gemaakt voor studenten. De algemene instellingen configureren:
 
-1. Klik op de startpagina van Learning Manager op ****[!UICONTROL Instelllingen]****.
-1. Klik in het linkerdeelvenster op ****[!UICONTROL Algemeen]****.
+1. Klik op de startpagina van Learning Manager op **&#x200B;**&#x200B;[!UICONTROL Instelllingen]&#x200B;**&#x200B;**.
+1. Klik in het linkerdeelvenster op **&#x200B;**&#x200B;[!UICONTROL Algemeen]&#x200B;**&#x200B;**.
 1. Op de pagina Algemene instellingen kunt u de volgende opties configureren:
 
    Voor al deze opties varieert de functie die elke optie beïnvloedt. Indien nodig, kunnen we crosslinks geven naar elk van de gedetailleerde functies.
@@ -291,9 +291,9 @@ Met de algemene instellingen in Learning Manager kunnen beheerders algemene inst
 Op het studentendashboard in Learning Manager kunnen studenten hun verplichte en aanbevolen cursussen bekijken, naast hun prestaties, vaardigheden en aankondigingen. Beheerders kunnen bepalen hoe dit studentendashboard eruit moet zien door de instellingen voor het studentendashboard te configureren. Met deze instellingen kunnen beheerders de widgets op de pagina Student instellen. Met deze instellingen wordt ook bepaald hoe en waar de widgets op het studentendashboard worden geplaatst. Als beheerder kunt u een voorbeeld van de lay-out van het studentendashboard bekijken voordat u de instellingen toepast.
 
 1. Klik op de startpagina van Learning Manager op **[!UICONTROL Instellingen]**.
-1. Klik in het linkerdeelvenster op **[!UICONTROL ** Studentendashboard **.]**
+1. Klik in het linkerdeelvenster op **[!UICONTROL **&#x200B; Studentendashboard &#x200B;**.]**
 1. Selecteer de widgets die u wilt inschakelen. Als u een widget deselecteert, wordt de widget onmiddellijk uit het voorbeeld verwijderd. Studenten kunnen deze widget niet in hun dashboard zien.
-1. Klik op ****[!UICONTROL Opslaan]**** om de instellingen toe te passen.
+1. Klik op **&#x200B;**&#x200B;[!UICONTROL Opslaan]&#x200B;**&#x200B;** om de instellingen toe te passen.
 
    ![](assets/configure-learnerdashboardsettings-step4.png)
 

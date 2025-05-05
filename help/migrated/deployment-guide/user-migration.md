@@ -22,30 +22,30 @@ De technische instellingen voor uw Learning Manager-account zijn vooral vereist 
 
 Een van uw eerste taken als systeembeheerder in de beheerconsole is het definiëren en opzetten van een identiteitssysteem waarmee uw eindgebruikers worden geverifieerd. Wanneer uw organisatie licenties voor Learning Manager koopt, moet u deze licenties aan uw eindgebruikers verstrekken. Hiervoor hebt u een manier nodig om deze gebruikers te verifiëren. Voer de volgende procedure uit om eenmalige aanmelding voor uw gebruikers te configureren.
 
-1. Klik op de startpagina van Learning Manager op **[!UICONTROL ** Instellingen **>** Aanmeldingsmethoden **.]**
+1. Klik op de startpagina van Learning Manager op **[!UICONTROL **&#x200B; Instellingen &#x200B;**>**&#x200B; Aanmeldingsmethoden &#x200B;**.]**
 
    ![](assets/configure-sso-step1.png)
 
-1. Afhankelijk van uw gebruikerstype selecteert u een van de volgende opties **[!UICONTROL ** Interne gebruikers **of** Externe gebruikers **.]**
+1. Afhankelijk van uw gebruikerstype selecteert u een van de volgende opties **[!UICONTROL **&#x200B; Interne gebruikers &#x200B;** of **&#x200B; Externe gebruikers &#x200B;**.]**
 
 
 
-1. Vanaf de **[!UICONTROL **Aanmelden**]**vervolgkeuzelijst, selecteer **[!UICONTROL ** Single Sign-On **.]**
+1. Vanaf de **[!UICONTROL **Aanmelden**]**&#x200B;vervolgkeuzelijst, selecteer **[!UICONTROL **&#x200B; Single Sign-On &#x200B;**.]**
 
    ![](assets/configure-sso-step3.png)
 
-1. Als u de instellingen voor Single Sign On wilt configureren, klikt u op **[!UICONTROL ** Wijzigen **.]**
+1. Als u de instellingen voor Single Sign On wilt configureren, klikt u op **[!UICONTROL **&#x200B; Wijzigen &#x200B;**.]**
 
    ![](assets/configure-sso-step4.png)
 
-1. Voer in het veld ****[!UICONTROL Verificatie-URL geïnitieerd door IDP]**** de verificatie-URL in die uw serviceprovider heeft verstrekt.
+1. Voer in het veld **&#x200B;**&#x200B;[!UICONTROL Verificatie-URL geïnitieerd door IDP]&#x200B;**&#x200B;** de verificatie-URL in die uw serviceprovider heeft verstrekt.
 
 
 
    ![](assets/configure-sso-step5.png)
 
-1. Klik op **[!UICONTROL **Uploaden **]**naast de**[!UICONTROL  **XML-bestand met metagegevens IDP **]******veld en upload uw XML-bestand.
-1. Klikken **[!UICONTROL ** Opslaan **.]**
+1. Klik op **[!UICONTROL **Uploaden &#x200B;**]&#x200B;**naast de**&#x200B;[!UICONTROL &#x200B; **XML-bestand met metagegevens IDP &#x200B;**]&#x200B;**&#x200B;**&#x200B;**veld en upload uw XML-bestand.
+1. Klikken **[!UICONTROL **&#x200B; Opslaan &#x200B;**.]**
 1. De verificatie via eenmalige aanmelding is geconfigureerd voor uw account. U moet zich via SSO kunnen aanmelden bij uw Learning Manager-account.
 
    ***De SSO die u in Leermanager vormt zou SAML 2.0 moeten steunen.***
@@ -79,7 +79,7 @@ Voordat u het migratieproces start, moet u de volgende noodzakelijke stappen uit
 
 
 
-***Het wordt aanbevolen dat beheerders het migratieproces uitproberen in een proefaccount voordat ze de gegevens en inhoud migreren naar de productieomgeving van de Learning Manager. ***
+***Het wordt aanbevolen dat beheerders het migratieproces uitproberen in een proefaccount voordat ze de gegevens en inhoud migreren naar de productieomgeving van de Learning Manager. &#x200B;***
 
 ### Gegevens evalueren en exporteren {#evaluatingandexportingdata}
 
@@ -272,7 +272,7 @@ Voordat u uw daadwerkelijke migratie van alle inhoud plant en start, moet u eers
 
 ### Een FTP-account instellen {#setupanftpaccount}
 
-Klik op de startpagina van de integratiebeheerder op **[!UICONTROL ** CSV FTP-map aanvragen **.]** Voer in het pop-upvenster dat verschijnt uw e-mail-ID in. Doorloop de online wizard om het Exavault FTP-account aan te maken. Zodra u uw account hebt gemaakt, kunt u uw migratieproject- en sprintprojectmappen bekijken in Exavault FTP.
+Klik op de startpagina van de integratiebeheerder op **[!UICONTROL **&#x200B; CSV FTP-map aanvragen &#x200B;**.]** Voer in het pop-upvenster dat verschijnt uw e-mail-ID in. Doorloop de online wizard om het Exavault FTP-account aan te maken. Zodra u uw account hebt gemaakt, kunt u uw migratieproject- en sprintprojectmappen bekijken in Exavault FTP.
 
 Bekijk hier een voorbeeld van de projectbestanden en -map van ExaVault:
 
@@ -290,9 +290,9 @@ Klik in het gedeelte Instellingen op Een Box-map aanvragen.
 
 ![](assets/set-up-a-box-account.png)
 
-Voer in het veld ****[!UICONTROL E-mail invoeren]**** de e-mail-ID in waarop u de aanmeldingsinstructies wilt ontvangen voor het maken van een verbinding met Box.
+Voer in het veld **&#x200B;**&#x200B;[!UICONTROL E-mail invoeren]&#x200B;**&#x200B;** de e-mail-ID in waarop u de aanmeldingsinstructies wilt ontvangen voor het maken van een verbinding met Box.
 
-Klikken **[!UICONTROL ** Verbinden **.]**
+Klikken **[!UICONTROL **&#x200B; Verbinden &#x200B;**.]**
 
 U ontvangt dan een e-mail van Box met een link naar de gedeelde map. Hebt u geen Box-account, klik dan op Sign up en maak een account. Vervolgens worden de aanmeldingsinstructies verzonden naar de e-mail-ID van de integratiebeheerder.
 
@@ -313,11 +313,11 @@ Klik op de startpagina Integratiebeheerders op **[!UICONTROL Migratie.]**
 
 Op de startpagina Migratie geeft het systeem de migratieprojecten weer die al in uw organisatie zijn gemaakt.
 
-Klik op **[!UICONTROL **Nieuw**]**rechtsboven op de pagina om een migratieproject te maken.
+Klik op **[!UICONTROL **Nieuw**]**&#x200B;rechtsboven op de pagina om een migratieproject te maken.
 
-***Als u nog geen FTP-map hebt gemaakt, wordt u gevraagd een Exavault-account voor de FTP-map te maken. Dit is een verplichte stap voordat u een migratieproject gaat maken. ***
+***Als u nog geen FTP-map hebt gemaakt, wordt u gevraagd een Exavault-account voor de FTP-map te maken. Dit is een verplichte stap voordat u een migratieproject gaat maken. &#x200B;***
 
-Geef op de pagina ****[!UICONTROL Een nieuw migratieproject maken]**** de naam voor uw project op.
+Geef op de pagina **&#x200B;**&#x200B;[!UICONTROL Een nieuw migratieproject maken]&#x200B;**&#x200B;** de naam voor uw project op.
 
 ![](assets/migrating-the-content-1.png)
 
@@ -331,17 +331,17 @@ Maak op de pagina Sprintconfiguratie een sprint voor uw migratieproject. Een spr
 
 Geef een naam op voor de sprint en geef een beschrijving op voor de sprint.
 
-Selecteer de ****[!UICONTROL Gebruikers zijn toegevoegd of gewijzigd sinds het laatste selectievakje is uitgevoerd]**** om de lijst met gebruikers te synchroniseren met de toepassing Leermanager. Als u inhoud en gegevens migreert naar de toepassing Learning Manager, is dit mogelijk niet vereist. Maar als er tijd is verstreken tussen uw eerdere sprintmigratie en de laatste sprintmigratie, wordt het aanbevolen om de gebruikerslijst te synchroniseren. Met deze stap kan de database van de Learning Manager synchroon zijn met uw LMS-gebruikers.
+Selecteer de **&#x200B;**&#x200B;[!UICONTROL Gebruikers zijn toegevoegd of gewijzigd sinds het laatste selectievakje is uitgevoerd]&#x200B;**&#x200B;** om de lijst met gebruikers te synchroniseren met de toepassing Leermanager. Als u inhoud en gegevens migreert naar de toepassing Learning Manager, is dit mogelijk niet vereist. Maar als er tijd is verstreken tussen uw eerdere sprintmigratie en de laatste sprintmigratie, wordt het aanbevolen om de gebruikerslijst te synchroniseren. Met deze stap kan de database van de Learning Manager synchroon zijn met uw LMS-gebruikers.
 
 ***De synchronisatiestap wordt aanbevolen wanneer enrollment.csv en user_course_course_grade.csv worden gemigreerd. Deze stap zorgt ervoor dat de database van de Learning Manager synchroon is met uw migratiedatabase en dat alle gebruikers wier records die in de sprint moeten worden gemigreerd, beschikbaar zijn in de migratiedatabase.***
 
-Klikken **[!UICONTROL ** Volgende **.]**
+Klikken **[!UICONTROL **&#x200B; Volgende &#x200B;**.]**
 
-Klik op **[!UICONTROL **Starten**]**om de sprintmigratie te starten met uw geüploade gegevens en inhoud. Klikken ****[!UICONTROL Vernieuwen]**** voordat u de sprint start om de FTP- en inhoudsmappen te synchroniseren met Learning Manager.
+Klik op **[!UICONTROL **Starten**]&#x200B;**om de sprintmigratie te starten met uw geüploade gegevens en inhoud. Klikken &#x200B;**&#x200B;**[!UICONTROL Vernieuwen]**&#x200B;** voordat u de sprint start om de FTP- en inhoudsmappen te synchroniseren met Learning Manager.
 
 ![](assets/migrating-the-content-3.png)
 
-U kunt op ***[!UICONTROL Stoppen]**** op elk moment tijdens het sprintmigratieproces om de sprintmigratie af te breken.
+U kunt op ***[!UICONTROL Stoppen]**&#x200B;** op elk moment tijdens het sprintmigratieproces om de sprintmigratie af te breken.
 
 Het systeem geeft de migratiestatus weer voor alle gegevensitems en inhoud van de sprint. Controleer het aantal geslaagde en mislukte items als onderdeel van de migratiesprintrun.
 

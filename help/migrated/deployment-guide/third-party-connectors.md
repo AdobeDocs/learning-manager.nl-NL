@@ -301,7 +301,7 @@ Deze getAbstract-connector kan gebruikt worden door zakelijke klanten van getAbs
 
    Zorg er voor elk type synchronisatie voor dat de gebruikersfeed aanwezig is in de getAbstract FTP-map voor de gegevens die in de synchronisatie zijn gespecificeerd.
 
-   Raadpleeg het volgende Excelblad met een voorbeeld van een gebruikersfeed-bestand van getAbstract. De bestandsnaam moet de volgende indeling hebben:** report_export_yyyy_MM_dd_HHmmss.xlsx** of **report_export_jjjj_MM_dd.xlsx**.
+   Raadpleeg het volgende Excelblad met een voorbeeld van een gebruikersfeed-bestand van getAbstract. De bestandsnaam moet de volgende indeling hebben:**&#x200B; report_export_yyyy_MM_dd_HHmmss.xlsx** of **report_export_jjjj_MM_dd.xlsx**.
    [Voorbeeld van Excel-blad voor getAbstract-gebruikersinvoer](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor-connector {#hmmconnector}
@@ -494,7 +494,7 @@ Met deze optie kunt u de extractie van het rapport plannen. Zorg ervoor dat het 
 
 +++
 
-++ + Gebruikersvaardigheden - Op verzoek
++++ Gebruikersvaardigheden - Op verzoek
 
 U kunt de begindatum opgeven en het rapport exporteren met deze optie. Het rapport wordt geëxtraheerd van de ingevoerde datum tot heden. Voer de datum in vanaf wanneer u wilt beginnen met het genereren van het rapport en klik op Uitvoeren.
 
@@ -502,7 +502,7 @@ U kunt de begindatum opgeven en het rapport exporteren met deze optie. Het rappo
 
 +++
 
-++ + Gebruikersvaardigheden - Uitvoeringsstatus
++++ Gebruikersvaardigheden - Uitvoeringsstatus
 
 Hier kunt u de samenvatting van alle taken bekijken en een statusrapport daarvan ontvangen. U kunt foutrapporten downloaden door op de foutrapportagelink te klikken.
 

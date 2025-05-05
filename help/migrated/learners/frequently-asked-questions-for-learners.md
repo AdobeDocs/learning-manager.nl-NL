@@ -110,7 +110,7 @@ Voor meer informatie over deze eigenschap, verwijs [ iPad en Android toepassings
 
 Ja, Learning Manager is toegankelijk via een iPad. U kunt de app downloaden via de app store of Google Play.
 
-Alleen de functies voor studentrollen zijn toegankelijk via een iPad of een Android-tablet. U kunt ook offline cursussen volgen en synchroniseren met de app wanneer u weer online bent. Voor meer informatie, verwijs ](feature-summary/ipad-android-tablet-users.md) eigenschap van de 30} iPad en van Android toepassingsgebruikers[
+Alleen de functies voor studentrollen zijn toegankelijk via een iPad of een Android-tablet. U kunt ook offline cursussen volgen en synchroniseren met de app wanneer u weer online bent. Voor meer informatie, verwijs [&#128279;](feature-summary/ipad-android-tablet-users.md) eigenschap van de 30&rbrace; iPad en van Android toepassingsgebruikers
 
 +++
 
@@ -160,7 +160,7 @@ Voor meer informatie, verwijs naar [ badges ](feature-summary/badges.md) eigensc
 
 +++Wat is een leerprogramma?
 
-Leerprogramma&#39;s zijn een reeks uniek ontworpen cursussen die voldoen aan specifieke leerdoelen. Alleen beheerders kunnen leerprogramma&#39;s voor studenten maken. Wanneer een beheerder een leerprogrammainstantie aan studenten toewijst, zien ze dat **programma **op het tabblad Programma&#39;s. Studenten kunnen daarnaast alle leerprogramma&#39;s bekijken waarvoor ze zichzelf kunnen inschrijven.
+Leerprogramma&#39;s zijn een reeks uniek ontworpen cursussen die voldoen aan specifieke leerdoelen. Alleen beheerders kunnen leerprogramma&#39;s voor studenten maken. Wanneer een beheerder een leerprogrammainstantie aan studenten toewijst, zien ze dat **programma &#x200B;** op het tabblad Programma&#39;s. Studenten kunnen daarnaast alle leerprogramma&#39;s bekijken waarvoor ze zichzelf kunnen inschrijven.
 
 Klik op het aan u toegewezen programma om het leerprogramma te starten. U kunt gedetailleerde informatie over dat specifieke programma bekijken.
 

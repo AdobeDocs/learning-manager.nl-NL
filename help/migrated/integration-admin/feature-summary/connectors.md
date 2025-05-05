@@ -182,7 +182,7 @@ Learning Manager biedt een Salesforce App-pakket. Na de installatie en configura
 1. Klik **[!UICONTROL Salesforce]**.
 1. Let op de toepassingspagina van Salesforce op de toepassings-id (ook wel client-id genoemd) en het clientgeheim dat in de beschrijving wordt vermeld.
 1. Klik **[!UICONTROL goedkeuren]** en uw app moet met succes worden goedgekeurd.
-1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.****
+1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.**&#x200B;**
 1. In de sectie OAuth Code ophalen moeten de client-id en het bereik worden ingesteld op - admin:read,admin:write. Klik **[!UICONTROL voorleggen]**.
 1. Voer bij Vernieuwingstoken ophalen de client-ID en het clientgeheim in. Klik **[!UICONTROL voorleggen]** en neem nota van het vernieuwingstoken.
 
@@ -961,7 +961,7 @@ Met deze optie kunt u de extractie van het rapport plannen. Zorg ervoor dat het 
 
 +++
 
-++ + Gebruikersvaardigheden - Op verzoek
++++ Gebruikersvaardigheden - Op verzoek
 
 U kunt de begindatum opgeven en het rapport exporteren met deze optie. Het rapport wordt geëxtraheerd van de ingevoerde datum tot heden. Voer de datum in vanaf wanneer u wilt beginnen met het genereren van het rapport en klik op Uitvoeren.
 
@@ -970,7 +970,7 @@ U kunt de begindatum opgeven en het rapport exporteren met deze optie. Het rappo
 
 +++
 
-++ + Gebruikersvaardigheden - Uitvoeringsstatus
++++ Gebruikersvaardigheden - Uitvoeringsstatus
 
 Hier kunt u de samenvatting van alle taken bekijken en een statusrapport daarvan ontvangen. U kunt foutrapporten downloaden door op de foutrapportagelink te klikken.
 
@@ -1027,7 +1027,7 @@ Instellen   miniOrange   contact op met het CSM-team van Learning Manager.
 
 1. Klik, als u de gegevensbron als beheerder wilt bekijken bewerken, op **[!UICONTROL Instellingen > Gegevensbron]**.
 
-   De vastgestelde miniOrange-bron wordt vermeld. Als u vereist om de filter uit te geven, geeft de klik **** uit.
+   De vastgestelde miniOrange-bron wordt vermeld. Als u vereist om de filter uit te geven, geeft de klik **&#x200B;**&#x200B;uit.
 
    ![](assets/data-source.png)
 
@@ -1310,8 +1310,8 @@ De LinkedIn Learning-connector wordt gebruikt door zakelijke klanten van LinkedI
 
 ### LinkedIn Learning-connector configureren {#configure-linkedin-learning-connector}
 
-1. Van het dashboard van de Admin van de Integratie, klik [!UICONTROL  het Leren van LinkedIn ]. De opties Aan de slag, Verbinden en Verbindingen beheren worden weergegeven.
-1. Als u de het Leren van LinkedIn schakelaar voor het eerst vormt, klik [!UICONTROL  verbind ].
+1. Van het dashboard van de Admin van de Integratie, klik [!UICONTROL &#x200B; het Leren van LinkedIn &#x200B;]. De opties Aan de slag, Verbinden en Verbindingen beheren worden weergegeven.
+1. Als u de het Leren van LinkedIn schakelaar voor het eerst vormt, klik [!UICONTROL &#x200B; verbind &#x200B;].
 
    <!--Configure the Exavault FTP account before you configure this connector.
 
@@ -1819,7 +1819,7 @@ Neem contact op met het CSM-team van Learning Manager om de ADFS-connector in te
 
 1. Om gegevensbron, als Beheerder te bekijken en uit te geven, klik **[!UICONTROL Montages]** > **[!UICONTROL Gegevensbron]**.
 
-   De bestaande ADFS-bron wordt vermeld. Als u vereist om de filter uit te geven, geeft de klik **** uit.
+   De bestaande ADFS-bron wordt vermeld. Als u vereist om de filter uit te geven, geeft de klik **&#x200B;**&#x200B;uit.
 
    ![](assets/datasource.jpg)
    *Bron van Gegevens het plaatsen*
@@ -1965,7 +1965,7 @@ Wanneer u een verbinding met een Marketo Engage maakt, moet u de volgende gegeve
 
 >[!NOTE]
 >
->U kunt de client-id en het client-geheim uit de Marketo Engage-app halen. Op Marketo app, kunt u identiteitskaart van de Cliënt en geheim van de **** sectie LaunchPoint, en het Domein van Marketo van de **WebServices** sectie krijgen.
+>U kunt de client-id en het client-geheim uit de Marketo Engage-app halen. Op Marketo app, kunt u identiteitskaart van de Cliënt en geheim van de **&#x200B;**&#x200B;sectie LaunchPoint, en het Domein van Marketo van de **WebServices** sectie krijgen.
 
 Op de **Verenigde sectie van Rapporten** van de verbinding van de Engage van de Markeo in de Leermanager app, kunt u campagnes tot stand brengen die op het volgende worden gebaseerd:
 
@@ -2086,11 +2086,11 @@ Voor meer informatie, zie [**de schakelaar van Microsoft Teams in Adobe Learning
 >
 >In de sectie wordt uitgelegd hoe de infrastructuur werkt. Neem contact met ons op als u een headless of AEM-gebaseerde, niet-aangemelde ervaring wilt opbouwen. We zullen de juiste benadering voorstellen voor uw gebruiksscenario. Deze functionaliteit is momenteel niet beschikbaar als selfservice.
 
-De ]**schakelaar van de Toegang van de Gegevens van de Opleiding**[!UICONTROL  laat u een headless ervaring creëren. Deze ervaring kan op zichzelf staan of een aangepaste gebruikersinterface zijn op basis van AEM Sites. Het helpt studenten trainingsinformatie op te halen en weer te geven en maakt zoeken en filteren mogelijk. Zodra de gegevensconnector is ingeschakeld, is er een set openbare API&#39;s beschikbaar om de interface te bouwen, waarin de cursus-/leerpadinformatie voor de studenten wordt weergegeven.
+De **schakelaar van de Toegang van de Gegevens van de Opleiding** laat u een headless ervaring creëren. Deze ervaring kan op zichzelf staan of een aangepaste gebruikersinterface zijn op basis van AEM Sites. Het helpt studenten trainingsinformatie op te halen en weer te geven en maakt zoeken en filteren mogelijk. Zodra de gegevensconnector is ingeschakeld, is er een set openbare API&#39;s beschikbaar om de interface te bouwen, waarin de cursus-/leerpadinformatie voor de studenten wordt weergegeven.
 
 ### De connector configureren {#configure-training-data-connector}
 
-Gebruik de ]**schakelaar van de Toegang van de Gegevens van de Opleiding**[!UICONTROL  om uw rekening van Adobe Learning Manager met gegevensopslag en onderzoekssystemen te integreren. Zo krijgt uw op AEM Sites gebaseerde interface trainingsgegevens, worden webpagina&#39;s weergegeven en krijgen studenten betere zoekopties.
+Gebruik de **schakelaar van de Toegang van de Gegevens van de Opleiding** om uw rekening van Adobe Learning Manager met gegevensopslag en onderzoekssystemen te integreren. Zo krijgt uw op AEM Sites gebaseerde interface trainingsgegevens, worden webpagina&#39;s weergegeven en krijgen studenten betere zoekopties.
 
 Exporteer trainingsmetagegevens van Adobe Learning Manager naar de services voor het ophalen en inschakelen van gegevens met behulp van de API&#39;s. U kunt ook een schema maken om deze exportbewerkingen te automatiseren.
 
@@ -2147,7 +2147,7 @@ Wanneer een student op cursus, certificaat of leerpad klikt, wordt de overzichts
 
 Dankzij de niet-aangemelde ervaring kunt u een real-time ervaring creëren voor niet-aangemelde gebruikers. Een niet-aangemelde ervaring fungeert bijvoorbeeld als startpagina voor marketingcampagnes om aanmelding-ups te stimuleren.
 
-De niet-het programma geopende ervaring in Adobe Learning Manager kan worden gevormd gebruikend de ]**schakelaar van de Toegang van de Gegevens van de Opleiding**[!UICONTROL . De connector biedt de volgende mogelijkheden:
+De niet-het programma geopende ervaring in Adobe Learning Manager kan worden gevormd gebruikend de **schakelaar van de Toegang van de Gegevens van de Opleiding**. De connector biedt de volgende mogelijkheden:
 
 * Standard-aanbieding
 * Premium-aanbieding

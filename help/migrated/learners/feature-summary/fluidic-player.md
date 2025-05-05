@@ -21,7 +21,7 @@ Fluidic Player is een platform voor studenten om cursussen te volgen met ononder
 
 <!--![](assets/fluidicplayer-callout.png)-->
 
-**** Inhoudsopgave: Tijdens het nemen van een cursus geeft de speler een inhoudsopgave voor die cursus weer in het linkerdeelvenster van het venster. U kunt op een willekeurig onderwerp klikken om hier direct naartoe te gaan.
+**&#x200B;**&#x200B;Inhoudsopgave: Tijdens het nemen van een cursus geeft de speler een inhoudsopgave voor die cursus weer in het linkerdeelvenster van het venster. U kunt op een willekeurig onderwerp klikken om hier direct naartoe te gaan.
 
 **Bladwijzers- Als een van de cursusmodules een inhoudsopgave voor modules heeft, kunnen de onderwerpen in de module inhoudsopgave worden voorzien van bladwijzers** om er later naar te verwijzen. Wanneer er een stericoon bij een onderdeel in de inhoudsopgave staat, is er een bladwijzer aan de ingang gekoppeld. Klik nogmaals op deze ster om een bladwijzer te verwijderen.
 

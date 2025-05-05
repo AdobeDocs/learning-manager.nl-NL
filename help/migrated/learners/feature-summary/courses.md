@@ -133,7 +133,7 @@ Auteurs kunnen tijdens het maken van een cursus schakelen tussen het in- en uits
 
 ## Workflow als student
 
-Als student kunt u een cursus pas beoordelen na uw inschrijving. U kunt de gemiddelde Classificaties van de Ster voor om het even welke cursus op de **1} Pagina van het Huis zien,** Mijn het Leren **pagina en** Catalogus **.**
+Als student kunt u een cursus pas beoordelen na uw inschrijving. U kunt de gemiddelde Classificaties van de Ster voor om het even welke cursus op de **1&rbrace; Pagina van het Huis zien,** Mijn het Leren **pagina en** Catalogus **.**
 
 1. Login als a **Student**. Dit laadt de **Pagina van het Huis**.
 

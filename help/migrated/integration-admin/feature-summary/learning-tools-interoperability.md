@@ -163,7 +163,7 @@ De LTI-providers voorzien u van een startkoppeling of een IMSCC-bestand om hun c
 
 3. Typ de **[!UICONTROL Naam]** en **[!UICONTROL Beschrijving]**.
 4. Typ de **[!UICONTROL Verbinding van de Lancering]** en **[!UICONTROL Parameters van de Douane]** van de leverancier LTI.
-5. Selecteer uw [!UICONTROL  leverancier LTI ] van het **[!UICONTROL drop-down menu van de Leverancier van het Hulpmiddel]**.
+5. Selecteer uw [!UICONTROL &#x200B; leverancier LTI &#x200B;] van het **[!UICONTROL drop-down menu van de Leverancier van het Hulpmiddel]**.
 6. Onderzoek en selecteer **[!UICONTROL Openbaar]** in **[!UICONTROL toevoegen aan de optie van de Omslag]**. Hiermee stelt u de cursussen beschikbaar voor alle auteurs.
 7. Selecteer **[!UICONTROL sparen]**.
 Nadat de inhoud is gemaakt, kunt u deze inhoud toevoegen wanneer u de cursus maakt.

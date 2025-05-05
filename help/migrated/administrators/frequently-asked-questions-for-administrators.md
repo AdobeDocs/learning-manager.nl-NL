@@ -232,7 +232,7 @@ Verwijs [ eigenschap van de Gamification ](/help/migrated/administrators/feature
 Volg onderstaande stappen om rapporten te maken:
 
 1. Klik op Rapporten in het linkerdeelvenster. De pagina Rapportoverzicht wordt geopend.
-1. Voor de pagina van Rapporten, voegt de klik **** bij de hoger-juiste hoek toe.
+1. Voor de pagina van Rapporten, voegt de klik **&#x200B;**&#x200B;bij de hoger-juiste hoek toe.
 
    **[!UICONTROL voeg de dialoog van het Rapport]** toe verschijnt.
 
@@ -257,7 +257,7 @@ Wanneer u zich aanmeldt bij uw account, kunt u naar andere rollen zoals student,
 Managers, auteurs en studenten kunnen meldingen zien op basis van de cursusactiviteiten. De beheerder kan meldingen voor alle gebruikers in-/uitschakelen door de onderstaande stappen te volgen:
 
 1. Klik in het linkerdeelvenster op E-mailsjablonen en kies de tabbladen Algemeen, Gebruikersinschrijving, Voltooiingen en Feedback.
-1. Klik in de onderstaande lijst met gebeurtenissen op de schakelknoppen Nee/Ja naast **elke **gebeurtenis en kies Ja om melding in te schakelen. Klik op Nee om het verzenden van meldingen voor een bepaalde gebeurtenis uit te schakelen.
+1. Klik in de onderstaande lijst met gebeurtenissen op de schakelknoppen Nee/Ja naast **elke &#x200B;** gebeurtenis en kies Ja om melding in te schakelen. Klik op Nee om het verzenden van meldingen voor een bepaalde gebeurtenis uit te schakelen.
 
 +++
 
@@ -316,7 +316,7 @@ Nadat de competentie is opgeslagen, kunt u de niveaus van de competentie niet me
 
 1. Voer uw contactgegevens in, kies het type creditcard, geef uw creditcardgegevens op en klik op Bestelling voltooien.
 
-Verwijs ](/help/migrated/administrators/feature-summary/billing-management.md) eigenschap van het 0} Factureringsbeheer voor meer informatie.[
+Verwijs [&#128279;](/help/migrated/administrators/feature-summary/billing-management.md) eigenschap van het 0&rbrace; Factureringsbeheer voor meer informatie.
 
 +++
 

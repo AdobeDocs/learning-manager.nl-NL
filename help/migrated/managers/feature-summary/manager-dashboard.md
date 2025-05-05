@@ -81,7 +81,7 @@ Om details te bekijken zoals mensen, inschrijvingsdatums, vervaldatums en vorder
 
 ## Rapport exporteren {#exportreport}
 
-Om een Excel- rapport te produceren, selecteer **[!UICONTROL Acties ] > [!UICONTROL  Rapport]**
+Om een Excel- rapport te produceren, selecteer **[!UICONTROL Acties &#x200B;] > [!UICONTROL &#x200B; Rapport]**
 
 ## Nalevingsstatus {#compliancestatus}
 
@@ -232,7 +232,7 @@ Volg de onderstaande stappen om het voltooiingspercentage van het team voor een 
 
    *selecteer Configure hyperlink*
 
-1. Van vorm pop - op dialoog, voor de vaardigheid u wilt vormen, ga een percentagewaarde op het **de voltooiing %** gebied van het Doel in, en de datum wanneer u de doelvoltooiing % op het **de datum** gebied van het Doel wilt bereiken.****
+1. Van vorm pop - op dialoog, voor de vaardigheid u wilt vormen, ga een percentagewaarde op het **de voltooiing %** gebied van het Doel in, en de datum wanneer u de doelvoltooiing % op het **de datum** gebied van het Doel wilt bereiken.**&#x200B;**
 
    ![](assets/configure-tracker.png)
 

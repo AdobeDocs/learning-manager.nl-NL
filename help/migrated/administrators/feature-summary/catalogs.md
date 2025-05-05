@@ -339,7 +339,7 @@ Nadat u cataloguslabels hebt gemaakt, kunt u deze als volgt op specifieke catalo
 1. Open Cataloguslabels via het linkerdeelvenster.
 1. Klik **[!UICONTROL uitgeven]** op de hoger-juiste hoek. De pagina toont de lijst met beschikbare cataloguslabels.
 1. Klik op **[!UICONTROL Toevoegen aan catalogus]** om een label aan de catalogus toe te voegen.
-1. Om bestaande labels te verwijderen die aan een Catalogus worden toegevoegd, verwijder ****.
+1. Om bestaande labels te verwijderen die aan een Catalogus worden toegevoegd, verwijder **&#x200B;**.
 
 +++
 

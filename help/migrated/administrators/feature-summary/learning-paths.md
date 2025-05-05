@@ -143,9 +143,9 @@ Het **[!UICONTROL laat Studenten toe om instanties (Flexible het Leren Weg) te k
 
 Er zijn drie opties:
 
-1. **[!UICONTROL Alle Cursussen van de Niveaus van de Vaardigheid en Leerwegen (die door gebrek worden geselecteerd) ]:** de student krijgt berichten voor om het even welke onvolledige cursus ongeacht het niveau binnen een het Leren Weg.
-1. **[!UICONTROL het Leren Weg van de Wortel ]:** de student krijgt berichten voor om het even welke onvolledige cursus die tot een ouder Lerend Weg behoort.
-1. **[!UICONTROL het Leren Weg + eerste slechts kinderen van het Niveau van de Vaardigheid ]:** de student krijgt berichten van om het even welke onvolledige cursus die een eerste kind van een ouder Lerend Weg is.
+1. **[!UICONTROL Alle Cursussen van de Niveaus van de Vaardigheid en Leerwegen (die door gebrek worden geselecteerd) &#x200B;]:** de student krijgt berichten voor om het even welke onvolledige cursus ongeacht het niveau binnen een het Leren Weg.
+1. **[!UICONTROL het Leren Weg van de Wortel &#x200B;]:** de student krijgt berichten voor om het even welke onvolledige cursus die tot een ouder Lerend Weg behoort.
+1. **[!UICONTROL het Leren Weg + eerste slechts kinderen van het Niveau van de Vaardigheid &#x200B;]:** de student krijgt berichten van om het even welke onvolledige cursus die een eerste kind van een ouder Lerend Weg is.
 
 De meldingsherinneringen worden geactiveerd afhankelijk van de optie. Door gebrek, wordt de optie **[!UICONTROL Alle Cursussen van Niveaus en Lerende Wegen]** toegelaten voor een instantie.
 

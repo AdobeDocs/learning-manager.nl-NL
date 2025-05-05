@@ -187,7 +187,7 @@ Typen actieve velden:
 
 U kunt werknemers van uw organisatie ook in staat stellen zichzelf als student in te schrijven bij een Adobe Learning Manager-account zonder uw hulp als beheerder. De beheerder kan een koppeling voor zelfregistratie maken en deze delen met de medewerkers, die zich verder kunnen registreren bij Leermanager met hun Adobe-referenties.
 
-Op de hoger-juiste hoek van de pagina, klik **** toevoegen, en selecteer **[!UICONTROL Zelfregistratie]**.
+Op de hoger-juiste hoek van de pagina, klik **&#x200B;**&#x200B;toevoegen, en selecteer **[!UICONTROL Zelfregistratie]**.
 
 
 ![](assets/self-registration.png)
@@ -259,9 +259,9 @@ Volg de onderstaande stappen om externe gebruikers in te schrijven:
 
    * In de **[!UICONTROL Geavanceerde sectie van Montages]**, ga het volgende in:
 
-      * **[!UICONTROL het Vereiste van de Login ]:** specificeer een waarde in dagen. Studenten worden verwijderd als ze zich gedurende de bovenstaande periode niet aanmelden.
-      * **[!UICONTROL Toegestane Domeinen ]:** een komma-gescheiden lijst van gewhitelisteerde e-maildomeinnamen.
-      * **[!UICONTROL Vereiste E-mailverificatie ]:** selecteer deze optie om e-mailverificatie voor een student verplicht te maken.
+      * **[!UICONTROL het Vereiste van de Login &#x200B;]:** specificeer een waarde in dagen. Studenten worden verwijderd als ze zich gedurende de bovenstaande periode niet aanmelden.
+      * **[!UICONTROL Toegestane Domeinen &#x200B;]:** een komma-gescheiden lijst van gewhitelisteerde e-maildomeinnamen.
+      * **[!UICONTROL Vereiste E-mailverificatie &#x200B;]:** selecteer deze optie om e-mailverificatie voor een student verplicht te maken.
 
    ![](assets/email-verificationrequired.png)
 
@@ -395,7 +395,7 @@ Klik **[!UICONTROL Gegevensbronnen]** op de linkerruit onder **[!UICONTROL Geava
 
 *bronnen van Gegevens aan invoert of synchroniseert gebruikers*
 
-Kies het gegevensbrontype van de **[!UICONTROL Bron]** drop-down, selecteer de updatefrequentie, en klik **[!UICONTROL Synchronisatie nu]** als u onmiddellijk moet synchroniseren of **[!UICONTROL sparen ] klikken.** Gegevenstypen zijn SFDC, FTP, enzovoort voor interne gebruikers.
+Kies het gegevensbrontype van de **[!UICONTROL Bron]** drop-down, selecteer de updatefrequentie, en klik **[!UICONTROL Synchronisatie nu]** als u onmiddellijk moet synchroniseren of **[!UICONTROL sparen &#x200B;] klikken.** Gegevenstypen zijn SFDC, FTP, enzovoort voor interne gebruikers.
 
 U kunt meerdere gegevensbronnen toevoegen.
 

@@ -55,7 +55,7 @@ Als er bijvoorbeeld meer dan 50.000 studenten zijn ingeschreven voor de cursus, 
 ### Pagina Beheerders en studenten
 
 Wanneer u een gebruiker zoekt, worden hetzelfde rapport gedownload met de **opties Downloadgebruiker** en **Exporteren** . Terwijl u een gebruikersgroep zoekt, kunt u nu gefilterde gebruikers uit die gebruikersgroep downloaden. Wanneer u in een gebruikersgroep zoekt,
-De lijst**met studenten downloaden verandert in** Lijst met studenten voor gebruikersgroepen **downloaden Met de****optie Exporteren** downloadt u opnieuw de hele lijst.
+De lijst&#x200B;**met studenten downloaden verandert in** Lijst met studenten voor gebruikersgroepen **downloaden Met de**&#x200B;**optie Exporteren** downloadt u opnieuw de hele lijst.
 
 ### Beheer- de pagina Gebruikers
 
@@ -107,7 +107,7 @@ Als in deze versie van Adobe Learning Manager het aantal ingeschreven gebruikers
 
 Als in het geval van een gebruikersgroep het aantal gebruikers in de gebruikersgroep lager is dan bijvoorbeeld 50.000, ziet u in het **vervolgkeuzemenu Status** alle opties Gecertificeerd, Toegewezen en Verlopen.
 
-Als het aantal gebruikers in een gebruikersgroep groot is, worden in het **vervolgkeuzemenu Status** slechts twee opties **** weergegeven: Ingeschreven en **Niet ingeschreven** volgens het nieuwe ontwerp.
+Als het aantal gebruikers in een gebruikersgroep groot is, worden in het **vervolgkeuzemenu Status** slechts twee opties **&#x200B;**&#x200B;weergegeven: Ingeschreven en **Niet ingeschreven** volgens het nieuwe ontwerp.
 
 ### Vergelijkingstabel
 
@@ -268,7 +268,7 @@ Wanneer u een gebruiker zoekt, worden hetzelfde rapport gedownload met de **opti
 * De Gamification-audittrail van het rapport [is](administrators/feature-summary/reports.md#gamification-audit-trail) toegevoegd.
 * Als een account meer dan 280000 leerlingen bevat die aan een vaardigheid zijn toegewezen, wordt het rapport met de vaardigheidsdeelnemer gedownload als een zip-bestand (CSV-bestand).
 Als het account minder dan 250000 gebruikers heeft, wordt hetzelfde rapport gedownload als een CSV-bestand.
-Selecteer op de pagina Beheerder de optie **Vaardigheden >****beheren** > **Vaardigheid** > **studenten**. Het rapport wordt gedownload als CSV-bestand.
+Selecteer op de pagina Beheerder de optie **Vaardigheden >**&#x200B;**beheren** > **Vaardigheid** > **studenten**. Het rapport wordt gedownload als CSV-bestand.
 * Het [rapport van het sessieoverzicht](administrators/feature-summary/reports.md#session-summary-report) heeft twee nieuwe kolommen: Locatie-informatie en Locatiegebied.
 
 ## Wijzigingen in het maken van klaslokalen
@@ -414,7 +414,7 @@ Als de **kolom uniqueLoId** niet wordt toegevoegd voordat de migratie wordt uitg
 
 >[!NOTE]
 >
->De kolom uniqueLoId **** is niet van toepassing op het BANENHULP-CSV-bestand.
+>De kolom uniqueLoId **&#x200B;**&#x200B;is niet van toepassing op het BANENHULP-CSV-bestand.
 
 
 >[!IMPORTANT]
@@ -536,7 +536,7 @@ In deze versie bewaart de Job API het rapport over aanmeldingstoegang tot maxima
 }
 ```
 
-Als u het **rapport voor aanmeldtoegang** dat langer dan vijf kwartalen mag duren, probeert te downloaden, verschijnt er een foutbericht. Als u probeert het rapport voor gebruikerscontrole **** te downloaden dat langer duurt dan zes maanden.
+Als u het **rapport voor aanmeldtoegang** dat langer dan vijf kwartalen mag duren, probeert te downloaden, verschijnt er een foutbericht. Als u probeert het rapport voor gebruikerscontrole **&#x200B;**&#x200B;te downloaden dat langer duurt dan zes maanden.
 
 ### Niet meer ondersteunde API&#39;s
 
@@ -565,7 +565,7 @@ Bekijk [API-verouderde functies in Adobe Learning Manager](api-deprecations-list
 
 * API GET/-gebruikers kunnen de gegevens van een manager niet ophalen.
 * In een account zijn gebruikers gemaakt via een geplande FTP-importbewerking tijdens een geplande uitvaltijd.
-* In de mobiele app of in de immersieve modus wordt, nadat een cursusinstantie is verwijderd of afgehouden en de volgende actieve instantie is geselecteerd, de **knop Interesse** registreren weergegeven in plaats van Inschrijven.****
+* In de mobiele app of in de immersieve modus wordt, nadat een cursusinstantie is verwijderd of afgehouden en de volgende actieve instantie is geselecteerd, de **knop Interesse** registreren weergegeven in plaats van Inschrijven.**&#x200B;**
 * Wanneer een leerling van een peer-account probeert de miniatuur van een cursus te selecteren met behulp van de Leerobject-API, wordt de fout 403 Verboden weergegeven.
 
 ## Systeemvereisten

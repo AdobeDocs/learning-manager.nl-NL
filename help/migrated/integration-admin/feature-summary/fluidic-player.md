@@ -19,7 +19,7 @@ Lees dit artikel voor meer informatie over het integreren van de Fluidic Player 
 
 Als onderneming kunt u nu een aangepaste ervaring bieden aan uw leerlingen, zelfs buiten Learning Manager om. Met behulp van de openbare API kunt u alle informatie over leerobjecten, inschrijvingen van studenten en leervoortgang ophalen en op uw website weergeven. U kunt zelfs de Fluidic Player van Learning Manager in uw website integreren, zodat de student de inhoud direct binnen uw eigen website kan gebruiken. Met de Fluidic Player kunt u elk inhoudstype afspelen dat ondersteund wordt door Learning Manager. Als de website is ingesloten op uw eigen website, heeft deze precies dezelfde mogelijkheden als wanneer deze wordt gebruikt in Leerbeheer.
 
-**Alle eLearning-inhoud afspelen[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Alle eLearning-inhoud afspelen[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 De Fluidic Player speelt vrijwel elk type eLearning-inhoud op dezelfde consistente en intuïtieve manier af zonder dat er plugins of downloads nodig zijn. De student kan de inhoud starten en deze wordt ongeacht het type inhoudsbestand afgespeeld.
 
@@ -31,7 +31,7 @@ Zie voor meer informatie over Fluidic Player [Fluidic Player](../../learners/fea
 
 Hier volgen enkele voorbeelden van het gebruik van de insluitbare Fluidic Player.
 
-* U kunt de insluitbare Fluidic Player op uw** **website gebruiken om een overzicht te geven van de cursussen waarvoor uw medewerker is ingeschreven en om een koppeling te verschaffen om een training op dezelfde pagina te starten. Dit zou betekenen dat uw studenten trainingen op uw intranetwebsite kunnen volgen.
+* U kunt de insluitbare Fluidic Player op uw **&#x200B; **&#x200B;website gebruiken om een overzicht te geven van de cursussen waarvoor uw medewerker is ingeschreven en om een koppeling te verschaffen om een training op dezelfde pagina te starten. Dit zou betekenen dat uw studenten trainingen op uw intranetwebsite kunnen volgen.
 
 * Als u in de opleidingssector werkt, hebt u misschien een website waar uw klanten cursussen aanschaffen. U kunt de insluitbare speler met dezelfde website integreren, zodat uw klanten de inhoud die ze kopen, binnen uw website kunnen gebruiken.
 
@@ -78,8 +78,8 @@ client_id= <application_id>
 Hier, **[!UICONTROL client-id]** is de toepassings-id die is verkregen in stap 1.
 **[!UICONTROL redirect_url]** is redirect_url ingesteld in stap 1.
 **[!UICONTROL status]** is om het even welke dummygegevens waarop wij redirect URL moeten filtreren om code OAuth te krijgen. Bereik is het studentenbereik dat is ingesteld in Stap 1.
-**[!UICONTROL response_type]**e is altijd &quot;CODE&quot;.\
-**[!UICONTROL account]**is een optioneel veld\
+**[!UICONTROL response_type]**&#x200B;e is altijd &quot;CODE&quot;.\
+**[!UICONTROL account]**&#x200B;is een optioneel veld\
 **[!UICONTROL email]** is een optioneel veld\
 &#42; Als zowel account-ID als e-mail worden opgegeven, kan de gebruiker zich via de bovenstaande URL bij hetzelfde account aanmelden. Dit eindpuntvoorbeeld wordt weergegeven in het bestand &quot;index.html&quot; in de voorbeeldtoepassing.
 

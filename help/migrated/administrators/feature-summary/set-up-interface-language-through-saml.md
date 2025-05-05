@@ -83,7 +83,7 @@ Voer de volgende stappen uit om de SSO in ALM te configureren:
 
 6. Ga terug naar de **[!UICONTROL Opstelling]** tabel.
 7. Van dropdown, selecteer **[!UICONTROL Enige Sign-On Configuratie]**.
-8. In het ]**dropdown van de Opstelling van 0} SSO, selecteer de configuratienaam u vroeger creeerde.**[!UICONTROL 
+8. In het **dropdown van de Opstelling van 0&rbrace; SSO, selecteer de configuratienaam u vroeger creeerde.**
 9. Selecteer **[!UICONTROL Opslaan]**.
 
 ## Gebruikersaanmelding en taalinstellingen

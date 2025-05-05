@@ -66,7 +66,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Als auteur kunt u nu de xAPI-module kiezen terwijl u cursussen maakt om de gebruikerservaring buiten Learning Manager te volgen. U kunt deze functie bijvoorbeeld gebruiken om de activiteiten te evalueren van gebruikers op een extern platform dat wordt gebruikt om cursussen te volgen.
 
-1. Tijdens het maken van **[!UICONTROL Activiteitenmodule]**, in de **[!UICONTROL Type]**gebruiken, selecteert u in het pop-upmenu  **[!UICONTROL xAPI-module.]**
+1. Tijdens het maken van **[!UICONTROL Activiteitenmodule]**, in de **[!UICONTROL Type]**&#x200B;gebruiken, selecteert u in het pop-upmenu  **[!UICONTROL xAPI-module.]**
 
    ![](assets/xapimodulecreation.png)
 

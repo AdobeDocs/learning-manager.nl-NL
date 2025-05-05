@@ -24,7 +24,7 @@ Learning Manager biedt een Salesforce App-pakket. Na de installatie en configura
 1. Klik **[!UICONTROL Salesforce]**.
 1. Let op de toepassingspagina van Salesforce op de toepassings-id (ook wel client-id genoemd) en het clientgeheim dat in de beschrijving wordt vermeld.
 1. Klik **[!UICONTROL goedkeuren]** en uw app moet met succes worden goedgekeurd.
-1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.****
+1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.**&#x200B;**
 1. In de sectie OAuth Code ophalen moeten de client-id en het bereik worden ingesteld op - admin:read,admin:write. Klik **[!UICONTROL voorleggen]**.
 1. Voer bij Vernieuwingstoken ophalen de client-ID en het clientgeheim in. Klik **[!UICONTROL voorleggen]** en neem nota van het vernieuwingstoken.
 

@@ -198,7 +198,7 @@ Om een bestand te bewerken of uit de galerie te verwijderen, klikt u op de drie 
 
 Meldingen in Learning Manager verschijnen in het meldingenvenster, ongeacht of de student is aangemeld bij de Learning Manager-webapplicatie of niet. Meldingen omvatten posts of boards die gebruikers hebben gemaakt, volgen of waaraan ze hebben bijgedragen. Wanneer de gebruiker op de melding klikt, wordt hij of zij omgeleid naar het Learning Manager Sociaal leren-web.
 
-Klik op * om meldingen te dempen *[!UICONTROL Menu Profiel*]* > **[!UICONTROL Instellingen] > **[!UICONTROL Meldingen dempen]**.
+Klik op * om meldingen te dempen *[!UICONTROL Menu Profiel*]* > **[!UICONTROL Instellingen] > &#x200B;** [!UICONTROL Meldingen dempen]**.
 
 ## Instellingen in de Adobe Learning Manager-desktopapplicatie {#settingsinadobecaptivateprimedesktopapplication}
 

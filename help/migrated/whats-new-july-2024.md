@@ -70,7 +70,7 @@ De nieuwe vernieuwde visuele elementen zijn afgestemd op moderne ontwerptrends, 
 
 Studenten zien nu een vergelijkbare kaartweergave op de volgende pagina&#39;s: de pagina&#39;s Homepage, Catalogus, Mijn leerervaring en Cursusoverzicht die een uniforme ervaring bieden.
 
-De homepage van de Leerling van de mening ](/help/migrated/learners/feature-summary/learner-home-page.md) voor meer informatie.[
+De homepage van de Leerling van de mening [&#128279;](/help/migrated/learners/feature-summary/learner-home-page.md) voor meer informatie.
 
 **Veranderingen in de data van de cursuspublicatie**
 
@@ -268,7 +268,7 @@ Het trainingsrapport in **Admin** > **Rapporten** > **de Rapporten van de Douane
 
 ### Controlerapport voor inhoud
 
-In deze versie, omvat het ]**rapport van de Controle van de Inhoud**[!UICONTROL  nu de volgende nieuwe attributen in de het type van Wijziging kolom:
+In deze versie, omvat het **rapport van de Controle van de Inhoud** nu de volgende nieuwe attributen in de het type van Wijziging kolom:
 
 * Gebruikersgroep toevoegen
 * Gebruikersgroep verwijderen

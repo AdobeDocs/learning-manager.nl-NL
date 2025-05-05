@@ -102,7 +102,7 @@ Let op het clientgeheim, dat tijdens de integratie verder wordt gebruikt.
    1. User.Read.All
    1. OnlineMeetingRecording.Read.All
 
-1. Klik {de beheerdertoegang van 0} verlenen voor Adobe ]**.**[!UICONTROL 
+1. Klik {de beheerdertoegang van 0} verlenen voor Adobe **.**
 1. Klik **[!UICONTROL de rollen van de Toepassing]** > **[!UICONTROL creeer app rol]**.
 1. Voer de volgende waarden in:
 

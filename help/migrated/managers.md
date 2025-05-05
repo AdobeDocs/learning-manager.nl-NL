@@ -35,5 +35,5 @@ ht-degree: 91%
 * [Rapporten](managers/feature-summary/reports.md)
 * [Instellingen](managers/feature-summary/settings.md)
 * [Gebruikersaanmelding](managers/feature-summary/user-login.md)
-* [Gebruikersmeldingen](managers/feature-summary/user-notifications.md) [](managers/feature-summary/settings.md)
+* [Gebruikersmeldingen](managers/feature-summary/user-notifications.md) [&#128279;](managers/feature-summary/settings.md)
 * [Leerobjecten](managers/feature-summary/learning-objects.md)

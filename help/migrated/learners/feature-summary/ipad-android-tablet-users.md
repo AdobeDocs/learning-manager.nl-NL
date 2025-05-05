@@ -512,7 +512,7 @@ Nadat je je hebt aangemeld als een leerling in de Learning Manager-app op een iP
 
 <!--![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)-->
 
-Tik op de vervolgkeuzelijst en kies de **** gewenste optie om naar functies voor leren en catalogi te navigeren.
+Tik op de vervolgkeuzelijst en kies de **&#x200B;**&#x200B;gewenste optie om naar functies voor leren en catalogi te navigeren.
 
 <!--![](assets/menu-ipad.png)-->
 

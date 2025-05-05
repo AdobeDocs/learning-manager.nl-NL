@@ -405,7 +405,7 @@ Schakel de volgende instellingen in of uit:
     <p>Deze functie is alleen beschikbaar voor cursussen. Waardering met sterren wordt niet ondersteund voor leerprogramma's of certificaten.<br><br><b> Opmerking: </b> deze wijziging is alleen van invloed op de Learner-app. </p>
     <p>Wijzigingen in de instellingen (waardering met sterren/cursuseffectiviteit/waardering weergeven uitschakelen) hebben geen gevolgen voor alle andere apps (beheerder, auteur, manager, aangepaste beheerder, aangepaste auteur). </p>
     <p>Voor nieuwe rekeningen, zal de <b> sectie van de Classificaties van de Tonen </b> de optie <b> Classificatie van de Ster </b> hebben die door gebrek wordt toegelaten.</p>
-    <p>Voor bestaande rekeningen, als de rekening eerder de toegelaten doeltreffendheid van de optie <b> Cursus </b> had, dan zal de <b> toon sectie </b> van Classificaties {met de geselecteerde doeltreffendheid van de optieCursus worden toegelaten. Als de optie <b> gevolgen van de Cursus </b> gehandicapt is, dan zal de <b> tonen sectie </b> ook gehandicapt zijn. Wanneer de <b> sectie van de Classificaties </b> wordt toegelaten, zal de classificatie van de optie <b> Ster </b> door gebrek worden toegelaten.</p></td>
+    <p>Voor bestaande rekeningen, als de rekening eerder de toegelaten doeltreffendheid van de optie <b> Cursus </b> had, dan zal de <b> toon sectie </b> van Classificaties &lbrace;met de geselecteerde doeltreffendheid van de optieCursus worden toegelaten. Als de optie <b> gevolgen van de Cursus </b> gehandicapt is, dan zal de <b> tonen sectie </b> ook gehandicapt zijn. Wanneer de <b> sectie van de Classificaties </b> wordt toegelaten, zal de classificatie van de optie <b> Ster </b> door gebrek worden toegelaten.</p></td>
   </tr>
   <tr>
    <td height="19">Archiveren</td>
@@ -480,7 +480,7 @@ Activiteit
 1. Klik de drop-down pijl bij de hoger-juiste hoek, naast uw foto/rekening en kies **[!UICONTROL Montages van het Profiel]**.
 1. Van de pop-up dialoog, kunt u een foto toevoegen/veranderen door de muis te hangen en **[!UICONTROL te klikken geeft]** in het gebied van de profielfoto uit.
 1. Voeg toe/wijzig **[!UICONTROL Ongeveer]** inhoud door **[!UICONTROL te klikken geeft]** naast het uit.
-1. Klik **[!UICONTROL sparen ].**
+1. Klik **[!UICONTROL sparen &#x200B;].**
 
 ## Inhoudsmap {#content-folder}
 

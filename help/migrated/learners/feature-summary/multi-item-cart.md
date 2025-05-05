@@ -17,7 +17,7 @@ Studenten kunnen verschillende cursussen, leerpaden of certificeringen toevoegen
 ## Vereisten
 
 1. De beheerder moet de SKU-winkelwagen met meerdere items inschakelen in het instellingenmenu.
-1. Ga in de beheerdersapp naar Instellingen > Algemeen ]**en selecteer de**[!UICONTROL  optie SKU-winkelwagen ]**met meerdere items inschakelen**[!UICONTROL .]****[!UICONTROL 
+1. Ga in de beheerdersapp naar Instellingen > Algemeen **en selecteer de**&#x200B;[!UICONTROL &#x200B; optie SKU-winkelwagen &#x200B;]&#x200B;**met meerdere items inschakelen**&#x200B;[!UICONTROL .]&#x200B;**&#x200B;**
 
 Met deze optie kunnen studenten meerdere cursussen tegelijk aanschaffen.
 

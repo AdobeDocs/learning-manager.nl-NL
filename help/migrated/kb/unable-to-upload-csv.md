@@ -77,7 +77,7 @@ Dit probleem treedt op als er een gebruiker is die al in het systeem staat met h
 In dit scenario zijn er twee redenen voor deze fout:
 
 1. De gebruiker die u probeert toe te voegen, is een manager van een extern profiel. Open het externe profiel waarvan de gebruiker deel uitmaakt, selecteer de gebruiker en klik op **[!UICONTROL Handelingen]** > **[!UICONTROL Rol toewijzen]** > **[!UICONTROL Manager]** en wijzig de manager van het profiel.
-1. De gebruiker die u wilt toevoegen, is gewist. In dit scenario kunt u de gebruiker pas met hetzelfde e-mailadres toevoegen als het leegmaken is voltooid. Als tijdelijke oplossing**: a**voeg de gebruiker een secundair e-mailadres toe om toegang tot het platform te bieden. Wanneer het opschoningsproces is voltooid, bewerkt u de gebruiker en wijzigt u het e-mailadres naar het juiste e-mailadres.
+1. De gebruiker die u wilt toevoegen, is gewist. In dit scenario kunt u de gebruiker pas met hetzelfde e-mailadres toevoegen als het leegmaken is voltooid. Als tijdelijke oplossing&#x200B;**: a**&#x200B;voeg de gebruiker een secundair e-mailadres toe om toegang tot het platform te bieden. Wanneer het opschoningsproces is voltooid, bewerkt u de gebruiker en wijzigt u het e-mailadres naar het juiste e-mailadres.
 
 ### Scenario 2
 

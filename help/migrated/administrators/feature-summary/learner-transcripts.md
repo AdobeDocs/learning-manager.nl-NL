@@ -21,7 +21,7 @@ Adobe Learning Manager stelt de beheerders van een organisatie in staat om de tr
 
 1. Als u de transcripties van een leerling wilt genereren, klikt u op **[!UICONTROL Rapporten]** in het linkerdeelvenster voor beheerdersaanmelding.
 
-   De beheerder navigeert naar de **[!UICONTROL pagina Rapporten > Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten****]**.
+   De beheerder navigeert naar de **[!UICONTROL pagina Rapporten > Aangepaste rapporten]** > **[!UICONTROL Excel-rapporten**&#x200B;**]**.
 
 1. Klik op de koppeling **[!UICONTROL Transcripties]** voor lerende.
 
@@ -66,7 +66,7 @@ Adobe Learning Manager stelt de beheerders van een organisatie in staat om de tr
 
    *De transcripties van verwijderde studenten downloaden*
 
-1. U kunt ervoor kiezen om informatie op moduleniveau te downloaden in het transcript van de leerling door het selectievakje Informatie **** op moduleniveau inschakelen in te schakelen. Als deze optie is ingeschakeld worden modulenamen en de tijd die aan elke module is besteed, als deel van het transcript opgehaald.
+1. U kunt ervoor kiezen om informatie op moduleniveau te downloaden in het transcript van de leerling door het selectievakje Informatie **&#x200B;**&#x200B;op moduleniveau inschakelen in te schakelen. Als deze optie is ingeschakeld worden modulenamen en de tijd die aan elke module is besteed, als deel van het transcript opgehaald.
 1. U kunt vaardigheidsgegevens en samenvattingsbladen downloaden door het selectievakje &#39;**[!UICONTROL Inclusief vaardigheidsgegevens en samenvattingsbladen]**&#39; in te schakelen.
 
    Transcripties worden gegenereerd en gedownload naar uw computer als .zip bestanden wanneer de vaardighedengegevens niet zijn opgenomen. Als het selectievakje Vaardigheidsgegevens is ingeschakeld, worden transcripten als XLS-bestanden gegenereerd en gedownload.
@@ -227,7 +227,7 @@ De minuten van de waarden in de volgende kolommen worden afgrond tot op de dicht
 
 ### Tijdsduur van de module en ID-kolommen in het transcript {#moduledurationandidcolumnsinthetranscript}
 
-In het transcript worden ook de kolommen **[!UICONTROL Duur en**[!UICONTROL  Id ]**van de module]** weergegeven.
+In het transcript worden ook de kolommen **[!UICONTROL Duur en**&#x200B;[!UICONTROL &#x200B; Id &#x200B;]&#x200B;**van de module]** weergegeven.
 
 ![](assets/lt-id-duration.png)
 

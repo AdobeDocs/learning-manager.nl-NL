@@ -52,6 +52,6 @@ Als docent kunt u alleen de details bekijken en wijzigen van de sessies waaraan 
 +++How om docentrol aan Externe Gebruikers toe te wijzen?
 
 * Door gebrek, in **[!UICONTROL wijs]** sectie voor **[!UICONTROL Externe Gebruiker toe]** het toont slechts **[!UICONTROL Manager van het Merk]** of **[!UICONTROL maak Auteur]**.
-* Als u **rol van 0} Instructeur {aan om het even welke gebruiker in LMS zou willen toewijzen, kunt u hen als** Instructeur **aan om het even welke**[!UICONTROL  Klaslokaal ]**of**[!UICONTROL  Virtuele module van de Lesruimte ]**toevoegen en** de rol van de Instructeur **zou automatisch aan de gebruiker in LMS worden verstrekt.**
+* Als u **rol van 0&rbrace; Instructeur &lbrace;aan om het even welke gebruiker in LMS zou willen toewijzen, kunt u hen als** Instructeur **aan om het even welke**&#x200B;[!UICONTROL &#x200B; Klaslokaal &#x200B;]&#x200B;**of**&#x200B;[!UICONTROL &#x200B; Virtuele module van de Lesruimte &#x200B;]&#x200B;**toevoegen en** de rol van de Instructeur **zou automatisch aan de gebruiker in LMS worden verstrekt.**
 
 +++

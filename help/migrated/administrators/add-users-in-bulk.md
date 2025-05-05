@@ -29,9 +29,9 @@ U kunt meerdere gebruikers tegelijk toevoegen door de onderstaande stappen te vo
 
 1. Wijs na het importeren van het bestand toepassingslabels toe aan de inhoud van het .csv-bestand wanneer u het .csv-bestand voor het eerst uploadt.
 
-   Bij alle volgende uploads wordt rekening gehouden met de vorige instellingen voor de labels. Klik **[!UICONTROL sparen]** na de voltooiing van de afbeelding van gegevens en klik **** toevoegen om het in kaart gebrachte .csv dossier te uploaden.
+   Bij alle volgende uploads wordt rekening gehouden met de vorige instellingen voor de labels. Klik **[!UICONTROL sparen]** na de voltooiing van de afbeelding van gegevens en klik **&#x200B;**&#x200B;toevoegen om het in kaart gebrachte .csv dossier te uploaden.
 
-1. Klik **[!UICONTROL sparen]** na de voltooiing van de afbeelding van gegevens en klik **** toevoegen om het in kaart gebrachte .csv dossier te uploaden.
+1. Klik **[!UICONTROL sparen]** na de voltooiing van de afbeelding van gegevens en klik **&#x200B;**&#x200B;toevoegen om het in kaart gebrachte .csv dossier te uploaden.
 
 ## CSV uploaden met verplichte velden {#csvuploadwithmandatoryfields}
 

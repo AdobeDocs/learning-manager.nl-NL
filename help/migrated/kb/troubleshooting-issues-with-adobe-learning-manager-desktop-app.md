@@ -106,13 +106,13 @@ Dit document bevat basistips voor probleemoplossing om enkele van de veelvoorkom
 1. Als u het dialoogvenster **Ga naar map** dialoogvenster, drukken op **Cmd + Shift + G** toetsen.
 1. Typ &quot;**/var/folders**&quot; (zonder aanhalingstekens) en druk op Enter.
 1. Zoeken naar &quot;**elthor**&quot; in de zoekbalk en open de map.
-1. Sorteer de mappen op **Date Modified **en open de meest recente map. Deze map bevat de meest recente toepassingslogbestanden.
+1. Sorteer de mappen op **Date Modified &#x200B;** en open de meest recente map. Deze map bevat de meest recente toepassingslogbestanden.
 
 ## Hoe kan ik geavanceerde logboekregistratie inschakelen? {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
-1. Druk op **Windows-toets + R**.****
+1. Druk op **Windows-toets + R**.**&#x200B;**
 1. Typ &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (zonder offertes) en druk op Enter.***
 1. Maak een back-up van het bestand **preferences.json** en opent u deze in een teksteditor.***
 1. Zoeken naar de toets **debugMode** en wijzig de waarde-eigenschap van deze sleutel in &quot;**true**&quot; (zonder aanhalingstekens).

@@ -40,7 +40,7 @@ Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 1. U kunt maar één tag tegelijk bewerken. U kunt een tag als volgt bewerken:
 
-   * Selecteer de markering om uit te geven > open de **[!UICONTROL  Acties ] **drop-down menu > klik **[!UICONTROL uitgeven]**.
+   * Selecteer de markering om uit te geven > open de **[!UICONTROL &#x200B; Acties &#x200B;] &#x200B;** drop-down menu > klik **[!UICONTROL uitgeven]**.
 
    Het dialoogvenster **[!UICONTROL Tag bewerken]** verschijnt. Voer de nieuwe tagnaam in en klik op **[!UICONTROL Opslaan]**.
 
