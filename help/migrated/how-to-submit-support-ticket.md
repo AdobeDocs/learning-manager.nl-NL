@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Een ondersteuningsticket indienen op ervaringenleague
 description: Leer hoe u een ondersteuningsverzoek kunt indienen op een Experience League
-source-git-commit: 8a7273fae5cccc8d8ff16de2956e2dbcc0045ea7
+exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
+source-git-commit: b69859161476a5ba56baa5b4447aec759c1a7736
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Het proces voor het indienen van Adobe Learning Manager-ondersteuningstickets is nu rechtstreeks geïntegreerd met het ondersteuningsplatform voor Experiencen League. Dit is een zelfserviceportaal dat onlangs opnieuw is ontworpen om klanten met rechten meer personalisatie en gebruiksgemak te bieden. Bekijk deze handleiding hieronder voor meer informatie over hoe u toegang krijgt tot de portal voor ondersteuning van Experiencen League en een ticket registreert.
 
-Houd er rekening mee dat het verzenden van een ondersteuningsticket alleen beschikbaar is voor geautoriseerde ondersteuningscontactpersonen. Voor uw vragen over ondersteuning kunt u uw ondersteuningstickets tot 11 mei 2025 naar Adobe Learning Manager verzenden. Na deze datum kunt u uw ondersteuningstickets indienen via de portal voor ondersteuning van Experiencen League, zoals hieronder wordt beschreven.
+Houd er rekening mee dat het verzenden van een ondersteuningsticket alleen beschikbaar is voor geautoriseerde ondersteuningscontactpersonen. Voor uw vragen over ondersteuning kunt u uw ondersteuningstickets tot 11 mei 2025 via e-mail naar Adobe Learning Manager verzenden. Na deze datum kunt u, naast het bestaande e-mailkanaal, ook uw ondersteuningstickets verzenden via de ondersteuningsportal voor Experiencen League, zoals hieronder wordt beschreven.
 
 1. Om tot het portaal van de Steun toegang te hebben, bezoek de **[!UICONTROL website van het Experience League]** en selecteer het **[!UICONTROL 3} lusje van de Steun dat bij de bovenkant van de pagina wordt gevestigd.]** Alternatief, kunt u de [ directe verbinding ](https://experienceleague.adobe.com/home#support) bezoeken.
 
@@ -57,3 +58,4 @@ Om uw escalaties op de meest efficiënte manier aan te pakken, kunt u alleen een
 
 Als u verdere vragen op hebt hoe te om het **[!UICONTROL portaal van de Steun van het Experience League te gebruiken]**, te laten ons in de commentaarsectie hieronder weten, of ons team van de Steun direct bij dit e-mailadres [ almdynsupp@adobe.com ](mailto:almdynsupp@adobe.com) bereiken.
 
+Om een geautoriseerd contact toe te voegen dat steunkaartjes via Experience League (EXL) kan openen, te bezoeken gelieve [ http://licensing.adobe.com ](http://licensing.adobe.com).
