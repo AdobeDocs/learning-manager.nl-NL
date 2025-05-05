@@ -122,7 +122,7 @@ Voor actieve trainingen zijn gegevens van alle interne groepen van de hoofdgebru
 
 >[!NOTE]
 >
->De gegevens tonen niet zoals verwacht wanneer **[!UICONTROL Alle Gebruikers]** en **[!UICONTROL 12 maanden]** filters worden geselecteerd, maar de gegevensvertoningen wanneer u **[!UICONTROL Al interne gebruikersgroep ] selecteert.**
+>De gegevens tonen niet zoals verwacht wanneer **[!UICONTROL Alle Gebruikers]** en **[!UICONTROL 12 maanden]** filters worden geselecteerd, maar de gegevensvertoningen wanneer u **[!UICONTROL Al interne gebruikersgroep &#x200B;] selecteert.**
 
 <table>
  <tbody>
@@ -578,7 +578,7 @@ Het gedownloade rapport bestaat uit de volgende velden:
 
 ### Rapporten voor audittrail van inhoud {#contentaudittrailreports}
 
-Gebruik de ]**rapportgenerator van het Trail van de Controle van de Inhoud**[!UICONTROL  om een rapport van alle veranderingen en geeft aan een cursus tijdens zijn leven in het systeem uit. Het gegenereerde rapport bevat de volgende informatie.
+Gebruik de **rapportgenerator van het Trail van de Controle van de Inhoud** om een rapport van alle veranderingen en geeft aan een cursus tijdens zijn leven in het systeem uit. Het gegenereerde rapport bevat de volgende informatie.
 
 * Object-ID
 * Objectnaam
@@ -978,7 +978,7 @@ Ga als volgt te werk om dit rapport te downloaden:
 
 1. Geef de naam en beschrijving van het dashboard op.
 1. Als u het dashboard met om het even welke Manager wilt delen, kies hen in **[!UICONTROL Aandeel met]** gebied. U kunt alle normale selectiecriteria voor deze bewerking gebruiken.
-1. Klik **[!UICONTROL sparen ].**
+1. Klik **[!UICONTROL sparen &#x200B;].**
 
 U kunt het recent gemaakte board bekijken op het tabblad **[!UICONTROL Dashboard Rapporten]**.
 
@@ -1035,7 +1035,7 @@ Het geëxporteerde blad met dashboardrapporten bevat gedetailleerde informatie i
    *Assen voor rapporten*
 
 1. Kies de criteria/het bereik van de secundaire **[!UICONTROL Y-as]** voor uw rapport in de vervolgkeuzelijst. Zo kunt u voor de inschrijvingsoptie van een leerprogramma een of meer statussen uit de vervolgkeuzelijst Statussen kiezen. De gegevens van het secundaire bereik worden in het rapport als lijndiagrammen weergegeven.
-1. Kies de juiste criteria voor de X**-as** voor uw rapport in de vervolgkeuzelijst. Als de x-as als datum is gekozen, hebt u de optie om uw x-ascriterium op dag, maand, kwartaal en jaar te groeperen.
+1. Kies de juiste criteria voor de X&#x200B;**-as** voor uw rapport in de vervolgkeuzelijst. Als de x-as als datum is gekozen, hebt u de optie om uw x-ascriterium op dag, maand, kwartaal en jaar te groeperen.
 1. Kies in de sectie Tijdspanne de toepasselijke optie in de vervolgkeuzelijst. De beschikbare opties zijn:
 
    * Laatste maand

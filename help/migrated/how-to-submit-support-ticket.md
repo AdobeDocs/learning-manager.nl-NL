@@ -16,7 +16,7 @@ Het proces voor het indienen van Adobe Learning Manager-ondersteuningstickets is
 
 Houd er rekening mee dat het verzenden van een ondersteuningsticket alleen beschikbaar is voor geautoriseerde ondersteuningscontactpersonen. Voor uw vragen over ondersteuning kunt u uw ondersteuningstickets tot 11 mei 2025 via e-mail naar Adobe Learning Manager verzenden. Na deze datum kunt u, naast het bestaande e-mailkanaal, ook uw ondersteuningstickets verzenden via de ondersteuningsportal voor Experiencen League, zoals hieronder wordt beschreven.
 
-1. Om tot het portaal van de Steun toegang te hebben, bezoek de **[!UICONTROL website van het Experience League]** en selecteer het **[!UICONTROL 3} lusje van de Steun dat bij de bovenkant van de pagina wordt gevestigd.]** Alternatief, kunt u de [ directe verbinding ](https://experienceleague.adobe.com/home#support) bezoeken.
+1. Om tot het portaal van de Steun toegang te hebben, bezoek de **[!UICONTROL website van het Experience League]** en selecteer het **[!UICONTROL 3&rbrace; lusje van de Steun dat bij de bovenkant van de pagina wordt gevestigd.]** Alternatief, kunt u de [ directe verbinding ](https://experienceleague.adobe.com/home#support) bezoeken.
 
    ![](assets/support.png)
    _homepage van de Steun_
