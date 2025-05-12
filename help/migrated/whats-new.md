@@ -109,7 +109,7 @@ Verwijs naar dit [ artikel ](/help/migrated/administrators/feature-summary/purge
 
 Adobe Learning Manager biedt nu ook ondersteuning voor het selecteren van seminarruimten vanuit Adobe Connect tijdens het instellen van een VC-sessie in Connect. Voorheen kon de beheerder alleen het type vergaderruimte selecteren. Dankzij deze verbetering kan beheerder met een geldige seminarlicentie eenmalige of grootschalige gebeurtenissen (maximaal 1500 deelnemers) plannen en beheren in Adobe Learning Manager.
 
-Bekijk dit [ artikel ](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) voor meer informatie over de seminarruimte.
+Bekijk dit [ artikel ](https://helpx.adobe.com/nl/adobe-connect/using/creating-seminars.html) voor meer informatie over de seminarruimte.
 
 ### Ondersteuning voor toegang tot sessieanalytics
 
