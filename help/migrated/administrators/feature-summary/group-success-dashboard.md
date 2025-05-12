@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Dashboard Groep succesvol
 description: Meer informatie over het groepssuccesdashboard in Adobe Learning Manager
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
+source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Een beheerder kan de dashboards inschakelen en maken door er een naam aan te gev
 De beheerder moet het Groepssuccesdashboard voor het account inschakelen. Ga als volgt te werk om het groepssuccesdashboard in te schakelen:
 
 1. Meld u aan als beheerder.
-2. Selecteer **[!UICONTROL &#x200B; Montages &#x200B;] &#x200B;** en selecteer dan **[!UICONTROL Rapporten]**.
+2. Selecteer **[!UICONTROL  Montages ] **en selecteer dan **[!UICONTROL Rapporten]**.
 3. Selecteer de **[!UICONTROL knevel van het Dashboard zicht]**.
 4. Typ de dashboardnaam (bijvoorbeeld, **[!UICONTROL Dashboard van de Manager van de Opslag]**).
    ![](assets/enable-gsd.png)
@@ -149,6 +150,8 @@ Wanneer u meerdere gebruikersgroepen selecteert, gebruikt Adobe Learning Manager
 
 * **Gebruikersgroepen met het zelfde Actieve gebied**: Als de gebruikersgroepen het zelfde gebied (bijvoorbeeld, Plaats) gebruiken, omvat het systeem alle studenten van beide groepen. De waarden worden gecombineerd. Bijvoorbeeld: **Plaats = Bangalore** en **Plaats = Chennai**. Het omvat studenten van beide locaties.
 * **Gebruikersgroepen met verschillende Actieve gebieden**: Als de gebruikersgroepen verschillende gebieden (bijvoorbeeld, Plaats en Rol) gebruiken, omvat het systeem slechts studenten die aan alle voorwaarden voldoen. Bijvoorbeeld: **Plaats = Bangalore of Chennai** en **Rol = Manager**. Het omvat alleen studenten die de managerrol hebben en zich in Bangalore of Chennai bevinden.
+
+**Samenvatting:**
 
 * Zelfde actief veld: studenten worden gecombineerd (OF logica)
 * Verschillende actieve velden: studenten moeten voldoen aan alle criteria (EN logica)
