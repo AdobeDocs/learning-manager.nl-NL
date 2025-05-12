@@ -2,15 +2,15 @@
 description: Meer informatie over de nieuwe functies en verbeteringen in de mei 2025-versie van Adobe Learning Manager
 jcr-language: en_us
 title: Overzicht van nieuwe functies
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2481'
 ht-degree: 0%
 
 ---
 
 
-# Overzicht van nieuwe functies
+# Overzicht van nieuwe functies, mei 2025
 
 De aanstaande release van Adobe Learning Manager introduceert een verscheidenheid aan nieuwe functies en verbeteringen die zijn gericht op het stroomlijnen van het platform en het verbeteren van de mogelijkheden ervan.
 
@@ -108,7 +108,7 @@ Verwijs naar dit [ artikel ](/help/migrated/administrators/feature-summary/purge
 
 Adobe Learning Manager biedt nu ook ondersteuning voor het selecteren van seminarruimten vanuit Adobe Connect tijdens het instellen van een VC-sessie in Connect. Voorheen kon de beheerder alleen het type vergaderruimte selecteren. Dankzij deze verbetering kan beheerder met een geldige seminarlicentie eenmalige of grootschalige gebeurtenissen (maximaal 1500 deelnemers) plannen en beheren in Adobe Learning Manager.
 
-Bekijk dit [ artikel ](https://helpx.adobe.com/nl/adobe-connect/using/creating-seminars.html) voor meer informatie over de seminarruimte.
+Bekijk dit [ artikel ](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) voor meer informatie over de seminarruimte.
 
 ### Ondersteuning voor toegang tot sessieanalytics
 
