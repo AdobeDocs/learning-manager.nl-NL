@@ -2,7 +2,7 @@
 description: Meer informatie over de nieuwe functies en verbeteringen in de mei 2025-versie van Adobe Learning Manager
 jcr-language: en_us
 title: Overzicht van nieuwe functies
-source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
+source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 0%
@@ -77,6 +77,7 @@ Bekijk dit [ artikel ](/help/migrated/administrators/feature-summary/content-mar
 ## Aanmeldingstoegangsrapport in FTP, aangepaste FTP en Box {#log-in-access-report}
 
 De inlogtoegangsrapporten zijn nu beschikbaar voor Box-, FTP- en Aangepaste FTP-connectoren, naast de bestaande taak-API&#39;s. Dit rapport bevat gedetailleerde informatie over gebruikersaanmeldingsactiviteiten, zoals de uitvoeringsstatus, compressie-instellingen en planningsopties. Het rapport kan op verzoek worden gegenereerd of gepland en de gegevens worden opgeslagen in de opgegeven connector voor eenvoudige toegang en analyse. Deze verbetering verbetert de mogelijkheid om aanmeldingsactiviteiten van gebruikers te controleren en te controleren, zodat de beveiliging en naleving beter worden gevolgd.
+
 Het rapport is nu beschikbaar in de aangepaste FTP, FTP en Box, samen met bestaande rapporten, zoals de voortgang van de student en het voltooien van de cursus. Dankzij deze integratie hebben beheerders vanuit één bron toegang tot alle benodigde rapporten, waardoor ze beter gegevensbeheer en betere analyse kunnen maken.
 
 Het rapport helpt bij automatisering door het exporteren van aanmeldings- en toegangsgegevens naar de FTP mogelijk te maken, waar het kan worden gecombineerd met andere rapporten om uitgebreide dashboards te maken. Deze functie is vooral handig voor organisaties die voor gegevensanalyse en -rapportage gebruikmaken van geautomatiseerde processen.
@@ -108,7 +109,7 @@ Verwijs naar dit [ artikel ](/help/migrated/administrators/feature-summary/purge
 
 Adobe Learning Manager biedt nu ook ondersteuning voor het selecteren van seminarruimten vanuit Adobe Connect tijdens het instellen van een VC-sessie in Connect. Voorheen kon de beheerder alleen het type vergaderruimte selecteren. Dankzij deze verbetering kan beheerder met een geldige seminarlicentie eenmalige of grootschalige gebeurtenissen (maximaal 1500 deelnemers) plannen en beheren in Adobe Learning Manager.
 
-Bekijk dit [ artikel ](https://helpx.adobe.com/nl/adobe-connect/using/creating-seminars.html) voor meer informatie over de seminarruimte.
+Bekijk dit [ artikel ](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) voor meer informatie over de seminarruimte.
 
 ### Ondersteuning voor toegang tot sessieanalytics
 
