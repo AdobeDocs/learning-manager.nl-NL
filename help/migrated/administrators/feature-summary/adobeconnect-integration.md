@@ -70,7 +70,7 @@ Klik op de virtuele klassikale cursus, klik op Aanwezigheid in het linkerdeelven
 
 Adobe Learning Manager ondersteunt het selecteren van seminarruimten vanuit Adobe Connect tijdens het instellen van een sessie in een virtuele lesruimte in Connect. Voorheen kon de beheerder alleen het type vergaderruimte selecteren. Met deze functie kan beheerder met een geldige seminarlicentie eenmalige of grootschalige gebeurtenissen (maximaal 1500 deelnemers) plannen en beheren in ALM.
 
-Verwijs naar dit [ artikel ](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) voor meer informatie over de seminarruimte.
+Verwijs naar dit [ artikel ](https://helpx.adobe.com/nl/adobe-connect/using/creating-seminars.html) voor meer informatie over de seminarruimte.
 
 ### Ondersteuning voor toegang tot sessieanalytics
 
