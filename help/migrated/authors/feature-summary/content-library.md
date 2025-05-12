@@ -200,7 +200,7 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
    Vervolgens kunnen de studenten de bijschriften bekijken tijdens het afspelen van de videomodule.
 
-   Het formaat gesteund is {de Tracks van de Tekst van 0} Video van het Web (webVTT) ](https://www.w3.org/TR/webvtt1/).[
+   Het formaat gesteund is {de Tracks van de Tekst van 0} Video van het Web (webVTT) [&#128279;](https://www.w3.org/TR/webvtt1/).
 
    Ondersteuning voor bijschriften is beschikbaar voor video-inhoud die is geüpload in de inhoudsbibliotheek in Adobe Learning Manager.
 
@@ -208,7 +208,7 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
    De ondertitels verschijnen dan in de Fluidic Player. De titels zijn ook volgzaam aan [ WCAG2.0 normen ](https://www.w3.org/TR/WCAG20/).
 
-   Wanneer u een videoinhoud aan de bibliotheek toevoegt, kunt u het VTT dossier ook toevoegen, dat **** een geldig dossier moet zijn.
+   Wanneer u een videoinhoud aan de bibliotheek toevoegt, kunt u het VTT dossier ook toevoegen, dat **&#x200B;**&#x200B;een geldig dossier moet zijn.
 
    ![](assets/webvtt.png)
 

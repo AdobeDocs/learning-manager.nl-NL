@@ -94,7 +94,7 @@ Verzend het citaat aan [ learningmanagersales@adobe.com ](mailto:learningmanager
 
 ## Studenten uitnodigen voor de inhoudshub
 
-Studenten uitnodigen voor de Content Marketplace om inhoud te verkennen en interesse te wekken. Als beheerder kunt u alle studenten in het account een uitnodiging sturen of geselecteerde studenten uitnodigen. De studenten moeten worden uitgenodigd voordat ze de inhoud kunnen verkennen. Het artikel van de mening ](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub) voor meer informatie over de Hub van de Inhoud.[
+Studenten uitnodigen voor de Content Marketplace om inhoud te verkennen en interesse te wekken. Als beheerder kunt u alle studenten in het account een uitnodiging sturen of geselecteerde studenten uitnodigen. De studenten moeten worden uitgenodigd voordat ze de inhoud kunnen verkennen. Het artikel van de mening [&#128279;](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub) voor meer informatie over de Hub van de Inhoud.
 
 De studenten uitnodigen:
 
@@ -157,9 +157,9 @@ Adobe Learning Manager biedt vooraf geconfigureerde e-mailsjablonen waarmee behe
 
 U kunt drie e-mailsjablonen gebruiken:
 
-1. **[!UICONTROL Succesvolle de Activering van de Inhoud ]:** Verzonden naar beheerders na een succesvolle aankoop van derdeinhoud. Deze melding bevestigt dat de activering is voltooid en dat de aangeschafte inhoud nu in het systeem beschikbaar is voor de toewijzing van studenten.
-2. **[!UICONTROL Geautomatiseerde Gebruiker uploadt Mislukking ]:** teweeggebracht wanneer een geautomatiseerde gebruikersinvoer via CSV ontbreekt. Met deze waarschuwing kunnen beheerders snel problemen in geplande gebruikersupdates identificeren, zodat u corrigerende maatregelen kunt nemen.
-3. **[!UICONTROL nodigt Gebruikers uit om Inhoud ] te onderzoeken:** een uitnodigings-e-mail die naar studenten wordt verzonden zodra de beheerder inhoud van de markt koopt. Daarna kunnen gebruikers hun leertraject direct starten.
+1. **[!UICONTROL Succesvolle de Activering van de Inhoud &#x200B;]:** Verzonden naar beheerders na een succesvolle aankoop van derdeinhoud. Deze melding bevestigt dat de activering is voltooid en dat de aangeschafte inhoud nu in het systeem beschikbaar is voor de toewijzing van studenten.
+2. **[!UICONTROL Geautomatiseerde Gebruiker uploadt Mislukking &#x200B;]:** teweeggebracht wanneer een geautomatiseerde gebruikersinvoer via CSV ontbreekt. Met deze waarschuwing kunnen beheerders snel problemen in geplande gebruikersupdates identificeren, zodat u corrigerende maatregelen kunt nemen.
+3. **[!UICONTROL nodigt Gebruikers uit om Inhoud &#x200B;] te onderzoeken:** een uitnodigings-e-mail die naar studenten wordt verzonden zodra de beheerder inhoud van de markt koopt. Daarna kunnen gebruikers hun leertraject direct starten.
 
 <!--Purchased courses cannot be added in recurring certificates.
 Purchased courses cannot be shared to peer accounts.

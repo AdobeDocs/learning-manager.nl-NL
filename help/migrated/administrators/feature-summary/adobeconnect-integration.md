@@ -38,7 +38,7 @@ Beheerders van een organisatie kunnen de instellingen van het Learning Manager-a
 
    Alleen door Adobe gehoste accounts worden ondersteund in Learning Manager. Voorbeeld; &#39;.adobeconnect.com&#39;.
 
-1. Klik **[!UICONTROL integreren ].**
+1. Klik **[!UICONTROL integreren &#x200B;].**
 
    Nadat de e-mail-ID is geverifieerd, geeft Learning Manager het bericht weer als Connect is geïntegreerd. U kunt uw virtuele klassikale cursussen automatisch bekijken met behulp van Adobe Connect.
 

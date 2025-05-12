@@ -110,7 +110,7 @@ Verwijs dit artikel [ de rollen van de Douane ](/help/migrated/administrators/fe
 
 ## Opmerkingen bij voltooiing
 
-Beheerders kunnen nu opmerkingen toevoegen wanneer studenten als voltooid worden gemarkeerd in cursussen, leerpaden of certificeringen. Beheerders kunnen tegelijkertijd opmerkingen toevoegen voor een of meerdere studenten en de opmerkingen verschijnen in het rapport ](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) Studenttranscripten.[
+Beheerders kunnen nu opmerkingen toevoegen wanneer studenten als voltooid worden gemarkeerd in cursussen, leerpaden of certificeringen. Beheerders kunnen tegelijkertijd opmerkingen toevoegen voor een of meerdere studenten en de opmerkingen verschijnen in het rapport [&#128279;](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) Studenttranscripten.
 
 Verwijs dit artikel [ commentaren van de Voltooiing ](/help/migrated/administrators/feature-summary/courses.md#completion-comments) voor meer informatie.
 
@@ -269,7 +269,7 @@ Hier volgen de voorwaarden voor de kolom `completionCriteria` :
 * Het gegevenstype moet een tekenreeks of getal zijn en het is een optioneel veld.
 * De waarden moeten `ALL`, `X` en `SELECTEDMODULES` zijn.
 * X is een geheel getal dat groter dan 0 en kleiner dan het totale aantal modules moet zijn.
-* Als u `completionCriteria` aan `SELECTEDMODULES` plaatst, moet u de verplichte modules in het {](assets/course_module.csv) dossier 2} course_module.csv merken.[
+* Als u `completionCriteria` aan `SELECTEDMODULES` plaatst, moet u de verplichte modules in het {[&#128279;](assets/course_module.csv) dossier 2} course_module.csv merken.
 * Typ `TRUE` of `FALSE` in de kolom `optionalCriteria` . Als u de waarde instelt als `TRUE` , wordt de module verplicht.
 
 Verwijs [ cursus csv spec ](assets/3-course.xlsx) en [ course_module csv spec ](assets/6-course_module.xlsx) dossier voor meer informatie.
@@ -536,10 +536,10 @@ Het **[!UICONTROL Lerende rapport van Transcripten]** zal twee nieuwe kolommen b
 
 Het **[!UICONTROL Samenvatting van de Zitting]** rapport zal drie nieuwe kolommen bevatten:
 
-* ]**de kolom van identiteitskaart van de Module**[!UICONTROL  is toegevoegd vóór de **[!UICONTROL kolom van de Naam van de Zitting]**.
-* ]**de kolom van identiteitskaart van de Zitting**[!UICONTROL  is toegevoegd vóór de **[!UICONTROL kolom van de Naam van de Zitting]**.
-* ]**kolom van identiteitskaart van de Instantie van 0} Cursus is toegevoegd na de**[!UICONTROL  kolom van de Naam van de Instantie ]**.**[!UICONTROL 
-* ]**de kolom van de Telling van 0} Voltooiing {is toegevoegd na de**[!UICONTROL  kolom van de Telling van de Inschrijving ]**.**[!UICONTROL 
+* **de kolom van identiteitskaart van de Module** is toegevoegd vóór de **[!UICONTROL kolom van de Naam van de Zitting]**.
+* **de kolom van identiteitskaart van de Zitting** is toegevoegd vóór de **[!UICONTROL kolom van de Naam van de Zitting]**.
+* **kolom van identiteitskaart van de Instantie van 0&rbrace; Cursus is toegevoegd na de**&#x200B;[!UICONTROL &#x200B; kolom van de Naam van de Instantie &#x200B;]&#x200B;**.**
+* **de kolom van de Telling van 0&rbrace; Voltooiing &lbrace;is toegevoegd na de**&#x200B;[!UICONTROL &#x200B; kolom van de Telling van de Inschrijving &#x200B;]&#x200B;**.**
 
 ## Bugfixes in deze update
 

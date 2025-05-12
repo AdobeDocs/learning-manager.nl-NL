@@ -36,7 +36,7 @@ Een beheerder kan de dashboards inschakelen en maken door er een naam aan te gev
 De beheerder moet het Groepssuccesdashboard voor het account inschakelen. Ga als volgt te werk om het groepssuccesdashboard in te schakelen:
 
 1. Meld u aan als beheerder.
-2. Selecteer **[!UICONTROL  Montages ] **en selecteer dan **[!UICONTROL Rapporten]**.
+2. Selecteer **[!UICONTROL &#x200B; Montages &#x200B;] &#x200B;** en selecteer dan **[!UICONTROL Rapporten]**.
 3. Selecteer de **[!UICONTROL knevel van het Dashboard zicht]**.
 4. Typ de dashboardnaam (bijvoorbeeld, **[!UICONTROL Dashboard van de Manager van de Opslag]**).
    ![](assets/enable-gsd.png)
