@@ -3,10 +3,10 @@ description: Leer hoe u inhoud maakt en deze afstemt op cursussen als inhoud op 
 jcr-language: en_us
 title: Inhoudsbibliotheek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 2d43c2b7dcaf2cc953418167ee6bd11a24de163b
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4319'
+ht-degree: 39%
 
 ---
 
@@ -196,19 +196,19 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
   U kunt ook HTML-inhoud toevoegen die met Captivate, Presenter of Presenter Video Express is gegenereerd.
 
-1. Learning Manager ondersteunt bijschriften voor video-inhoud die is geüpload in Learning Manager. Nu kunnen auteurs het bestand met bijschriften samen met het videobestand uploaden.
+1. Adobe Learning Manager ondersteunt bijschriften voor video-inhoud die is geüpload in Adobe Learning Manager. Nu kunnen auteurs het bestand met bijschriften samen met het videobestand uploaden.
 
    Vervolgens kunnen de studenten de bijschriften bekijken tijdens het afspelen van de videomodule.
 
-   Het formaat gesteund is {de Tracks van de Tekst van 0} Video van het Web (webVTT) [&#128279;](https://www.w3.org/TR/webvtt1/).
+   Het formaat gesteund is {de Tracks van de Tekst van 0} Video van het Web (webVTT) ](https://www.w3.org/TR/webvtt1/).[
 
-   Bijschriften worden ondersteund voor video-inhoud die is geüpload in de inhoudsbibliotheek in Learning Manager.
+   Ondersteuning voor bijschriften is beschikbaar voor video-inhoud die is geüpload in de inhoudsbibliotheek in Adobe Learning Manager.
 
    Wanneer u als auteur een video- of audio-inhoud uploadt, kunt u ook het VTT-bestand uploaden dat de bijschriften bevat.
 
    De ondertitels verschijnen dan in de Fluidic Player. De titels zijn ook volgzaam aan [ WCAG2.0 normen ](https://www.w3.org/TR/WCAG20/).
 
-   Wanneer u een videoinhoud aan de bibliotheek toevoegt, kunt u het VTT dossier ook toevoegen, dat **&#x200B;**&#x200B;een geldig dossier moet zijn.
+   Wanneer u een videoinhoud aan de bibliotheek toevoegt, kunt u het VTT dossier ook toevoegen, dat **** een geldig dossier moet zijn.
 
    ![](assets/webvtt.png)
 
@@ -222,7 +222,7 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
    >
    >   Eén VTT-bestand ondersteunt één taal. Als u meerdere talen wilt ondersteunen, uploadt u meerdere videobestanden voor elke inhoudstaal en uploadt u vervolgens het respectievelijke VTT-bestand voor elk videobestand.
 
-   Telkens wanneer u de inhoud, video of audio wijzigt, vraagt de Learning Manager u als auteur om een nieuw vtt-bestand.
+   Als auteur vraagt Adobe Learning Manager u telkens wanneer u de inhoud, video of audio wijzigt om een nieuw vtt-bestand.
 
    Nadat u deze inhoud aan een cursus hebt toegevoegd en wanneer u een voorvertoning van de cursus als student bekijkt, kunt u de bijschriften op de video zien.
 
@@ -236,7 +236,7 @@ WebVTT-ondersteuning is niet beschikbaar voor:
    1. Video-aankondigingen.
    1. Video die wordt afgespeeld in de eLearning-inhoud. Dit wordt aangestuurd door de inhoud.
    1. Video geüpload in Social Learning.
-   1. Video gemaakt in de Learning Manager-desktopapp.
+   1. Video gemaakt in Adobe Learning Manager desktop-app.
    1. Video-inhoud gemaakt met behulp van migratieproces.
    1. Video afspelen in mobiele app in offline modus.
 
@@ -422,9 +422,9 @@ De inhoud kan van een gespecificeerde omslag **SLECHTS** worden losgemaakt als h
 
 Nadat u de inhoud hebt toegevoegd, kunt u de voltooiingscriteria voor de inhoud wijzigen.
 
-In Learning Manager worden badges en vaardigheden toegekend op basis van succes en voltooiing. Als de student een cursus heeft voltooid maar niet is geslaagd, ontvangt de student de badge en de vaardigheid voor het LO niet.
+In Adobe Learning Manager worden badges en vaardigheden toegekend op basis van succes en voltooiing. Als de student een cursus heeft voltooid maar niet is geslaagd, ontvangt de student de badge en de vaardigheid voor het LO niet.
 
-Als u bijvoorbeeld Adobe Captivate hebt gebruikt om uw cursus te maken en de leerparameters in te stellen in het dialoogvenster Voorkeuren, worden dezelfde instellingen naar Learning Manager gemigreerd in de opties voor Voltooiingscriteria.
+Als u bijvoorbeeld Adobe Captivate hebt gebruikt om uw cursus te maken en de leerparameters in te stellen in het dialoogvenster Voorkeuren, worden dezelfde instellingen gemigreerd naar Adobe Learning Manager in de opties voor Voltooiingscriteria.
 
 In het gedeelte Voltooiingscriteria kunt u de onderstaande opties instellen:
 
@@ -469,6 +469,110 @@ Sorteer de inhoud op basis van de vraag of de inhoud in een cursus wordt gebruik
 
 *inhoud van de Soort door gebruik*
 
+## Unieke id en vervaldatum voor inhoud toevoegen
+
+### Unieke inhoud-id
+
+De unieke inhoud-id is een unieke code die aan elk inhoudsitem in Adobe Learning Manager wordt gegeven. Hiermee kunnen beheerders en auteurs eenvoudig content vinden en beheren, vooral wanneer ze deze bijwerken of van het ene systeem naar het andere verplaatsen. Deze Content unique ID is ook handig voor het integreren van content met andere tools zoals HR- of compliancesystemen. Voor alle taalversies wordt dezelfde Content-unieke ID gebruikt, zodat alles consistent blijft voor studenten.
+
+* Unieke ID&#39;s voor inhoud moeten uniek zijn voor alle inhoud.
+* Unieke inhoud-id mag geen spaties of speciale tekens bevatten.
+* Als een unieke inhoud-id wordt gedupliceerd, verschijnt er een fout tijdens het maken.
+
+### Wat is vervaldatum
+
+De vervaldatum markeert inhoud die mogelijk verouderd of niet meer nodig is. Zelfs na de vervaldatum blijft de inhoud beschikbaar, maar auteurs en beheerders worden eraan herinnerd deze indien nodig te controleren en bij te werken. Op basis van instellingen kan verlopen inhoud worden verwijderd uit nieuwe inschrijvingen of gearchiveerd. De Vervaldatum werkt, net als de unieke Content-id, op dezelfde manier voor alle taalversies, zodat content overzichtelijk en up-to-date blijft voor iedereen.
+
+* De inhoud blijft ook na het verstrijken beschikbaar.
+* Er verschijnt een waarschuwing als er een datum in het verleden is geselecteerd.
+* In het veld &quot;vervaldatum&quot; worden alle datums tussen 1990 en 2037 geaccepteerd.
+
+Zo kunnen organisaties de relevantie van inhoud behouden zonder per ongeluk gepubliceerde items te verwijderen.
+
+De unieke id en vervaldatum van de inhoud zijn van toepassing op alle taalversies van een inhoudsgroep, zodat alle gebruikers dezelfde ervaring hebben, ongeacht de taal. Auteurs kunnen de Content-unieke ID gebruiken om snel naar specifieke content te zoeken en deze te vinden, waardoor het eenvoudiger wordt om trainingsmateriaal te beheren en bij te werken.
+
+Het **[!UICONTROL rapport van de Opleiding]** omvat nu twee nieuwe kolommen: **[!UICONTROL Vervaldatum van de Inhoud (UTC TimeZone)]** en **[!UICONTROL Unieke identiteitskaart van de Inhoud]**, om de unieke identiteitskaart van de Inhoud en Vervaldatum te volgen. Deze velden kunnen via UI of migratie worden toegevoegd en de beheerder kan ze centraal volgen via trainingsrapporten.
+
+### Unieke id en vervaldatum voor inhoud toevoegen
+
+Auteurs kunnen een unieke inhoud-id toevoegen en een vervaldatum instellen bij het maken van inhoud.
+
+Een unieke id en vervaldatum voor inhoud toevoegen:
+
+1. Meld u aan als auteur.
+2. Selecteer **[!UICONTROL creeer Inhoud]** of selecteer **[!UICONTROL de Bibliotheek van de Inhoud]** in het linkerpaneel.
+
+   ![](assets/create-content.png)
+   _Uitgezocht creeer Inhoud in homepage_
+
+3. Selecteer **[!UICONTROL voeg]** toe en selecteer dan **[!UICONTROL Inhoud]** in auteurshomepage.
+
+   ![](assets/add-content.PNG)
+   _Uitgezocht voeg inhoud in de Bibliotheek van de Inhoud toe_
+
+4. Type de **[!UICONTROL Naam]** en **[!UICONTROL Beschrijving]**
+
+5. Selecteer de inhoud van de **[!UICONTROL Add optie van het Dossier van de Inhoud]**
+6. Selecteer de omslag van **[!UICONTROL toevoegen aan Omslag]** optie om de inhoud aan omslag toe te voegen.
+
+   ![](assets/add-a-new-content.png)
+   _voeg nieuwe inhoud toe_
+
+7. Typ identiteitskaart van de geüploade inhoud in het **[!UICONTROL unieke identiteitskaart van de Inhoud]** gebied. De id moet uniek zijn en moet de juiste naamgevingsrichtlijnen volgen. De id mag geen niet-ASCII-tekens of spaties bevatten. Als u een dubbele id invoert, wordt een foutbericht weergegeven.
+
+   ![](assets/content-unique-id.png)
+   _Gebied voor het ingaan van een unieke alfanumerieke identiteitskaart van de Inhoud_
+
+8. Selecteer de vervaldatum voor de inhoud. Deze datum heeft geen invloed op de beschikbaarheid van inhoud of de toegang van studenten. U kunt een willekeurige datum kiezen tussen 1990 en 2037. Als u een datum in het verleden hebt geselecteerd, verschijnt er een waarschuwing, maar kan de inhoud nog wel worden gepubliceerd.
+9. Selecteer **[!UICONTROL sparen]**.
+De geüploade inhoud verschijnt nu in de **[!UICONTROL Bibliotheek van de Inhoud]**.
+
+### Unieke id voor inhoud en Vervaldatum voor talen instellen
+
+De unieke id en de vervaldatum van de inhoud worden gedefinieerd op het niveau van de inhoudsgroep. Dit houdt in dat ze eenmaal worden ingesteld en automatisch worden toegepast op alle taalversies van de inhoud.
+
+1. Selecteer de inhoud in de **[!UICONTROL Bibliotheek van de Inhoud]**.
+2. Selecteer **[!UICONTROL Bewerken]**.
+3. Selecteer **[!UICONTROL voeg Nieuwe Taal]** toe.
+4. Selecteer een willekeurige taal in de lijst.
+5. Selecteer **[!UICONTROL sparen]**.
+De unieke inhoud-id en de vervaldatum worden nu weergegeven op de taalspecifieke versie van de inhoud, zoals in dit voorbeeld Duits.
+
+### Zoeken met de unieke inhoud-id
+
+U kunt de Content Unique ID gebruiken om te zoeken naar inhoud in alle taalversies, zodat u gemakkelijker specifieke items kunt vinden en beheren. Daarnaast worden zowel de unieke inhoud als de vervaldatum opgenomen in trainingsrapporten voor consistente tracering en rapportage.
+
+1. Lanceer de **[!UICONTROL Bibliotheek van de Inhoud]**.
+2. Typ de **[!UICONTROL unieke identiteitskaart van de Inhoud]** in de onderzoeksbar.
+
+   ![](assets/search-unique-id.png)
+   _Doorzoekend inhoud gebruikend unieke identiteitskaart van de Inhoud_
+3. Selecteer de inhoud die u wilt weergeven of bewerken.
+
+### Ondersteuning voor contentmigratie
+
+Wanneer het migreren van inhoud, kunt u **expresDate** en **uniqueContentId** in het module_version.csv- dossier omvatten. Zo bent u verzekerd van continuïteit van metagegevens bij het verplaatsen van inhoud tussen systemen.
+
+### Wijzigingen rapportage
+
+In het trainingsrapport zijn nu twee nieuwe kolommen beschikbaar, een unieke ID voor inhoud en een vervaldatum voor inhoud. Met deze velden kunnen beheerders de vervaldatums van inhoud beter controleren.
+
+## Inhoud archiveren {#retirecontent}
+
+Zodra u inhoud hebt gepubliceerd, kunt u deze niet meer verwijderen. U moet de inhoud eerst archiveren. Wanneer u inhoud als gearchiveerd markeert, kunnen studenten de inhoud niet meer zien. De inhoud beweegt ook naar de **[!UICONTROL Gearchiveerde]** sectie.
+
+Volg deze stappen om de inhoud te archiveren:
+
+* In **[!UICONTROL bibliotheek van de Inhoud]**, selecteer de inhoud u wilt archiveren.
+* Selecteer **[!UICONTROL Actie]** en selecteer dan **[!UICONTROL Retire]**.
+
+Dit is niet van invloed op inhoud die in leerobjecten wordt gebruikt. Studenten hebben nog steeds toegang tot de inhoud.
+
+>[!NOTE]
+>
+>U kunt inhoud van de **[!UICONTROL Gearchiveerde]** sectie ook toevoegen, aan **[!UICONTROL Bibliotheek van de Inhoud]** navigeren en dan **[!UICONTROL Gearchiveerd]** selecteren. Selecteer **[!UICONTROL inhoud]** toevoegen. Voor meer details, zie [ statische inhoud ](content-library.md#addstaticcontent) toevoegen.
+
+
 ## Naar inhoud zoeken {#searchforcontent}
 
 In de inhoudsbibliotheek kunt u naar inhoud zoeken door de naam van de inhoud te selecteren, of de tags die aan de inhoud zijn gekoppeld.
@@ -476,22 +580,6 @@ In de inhoudsbibliotheek kunt u naar inhoud zoeken door de naam van de inhoud te
 Voer in de zoekbalk de naam van een cursus of tag in om aanbevelingen te krijgen.
 
 <!--![](assets/search-bar.png)-->
-
-## Inhoud archiveren {#retirecontent}
-
-Zodra u inhoud hebt gepubliceerd, kunt u deze niet meer verwijderen. U moet de inhoud eerst archiveren. Wanneer u inhoud als gearchiveerd markeert, kunnen studenten de inhoud niet meer zien. De inhoud gaat ook naar de sectie Gearchiveerd verplaatst. U kunt de inhoud ook later de status Gepubliceerd geven.
-
-Volg deze stappen om de inhoud te archiveren:
-
-* Selecteer de inhoud die u wilt archiveren in de inhoudsbibliotheek.
-* Selecteer Actie > Archiveren.
-
-Dit is niet van invloed op inhoud die in leerobjecten wordt gebruikt. Studenten hebben nog steeds toegang tot de inhoud.
-
->[!NOTE]
->
->U kunt inhoud van de **[!UICONTROL Gearchiveerde]** sectie ook toevoegen, aan **[!UICONTROL Bibliotheek van de Inhoud]** > **[!UICONTROL Gearchiveerd]** navigeren en **[!UICONTROL selecteren voeg Inhoud]** toe. Voor meer details, zie [ statische inhoud ](content-library.md#addstaticcontent) toevoegen.
-
 
 ## Gearchiveerde inhoud publiceren {#republishretiredcontent}
 
@@ -521,12 +609,12 @@ Bestaande cursussen die de inhoud gebruiken, en die uit de inhoudsbibliotheek wo
 
 +++ Hoe upload ik SCORM-inhoud in Adobe Learning Manager?
 
-Maak een SCORM-conforme eLearning-cursus in een willekeurige tool, zoals Adobe Captivate, en publiceer de inhoud als een ZIP-bestand. Upload vervolgens het ZIP-bestand in de catalogus in Leerbeheer en stel de criteria voor voltooiing en succes in.
+Maak een SCORM-conforme eLearning-cursus in een willekeurige tool, zoals Adobe Captivate, en publiceer de inhoud als een ZIP-bestand. Upload vervolgens het ZIP-bestand in de catalogus in Adobe Learning Manager en stel de criteria voor voltooiing en succes in.
 +++
 
-+++Hoe kan ik een nieuwe versie van dezelfde inhoud uploaden naar Learning Manager?
++++Hoe kan ik een nieuwe versie van dezelfde inhoud uploaden naar Adobe Learning Manager?
 
-In Leerbeheer worden in de inhoudsbibliotheek ook versies van uw geüploade inhoud bijgehouden. Als u een wijziging aanbrengt in de inhoud, bijvoorbeeld in een PowerPoint-presentatie, en de presentatie opnieuw uploadt in de bibliotheek, wordt het versienummer met één verhoogd. Dit helpt u om veranderingen in uw inhoud bij te houden. U kunt een nieuwe versie van de inhoud op alle leerobjecten tegelijk toepassen, of individuele updates voor elke cursus toepassen.
+In Adobe Learning Manager worden in de inhoudsbibliotheek ook versies van uw geüploade inhoud bijgehouden. Als u een wijziging aanbrengt in de inhoud, bijvoorbeeld in een PowerPoint-presentatie, en de presentatie opnieuw uploadt in de bibliotheek, wordt het versienummer met één verhoogd. Dit helpt u om veranderingen in uw inhoud bij te houden. U kunt een nieuwe versie van de inhoud op alle leerobjecten tegelijk toepassen, of individuele updates voor elke cursus toepassen.
 +++
 
 +++Hoe kan ik de gegevens van een cursus in een andere taal bewerken?

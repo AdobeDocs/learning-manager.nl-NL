@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Cursusinstanties en leerpaden maken
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '5153'
-ht-degree: 58%
+source-wordcount: '5674'
+ht-degree: 52%
 
 ---
 
@@ -51,9 +51,9 @@ Als u een instantie wilt maken,
    * Op het **[!UICONTROL gebied van de Naam van de Instantie]**, ga de naam van de instantie in u met de cursus wilt associëren. Zorg ervoor dat u een unieke naam voor de instantie gebruikt.
    * Geef de voltooiingsdeadline voor de instantie op. Studenten moeten hun cursus vóór deze datum voltooien.
    * Klik **[!UICONTROL tonen Meer Opties]** om andere deadline opties te tonen.
-   * **[!UICONTROL Deadline van de Inschrijving &#x200B;]:** dit is de datum waardoor een student naar verwachting in een het leren voorwerp in het geval van zelf-inschrijving moet inschrijven.
-   * **[!UICONTROL Deadline van de Uitschrijving &#x200B;]:** u kunt verkiezen om uitschrijving door student zelf te beperken door een uitschrijvingsdeadline te hebben.
-   * **[!UICONTROL Tijdzone &#x200B;]:** Onderzoek en selecteer dan de **[!UICONTROL Tijdzone]** van dropdown.
+   * **[!UICONTROL Deadline van de Inschrijving ]:** dit is de datum waardoor een student naar verwachting in een het leren voorwerp in het geval van zelf-inschrijving moet inschrijven.
+   * **[!UICONTROL Deadline van de Uitschrijving ]:** u kunt verkiezen om uitschrijving door student zelf te beperken door een uitschrijvingsdeadline te hebben.
+   * **[!UICONTROL Tijdzone ]:** Onderzoek en selecteer dan de **[!UICONTROL Tijdzone]** van dropdown.
 
    Een beheerder kan besluiten om voltooiingsdeadlines voor een leerprogramma in te stellen afhankelijk van vereisten. Het is echter raadzaam er een te hebben voor klassikale/virtuele klassikale trainingen.
 
@@ -110,7 +110,7 @@ Voer de volgende stappen uit om een gearchiveerde instantie te herstellen naar e
 
 ### Instantie verwijderen
 
-Beheerders kunnen de instantie schrappen gebruikend **schrapt deze instantie** optie onmiddellijk na de verwezenlijking. U kunt geen instanties verwijderen als er een bijbehorende sessie is of als er studenten voor zijn ingeschreven.
+De beheerders kunnen de instantie schrappen gebruikend **schrapt deze instantie** optie onmiddellijk na de verwezenlijking. U kunt geen instanties verwijderen als er een bijbehorende sessie is of als er studenten voor zijn ingeschreven.
 
 ![](assets/delete-this-instance.png)
 
@@ -239,13 +239,79 @@ Het rapport bevat gegevens van actieve, verwijderde en geblokkeerde gebruikers a
 
 Als een student die eerder de status In afwachting van goedkeuring had, zich uitschrijft, zal zijn/haar record niet aanwezig zijn in het rapport. Ook als een student die eerder de status In afwachting van goedkeuring had, is ingeschreven voor de cursus door een beheerder/manager/aangepaste beheerder, dan is zijn/haar record aanwezig in het rapport.
 
+## Inschrijving, aanwezigheid en voltooiing van studenten bulksgewijs beheren {#bulk-enrollment}
+
+Met de bulkinschrijvingsfunctie van Adobe Learning Manager kunnen beheerders efficiënt grote groepen studenten inschrijven voor cursussen, certificeringen of leerprogramma&#39;s door een CSV-bestand te uploaden. Dit proces bespaart tijd, verzekert consistentie, en steunt organisatorische scalability. Bovendien kunnen beheerders en docenten de studentinformatie, aanwezigheid en voltooiing bulksgewijs bijwerken via CSV-uploads, waardoor handmatig werk wordt geminimaliseerd en de nauwkeurigheid van de gegevens wordt gegarandeerd.
+
+U kunt dezelfde CSV-bestandsindeling gebruiken voor inschrijving, aanwezigheid en voltooiing. Voer de e-mail-ID&#39;s van de student in onder de kolom &quot;E-mail&quot; en sla het bestand op met een naam die is gebaseerd op de handeling, bijvoorbeeld bulk_enrollment.csv, bulk_attendance.csv of bulk_completion.csv. Alleen de CSV-indeling wordt ondersteund. UTF-8-indeling wordt niet ondersteund. Download hier de steekproef csv [ ](assets/Sample-Bulk-Action-CSV.csv).
+
+### Studenten in bulk inschrijven met een CSV
+
+In plaats van de studenten één voor één toe te voegen, kunnen beheerders tot 100.000 gebruikers tegelijkertijd inschrijven door een CSV-bestand te uploaden. Het dossier moet een kolom geëtiketteerd **userEmail** met de e-mailadressen van de studenten omvatten om worden ingeschreven.
+
+Vele studenten inschrijven met CSV:
+
+1. Meld u aan als beheerder.
+2. Selecteer een cursus van de **[!UICONTROL sectie van Cursussen]**.
+3. Selecteer **[!UICONTROL Studenten]** in de **[!UICONTROL pagina van het Overzicht van de Cursus]**.
+4. Selecteer **[!UICONTROL Inschrijven]** en selecteer dan **[!UICONTROL upload een CSV]**.\
+   ![](assets/upload-a-csv-learners.png)
+   _het Inschrijven student gebruikend CSV uploadt_
+5. Upload een CSV en selecteer **[!UICONTROL ga]** verder.
+
+Het CSV-bestand bevat een kolom met de naam &quot;User Email&quot;. Voer in deze kolom de e-mailadressen voor uw gebruikers in.
+
+### Voltooiing van cursus in bulk markeren
+
+Beheerders kunnen snel de voltooiing van een cursus voor veel studenten tegelijk markeren door een CSV-bestand met hun e-mailadressen te uploaden. Zo bespaart u tijd in vergelijking met het afzonderlijk bijwerken van elke student. In de kolom userEmail van CSV wordt aangegeven welke studenten moeten worden bijgewerkt. U kunt maximaal 10.000 studenten als voltooid markeren tijdens één upload.
+
+De bulkvoltooiing markeren:
+
+1. Selecteer een cursus van de **[!UICONTROL sectie van Cursussen]**.
+2. Selecteer **[!UICONTROL Studenten]** in de **[!UICONTROL pagina van het Overzicht van de Cursus]**.
+3. Selecteer **[!UICONTROL Acties]** en dan **[!UICONTROL Voltooiing van het Teken]**.
+4. Selecteer **[!UICONTROL Bulk]**.
+5. Upload een CSV-bestand met een userEmail-kolom waarin de studenten worden vermeld die de cursus hebben voltooid.
+
+   ![](assets/bulk-completion.png)
+   _het Markeren bulkvoltooiing gebruikend CSV_
+
+### Aanwezigheid in bulk markeren
+
+Beheerders kunnen aanwezigheid voor veel studenten tegelijk markeren met behulp van een bulkaanwezigheidsfunctie. In plaats van de aanwezigheid van elke student afzonderlijk bij te werken, kunnen beheerders een CSV-bestand uploaden dat de e-mailadressen van de studenten bevat. De userEmail kolom in de CSV identificeert de aanwezigheid van studenten om op te nemen. Dit proces kan tot 10.000 studenten verwerken in één upload, waardoor aanwezigheid sneller en efficiënter wordt gemarkeerd.
+
+De aanwezigheid in bulk markeren:
+
+1. Selecteer een cursus van de **[!UICONTROL sectie van Cursussen]**.
+2. Selecteer **[!UICONTROL Aanwezigheid &amp; het Scoren]** in de **[!UICONTROL pagina van het Overzicht van de Cursus]**.
+3. Selecteer **[!UICONTROL Acties]** en selecteer dan **[!UICONTROL Gevonden Bulk van het Teken]**.
+4. Upload een CSV-bestand dat een kolom userEmail bevat met de e-mailadressen van de studenten van wie u de aanwezigheid wilt bijwerken.
+
+   ![](assets/mark-bulk-attendance.png)
+   _het Markeren bulkaanwezigheid gebruikend CSV_
+
+>[!NOTE]
+>
+>U kunt aanwezigheid voor maximaal 10.000 gebruikers in bulk markeren met behulp van CSV.
+
+### Algemene CSV-uploadfouten
+
+* Het e-mailadres van de student in de CSV bestaat niet in de Adobe Learning Manager-gebruikersmap.
+* De bestandsindeling is onjuist.
+* Het bestand bevat extra kolommen of ongeldige gegevens.
+
+![](assets/error-bulk.png)
+_het bericht van de Fout_
+
+U kunt het CSV-bestand met de fouten met mislukte gebruikers op rijniveau downloaden en bekijken, zodat u het gemakkelijk kunt herkennen.
+
 ## Wachtlijst
 
 In de sectie Wachtlijst kunnen studenten op basis van hun inschrijvingsvolgorde voor klassikale cursussen worden weergegeven wanneer de plaatsen beperkt zijn. Beheerders kunnen dit beheren door studenten op de wachtlijst te selecteren en plaatsen toe te wijzen die de oorspronkelijke limiet overschrijden. Nadat de beheerder een licentie heeft toegewezen, wordt de student onmiddellijk ingeschreven voor de cursus.
 
 ### Wachtlijstrapport
 
-Met Adobe Learning Manager kunnen beheerders de lijst met studenten op de wachtlijst downloaden voor alle instanties van een cursus. Beheerders kunnen tot dit rapport van de sectie van de Wachtlijst op de **[!UICONTROL pagina van het Overzicht van de Cursus]** toegang hebben.
+Met Adobe Learning Manager kunnen beheerders de lijst met studenten op de wachtlijst downloaden voor alle instanties van een cursus. De beheerders kunnen tot dit rapport van de sectie van de Wachtlijst op de **[!UICONTROL pagina van het Overzicht van de Cursus]** toegang hebben.
 
 De volgende kolommen zijn beschikbaar in het rapport Wachtlijst:
 
@@ -352,7 +418,7 @@ In deze release van Learning Manager kan de beheerder L1-feedback sturen voor al
 
 Quizrapporten helpen bij het evalueren van de prestaties van een student na voltooiing van een leerprogramma of cursus.
 
-Learning Manager vergemakkelijkt momenteel het leren in 13 interfacetalen en 32 inhoudstalen. Hoewel deze optie gebruiksvriendelijk is en gemak biedt bij het ondersteunen van onze studenten wereldwijd, is het voor beheerders geen eenvoudige taak om rapporten op te halen over de pogingen die in verschillende landen zijn gedaan.
+Learning Manager vergemakkelijkt momenteel het leren in 13 interfacetalen en 32 inhoudstalen. Hoewel deze optie studentvriendelijk is en onze studenten wereldwijd eenvoudig kan ondersteunen, is het lastig voor beheerders om rapporten op te halen die in verschillende landinstellingen worden geprobeerd.
 
 Quizrapporten geven gegevens in verschillende talen weer als de cursus in meerdere talen wordt aangeboden. Tot nu toe werden in rapporten die zijn gegenereerd door de beheerder onder elkaar reacties weergegeven, ongeacht de taal waarin de quiz is uitgevoerd. **bijvoorbeeld**, als een gebruiker een quiz in het Nederlands heeft genomen, zal Admin slechts die quizrapporten kunnen bekijken die door gebruikers in het Nederlands tegelijkertijd worden geprobeerd. De beheerder die Engels als interfacetaal heeft geselecteerd, kon geen rapporten voor alle gebruikers tegelijkertijd bekijken, ongeacht de taal waarin pogingen werden gedaan om de quiz te doen.
 
@@ -424,7 +490,7 @@ U kunt de vragenlijst voor L1- en L3-feedback instellen evenals herinneringen op
 
 1. Klik **[!UICONTROL Montages]** en dan **[!UICONTROL Terugkoppeling]** op de linkerruit nadat u login als Beheerder.\
    De de montagespagina van de terugkoppeling verschijnt met twee lusjes: **[!UICONTROL L1 Terugkoppeling]** en **[!UICONTROL L3 Terugkoppeling]**.\
-   **lusje van de Terugkoppeling 0&rbrace; L1 bestaat uit een lijst van gebrek**&#x200B;[!UICONTROL &#x200B; L1 terugkoppelt &#x200B;]&#x200B;**vragenlijst voor klassenruimte en zelf-afgepaste cursussen samen met herinneringsmontages.** In **[!UICONTROL L3 Terugkoppeling]** tabel, kunt u L3 terugkoppelen standaardverklaring en herinneringsmontages bekijken.
+   ]**lusje van de Terugkoppeling 0} L1 bestaat uit een lijst van gebrek**[!UICONTROL  L1 terugkoppelt ]**vragenlijst voor klassenruimte en zelf-afgepaste cursussen samen met herinneringsmontages.**[!UICONTROL  In **[!UICONTROL L3 Terugkoppeling]** tabel, kunt u L3 terugkoppelen standaardverklaring en herinneringsmontages bekijken.
 
 1. Klik op Bewerken rechtsboven op de pagina om de bestaande vragenlijst aan te passen.\
    In **[!UICONTROL L1 terugkoppeling]** tabel, kunt u elke vraag toelaten/onbruikbaar maken door ja/neen knevelknoop te klikken.\
@@ -516,7 +582,7 @@ Kies het type instantie uit de vervolgkeuzelijst om de scores weer te geven op b
 
 ## Standaardinstantie
 
-Beheerders kunnen standaardBadges, gamificationmontages en herinneringen in **[!UICONTROL Standaardinstantie]** pagina plaatsen. Om de standaardinstantiemontages te wijzigen, uitgezocht **[!UICONTROL StandaardInstantie]** > **[!UICONTROL geef]** uit.
+De beheerders kunnen standaardBadges, gamificationmontages en herinneringen in **[!UICONTROL Standaardinstantie]** pagina plaatsen. Om de standaardinstantiemontages te wijzigen, uitgezocht **[!UICONTROL StandaardInstantie]** > **[!UICONTROL geef]** uit.
 
 * **[!UICONTROL Badge]**: Selecteer de standaardbadges van het dropdown menu.
 * **[!UICONTROL Gamification]**: Vorm gamificationmontages, met inbegrip van punten voor voltooiing, vroege voltooiing, en geschikte voltooiing. Beheerders kunnen instellingen op accountniveau selecteren of de gamificationpunten voor deze instantie aanpassen.
@@ -547,7 +613,7 @@ Ga als volgt te werk om opmerkingen bij voltooiing toe te voegen:
 2. Ga naar de **[!UICONTROL pagina van Cursussen]** en selecteer een cursus.
 3. Selecteer **[!UICONTROL Studenten]** op de cursuspagina.
 4. Kies de individuele student of meerdere studenten.
-5. Selecteer **[!UICONTROL Acties]** en selecteer dan *** [!UICONTROL &#x200B; Voltooiing van het Teken &#x200B;] &#x200B;**.
+5. Selecteer **[!UICONTROL Acties]** en selecteer dan *** [!UICONTROL  Voltooiing van het Teken ] **.
 6. Voer in het dialoogvenster uw voltooiingsopmerking in.
 
    ![](assets/comments.png)

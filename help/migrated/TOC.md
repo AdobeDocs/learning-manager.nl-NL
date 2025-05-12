@@ -2,10 +2,10 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: dd6143bc9c9a2bd564ae0925f5103073325c5d8a
+source-git-commit: 7c06bc9f7b5c7c36dda06985b4327898ea776597
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 84%
+source-wordcount: '664'
+ht-degree: 82%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 84%
 * [Gebruikersgids voor Learning Manager](user-guide.md)
 * Inleiding {#introduction}
    * [Overzicht van nieuwe functies](/help/migrated/whats-new.md)
+   * [Overzicht van nieuwe functies in november 2024](/help/migrated/whats-new-nov-24.md)
    * [Overzicht van nieuwe functies, juli 2024](whats-new-july-2024.md)
    * [Nieuwe functies maart 2024](whats-new-march-2024.md)
    * [Nieuwe functies november 2023](whats-new-november-2023.md)
    * [Nieuwe functies juli 2023](whats-new-2023-july.md)
-   * [Nieuwe functies april 2023](whats-new-2023-april.md)
    * [Aanvullende informatie](release-note/release-notes.md)
    * [Systeemvereisten](system-requirements.md)
    * [ALM-referentiesite voor AEM Sites](adobe-learning-manager-integration-aem.md)
@@ -39,12 +39,14 @@ ht-degree: 84%
    * [Aan de slag voor managers](managers/feature-summary/getting-started-manager.md)
    * [Aan de slag als docent in Learning Manager](instructors/feature-summary/getting-started.md)
 * Beheerder {#admin}
+   * [Admin AI Assistant (Bèta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [Gebruikersaanmelding](administrators/feature-summary/user-login.md)
    * [Gebruikers toevoegen en gebruikersgroepen maken](administrators/feature-summary/add-users-user-groups.md)
    * [Locaties van klaslokalen toevoegen](administrators/feature-summary/classroom.md)
    * [Cursusinstanties en leerpaden maken](administrators/feature-summary/courses.md)
    * [Inhoudsmarktplaats](administrators/feature-summary/content-marketplace.md)
    * [Rapporten](administrators/feature-summary/reports.md)
+   * [Dashboard Groep succesvol](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Leerpaden](administrators/feature-summary/learning-paths.md)
    * [Leerplannen](administrators/feature-summary/learning-plans.md)
    * [Bestellingen en facturering van Learning Manager beheren](administrators/feature-summary/billing-management.md)

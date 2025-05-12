@@ -3,13 +3,13 @@ description: Leer hoe te om de interfacetaal met SAML te vormen
 jcr-language: en_us
 title: Interface instellen via SAML
 contentowner: chandrum
-source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
+exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
+source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
-
 
 # Interface instellen via SAML
 
@@ -83,7 +83,7 @@ Voer de volgende stappen uit om de SSO in ALM te configureren:
 
 6. Ga terug naar de **[!UICONTROL Opstelling]** tabel.
 7. Van dropdown, selecteer **[!UICONTROL Enige Sign-On Configuratie]**.
-8. In het **dropdown van de Opstelling van 0&rbrace; SSO, selecteer de configuratienaam u vroeger creeerde.**
+8. In het ]**dropdown van de Opstelling van 0} SSO, selecteer de configuratienaam u vroeger creeerde.**[!UICONTROL 
 9. Selecteer **[!UICONTROL Opslaan]**.
 
 ## Gebruikersaanmelding en taalinstellingen
@@ -96,4 +96,18 @@ Als een gebruiker zacht uit ALM wordt verwijderd, blijven de taalinstellingen in
 
 Beheerders kunnen de gebruikersactiviteit-, leeroverzicht- en nalevingsdashboardrapporten controleren op taalspecifieke details.
 
+## Voorkeursupdate voor gebruikerstaal bij aanmelding via SAML
 
+Adobe Learning Manager is een meertalig platform dat de taalvoorkeuren van studenten op verschillende manieren ondersteunt, via de interface-, content- en cursusmodules, allemaal beschikbaar in meerdere talen.
+
+Dankzij deze verbetering verbetert Adobe Learning Manager de just-in-time gebruikersprovisioning voor native platformgebruikers. Wanneer nieuwe gebruikers accounts maken en zich voor het eerst aanmelden, worden hun taalvoorkeuren nauwkeurig vastgelegd en automatisch toegepast.
+
+### Belangrijkste voordelen
+
+* Hiermee werkt u de taalvoorkeuren van gebruikers automatisch bij tijdens het aanmelden.
+* Biedt een gepersonaliseerde ervaring door de interface en inhoud weer te geven in de voorkeurstaal van de gebruiker.
+* Kan naadloos worden geïntegreerd met het SAML-verificatieproces.
+
+Wanneer gebruikers zich via SAML aanmelden, wordt hun taalvoorkeur (interface- en inhoudstaal) gecontroleerd en bijgewerkt op basis van de informatie die tijdens het aanmeldingsproces wordt verstrekt.
+
+De functie integreert met het SAML-aanmeldingsproces om de taalvoorkeur van de gebruiker naadloos vast te leggen en bij te werken.

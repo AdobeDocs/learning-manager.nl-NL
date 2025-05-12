@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Adobe Connect-integratie
 description: Auteurs kunnen virtuele klassikale cursussen maken met Adobe Connect tijdens het maken van cursussen. U moet contact opnemen met de beheerder van uw organisatie om Adobe Connect voor uw Learning Manager-account in te schakelen.
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
+source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 70%
+source-wordcount: '595'
+ht-degree: 49%
 
 ---
-
-
 
 # Adobe Connect-integratie
 
@@ -18,13 +17,13 @@ Beheerders van een organisatie kunnen de instellingen van het Learning Manager-a
 
 ## Adobe Connect configureren {#configureadobeconnect}
 
-1. Klik in Beheerdersaanmelding op **[!UICONTROL Instellingen]** in het linkerdeelvenster om de basisinformatie over uw bedrijf te bekijken. Klikken **[!UICONTROL Adobe Connect]** in het linkerdeelvenster.
+1. Klik in Beheerdersaanmelding op **[!UICONTROL Instellingen]** in het linkerdeelvenster om de basisinformatie over uw bedrijf te bekijken. Klik **[!UICONTROL Adobe Connect]** op de linkerruit.
 
    ![](assets/left-pane.png)
 
-   *Adobe Connect selecteren in het linkerdeelvenster*
+   *Uitgezochte Adobe Connect in de linkerruit*
 
-1. Klikken **[!UICONTROL Nu configureren]** link in **[!UICONTROL Adobe Connect-configuratie]** sectie.
+1. Klik **[!UICONTROL vormen nu]** verbinding in **[!UICONTROL de sectie van de Configuratie van Adobe Connect]**.
 
    <!--![](assets/configure-now-connect.png)-->
 
@@ -32,14 +31,14 @@ Beheerders van een organisatie kunnen de instellingen van het Learning Manager-a
 
    ![](assets/adobeconnect-config.png)
 
-   *Domeinnaam en referenties toevoegen*
+   *voeg domeinnaam en geloofsbrieven toe*
 
    Een voorbeeld van een Adobe Connect-URL: mycompany.adobeconnect.com\
    U moet de e-mail-ID van de beheerder van het Connect-account van de Adobe opgeven.
 
    Alleen door Adobe gehoste accounts worden ondersteund in Learning Manager. Voorbeeld; &#39;.adobeconnect.com&#39;.
 
-1. Klikken **[!UICONTROL Integreren].**
+1. Klik **[!UICONTROL integreren ].**
 
    Nadat de e-mail-ID is geverifieerd, geeft Learning Manager het bericht weer als Connect is geïntegreerd. U kunt uw virtuele klassikale cursussen automatisch bekijken met behulp van Adobe Connect.
 
@@ -51,11 +50,11 @@ Beheerders van een organisatie kunnen de instellingen van het Learning Manager-a
 
 Als de auteur van een virtuele klassikale cursus de sessie-informatie niet heeft verstrekt, dan kan de beheerder de sessiedetails opnemen.
 
-Klik op de naam van de VC-cursus in Beheerdersaanmelding. Klikken **[!UICONTROL Instanties]** in het linkerdeelvenster en klik op **[!UICONTROL Sessiedetails]**.  Klik op het pictogram Bewerken in de rechterhoek van de pagina Sessiedetails om de sessiegegevens toe te voegen.
+Klik op de naam van de VC-cursus in Beheerdersaanmelding. Klik **[!UICONTROL Instanties]** op de linkerruit en klik **[!UICONTROL Details van de Zitting]**.  Klik op het pictogram Bewerken in de rechterhoek van de pagina Sessiedetails om de sessiegegevens toe te voegen.
 
 ![](assets/session-creation-admin.png)
 
-*Sessiegegevens van virtuele lesruimten toevoegen*
+*voeg informatie van de virtuele klassikale zitting toe*
 
 Met de integratie van Adobe Learning Maanger en Adobe Connect voor het maken van virtuele klassikale modules of sessies, moet uw Connect-account ondersteuning bieden voor vergaderzalen met een voldoende aantal ruimten en gelijktijdige gebruikers voor uw use case. Deze vergaderzalen worden gebruikt om virtuele klassikale modules van Learning Manager te hosten. Er wordt door Learning Manager dynamisch een nieuwe Connect vergaderzaal aangemaakt voor elke virtuele klasmodule of sessie binnen Learning Manager.
 
@@ -66,3 +65,29 @@ U moet Adobe Connect apart aanschaffen, los van Adobe Learning Manager.
 Als de host van de virtuele klassikale cursus de sessie niet bijwoont, dan wordt de aanwezigheid van de studenten die de sessie hebben bijgewoond niet automatisch geregistreerd. In dergelijke gevallen kan de beheerder de aanwezigheid handmatig vastleggen.
 
 Klik op de virtuele klassikale cursus, klik op Aanwezigheid in het linkerdeelvenster van de volgende pagina en neem de aanwezigheid op.
+
+## Ondersteuning voor Adobe Connect-seminars met grote doelgroepen
+
+Adobe Learning Manager ondersteunt het selecteren van seminarruimten vanuit Adobe Connect tijdens het instellen van een sessie in een virtuele lesruimte in Connect. Voorheen kon de beheerder alleen het type vergaderruimte selecteren. Met deze functie kan beheerder met een geldige seminarlicentie eenmalige of grootschalige gebeurtenissen (maximaal 1500 deelnemers) plannen en beheren in ALM.
+
+Verwijs naar dit [ artikel ](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) voor meer informatie over de seminarruimte.
+
+### Ondersteuning voor toegang tot sessieanalytics
+
+Docenten hebben toegang tot Session Analytics voor hun voltooide Adobe Connect-sessies via een nieuwe koppeling in het sessiedashboard.
+
+![](assets/adobe-connect-session-url.png)
+_Uitgezochte zitting URL_
+
+Met deze koppeling opent u het dashboard voor de sessieanalyse in Connect, dat gedetailleerde inzichten biedt in de betrokkenheid van de sessie.
+Deze functie is alleen beschikbaar voor sessies die worden uitgevoerd via Adobe Connect. De sessieanalyse omvat:
+
+* **[!UICONTROL Betrokkenheid]**: Overzicht van de algemene prestaties van de levende zitting
+* **[!UICONTROL Interacties]**: Gedetailleerde verdeling van deelnemersactiviteit over verschillende pods
+* **[!UICONTROL Activiteit van de Deelnemer]**: Samenvatting van deelnemersbetrokkenheid
+* **[!UICONTROL Rapporten van de Download]**: Optie om rapporten voor pod-specifieke betrokkenheidsgegevens te downloaden
+
+![](assets/session-dashboard.png)
+_dashboard van de Zitting_
+
+Verwijs dit [ artikel ](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html) voor meer informatie over de Analytics van de Zitting.

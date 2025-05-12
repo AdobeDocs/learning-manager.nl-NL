@@ -4,10 +4,10 @@ title: Aangepaste rollen
 description: Met de functie Leerpaden kunt u aangepaste rollen definiëren en specifieke verantwoordelijkheden toewijzen aan een gebruikersset. Met deze functie kunt u verantwoordelijkheden toewijzen die buiten de bestaande rol van de persoon vallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '2685'
-ht-degree: 54%
+source-wordcount: '3466'
+ht-degree: 32%
 
 ---
 
@@ -23,7 +23,7 @@ U kunt een aangepaste rol maken om auteursmogelijkheden te bieden die beperkt zi
 
 Beheerders kunnen aangepaste beheerders- en aangepaste auteursrollen maken met op maat gemaakte machtigingen voor elke rol. Hieronder ziet u een overzicht van de machtigingen die aan elke rol zijn gekoppeld:
 
-**Toestemmingen van de Rol van de Auteur van 0&rbrace;**
+**Toestemmingen van de Rol van de Auteur van 0}**
 
 Aangepaste auteurs kunnen de volgende taken uitvoeren:
 
@@ -37,7 +37,7 @@ Aangepaste auteurs kunnen de volgende taken uitvoeren:
 
 Beheerders en auteurs, inclusief aangepaste beheerders en aangepaste auteurs, kunnen leerobjecten (LO&#39;s) delen met extern gedeelde catalogi. Beheerders en auteurs moeten kunnen zoeken naar extern gedeelde catalogi tijdens het maken van leerobjecten (LO&#39;s).
 
-**de Toestemmingen van de Rol Admin van de Douane**
+**de toestemmingen van de beheerderrol van de Douane**
 
 De aangepaste beheerdersrol repliceert een reeks beheerdersverantwoordelijkheden, waaronder toegang tot bevoegdheden op accountniveau. Aangepaste beheerders krijgen machtigingen voor het beheer van belangrijke functies met betrekking tot leeractiviteiten, zoals:
 
@@ -69,7 +69,7 @@ _de douanerollen van de Filter_
 3. Ga de naam in de **[!UICONTROL Naam van het gebied van de Rol]** in.
 4. **[!UICONTROL de voorrechten van de Rekening]**: Deze voorrechten geven de roleigenaars toegang tot specifieke aspecten van de systeemconfiguratie en die op de volledige rekening handelen. Kies de toegangsrechten. De gebruiker krijgt volledige controle over de toegewezen rechten.
 
-   Beheerders kunnen gedetailleerde machtigingen verlenen voor de sectie Gebruiker, waarin interne/externe gebruikers, gebruikersgroepen en geavanceerde gebruikers zijn opgenomen.
+   Beheerders kunnen gedetailleerde machtigingen verlenen voor de sectie Gebruiker, die interne/externe gebruikers, gebruikersgroepen en geavanceerde gebruikers heeft.
 
    >[!NOTE]
    >
@@ -82,7 +82,7 @@ _de douanerollen van de Filter_
 
 5. **de voorrechten van de Eigenschap - de eigenschappen van de Kern**: Gebruikt om toegang tot specifieke eigenschappen voor het beheren van het leren activiteiten te verlenen. Met deze optie kan toestemming worden gegeven voor de volgende functies.
 
-   Beheerders kunnen gedetailleerde machtigingen bieden, zoals alleen-lezen, machtigingen voor de catalogi maken, bewerken en verwijderen.
+   Beheerders kunnen gedetailleerde machtigingen voor de catalogi opgeven, zoals alleen-lezen, machtigingen voor de catalogi maken, bewerken en verwijderen.
 
    * Catalogi
    * Rapporten
@@ -275,17 +275,125 @@ Een gebruiker met een aangepaste rol kan:
    **voeg gebruikers aan de upload CSV van de douanerol toe:** om gebruikers via geüploade CSV toe te voegen, voeg een kolom CustomRole aan het .csv dossier toe dat de Beheerder gebruikte om gebruikers in te voeren. Voer de rol van de gebruiker onder de kolom CustomRole in voor de gebruikers aan wie u een aangepaste rol wilt toewijzen. Om het Csv- dossier te uploaden, klik **[!UICONTROL toevoegen > upload een CSV]**.
 
    * U kunt geen gebruikersgroepen zoeken.
-   * U kunt geen gebruikers zoeken die al een beheerderrol toegewezen gekregen hebben.
+   * U kunt niet zoeken naar gebruikers waaraan al een beheerdersrol is toegewezen.
    * Het toewijzen van een nieuwe aangepaste rol aan een gebruiker heeft voorrang op de vorige aangepaste rol van de gebruiker.
 
    <!--![](assets/users.png)-->
 
    * Een aangepaste beheerder met de machtiging Instellingen kan het schema configureren voor synchronisatie of synchronisatie van gebruikers vanuit de gegevensbron, zelfs als deze geen toestemming hebben voor de gebruikersentiteit.
-   * Als een aangepaste beheerder toestemming heeft voor de gebruikersentiteit, kan hij of zij zichzelf de rol van beheerder toewijzen en een standaardbeheerder worden.
+   * Als een aangepaste beheerder machtigingen heeft voor de gebruikersentiteit, kunnen deze beheerder de rol van beheerder aan zichzelf toewijzen en een standaardbeheerder worden.
 
-## Rapport voor aangepaste rol
+## Meerdere aangepaste rollen toewijzen aan een gebruiker
 
-Beheerders kunnen een CSV-rapport downloaden van alle aangepaste rollen en hun machtigingen. Het rapport toont hoe elke rol is gemaakt, door een beheerder of via een CSV-bestand, en geeft een overzicht van de toegang die aan elke rol is verleend.
+U kunt op de volgende manieren meerdere aangepaste rollen aan gebruikers toewijzen:
+
+* UI gebruiken: U kunt meer dan één aangepaste rol rechtstreeks vanuit de Adobe Learning Manager-interface toewijzen aan een gebruiker.
+* CSV-upload gebruiken: u kunt een CSV-bestand uploaden om meerdere aangepaste rollen tegelijk aan meerdere gebruikers toe te wijzen.
+
+Hierdoor is het gemakkelijker om gebruikerstoegang en -machtigingen op het hele systeem te beheren.
+
+### Meerdere aangepaste rollen toewijzen via de gebruikersinterface
+
+Het toewijzen van meerdere aangepaste rollen via de Admin Console in Adobe Learning Manager is een snelle en intuïtieve optie die ideaal is voor onboarding, machtigingsaanpassingen of kleinere updates. Rollen kunnen visueel worden toegewezen, zonder dat CSV-uploads nodig zijn. Dit vermindert het risico op fouten en zorgt voor real-time zichtbaarheid. Deze methode ondersteunt snelle updates wanneer verantwoordelijkheden verschuiven en maakt het mogelijk om naar behoefte te schakelen tussen rollen en delegeren.
+
+Ga als volgt te werk om meerdere aangepaste rollen aan een gebruiker toe te wijzen:
+
+1. Login als beheerder en selecteer **[!UICONTROL Gebruikers]**.
+2. Selecteer **[!UICONTROL de Rollen van de Douane]** op het linkerpaneel.
+3. Maak een nieuwe aangepaste rol en voeg accountbevoegdheden, catalogi, leerobjecten of bereiken toe. Verwijs de vermelde stappen [ hier ](#create-a-custom-role).
+4. Voeg gebruikers toe aan de aangepaste rol.
+
+   ![](assets/add-users-in-custom-roles.png)
+   _wijs gebruikers aan een douanerol toe_
+
+5. Selecteer **[!UICONTROL Opslaan]**.
+
+Selecteer desgewenst meerdere aangepaste rollen voor een gebruiker. Elke gebruiker kan maximaal 50 aangepaste roltoewijzingen hebben. Het aantal beschikbare rollen neemt bij elke toewijzing af.
+
+Nadat u gebruikers hebt toegewezen aan een extra aangepaste rol, kunt u zien hoeveel roltoewijzingen beschikbaar blijven voor elke gebruiker.
+
+>[!NOTE]
+>
+>U kunt maximaal 50 rollen aan elke gebruiker toewijzen en maximaal 500 gebruikers aan elke rol toevoegen.
+
+### Meerdere aangepaste rollen toewijzen met behulp van CSV
+
+Wanneer u een CSV-bestand in Adobe Learning Manager uploadt, kunt u op een efficiënte manier aangepaste rollen bulksgewijs toewijzen. Dit proces is met name gunstig voor het werven van een groot aantal werknemers, het reorganiseren van teams of het bijwerken van de toegang voor nieuwe training. CSV-import bespaart handmatige inspanningen, zorgt voor consistente toewijzingen en beperkt fouten. Deze methode is vooral handig bij fusies, afdelingwijde updates of algemene trainingstrajecten. Met deze methode kunnen beheerders tijd besparen, rollen standaardiseren en governance behouden.
+
+U kunt nu via CSV-import meerdere rollen aan een gebruiker toewijzen door twee bestanden naar Box te uploaden:
+
+* role.csv
+* user_role.csv.
+
+Het bestand user_role.csv bevat de velden Aangepaste rol en Gebruiker-id&#39;s.
+
+Het bestand role.csv bevat de velden Aangepaste rol, Aanmaakbron en gedetailleerde informatie voor catalogi, gebruikers, cursussen, leerpaden en meer.
+
+Als het CSV-bestand onjuiste gegevens heeft of de limiet overschrijdt (50 rollen per gebruiker en 500 gebruikers per rol), verschijnt er een bericht met de fouten.
+
+![](assets/error-custom-role.png)
+_Bericht van de Fout voor douanerollen_
+Gebruikers ontvangen e-mailmeldingen wanneer rollen worden toegewezen, inclusief de naam van de rol.
+
+### Aangepaste rollen beheren
+
+Beheerders kunnen aangepaste rollen voor gebruikers in Adobe Learning Manager bijwerken, toevoegen of verwijderen als de verantwoordelijkheden veranderen. Hierdoor wordt de toegang afgestemd op de huidige rollen zonder dat dit van invloed is op de leergeschiedenis of inschrijvingsgegevens. Van de **[!UICONTROL pagina van Gebruikers]**, kan de beheerder naar gebruikers zoeken, hun rollen bekijken, en hen aanpassen gebruikend de Manage optie van de Rollen van de Douane. Met deze begeleide interface kunt u eenvoudig rollen toevoegen of verwijderen met behoud van governance en beveiliging.
+
+>[!NOTE]
+>
+>Aangepaste beheerders kunnen geen aangepaste rollen beheren (aangepaste rol toevoegen of verwijderen) of zichzelf promoveren tot de beheerdersrol.
+
+Nadat u douanerollen aan gebruikers toewijst, kunt u douanerollen toevoegen of verwijderen uit de **[!UICONTROL pagina van Gebruikers]**.
+
+1. Zoek naar een gebruiker op de **[!UICONTROL pagina van Gebruikers]**.
+
+   ![](assets/search-user-role.png)
+   _Onderzoek naar een gebruiker in de pagina van Gebruikers_
+
+2. Selecteer de drop-down pijl aan het eind van de rij waar de gebruikersnaam wordt getoond, en selecteer dan **[!UICONTROL leiden douanerollen]**.
+
+   ![](assets/select-manage-custom-roles.png)
+   _Uitgezochte beheert douanerollen in gebruikerspagina_
+
+3. Er wordt een dialoogvenster weergegeven met de lijst met aangepaste rollen die aan de gebruiker zijn toegewezen. Selecteer **[!UICONTROL toevoegen/verwijderen rollen]** om douanerollen toe te voegen of te verwijderen die aan de gebruiker worden toegewezen.
+
+   ![](assets/add-remove-roles.png)
+   _Uitgezochte voeg/verwijder rollen in de Manage herinnering van de Rollen van de Douane toe_
+
+4. Zoek naar andere aangepaste rollen die aan de gebruiker moeten worden toegewezen. Nadat u er een hebt gevonden, selecteert u de aangepaste rol.
+
+   ![](assets/add-new-custom-role.png)
+   _selecteer de douanerol_
+
+5. Selecteer **[!UICONTROL sparen]**. Er verschijnt een bevestigingsvenster voor de wijziging in de aangepaste rol. Selecteer **[!UICONTROL ja]**.
+
+   ![](assets/confirmation-prompt.png)
+   _selecteer ja in de bevestigingsherinnering_
+
+Een derde aangepaste rol wordt toegewezen aan de gebruiker.
+
+Ga als volgt te werk om de aangepaste rollen te verwijderen:
+
+1. Zoek naar een gebruiker op de **[!UICONTROL pagina van Gebruikers]**.
+2. Selecteer dropdown dichtbij de gebruiker en selecteer **[!UICONTROL leiden douanerollen]**.
+3. Selecteer **[!UICONTROL toevoegen/verwijderen rollen]** om douanerollen toe te voegen of te verwijderen.
+4. Selecteer **[!UICONTROL verwijder pictogram]** om de douanerol te schrappen.
+
+   ![](assets/remove-custom-roles.png)
+   _verwijder douanerollen_
+
+### Aangepaste rollen wisselen
+
+Om om het even welke douanerollen te bekijken en te selecteren die aan u worden toegewezen, gebruik de **[!UICONTROL optie van de de douanerol van de Schakelaar]**.
+
+![](assets/switch-roles.png)
+_Uitgezochte douanerollen_
+
+Gebruikers ontvangen e-mailmeldingen wanneer de aangepaste rollen aan hen zijn toegewezen. De e-mails bevatten nu rolnamen voor meer duidelijkheid.
+
+## Het aangepaste rolrapport downloaden
+
+Beheerders kunnen een CSV-rapport downloaden met alle aangepaste rollen en de bijbehorende machtigingen. Het rapport geeft aan of elke rol handmatig of via CSV-upload is gemaakt en geeft een overzicht van de toegangsrechten en bevoegdheden die aan elke rol zijn toegewezen.
 
 Ga als volgt te werk om het rapport te downloaden:
 
@@ -330,7 +438,7 @@ Nadat u op de optie hebt geklikt, verschijnt een nieuw dialoogvenster waarin u d
 
 Kies de omslagen en klik **[!UICONTROL OK]**.
 
-## Dashboard met overzicht van leermateriaal voor aangepaste beheerder {#custom-admin-dashboard}
+## Leeroverzichtdashboard voor aangepaste beheerder {#custom-admin-dashboard}
 
 Aangepaste beheerders kunnen dezelfde weergave zien als de beheerder. Een aangepaste beheerder kan gegevens buiten dit bereik plaatsen. Dit is alleen van toepassing als de aangepaste beheerder een volledig bereik heeft. Om volledig werkingsgebied te verlenen, terwijl het creëren van een douane admin, laat de optie **[!UICONTROL Volledige Controle]** in het Rapport van de Rekening toe.
 
@@ -470,17 +578,17 @@ In eerdere versies van Learning Manager kon elke Aangepaste rol met toestemming 
 
 De bereikinstelling werd eerst uitgeschakeld toen leerplantoegang werd verleend, waardoor de gebruiker standaard toegang had tot Alle catalogi en Alle gebruikersgroepen.
 
-Alle leerprogramma&#39;s die door een beheerder zijn gemaakt, zijn standaard van toepassing op alle gebruikers. Gebruikers kunnen aan ieder leerobject worden toegewezen. Anderzijds hebben gebruikers met Aangepaste rollen toegang tot het volledige bereik, zoals Alle catalogi, Leerobjecten of Gebruikersgroepen. Dit hield in dat beheerders niet zoals verwacht Aangepaste rollen konden maken om gebruikers met een beperkt bereik toegang te geven tot leerprogramma&#39;s.
+Alle leerplannen die door een beheerder zijn gemaakt, zijn standaard van toepassing op alle gebruikers. Gebruikers kunnen aan ieder leerobject worden toegewezen. Anderzijds hebben gebruikers met Aangepaste rollen toegang tot het volledige bereik, zoals Alle catalogi, Leerobjecten of Gebruikersgroepen. Dit betekende dat beheerders geen aangepaste rollen konden maken zoals verwacht en gebruikers met een beperkt bereik toegang tot leerplannen mochten krijgen.
 
 Met deze update van Learning Manager kunt u Aangepaste rollen maken voor Leerprogramma&#39;s om het bereik van gebruikers en Leerobjecten vast te stellen. Met andere woorden, u kunt leerprogramma&#39;s maken met een beperkt bereik op basis van door de beheerder ingestelde rollen.
 
-Een beheerder kan nu het bereik definiëren of beperken en tegelijkertijd toegang verlenen voor het beheer van leerprogramma&#39;s.
+Een beheerder kan nu het bereik definiëren of beperken terwijl toegang tot het leerplanbeheer wordt verleend.
 
-Aangepaste beheerders kunnen leerprogramma&#39;s met een beperkt bereik maken op basis van het bereik van de configureerbare rol van de aangepaste beheerder. Zulke leerprogramma&#39;s zijn alleen toegankelijk voor normale beheerders en aangepaste beheerders met dezelfde rol. Bovendien kunnen de aangepaste beheerders geen andere Leerprogramma&#39;s in het account zien.
+Aangepaste beheerders kunnen leerplannen maken met een beperkt bereik, dat wordt bepaald door het bereik van de configureerbare rol van de aangepaste beheerder. Dergelijke leerplannen zijn alleen toegankelijk voor aangepaste beheerders met dezelfde rol, maar zijn ook toegankelijk voor gewone beheerders. Bovendien kunnen aangepaste beheerders geen andere leerplannen in het account zien.
 
-Bestaande aangepaste beheerders met toegang tot Leerprogramma&#39;s hebben altijd het volledige bereik (standaard). Ze hebben toegang tot alle leerprogramma&#39;s in het account, net als normale beheerders. Nieuwe aangepaste rollen die met het volledige bereik zijn gemaakt en nieuwe aangepaste beheerders die aan dergelijke rollen zijn toegevoegd, houden toegang tot alle leerprogramma&#39;s.
+Bestaande aangepaste beheerders met toegang tot leerplannen hebben altijd het volledige bereik (per definitie). Ze hebben toegang tot alle leerplannen in het account, net als gewone beheerders. Nieuwe aangepaste rollen die met een volledig bereik zijn gemaakt en nieuwe aangepaste beheerders die aan dergelijke rollen zijn toegevoegd, blijven toegang tot alle leerplannen hebben.
 
-Leerprogramma&#39;s die zijn gemaakt door beheerders en aangepaste beheerders met volledige omvang, worden zoals gewoonlijk gemaakt en zijn niet beperkt door de omvang.
+De leerplannen die door de beheerder worden gemaakt en de beheerders van het volledige werkingsgebied zullen worden gecreeerd zoals gebruikelijk en zullen niet door werkingsgebied worden beperkt.
 
 Geef in de sectie **Omvang van functiebevoegdheden** toegang tot Gebruikersgroepen en/of Catalogus voor de Aangepaste rol.
 
@@ -494,9 +602,9 @@ Een gebruiker toewijzen aan de aangepaste rol.
 
 *wijs een gebruiker aan een Rol van de Douane toe*
 
-De gebruiker meldt zich nu aan bij Learning Manager als aangepaste beheerder en voegt een Leerprogramma toe.
+De gebruiker meldt zich nu aan bij Learning Manager als aangepaste beheerder en voegt nu een leerplan toe.
 
-Als er een nieuwe student wordt toegevoegd, kan de aangepaste beheerder alleen een training selecteren uit de omvang van de catalogi van de configureerbare rol.
+Wanneer een nieuwe student wordt toegevoegd, kan de aangepaste beheerder alleen een training selecteren uit de bereikcatalogi van de configureerbare rol.
 
 Dit leerplan is nu alleen van toepassing op de student als de gebruiker ook wordt toegevoegd aan de groep binnen de bereikgroep van het leerplan. Alle andere studenten worden vrijgesteld van dit leerprogramma.
 
@@ -510,13 +618,13 @@ Wanneer een gebruiker wordt toegevoegd aan de opgegeven groep, worden alleen geb
 
 ## Wijziging van omvang {#changeinscope}
 
-Wanneer de beheerder de omvang van de aangepaste rol wijzigt, heeft deze wijziging ook gevolgen voor de aangepaste beheerder. Wanneer de aangepaste beheerder een Leerprogramma kiest dat al binnen de omvang van een eerdere aangepaste rol valt, wordt het volgende bericht weergegeven:
+Wanneer de beheerder het bereik van de aangepaste rol wijzigt, wordt de wijziging ook trapsgewijs doorgevoerd in de aangepaste beheerder. Wanneer de beheerder van de Douane een Leerplan kiest dat reeds bereikbaar was door een vorige douanerol, wordt een bericht getoond, zoals hieronder getoond:
 
 ![](assets/change-scope.png)
 
 *Bericht na werkingsgebiedveranderingen*
 
-De aangepaste beheerder moet de eerdere omvang nu bijwerken of vernieuwen naar de nieuwe omvang.
+De aangepaste beheerder moet nu het eerdere bereik bijwerken of vernieuwen naar het nieuwe bereik.
 
 Klik op **[!UICONTROL Omvang vernieuwen]** om de omvang bij te werken. Er verschijnt een waarschuwingsbericht.
 
@@ -536,7 +644,7 @@ Een beheerder kan gamificationrapporten inschakelen voor een aangepaste gebruike
 1. Selecteer in de sectie **[!UICONTROL Gebruikers]** de gebruiker die wordt toegewezen aan de nieuwe aangepaste rol.
 1. Klik op **[!UICONTROL Opslaan]**.
 
-Wanneer een gebruiker zich als aangepaste beheerder aanmeldt en op **[!UICONTROL Rapporten]** in het linkerdeelvenster klikt, worden de transcripten als volgt weergegeven:
+Wanneer een gebruiker het programma opent als beheerder van de Douane en **[!UICONTROL Rapporten]** op de linkerruit klikt, verschijnen de transcripten, zoals hieronder getoond:
 
 ![](assets/download-gamificationtranscripts.png)
 

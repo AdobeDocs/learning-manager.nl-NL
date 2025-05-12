@@ -3,106 +3,193 @@ jcr-language: en_us
 title: Inhoudsmarktplaats
 description: Learning Manager biedt nu Inhoudsmarktplaats waar u trainingen kunt ontdekken en kopen. Verken meer dan 70.000 cursussen over een breed scala aan onderwerpen, beschikbaar in meerdere formaten. Kies uit beheerde afspeellijsten die zijn gericht op een enorme verscheidenheid aan rollen en vervul uw behoeftes voor leren en het verbeteren van uw vaardigheden.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 69%
+source-wordcount: '733'
+ht-degree: 9%
 
 ---
 
-
-
 # Inhoudsmarktplaats
 
-Learning Manager biedt nu Inhoudsmarktplaats waar u trainingen kunt ontdekken en kopen. Verken meer dan 70.000 cursussen over een breed scala aan onderwerpen, beschikbaar in meerdere formaten. Kies uit beheerde afspeellijsten die zijn gericht op een enorme verscheidenheid aan rollen en vervul uw behoeftes voor leren en het verbeteren van uw vaardigheden.
+Leerbeheerders hebben vaak te maken met problemen bij het zoeken naar en uploaden van kwaliteitsinhoud. De Content Marketplace in Adobe Learning Manager vereenvoudigt dit door licenties voor premium cursussen van vertrouwde providers toe te staan, waardoor een snellere, schaalbare leerlevering mogelijk wordt. Met de Content Marketplace kan de beheerder door cursussen van derden bladeren, deze voorvertonen en een licentie voor deze cursussen kopen van providers.
 
-In de beheerdersapp is er een nieuwe optie **[!UICONTROL Content Marketplace]** en vind je in het linkerdeelvenster.
+De Content Marketplace biedt de volgende lidmaatschappen voor het verkrijgen van inhoud:
 
-Gebruikers kunnen aankopen doen uit beheerde afspeellijsten die verschillende onderwerpen aanbieden of de hele catalogus kopen.
+* **[!UICONTROL Essentiële elementen van de Premium]**
+* **[!UICONTROL de Essentiële elementen van de Premium plus]**
 
-Op de pagina ziet u twee tegels, Enterprise Training en Creative Cloud Training. De eerste tegel opent de marktplaats, waarmee u cursussen voor uw studenten kunt kopen. Met de laatste opent u de inhoudscatalogus.
+| **[!UICONTROL Essentiële elementen van de Premium]** | **[!UICONTROL de Essentiële elementen van de Premium plus]** |
+|---|---|
+| Meer dan 90.000 cursussen | Meer dan 100.000 cursussen |
+| Inhoud van meer dan 250 providers | Inclusief alle Premium Essentials-content |
+| Exclusieve inhoud van vertrouwde providers zoals:<li>EasyLlama</li><li>Skillshub</li><li>Thomson Reuters</li><li>Emtrain</li><li>Harvard ManageMentor</li> | Exclusieve cursussen van topproviders zoals: <li>Blinkist</li><li>Pluralsight</li>Skillsoft</li><li>Traliant</li><li>Coursera</li> |
 
-Op de pagina Enterprise Training in de beheerdersapp kunt u gebruikers uitnodigen en het Express Interest-rapport downloaden, en ook de volledige catalogus of beheerde afspeellijst aanschaffen.
+<!--**[!UICONTROL Premium Essentials]**:
+A cost-effective solution designed to enhance employee engagement. 
 
-**Gebruikers uitnodigen**
+* Access to over 90,000 courses
+* Content from more than 250 providers
+* Focus on compliance and skill improvement
+* Exclusive content from trusted providers such as:
+   * EasyLlama
+   * Skillshub
+   * Thomson Reuters
+   * Emtrain
+   * Harvard ManageMentor
 
-Nodig gebruikers van de inhoudsmarktplaats uit om inhoud te verkennen en interesse te tonen. Als beheerder kunt u alle studenten in het account een uitnodiging sturen of geselecteerde studenten uitnodigen. Om studenten toegang te geven, moet u ze uitnodigen.
+**[!UICONTROL Premium Essentials Plus]**:
 
-Voor een student kan ook de optie Inhoudsmarktplaats worden uitgeschakeld. Als u toegang wilt intrekken, klikt u op de knop **[!UICONTROL Toegang intrekken]** koppeling.  Gebruikers kunnen de pagina Contet marketplace niet meer zien in de Learner-app.
+* Access to more than 100,000 courses
+* Includes all Premium Essentials content
+* Exclusive courses from top providers like:
+   * Blinkist
+   * Pluralsight
+   * Skillsoft
+   * Traliant
+   * Coursera
 
-Deze optie is standaard geselecteerd voor alle nieuwe accounts. Voor bestaande accounts moet de beheerder de gebruikers uitnodigen om de marktplaats te verkennen.
+Select the plan that best meets your organization's learning goals and budget.-->
 
-## Kopen
+## Inhoud ophalen van providers
 
-U krijgt onbeperkte toegang tot de volledige bibliotheek met cursussen. Klik op de knop **[!UICONTROL Aanschaffen]** om een inkoopaanvraagformulier te downloaden.
+Ga als volgt te werk om inhoud van contentproviders te zoeken en te verkrijgen:
+
+1. Selecteer **[!UICONTROL Marketplace van de Inhoud]** van de beheerderhomepage. De **[!UICONTROL pagina van de Marketplace van de Inhoud]** verschijnt.
+
+   ![](assets/purchase-plans.png)
+   _Bekijk de aankoopplannen op de pagina van de Marketplace van de Inhoud_
+
+2. De beheerders kunnen voorproef en de Hub van de Inhoud voor zowel **[!UICONTROL Hoofdzaak van de Premium]** als **[!UICONTROL Hoofdzaak van de Premium plus]** plannen onderzoeken.
+
+Contentproviders beheren de verwijdering van verouderde inhoud, zodat er geen leermateriaal buiten gebruik wordt gesteld zonder voorafgaande kennisgeving.
+
+<!--Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
+
+In the Administrator app, there is a new option **[!UICONTROL Content Marketplace]**, which you'll find on the left panel.
+
+Users can purchase from curated playlists covering various topics or purchase the entire catalog. 
+
+On the page, you can see two tiles, Enterprise Training and Creative Cloud Training. The first tile launches the marketplace, using which you can acquire courses for your learners. The latter launches the content catalog.
+
+The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.-->
+
+## Een offerte aanvragen
+
+Beheerders kunnen een lidmaatschap selecteren, zoals Premium Essentials of Premium Essentials Plus, het vereiste aantal licenties opgeven en een downloadbaar aanvraagformulier genereren. Nadat het formulier is ingevuld, wordt het ter verwerking naar het Adobe Learning Manager-verkoopteam gestuurd. Het proces Request for Offote biedt de Adobe ook de mogelijkheid om aangepaste prijzen te bieden op basis van de behoeften van de organisatie.
+
+Voer de volgende stappen uit om de RFQ te downloaden:
+
+1. Selecteer de **[!UICONTROL Marketplace van de Inhoud]** van de beheerderhomepage.
+
+2. Selecteer het vergunningstype en typ het aantal plaatsen om het citaat in de **[!UICONTROL Vraag een sectie van het Citaat]** te produceren.
+
+3. Selecteer **[!UICONTROL Download RFQ]** om het citaat te downloaden.
+
+![](assets/purchase-plans-go1.png)
+_Download RFQ na het selecteren van een plan_
+
+Verzend het citaat aan [ learningmanagersales@adobe.com ](mailto:learningmanagersales@adobe.com) om uw vergunning te activeren. U kunt ook contact opnemen met de Customer Success Manager van uw Adobe om het aankoopproces te starten.
+
+## Studenten uitnodigen voor de inhoudshub
+
+Studenten uitnodigen voor de Content Marketplace om inhoud te verkennen en interesse te wekken. Als beheerder kunt u alle studenten in het account een uitnodiging sturen of geselecteerde studenten uitnodigen. De studenten moeten worden uitgenodigd voordat ze de inhoud kunnen verkennen. Het artikel van de mening ](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub) voor meer informatie over de Hub van de Inhoud.[
+
+De studenten uitnodigen:
+
+1. Selecteer de **[!UICONTROL Marketplace van de Inhoud]** van de beheerderhomepage.
+2. Selecteer **[!UICONTROL Studenten]** uitnodigen en selecteer de vereiste studenten.
+3. Selecteer **[!UICONTROL studenten]** uitnodigen.
+
+De beheerders kunnen toegang tot de **[!UICONTROL Hub van de Inhoud]** ook herroepen door **[!UICONTROL te selecteren verwijder alle gebruikers toegang]** verbinding. Wanneer toegang is ingetrokken, zien studenten de pagina Inhoudshub niet meer in hun Learner-app.
+
+![](assets/invite-users.png)
+_nodig gebruikers uit om tot de Hub van de Inhoud toegang te hebben_
+
+Deze optie is standaard ingeschakeld voor alle nieuwe accounts. Voor bestaande accounts moeten beheerders studenten handmatig uitnodigen om toegang te krijgen tot de Content Marketplace.
+
+<!--## Purchase
+
+You get unlimited access to the entire library of courses. Click the **[!UICONTROL Purchase]** button to download a Purchase Request form.
 
 ![](assets/purchase-request.png)
 
-*Voer het aantal licenties in dat u wilt kopen*
+*Enter the number of seats to purchase*
 
-Geef aan hoeveel plaatsen u voor cursussen wilt kopen. Download het aankoopaanvraagformulier en stuur het daarna naar het verkoopteam van Learning Manager.
+Specify the number of seats for which you want to purchase the courses for. Download the purchase request form and then send the form to the sales team of Learning Manager.
 
-Het team zal de informatie controleren en vervolgens een sleutel genereren, die u daarna ontvangt. Dit is de activeringssleutel waarmee u uw gebruikers toegang geeft tot de inhoud die u aanbiedt.
+The team will then validate the information and then generate a key, which will be provided to you. This is the activation key using which you'll grant access to your users to the content offering.
 
-Nadat de sleutel door het CSAM-team is gegenereerd, kan de beheerder de sleutel gebruiken om de cursussen te importeren en de cursussen naar de bestaande catalogus of de nieuwe catalogus te migreren.
+After the key is generated by the CSAM team, the Administrator can use the key to import the courses, and migrate the courses into the existing catalog or the new catalog.
 
-Tijdens de migratie van cursussen wordt de status weergegeven als **[!UICONTROL Cursussen aan het importeren]**. Zodra de migratie voltooid is, krijgt de beheerder een bericht dat de migratie is gelukt.
+During migration of courses, the status displays as **[!UICONTROL Importing Courses]**. Once the migration completes, the Administrator gets a notification that migration is complete and successful.
 
-De **[!UICONTROL Licenties]** geeft vervolgens alle licenties weer die voor het account zijn verkregen.
+The **[!UICONTROL Licenses]** section then displays all the licenses that are acquired for the account.
 
-De beheerder kan de links van de gekochte catalogi zien op de pagina Catalogusoverzicht.
+The Administrator can see the links of the purchased catalogs in the Catalog Overview page.
 
-Zodra de cursussen aan de catalogus zijn toegevoegd, kan de beheerder toegang tot de cursussen verlenen aan verschillende gebruikers of gebruikersgroepen.
+Once the courses are added to the catalog, the Administrator can then grant access to the trainings to various user or user groups.
 
 ![](assets/licenses.png)
 
-*Toegang verlenen tot training voor gebruikers en gebruikersgroepen*
+*Grant access to training to users and user groups*-->
 
-## Belangstellingsrapport
+<!--## Express interest report
 
-Wanneer een student in de Learner-app op Belangstelling in catalogus klikt, wordt de belangstelling vastgelegd in een Belangstellingsrapport. De beheerder kan het rapport downloaden. Het rapport (CSV) bevat de volgende velden:
+When a learner clicks Express interest to Catalog in the Learner app, the interest is recorded in an Express interest report. The Administrator can download the report. The report (csv) contains the following fields:
 
-* Naam van de catalogus
-* Aantal gebruikers die belangstelling hebben
-* E-mailadres van de gebruikers die belangstelling hebben
+* Name of the catalog
+* Number of users expressing interest
+* Email of the user expressing interest-->
+
+## Inhoudshub
+
+Met de inhoudshub kunnen beheerders de vereiste afspeellijsten in de Learner-app kort weergeven. De pagina Inhoudshub is altijd zichtbaar voor beheerders in hun studentrol, omdat dit hen in staat stelt om gemakkelijk een lijst met afspeellijsten te maken. Beheerders kunnen deze pagina toegankelijk maken voor beperkte vakexperts in hun account om u te helpen de juiste afspeellijst in te korten.
+
+Adobe Learning Manager synchroniseert regelmatig met de Content Hub, zodat nieuwe toevoegingen en updates automatisch worden weerspiegeld in het platform.
+
+Alle inhoud wordt toegewezen aan ondersteunde talen, zodat beheerders inhoud effectiever kunnen filteren en beheren op basis van taalvoorkeuren.
 
 ## E-mailsjablonen
 
-Om deze workflow te ondersteunen, kunt u drie verschillende e-mailsjablonen gebruiken:
+Adobe Learning Manager biedt vooraf geconfigureerde e-mailsjablonen waarmee beheerders en studenten op de hoogte worden gesteld van aankopen van inhoud, systeemupdates en leeractiviteiten.
 
-1. **[!UICONTROL Content activeren voltooid]:** Dit wordt verzonden wanneer het kopen van inhoud met een sleutelnaam succesvol is. Alle trainingen die zijn gekocht, zijn nu beschikbaar.
-1. **[!UICONTROL Geautomatiseerde uploadfout van gebruiker]:** Dit wordt verzonden wanneer de automatische update van CSV in de account om een of andere reden mislukt.
-1. **[!UICONTROL Gebruikers uitnodigen om inhoud te verkennen]:** Dit is een e-mail met een uitnodiging die naar studenten wordt gestuurd wanneer de beheerder cursussen heeft gekocht. De beheerder kan het rapport Express Interest bekijken om inzicht te krijgen in de algemene vereisten en de aankoopbeslissing te nemen.
+U kunt drie e-mailsjablonen gebruiken:
 
-1. Gekochte cursussen kunnen niet aan terugkerende certificaten worden toegevoegd.
-1. Gekochte cursussen kunnen niet gedeeld worden met collega-accounts.
-1. Gekochte cursussen kunnen worden gebruikt door alle gebruikers die er toegang tot krijgen. Configureer de zichtbaarheid van de catalogus om de zichtbaarheid van gekochte cursussen te beperken tot een beperkt aantal gebruikers.
-1. Gekochte cursussen kunnen niet meer worden gebruikt als de activatiesleutel verlopen is. Koop/activeer een andere sleutel om gebruik mogelijk te maken.
+1. **[!UICONTROL Succesvolle de Activering van de Inhoud ]:** Verzonden naar beheerders na een succesvolle aankoop van derdeinhoud. Deze melding bevestigt dat de activering is voltooid en dat de aangeschafte inhoud nu in het systeem beschikbaar is voor de toewijzing van studenten.
+2. **[!UICONTROL Geautomatiseerde Gebruiker uploadt Mislukking ]:** teweeggebracht wanneer een geautomatiseerde gebruikersinvoer via CSV ontbreekt. Met deze waarschuwing kunnen beheerders snel problemen in geplande gebruikersupdates identificeren, zodat u corrigerende maatregelen kunt nemen.
+3. **[!UICONTROL nodigt Gebruikers uit om Inhoud ] te onderzoeken:** een uitnodigings-e-mail die naar studenten wordt verzonden zodra de beheerder inhoud van de markt koopt. Daarna kunnen gebruikers hun leertraject direct starten.
 
-## Inhoudshub in Inhoudsmarktplaats
+<!--Purchased courses cannot be added in recurring certificates.
+Purchased courses cannot be shared to peer accounts.
+Purchased courses can be consumed by all users who get access to it. Configure the catalog visibility to restrict the visibility of purchased courses to limited users.
+Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.-->
 
-Met de Content Hub kunnen beheerders en SME&#39;s (Subject Matter Experts) vereiste afspeellijsten in de Learner-app kort weergeven. Zodra de shortlist is weergegeven, kunnen beheerders het Aankoopaanvraagformulier downloaden en delen met de Adobe Sales Agent.
+<!--## Content Hub in Content Marketplace
 
-Een beheerder kan SME&#39;s uitnodigen om de afspeellijst te shortlisten waarin zij geïnteresseerd zijn.
+Content Hub allows Administrators and Subject Matter Experts (SMEs) to shortlist required playlists from learner app. Once shortlisted, Admins can download the Purchase Request Form and share it with the Adobe Sales agent.
+
+An Admin can invite SMEs to shortlist the playlist which they are interested in. 
 
 ![](assets/content-hub.png)
 
-*Inhoudshub starten vanuit de marktplaats*
+*Launch Content Hub from the marketplace*
 
-De inhoudshub is beschikbaar in de studentrol voor alle beheerders. Beheerders kunnen SME&#39;s de afspeellijst laten shortlisten waarin zij geïnteresseerd zijn.
+Content Hub is available in Learner role for all Administrators. Administrators allow SMEs to shortlist the playlist which they are interested in purchasing.
 
-De pagina Inhoudshub is altijd zichtbaar voor beheerders in hun studentrol, omdat zij zo eenvoudig afspeellijsten kunnen shortlisten. Om u te helpen bij het shortlisten van de juiste afspeellijst, kunnen beheerders deze pagina toegankelijk maken voor geselecteerde SME&#39;s. Ga naar de pagina Zakelijke Training aan de beheerderskant en volg de stappen om toegang te verlenen.
+The Content Hub page is visible to Administrators in their learner role all the time as it allows them to shortlist playlists easily. To help you in shortlisting the right playlist, Admins can make this page accessible to limited Subject matter experts in their account. Just visit the Enterprise Training page on Admin side and take steps to provide access.  
 
 ![](assets/content-hub-resources.png)
 
-*Bronnen weergeven in de inhoudshub*
+*View resources in the Content hub*
 
-Met Learning Manager kunnen beheerders eveneens een geshortliste afspeellijst downloaden en delen met het verkoopteam van Adobe. Ga voordat u de shortlist downloadt naar de Inhoudshub en shortlist een afspeellijst door een afspeellijst toe te voegen aan uw bibliotheek.
+Learning Manager also enables Administrators to download a shortlisted playlist and share it with Adobe Sales team. Before downloading the shortlist, visit the Content Hub and shortlist a playlist by adding a playlist to your library. 
 
-Klik vervolgens als beheerder op **[!UICONTROL Content Marketplace]** > **[!UICONTROL Enterprise Training]** > **[!UICONTROL Sectie Aanschaffen]** > **[!UICONTROL Beheerde afspeellijsten]**. Klik op de knop **[!UICONTROL Aankopen]** om het aankoopaanvraagformulier te downloaden. Dit bevat de details van uw geshortliste afspeellijst.
+Then as Administrator, click **[!UICONTROL Content Marketplace]** > **[!UICONTROL Enterprise Training]** > **[!UICONTROL Purchase section]** > **[!UICONTROL Curated Playlists]**. Click the **[!UICONTROL Purchase]** button to download the Purchase request form which contains the details of your shortlisted playlist.
 
 ![](assets/download-purchase-request.png)
 
-*Download het inkoopaanvraagformulier*
+*Download the Purchase Request form*
 
-De cursussen en de Playlist die u in de Hub van de Inhoud ziet zijn het zelfde als wat u in de Marketplace van de Inhoud ziet. Inhoudshub biedt beheerders en geselecteerde SME&#39;s simpelweg de mogelijkheid om afspeellijsten eenvoudig te shortlisten voor aankoop.
+The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.-->
