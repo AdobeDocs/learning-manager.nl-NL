@@ -2,13 +2,13 @@
 description: Meer informatie over de nieuwe functies en verbeteringen in de mei 2025-versie van Adobe Learning Manager
 jcr-language: en_us
 title: Overzicht van nieuwe functies
-source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
+exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
+source-git-commit: 168e521d3922ec75c7ca06dd9a15ae67f929c069
 workflow-type: tm+mt
-source-wordcount: '2481'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
-
 
 # Overzicht van nieuwe functies, mei 2025
 
@@ -109,7 +109,7 @@ Verwijs naar dit [ artikel ](/help/migrated/administrators/feature-summary/purge
 
 Adobe Learning Manager biedt nu ook ondersteuning voor het selecteren van seminarruimten vanuit Adobe Connect tijdens het instellen van een VC-sessie in Connect. Voorheen kon de beheerder alleen het type vergaderruimte selecteren. Dankzij deze verbetering kan beheerder met een geldige seminarlicentie eenmalige of grootschalige gebeurtenissen (maximaal 1500 deelnemers) plannen en beheren in Adobe Learning Manager.
 
-Bekijk dit [ artikel ](https://helpx.adobe.com/nl/adobe-connect/using/creating-seminars.html) voor meer informatie over de seminarruimte.
+Bekijk dit [ artikel ](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) voor meer informatie over de seminarruimte.
 
 ### Ondersteuning voor toegang tot sessieanalytics
 
@@ -155,7 +155,7 @@ Webhook verandert.
 
 ### Unieke id en vervaldatum van inhoud toevoegen voor inhoud die migratie gebruikt
 
-Unieke inhoud-id en Vervaldatum worden nu ondersteund tijdens de migratie. Er zijn twee extra kolommen: expiredDate en uniqueContentId toegevoegd aan het bestand module_version.csv om deze functionaliteit in te schakelen.
+Unieke inhoud-id en Vervaldatum worden nu ondersteund tijdens de migratie. Er zijn twee extra kolommen: expiredDate en uniqueContentId toegevoegd aan het bestand module_version.csv om deze functionaliteit in te schakelen. Verwijs dit [ steekproefCSV ](assets/module_version_content.csv) en [ CSV specificatiedossier ](assets/4-module_version_content.xlsx) voor meer informatie.
 
 Bekijk dit [ artikel ](/help/migrated/integration-admin/feature-summary/migration-manual.md) voor meer informatie over het migratieproces.
 
