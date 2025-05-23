@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Opmerkingen bij de release van Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
-source-wordcount: '26470'
+source-wordcount: '26471'
 ht-degree: 71%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 71%
   </tr>
  </tbody>
 </table>-->
+
++++Update 100: de november 2024-versie van Adobe Learning Manager
+
+**de datum van de Versie**: 10 mei, 2025
+
+## Nieuw in deze release
+
+Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new.md) voor meer informatie.
++++
 
 +++Update 99: De Adobe Learning Manager-versie van februari 2025
 
@@ -49,7 +58,7 @@ Verwijs dit [ artikel ](/help/migrated/learners/feature-summary/catalogs.md#sort
 
 ## Nieuw in deze release
 
-Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new.md) voor meer informatie.
+Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new-nov-24.md) voor meer informatie.
 +++
 
 +++Update 97: de juli 2024-versie van Adobe Learning Manager
@@ -1356,7 +1365,7 @@ Voor meer informatie, zie [***wat in de versie van Augustus 2020 van Adobe Learn
 * Als veel gebruikers vertrouwelijk worden gemaakt, vertoont Edge en Internet Voorbeeld onverwacht gedrag wanneer er in de browser op het tabblad Vertrouwelijke student wordt geklikt.
 * Wanneer de frequentie van een criterium wordt veranderd, worden de punten die met de oudere frequentie zijn berekend aan de huidige berekening toegevoegd.
 
-**Beheerder &#x200B;**
+**Beheerder **
 
 * Studenten kunnen niet als aanwezig worden gemarkeerd als de cursusinstantie die aan een leerprogramma is toegewezen is veranderd.
 
@@ -1592,11 +1601,6 @@ Op dit moment kunnen alleen beheerders gebruikers toevoegen aan een Niet storen-
 * Informatie over directe rapporten
 * Informatie over rapporten voor het overslaan van niveaus
 
-Zie het volgende voor meer informatie over API&#39;s in Learning Manager:
-
-* [***API verwijzing***] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v2/)
-* [***API ontwikkelaarsgids***] (<https://helpx.adobe.com/captivate-Learning> Manager/integration-admin/feature-summary/developer-manual.html)
-
 ### Opgeloste problemen in deze release {#Issuesfixedinthisrelease-1}
 
 * Alleen gebruikers die bij een specifieke gebruikersgroep horen, moeten aankondigingen ontvangen die voor hen bedoeld zijn. Andere gebruikers mogen de aankondigingen niet ontvangen.
@@ -1813,7 +1817,7 @@ Releasedatum: 2 augustus 2019
 
 ### Nieuwe en verbeterde functies {#Newandenhancedfeatures-5}
 
-**Scheiding van werkingsgebied in Sociaal leren voor interne en externe gebruikers** Een beheerder kan afzonderlijke werkingsgebieden voor interne en externe studenten bepalen. Er zijn twee nieuwe secties voor interne en externe gebruikers.  U kunt het bereik voor studentengroepen in beide secties bepalen.  De waarden van gebruikerseigenschappen kunnen voor interne gebruikers worden bepaald.  Het externe profiel, waarin studenten dezelfde sociale ruimte kunnen delen, kan voor externe gebruikers worden bepaald.  Voor meer informatie, zie [***montages van het Reikwijdte***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).  **sociaal-Beperk verwezenlijking van sociale boards** om de verwezenlijking van boards door alle studenten te beperken en de boards effectief te matigen, kan een Beheerder toestemmingen verlenen om boards tot stand te brengen aan een uitgezochte groep gebruikers. De beheerder kan het maken van boards tot een selecte groep beperken zodat niet elke student die deelneemt aan Sociaal leren boards kan maken.  Voor meer informatie, zie {de toestemmingen van de de creatie van de tekstrij 0} ***[&#128279;](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission).***  **Vertoning slechts lege Actieve gebieden aan studenten** Een Beheerder kan verkiezen om de Actieve gebieden te tonen of de gebieden te verbergen nadat de waarden zijn bevolkt. Voor meer informatie, zie [***vertoning van de Gebruiker***](../administrators/feature-summary/add-users-user-groups.md#activefields).  **de Interne gebruikers worden geschrapt op een gespecificeerde duur van inactiviteit** een Beheerder kan de duur (in dagen) plaatsen waarbinnen een interne student wordt geschrapt als de student inactief voor de gespecificeerde duur blijft. Voor meer informatie, zie *** [ Auto schrapt gebruikers ](../administrators/feature-summary/settings.md#autodelete) &#x200B;***.  **pas verbindingen op de footer** aan een Beheerder kan verbindingen op footer toevoegen en aanpassen. De links kunnen ook voor verschillende talen aangepast worden.  De bestaande methode om de verbinding van Admin van het Contact op footer toe te voegen is ook beschikbaar in de **sectie van de Verbindingen van de Voettekst**. Voor meer informatie, zie [***footer verbindingen***](../administrators/feature-summary/settings.md#footer) aanpassen.
+**Scheiding van werkingsgebied in Sociaal leren voor interne en externe gebruikers** Een beheerder kan afzonderlijke werkingsgebieden voor interne en externe studenten bepalen. Er zijn twee nieuwe secties voor interne en externe gebruikers.  U kunt het bereik voor studentengroepen in beide secties bepalen.  De waarden van gebruikerseigenschappen kunnen voor interne gebruikers worden bepaald.  Het externe profiel, waarin studenten dezelfde sociale ruimte kunnen delen, kan voor externe gebruikers worden bepaald.  Voor meer informatie, zie [***montages van het Reikwijdte***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).  **sociaal-Beperk verwezenlijking van sociale boards** om de verwezenlijking van boards door alle studenten te beperken en de boards effectief te matigen, kan een Beheerder toestemmingen verlenen om boards tot stand te brengen aan een uitgezochte groep gebruikers. De beheerder kan het maken van boards tot een selecte groep beperken zodat niet elke student die deelneemt aan Sociaal leren boards kan maken.  Voor meer informatie, zie {de toestemmingen van de de creatie van de tekstrij 0} ***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission).[***  **Vertoning slechts lege Actieve gebieden aan studenten** Een Beheerder kan verkiezen om de Actieve gebieden te tonen of de gebieden te verbergen nadat de waarden zijn bevolkt. Voor meer informatie, zie [***vertoning van de Gebruiker***](../administrators/feature-summary/add-users-user-groups.md#activefields).  **de Interne gebruikers worden geschrapt op een gespecificeerde duur van inactiviteit** een Beheerder kan de duur (in dagen) plaatsen waarbinnen een interne student wordt geschrapt als de student inactief voor de gespecificeerde duur blijft. Voor meer informatie, zie *** [ Auto schrapt gebruikers ](../administrators/feature-summary/settings.md#autodelete) ***.  **pas verbindingen op de footer** aan een Beheerder kan verbindingen op footer toevoegen en aanpassen. De links kunnen ook voor verschillende talen aangepast worden.  De bestaande methode om de verbinding van Admin van het Contact op footer toe te voegen is ook beschikbaar in de **sectie van de Verbindingen van de Voettekst**. Voor meer informatie, zie [***footer verbindingen***](../administrators/feature-summary/settings.md#footer) aanpassen.
 
 ### Bekende problemen in deze release {#Knownissuesinthisrelease-2}
 
@@ -1872,7 +1876,7 @@ Releasedatum: 20 juni 2019
 
 **Automatisch beheer van inhoud**
 
-Sociaal leren staat inhoud toe die door studenten wordt gepost om op twee manieren worden beheerd, namelijk - **Geen Kromming** en **Handmatige Kromming**. In deze release verbetert Adobe Learning Manager de mogelijkheden voor sociaal leren door functies voor automatisch beheer op basis van AI te bieden. Wanneer inhoud wordt plaatst, wordt de inhoud geanalyseerd om te zien of de inhoud bij de vaardigheid hoort waarvoor de inhoud is geplaatst. Op basis van de vertrouwensscore wordt de inhoud live geplaatst of verzonden voor handmatig beheer. Voor meer informatie, zie *[**&#x200B; auto-gesteunde beheer &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Sociaal leren staat inhoud toe die door studenten wordt gepost om op twee manieren worden beheerd, namelijk - **Geen Kromming** en **Handmatige Kromming**. In deze release verbetert Adobe Learning Manager de mogelijkheden voor sociaal leren door functies voor automatisch beheer op basis van AI te bieden. Wanneer inhoud wordt plaatst, wordt de inhoud geanalyseerd om te zien of de inhoud bij de vaardigheid hoort waarvoor de inhoud is geplaatst. Op basis van de vertrouwensscore wordt de inhoud live geplaatst of verzonden voor handmatig beheer. Voor meer informatie, zie *[** auto-gesteunde beheer **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Vaardigheid toewijzen aan vaardigheidsdomeinen**
 
@@ -1952,9 +1956,9 @@ Releasedatum: 26 april 2019
 
 * **Scan QR code om in te schrijven:** QR codemogelijkheden worden verbeterd. QR-code ondersteunt nu niet alleen het markeren van aanwezigheid, maar ook het inschrijven voor een cursus en het voltooien van een cursus.
 
-  Als u zich voor een cursus wilt inschrijven en de cursus wilt voltooien, kunt u een QR-code scannen die uw beheerder heeft verstrekt. Voor meer informatie bij het aftasten van QR codes in de Webversie van het Leren Manager, zie [***QR code van het Aftasten***] (<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompletencompletrollcompleteaccourse).
+Als u zich voor een cursus wilt inschrijven en de cursus wilt voltooien, kunt u een QR-code scannen die uw beheerder heeft verstrekt. Voor meer informatie bij het aftasten van QR codes in de Webversie van het Leren Manager, zie [***QR code aftasten***] (<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompletrollcompletevercompleteaccourse).
 
-* **Meerdere pogingen bij cursus:** De app van de Leermanager staat de student toe cursussen te volgen met toegelaten veelvoudige pogingen. Voor meer informatie bij vestiging veelvoudige pogingen, zie [***Meerdere pogingen***] (<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multipoogs).
+* **Meerdere pogingen bij cursus:** De app van de Leermanager staat de student toe cursussen te volgen met toegelaten veelvoudige pogingen. Voor meer informatie bij vestiging veelvoudige pogingen, zie [***Meerdere pogingen***] (<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multipos).
 
 +++
 
@@ -2456,7 +2460,7 @@ In Learning Manager worden onjuiste studenttranscriptrapporten gegenereerd wanne
 
 #### API-laag {#apilayer}
 
-Er trad een fout op telkens wanneer u de informatie over de versie van de module probeerde op te halen met behulp van AP/courses/{coursesid}. Dit is nu opgelost.
+U ontmoet een fout wanneer u probeerde om de informatie van de moduleversie te halen gebruikend AP/cursussen/{coursesid}. Dit is nu opgelost.
 
 +++
 
@@ -2496,7 +2500,7 @@ Releasedatum: 6 december 2016.
 
 ### Verbetering {#enhancement}
 
-Als deel van deze update, verstrekt de Lerende Manager een eindpunt [ PATCH/users/{id} ] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id) om gebruikers in een toepassing bij te werken. U moet de beheerdersrol hebben om toegang te krijgen tot dit API-eindpunt. Met&#x200B;**&#x200B;**&#x200B;dit eindpunt kunt u de volgende informatie over gebruikers van Learning Manager bijwerken:
+Als deel van deze update, verstrekt de Lerende Manager een eindpunt [ PATCH/users/{id}] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id) om gebruikers in een toepassing bij te werken. U moet de beheerdersrol hebben om toegang te krijgen tot dit API-eindpunt. Met****dit eindpunt kunt u de volgende informatie over gebruikers van Learning Manager bijwerken:
 
 * Naam
 * E-mail
@@ -2727,9 +2731,9 @@ Als onderdeel van deze update hebben we de volgende nieuwe API&#39;s toegevoegd 
 1. POST Users
 1. DELETE Users
 1. GET userGroups
-1. GET userGroups /{id}
+1. GET-gebruikersgroepen /{id}
 1. DELETE userGroups /{id}/Users
-1. POST userGroups /{id}/Users
+1. POST userGroups /{0/Users{id}
 1. GET /users/userId/userGroups
 
 We hebben ook het bestaande gebruikersmodel uitgebreid met de volgende toevoegingen:
@@ -3006,7 +3010,7 @@ Exporteren van inschrijvingsgegevens mislukte als een van de ingeschreven studen
 
 **E-mailsjablonen**
 
-* Het woord **partners,** dat werd gebruikt om externe groepen te vertegenwoordigen, **&#x200B;**&#x200B;is **&#x200B;**&#x200B;verwijderd uit het lichaam en de titel van e-mailmalplaatjes. Externe groepen worden niet noodzakelijkerwijs partners genoemd.\
+* Het woord **partners,** dat werd gebruikt om externe groepen te vertegenwoordigen, **** is **** verwijderd uit het lichaam en de titel van e-mailmalplaatjes. Externe groepen worden niet noodzakelijkerwijs partners genoemd.\
   **Nota:** Dit bijgewerkte malplaatje verschijnt niet als het standaardmalplaatje reeds wordt gewijzigd. Om het bijgewerkte malplaatje te bekijken klik **terugkeert aan Origineel** in **dialoog van de Voorproef van het Malplaatje**.
 
 * URL is niet klikbaar in de e-mail die door Beheerders wordt ontvangen wanneer **Gecreeerd Profiel (Zelfregistratie)** en **Gecreeerd Profiel (Extern/Partners)** e-mailmalplaatjes worden uitgegeven. Dit probleem is opgelost.
@@ -3064,7 +3068,7 @@ Paginering werkte niet op de pagina Aankondigingen in Beheerdersaanmelding. Dit 
 
 **Vaardigheden maken**
 
-In studentenlogin, was het het hulpmiddeluiteinde van de vaardigheidsnaam in **Skills kaart &#x200B;** niet **&#x200B;**&#x200B;tonend de&#x200B;**&#x200B;** volledige naam. Dit probleem is opgelost.
+In studentenlogin, de het hulpmiddeluiteinde van de vaardigheidsnaam in **kaart van Vaardigheden** toonde niet de volledige naam. Dit probleem is opgelost.
 
 **Externe partners toevoegen**
 
