@@ -3,7 +3,7 @@ title: Welkom bij de Gebruikersgids voor Adobe Learning Manager
 description: Leer de nieuwste aanbieding in Adobe Learning Manager (voorheen Adobe Captivate Prime). Begin aan het begin, bezoek elke sectie individueel, of verbind met de Gemeenschap om uw weg door een project te werken.
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: 9d46d64aae76b85f50eed9878779f290291e9026
+source-git-commit: f384503e2e0a7833c737bfdb94bdf2ad9e3d2736
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 19%
@@ -12,7 +12,7 @@ ht-degree: 19%
 
 # Welkom bij de Gebruikersgids voor Adobe Learning Manager
 
-Lees verder om te weten wat het recentste aanbieden in Adobe Learning Manager (eerder **[!UICONTROL Adobe Captivate Prime]**) is. Begin aan het begin, bezoek elke sectie individueel, of verbind met de Gemeenschap om uw weg door een project te werken.
+Lees verder om te weten te komen wat de nieuwste aanbieding is in Adobe Learning Manager (voorheen Adobe Captivate Prime). Begin aan het begin, bezoek elke sectie individueel, of verbind met de Gemeenschap om uw weg door een project te werken.
 
 ## Neem deel aan het gesprek {#jointheconversation}
 
