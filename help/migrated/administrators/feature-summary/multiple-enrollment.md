@@ -2,10 +2,10 @@
 title: Meervoudige inschrijvingen in Adobe Learning Manager
 description: Een van uw primaire taken als accountbeheerder is het maken van verschillende exemplaren van VILT-sessies in verschillende tijdzones en het mogelijk maken van sessies voor specifieke gebruikersgroepen.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 65%
+source-wordcount: '604'
+ht-degree: 63%
 
 ---
 
@@ -39,6 +39,7 @@ De voortgang van elke instantie kan afzonderlijk worden bijgehouden en er kan ee
 * Meervoudige inschrijvingen is alleen van toepassing wanneer een cursus meerdere instanties heeft.
 * Als de optie Meervoudige inschrijvingen is ingeschakeld en gebruikers voor meerdere instanties zijn ingeschreven, worden voor elke cursus nieuwe rijen gemaakt in het rapport Studenttranscript (één rij voor elke instantie en elke student)
 * Als u een automatiseringsinstelling hebt ingesteld die slechts één rij per cursus verwacht, moet u de vereiste aanpassingen in de rapportautomatisering aanbrengen voordat u de functie Meervoudige inschrijvingen inschakelt.
+* Admin-API&#39;s bieden geen ondersteuning voor scenario&#39;s voor meervoudige aanmelding. Neem contact op met uw CSM als u aan bepaalde vereisten voldoet.
 
 ## Hoe Meervoudige inschrijvingen wordt ingeschakeld
 
