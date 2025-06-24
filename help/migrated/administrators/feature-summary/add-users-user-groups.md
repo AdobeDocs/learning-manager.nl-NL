@@ -1,692 +1,1024 @@
 ---
-description: Leer hoe u gebruikers of gebruikersgroepen in de Learning Manager-toepassing toevoegt.
+description: Leer hoe u interne en externe gebruikers aan Adobe Learning Manager kunt toevoegen met stapsgewijze instructies. Ontdek verschillende methoden zoals handmatig invoeren, bulkimport en geautomatiseerde gebruikerssynchronisatie om gebruikersbeheer te vereenvoudigen en je leerplatform te verbeteren.
 jcr-language: en_us
-title: Gebruikers toevoegen en gebruikersgroepen maken
+title: Gebruikers toevoegen in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: ae99efd330f27fe36970c9324b0b064d9c7a85e5
+source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
 workflow-type: tm+mt
-source-wordcount: '4305'
-ht-degree: 58%
+source-wordcount: '2257'
+ht-degree: 1%
 
 ---
 
-# Gebruikers toevoegen en gebruikersgroepen maken
 
-Leer hoe u gebruikers of gebruikersgroepen in de Learning Manager-toepassing toevoegt.
+# Gebruikers toevoegen in Adobe Learning Manager
 
-<!--![](assets/user-mgmt-new.png)-->
+In Adobe Learning Manager zijn gebruikers mensen die het platform gebruiken om te leren of te trainen. Er zijn twee soorten gebruikers: interne gebruikers en externe gebruikers.
 
-## Overzicht {#overview}
+Interne gebruikers zijn werknemers of teamleden van uw organisatie.
 
-In Adobe Learning Manager kunt u de volgende rollen aannemen:
+Externe gebruikers zijn mensen buiten uw bedrijf, zoals klanten, partners, leveranciers of klanten, die toegang hebben tot uw leerinhoud.
 
-* **Beheerder:** een beheerder bepaalt de trainingsstrategie voor de organisatie. Een beheerder kan studenten toevoegen, vereiste vaardigheden voor studenten zoeken, cursussen beheren en toewijzen, leerplannen, certificeringen en leerprogramma&#39;s maken en rapporten beheren voor de gehele organisatie.
-* **Auteur:** auteurs zijn educatieve ontwerpers en contentcreators. Een auteur kan modules en cursussen toevoegen aan Learning Manager.
-* **Manager:** managers beheren de leeractiviteiten van een team. Een manager kan teamleden aanwijzen om een cursus te volgen, verzoeken van teamleden goedkeuren en feedback geven op de prestaties van teamleden na voltooiing van de training. Managers kunnen ook rapporten bekijken zodat teamleden hun prestaties kunnen volgen.
-* **Student:** studenten hebben toegang tot cursussen, leerprogramma&#39;s en certificeringen die aan hen zijn toegewezen. Studenten kunnen door alle beschikbare cursussen bladeren met behulp van een catalogus en zich inschrijven voor cursussen, leerprogramma&#39;s of certificeringen.
+Met Adobe Learning Manager (ALM) kunnen beheerders zowel interne als externe gebruikers onboarden en beheren met behulp van verschillende methoden, waaronder handmatige invoer, CSV-upload, zelfregistratie en systeemintegraties.
 
-Als beheerder kunt u gebruikers op drie manieren toevoegen:
+## Interne gebruikers
 
-* Intern
-* Extern
-* Gebruikersgroepen
+Interne gebruikers in Adobe Learning Manager verwijzen naar werknemers of teamleden binnen uw organisatie. U kunt ze handmatig toevoegen, in bulk uploaden of importeren via systeemintegraties. Nadat u deze gebruikers hebt toegevoegd, kunt u ze in groepen indelen, cursussen toewijzen en de voortgang van het leren volgen.
 
-## Eén gebruiker toevoegen {#addasingleuser}
+Gebruikers in Adobe Learning Manager kunnen verschillende verantwoordelijkheden op zich nemen en verschillende taken beheren op basis van hun toegewezen rollen. Elke rol, inclusief beheerder, auteur, docent en integratiebeheerder, biedt een reeks specifieke mogelijkheden die zijn afgestemd op de ondersteuning van de verantwoordelijkheden van de gebruiker binnen het platform.
 
-Voeg interne studenten aan de Adobe Learning Manager toe met behulp van één gebruikersoptie.
+Adobe Learning Manager ondersteunt de volgende gebruikersrollen:
+
+* **Beheerder**: beheert gebruikers en gebruikersgroepen, wijst rollen toe, en vormt systeem-brede voorkeur zoals gegevensbronnen, toegestane domeinen, en vertoningsopties. Beheerders zijn ook verantwoordelijk voor het maken en ordenen van leerinhoud, het volgen van de voortgang van studenten, het genereren van rapporten en het instellen van integraties met externe systemen.
+* **Auteur**: Creeert en beheert inhoud, met inbegrip van modules en cursussen.
+* **Manager**: Beheert team het leren activiteiten, benoemt teamleden voor cursussen, keurt verzoeken goed, en verstrekt terugkoppelen.
+* **Admin van de Integratie**: Beheert systeemintegraties en gegevensverbindingen tussen ALM en externe platforms.
+* **de rollen van de Douane**: De beheerders kunnen douanerollen tot stand brengen om gebruikers te geven die toegang op hun verantwoordelijkheden wordt gebaseerd. Raadpleeg dit artikel voor meer informatie over de aangepaste rollen.
+
+### Methoden om interne gebruikers toe te voegen
+
+Beheerders kunnen op de volgende manieren interne gebruikers toevoegen:
+
+* **voeg één enkele gebruiker** toe: voeg manueel één gebruiker tegelijkertijd toe.
+* **profiel van de zelfregistratie**: sta studenten toe om zich als studenten in Adobe Learning Manager te registreren gebruikend een registratiekoppeling die door de beheerder wordt gecreeerd.
+* **Bulk uploadt via CSV**: Upload een Csv- dossier om veelvoudige gebruikers meteen toe te voegen.
+
+### Handmatig een interne gebruiker toevoegen
+
+Beheerders kunnen handmatig individuele gebruikers toevoegen door hun naam, e-mail-ID, unieke ID en de naam van de manager in te voeren. De unieke id in Adobe Learning Manager is een vereiste id die beheerders toewijzen bij het maken van een gebruiker. Deze moet uniek zijn voor elke gebruiker en als een consistente referentie in het hele systeem fungeren.
 
 >[!INFO]
 >
->In deze training leert u hoe u interne studenten aan de Adobe Learning Manager kunt toevoegen.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534) </br></br>
+>Bekijk deze ALM Academy-training voor meer informatie over het toevoegen van enkele gebruikers in Adobe Learning Manager.<br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534) </br>
+
+Eén gebruiker toevoegen aan Adobe Learning Manager:
+
+1. Meld u aan als beheerder.
+2. Selecteer **Gebruikers** en selecteer dan **Intern**.
+3. Selecteer **voeg** toe en selecteer dan **Enige Gebruiker**.
+
+   ![](assets/add-single-user.png)
+   _interface die van de Beheerder de optie toont om één enkele interne gebruiker manueel toe te voegen_
+4. Op **voeg de herinnering van de Gebruiker** toe, typ de **Naam**, **E-mail** en **Profiel** (baantitel) van de gebruiker.
+
+   ![](assets/add-a-user-prompt.png)
+   _Gebieden om naam, e-mail, uniek herkenningsteken, en profiel voor een nieuwe gebruiker in te gaan_
+5. Zoek naar de manager van de gebruiker en selecteer de naam in de lijst met managers.
+6. Selecteer **toevoegen**.
+De gebruiker ontvangt een welkomstmail met een aanmeldings-URL voor toegang.
 
 
-Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
+### Zelfregistratie voor interne gebruikers toestaan
 
-Gebruikers toevoegen:
+Zelfregistratie is een zelfserviceonboardingproces waarbij gebruikers een registratie-URL kunnen bezoeken, hun gegevens kunnen invoeren en zich automatisch kunnen inschrijven voor het platform. Deze methode minimaliseert de administratieve inspanning door gebruikers toe te staan om zich door verstrekte URL te registreren.
 
-1. Meld u aan als beheerder bij Learning Manager.
-1. Klik op de startpagina op **[!UICONTROL Gebruikers toevoegen]**. Op deze pagina kunt u een of meerdere gebruikers toevoegen met behulp van een CSV-bestand. U kunt ook een zelfregistratielink maken voor interne werknemers of een extern studentenprofiel aanmaken.
-1. Om één gebruiker toe te voegen, klikt u op **[!UICONTROL Toevoegen]** in de rechterbovenhoek en kiest u de optie **[!UICONTROL Enkele gebruiker]**.
+U kunt als volgt een zelfregistratie-URL voor een gebruiker maken:
 
-1. Om één gebruiker toe te voegen, klikt u op **[!UICONTROL Toevoegen]** in de rechterbovenhoek en kiest u de optie **Enkele gebruiker**.
+1. Meld u aan als beheerder.
+2. Selecteer **Gebruikers** en selecteer dan **Intern**.
+3. Selecteer **voeg** in de hoger-juiste hoek toe en selecteer dan **Zelfregistratie.**
+
+
+   ![](assets/add-self-register-link.png)
+   _menu Dropdown voor het selecteren van de zelfregistratieoptie_
+4. Op **voeg automatisch-Registratieprofiel** herinnering toe, typ het profiel in het **Naam van het Profiel** (de titel van de Taak van de gebruiker) gebied.
+5. Selecteer de manager van de gebruiker door naar de manager in het **gebied van de Naam van de 0} manager te zoeken.** De manager die aan het zelfregistratieprofiel wordt toegewezen, moet een geregistreerde gebruiker in Adobe Learning Manager zijn.
+
+
+   ![](assets/add-a-user-prompt.png)
+   _gebieden van de Input voor het plaatsen van de baantitel en het toewijzen van een manager aan een zelfregistratieprofiel_
+6. Selecteer een beeld gebruikend **voeg de optie van het Beeld** toe. Deze afbeelding is zichtbaar voor de studenten in de profielsectie.
+7. Selecteer **Opslaan**.
+
+   Adobe Learning Manager maakt een gebruikersprofiel en genereert een zelfregistratie-URL die met de gebruikers kan worden gedeeld om hun registratie te voltooien.
+
+
+   ![](assets/self-register-url.png)
+   _Bevestigingsbericht dat op succesvolle verwezenlijking van een zelfregistratie URL wijst_
+8. Deel de URL met de gebruikers die zichzelf willen registreren.
+
+
+   De URL kan voor registratie met meerdere gebruikers worden gedeeld. Bijvoorbeeld, kunt u een URL voor het **Geassocieerde van de Verkoop** profiel produceren en het met het team van de Verkoop delen zodat kunnen zij zich registreren.
+
+![](assets/self-register-screem.png)
+_Zelf-registratie verbinding opent een sign-up pagina_
+
+### De lijst met zelfregistratie-URL&#39;s weergeven
+
+De lijst met zelfregistratie-URL&#39;s weergeven:
+
+1. Selecteer **Gebruikers** en selecteer dan **Intern**.
+2. Selecteer **Zelfregistratie**.
+
+   Beheerders kunnen de lijst met zelfregistratie-URL&#39;s zien.
+
+![](assets/self-registration-profile.png)
+_mening die van de Lijst bestaande zelf-registratie URLs tonen beschikbaar voor interne gebruikers_
+
+### Interne gebruikers in bulk uploaden
+
+Met Adobe Learning Manager kunnen beheerders meerdere gebruikers tegelijk toevoegen door een CSV met de gebruikersgegevens te uploaden, zoals de naam, e-mail-ID en de naam van de manager. Deze bulkuploadfunctie bespaart tijd en moeite in vergelijking met het afzonderlijk toevoegen van gebruikers.
+
+>[!INFO]
+>
+>Bekijk deze opleiding van de Academie ALM om te leren hoe te om gebruikers in bulk door een CSV toe te voegen. <br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555) </br>
+
+Meerdere gebruikers toevoegen:
+
+1. Meld u aan als beheerder.
+2. Selecteer **Gebruikers** en selecteer dan **Intern**.
+3. Selecteer **voeg** in de hoger-juiste hoek toe en selecteer **upload een CSV**.
+
+   ![](assets/select-upload-acsv.png)
+   _Optie om een Csv- dossier voor bulkgebruikersimport_ te uploaden
+
+4. Maak een CSV-bestand met de volgende velden:
+
+   * Naam werknemer*
+   * E-mailadres werknemer*
+   * Werknemersprofiel/Aanwijzing
+   * Id/e-mail van manager\
+     (*) Vereiste velden.
+
+5. Voordat u de e-mail-ID van een manager voor een medewerker toevoegt, moet u ervoor zorgen dat de manager al als medewerker is opgenomen in het CSV-bestand. Zie bijvoorbeeld de medewerker Howard Walters in de onderstaande afbeelding.
+
+   ![](assets/csv-image.png)
+   _Beeld van steekproefCSV met alle gebieden_
+
+6. Upload het CSV-bestand en wijs de gegevensvelden dienovereenkomstig toe.
+
+   ![](assets/map-the-column.png)
+   _CSV afbeeldingsinterface om spreadsheetkolommen met systeemgebieden te richten_
+7. Selecteer **sparen** om de gebruikers in te voeren.
+
+   Er verschijnt een bevestigingsbericht nadat het uploaden is voltooid.
+
+   ![](assets/csv-save-success.png)
+   _Beeld toont de status van CSV uploadt als succesvol_
+
+>[!NOTE]
+>
+>Houd een CSV bij voor alle toevoegingen en verwijderingen. Het bijwerken en opnieuw uploaden van een bestaand CSV-bestand wordt niet ondersteund.
+
+Wanneer u een CSV-bestand uploadt om gebruikers toe te voegen, is het belangrijk dat u alle gerelateerde informatie in de juiste volgorde opneemt. Als u de e-mail-ID van een manager aan een medewerker toewijst, moeten de gegevens van de manager eerder in het CSV-bestand worden weergegeven. Dit zorgt ervoor dat de manager als een bestaande gebruiker wordt herkend voordat deze aan hun teamleden wordt gekoppeld. Als Howard Walters bijvoorbeeld een manager is, neemt u de volledige gebruikersgegevens op in de CSV voordat u de werknemers opsomt die aan hem rapporteren.
+
+### Gebruikersregistratie beheren
+
+Nadat u gebruikers afzonderlijk of in bulk hebt toegevoegd, moet u ze registreren om hun accounts te activeren. Zo hebben gebruikers toegang tot Adobe Learning Manager en kunnen ze het platform gaan gebruiken.
+
+De gebruikers registreren:
+
+1. Selecteer **Gebruikers** op de beheerderhomepage.
+2. Schakel de selectievakjes in naast de namen van de gebruikers die u wilt registreren.
+3. Selecteer **Acties** en selecteer dan **Register**.
+
+   ![](assets/register-user.png)
+   _knoop van het Register om geselecteerde gebruikers in Adobe Learning Manager te activeren_
+
+4. Selecteer **Ja** om de gebruiker te activeren.
+
+Er wordt een verificatiebericht verzonden naar de gebruiker. De gebruiker moet de koppeling in de e-mail selecteren om zijn of haar account te activeren en Adobe Learning Manager te gaan gebruiken.
+
+## Externe gebruikers
+
+Met Adobe Learning Manager kunt u gebruikers buiten uw bedrijf, zoals klanten, partners, leveranciers of klanten, toevoegen om toegang te krijgen tot de leerinhoud. Nadat ze zijn toegevoegd, kunt u ze groeperen, cursussen toewijzen en de leervoortgang bijhouden.
+
+Het toevoegen van externe gebruikers in Adobe Learning Manager omvat de volgende stappen:
+
+* Een extern registratieprofiel maken
+* Het registratieprofiel inschakelen
+* De registratiekoppeling delen met externe gebruikers
+* Het profiel onderbreken of hervatten indien nodig
+
+Adobe Learning Manager ondersteunt de inschrijving van dergelijke gebruikers via externe registratieprofielen.
+
+Ga als volgt te werk om een externe gebruiker te maken:
+
+1. Meld u aan als beheerder.
+2. Selecteer **Gebruikers** en selecteer dan **Extern**.
+3. In de hoger-juiste hoek, voeg **toe** om een registratie voor een externe gebruiker tot stand te brengen.
+4. In de **Add Externe dialoog van het Profiel van de Registratie**, verstrek het volgende:
+
+   * **Naam van het Profiel:** Type de naam van de partnerorganisatie die tot Adobe Learning Manager wil toegang hebben
+   * **E-mail van de Manager:** Type het e-mailadres van de manager van de gebruiker.
+   * **Plaatsgrens:** plaats het maximum toegestane aantal inschrijvingen.
+   * **Verval:** bepaal de laatste datum voor nieuwe registraties. Nadat de koppeling is verlopen, werkt deze niet meer voor nieuwe gebruikersregistratie.
+
+   ![](assets/add-external-user-prompt.png)
+   _de doos van de Dialoog voor het ingaan van profielnaam, manager e-mail, zetelgrens, en afloop_
+
+5. Selecteer een beeld gebruikend **voeg de optie van het Beeld** toe. Deze afbeelding is zichtbaar voor de studenten in de profielsectie.
+6. Selecteer de **Geavanceerde sectie van Montages** om het uit te breiden en de vereiste details te typen:
+   * **Login Vereiste:** Type het aantal dagen. Als studenten gedurende de hele periode inactief blijven, worden ze automatisch verwijderd.
+   * **Toegestane Domeinen:** Type de komma-gescheiden lijst van toegestane e-maildomeinen. Alleen gebruikers met e-mailadressen van goedgekeurde domeinen kunnen zich aanmelden.
+   * **Vereiste E-mailverificatie:** selecteer dit om e-mailverificatie tijdens registratie af te dwingen.
+
+   ![](assets/advanced-settings-add-external.png)
+   _Geavanceerde het paneel van Montages om login vereisten, toegestane domeinen, en e-mailcontrole_ te plaatsen
+
+7. Selecteer **Opslaan**.
+
+Er wordt een registratie-URL gegenereerd.
+
+### Het externe profiel inschakelen
+
+Het externe profiel inschakelen:
+
+1. Zoek het nieuwe profiel in de lijst met externe profielen.
+
+2. Selecteer de **1} knevelknoop van de Status {om het toe te laten.**
+
+De beheerder kan deze URL delen met de externe partner, zodat deze zich kan aanmelden en zich kan aanmelden bij Adobe Learning Manager.
+
+![](assets/enable-the-external-user.png)
+_selecteer de knevel om het externe profiel_ toe te laten
+
+### Registratie-URL van extern profiel kopiëren en delen
+
+De registratie URL voor een extern profiel kan van de **Externe Gebruikers** sectie worden gekopieerd.
+
+![](assets/copy.png)
+_Kopieer registratie URL van een extern profiel_
+
+### Belangrijkste verschillen tussen interne en externe gebruikersregistraties
+
+Er zijn een paar verschillen tussen interne en externe registraties:
+
+| Interne gebruikers | Externe gebruikers |
+|---|---|
+| Aanmelden met Adobe ID- of SSO-referenties. | Kan zich aanmelden met een e-mail-ID. |
+| Gamification is beschikbaar | Gamification is beschikbaar. De beheerder moet gamification voor externe studenten in de [ montages van de Gamification ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) toelaten. |
+
+### Extern registratieprofiel pauzeren
+
+In Adobe Learning Manager kunnen beheerders de externe gebruikersregistratie beheren door hun profielen te pauzeren. Dit is handig wanneer u nieuwe gebruikers tijdelijk wilt onderbreken om deel te nemen aan een bepaald extern gebruikersprofiel. Als u een profiel pauzeert, voorkomt u dat gebruikers die uitnodigingen hebben ontvangen maar zich nog niet hebben geregistreerd, het aanmeldingsproces voltooien. Deze handeling is niet van invloed op gebruikers die hun registratie al hebben voltooid.
+
+Een extern profiel pauzeren:
+
+1. Selecteer **Acties** in de hoger-juiste hoek van de **Externe Gebruikers** pagina.
+2. Selecteer **Pauze** om het externe gebruikersprofiel te pauzeren.
+
+Hierdoor wordt het registratieproces geblokkeerd voor gebruikers die hun uitnodigingen nog niet hebben geaccepteerd. Deze handeling is alleen van toepassing op gebruikers die hun registratie nog niet hebben voltooid.
+
+![](assets/pause-external-user.png)
+_Optie om een bestaand extern gebruikersprofiel van het menu van Acties te pauzeren_
+
+### Extern registratieprofiel hervatten
+
+Als een extern profiel eerder is gepauzeerd, kunnen beheerders het hervatten zodat nieuwe gebruikers hun registratie kunnen voltooien. Hiermee activeert u het registratieproces voor gebruikers die zijn uitgenodigd maar hun aanmelding niet hebben voltooid.
+
+Een externe gebruiker hervatten:
+
+1. Selecteer **Acties** in de hoger-juiste hoek van de pagina.
+2. Selecteer **Hervatten** om de toegang van een gepauzeerde partner te hervatten.
+
+![](assets/resume-an-external-user.png)
+_Optie om een eerder gepauzeerd extern gebruikersprofiel_ te hervatten
+
+### Gebruik van externe licenties bewaken
+
+Beheerders kunnen bijhouden hoeveel gebruikers aan elk extern profiel zijn toegevoegd in Adobe learning.
+
+De gebruikte licenties controleren:
+
+1. Selecteer **Gebruikte Plaatsen** in de lijst van externe profielen.
+
+U kunt zien hoeveel studenten aan de partnerorganisatie zijn toegevoegd en of de studenten actief zijn.
+
+## Gebruikers beheren
+
+Beheerders kunnen gebruikersgegevens bewerken, gebruikers verwijderen, rollen toewijzen en rollen verwijderen. Zo weet u zeker dat elke gebruiker de juiste toegang en taken heeft.
+
+>[!INFO]
+>
+>Bekijk deze opleiding van de Academie ALM om te leren hoe te om rollen toe te wijzen en te verwijderen, een welkome e e-mail te verzenden, en gebruikers te schrappen en te zuiveren.<br>[![button]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586) </br>
+
+### Een gebruiker bewerken
+
+Gebruik de **Edit optie van de Gebruiker** in Adobe Learning Manager om de het profielinformatie van een gebruiker, zoals naam, e-mailadres, uniek herkenningsteken, profiel en naam van de manager bij te werken. Beheerders kunnen deze wijzigingen aanbrengen om ervoor te zorgen dat de gebruikersgegevens accuraat en up-to-date blijven.
+
+Een gebruiker bewerken:
+
+1. Selecteer **Gebruikers** op de beheerderhomepage.
+2. Selecteer de gebruiker u van de **lijst van Gebruikers** wilt uitgeven.
+3. Selecteer **uitgeven Profiel**.
+
+   ![](assets/edit-a-profile.png)
+   _de optie van de Gebruiker van de Schrapping onder het menu van Acties om een gebruiker uit het platform_ te verwijderen
+
+4. Selecteer **Ja** om de gebruiker te schrappen.
+
+Er verschijnt een bevestigingsbericht wanneer de gebruiker is verwijderd.
+
+## Een gebruiker een rol toewijzen
+
+Gebruikersrollen in Adobe Learning Manager bepalen welke handelingen elke persoon in het systeem kan uitvoeren. Elke rol heeft specifieke machtigingen die zijn gebaseerd op de verantwoordelijkheden van de gebruiker.
+
+Rollen toewijzen aan gebruikers:
+
+1. Selecteer **Gebruikers** op de beheerderhomepage.
+2. Selecteer de gebruiker die u een rol wilt toewijzen.
+3. Selecteer **Acties** in de hoger-juiste hoek.
+4. Selecteer **wijs Rol** toe.
+5. Selecteer de gewenste rol.
+
+   ![](assets/assign-roles-users.png)
+   _wijs de opties van het het menuenvertoning van de Rol beschikbare rollen voor de geselecteerde gebruiker_ toe
+
+6. Selecteer **Ja** op de bevestigingsdialoog.
+
+## Een rol verwijderen
+
+Als u een gebruikersrol verwijdert, worden de machtigingen ingetrokken die door die rol zijn verleend.
+
+Rollen verwijderen uit gebruikers:
+
+1. Selecteer **Gebruikers** op de beheerderhomepage.
+2. Selecteer de gebruiker(s) waarvan u de rollen wilt verwijderen.
+3. Selecteer **Acties** en selecteer dan **Rol** verwijderen.
+
+   ![](assets/remove-a-role.png)
+   _Optie om toegewezen rollen uit een gebruiker onder het menu van Acties te verwijderen_
+
+4. Selecteer **Ja** op de bevestigingsdialoog.
+<!--# Add users and create user groups
+
+
+Learn how to add users or user groups in Learning Manager application.
+
+<!--![](assets/user-mgmt-new.png)-->
+
+<!--## Overview {#overview}
+
+In Adobe Learning Manager, you can assume the following roles:
+
+* **Administrator:** An Administrator defines the training strategy for the organization. An Administrator can add learners, search required skills for learners, manage and assign courses, create learning plans, certifications, and learning programs, and manage reports for the entire organization.
+* **Author:** Authors are Instructional Designers and content creators. An Author can add modules and courses to Learning Manager.
+* **Manager:** A Manager manages the learning activities of a team. A Manager can nominate team members to take a course, approve requests from team members, and provide feedback on performance of their team members post-completion of training. Managers can also view reports for their team to track their performance.
+* **Learner:** Learners can access courses, learning programs, and certifications assigned to them. Learners can also browse through all the available courses by using a catalog and enroll themselves for either courses, learning programs, or certifications.
+
+As an Administrator, you can add users in three ways:
+
+* Internal
+* External
+* User groups
+
+## Add a single user {#addasingleuser}
+
+Add internal learners to the Adobe Learning Manager using a single user option.
+
+>[!INFO]
+>
+>In this training, you will learn how to add internal learners to the Adobe Learning Manager.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
+
+
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+
+To add users,
+
+1. Log into Adobe Learning Manager as an Administrator. 
+1. On the home page, click **[!UICONTROL Add Users]**. On this page, you can add a single user or multiple users at a time using a CSV. You can also create a self-registration link for internal employees or create an external learner profile.
+1. To add a single user, click **[!UICONTROL Add]** on the upper-right corner and choose the option **[!UICONTROL Single User]**.
+
+1. To add a single user, click **[!UICONTROL Add]** on the upper-right corner and choose the option **Single User**.
 
 
    ![](assets/single-user.png)
-   *voeg één enkele interne gebruiker toe*
+   *Add a single internal user*
 
-1. In het dialoogvenster **[!UICONTROL Gebruiker toevoegen]** voert u de gegevens van de student in. Kies in het veld **[!UICONTROL Naam van manager]** de naam van een bestaande gebruiker in het systeem.
+1. On the **[!UICONTROL Add User]** dialog, enter the details of the learner. For the field **[!UICONTROL Manager's Name]**, pick the name of an existing user in the system.
 
    ![](assets/manager.png)
-   *voeg gebruikersdialoogdoos toe*
+   *Add user dialog box*
 
-1. Klik op **[!UICONTROL Toevoegen]** om een nieuwe gebruiker aan Learning Manager toe te voegen. Nadat de gebruiker is toegevoegd, ontvangt hij/zij een verificatiemail.  De student activeert vervolgens zijn/haar account en kan Learning Manager dan beginnen te gebruiken. Deze workflow is handig als u een beperkt aantal studenten moet toevoegen aan uw LMS-account. Maar als u alle werknemers van een grote organisatie wilt inschrijven, kunt u ze ook in een keer toevoegen. In het volgende gedeelte vindt u meer informatie.
+1. To add the new user in Learning Manager, click **[!UICONTROL Add]**. After the user is added, the user receives a verification mail. The Learner then activates the account and starts using Learning Manager. This workflow is helpful if you need to add limited number of learners to your Learning Manager Account. But if you're planning to enroll all the employees of a large organization, you can add them in a singe attempt. For more information, see the next section.
 
-## Gebruikers in bulk toevoegen {#addusersinbulk}
+## Add users in bulk {#addusersinbulk}
 
-Doorgaans werken organisaties met een HRMS (HR Management System) met daarin alle werknemersrecords zoals benoeming, locatie, datum van indiensttreding of werknemershiërarchie. U kunt deze gegevens in CSV-indeling exporteren. Volg de onderstaande stappen om een CSV te importeren:
+Typically, most organizations work with an HR Management System (HRMS), which maintains all employee records, such as, designation, location, date of joining, or employee hierarchy. You can export this data in a CSV format. To import a CSV, follow the steps below:
 
 
-1. Klik op **[!UICONTROL Toevoegen]** in de rechterbovenhoek en kies de optie **[!UICONTROL Een CSV uploaden]**.
+1. Click **[!UICONTROL Add]** on the upper-right corner, and choose the option **[!UICONTROL Upload a CSV]**.
 
    ![](assets/upload-a-csv.png)
-   *upload een CSV om gebruikers in bulk toe te voegen*
+   *Upload a CSV to add users in bulk*
 
-1. De CSV die u uploadt bevat de velden, zoals hieronder weergegeven:
+1. The CSV that you upload consists of the fields, as shown below:
 
    ![](assets/csv.png)
-   *Structuur van CSV*
+   *Structure of the CSV*
 
-   U moet een CSV-master bijhouden en alle toevoegingen en verwijderingen in de CSV-master uitvoeren. Het master-CSV-bestand bevat de volgende velden:
+   You must maintain a master CSV and perform perform all additions and deletions on the master CSV. The master CSV contains the following fields:
 
    * name &#42;
    * email &#42;
    * profile
    * manager
 
-   (&#42;) Vereist veld.
+   (&#42;) Required field.
 
-1. Nadat u op de optie **[!UICONTROL Een CSV uploaden]** hebt geklikt, wordt het volgende dialoogvenster weergegeven.
+1. After you click the option **[!UICONTROL Upload a CSV]**, the following dialog displays.
 
    ![](assets/upload-a-csv-dialog.png)
-   *upload een dialoog CSV*
+   *Upload a CSV dialog*
 
-1. Kies de CSV of sleep het bestand ernaartoe. Nadat u het bestand hebt gekozen, wijst u de gegevensvelden toe aan die in het CSV-bestand. Klik op de toepasselijke keuzelijst en kies het juiste veld.
+1. Choose the CSV or drag-and-drop the file. After you've chosen the file, map the data fields with the ones in the CSV file. Click the required drop-down and choose the right field.
 
    ![](assets/map-data-fields.png)
-   *gebieden van de Kaart in CSV*
+   *Map fields in CSV*
 
-1. Klik op **[!UICONTROL Opslaan]** om de gebruikers te importeren. Er wordt een bevestigingsbericht weergegeven.
+1. To start importing the users, click **[!UICONTROL Save]**. You can see a confirmation message.
 
    ![](assets/save-csv.png)
-   *Bevestigingsbericht voor succesvolle upload van CSV*
+   *Confirmation message for successful upload of the CSV*
 
-1. De nieuwe gebruikers zijn nu toegevoegd aan uw Adobe Learning Manager-account. Om de nieuwe gebruikers te selecteren, vinkt u het vakje naast de namen aan.
+1. The new users are now added to your Adobe Learning Manager account. To select the new users, select the check-box next to the names so that everybody is selected. 
 
    ![](assets/select-new-users.png)
-   *Nieuwe toegevoegde gebruikers*
+   *New users added*
 
 >[!NOTE]
 >
->Zie voor meer informatie de veelgestelde vragen over [Gebruikers in bulk toevoegen](../add-users-in-bulk.md).
+>For more information, see the FAQ, [Add users in bulk](../add-users-in-bulk.md).
 
 >[!INFO]
 >
->In deze training leert u hoe u gebruikers in bulk kunt toevoegen via een CSV-bestand.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555) </br></br>
+>In this training, you will learn how to add users in bulk through a CSV.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
-Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-## Een gebruiker registreren {#registerauser}
+## Register a user {#registerauser}
 
-Selecteer de gebruiker en klik op **[!UICONTROL Acties]** in de rechterbovenhoek. Klik vervolgens op **[!UICONTROL Registreren]**.
+With the user selected, click **[!UICONTROL Actions]** on the upper-right corner and click **[!UICONTROL Register]**.
 
-De geselecteerde gebruikers ontvangen een welkomstmail. Als de gebruikers een bestaande Adobe ID hebben, kunnen ze op deze link klikken.  Als ze geen bestaande Adobe ID hebben, kunnen ze op de welkomstkoppeling klikken om een Adobe ID te maken en deze koppelen aan hun Learning Manager-account.
+The selected users receive a Welcome email. If the learners have an existing Adobe ID, they can click this link. If they don't have an existing Adobe ID, they can go ahead and click the Welcome link to create an Adobe ID and link it to their Learning Manager account.
 
-### Gebruikers beheren
+### Manage users
 
-In deze training leert u hoe u rollen toewijst en verwijdert, een welkomstmail verzendt en gebruikers verwijdert en verwijdert.
+In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
-[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
 
-Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-## Een rol toewijzen {#assignarole}
+## Assign a role {#assignarole}
 
-Nadat u studenten aan het Adobe Learning Manager-account hebt toegevoegd, kunt u hun rollen wijzigen door op Acties te klikken in de rechterbovenhoek van de pagina. Kies de optie **[!UICONTROL Rol toewijzen]**. Hier kunt u bepalen of u de student auteurs- of beheerderstoegang wilt geven. Nadat u een rol hebt toegewezen, heeft deze student auteurstoegang tot het account en kan hij modules toevoegen en cursussen maken.
+After adding learners to the Adobe Learning Manager account, if you want to change their roles, click Actions on the upper-right corner of the page. Choose the option **[!UICONTROL Assign Role]**. Here you can decide whether you want to give Author access or Admin access to the learner. After you have assigned a role, this learner has Author access to the account and can add modules and create courses. 
 
 ![](assets/assign-a-role.png)
-*wijs een rol aan een gebruiker* toe
+*Assign a role to a user*
 
-## Een rol verwijderen {#removearole}
+## Remove a role {#removearole}
 
-U kunt ook auteurs- en beheerderstoegang voor gebruikers verwijderen.  Selecteer een of meer studenten, klik op **[!UICONTROL Acties]** en selecteer **[!UICONTROL Rol verwijderen]**. Kies een optie, bijvoorbeeld, **[!UICONTROL verwijder Auteur]**, en de auteurstoegang wordt ingetrokken voor deze student.
+You can also remove Author or Admin access for the users. Select one or more learners, click **[!UICONTROL Actions]**, and select **[!UICONTROL Remove Role]**. Choose an option, for example, **[!UICONTROL Remove Author]**, and the author access gets revoked for this learner. 
 
 >[!NOTE]
 >
->Het is niet mogelijk handmatig een beheerdersrol aan iemand in het systeem toe te wijzen.  Ze krijgen automatisch toegang tot het beheerdersdashboard wanneer een of meer werknemers onder hen worden toegevoegd.
+>You cannot manually assign a Manager role to someone in the system. They automatically get access to the Manager dashboard when one or more employees are added under them.
 
-## Een gebruiker verwijderen {#deleteauser}
+## Delete a user {#deleteauser}
 
-Om een gebruiker te verwijderen klikt u op **[!UICONTROL Acties]** en kiest u **[!UICONTROL Gebruiker verwijderen]**. Klik in het bevestigingsvenster op **[!UICONTROL Ja]** om de verwijdering te bevestigen.
+To delete a user, click **[!UICONTROL Actions]**, and choose **[!UICONTROL Delete User]**. On the confirmation dialog, click **[!UICONTROL Yes]**, and the learner gets deleted.
 
 ![](assets/delete-a-role.png)
-*Bevestigingsbericht om een gebruiker* te schrappen
+*Confirmation message to delete a user*
 
-## Een gebruiker bewerken {#editauser}
+## Edit a user {#editauser}
 
-Kies een gebruiker in de gebruikerslijst en klik erop.  Voor de gebruikersdetails, klik **[!UICONTROL uitgeven]** ( ![](assets/edit-pen.png)) knoop. Maak de benodigde wijzigingen in het dialoogvenster **[!UICONTROL Gebruiker bewerken]** en klik op **[!UICONTROL Opslaan]** om de wijzigingen op te slaan.
+On the list of users, choose a user, and click the user. On the user details, click the **[!UICONTROL Edit]** ( ![](assets/edit-pen.png)) button. On the **[!UICONTROL Edit User]** dialog, make the necessary edits and to save the changes, click **[!UICONTROL Save]**.
 
 ![](assets/edit-user.png)
-*geef de dialoog van de Gebruiker* uit
+*Edit User dialog*
 
-## Actieve velden
+## Active fields
 
-Actieve velden in Adobe Learning Manager zijn aanpasbare metagegevensvelden die worden gebruikt voor het opslaan en beheren van gebruikersspecifieke informatie. Met deze velden kunt u de belangrijkste kenmerken of kenmerken definiëren die aan elke gebruiker in het systeem zijn gekoppeld.
+Active Fields in Adobe Learning Manager are customizable metadata fields used to store and manage user-specific information. These fields help define key attributes or characteristics associated with each user in the system.
 
-### Gebruikerskenmerken beheren
+### Manage user attributes
 
 >[!INFO]
 >
->In deze training leert u hoe u actieve velden kunt toevoegen, aanpassen en configureren.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741) </br></br>
+>In this training, you will learn how to add, customize, and configure Active Fields.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br></br>
 
-Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-Adobe Learning Manager behoudt de hoofdlettergevoeligheid van het gebruikerskenmerk en de waarde ervan. **bijvoorbeeld**, is de gevalgevoeligheid van een gebruikersattribuut &quot;plaats&quot;en zijn waarde als &quot;PARIS&quot;zal worden bewaard en op de zelfde manier getoond. In het geval van problemen kan de beheerder nu de kenmerknaam en -waarden bewerken om eventuele hoofdlettergevoeligheidsfouten te corrigeren.
+Adobe Learning Manager preserves the case sensitivity of the user attribute and its value. **For example**, the case sensitivity of a user attribute is 'location' and its value as 'PARIS' will be preserved and displayed in the same manner. In case of any issues, the Administrator can now edit the attribute name and values to correct any case sensitivity errors. 
 
-De beheerder kan dit doen door **[!UICONTROL app Admin]** > **[!UICONTROL Gebruikers]** > **[!UICONTROL Gebruikersgroepen]** te bezoeken en op de groepsnaam te klikken.
+The Administrator can do this by visiting **[!UICONTROL Admin app]** > **[!UICONTROL Users]** > **[!UICONTROL User groups]** and clicking on the group name.  
 
-Een beheerder kan via de gebruikersinterface toegestane kenmerkwaarden voor een student toevoegen en bijwerken.
+An Admin can add and update allowed attribute values for a learner through UI.
 
-Typen actieve velden:
+Types of active fields:
 
-* Te groeperen: groeperen van studenten op basis van de waarden
-* Te rapporteren: rapportage van gebruikersgroepen gebeurt op basis van de actieve velden
-* Te exporteren: de velden zijn zichtbaar in het geëxporteerde gebruikersgroeprapport.
+* Groupable: Learners would get grouped on the basis of the Values
+* Reportable: Reporting user groups would be created based on the active fields
+* Exportable: The fields will be seen in exported in user group report.
 
-## Een zelfregistratielink maken {#createaselfregistrationlink}
+## Create a self-registration link {#createaselfregistrationlink}
 
-U kunt werknemers van uw organisatie ook in staat stellen zichzelf als student in te schrijven bij een Adobe Learning Manager-account zonder uw hulp als beheerder. De beheerder kan een koppeling voor zelfregistratie maken en deze delen met de medewerkers, die zich verder kunnen registreren bij Leermanager met hun Adobe-referenties.
+You can also enable employees in your organization to register themselves as Learners to Adobe Learning Manager Account, without taking help from you as an administrator. The administrator can create a Self-Registration link and share with the employees, who can further register to Learning Manager using their Adobe credentials.
 
-Op de hoger-juiste hoek van de pagina, klik **&#x200B;**&#x200B;toevoegen, en selecteer **[!UICONTROL Zelfregistratie]**.
+On the upper-right corner of the page, click **[!UICONTROL Add]**, and select **[!UICONTROL Self-Registration]**.
 
 
 ![](assets/self-registration.png)
-*creeer verbinding aan zelf-register als student*
+*Create link to self-register as learner*
 
-Het dialoogvenster **[!UICONTROL Zelfregistratieprofiel toevoegen]** wordt weergegeven.  Geef dit profiel een naam. Voeg vervolgens de naam van de manager toe.  Het is belangrijk om te weten dat de manager al een student moet zijn geregistreerd in Leermanager.
+The **[!UICONTROL Add Self-Registration Profile]** dialog appears. Give this profile a name. Then add the manager's name. It's important to know that the manager must already be registered learner in Learning Manager.
 
 ![](assets/add-self-registrationprofile.png)
-*voeg profiel voor zelfregistratie* toe
+*Add profile for self-registration*
 
-Nadat u op **[!UICONTROL Opslaan]** hebt geklikt, wordt een URL gegenereerd die u met de studenten kunt delen. Zij kunnen op de URL klikken en zichzelf inschrijven.
+After you click **[!UICONTROL Save]**, a URL gets generated, which you can share with the learners, so that they can click the URL and self-register themselves.
 
-## Externe studenten inschrijven {#enrollexternallearners}
+## Enroll external learners {#enrollexternallearners}
 
-In Adobe Learning Manager kunt u ook registratielinks maken voor externe partners of agentschappen met beperkte toegang tot uw account en leermateriaal aan hen verstrekken.
+In Adobe Learning Manager, you can also create Registration links for external partners or agencies with limited access to your account and provide them learning material.
 
-Er zijn enkele verschillen tussen interne en externe registraties.
+There are a few differences between internal and external registrations.
 
 <table>
  <tbody>
   <tr>
    <td>
-    <p><b>Interne gebruikers</b></p></td>
+    <p><b>Internal users</b></p></td>
    <td>
-    <p><b>Externe gebruikers</b></p></td>
+    <p><b>External users</b></p></td>
   </tr>
   <tr>
    <td>
-    <p>Aanmelden met uw Adobe ID of SSO-gegevens</p></td>
+    <p>Log in using Adobe ID or SSO credentials.</p></td>
    <td>
-    <p>Aanmelden met een e-mailadres</p></td>
+    <p>Log in using any email ID.</p></td>
   </tr>
   <tr>
    <td>
-    <p>Gamification is beschikbaar</p></td>
+    <p>Gamification is available.</p></td>
    <td>
-    <p>Gamification is beschikbaar. De beheerder moet gamification voor externe studenten inschakelen in de Gamification-instellingen.</p></td>
+    <p>Gamification is available. The admin must enable gamification for external learners in the Gamification settings.</p></td>
   </tr>
   <tr>
    <td>
-    <p>Studentenhiërarchieën zijn beschikbaar</p></td>
+    <p>Learner hierarchies are available.</p></td>
    <td>
-    <p>Studentenhiërarchieën zijn niet beschikbaar</p></td>
+    <p>Learner hierarchies are not available.</p></td>
   </tr>
  </tbody>
 </table>
 
-Volg de onderstaande stappen om externe gebruikers in te schrijven:
+To enroll external users, follow the steps below:
 
-1. Klik in het linkernavigatievenster op **[!UICONTROL Extern]**.
+1. In the left navigation pane, click **[!UICONTROL External]**.
 
    ![](assets/click-external.png)
+   
+   *Enroll external users*
 
-   *schrijf externe gebruikers* in
+1. On the upper-right corner of the page, click **[!UICONTROL Add]**.
 
-1. Klik rechtsboven op de pagina op **[!UICONTROL Toevoegen]**.
-
-1. Voeg in het dialoogvenster **Extern registratieprofiel toevoegen** de volgende details toe:
+1. On the **Add External Registration Profile** dialog, add the following details:
 
 
-   * De profielnaam van de partnerorganisatie.
-   * Het e-mailadres van de manager van de partnerorganisatie.
-   * Plaatslimiet voor externe inschrijving voor deze partner.
-   * Vervaldatum om een deadline in te stellen waarmee nieuwe registraties voor deze groep worden stopgezet. Na de vervaldatum hebben alleen bestaande geregistreerde gebruikers toegang tot deze training.
+   * The profile name of the partner organization.
+   * The email address of the manager of the partner organization.
+   * Seat limit for external enrollment for this partner.
+   * Expiry date to set a deadline to stop allowing new registrations to this group. After the Expiry date, only the existing registered users can access this training.
 
    ![](assets/map-data-fields-2.png)
 
-   *voeg de Externe dialoog van het Profiel van de Registratie toe*
+   *Add External Registration Profile dialog*
 
-   * In de **[!UICONTROL Geavanceerde sectie van Montages]**, ga het volgende in:
+   * In the **[!UICONTROL Advanced Settings]** section, enter the following:
 
-      * **[!UICONTROL het Vereiste van de Login &#x200B;]:** specificeer een waarde in dagen. Studenten worden verwijderd als ze zich gedurende de bovenstaande periode niet aanmelden.
-      * **[!UICONTROL Toegestane Domeinen &#x200B;]:** een komma-gescheiden lijst van gewhitelisteerde e-maildomeinnamen.
-      * **[!UICONTROL Vereiste E-mailverificatie &#x200B;]:** selecteer deze optie om e-mailverificatie voor een student verplicht te maken.
+     * **[!UICONTROL Login Requirement]:** Specify a value in days. Learners get deleted if they do not login for the above duration.
+     * **[!UICONTROL Allowed Domains]:** A comma-separated list of whitelisted email domain names.
+     * **[!UICONTROL Email Verification Required]:** Select this option to make email verification mandatory for a learner.
 
    ![](assets/email-verificationrequired.png)
 
-   *ga de details in de Geavanceerde sectie van Montages in*
+   *Enter the details in the Advanced Settings section* 
 
-1. Wanneer u op **[!UICONTROL Opslaan]** klikt, ziet u het volgende bevestigingsbericht. U moet de URL met uw externe partner delen.
+1. After you click **[!UICONTROL Save]**, you can see the following confirmation message. You must share the URL with your external partner.
 
    ![](assets/save-and-share-urlwithexternalusers.png)
 
-## Een extern profiel inschakelen {#enableanexternalprofile}
+## Enable an external profile {#enableanexternalprofile}
 
-Nadat een extern profiel is gemaakt, moet u de status ervan inschakelen.  Kies het gewenste profiel uit de lijst met externe profielen en zet de statusschakelaar op Aan.
+After an external profile has been created, you must enable its status. From the list of external profiles, choose the required profile, and toggle the status button.
 
 ![](assets/choose-required-profiles.png)
-*laat een extern profiel* toe
+*Enable an external profile*
 
-Hiermee wordt de link voor externe inschrijving geactiveerd. Er wordt automatisch een welkomstmail naar de partner gestuurd. U kunt de link ook kopiëren en delen door op het pictogram URL kopiëren () te klikken, of de welkomstmail nogmaals naar de partnerorganisatie sturen door op het e-mailpictogram () te klikken.
+This enables the External Enrollment link. A welcome email is automatically be sent to the partner. You can also copy the link and share with them by clicking the Copy URL icon (), or you can resend the welcome email to the partner organization by clicking the Mail icon ().
 
-De partnermanager kan de verbinding met de werknemers delen die de opleiding in PrLearning Managerime moeten nemen. Wanneer ze op de link klikken, kunnen ze zichzelf inschrijven door enkele gegevens in te vullen om hun Learning Manager-profiel aan te maken. Deze gebruikers worden niet samen met de interne werknemers weergegeven op het tabblad Studenten. Hun namen staan op het tabblad **[!UICONTROL Externe studenten]**.
+The partner manager can share the link with the employees who must take the training in PrLearning Managerime. When they click the link, they can self-enroll themselves after filling out some details to create their profile on Learning Manager. These users will not appear on the Learners tab along with the internal employees. You can see their names under the **[!UICONTROL External Learners]** tab.
 
-## Een extern profiel pauzeren {#pause}
+## Pause an external profile {#pause}
 
-Nadat u een externe gebruikersgroep aan Leermanager hebt toegevoegd, kunt u het registratieproces van externe gebruikers ook pauzeren. Wanneer u pauzeert, wordt het registratieproces van externe gebruikers geblokkeerd. Dit proces werkt echter alleen als de gebruikers zich nog niet hebben geregistreerd door de uitnodiging te accepteren.
+After adding an external user group to Learning Manager, you can also pause the external users' registration process. When you pause, the external users' registration process is blocked. However, this process works only when the users haven't registered yet by accepting the invitation.
 
-Kies een groep of groepen, klik op **[!UICONTROL Acties]** in de rechterbovenhoek van de pagina en klik op **[!UICONTROL Pauzeren]** om de externe gebruikersgroepen te pauzeren.
+To pause the external user groups, choose a group or groups, click **[!UICONTROL Actions]** from the upper-right corner of the page, and click **[!UICONTROL Pause]**.
 
-## Een extern profiel hervatten {#resumeanexternalprofile}
+## Resume an external profile {#resumeanexternalprofile}
 
-U kunt de gepauzeerde status van een externe partner op elk moment intrekken en de normale services hervatten. Klik **[!UICONTROL Acties]** bij de hoger-juiste hoek van de pagina en selecteer **[!UICONTROL Hervatten]**.
+At any time, you can always revoke the paused state of an external partner and resume normal services. Click **[!UICONTROL Actions]** at the upper-right corner of the page and select **[!UICONTROL Resume]**.
 
-De volgende statussen zijn van toepassing voor externe gebruikers:
+The following states are applicable for external users:
 
-* **Inactieve staat** - in deze staat, is de registratie van de externe gebruikers verlopen. Beheerders stellen de vervaldatum voor de externe gebruikers in wanneer ze deze toevoegen via de workflow Gebruiker toevoegen.
-* **Actief**: in deze status kunnen externe gebruikers zich bij de Learning Manager-toepassing registreren en zich bij de toepassing aanmelden.
-* **Pauzeren**: in deze status is het registratieproces voor externe gebruikers geblokkeerd. Bestaande gebruikers kunnen zich echter nog steeds aanmelden.
+* **Inactive state** - In this state, the external users' registration is expired. Administrators set the expiry date for the external users while adding them through the add user workflow.
+* **Active state** - In this state, the external users can register to the Learning Manager application, and log in to the application.
+* **Pause** - In this state, the registration process for external users is blocked. However, the existing users can continue to log in.
 
-## Gebruikte plaatsen controleren {#checkusedseats}
+## Check used seats {#checkusedseats}
 
-Klik in de lijst met externe profielen op **[!UICONTROL Gebruikte plaatsen]**. U kunt het aantal toegevoegde studenten van de partnerorganisatie bekijken.
+On the list of external profiles, click **[!UICONTROL Seats Used]**. You can view the number of learners in the partner organization who have been added.
 
 ![](assets/seats-used.png)
-*Controle gebruikte plaatsen*
+*Check used seats*
 
-## Een gebruiker verwijderen {#Deleteauser-1}
+## Delete a user {#Deleteauser-1}
 
-Kies een gebruiker, en van de hoger-juiste hoek, klik **[!UICONTROL Acties]** > **[!UICONTROL Schrapping Gebruiker]**.
+Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Delete User]**.
 
-## Profiel wijzigen {#changeprofile}
+## Change profile {#changeprofile}
 
-Om een gebruiker naar een ander extern profiel te bewegen, verkies een gebruiker, van de hoger-juiste hoek, klik **[!UICONTROL Acties]** > **[!UICONTROL Profiel van de Verandering]**. Kies een profiel uit de lijst met profielen en klik op **[!UICONTROL Wijzigen]**.
+To move a user to another external profile, choose a user, from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Change Profile]**. From the list of profiles, choose a profile, and click **[!UICONTROL Change]**.
 
-## Een rol toewijzen {#Assignarole-1}
+## Assign a role {#Assignarole-1}
 
-Kies een gebruiker, en van de hoger-juiste hoek, klik **[!UICONTROL Acties]** > **[!UICONTROL wijs Rol]** toe > **maak`<role>`**. De gebruiker krijgt een nieuwe rol.
+Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]** > **Make `<role>`**. The user gets a new role.
 
-## Een rol verwijderen {#Removearole-1}
+## Remove a role {#Removearole-1}
 
-Kies een gebruiker, en van de hoger-juiste hoek, klik **[!UICONTROL Acties]** > **[!UICONTROL verwijdert Rol]** > **verwijdert`<role>`**. De geselecteerde rol wordt verwijderd uit de lijst met rollen die aan de gebruiker zijn toegewezen.
+Choose a user, and from the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **Remove `<role>`**. The selected role gets removed from the list of roles that were assigned to the user.
 
 >[!NOTE]
 >
->Het toewijzen van een nieuwe rol heeft geen invloed op aangepaste gebruikersgroepen. Dit is echter wel van invloed op automatisch gegenereerde gebruikersgroepen zoals Alle beheerders, Alle auteurs en vergelijkbare op rollen gebaseerde groepen.
+>Assigning a new role will not affect custom user groups. However, it will impact auto-generated user groups such as All Admins, All Authors, and similar role-based groups.
 
-## Gebruikersgroepen maken {#createusergroups}
+## Create user groups {#createusergroups}
 
-Een gebruikersgroep is een verzameling gebruikers die tot een categorie behoren. Met gebruikersgroepen kunnen beheerders studenten in hun organisatie op basis van hun kenmerken selecteren en vervolgens leermateriaal aan hen toewijzen. Met behulp van deze gebruikersgroepen kunnen beheerders ook aangepaste logo&#39;s en catalogi aan studenten toewijzen en aangepaste rapporten over hun voortgang weergeven.
+A User Group is a set of users who are related to a category. User Groups help administrators to select learners in their organization based on their attributes, and then assign learning content to them. Also, these User Groups enable administrators to assign customized logos and catalogs to learners and show customized reports on their progress.
 
-Om toegang te krijgen tot gebruikersgroepen klikt u in het linkerdeelvenster op **[!UICONTROL Gebruikersgroepen]**.
+To access User Groups, on the left navigation pane, click **[!UICONTROL User Groups]**.
 
 ![](assets/user-groups.png)
-*creeer gebruikersgroepen*
+*Create user groups*
 
-### Gebruikersgroepen beheren
+### Manage user groups
 
 >[!INFO]
 >
->In deze training leert u hoe u een gebruikersgroep kunt maken op naam, e-mail-id&#39;s en meerdere automatisch gegenereerde gebruikersgroepen combineert.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694) </br></br>
+>In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.<br><br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
 
-Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
+If you're unable to launch the training, write to <almacademy@adobe.com>.
 
-Er zijn twee soorten groepen in Adobe Learning Manager: Aangepast en Automatisch gegenereerd. Wanneer u studenten aan uw account toevoegt, worden bepaalde groepen automatisch aangemaakt op basis van gemeenschappelijke eigenschappen.
+There are two types of groups in Adobe Learning Manager, Custom and Auto-generated. When you add learners to your account, some groups are automatically created based on their common properties.
 
-Klik op het tabblad **[!UICONTROL Automatisch gegenereerd]** om de automatisch gemaakte groepen weer te geven.
+To see the automatically created groups, click the tab **[!UICONTROL Auto-generated]**.
 
 ![](assets/auto-generated.png)
-*Mening Auto-geproduceerde groepen*
+*View Auto-generated groups*
 
-U kunt zien dat er verschillende groepen zijn, zoals Alle interne gebruikers, Alle managers, en groepen op basis van de kostenplaats, afdeling en het team van de managers.
+You can see that there are different groups, like All Internal Users, All Managers, groups based on the Cost Center, based on the department, and based on the teams of the managers.
 
-Naast de automatisch gegenereerde groepen kunt u ook aangepaste groepen maken. Om een nieuwe Groep van de Douane, op de hoger-juiste hoek toe te voegen, klik **[!UICONTROL voeg]** toe.
+In addition to Auto-generated groups, you can create Custom groups. To add a new Custom Group, on the upper-right corner, click **[!UICONTROL Add]**. 
 
-1. Voer de naam en beschrijving voor de groep in.
-1. Voer de naam of het profiel van een gebruiker in het zoekveld in en selecteer gebruikers om deze toe te voegen.
+1. Enter the name, and description for the group.
+1. Enter user name or profile in search-as-you-type field and select from the drop-down list, to add users.
 
-1. Om meer studenten toe te voegen, klik **[!UICONTROL Meer Gebruikers]** toevoegen.
+1. To add more learners, click **[!UICONTROL Add More Users]**.
 
-1. Klik op **[!UICONTROL Opslaan]** om de gebruikersgroep te maken.
+1. To create the user group, click **[!UICONTROL Save]**.
 
-Deze aangepaste groep is nu aangemaakt en aan het profiel toegevoegd.  De gebruikersgroepen die u maakt zijn dynamisch van aard. Als er nieuwe gebruikers met vergelijkbare kenmerken worden toegevoegd, worden ze automatisch aan de gebruikersgroep toegevoegd.
+This Custom Group is now created and added to the profile. The User Groups that you create are dynamic in nature. If new users are added with similar attributes, they're automatically added to the User Group.
 
-Om de lijst van groepen te bekijken behoort een gebruiker tot, navigeer aan **[!UICONTROL Gebruiker]** > **[!UICONTROL Gebruikersgroepen]**, onderzoek naar de naam van de gebruiker, en selecteer het. Hiermee worden alle groepen weergegeven waarvan de gebruiker deel uitmaakt.
+To view the list of groups a user belongs to, navigate to **[!UICONTROL User]** > **[!UICONTROL User Groups]**, search for the user's name, and select it. This will display all the groups the user is part of.
 
 ![](assets/list-of-group.png)
 
-### De lijst met gebruikers in een gebruikersgroep downloaden
+### Download the list of users in a user group
 
-Om de lijst van gebruikers in een specifieke gebruikersgroep te downloaden, navigeer aan **[!UICONTROL Gebruiker]** > **[!UICONTROL de Groepen van de Gebruiker]**, selecteer het **[!UICONTROL pictogram van de Download]** naast de groep. Hiermee wordt een CSV-bestand gegenereerd dat de lijst met gebruikers in die groep bevat.
+To download the list of users in a specific user group, navigate to **[!UICONTROL User]** > **[!UICONTROL User Groups]**, select the **[!UICONTROL Download icon]** next to the group. This will generate a CSV file containing the list of users in that group.
 
-![](assets/download-list-of-user.png)
+![](assets/download-list-of-user.png) 
 
-## Uitsluiting van gebruikersgroepen
+## Exclusion of user groups
 
-Soms wilt u een kleine set gebruikers uitsluiten van een grote gebruikersgroep. Dit is vereist om deze specifieke groep gebruikers in te schrijven voor training via leerplannen of om de juiste zichtbaarheid van catalogi in te stellen. In deze versie van Leermanager kunt u studenten of gebruikersgroepen uitsluiten wanneer u een aangepaste gebruikersgroep maakt. In het dialoogvenster Gebruikersgroep toevoegen kunt u dit bereiken met de sectie Studenten uitsluiten.
+At times you would want to exclude a small set of users from a large user group. This is required to enroll this specific set of users into training via Learning Plans or to setup the correct visibility of catalogs. In this release of Learning Manager, you can exclude learners or User Groups when you create a custom user group. In the Add User Group dialog, the Exclude Learners section enables you to achieve so.
 
 ![](assets/exclude-user-groups.png)
-*sluit gebruikersgroepen* uit
+*Exclude user groups*
 
-Als u bijvoorbeeld een leerplan wilt instellen, zodat alle gebruikers die tot de locatie = Californië behalve Store-5 (locatie Californië) behoren worden ingeschreven.
+For example, if you want to set up a Learning Plan so that all users belonging to location = California except Store-5 (located in California) get enrolled. 
 
-## Geavanceerde instellingen {#advancedsettings}
+## Advanced settings {#advancedsettings}
 
-### Gegevensbronnen {#datasources}
+### Data Sources {#datasources}
 
-U kunt deze functie gebruiken wanneer u de gebruikers of leergegevens uit de database van uw organisatie wilt importeren in of synchroniseren met de toepassing Leermanager. U kunt ook de frequentie van deze synchronisatie instellen.
+You can use this feature when you want to import/sync the users or learning data from your organization's database in to the Learning Manager application. You can also set up the frequency of this sync. 
 
 
-Klik **[!UICONTROL Gegevensbronnen]** op de linkerruit onder **[!UICONTROL Geavanceerde]** sectie.
+Click **[!UICONTROL Data Sources]** on the left pane under **[!UICONTROL Advanced]** section. 
 
 
 ![](assets/data-sources-add-users.png)
 
-*bronnen van Gegevens aan invoert of synchroniseert gebruikers*
+*Data sources to iport or sync users*
 
-Kies het gegevensbrontype van de **[!UICONTROL Bron]** drop-down, selecteer de updatefrequentie, en klik **[!UICONTROL Synchronisatie nu]** als u onmiddellijk moet synchroniseren of **[!UICONTROL sparen &#x200B;] klikken.** Gegevenstypen zijn SFDC, FTP, enzovoort voor interne gebruikers.
+Choose the data source type from the **[!UICONTROL Source]** drop-down, select the update frequency, and click **[!UICONTROL Sync now]** if you need to sync immediately or click **[!UICONTROL Save].** Data source types are SFDC, FTP, and so on for internal users. 
 
-U kunt meerdere gegevensbronnen toevoegen.
+You can add multiple data sources. 
 
-### Actieve velden {#activefields}
+### Active Fields {#activefields}
 
-Beheerders kunnen met deze functie meer actieve velden toevoegen in aanvulling op de velden die tijdens gebruikersregistratie zijn verstrekt.
+This feature enables administrators to add more active fields in addition to what has been provided during user registration. 
 
-Klik **[!UICONTROL Actieve Gebieden]** beschikbaar binnen gebruikerspagina. Studenten kunnen alleen kiezen uit de waarden in aangepaste waarden.
+Click **[!UICONTROL Active Fields]** available inside users page. Learners can only choose from the values given in custom values.
 
 ![](assets/active-fields.png)
-*Actieve gebieden*
+*Active fields*
 
-### Velden configureren {#configurefields}
+### Configure Fields {#configurefields}
 
-**Interne gebruikers**
+**Internal users**
 
-U kunt aangepaste waarden toevoegen voor gebruikersvelden voor interne gebruikers.
+You can add custom value for user fields for internal users.
 
-Ga als volgt te werk om aangepaste waarden toe te voegen:
+To add  custom values, follow these steps:
 
-1. Klik **[!UICONTROL wijzig Waarden]** voor een Interne gebruiker.
+1. Click  **[!UICONTROL Modify Values]** for an Internal user. 
 
    ![](assets/modify-values.png)
-   *wijzig waarden voor interne gebruikers*
+   *Modify values for internal users*
 
-1. De **Waarden op het gebied van de Douane** dialoogdoos verschijnt.
+1. The **Values in Custom field** dialog box appears.
 
    ![](assets/values-in-customfields.png)
-   *Waarden in de dialoogdoos van de Gebieden van de Douane*
+   *Values in Custom Fields dialog box*
 
-1. Selecteer de waarde die u wilt toevoegen in het keuzemenu **[!UICONTROL Veld selecteren]**.
-1. Voer nieuwe waarden in het veld **[!UICONTROL Nieuwe waarde]** in.
-1. Klik op **[!UICONTROL Klaar]**.
-1. Klik op **[!UICONTROL Opslaan]** in de rechterbovenhoek om de wijzigingen op te slaan.
+1. Select the value to add from the **[!UICONTROL Select Field]** drop-down menu.
+1. Enter new values in the **[!UICONTROL New Value]** field.
+1. Click **[!UICONTROL Done]**. 
+1. Click Save on the top right corner to **[!UICONTROL Save]** changes.
 
-**Externe gebruikers**
+**External users**
 
-Voeg aangepaste waarden toe die vergelijkbaar zijn met die voor interne gebruikers.
+Add custom values similar to that for internal users.
 
 ![](assets/modify-values-forexternalusers.png)
-*wijzig waarden voor externe gebruikers*
+*Modify values for external users*
 
-### Instellingen {#settings}
+### Settings {#settings}
 
-**Gebruikersweergave**
+**User Display**
 
-Als de optie **toont slechts ongevulde gebieden op login van de Student** wordt toegelaten, ziet een gebruiker slechts de lege gebieden bij login.
+If the option **Show only unfilled fields on Learner login** is enabled, a user only sees the blank fields upon login.
 
 ![](assets/settings-tab.png)
-*toon niet-gevulde gebieden*
+*Show unfilled fields*
 
-Met deze optie kan een beheerder beslissen of hij/zij de velden wilt weergeven of verbergen zodra ze zijn ingevuld.
+Using this option, an Administrator can decide whether he/she wants to show the fields or hide them once these have been populated.
 
-## Actieve velden in rapporten beperken {#restrictactivefields}
+## Restrict Active Fields in reports {#restrictactivefields}
 
-Het leren Manager 27.7 introduceert twee nieuwe opties - **[!UICONTROL Te Rapporteren]** en **[!UICONTROL Exporteerbaar]**, voor Actieve Gebieden.
+Learning Manager 27.7 introduces two new options- **[!UICONTROL Reportable]** and **[!UICONTROL Exportable]**, for Active Fields.
 
 ![](assets/options-in-activefields.png)
-*Opties in Actieve Gebieden*
+*Options in Active Fields*
 
-Voor CSV-velden en handmatig toegevoegde velden geldt dat als een actief veld is gemarkeerd als **[!UICONTROL Rapporteerbaar]**, het actieve veld kan worden gezocht in een filter in een dashboardrapport.
+For CSV fields and manually added fields, if an Active Field is marked as **[!UICONTROL Reportable]**, the Active Field becomes searchable in a filter inside a dashboard report.
 
 ![](assets/filters-in-a-dashboardreport.png)
-*Filters in een dashboardrapport*
+*Filters in a dashboard report*
 
-Als een actief veld is gemarkeerd als **[!UICONTROL Exporteerbaar]**, wordt het actieve veld weergegeven in het Excel-bestand wanneer u een Excel-rapport downloadt.
+If an Active Field is marked as **[!UICONTROL Exportable]**, then the Active Field appears in the Excel file upon downloading any Excel report.
 
-Deze opties worden voor zowel interne als externe actieve velden weergegeven.
+These options appear for both internal and external Active Fields.
 
-U kunt alleen een aangepast actief veld verwijderen.
+You can only delete a custom Active Field.
 
-## Gebruikersweergave
+## User Display
 
-U kunt de volledige pagina &#39;Uw profiel voltooien&#39; verbergen voor de studenten. De pagina verschijnt niet als de student zich heeft aangemeld.
+You can hide the entire 'Complete your profile' page from the learners. The page will not pop up once the learner logs in.
 
-Het bestaande standaardgedrag verandert niet. Deze optionele mogelijkheid is nu beschikbaar voor beheerders.
+Note that the existing default behavior does not change. This is an optional capability now available to Administrators. 
 
-Schakel de opties hieronder in:
+Enable the options below:
 
 ![](assets/user-display.png)
-*sectie van de Vertoning van de Gebruiker*
+*User Display section*
 
-## Ondersteuning voor handmatige CSV-velden via FTP- en Box-connectors {#import-connector}
+## Support for manual CSV fields by FTP and Box connectors {#import-connector}
 
-Vaak willen gebruikers dat de actieve velden handmatig worden ingevuld wanneer een student zich aanmeldt bij Leermanager. Dit is nu mogelijk in Learning Manager wanneer de gebruiker een CSV handmatig importeert.
+Often, users want Active fields to be manually provided when a learner logs in to Learning Manager. This is possible in Learning Manager at present, when the user imports a CSV manually.
 
-Het CSV-bestand mag niet alle actieve velden bevatten. Voor alle actieve velden die niet zijn bijgewerkt in de geüploade CSV, moet de gebruiker de gegevens voor dergelijke actieve velden invoeren.
+The CSV may not contain all the Active fields. For all the Active fields that are not updated in the uploaded CSV, the user needs to enter the data for such Active fields.
 
-Momenteel moeten alle actieve velden worden toegewezen aan een veld van de bron-CSV.
+Presently, all Active fields must be mapped to some field from the source CSV.
 
-Soms wil een gebruiker een Actief veld niet toewijzen aan een veld dat is opgegeven in de CSV. In dergelijke gevallen, kan de gebruiker het Actieve gebied aan de waarde **[!UICONTROL DontImportFromSource]** in kaart brengen. Selecteer deze waarde in de vervolgkeuzelijst wanneer u gebruikers importeert van FTP- en Box-connectoren.
+It so happens that sometimes a user does not want to map an Active field to a field specified in the CSV. In such cases, the user can map the Active field to the value **[!UICONTROL DontImportFromSource]**. Select this value from the drop-down list, when importing users from FTP and Box connectors.
 
-## Aangepaste rollen {#customroles}
+## Custom Roles {#customroles}
 
-Voeg de gewenste velden aan uw gebruikersinformatie toe en klik op **[!UICONTROL Opslaan]**. Na het toevoegen van de gebieden, kunt u de beschikbaarheid van de gebieden in **[!UICONTROL ook controleren uitgeeft gebruikers]** dialoog.
+Add any field of your choice as part of your user information and click **[!UICONTROL Save]**. After adding the fields, you can also cross check the availabilities of the fields in the **[!UICONTROL Edit users]** dialog. 
 
 
-De velden met een vinkje komen uit de gegevensbron of CSV zoals te zien in het onderstaande voorbeeld. De beheerder kan deze velden bewerken door ze in of uit te schakelen.
+After adding the fields, you can notice that the fields marked with tick mark are sourced from data source or CSV as mentioned in the below snapshot. Administrator can edit these sourced fields by enabling or disabling the fields. 
 
-**Waarden voor actieve gebieden in het Leren Manager**
+**Values for active fields in Learning Manager**
 
-De waarden voor actieve velden worden als volgt opgehaald:
+The values for active fields are fetched in the following ways: 
 
-1. De Learning Manager-toepassing importeert metagegevens uit gegevensbronnen die aan uw account gekoppeld zijn.
-1. Metagegevens die zijn vastgelegd uit het handmatig geïmporteerde CSV-bestand.
-1. Studenten vullen metagegevens in wanneer ze zich aanmelden.
-1. Beheerder voert gegevens voor de gebruikers in.
+1. Learning Manager application imports metadata from data sources associated with your account. 
+1. Metadata captured from the manually imported CSV file. 
+1. Learners fill up metadata when they log in
+1. Administrator enters data for the users. 
 
 >[!NOTE]
 >
->De Learning Manager-toepassing maakt automatisch gebruikersgroepen van deze metadata.
+>Learning Manager application creates user groups automatically, from these metadata. 
 
-**Aangepaste waarde toevoegen**
+**Add custom value**
 
-U kunt een aangepaste waarde toevoegen voor gebruikersvelden in de velden Interne en Externe gebruiker.
+You can add custom value for user fields in the Internal and External user fields.
 
-Ga als volgt te werk om aangepaste waarden toe te voegen:
+To add  custom values, follow these steps:
 
-Aangepaste velden kunnen worden toegevoegd en verwijderd. Ze zijn van toepassing op alle gebruikers. CSV-velden kunnen worden in- of uitgeschakeld. Ze worden alleen van kracht wanneer u CSV uploadt nadat u wijzigingen in de actieve velden heeft doorgevoerd. Alle interne actieve velden zijn van toepassing op alle typen interne gebruikers. Externe velden zijn alleen van toepassing op externe gebruikers. Als er een aangepast veld aanwezig is in CSV, wordt het bij de volgende upload automatisch naar een CSV-veld geconverteerd en ingeschakeld.
+Custom fields can be added and deleted, they are applicable to all users. CSV fields can be enabled or disabled, they come into effect only when you upload CSV after making the modifications in Active fields. All internal active fields are applicable to all types of Internal users. External fields are applicable only to external users. If a custom field is present in CSV, on next upload it gets converted to a CSV field automatically and it is enabled. 
 
-## Waarden voor CSV-velden {#valuesforcsvfields}
+## Values for CSV fields {#valuesforcsvfields}
 
-Als het selectievakje **[!UICONTROL Selectie beperken]** is ingeschakeld, kunnen gebruikers alleen kiezen uit vooraf gedefinieerde velden voor CSV-velden.
+Users can only choose from predefined fields for CSV fields if the **[!UICONTROL Restrict Selection]** check-box is enabled.
 
 ![](assets/value-field-for-csv.png)
-*beperk selectie controle-doos*
+*Restrict selection check-box*
 
-## Importlogboeken {#importlogs}
+## Import Logs {#importlogs}
 
-In deze ruimte kunt u de CSV-importgeschiedenis bekijken voor de gebruikers die de beheerder via bulkimport heeft toegevoegd. U kunt **[!UICONTROL ook klikken toevoegt]** bij de hoger-juiste hoek van de pagina om gebruikers toe te voegen gebruikend CSV uploadt eigenschap.
+In this space, you can view the CSV import history for the users the administrator has added using bulk import feature. You can also click **[!UICONTROL Add]** at the upper-right corner of the page to add users using CSV upload feature. 
 
-## Actieve velden met meerdere waarden
+## Multi-valued Active Fields
 
-Met deze functie kunt u meer dan een veld hebben voor een actief veld. Binnen een account kunnen er maximaal drie actieve velden met meerdere waarden zijn. De actieve velden met meerdere waarden zijn zowel voor interne als externe gebruikers beschikbaar.
+With this feature, you can have more than one field for an active field. In an account, there can be at most three multi-valued active fields. The multi-valued active fields are available for both external and internal users.
 
-Zodra u een actief veld markeert met meerdere waarden, kunt u het niet terugzetten naar een enkele waarde. Dit is onomkeerbaar.
+Once you mark an active field as multi-valued, you cannot convert it back to single valued. This is irreversible.
 
-Een bestaand veld met een enkele waarde kan niet worden gemarkeerd als veld met meerdere waarden.
+An existing single valued field cannot be marked as multi-valued field.
 
-Volg de onderstaande stappen om een actief veld met meerdere waarden te maken:
+To create a multi-valued active field, follow the steps below:
 
-1. Voeg een actief veld toe.
+1. Add an active field.
 
-   ![ voeg een actief gebied ](assets/add-active-field.png) toe
-   *voeg een actief gebied* toe
+   ![Add an active field](assets/add-active-field.png)
+   *Add an active field*
 
-1. Klik op Toevoegen.
-1. Markeer op het tabblad Instellingen het nieuwe veld als een veld met meerdere waarden.
+1. Click Add.
+1. In the Settings tab, mark the new field as multi-valued.
 
-   ![ Teken als multi-getaxeerd ](assets/mark-multi-valued.png)
-   *Teken als multi-getaxeerd*
+   ![Mark as multi-valued](assets/mark-multi-valued.png)
+   *Mark as multi-valued*
 
-   Er is een andere checkbox, **[!UICONTROL Configurable van de Student]**, die wanneer gehandicapt, de student niet het gebied op de pagina van het Profiel zal kunnen zien.
+   There is another checkbox, **[!UICONTROL Learner Configurable]**, which when disabled, the learner will not be able to see the field on the Profile page.
 
-1. Voeg de waarden toe met behulp van een CSV of door op Waarden wijzigen te klikken.
+1. Add the values using a CSV or by clicking Modify Values.
 
-   ![ voeg waarden ](assets/add-values.png) toe
-   *voeg waarden* toe
+   ![Add values](assets/add-values.png)
+   *Add values*
 
-1. Klik op [!UICONTROL **Klaar**].
+1. Click [!UICONTROL **Done**].
 
 >[!NOTE]
 >
->Als de gebruikersgroep eenmaal is gemaakt en het veld is ingevuld, kunnen meerdere waarden niet worden omgezet in enkele waarden, en omgekeerd.
+>Once is the user group is created and the field is populated, multi values cannot be converted to single values, and vice versa.
 
-### Actief veld met meerdere waarden toevoegen via CSV
+### Add multi-valued active field via CSV
 
-Volg onderstaande stappen:
+Follow the steps below:
 
-1. Maak een CSV met de nieuwe actieve velden als kolommen (met een komma gescheiden enkele waarden).
-1. Importeer de CSV.
-1. Markeer de velden als multiwaardevol in het dialoogvenster Waarden in aangepaste velden.
-1. Importeer de CSV nogmaals.
+1. Create a CSV with the new active fields as columns (comma-separated or single values).
+1. Import the CSV.
+1. Mark the fields as multi-valued in the Values in Custom Fields dialog.
+1. Import the CSV again.
 
- De CSV moet een kolom hebben met dezelfde naam als het actieve veld dat is gemarkeerd met meerdere waarden.
+The CSV must have a column with the same name as that of an active field that was marked as multi-valued.
 
-De CSV bevat de velden:
+The CSV contains the fields:
 
-* **[!UICONTROL Gebruiker]**: De groepen van de gebruiker die als rollen worden gecreeerd.
-* **[!UICONTROL Rollen]**: Multi-getaxeerd actief gebied met waarden.
+* **[!UICONTROL User]**: User groups created as roles.
+* **[!UICONTROL Roles]**: Multi-valued active field with values.
 
-Als de CSV opnieuw wordt geüpload met nieuwe waarden of verwijderde waarden, worden de actieve velden en groepen dienovereenkomstig geüpdatet.
+If the CSV is re-uploaded with new values or deleted values, the active fields and groups also get updated accordingly.
 
-### Rapporten
+### Reports
 
-Alle rapporten omvatten de actieve velden met meerdere waarden, en hun waarden.
+All reports include the multi-valued active fields and their values.
 
-De beheerder kan automatisch aangemaakte actieve velden toevoegen, en gebruikersactiviteit en trainingsrapporten configureren.
+The Administrator can add auto-generated active fields, and configure user activity and training reports.
 
-Het studenttranscript-rapport bevat alle actieve velden en door een komma gescheiden waarden. De beheerder kan de gegevens dienovereenkomstig filteren.
+The Learner Transcript report contains all the active fields and comma-separated values. The Administrator can then filter the data accordingly.
 
-## Rapport voor gebruikersgroep
+## User group report
 
-Met het nieuwe gebruikersgroeprapport van Adobe Learning Manager kunt u gebruikersgroepen beheren door ze zichtbaar te maken in groepen die niet worden beheerd als beheerders naar links gaan. Beheerders kunnen tot de rapporten onder de **[!UICONTROL Gebruikers]** toegang hebben > **[!UICONTROL sectie van de Groep van de Gebruiker]**. Het biedt gedetailleerde informatie over elke groep, waaronder:
+Adobe Learning Manager's new User Group Report helps manage user groups by providing visibility into groups left unmanaged when admins left. Admins can access the reports under the **[!UICONTROL Users]** > **[!UICONTROL User Group]** section. It provides detailed information about each group, including:
 
-* Type gebruikersgroep
-* Groepsnaam
-* Beschrijving
-* Gemaakt door (naam)
-* Gemaakt door (e-mail)
-* Gemaakt op (UTC-tijdzone)
-* Aantal gebruikers
+* User group type
+* Group name
+* Description
+* Created by (Name)
+* Created by (Email)
+* Created on (UTC Timezone)
+* Number of Users
 
-Ga als volgt te werk om het rapport te downloaden:
+To download the report, follow these steps:
 
-1. Login als **[!UICONTROL Admin]**.
-2. Selecteer **[!UICONTROL Gebruikers]** > **[!UICONTROL Gebruikersgroep]**.
-3. Selecteer **[!UICONTROL Acties]** > **[!UICONTROL Rapport van de Groep van de Gebruiker van de Download]**.
+1. Log in as an **[!UICONTROL Admin]**.
+2. Select **[!UICONTROL Users]** > **[!UICONTROL User Group]**.
+3. Select **[!UICONTROL Actions]** > **[!UICONTROL Download User Group Report]**.
 
-![](assets/download-user-group-report.png)
-_Download het rapport van de Gebruikersgroep_
+![](assets/download-user-group-report.png) 
+_Download the User Group report_
 
-## Veelgestelde vragen {#faq}
+## Frequently Asked Questions {#faq}
 
-+++Hoe registreer je gebruikers in Learning Manager?
++++How to register users in Learning Manager?
 
-Nadat u een gebruiker hebt toegevoegd en een rol aan de gebruiker hebt toegewezen, kunt u de gebruiker registreren door de onderstaande stappen uit te voeren:
+After adding a user and assigning a role to the user, you can register the user by performing the steps below:
 
-1. Met de gebruiker of de geselecteerde gebruikers, klik **[!UICONTROL Acties]** op de hoger-juiste hoek, en klik **[!UICONTROL Register]**.
+1. With the user or users selected, click **[!UICONTROL Actions]** on the upper-right corner, and click **[!UICONTROL Register]**.
 
-1. Klik in het pop-upvenster op **[!UICONTROL Ja]**.
+1. On the pop-up window, click **[!UICONTROL Yes]**.
 
-De geselecteerde gebruikers ontvangen een welkomstmail. Als de gebruikers een bestaand Adobe ID hebben, kunnen ze op deze link klikken.  Als ze geen bestaande Adobe ID hebben, kunnen ze op de welkomstkoppeling klikken om een Adobe ID te maken en deze koppelen aan hun Learning Manager-account.
+The selected user(s) receive a Welcome email. If the learners have an existing Adobe ID, they can click this link. If they don't have an existing Adobe ID, they can go ahead and click the Welcome link to create an Adobe ID and link it to their Learning Manager account.
 
-Studenten moeten op een van deze koppelingen in de e-mail klikken omdat Leermanager daarmee het account van de student kan verifiëren.
+Clicking one of these links in the email is mandatory for the learners as it helps Learning Manager to verify the learner's account.
 
 +++
 
-+++Hoe kan ik gebruikersgegevens bewerken?
++++How to edit user data?
 
-Volg de onderstaande stappen om een gebruiker te bewerken:
+To edit a user, follow the steps below:
 
-1. Klik in de lijst met gebruikers op de gebruiker waarvoor u de gegevens wilt bewerken.
-1. Klik op het potloodpictogram, zoals hieronder weergegeven.
+1. In the list of users, click the user for who you want to edit the data.
+1. Click the pencil icon, as shown below.
 
 ![](assets/edit-user-data.png)
 
-Werk de velden bij in het dialoogvenster **Gebruiker bewerken**. Klik op **[!UICONTROL Opslaan]** om de wijzigingen op te slaan.
+In the **Edit User** dialog, update the fields accordingly. To save the changes, click **[!UICONTROL Save]**.
 
 +++
 
-+++Een externe gebruiker pauzeren en hervatten in Leerbeheer?
++++How to pause and resume an external user in Learning Manager?
 
-Kies in de lijst met externe gebruikers de gebruiker die u wilt verwijderen. Op de hoger-juiste hoek, klik **[!UICONTROL Acties]** > **[!UICONTROL Pauze]**.
+In the list of External Users, choose the user that you want to delete. On the upper-right corner, click **[!UICONTROL Actions]** > **[!UICONTROL Pause]**.
 
-Zie [Een extern profiel pauzeren](add-users-user-groups.md#pause) voor meer informatie.
+For more information, see [Pause an external profile](add-users-user-groups.md#pause).
 
-Nadat u een profiel hebt gepauzeerd, wordt de status van het externe profiel als ***Gepauzeerd*** weergegeven.
+After you pause a profile, the external profile displays the status as ***Paused***.
 
 +++
 
-+++Hoe kan ik welkomstmail verzenden naar nieuw gemaakt extern profiel?
++++How to send welcome email to newly created external profile?
 
-Wanneer het toevoegen van een externe gebruiker, in **[!UICONTROL voeg de Externe dialoog van het Profiel van de Registratie]** toe, ga e-mail van de externe manager in. Als u op Opslaan klikt, wordt er ook een welkomstmail naar het gespecificeerde e-mailadres verzonden. Als u de welkomstmail nog een keer wilt verzenden, klikt u op het pictogram met een envelop, zoals hieronder weergegeven:
+When adding an external user, in the **[!UICONTROL Add External Registration Profile]** dialog, enter the email of the external manager. When you click Save, a welcome email also gets sent to the email address that you had specified. If you want to send the welcome mail again, click the envelope icon, as shown below:
 
 ![](assets/send-welcome-mail.png)
 
 +++
 
-+++Hoe maak ik aangepaste gebruikersgroepen?
++++How to create Custom User Groups?
 
-Klik **[!UICONTROL Gebruikers]** > **[!UICONTROL Gebruikersgroepen]** en op de pagina van de Groepen van de Gebruiker, klik **[!UICONTROL toevoegen]**. Voeg in het dialoogvenster Gebruikersgroep toevoegen de gebruikers zowel afzonderlijk als als als als team toe.
+Click **[!UICONTROL Users]** > **[!UICONTROL User Groups]** and on the User Groups page, click **[!UICONTROL Add]**. In the Add User Group dialog, add the users both individually and as a team.
 
 ![](assets/custom-user-group.png)
 
 +++
 
-+++Hoe schakel ik al gevulde actieve velden uit?
++++How to disable already filled active fields?
 
-Als u wilt dat studenten alleen de actieve velden zien die niet door hen zijn ingevuld, volgt u de stappen hieronder:
+If you want learners to only see the active fields that are not filled by them, then follow the steps below:
 
-1. Klik **[!UICONTROL Gebruikers]** > **[!UICONTROL Actieve Gebieden]**.
+1. Click **[!UICONTROL Users]** > **[!UICONTROL Active Fields]**.  
 
-1. Klik **[!UICONTROL Montages]** en laat de optie **[!UICONTROL toe tonen slechts ongevulde gebieden op login van de Student]**.
+1. Click **[!UICONTROL Settings]** and enable the option **[!UICONTROL Show only unfilled fields on Learner login]**.
 
-1. Klik op **[!UICONTROL Opslaan]**.
-
-+++
-
-+++Hoe kan ik voorkomen dat studenten willekeurige waarden in de actieve velden invoeren?
-
-U kunt de selectie voor studenten beperken, zodat ze alleen de waarden kunnen selecteren die vooraf gedefinieerd zijn en geen willekeurige waarden kunnen invoeren. Volg onderstaande stappen:
-
-1. Klik **[!UICONTROL Gebruikers]** > **[!UICONTROL Actieve Gebieden]**.
-1. De optie **[!UICONTROL Selectie beperken]** inschakelen.
-1. Klik op **[!UICONTROL Klaar]**.
+1. Click **[!UICONTROL Save]**.
 
 +++
 
-+++Hoe kan ik onderscheid maken tussen actieve CSV-velden en aangepaste actieve velden?
++++How to prevent learners from entering random values in the active fields.?
 
-U kunt actieve csv-velden alleen in- of uitschakelen, maar niet verwijderen. Aangepaste actieve velden daarentegen kunt u niet in- of uitschakelen.
+You can restrict the selection for learners so that they can only select the values that are pre-defined and not enter any random values. Follow the steps below:
+
+1. Click **[!UICONTROL Users]** > **[!UICONTROL Active Fields]**.
+1. Enable the option **[!UICONTROL Restrict Selection]**.
+1. Click **[!UICONTROL Done]**.
 
 +++
+
++++How do I differentiate CSV active fields and Custom Active fields?
+
+You can only enable or disable CSV active fields, but cannot delete them. On the other hand, you cannot enable or disable custom active fields.
+
++++-->

@@ -2,10 +2,10 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: 12df028fee2cf055bc4ce7761804db55389cb09a
+source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 81%
+source-wordcount: '676'
+ht-degree: 80%
 
 ---
 
@@ -42,7 +42,10 @@ ht-degree: 81%
 * Beheerder {#admin}
    * [Admin AI Assistant (Bèta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [Gebruikersaanmelding](administrators/feature-summary/user-login.md)
-   * [Gebruikers toevoegen en gebruikersgroepen maken](administrators/feature-summary/add-users-user-groups.md)
+   * Gebruikersbeheer {#user-management}
+      * [Gebruikers toevoegen in Adobe Learning Manager](administrators/feature-summary/add-users-user-groups.md)
+      * [Gebruikersgroep in Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md)
+      * [Actieve velden](/help/migrated/administrators/feature-summary/active-fields.md)
    * [Locaties van klaslokalen toevoegen](administrators/feature-summary/classroom.md)
    * [Cursusinstanties en leerpaden maken](administrators/feature-summary/courses.md)
    * [Inhoudsmarktplaats](administrators/feature-summary/content-marketplace.md)
