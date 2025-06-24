@@ -122,6 +122,6 @@ In sommige gevallen geven beheerders er de voorkeur aan dat studenten bepaalde a
 
 Als een CSV-bestand niet alle actieve velden bevat, moet de beheerder de ontbrekende waarden na het importeren handmatig invoeren.
 
-Standaard moet elk actief veld worden toegewezen aan een overeenkomstig veld in de bron-CSV. Nochtans, als u geen specifiek actief gebied aan om het even welke kolom in CSV wilt in kaart brengen, kunt u de waarde **DontImportFromSource** van de drop-down lijst tijdens de de de invoerprocessen van de Doos en van FTP selecteren. Deze optie is beschikbaar wanneer u gebruikers importeert via FTP- of Box-connectoren. Verwijs naar dit [ artikel ](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) voor meer informatie over de schakelaars.
+Standaard moet elk actief veld worden toegewezen aan een overeenkomstig veld in de bron-CSV. Nochtans, als u geen specifiek actief gebied aan om het even welke kolom in CSV wilt in kaart brengen, kunt u de waarde **DontImportFromSource** van de drop-down lijst tijdens de de de invoerprocessen van de Doos en van FTP selecteren. Deze optie is beschikbaar wanneer u gebruikers importeert via FTP- of Box-connectoren. Verwijs naar dit [ artikel ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/connectors) voor meer informatie over de schakelaars.
 
 
