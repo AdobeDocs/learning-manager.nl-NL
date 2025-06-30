@@ -4,9 +4,9 @@ title: Learning Manager integreren met AEM
 description: 'Learning Manager is Learning Management System met een geïntegreerd Learning Content Management System. Gebruikers beheren hun leerinhoud door deze naar Learning Manager te uploaden, zodat Learning Manager het volgende uitvoert: versiebeheer, toewijzingen aan cursussen, het bepalen van de zichtbaarheid voor studenten, traceren van gevolgde cursussen en rapportage naar beheerders.'
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 45e9b9cd291e180a3d29d6635ec81bc362eb3e96
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1082'
 ht-degree: 45%
 
 ---
@@ -21,7 +21,7 @@ De diverse stroken in de Learner-app kunnen in de AEM-sites worden ingesloten. E
 
 ## Het inhoudspakket downloaden {#downloadthecontentpackage}
 
-Het installatieprogramma wordt als een AEM-inhoudspakket verzonden. [***Het pakket downloaden***](https://github.com/adobe/adobe-learning-manager-reference-site).
+Het installatieprogramma wordt als een AEM-inhoudspakket verzonden. [***Download het pakket*** ](https://github.com/adobe/adobe-learning-manager-reference-site).
 
 Het inhoudspakket is beschikbaar als ZIP-bestand en is compatibel met AEM 6.4 en AEM 6.5.
 
@@ -31,17 +31,17 @@ Installeer het Captivate Prime-inhoudspakket met AEM-pakketbeheer:
 
 >[!NOTE]
 >
->Zie voor informatie over het installeren van pakketten  [***Werken met pakketten***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=nl-NL#how-to-work-with-packages).
+>Voor informatie bij het installeren van pakketten, zie [***hoe te met Pakketten*** werken ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Open AEM Package Manager als AEM-auteur.
 1. Klik op de knop **[!UICONTROL Pakket uploaden]**.
-1. Klikken **[!UICONTROL Bladeren]** en uploadt u het inhoudspakket.
+1. Klik **[!UICONTROL doorbladeren]** en upload het inhoudspakket.
 1. Klik op **[!UICONTROL Uploaden]**.
 1. Als u het pakket hebt geüpload, installeert u het inhoudspakket door dit te selecteren en te klikken op **[!UICONTROL Installeren]**.
 
    ![](assets/install-package.jpg)
 
-   *Installeer het inhoudspakket*
+   *installeer het inhoudspakket*
 
 ## Het vernieuwingstoken genereren {#generatetherefreshtoken}
 
@@ -49,21 +49,21 @@ Voor de AEM-beheerder is een vernieuwingstoken vereist van het Learning Manager 
 
 1. Keur de uitgelichte app van de AEM-sites goed.
 
-   Klikken **[!UICONTROL Toepassingen]** > **[!UICONTROL Aanbevolen apps]** > **[!UICONTROL Adobe Experience Manager - Sites]**.
+   Klik **[!UICONTROL Toepassingen]** > **[!UICONTROL Aanbevolen Apps]** > **[!UICONTROL Adobe Experience Manager - Plaatsen]**.
 
    ![](assets/launch-aem.jpg)
 
-   *De app goedkeuren*
+   *keur app* goed
 
-1. Klikken **[!UICONTROL Toepassingen]** > **[!UICONTROL Aanbevolen apps]** en opent u de toepassing AEM sites.
+1. Klik **[!UICONTROL Toepassingen]** > **[!UICONTROL Aanbevolen Apps]**, en open de AEM plaatstoepassing.
 
    Kopieer de toepassings-ID en de beschrijving.
 
-1. Klikken **[!UICONTROL Bronnen voor ontwikkelaars]** > **[!UICONTROL Toegangstokens]**.
+1. Klik **[!UICONTROL de Middelen van de Ontwikkelaar]** > **[!UICONTROL Tokens van de Toegang]**.
 
    ![](assets/click-tokens.jpg)
 
-   *Toegangstokens genereren*
+   *produceer de toegangstokens*
 
 1. Voer de volgende gegevens in:
 
@@ -71,7 +71,7 @@ Voor de AEM-beheerder is een vernieuwingstoken vereist van het Learning Manager 
    * Client-geheim, dit staat in Beschrijving.
 
 1. Haal de OAuth-code op. U moet de API van versie 2 gebruiken in de doorverwijzings-URI.
-1. Klikken **[!UICONTROL Verzenden]** en krijg het vernieuwingstoken.
+1. Klik **[!UICONTROL voorleggen]** en krijg het vernieuwingstoken.
 
 ## De widget in AEM configureren {#configurethewidgetinaem}
 
@@ -79,7 +79,7 @@ Voor de widgetconfiguratie vereist de AEM auteur alleen het vernieuwingstoken va
 
 U kunt ook meerdere accountconfiguraties op meerdere pagina&#39;s instellen.
 
-1. Klikken **[!UICONTROL Gereedschappen]** > **[!UICONTROL Cloud Servicen]** > **[!UICONTROL Widgetconfiguratie van Learning Manager]**.
+1. Klik **[!UICONTROL Hulpmiddelen]** > **[!UICONTROL Cloud Servicen]** > **[!UICONTROL het Leren de Configuratie van de Widget van de Manager]**.
 1. Klik op **[!UICONTROL Maken]**.
 1. Voer het vernieuwingstoken hier in. Stel de andere instellingen in.
 1. Hostnaam moet voor EU-regio&#39;s worden gewijzigd in &quot;learningmanager&quot;.
@@ -92,13 +92,13 @@ De AEM-auteur moet de component eerst toevoegen aan het AEM-sjabloon
 
 Vervolgens kan de AEM-auteur het Adobe Learning Manager-component slepen en neerzetten en naar wens configureren.
 
-De component Learning Manager vereist dat de configuratie die in de bovenstaande stap is gemaakt, wordt toegewezen aan de pagina.  Auteurs kunnen de configuratie toewijzen door Pagina-eigenschappen te bewerken onder **[!UICONTROL Gedeeld]** > **[!UICONTROL Configuratie]** > **[!UICONTROL Cloudconfiguratie]** en geef het configuratiepad op. Op deze manier kan de auteur configuraties aanmaken voor meerdere Captivate Prime-accounts en elke account toewijzen aan een andere Sites-pagina. Als een configuratie niet aan de pagina is toegewezen, leest de component de configuratie van de bovenliggende pagina recursief totdat er een is gevonden.
+De component Learning Manager vereist dat de configuratie die in de bovenstaande stap is gemaakt, wordt toegewezen aan de pagina.  De auteur kan de configuratie in kaart brengen door de Eigenschappen van de Pagina onder **[!UICONTROL Geavanceerde]** > **[!UICONTROL Configuratie]** > **[!UICONTROL Configuratie van de Wolk]** uit te geven en weg van configuratie te verstrekken. Op deze manier kan de auteur configuraties aanmaken voor meerdere Captivate Prime-accounts en elke account toewijzen aan een andere Sites-pagina. Als een configuratie niet aan de pagina is toegewezen, leest de component de configuratie van de bovenliggende pagina recursief totdat er een is gevonden.
 
 ## Student {#learner}
 
 De student kan de cursussen op deze pagina volgen.
 
-Om toegang te krijgen tot de Learning Manager-widget, moet de student aangemeld zijn als een AEM-gebruiker. Ook, eigenschap **email** moet aanwezig zijn in het knooppunt &quot;/profile&quot; van het knooppunt rep:User van de student. Dit e-mailadres moet exact hetzelfde zijn als het e-mailadres in het Learning Manager-account.
+Om toegang te krijgen tot de Learning Manager-widget, moet de student aangemeld zijn als een AEM-gebruiker. Ook, zou het bezit **e-mail** in &quot;/profiel&quot;knoop van de lezer moeten aanwezig zijn:de knoop van de Gebruiker. Dit e-mailadres moet exact hetzelfde zijn als het e-mailadres in het Learning Manager-account.
 
 De student kan de cursussen op deze pagina volgen.
 
@@ -123,25 +123,27 @@ Skyline is de cloudversie van AEM. U moet Skyline eerst installeren vanuit pakke
 
 ### Skyline implementeren
 
-De stappen om Skyline te vormen worden vermeld in  [GitHub-repo](https://github.com/adobe/captivate-prime-aem-components).
+De stappen om Skyline te vormen worden vermeld in de [ reactie GitHub ](https://github.com/adobe/captivate-prime-aem-components).
 
-## Cataloguswidget
+## Mijn leerwidget
 
-De widget Catalogus geeft een gebruiker training weer vanuit een specifieke of een set catalogi. Selecteer Catalogus in de weergegeven opties in de sectie Eigenschappen van de pagina-eigenschappen.
+**[!UICONTROL Mijn het Leren]** widget staat u toe om opleiding van een specifieke of een reeks catalogi aan een gebruiker te tonen.
+
+In de **[!UICONTROL sectie van Eigenschappen]** in de paginaeigenschappen, selecteer **[!UICONTROL Catalogus]** van de vermelde opties.
 
 <!--![](assets/catalog-widget.png)-->
 
-De widget Catalogus bevat de volgende opties:
+De catalogusopties bevatten de volgende opties:
 
-* **[!UICONTROL Catalogus-id&#39;s]:** De door komma&#39;s gescheiden catalogus-id&#39;s waarvoor de training moet worden weergegeven.
-* **[!UICONTROL Sorteren]:** Sorteervolgorde voor de training. De opties zijn: naam, datum, aanmaakdatum, datumIngeschreven, enzovoort.
-* **[!UICONTROL Studentenstatus]:** Retourneert alle training die het volgende gebruikt als filters ingeschreven, gestart, voltooid en niet ingeschreven. De zoekresultaten worden niet weergegeven als de sorteeroptie dateEnrolled, dueDate of dateEnrolled is.
-* **[!UICONTROL Naam van vaardigheid]:** De vaardigheid die wordt gebruikt om de exacte training te filteren.
-* **[!UICONTROL Tagnaam]:** De tag die wordt gebruikt om exacte resultaten te filteren.
+* **[!UICONTROL Catalogus ids ]:** komma-gescheiden catalogusids waarvoor de opleiding moet worden getoond.
+* **[!UICONTROL Soort ]:** de orde van de Soort voor de opleiding. De opties zijn: naam, datum, aanmaakdatum, datumIngeschreven, enzovoort.
+* **[!UICONTROL Staat van de Student ]:** keert al opleiding terug die het volgende als ingeschreven filters gebruikt, begonnen, voltooid, en niet ingeschreven. De zoekresultaten worden niet weergegeven als de sorteeroptie dateEnrolled, dueDate of dateEnrolled is.
+* **[!UICONTROL Naam van de Vaardigheid ]:** de vaardigheid die wordt gebruikt om nauwkeurige opleiding te filtreren.
+* **[!UICONTROL naam van de markering ]:** De markering die wordt gebruikt om nauwkeurige resultaten te filtreren.
 
 Hier volgen enkele aanvullende componenten die u kunt aanpassen:
 
-**[!UICONTROL Leerobjecttypen]:** Filter op basis van het type leerobject. De ondersteunde typen zijn: cursus, certificering, jobAid en learningProgram.
+**[!UICONTROL het Leren de Types van Objecten ]:** Filter volgens het type van het Leren Voorwerp. De ondersteunde typen zijn: cursus, certificering, jobAid en learningProgram.
 
 In AEM is de titel van een kaart in een strip aanvankelijk leeg. Typ in eigenschappen de naam van de titel in widgets.html.
 
@@ -149,7 +151,7 @@ In AEM is de titel van een kaart in een strip aanvankelijk leeg. Typ in eigensch
 
 U kunt het uiterlijk van de lay-out aanpassen met widgets.html. U kunt de weergave van de kaarten die worden weergegeven wijzigen en het thema aanpassen.
 
-In het dialoogvenster **[!UICONTROL Algemene instellingen]** kunt u de primaire en secundaire kleuren voor de kaarten kiezen en de eigenschappen opgeven om het thema aan te passen.
+In de **[!UICONTROL Algemene sectie van Montages]**, kunt u de primaire en secundaire kleuren voor de kaarten kiezen en de eigenschappen specificeren om het thema aan te passen.
 
 ```
 { 
@@ -174,7 +176,7 @@ In het dialoogvenster **[!UICONTROL Algemene instellingen]** kunt u de primaire 
 
 ### LO-inschrijving van hogere volgorde negeren
 
-Als de **LO-inschrijving hogere volgorde negeren** is ingeschakeld en een gebruiker rechtstreeks is ingeschreven voor een leerprogramma of certificering, worden de cursussen voor dat certificatie- of leerprogramma weergegeven voor de gebruiker in de widgets.
+Als **LO van de Hogere Inschrijving van de Orde** wordt toegelaten en een gebruiker direct in een het Leren Programma of Certificatie wordt ingeschreven, zullen de cursussen voor dat certificatie of Leerprogramma voor de gebruiker in widgets verschijnen.
 
 Als het selectievakje is uitgeschakeld, worden de cursussen in het leerprogramma of de certificering waarvoor de gebruiker zich niet rechtstreeks heeft ingeschreven, niet weergegeven.
 
