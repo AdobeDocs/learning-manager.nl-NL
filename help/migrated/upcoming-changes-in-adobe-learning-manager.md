@@ -1,13 +1,13 @@
 ---
 title: Aanstaande wijzigingen in Adobe Learning Manager
 description: Lees meer over de nieuwe functies, verbeteringen en belangrijke updates die binnenkort in Adobe Learning Manager verschijnen. Blijf op de hoogte van wat er verandert, zodat je vooruit kunt plannen en optimaal kunt profiteren van de nieuwste verbeteringen.
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
+source-git-commit: 63462eb272fe90d58c89f2be383fc103db6d4ece
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
-
 
 # Aanstaande wijzigingen in Adobe Learning Manager
 
@@ -15,7 +15,7 @@ We zijn blij dat we verschillende belangrijke updates voor Adobe Learning Manage
 
 Deze wijzigingen zijn bedoeld om handmatige inspanningen te verminderen, automatisering te ondersteunen en het beheer van alle trainingsactiviteiten te verbeteren.
 
-## Voltooiingen die zijn gemarkeerd als docent vastleggen in Studenttranscript (M44)
+## Voltooiingen die zijn gemarkeerd als docent vastleggen in Studenttranscript
 
 ### Doelgroep
 
@@ -45,7 +45,7 @@ Aanwezigheidsstatussen zoals &quot;Bijgewoond met slagen/ontbreken&quot; worden 
 * Als u kolomnamen gebruikt, hoeft u deze niet te wijzigen.
 * Retrofit-voltooiingen (handmatige invoer) zijn niet inbegrepen.
 
-## Koppelingen downloaden in het Taakhulpenrapport (M44)
+## Koppelingen in het rapport Taakhulpen downloaden
 
 ### Doelgroep
 
@@ -69,7 +69,7 @@ Gebruikers met toegang (beheerder/auteurs en aangepaste rollen) kunnen de taakhu
 * Als het script is gebaseerd op de kolompositie, moet u de scripts dienovereenkomstig bijwerken.
 * Er is geen actie nodig als u kolomnamen gebruikt.
 
-## Interne gebruikers-id en e-mailkolommen voor manager toegevoegd aan gebruikersrapport (M44)
+## E-mailkolommen voor interne gebruikers-id en manager toegevoegd aan gebruikersrapport
 
 ### Doelgroep
 
@@ -88,7 +88,7 @@ Het gebruikersrapport bevat de interne gebruikers-id van een gebruiker en het e-
 * Als u dit rapport gebruikt in geautomatiseerde stromen, moet u deze nieuwe kolom in de automatisering gebruiken.
 * Er zijn geen wijzigingen nodig als de workflows niet worden beïnvloed.
 
-## Machtigingen voor uitgebreide aankondigingen voor aangepaste beheerders (M44)
+## Scoped-aankondigingsmachtigingen voor aangepaste beheerders
 
 ### Doelgroep
 
