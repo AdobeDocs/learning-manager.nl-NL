@@ -3,10 +3,10 @@ description: Leer hoe u inhoud maakt en deze afstemt op cursussen als inhoud op 
 jcr-language: en_us
 title: Inhoudsbibliotheek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '4319'
-ht-degree: 39%
+source-wordcount: '4546'
+ht-degree: 37%
 
 ---
 
@@ -200,7 +200,7 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
    Vervolgens kunnen de studenten de bijschriften bekijken tijdens het afspelen van de videomodule.
 
-   Het formaat gesteund is {de Tracks van de Tekst van 0} Video van het Web (webVTT) [&#128279;](https://www.w3.org/TR/webvtt1/).
+   Het formaat gesteund is {de Tracks van de Tekst van 0} Video van het Web (webVTT) ](https://www.w3.org/TR/webvtt1/).[
 
    Ondersteuning voor bijschriften is beschikbaar voor video-inhoud die is geüpload in de inhoudsbibliotheek in Adobe Learning Manager.
 
@@ -208,7 +208,7 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
    De ondertitels verschijnen dan in de Fluidic Player. De titels zijn ook volgzaam aan [ WCAG2.0 normen ](https://www.w3.org/TR/WCAG20/).
 
-   Wanneer u een videoinhoud aan de bibliotheek toevoegt, kunt u het VTT dossier ook toevoegen, dat **&#x200B;**&#x200B;een geldig dossier moet zijn.
+   Wanneer u een videoinhoud aan de bibliotheek toevoegt, kunt u het VTT dossier ook toevoegen, dat **** een geldig dossier moet zijn.
 
    ![](assets/webvtt.png)
 
@@ -595,6 +595,36 @@ De inhoud verschijnt nu in de lijst Gepubliceerde.
 ## Inhoud bijwerken
 
 Auteurs kunnen de inhoud van de gepubliceerde cursus bijwerken. Zo krijgen studenten de nieuwste versie van de inhoud. Controle uit dit [ blog ](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) voor meer informatie.
+
+### Inhoudsversiebeheer voor studenten die een cursus hebben voltooid
+
+Adobe Learning Manager biedt duidelijker versiebeheeropties voor auteurs bij het bijwerken van inhoud. Auteurs zien nu drie duidelijk gedefinieerde opties tijdens een update van de inhoudsversie:
+
+| Studentenstaat | Nu bijwerken | Uiteindelijk bijwerken | Bijwerken niet gestart |
+|---|---|---|---|
+| Niet ingeschreven | V2 | V2 | V2 |
+| Nog niet gestart | V2 | V2 | V2 |
+| In uitvoering | V2 * | V1 → V2 * | V1 |
+| Voltooid | V2 * | V2 * | V1 (bewaard) |
+
+(*) Geeft aan dat de module wordt hersteld bij een update van de versie.
+
+In **[!UICONTROL Werk niet begonnen]**, zal de voltooide student de bestaande inhoudsversie (V1) blijven zien, die de kwestie van onverwachte witte schermen oplossen.
+
+* **[!UICONTROL Update nu]**: Pas inhoudsupdate voor alle studenten toe (niet begonnen, In-progress en Voltooide studenten zouden nu naar nieuwe inhoudsversie gaan)
+* **[!UICONTROL Update Uiteindelijk]**: Pas uiteindelijk inhoudsupdate voor alle studenten toe (niet begonnen, voltooide studenten zouden nu naar nieuwe inhoudsversie bewegen; In voortgang zouden de studenten zich na voltooiing bewegen)
+* **[!UICONTROL Niet begonnen Update]**: Pas inhoudsupdate voor slechts niet begonnen studenten toe (In-progress en Voltooide studenten zouden op bestaande inhoudsversie blijven)
+
+#### Veranderingen in gebruikersinterface
+
+| Oud label | Nieuwe optie |
+|---|---|
+| Inhoudsupdate toepassen op alle studenten | Werk nu alle studenten bij:Pas de inhoud bij voor alle studenten |
+| Pas een update toe op studenten die nog moeten starten | Alleen niet-begonnen studenten bijwerken: pas een inhoudsupdate toe voor alleen niet-begonnen studenten |
+| Studenten in uitvoering ontvangen na voltooiing een update | Uiteindelijk alle studenten bijwerken: Pas de inhoudsupdate voor alle studenten toe |
+
+![](assets/version-control-options.png)
+
 
 ## Inhoud verwijderen {#deletecontent}
 

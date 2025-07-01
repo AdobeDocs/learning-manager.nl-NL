@@ -2,10 +2,10 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 80%
+source-wordcount: '682'
+ht-degree: 79%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 80%
 * [Gebruikersgids voor Learning Manager](user-guide.md)
 * Inleiding {#introduction}
    * [Overzicht van nieuwe functies, mei 2025](/help/migrated/whats-new.md)
+   * [Aanstaande wijzigingen in Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [Overzicht van nieuwe functies in november 2024](/help/migrated/whats-new-nov-24.md)
    * [Overzicht van nieuwe functies, juli 2024](whats-new-july-2024.md)
    * [Nieuwe functies maart 2024](whats-new-march-2024.md)
@@ -93,6 +94,7 @@ ht-degree: 80%
    * [Leerprogramma&#39;s](administrators/feature-summary/learning-programs.md)
    * [Productterminologie](administrators/feature-summary/product-terminology.md)
 * Integratiebeheerder {#integration}
+   * [Handleiding voor toepassingsontwikkelaars](integration-admin/feature-summary/developer-manual.md)
    * [Migratiehandleiding](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager-connectoren](integration-admin/feature-summary/connectors.md)
    * [Niet-aangemelde API&#39;s](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -104,7 +106,6 @@ ht-degree: 80%
    * [Learning Manager integreren met AEM](integrate-aem-learning-manager.md)
    * [Salesforce-pakket in Learning Manager installeren](integration-admin/feature-summary/install-salesforce-package.md)
    * [Microsoft Teams-connector installeren](integration-admin/feature-summary/install-microsoft-teams-connector.md)
-   * [Handleiding voor toepassingsontwikkelaars](integration-admin/feature-summary/developer-manual.md)
    * [Learning Manager-app voor Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Instellingen](integration-admin/feature-summary/settings.md)
    * [Aangepaste rollen via CSV-bestanden beheren](integration-admin/feature-summary/configure-role-csv-files.md)

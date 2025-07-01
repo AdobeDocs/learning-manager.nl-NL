@@ -4,10 +4,10 @@ jcr-language: en_us
 title: E-mailsjablonen
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 60%
+source-wordcount: '1610'
+ht-degree: 55%
 
 ---
 
@@ -70,9 +70,9 @@ Als beheerder kunt u deze e-mailsjablonen eenvoudig in- en uitschakelen of wijzi
 ## Instellingen van een e-mailsjabloon aanpassen {#customizesettingsofanemailtemplate}
 
 1. Klik op **[!UICONTROL Instellingen]** om de instellingenpagina te openen. U kunt nu uw e-mailsjablonen aanpassen.
-1. Om de naam en e-mail-ID aan te passen waarvan de studenten e-mails ontvangen, geef de **[!UICONTROL Naam en het Adres van de Afzender &#x200B;] uit.**
+1. Om de naam en e-mail-ID aan te passen waarvan de studenten e-mails ontvangen, geef de **[!UICONTROL Naam en het Adres van de Afzender ] uit.**
 
-   De Steun van de Adobe van het contact ***[&#128279;](https://helpx.adobe.com/nl/contact/enterprise-support.other.html#learning-manager) om deze details te vormen of te veranderen.***
+   De Steun van de Adobe van het contact ***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) om deze details te vormen of te veranderen.[***
 
 1. Pas uw e-mailbanner van de **[!UICONTROL optie E-mailbanner]** aan. Verander de kleur van de banner door **[!UICONTROL Achtergrond van de Banner te selecteren]**.
 
@@ -100,6 +100,24 @@ Als beheerder kunt u deze e-mailsjablonen eenvoudig in- en uitschakelen of wijzi
 
 1. Vorm of de managers e-mails moeten ook ontvangen die naar hun directe rapporten gebruikend de controledoos onder **[!UICONTROL Facultatieve E-mail van de Manager]** optie worden verzonden.
 
+## E-mail op rolniveau in- of uitschakelen
+
+De beheerder kan e-mailsjablonen in- of uitschakelen op basis van de rol van de ontvanger, zoals student, manager of docent. Dit geeft beheerders meer controle over welke meldingen worden verzonden en helpt het type en de frequentie van communicatie te beheren.
+
+E-mailsjablonen in- of uitschakelen
+
+1. Meld u als beheerder aan bij Adobe Learning Manager.
+2. Selecteer **[!UICONTROL E-mailMalplaatjes]** van de linkerruit.
+3. Om e-mailmalplaatjes voor een bepaalde rol in bulk toe te laten of onbruikbaar te maken, selecteer de ellips (...) in de kolomrubriek, en laat alle toepasselijke rollen in **[!UICONTROL E-mailOntvangers]** toe.
+
+   ![](assets/email-template-role.png)
+   _verzend alle E-mailMalplaatjes op rolniveau_
+
+4. Als u een specifieke e-mailsjabloon voor een rol wilt in- of uitschakelen, selecteert u de weglatingsteken (...) voor die sjabloon en schakelt u een rol in of uit.
+
+   ![](assets/email-template-role-1.png)
+   _verzend een E-mailmalplaatje op een rolniveau_
+
 ## De frequentie van overzichtsmails instellen {#setfrequencyofdigestemails}
 
 Op de **[!UICONTROL pagina van E-mailmalplaatjes]** > **[!UICONTROL Montages]**, kan Admin de frequentie veranderen van Samenvatting E-mails die naar studenten moeten worden verzonden.
@@ -108,9 +126,9 @@ Klik in het deel **[!UICONTROL Instellingen overzichtsmail]** op **[!UICONTROL B
 
 In drop-down, kies of **[!UICONTROL Tweewekelijks]** of **[!UICONTROL Maandelijks]**.
 
-* **[!UICONTROL Tweewekelijks &#x200B;]:** Als u de frequentie aan **[!UICONTROL Tweewekelijks]** plaatst, ontvangen de studenten één keer per twee weken e-mail.
+* **[!UICONTROL Tweewekelijks ]:** Als u de frequentie aan **[!UICONTROL Tweewekelijks]** plaatst, ontvangen de studenten één keer per twee weken e-mail.
 
-* **[!UICONTROL Maandelijks &#x200B;]:** als u de frequentie aan **[!UICONTROL Maandelijks]** plaatst, ontvangen de studenten één keer per maand e-mail.
+* **[!UICONTROL Maandelijks ]:** als u de frequentie aan **[!UICONTROL Maandelijks]** plaatst, ontvangen de studenten één keer per maand e-mail.
 
 ![](assets/digest-email-settings.png)
 
@@ -160,7 +178,7 @@ U kunt het rapport van de e-mailtoegang downloaden door de **[!UICONTROL knoop v
 
 ## E-maildomein aanpassen {#customizeemaildomain}
 
-Om het e-maildomein en e-mail-ID aan te passen waarvan uw studenten berichten ontvangen, contacteer de [***Lerende steun van de Manager*** ](https://helpx.adobe.com/nl/contact/enterprise-support.other.html#learning-manager) en verstrek de details van het domein u, en uw nieuwe e-mail-ID wilt toevoegen.
+Om het e-maildomein en e-mail-ID aan te passen waarvan uw studenten berichten ontvangen, contacteer de [***Lerende steun van de Manager*** ](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) en verstrek de details van het domein u, en uw nieuwe e-mail-ID wilt toevoegen.
 
 Uw verzoek wordt verwerkt en u ontvangt een bevestigingslink op het nieuwe e-mailadres dat u hebt opgegeven. Klik op de verificatielink in de e-mail om het verificatieproces te bevestigen en te voltooien.
 
@@ -257,6 +275,6 @@ Selecteer de sjabloon die u wilt uitschakelen en klik op de cirkelvormige knop J
 
 +++Hoe wijzig ik de naam en het adres van de afzender in de sjabloon?
 
-Om de afzendernaam en e-mailadres te veranderen, de steun van Adobe Learning Manager van het contact [&#128279;](https://helpx.adobe.com/nl/contact/enterprise-support.other.html#learning-manager).
+Om de afzendernaam en e-mailadres te veranderen, de steun van Adobe Learning Manager van het contact [ ](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++
