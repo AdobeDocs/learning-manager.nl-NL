@@ -70,9 +70,9 @@ Als beheerder kunt u deze e-mailsjablonen eenvoudig in- en uitschakelen of wijzi
 ## Instellingen van een e-mailsjabloon aanpassen {#customizesettingsofanemailtemplate}
 
 1. Klik op **[!UICONTROL Instellingen]** om de instellingenpagina te openen. U kunt nu uw e-mailsjablonen aanpassen.
-1. Om de naam en e-mail-ID aan te passen waarvan de studenten e-mails ontvangen, geef de **[!UICONTROL Naam en het Adres van de Afzender ] uit.**
+1. Om de naam en e-mail-ID aan te passen waarvan de studenten e-mails ontvangen, geef de **[!UICONTROL Naam en het Adres van de Afzender &#x200B;] uit.**
 
-   De Steun van de Adobe van het contact ***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) om deze details te vormen of te veranderen.[***
+   De Steun van de Adobe van het contact ***[&#128279;](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) om deze details te vormen of te veranderen.***
 
 1. Pas uw e-mailbanner van de **[!UICONTROL optie E-mailbanner]** aan. Verander de kleur van de banner door **[!UICONTROL Achtergrond van de Banner te selecteren]**.
 
@@ -126,9 +126,9 @@ Klik in het deel **[!UICONTROL Instellingen overzichtsmail]** op **[!UICONTROL B
 
 In drop-down, kies of **[!UICONTROL Tweewekelijks]** of **[!UICONTROL Maandelijks]**.
 
-* **[!UICONTROL Tweewekelijks ]:** Als u de frequentie aan **[!UICONTROL Tweewekelijks]** plaatst, ontvangen de studenten één keer per twee weken e-mail.
+* **[!UICONTROL Tweewekelijks &#x200B;]:** Als u de frequentie aan **[!UICONTROL Tweewekelijks]** plaatst, ontvangen de studenten één keer per twee weken e-mail.
 
-* **[!UICONTROL Maandelijks ]:** als u de frequentie aan **[!UICONTROL Maandelijks]** plaatst, ontvangen de studenten één keer per maand e-mail.
+* **[!UICONTROL Maandelijks &#x200B;]:** als u de frequentie aan **[!UICONTROL Maandelijks]** plaatst, ontvangen de studenten één keer per maand e-mail.
 
 ![](assets/digest-email-settings.png)
 
@@ -275,6 +275,6 @@ Selecteer de sjabloon die u wilt uitschakelen en klik op de cirkelvormige knop J
 
 +++Hoe wijzig ik de naam en het adres van de afzender in de sjabloon?
 
-Om de afzendernaam en e-mailadres te veranderen, de steun van Adobe Learning Manager van het contact [ ](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
+Om de afzendernaam en e-mailadres te veranderen, de steun van Adobe Learning Manager van het contact [&#128279;](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++
