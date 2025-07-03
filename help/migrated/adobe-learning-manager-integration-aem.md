@@ -187,7 +187,7 @@ Afgezien van de sjablonen die u kunt gebruiken en die geleverd worden door het r
    ![](assets/page-properties.png)
    *eigenschappen van de Pagina*
 
-1. Om de pagina tot stand te brengen, creeer ****.
+1. Om de pagina tot stand te brengen, creeer **&#x200B;**.
 
 1. Selecteer de nieuwe pagina en klik **[!UICONTROL uitgeven]**.
 
