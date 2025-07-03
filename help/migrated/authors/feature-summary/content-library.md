@@ -3,10 +3,10 @@ description: Leer hoe u inhoud maakt en deze afstemt op cursussen als inhoud op 
 jcr-language: en_us
 title: Inhoudsbibliotheek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 8780f8bf0c56d27c1acdaff018544ecc0c21ea23
 workflow-type: tm+mt
-source-wordcount: '4546'
-ht-degree: 37%
+source-wordcount: '4620'
+ht-degree: 36%
 
 ---
 
@@ -200,7 +200,7 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
    Vervolgens kunnen de studenten de bijschriften bekijken tijdens het afspelen van de videomodule.
 
-   Het formaat gesteund is {de Tracks van de Tekst van 0} Video van het Web (webVTT) [&#128279;](https://www.w3.org/TR/webvtt1/).
+   Het formaat gesteund is {de Tracks van de Tekst van 0} Video van het Web (webVTT) [.](https://www.w3.org/TR/webvtt1/)
 
    Ondersteuning voor bijschriften is beschikbaar voor video-inhoud die is geüpload in de inhoudsbibliotheek in Adobe Learning Manager.
 
@@ -208,7 +208,7 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
    De ondertitels verschijnen dan in de Fluidic Player. De titels zijn ook volgzaam aan [ WCAG2.0 normen ](https://www.w3.org/TR/WCAG20/).
 
-   Wanneer u een videoinhoud aan de bibliotheek toevoegt, kunt u het VTT dossier ook toevoegen, dat **&#x200B;**&#x200B;een geldig dossier moet zijn.
+   Wanneer u een videoinhoud aan de bibliotheek toevoegt, kunt u het VTT dossier ook toevoegen, dat **** een geldig dossier moet zijn.
 
    ![](assets/webvtt.png)
 
@@ -594,11 +594,23 @@ De inhoud verschijnt nu in de lijst Gepubliceerde.
 
 ## Inhoud bijwerken
 
-Auteurs kunnen de inhoud van de gepubliceerde cursus bijwerken. Zo krijgen studenten de nieuwste versie van de inhoud. Controle uit dit [ blog ](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) voor meer informatie.
+Auteurs kunnen de inhoud van de gepubliceerde cursus bijwerken.
+De inhoud bijwerken:
+
+1. Aanmelden als auteur.
+2. Selecteer **[!UICONTROL de Bibliotheek van de Inhoud]**.
+3. Zoek naar de inhoud en selecteer **[!UICONTROL uitgeven]**.
+4. Verwijder oudere inhoud en upload een nieuw bestand en publiceer het.
+
+Zo krijgen studenten de nieuwste versie van de inhoud.
+
+Controle uit dit [ blog ](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) voor meer informatie.
 
 ### Inhoudsversiebeheer voor studenten die een cursus hebben voltooid
 
-Adobe Learning Manager biedt duidelijker versiebeheeropties voor auteurs bij het bijwerken van inhoud. Auteurs zien nu drie duidelijk gedefinieerde opties tijdens een update van de inhoudsversie:
+Adobe Learning Manager biedt auteurs nu duidelijkere opties voor het beheer van contentupdates. Auteurs kunnen de inhoud die al in een cursus beschikbaar is, bijwerken. Wanneer een nieuwe versie wordt toegevoegd, verschijnt het versienummer naast de inhoud.
+
+Wanneer een beheerder een cursus met bijgewerkte inhoud bezoekt, ziet hij of zij een knop Bijwerken naast de nieuwe versie. Beheerders zien ook duidelijke updateopties om te kiezen hoe de nieuwe inhoudsversie op studenten wordt toegepast.
 
 | Studentenstaat | Nu bijwerken | Uiteindelijk bijwerken | Bijwerken niet gestart |
 |---|---|---|---|
@@ -607,23 +619,20 @@ Adobe Learning Manager biedt duidelijker versiebeheeropties voor auteurs bij het
 | In uitvoering | V2 * | V1 → V2 * | V1 |
 | Voltooid | V2 * | V2 * | V1 (bewaard) |
 
-(*) Geeft aan dat de module wordt hersteld bij een update van de versie.
+(*) Geeft aan dat de module opnieuw wordt ingesteld wanneer de versie wordt bijgewerkt.
 
-In **[!UICONTROL Werk niet begonnen]**, zal de voltooide student de bestaande inhoudsversie (V1) blijven zien, die de kwestie van onverwachte witte schermen oplossen.
+Met Update niet gestart, blijven studenten die de cursus al hebben voltooid de oorspronkelijke inhoudsversie zien (V1). Zo voorkomt u onverwachte afspeelproblemen en zorgt u voor een consistente ervaring voor studenten die terugkeren naar voltooide cursussen.
 
-* **[!UICONTROL Update nu]**: Pas inhoudsupdate voor alle studenten toe (niet begonnen, In-progress en Voltooide studenten zouden nu naar nieuwe inhoudsversie gaan)
-* **[!UICONTROL Update Uiteindelijk]**: Pas uiteindelijk inhoudsupdate voor alle studenten toe (niet begonnen, voltooide studenten zouden nu naar nieuwe inhoudsversie bewegen; In voortgang zouden de studenten zich na voltooiing bewegen)
-* **[!UICONTROL Niet begonnen Update]**: Pas inhoudsupdate voor slechts niet begonnen studenten toe (In-progress en Voltooide studenten zouden op bestaande inhoudsversie blijven)
+### Opties voor bijwerken van inhoud
 
-#### Veranderingen in gebruikersinterface
+Wanneer een beheerder **[!UICONTROL Update]** klikt, kunnen zij van de volgende opties kiezen:
 
-| Oud label | Nieuwe optie |
-|---|---|
-| Inhoudsupdate toepassen op alle studenten | Werk nu alle studenten bij:Pas de inhoud bij voor alle studenten |
-| Pas een update toe op studenten die nog moeten starten | Alleen niet-begonnen studenten bijwerken: pas een inhoudsupdate toe voor alleen niet-begonnen studenten |
-| Studenten in uitvoering ontvangen na voltooiing een update | Uiteindelijk alle studenten bijwerken: Pas de inhoudsupdate voor alle studenten toe |
+* **[!UICONTROL werk nu alle Studenten]** bij: Pas onmiddellijk de inhoudsupdate voor alle studenten toe. Niet gestart, Bezig en Voltooid studenten gaan meteen naar de nieuwe versie.
+* **[!UICONTROL werk uiteindelijk alle Studenten]** bij: pas de update voor alle studenten in fasen toe. Niet gestart en Voltooid studenten ontvangen nu de nieuwe versie. In uitvoering krijgen studenten de update nadat ze de huidige versie hebben voltooid.
+* **[!UICONTROL Werk slechts niet begonnen Studenten]** bij: Pas de update slechts op studenten toe die nog niet de cursus zijn begonnen. In uitvoering en Voltooide studenten blijven op de oorspronkelijke versie staan.
 
 ![](assets/version-control-options.png)
+_de updateopties van de Inhoud beschikbaar in de montages van de Update_
 
 
 ## Inhoud verwijderen {#deletecontent}
