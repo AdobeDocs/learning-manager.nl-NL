@@ -208,7 +208,7 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
    De ondertitels verschijnen dan in de Fluidic Player. De titels zijn ook volgzaam aan [ WCAG2.0 normen ](https://www.w3.org/TR/WCAG20/).
 
-   Wanneer u een videoinhoud aan de bibliotheek toevoegt, kunt u het VTT dossier ook toevoegen, dat **** een geldig dossier moet zijn.
+   Wanneer u een videoinhoud aan de bibliotheek toevoegt, kunt u het VTT dossier ook toevoegen, dat **&#x200B;**&#x200B;een geldig dossier moet zijn.
 
    ![](assets/webvtt.png)
 
