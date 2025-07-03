@@ -4,10 +4,10 @@ title: Pakket voor AEM-sites van Adobe Learning Manager-referentiesite (ALM-refe
 description: Adobe Learning Manager (ALM) integreert met Adobe Experience Manager (AEM)-sites. Hiermee kunt u uw eigen website en responsieve mobiele interfaces voor Adobe Learning Manager maken met minimale coderingsinspanning. Met deze integratie kunt u aangepaste leerervaringen voor uw gebruikers creëren.
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 67%
+source-wordcount: '2207'
+ht-degree: 65%
 
 ---
 
@@ -21,9 +21,13 @@ Het pakket bevat AEM-sites webpaginasjablonen en websitecomponenten, samen met e
 
 Nadat u het ALM referentiesite-pakket geïnstalleerd hebt, kunt u beginnen met het bouwen van een website voor Adobe Learning Manager die u kunt hosten op uw AEM-sites instantie. Dan kunnen uw gebruikers componenten op de website slepen en neerzetten.
 
-ALM-referentie-sitepakket installeren
+>[!IMPORTANT]
+>
+>Adobe Learning Manager-pakketten (ALM) voor AEM Sites bieden een snel startcodeblok voor implementatie. Dit pakket is ontworpen voor headless implementaties. Als u de verschafte codebasis eenmaal hebt gebruikt, is het uw verantwoordelijkheid om deze verder te onderhouden en te ontwikkelen, zoals gebruikelijk is bij headless-toepassingen die zijn gebaseerd op Adobe Learning Manager. De onderliggende API wordt ondersteund door Adobe Learning Manager.
 
-## vereisten van het proces leren kennen
+## ALM-referentie-sitepakket installeren
+
+### vereisten van het proces leren kennen
 
 * Licenties voor AEM-sites en Adobe Commerce.
 * AEM on-premise 6.5 of Adobe Experience Manager - Cloud Service
@@ -183,7 +187,7 @@ Afgezien van de sjablonen die u kunt gebruiken en die geleverd worden door het r
    ![](assets/page-properties.png)
    *eigenschappen van de Pagina*
 
-1. Om de pagina tot stand te brengen, creeer **&#x200B;**.
+1. Om de pagina tot stand te brengen, creeer ****.
 
 1. Selecteer de nieuwe pagina en klik **[!UICONTROL uitgeven]**.
 

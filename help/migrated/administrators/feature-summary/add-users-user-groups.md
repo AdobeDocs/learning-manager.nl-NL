@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Gebruikers toevoegen in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
+source-git-commit: c2a4a0ea8c9a4a5f28427a95caf63f0690b6dcc7
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Gebruikers toevoegen in Adobe Learning Manager
 
-In Adobe Learning Manager zijn gebruikers mensen die het platform gebruiken om te leren of te trainen. Er zijn twee soorten gebruikers: interne gebruikers en externe gebruikers.
+In Adobe Learning Manager zijn gebruikers studenten die het platform voor leren of training gebruiken. Er zijn twee soorten gebruikers: interne gebruikers en externe gebruikers.
 
 Interne gebruikers zijn werknemers of teamleden van uw organisatie.
 
-Externe gebruikers zijn mensen buiten uw bedrijf, zoals klanten, partners, leveranciers of klanten, die toegang hebben tot uw leerinhoud.
+Externe gebruikers zijn studenten buiten uw bedrijf, zoals klanten, partners, leveranciers of klanten, die toegang hebben tot uw leerinhoud.
 
 Met Adobe Learning Manager (ALM) kunnen beheerders zowel interne als externe gebruikers onboarden en beheren met behulp van verschillende methoden, waaronder handmatige invoer, CSV-upload, zelfregistratie en systeemintegraties.
 
@@ -83,7 +83,7 @@ U kunt als volgt een zelfregistratie-URL voor een gebruiker maken:
    ![](assets/add-self-register-link.png)
    _menu Dropdown voor het selecteren van de zelfregistratieoptie_
 4. Op **voeg automatisch-Registratieprofiel** herinnering toe, typ het profiel in het **Naam van het Profiel** (de titel van de Taak van de gebruiker) gebied.
-5. Selecteer de manager van de gebruiker door naar de manager in het **gebied van de Naam van de 0&rbrace; manager te zoeken.** De manager die aan het zelfregistratieprofiel wordt toegewezen, moet een geregistreerde gebruiker in Adobe Learning Manager zijn.
+5. Selecteer de manager van de gebruiker door naar de manager in het **gebied van de Naam van de 0} manager te zoeken.** De manager die aan het zelfregistratieprofiel wordt toegewezen, moet een geregistreerde gebruiker in Adobe Learning Manager zijn.
 
 
    ![](assets/add-a-user-prompt.png)
@@ -227,7 +227,7 @@ Het externe profiel inschakelen:
 
 1. Zoek het nieuwe profiel in de lijst met externe profielen.
 
-2. Selecteer de **1&rbrace; knevelknoop van de Status &lbrace;om het toe te laten.**
+2. Selecteer de **1} knevelknoop van de Status {om het toe te laten.**
 
 De beheerder kan deze URL delen met de externe partner, zodat deze zich kan aanmelden en zich kan aanmelden bij Adobe Learning Manager.
 
@@ -248,7 +248,7 @@ Er zijn een paar verschillen tussen interne en externe registraties:
 | Interne gebruikers | Externe gebruikers |
 |---|---|
 | Aanmelden met Adobe ID- of SSO-referenties. | Kan zich aanmelden met een e-mail-ID. |
-| Gamification is beschikbaar | Gamification is beschikbaar. De beheerder moet gamification voor externe studenten in de [ montages van de Gamification ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/gamification) toelaten. |
+| Gamification is beschikbaar | Gamification is beschikbaar. De beheerder moet gamification voor externe studenten in de [ montages van de Gamification ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) toelaten. |
 
 ### Extern registratieprofiel pauzeren
 
