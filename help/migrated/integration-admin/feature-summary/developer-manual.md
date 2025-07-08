@@ -4,9 +4,9 @@ title: Handleiding voor toepassingsontwikkelaars
 description: Leer hoe u toepassingen integreert en aanpast met behulp van RESTful-API's, waarbij u aandacht besteedt aan essentiële onderwerpen zoals OAuth 2.0-verificatie, API-gebruiksscenario's en gegevensmodellen. Verbeter je bedrijfstoepassingen met functies zoals cursuscreatie, voortgangsbewaking van studenten, toewijzing van vaardigheden, certificering, gamification en meer. Deze handleiding bevat stapsgewijze instructies en voorbeelden uit de praktijk om ontwikkelaars te helpen bij het creëren van naadloze en efficiënte workflows. Ideaal voor ontwikkelaars die de mogelijkheden van Adobe Learning Manager willen benutten om studentgerichte toepassingen te maken.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
 workflow-type: tm+mt
-source-wordcount: '4375'
+source-wordcount: '4396'
 ht-degree: 6%
 
 ---
@@ -22,8 +22,8 @@ Deze handleiding behandelt het volgende:
 
 * OAuth2.0-verificatie
 * API-objectmodellen
-* Toont hoe u include, fields, and other parameters gebruikt
-* Verstrekt eindpunten voor praktijkvoorbeelden
+* Opnemen, velden en andere parameters
+* Gebruiksscenario’s in de praktijk
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ Als u Adobe Learning Manager API&#39;s veilig wilt gebruiken, moet u zich verifi
 
 ### Een toepassing registreren
 
-Integreer Adobe Learning Manager met externe toepassingen voor verbeterde veelzijdigheid. De stappen omvatten de toegang tot de interface van de Beheerder van de Integratie, het registreren van de toepassing, en het verkrijgen van cliëntidentiteitskaart en Geheime. Genereer verificatietokens (OAuth, Refresh en Access Tokens) van ALM, waarbij het gebruik van het OAuth 2.0-framework voor verificatie en autorisatie wordt benadrukt. De toegangstoken is zeven dagen geldig.
+Integreer Adobe Learning Manager met externe toepassingen voor verbeterde veelzijdigheid. De stappen omvatten de toegang tot de interface van de Beheerder van de Integratie, het registreren van de toepassing, en het verkrijgen van cliëntidentiteitskaart en Geheime. Genereer OAuth 2.0-verificatietokens uit Adobe Learning Manager, inclusief verificatie-, vernieuwings- en toegangstokens. Gebruik de OAuth 2.0-stroom om uw app veilig te verifiëren en autoriseren. De toegangstoken is zeven dagen geldig.
 
 1. Meld u aan bij Adobe Learning Manager als integratiebeheerder.
 2. Selecteer **[!UICONTROL Toepassingen]** op de linkerruit.
@@ -77,7 +77,7 @@ Integreer Adobe Learning Manager met externe toepassingen voor verbeterde veelzi
 
 ### Autorisatiecode ophalen uit omleiding
 
-Nadat u de client-id en het clientgeheim hebt opgehaald, kunt u deze gebruiken om een toegangstoken aan te vragen. Met dit token kunt u API-aanroepen verifiëren.
+Nadat u de client-id en het clientgeheim hebt opgehaald, kunt u deze gebruiken om een toegangstoken aan te vragen. Zo kunt u API-aanroepen verifiëren.
 
 Als u wilt beginnen met het doorvoeren van de machtigingscode, stuurt u uw gebruikers naar de volgende URL in een browser:
 
@@ -137,7 +137,7 @@ Een toegangstoken is zeven dagen geldig. Na zeven dagen moet u een nieuw toegang
 Gebruik het hulpprogramma voor het genereren van Adobe Learning Manager-tokens (ALM) om snel toegangstokens te maken voor test- en ontwikkelingsdoeleinden. Deze tokens zijn uitsluitend bedoeld voor persoonlijk gebruik tijdens ontwikkelings- en foutopsporingsfasen. Houd er rekening mee dat testtokens toegang verlenen tot uw ALM-gegevens, zodat het van essentieel belang is om deze veilig te verwerken. Deel je testtokens nooit met anderen, gebruik ze in productietoepassingen of neem ze op in openbare codeopslagplaatsen. Behandel ze als wachtwoorden om de beveiliging van je account en data te waarborgen.
 
 1. Meld u aan bij Adobe Learning Manager als integratiebeheerder.
-2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0&rbrace; en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
+2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0} en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
 
    ![](assets/select-access-token.png)
 
@@ -174,7 +174,7 @@ Net als voorheen verloopt het toegangstoken voor testen over zeven dagen.
 
 ### Een API-tool gebruiken om de eindpunten te testen
 
-U kunt een API-testtool van derden gebruiken, maar Postman wordt gebruikt om de eindpunten te testen. In de voorbeelden in dit document wordt Postman gebruikt voor het testen van eindpunten.
+U kunt een API-testtool van derden gebruiken, maar Postman wordt gebruikt om de eindpunten te testen. In de voorbeelden in dit document wordt Postman gebruikt voor het testen van de eindpunten.
 
 1. Open Postman en maak een nieuwe aanvraag.
 2. Selecteer het tabblad Autorisatie.
@@ -283,7 +283,7 @@ Voeg de parameter include toe aan uw API-URL en geef op welke verwante entiteite
 
 **Voorbeeld 1**
 
-Hiermee worden de gegevens van een gebruiker opgehaald met de parameter userID in het eindpunt
+Haal de details op van een gebruiker die userID parameter in het eindpunt gebruikt.
 
 ```
 https://learningmanager.adobe.com/primeapi/v2/users/<userID>
@@ -430,7 +430,7 @@ ALM API&#39;s ondersteunen paginering via parameters zoals:
 
 * pagina [ grens ]: Aantal verslagen per pagina.
 * pagina [ verschuiving ]: Aantal verslagen aan oversla.
-* pagina [ curseur ]: Wijs aan de volgende reeks resultaten aan. In plaats van op verschuiving gebaseerde paginering (die een aantal records overslaat) gebruikt de op cursor gebaseerde paginering een uniek markeerteken dat door de API wordt geretourneerd om de volgende pagina met resultaten op te halen.
+* pagina [ curseur ]: Wijs aan de volgende reeks resultaten aan. In plaats van op verschuiving gebaseerde paginering (die een aantal records overslaat) gebruikt op cursor gebaseerde paginering een uniek markeerteken dat door de API wordt geretourneerd om de volgende pagina met resultaten op te halen.
 
 Hieronder wordt beschreven hoe u paginering in API&#39;s kunt gebruiken:
 
@@ -521,7 +521,7 @@ Met de Adobe Learning Manager API&#39;s hebben ontwikkelaars toegang tot leerman
 | userBadge | Gebruikersbadge koppelt afzonderlijke badges aan afzonderlijke gebruikers. Het bevat details zoals wanneer het werd bereikt, assertionUrl etc. |
 | skill | Het vaardighedenmodel bestaat uit niveaus en punten. Vaardigheden kunnen door de studenten worden verworven na het afronden van de cursus. |
 | skillLevel | Een vaardigheidsniveau bestaat uit een of meer cursussen die moeten worden gevolgd om een niveau te bereiken met de bijbehorende punten. |
-| learningObject | Een leerobject is een abstractie voor verschillende soorten objecten waar gebruikers zich voor kunnen inschrijven en van kunnen leren. Op dit moment heeft Leermanager de vier typen leerobjecten: Cursus, Certificering, Leerprogramma en Taakhulp. |
+| learningObject | Een leerobject is een abstractie voor verschillende soorten objecten waarvoor gebruikers zich kunnen inschrijven en waaruit ze kunnen leren. Op dit moment heeft Leermanager de vier typen leerobjecten: Cursus, Certificering, Leerprogramma en Taakhulp. |
 | learningObjectInstance | Een specifieke instantie van een leerobject. |
 | learningObjectResource | Dit is gelijk aan het concept module. Een cursus bestaat uit een of meer modules. In Learning Manager kan een module op verschillende gelijkwaardige manieren worden geleverd. Daarom omvat loResource hoofdzakelijk al die gelijkwaardige middelen. |
 | loResourceGrade | Dit vat het resultaat samen van de gebruiker die een specifieke bron gebruikt in de context van een leerobject waarvoor hij/zij is ingeschreven. Deze bevat informatie zoals de duur die de gebruiker in de bron heeft doorgebracht, de procentuele voortgang die de gebruiker heeft gemaakt, de status geslaagd/gezakt en de score die de gebruiker in een gekoppelde quiz heeft behaald. |
@@ -841,8 +841,11 @@ Dit betekent dat de externe gebruiker is toegevoegd aan Adobe Learning Manager. 
 
 ### Gebruikersrapport extraheren met gebruikers-ID en managergegevens
 
-Een gebruikersrapport kan direct van het gebruikersinterface worden gedownload (**[!UICONTROL Admin]** > **[!UICONTROL Gebruikers]** > **[!UICONTROL Intern]**). Het rapport retourneert echter niet de gebruikers-id en de gegevens van de bijbehorende manager.
-Met de API voor taken voor een beheerder kunt u de details ophalen.
+Een gebruikersrapport kan direct van het gebruikersinterface van de beheerder worden gedownload (**[!UICONTROL Admin]** > **[!UICONTROL Gebruikers]** > **[!UICONTROL Intern]**). Het rapport retourneert echter niet de gebruikers-id en de gegevens van de bijbehorende manager.
+
+Gebruik de Jobs-API om het rapport te downloaden. De API voor Taken helpt bij het genereren van rapporten, bulkbewerkingen (inschrijvingen of badgetoewijzingen), certificeringsvoltooiing of het genereren van badges.
+
+Hieronder wordt beschreven hoe u het rapport kunt downloaden:
 
 1. Voeg de volgende lading aan Jobs API toe.
 
