@@ -4,10 +4,10 @@ title: Handleiding voor toepassingsontwikkelaars
 description: Leer hoe u toepassingen integreert en aanpast met behulp van RESTful-API's, waarbij u aandacht besteedt aan essentiële onderwerpen zoals OAuth 2.0-verificatie, API-gebruiksscenario's en gegevensmodellen. Verbeter je bedrijfstoepassingen met functies zoals cursuscreatie, voortgangsbewaking van studenten, toewijzing van vaardigheden, certificering, gamification en meer. Deze handleiding bevat stapsgewijze instructies en voorbeelden uit de praktijk om ontwikkelaars te helpen bij het creëren van naadloze en efficiënte workflows. Ideaal voor ontwikkelaars die de mogelijkheden van Adobe Learning Manager willen benutten om studentgerichte toepassingen te maken.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 15a05e801d4a05f99529fa2dd1afe11f97e77568
+source-git-commit: adba903c3edddbc9ce11481e75b1e03ffe4da956
 workflow-type: tm+mt
-source-wordcount: '4504'
-ht-degree: 6%
+source-wordcount: '4521'
+ht-degree: 5%
 
 ---
 
@@ -35,7 +35,7 @@ Ontwikkelaars kunnen API&#39;s van Learning Manager gebruiken om de Learning Man
 
 ## Verificatie met OAuth 2.0
 
-Als u Adobe Learning Manager API&#39;s veilig wilt gebruiken, moet u zich verifiëren met het OAuth 2.0-mechanisme van ALM. Dit proces omvat het registreren van uw toepassing, het genereren van een machtigingscode, het uitwisselen van een vernieuwingstoken en het gebruiken van het vernieuwingstoken om een toegangstoken te krijgen.
+Om Adobe Learning Manager API&#39;s veilig te openen, moet u zich verifiëren met het OAuth 2.0-mechanisme van Adobe Learning Manager. Dit proces omvat het registreren van uw toepassing, het genereren van een machtigingscode, het uitwisselen van een vernieuwingstoken en het gebruiken van het vernieuwingstoken om een toegangstoken te krijgen.
 
 ### Een toepassing registreren
 
@@ -50,7 +50,7 @@ Integreer Adobe Learning Manager met externe toepassingen voor verbeterde veelzi
 
    * **[!UICONTROL Naam van de Toepassing]**: Type de naam van uw toepassing (maximum 50 karakters).
    * **[!UICONTROL URL]**: Officiële URL van uw bedrijf of toepassing. Wordt gebruikt voor identificatie en referentie.
-   * **[!UICONTROL richt Domeinen]** opnieuw: Specificeer de domeinen (bijvoorbeeld, [ http://learningmanager.adobe.com ](http://learningmanager.adobe.com)) die ALM aan na vergunning kan opnieuw richten.  U kunt meerdere URL&#39;s vermelden, maar de URL&#39;s moeten geldig zijn.
+   * **[!UICONTROL richt Domeinen]** opnieuw: Specificeer de domeinen (bijvoorbeeld, [ http://learningmanager.adobe.com ](http://learningmanager.adobe.com)) die Adobe Learning Manager aan na vergunning kan opnieuw richten.  U kunt meerdere geldige URL&#39;s opgeven.
    * **[!UICONTROL Beschrijving]**: Korte beschrijving van wat de toepassing doet.
    * **[!UICONTROL Bereiken]**: Selecteer één van de zes beschikbare opties om het werkingsgebied van uw toepassing te bepalen. Op basis van uw hier vermelde keuze zijn de API-eindpunten van de Learning Manager toegankelijk voor uw toepassing. Als u bijvoorbeeld leestoegang voor de studentrol hebt gekozen, zijn alle API-eindpunten van de leermanager alleen-lezen voor uw toepassing.
 
@@ -68,7 +68,7 @@ Integreer Adobe Learning Manager met externe toepassingen voor verbeterde veelzi
 4. Selecteer **[!UICONTROL sparen]** om de toepassing te registreren.
 
    * Nadat u de toepassing hebt geregistreerd, is deze beschikbaar in de lijst met toepassingen die in het account zijn gemaakt. Selecteer de toepassing en naast de eerder ingevoerde velden ziet u het volgende:
-   * Toepassings-id: dit is de client-id. Deze id vertelt ALM de toepassing die toegang aanvraagt. Het is opgenomen in API-verzoeken om de app te identificeren.
+   * Toepassings-id: dit is de client-id. Deze id vertelt Adobe Learning Manager de toepassing die toegang aanvraagt. Het is opgenomen in API-verzoeken om de app te identificeren.
    * Toepassingsgeheim: hiermee wordt uw app geverifieerd en de identiteit ervan geverifieerd tijdens de uitwisselingsstappen voor token (bijvoorbeeld bij het aanvragen van een vernieuwingstoken of een toegangstoken).
 
    ![](assets/application-id-and-secret.png)
@@ -134,7 +134,7 @@ Een toegangstoken is zeven dagen geldig. Na zeven dagen moet u een nieuw toegang
 
 ### Toegangstokens verkrijgen voor testen en ontwikkelen
 
-Als ontwikkelaars werken met Adobe Learning Manager (ALM)-API&#39;s, hebben ze een geldig OAuth 2.0-toegangstoken nodig om API-verzoeken te verifiëren. Het genereren van dit token via de standaard OAuth-flow kan complex en tijdrovend zijn, met name voor snel testen, leren of ontwikkelen. Adobe Learning Manager biedt een hulpprogramma voor het genereren van tokens om dit proces te vereenvoudigen.
+Als ontwikkelaars met Adobe Learning Manager API&#39;s werken, hebben ze een geldig OAuth 2.0-toegangstoken nodig om API-verzoeken te verifiëren. Het genereren van dit token via de standaard OAuth-flow kan complex en tijdrovend zijn, met name voor snel testen, leren of ontwikkelen. Adobe Learning Manager biedt een hulpprogramma voor het genereren van tokens om dit proces te vereenvoudigen.
 
 Dit gereedschap is ideaal tijdens:
 
@@ -144,10 +144,10 @@ Dit gereedschap is ideaal tijdens:
 
 * Problemen met API-integratie oplossen
 
-Deze tokens zijn uitsluitend bedoeld voor persoonlijk gebruik tijdens ontwikkelings- en foutopsporingsfasen. Houd er rekening mee dat testtokens toegang verlenen tot uw ALM-gegevens, zodat het van essentieel belang is om deze veilig te verwerken. Deel je testtokens nooit met anderen, gebruik ze in productietoepassingen of neem ze op in openbare codeopslagplaatsen. Behandel ze als wachtwoorden om de beveiliging van je account en data te waarborgen.
+Deze tokens zijn uitsluitend bedoeld voor persoonlijk gebruik tijdens ontwikkelings- en foutopsporingsfasen. Houd er rekening mee dat testtokens toegang geven tot je Adobe Learning Manager-data, dus het is essentieel om ze veilig te verwerken. Deel je testtokens nooit met anderen, gebruik ze in productietoepassingen of neem ze op in openbare codeopslagplaatsen. Behandel ze als wachtwoorden om de beveiliging van je account en data te waarborgen.
 
 1. Meld u aan bij Adobe Learning Manager als integratiebeheerder.
-2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0&rbrace; en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
+2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0} en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
 
    ![](assets/select-access-token.png)
 
@@ -167,7 +167,7 @@ Deze tokens zijn uitsluitend bedoeld voor persoonlijk gebruik tijdens ontwikkeli
 
    ![](assets/type-access-token.png)
 
-Op het selecteren **[!UICONTROL legt]** voor, wordt het toegangstoken geverifieerd, en de volgende reactie verschijnt:
+Op het selecteren **[!UICONTROL legt]** voor, wordt het toegangstoken geverifieerd, en u zult het volgende voorwerp JSON ontvangen:
 
 ```
 { 
@@ -263,7 +263,7 @@ Hier volgt een korte uitleg van elk:
 
 ### include
 
-ALM-API&#39;s kunnen worden gebruikt om nuttige informatie op te halen tijdens het bouwen van een aangepaste toepassing of een headless LMS. De API-eindpunten kunnen verder worden opgenomen met aanvullende &#39;include&#39;-parameters om de extra informatie op te halen die betrekking heeft op de gegevens die standaard worden ontvangen. Deze relaties zijn relaties met datamodellen. Als u bijvoorbeeld een oproep doet om gebruikersgegevens op te halen, ontvangt u de gebruikersgegevens en de relatie van de manager-id en de ALM-account-id. Met de parameter include kunt u op een gedetailleerde manier aanvullende details ophalen samen met de gebruikersgegevens, zoals de beheergegevens en de ALM-accountgegevens.
+Adobe Learning Manager API&#39;s kunnen worden gebruikt om nuttige informatie op te halen tijdens het bouwen van een aangepaste toepassing of een headless LMS. De API-eindpunten kunnen verder worden opgenomen met aanvullende &#39;include&#39;-parameters om de extra informatie op te halen die betrekking heeft op de gegevens die standaard worden ontvangen. Deze relaties zijn relaties met gegevensmodellen. Als u bijvoorbeeld een oproep doet om gebruikersgegevens op te halen, ontvangt u de gebruikersgegevens en de relatie van de manager-id en de Adobe Learning Manager-account-id. Met de parameter include kunt u op een gedetailleerde manier aanvullende gegevens ophalen samen met de gebruikersgegevens, zoals de beheergegevens en de Adobe Learning Manager-accountgegevens.
 Kortom, **omvat** parameter wordt gebruikt in API vraag om verwante (verbonden) middelen samen met het primaire middel in één enkele reactie te halen. Het is handig als u toegang wilt tot geneste of afhankelijke gegevens, zoals modules van een cursus of de vaardigheden die aan een student zijn toegewezen, zonder afzonderlijke API-aanroepen te maken.
 
 Belangrijkste voordelen:
@@ -434,9 +434,9 @@ API-paginering is een techniek die in API&#39;s wordt gebruikt om grote gegevens
 
 Paginering vermindert het laden van de client en de server, beperkt de reactiegrootte om knelpunten in de server te voorkomen of is handig voor het weergeven van gegevens in tabellen of lijsten van één pagina tegelijk.
 
-**Hoe de paginering in het werk van ALM APIs**
+**Hoe de paginering in Adobe Learning Manager APIs** werkt
 
-ALM API&#39;s ondersteunen paginering via parameters zoals:
+Adobe Learning Manager API&#39;s ondersteunen paginering via parameters zoals:
 
 * pagina [ grens ]: Aantal verslagen per pagina.
 * pagina [ verschuiving ]: Aantal verslagen aan oversla.
@@ -525,7 +525,7 @@ Met de Adobe Learning Manager API&#39;s hebben ontwikkelaars toegang tot leerman
 | badge | Een badge is een vorm van prestatiebeloning die studenten krijgen wanneer ze specifieke mijlpalen bereiken terwijl ze binnen een cursus verdergaan. |
 | catalog | Catalogus is een verzameling leerobjecten. |
 | gebruikersinterface | Gebruiker is het belangrijkste model in Learning Manager. Gebruikers zijn meestal de interne of externe studenten van een organisatie die leerobjecten gebruiken. Zij kunnen echter naast de rol van de student een andere rol op zich nemen, zoals auteur en manager. Gebruikers-ID, -type en -e-mail zijn enkele van de inline attributen. |
-| resource | Leermiddel wordt gebruikt voor het modelleren van elke inhoudsbron die voor een module moet worden geordend. Alle bronnen die zijn ingekapseld in een &quot;loResource&quot; zijn equivalent in termen van het leerdoel, maar ze verschillen van elkaar in termen van leveringstype of landinstelling van inhoud. |
+| resource | Dit vertegenwoordigt elke inhoudsbron binnen een module. Alle bronnen die zijn ingekapseld in een &quot;loResource&quot; zijn equivalent in termen van het leerdoel, maar ze verschillen van elkaar in termen van leveringstype of landinstelling van inhoud. |
 | userNotification | Dit model bevat kennisgevingsinformatie over een student. |
 | userSkill | UserSkill geeft aan hoeveel van één vaardigheidsniveau door één gebruiker wordt bereikt. |
 | userBadge | Gebruikersbadge koppelt afzonderlijke badges aan afzonderlijke gebruikers. Het bevat details zoals wanneer het werd bereikt, assertionUrl etc. |
@@ -660,7 +660,7 @@ Er zijn drie verplichte kenmerken:
 * naam: de naam van de gebruiker.
 * userType: Op dit moment kunnen alleen interne gebruikers worden toegevoegd aan de hand van dit eindpunt. Het userType moet &quot;INTERNAL&quot; zijn.
 
-Het volgende antwoord wordt weergegeven:
+U ontvangt het volgende JSON-object:
 
 ```
 {
@@ -1257,7 +1257,7 @@ In de reactie krijgt u informatie over de voortgang van de module.
 
 Bij het implementeren van een headless LMS met Adobe Learning Manager als back-end, kunnen organisaties ondersteuningspersoneel nodig hebben om studenten te kunnen nakomen voor probleemoplossing of hulp. De API-gestuurde imitatiemethode garandeert veilige toegang met behoud van de vertrouwelijkheid van de studentreferentie en ondersteunt naadloze overgangen in sessiestatussen.
 
-Adobe Learning Manager (ALM) vergemakkelijkt het nadoen van studenten in headless LMS-omgevingen via een speciale API. Met deze functie kan ondersteuningspersoneel tijdelijk de identiteit van een student overnemen, zodat deze problemen kan diagnosticeren, functionaliteiten kan testen of praktische hulp kan bieden door de ervaring van de student te simuleren. Imitatie wordt geactiveerd met een toegangstoken voor beheerders in de cache, dat wordt gebruikt om programmatisch een toegangstoken voor studenten te genereren. Hierdoor kan het systeem werken alsof het als student is aangemeld.
+Adobe Learning Manager vereenvoudigt het nadoen van studenten in headless LMS-omgevingen via een speciale API. Met deze functie kan ondersteuningspersoneel tijdelijk de identiteit van een student overnemen, zodat deze problemen kan diagnosticeren, functionaliteiten kan testen of praktische hulp kan bieden door de ervaring van de student te simuleren. Imitatie wordt geactiveerd met een toegangstoken voor beheerders in de cache, dat wordt gebruikt om programmatisch een toegangstoken voor studenten te genereren. Hierdoor kan het systeem werken alsof het als student is aangemeld.
 
 >[!IMPORTANT]
 >
@@ -1318,7 +1318,7 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 
 ### Foutcodes
 
-Wanneer ontwikkelaars met Adobe Learning Manager (ALM)-API&#39;s werken, kunnen ze verschillende HTTP-foutcodes tegenkomen tijdens aanvragen. Deze fouten geven belangrijke feedback over wat er is misgegaan en hoe deze kan worden opgelost. Als u deze codes begrijpt, kunnen ontwikkelaars snel problemen oplossen, de betrouwbaarheid van de API verbeteren en zorgen voor vloeiendere integraties. De volgende tabel bevat een handleiding voor veelvoorkomende HTTP-foutcodes die door de ALM-API&#39;s worden geretourneerd, samen met uitleg en typische scenario&#39;s waarin deze plaatsvinden. Deze sectie is essentieel voor iedereen die, toepassingen bouwt test, of zuivert die met ALM verbinden.
+Wanneer ontwikkelaars met Adobe Learning Manager (Adobe Learning Manager)-API&#39;s werken, kunnen ze verschillende HTTP-foutcodes tegenkomen tijdens aanvragen. Deze fouten geven belangrijke feedback over wat er is misgegaan en hoe deze kan worden opgelost. Als u deze codes begrijpt, kunnen ontwikkelaars snel problemen oplossen, de betrouwbaarheid van de API verbeteren en zorgen voor vloeiendere integraties. In de volgende tabel vindt u een overzicht van algemene HTTP-foutcodes die worden geretourneerd door de Adobe Learning Manager API&#39;s, samen met uitleg en typische scenario&#39;s waarin deze voorkomen. Deze sectie is essentieel voor iedereen die toepassingen bouwt, test, of zuivert die met Adobe Learning Manager verbinden.
 
 | HTTP-status | Betekenis | Problemen oplossen |
 |---|---|---|
