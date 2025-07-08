@@ -3,7 +3,7 @@ description: Referentiehandleiding voor integratiebeheerders die een bestaand LM
 jcr-language: en_us
 title: Migratiehandleiding
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 899ef06789f818e0286589263ebb5fad0c90c9d2
+source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
 workflow-type: tm+mt
 source-wordcount: '3617'
 ht-degree: 72%
@@ -33,7 +33,7 @@ De vereisten voor migratie, de belangrijkste stappen die bij het migratieproces 
 Het Learning Manager-team verwacht dat de volgende taken door de integratiebeheerders van uw organisatie worden uitgevoerd voordat het migratieproces wordt uitgevoerd:
 
 * De integratiebeheerder haalt gegevens en inhoud uit het bestaande LMS op en zet de gegevens in de bestandsindelingen die door Learning Manager zijn gedefinieerd.
-* Learning Manager biedt geen ondersteuning voor het importeren van gebruikers als onderdeel van het migratieproces en verwacht dat de organisatie gebruikers via connectoren importeert. Adobe Systems verwacht dat deze connectoren vóór de migratie geconfigureerd worden. Raadpleeg [Help voor Learning Manager-connectoren](connectors.md) voor meer informatie.
+* Learning Manager biedt geen ondersteuning voor het importeren van gebruikers als onderdeel van het migratieproces en verwacht dat de organisatie gebruikers via connectoren importeert. Adobe Systems verwacht dat deze connectoren vóór de migratie geconfigureerd worden. Verwijs naar [ het Leren de schakelaarsHulp van de Manager ](connectors.md) voor meer informatie.
 
 Learning Manager beveelt beheerders aan het migratieproces uit te proberen in een proefaccount voordat ze de gegevens en inhoud naar de Learning Manager-productieomgeving migreren.
 
@@ -385,9 +385,9 @@ Hieronder staan de standaard CSV-specificaties die u aan uw bestaande LMS-migrat
  </tbody>
 </table>
 
-Learning Manager ondersteunt alleen datum- en tijdwaarden in UTF-8- en 32-bits indeling. Er kunnen fouten optreden tijdens de migratie als u de datum vermeldt in CSV-bestanden met een datum die buiten het bereik valt (2038-07-17T08):53:21.000Z of 1980-04-17T08:13:25,322Z.
+Learning Manager ondersteunt alleen datum- en tijdwaarden in UTF-8- en 32-bits indeling. U kunt fouten tijdens migratie krijgen als u datum in Csv- dossiers met een uit waaierdatum als 2038-07-17T08 :53: 21.000Z of 1980-04-17T08 :13: 25.322Z vermeldt.
 
-* [sample-csvs.zip](assets/sample-csvs.zip)
+* [ sample-csvs.zip ](assets/sample-csvs.zip)
 * [csv_specifications.zip](assets/csv-specifications.zip)
 
 U moet rekening houden met de volgende afhankelijkheden van CSV-bestanden tijdens het importeren:
@@ -437,17 +437,17 @@ U ontvangt dan een e-mail van Box met een link naar de gedeelde map. Hebt u geen
 
 **Gegevens uploaden (CSV-bestanden) naar FTP-mappen of Box-mappen**
 
-U moet een FTP- of Box-account maken voordat u een migratieproject maakt. Op dit moment kunt u dus een migratieproject en sprint maken in de toepassing Learning Manager.  Raadpleeg **Migratieprocedure voor gegevens en inhoud** op deze pagina om een migratieproject te maken.
+U moet een FTP- of Box-account maken voordat u een migratieproject maakt. Op dit moment kunt u dus een migratieproject en sprint maken in de toepassing Learning Manager.  Verwijs naar **de migratieprocedure van Gegevens en van de inhoud** sectie in deze pagina om migratieproject tot stand te brengen.
 
 Klik in uw FTP- of Box-account op de naam van uw projectmap en klik op de sprintnaam. U kunt de CSV-gegevensbestanden die u naar de sprintmap wilt migreren, uploaden. Als u wilt uploaden, klikt u op de knop Bestanden uploaden bovenaan in de FTP- of Box-server en zet u de CSV-bestanden neer. Hieronder ziet u ter referentie een voorbeeldmomentopname na het uploaden naar FTP.
 
 <!--![](assets/exavault-upload.png)-->
 
-U kunt terugkeren naar het migratieproject van Learning Manager door op **[!UICONTROL Vernieuwen]** en bekijk alle CSV-gegevenstypen die in uw migratiesprint worden vermeld.
+U kunt terug naar het de migratieproject van de Leermanager komen, **[!UICONTROL verfrissen]** en bekijken alle .csv gegevenstypes die in uw migratieSprint worden vermeld.
 
 **Trainingsinhoud naar inhoudsmappen uploaden**
 
-Upload de trainingsinhoud van uw bestaande LMS naar uw Box-account. Als u het migratieproject en de sprint al hebt gemaakt, vult het Box-account het migratieproject en de sprintnaam in. U kunt de inhoud in hetzelfde pad uploaden. Raadpleeg **Migratieprocedure voor gegevens en inhoud** op deze pagina om een migratieproject te maken.
+Upload de trainingsinhoud van uw bestaande LMS naar uw Box-account. Als u het migratieproject en de sprint al hebt gemaakt, vult het Box-account het migratieproject en de sprintnaam in. U kunt de inhoud in hetzelfde pad uploaden. Verwijs naar **de migratieprocedure van Gegevens en van de inhoud** sectie in deze pagina om migratieproject tot stand te brengen.
 
 U kunt de inhoudsbestanden slepen en neerzetten of op **[!UICONTROL Uploaden]** klikken en de bestanden van uw bureaublad selecteren. Als u een bijzonder groot bestand hebt, kan het uploaden langer duren. Afhankelijk van de grootte van het bestand varieert de tijd die nodig is om de bestanden naar uw Box-account te uploaden.
 
@@ -455,7 +455,7 @@ Hieronder ziet u ter referentie een voorbeeld van een Box-account na het uploade
 
 ![](assets/box-account.png)
 
-*Bestanden in Box-account*
+*Dossiers in de rekening van de Doos*
 
 Nadat de bestanden naar uw Box-account zijn geüpload, moet u ervoor zorgen dat u het relatieve pad van dit Box-inhoudsbestand in het bestand module_version.csv vermeldt. Dit is een verplichte stap. U moet het pad van de module-inhoud aangeven.
 
@@ -463,15 +463,15 @@ Hebt u zich bij de FTP- en Box-servers aangemeld en de inhoud geüpload, dan ver
 
 ![](assets/after-setup.jpg)
 
-*CSV-locaties in Box-account*
+*plaatsen CSV in de rekening van de Doos*
 
 ## Migratieprocedure voor gegevens en inhoud {#dataandcontentmigrationprocedure}
 
 De procedure voor het migreren van LMS-gegevens en -inhoud van uw onderneming naar Learning Manager wordt als volgt uitgelegd:
 
-Doorloop de vereisten van het migratieproces voordat u de migratie start. Raadpleeg [CSV-specificaties en voorbeeld-CSV&#39;s](migration-manual.md#main-pars_header_140933605) op deze pagina en maak de CSV&#39;s klaar voor de migratie van gegevens en inhoud.
+Doorloop de vereisten van het migratieproces voordat u de migratie start. Verwijs naar [ CSV specificaties en steekproefCSVs ](migration-manual.md#main-pars_header_140933605) sectie in deze pagina en bereid CSVs voor gegevens en inhoudsmigratie voor.
 
-1. Meld u als integratiebeheerder aan bij de toepassing Learning Manager en klik op **[!UICONTROL Migratie]** in het linkerdeelvenster.
+1. Login aan de toepassing van de Manager van het Leren als Beheerder van de Integratie en klik **[!UICONTROL Migratie]** op de linkerruit.
 
    De startpagina voor migratieprojecten verschijnt. Als uw organisatie al migratieprojecten heeft gemaakt, ziet u hier de lijst van alle migratieprojecten.
 
@@ -480,27 +480,27 @@ Doorloop de vereisten van het migratieproces voordat u de migratie start. Raadpl
    Als u nog geen FTP-map hebt gemaakt, wordt u gevraagd om een FTP-map in het account te maken. Dit is een verplichte stap voordat u een migratieproject maakt.
 
    ![](assets/create-project.png)
-   *FTP-map maken*
+   *creeer de omslag van FTP*
 
    Geef de projectnaam, projecttag, cursuscatalogus en beschrijving voor uw migratieproject op. Klik op **[!UICONTROL Maken]**.
 
    Uw migratiegegevens worden geïdentificeerd met behulp van deze tag voor migratieprojecten. Als u geen specifieke cursuscatalogus hebt, kiest u de standaardcatalogus in de vervolgkeuzelijst. Alle cursussen die u via een migratieproject migreert, worden opgenomen in de catalogus die u hier kiest. Als u geen catalogus kiest, behoren alle gemigreerde cursussen tot de standaardcatalogus.
 
-1. De pagina voor sprintconfiguratie verschijnt zoals hieronder weergegeven. U moet een sprint maken als onderdeel van uw migratieproject. Kies de sprintnaam en geef een korte beschrijving van de sprint. U kunt Ja kiezen als u inhoud als onderdeel van deze sprint wilt migreren. Klikken **[!UICONTROL Volgende]**.
+1. De pagina voor sprintconfiguratie verschijnt zoals hieronder weergegeven. U moet een sprint maken als onderdeel van uw migratieproject. Kies de sprintnaam en geef een korte beschrijving van de sprint. U kunt Ja kiezen als u inhoud als onderdeel van deze sprint wilt migreren. Klik **[!UICONTROL daarna]**.
 
    ![](assets/users-modified-sprint.png)
-   *Sprint-migratie*
+   *de migratie van de sprint*
 
-   Selectievakje met titel selecteren **Gebruikers zijn toegevoegd of gewijzigd sinds de laatste uitvoering** om de lijst met gebruikers te synchroniseren met de toepassing Leermanager. Als u de inhoud en gegevens naar de Learning Manager-toepassing migreert, is dit misschien niet nodig. Maar als er tijd is verstreken tussen uw eerdere sprintmigratie en de laatste sprintmigratie, is het het beste om de gebruikerslijst te synchroniseren. Met deze stap kan de database van de Learning Manager synchroon zijn met uw LMS-gebruikers.
+   Selecteer checkbox met titel **Gebruikers zijn toegevoegd of gewijzigd sinds de laatste looppas**, om de lijst van gebruikers met de toepassing van de Leermanager te synchroniseren. Als u de inhoud en gegevens naar de Learning Manager-toepassing migreert, is dit misschien niet nodig. Maar als er tijd is verstreken tussen uw eerdere sprintmigratie en de laatste sprintmigratie, is het het beste om de gebruikerslijst te synchroniseren. Met deze stap kan de database van de Learning Manager synchroon zijn met uw LMS-gebruikers.
 
    Deze synchronisatiestap wordt aanbevolen wanneer enrollment.csv en user_course_course_grade.csv worden gemigreerd. Deze stap zorgt ervoor dat de Learning Manager-database gesynchroniseerd is met uw migratiedatabase en dat alle gebruikers van wie de gegevens in de sprint gemigreerd moeten worden, beschikbaar zijn in de migratiedatabase.
 
-1. U kunt de sprintmigratie starten met uw geüploade gegevens en inhoud. Klikken **[!UICONTROL Vernieuwen]** voordat u Sprint run start om de FTP- en inhoudsmappen te synchroniseren met de toepassing Learning Manager.
+1. U kunt de sprintmigratie starten met uw geüploade gegevens en inhoud. Klik **[!UICONTROL verfrissen]** verbinding alvorens de Looppas van de Sprint te beginnen om de omslagen van FTP en van de Inhoud met de Lerende toepassing van de Manager te synchroniseren.
 
    ![](assets/sprint1-filesupload.png)
-   *sprintmigratie starten*
+   *de sprintmigratie van het Begin*
 
-   Klikken **[!UICONTROL Starten]** rechtsboven op de pagina. U kunt op **[!UICONTROL Stoppen]** op elk moment tijdens het sprintmigratieproces om de sprintmigratie af te breken.
+   Klik **[!UICONTROL Begin]** bij de hoger-juiste hoek van de pagina. U kunt **[!UICONTROL Einde]** op om het even welk punt in tijd tijdens het migratieproces van de Afdruk klikken om de sprintmigratie af te breken.
 
    De migratiestatus wordt op alle gegevensitems en inhoud van de sprint weergegeven. Controleer het aantal geslaagde en mislukte items als onderdeel van de migratiesprintrun.
 
@@ -509,14 +509,14 @@ Doorloop de vereisten van het migratieproces voordat u de migratie start. Raadpl
    Hieronder ziet u een voorbeeld van het voortgangsvenster. Zoals te zien in het voorbeeld, kunt u het aantal verwerkte records voor elk migratiegegevensitem bekijken. De status geeft aan of migratie is geslaagd of mislukt. Klik op Foutrecords downloaden naast de mislukte items om de foutenlogboeken te downloaden en bekijken. U kunt de problemen in CSV oplossen en opnieuw uploaden in FTP.
 
    ![](assets/sample-sprint-progress-status.png)
-   *Vooruitgang van sprint weergeven*
+   *de vooruitgang van de sprint van de Mening*
 
    Klik op de sprintlijst in het linkerdeelvenster om de lijst met alle sprints van een migratieproject te bekijken. U kunt een lijst weergeven met alle sprints, het aantal runs dat u voor elke sprint hebt uitgevoerd, de begindatum, de duur en de voltooiingsstatus, zoals weergegeven in de voorbeeldafbeelding hieronder.
 
    ![](assets/sprint-list.png)
-   *Lijst met sprints weergeven*
+   *lijst van de Mening van sprints*
 
-1. Nadat u de laatst bijgewerkte CSV&#39;s hebt geüpload, kunt u rechtsboven op de pagina op Opnieuw uitvoeren klikken. Alle gegevensitems worden dan opnieuw verwerkt waarbij ongewijzigde items worden genegeerd. Bent u tevreden met de migratie van gegevenselementen in een sprint, dan kunt u de migratie als compleet markeren door op de knop bovenaan de pagina te klikken. U kunt later een nieuwe sprint starten met meer gegevensitems. Zodra een sprint als voltooid is gemarkeerd, kunt u deze niet langer opnieuw uitvoeren. In een migratieproject kunt u ook een willekeurig aantal sprints hebben. Als u tevreden bent met de migratiestatus van alle sprints, kunt u het migratieproject als voltooid markeren door op **Project markeren voltooid** koppeling op de pagina Afdruklijst.
+1. Nadat u de laatst bijgewerkte CSV&#39;s hebt geüpload, kunt u rechtsboven op de pagina op Opnieuw uitvoeren klikken. Alle gegevensitems worden dan opnieuw verwerkt waarbij ongewijzigde items worden genegeerd. Bent u tevreden met de migratie van gegevenselementen in een sprint, dan kunt u de migratie als compleet markeren door op de knop bovenaan de pagina te klikken. U kunt later een nieuwe sprint starten met meer gegevensitems. Zodra een sprint als voltooid is gemarkeerd, kunt u deze niet langer opnieuw uitvoeren. In een migratieproject kunt u ook een willekeurig aantal sprints hebben. Zodra u met de migratiestatus van alle Afdrukken tevreden bent, kunt u het project van de Migratie als Voltooid merken door **Volledige verbinding van het Project van het Teken te klikken** op de pagina van de Lijst van de Afdruk.
 
    Voordat u het migratieproject als voltooid markeert, moet u controleren dat alle sprints van het project voltooid zijn. Zodra u het migratieproject als voltooid hebt gemarkeerd, kunt u niet meer teruggaan om sprints in dat project te maken of wijzigingen aan te brengen. U moet dan een ander migratieproject maken en hier sprints aan toevoegen.
 
@@ -537,7 +537,7 @@ Hieronder staan de standaard CSV-specificaties die u aan uw bestaande LMS-migrat
 3-learning_program_enrollment.xlsx-bevat beschrijvingen van metagegevens die nodig zijn voor het bestand retrofit_learning_program_enrollment.csv.
 
 4-user_course_grades.xlsx-bevat beschrijvingen van metagegevens die nodig zijn voor het bestand retrofit_user_course_grades.csv.
-[csv-specifications.zip](assets/csv-specifications.zip)
+[ csv-specifications.zip ](assets/csv-specifications.zip)
 
 >[!NOTE]
 >
@@ -563,7 +563,7 @@ Learning Manager ondersteunt UUID om organisaties flexibel beheer van gebruikers
 
 **Gebruiksscenario van UUID in een organisatie**
 
-Overweeg een scenario waarin werknemer A zich bij een bedrijf met de naam Learning Manager aansluit, als contractant. Tijdens de contractperiode kan het bedrijf van de Leermanager geen bedrijfs-e-mail-ID verstrekken als ```A@example.com```in plaats daarvan mag het bedrijf alleen het persoonlijke e-mailaccount van de werknemer in overweging nemen, bijvoorbeeld ```A@gmail.com```. Als na het voltooien van een contractperiode van 6 maanden dezelfde werknemer A zich bij de leermanager aansluit als een fulltime medewerker, kan de leermanager zijn e-mail-ID veranderen in de e-mail-ID van zijn bedrijf: ```A@example.com```.
+Overweeg een scenario waarin werknemer A zich bij een bedrijf met de naam Learning Manager aansluit, als contractant. Tijdens de contractperiode kan het bedrijf dat de leermanager leidt, geen e-mail-ID van het bedrijf als ```A@example.com``` verstrekken, maar het bedrijf kan alleen rekening houden met het persoonlijke e-mailaccount van de werknemer, bijvoorbeeld ```A@gmail.com``` . Als een werknemer A na 6 maanden van de contractperiode toetreedt tot de Learning Manager als een fulltime medewerker, wil de Learning Manager zijn e-mail-ID wijzigen in de e-mail-ID van zijn bedrijf: ```A@example.com``` .
 
 De leermanager van het bedrijf in het bovengenoemde scenario profiteert van het hebben van UUID-toegang tot gebruikersaccount. Het bedrijf van de Learning Manager kan de persoonlijke e-mail-ID van werknemer A eenvoudig vervangen door een officiële e-mail-ID. De records van de werknemer voor dit account blijven onaangetast door deze wijziging.
 
@@ -582,5 +582,5 @@ Wanneer X de manager van bijvoorbeeld gebruikers A, B en C is maar de organisati
 
 Raadpleeg de volgende Help-inhoud voor meer informatie over dit onderwerp:
 
-* [Veelgestelde vragen over het uploaden van CSV&#39;s](/help/migrated/administrators/add-users-in-bulk.md)
+* [Veelgestelde vragen over het uploaden van CSV&#39;s](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [Hulp bij het toevoegen van gebruikers](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
