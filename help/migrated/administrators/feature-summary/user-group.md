@@ -3,7 +3,7 @@ description: Leer hoe u gebruikersgroepen maakt en beheert in Adobe Learning Man
 jcr-language: en_us
 title: Gebruikersgroepen beheren in Adobe Learning Manager | Studenten organiseren en toewijzen
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -215,3 +215,4 @@ Als u OR-logica gebruikt, voegt Adobe Learning Manager gebruikers toe die zich i
 
 ![](assets/or-logic.png)
 _Voorbeeld dat veelvoudige groepen toont gecombineerd gebruikend OF logica_
+
