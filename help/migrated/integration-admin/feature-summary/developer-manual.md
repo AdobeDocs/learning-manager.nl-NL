@@ -4,7 +4,7 @@ title: Handleiding voor toepassingsontwikkelaars
 description: Leer hoe u toepassingen integreert en aanpast met behulp van RESTful-API's, waarbij u aandacht besteedt aan essentiële onderwerpen zoals OAuth 2.0-verificatie, API-gebruiksscenario's en gegevensmodellen. Verbeter je bedrijfstoepassingen met functies zoals cursuscreatie, voortgangsbewaking van studenten, toewijzing van vaardigheden, certificering, gamification en meer. Deze handleiding bevat stapsgewijze instructies en voorbeelden uit de praktijk om ontwikkelaars te helpen bij het creëren van naadloze en efficiënte workflows. Ideaal voor ontwikkelaars die de mogelijkheden van Adobe Learning Manager willen benutten om studentgerichte toepassingen te maken.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 01b5f339fb17db9c1af4e3e1121f9034c84fb974
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '4375'
 ht-degree: 6%
@@ -137,7 +137,7 @@ Een toegangstoken is zeven dagen geldig. Na zeven dagen moet u een nieuw toegang
 Gebruik het hulpprogramma voor het genereren van Adobe Learning Manager-tokens (ALM) om snel toegangstokens te maken voor test- en ontwikkelingsdoeleinden. Deze tokens zijn uitsluitend bedoeld voor persoonlijk gebruik tijdens ontwikkelings- en foutopsporingsfasen. Houd er rekening mee dat testtokens toegang verlenen tot uw ALM-gegevens, zodat het van essentieel belang is om deze veilig te verwerken. Deel je testtokens nooit met anderen, gebruik ze in productietoepassingen of neem ze op in openbare codeopslagplaatsen. Behandel ze als wachtwoorden om de beveiliging van je account en data te waarborgen.
 
 1. Meld u aan bij Adobe Learning Manager als integratiebeheerder.
-2. Selecteer **de Middelen van de Ontwikkelaar van 0&rbrace; en dan**&#x200B;[!UICONTROL &#x200B; selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling &#x200B;]&#x200B;**.**
+2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0} en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
 
    ![](assets/select-access-token.png)
 
@@ -392,7 +392,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
 **andere omvatten filters**
 
 <table>
- <tbody>
+  <tbody>
   <tr>
    <td>
     <p style="text-align: left;"><b>Leerprogramma's</b></p></td>
@@ -406,6 +406,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <br> instances.enrollment.loResourceGrades </br><br> enrollment.loInstance.loResources </br> conditionLOs </br><br> auteurs </br><br> instances.loResources.resources </br><br> additionalLOs.instances.loResources.resources </br><br> additionalResources </br><br> instances.badge </br><br> skills.skillLevel.badge </br><br>.skillLevel.skill </br><br> instances.loResources.resources.room </br><br> conditionLOs.enrollment </br><br> enrollment.loResourceGrades </br>
   </td>
   </tr>
+  </table>
 
 #### velden
 

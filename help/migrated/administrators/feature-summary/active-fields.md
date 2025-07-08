@@ -2,17 +2,17 @@
 description: Leer hoe u Active Fields in Adobe Learning Manager kunt gebruiken om aangepaste gebruikersinformatie vast te leggen, te ordenen en te beheren. Verbeter rapportering, het filtreren, en gebruikerssegmentatie met flexibele gebiedsconfiguraties.
 jcr-language: en_us
 title: Actieve velden in Adobe Learning Manager configureren
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 0%
 
 ---
 
-
 # Actieve velden
 
-Actieve velden in Adobe Learning Manager zijn aangepaste gebruikerskenmerken waarmee beheerders gebruikers effectief kunnen ordenen en beheren. Hiermee kunt u extra informatie over de gebruiker vastleggen, zoals de afdeling, locatie of functie. Beheerders kunnen deze data gebruiken om gebruikersgroepen te maken, leerprocessen te personaliseren en rapporten effectiever te filteren.
+Actieve velden in Adobe Learning Manager zijn aangepaste gebruikerskenmerken waarmee beheerders gebruikers effectief kunnen ordenen en beheren. Hiermee kunt u extra informatie over de gebruiker vastleggen, zoals de afdeling, locatie of functie. Beheerders kunnen deze gegevens gebruiken om gebruikersgroepen te maken, leermateriaal te personaliseren en rapporten effectiever te filteren.
 
 Gebruikerskenmerken zijn gegevens zoals de voornaam, achternaam en e-mailadres van een gebruiker. Met deze kenmerken kunnen beheerders:
 
@@ -122,6 +122,4 @@ In sommige gevallen geven beheerders er de voorkeur aan dat studenten bepaalde a
 
 Als een CSV-bestand niet alle actieve velden bevat, moet de beheerder de ontbrekende waarden na het importeren handmatig invoeren.
 
-Standaard moet elk actief veld worden toegewezen aan een overeenkomstig veld in de bron-CSV. Nochtans, als u geen specifiek actief gebied aan om het even welke kolom in CSV wilt in kaart brengen, kunt u de waarde **DontImportFromSource** van de drop-down lijst tijdens de de de invoerprocessen van de Doos en van FTP selecteren. Deze optie is beschikbaar wanneer u gebruikers importeert via FTP- of Box-connectoren. Verwijs naar dit [ artikel ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/connectors) voor meer informatie over de schakelaars.
-
-
+Standaard moet elk actief veld worden toegewezen aan een overeenkomstig veld in de bron-CSV. Nochtans, als u geen specifiek actief gebied aan om het even welke kolom in CSV wilt in kaart brengen, kunt u de waarde **DontImportFromSource** van de drop-down lijst tijdens de de de invoerprocessen van de Doos en van FTP selecteren. Deze optie is beschikbaar wanneer u gebruikers importeert via FTP- of Box-connectoren. Verwijs naar dit [ artikel ](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) voor meer informatie over de schakelaars.

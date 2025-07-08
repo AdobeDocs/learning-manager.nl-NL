@@ -3,9 +3,9 @@ description: Referentiehandleiding voor integratiebeheerders die een bestaand LM
 jcr-language: en_us
 title: Migratiehandleiding
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '3617'
+source-wordcount: '3619'
 ht-degree: 72%
 
 ---
@@ -546,7 +546,7 @@ Hieronder staan de standaard CSV-specificaties die u aan uw bestaande LMS-migrat
 
 ## Migratieproblemen oplossen {#troubleshootingmigrationissues}
 
-[Klik hier](../../kb/troubleshooting-migration.md) voor meer informatie over de tijdelijke oplossingen of oplossingen voor de problemen die integratiebeheerders ondervonden bij het migreren van gegevens en inhoud vanuit hun bestaande LMS naar de Learning Manager-toepassing.
+Verwijs naar dit [ artikel ](../../kb/troubleshooting-migration.md) om over de oplossing/de oplossing aan de problemen te leren die door de Beheerders van de Integratie worden geconfronteerd terwijl het migreren van gegevens en inhoud van hun bestaand LMS aan de toepassing van de Lerende Manager.
 
 ## Tips voor gebruikersbeheer {#usermanagement}
 

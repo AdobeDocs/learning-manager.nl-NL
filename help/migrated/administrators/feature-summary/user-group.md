@@ -2,13 +2,13 @@
 description: Leer hoe u gebruikersgroepen maakt en beheert in Adobe Learning Manager. Ontdek hoe je door gebruikers te groeperen cursussen kunt toewijzen, de voortgang kunt bijhouden en leerworkflows efficiënt kunt automatiseren.
 jcr-language: en_us
 title: Gebruikersgroepen beheren in Adobe Learning Manager | Studenten organiseren en toewijzen
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
-
 
 # Gebruikersgroepen in Adobe Learning Manager
 
@@ -153,7 +153,7 @@ Een gebruikersgroep verwijderen:
    ![](assets/delete-a-group.png)
    _optie van de Schrapping in het menu van Acties om een gebruikersgroep_ te verwijderen
 
-4. Bevestig de verwijdering wanneer hierom wordt gevraagd. De gebruikersgroep wordt uit Adobe Learning Manager verwijderd.
+4. Bevestig de verwijdering wanneer hierom wordt gevraagd. De gebruikersgroep wordt verwijderd.
 
 ## Rapport voor gebruikersgroep downloaden
 
