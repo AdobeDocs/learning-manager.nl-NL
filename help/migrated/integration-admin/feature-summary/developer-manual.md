@@ -137,7 +137,7 @@ Een toegangstoken is zeven dagen geldig. Na zeven dagen moet u een nieuw toegang
 Gebruik het hulpprogramma voor het genereren van Adobe Learning Manager-tokens (ALM) om snel toegangstokens te maken voor test- en ontwikkelingsdoeleinden. Deze tokens zijn uitsluitend bedoeld voor persoonlijk gebruik tijdens ontwikkelings- en foutopsporingsfasen. Houd er rekening mee dat testtokens toegang verlenen tot uw ALM-gegevens, zodat het van essentieel belang is om deze veilig te verwerken. Deel je testtokens nooit met anderen, gebruik ze in productietoepassingen of neem ze op in openbare codeopslagplaatsen. Behandel ze als wachtwoorden om de beveiliging van je account en data te waarborgen.
 
 1. Meld u aan bij Adobe Learning Manager als integratiebeheerder.
-2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0} en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
+2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0&rbrace; en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
 
    ![](assets/select-access-token.png)
 
