@@ -4,9 +4,9 @@ title: Handleiding voor toepassingsontwikkelaars
 description: Leer hoe u toepassingen integreert en aanpast met behulp van RESTful-API's, waarbij u aandacht besteedt aan essentiële onderwerpen zoals OAuth 2.0-verificatie, API-gebruiksscenario's en gegevensmodellen. Verbeter je bedrijfstoepassingen met functies zoals cursuscreatie, voortgangsbewaking van studenten, toewijzing van vaardigheden, certificering, gamification en meer. Deze handleiding bevat stapsgewijze instructies en voorbeelden uit de praktijk om ontwikkelaars te helpen bij het creëren van naadloze en efficiënte workflows. Ideaal voor ontwikkelaars die de mogelijkheden van Adobe Learning Manager willen benutten om studentgerichte toepassingen te maken.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
+source-git-commit: 15a05e801d4a05f99529fa2dd1afe11f97e77568
 workflow-type: tm+mt
-source-wordcount: '4420'
+source-wordcount: '4504'
 ht-degree: 6%
 
 ---
@@ -147,7 +147,7 @@ Dit gereedschap is ideaal tijdens:
 Deze tokens zijn uitsluitend bedoeld voor persoonlijk gebruik tijdens ontwikkelings- en foutopsporingsfasen. Houd er rekening mee dat testtokens toegang verlenen tot uw ALM-gegevens, zodat het van essentieel belang is om deze veilig te verwerken. Deel je testtokens nooit met anderen, gebruik ze in productietoepassingen of neem ze op in openbare codeopslagplaatsen. Behandel ze als wachtwoorden om de beveiliging van je account en data te waarborgen.
 
 1. Meld u aan bij Adobe Learning Manager als integratiebeheerder.
-2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0&rbrace; en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
+2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0} en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
 
    ![](assets/select-access-token.png)
 
@@ -1315,9 +1315,10 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 }'
 ```
 
-### Studenttranscripten genereren
 
-**codes van de Fout**
+### Foutcodes
+
+Wanneer ontwikkelaars met Adobe Learning Manager (ALM)-API&#39;s werken, kunnen ze verschillende HTTP-foutcodes tegenkomen tijdens aanvragen. Deze fouten geven belangrijke feedback over wat er is misgegaan en hoe deze kan worden opgelost. Als u deze codes begrijpt, kunnen ontwikkelaars snel problemen oplossen, de betrouwbaarheid van de API verbeteren en zorgen voor vloeiendere integraties. De volgende tabel bevat een handleiding voor veelvoorkomende HTTP-foutcodes die door de ALM-API&#39;s worden geretourneerd, samen met uitleg en typische scenario&#39;s waarin deze plaatsvinden. Deze sectie is essentieel voor iedereen die, toepassingen bouwt test, of zuivert die met ALM verbinden.
 
 | HTTP-status | Betekenis | Problemen oplossen |
 |---|---|---|
