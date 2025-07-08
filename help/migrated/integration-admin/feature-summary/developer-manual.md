@@ -4,9 +4,9 @@ title: Handleiding voor toepassingsontwikkelaars
 description: Leer hoe u toepassingen integreert en aanpast met behulp van RESTful-API's, waarbij u aandacht besteedt aan essentiële onderwerpen zoals OAuth 2.0-verificatie, API-gebruiksscenario's en gegevensmodellen. Verbeter je bedrijfstoepassingen met functies zoals cursuscreatie, voortgangsbewaking van studenten, toewijzing van vaardigheden, certificering, gamification en meer. Deze handleiding bevat stapsgewijze instructies en voorbeelden uit de praktijk om ontwikkelaars te helpen bij het creëren van naadloze en efficiënte workflows. Ideaal voor ontwikkelaars die de mogelijkheden van Adobe Learning Manager willen benutten om studentgerichte toepassingen te maken.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: adba903c3edddbc9ce11481e75b1e03ffe4da956
+source-git-commit: 334fb7dcc73e21679d3f95d36456da4e33226773
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4520'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ Integreer Adobe Learning Manager met externe toepassingen voor verbeterde veelzi
 
 ## Een toegangstoken verkrijgen
 
-### Autorisatiecode ophalen uit omleiding
+### Verkrijg de machtigingscode
 
 Nadat u de client-id en het clientgeheim hebt opgehaald, kunt u deze gebruiken om een toegangstoken aan te vragen. Zo kunt u API-aanroepen verifiëren.
 
@@ -147,7 +147,7 @@ Dit gereedschap is ideaal tijdens:
 Deze tokens zijn uitsluitend bedoeld voor persoonlijk gebruik tijdens ontwikkelings- en foutopsporingsfasen. Houd er rekening mee dat testtokens toegang geven tot je Adobe Learning Manager-data, dus het is essentieel om ze veilig te verwerken. Deel je testtokens nooit met anderen, gebruik ze in productietoepassingen of neem ze op in openbare codeopslagplaatsen. Behandel ze als wachtwoorden om de beveiliging van je account en data te waarborgen.
 
 1. Meld u aan bij Adobe Learning Manager als integratiebeheerder.
-2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0&rbrace; en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
+2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0} en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
 
    ![](assets/select-access-token.png)
 
@@ -523,8 +523,8 @@ Met de Adobe Learning Manager API&#39;s hebben ontwikkelaars toegang tot leerman
 |----|----|
 | account | Omvat de gegevens van een leermanklant. |
 | badge | Een badge is een vorm van prestatiebeloning die studenten krijgen wanneer ze specifieke mijlpalen bereiken terwijl ze binnen een cursus verdergaan. |
-| catalog | Catalogus is een verzameling leerobjecten. |
-| gebruikersinterface | Gebruiker is het belangrijkste model in Learning Manager. Gebruikers zijn meestal de interne of externe studenten van een organisatie die leerobjecten gebruiken. Zij kunnen echter naast de rol van de student een andere rol op zich nemen, zoals auteur en manager. Gebruikers-ID, -type en -e-mail zijn enkele van de inline attributen. |
+| catalog | Catalog is een verzameling leerobjecten. |
+| gebruikersinterface | Gebruiker is het belangrijkste model in Learning Manager. Gebruikers zijn doorgaans de interne of externe studenten van een organisatie die leerobjecten gebruiken. Zij kunnen echter naast de rol van de student een andere rol op zich nemen, zoals auteur en manager. Gebruikers-ID, -type en -e-mail zijn enkele van de inline attributen. |
 | resource | Dit vertegenwoordigt elke inhoudsbron binnen een module. Alle bronnen die zijn ingekapseld in een &quot;loResource&quot; zijn equivalent in termen van het leerdoel, maar ze verschillen van elkaar in termen van leveringstype of landinstelling van inhoud. |
 | userNotification | Dit model bevat kennisgevingsinformatie over een student. |
 | userSkill | UserSkill geeft aan hoeveel van één vaardigheidsniveau door één gebruiker wordt bereikt. |
@@ -562,7 +562,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/users/<userID>
 
 ### Alle cursussen, leerprogramma&#39;s, taakhulpen en certificeringen weergeven
 
-Haal de gegevens op van alle leerobjecten waarvoor de student is ingeschreven, is voltooid of door de beheerder is ingeschakeld.
+Haal de gegevens op van alle leerobjecten waarin de student is ingeschreven, is voltooid of door de beheerder is ingeschakeld.
 
 ```
 GET https://learningmanager.adobe.com/primeapi/v2/learningObjects
@@ -1535,7 +1535,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>user</p></td>
    <td>
-    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
+    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
   </tr>
   <tr>
    <td>
@@ -1543,7 +1543,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>course</p></td>
    <td>
-    <p>Course is one of the learning objects supported in Learning Manager, that consists of one or more modules. </p></td>
+    <p>Course is one of the Learning Objects supported in Learning Manager, that consists of one or more modules. </p></td>
   </tr>
   <tr>
    <td>
@@ -1551,7 +1551,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>module</p></td>
    <td>
-    <p>Module is a building block to create learning objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
+    <p>Module is a building block to create Learning Objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
   </tr>
   <tr>
    <td>
@@ -1718,13 +1718,13 @@ Following are the various elements of the Learning Manager class diagram in V2 A
    <td><code>
      catalog
     </code></td>
-   <td>Catalog is a collection of learning objects.</td>
+   <td>Catalog is a collection of Learning Objects.</td>
   </tr>
   <tr>
    <td><code>
      user
     </code></td>
-   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
+   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
   </tr>
   <tr>
    <td>resource</td>
