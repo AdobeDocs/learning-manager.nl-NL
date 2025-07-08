@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Gebruikers toevoegen in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 6997eed011b0d133842473028826113b98322e87
+source-git-commit: 60c171374e4a6b15d92907ae441fc63ba6ee4743
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 1%
@@ -75,7 +75,7 @@ U kunt als volgt een zelfregistratie-URL voor een gebruiker maken:
    ![](assets/add-self-register-link.png)
    _menu Dropdown voor het selecteren van de zelfregistratieoptie_
 4. Op **voeg automatisch-Registratieprofiel** herinnering toe, typ het profiel in het **Naam van het Profiel** (de titel van de Taak van de gebruiker) gebied.
-5. Selecteer de manager van de gebruiker door naar de manager in het **gebied van de Naam van de 0&rbrace; manager te zoeken.** De manager die aan het zelfregistratieprofiel wordt toegewezen, moet een geregistreerde gebruiker in Adobe Learning Manager zijn.
+5. Selecteer de manager van de gebruiker door naar de manager in het **gebied van de Naam van de 0} manager te zoeken.** De manager die aan het zelfregistratieprofiel wordt toegewezen, moet een geregistreerde gebruiker in Adobe Learning Manager zijn.
 
 
    ![](assets/add-a-user-prompt.png)
@@ -218,7 +218,7 @@ Er wordt een registratie-URL gegenereerd.
 Het externe profiel inschakelen:
 
 1. Zoek het nieuwe profiel in de lijst met externe profielen.
-2. Selecteer de **1&rbrace; knevelknoop van de Status &lbrace;om het toe te laten.**
+2. Selecteer de **1} knevelknoop van de Status {om het toe te laten.**
 
 De beheerder kan deze URL delen met de externe partner, zodat deze zich kan aanmelden en zich kan aanmelden bij Adobe Learning Manager.
 
@@ -239,7 +239,7 @@ Er zijn een paar verschillen tussen interne en externe registraties:
 | Interne gebruikers | Externe gebruikers |
 |---|---|
 | Aanmelden met Adobe ID- of SSO-referenties. | Kan zich aanmelden met een e-mail-ID. |
-| Gamification is beschikbaar | Gamification is beschikbaar. De beheerder moet gamification voor externe studenten in de [ montages van de Gamification ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/gamification) toelaten. |
+| Gamification is beschikbaar | Gamification is beschikbaar. De beheerder moet gamification voor externe studenten in de [ montages van de Gamification ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) toelaten. |
 
 ### Extern registratieprofiel pauzeren
 
@@ -341,3 +341,4 @@ Rollen verwijderen uit gebruikers:
    _Optie om toegewezen rollen uit een gebruiker onder het menu van Acties te verwijderen_
 
 4. Selecteer **Ja** op de bevestigingsdialoog.
+
