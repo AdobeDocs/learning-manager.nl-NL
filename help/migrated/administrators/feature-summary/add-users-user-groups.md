@@ -83,7 +83,7 @@ U kunt als volgt een zelfregistratie-URL voor een gebruiker maken:
    ![](assets/add-self-register-link.png)
    _menu Dropdown voor het selecteren van de zelfregistratieoptie_
 4. Op **voeg automatisch-Registratieprofiel** herinnering toe, typ het profiel in het **Naam van het Profiel** (de titel van de Taak van de gebruiker) gebied.
-5. Selecteer de manager van de gebruiker door naar de manager in het **gebied van de Naam van de 0} manager te zoeken.** De manager die aan het zelfregistratieprofiel wordt toegewezen, moet een geregistreerde gebruiker in Adobe Learning Manager zijn.
+5. Selecteer de manager van de gebruiker door naar de manager in het **gebied van de Naam van de 0&rbrace; manager te zoeken.** De manager die aan het zelfregistratieprofiel wordt toegewezen, moet een geregistreerde gebruiker in Adobe Learning Manager zijn.
 
 
    ![](assets/add-a-user-prompt.png)
@@ -227,7 +227,7 @@ Het externe profiel inschakelen:
 
 1. Zoek het nieuwe profiel in de lijst met externe profielen.
 
-2. Selecteer de **1} knevelknoop van de Status {om het toe te laten.**
+2. Selecteer de **1&rbrace; knevelknoop van de Status &lbrace;om het toe te laten.**
 
 De beheerder kan deze URL delen met de externe partner, zodat deze zich kan aanmelden en zich kan aanmelden bij Adobe Learning Manager.
 

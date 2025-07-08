@@ -232,7 +232,7 @@ Verwijs [ eigenschap van de Gamification ](/help/migrated/administrators/feature
 Volg onderstaande stappen om rapporten te maken:
 
 1. Klik op Rapporten in het linkerdeelvenster. De pagina Rapportoverzicht wordt geopend.
-1. Voor de pagina van Rapporten, voegt de klik **** bij de hoger-juiste hoek toe.
+1. Voor de pagina van Rapporten, voegt de klik **&#x200B;**&#x200B;bij de hoger-juiste hoek toe.
 
    **[!UICONTROL voeg de dialoog van het Rapport]** toe verschijnt.
 
@@ -316,7 +316,7 @@ Nadat de competentie is opgeslagen, kunt u de niveaus van de competentie niet me
 
 1. Voer uw contactgegevens in, kies het type creditcard, geef uw creditcardgegevens op en klik op Bestelling voltooien.
 
-Verwijs [ eigenschap van het 0} Factureringsbeheer voor meer informatie.](/help/migrated/administrators/feature-summary/billing-management.md)
+Verwijs [ eigenschap van het 0&rbrace; Factureringsbeheer voor meer informatie.](/help/migrated/administrators/feature-summary/billing-management.md)
 
 +++
 
