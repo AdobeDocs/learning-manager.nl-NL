@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Gebruikers toevoegen in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 6997eed011b0d133842473028826113b98322e87
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2216'
 ht-degree: 1%
 
 ---
@@ -28,14 +28,6 @@ Interne gebruikers in Adobe Learning Manager verwijzen naar werknemers of teamle
 
 Gebruikers in Adobe Learning Manager kunnen verschillende verantwoordelijkheden op zich nemen en verschillende taken beheren op basis van hun toegewezen rollen. Elke rol, inclusief beheerder, auteur, docent en integratiebeheerder, biedt een reeks specifieke mogelijkheden die zijn afgestemd op de ondersteuning van de verantwoordelijkheden van de gebruiker binnen het platform.
 
-Adobe Learning Manager ondersteunt de volgende gebruikersrollen:
-
-* **Beheerder**: beheert gebruikers en gebruikersgroepen, wijst rollen toe, en vormt systeem-brede voorkeur zoals gegevensbronnen, toegestane domeinen, en vertoningsopties. Beheerders zijn ook verantwoordelijk voor het maken en ordenen van leerinhoud, het volgen van de voortgang van studenten, het genereren van rapporten en het instellen van integraties met externe systemen.
-* **Auteur**: Creeert en beheert inhoud, met inbegrip van modules en cursussen.
-* **Manager**: Beheert team het leren activiteiten, benoemt teamleden voor cursussen, keurt verzoeken goed, en verstrekt terugkoppelen.
-* **Admin van de Integratie**: Beheert systeemintegraties en gegevensverbindingen tussen ALM en externe platforms.
-* **de rollen van de Douane**: De beheerders kunnen douanerollen tot stand brengen om gebruikers te geven die toegang op hun verantwoordelijkheden wordt gebaseerd. Raadpleeg dit artikel voor meer informatie over de aangepaste rollen.
-
 ### Methoden om interne gebruikers toe te voegen
 
 Beheerders kunnen op de volgende manieren interne gebruikers toevoegen:
@@ -46,7 +38,7 @@ Beheerders kunnen op de volgende manieren interne gebruikers toevoegen:
 
 ### Handmatig een interne gebruiker toevoegen
 
-Beheerders kunnen handmatig individuele gebruikers toevoegen door hun naam, e-mail-ID, unieke ID en de naam van de manager in te voeren. De unieke id in Adobe Learning Manager is een vereiste id die beheerders toewijzen bij het maken van een gebruiker. Deze moet uniek zijn voor elke gebruiker en als een consistente referentie in het hele systeem fungeren.
+Beheerders kunnen handmatig een gebruiker toevoegen door hun naam, e-mail, unieke id en de naam van de manager op te geven. De unieke id in Adobe Learning Manager is een vereiste id die beheerders toewijzen bij het maken van een gebruiker. Deze moet uniek zijn voor elke gebruiker en als een consistente referentie in het hele systeem fungeren.
 
 >[!INFO]
 >
@@ -55,8 +47,8 @@ Beheerders kunnen handmatig individuele gebruikers toevoegen door hun naam, e-ma
 Eén gebruiker toevoegen aan Adobe Learning Manager:
 
 1. Meld u aan als beheerder.
-2. Selecteer **Gebruikers** en selecteer dan **Intern**.
-3. Selecteer **voeg** toe en selecteer dan **Enige Gebruiker**.
+2. Selecteer **Gebruikers**, dan kies **Intern**.
+3. Selecteer **voeg** toe, dan kies **Enige Gebruiker**.
 
    ![](assets/add-single-user.png)
    _interface die van de Beheerder de optie toont om één enkele interne gebruiker manueel toe te voegen_
@@ -76,14 +68,14 @@ Zelfregistratie is een zelfserviceonboardingproces waarbij gebruikers een regist
 U kunt als volgt een zelfregistratie-URL voor een gebruiker maken:
 
 1. Meld u aan als beheerder.
-2. Selecteer **Gebruikers** en selecteer dan **Intern**.
-3. Selecteer **voeg** in de hoger-juiste hoek toe en selecteer dan **Zelfregistratie.**
+2. Selecteer **Gebruikers**, dan kies **Intern**.
+3. Selecteer **voeg** toe, dan kies **Zelfregistratie.**
 
 
    ![](assets/add-self-register-link.png)
    _menu Dropdown voor het selecteren van de zelfregistratieoptie_
 4. Op **voeg automatisch-Registratieprofiel** herinnering toe, typ het profiel in het **Naam van het Profiel** (de titel van de Taak van de gebruiker) gebied.
-5. Selecteer de manager van de gebruiker door naar de manager in het **gebied van de Naam van de 0&rbrace; manager te zoeken.** De manager die aan het zelfregistratieprofiel wordt toegewezen, moet een geregistreerde gebruiker in Adobe Learning Manager zijn.
+5. Selecteer de manager van de gebruiker door naar de manager in het **gebied van de Naam van de 0} manager te zoeken.** De manager die aan het zelfregistratieprofiel wordt toegewezen, moet een geregistreerde gebruiker in Adobe Learning Manager zijn.
 
 
    ![](assets/add-a-user-prompt.png)
@@ -108,7 +100,7 @@ _Zelf-registratie verbinding opent een sign-up pagina_
 
 De lijst met zelfregistratie-URL&#39;s weergeven:
 
-1. Selecteer **Gebruikers** en selecteer dan **Intern**.
+1. Selecteer **Gebruikers**, dan kies **Intern**.
 2. Selecteer **Zelfregistratie**.
 
    Beheerders kunnen de lijst met zelfregistratie-URL&#39;s zien.
@@ -118,7 +110,7 @@ _mening die van de Lijst bestaande zelf-registratie URLs tonen beschikbaar voor 
 
 ### Interne gebruikers in bulk uploaden
 
-Met Adobe Learning Manager kunnen beheerders meerdere gebruikers tegelijk toevoegen door een CSV met de gebruikersgegevens te uploaden, zoals de naam, e-mail-ID en de naam van de manager. Deze bulkuploadfunctie bespaart tijd en moeite in vergelijking met het afzonderlijk toevoegen van gebruikers.
+Beheerders kunnen meerdere gebruikers tegelijk toevoegen door een CSV-bestand met gebruikersgegevens zoals naam, e-mailadres en naam van de manager te uploaden. Deze bulkuploadfunctie bespaart tijd en moeite in vergelijking met het afzonderlijk toevoegen van gebruikers.
 
 >[!INFO]
 >
@@ -127,8 +119,8 @@ Met Adobe Learning Manager kunnen beheerders meerdere gebruikers tegelijk toevoe
 Meerdere gebruikers toevoegen:
 
 1. Meld u aan als beheerder.
-2. Selecteer **Gebruikers** en selecteer dan **Intern**.
-3. Selecteer **voeg** in de hoger-juiste hoek toe en selecteer **upload een CSV**.
+2. Selecteer **Gebruikers**, dan kies **Intern**.
+3. Selecteer **voeg** toe, dan kies **upload een CSV**.
 
    ![](assets/select-upload-acsv.png)
    _Optie om een Csv- dossier voor bulkgebruikersimport_ te uploaden
@@ -171,7 +163,7 @@ De gebruikers registreren:
 
 1. Selecteer **Gebruikers** op de beheerderhomepage.
 2. Schakel de selectievakjes in naast de namen van de gebruikers die u wilt registreren.
-3. Selecteer **Acties** en selecteer dan **Register**.
+3. Selecteer **Acties**, dan kies **Register**.
 
    ![](assets/register-user.png)
    _knoop van het Register om geselecteerde gebruikers in Adobe Learning Manager te activeren_
@@ -196,17 +188,17 @@ Adobe Learning Manager ondersteunt de inschrijving van dergelijke gebruikers via
 Ga als volgt te werk om een externe gebruiker te maken:
 
 1. Meld u aan als beheerder.
-2. Selecteer **Gebruikers** en selecteer dan **Extern**.
-3. In de hoger-juiste hoek, voeg **toe** om een registratie voor een externe gebruiker tot stand te brengen.
+2. Selecteer **Gebruikers**, dan kies **Extern**.
+3. Selecteer **voeg** toe om een registratie voor een externe gebruiker tot stand te brengen.
 4. In de **Add Externe dialoog van het Profiel van de Registratie**, verstrek het volgende:
 
-   * **Naam van het Profiel:** Type de naam van de partnerorganisatie die tot Adobe Learning Manager wil toegang hebben
+   * **Naam van het Profiel:** Type de naam.
    * **Manager E-mail:** Type het e-mailadres van de manager.
    * **Plaatsgrens:** plaats het maximum toegestane aantal inschrijvingen.
    * **Verval:** bepaal de laatste datum voor nieuwe registraties. Nadat de koppeling is verlopen, werkt deze niet meer voor nieuwe gebruikersregistratie.
 
    ![](assets/add-external-user-prompt.png)
-   _de doos van de Dialoog voor het ingaan van profielnaam, manager e-mail, zetelgrens, en afloop_
+   _de doos van de Dialoog voor het ingaan van profielnaam, e-mail van de manager, zetelgrens, en afloop_
 
 5. Selecteer een beeld gebruikend **voeg de optie van het Beeld** toe. Deze afbeelding is zichtbaar voor de studenten in de profielsectie.
 6. Selecteer de **Geavanceerde sectie van Montages** om het uit te breiden en de vereiste details te typen:
@@ -226,8 +218,7 @@ Er wordt een registratie-URL gegenereerd.
 Het externe profiel inschakelen:
 
 1. Zoek het nieuwe profiel in de lijst met externe profielen.
-
-2. Selecteer de **1&rbrace; knevelknoop van de Status &lbrace;om het toe te laten.**
+2. Selecteer de **1} knevelknoop van de Status {om het toe te laten.**
 
 De beheerder kan deze URL delen met de externe partner, zodat deze zich kan aanmelden en zich kan aanmelden bij Adobe Learning Manager.
 
@@ -248,7 +239,7 @@ Er zijn een paar verschillen tussen interne en externe registraties:
 | Interne gebruikers | Externe gebruikers |
 |---|---|
 | Aanmelden met Adobe ID- of SSO-referenties. | Kan zich aanmelden met een e-mail-ID. |
-| Gamification is beschikbaar | Gamification is beschikbaar. De beheerder moet gamification voor externe studenten in de [ montages van de Gamification ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/gamification) toelaten. |
+| Gamification is beschikbaar | Gamification is beschikbaar. De beheerder moet gamification voor externe studenten in de [ montages van de Gamification ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) toelaten. |
 
 ### Extern registratieprofiel pauzeren
 
@@ -259,7 +250,7 @@ Een extern profiel pauzeren:
 1. Selecteer **Acties** in de hoger-juiste hoek van de **Externe Gebruikers** pagina.
 2. Selecteer **Pauzeren** om het externe registratieprofiel te pauzeren.
 
-Hierdoor wordt het registratieproces geblokkeerd voor gebruikers die hun uitnodigingen nog niet hebben geaccepteerd. Deze handeling is alleen van toepassing op gebruikers die hun registratie nog niet hebben voltooid.
+Hierdoor worden nieuwe registraties geblokkeerd voor gebruikers die hun uitnodigingen niet hebben geaccepteerd. Deze handeling is alleen van toepassing op gebruikers die hun registratie nog niet hebben voltooid.
 
 ![](assets/pause-external-user.png)
 _Optie om een bestaand extern registratieprofiel van het menu van Acties te pauzeren_
@@ -314,6 +305,14 @@ Er verschijnt een bevestigingsbericht wanneer de gebruiker is verwijderd.
 ## Een gebruiker een rol toewijzen
 
 Gebruikersrollen in Adobe Learning Manager bepalen welke handelingen elke persoon in het systeem kan uitvoeren. Elke rol heeft specifieke machtigingen die zijn gebaseerd op de verantwoordelijkheden van de gebruiker.
+
+Adobe Learning Manager ondersteunt de volgende gebruikersrollen:
+
+* **Beheerder**: beheert gebruikers en gebruikersgroepen, wijst rollen toe, en vormt systeem-brede voorkeur zoals gegevensbronnen, toegestane domeinen, en vertoningsopties. Beheerders zijn ook verantwoordelijk voor het maken en ordenen van leerinhoud, het volgen van de voortgang van studenten, het genereren van rapporten en het instellen van integraties met externe systemen.
+* **Auteur**: Creeert en beheert inhoud, met inbegrip van modules en cursussen.
+* **Manager**: Beheert team het leren activiteiten, benoemt teamleden voor cursussen, keurt verzoeken goed, en verstrekt terugkoppelen.
+* **Beheerder van de Integratie**: Beheert systeemintegraties en gegevensverbindingen tussen ALM en externe platforms.
+* **de rollen van de Douane**: De beheerders kunnen douanerollen tot stand brengen om gebruikers te geven die toegang op hun verantwoordelijkheden wordt gebaseerd. Verwijs naar dit [ artikel ](/help/migrated/administrators/feature-summary/custom-role.md) voor meer informatie over de douanerollen.
 
 Rollen toewijzen aan gebruikers:
 
