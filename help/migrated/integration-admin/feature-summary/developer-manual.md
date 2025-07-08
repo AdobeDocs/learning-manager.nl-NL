@@ -4,9 +4,9 @@ title: Handleiding voor toepassingsontwikkelaars
 description: Leer hoe u toepassingen integreert en aanpast met behulp van RESTful-API's, waarbij u aandacht besteedt aan essentiële onderwerpen zoals OAuth 2.0-verificatie, API-gebruiksscenario's en gegevensmodellen. Verbeter je bedrijfstoepassingen met functies zoals cursuscreatie, voortgangsbewaking van studenten, toewijzing van vaardigheden, certificering, gamification en meer. Deze handleiding bevat stapsgewijze instructies en voorbeelden uit de praktijk om ontwikkelaars te helpen bij het creëren van naadloze en efficiënte workflows. Ideaal voor ontwikkelaars die de mogelijkheden van Adobe Learning Manager willen benutten om studentgerichte toepassingen te maken.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
+source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
 workflow-type: tm+mt
-source-wordcount: '4396'
+source-wordcount: '4420'
 ht-degree: 6%
 
 ---
@@ -31,7 +31,7 @@ Deze handleiding behandelt het volgende:
 
 ## API-gebruiksscenario&#39;s
 
-Ontwikkelaars kunnen API&#39;s van Learning Manager gebruiken om de Learning Manager te verbeteren of te integreren met andere bedrijfstoepassingen. U kunt web-, desktop- of mobiele apps maken met elke technologie. Ontwikkelaars hebben toegang tot toepassingsgegevens binnen Learning Manager, maar de implementatie is extern en volledig door u beheerd. Apps worden doorgaans ontwikkeld door klantorganisaties voor hun eigen accounts, terwijl Adobe partners algemene toepassingen kunnen maken voor breder gebruik.
+Ontwikkelaars kunnen API&#39;s van Learning Manager gebruiken om de Learning Manager te verbeteren of te integreren met andere bedrijfstoepassingen. U kunt web-, desktop- of mobiele apps maken met elke technologie. Ontwikkelaars hebben toegang tot Leerbeheergegevens, maar u bepaalt waar en hoe de app wordt gebruikt.
 
 ## Verificatie met OAuth 2.0
 
@@ -79,7 +79,7 @@ Integreer Adobe Learning Manager met externe toepassingen voor verbeterde veelzi
 
 Nadat u de client-id en het clientgeheim hebt opgehaald, kunt u deze gebruiken om een toegangstoken aan te vragen. Zo kunt u API-aanroepen verifiëren.
 
-Als u wilt beginnen met het doorvoeren van de machtigingscode, stuurt u uw gebruikers naar de volgende URL in een browser:
+Als u wilt beginnen met de stroom van de machtigingscode, voegt u de volgende URL toe in een browser:
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE 
@@ -134,10 +134,20 @@ Een toegangstoken is zeven dagen geldig. Na zeven dagen moet u een nieuw toegang
 
 ### Toegangstokens verkrijgen voor testen en ontwikkelen
 
-Gebruik het hulpprogramma voor het genereren van Adobe Learning Manager-tokens (ALM) om snel toegangstokens te maken voor test- en ontwikkelingsdoeleinden. Deze tokens zijn uitsluitend bedoeld voor persoonlijk gebruik tijdens ontwikkelings- en foutopsporingsfasen. Houd er rekening mee dat testtokens toegang verlenen tot uw ALM-gegevens, zodat het van essentieel belang is om deze veilig te verwerken. Deel je testtokens nooit met anderen, gebruik ze in productietoepassingen of neem ze op in openbare codeopslagplaatsen. Behandel ze als wachtwoorden om de beveiliging van je account en data te waarborgen.
+Als ontwikkelaars werken met Adobe Learning Manager (ALM)-API&#39;s, hebben ze een geldig OAuth 2.0-toegangstoken nodig om API-verzoeken te verifiëren. Het genereren van dit token via de standaard OAuth-flow kan complex en tijdrovend zijn, met name voor snel testen, leren of ontwikkelen. Adobe Learning Manager biedt een hulpprogramma voor het genereren van tokens om dit proces te vereenvoudigen.
+
+Dit gereedschap is ideaal tijdens:
+
+* Concepttest (POC)
+
+* Ontwikkeling in een vroeg stadium
+
+* Problemen met API-integratie oplossen
+
+Deze tokens zijn uitsluitend bedoeld voor persoonlijk gebruik tijdens ontwikkelings- en foutopsporingsfasen. Houd er rekening mee dat testtokens toegang verlenen tot uw ALM-gegevens, zodat het van essentieel belang is om deze veilig te verwerken. Deel je testtokens nooit met anderen, gebruik ze in productietoepassingen of neem ze op in openbare codeopslagplaatsen. Behandel ze als wachtwoorden om de beveiliging van je account en data te waarborgen.
 
 1. Meld u aan bij Adobe Learning Manager als integratiebeheerder.
-2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0&rbrace; en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
+2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0} en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
 
    ![](assets/select-access-token.png)
 
