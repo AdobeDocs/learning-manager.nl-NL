@@ -147,7 +147,7 @@ Dit gereedschap is ideaal tijdens:
 Deze tokens zijn uitsluitend bedoeld voor persoonlijk gebruik tijdens ontwikkelings- en foutopsporingsfasen. Houd er rekening mee dat testtokens toegang geven tot je Adobe Learning Manager-data, dus het is essentieel om ze veilig te verwerken. Deel je testtokens nooit met anderen, gebruik ze in productietoepassingen of neem ze op in openbare codeopslagplaatsen. Behandel ze als wachtwoorden om de beveiliging van je account en data te waarborgen.
 
 1. Meld u aan bij Adobe Learning Manager als integratiebeheerder.
-2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0} en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
+2. Selecteer **[!UICONTROL de Middelen van de Ontwikkelaar van 0&rbrace; en dan]** selecteer de Tokens van de Toegang voor het Testen en Ontwikkeling **[!UICONTROL .]**
 
    ![](assets/select-access-token.png)
 
