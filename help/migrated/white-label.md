@@ -278,7 +278,7 @@ Raadpleeg de volgende koppelingen voor meer informatie:
 
 Uw team-id ophalen:
 
-1. Login aan uw **[!UICONTROL rekening van de Ontwikkelaar van 0} Apple.]**
+1. Login aan uw **[!UICONTROL rekening van de Ontwikkelaar van 0&rbrace; Apple.]**
 2. Selecteer **[!UICONTROL Details van het Lidmaatschap]** bij de bovenkant van de pagina en kopieer uw identiteitskaart van het Team
 
 Deze id is vereist om het witte item voor een app in de metagegevensbestanden toe te voegen om deep linking mogelijk te maken.
