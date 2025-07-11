@@ -4,9 +4,9 @@ title: Witte labels in de mobiele app van Adobe learning Manager
 description: Wit labelen is een praktijk waarbij u een app of service opnieuw brandt met uw eigen merk en deze aanpast alsof u de oorspronkelijke maker bent. In Adobe Learning Manager kunt u witte labels toepassen op de mobiele app, zodat u de app een nieuw merk kunt geven en de app onder uw eigen merk beschikbaar kunt maken voor uw gebruikers.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 0c97b147a1e4c6e1a4a0cc69f56f8e9420c4602b
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -46,109 +46,213 @@ U kunt het volgende aanpassen:
 ### Velden
 
 <table>
+
  <tbody>
+
   <tr>
+
    <td>
+
     <p>Account-id</p>
+
    </td>
+
    <td>
+
     <p>De id van uw account. Let op: de witte gelabelde app is niet toegankelijk voor studenten die tot een ander account behoren.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Aanvullende account-id's</p>
+
    </td>
+
    <td>
+
     <p>Voeg desgewenst meerdere accounts (subdomeinen) toe. Voeg de subdomeinen toe als komma's gescheiden zonder spaties. Bijvoorbeeld acc01,acc02,acc03 enzovoort.<br> <b> Nota:</b> u moet accountidentiteitskaart toevoegen wanneer het specificeren van sub-domeinen.</br> </p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Toepassingsnaam</p></td>
+
    <td>
+
     <p>De naam die u voor de app wilt gebruiken.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Korte naam app</p>
+
    </td>
+
    <td>
+
     <p>Als de naam van de app lang is, geeft u de app een korte naam die op het apparaat wordt weergegeven.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Interne toepassingsnaam</p></td>
+
    <td>
+
     <p>De naam waarmee het besturingssysteem de app identificeert. Meestal wordt de volgende indeling gebruikt: com.company-name.product-name.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Interne toepassingsnaam-iOS</p>
+
    </td>
+
    <td>
+
     <p>Geef de app een andere naam als uw gebruikers zich op iOS bevinden. We raden u aan dezelfde naam te gebruiken voor zowel iOS als Android.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>App-pictogram</p>
+
    </td>
+
    <td>
+
     <p>Het app-pictogram als png. Dit pictogram wordt weergegeven in uw app. De naamnotatie is account-id_appIcon.png. De afmetingen van het app-pictogram zijn 512 x 512 pixels.<div>Houd er rekening mee dat Apple Alpha in app-pictogrammen niet toestaat. Verwijder dus het kanaal van de Alpha uit het element voordat u het verzendt.</div></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>App-welkomstscherm</p></td>
+
    <td>
+
     <p>Geef voor het welkomstscherm van uw app een afbeelding (png) op die wordt weergegeven wanneer uw gebruikers de app starten. De naamnotatie is account-id_splashIcon.png. De afmetingen van de op vierkant gebaseerde welkomstschermen zijn 1052 × 1052 pixels en de cirkelvormige welkomstschermen zijn 768 x 768 pixels.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Client-id en clientgeheim</p>
+
    </td>
+
    <td>
+
     <p>De integratiebeheerder van uw account geeft de gegevens op tijdens de registratie van de app. De integratiebeheerder moet het volgende gebruiken:<ul><li>student:lezen,student:schrijven als rol</li><li>interne app name://redirect als redirect URL</li></ul></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Accountlogo</p>
+
    </td>
+
    <td>
+
     <p>De URL die het logo van uw organisatie host. Geef een link naar inhoud op als het accountlogo. De URL moet via webcodering worden gecodeerd.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>App Store-id voor de app (iOS)</p>
+
    </td>
+
    <td>
+
     <p>De id die is vereist voor het implementeren van de geforceerde update. De app moet weten dat de student moet worden omgeleid naar de App Store om de app bij te werken.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Google Play Store-id voor de app (Android)</p>
+
    </td>
+
    <td>
+
     <p>De id die is vereist voor het implementeren van de geforceerde update.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Hostnaam voor deep linking</p>
+
    </td>
+
    <td>
+
     <p>Gebruik Learningmanager om uw diepe koppelingen te hosten. Geef de URL van de host op als u een andere hostnaam-URL wilt gebruiken als een diepe koppeling. Bijvoorbeeld learningmanager.adobe.com.</p>
+
    </td>
+
   </tr>
+
  </tbody>
+
 </table>
 
 >[!NOTE]
@@ -156,19 +260,42 @@ U kunt het volgende aanpassen:
 >Geef de gegevens op aan uw CSAM&#39;s, zodat ze deze kunnen toevoegen aan uw aangepaste binaire toepassingscode.
 
 
-#### Koppeling naar sites bijwerken om aangepaste diepte te verwerken
+#### Werk de sitekoppeling bij om aangepaste diepe koppelingen te verwerken
 
 Als u een aangepast domein of leermanager als host gebruikt, hoeft u geen actie te ondernemen. Als u echter een aangepaste oplossing of een specifieke hostnaam voor de URL&#39;s gebruikt, voegt u de sitegekoppelde bestanden toe.
 
 >[!CAUTION]
 >
->Als de bestanden niet aanwezig zijn, werken de vervormingen niet. Zorg ervoor dat de bestanden aanwezig zijn.
+>Als de bestanden niet aanwezig zijn, werken de diepe koppelingen niet. Zorg ervoor dat de bestanden aanwezig zijn.
 
 
 Raadpleeg de volgende koppelingen voor meer informatie:
 
 * [ Android ](https://learningmanager.adobe.com/.well-known/assetlinks.json)
 * [ iOS ](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+
+## Uw team-id ophalen voor de App Store
+
+Uw team-id ophalen:
+
+1. Login aan uw **[!UICONTROL rekening van de Ontwikkelaar van 0} Apple.]**
+2. Selecteer **[!UICONTROL Details van het Lidmaatschap]** bij de bovenkant van de pagina en kopieer uw identiteitskaart van het Team
+
+Deze id is vereist om het witte item voor een app in de metagegevensbestanden toe te voegen om deep linking mogelijk te maken.
+
+## Download de SHA-256-vingerafdruk voor Android
+
+De SHA-256-vingerafdruk voor het Android-ondertekeningscertificaat is vereist wanneer u het witte item voor de app toevoegt.
+
+SHA-256-vingerafdruk genereren:
+
+1. Voer de volgende opdracht uit:
+
+```
+keytool -list -v -keystore <keystore/jks file> -alias <aliaskey> -storepass <storepassword> -keypass <keypassword>
+```
+
+Zoek in de uitvoer naar vingerafdrukken van het certificaat en kopieer vervolgens de SHA-256-waarde. Deel deze vingerafdruk wanneer dat nodig is voor uw configuratie voor diepe koppelingen.
 
 ## Pushmeldingen genereren
 
