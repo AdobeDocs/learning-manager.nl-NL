@@ -4,10 +4,10 @@ title: Leerpaden
 description: Leerplannen maken voor beheerders in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 35%
+source-wordcount: '1430'
+ht-degree: 32%
 
 ---
 
@@ -139,13 +139,17 @@ Het **[!UICONTROL laat Studenten toe om instanties (Flexible het Leren Weg) te k
 
 *het Leren instanties van de Weg*
 
+Studenten kunnen zich voor een cursus inschrijven via een leerplan of door een beheerder, zelfs als de cursus flexibel is en de student een sessie moet selecteren. In deze gevallen kunnen studenten zich via het systeem inschrijven, zelfs als de limiet voor het aantal plaatsen is bereikt, maar ze kunnen de cursus pas starten als er een licentie beschikbaar is.
+
+De functie Wachtlijst is alleen van toepassing wanneer studenten zichzelf inschrijven. Wanneer een sessie de limiet van de licentie bereikt, kan de docent de lijst met studenten op de wachtlijst bekijken. Als er plaatsen beschikbaar komen, kan de docent studenten toevoegen die op de wachtlijst staan totdat de sessie weer capaciteit bereikt.
+
 ## Meldingen
 
 Er zijn drie opties:
 
-1. **[!UICONTROL Alle Cursussen van de Niveaus van de Vaardigheid en Leerwegen (die door gebrek worden geselecteerd) &#x200B;]:** de student krijgt berichten voor om het even welke onvolledige cursus ongeacht het niveau binnen een het Leren Weg.
-1. **[!UICONTROL het Leren Weg van de Wortel &#x200B;]:** de student krijgt berichten voor om het even welke onvolledige cursus die tot een ouder Lerend Weg behoort.
-1. **[!UICONTROL het Leren Weg + eerste slechts kinderen van het Niveau van de Vaardigheid &#x200B;]:** de student krijgt berichten van om het even welke onvolledige cursus die een eerste kind van een ouder Lerend Weg is.
+1. **[!UICONTROL Alle Cursussen van de Niveaus van de Vaardigheid en Leerwegen (die door gebrek worden geselecteerd) ]:** de student krijgt berichten voor om het even welke onvolledige cursus ongeacht het niveau binnen een het Leren Weg.
+1. **[!UICONTROL het Leren Weg van de Wortel ]:** de student krijgt berichten voor om het even welke onvolledige cursus die tot een ouder Lerend Weg behoort.
+1. **[!UICONTROL het Leren Weg + eerste slechts kinderen van het Niveau van de Vaardigheid ]:** de student krijgt berichten van om het even welke onvolledige cursus die een eerste kind van een ouder Lerend Weg is.
 
 De meldingsherinneringen worden geactiveerd afhankelijk van de optie. Door gebrek, wordt de optie **[!UICONTROL Alle Cursussen van Niveaus en Lerende Wegen]** toegelaten voor een instantie.
 
