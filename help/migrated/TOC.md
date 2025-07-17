@@ -2,10 +2,10 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: 648cd1e17aa0e5b95b8454d136accc4b7a054d97
+source-git-commit: f814f4fd2e8b0d34118f5abc66e82be78fda88e2
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 79%
+source-wordcount: '688'
+ht-degree: 78%
 
 ---
 
@@ -167,6 +167,7 @@ ht-degree: 79%
    * [Veelgestelde vragen voor studenten](learners/frequently-asked-questions-for-learners.md)
    * [Nieuwe ervaringenliga-aankondigingen](/help/migrated/new-experience-league-announcement.md)
    * [Een ondersteuningsticket verzenden op het Experience League](/help/migrated/how-to-submit-support-ticket.md)
+   * [Een proefaccount maken in Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * Knowledge Base {#knowledge-base}
    * [Ik kan me niet aanmelden bij Learning Manager](kb/unable-log-in-learning-manager.md)
    * [Overzicht van leermateriaal toont niet de huidige gegevens](kb/learning-summary-not-display-data.md)
