@@ -2,9 +2,9 @@
 title: Aanstaande wijzigingen in Adobe Learning Manager
 description: Lees meer over de nieuwe functies, verbeteringen en belangrijke updates die binnenkort in Adobe Learning Manager verschijnen. Blijf op de hoogte van wat er verandert, zodat je vooruit kunt plannen en optimaal kunt profiteren van de nieuwste verbeteringen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 63462eb272fe90d58c89f2be383fc103db6d4ece
+source-git-commit: ffb4883227f1e461df5fc4a025fef1ba1b8568c2
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '667'
 ht-degree: 1%
 
 ---
@@ -109,3 +109,5 @@ Aangepaste beheerders kunnen alleen aankondigingen maken voor gebruikersgroepen 
 
 * De vorm van het rapport blijft ongewijzigd. Als aangepaste beheerders het van de Gebruikersinterface downloaden, zal de inhoud van het rapport onderworpen zijn aan hun werkingsgebied.
 * Er zijn geen wijzigingen nodig als dit rapport niet wordt gebruikt in een geautomatiseerde of downstreamworkflow.
+
+Zie het [ de notities van de Versie ](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) artikel voor een cumulatieve lijst van nieuwe eigenschappen en veranderingen in Adobe Learning Manager.
