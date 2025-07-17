@@ -110,4 +110,4 @@ Aangepaste beheerders kunnen alleen aankondigingen maken voor gebruikersgroepen 
 * De vorm van het rapport blijft ongewijzigd. Als aangepaste beheerders het van de Gebruikersinterface downloaden, zal de inhoud van het rapport onderworpen zijn aan hun werkingsgebied.
 * Er zijn geen wijzigingen nodig als dit rapport niet wordt gebruikt in een geautomatiseerde of downstreamworkflow.
 
-Zie het [ de notities van de Versie ](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) artikel voor een cumulatieve lijst van nieuwe eigenschappen en veranderingen in Adobe Learning Manager.
+Zie het [ de notities van de Versie ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/release-notes) artikel voor een cumulatieve lijst van nieuwe eigenschappen en veranderingen in Adobe Learning Manager.

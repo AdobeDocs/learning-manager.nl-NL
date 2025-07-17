@@ -122,7 +122,7 @@ Verwijs naar dit [ artikel ](/help/migrated/learners/feature-summary/fluidic-pla
 
 * Probleem verholpen waarbij studenten die een cursus hadden voltooid een wit scherm zagen bij het terugkeren nadat de inhoudsmodule naar een nieuwe versie was bijgewerkt.
 
-Bovendien, voor details op aanstaande veranderingen in Adobe Learning Manager, zie dit [ artikel ](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Bovendien, voor details op aanstaande veranderingen in Adobe Learning Manager, zie dit [ artikel ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
