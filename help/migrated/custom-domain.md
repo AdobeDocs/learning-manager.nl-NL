@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Ondersteuning voor aangepast domein
 description: Aangepaste domeinen worden niet ondersteund in een Azure-instantie van Learning Manager.
 contentowner: saghosh
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 67%
+source-wordcount: '459'
+ht-degree: 65%
 
 ---
-
-
 
 # Ondersteuning voor aangepast domein
 
@@ -22,7 +21,7 @@ Met ondersteuning voor aangepast domein kunnen klanten de volledige controle kri
 
 Hiermee kan de klant de aanmeld- en toegangservaring blanco maken, zodat gebruikers de aanwezigheid van Adobe of Adobe Learning Manager niet zien.
 
-U wilt bijvoorbeeld uw domein zodanig aanpassen dat uw gebruikers dezelfde ervaring krijgen als wanneer ze zich op het domein van de Adobe bevinden. Als ABC Inc hun klanten wil trainen, zou het graag zien dat ze landen op een domein genaamd `abc.com/mylearning`, in plaats van `learningmanager.adobe.com/abc-inc/mylearning`.
+U wilt bijvoorbeeld uw domein zodanig aanpassen dat uw gebruikers dezelfde ervaring krijgen als wanneer ze zich op het domein van de Adobe bevinden. Als ABC Inc hun klanten wil trainen, zou het graag zien dat ze landen op een domein met de naam `abc.com/mylearning` in plaats van `learningmanager.adobe.com/abc-inc/mylearning` .
 
 >[!NOTE]
 >
@@ -32,7 +31,8 @@ U wilt bijvoorbeeld uw domein zodanig aanpassen dat uw gebruikers dezelfde ervar
 De functie voor aangepaste domeinen is beschikbaar tegen extra kosten. Neem contact op met uw Customer Success-manager voor meer informatie.
 
 * Voor de studentrol begint het domein met `https://cdn.<customer_custom_domain>/` Bijvoorbeeld: `https://cdn.elearningstage1.cpdomaintest.in/`
-* Voor alle andere rollen begint het domein met `https://<customer_custom_domain>/`. Bijvoorbeeld: `https://elearningstage1.cpdomaintest.in/`
+* Voor alle andere rollen begint het domein met `https://<customer_custom_domain>/` . Bijvoorbeeld: `https://elearningstage1.cpdomaintest.in/`
+* De werkelijke aanmeldings-URL is `https://<customer_custom_domain>/acapindex` of `https://<customer_custom_domain>/login` . Vervang `<customer_custom_domain>` door het werkelijke domein van uw organisatie.
 
 `<customer_custom_domain>` is het aanpasbare onderdeel.
 
@@ -46,9 +46,9 @@ Volg de onderstaande stappen om een aangepast domein in te stellen.
 
 1. De klant moet **drie CNAME**-bestanden toevoegen aan het domein:
 
-   * **learning.acme.com:** openbaar ALB-eindpunt van leermanager gedeeld door Adobe
-   * **lrs.learning.acme.com:** Openbaar eindpunt van ALB-bestand waarnaar wordt verwezen op learning.acme.com
-   * **cdn.learning.acme.com:** CDN-eindpunt gedeeld door Adobe
+   * **learning.acme.com:** openbaar die eindpunt ALB van het Leren Manager door Adobe wordt gedeeld
+   * **lrs.learning.acme.com:** openbaar eindpunt ALB dat door learning.acme.com wordt gericht
+   * **cdn.learning.acme.com:** CDN eindpunt dat door Adobe wordt gedeeld
 
 1. De klant moet SSL-certificaten leveren voor deze domeinen:
 
