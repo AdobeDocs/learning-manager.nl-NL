@@ -51,9 +51,9 @@ Als u een instantie wilt maken,
    * Op het **[!UICONTROL gebied van de Naam van de Instantie]**, ga de naam van de instantie in u met de cursus wilt associëren. Zorg ervoor dat u een unieke naam voor de instantie gebruikt.
    * Geef de voltooiingsdeadline voor de instantie op. Studenten moeten hun cursus vóór deze datum voltooien.
    * Klik **[!UICONTROL tonen Meer Opties]** om andere deadline opties te tonen.
-   * **[!UICONTROL Deadline van de Inschrijving ]:** dit is de datum waardoor een student naar verwachting in een het leren voorwerp in het geval van zelf-inschrijving moet inschrijven.
-   * **[!UICONTROL Deadline van de Uitschrijving ]:** u kunt verkiezen om uitschrijving door student zelf te beperken door een uitschrijvingsdeadline te hebben.
-   * **[!UICONTROL Tijdzone ]:** Onderzoek en selecteer dan de **[!UICONTROL Tijdzone]** van dropdown.
+   * **[!UICONTROL Deadline van de Inschrijving &#x200B;]:** dit is de datum waardoor een student naar verwachting in een het leren voorwerp in het geval van zelf-inschrijving moet inschrijven.
+   * **[!UICONTROL Deadline van de Uitschrijving &#x200B;]:** u kunt verkiezen om uitschrijving door student zelf te beperken door een uitschrijvingsdeadline te hebben.
+   * **[!UICONTROL Tijdzone &#x200B;]:** Onderzoek en selecteer dan de **[!UICONTROL Tijdzone]** van dropdown.
 
    Een beheerder kan besluiten om voltooiingsdeadlines voor een leerprogramma in te stellen afhankelijk van vereisten. Het is echter raadzaam er een te hebben voor klassikale/virtuele klassikale trainingen.
 
@@ -490,7 +490,7 @@ U kunt de vragenlijst voor L1- en L3-feedback instellen evenals herinneringen op
 
 1. Klik **[!UICONTROL Montages]** en dan **[!UICONTROL Terugkoppeling]** op de linkerruit nadat u login als Beheerder.\
    De de montagespagina van de terugkoppeling verschijnt met twee lusjes: **[!UICONTROL L1 Terugkoppeling]** en **[!UICONTROL L3 Terugkoppeling]**.\
-   **[!UICONTROL lusje van de Terugkoppeling 0} L1 bestaat uit een lijst van gebrek]** L1 terugkoppelt **[!UICONTROL vragenlijst voor klassenruimte en zelf-afgepaste cursussen samen met herinneringsmontages.]** In **[!UICONTROL L3 Terugkoppeling]** tabel, kunt u L3 terugkoppelen standaardverklaring en herinneringsmontages bekijken.
+   **[!UICONTROL lusje van de Terugkoppeling 0&rbrace; L1 bestaat uit een lijst van gebrek]** L1 terugkoppelt **[!UICONTROL vragenlijst voor klassenruimte en zelf-afgepaste cursussen samen met herinneringsmontages.]** In **[!UICONTROL L3 Terugkoppeling]** tabel, kunt u L3 terugkoppelen standaardverklaring en herinneringsmontages bekijken.
 
 1. Klik op Bewerken rechtsboven op de pagina om de bestaande vragenlijst aan te passen.\
    In **[!UICONTROL L1 terugkoppeling]** tabel, kunt u elke vraag toelaten/onbruikbaar maken door ja/neen knevelknoop te klikken.\
