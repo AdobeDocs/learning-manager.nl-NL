@@ -4,10 +4,10 @@ title: Ondersteuning voor aangepast domein
 description: Aangepaste domeinen worden niet ondersteund in een Azure-instantie van Learning Manager.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 65%
+source-wordcount: '455'
+ht-degree: 66%
 
 ---
 
@@ -32,9 +32,11 @@ De functie voor aangepaste domeinen is beschikbaar tegen extra kosten. Neem cont
 
 * Voor de studentrol begint het domein met `https://cdn.<customer_custom_domain>/` Bijvoorbeeld: `https://cdn.elearningstage1.cpdomaintest.in/`
 * Voor alle andere rollen begint het domein met `https://<customer_custom_domain>/` . Bijvoorbeeld: `https://elearningstage1.cpdomaintest.in/`
-* De werkelijke aanmeldings-URL is `https://<customer_custom_domain>/acapindex` of `https://<customer_custom_domain>/login` . Vervang `<customer_custom_domain>` door het werkelijke domein van uw organisatie.
+* De werkelijke aanmeldings-URL is `https://<customer_custom_domain>/acapindex` of `https://<customer_custom_domain>/login` .
 
-`<customer_custom_domain>` is het aanpasbare onderdeel.
+>[!NOTE]
+>
+>Vervang `<customer_custom_domain>` door het werkelijke domein van uw organisatie.
 
 ## Een aangepast domein instellen voor een account {#howtosetupacustomdomainonanaccount}
 
