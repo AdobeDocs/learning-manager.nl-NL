@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Studenten beheren voor uw sessie
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 82%
+source-wordcount: '1223'
+ht-degree: 71%
 
 ---
 
@@ -83,6 +83,26 @@ U kunt het aantal bevestigde studenten voor de sessie, hun naam, aanwezigheidsst
 
    ![](assets/markattendance.png)
    *Aanwezigheid van de student van het Teken*
+
+## Succes markeren voor studenten
+
+Docenten kunnen de successtatus van elke student rechtstreeks op de pagina Studenten als geslaagd of gezakt markeren. Met deze functie kunnen docenten het resultaat van klassikale of virtuele klassikale sessies nauwkeurig vastleggen op basis van de prestaties van de student.
+
+Het succes voor studenten markeren:
+
+1. Meld u als docent aan bij Adobe Learning Manager.
+2. Selecteer **[!UICONTROL Aanstaande Zittingen]** in de linkernavigatieruit.
+3. Selecteer **[!UICONTROL Studenten]**.
+4. Selecteer de studenten en selecteer dan **[!UICONTROL Acties]**.
+5. Selecteer een van de volgende opties om het succes voor de geselecteerde studenten te markeren:
+
+   * **[!UICONTROL Aanwezige Teken en pas]**: De studenten die als Voldoende worden gemerkt hebben met succes de module voltooid.
+   * **[!UICONTROL Aanwezige het Teken en Gebrek]**: De studenten die als Gebrek worden gemerkt hebben de module voltooid maar niet geslaagd.
+
+   ![ het vervolgkeuzemenu van Acties die &quot;Teken bijgewoond en pas&quot;en &quot;Teken bijgewoond en Mislukt&quot;opties voor instructeurs benadrukken om de successtatus van elke student te plaatsen ](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
+   _pagina van Studenten die het menu van Acties met de Aanwezige Teken tonen en Aanwezige de Teken en Geweigerde opties tonen die voor de resultaten van de registrerende student worden benadrukt_
+
+6. Selecteer **[!UICONTROL Ja]** in de bevestigingsherinnering.
 
 ## E-mails naar studenten sturen {#sendemailstolearners}
 

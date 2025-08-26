@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Cursussen maken, wijzigen en publiceren
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '7163'
+source-wordcount: '7321'
 ht-degree: 71%
 
 ---
@@ -496,7 +496,7 @@ Auteurs kunnen HTML-koppelingen toevoegen aan de activiteitenmodule en de voltoo
 1. Selecteer **[!UICONTROL voeg]** van het **[!UICONTROL scherm van de Catalogus van de Cursus]** toe
 1. Typ de naam en beschrijving van de cursus.
 1. In de **[!UICONTROL optie van de Module]**, uitgezochte **[!UICONTROL Module]** > **[!UICONTROL Module van de Activiteit]** toevoegen.
-1. In de **herinnering van de Module van de Activiteit 0&rbrace;, typ de naam en de beschrijving.**
+1. In de **[!UICONTROL herinnering van de Module van de Activiteit 0}, typ de naam en de beschrijving.]**
 1. Selecteer het **[!UICONTROL Type]** als **[!UICONTROL Externe URL]**.
 1. Selecteer om het even welke volgende opties van de **[!UICONTROL optie van de Criteria van de Voltooiing]**.
    * **[!UICONTROL de tekens van de student volledig]**: De student heeft de optie om de cursus als volledig in de Fluidic Player te merken.
@@ -599,6 +599,26 @@ Voer op deze pagina de volgende gegevens in:
    *wijs een docentrol aan een gebruiker* toe
 
 1. Om de cursus met de updates opnieuw te publiceren, klik **[!UICONTROL herpubliceer]**.
+
+### Laat docenten succes markeren
+
+Met Adobe Learning Manager kunnen docenten de successtatus van de studenten in een lesruimte of virtuele klassikale module markeren. Auteurs kunnen docenten toestemming geven om de successtatus van studenten te markeren bij het maken van klassikale of virtuele klassikale modules. Docenten kunnen het succes markeren door een student als geslaagd of mislukt te markeren, zodat de voortgang dienovereenkomstig wordt bijgewerkt.
+
+Docenten in staat stellen het succes van de student te markeren:
+
+1. Meld u aan als auteur bij Adobe Learning Manager:
+2. Selecteer **[!UICONTROL creeer Cursussen]** op de homepage.
+3. Selecteer **[!UICONTROL toevoegen]**.
+4. Typ de noodzakelijke details en selecteer **[!UICONTROL Modules]** toevoegen.
+5. Selecteer **[!UICONTROL of]** Module van de Klaslokaal van 0} Virtuele Module **[!UICONTROL .]**
+6. Typ de benodigde gegevens en selecteer de datums.
+7. Selecteer **[!UICONTROL sta Instructeur toe om succes]** optie te merken.
+
+   ![ &quot;Toestaan dat docent succes markeert?&quot; checkbox wordt benadrukt, toelatend auteurs om instructeurs te laten de status van het studentensucces voor een module registreren ](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   _het scherm van de Details van de Zitting met Toestaan docent om succesoptie te merken voor de modules van de Klassroom of Virtuele Classroom wordt benadrukt_
+
+8. Selecteer **[!UICONTROL Gedaan]**.
+
 
 ## Observatiecontrolelijst
 
@@ -805,7 +825,7 @@ U kunt de cursusmodules ook naar Learning Manager publiceren vanuit Adobe Captiv
 1. Meld u aan met uw Adobe-gegevens. Klik op **[!UICONTROL Account aanmaken]** als u geen Adobe ID hebt. Na autorisatie wordt u doorverwezen naar de pagina voor het publiceren van de module.
 1. Geef alle basisinformatie over de module en klik op Publiceren.
 
-U kunt de gepubliceerde module bekijken op de Learning Manager-pagina voor modules. Ga voor meer informatie naar [Project publiceren naar Adobe Learning Manager](https://helpx.adobe.com/nl/captivate/classic/publish-project-to-captivate-prime.html).
+U kunt de gepubliceerde module bekijken op de Learning Manager-pagina voor modules. Ga voor meer informatie naar [Project publiceren naar Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Cursuseffectiviteit {#courseeffectiveness}
 
@@ -850,7 +870,7 @@ Wanneer cursussen verplicht worden gesteld:
 
 ## Veelgestelde vragen {#frequentlyaskedquestions}
 
-+++How to remove &quot;seek manager nomination&quot; for a course?
++++Hoe u &#39;Aanwijzing van manager nastreven&#39; voor een cursus kunt verwijderen.
 
 Voer de volgende stappen uit:
 
@@ -863,7 +883,7 @@ Voer de volgende stappen uit:
 
 +++
 
-+++Hoe kan ik cursussen combineren?
++++Hoe u cursussen kunt combineren
 
 U kunt cursussen combineren via een leerprogramma.
 
@@ -882,7 +902,7 @@ U kunt alleen zelfingeschreven cursussen aan een leerprogramma toevoegen, geen M
 
 +++
 
-+++Hoe kan ik ervoor zorgen dat alle studenten niet alle cursussen kunnen zien?
++++Hoe u kunt zorgen dat niet alle studenten alle cursussen kunnen zien
 
 U kunt dit doen met behulp van catalogi. Een standaardcatalogus bevat standaard alle cursussen die aan Leermanager zijn toegevoegd.
 
@@ -897,19 +917,19 @@ U moet de standaardcatalogus uitschakelen en aangepaste catalogi maken.
 1. Klik in het linkerdeelvenster op **[!UICONTROL Intern delen]** of **[!UICONTROL Extern delen]**, afhankelijk van uw doelgroep.
 
 1. Klik op **[!UICONTROL Gebruikersgroepen toevoegen]** om een gebruikersgroep toe te voegen.
-1. Voor de pagina van Catalogi, maak de **D [!UICONTROL &#x200B; standaardCatalogus]** onbruikbaar, en laat de catalogus toe die u hebt gecreeerd.
+1. Voor de pagina van Catalogi, maak de **D [!UICONTROL  standaardCatalogus]** onbruikbaar, en laat de catalogus toe die u hebt gecreeerd.
 
 ![](assets/enable-custom-catalog.png)
 
 +++
 
-+++Hoe kunt u zich opnieuw inschrijven voor een voltooide cursus?
++++Opnieuw inschrijven voor een voltooide cursus
 
 Een voltooide cursus kan niet worden teruggedraaid. Een student **kan niet opnieuw worden ingeschreven** voor een voltooide cursus.
 
 +++
 
-+++Hoe kunnen studenten de cursus nog bekijken nadat ze deze hebben voltooid?
++++Hoe studenten een cursus kunnen bekijken nadat ze die hebben voltooid
 
 Een student kan een voltooide cursus bekijken door te klikken op de knop Opnieuw bekijken in de cursus.
 
@@ -921,7 +941,7 @@ Voer onderstaande stappen uit:
 
 +++
 
-+++How om middeldossier in de cursus toe te voegen?
++++Hoe kan ik een resourcebestand toevoegen aan de cursus?
 
 Als u een cursus aanmaakt, kunt u video-, audio-, pdf- of text-bestanden die relevant zijn voor de cursus, aan de cursus toevoegen zodat de student toegang heeft tot aanvullende leermaterialen.
 
@@ -929,7 +949,7 @@ Als u een cursus aanmaakt, kunt u video-, audio-, pdf- of text-bestanden die rel
 
 +++
 
-+++Hoe kan ik meerdere pogingen instellen op een module?
++++Hoe kan ik meerdere pogingen instellen voor een module?
 
 **Vereiste:** de Beheerder moet de optie **Meerdere Pogingen** in **Montages > Algemeen** in Admin app toelaten.
 
@@ -939,7 +959,7 @@ Zie voor meer informatie de [sectie over meerdere pogingen](courses.md#Allowmult
 
 +++
 
-+++Kan u de inhoud downloaden die op Adobe Learning Manager is geüpload om de inhoud te wijzigen?
++++Kan ik de inhoud downloaden die reeds is geüpload op Adobe Learning Manager om de inhoud ervan te beheren?
 
 Nee, de inhoud die is geüpload in Learning Manager is een gepubliceerd ZIP-bestand en is niet het bronbestand. Daarom kan de inhoud niet worden bewerkt in een auteurstool, zelfs niet wanneer de inhoud is gedownload. U hebt een bronbestand nodig om de inhoud te kunnen bewerken.
 
