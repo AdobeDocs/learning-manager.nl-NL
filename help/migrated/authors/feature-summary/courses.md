@@ -496,7 +496,7 @@ Auteurs kunnen HTML-koppelingen toevoegen aan de activiteitenmodule en de voltoo
 1. Selecteer **[!UICONTROL voeg]** van het **[!UICONTROL scherm van de Catalogus van de Cursus]** toe
 1. Typ de naam en beschrijving van de cursus.
 1. In de **[!UICONTROL optie van de Module]**, uitgezochte **[!UICONTROL Module]** > **[!UICONTROL Module van de Activiteit]** toevoegen.
-1. In de **[!UICONTROL herinnering van de Module van de Activiteit 0}, typ de naam en de beschrijving.]**
+1. In de **[!UICONTROL herinnering van de Module van de Activiteit 0&rbrace;, typ de naam en de beschrijving.]**
 1. Selecteer het **[!UICONTROL Type]** als **[!UICONTROL Externe URL]**.
 1. Selecteer om het even welke volgende opties van de **[!UICONTROL optie van de Criteria van de Voltooiing]**.
    * **[!UICONTROL de tekens van de student volledig]**: De student heeft de optie om de cursus als volledig in de Fluidic Player te merken.
@@ -610,7 +610,7 @@ Docenten in staat stellen het succes van de student te markeren:
 2. Selecteer **[!UICONTROL creeer Cursussen]** op de homepage.
 3. Selecteer **[!UICONTROL toevoegen]**.
 4. Typ de noodzakelijke details en selecteer **[!UICONTROL Modules]** toevoegen.
-5. Selecteer **[!UICONTROL of]** Module van de Klaslokaal van 0} Virtuele Module **[!UICONTROL .]**
+5. Selecteer **[!UICONTROL of]** Module van de Klaslokaal van 0&rbrace; Virtuele Module **[!UICONTROL .]**
 6. Typ de benodigde gegevens en selecteer de datums.
 7. Selecteer **[!UICONTROL sta Instructeur toe om succes]** optie te merken.
 
@@ -917,7 +917,7 @@ U moet de standaardcatalogus uitschakelen en aangepaste catalogi maken.
 1. Klik in het linkerdeelvenster op **[!UICONTROL Intern delen]** of **[!UICONTROL Extern delen]**, afhankelijk van uw doelgroep.
 
 1. Klik op **[!UICONTROL Gebruikersgroepen toevoegen]** om een gebruikersgroep toe te voegen.
-1. Voor de pagina van Catalogi, maak de **D [!UICONTROL  standaardCatalogus]** onbruikbaar, en laat de catalogus toe die u hebt gecreeerd.
+1. Voor de pagina van Catalogi, maak de **D [!UICONTROL &#x200B; standaardCatalogus]** onbruikbaar, en laat de catalogus toe die u hebt gecreeerd.
 
 ![](assets/enable-custom-catalog.png)
 
