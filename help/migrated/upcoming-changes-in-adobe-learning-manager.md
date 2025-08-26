@@ -233,7 +233,7 @@ Gebruikers in een sociaal board van tags voorzien:
    ![](assets/select-new-post.png)
    _Begin een nieuwe bespreking door Nieuw Post in Sociaal Leren te selecteren om kennis met de geëtiketteerde gebruikers te delen_
 
-4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1} optie van de Raad van de Discussie.]**
+4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1&rbrace; optie van de Raad van de Discussie.]**
 
    ![](assets/select-boards-in-social-board.png)
    _selecteer een discussieboard om gebruikers te posten en te etiketteren, toelatend gerichte samenwerkingsgesprekken in Sociaal Leren_
