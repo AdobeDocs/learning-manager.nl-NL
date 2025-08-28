@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Cursussen maken, wijzigen en publiceren
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
 workflow-type: tm+mt
 source-wordcount: '7433'
 ht-degree: 70%
@@ -496,7 +496,7 @@ Auteurs kunnen HTML-koppelingen toevoegen aan de activiteitenmodule en de voltoo
 1. Selecteer **[!UICONTROL voeg]** van het **[!UICONTROL scherm van de Catalogus van de Cursus]** toe
 1. Typ de naam en beschrijving van de cursus.
 1. In de **[!UICONTROL optie van de Module]**, uitgezochte **[!UICONTROL Module]** > **[!UICONTROL Module van de Activiteit]** toevoegen.
-1. In de **[!UICONTROL herinnering van de Module van de Activiteit 0&rbrace;, typ de naam en de beschrijving.]**
+1. In de **[!UICONTROL herinnering van de Module van de Activiteit 0}, typ de naam en de beschrijving.]**
 1. Selecteer het **[!UICONTROL Type]** als **[!UICONTROL Externe URL]**.
 1. Selecteer om het even welke volgende opties van de **[!UICONTROL optie van de Criteria van de Voltooiing]**.
    * **[!UICONTROL de tekens van de student volledig]**: De student heeft de optie om de cursus als volledig in de Fluidic Player te merken.
@@ -506,12 +506,6 @@ Auteurs kunnen HTML-koppelingen toevoegen aan de activiteitenmodule en de voltoo
    _criteria van de Voltooiing_
 
 1. Selecteer **[!UICONTROL voeg]** toe en publiceer de cursus.
-
-## Controlelijst {#create-checklist}
-
-Evaluatie is een belangrijk aspect van elk LMS. Onlinebeoordelingen zijn een van de belangrijkste manieren om het inzicht van een student in een onderwerp te evalueren. Maar vaak is het nodig om het begrip van een persoon te evalueren terwijl hij of zij aan het werk is door hem/haar de noodzakelijke taken uit te voeren.
-
-Denk maar eens aan winkel- of magazijnmedewerkers die een evaluatie ondergaan voor de taken die ze dagelijks moeten uitvoeren. Dit kunnen de stappen zijn die worden uitgevoerd voor het repareren van een koffiemachine, of de stappen voor het inpakken van materiaal. Docenten kunnen medewerkers op dergelijke taken beoordelen op basis van een controlelijst en hen de beoordeling &#39;Geslaagd&#39; of &#39;Gezakt&#39; geven in de evaluatieactiviteit.
 
 ### Modules in gepubliceerde cursussen vervangen
 
@@ -530,6 +524,12 @@ De modules vervangen:
 8. Selecteer **[!UICONTROL opnieuw publiceren]**.
 
 Studenten blijven hun vorderingen in andere modules maken, maar moeten de nieuwe module voltooien om de cursus te voltooien.
+
+## Controlelijst {#create-checklist}
+
+Evaluatie is een belangrijk aspect van elk LMS. Onlinebeoordelingen zijn een van de belangrijkste manieren om het inzicht van een student in een onderwerp te evalueren. Maar vaak is het nodig om het begrip van een persoon te evalueren terwijl hij of zij aan het werk is door hem/haar de noodzakelijke taken uit te voeren.
+
+Denk maar eens aan winkel- of magazijnmedewerkers die een evaluatie ondergaan voor de taken die ze dagelijks moeten uitvoeren. Dit kunnen de stappen zijn die worden uitgevoerd voor het repareren van een koffiemachine, of de stappen voor het inpakken van materiaal. Docenten kunnen medewerkers op dergelijke taken beoordelen op basis van een controlelijst en hen de beoordeling &#39;Geslaagd&#39; of &#39;Gezakt&#39; geven in de evaluatieactiviteit.
 
 ### Een controlelijst maken {#createachecklist}
 
@@ -628,7 +628,7 @@ Docenten in staat stellen het succes van de student te markeren:
 2. Selecteer **[!UICONTROL creeer Cursussen]** op de homepage.
 3. Selecteer **[!UICONTROL toevoegen]**.
 4. Typ de noodzakelijke details en selecteer **[!UICONTROL Modules]** toevoegen.
-5. Selecteer **[!UICONTROL of]** Module van de Klaslokaal van 0&rbrace; Virtuele Module **[!UICONTROL .]**
+5. Selecteer **[!UICONTROL of]** Module van de Klaslokaal van 0} Virtuele Module **[!UICONTROL .]**
 6. Typ de benodigde gegevens en selecteer de datums.
 7. Selecteer **[!UICONTROL sta Instructeur toe om succes]** optie te merken.
 
@@ -843,7 +843,7 @@ U kunt de cursusmodules ook naar Learning Manager publiceren vanuit Adobe Captiv
 1. Meld u aan met uw Adobe-gegevens. Klik op **[!UICONTROL Account aanmaken]** als u geen Adobe ID hebt. Na autorisatie wordt u doorverwezen naar de pagina voor het publiceren van de module.
 1. Geef alle basisinformatie over de module en klik op Publiceren.
 
-U kunt de gepubliceerde module bekijken op de Learning Manager-pagina voor modules. Ga voor meer informatie naar [Project publiceren naar Adobe Learning Manager](https://helpx.adobe.com/nl/captivate/classic/publish-project-to-captivate-prime.html).
+U kunt de gepubliceerde module bekijken op de Learning Manager-pagina voor modules. Ga voor meer informatie naar [Project publiceren naar Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Cursuseffectiviteit {#courseeffectiveness}
 
@@ -935,7 +935,7 @@ U moet de standaardcatalogus uitschakelen en aangepaste catalogi maken.
 1. Klik in het linkerdeelvenster op **[!UICONTROL Intern delen]** of **[!UICONTROL Extern delen]**, afhankelijk van uw doelgroep.
 
 1. Klik op **[!UICONTROL Gebruikersgroepen toevoegen]** om een gebruikersgroep toe te voegen.
-1. Voor de pagina van Catalogi, maak de **D [!UICONTROL &#x200B; standaardCatalogus]** onbruikbaar, en laat de catalogus toe die u hebt gecreeerd.
+1. Voor de pagina van Catalogi, maak de **D [!UICONTROL  standaardCatalogus]** onbruikbaar, en laat de catalogus toe die u hebt gecreeerd.
 
 ![](assets/enable-custom-catalog.png)
 

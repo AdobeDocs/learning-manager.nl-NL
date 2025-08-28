@@ -2,9 +2,9 @@
 title: Nieuwe functies in de Adobe Learning Manager-versie van oktober
 description: Meer informatie over de nieuwe functies, verbeteringen en belangrijke updates in de Adobe Learning Manager-versie van oktober 2025.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 7012876539448af3433273f369011e3e0bd07407
+source-git-commit: c16f18e5ab5df120ab5fb40bbf77af2b3f6f43bb
 workflow-type: tm+mt
-source-wordcount: '8104'
+source-wordcount: '8390'
 ht-degree: 0%
 
 ---
@@ -191,6 +191,50 @@ d. **[!UICONTROL als e-mail]**
 
 Alleen studenten binnen het bereik van de aangepaste beheerder kunnen de aankondiging bekijken. Zie dit [ artikel ](/help/migrated/administrators/feature-summary/announcements.md) leren hoe te om veelvoudige types van aankondigingen tot stand te brengen.
 
+### Bereik opnieuw instellen door aangepaste beheerders
+
+Aangepaste beheerders kunnen het bereik van hun gepubliceerde aankondigingen opnieuw instellen als een beheerder het bereik ervan heeft gewijzigd. Zodra het bereik opnieuw is ingesteld, wordt het bijgewerkte bereik toegepast op de aankondiging en kunnen alleen studenten binnen het nieuwe bereik de aankondiging zien.
+
+Het bereik opnieuw instellen:
+
+1. Meld u aan bij Adobe Learning Manager als aangepaste beheerder.
+2. Selecteer **[!UICONTROL Aankondiging]** in de linkernavigatieruit.
+3. Selecteer **[!UICONTROL Gepubliceerd]** lusje.
+4. Selecteer een aankondiging en selecteer het instellingspictogram.
+5. Selecteer **[!UICONTROL Bewerken]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _het scherm dat van de Bekendmaking de gepubliceerde aankondigingen met uitgeeft toont, publiceert en andere opties_
+
+6. Selecteer **Terugstellen**.
+
+   ![](assets/reset-the-scope.png)
+   _Aankondiging die een bericht van de werkingsgebiedverandering toont, met een optie voor douanebeheerders om de werkingsgebiedselectie terug te stellen en bij te werken om nieuwe toegangstoestemmingen te wijzen_
+
+Het bereik wordt bijgewerkt en alleen gebruikers binnen het bijgewerkte bereik kunnen de aankondiging bekijken.
+
+### Bewerk de aankondiging via de beheerdersinterface
+
+Beheerders kunnen aankondigingen die zijn gemaakt door aangepaste beheerders bekijken via hun interface. Zij hebben de capaciteit om deze aankondigingen uit te geven slechts door het toegewezen werkingsgebied te wijzigen of te verwijderen. Als het bereik niet wordt gewijzigd, kunnen beheerders de aankondiging niet verder bewerken.
+
+De aankondiging bewerken via de beheerdersinterface:
+
+1. Meld u als beheerder aan bij Adobe Learning Manager.
+2. Selecteer **[!UICONTROL Aankondiging]** in de linkernavigatieruit.
+3. Selecteer **[!UICONTROL Gepubliceerd]** lusje.
+4. Selecteer een aankondiging en selecteer het instellingspictogram.
+5. Selecteer **[!UICONTROL Bewerken]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _het scherm dat van de Bekendmaking de gepubliceerde aankondigingen met uitgeeft toont, publiceert en andere opties_
+
+6. Selecteer **[!UICONTROL verwijder]**.
+
+   ![](assets/remove-the-scope.png)
+   _het scherm dat van de aankondiging erop wijst dat het werkingsgebied moet worden verwijderd om beheerders toe te staan om aankondigingen uit te geven die voor scoped gebruikersgroepen_ worden gecreeerd
+
+De beheerder kan de aankondiging bewerken nadat het bereik is verwijderd.
+
 ## Gebruikers van sociale boards voorzien van tags
 
 **Overzicht**
@@ -233,7 +277,7 @@ Gebruikers in een sociaal board van tags voorzien:
    ![](assets/select-new-post.png)
    _Begin een nieuwe bespreking door Nieuw Post in Sociaal Leren te selecteren om kennis met de geëtiketteerde gebruikers te delen_
 
-4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1&rbrace; optie van de Raad van de Discussie.]**
+4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1} optie van de Raad van de Discussie.]**
 
    ![](assets/select-boards-in-social-board.png)
    _selecteer een discussieboard om gebruikers te posten en te etiketteren, toelatend gerichte samenwerkingsgesprekken in Sociaal Leren_
@@ -834,15 +878,13 @@ De API maakt of werkt de status van het leerobject voor de opgegeven landinstell
 
 **Overzicht**
 
-De Go1-integratie is verbeterd voor ondersteuning van workflows voor afspeellijstbeheer, het maken van leerpaden en terugkerende certificering, en voor de overgang naar een contentmodel voor voorvertonen en aankopen.
+Go1-integratie is verbeterd zodat Go1-cursussen rechtstreeks kunnen worden beheerd voor het maken van LP&#39;s (Learning Programs) in Adobe Learning Manager. Deze update ondersteunt het opnemen van Go1-cursussen in terugkerende certificeringen en introduceert een nieuwe versie van de hubervaring voor Go1-inhoud, waardoor een efficiënter cursusbeheer mogelijk wordt.
 
 **Nieuw**
 
 * Maak en beheer afspeellijsten rechtstreeks in Go1 met behulp van AI-chatondersteuning of handmatige selectie.
-* Converteer Go1-afspeellijsten eenvoudig naar Adobe Learning Manager Learning-paden.
 * Neem Go1-cursussen op in terugkerende certificeringscycli met automatische terugzetprocedure.
 * Verbeterde interface voor het detecteren van inhoud voor beter bladeren en contentbeheer.
-* Overgang van gratis content naar transparant kostenmodel.
 
 **Zeer belangrijke voordelen**
 
@@ -863,29 +905,32 @@ De Go1-integratie is verbeterd voor ondersteuning van workflows voor afspeellijs
 * Op naleving gerichte trainingsprogramma&#39;s die regelmatige contentupdates en leveringcycli vereisen.
 * Leerteams proberen de overhead op het gebied van contentcuratie te verminderen met behulp van AI-ondersteuning.
 
-### Een Go1-afspeellijst maken
+### Go1-afspeellijst toevoegen aan een leerpad
 
-Beheerders kunnen afspeellijsten maken met Go1-cursussen die zijn afgestemd op verschillende studentgroepen op basis van locatie, rol, product en andere criteria. U kunt handmatig afspeellijsten maken of genereren met behulp van AI.
+Beheerders kunnen een leerpad maken dat een Go1-afspeellijst bevat, zodat studenten tijdens hun training toegang hebben tot geselecteerde cursussen van derden.
 
-Een afspeellijst maken:
+Een leerpad maken:
 
 1. Meld u als beheerder aan bij Adobe Learning Manager.
-2. Selecteer **[!UICONTROL Marketplace van de Inhoud]** in de linkernavigatieruit.
+2. Selecteer **[!UICONTROL het Leren Wegen]** in de linkernavigatieruit.
+3. Selecteer **[!UICONTROL toevoegen]**.
 
-   ![](assets/select-content-marketplace.png)
-   _Onderzoek en voeg hoogste Go1 cursussen aan uw playlists toe door de Marketplace van de Inhoud in Adobe Learning Manager te selecteren_
+   ![](assets/select-add-to-lp.png)
+   _selecteer toevoegen in de sectie van de Wegen van het Leren om nieuwe gestructureerde opleidingsprogramma&#39;s voor uw studenten te creëren en te organiseren_
 
-3. Selecteer **[!UICONTROL de Hub van de Inhoud]** en toen **[!UICONTROL Bibliotheek]**.
-4. Selecteer **[!UICONTROL playlist]** creëren en kies van één van het volgende:
+4. Typ de vereiste details en selecteer **[!UICONTROL sparen]**. Zie dit [ artikel ](/help/migrated/administrators/feature-summary/learning-paths.md) voor meer informatie.
+5. Selecteer **[!UICONTROL Add Go1 Cursussen]**.
+
+   ![ alt tekst ](assets/select-go1-courses.png)
+   _voeg Go1 cursussen aan uw playlist van de Ontwikkeling van de Vaardigheid van de Motor van de Verkoop toe om het leren opties met beheerde derdeinhoud uit te breiden_
+
+6. In de **[!UICONTROL Bibliotheek]**, onderzoek naar en selecteer **[!UICONTROL creeer playlist]** en kies van één van het volgende:
 a. **[!UICONTROL met AI]**: Creeer een playlist met behulp van AI.
 b. **[!UICONTROL door mezelf]**: Creeer een playlist door cursussen aan het manueel toe te voegen.
 
-   ![](assets/select-create-playlist.png)
-   _creeer een nieuwe playlist in Adobe Learning Manager door te selecteren creeer playlist om gerichte cursussen voor uw studenten te organiseren en te leveren_
-
 **creeer een playlist met AI**
 
-Beheerders kunnen de beschrijving van de afspeellijst typen in de AI-prompt. De AI beheert de gerelateerde cursussen en maakt een afspeellijst op basis van de vereisten.
+Beheerders kunnen de beschrijving van de afspeellijst typen in de AI-prompt. De AI beheert de gerelateerde cursussen en maakt een afspeellijst op basis van de vereisten. AI genereert afspeellijsten door het leerdoel of de leerprompt van de gebruiker te interpreteren. Bij het maken van een afspeellijst kunnen beheerders ervoor kiezen om inhoud &#39;met AI&#39; te beheren, zodat het systeem grote taalmodellen kan gebruiken om de opgegeven leerdoelstellingen en inhoudsvoorkeuren zoals duur en type te begrijpen. De AI zoekt vervolgens in de inhoudsbibliotheek naar relevante leerobjecten die aan deze criteria voldoen.
 
 Een afspeellijst maken met AI:
 
@@ -900,17 +945,25 @@ Een afspeellijst maken met AI:
    ![](assets/type-a-prompt.png)
    _Type uw het leren doel om een douane playlist te creëren, die Adobe Learning Manager helpt gerichte cursussen adviseren die aan de behoeften van uw studenten worden aangepast_
 
-4. Kies de vaardigheden in de lijst en selecteer vervolgens de cursusduur en typ voor uw afspeellijst.
-5. Selecteer **[!UICONTROL Genereer playlist]**.
+4. Kies de vaardigheden in de lijst.
 
-   ![](assets/select-generate-playlist.png)
-   _pas uw playlist in Adobe Learning Manager aan door relevante vaardigheden en, cursusduur te selecteren_
+   ![](assets/select-skills.png)
+   _kies de vaardigheden van de lijst om de cursussen voor de Ingenieur van de Verkoop te leiden_
+5. Selecteer de cursusduur en typ voor uw afspeellijst.
+6. Selecteer **[!UICONTROL Genereer playlist]**. De afspeellijst wordt gemaakt met 10 cursussen en beheerders kunnen deze gebruiken om een leerpad te maken.
 
+   ![](assets/created-playlist.png)
+   _herzie uw beheerde Versterking van de Vaardigheden van de Ingenieur van de Verkoop in Adobe Learning Manager_
+7. Selecteer **[!UICONTROL toevoegen aan Bibliotheek]**.
+8. Selecteer **Ja** in de bevestigingsherinnering.
+9. Selecteer playlist van **[!UICONTROL Uitgezochte playlist om vraag]** in te voeren.
 
-De afspeellijst wordt gemaakt met 10 cursussen en beheerders kunnen deze gebruiken om een leerpad te maken.
+   ![](assets/add-playlist-to-lp.png)
+   _selecteer en voer de Verbetering van de Vaardigheden van de Ingenieur van de Verkoop van de Bibliotheek Go1 in Adobe Learning Manager_ in
 
-![](assets/created-playlist.png)
-_herzie uw beheerde Versterking van de Vaardigheden van de Ingenieur van de Verkoop in Adobe Learning Manager_
+10. Selecteer **[!UICONTROL Playlists aan het Leren Weg]** en dan **[!UICONTROL Publish]** toevoegen.
+
+De cursussen in de afspeellijst worden toegevoegd aan het leerpad. Beheerders kunnen vervolgens studenten inschrijven, die onmiddellijk kunnen beginnen met het volgen van de cursussen.
 
 **creeer manueel een playlist**
 
@@ -937,43 +990,6 @@ Een afspeellijst handmatig maken:
 5. Zoek en selecteer de gewenste cursussen.
 
 De afspeellijst is gemaakt met gerelateerde cursussen en beheerders kunnen deze gebruiken om een leerpad te maken.
-
-### Go1-afspeellijst toevoegen aan een leerpad
-
-Beheerders kunnen een leerpad maken dat een Go1-afspeellijst bevat, zodat studenten tijdens hun training toegang hebben tot geselecteerde cursussen van derden.
-
-Een leerpad maken:
-
-1. Meld u als beheerder aan bij Adobe Learning Manager.
-2. Selecteer **[!UICONTROL het Leren Wegen]** in de linkernavigatieruit.
-3. Selecteer **[!UICONTROL toevoegen]**.
-
-   ![](assets/select-add-to-lp.png)
-   _selecteer toevoegen in de sectie van de Wegen van het Leren om nieuwe gestructureerde opleidingsprogramma&#39;s voor uw studenten te creëren en te organiseren_
-
-4. Typ de vereiste details en selecteer **[!UICONTROL sparen]**. Zie dit [ artikel ](/help/migrated/administrators/feature-summary/learning-paths.md) voor meer informatie.
-5. Selecteer **[!UICONTROL Add Go1 Cursussen]**.
-
-   ![](assets/select-add-to-lp.png)
-   _voeg Go1 cursussen aan uw playlist van de Ontwikkeling van de Vaardigheid van de Motor van de Verkoop toe om het leren opties met beheerde derdeinhoud uit te breiden_
-
-6. In de **[!UICONTROL Bibliotheek]**, zoek en selecteer playlist op Uitgezochte **[!UICONTROL Go1 het scherm van Cursussen]**.
-
-   >[!NOTE]
-   >
-   >Zorg dat u het filter Gemaakt door mij instelt om uw afspeellijst gemakkelijk te vinden.
-
-   ![](assets/select-save-to-add-playlist.png)
-   _selecteer een playlist van de Ingenieur van de Verkoop van de Bibliotheek van de Cursussen Go1 in Adobe Learning Manager_
-
-7. Selecteer **[!UICONTROL toevoegen aan Bibliotheek]** en dan **[!UICONTROL sparen]**.
-
-   ![](assets/add-playlist-to-lp.png)
-   _selecteer en voer de Verbetering van de Vaardigheden van de Ingenieur van de Verkoop van de Bibliotheek Go1 in Adobe Learning Manager_ in
-
-8. Selecteer **[!UICONTROL voeg]** toe en dan **[!UICONTROL Publish]**.
-
-De cursussen in de afspeellijst worden toegevoegd aan het leerpad. Beheerders kunnen vervolgens studenten inschrijven, die onmiddellijk kunnen beginnen met het volgen van de cursussen.
 
 ## Voortgang spelerstatus opslaan voor talen
 
@@ -1044,6 +1060,18 @@ Eerder konden role.csv- en user_role.csv-bestanden alleen worden geüpload in de
 
 * Wereldwijde bedrijven beheren regionale teams door voor elke regio meerdere incrementele gebruikersbestanden te uploaden (EU, Amerika, Azië), zodat beheerders gebruikers kunnen bijwerken en nieuwe rollen voor elke regio in één workflow kunnen toewijzen.
 * Grote ondernemingen automatiseren onboarding en machtigingen door regelmatig incrementele gebruikersupdates op te nemen van HR-systemen. Dit ondersteunt naadloze updates van gebruikersprofielen en gedetailleerde roltoewijzingen zonder handmatige tussenkomst.
+
+### Nieuwe kolommen toegevoegd aan CSV-bestanden
+
+Er zijn drie nieuwe kolommen toegevoegd om de gegevens te verbeteren die worden vastgelegd in CSV-export/-import via gebruiker, rol en gebruikersrol:
+
+* **Staat van de Registratie van de Gebruiker (user.csv)**: Wijst op de huidige registratiestatus van de gebruiker.
+* **de Staat van de Rol (role.csv)**: wijst op de huidige status van rollen binnen het systeem.
+* **de Staat van de Rol van de Gebruiker (user_role.csv)**: Wijst op de status van de gebruiker-rolvereniging.
+
+Download hier de [ steekproef CSVs ](assets/sample-csv-Incremnetal.zip).
+
+
 
 ## Aanbevelingen opnieuw instellen in de Salesforce-app
 
@@ -1704,4 +1732,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
