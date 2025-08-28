@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Aanmelden
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 291d32a92e4adc44b2da71d980b2ae7261a189a0
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 33%
+source-wordcount: '221'
+ht-degree: 24%
 
 ---
 
@@ -28,19 +28,24 @@ Ga als volgt te werk om uw account te maken met behulp van de URL in de welkomst
 
    Het aanmeldingsscherm wordt weergegeven.
 
-1. Klik op Aanmelden.
+1. Selecteer Aanmelden.
 
-   ![](assets/adobeid-signin.png)
+   ![](assets/login-page.png)
 
    *Teken binnen met gebruikersnaam en wachtwoord*
 
-1. Voer Adobe ID en wachtwoord in en klik op Aanmelden.
+1. Typ de Adobe ID, het wachtwoord en klik op Aanmelden.
 
    Als u uw wachtwoord bent vergeten, klikt u op Wachtwoord vergeten? en geef uw e-mail-ID op die u hebt gebruikt bij het maken van Adobe ID.
 
-<!--
+   <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
--->
+   -->
+
+1. Typ uw gegevens in de actieve velden om uw profiel te voltooien.
+
+   ![](assets/complete-the-profile.png)
+   _Type uw informatie over de Actieve Gebieden om de profielopstelling te voltooien_
 
 1. U kunt ook Enterprise ID gebruiken door te klikken op Aanmelden met een Enterprise ID-koppeling.
 

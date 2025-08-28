@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Kleurenthema's
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 45%
+source-wordcount: '1217'
+ht-degree: 44%
 
 ---
 
@@ -174,7 +174,7 @@ De lijst hieronder geeft de onderdelen weer die kunnen worden aangepast. Om de r
    <td>
     <p>Lettertypen</p></td>
    <td>
-    <p>Een CDN is vereist voor het toepassen van de lettertypes. U moet ook delen welke lettertypefamilie moet worden toegepast.</p>
+    <p>Beheerders kunnen contact opnemen met het Adobe Learning Manager-ondersteuningsteam op <a ref="mailto:learningmanagersupport@adobe.com"> learningmanagersupport@adobe.com </a> voor het wijzigen van lettertypen. Een CDN is vereist voor het toepassen van de lettertypes. U moet ook delen welke lettertypefamilie moet worden toegepast.</p>
     <p><b>Opmerking:</b> De lettertypefamilie moet worden ondersteund in alle browsers.</p></td>
   </tr>
   <tr>
