@@ -4,7 +4,7 @@ title: Aangepaste rollen
 description: Met de functie Leerpaden kunt u aangepaste rollen definiëren en specifieke verantwoordelijkheden toewijzen aan een gebruikersset. Met deze functie kunt u verantwoordelijkheden toewijzen die buiten de bestaande rol van de persoon vallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
 workflow-type: tm+mt
 source-wordcount: '3466'
 ht-degree: 32%
@@ -23,7 +23,7 @@ U kunt een aangepaste rol maken om auteursmogelijkheden te bieden die beperkt zi
 
 Beheerders kunnen aangepaste beheerders- en aangepaste auteursrollen maken met op maat gemaakte machtigingen voor elke rol. Hieronder ziet u een overzicht van de machtigingen die aan elke rol zijn gekoppeld:
 
-**Toestemmingen van de Rol van de Auteur van 0&rbrace;**
+**Toestemmingen van de Rol van de Auteur van 0}**
 
 Aangepaste auteurs kunnen de volgende taken uitvoeren:
 
@@ -300,7 +300,7 @@ Ga als volgt te werk om meerdere aangepaste rollen aan een gebruiker toe te wijz
 
 1. Login als beheerder en selecteer **[!UICONTROL Gebruikers]**.
 2. Selecteer **[!UICONTROL de Rollen van de Douane]** op het linkerpaneel.
-3. Maak een nieuwe aangepaste rol en voeg accountbevoegdheden, catalogi, leerobjecten of bereiken toe. Verwijs de vermelde stappen [ hier ](#create-a-custom-role).
+3. Maak een nieuwe aangepaste rol en voeg accountbevoegdheden, catalogi, leerobjecten of bereiken toe. Verwijs de [ hier vermelde stappen ](#create-a-custom-role).
 4. Voeg gebruikers toe aan de aangepaste rol.
 
    ![](assets/add-users-in-custom-roles.png)
@@ -322,8 +322,8 @@ Wanneer u een CSV-bestand in Adobe Learning Manager uploadt, kunt u op een effic
 
 U kunt nu via CSV-import meerdere rollen aan een gebruiker toewijzen door twee bestanden naar Box te uploaden:
 
-* role.csv
-* user_role.csv.
+* [role.csv](assets/role.csv)
+* [user_role.csv](assets/user_role.csv)
 
 Het bestand user_role.csv bevat de velden Aangepaste rol en Gebruiker-id&#39;s.
 
@@ -658,7 +658,7 @@ Wanneer u gamification opnieuw instelt, wordt de datum voor het bereikte niveau 
 
 ## Veelgestelde vragen {#frequentlyaskedquestions}
 
-+++Een aangepaste rol maken?
++++Hoe maak ik een aangepaste rol?
 
 Een aangepaste rol is als een subset van een auteurs- of beheerdersrol. Sta een of enkele privileges toe, definieer het bereik en wijs de rol toe aan een gebruiker.
 
