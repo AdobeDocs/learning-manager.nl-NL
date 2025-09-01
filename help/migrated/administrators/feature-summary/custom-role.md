@@ -23,7 +23,7 @@ U kunt een aangepaste rol maken om auteursmogelijkheden te bieden die beperkt zi
 
 Beheerders kunnen aangepaste beheerders- en aangepaste auteursrollen maken met op maat gemaakte machtigingen voor elke rol. Hieronder ziet u een overzicht van de machtigingen die aan elke rol zijn gekoppeld:
 
-**Toestemmingen van de Rol van de Auteur van 0}**
+**Toestemmingen van de Rol van de Auteur van 0&rbrace;**
 
 Aangepaste auteurs kunnen de volgende taken uitvoeren:
 
