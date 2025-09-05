@@ -60,7 +60,7 @@ Studenttranscripten in Adobe Learning Manager volgen training, naleving en ontwi
 3. Selecteer **[!UICONTROL de Rapporten van de Douane]** binnen Rapporten en selecteer dan **[!UICONTROL de Rapporten van Excel]**.
 4. Selecteer **[!UICONTROL Transcripten van de Student]**.
 
-   ![]()
+   ![] ()
 
 5. Selecteer **[!UICONTROL produceer Nieuw]**.
 6. Selecteer het datumbereik waarvoor het transcript moet worden gegenereerd. Door gebrek, is de **[!UICONTROL Van]** datum de de registratiedatum van de student, en de **[!UICONTROL aan]** datum is altijd de huidige datum. U kunt alleen wijzigen vanaf welke begindatum u de gegevens nodig hebt.
@@ -74,12 +74,12 @@ b.Selecteer specifieke catalogi van de **[!UICONTROL Uitgezochte drop-down lijst
        * In bewerking 
        * Niet gestart 
        * Uitgeschreven 
-   8. Geavanceerde opties: Selecteer **[!UICONTROL Geavanceerde opties]** om de transcripties te downloaden om het volgende te omvatten:
+   &#x200B;8. Geavanceerde opties: Selecteer **[!UICONTROL Geavanceerde opties]** om de transcripties te downloaden om het volgende te omvatten:
 
    a. Download transcripten voor studenten die uit een account zijn verwijderd door het selectievakje **[!UICONTROL Inclusief verwijderde studenten]** in te schakelen.
 b. De informatie van het moduleniveau van de download in het transcript van de Student door **[!UICONTROL toe te laten de informatie van het moduleniveau]** checkbox. In dit geval worden de modulenamen en de tijd die aan elke module wordt doorgebracht als onderdeel van het transcript opgehaald als deze optie is ingeschakeld.
 c. Download vaardigheidsgegevens en samenvattingsbladen door de optie **[!UICONTROL toe te laten omvat vaardigheidsgegevens en samenvattingsbladen]** checkbox. Zie de sectie van de Rapporten van Excel voor meer informatie.
-9. U kunt ook de kolomwaarden selecteren die in het rapport moeten worden ingevuld. Dit biedt flexibiliteit om rapporten met specifieke kolomwaarden te downloaden zoals vereist. Selecteer de kolommen in de vervolgkeuzelijst.
+&#x200B;9. U kunt ook de kolomwaarden selecteren die in het rapport moeten worden ingevuld. Dit biedt flexibiliteit om rapporten met specifieke kolomwaarden te downloaden zoals vereist. Selecteer de kolommen in de vervolgkeuzelijst.
 
    
 
@@ -195,7 +195,7 @@ Deze hebben betrekking op cursussen, modules, leerpaden, certificeringen, enzovo
 
 ## Excel-rapporten
 
-In het dialoogvenster Studenttranscripten kunt u ook vaardigheidsgegevens en overzichtsbladen downloaden als Excel-bestanden. Selecteer **[!UICONTROL omvatten de gegevens van Vaardigheden en summiere bladen]** checkbox en selecteer dan **** produceren om een Excel dossier met de volgende bladen te downloaden:
+In het dialoogvenster Studenttranscripten kunt u ook vaardigheidsgegevens en overzichtsbladen downloaden als Excel-bestanden. Selecteer **[!UICONTROL omvatten de gegevens van Vaardigheden en summiere bladen]** checkbox en selecteer dan **&#x200B;**&#x200B;produceren om een Excel dossier met de volgende bladen te downloaden:
 
 * Leermateriaaloverzicht I
 * Leermateriaaloverzicht II
