@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Collega-accounts
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 57%
+source-wordcount: '696'
+ht-degree: 52%
 
 ---
 
@@ -54,6 +54,18 @@ Het is mogelijk gekochte plaatsen te delen in Learning Manager met behulp van de
 
    Als een beheerder plaatsen deelt met een collega, kan de collega deze niet met iemand anders delen. De collega kan echter afzonderlijk een aantal plaatsen kopen en deze delen.
 
+## De plaatsen weergeven die worden gedeeld door collega-accounts
+
+Beheerders kunnen het aantal plaatsen zien dat door de collega-accounts wordt gedeeld in de beheerdersinterface.
+
+De plaatsen weergeven die worden gedeeld door het collega-account:
+
+1. Meld u als beheerder aan bij Adobe Learning Manager.
+2. Selecteer **[!UICONTROL Gebruikers]** en selecteer dan **[!UICONTROL Intern]**.
+
+![](assets/peer-account-seats.png)
+_sectie die van Gebruikers het aantal plaatsen tonen door de peer rekening wordt gedeeld_
+
 ## Rapporten gekoppeld aan collega-accounts weergeven {#viewreportsassociatedwithpeeraccounts}
 
 Nadat u een collega-account heeft gemaakt, kunt u ook rapporten voor de collega-accounts uitzetten. Als u als beheerder het verzoek om een collega-account initieert, kunt u de rapporten voor het collega-account bekijken.
@@ -90,7 +102,7 @@ Om de rapporten voor peer rekeningen te downloaden, klik **[!UICONTROL Download]
 
 ## Veelgestelde vragen {#frequentlyaskedquestions}
 
-+++How om plaatsen van één rekening aan een andere te delen?
++++Hoe kan ik licenties van de ene account naar de andere delen?
 
 Wanneer u een collega-account toevoegt, kunt u het aantal plaatsen opgeven dat u met een andere collega-account kunt delen.
 

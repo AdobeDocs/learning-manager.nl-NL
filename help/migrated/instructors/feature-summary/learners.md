@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Studenten beheren voor uw sessie
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 71%
+source-wordcount: '1256'
+ht-degree: 69%
 
 ---
 
@@ -115,7 +115,9 @@ Voer een van de volgende handelingen uit om e-mails naar studenten te sturen via
 
 ## Antwoorden uitnodigingen vastleggen
 
-U kunt reacties op uitnodigingen weergeven in de sectie Studenten. Ga naar om het even welke zitting, selecteer **[!UICONTROL Studenten]**, en selecteer de uitnodigingsreactie van het dropdown menu.
+De instructeurs kunnen de uitnodigingsreacties van studenten vangen slechts wanneer de **[!UICONTROL optie van het Antwoord]** wordt toegelaten door de beheerder ACAP. Om deze eigenschap toe te laten, moeten de beheerders het ondersteuningsteam in [ learningmanagersupport@adobe.com ](mailto:learningmanagersupport@adobe.com) contacteren.
+
+Zodra gedaan, kunt u uitnodigingsreacties in de **[!UICONTROL sectie van Studenten]** bekijken. Ga naar om het even welke zitting, selecteer **[!UICONTROL Studenten]**, en selecteer de uitnodigingsreactie van het dropdown menu.
 
 ![](assets/invitation-status.png)
 
