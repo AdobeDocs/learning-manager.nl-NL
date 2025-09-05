@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Kleurenthema's
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1261'
 ht-degree: 44%
 
 ---
@@ -186,6 +186,17 @@ De lijst hieronder geeft de onderdelen weer die kunnen worden aangepast. Om de r
     <ul>
      <li><b>Aanbevolen afbeeldingsindeling:</b> PNG, JPG, JPEG</li>
      <li><b>Aanbevolen grootte: </b>1400x908 px</li>
+    </ul></td>
+  </tr>
+   <tr>
+   <td>
+    <p>favicon</p></td>
+   <td>
+    <p>Beheerders kunnen het favicon voor het Adobe Learning Manager-account niet wijzigen. Om favicon bij te werken, contacteer het team van de Steun in <a href="mailto:learningmanagersupport@adobe.com"> learningmanagersupport@adobe.com</a> </p>
+    <p>U moet de afbeelding hebben die u moet toepassen op de achtergrond van de student.</p>
+    <ul>
+     <li><b> geadviseerd formaat van het Beeld:</b> PNG</li>
+     <li><b> Geadviseerde Grootte: </b> 32x32 px</li>
     </ul></td>
   </tr>
  </tbody>

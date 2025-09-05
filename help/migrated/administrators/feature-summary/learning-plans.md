@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Leerplannen
 contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 61%
+source-wordcount: '1629'
+ht-degree: 60%
 
 ---
 
@@ -34,7 +34,8 @@ U moet u aanmelden als beheerder om een leerplan te maken.
 
    ![](assets/add-learning-plandialog.png)
 
-1. Kies de gewenste gebeurtenis in de vervolgkeuzelijst **[!UICONTROL Treedt op wanneer]**. De opties bepalen wanneer een student de cursus volgt. Selecteer na het type gebeurtenis de juiste training, cursussen, leerprogramma of certificering.
+1. Kies de gewenste gebeurtenis in de vervolgkeuzelijst **[!UICONTROL Treedt op wanneer]**. Beheerders kunnen één gebeurtenis tegelijk toevoegen.
+De opties bepalen wanneer een student de cursus volgt. Selecteer na het type gebeurtenis de juiste training, cursussen, leerprogramma of certificering.
 
 >[!NOTE]
 >
@@ -43,30 +44,30 @@ U moet u aanmelden als beheerder om een leerplan te maken.
 
 De gebeurtenissen zijn:
 
-**1 - Nieuwe student toegevoegd:** Wanneer een nieuwe gebruiker of werknemer zich bij de organisatie aansluit.
+**1 - de Nieuwe Student wordt toegevoegd:** wanneer een nieuwe gebruiker of een werknemer zich bij de organisatie aansluit.
 
 ![](assets/new-learner-is-added.png)
 
-**2 - Student wordt toegevoegd aan een groep:** Wanneer een nieuwe gebruiker of werknemer zich bij een groep aansluit.  Typ en selecteer de gebruikersgroep in de vervolgkeuzelijst waarop deze gebeurtenis van toepassing is. U kunt meerdere groepen kiezen. U kunt door het selecteren van de optie deze gebeurtenis ook toewijzen aan alle bestaande leden van deze groepen.
+**2 - de Student wordt toegevoegd aan een groep:** wanneer een nieuwe gebruiker of een werknemer zich bij een groep aansluit.  Typ en selecteer de gebruikersgroep in de vervolgkeuzelijst waarop deze gebeurtenis van toepassing is. U kunt meerdere groepen kiezen. U kunt door het selecteren van de optie deze gebeurtenis ook toewijzen aan alle bestaande leden van deze groepen.
 
 ![](assets/learner-gets-addedtoagroup.png)
 
 Dit leerplan is specifiek ontworpen voor ***Aangepaste gebruikersgroepen***. Typ de naam van de groep in het veld en gebruik automatisch aangevulde zoeksuggesties om de groep of groepen te kiezen.
 
-**3 - Student wordt uit een groep verwijderd:** De gebeurtenis wordt geactiveerd wanneer een gebruiker of student uit een groep is verwijderd. Typ en selecteer de gebruikersgroep in de vervolgkeuzelijst waarop deze gebeurtenis van toepassing is. U kunt meerdere groepen kiezen.
+**3 - de Student wordt verwijderd uit een groep:** de gebeurtenis wordt teweeggebracht wanneer een gebruiker of een student uit een groep verwijderde. Typ en selecteer de gebruikersgroep in de vervolgkeuzelijst waarop deze gebeurtenis van toepassing is. U kunt meerdere groepen kiezen.
 
 ![](assets/learner-removed-from-group.png)
 
 
-**4 - De student voltooit een cursus/leerpad/certificering:** De gebeurtenis wordt geactiveerd wanneer een student een leerobject zoals een cursus, leerprogramma enzovoort voltooit. Selecteer het leerobject waarop deze gebeurtenis van toepassing is. Selecteer de voltooiingsstatus van de gebeurtenis. U kunt eventueel ook de gebruikersgroep kiezen waartoe deze student behoort. Voer het aantal dagen in waarna, na het voltooien van het leerobject, deze gebeurtenis getriggerd wordt. Selecteer de optie als u deze gebeurtenis wilt toewijzen aan bestaande gebruikers die dit leerobject al hebben voltooid.
+**4 - de student voltooit een Cursus/het Leren Weg/Certificatie:** de gebeurtenis wordt teweeggebracht wanneer een student om het even welk leervoorwerp zoals cursus, leerprogramma, etc. voltooit. Selecteer het leerobject waarop deze gebeurtenis van toepassing is. Selecteer de voltooiingsstatus van de gebeurtenis. U kunt eventueel ook de gebruikersgroep kiezen waartoe deze student behoort. Voer het aantal dagen in waarna, na het voltooien van het leerobject, deze gebeurtenis getriggerd wordt. Selecteer de optie als u deze gebeurtenis wilt toewijzen aan bestaande gebruikers die dit leerobject al hebben voltooid.
 
 ![](assets/learner-completealearningobject.png)
 
-**5 - Student mislukt een module van een cursus:** De gebeurtenis wordt geactiveerd wanneer een student een leerobject zoals een cursus, leerprogramma enzovoort mislukt. Selecteer het leerobject waarop deze gebeurtenis van toepassing is. U kunt ook de gebruikersgroep kiezen waartoe deze student behoort.
+**5 - de student ontbreekt een Module van een Cursus:** de gebeurtenis wordt teweeggebracht wanneer een student om het even welk leervoorwerp zoals cursus, leerprogramma, etc. ontbreekt. Selecteer het leerobject waarop deze gebeurtenis van toepassing is. U kunt ook de gebruikersgroep kiezen waartoe deze student behoort.
 
 ![](assets/learner-fails-module.png)
 
-**4 - Student bereikt een vaardigheidsniveau:** Voer de vaardigheidsnaam in en selecteer het vaardigheidsniveau. U kunt ook de gebruikersgroep kiezen waartoe deze student behoort. Dit is optioneel. Voer het aantal dagen in waarna, na het bereiken van de vaardigheid, deze gebeurtenis wordt geactiveerd. Selecteer de optie als u deze gebeurtenis wilt toewijzen aan bestaande studenten die deze vaardigheid al hebben verworven.
+**4 - de student bereikt een vaardigheidsniveau:** ga de vaardigheidsnaam in en selecteer het vaardigheidsniveau. U kunt ook de gebruikersgroep kiezen waartoe deze student behoort. Dit is optioneel. Voer het aantal dagen in waarna, na het bereiken van de vaardigheid, deze gebeurtenis wordt geactiveerd. Selecteer de optie als u deze gebeurtenis wilt toewijzen aan bestaande studenten die deze vaardigheid al hebben verworven.
 
 ![](assets/learner-achievesaskilllevel.png)
 
@@ -74,7 +75,7 @@ U kunt daarnaast het aantal dagen instellen waarna het leerplan aan de studenten
 
 ![](assets/assign-learning.png)
 
-**5 - Op een bepaalde datum:** Wanneer de gebeurtenissen op een bepaalde datum moeten plaatsvinden. Selecteer de datum waarop de gebeurtenis moet worden toegewezen. Selecteer de gebruikersgroepen waarvoor de gebeurtenis automatisch moet worden toegewezen. Selecteer de instanties die moeten worden toegewezen en voer eventueel in na hoeveel dagen de gebeurtenis moet worden geactiveerd.
+**5 - op een specifieke datum:** Wanneer de gebeurtenissen op een specifieke datum moeten voorkomen. Selecteer de datum waarop de gebeurtenis moet worden toegewezen. Selecteer de gebruikersgroepen waarvoor de gebeurtenis automatisch moet worden toegewezen. Selecteer de instanties die moeten worden toegewezen en voer eventueel in na hoeveel dagen de gebeurtenis moet worden geactiveerd.
 
 ![](assets/on-a-specific-date.png)
 
@@ -92,16 +93,16 @@ U kunt daarnaast het aantal dagen instellen waarna het leerplan aan de studenten
 
 Bij het toevoegen van een leerplan kan een Beheerder gebruikers uitschrijven uit bepaalde trainingen op basis van bepaalde triggers.
 
-Klik in de Admin-app op **[!UICONTROL Leerplannen]** > **[!UICONTROL Toevoegen]**.
+Voor Admin app, klik **[!UICONTROL Leerplannen]** > **[!UICONTROL voeg]** toe.
 
-De volgende secties geven de triggers aan waar de optie **[!UICONTROL Uitschrijven van training]** is toegevoegd.
+De volgende secties vertegenwoordigen de trekkers waar de optie **[!UICONTROL uitschrijving van Opleiding]** is toegevoegd.
 
 ![](assets/unenroll-courses.png)
 
 ## Student wordt uit een groep verwijderd {#learnergetsremovedfromagroup}
 
 1. Een of meer gebruikersgroepen toevoegen. Als er meerdere groepen zijn geselecteerd, wordt het lidmaatschap geactiveerd wanneer een student uit een van de genoemde groepen wordt verwijderd.
-1. De handeling kiezen als **[!UICONTROL Uitschrijven van training]**.
+1. Kies de actie als **[!UICONTROL uitschrijving van opleiding]**.
 
    1. De beheerder kan kiezen uit welke trainingen de gebruiker wordt uitgeschreven wanneer deze uit de gebruikersgroep wordt verwijderd.
    1. De instantie- en voltooiingsdatum zijn in dit scenario niet van toepassing.
@@ -111,7 +112,7 @@ De volgende secties geven de triggers aan waar de optie **[!UICONTROL Uitschrijv
 ## Student voltooit een training {#learnercompletesatraining}
 
 1. Een of meer gebruikersgroepen toevoegen. Als er meerdere groepen zijn geselecteerd, wordt het lidmaatschap geactiveerd wanneer een student de opgegeven training heeft voltooid.
-1. De handeling kiezen als **[!UICONTROL Uitschrijven van training]**.
+1. Kies de actie als **[!UICONTROL uitschrijving van opleiding]**.
 
    1. De Beheerder kan de trainingen kiezen waar de gebruiker wordt uitgeschreven als hij/zij wordt toegevoegd aan een gebruikersgroep.
    1. In dit geval zijn de instantie- en voltooiingsdatum niet van toepassing.
@@ -121,7 +122,7 @@ De volgende secties geven de triggers aan waar de optie **[!UICONTROL Uitschrijv
 ## Student is niet geslaagd voor een module of cursus
 
 1. Een of meer gebruikersgroepen toevoegen. Als er meerdere groepen zijn geselecteerd, wordt het lidmaatschap geactiveerd wanneer een student de opgegeven training niet heeft doorstaan.
-1. De handeling kiezen als **[!UICONTROL Uitschrijven van training]**.
+1. Kies de actie als **[!UICONTROL uitschrijving van opleiding]**.
 
    1. De Beheerder kan de trainingen kiezen waar de gebruiker wordt uitgeschreven als hij/zij wordt toegevoegd aan een gebruikersgroep.
    1. In dit geval zijn de instantie- en voltooiingsdatum niet van toepassing.
@@ -156,16 +157,16 @@ De volgende secties geven de triggers aan waar de optie **[!UICONTROL Uitschrijv
 
 ## Leerplan bewerken {#editalearningplan}
 
-Na het maken van een leerplan kan de beheerder het leerplan op elk moment bewerken/bijwerken. Selecteer de naam van het leerplan en wijzig de waarden in het dialoogvenster **[!UICONTROL Leerplan bewerken]** dat wordt weergegeven.  Selecteer **[!UICONTROL Opslaan]**.
+Na het maken van een leerplan kan de beheerder het leerplan op elk moment bewerken/bijwerken. Om uit te geven, selecteer de naam van het het leren plan en wijzig de waarden in **[!UICONTROL het Leren Plan]** pop-up dialoog die verschijnt.  Selecteer **[!UICONTROL Opslaan]**.
 
 >[!NOTE]
 >
->U kunt de **[!UICONTROL Vindt plaats wanneer]** in het dialoogvenster **[!UICONTROL Leerplan bewerken]** pop-up.
+>U kunt **[!UICONTROL niet wijzigen komt voor wanneer]** optie in **[!UICONTROL het Leren Plan]** pop-up uitgeeft.
 
 
 ## Leerplan inschakelen {#enablealearningplan}
 
-Standaard zijn alle nieuwe leerplannen die u hebt gemaakt, uitgeschakeld. U moet een plan inschakelen waaraan een student moet worden toegewezen. Wanneer u het selectievakje inschakelt **[!UICONTROL Huidige studenten]**, wordt de gebeurtenis op zichzelf ingeschakeld.
+Standaard zijn alle nieuwe leerplannen die u hebt gemaakt, uitgeschakeld. U moet een plan inschakelen waaraan een student moet worden toegewezen. Wanneer u de controledoos **[!UICONTROL Huidige Studenten]** toelaat, wordt de gebeurtenis toegelaten door zich.
 
 Zo schakelt u een leerplan in:
 
@@ -173,14 +174,14 @@ Zo schakelt u een leerplan in:
 
    ![](assets/list-of-learningplans.png)
 
-1. Klik rechtsboven op de pagina op **[!UICONTROL Handelingen]** > **[!UICONTROL Inschakelen]**. Het leerplan wordt ingeschakeld.
+1. Op de hoger-juiste hoek van de pagina, klik **[!UICONTROL Acties]** > **[!UICONTROL toelaten]**. Het leerplan wordt ingeschakeld.
 
 ## Leerplan verwijderen {#deletealearningplan}
 
 Zo verwijdert u een leerplan:
 
 1. Kies het plan dat u wilt verwijderen uit de lijst met leerplannen.
-1. Klik rechtsboven op de pagina op **[!UICONTROL Handelingen]** > **[!UICONTROL Verwijderen]**.
+1. Op de hoger-juiste hoek van de pagina, klik **[!UICONTROL Acties]** > **[!UICONTROL Schrapping]**.
 
 ## Leerplan uitschakelen {#disablealearningplan}
 
@@ -188,7 +189,7 @@ Zo schakelt u een leerplan uit:
 
 1. Klik op het tabblad **[!UICONTROL Ingeschakeld]**.
 1. Kies het plan dat u wilt uitschakelen uit de lijst met leerplannen.
-1. Klik rechtsboven op de pagina op **[!UICONTROL Handelingen]** > **[!UICONTROL Uitschakelen]**. Hiermee verplaatst u het plan naar het tabblad **[!UICONTROL Uitgeschakeld]**.
+1. Op de hoger-juiste hoek van de pagina, klik **[!UICONTROL Acties]** > **[!UICONTROL maak]** onbruikbaar. Hiermee verplaatst u het plan naar het tabblad **[!UICONTROL Uitgeschakeld]**.
 
 ## Leerplan filteren {#filteralearningplan}
 
@@ -200,7 +201,7 @@ U kunt leerplannen filteren op basis van het type gebeurtenis dat is gebruikt om
 
 1. Hoe stel ik Leermanager in om automatische inschrijvingen voor onboarding van nieuwe medewerkers te configureren?
 
-   In het dialoogvenster **[!UICONTROL Vindt plaats wanneer]** vervolgkeuzelijst, kiest u de optie **[!UICONTROL Nieuwe student toegevoegd]**. Wijs vervolgens de leerobjecten, de instantie en de voltooiingsdatum voor de student toe. Zowel beheerders als auteurs kunnen gebeurtenissen voor automatische inschrijving maken. Schakel de gebeurtenis in nadat u deze hebt gemaakt.
+   In **[!UICONTROL komt voor wanneer]** drop-down lijst, de optie **[!UICONTROL Nieuwe Student wordt toegevoegd]**. Wijs vervolgens de leerobjecten, de instantie en de voltooiingsdatum voor de student toe. Zowel beheerders als auteurs kunnen gebeurtenissen voor automatische inschrijving maken. Schakel de gebeurtenis in nadat u deze hebt gemaakt.
 
 1. Hoe stel ik een leerplan/automatische inschrijving in voor een klassikale en virtuele klassikale cursus?
 
@@ -208,4 +209,4 @@ U kunt leerplannen filteren op basis van het type gebeurtenis dat is gebruikt om
 
 1. Hoe bekijk ik de lijst met studenten die zijn ingeschreven voor een specifiek leerplan?
 
-   Wanneer de instantie, Automatisch, wordt gemaakt, klikt u op **[!UICONTROL Cursus]** > **[!UICONTROL Studenten]** en kiest u de gewenste instantie in het menu **[!UICONTROL Instantie]** vervolgkeuzelijst.
+   Wanneer de instantie, Auto, wordt gecreeerd, klik **[!UICONTROL Cursus]** > **[!UICONTROL Studenten]**, en kies de vereiste instantie van de **[!UICONTROL drop-down lijst van de Instantie]**.

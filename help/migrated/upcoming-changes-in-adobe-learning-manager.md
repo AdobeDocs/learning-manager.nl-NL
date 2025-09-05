@@ -2,7 +2,7 @@
 title: Nieuwe functies in de Adobe Learning Manager-versie van oktober
 description: Meer informatie over de nieuwe functies, verbeteringen en belangrijke updates in de Adobe Learning Manager-versie van oktober 2025.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: c16f18e5ab5df120ab5fb40bbf77af2b3f6f43bb
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
 source-wordcount: '8390'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Houd er rekening mee dat de geschetste functies voorlopig zijn en kunnen worden gewijzigd. Neem contact op met uw aangewezen Customer Success Manager voor meer informatie en bevestiging. Als u om het even welke kwesties ontmoet, gelieve ons team van de Steun van de Klant in [ learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com) te contacteren
+>Houd er rekening mee dat de geschetste functies voorlopig zijn en kunnen worden gewijzigd. Neem contact op met uw aangewezen Customer Success Manager voor meer informatie en bevestiging. Als u om het even welke kwesties ontmoet, gelieve ons team van de Steun van de Klant in [ learningmanagersupport@adobe.com ](mailto:learningmanagersupport@adobe.com) te contacteren.
 
 ## Overzicht van de release
 
@@ -277,7 +277,7 @@ Gebruikers in een sociaal board van tags voorzien:
    ![](assets/select-new-post.png)
    _Begin een nieuwe bespreking door Nieuw Post in Sociaal Leren te selecteren om kennis met de geëtiketteerde gebruikers te delen_
 
-4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1&rbrace; optie van de Raad van de Discussie.]**
+4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1} optie van de Raad van de Discussie.]**
 
    ![](assets/select-boards-in-social-board.png)
    _selecteer een discussieboard om gebruikers te posten en te etiketteren, toelatend gerichte samenwerkingsgesprekken in Sociaal Leren_
@@ -1732,4 +1732,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

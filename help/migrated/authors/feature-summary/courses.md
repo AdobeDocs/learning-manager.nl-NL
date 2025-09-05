@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Cursussen maken, wijzigen en publiceren
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '7433'
-ht-degree: 70%
+source-wordcount: '7540'
+ht-degree: 69%
 
 ---
 
@@ -496,7 +496,7 @@ Auteurs kunnen HTML-koppelingen toevoegen aan de activiteitenmodule en de voltoo
 1. Selecteer **[!UICONTROL voeg]** van het **[!UICONTROL scherm van de Catalogus van de Cursus]** toe
 1. Typ de naam en beschrijving van de cursus.
 1. In de **[!UICONTROL optie van de Module]**, uitgezochte **[!UICONTROL Module]** > **[!UICONTROL Module van de Activiteit]** toevoegen.
-1. In de **[!UICONTROL herinnering van de Module van de Activiteit 0&rbrace;, typ de naam en de beschrijving.]**
+1. In de **[!UICONTROL herinnering van de Module van de Activiteit 0}, typ de naam en de beschrijving.]**
 1. Selecteer het **[!UICONTROL Type]** als **[!UICONTROL Externe URL]**.
 1. Selecteer om het even welke volgende opties van de **[!UICONTROL optie van de Criteria van de Voltooiing]**.
    * **[!UICONTROL de tekens van de student volledig]**: De student heeft de optie om de cursus als volledig in de Fluidic Player te merken.
@@ -628,7 +628,7 @@ Docenten in staat stellen het succes van de student te markeren:
 2. Selecteer **[!UICONTROL creeer Cursussen]** op de homepage.
 3. Selecteer **[!UICONTROL toevoegen]**.
 4. Typ de noodzakelijke details en selecteer **[!UICONTROL Modules]** toevoegen.
-5. Selecteer **[!UICONTROL of]** Module van de Klaslokaal van 0&rbrace; Virtuele Module **[!UICONTROL .]**
+5. Selecteer **[!UICONTROL of]** Module van de Klaslokaal van 0} Virtuele Module **[!UICONTROL .]**
 6. Typ de benodigde gegevens en selecteer de datums.
 7. Selecteer **[!UICONTROL sta Instructeur toe om succes]** optie te merken.
 
@@ -737,7 +737,19 @@ Het venster met cursusinformatie wordt weergegeven. De cursus bevindt zich in de
 
 ## Een cursus archiveren {#retireacourse}
 
+Beheerders kunnen de optie voor archiveren inschakelen voor een Adobe Learning Manager-account. Met deze functie kunnen beheerders een cursus archiveren, zodat deze niet beschikbaar is voor nieuwe inschrijvingen, terwijl de toegang voor momenteel ingeschreven studenten behouden blijft.
+
 Door een cursus af te sluiten, worden studenten verborgen, zelfs als ze zijn ingeschreven of de cursus al hebben voltooid. Als u een cursus archiveert, kunt u geen nieuwe studenten voor de cursus inschrijven. Studenten die al zijn ingeschreven, kunnen de cursus volgen.
+
+De optie Archiveren inschakelen voor een Adobe Learning Manager-account:
+
+1. Meld u als beheerder aan bij Adobe Learning Manager.
+2. Selecteer **[!UICONTROL Montages]** en selecteer dan **[!UICONTROL Algemeen]**.
+3. Selecteer een van de volgende opties voor archiveren:
+   * Na archivering kunnen ingeschreven studenten acties bekijken en uitvoeren, maar nog niet ingeschreven studenten verliezen hun toegang.
+   * Na archivering verliezen zowel ingeschreven als nog niet ingeschreven studenten de toegang.
+
+De beheerders kunnen een cursus van de **[!UICONTROL pagina van Cursussen]** archiveren.
 
 Zet de muis op de opties op de cursuskaart en klik op Een cursus archiveren om dit te doen.
 
@@ -843,7 +855,7 @@ U kunt de cursusmodules ook naar Learning Manager publiceren vanuit Adobe Captiv
 1. Meld u aan met uw Adobe-gegevens. Klik op **[!UICONTROL Account aanmaken]** als u geen Adobe ID hebt. Na autorisatie wordt u doorverwezen naar de pagina voor het publiceren van de module.
 1. Geef alle basisinformatie over de module en klik op Publiceren.
 
-U kunt de gepubliceerde module bekijken op de Learning Manager-pagina voor modules. Ga voor meer informatie naar [Project publiceren naar Adobe Learning Manager](https://helpx.adobe.com/nl/captivate/classic/publish-project-to-captivate-prime.html).
+U kunt de gepubliceerde module bekijken op de Learning Manager-pagina voor modules. Ga voor meer informatie naar [Project publiceren naar Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Cursuseffectiviteit {#courseeffectiveness}
 
@@ -935,7 +947,7 @@ U moet de standaardcatalogus uitschakelen en aangepaste catalogi maken.
 1. Klik in het linkerdeelvenster op **[!UICONTROL Intern delen]** of **[!UICONTROL Extern delen]**, afhankelijk van uw doelgroep.
 
 1. Klik op **[!UICONTROL Gebruikersgroepen toevoegen]** om een gebruikersgroep toe te voegen.
-1. Voor de pagina van Catalogi, maak de **D [!UICONTROL &#x200B; standaardCatalogus]** onbruikbaar, en laat de catalogus toe die u hebt gecreeerd.
+1. Voor de pagina van Catalogi, maak de **D [!UICONTROL  standaardCatalogus]** onbruikbaar, en laat de catalogus toe die u hebt gecreeerd.
 
 ![](assets/enable-custom-catalog.png)
 

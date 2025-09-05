@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Dashboard Groep succesvol
 description: Meer informatie over het groepssuccesdashboard in Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,19 @@ Een beheerder kan de dashboards inschakelen en maken door er een naam aan te gev
 De beheerder moet het Groepssuccesdashboard voor het account inschakelen. Ga als volgt te werk om het groepssuccesdashboard in te schakelen:
 
 1. Meld u aan als beheerder.
-2. Selecteer **[!UICONTROL &#x200B; Montages &#x200B;] &#x200B;** en selecteer dan **[!UICONTROL Rapporten]**.
+2. Selecteer **[!UICONTROL  Montages ] **en selecteer dan **[!UICONTROL Rapporten]**.
 3. Selecteer de **[!UICONTROL knevel van het Dashboard zicht]**.
 4. Typ de dashboardnaam (bijvoorbeeld, **[!UICONTROL Dashboard van de Manager van de Opslag]**).
    ![](assets/enable-gsd.png)
    _Gebieden voor dashboardnaam, gebruikersgroep, en het leren padselectie_
 5. Selecteer **[!UICONTROL Zichtbaarheid van het Overzicht]** om de overzichtssectie in het dashboard toe te laten. In deze sectie kunt u de voortgang van maximaal 50 studenten bekijken.
+
+   >[!NOTE]
+   >
+   >Als er meer dan 50 studenten in het team of meer dan 50 het leren voorwerpen zijn, ga naar het **[!UICONTROL lusje van het Transcriptie van de Student]** in plaats van het **[!UICONTROL Overzicht]** tabel.
+
 6. Voor de **[!UICONTROL sectie van het Transcriptie van de Student]**, selecteer de vereiste kolommen die u wilt bekijken.
+
 
    * Student
    * Paden en cursussen

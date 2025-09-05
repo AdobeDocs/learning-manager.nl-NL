@@ -3,9 +3,9 @@ description: Leer hoe u Active Fields in Adobe Learning Manager kunt gebruiken o
 jcr-language: en_us
 title: Actieve velden in Adobe Learning Manager configureren
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,10 @@ Actieve velden configureren:
 
 3. Selecteer **sparen** om uw veranderingen toe te passen.
 
+>[!NOTE]
+>
+>Het toewijzen van een nieuwe rol heeft geen invloed op aangepaste gebruikersgroepen. Dit is echter wel van invloed op automatisch gegenereerde gebruikersgroepen zoals Alle beheerders, Alle auteurs en vergelijkbare op rollen gebaseerde groepen.
+
 ## Actieve velden met meerdere waarden
 
 Met meerdere waarden voor actieve velden kunt u meerdere waarden toewijzen aan één gebruikerskenmerk, zoals locaties, taaktitels of projectteams. Zo kunt u gedetailleerdere en flexibele gebruikersinformatie vastleggen.
@@ -118,8 +122,10 @@ _Checkbox om waardebeperking tijdens CSV toe te laten uploadt_
 
 ## Ontbrekende actieve velden beheren in CSV-import van gebruiker
 
-In sommige gevallen geven beheerders er de voorkeur aan dat studenten bepaalde actieve velden handmatig invullen wanneer ze zich aanmelden bij Adobe Learning Manager. Dit wordt ondersteund voor gebruikers die zijn geïmporteerd via een CSV-bestand. Verwijs naar dit [ artikel ](/help/migrated/administrators/feature-summary/add-users-user-groups.md) voor hoe te om gebruikers in bulk toe te voegen.
+In sommige gevallen geven beheerders er de voorkeur aan dat studenten bepaalde actieve velden handmatig invullen wanneer ze zich aanmelden bij Adobe Learning Manager. Dit wordt ondersteund voor gebruikers die zijn geïmporteerd via een CSV-bestand. Verwijs naar dit [ artikel ](/help/migrated/administrators/feature-summary/add-users-user-groups.md) voor hoe te om gebruikers in bulk toe te voegen. Gebruikers worden automatisch toegevoegd aan actieve velden of op rollen gebaseerde groepen op basis van Box FTP-veldwaarden. Ze kunnen niet worden toegevoegd aan Aangepaste groepen.
 
 Als een CSV-bestand niet alle actieve velden bevat, moet de beheerder de ontbrekende waarden na het importeren handmatig invoeren.
 
-Standaard moet elk actief veld worden toegewezen aan een overeenkomstig veld in de bron-CSV. Nochtans, als u geen specifiek actief gebied aan om het even welke kolom in CSV wilt in kaart brengen, kunt u de waarde **DontImportFromSource** van de drop-down lijst tijdens de de de invoerprocessen van de Doos en van FTP selecteren. Deze optie is beschikbaar wanneer u gebruikers importeert via FTP- of Box-connectoren. Verwijs naar dit [ artikel ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/connectors) voor meer informatie over de schakelaars.
+Standaard moet elk actief veld worden toegewezen aan een overeenkomstig veld in de bron-CSV. Nochtans, als u geen specifiek actief gebied aan om het even welke kolom in CSV wilt in kaart brengen, kunt u de waarde **DontImportFromSource** van de drop-down lijst tijdens de de de invoerprocessen van de Doos en van FTP selecteren. Deze optie is beschikbaar wanneer u gebruikers importeert via FTP- of Box-connectoren. Verwijs naar dit [ artikel ](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors) voor meer informatie over de schakelaars.
+
+
