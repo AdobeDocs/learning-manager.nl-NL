@@ -4,10 +4,10 @@ title: Integreer Adobe Learning Manager met AEM
 description: 'Learning Manager is Learning Management System met een geïntegreerd Learning Content Management System. Gebruikers beheren hun leerinhoud door deze naar Learning Manager te uploaden, zodat Learning Manager het volgende uitvoert: versiebeheer, toewijzingen aan cursussen, het bepalen van de zichtbaarheid voor studenten, traceren van gevolgde cursussen en rapportage naar beheerders.'
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: d487d87015e51f1b54ee3a2ed0a97398cfc09686
+source-git-commit: 65573768ca55978982d0c7bcdb0cd9009772197f
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 57%
+source-wordcount: '3117'
+ht-degree: 55%
 
 ---
 
@@ -52,7 +52,7 @@ Installeer het Captivate Prime-inhoudspakket met AEM-pakketbeheer:
 
 >[!NOTE]
 >
->Voor informatie bij het installeren van pakketten, zie [***hoe te met Pakketten*** werken ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=nl-NL#how-to-work-with-packages).
+>Voor informatie bij het installeren van pakketten, zie [***hoe te met Pakketten*** werken ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Open AEM Package Manager als AEM-auteur.
 1. Klik op de knop **[!UICONTROL Pakket uploaden]**.
@@ -212,7 +212,7 @@ Afgezien van de sjablonen die u kunt gebruiken en die geleverd worden door het r
    ![](assets/page-properties.png)
    *eigenschappen van de Pagina*
 
-1. Om de pagina tot stand te brengen, creeer **&#x200B;**.
+1. Om de pagina tot stand te brengen, creeer ****.
 
 1. Selecteer de nieuwe pagina en klik **[!UICONTROL uitgeven]**.
 
@@ -322,7 +322,7 @@ De component Learning Manager vereist dat de configuratie die in de bovenstaande
 
 De student kan de cursussen op deze pagina volgen.
 
-Om toegang te krijgen tot de Learning Manager-widget, moet de student aangemeld zijn als een AEM-gebruiker. Ook, zou het bezit **e-mail** in &quot;/profiel&quot;knoop van de lezer moeten aanwezig zijn:de knoop van de Gebruiker. Dit e-mailadres moet exact hetzelfde zijn als het e-mailadres in het Learning Manager-account.
+Om toegang te krijgen tot de Learning Manager-widget, moet de student aangemeld zijn als een AEM-gebruiker. Ook, zou het bezit **e-mail** in &quot;/profiel&quot;knoop van de rep van de Student :User knoop aanwezig moeten zijn. Dit e-mailadres moet exact hetzelfde zijn als het e-mailadres in het Learning Manager-account.
 
 De student kan de cursussen op deze pagina volgen.
 
@@ -359,15 +359,15 @@ In de **[!UICONTROL sectie van Eigenschappen]** in de paginaeigenschappen, selec
 
 De catalogusopties bevatten de volgende opties:
 
-* **[!UICONTROL Catalogus ids &#x200B;]:** komma-gescheiden catalogusids waarvoor de opleiding moet worden getoond.
-* **[!UICONTROL Soort &#x200B;]:** de orde van de Soort voor de opleiding. De opties zijn: naam, datum, aanmaakdatum, datumIngeschreven, enzovoort.
-* **[!UICONTROL Staat van de Student &#x200B;]:** keert al opleiding terug die het volgende als ingeschreven filters gebruikt, begonnen, voltooid, en niet ingeschreven. De zoekresultaten worden niet weergegeven als de sorteeroptie dateEnrolled, dueDate of dateEnrolled is.
-* **[!UICONTROL Naam van de Vaardigheid &#x200B;]:** de vaardigheid die wordt gebruikt om nauwkeurige opleiding te filtreren.
-* **[!UICONTROL naam van de markering &#x200B;]:** De markering die wordt gebruikt om nauwkeurige resultaten te filtreren.
+* **[!UICONTROL Catalogus ids ]:** komma-gescheiden catalogusids waarvoor de opleiding moet worden getoond.
+* **[!UICONTROL Soort ]:** de orde van de Soort voor de opleiding. De opties zijn: naam, datum, aanmaakdatum, datumIngeschreven, enzovoort.
+* **[!UICONTROL Staat van de Student ]:** keert al opleiding terug die het volgende als ingeschreven filters gebruikt, begonnen, voltooid, en niet ingeschreven. De zoekresultaten worden niet weergegeven als de sorteeroptie dateEnrolled, dueDate of dateEnrolled is.
+* **[!UICONTROL Naam van de Vaardigheid ]:** de vaardigheid die wordt gebruikt om nauwkeurige opleiding te filtreren.
+* **[!UICONTROL naam van de markering ]:** De markering die wordt gebruikt om nauwkeurige resultaten te filtreren.
 
 Hier volgen enkele aanvullende componenten die u kunt aanpassen:
 
-**[!UICONTROL het Leren de Types van Objecten &#x200B;]:** Filter volgens het type van het Leren Voorwerp. De ondersteunde typen zijn: cursus, certificering, jobAid en learningProgram.
+**[!UICONTROL het Leren de Types van Objecten ]:** Filter volgens het type van het Leren Voorwerp. De ondersteunde typen zijn: cursus, certificering, jobAid en learningProgram.
 
 In AEM is de titel van een kaart in een strip aanvankelijk leeg. Typ in eigenschappen de naam van de titel in widgets.html.
 
@@ -397,6 +397,22 @@ In de **[!UICONTROL Algemene sectie van Montages]**, kunt u de primaire en secun
  } 
 }
 ```
+
+### Mijn opgeslagen cursuswidgets configureren in AEM sites
+
+Met de widget Opgeslagen cursussen kunnen studenten hun cursussen met bladwijzer of opgeslagen cursussen rechtstreeks op hun leerpagina&#39;s bekijken, zodat ze gemakkelijk toegang hebben tot cursussen die ze later opnieuw willen bekijken of voltooien.
+
+De widget Mijn opgeslagen cursussen op AEM sites configureren:
+
+1. Start de AEM sites.
+2. Open de pagina op **[!UICONTROL geef]** wijze uit.
+3. Ga naar de **[!UICONTROL Browser van Componenten]** en voeg **[!UICONTROL Mijn het Leren widget]** aan de pagina toe.
+4. Selecteer de component en selecteer dan **[!UICONTROL vormen]**.
+5. Selecteer **[!UICONTROL Mijn Bewaarde Cursussen]** van het drop-down menu in de **[!UICONTROL Eigenschappen]**.
+6. Selecteer **[!UICONTROL Gedaan]** en vernieuw dan de pagina in **[!UICONTROL Voorproef]** of **[!UICONTROL Publish]** wijze.
+
+De widget wordt de opgeslagen cursussen aan de studenten weergegeven.
+
 
 ### LO-inschrijving van hogere volgorde negeren
 
