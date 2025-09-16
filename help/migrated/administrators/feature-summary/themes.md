@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Kleurenthema's
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '1261'
-ht-degree: 44%
+source-wordcount: '1295'
+ht-degree: 43%
 
 ---
 
@@ -86,6 +86,8 @@ Kies het gewenste thema uit de vervolgkeuzelijst, pas de instellingen aan en kli
 Terwijl u de wijzigingen live bekijkt, blijft het pop-upvenster Voorbeeld van livethema onderaan het scherm staan. U kunt de pop-up minimaliseren.
 
 ## Meerdere merken {#multiple-branding}
+
+Beheerders kunnen binnen de organisatie meerdere brandingstijlen toepassen. De branding kan worden aangepast op basis van actieve velden, zodat verschillende groepen gebruikers merken kunnen ervaren die zijn afgestemd op hun profiel of rol.
 
 Hieronder wordt beschreven hoe u meerdere branding implementeert:
 
