@@ -2,9 +2,9 @@
 title: Nieuwe functies in de Adobe Learning Manager-versie van oktober
 description: Meer informatie over de nieuwe functies, verbeteringen en belangrijke updates in de Adobe Learning Manager-versie van oktober 2025.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7217001ed6d4f19f43e0bed83813a956e85bd9c2
 workflow-type: tm+mt
-source-wordcount: '8390'
+source-wordcount: '8348'
 ht-degree: 0%
 
 ---
@@ -74,12 +74,6 @@ Het gebruikersrapport bevat nu extra velden waarmee gebruikers beter kunnen word
 * Ondersteunt workflows voor downstream-gebruikersbeheer via integratiemogelijkheden.
 * Verbeterde organisatorische toewijzing en beter inzicht in rapportagerelaties.
 * Behoudt organisatorische grenzen en voorkomt toevallige kruiscommunicatie.
-
-**Belangrijke overwegingen**
-
-* Als het werkingsgebied van een douanebeheerder verandert, tonen de beïnvloede aankondigingen een waarschuwingspictogram en vereisen individuele werkingsgebied terugstelt.
-* Elke aankondiging moet afzonderlijk worden bijgewerkt wanneer het bereik wordt gewijzigd.
-* Het meldingsrapport toont alleen studenten binnen het toegewezen bereik van de aangepaste beheerder.
 
 ### Gebruikersrapport met de nieuwe kolom
 
@@ -277,7 +271,7 @@ Gebruikers in een sociaal board van tags voorzien:
    ![](assets/select-new-post.png)
    _Begin een nieuwe bespreking door Nieuw Post in Sociaal Leren te selecteren om kennis met de geëtiketteerde gebruikers te delen_
 
-4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1&rbrace; optie van de Raad van de Discussie.]**
+4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1} optie van de Raad van de Discussie.]**
 
    ![](assets/select-boards-in-social-board.png)
    _selecteer een discussieboard om gebruikers te posten en te etiketteren, toelatend gerichte samenwerkingsgesprekken in Sociaal Leren_
@@ -1732,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
