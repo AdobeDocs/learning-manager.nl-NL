@@ -2,9 +2,9 @@
 title: Nieuwe functies in de Adobe Learning Manager-versie van oktober
 description: Meer informatie over de nieuwe functies, verbeteringen en belangrijke updates in de Adobe Learning Manager-versie van oktober 2025.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 7217001ed6d4f19f43e0bed83813a956e85bd9c2
+source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
 workflow-type: tm+mt
-source-wordcount: '8348'
+source-wordcount: '8361'
 ht-degree: 0%
 
 ---
@@ -271,7 +271,7 @@ Gebruikers in een sociaal board van tags voorzien:
    ![](assets/select-new-post.png)
    _Begin een nieuwe bespreking door Nieuw Post in Sociaal Leren te selecteren om kennis met de geëtiketteerde gebruikers te delen_
 
-4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1&rbrace; optie van de Raad van de Discussie.]**
+4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1} optie van de Raad van de Discussie.]**
 
    ![](assets/select-boards-in-social-board.png)
    _selecteer een discussieboard om gebruikers te posten en te etiketteren, toelatend gerichte samenwerkingsgesprekken in Sociaal Leren_
@@ -1063,9 +1063,11 @@ Er zijn drie nieuwe kolommen toegevoegd om de gegevens te verbeteren die worden 
 * **de Staat van de Rol (role.csv)**: wijst op de huidige status van rollen binnen het systeem.
 * **de Staat van de Rol van de Gebruiker (user_role.csv)**: Wijst op de status van de gebruiker-rolvereniging.
 
+>[!NOTE]
+>
+>De bovenstaande CSV-wijzigingen zijn alleen van toepassing op accounts die incrementele gebruikers gebruiken.
+
 Download hier de [ steekproef CSVs ](assets/sample-csv-Incremnetal.zip).
-
-
 
 ## Aanbevelingen opnieuw instellen in de Salesforce-app
 
@@ -1726,4 +1728,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
