@@ -212,7 +212,7 @@ Afgezien van de sjablonen die u kunt gebruiken en die geleverd worden door het r
    ![](assets/page-properties.png)
    *eigenschappen van de Pagina*
 
-1. Om de pagina tot stand te brengen, creeer ****.
+1. Om de pagina tot stand te brengen, creeer **&#x200B;**.
 
 1. Selecteer de nieuwe pagina en klik **[!UICONTROL uitgeven]**.
 
@@ -359,8 +359,8 @@ In de **[!UICONTROL sectie van Eigenschappen]** in de paginaeigenschappen, selec
 
 De catalogusopties bevatten de volgende opties:
 
-* **[!UICONTROL Catalogus ids ]:** komma-gescheiden catalogusids waarvoor de opleiding moet worden getoond.
-* **[!UICONTROL Soort ]:** de orde van de Soort voor de opleiding. De volgende sorteeropties:
+* **[!UICONTROL Catalogus ids &#x200B;]:** komma-gescheiden catalogusids waarvoor de opleiding moet worden getoond.
+* **[!UICONTROL Soort &#x200B;]:** de orde van de Soort voor de opleiding. De volgende sorteeropties:
    * naam: Sorteert leerobjecten alfabetisch van A naar Z.
    * -name: Sorteert leerobjecten alfabetisch van Z naar A.
    * datum: Sorteert op datum in oplopende volgorde.
@@ -374,13 +374,13 @@ De catalogusopties bevatten de volgende opties:
    * dueDate: Sorteert op de vervaldatum van de cursus (vroegste deadline eerst).
    * effectiviteit: Sorteert op effectiviteitsscores op basis van feedback van studenten.
    * voortgang: Sorteert op voortgang van student (minst voortgang naar de meeste).
-* **[!UICONTROL Staat van de Student ]:** keert al opleiding terug die het volgende als ingeschreven filters gebruikt, begonnen, voltooid, en niet ingeschreven. De zoekresultaten worden niet weergegeven als de sorteeroptie dateEnrolled, dueDate of dateEnrolled is.
-* **[!UICONTROL Naam van de Vaardigheid ]:** de vaardigheid die wordt gebruikt om nauwkeurige opleiding te filtreren.
-* **[!UICONTROL naam van de markering ]:** De markering die wordt gebruikt om nauwkeurige resultaten te filtreren.
+* **[!UICONTROL Staat van de Student &#x200B;]:** keert al opleiding terug die het volgende als ingeschreven filters gebruikt, begonnen, voltooid, en niet ingeschreven. De zoekresultaten worden niet weergegeven als de sorteeroptie dateEnrolled, dueDate of dateEnrolled is.
+* **[!UICONTROL Naam van de Vaardigheid &#x200B;]:** de vaardigheid die wordt gebruikt om nauwkeurige opleiding te filtreren.
+* **[!UICONTROL naam van de markering &#x200B;]:** De markering die wordt gebruikt om nauwkeurige resultaten te filtreren.
 
 Hier volgen enkele aanvullende componenten die u kunt aanpassen:
 
-**[!UICONTROL het Leren de Types van Objecten ]:** Filter volgens het type van het Leren Voorwerp. De ondersteunde typen zijn: cursus, certificering, jobAid en learningProgram.
+**[!UICONTROL het Leren de Types van Objecten &#x200B;]:** Filter volgens het type van het Leren Voorwerp. De ondersteunde typen zijn: cursus, certificering, jobAid en learningProgram.
 
 In AEM is de titel van een kaart in een strip aanvankelijk leeg. Typ in eigenschappen de naam van de titel in widgets.html.
 
