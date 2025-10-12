@@ -52,7 +52,7 @@ Installeer het Captivate Prime-inhoudspakket met AEM-pakketbeheer:
 
 >[!NOTE]
 >
->Voor informatie bij het installeren van pakketten, zie [***hoe te met Pakketten*** werken &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
+>Voor informatie bij het installeren van pakketten, zie [***hoe te met Pakketten*** werken &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=nl-NL#how-to-work-with-packages).
 
 1. Open AEM Package Manager als AEM-auteur.
 1. Klik op de knop **[!UICONTROL Pakket uploaden]**.

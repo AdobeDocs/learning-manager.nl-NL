@@ -270,7 +270,7 @@ Er zijn een paar verschillen tussen interne en externe registraties:
 | Interne gebruikers | Externe gebruikers |
 |---|---|
 | Aanmelden met Adobe ID- of SSO-referenties. | Kan zich aanmelden met een e-mail-ID. |
-| Gamification is beschikbaar | Gamification is beschikbaar. De beheerder moet gamification voor externe studenten in de [&#x200B; montages van de Gamification &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) toelaten. |
+| Gamification is beschikbaar | Gamification is beschikbaar. De beheerder moet gamification voor externe studenten in de [&#x200B; montages van de Gamification &#x200B;](https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/gamification) toelaten. |
 
 ### Extern registratieprofiel pauzeren
 
