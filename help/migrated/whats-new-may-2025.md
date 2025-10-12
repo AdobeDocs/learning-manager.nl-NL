@@ -18,19 +18,19 @@ De aanstaande release van Adobe Learning Manager introduceert een verscheidenhei
 
 Met het Group Success Dashboard (GSD) in Adobe Learning Manager kunnen beheerders en managers in real-time (60 minuten vertraging vanaf inschrijving, voortgang of voltooiing tot reflectie op het dashboard) de voortgang van de studenten in alle afdelingen of gebruikersgroepen volgen. Het ondersteunt het proactief volgen van cursusvoltooiing, inschrijving en openstaande acties, waardoor het makkelijker wordt om het leerproces voor teams te beheren. Het groepssuccesdashboard vereenvoudigt het volgen van de voortgang door op Excel gebaseerde transcripten te vervangen door een gebruiksvriendelijke interface, waardoor het gemakkelijker wordt om de activiteit van studenten te controleren op scenario&#39;s zoals prestatiebeoordelingen of nalevingscontroles. Het is vooral handig voor managers die toezicht houden op kleine teams (minder dan 50 personen), zoals winkelmanagers of interne teams, zodat ze snel de voltooiing van een cursus kunnen volgen en op schema kunnen blijven.
 
-Bekijk dit [ artikel ](/help/migrated/administrators/feature-summary/group-success-dashboard.md) voor meer informatie over het Dashboard van het Succes van de Groep.
+Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/group-success-dashboard.md) voor meer informatie over het Dashboard van het Succes van de Groep.
 
 ## Verbeteringen aan aangepaste rollen
 
 Met Adobe Learning Manager kunnen gebruikers nu meerdere aangepaste rollen hebben, zodat aangepaste beheerders verschillende verantwoordelijkheden moeten beheren. Elke rol kan tot 500 gebruikers hebben, en elke gebruiker kan tot 50 rollen hebben, die flexibiliteit in het delegeren van taken verstrekken. Gebruikers kunnen eenvoudig schakelen tussen hun toegewezen rollen via een nieuwe optie in hun profiel, zodat ze verschillende verantwoordelijkheden naadloos kunnen beheren. Beheerders kunnen rollen voor gebruikers toewijzen of wijzigen via een nieuwe koppeling op de gebruikerspagina, zodat ze zo nodig rollen kunnen toevoegen of verwijderen. Deze verbeteringen vereenvoudigen het beheer van meerdere verantwoordelijkheden, met name voor kleine teams met beperkte resources.
 
-Bekijk dit [ artikel ](/help/migrated/administrators/feature-summary/custom-role.md#assign-multiple-custom-roles-to-a-user) voor meer informatie over de douanerollen.
+Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/custom-role.md#assign-multiple-custom-roles-to-a-user) voor meer informatie over de douanerollen.
 
 ## bulkinschrijving, aanwezigheid en voltooiing van studenten {#bulk-enrollment}
 
 Met de bulkinschrijvingsfunctie van Adobe Learning Manager kunnen beheerders efficiënt grote groepen studenten inschrijven voor cursussen, certificeringen of leerprogramma&#39;s door een CSV-bestand te uploaden. Dit proces bespaart tijd, verzekert consistentie, en steunt organisatorische scalability. Bovendien kunnen beheerders en docenten de studentinformatie, aanwezigheid en voltooiing bulksgewijs bijwerken via CSV-uploads, waardoor handmatig werk wordt geminimaliseerd en de nauwkeurigheid van de gegevens wordt gegarandeerd.
 
-Bekijk dit [ artikel ](/help/migrated/administrators/feature-summary/courses.md#learner-bulk-enrollment-attendance-and-completion) voor meer informatie over de bulkinschrijving, de aanwezigheid, en de voltooiing.
+Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/courses.md#learner-bulk-enrollment-attendance-and-completion) voor meer informatie over de bulkinschrijving, de aanwezigheid, en de voltooiing.
 
 ## Inhoud bijhouden met een unieke ID en vervaldatums voor inhoud
 
@@ -43,7 +43,7 @@ Daarnaast ondersteunt de unieke Content-id integratie met contentmigratieprocess
 * Met de unieke inhoud-id kunt u gemakkelijker inhoud koppelen tussen externe systemen en Adobe Learning Manager.
 * Met de Vervaldatum kunnen auteurs verouderde inhoud bijhouden die moet worden gecontroleerd of bijgewerkt.
 
-Bekijk dit [ artikel ](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) voor meer informatie over inhoud unieke identiteitskaart en vervaldatum.
+Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) voor meer informatie over inhoud unieke identiteitskaart en vervaldatum.
 
 ## Admin AI Assistant (Bèta)
 
@@ -53,7 +53,7 @@ Met de Admin AI Assistant (Bèta) in Adobe Learning Manager kunnen beheerders sn
 
 De AI-mogelijkheden van de Adobe worden gebruikt om zoekopdrachten in natuurlijke talen mogelijk te maken voor alle leerinhoud en systeemworkflows.  De beheerders kunnen vragen zoals **stellen hoe te om gebruikers aan Adobe Learning Manager** toe te voegen of **hoe te om het Leren Wegen** toe te voegen. De Admin AI Medewerker van Adobe Learning Manager (Bèta) wordt uitsluitend opgeleid op openbaar beschikbare, Adobe-bezeten documentatie zoals, middelen die op **[!UICONTROL Experience League]** worden ontvangen. Het leert niet van of heeft geen toegang tot de inhoud van de klant, het interne trainingsmateriaal, of user-generated data.
 
-Bekijk dit [ artikel ](/help/migrated/administrators/feature-summary/alm-ai-assistant.md) voor meer informatie over de Medewerker AI (Bèta).
+Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/alm-ai-assistant.md) voor meer informatie over de Medewerker AI (Bèta).
 
 ## Nieuwe inhoudstalen
 
@@ -66,13 +66,13 @@ Adobe Learning Manager is bekend om het ondersteunen van veel talen voor zowel c
 * Kannada (kn-IN)
 * Malayalam (ml-IN)
 
-Bekijk dit [ artikel ](/help/migrated/languages-supported.md) voor een lijst van gesteunde talen in Adobe Learning Manager.
+Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/languages-supported.md) voor een lijst van gesteunde talen in Adobe Learning Manager.
 
 ## Verbeteringen op de contentmarkt
 
 Adobe Learning Manager introduceert nieuwe aanschafmodellen voor het aanschaffen van content, die meer flexibiliteit en opties bieden voor het aanschaffen van content: Premium Essentials en Premium Essential Plus. Essentiële elementen bieden rendabele oplossingen om de betrokkenheid van werknemers te vergroten en omvatten contentproviders zoals Skillshub, Thomson Reuters en Emtrain. Premium Essential Plus biedt aanvullende inhoud van premium providers zoals Blinkist, Pluralsight, Skillsoft, Traliant en Coursera.
 
-Bekijk dit [ artikel ](/help/migrated/administrators/feature-summary/content-marketplace.md) voor meer informatie over de nieuwe aankoopplannen.
+Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/content-marketplace.md) voor meer informatie over de nieuwe aankoopplannen.
 
 ## Aanmeldingstoegangsrapport in FTP, aangepaste FTP en Box {#log-in-access-report}
 
@@ -82,7 +82,7 @@ Het rapport is nu beschikbaar in de aangepaste FTP, FTP en Box, samen met bestaa
 
 Het rapport helpt bij automatisering door het exporteren van aanmeldings- en toegangsgegevens naar de FTP mogelijk te maken, waar het kan worden gecombineerd met andere rapporten om uitgebreide dashboards te maken. Deze functie is vooral handig voor organisaties die voor gegevensanalyse en -rapportage gebruikmaken van geautomatiseerde processen.
 
-Bekijk dit [ artikel ](/help/migrated/integration-admin/feature-summary/connectors.md) voor meer informatie over FTP, de schakelaars van FTP van de Douane, en van de Doos.
+Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/integration-admin/feature-summary/connectors.md) voor meer informatie over FTP, de schakelaars van FTP van de Douane, en van de Doos.
 
 ## Voorkeursupdate voor gebruikerstaal bij aanmelding via SAML
 
@@ -95,13 +95,13 @@ Wanneer gebruikers zich via SAML aanmelden, wordt hun taalvoorkeur (interface- e
 
 De functie integreert met het SAML-aanmeldingsproces om de taalvoorkeur van de gebruiker naadloos vast te leggen en bij te werken.
 
-Bekijk dit [ artikel ](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md) voor meer informatie.
+Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md) voor meer informatie.
 
 ## Verwijderde gebruikers filteren voor leegmaken
 
 Gebruikers leegmaken betekent dat ze hun gegevens definitief uit het systeem verwijderen. Sorteer gebruikers op de datum waarop ze zijn verwijderd, zodat specifieke records makkelijker te vinden en te beheren zijn. Bovendien kunnen beheerders met een nieuw filter gebruikers selecteren op basis van het jaar en de maand van verwijdering, zodat de lijst beperkt blijft tot een specifiek tijdframe. Deze wijzigingen stroomlijnen het opschoningsproces voor gebruikers, zodat beheerders gebruikers efficiënt kunnen leegmaken door meerdere records binnen een gedefinieerde periode te selecteren.
 
-Verwijs naar dit [ artikel ](/help/migrated/administrators/feature-summary/purge-users.md#filter-deleted-users-before-purging) voor meer informatie.
+Verwijs naar dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/purge-users.md#filter-deleted-users-before-purging) voor meer informatie.
 
 ## Verbeteringen voor Adobe Connect-connector
 
@@ -109,7 +109,7 @@ Verwijs naar dit [ artikel ](/help/migrated/administrators/feature-summary/purge
 
 Adobe Learning Manager biedt nu ook ondersteuning voor het selecteren van seminarruimten vanuit Adobe Connect tijdens het instellen van een VC-sessie in Connect. Voorheen kon de beheerder alleen het type vergaderruimte selecteren. Dankzij deze verbetering kan beheerder met een geldige seminarlicentie eenmalige of grootschalige gebeurtenissen (maximaal 1500 deelnemers) plannen en beheren in Adobe Learning Manager.
 
-Bekijk dit [ artikel ](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) voor meer informatie over de seminarruimte.
+Bekijk dit [&#x200B; artikel &#x200B;](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) voor meer informatie over de seminarruimte.
 
 ### Ondersteuning voor toegang tot sessieanalytics
 
@@ -121,7 +121,7 @@ _Uitgezochte zitting URL_
 ![](assets/session-dashboard.png)
 _dashboard van de Zitting_
 
-Bekijk dit [ artikel ](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html) voor meer informatie over Connect zittingsanalytics.
+Bekijk dit [&#x200B; artikel &#x200B;](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html) voor meer informatie over Connect zittingsanalytics.
 
 ## Migratiewijzigingen
 
@@ -155,16 +155,16 @@ Webhook verandert.
 
 ### Unieke id en vervaldatum van inhoud toevoegen voor inhoud die migratie gebruikt
 
-Unieke inhoud-id en Vervaldatum worden nu ondersteund tijdens de migratie. Er zijn twee extra kolommen: expiredDate en uniqueContentId toegevoegd aan het bestand module_version.csv om deze functionaliteit in te schakelen. Verwijs dit [ steekproefCSV ](assets/module_version_content.csv) en [ CSV specificatiedossier ](assets/4-module_version_content.xlsx) voor meer informatie.
+Unieke inhoud-id en Vervaldatum worden nu ondersteund tijdens de migratie. Er zijn twee extra kolommen: expiredDate en uniqueContentId toegevoegd aan het bestand module_version.csv om deze functionaliteit in te schakelen. Verwijs dit [&#x200B; steekproefCSV &#x200B;](assets/module_version_content.csv) en [&#x200B; CSV specificatiedossier &#x200B;](assets/4-module_version_content.xlsx) voor meer informatie.
 
-Bekijk dit [ artikel ](/help/migrated/integration-admin/feature-summary/migration-manual.md) voor meer informatie over het migratieproces.
+Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/integration-admin/feature-summary/migration-manual.md) voor meer informatie over het migratieproces.
 
 ## Verbeteringen voor webhooks
 
 Webhooks bieden nu ondersteuning voor gebeurtenissen voor cursussen in LP&#39;s (Learning Paths) en certificeringen wanneer inschrijving, uitschrijving of voltooiing plaatsvindt.
 Dit omvat ondersteunende gebeurtenissen voor elke cursus binnen de LP of certificering, naast de bovenliggende LO-gebeurtenis.
 
-Bekijk dit [ artikel ](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md) voor meer informatie over Webhooks.
+Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md) voor meer informatie over Webhooks.
 
 ## API-wijzigingen
 

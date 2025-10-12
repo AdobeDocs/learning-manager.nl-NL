@@ -24,13 +24,13 @@ Learning Manager biedt een Salesforce App-pakket. Na de installatie en configura
 1. Klik **[!UICONTROL Salesforce]**.
 1. Let op de toepassingspagina van Salesforce op de toepassings-id (ook wel client-id genoemd) en het clientgeheim dat in de beschrijving wordt vermeld.
 1. Klik **[!UICONTROL goedkeuren]** en uw app moet met succes worden goedgekeurd.
-1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.****
+1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.**&#x200B;**
 1. In de Get sectie van de Code OAuth, moeten identiteitskaart van de Cliënt en het werkingsgebied aan - admin :read, admin :write worden geplaatst. Klik **[!UICONTROL voorleggen]**.
 1. Voer bij Vernieuwingstoken ophalen de client-ID en het clientgeheim in. Klik **[!UICONTROL voorleggen]** en neem nota van het vernieuwingstoken.
 
 ### Account aanmaken in de Salesforce-app
 
-1. Maak een account aan op de aanmeldingspagina van Salesforce. U moet een Salesforce-account maken in de editie voor ontwikkelaars of ondernemingen.  [ de inschrijver URL van de Ontwikkelaar ](https://developer.salesforce.com/signup). Zorg ervoor dat u de e-mail-ID gebruikt om u aan te melden voor Salesforce die u voor Leerbeheer hebt gebruikt.
+1. Maak een account aan op de aanmeldingspagina van Salesforce. U moet een Salesforce-account maken in de editie voor ontwikkelaars of ondernemingen.  [&#x200B; de inschrijver URL van de Ontwikkelaar &#x200B;](https://developer.salesforce.com/signup). Zorg ervoor dat u de e-mail-ID gebruikt om u aan te melden voor Salesforce die u voor Leerbeheer hebt gebruikt.
 1. Verifieer uw account via de verificatie-e-mail.
 1. Maak een wachtwoord aan en meld u aan bij Salesforce.
 1. Noteer de Salesforce-URL na aanmelding (bijvoorbeeld site.lightning.force.com)
@@ -47,7 +47,7 @@ Als u het pakket wilt installeren, moet u eerst het bestaande pakket in Salesfor
 >
 >De Adobe Learning Manager-app wordt alleen ondersteund in de Salesforce Lightning-weergave.
 
-1. Lanceer het [ pakket url van de Manager leerden ](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2).
+1. Lanceer het [&#x200B; pakket url van de Manager leerden &#x200B;](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2).
 1. In de **Login** pagina, klik **[!UICONTROL het Domein van de Douane van het Gebruik]**.
 1. Ga het pakket URL in en klik **[!UICONTROL verdergaan]**. Op de installatiepagina moet de optie Installeren voor alleen beheerders zijn geselecteerd. Wijzig deze optie niet.
 1. Klik **[!UICONTROL installeer]**. Zodra het pakket wordt geïnstalleerd, klik **[!UICONTROL Gedaan]**. U wordt naar de pagina Geïnstalleerde pakketten geleid en u kunt het geïnstalleerde Adobe Learning Manager-pakket zien.

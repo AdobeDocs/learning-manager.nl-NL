@@ -25,8 +25,8 @@ Nadat u zich hebt aangemeld bij uw Box-opslagaccount, kan de integratiebeheerder
 
 Download om te beginnen de CSV&#39;s en pas de waarden aan uw vereisten aan.
 
-* Voorbeelddossier: [ role.csv ](assets/role.csv)
-* Voorbeeldbestand: [ user_role.csv ](assets/user_role.csv)
+* Voorbeelddossier: [&#x200B; role.csv &#x200B;](assets/role.csv)
+* Voorbeeldbestand: [&#x200B; user_role.csv &#x200B;](assets/user_role.csv)
 
 **role.csv**
 
@@ -217,6 +217,6 @@ UserRole/
 * Rolbestand: user1_role.csv
 * Toewijzingsbestand gebruikersrol: gebruiker1_gebruiker_rol.csv
 
-Download hier de [ steekproef CSVs ](/help/migrated/assets/sample-csv-Incremnetal.zip).
+Download hier de [&#x200B; steekproef CSVs &#x200B;](/help/migrated/assets/sample-csv-Incremnetal.zip).
 
 Elk gebruikersimportbestand is rechtstreeks gekoppeld aan de bijbehorende roltoewijzingsbestanden en gebruikersroltoewijzingsbestanden, waardoor een juiste incrementele verwerking wordt gegarandeerd.

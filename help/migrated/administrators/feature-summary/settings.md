@@ -23,7 +23,7 @@ U kunt uw profielinstellingen voor beheerder wijzigen en uw accountinstellingen 
 
 Deze training legt de basisbeginselen vast van instellingen op accountniveau.
 
-[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7476018)
+[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7476018)
 
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
@@ -57,7 +57,7 @@ U kunt de Learning Manager-toepassing openen met behulp van Adobe ID of eenmalig
 
 **Feedback**
 
-Klik op **[!UICONTROL Feedback]** in het linkerdeelvenster om de vragenlijst in te stellen om na afloop van een cursus feedback van studenten te verzamelen. Verwijs naar [ inhoud van de de eigenschaphulp van cursussen ](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) bij het creëren van L1 en L3 terugkoppelt.
+Klik op **[!UICONTROL Feedback]** in het linkerdeelvenster om de vragenlijst in te stellen om na afloop van een cursus feedback van studenten te verzamelen. Verwijs naar [&#x200B; inhoud van de de eigenschaphulp van cursussen &#x200B;](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) bij het creëren van L1 en L3 terugkoppelt.
 
 **Meerdere pogingen**
 
@@ -83,7 +83,7 @@ Klik op Studentendashboard in het linkerdeelvenster. Op deze pagina kunt u de wi
 
 **Adobe Connect**
 
-Klik op **[!UICONTROL Adobe Connect]** in het linkerdeelvenster om het Adobe Connect-account te configureren voor het hosten van virtuele klassikale sessies. Voor meer informatie, verwijs naar [ Adobe Connect ](adobeconnect-integration.md) eigenschaphulp.
+Klik op **[!UICONTROL Adobe Connect]** in het linkerdeelvenster om het Adobe Connect-account te configureren voor het hosten van virtuele klassikale sessies. Voor meer informatie, verwijs naar [&#x200B; Adobe Connect &#x200B;](adobeconnect-integration.md) eigenschaphulp.
 
 ## Algemene instellingen {#general}
 
@@ -405,7 +405,7 @@ Schakel de volgende instellingen in of uit:
     <p>Deze functie is alleen beschikbaar voor cursussen. Waardering met sterren wordt niet ondersteund voor leerprogramma's of certificaten.<br><br><b> Opmerking: </b> deze wijziging is alleen van invloed op de Learner-app. </p>
     <p>Wijzigingen in de instellingen (waardering met sterren/cursuseffectiviteit/waardering weergeven uitschakelen) hebben geen gevolgen voor alle andere apps (beheerder, auteur, manager, aangepaste beheerder, aangepaste auteur). </p>
     <p>Voor nieuwe rekeningen, zal de <b> sectie van de Classificaties van de Tonen </b> de optie <b> Classificatie van de Ster </b> hebben die door gebrek wordt toegelaten.</p>
-    <p>Voor bestaande rekeningen, als de rekening eerder de toegelaten doeltreffendheid van de optie <b> Cursus </b> had, dan zal de <b> toon sectie </b> van Classificaties {met de geselecteerde doeltreffendheid van de optieCursus worden toegelaten. Als de optie <b> gevolgen van de Cursus </b> gehandicapt is, dan zal de <b> tonen sectie </b> ook gehandicapt zijn. Wanneer de <b> sectie van de Classificaties </b> wordt toegelaten, zal de classificatie van de optie <b> Ster </b> door gebrek worden toegelaten.</p></td>
+    <p>Voor bestaande rekeningen, als de rekening eerder de toegelaten doeltreffendheid van de optie <b> Cursus </b> had, dan zal de <b> toon sectie </b> van Classificaties &lbrace;met de geselecteerde doeltreffendheid van de optieCursus worden toegelaten. Als de optie <b> gevolgen van de Cursus </b> gehandicapt is, dan zal de <b> tonen sectie </b> ook gehandicapt zijn. Wanneer de <b> sectie van de Classificaties </b> wordt toegelaten, zal de classificatie van de optie <b> Ster </b> door gebrek worden toegelaten.</p></td>
   </tr>
   <tr>
    <td height="19">Archiveren</td>
@@ -484,7 +484,7 @@ Activiteit
 1. Klik de drop-down pijl bij de hoger-juiste hoek, naast uw foto/rekening en kies **[!UICONTROL Montages van het Profiel]**.
 1. Van de pop-up dialoog, kunt u een foto toevoegen/veranderen door de muis te hangen en **[!UICONTROL te klikken geeft]** in het gebied van de profielfoto uit.
 1. Voeg toe/wijzig **[!UICONTROL Ongeveer]** inhoud door **[!UICONTROL te klikken geeft]** naast het uit.
-1. Klik **[!UICONTROL sparen ].**
+1. Klik **[!UICONTROL sparen &#x200B;].**
 
 ## Inhoudsmap {#content-folder}
 
@@ -557,7 +557,7 @@ Voeg het volgende toe:
 4. Locatie-URL: voer de URL van de locatie in.
 5. Plaatslimiet: voer het maximale aantal plaatsen van de ruimte in.
 
-![ klaslokaalplaats ](assets/location-alm.gif)
+![&#x200B; klaslokaalplaats &#x200B;](assets/location-alm.gif)
 
 *voeg klaslokalen* toe
 

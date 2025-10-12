@@ -34,7 +34,7 @@ Lees verder om te weten te komen hoe u elk van deze connectoren in Learning Mana
 
 >[!NOTE]
 >
->Met de versie van November 2022 van Adobe Learning Manager, heeft het Gezoem [ authentificatie JWT tegen Juni 2023 ](https://marketplace.zoom.us/docs/guides/auth/jwt/) afgekeurd. Volgens deze aankondiging werkt de Zoom-connector met JWT tot de genoemde datum, maar wij raden gebruikers aan om een server-naar-server OAuth-app te maken om deze functionaliteit in de accounts te vervangen. Elke nieuwe verbinding beschikt standaard over Zoom OAuth-verificatie.
+>Met de versie van November 2022 van Adobe Learning Manager, heeft het Gezoem [&#x200B; authentificatie JWT tegen Juni 2023 &#x200B;](https://marketplace.zoom.us/docs/guides/auth/jwt/) afgekeurd. Volgens deze aankondiging werkt de Zoom-connector met JWT tot de genoemde datum, maar wij raden gebruikers aan om een server-naar-server OAuth-app te maken om deze functionaliteit in de accounts te vervangen. Elke nieuwe verbinding beschikt standaard over Zoom OAuth-verificatie.
 
 ## Salesforce-connector {#sfconnector}
 
@@ -182,13 +182,13 @@ Learning Manager biedt een Salesforce App-pakket. Na de installatie en configura
 1. Klik **[!UICONTROL Salesforce]**.
 1. Let op de toepassingspagina van Salesforce op de toepassings-id (ook wel client-id genoemd) en het clientgeheim dat in de beschrijving wordt vermeld.
 1. Klik **[!UICONTROL goedkeuren]** en uw app moet met succes worden goedgekeurd.
-1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.****
+1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.**&#x200B;**
 1. In de Get sectie van de Code OAuth, moeten identiteitskaart van de Cliënt en het werkingsgebied aan - admin :read, admin :write worden geplaatst. Klik **[!UICONTROL voorleggen]**.
 1. Voer bij Vernieuwingstoken ophalen de client-ID en het clientgeheim in. Klik **[!UICONTROL voorleggen]** en neem nota van het vernieuwingstoken.
 
 ### Account aanmaken in de Salesforce-app {#create-account-in-salesforce-app}
 
-1. Maak een account aan op de aanmeldingspagina van Salesforce. U moet een Salesforce-account maken in de editie voor ontwikkelaars of ondernemingen.  [ de inschrijver URL van de Ontwikkelaar ](https://developer.salesforce.com/signup). Zorg ervoor dat u de e-mail-ID gebruikt om u aan te melden voor Salesforce die u voor Leerbeheer hebt gebruikt.
+1. Maak een account aan op de aanmeldingspagina van Salesforce. U moet een Salesforce-account maken in de editie voor ontwikkelaars of ondernemingen.  [&#x200B; de inschrijver URL van de Ontwikkelaar &#x200B;](https://developer.salesforce.com/signup). Zorg ervoor dat u de e-mail-ID gebruikt om u aan te melden voor Salesforce die u voor Leerbeheer hebt gebruikt.
 1. Verifieer uw account via de verificatie-e-mail.
 1. Maak een wachtwoord aan en meld u aan bij Salesforce.
 1. Noteer de Salesforce-URL na aanmelding (bijvoorbeeld site.lightning.force.com)
@@ -201,7 +201,7 @@ Als u het pakket wilt installeren, moet u eerst het bestaande pakket in Salesfor
 >
 >De Adobe Learning Manager-app wordt alleen ondersteund in de Salesforce Lightning-weergave.
 
-1. Lanceer het [ pakket url van de Manager leerden ](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
+1. Lanceer het [&#x200B; pakket url van de Manager leerden &#x200B;](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
 1. In de **Login** pagina, klik **[!UICONTROL het Domein van de Douane van het Gebruik]**.
 1. Ga het pakket URL in en klik **[!UICONTROL verdergaan]**. Op de installatiepagina moet de optie Installeren voor alleen beheerders zijn geselecteerd. Wijzig deze optie niet.
 1. Klik **[!UICONTROL installeer]**. Zodra het pakket wordt geïnstalleerd, klik **[!UICONTROL Gedaan]**. U wordt naar de pagina Geïnstalleerde pakketten geleid en u kunt het geïnstalleerde Adobe Learning Manager-pakket zien.
@@ -364,7 +364,7 @@ Als u via FTP-client verbinding wilt maken met een FTP-server, hebt u de volgend
 
 **Stap 1: Download en installeer FileZilla**
 
-Als u FileZilla nog niet hebt geïnstalleerd, download het van de officiële website: [ Download ](https://filezilla-project.org/) en installeer het op uw computer.
+Als u FileZilla nog niet hebt geïnstalleerd, download het van de officiële website: [&#x200B; Download &#x200B;](https://filezilla-project.org/) en installeer het op uw computer.
 
 **Stap 2: Open FileZilla**
 
@@ -465,7 +465,7 @@ Zodra de verbinding tot stand is gebracht, kunt u de kolommen van de CSV-bestand
 
 >[!NOTE]
 >
->Tijdens het importeren van gebruikers in Learning Manager moet de beheerder ook weten hoe gebruikers worden beheerd in Learning Manager. Verwijs naar [ Hulp van het Beheer van de Gebruiker ](migration-manual.md#usermanagement) om meer informatie te kennen.
+>Tijdens het importeren van gebruikers in Learning Manager moet de beheerder ook weten hoe gebruikers worden beheerd in Learning Manager. Verwijs naar [&#x200B; Hulp van het Beheer van de Gebruiker &#x200B;](migration-manual.md#usermanagement) om meer informatie te kennen.
 
 +++
 
@@ -711,7 +711,7 @@ De getAbstract-connector kan gebruikt worden door zakelijke klanten van getAbstr
    Zorg er voor elk type synchronisatie voor dat de gebruikersfeed aanwezig is in de getAbstract FTP-map voor de gegevens die in de synchronisatie zijn gespecificeerd.
 
    Raadpleeg het volgende Excelblad met een voorbeeld van een gebruikersfeed-bestand van getAbstract. De bestandsnaam moet het volgende formaat hebben: **rapport_export_jjjj_MM_dd_UUmmss.xlsx** of **report_export_jjjj_MMM_dd.xlsx**.
-   [ getAbstract het blad van het de steekproefonderzoek van de gebruikersvoer ](assets/report-export-20170401175342.xlsx)
+   [&#x200B; getAbstract het blad van het de steekproefonderzoek van de gebruikersvoer &#x200B;](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor-connector {#hmmconnector}
 
@@ -768,7 +768,7 @@ De Harvard ManageMentor-connector wordt gebruikt door zakelijke klanten van Harv
 
    Zie de volgende twee voorbeelden van gebruikersfeed- en cursusfeed-bestanden voor deze connector:
 
-   * [ dossier van de meta-gegevens van de cursus voor de schakelaar van Harvard ManageMentor ](assets/hmm12-metadata.csv)
+   * [&#x200B; dossier van de meta-gegevens van de cursus voor de schakelaar van Harvard ManageMentor &#x200B;](assets/hmm12-metadata.csv)
    * [Gebruikersfeed voor de Harvard ManageMentor-connector](assets/client-hmm12-20170304.csv)
 
 ## Workday-connector {#workdayconnector}
@@ -813,7 +813,7 @@ De beheerder kan planningstaken volgens de vereisten van de organisatie instelle
 >
 >Vraag de beheerder van Workday van uw organisatie om een Gebruiker van het Systeem van de Integratie (ISU) met de toestemmingen te creëren zoals die in het document ISU_Permissions worden bepaald. Download een exemplaar via onderstaande link.
 
-[ Download een exemplaar van de veiligheid van het integratiesysteem gebruiker (ISU).](assets/isu-permissions-v1.pdf) Leer het proces om de Workday-connector te integreren met Learning Manager.
+[&#x200B; Download een exemplaar van de veiligheid van het integratiesysteem gebruiker (ISU).](assets/isu-permissions-v1.pdf) Leer het proces om de Workday-connector te integreren met Learning Manager.
 
 1. Beweeg de muis over de tegel van Workday op de startpagina van Learning Manager. Er verschijnt een menu. Klik op **[!UICONTROL Verbinden]** in het menu.
 
@@ -1027,7 +1027,7 @@ Instellen   miniOrange   contact op met het CSM-team van Learning Manager.
 
 1. Klik, als u de gegevensbron als beheerder wilt bekijken bewerken, op **[!UICONTROL Instellingen > Gegevensbron]**.
 
-   De vastgestelde miniOrange-bron wordt vermeld. Als u vereist om de filter uit te geven, geeft de klik **** uit.
+   De vastgestelde miniOrange-bron wordt vermeld. Als u vereist om de filter uit te geven, geeft de klik **&#x200B;**&#x200B;uit.
 
    ![](assets/data-source.png)
 
@@ -1235,7 +1235,7 @@ Met de optie xAPI-activiteitsrapport kunt u de import van xAPI-statements uit ex
 1. Alle CSV&#39;s moeten de kolommen bevatten die in de toewijzing zijn opgegeven.
 1. Alle vereiste CSV&#39;s moeten aanwezig zijn in de map voordat het proces begint.
 
-Bij het importeren van gebruikers in Learning Manager, moet de beheerder ook weten hoe gebruikers in Learning Manager beheerd worden. Verwijs naar [ Hulp van het Beheer van de Gebruiker ](migration-manual.md#usermanagement) om meer informatie te kennen.
+Bij het importeren van gebruikers in Learning Manager, moet de beheerder ook weten hoe gebruikers in Learning Manager beheerd worden. Verwijs naar [&#x200B; Hulp van het Beheer van de Gebruiker &#x200B;](migration-manual.md#usermanagement) om meer informatie te kennen.
 
 +++
 
@@ -1310,8 +1310,8 @@ De LinkedIn Learning-connector wordt gebruikt door zakelijke klanten van LinkedI
 
 ### LinkedIn Learning-connector configureren {#configure-linkedin-learning-connector}
 
-1. Van het dashboard van de Admin van de Integratie, klik [!UICONTROL  het Leren van LinkedIn ]. De opties Aan de slag, Verbinden en Verbindingen beheren worden weergegeven.
-1. Als u de het Leren van LinkedIn schakelaar voor het eerst vormt, klik [!UICONTROL  verbind ].
+1. Van het dashboard van de Admin van de Integratie, klik [!UICONTROL &#x200B; het Leren van LinkedIn &#x200B;]. De opties Aan de slag, Verbinden en Verbindingen beheren worden weergegeven.
+1. Als u de het Leren van LinkedIn schakelaar voor het eerst vormt, klik [!UICONTROL &#x200B; verbind &#x200B;].
 
    <!--Configure the Exavault FTP account before you configure this connector.
 
@@ -1556,7 +1556,7 @@ U kunt de sjablonen eenvoudig downloaden, relevante rapporten exporteren en rapp
 
 Zo kunnen gebruikers deze sjablonen downloaden en gebruiken in een Power BI-toepassing, deze verder aanpassen en een boeiend verhaal vertellen in uw rapporten.
 
-[**Download de malplaatjes** ](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a)
+[**Download de malplaatjes** &#x200B;](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a)
 
 <!--<table> 
  <tbody>
@@ -1678,7 +1678,7 @@ Als de verbinding eenmaal is ingesteld, worden automatisch mappen voor importere
 
 Voorwaarden om een ADFS-verbinding tot stand te brengen:
 
-* Login aan uw Azure Portal gebruikend dit URL: [ https://portal.azure.com/ ](https://portal.azure.com/) alvorens uw app te registreren.
+* Login aan uw Azure Portal gebruikend dit URL: [&#x200B; https://portal.azure.com/ &#x200B;](https://portal.azure.com/) alvorens uw app te registreren.
 * Azure Active Directory openen.
 
 ## Stappen om uw toepassing te registreren {#steps-to-register-your-application}
@@ -1819,7 +1819,7 @@ Neem contact op met het CSM-team van Learning Manager om de ADFS-connector in te
 
 1. Om gegevensbron, als Beheerder te bekijken en uit te geven, klik **[!UICONTROL Montages]** > **[!UICONTROL Gegevensbron]**.
 
-   De bestaande ADFS-bron wordt vermeld. Als u vereist om de filter uit te geven, geeft de klik **** uit.
+   De bestaande ADFS-bron wordt vermeld. Als u vereist om de filter uit te geven, geeft de klik **&#x200B;**&#x200B;uit.
 
    ![](assets/datasource.jpg)
    *Bron van Gegevens het plaatsen*
@@ -1965,7 +1965,7 @@ Wanneer u een verbinding met een Marketo Engage maakt, moet u de volgende gegeve
 
 >[!NOTE]
 >
->U kunt de client-id en het client-geheim uit de Marketo Engage-app halen. Op Marketo app, kunt u identiteitskaart van de Cliënt en geheim van de **** sectie LaunchPoint, en het Domein van Marketo van de **WebServices** sectie krijgen.
+>U kunt de client-id en het client-geheim uit de Marketo Engage-app halen. Op Marketo app, kunt u identiteitskaart van de Cliënt en geheim van de **&#x200B;**&#x200B;sectie LaunchPoint, en het Domein van Marketo van de **WebServices** sectie krijgen.
 
 Op de **Verenigde sectie van Rapporten** van de verbinding van de Engage van de Markeo in de Leermanager app, kunt u campagnes tot stand brengen die op het volgende worden gebaseerd:
 
@@ -2129,7 +2129,7 @@ U kunt de status van de rapportuitvoering op de **[!UICONTROL pagina van de Stat
 
 ### Website maken in AEM {#create-website-in-aem}
 
-**Vereiste:** installeer het AEM pakket van de [**bewaarplaats GitHub** ](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+**Vereiste:** installeer het AEM pakket van de [**bewaarplaats GitHub** &#x200B;](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
 
 1. Gebruik basis- en opvraag-URL&#39;s, client-id, client-geheim en Admin Refresh Token, en maak een configuratie in AEM.
 1. Maak de website met behulp van de AEM-componenten.
@@ -2190,8 +2190,8 @@ Naast het initiëren van een aankoop, verzamelt de connector ook aankoopgegevens
 
 **Voorwaarden**
 
-1. Laat [ RabbitMq ](https://devdocs.magento.com/cloud/project/services-rabbit.html) of een andere overseinenmakelaar toe.
-1. Laat [ CRON ](https://devdocs.magento.com/cloud/env/variables-deploy.html#cron_consumers_runner) toe.
+1. Laat [&#x200B; RabbitMq &#x200B;](https://devdocs.magento.com/cloud/project/services-rabbit.html) of een andere overseinenmakelaar toe.
+1. Laat [&#x200B; CRON &#x200B;](https://devdocs.magento.com/cloud/env/variables-deploy.html#cron_consumers_runner) toe.
 1. Bewerk voor stappen 1 en 2 de volgende bestanden:
 
    1. .magento.app.yaml
@@ -2201,8 +2201,8 @@ Naast het initiëren van een aankoop, verzamelt de connector ook aankoopgegevens
 1. Opties limiet opheffen via aangepaste module. Deze stap is optioneel, maar wordt sterk aanbevolen voor grote datasets.
 1. Schakel alle async API&#39;s op de pagina in. Omdat er veel gegevens kunnen zijn, gebeurt de uitvoer asynchroon. De API&#39;s van Adobe Commerce worden de payload van de aanvraag genoemd. Het verzoek duwt de berichten aan een rij en er is een consument aan deze rij, die deze berichten verwerkt en producten aan de verkoopkant creeert. Adobe Commerce voorziet standaard niet in deze async verwerking. Daarom moet u deze optie inschakelen.
 1. Voeg een link toe om terug te keren naar ALM op de succespagina van de betaling. Deze retour-URL moet geconfigureerd zijn in Adobe Commerce. De URL die voor de koppeling moet worden gebruikt. - `https://learningmanager.adobe.com/app/learner#/postPayment`
-1. Wijzig de indexering van &quot;Bij opslaan&quot; in &quot;Gepland&quot;.  Voor meer informatie, zie dit [ KB ](https://support.magento.com/hc/en-us/articles/360040227191).
-1. Pas de volgende patches toe. Voor meer informatie, zie [ flarden ](https://devdocs.magento.com/cloud/project/project-patch.html) toepassen.
+1. Wijzig de indexering van &quot;Bij opslaan&quot; in &quot;Gepland&quot;.  Voor meer informatie, zie dit [&#x200B; KB &#x200B;](https://support.magento.com/hc/en-us/articles/360040227191).
+1. Pas de volgende patches toe. Voor meer informatie, zie [&#x200B; flarden &#x200B;](https://devdocs.magento.com/cloud/project/project-patch.html) toepassen.
 1. Configureer snel.  Voor Adobe Commerce is een snelle implementatie van cloudinfrastructuur vereist. Deze wordt gebruikt in Staging- en Productomgevingen. Zie [Fastly instellen](https://devdocs.magento.com/cloud/cdn/configure-fastly.html) voor meer informatie.
 
 ### De connector configureren {#configure-connector}
@@ -2235,7 +2235,7 @@ Nadat een auteur de prijzen voor verschillende cursussen, leerpaden of certifice
 
 >[!NOTE]
 >
->In de versie van Maart 2024 van Adobe Learning Manager, hebben wij steun voor [ Adobe Commerce 2.4.6 ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en) geïntroduceerd.
+>In de versie van Maart 2024 van Adobe Learning Manager, hebben wij steun voor [&#x200B; Adobe Commerce 2.4.6 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en) geïntroduceerd.
 
 
 1. Klik **[!UICONTROL Meta-gegevens van de Opleiding van de Uitvoer]** > **[!UICONTROL op bestelling]**.

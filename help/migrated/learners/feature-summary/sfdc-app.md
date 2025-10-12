@@ -17,7 +17,7 @@ ht-degree: 62%
 
 Salesforce™ is de populairste CRM-oplossing voor verkoop- en marketingteams. Met behulp van de Adobe Learning Manager-app in Salesforce hebben studenten vanuit hun Salesforce-interface toegang tot al hun leerinhoud. Studenten hebben vanuit Salesforce toegang tot de leerinhoud die aan hen is toegewezen, zoals cursussen, leerprogramma&#39;s, taakhulpen, en dergelijke. Gebruikers kunnen ook meldingen ontvangen over hun inschrijvingen en aankondigingen van de beheerder.
 
-Deze app zal alleen beschikbaar zijn in Salesforce als de beheerder van uw Learning Manager-account de vereiste instellingen voltooid heeft. Voor meer details, zie [ het Leren App van de Manager voor Salesforce ](../../integration-admin/feature-summary/sfdc-app.md), en verzoek uw Admin om de het Leren App van de Manager voor Salesforce te installeren.
+Deze app zal alleen beschikbaar zijn in Salesforce als de beheerder van uw Learning Manager-account de vereiste instellingen voltooid heeft. Voor meer details, zie [&#x200B; het Leren App van de Manager voor Salesforce &#x200B;](../../integration-admin/feature-summary/sfdc-app.md), en verzoek uw Admin om de het Leren App van de Manager voor Salesforce te installeren.
 
 ## Vind de app in Salesforce {#locateappinsalesforce}
 
@@ -51,7 +51,7 @@ U kunt zo vaak u wilt verbinding met de app maken of verbreken.
 
 ## Aanbevelingen opnieuw instellen in de Salesforce-app
 
-Studenten kunnen hun rollen en leervoorkeuren opnieuw instellen zonder Salesforce te moeten verlaten of zich aan te melden bij de native Adobe Learning Manager-app. De Adobe Learning Manager Salesforce-app bevat nu de knop Interesten opnieuw instellen **** .
+Studenten kunnen hun rollen en leervoorkeuren opnieuw instellen zonder Salesforce te moeten verlaten of zich aan te melden bij de native Adobe Learning Manager-app. De Adobe Learning Manager Salesforce-app bevat nu de knop Interesten opnieuw instellen **&#x200B;**&#x200B;.
 
 De interesses en aanbevelingen van de Salesforce-app opnieuw instellen:
 

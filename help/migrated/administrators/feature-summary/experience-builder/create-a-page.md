@@ -105,7 +105,7 @@ Een widget configureren op de aangepaste pagina Sales Training:
 
 3. Typ de **[!UICONTROL Titel]** en **[!UICONTROL Beschrijving]**.
 4. Typ de tekst in het **[!UICONTROL de knoopetiket van de Actie]** en verstrek een verbinding.
-5. Configureer de overige opties. Bekijk deze [ sectie ](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#content-box-widget) om meer over de **[!UICONTROL widget van de Doos van de Inhoud]** te leren.
+5. Configureer de overige opties. Bekijk deze [&#x200B; sectie &#x200B;](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#content-box-widget) om meer over de **[!UICONTROL widget van de Doos van de Inhoud]** te leren.
 
    ![](assets/content-box-configuration.png)
    _Van de Doos van de inhoud widgets scherm die de opties tonen om widget_ te vormen

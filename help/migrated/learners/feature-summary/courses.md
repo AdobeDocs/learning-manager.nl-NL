@@ -23,7 +23,7 @@ Via Adobe Learning Manager kunnen studenten cursussen, leerprogramma’s en cert
 
 >[!NOTE]
 >
->Studenten kunnen de iPad-app Learning Manager ook installeren vanuit de app van de appelwinkel en de Android-app van de Learning Manager van Google Play en ze hebben toegang tot cursussen op mobiele apparaten. Alle functies van de studentrol zijn ook beschikbaar in de app. Studenten kunnen ook offline cursussen volgen en ze vervolgens even gemakkelijk online openen. Verwijs naar [ iPad &amp; Android tabletgebruikers ](ipad-android-tablet-users.md) eigenschap voor meer informatie.
+>Studenten kunnen de iPad-app Learning Manager ook installeren vanuit de app van de appelwinkel en de Android-app van de Learning Manager van Google Play en ze hebben toegang tot cursussen op mobiele apparaten. Alle functies van de studentrol zijn ook beschikbaar in de app. Studenten kunnen ook offline cursussen volgen en ze vervolgens even gemakkelijk online openen. Verwijs naar [&#x200B; iPad &amp; Android tabletgebruikers &#x200B;](ipad-android-tablet-users.md) eigenschap voor meer informatie.
 
 ## Leerobjecten weergeven {#viewingcourses}
 
@@ -112,7 +112,7 @@ Als de optie Schakelen tussen instanties is ingeschakeld, kunnen studenten tusse
 
 Wanneer de student **Alle instanties bekijken** selecteert, ziet de student alle cursusinstanties.
 
-![ alt tekst ](assets/view-all-instance.png)
+![&#x200B; alt tekst &#x200B;](assets/view-all-instance.png)
 
 _Bekijk al instantiepagina van studentenconsole_
 
@@ -121,10 +121,10 @@ _instantie van de Schakelaar van studentenpagina_
 
 Een beheerder kan van instantie veranderen voor studenten. Selecteer een cursus van de admin console, ga naar de **[!UICONTROL sectie van Studenten]**, kies een gebruiker, en selecteer de **[!UICONTROL knoop van de Actie]**. Dan, selecteer **[!UICONTROL Instantie van de Schakelaar]** en kies de gewenste instantie.
 
-![ alt tekst ](assets/switch-instance-admin.png)
+![&#x200B; alt tekst &#x200B;](assets/switch-instance-admin.png)
 _instantie van de Schakelaar van Admin console_
 
-![ geselecteerde schakelaarinstanties ](assets/switch-instances-select.png)
+![&#x200B; geselecteerde schakelaarinstanties &#x200B;](assets/switch-instances-select.png)
 _de instantieherinnering van de Schakelaar_
 
 U kunt niet van instantie wisselen totdat een instantie van de cursus is voltooid vanuit de Learner- of Admin-app.
@@ -133,7 +133,7 @@ Auteurs kunnen tijdens het maken van een cursus schakelen tussen het in- en uits
 
 ## Workflow als student
 
-Als student kunt u een cursus pas beoordelen na uw inschrijving. U kunt de gemiddelde Classificaties van de Ster voor om het even welke cursus op de **1} Pagina van het Huis zien,** Mijn het Leren **pagina en** Catalogus **.**
+Als student kunt u een cursus pas beoordelen na uw inschrijving. U kunt de gemiddelde Classificaties van de Ster voor om het even welke cursus op de **1&rbrace; Pagina van het Huis zien,** Mijn het Leren **pagina en** Catalogus **.**
 
 1. Login als a **Student**. Dit laadt de **Pagina van het Huis**.
 

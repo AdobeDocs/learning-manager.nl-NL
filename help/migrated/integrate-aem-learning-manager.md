@@ -36,13 +36,13 @@ Nadat u het ALM referentiesite-pakket geïnstalleerd hebt, kunt u beginnen met h
 
 Nadat u uw omgeving van AEM-sites hebt beveiligd, moet u het ALM-referentiesitepakket installeren. Dit pakket bevat AEM-webpagina&#39;s en website-onderdelen waarmee het leerplatform kan worden opgebouwd.
 
-Het pakket van de verwijzingsplaats wordt ontvangen op de [**bewaarplaats GitHub** ](https://github.com/adobe/adobe-learning-manager-reference-site/releases).
+Het pakket van de verwijzingsplaats wordt ontvangen op de [**bewaarplaats GitHub** &#x200B;](https://github.com/adobe/adobe-learning-manager-reference-site/releases).
 
 Zie de README voor meer informatie.
 
 ## Het inhoudspakket downloaden {#downloadthecontentpackage}
 
-Het installatieprogramma wordt als een AEM-inhoudspakket verzonden. [***Download het pakket*** ](https://github.com/adobe/adobe-learning-manager-reference-site).
+Het installatieprogramma wordt als een AEM-inhoudspakket verzonden. [***Download het pakket*** &#x200B;](https://github.com/adobe/adobe-learning-manager-reference-site).
 
 Het inhoudspakket is beschikbaar als ZIP-bestand en is compatibel met AEM 6.4 en AEM 6.5.
 
@@ -52,7 +52,7 @@ Installeer het Captivate Prime-inhoudspakket met AEM-pakketbeheer:
 
 >[!NOTE]
 >
->Voor informatie bij het installeren van pakketten, zie [***hoe te met Pakketten*** werken ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
+>Voor informatie bij het installeren van pakketten, zie [***hoe te met Pakketten*** werken &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Open AEM Package Manager als AEM-auteur.
 1. Klik op de knop **[!UICONTROL Pakket uploaden]**.
@@ -137,7 +137,7 @@ Klik op **[!UICONTROL Akkoord]** om de toepassing goed te keuren.
    1. Adobe Learning Manager URL: voer de URL in van de ALM-instantie waar de leerservices worden gehost.
    1. Account-id: De id van het ALM-account.
    1. Client-id, clientgeheim en het vernieuwingstoken van auteur: voer de referenties in die u hebt gekregen tijdens het maken van de toepassing in ALM.
-   1. Aanpassing van Widget: Voor meer informatie, zie [ integreren met AEM ](/help/migrated/integrate-aem-learning-manager.md) `.`
+   1. Aanpassing van Widget: Voor meer informatie, zie [&#x200B; integreren met AEM &#x200B;](/help/migrated/integrate-aem-learning-manager.md) `.`
 
 1. Sla de configuratie op en sluit deze af.
 
@@ -212,7 +212,7 @@ Afgezien van de sjablonen die u kunt gebruiken en die geleverd worden door het r
    ![](assets/page-properties.png)
    *eigenschappen van de Pagina*
 
-1. Om de pagina tot stand te brengen, creeer ****.
+1. Om de pagina tot stand te brengen, creeer **&#x200B;**.
 
 1. Selecteer de nieuwe pagina en klik **[!UICONTROL uitgeven]**.
 
@@ -277,7 +277,7 @@ Als u echter deze nieuw toegevoegde Learning Manager-componenten in uw bestaande
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   De voorgaande code voegt de in kaart gebrachte configuratie toe in de meta-tag van de pagina, die nodig is om de leercomponenten te laten renderen. Voor meer details, zie [ de verwijzingsplaats van Adobe Learning Manager ](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
+   De voorgaande code voegt de in kaart gebrachte configuratie toe in de meta-tag van de pagina, die nodig is om de leercomponenten te laten renderen. Voor meer details, zie [&#x200B; de verwijzingsplaats van Adobe Learning Manager &#x200B;](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Zorg ervoor dat u de configuratie met het Webproject in kaart hebt gebracht.
 1. Open de AEM Sites-sjabloon waarin u de onderdelen van de Learning Manager wilt importeren.
@@ -347,7 +347,7 @@ Skyline is de cloudversie van AEM. U moet Skyline eerst installeren vanuit pakke
 
 ### Skyline implementeren
 
-De stappen om Skyline te vormen worden vermeld in de [ reactie GitHub ](https://github.com/adobe/captivate-prime-aem-components).
+De stappen om Skyline te vormen worden vermeld in de [&#x200B; reactie GitHub &#x200B;](https://github.com/adobe/captivate-prime-aem-components).
 
 ## Mijn leerwidget
 
@@ -359,8 +359,8 @@ In de **[!UICONTROL sectie van Eigenschappen]** in de paginaeigenschappen, selec
 
 De catalogusopties bevatten de volgende opties:
 
-* **[!UICONTROL Catalogus ids ]:** komma-gescheiden catalogusids waarvoor de opleiding moet worden getoond.
-* **[!UICONTROL Soort ]:** de orde van de Soort voor de opleiding. De volgende sorteeropties:
+* **[!UICONTROL Catalogus ids &#x200B;]:** komma-gescheiden catalogusids waarvoor de opleiding moet worden getoond.
+* **[!UICONTROL Soort &#x200B;]:** de orde van de Soort voor de opleiding. De volgende sorteeropties:
    * naam: Sorteert leerobjecten alfabetisch van A naar Z.
    * -name: Sorteert leerobjecten alfabetisch van Z naar A.
    * datum: Sorteert op datum in oplopende volgorde.
@@ -374,13 +374,13 @@ De catalogusopties bevatten de volgende opties:
    * dueDate: Sorteert op de vervaldatum van de cursus (vroegste deadline eerst).
    * effectiviteit: Sorteert op effectiviteitsscores op basis van feedback van studenten.
    * voortgang: Sorteert op voortgang van student (minst voortgang naar de meeste).
-* **[!UICONTROL Staat van de Student ]:** keert al opleiding terug die het volgende als ingeschreven filters gebruikt, begonnen, voltooid, en niet ingeschreven. De zoekresultaten worden niet weergegeven als de sorteeroptie dateEnrolled, dueDate of dateEnrolled is.
-* **[!UICONTROL Naam van de Vaardigheid ]:** de vaardigheid die wordt gebruikt om nauwkeurige opleiding te filtreren.
-* **[!UICONTROL naam van de markering ]:** De markering die wordt gebruikt om nauwkeurige resultaten te filtreren.
+* **[!UICONTROL Staat van de Student &#x200B;]:** keert al opleiding terug die het volgende als ingeschreven filters gebruikt, begonnen, voltooid, en niet ingeschreven. De zoekresultaten worden niet weergegeven als de sorteeroptie dateEnrolled, dueDate of dateEnrolled is.
+* **[!UICONTROL Naam van de Vaardigheid &#x200B;]:** de vaardigheid die wordt gebruikt om nauwkeurige opleiding te filtreren.
+* **[!UICONTROL naam van de markering &#x200B;]:** De markering die wordt gebruikt om nauwkeurige resultaten te filtreren.
 
 Hier volgen enkele aanvullende componenten die u kunt aanpassen:
 
-**[!UICONTROL het Leren de Types van Objecten ]:** Filter volgens het type van het Leren Voorwerp. De ondersteunde typen zijn: cursus, certificering, jobAid en learningProgram.
+**[!UICONTROL het Leren de Types van Objecten &#x200B;]:** Filter volgens het type van het Leren Voorwerp. De ondersteunde typen zijn: cursus, certificering, jobAid en learningProgram.
 
 In AEM is de titel van een kaart in een strip aanvankelijk leeg. Typ in eigenschappen de naam van de titel in widgets.html.
 

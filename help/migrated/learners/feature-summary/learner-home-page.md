@@ -81,7 +81,7 @@ _Sidebar en onderzoeksbar_
 
 ### Impressum {#masthead}
 
-Hiermee wordt een video- of afbeeldingscarrousel met een ingesloten URL uitgerust. De [ Beheerder kan om het even welk beeld of video ](../../administrators/feature-summary/announcements.md#masthead) activa als masthead uploaden en zijn zicht voor een groep studenten plaatsen.
+Hiermee wordt een video- of afbeeldingscarrousel met een ingesloten URL uitgerust. De [&#x200B; Beheerder kan om het even welk beeld of video &#x200B;](../../administrators/feature-summary/announcements.md#masthead) activa als masthead uploaden en zijn zicht voor een groep studenten plaatsen.
 
 ![](assets/learner-masthead.png)
 

@@ -21,9 +21,9 @@ Als gebruikers een training volgen, kan niet worden gegarandeerd dat ze alle nie
 
 Op dezelfde manier kunnen gebruikers met de functie Sociaal leren van Learning Manager communiceren door inhoud te delen en ervan te leren.
 
-Op dit platform kunnen verschillende inhoudstypen worden gedeeld: video, audio, screenshots, tekst, vragen en polls.  De gebruikers kunnen hun online leermiddelen met hun edelen ook delen door **Aandeel aan Sociaal bookmarklet** te gebruiken. Voor meer informatie, zie [ Aandeel aan Sociaal Leren ](share-to-social.md).
+Op dit platform kunnen verschillende inhoudstypen worden gedeeld: video, audio, screenshots, tekst, vragen en polls.  De gebruikers kunnen hun online leermiddelen met hun edelen ook delen door **Aandeel aan Sociaal bookmarklet** te gebruiken. Voor meer informatie, zie [&#x200B; Aandeel aan Sociaal Leren &#x200B;](share-to-social.md).
 
-De inhoud kan ook binnen een board met de hulp van de **Desktoptoepassing van Adobe Learning Manager** worden gepost. Voor meer informatie, zie [ app van Adobe Learning Manager voor Desktop ](../adobe-learning-manager-app-for-desktop.md).
+De inhoud kan ook binnen een board met de hulp van de **Desktoptoepassing van Adobe Learning Manager** worden gepost. Voor meer informatie, zie [&#x200B; app van Adobe Learning Manager voor Desktop &#x200B;](../adobe-learning-manager-app-for-desktop.md).
 
 De functie wordt pas zichtbaar voor studenten als de beheerder Sociaal leren inschakelt.
 
@@ -130,14 +130,14 @@ De functie wordt pas zichtbaar voor studenten als de beheerder Sociaal leren ins
 
 Inhoud wordt gemaakt als bericht op een board.  Volg de onderstaande stappen om een bericht te maken:
 
-1. Klik **[!UICONTROL Nieuwe Post ].**
+1. Klik **[!UICONTROL Nieuwe Post &#x200B;].**
 
    ![](assets/new-post-01.png)
    *Uitgezochte Nieuwe Post*
 
 1. Kies een van de volgende typen inhoud om te posten: tekst, vraag, video, audio, poll en screenshot.  Bestaande inhoud kan worden geüpload vanaf het systeem van de gebruiker of vanuit de galerie van de Adobe Learning Manager-desktopapp.
 
-   Gebruik de Adobe Learning Manager-desktopapp om video, scherm of audio op te nemen en screenshots te maken.  Voor meer informatie, zie [ de Desktoptoepassing van Adobe Learning Manager ](../adobe-learning-manager-app-for-desktop.md).
+   Gebruik de Adobe Learning Manager-desktopapp om video, scherm of audio op te nemen en screenshots te maken.  Voor meer informatie, zie [&#x200B; de Desktoptoepassing van Adobe Learning Manager &#x200B;](../adobe-learning-manager-app-for-desktop.md).
 
    <!--![](assets/types-of-post-03.png)-->
 
@@ -169,7 +169,7 @@ Inhoud wordt gemaakt als bericht op een board.  Volg de onderstaande stappen om
 
 1. Om inhoud te delen, klik **[!UICONTROL Post]**. Als u op Posten klikt, krijgt de gebruiker een melding.
 
-   De inhoud wordt gepost gebaseerd op het beheer plaatsend door de beheerder voor het Sociaal Leren inhoud wordt geplaatst die door [ de Moderatoren van de Raad/de Deskundigen van de Onderwerp ](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME) kan worden beheerd.
+   De inhoud wordt gepost gebaseerd op het beheer plaatsend door de beheerder voor het Sociaal Leren inhoud wordt geplaatst die door [&#x200B; de Moderatoren van de Raad/de Deskundigen van de Onderwerp &#x200B;](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME) kan worden beheerd.
 
    <!--![](assets/pop-up-dialog-before-sending-for-curation.png)-->
 
@@ -259,7 +259,7 @@ Gebruikers in een Sociaal board van tags voorzien:
    ![](assets/select-new-post.png)
    _Begin een nieuwe bespreking door Nieuw Post in Sociaal Leren te selecteren om kennis met de geëtiketteerde gebruikers te delen_
 
-4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1} optie van de Raad van de Discussie.]**
+4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1&rbrace; optie van de Raad van de Discussie.]**
 
    ![](assets/select-boards-in-social-board.png)
    _selecteer een discussieboard om gebruikers te posten en te etiketteren, toelatend gerichte samenwerkingsgesprekken in Sociaal Leren_
@@ -560,7 +560,7 @@ Gebruikers kunnen boards in zowel Mijn boards als Alle boards sorteren op **Rele
 
 *de boards van de soort door relevantie en datum*
 
-Terwijl het creëren van een post, als er geen relevante boards aan de post zijn, klik [ creeer een nieuw board ](social-learning-web-user.md#Creatingcontentasapost).  Volg de onderstaande stappen om een board weer te geven, te bewerken, te verwijderen, te rapporteren, URL te kopiëren en toe te voegen aan uw lijst met favoriete boards:
+Terwijl het creëren van een post, als er geen relevante boards aan de post zijn, klik [&#x200B; creeer een nieuw board &#x200B;](social-learning-web-user.md#Creatingcontentasapost).  Volg de onderstaande stappen om een board weer te geven, te bewerken, te verwijderen, te rapporteren, URL te kopiëren en toe te voegen aan uw lijst met favoriete boards:
 
 1. Klik op de naam van het board en klik op **[!UICONTROL Ga naar board]**.
 1. Klik op de pagina Boards op het samengevouwen menupictogram en selecteer een optie uit de keuzelijst.
@@ -660,7 +660,7 @@ Elke pagina op Sociaal leren heeft een zoekveld waarin gebruikers boards, vaardi
 
 <!--![](assets/search-16.png)-->
 
-De volgende pagina&#39;s in informeel leren hebben een onderzoeksgebied: **Mijn boards**, **Alle boards**, **pagina van Boards**, de pagina van het Profiel van de gebruiker ****, en **het profielpagina van andere student**.
+De volgende pagina&#39;s in informeel leren hebben een onderzoeksgebied: **Mijn boards**, **Alle boards**, **pagina van Boards**, de pagina van het Profiel van de gebruiker **&#x200B;**, en **het profielpagina van andere student**.
 
 Wanneer een gebruiker inhoud zoekt in Informeel leermateriaal, wordt het aantal zoekresultaten voor de inhoud in Informeel en Formeel leermateriaal van Learning Manager weergegeven.
 
@@ -684,7 +684,7 @@ Op de profielpagina zien studenten het aantal verdiende punten, het aantal gemaa
 
 Studenten kunnen ook de vaardigheden zien waarvoor ze als vakexpert zijn aangewezen.
 
-De pagina van de student toont ook de 0} beheerde verhalen van de student **,** recente uitgevoerde activiteiten **, en de** mensen die **door hen worden gevolgd.**
+De pagina van de student toont ook de 0&rbrace; beheerde verhalen van de student **,** recente uitgevoerde activiteiten **, en de** mensen die **door hen worden gevolgd.**
 
 ## Meldingen {#notifications}
 

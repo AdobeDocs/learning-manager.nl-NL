@@ -42,7 +42,7 @@ Beheerders kunnen handmatig een gebruiker toevoegen door hun naam, e-mail, uniek
 
 >[!INFO]
 >
->Bekijk deze ALM Academy-training voor meer informatie over het toevoegen van enkele gebruikers in Adobe Learning Manager.<br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534) </br>
+>Bekijk deze ALM Academy-training voor meer informatie over het toevoegen van enkele gebruikers in Adobe Learning Manager.<br>[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534) </br>
 
 Eén gebruiker toevoegen aan Adobe Learning Manager:
 
@@ -75,7 +75,7 @@ U kunt als volgt een zelfregistratie-URL voor een gebruiker maken:
    ![](assets/add-self-register-link.png)
    _menu Dropdown voor het selecteren van de zelfregistratieoptie_
 4. Op **voeg automatisch-Registratieprofiel** herinnering toe, typ het profiel in het **Naam van het Profiel** (de titel van de Taak van de gebruiker) gebied.
-5. Selecteer de manager van de gebruiker door naar de manager in het **gebied van de Naam van de 0} manager te zoeken.** De manager die aan het zelfregistratieprofiel wordt toegewezen, moet een geregistreerde gebruiker in Adobe Learning Manager zijn.
+5. Selecteer de manager van de gebruiker door naar de manager in het **gebied van de Naam van de 0&rbrace; manager te zoeken.** De manager die aan het zelfregistratieprofiel wordt toegewezen, moet een geregistreerde gebruiker in Adobe Learning Manager zijn.
 
 
    ![](assets/add-a-user-prompt.png)
@@ -114,7 +114,7 @@ Beheerders kunnen meerdere gebruikers tegelijk toevoegen door een CSV-bestand me
 
 >[!INFO]
 >
->Bekijk deze opleiding van de Academie ALM om te leren hoe te om gebruikers in bulk door een CSV toe te voegen. <br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555) </br>
+>Bekijk deze opleiding van de Academie ALM om te leren hoe te om gebruikers in bulk door een CSV toe te voegen. <br>[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555) </br>
 
 Meerdere gebruikers toevoegen:
 
@@ -249,7 +249,7 @@ Er wordt een registratie-URL gegenereerd.
 Het externe profiel inschakelen:
 
 1. Zoek het nieuwe profiel in de lijst met externe profielen.
-2. Selecteer de **1} knevelknoop van de Status {om het toe te laten.**
+2. Selecteer de **1&rbrace; knevelknoop van de Status &lbrace;om het toe te laten.**
 
 De beheerder kan deze URL delen met de externe partner, zodat deze zich kan aanmelden en zich kan aanmelden bij Adobe Learning Manager.
 
@@ -270,7 +270,7 @@ Er zijn een paar verschillen tussen interne en externe registraties:
 | Interne gebruikers | Externe gebruikers |
 |---|---|
 | Aanmelden met Adobe ID- of SSO-referenties. | Kan zich aanmelden met een e-mail-ID. |
-| Gamification is beschikbaar | Gamification is beschikbaar. De beheerder moet gamification voor externe studenten in de [ montages van de Gamification ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) toelaten. |
+| Gamification is beschikbaar | Gamification is beschikbaar. De beheerder moet gamification voor externe studenten in de [&#x200B; montages van de Gamification &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) toelaten. |
 
 ### Extern registratieprofiel pauzeren
 
@@ -369,7 +369,7 @@ Adobe Learning Manager ondersteunt de volgende gebruikersrollen:
 * **Auteur**: Creeert en beheert inhoud, met inbegrip van modules en cursussen.
 * **Manager**: Beheert team het leren activiteiten, benoemt teamleden voor cursussen, keurt verzoeken goed, en verstrekt terugkoppelen.
 * **Beheerder van de Integratie**: Beheert systeemintegraties en gegevensverbindingen tussen ALM en externe platforms.
-* **de rollen van de Douane**: De beheerders kunnen douanerollen tot stand brengen om gebruikers te geven die toegang op hun verantwoordelijkheden wordt gebaseerd. Verwijs naar dit [ artikel ](/help/migrated/administrators/feature-summary/custom-role.md) voor meer informatie over de douanerollen.
+* **de rollen van de Douane**: De beheerders kunnen douanerollen tot stand brengen om gebruikers te geven die toegang op hun verantwoordelijkheden wordt gebaseerd. Verwijs naar dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/custom-role.md) voor meer informatie over de douanerollen.
 
 Rollen toewijzen aan gebruikers:
 

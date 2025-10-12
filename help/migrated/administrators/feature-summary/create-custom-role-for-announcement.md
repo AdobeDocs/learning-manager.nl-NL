@@ -82,7 +82,7 @@ d. **[!UICONTROL als e-mail]**
 
 8. Selecteer **[!UICONTROL Opslaan]**.
 
-Alleen studenten binnen het bereik van de aangepaste beheerder kunnen de aankondiging bekijken. Zie dit [ artikel ](/help/migrated/administrators/feature-summary/announcements.md) leren hoe te om veelvoudige types van aankondigingen tot stand te brengen.
+Alleen studenten binnen het bereik van de aangepaste beheerder kunnen de aankondiging bekijken. Zie dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/announcements.md) leren hoe te om veelvoudige types van aankondigingen tot stand te brengen.
 
 ## Bereik opnieuw instellen door aangepaste beheerders
 
