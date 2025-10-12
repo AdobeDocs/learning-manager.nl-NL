@@ -4,9 +4,9 @@ title: Het Salesforce-pakket installeren
 description: Learning Manager biedt een Salesforce App-pakket. Na de installatie en configuratie in SFDC kunnen verkoopmedewerkers hun trainingsactiviteiten uitvoeren in de SFDC-portal. Met deze app kunnen SFDC-gebruikers nieuwe trainingen verkennen, aanbevelingen bekijken en deze rechtstreeks in de SFDC-portal gebruiken. Gebruikers ontvangen de aankondigingen die door beheerders worden verzonden in de vorm van mastheads rechtstreeks binnen de app in de SFDC-portal.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1053'
 ht-degree: 47%
 
 ---
@@ -24,8 +24,8 @@ Learning Manager biedt een Salesforce App-pakket. Na de installatie en configura
 1. Klik **[!UICONTROL Salesforce]**.
 1. Let op de toepassingspagina van Salesforce op de toepassings-id (ook wel client-id genoemd) en het clientgeheim dat in de beschrijving wordt vermeld.
 1. Klik **[!UICONTROL goedkeuren]** en uw app moet met succes worden goedgekeurd.
-1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.**&#x200B;**
-1. In de sectie OAuth Code ophalen moeten de client-id en het bereik worden ingesteld op - admin:read,admin:write. Klik **[!UICONTROL voorleggen]**.
+1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.****
+1. In de Get sectie van de Code OAuth, moeten identiteitskaart van de Cliënt en het werkingsgebied aan - admin :read, admin :write worden geplaatst. Klik **[!UICONTROL voorleggen]**.
 1. Voer bij Vernieuwingstoken ophalen de client-ID en het clientgeheim in. Klik **[!UICONTROL voorleggen]** en neem nota van het vernieuwingstoken.
 
 ### Account aanmaken in de Salesforce-app
@@ -47,7 +47,7 @@ Als u het pakket wilt installeren, moet u eerst het bestaande pakket in Salesfor
 >
 >De Adobe Learning Manager-app wordt alleen ondersteund in de Salesforce Lightning-weergave.
 
-1. Lanceer het [ het pakket url van de Manager van het Leren (Reparatie M42 2) ](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlG).
+1. Lanceer het [ pakket url van de Manager leerden ](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2).
 1. In de **Login** pagina, klik **[!UICONTROL het Domein van de Douane van het Gebruik]**.
 1. Ga het pakket URL in en klik **[!UICONTROL verdergaan]**. Op de installatiepagina moet de optie Installeren voor alleen beheerders zijn geselecteerd. Wijzig deze optie niet.
 1. Klik **[!UICONTROL installeer]**. Zodra het pakket wordt geïnstalleerd, klik **[!UICONTROL Gedaan]**. U wordt naar de pagina Geïnstalleerde pakketten geleid en u kunt het geïnstalleerde Adobe Learning Manager-pakket zien.

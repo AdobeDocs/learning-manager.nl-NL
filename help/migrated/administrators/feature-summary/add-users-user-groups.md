@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gebruikers toevoegen in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
+source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 1%
+source-wordcount: '2451'
+ht-degree: 2%
 
 ---
 
@@ -75,7 +75,7 @@ U kunt als volgt een zelfregistratie-URL voor een gebruiker maken:
    ![](assets/add-self-register-link.png)
    _menu Dropdown voor het selecteren van de zelfregistratieoptie_
 4. Op **voeg automatisch-Registratieprofiel** herinnering toe, typ het profiel in het **Naam van het Profiel** (de titel van de Taak van de gebruiker) gebied.
-5. Selecteer de manager van de gebruiker door naar de manager in het **gebied van de Naam van de 0&rbrace; manager te zoeken.** De manager die aan het zelfregistratieprofiel wordt toegewezen, moet een geregistreerde gebruiker in Adobe Learning Manager zijn.
+5. Selecteer de manager van de gebruiker door naar de manager in het **gebied van de Naam van de 0} manager te zoeken.** De manager die aan het zelfregistratieprofiel wordt toegewezen, moet een geregistreerde gebruiker in Adobe Learning Manager zijn.
 
 
    ![](assets/add-a-user-prompt.png)
@@ -172,6 +172,37 @@ De gebruikers registreren:
 
 Er wordt een verificatiebericht verzonden naar de gebruiker. De gebruiker moet de koppeling in de e-mail selecteren om zijn of haar account te activeren en Adobe Learning Manager te gaan gebruiken.
 
+### Het gebruikersrapport downloaden
+
+Beheerders kunnen gebruikersgegevens exporteren en downloaden als een uitgebreid rapport. Door deze gegevens te exporteren kunnen beheerders de activiteiten van studenten volgen, de levenscyclus van accounts volgen, inactieve gebruikers identificeren en nauwkeurige records bijhouden voor nalevings-, controle- en rapportagedoeleinden.
+
+Het gebruikersrapport downloaden:
+
+1. Meld u als beheerder aan bij Adobe Learning Manager.
+2. Selecteer **Gebruikers**, dan kies **Intern**.
+3. Selecteer **de Gegevens van de Gebruiker van de Uitvoer**. U wordt op de hoogte gesteld wanneer het rapport gereed is.
+
+   ![](assets/select-export-user-data.png)
+   _de Interne gebruikerssecties toont de optie om het gebruikersrapport uit te voeren en te downloaden._
+4. Selecteer de melding en download het gebruikersrapport.
+
+Het rapport bevat de volgende informatie:
+
+* Naam
+* E-mail
+* Status
+* Datum toegevoegd (tijdzone UTC)
+* Datum verwijderd (tijdzone UTC)
+* Laatste aanmeldingsdatum (tijdzone UTC)
+* Adobe ID
+* userState
+* profile
+* Taal van interface
+* Inhoudstaal
+* Tijdzone
+* Interne gebruiker-ID
+* E-mailadres van manager
+
 ## Externe gebruikers
 
 Met Adobe Learning Manager kunt u gebruikers buiten uw bedrijf, zoals klanten, partners, leveranciers of klanten, toevoegen om toegang te krijgen tot de leerinhoud. Nadat ze zijn toegevoegd, kunt u ze groeperen, cursussen toewijzen en de leervoortgang bijhouden.
@@ -218,7 +249,7 @@ Er wordt een registratie-URL gegenereerd.
 Het externe profiel inschakelen:
 
 1. Zoek het nieuwe profiel in de lijst met externe profielen.
-2. Selecteer de **1&rbrace; knevelknoop van de Status &lbrace;om het toe te laten.**
+2. Selecteer de **1} knevelknoop van de Status {om het toe te laten.**
 
 De beheerder kan deze URL delen met de externe partner, zodat deze zich kan aanmelden en zich kan aanmelden bij Adobe Learning Manager.
 
@@ -239,7 +270,7 @@ Er zijn een paar verschillen tussen interne en externe registraties:
 | Interne gebruikers | Externe gebruikers |
 |---|---|
 | Aanmelden met Adobe ID- of SSO-referenties. | Kan zich aanmelden met een e-mail-ID. |
-| Gamification is beschikbaar | Gamification is beschikbaar. De beheerder moet gamification voor externe studenten in de [ montages van de Gamification ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/gamification) toelaten. |
+| Gamification is beschikbaar | Gamification is beschikbaar. De beheerder moet gamification voor externe studenten in de [ montages van de Gamification ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) toelaten. |
 
 ### Extern registratieprofiel pauzeren
 
@@ -266,6 +297,32 @@ Een externe gebruiker hervatten:
 
 ![](assets/resume-an-external-user.png)
 _Optie om een eerder gepauzeerd extern registratieprofiel_ te hervatten
+
+### Het externe profiel wijzigen
+
+Beheerders kunnen studenten van het ene externe profiel opnieuw toewijzen aan een ander profiel.
+
+Het externe profiel wijzigen:
+
+1. Meld u als beheerder aan bij Adobe Learning Manager.
+2. Selecteer **[!UICONTROL Gebruikers]** en selecteer dan **[!UICONTROL Extern]**.
+3. Selecteer **[!UICONTROL Gebruikte Plaatsen]** in de lijst van externe profielen.
+
+   ![](assets/select-learners-external-profile.png)
+   _Externe profielsectie die het aantal gebruikte plaatsen tonen_
+
+4. Selecteer de student en selecteer dan **[!UICONTROL Acties]**.
+
+   ![](assets/select-change-profile-external-learner.png)
+   _Externe profielpagina die de optie van het Profiel van de Verandering benadrukt om de studenten naar verschillend profiel te verplaatsen_
+
+5. Selecteer **[!UICONTROL Profiel van de Verandering]**.
+6. Zoek en selecteer het andere externe profiel.
+
+   ![](assets/search-and-select-profile.png)
+   _snelle vertoningen van het Profiel van de Verandering de opties om het externe profiel_ te zoeken
+
+De geselecteerde student gaat naar het geselecteerde externe profiel.
 
 ### Gebruik van externe licenties bewaken
 

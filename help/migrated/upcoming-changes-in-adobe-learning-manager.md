@@ -2,18 +2,18 @@
 title: Nieuwe functies in de Adobe Learning Manager-versie van oktober
 description: Meer informatie over de nieuwe functies, verbeteringen en belangrijke updates in de Adobe Learning Manager-versie van oktober 2025.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 40071158037ece57c8511a554ae69ca5701f32ad
+source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
 workflow-type: tm+mt
-source-wordcount: '8349'
+source-wordcount: '8348'
 ht-degree: 0%
 
 ---
 
-# Nieuwe functies in de Adobe Learning Manager-versie van oktober 2025
+# Aanstaande wijzigingen in Adobe Learning Manager
 
 >[!IMPORTANT]
 >
->Houd er rekening mee dat de geschetste functies voorlopig zijn en kunnen worden gewijzigd. Neem contact op met uw aangewezen Customer Success Manager voor meer informatie en bevestiging. Als u om het even welke kwesties ontmoet, gelieve ons team van de Steun van de Klant in [ learningmanagersupport@adobe.com ](mailto:learningmanagersupport@adobe.com) te contacteren.
+>De Adobe Learning Manager-versie van oktober 2025 is nu live. Bekijk [ wat ](/help/migrated/whats-new.md) voor meer informatie over de recentste eigenschappen en de verhogingen Nieuw is. Deze pagina wordt bijgewerkt met de nieuwe functies en verbeteringen voor de volgende release. Blijf op de hoogte voor meer updates.
 
 ## Overzicht van de release
 
@@ -271,7 +271,7 @@ Gebruikers in een sociaal board van tags voorzien:
    ![](assets/select-new-post.png)
    _Begin een nieuwe bespreking door Nieuw Post in Sociaal Leren te selecteren om kennis met de geëtiketteerde gebruikers te delen_
 
-4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1&rbrace; optie van de Raad van de Discussie.]**
+4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1} optie van de Raad van de Discussie.]**
 
    ![](assets/select-boards-in-social-board.png)
    _selecteer een discussieboard om gebruikers te posten en te etiketteren, toelatend gerichte samenwerkingsgesprekken in Sociaal Leren_
@@ -1726,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

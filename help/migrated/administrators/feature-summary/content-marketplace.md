@@ -4,10 +4,10 @@ title: Inhoudsmarktplaats
 description: Learning Manager biedt nu Inhoudsmarktplaats waar u trainingen kunt ontdekken en kopen. Verken meer dan 70.000 cursussen over een breed scala aan onderwerpen, beschikbaar in meerdere formaten. Kies uit beheerde afspeellijsten die zijn gericht op een enorme verscheidenheid aan rollen en vervul uw behoeftes voor leren en het verbeteren van uw vaardigheden.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 10%
 
 ---
 
@@ -94,7 +94,7 @@ Verzend het citaat aan [ learningmanagersales@adobe.com ](mailto:learningmanager
 
 ## Studenten uitnodigen voor de inhoudshub
 
-Studenten uitnodigen voor de Content Marketplace om inhoud te verkennen en interesse te wekken. Als beheerder kunt u alle studenten in het account een uitnodiging sturen of geselecteerde studenten uitnodigen. De studenten moeten worden uitgenodigd voordat ze de inhoud kunnen verkennen. Het artikel van de mening [&#128279;](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub) voor meer informatie over de Hub van de Inhoud.
+Studenten uitnodigen voor de Content Marketplace om inhoud te verkennen en interesse te wekken. Als beheerder kunt u alle studenten in het account een uitnodiging sturen of geselecteerde studenten uitnodigen. De studenten moeten worden uitgenodigd voordat ze de inhoud kunnen verkennen. Het artikel van de mening [ voor meer informatie over de Hub van de Inhoud.](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub)
 
 De studenten uitnodigen:
 
@@ -145,11 +145,9 @@ When a learner clicks Express interest to Catalog in the Learner app, the intere
 
 ## Inhoudshub
 
-Met de inhoudshub kunnen beheerders de vereiste afspeellijsten in de Learner-app kort weergeven. De pagina Inhoudshub is altijd zichtbaar voor beheerders in hun studentrol, omdat dit hen in staat stelt om gemakkelijk een lijst met afspeellijsten te maken. Beheerders kunnen deze pagina toegankelijk maken voor beperkte vakexperts in hun account om u te helpen de juiste afspeellijst in te korten.
+Beheerders hebben rechtstreeks vanuit Adobe Learning Manager toegang tot het Go1-platform. Ga naar **[!UICONTROL Marketplace van de Inhoud]** en selecteer dan **[!UICONTROL de Hub van de Inhoud]**.
 
-Adobe Learning Manager synchroniseert regelmatig met de Content Hub, zodat nieuwe toevoegingen en updates automatisch worden weerspiegeld in het platform.
-
-Alle inhoud wordt toegewezen aan ondersteunde talen, zodat beheerders inhoud effectiever kunnen filteren en beheren op basis van taalvoorkeuren.
+De Content Hub repliceert het Go1-platform, zodat beheerders door cursussen kunnen bladeren, meerdere afspeellijsten kunnen maken en inhoud kunnen verkennen, zodat ze een naadloze Go1-ervaring binnen Adobe Learning Manager kunnen bieden.
 
 ## E-mailsjablonen
 
@@ -157,9 +155,9 @@ Adobe Learning Manager biedt vooraf geconfigureerde e-mailsjablonen waarmee behe
 
 U kunt drie e-mailsjablonen gebruiken:
 
-1. **[!UICONTROL Succesvolle de Activering van de Inhoud &#x200B;]:** Verzonden naar beheerders na een succesvolle aankoop van derdeinhoud. Deze melding bevestigt dat de activering is voltooid en dat de aangeschafte inhoud nu in het systeem beschikbaar is voor de toewijzing van studenten.
-2. **[!UICONTROL Geautomatiseerde Gebruiker uploadt Mislukking &#x200B;]:** teweeggebracht wanneer een geautomatiseerde gebruikersinvoer via CSV ontbreekt. Met deze waarschuwing kunnen beheerders snel problemen in geplande gebruikersupdates identificeren, zodat u corrigerende maatregelen kunt nemen.
-3. **[!UICONTROL nodigt Gebruikers uit om Inhoud &#x200B;] te onderzoeken:** een uitnodigings-e-mail die naar studenten wordt verzonden zodra de beheerder inhoud van de markt koopt. Daarna kunnen gebruikers hun leertraject direct starten.
+1. **[!UICONTROL Succesvolle de Activering van de Inhoud ]:** Verzonden naar beheerders na een succesvolle aankoop van derdeinhoud. Deze melding bevestigt dat de activering is voltooid en dat de aangeschafte inhoud nu in het systeem beschikbaar is voor de toewijzing van studenten.
+2. **[!UICONTROL Geautomatiseerde Gebruiker uploadt Mislukking ]:** teweeggebracht wanneer een geautomatiseerde gebruikersinvoer via CSV ontbreekt. Met deze waarschuwing kunnen beheerders snel problemen in geplande gebruikersupdates identificeren, zodat u corrigerende maatregelen kunt nemen.
+3. **[!UICONTROL nodigt Gebruikers uit om Inhoud ] te onderzoeken:** een uitnodigings-e-mail die naar studenten wordt verzonden zodra de beheerder inhoud van de markt koopt. Daarna kunnen gebruikers hun leertraject direct starten.
 
 <!--Purchased courses cannot be added in recurring certificates.
 Purchased courses cannot be shared to peer accounts.

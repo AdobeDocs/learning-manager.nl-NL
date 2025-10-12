@@ -3,14 +3,13 @@ description: Kom te weten hoe u Sociaal leren voor het web als student kunt gebr
 jcr-language: en_us
 title: Sociaal leren in Learning Manager
 contentowner: kuppan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
+source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3038'
-ht-degree: 78%
+source-wordcount: '3443'
+ht-degree: 68%
 
 ---
-
-
 
 # Sociaal leren in Learning Manager
 
@@ -22,15 +21,15 @@ Als gebruikers een training volgen, kan niet worden gegarandeerd dat ze alle nie
 
 Op dezelfde manier kunnen gebruikers met de functie Sociaal leren van Learning Manager communiceren door inhoud te delen en ervan te leren.
 
-Op dit platform kunnen verschillende inhoudstypen worden gedeeld: video, audio, screenshots, tekst, vragen en polls.  Gebruikers kunnen hun online leermateriaal ook met hun collega&#39;s delen via de **Delen naar sociale bookmarklet**. Zie voor meer informatie  [Delen naar Sociaal leren](share-to-social.md).
+Op dit platform kunnen verschillende inhoudstypen worden gedeeld: video, audio, screenshots, tekst, vragen en polls.  De gebruikers kunnen hun online leermiddelen met hun edelen ook delen door **Aandeel aan Sociaal bookmarklet** te gebruiken. Voor meer informatie, zie [ Aandeel aan Sociaal Leren ](share-to-social.md).
 
-Inhoud kan ook op een board worden geplaatst met behulp van de **Adobe Learning Manager-bureaubladtoepassing**. Zie voor meer informatie  [Adobe Learning Manager-app voor desktop](../adobe-learning-manager-app-for-desktop.md).
+De inhoud kan ook binnen een board met de hulp van de **Desktoptoepassing van Adobe Learning Manager** worden gepost. Voor meer informatie, zie [ app van Adobe Learning Manager voor Desktop ](../adobe-learning-manager-app-for-desktop.md).
 
 De functie wordt pas zichtbaar voor studenten als de beheerder Sociaal leren inschakelt.
 
 ![](assets/social-dashboarddashboard.png) ![](assets/social-learning-dashboard.png)
 
-*Leerdashboard weergeven*
+*het leren dashboard van de Mening*
 
 <table>
  <tbody>
@@ -131,46 +130,46 @@ De functie wordt pas zichtbaar voor studenten als de beheerder Sociaal leren ins
 
 Inhoud wordt gemaakt als bericht op een board.  Volg de onderstaande stappen om een bericht te maken:
 
-1. Klikken **[!UICONTROL Nieuw bericht].**
+1. Klik **[!UICONTROL Nieuwe Post ].**
 
    ![](assets/new-post-01.png)
-   *Nieuw bericht selecteren*
+   *Uitgezochte Nieuwe Post*
 
 1. Kies een van de volgende typen inhoud om te posten: tekst, vraag, video, audio, poll en screenshot.  Bestaande inhoud kan worden geüpload vanaf het systeem van de gebruiker of vanuit de galerie van de Adobe Learning Manager-desktopapp.
 
-   Gebruik de Adobe Learning Manager-desktopapp om video, scherm of audio op te nemen en screenshots te maken.  Zie voor meer informatie [Adobe Learning Manager-bureaubladtoepassing](../adobe-learning-manager-app-for-desktop.md).
+   Gebruik de Adobe Learning Manager-desktopapp om video, scherm of audio op te nemen en screenshots te maken.  Voor meer informatie, zie [ de Desktoptoepassing van Adobe Learning Manager ](../adobe-learning-manager-app-for-desktop.md).
 
    <!--![](assets/types-of-post-03.png)-->
 
-1. Zoek een board dat of vaardigheid die betrekking heeft op het bericht.  Als het board niet bestaat, klikt u **[!UICONTROL Een nieuw board maken]**.
+1. Zoek een board dat of vaardigheid die betrekking heeft op het bericht.  Als het board niet bestaat, klik **[!UICONTROL creeer een Nieuwe Raad]**.
 
    ![](assets/create-a-new-board-04.png)
 
-   *Een board maken*
+   *creeer een board*
 
-   Als u een externe of interne gebruiker bent en de beheerder u toegang heeft gegeven om een board te maken, kunt u een board maken.  Als u niet de machtigingen hebt om een board te maken, wordt de koppeling **Een nieuw board maken** wordt niet weergegeven.
+   Als u een externe of interne gebruiker bent en de beheerder u toegang heeft gegeven om een board te maken, kunt u een board maken.  Als u niet de toestemmingen hebt om een board te creëren, leidt de verbinding **tot een Nieuwe Raad** niet verschijnt.
 
 1. Vul de gegevens in het pop-upvenster in en selecteer het volgende boardtype:
 
-   * **Openbaar** - Deelname aan en zichtbaarheid van berichten is beschikbaar voor alle gebruikers.
-   * **Privé** - Post is alleen zichtbaar voor de maker van het board, de moderators en de gebruikers die aan het board zijn toegevoegd.
-   * **Beperkt** - Alleen boardeigenaars, beheerders en boardmoderators kunnen berichten maken. Andere gebruikers kunnen deelnemen door opmerkingen toe te voegen, te reageren, upvotes/downvotes te geven enzovoort.
+   * **Openbaar** - de Deelname en het zicht van berichten is beschikbaar aan alle gebruikers.
+   * **Privé** - Post is slechts zichtbaar aan de schepper van de raad, moderators, en gebruiker(s) die aan de raad worden toegevoegd.
+   * **Beperkt** - slechts boardeigenaar, beheerder, en boardmoderators kunnen post tot stand brengen. Andere gebruikers kunnen deelnemen door opmerkingen toe te voegen, te reageren, upvotes/downvotes te geven enzovoort.
 
    <!--![](assets/new-board-05.png)-->
 
    >[!NOTE]
    >
-   >In de app Sociaal student kunt u alleen een **Beheerder** heeft de mogelijkheid om een persoonlijk board met gebruikersgroepen (intern/extern) te maken.
+   >In Sociaal Learner app, slechts heeft een **Admin** het vermogen om privé board met gebruikersgroepen (intern/extern) tot stand te brengen.
    >
-   >Alle andere gebruikers behalve beheerders, auteurs, studenten, managers, docenten, enz. **kan** privaatboards met gebruikersgroepen maken. Ze kunnen het gedeelte van **gebruikersgroepen** in terwijl er een privéboard wordt gemaakt.
+   >Alle andere gebruikers behalve beheerders, auteurs, studenten, managers, docenten, enz. **kan** geen privé boards met gebruikersgroepen tot stand brengen. Zij kunnen niet de sectie van **gebruikersgroepen** binnen zien terwijl verwezenlijking van privé board.
 
    Alleen voor beheerders: Als u **Privé** kiest, krijgt u twee opties te zien: **Gebruikers** en **Gebruikersgroepen**. Kies de optie **Gebruikersgroepen** en voeg vervolgens de gebruikersgroepen toe met wie u het privéboard wilt delen.
 
    In het veld Gebruikersgroepen kunt u interne, externe of aangepaste groepen kiezen. Uw privéboard wordt zichtbaar voor alle opgegeven gebruikersgroepen, ongeacht de omvanginstellingen.
 
-1. Als u inhoud wilt delen, klikt u **[!UICONTROL Post]**. Als u op Posten klikt, krijgt de gebruiker een melding.
+1. Om inhoud te delen, klik **[!UICONTROL Post]**. Als u op Posten klikt, krijgt de gebruiker een melding.
 
-   De inhoud wordt gepost op basis van de beheerinstelling die door de beheerder is ingesteld voor inhoud voor Sociaal leren die kan worden beheerd door  [Moderatoren/vakexperts](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
+   De inhoud wordt gepost gebaseerd op het beheer plaatsend door de beheerder voor het Sociaal Leren inhoud wordt geplaatst die door [ de Moderatoren van de Raad/de Deskundigen van de Onderwerp ](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME) kan worden beheerd.
 
    <!--![](assets/pop-up-dialog-before-sending-for-curation.png)-->
 
@@ -184,13 +183,13 @@ Als u een bericht in Sociaal leren aanmaakt of reageert op een bericht, kunt u m
 
 ![](assets/rte-learner.png)
 
-*De Rich Text Editor gebruiken om een bericht te maken*
+*Gebruik de Rijke Redacteur van de Tekst om een post* te creëren
 
 Als u een board maakt, hebt u ook toegang tot dezelfde set opties in de RTF-editor.
 
 ![](assets/create-board.png)
 
-*De Rich Text Editor gebruiken om een bericht te maken*
+*Gebruik de Rijke Redacteur van de Tekst om een post* te creëren
 
 ## Goedgekeurde inhoud bekijken {#viewingapprovedcontent}
 
@@ -222,20 +221,78 @@ Een student kan alle boards in een lijstweergave zien. Meld u aan bij uw Learner
 
 ![](assets/image002.png)
 
-*Boardweergave in sociaal opzicht*
+*mening van de Raad in sociaal*
 
-Als u de berichten op het board bekijkt, kunt u de berichten sorteren op **Post** en **Medewerker**.
+Wanneer u de posten in een boardformaat bekijkt, kunt u de posten dan sorteren volgens **Post** en **Medewerker**.
 
 ![](assets/image004.png)
 
 * Als u kiest voor **Berichten**, zullen de boards gesorteerd worden op basis van het aantal berichten in het board.
 * Als u kiest voor **Bijdragers**, zullen de boards gesorteerd worden op basis van het aantal gebruikers dat heeft gereageerd of commentaar heeft gegeven in de threads.
 
+## Tags toewijzen aan gebruikers in sociale boards
+
+Studenten met toegang tot het Sociaal board kunnen andere gebruikers in posts op Sociaal leren plaatsen en opmerkingen met de @username-indeling. Tags toevoegen werkt via de app of API&#39;s. Alleen gebruikers met toegang tot het board kunnen worden gelabeld, waarbij interactie relevant en privé blijft.
+
+* Gelabelde gebruikers ontvangen in-app- en e-mailmeldingen
+* Meldingen bevatten rechtstreekse koppelingen naar de inhoud
+* Gebruikers buiten het board kunnen niet worden gelabeld
+* Verwijderde gebruikers worden weergegeven als &quot;anoniem&quot;
+
+>[!NOTE]
+>
+>Studenten kunnen geen tags toewijzen aan gebruikersgroepen of @all-vermeldingen gebruiken om spam te voorkomen.
+
+### Tags toewijzen aan gebruikers in posts op Sociaal board
+
+U kunt specifieke leden van het board in berichten of opmerkingen labelen met @username. Het labelen is beperkt tot leden die toegang hebben tot dat board.
+Gebruikers in een Sociaal board van tags voorzien:
+
+1. Meld u als student aan bij Adobe Learning Manager.
+2. Selecteer **[!UICONTROL Sociaal Leren]** in de linkernavigatieruit.
+
+   ![](/help/migrated/assets/select-social-learning-admin.png)
+   _laat collaborative het leren door Sociaal Leren toe om tot discussieboards toegang te hebben, inzichten te delen, en gebruikers voor interactieve betrokkenheid te etiketteren_
+
+3. Selecteer **[!UICONTROL Nieuwe Post]**.
+
+   ![](assets/select-new-post.png)
+   _Begin een nieuwe bespreking door Nieuw Post in Sociaal Leren te selecteren om kennis met de geëtiketteerde gebruikers te delen_
+
+4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1} optie van de Raad van de Discussie.]**
+
+   ![](assets/select-boards-in-social-board.png)
+   _selecteer een discussieboard om gebruikers te posten en te etiketteren, toelatend gerichte samenwerkingsgesprekken in Sociaal Leren_
+
+5. Typ uw postgegevens en tagde een gebruiker door @ in te voeren gevolgd door de naam (bijvoorbeeld @andrew). Wanneer u @ typt, gevolgd door de eerste drie letters van de naam van de gebruiker, verschijnt er een lijst met overeenkomende gebruikers.
+
+   ![](assets/type-a-user-tag.png)
+   _de gebruikers van de markering in uw discussiepost door te typen @ gevolgd door de gebruikersbenaming om gerichte samenwerking binnen Sociaal Leren boards_ toe te laten
+
+6. Selecteer de gewenste gebruiker in de lijst.
+7. Selecteer **[!UICONTROL Post]**.
+
+Gelabelde gebruikers ontvangen zowel in-app- als e-mailmeldingen met een directe koppeling naar het bericht. Hierdoor worden de discussies gerichter en beter op elkaar afgestemd.
+
+### Tags toewijzen aan gebruikers op basis van het bereik van het board
+
+Met tag met beperkingen voor het bereik kunt u alleen studenten taggen die toegang hebben tot een specifiek board. Zo blijft de privacy behouden doordat codering van gebruikers buiten het bereik wordt voorkomen.
+
+Als u probeert studenten te labelen die buiten het bereik van het board vallen, worden er geen suggesties weergegeven en kunt u ze niet labelen.
+
+### Verwijderde gebruikers labelen
+
+Als een gebruiker die is verwijderd, is gelabeld in een bericht van Sociaal leren, wordt in het bericht de naam &quot;Anoniem&quot; weergegeven. De opmerking en tag blijven zichtbaar voor context, maar profielkoppelingen of details worden niet weergegeven.
+
+![](assets/deleted-users-tagged.png)
+_Sociaal het Leren post die benadrukt hoe een geschrapte gebruiker als Anoniem wanneer geëtiketteerd verschijnt_
+
+
 ### Vaardigheid filteren {#skillfilter}
 
 ![](assets/image007.png)
 
-*Publicaties sorteren*
+*Sorteer de berichten*
 
 Om boards te filteren op meerdere vaardigheden gebruikt u het Vaardighedenfilter. Zodra u de vaardigheden heeft geselecteerd kunt u ook de filters wissen.
 
@@ -243,7 +300,7 @@ Om boards te filteren op meerdere vaardigheden gebruikt u het Vaardighedenfilter
 
 ![](assets/image008.png)
 
-*Activiteitsniveaus filteren*
+*de activiteitsniveaus van de Filter*
 
 Om boards te sorteren op basis van het aantal interacties gebruikt u het Activiteitenfilter. U kunt deze sorteren op:
 
@@ -261,7 +318,7 @@ Studenten kunnen de inhoud, met bijlagen, downloaden van het platform Sociaal le
 
 ![](assets/download-posts-insocial.png)
 
-*Een bericht downloaden in een sociaal*
+*Download een post in sociaal*
 
 U kunt de inhoud downloaden uit de secties Posten, Opmerkingen of Reacties. U kunt slechts één bestand tegelijk downloaden.
 
@@ -386,23 +443,23 @@ Met deze functie kunnen gebruikers verhalen toevoegen of maken met berichten die
 
 Volg de onderstaande stappen om een bericht aan een verhaal toe te voegen:
 
-1. Klik op het samengevouwen menupictogram rechtsboven in een bericht en klik op **[!UICONTROL Toevoegen aan mijn verhaal]**.
+1. Klik het samengevouwen menupictogram van de hogere juiste hoek van een post en klik **[!UICONTROL toevoegen aan mijn Verhaal]**.
 
    ![](assets/add-to-my-story-05.png)
 
-   *Toevoegen aan een artikel*
+   *voeg aan een verhaal toe*
 
 1. In het dialoogvenster **Verhaal selecteren** kiest u een relevant verhaal om aan het bericht toe te voegen.  Als er nog geen relevante verhalen bestaan, kunt u ook een verhaal maken door op **Nieuw verhaal** te klikken.
 
    ![](assets/select-story-or-newstory-06.png)
 
-   *Een artikel maken*
+   *creeer een verhaal*
 
 1. In het dialoogvenster Nieuw verhaal vult u de verhaalnaam en -beschrijving in.  U kunt de zichtbaarheid van het verhaal ook instellen op Openbaar of Privé.
 
    ![](assets/new-story-1-2x.png)
 
-   *Artikelnaam en -beschrijving toevoegen*
+   *voeg artikelnaam en beschrijving toe*
 
    Om verhalen te bekijken die door gebruikers zijn gemaakt, klikt u op de naam van de gebruiker in de menuopties van het profiel.
 
@@ -491,19 +548,19 @@ Boards zijn een verzameling van berichten.  Elk board in Sociaal leren is gemaa
 
 Op de pagina Alle boards staan berichten of boards die zijn gemaakt door alle gebruikers in een activiteitenbereik.  Maar op de pagina Mijn boards staan alleen boards die door een gebruiker zijn gemaakt of gevolgd, of waaraan deze heeft bijgedragen.
 
-Op de pagina Mijn boards kunnen de zichtbare boards als volgt worden gefilterd: **Alles**, **Gemaakt door mij**, **Opmerkingen van mij**, **Gevolgd door mij**.
+In de Mijn pagina van Boards, kunnen de zichtbare boards volgens het volgende worden gefiltreerd: **allen**, **die door me** worden gecreeerd, **die door me** wordt becommentarieerd, **gevolgd door me**.
 
 ![](assets/board-filter-07.png)
 
-*Zichtbare boards filteren*
+*de zichtbare boards van de Filter*
 
 Gebruikers kunnen boards in zowel Mijn boards als Alle boards sorteren op **Relevantie** of **Datum**.
 
 ![](assets/sort-board-by-08.png)
 
-*boards sorteren op relevantie en datum*
+*de boards van de soort door relevantie en datum*
 
-Als er tijdens het maken van een bericht geen relevante boards in het bericht staan, klikt u op [Een nieuw board maken](social-learning-web-user.md#Creatingcontentasapost).  Volg de onderstaande stappen om een board weer te geven, te bewerken, te verwijderen, te rapporteren, URL te kopiëren en toe te voegen aan uw lijst met favoriete boards:
+Terwijl het creëren van een post, als er geen relevante boards aan de post zijn, klik [ creeer een nieuw board ](social-learning-web-user.md#Creatingcontentasapost).  Volg de onderstaande stappen om een board weer te geven, te bewerken, te verwijderen, te rapporteren, URL te kopiëren en toe te voegen aan uw lijst met favoriete boards:
 
 1. Klik op de naam van het board en klik op **[!UICONTROL Ga naar board]**.
 1. Klik op de pagina Boards op het samengevouwen menupictogram en selecteer een optie uit de keuzelijst.
@@ -524,7 +581,7 @@ Delen naar Sociaal is een bookmarklet waarmee studenten hun online leermateriaal
 
 ![](assets/share-to-social-11.png)
 
-*Delen naar Sociaal leren*
+*Aandeel aan sociaal leren*
 
 ## Mijn vaardigheden {#myskills}
 
@@ -532,7 +589,7 @@ Op de pagina Mijn boards zien gebruikers de vaardigheden en het aantal berichten
 
 ![](assets/my-skills-12.png)
 
-*Alle vaardigheden weergeven*
+*Mening alle vaardigheden*
 
 ## Mensen die ik volg {#peopleifollow}
 
@@ -540,7 +597,7 @@ Op de pagina Mijn boards zien gebruikers de namen van mensen die ze volgen en he
 
 ![](assets/people-i-follow-13.png)
 
-*Mensen die een student volgt*
+*Mensen een student volgt*
 
 Volg de onderstaande stappen om andere gebruikers te volgen:
 
@@ -549,7 +606,7 @@ Volg de onderstaande stappen om andere gebruikers te volgen:
 
    ![](assets/follow-unfollow-peers-14.png)
 
-   *Een gebruiker volgen of ontvolgen*
+   *volg of ontvolg een gebruiker*
 
 ## Sociaal leaderboard {#socialleaderboard}
 
@@ -561,7 +618,7 @@ Klik op **[!UICONTROL Ga naar het leaderboard]** op de pagina **Mijn boards** om
 
 ![](assets/social-leaderboard-15.png)
 
-*Alle studenten weergeven*
+*Bekijk alle studenten*
 
 ## Activiteitspunten {#activitypoints}
 
@@ -588,7 +645,7 @@ De beheerder van een organisatie kan ook meer punten aan een student toekennen z
 
    <!--![](assets/curation-awaitingnotification.png)-->
 
-1. Klik op de knop **Klik om te reviseren** koppeling. Deze actie brengt de SME naar de pagina voor inhoudsmoderatie (zie screenshot hieronder).
+1. Om de post te matigen, klik **klikken om** verbinding te herzien. Deze actie brengt de SME naar de pagina voor inhoudsmoderatie (zie screenshot hieronder).
 
    <!--![](assets/sme-moderation-page.png)-->
 
@@ -603,7 +660,7 @@ Elke pagina op Sociaal leren heeft een zoekveld waarin gebruikers boards, vaardi
 
 <!--![](assets/search-16.png)-->
 
-De volgende pagina&#39;s in Informeel leermateriaal hebben een zoekveld: **Mijn boards**, **Alle boards**, **Boardpagina**, van gebruikers **Profielpagina**, en **profielpagina van andere studenten**.
+De volgende pagina&#39;s in informeel leren hebben een onderzoeksgebied: **Mijn boards**, **Alle boards**, **pagina van Boards**, de pagina van het Profiel van de gebruiker ****, en **het profielpagina van andere student**.
 
 Wanneer een gebruiker inhoud zoekt in Informeel leermateriaal, wordt het aantal zoekresultaten voor de inhoud in Informeel en Formeel leermateriaal van Learning Manager weergegeven.
 
@@ -611,7 +668,7 @@ Het aantal zoekresultaten uit Informeel leermateriaal wordt ook weergegeven wann
 
 ![](assets/formal-learning-search-20.png)
 
-*Zoekresultaten voor leerdoeleinden*
+*resultaten van het Onderzoek voor het leren*
 
 Op de pagina Informeel leermateriaal van een board zijn alleen zoekopdrachten met betrekking tot het board mogelijk.  Zoekresultaten die geen betrekking hebben tot een board, worden niet weergegeven.
 
@@ -621,13 +678,13 @@ Als Sociaal leren voor een student is ingeschakeld, kan de gebruiker zijn/haar p
 
 ![](assets/user-profile-17.png)
 
-*Gebruikersprofiel weergeven*
+*gebruikersprofiel van de Mening*
 
 Op de profielpagina zien studenten het aantal verdiende punten, het aantal gemaakte berichten en het aantal volgers.
 
 Studenten kunnen ook de vaardigheden zien waarvoor ze als vakexpert zijn aangewezen.
 
-Op de pagina van de student staan ook de **beheerde artikelen**, **recente activiteiten** uitgevoerd en de **gevolgd personen** door hen.
+De pagina van de student toont ook de 0} beheerde verhalen van de student **,** recente uitgevoerde activiteiten **, en de** mensen die **door hen worden gevolgd.**
 
 ## Meldingen {#notifications}
 

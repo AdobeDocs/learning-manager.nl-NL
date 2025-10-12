@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Opmerkingen bij de release van Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ffb4883227f1e461df5fc4a025fef1ba1b8568c2
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '27312'
-ht-degree: 69%
+source-wordcount: '27340'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 69%
   </tr>
  </tbody>
 </table>-->
+
++++Update 102: Adobe Learning Manager-versie van oktober 2025
+
+**de datum van de Versie**: 12 van oktober, 2025
+
+## Nieuw in deze release
+
+Bekijk [ wat in de versie van Adobe Learning Manager Oktober 2025 ](/help/migrated/whats-new.md) voor meer informatie nieuw is.
++++
 
 +++Update 101: De Adobe Learning Manager-versie van juli 2025
 
@@ -93,7 +102,7 @@ Wanneer een beheerder **[!UICONTROL Update]** klikt, kunnen zij van de volgende 
 
 | Oud label | Nieuwe optie |
 |---|---|
-| Inhoudsupdate toepassen op alle studenten | Werk nu alle studenten bij:Pas de inhoud bij voor alle studenten |
+| Inhoudsupdate toepassen op alle studenten | Werk nu alle studenten bij :Apply inhoudsupdate voor alle studenten |
 | Pas een update toe op studenten die nog moeten starten | Alleen niet-begonnen studenten bijwerken: pas een inhoudsupdate toe voor alleen niet-begonnen studenten |
 | Studenten in uitvoering ontvangen na voltooiing een update | Uiteindelijk alle studenten bijwerken: Pas de inhoudsupdate voor alle studenten toe |
 
@@ -122,20 +131,20 @@ Verwijs naar dit [ artikel ](/help/migrated/learners/feature-summary/fluidic-pla
 
 * Probleem verholpen waarbij studenten die een cursus hadden voltooid een wit scherm zagen bij het terugkeren nadat de inhoudsmodule naar een nieuwe versie was bijgewerkt.
 
-Bovendien, voor details op aanstaande veranderingen in Adobe Learning Manager, zie dit [ artikel ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Bovendien, voor details op aanstaande veranderingen in Adobe Learning Manager, zie dit [ artikel ](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
-+++Update 100: de mei 2025-versie van Adobe Learning Manager
++++Update 100: De mei 2025-versie van Adobe Learning Manager
 
 **de datum van de Versie**: 10 mei, 2025
 
 ## Nieuw in deze release
 
-Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new.md) voor meer informatie.
+Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new-may-2025.md) voor meer informatie.
 +++
 
-+++Update 99: De Adobe Learning Manager-versie van februari 2025
++++Update 99: De februari 2025-versie van Adobe Learning Manager
 
 ## Interface instellen via SAML
 
@@ -155,7 +164,7 @@ Verwijs dit [ artikel ](/help/migrated/learners/feature-summary/catalogs.md#sort
 
 +++
 
-+++Update 98: de november 2024-versie van Adobe Learning Manager
++++Update 98: De november 2024-versie van Adobe Learning Manager
 
 **de datum van de Versie**: 16 november, 2024
 
@@ -164,7 +173,7 @@ Verwijs dit [ artikel ](/help/migrated/learners/feature-summary/catalogs.md#sort
 Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new-nov-24.md) voor meer informatie.
 +++
 
-+++Update 97: de juli 2024-versie van Adobe Learning Manager
++++Update 97: De Adobe Learning Manager-versie van juli 2024
 
 **de datum van de Versie:** 13 Juli, 2024
 
@@ -182,7 +191,7 @@ Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new-july
 Bekijk [Wat is er nieuw in Adobe Learning Manager](/help/migrated/whats-new-march-2024.md) voor meer informatie.
 +++
 
-+++Update 95: de november 2023-versie van Adobe Learning Manager
++++Update 95: De november 2023-versie van Adobe Learning Manager
 
 **de datum van de Versie:** 18 november, 2023
 
@@ -521,7 +530,7 @@ Voor de LinkedIn Learning-connector staat er een nieuw selectievakje Student kan
 * Gebruikers werden verkeerd geïdentificeerd bij deelname aan Zoom- of BJ VC-sessies.
 +++
 
-+++Update 81 - november 2022-versie van Adobe Learning Manager
++++Update 81 - november 2022 van Adobe Learning Manager
 
 **datum van de Versie:** 05 November 2022
 
@@ -653,7 +662,7 @@ Werk samen met de IT-afdeling van uw organisatie om deze actie te voltooien. Nee
 * In eerdere releases van Learning Manager moest u voor het configureren van een Zoom-connector eerst Exavault FTP configureren voor het kopiëren van het CSV-bestand. In deze release wordt de FTP-connector niet meer gebruikt voor het CSV-bestand en daarom hoeft u niet eerst de FTP te configureren.
 +++
 
-+++Update 74: Learning Manager AWS India-instantie
++++Update 74 - India-instantie van Learning Manager AWS
 
 **Releasedatum:** woensdag 15 februari 2022
 
@@ -693,7 +702,7 @@ Releasedatum: 05 februari 2022
 * Ondersteuning voor e-mailsjablonen is nu beschikbaar voor inhoudstalen, waaronder Hongaars en Fins.
 +++
 
-+++Update 72 - januari 2022-versie van Learning Manager
++++Update 72 - Learning Manager-release van januari 2022
 
 Releasedatum: 28 januari 2019
 
@@ -831,7 +840,7 @@ Releasedatum: 28 oktober 2021
 * De Leerobjecten-API heeft in sommige gevallen een fout met metadata gegeven.
 +++
 
-+++Update 69 - oktober 2021-versie van Learning Manager
++++Update 69 - Learning Manager-release van oktober 2021
 
 **Releasedatum:** 9 oktober 2021
 
@@ -911,7 +920,7 @@ Releasedatum: 28 september 2021.
 * Studenten ontvangen geen e-mails met sessiedetails.
 +++
 
-+++Update 67 - Updates voor Azure
++++Updates 67 - Updates van Azure
 
 Deze update introduceert een nieuwe instantie van Azure.
 
@@ -925,7 +934,7 @@ Deze update introduceert een nieuwe instantie van Azure.
 
 +++
 
-+++Update 66 - Augustus 2021-versie van Learning Manager
++++Update 66 - Learning Manager-release van augustus 2021
 
 **Augustus 2021** **versie van Adobe Learning Manager** concentreert zich op het verbeteren van de Ervaring van de Student, het Rapporteren, en Administratieve werkschema&#39;s. Een aantal belangrijke punten zijn:
 
@@ -1135,7 +1144,7 @@ Deze update biedt studenten de mogelijkheid om hun badges te downloaden als een 
 <!--## Previous update releases {#previousupdatereleases}-->
 +++
 
-+++Update 60 - Februari 2021-versie van Learning Manager
++++Update 60 - Learning Manager-release van februari 2021
 
 Releasedatum: 20 februari 2021
 
@@ -1273,7 +1282,7 @@ Ga voor meer informatie naar [***BlueJeans Events-connector***](../integration-a
 
 +++
 
-+++Update 58- December 2020-versie van Learning Manager
++++Update 58 - Learning Manager-release van december 2020
 
 ## Update 58 - Learning Manager-release van december 2020
 
@@ -1389,7 +1398,7 @@ Studenten kunnen echter wisselen tussen de lijst- en kaartweergave.
 
 +++
 
-+++Update 55- augustus 2020-versie van Learning Manager
++++Update 55 - Learning Manager-release van augustus 2020
 
 Releasedatum: 23 augustus 2020
 
@@ -1468,7 +1477,7 @@ Voor meer informatie, zie [***wat in de versie van Augustus 2020 van Adobe Learn
 * Als veel gebruikers vertrouwelijk worden gemaakt, vertoont Edge en Internet Voorbeeld onverwacht gedrag wanneer er in de browser op het tabblad Vertrouwelijke student wordt geklikt.
 * Wanneer de frequentie van een criterium wordt veranderd, worden de punten die met de oudere frequentie zijn berekend aan de huidige berekening toegevoegd.
 
-**Beheerder &#x200B;**
+**Beheerder **
 
 * Studenten kunnen niet als aanwezig worden gemarkeerd als de cursusinstantie die aan een leerprogramma is toegewezen is veranderd.
 
@@ -1552,7 +1561,7 @@ Als u de aankondiging op dat moment niet wilt lezen, kunt u er altijd voor kieze
 
 +++
 
-+++Update 53 - April 2020-versie van Learning Manager
++++Update 53 - Learning Manager-release van april 2020
 
 Releasedatum: 04 april 2020
 
@@ -1920,7 +1929,7 @@ Releasedatum: 2 augustus 2019
 
 ### Nieuwe en verbeterde functies {#Newandenhancedfeatures-5}
 
-**Scheiding van werkingsgebied in Sociaal leren voor interne en externe gebruikers** Een beheerder kan afzonderlijke werkingsgebieden voor interne en externe studenten bepalen. Er zijn twee nieuwe secties voor interne en externe gebruikers.  U kunt het bereik voor studentengroepen in beide secties bepalen.  De waarden van gebruikerseigenschappen kunnen voor interne gebruikers worden bepaald.  Het externe profiel, waarin studenten dezelfde sociale ruimte kunnen delen, kan voor externe gebruikers worden bepaald.  Voor meer informatie, zie [***montages van het Reikwijdte***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).  **sociaal-Beperk verwezenlijking van sociale boards** om de verwezenlijking van boards door alle studenten te beperken en de boards effectief te matigen, kan een Beheerder toestemmingen verlenen om boards tot stand te brengen aan een uitgezochte groep gebruikers. De beheerder kan het maken van boards tot een selecte groep beperken zodat niet elke student die deelneemt aan Sociaal leren boards kan maken.  Voor meer informatie, zie {de toestemmingen van de de creatie van de tekstrij 0} [***.***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)  **Vertoning slechts lege Actieve gebieden aan studenten** Een Beheerder kan verkiezen om de Actieve gebieden te tonen of de gebieden te verbergen nadat de waarden zijn bevolkt. Voor meer informatie, zie [***vertoning van de Gebruiker***](../administrators/feature-summary/add-users-user-groups.md#activefields).  **de Interne gebruikers worden geschrapt op een gespecificeerde duur van inactiviteit** een Beheerder kan de duur (in dagen) plaatsen waarbinnen een interne student wordt geschrapt als de student inactief voor de gespecificeerde duur blijft. Voor meer informatie, zie *** [ Auto schrapt gebruikers ](../administrators/feature-summary/settings.md#autodelete) &#x200B;***.  **pas verbindingen op de footer** aan een Beheerder kan verbindingen op footer toevoegen en aanpassen. De links kunnen ook voor verschillende talen aangepast worden.  De bestaande methode om de verbinding van Admin van het Contact op footer toe te voegen is ook beschikbaar in de **sectie van de Verbindingen van de Voettekst**. Voor meer informatie, zie [***footer verbindingen***](../administrators/feature-summary/settings.md#footer) aanpassen.
+**Scheiding van werkingsgebied in Sociaal leren voor interne en externe gebruikers** Een beheerder kan afzonderlijke werkingsgebieden voor interne en externe studenten bepalen. Er zijn twee nieuwe secties voor interne en externe gebruikers.  U kunt het bereik voor studentengroepen in beide secties bepalen.  De waarden van gebruikerseigenschappen kunnen voor interne gebruikers worden bepaald.  Het externe profiel, waarin studenten dezelfde sociale ruimte kunnen delen, kan voor externe gebruikers worden bepaald.  Voor meer informatie, zie [***montages van het Reikwijdte***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings).  **sociaal-Beperk verwezenlijking van sociale boards** om de verwezenlijking van boards door alle studenten te beperken en de boards effectief te matigen, kan een Beheerder toestemmingen verlenen om boards tot stand te brengen aan een uitgezochte groep gebruikers. De beheerder kan het maken van boards tot een selecte groep beperken zodat niet elke student die deelneemt aan Sociaal leren boards kan maken.  Voor meer informatie, zie {de toestemmingen van de de creatie van de tekstrij 0} [***.***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)  **Vertoning slechts lege Actieve gebieden aan studenten** Een Beheerder kan verkiezen om de Actieve gebieden te tonen of de gebieden te verbergen nadat de waarden zijn bevolkt. Voor meer informatie, zie [***vertoning van de Gebruiker***](../administrators/feature-summary/add-users-user-groups.md#activefields).  **de Interne gebruikers worden geschrapt op een gespecificeerde duur van inactiviteit** een Beheerder kan de duur (in dagen) plaatsen waarbinnen een interne student wordt geschrapt als de student inactief voor de gespecificeerde duur blijft. Voor meer informatie, zie *** [ Auto schrapt gebruikers ](../administrators/feature-summary/settings.md#autodelete) ***.  **pas verbindingen op de footer** aan een Beheerder kan verbindingen op footer toevoegen en aanpassen. De links kunnen ook voor verschillende talen aangepast worden.  De bestaande methode om de verbinding van Admin van het Contact op footer toe te voegen is ook beschikbaar in de **sectie van de Verbindingen van de Voettekst**. Voor meer informatie, zie [***footer verbindingen***](../administrators/feature-summary/settings.md#footer) aanpassen.
 
 ### Bekende problemen in deze release {#Knownissuesinthisrelease-2}
 
@@ -1979,7 +1988,7 @@ Releasedatum: 20 juni 2019
 
 **Automatisch beheer van inhoud**
 
-Sociaal leren staat inhoud toe die door studenten wordt gepost om op twee manieren worden beheerd, namelijk - **Geen Kromming** en **Handmatige Kromming**. In deze release verbetert Adobe Learning Manager de mogelijkheden voor sociaal leren door functies voor automatisch beheer op basis van AI te bieden. Wanneer inhoud wordt plaatst, wordt de inhoud geanalyseerd om te zien of de inhoud bij de vaardigheid hoort waarvoor de inhoud is geplaatst. Op basis van de vertrouwensscore wordt de inhoud live geplaatst of verzonden voor handmatig beheer. Voor meer informatie, zie *[**&#x200B; auto-gesteunde beheer &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Sociaal leren staat inhoud toe die door studenten wordt gepost om op twee manieren worden beheerd, namelijk - **Geen Kromming** en **Handmatige Kromming**. In deze release verbetert Adobe Learning Manager de mogelijkheden voor sociaal leren door functies voor automatisch beheer op basis van AI te bieden. Wanneer inhoud wordt plaatst, wordt de inhoud geanalyseerd om te zien of de inhoud bij de vaardigheid hoort waarvoor de inhoud is geplaatst. Op basis van de vertrouwensscore wordt de inhoud live geplaatst of verzonden voor handmatig beheer. Voor meer informatie, zie *[** auto-gesteunde beheer **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Vaardigheid toewijzen aan vaardigheidsdomeinen**
 
@@ -2603,7 +2612,7 @@ Releasedatum: 6 december 2016.
 
 ### Verbetering {#enhancement}
 
-Als deel van deze update, verstrekt de Lerende Manager een eindpunt [ PATCH/users/{id}] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id) om gebruikers in een toepassing bij te werken. U moet de beheerdersrol hebben om toegang te krijgen tot dit API-eindpunt. Met&#x200B;**&#x200B;**&#x200B;dit eindpunt kunt u de volgende informatie over gebruikers van Learning Manager bijwerken:
+Als deel van deze update, verstrekt de Lerende Manager een eindpunt [ PATCH/users/{id}] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id) om gebruikers in een toepassing bij te werken. U moet de beheerdersrol hebben om toegang te krijgen tot dit API-eindpunt. Met****dit eindpunt kunt u de volgende informatie over gebruikers van Learning Manager bijwerken:
 
 * Naam
 * E-mail
@@ -2836,7 +2845,7 @@ Als onderdeel van deze update hebben we de volgende nieuwe API&#39;s toegevoegd 
 1. GET userGroups
 1. GET-gebruikersgroepen /{id}
 1. DELETE userGroups /{id}/Users
-1. POST userGroups /&lbrace;0/Users{id}
+1. POST userGroups /{0/Users{id}
 1. GET /users/userId/userGroups
 
 We hebben ook het bestaande gebruikersmodel uitgebreid met de volgende toevoegingen:
@@ -3113,7 +3122,7 @@ Exporteren van inschrijvingsgegevens mislukte als een van de ingeschreven studen
 
 **E-mailsjablonen**
 
-* Het woord **partners,** dat werd gebruikt om externe groepen te vertegenwoordigen, **&#x200B;**&#x200B;is **&#x200B;**&#x200B;verwijderd uit het lichaam en de titel van e-mailmalplaatjes. Externe groepen worden niet noodzakelijkerwijs partners genoemd.\
+* Het woord **partners,** dat werd gebruikt om externe groepen te vertegenwoordigen, **** is **** verwijderd uit het lichaam en de titel van e-mailmalplaatjes. Externe groepen worden niet noodzakelijkerwijs partners genoemd.\
   **Nota:** Dit bijgewerkte malplaatje verschijnt niet als het standaardmalplaatje reeds wordt gewijzigd. Om het bijgewerkte malplaatje te bekijken klik **terugkeert aan Origineel** in **dialoog van de Voorproef van het Malplaatje**.
 
 * URL is niet klikbaar in de e-mail die door Beheerders wordt ontvangen wanneer **Gecreeerd Profiel (Zelfregistratie)** en **Gecreeerd Profiel (Extern/Partners)** e-mailmalplaatjes worden uitgegeven. Dit probleem is opgelost.

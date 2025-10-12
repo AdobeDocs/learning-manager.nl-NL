@@ -2,9 +2,9 @@
 description: Met de ALM (Studenttranscripten in Adobe Learning Manager) kunnen beheerders de voortgang van studenten in cursussen, modules, leerpaden en certificeringen volgen. Het steunt prestatiesevaluaties, nalevingscontrole, controles, en externe rapportering. Het rapport biedt een volledig overzicht van de betrokkenheid en prestaties van een student.
 jcr-language: en_us
 title: Studenttranscripten in Adobe Learning Manager
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 85799b32f3a24fc0e6beb34ae39a502ff8e7a7b4
 workflow-type: tm+mt
-source-wordcount: '4221'
+source-wordcount: '4354'
 ht-degree: 8%
 
 ---
@@ -59,9 +59,6 @@ Studenttranscripten in Adobe Learning Manager volgen training, naleving en ontwi
 2. Selecteer **[!UICONTROL Rapporten]** van het linkernavigatiemenu.
 3. Selecteer **[!UICONTROL de Rapporten van de Douane]** binnen Rapporten en selecteer dan **[!UICONTROL de Rapporten van Excel]**.
 4. Selecteer **[!UICONTROL Transcripten van de Student]**.
-
-   ![] ()
-
 5. Selecteer **[!UICONTROL produceer Nieuw]**.
 6. Selecteer het datumbereik waarvoor het transcript moet worden gegenereerd. Door gebrek, is de **[!UICONTROL Van]** datum de de registratiedatum van de student, en de **[!UICONTROL aan]** datum is altijd de huidige datum. U kunt alleen wijzigen vanaf welke begindatum u de gegevens nodig hebt.
 7. Selecteer het volgende:
@@ -74,15 +71,12 @@ b.Selecteer specifieke catalogi van de **[!UICONTROL Uitgezochte drop-down lijst
        * In bewerking 
        * Niet gestart 
        * Uitgeschreven 
-   &#x200B;8. Geavanceerde opties: Selecteer **[!UICONTROL Geavanceerde opties]** om de transcripties te downloaden om het volgende te omvatten:
+   8. Geavanceerde opties: Selecteer **[!UICONTROL Geavanceerde opties]** om de transcripties te downloaden om het volgende te omvatten:
 
    a. Download transcripten voor studenten die uit een account zijn verwijderd door het selectievakje **[!UICONTROL Inclusief verwijderde studenten]** in te schakelen.
 b. De informatie van het moduleniveau van de download in het transcript van de Student door **[!UICONTROL toe te laten de informatie van het moduleniveau]** checkbox. In dit geval worden de modulenamen en de tijd die aan elke module wordt doorgebracht als onderdeel van het transcript opgehaald als deze optie is ingeschakeld.
 c. Download vaardigheidsgegevens en samenvattingsbladen door de optie **[!UICONTROL toe te laten omvat vaardigheidsgegevens en samenvattingsbladen]** checkbox. Zie de sectie van de Rapporten van Excel voor meer informatie.
-&#x200B;9. U kunt ook de kolomwaarden selecteren die in het rapport moeten worden ingevuld. Dit biedt flexibiliteit om rapporten met specifieke kolomwaarden te downloaden zoals vereist. Selecteer de kolommen in de vervolgkeuzelijst.
-
-   
-
+9. U kunt ook de kolomwaarden selecteren die in het rapport moeten worden ingevuld. Dit biedt flexibiliteit om rapporten met specifieke kolomwaarden te downloaden zoals vereist. Selecteer de kolommen in de vervolgkeuzelijst.
 Transcripties worden als zip-bestanden gegenereerd en naar uw computer gedownload wanneer de vaardigheidsgegevens niet worden opgenomen. Als het selectievakje Vaardigheden is ingeschakeld, worden transcripten gegenereerd en gedownload als . xlsx-bestanden
 
 ### Studenttranscripten genereren met kopiëren en plakken
@@ -90,9 +84,6 @@ Transcripties worden als zip-bestanden gegenereerd en naar uw computer gedownloa
 Studenttranscripten ophalen is een moeizaam proces, omdat dit enkel voor één afzonderlijke student of gebruikersgroep per keer kan. Met de kopiëren- en plakkenfunctie kunt u nu in één keer de lijst met e-mail-ID&#39;s van studenten kopiëren en plakken.
 
 1. Selecteer **[!UICONTROL E-mail IDs]** lusje om de gekopieerde lijst van unieke e-mailidentiteitskaart in te gaan
-
-   
-
 2. Plak unieke e-mailadressen van studenten die u wilt toevoegen, gescheiden door een komma, puntkomma of regeleinde.
 3. Selecteer **[!UICONTROL bevestigen E-mails ID]** om te controleren als e-mail identiteitskaart u hebt ingevoerd geldig is. Als de ingevoerde e-mail-ID onjuist is, wordt deze rood gemarkeerd, samen met een validatiebericht.
 
@@ -138,15 +129,15 @@ In de volgende kolommen worden activiteit, voortgang of pogingen vastgelegd.
 | Voortgang % | Huidige voortgang % van de leerling die de cursus, certificering of leerpad aflegt. |
 | Bestede tijd (minuten) | De leertijd die de student in de LO heeft doorgebracht, wordt in de rijen op moduleniveau weergegeven met de afzonderlijke rijen voor de leertijd. In de rijen op cursus-/leerpad-/certificaatniveau wordt de totale leertijd weergegeven. |
 | Cijfer | Hiermee wordt het succes van de student aangegeven. &#39;Geslaagd&#39; als de gebruiker aan de succescriteria heeft voldaan, anders &#39;Niet geslaagd&#39;. |
-| Quiz_score | De meest recente quizscore die de student heeft behaald. Dit kan leeg zijn als de student de quiz niet heeft geprobeerd of als er geen quiz in staat of als de beheerder/docent geen score heeft toegewezen. |
-| Quiz_score_max | De meest recente maximale quizscores die mogelijk zijn voor de module. Deze kan leeg zijn als de student de quiz niet heeft geprobeerd of als de inhoud geen quizzen bevat. |
-| Highest_Quiz_score | De hoogste quizscore die de student na meerdere pogingen heeft behaald. Dit kan leeg zijn als de student de quiz niet heeft geprobeerd of als de inhoud geen quiz bevat of als de beheerder of docent geen score heeft toegewezen. |
-| Highest_Quiz_score_max | De hoogst mogelijke quizscores die mogelijk zijn voor de module. Deze kan leeg zijn als de student de quiz niet heeft geprobeerd of als de inhoud geen quizzen bevat. |
+| Quiz_score | De kolom wordt gebruikt om de score van de meest recente poging van een quiz op te nemen. Als een gebruiker bijvoorbeeld meerdere pogingen uitvoert (bijvoorbeeld de scores 10, 50 en 30 bij drie pogingen), geeft de kolom Quiz_score de score weer van de laatste poging, namelijk 30. Stel dat een quiz een maximale score van 100 heeft en dat een gebruiker drie pogingen doet, met scores van 30, 60 en 90. De kolom Quiz_score zal 90 tonen (de meest recente score), terwijl Highest_Quiz_score 90 zal tonen (de beste score over alle pogingen), en Quiz_score_max zal 100 blijven (de maximum mogelijke score). |
+| Quiz_score_max | De kolom Quiz_score_max vertegenwoordigt de maximaal haalbare score die voor een specifieke quiz of module kan worden behaald. Aangezien Quiz_score_max constant blijft, is het handig om in rapporten de totaal haalbare score voor een quiz of module weer te geven, ongeacht de prestaties van de gebruiker. |
+| Highest_Quiz_score | De kolom Highest_Quiz_score staat voor de hoogste score die een gebruiker heeft behaald voor alle pogingen van een specifieke quiz. Als een gebruiker bijvoorbeeld drie pogingen uitvoert om 10, 20 en 15 te scoren, geeft de Highest_Quiz_score 20 weer, omdat dit de hoogste behaalde score is. |
+| Highest_Quiz_score_max | De hoogst haalbare score die gekoppeld is aan de hoogste quizpoging die een student heeft uitgevoerd voor meerdere pogingen. Het is niet de hoogste score die de leerling heeft behaald. In plaats daarvan wordt de maximale score vastgelegd die mogelijk was in de poging waarbij de student de hoogste score behaalde. |
 | Aantal pogingen | Het totale aantal pogingen dat de student tot nu toe heeft uitgevoerd voor deze module. |
 | Maximaal toegestane pogingen | Het maximumaantal pogingen dat de student mag uitvoeren om de module te gebruiken. |
-| Opmerkingen bij inzending | Opmerkingen van de manager van een student nadat deze een leerobject hebben voltooid.<br> De gegevens van de inzendopmerkingen die door de docent zijn verstrekt, zijn opgenomen in de module voor het indienen van bestanden. Zie <a href="https://experienceleague.adobe.com/nl/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules"> modules-Adobe Learning Manager voor meer informatie.</a></br> |
-| Voltooiingsbron | <b> Nota:</b> voor VC de werkschema&#39;s van de schakelaaraanwezigheid, wanneer een student automatisch zoals aanwezig wordt gemerkt, zal de bron &quot;SELF, (student_email)&quot;tonen. |
-| Opmerking bij voltooiing | De opmerkingen die de beheerder heeft gemaakt wanneer een student als voltooid wordt gemarkeerd nadat deze een cursus, certificering of leerpad heeft voltooid. De beheerder kan de voltooiingsopmerkingen voor een of meerdere studenten toevoegen. Zie <a href="https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/courses#completion-comments"> commentaren van de Voltooiing </a> voor meer informatie. |
+| Opmerkingen bij inzending | Opmerkingen van de manager van een student nadat deze een leerobject hebben voltooid.<br> De gegevens van de inzendopmerkingen die door de docent zijn verstrekt, zijn opgenomen in de module voor het indienen van bestanden. Zie <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules"> modules-Adobe Learning Manager voor meer informatie.</a></br> |
+| Voltooiingsbron | Verwijst naar de oorsprong of methode waarmee de voltooiing van een cursus, leerprogramma of certificering door een student wordt vastgelegd. Hiermee kunnen beheerders begrijpen hoe de voltooiing is bereikt of dat het systeem is aangemeld. De kolom identificeert of de voltooiing zelf-gemeld was, automatisch geregistreerd, of vergemakkelijkt door een specifieke rol of een configuratie. <b> Nota:</b> voor VC de werkschema&#39;s van de schakelaaraanwezigheid, wanneer een student automatisch zoals aanwezig wordt gemerkt, zal de bron &quot;SELF, (student_email)&quot;tonen. |
+| Opmerking bij voltooiing | De opmerkingen die de beheerder heeft gemaakt wanneer een student als voltooid wordt gemarkeerd nadat deze een cursus, certificering of leerpad heeft voltooid. De beheerder kan de voltooiingsopmerkingen voor een of meerdere studenten toevoegen. |
 
 **het Leren objecten-verwante informatie**
 
@@ -195,7 +186,7 @@ Deze hebben betrekking op cursussen, modules, leerpaden, certificeringen, enzovo
 
 ## Excel-rapporten
 
-In het dialoogvenster Studenttranscripten kunt u ook vaardigheidsgegevens en overzichtsbladen downloaden als Excel-bestanden. Selecteer **[!UICONTROL omvatten de gegevens van Vaardigheden en summiere bladen]** checkbox en selecteer dan **&#x200B;**&#x200B;produceren om een Excel dossier met de volgende bladen te downloaden:
+In het dialoogvenster Studenttranscripten kunt u ook vaardigheidsgegevens en overzichtsbladen downloaden als Excel-bestanden. Selecteer **[!UICONTROL omvatten de gegevens van Vaardigheden en summiere bladen]** checkbox en selecteer dan **** produceren om een Excel dossier met de volgende bladen te downloaden:
 
 * Leermateriaaloverzicht I
 * Leermateriaaloverzicht II
@@ -203,8 +194,6 @@ In het dialoogvenster Studenttranscripten kunt u ook vaardigheidsgegevens en ove
 * Vaardighedentranscript
 * Vaardigheidsoverzicht I
 * Vaardigheidsoverzicht II
-
-
 
 ### Wat bevat het leeroverzicht I-blad
 
@@ -219,9 +208,6 @@ Volg leerpaden, cursussen of certificeringen die actief worden gebruikt. Volg de
 ### De gegevens interpreteren
 
 Dit leeroverzicht I-rapport bevat twee leerpaden die aan de student zijn toegewezen.
-In het voorbeeld:
-
-
 
 * De gebruiker is ingeschreven voor twee leerpaden en is beide gestart.
 * Geen van de leerpaden is nog voltooid.
@@ -239,10 +225,6 @@ Volg de leeractiviteiten per student. Volg inschrijvingen, lopende activiteiten 
 * Aantal leerobjecten met vervaldatum in N dagen: identificeert LO&#39;s die binnen het volgende aantal dagen (in dit geval 7 dagen) moeten worden uitgevoerd, zodat deadlines dichterbij kunnen komen.
 
 ### De gegevens interpreteren
-
-In het voorbeeld:
-
-
 
 * De student is ingeschreven voor twee leerobjecten en is beide gestart.
 * Er zijn geen leerobjecten voltooid.
@@ -278,7 +260,7 @@ Volg studenten met aanstaande vervaldatums voor belangrijke cursussen, leerpaden
 
 | Kolom | Beschrijving |
 |---|---|
-| Na | Geeft het aantal studenten aan dat een vaardigheid heeft bereikt vóór een gedefinieerde periode (in dagen), waarna de vaardigheid als verouderd wordt beschouwd of moet worden vernieuwd. Handig voor het identificeren van studenten met naderende of verlopen vaardigheidsresultaten.<br> zie <a href="https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/skills-levels"> vaardigheidsniveaus </a> voor meer informatie. |
+| Na | Geeft het aantal studenten aan dat een vaardigheid heeft bereikt vóór een gedefinieerde periode (in dagen), waarna de vaardigheid als verouderd wordt beschouwd of moet worden vernieuwd. Handig voor het identificeren van studenten met naderende of verlopen vaardigheidsresultaten.<br> zie <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> vaardigheidsniveaus </a> voor meer informatie. |
 | Naam | Volledige naam van de leerling aan wie de vaardigheid is toegewezen. |
 | Naam van manager | Naam van de rapportmanager van de student. |
 | Rijlabels | De specifieke vaardigheidsnaam die is toegewezen aan studenten die in deze rij worden weergegeven. Wordt gebruikt als koptekst voor groepen om de vaardigheidsgegevens van studenten in elke vaardigheidscategorie samen te vatten. |
@@ -307,8 +289,6 @@ Met de geschiedenis van het downloaden van studenttranscripten kunnen beheerders
 
 Na het downloaden van een Studenttranscript wordt op de pagina Studenttranscripten een lijst weergegeven met alle transcripten die door iedereen op het platform worden gegenereerd.
 
-
-
 De lijst bevat de volgende kenmerken:
 
 * Van en naar: Duur van de transcripten die moeten worden gedownload.
@@ -332,8 +312,6 @@ Alle cursussen die deel uitmaken van een leerpad (LP) worden weergegeven in het 
 Als een student uit het platform is verwijderd, worden zijn of haar records niet weergegeven in rapporten die zijn gegenereerd voor de gebruikersgroep waarvan hij of zij deel uitmaakte. Dit betekent dat de records van verwijderde studenten worden uitgesloten van gefilterde rapporten die zijn gemaakt met gebruikersgroepfilters.
 
 U kunt echter wel de gegevens van de verwijderde studenten downloaden. Als u de optie **[!UICONTROL schrapte studenten]** terwijl het plaatsen van de filters voor het produceren van het rapport hebt geselecteerd omvat, kunt u het rapport voor de geschrapte studenten downloaden.
-
-
 
 **Gedrag voor douanebeheerders**
 

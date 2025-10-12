@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager-connectoren
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: aecc98cff7a46193627c961222f7e64f858dfa2c
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '15862'
+source-wordcount: '15810'
 ht-degree: 59%
 
 ---
@@ -145,9 +145,9 @@ Zo maakt u de objecten:
 
 1. Download en installeer de pakketten om de aangepaste objecten te maken.
 
-   * [Pakket 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ)
-   * [Pakket 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT)
-   * [Pakket 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)
+   * [Pakket 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
+   * [Pakket 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
+   * [Pakket 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
 
 1. Hernoem de namen van de aangepaste objecten in Salesforce.
 1. Selecteer de gebeurtenis en klik op **[!UICONTROL Opslaan]**.
@@ -182,8 +182,8 @@ Learning Manager biedt een Salesforce App-pakket. Na de installatie en configura
 1. Klik **[!UICONTROL Salesforce]**.
 1. Let op de toepassingspagina van Salesforce op de toepassings-id (ook wel client-id genoemd) en het clientgeheim dat in de beschrijving wordt vermeld.
 1. Klik **[!UICONTROL goedkeuren]** en uw app moet met succes worden goedgekeurd.
-1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.**&#x200B;**
-1. In de sectie OAuth Code ophalen moeten de client-id en het bereik worden ingesteld op - admin:read,admin:write. Klik **[!UICONTROL voorleggen]**.
+1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.****
+1. In de Get sectie van de Code OAuth, moeten identiteitskaart van de Cliënt en het werkingsgebied aan - admin :read, admin :write worden geplaatst. Klik **[!UICONTROL voorleggen]**.
 1. Voer bij Vernieuwingstoken ophalen de client-ID en het clientgeheim in. Klik **[!UICONTROL voorleggen]** en neem nota van het vernieuwingstoken.
 
 ### Account aanmaken in de Salesforce-app {#create-account-in-salesforce-app}
@@ -424,7 +424,7 @@ Zodra de verbinding tot stand is gebracht, ziet u de externe bestanden aan de re
 
 ### Importeren {#import}
 
-+++ interne gebruiker
++++Interne gebruiker
 
 Met de optie voor het importeren van interne gebruikers kunt u de gebruikers van een CSV importeren in een Leermanager op verzoek of tijdens het plannen.
 
@@ -447,7 +447,7 @@ Zodra de verbinding tot stand is gebracht, kunt u de kolommen van de CSV-bestand
 
 +++
 
-+++De FTP-connector van Learning Manager gebruiken
++++De Learning Manager FTP-connector gebruiken
 
 1. De CSV-bestanden van externe systemen moeten op het volgende pad worden geplaatst:
 
@@ -475,7 +475,7 @@ Met de opties voor xAPI-import kunt u het importeren van xAPI-statements van ext
 
 +++
 
-+++Vereiste configuraties voor het importeren van xAPI
++++Vereiste configuraties voor import van xAPI
 
 1. Selecteer op de configuratiepagina een bestaande configuratie die beschikbaar is in de configuratielijst om xAPI-statements uit de CSV te importeren. Klik geef uit of **voeg een nieuwe verbinding van de Configuratie** toe om aan de vorm invoer-Bronnen pagina te navigeren.
 
@@ -876,74 +876,74 @@ Workday heeft vier hiërarchieniveaus, terwijl Learning Manager twee niveaus hee
 >
 >U kunt extra Workday-attributen toevoegen. Neem contact op met uw CSAM om de attributen toe te voegen.
 
-+++Lijst met ondersteunde Workday-kenmerken
++++Lijst van ondersteunde attributen voor Workday
 
 wd:User_ID
 wd:Worker_ID
 manager
-wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.@wd:Opgemaakte_naam
-wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.@wd:Opgemaakte_naam
-wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
-wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
-wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:First_Name
-wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Last_Name
-wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:First_Name
-wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Last_Name
-wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.@wd:Formatted_Address
-wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code
-wd:Personal_Data.wd:Contact_Data.wd:Email_Address_Data.0.wd:Email_Address
-wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
-wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:Opgemaakte_telefoon
-wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code
-wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code
-wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number
-wd:Personal_Data.wd:Primary_Nationality_Reference.wd:ID.1.$
-wd:Personal_Data.wd:Gender_Reference.wd:ID.1.$
-wd:Personal_Data.wd:Identification_Data.wd:National_ID.0.wd:National_ID_Data.wd:ID
-wd:Personal_Data.wd:Identification_Data.wd:Custom_ID.0.wd:Custom_ID_Data.wd:ID
-wd:User_Account_Data.wd:Default_Display_Language_Reference.wd:ID.1.$
-wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Role_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.@wd:Formatted_Address
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.@wd:Formatted_Address
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1.$
-wd:Employment_Data.wd:Worker_Status_Data.wd:Active
-wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date
+wd :Personal_Data .wd :Name_Data .wd :Preferred_Name_Data .wd :Name_Detail_Data.@wd:Formatted_Name
+wd :Personal_Data .wd :Name_Data .wd :Legal_Name_Data .wd :Name_Detail_Data.@wd:Formatted_Name
+wd:Personal_Data .wd:Name_Data .wd:Legal_Name_Data .wd:Name_Detail_Data .wd:Prefix_Data .wd:Title_Descriptor
+wd:Personal_Data .wd:Name_Data .wd:Preferred_Name_Data .wd:Name_Detail_Data .wd:Prefix_Data .wd:Title_Descriptor
+wd:Personal_Data .wd:Name_Data .wd:Preferred_Name_Data .wd:Name_Detail_Data .wd:First_Name
+wd:Personal_Data .wd:Name_Data.wd:Preferred_Name_Data .wd:Name_Detail_Data .wd:Last_Name
+wd:Personal_Data .wd:Name_Data .wd:Legal_Name_Data .wd:Name_Detail_Data .wd:First_Name
+wd:Personal_Data .wd:Name_Data.wd:Legal_Name_Data .wd:Name_Detail_Data .wd:Last_Name
+wd:Personal_Data .wd:Contact_Data .wd:Address_Data .0.@wd:Formatted_Address
+wd:Personal_Data .wd:Contact_Data .wd:Address_Data .0.wd:Postal_Code
+wd:Personal_Data .wd:Contact_Data .wd:Email_Address_Data .0.wd:Email_Address
+wd:Personal_Data .wd:Contact_Data .wd:Address_Data .0.wd:Country_Region_Descriptor
+wd:Personal_Data .wd:Contact_Data .wd:Phone_Data .0.@wd:Formatted_Phone
+wd:Personal_Data .wd:Contact_Data .wd:Phone_Data .0.wd:Country_ISO_Code
+wd:Personal_Data .wd:Contact_Data .wd:Phone_Data .0.wd:International_Phone_Code
+wd:Personal_Data .wd:Contact_Data .wd:Phone_Data .0.wd:Phone_Number
+wd:Personal_Data .wd:Primary_Nationality_Reference .wd:ID .1.$
+wd:Personal_Data.wd:Gender_Reference .wd:ID .1.$
+wd:Personal_Data .wd:Identification_Data .wd:National_ID .0.wd:National_ID_Data .wd:ID
+wd:Personal_Data .wd:Identification_Data .wd:Custom_ID .0.wd:Custom_ID_Data .wd:ID
+wd:User_Account_Data .wd:Default_Display_Language_Reference .wd:ID .1.$
+wd:Role_Data .wd:Organization_Role_Data .wd:Organization_Role .0.wd:Organization_Role_Reference .wd:ID .1.$
+wd:Employment_Data.wd:Worker_Job_Data .0.wd:Position_Data .wd:Position_Title
+wd:Employment_Data .wd:Worker_Job_Data .0.wd:Position_Data .wd:Business_Title
+wd:Employment_Data .wd:Worker_Job_Data .0.wd:Position_Data .wd:Business_Site_Summary_Data .wd:Name
+wd:Employment_Data .wd:Worker_Job_Data .0.wd:Position_Data .wd:Business_Site_Summary_Data .wd:Address_Data.@wd:Formatted_Address
+wd:Employment_Data .wd:Worker_Job_Data .0.wd:Position_Data .wd:Job_Classification_Summary_Data .0.wd:Job_Classification_Reference .wd:ID .1.$
+wd:Employment_Data .wd:Worker_Job_Data .0.wd:Position_Data .wd:Job_Classification_Summary_Data .0.wd:Job_Group_Reference .wd:ID .1.$
+wd:Employment_Data .wd:Worker_Job_Data .0.wd:Position_Data .wd:Work_Space__Reference .wd:ID .1.$
+wd:Employment_Data .wd:Worker_Job_Data .0.wd:Position_Data .wd:Job_Profile_Summary_Data .wd:Job_Family_Reference .0.wd:ID .1.$
+wd:Employment_Data.wd:Worker_Job_Data .0.wd:Position_Data .wd:Job_Profile_Summary_Data .wd:Job_Profile_Name
+wd:Employment_Data .wd:Worker_Job_Data .0.wd:Position_Data .wd:Job_Profile_Summary_Data .wd:Job_Profile_Reference .wd:ID .1.$
+wd:Employment_Data .wd:Worker_Job_Data .0.wd:Position_Data .wd:Business_Site_Summary_Data .wd:Address_Data .0.wd:Country_Reference .wd:ID .2.$
+wd:Employment_Data .wd:Worker_Job_Data .0.wd:Position_Data .wd:Worker_Type_Reference .wd:ID .1.$
+wd:Employment_Data .wd:Worker_Job_Data .0.wd:Position_Data .wd:Business_Site_Summary_Data .wd:Address_Data .0.@wd:Formatted_Address
+wd:Employment_Data .wd:Worker_Job_Data .0.wd:Position_Data .wd:Job_Profile_Summary_Data .wd:Management_Level_Reference .wd:ID .1.$
+wd:Employment_Data.wd:Worker_Status_Data .wd:Active
+wd:Employment_Data .wd:Worker_Status_Data .wd:Active_Status_Date
+wd:Employment_Data .wd:Worker_Status_Data .wd:Hire_Date
 wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:Gearchiveerd
-wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated
-wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date
-wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work
-wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code
-wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Name
-wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1.$
-wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1.$
-wd:Qualification_Data.wd:Education.0.wd:School_Name
-wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title
-wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company
-wd:Management_Chain_Data.wd:Worker_Surveillance_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
+wd:Employment_Data .wd:Worker_Status_Data .wd:Retired
+wd:Employment_Data .wd:Worker_Status_Data .wd:Retirement_Date
+wd:Employment_Data .wd:Worker_Status_Data.wd:Terminated
+wd:Employment_Data .wd:Worker_Status_Data .wd:Termination_Date
+wd:Employment_Data .wd:Worker_Status_Data .wd:Termination_Last_Day_of_Work
+wd:Organization_Data .wd:Worker_Organization_Data .0.wd:Organization_Data .wd:Organization_Code
+wd:Organization_Data .wd:Worker_Organization_Data .0.wd:Organization_Data .wd:Organization_Name
+wd:Organization_Data .wd:Worker_Organization_Data .0.wd:Organization_Data .wd:Organization_Type_Reference .wd:ID.1.$
+wd:Organization_Data .wd:Worker_Organization_Data .0.wd:Organization_Data .wd:Organization_Subtype_Reference .wd:ID .1.$
+wd:Qualification_Data.wd:Education .0.wd:School_Name
+wd:Qualification_Data .wd:External_Job_History .0.wd:Job_History_Data .wd:Job_Title
+wd:Qualification_Data .wd:External_Job_History .0.wd:Job_History_Data .wd:Company
+wd:Management_Chain_Data .wd:Worker_Supervisory_Management_Chain_Data .wd:Management_Chain_Data .0.wd:Manager.Employee_ID
 Primaire werke-mail
-wd:Organization_Type_Reference_cost_Center_ID
-wd:Organization_Type_Reference_cost_center_name
+wd:Organization_Type_Reference_Cost_Center_ID
+wd:Organization_Type_Reference_Cost_Center_Name
 wd:Organization_Type_Reference_Company
 wd:Organization_Subtype_Reference_Department
 wd:Organization_Subtype_Reference_Division
 wd:Universal_ID
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
-wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2.$
-wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Gemeente
+wd :Employment_Data .wd :Worker_Job_Data .0.wd :Position_Data .wd :Business_Site_Summary_Data .wd :Address_Data .0.wd :Country_Region_Descriptor
+wd:Employment_Data .wd:Worker_Job_Data .0.wd:Position_Data .wd:Business_Site_Summary_Data .wd:Address_Data .0.wd:Country_Region_Reference .wd:ID .2.$
+wd:Personal_Data.wd:Contact_Data .wd:Address_Data .0.wd:Municipality
 
 +++
 
@@ -952,7 +952,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Gemeente
 U kunt alle vaardigheden van een gebruiker van Learning Manager naar Workday exporteren. Alleen actieve gebruikersvaardigheden worden geëxporteerd en Learning Manager exporteert geen gearchiveerde vaardigheden. U kunt ook meerdere Leerbeheer verbinden\
 accounts aan dezelfde Workday-connector. Als de vaardigheidsnamen in twee Learning Manager-accounts hetzelfde zijn, worden ze toegewezen aan dezelfde vaardigheid in Workday. Als twee Learning Manager-accounts hetzelfde Workday-account gebruiken, is het raadzaam om de vaardigheidsnamen in alle Learning Manager-accounts bij te werken voordat u de vaardigheid in Workday bijwerkt.
 
-+++Gebruikersvaardigheden - Configureren
++++Gebruikersvaardigheden - configureren
 
 Met deze optie kunt u de extractie van het rapport plannen. Zorg ervoor dat het selectievakje Exporteren van gebruikersvaardigheden via deze verbinding inschakelen is ingeschakeld. Selecteer het selectievakje Planning inschakelen en geef de begindatum en -tijd op. U kunt ook aangeven met welke intervallen u het rapport wilt laten genereren en verzenden. Schakel het selectievakje Planning inschakelen in en voer de startdatum, tijd en herhaling na een bepaald aantal dagen in. Klik op Opslaan als u klaar bent.
 
@@ -961,7 +961,7 @@ Met deze optie kunt u de extractie van het rapport plannen. Zorg ervoor dat het 
 
 +++
 
-+++ Gebruikersvaardigheden - Op verzoek
++++Gebruikersvaardigheden - op verzoek
 
 U kunt de begindatum opgeven en het rapport exporteren met deze optie. Het rapport wordt geëxtraheerd van de ingevoerde datum tot heden. Voer de datum in vanaf wanneer u wilt beginnen met het genereren van het rapport en klik op Uitvoeren.
 
@@ -970,7 +970,7 @@ U kunt de begindatum opgeven en het rapport exporteren met deze optie. Het rappo
 
 +++
 
-+++ Gebruikersvaardigheden - Uitvoeringsstatus
++++Gebruikersvaardigheden - uitvoeringsstatus
 
 Hier kunt u de samenvatting van alle taken bekijken en een statusrapport daarvan ontvangen. U kunt foutrapporten downloaden door op de foutrapportagelink te klikken.
 
@@ -1027,7 +1027,7 @@ Instellen   miniOrange   contact op met het CSM-team van Learning Manager.
 
 1. Klik, als u de gegevensbron als beheerder wilt bekijken bewerken, op **[!UICONTROL Instellingen > Gegevensbron]**.
 
-   De vastgestelde miniOrange-bron wordt vermeld. Als u vereist om de filter uit te geven, geeft de klik **&#x200B;**&#x200B;uit.
+   De vastgestelde miniOrange-bron wordt vermeld. Als u vereist om de filter uit te geven, geeft de klik **** uit.
 
    ![](assets/data-source.png)
 
@@ -1144,7 +1144,7 @@ Met de optie voor het importeren van interne gebruikers kunt u het genereren van
 
 +++
 
-+++Kenmerken Kaart
++++Kenmerken toewijzen
 
 Zodra een verbinding tot stand is gebracht, kunt u de kolommen van CSV-bestanden die in de Box-map zijn geplaatst, toewijzen aan de overeenkomstige kenmerken van Leerbeheer. Deze stap is verplicht.
 
@@ -1165,7 +1165,7 @@ Met de optie xAPI-activiteitsrapport kunt u de import van xAPI-statements uit ex
 
 +++
 
-+++Vereiste configuraties voor het importeren van xAPI
++++Vereiste configuraties voor import van xAPI
 
 1. Selecteer op de configuratiepagina een bestaande configuratie die beschikbaar is in de configuratielijst om xAPI-statements uit de CSV te importeren. Klik geef uit of A **voeg een nieuwe verbinding van de Configuratie** toe om aan de de verklaring-Configuratie-Bron van het Dossier van de Invoer xAPI te navigeren.
 
@@ -1219,7 +1219,7 @@ Met de optie xAPI-activiteitsrapport kunt u de import van xAPI-statements uit ex
 
 +++
 
-+++Interface van de Learning Manager Box-connector
++++De Learning Manager Box-connector gebruiken
 
 1. De CSV-bestanden van externe systemen moeten op het volgende pad worden geplaatst:
 
@@ -1239,7 +1239,7 @@ Bij het importeren van gebruikers in Learning Manager, moet de beheerder ook wet
 
 +++
 
-## Badge als {#export-2}
+## Exporteren {#export-2}
 
 +++Vaardigheden
 
@@ -1310,8 +1310,8 @@ De LinkedIn Learning-connector wordt gebruikt door zakelijke klanten van LinkedI
 
 ### LinkedIn Learning-connector configureren {#configure-linkedin-learning-connector}
 
-1. Van het dashboard van de Admin van de Integratie, klik [!UICONTROL &#x200B; het Leren van LinkedIn &#x200B;]. De opties Aan de slag, Verbinden en Verbindingen beheren worden weergegeven.
-1. Als u de het Leren van LinkedIn schakelaar voor het eerst vormt, klik [!UICONTROL &#x200B; verbind &#x200B;].
+1. Van het dashboard van de Admin van de Integratie, klik [!UICONTROL  het Leren van LinkedIn ]. De opties Aan de slag, Verbinden en Verbindingen beheren worden weergegeven.
+1. Als u de het Leren van LinkedIn schakelaar voor het eerst vormt, klik [!UICONTROL  verbind ].
 
    <!--Configure the Exavault FTP account before you configure this connector.
 
@@ -1819,7 +1819,7 @@ Neem contact op met het CSM-team van Learning Manager om de ADFS-connector in te
 
 1. Om gegevensbron, als Beheerder te bekijken en uit te geven, klik **[!UICONTROL Montages]** > **[!UICONTROL Gegevensbron]**.
 
-   De bestaande ADFS-bron wordt vermeld. Als u vereist om de filter uit te geven, geeft de klik **&#x200B;**&#x200B;uit.
+   De bestaande ADFS-bron wordt vermeld. Als u vereist om de filter uit te geven, geeft de klik **** uit.
 
    ![](assets/datasource.jpg)
    *Bron van Gegevens het plaatsen*
@@ -1965,7 +1965,7 @@ Wanneer u een verbinding met een Marketo Engage maakt, moet u de volgende gegeve
 
 >[!NOTE]
 >
->U kunt de client-id en het client-geheim uit de Marketo Engage-app halen. Op Marketo app, kunt u identiteitskaart van de Cliënt en geheim van de **&#x200B;**&#x200B;sectie LaunchPoint, en het Domein van Marketo van de **WebServices** sectie krijgen.
+>U kunt de client-id en het client-geheim uit de Marketo Engage-app halen. Op Marketo app, kunt u identiteitskaart van de Cliënt en geheim van de **** sectie LaunchPoint, en het Domein van Marketo van de **WebServices** sectie krijgen.
 
 Op de **Verenigde sectie van Rapporten** van de verbinding van de Engage van de Markeo in de Leermanager app, kunt u campagnes tot stand brengen die op het volgende worden gebaseerd:
 
@@ -2086,11 +2086,11 @@ Voor meer informatie, zie [**de schakelaar van Microsoft Teams in Adobe Learning
 >
 >In de sectie wordt uitgelegd hoe de infrastructuur werkt. Neem contact met ons op als u een headless of AEM-gebaseerde, niet-aangemelde ervaring wilt opbouwen. We zullen de juiste benadering voorstellen voor uw gebruiksscenario. Deze functionaliteit is momenteel niet beschikbaar als selfservice.
 
-De **schakelaar van de Toegang van de Gegevens van de Opleiding** laat u een headless ervaring creëren. Deze ervaring kan op zichzelf staan of een aangepaste gebruikersinterface zijn op basis van AEM Sites. Het helpt studenten trainingsinformatie op te halen en weer te geven en maakt zoeken en filteren mogelijk. Zodra de gegevensconnector is ingeschakeld, is er een set openbare API&#39;s beschikbaar om de interface te bouwen, waarin de cursus-/leerpadinformatie voor de studenten wordt weergegeven.
+De **[!UICONTROL schakelaar van de Toegang van de Gegevens van de Opleiding]** laat u een headless ervaring creëren. Deze ervaring kan op zichzelf staan of een aangepaste gebruikersinterface zijn op basis van AEM Sites. Het helpt studenten trainingsinformatie op te halen en weer te geven en maakt zoeken en filteren mogelijk. Zodra de gegevensconnector is ingeschakeld, is er een set openbare API&#39;s beschikbaar om de interface te bouwen, waarin de cursus-/leerpadinformatie voor de studenten wordt weergegeven.
 
 ### De connector configureren {#configure-training-data-connector}
 
-Gebruik de **schakelaar van de Toegang van de Gegevens van de Opleiding** om uw rekening van Adobe Learning Manager met gegevensopslag en onderzoekssystemen te integreren. Zo krijgt uw op AEM Sites gebaseerde interface trainingsgegevens, worden webpagina&#39;s weergegeven en krijgen studenten betere zoekopties.
+Gebruik de **[!UICONTROL schakelaar van de Toegang van de Gegevens van de Opleiding]** om uw rekening van Adobe Learning Manager met gegevensopslag en onderzoekssystemen te integreren. Zo krijgt uw op AEM Sites gebaseerde interface trainingsgegevens, worden webpagina&#39;s weergegeven en krijgen studenten betere zoekopties.
 
 Exporteer trainingsmetagegevens van Adobe Learning Manager naar de services voor het ophalen en inschakelen van gegevens met behulp van de API&#39;s. U kunt ook een schema maken om deze exportbewerkingen te automatiseren.
 
@@ -2147,7 +2147,7 @@ Wanneer een student op cursus, certificaat of leerpad klikt, wordt de overzichts
 
 Dankzij de niet-aangemelde ervaring kunt u een real-time ervaring creëren voor niet-aangemelde gebruikers. Een niet-aangemelde ervaring fungeert bijvoorbeeld als startpagina voor marketingcampagnes om aanmelding-ups te stimuleren.
 
-De niet-het programma geopende ervaring in Adobe Learning Manager kan worden gevormd gebruikend de **schakelaar van de Toegang van de Gegevens van de Opleiding**. De connector biedt de volgende mogelijkheden:
+De niet-het programma geopende ervaring in Adobe Learning Manager kan worden gevormd gebruikend de **[!UICONTROL schakelaar van de Toegang van de Gegevens van de Opleiding]**. De connector biedt de volgende mogelijkheden:
 
 * Standard-aanbieding
 * Premium-aanbieding
@@ -2235,7 +2235,7 @@ Nadat een auteur de prijzen voor verschillende cursussen, leerpaden of certifice
 
 >[!NOTE]
 >
->In de versie van Maart 2024 van Adobe Learning Manager, hebben wij steun voor [ Adobe Commerce 2.4.6 ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=nl-NL) geïntroduceerd.
+>In de versie van Maart 2024 van Adobe Learning Manager, hebben wij steun voor [ Adobe Commerce 2.4.6 ](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en) geïntroduceerd.
 
 
 1. Klik **[!UICONTROL Meta-gegevens van de Opleiding van de Uitvoer]** > **[!UICONTROL op bestelling]**.
@@ -2342,17 +2342,17 @@ Voor AEM, is er geen Nu kopen, slechts **voeg aan Kaart** knoop toe. Deze knop b
 
 #### Veelgestelde vragen {#faqs}
 
-+++Welke cursussen kunnen niet worden aangeschaft?
++++Welke cursussen kunnen niet worden gekocht?
 
 Cursussen zoals herhaalde certificeringen, opleidingen van de inhoudsmarkt, verworven opleidingen, opleidingen van connectoren, Taakhulpen en door de manager goedgekeurde/genomineerde cursussen, kunnen niet door een student gekocht worden.
 +++
 
-+++Is er een wijziging in het Studenttranscript en het trainingsrapport?
++++Is er een verandering in het Studententranscript en het Opleidingsrapport?
 
 Deze rapporten tonen de prijs en de datum van aankoop van alle gekochte trainingen in de rekening.
 +++
 
-+++Kan een student zich inschrijven voor een gratis training?
++++Kan een student zich inschrijven voor een gratis opleiding?
 
 Ja, een student kan zich inschrijven voor een gratis opleiding. Een gratis opleiding toont de knoppen voor voorvertoning en inschrijving op de overzichtspagina.
 +++

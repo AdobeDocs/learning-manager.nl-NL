@@ -3,10 +3,10 @@ description: Referentiehandleiding voor integratiebeheerders die een bestaand LM
 jcr-language: en_us
 title: Migratiehandleiding
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3619'
-ht-degree: 72%
+source-wordcount: '3850'
+ht-degree: 67%
 
 ---
 
@@ -523,6 +523,89 @@ Doorloop de vereisten van het migratieproces voordat u de migratie start. Verwij
 ## Migratieverificatie {#registration}
 
 Nadat u de leergegevens en -inhoud van het oude LMS van uw organisatie hebt gemigreerd, kunt u de geïmporteerde gegevens en inhoud controleren met behulp van verschillende functies voor leerobjecten. U kunt u bijvoorbeeld aanmelden bij de Learning Manager-toepassing als beheerder en de beschikbaarheid van geïmporteerde modules en cursusgegevens en -inhoud controleren.
+
+### Migratieverificatie via API&#39;s
+
+Met de nieuwe migratie-API `runStatus` kunnen integratiebeheerders de voortgang van de migratie volgen die via de API wordt geactiveerd.
+
+De `runStatus` API biedt ook een directe koppeling om foutlogbestanden in CSV-indeling te downloaden voor voltooide runs. De downloadkoppeling blijft zeven dagen actief en de logbestanden worden één maand bewaard.
+
+**Steekproef krullen**
+
+**Eindpunt**
+
+```
+GET /bulkimport/runStatus
+```
+
+**Parameters**
+
+* **migrationProjectId**: (Vereist). Een unieke id voor een migratieproject. Een migratieproject wordt gebruikt om gegevens en inhoud over te brengen van een bestaand LMS (Learning Management System) naar Adobe Learning Manager. Elk migratieproject kan uit meerdere sprints bestaan, kleinere eenheden migratietaken.
+
+* **sprintId**: (Vereist). Een unieke id voor een sprint binnen een migratieproject. Een sprint is een subset migratietaken met specifieke leeritems (bijvoorbeeld cursussen, modules, studentrecords) die van een bestaand LMS naar Adobe Learning Manager moeten worden gemigreerd. Elke sprint kan onafhankelijk worden uitgevoerd, waardoor gefaseerde migratie mogelijk is.
+
+* **sprintRunId**: (Vereist). Een unieke id die wordt gebruikt om de uitvoering van een specifieke sprint binnen een migratieproject te volgen. Het is gekoppeld aan het feitelijke migratieproces voor de items die zijn gedefinieerd in een sprint. sprintRunId helpt bij het controleren, oplossen van problemen en het beheren van de migratietaak.
+
+**Antwoord**
+
+```
+{
+  "sprintId": 2510080,
+  "sprintRunId": 2740845,
+  "migrationProjectId": 2509173,
+  "startTime": 1746524711052,
+  "endTime": 1746524711052,
+  [
+    {
+      "id": 2609923,
+      "lastHeartbeatTime": 1746524711052,
+      "objectName": "content",
+      "jobState": "COMPLETED",
+      "errorCsvLink": "",
+      "errorLogLink": "migration/5830/2509173/2510080/2740845/content_err.csv",
+      "sequenceNumber": 1
+    },
+    {
+      "id": 2609922,
+      "lastHeartbeatTime": 1746524713577,
+      "objectName": "course",
+      "jobState": "WAITING_IN_QUEUE",
+      "errorCsvLink": "",
+      "errorLogLink": null,
+      "sequenceNumber": 2
+    }
+  ]
+}
+```
+
+Bovendien bevat de API-reactie van `startRun` nu de id van het migratieproject, de sprint-id en de sprint-run-id, die vereist zijn om het nieuwe statuseindpunt op te vragen.
+
+```
+curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/primeapi/v2/bulkimport/runStatus?migrationProjectId=001&sprintId=10001&sprintRunId=7'
+```
+
+Produceert de volgende reactie. De reactie bevat:
+
+* `migrationId`
+* `sprintId`
+* `sprintRunId`
+
+**Antwoord**
+
+```
+{
+  "status": "OK",
+  "title": "BULKIMPORT_RUN_INITIATED_SUCCESSFULLY",
+  "source": {
+    "info": "Success",
+    "migrationInfo": {
+      "migrationProjectId": "001",
+      "sprintId": "10001",
+      "sprintRunId": "7"
+    }
+  }
+}
+```
 
 ## Retrofitten in migratie {#retrofittinginmigration}
 

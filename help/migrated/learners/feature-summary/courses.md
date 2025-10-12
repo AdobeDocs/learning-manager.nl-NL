@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Mijn leermateriaal
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
 workflow-type: tm+mt
-source-wordcount: '3080'
-ht-degree: 63%
+source-wordcount: '3307'
+ht-degree: 59%
 
 ---
 
@@ -133,7 +133,7 @@ Auteurs kunnen tijdens het maken van een cursus schakelen tussen het in- en uits
 
 ## Workflow als student
 
-Als student kunt u een cursus pas beoordelen na uw inschrijving. U kunt de gemiddelde Classificaties van de Ster voor om het even welke cursus op de **1&rbrace; Pagina van het Huis zien,** Mijn het Leren **pagina en** Catalogus **.**
+Als student kunt u een cursus pas beoordelen na uw inschrijving. U kunt de gemiddelde Classificaties van de Ster voor om het even welke cursus op de **1} Pagina van het Huis zien,** Mijn het Leren **pagina en** Catalogus **.**
 
 1. Login als a **Student**. Dit laadt de **Pagina van het Huis**.
 
@@ -291,6 +291,19 @@ Volg deze stappen om van cursus te veranderen:
 
    De zojuist geselecteerde instantie wordt ingeschreven. Als een student is ingeschreven voor een cursusinstantie die deel uitmaakt van een andere LO en de cursusinstantie bijwerkt die deel uitmaakt van het flexibele leerprogramma, wordt hij na een waarschuwing automatisch uitgeschreven van de andere leerobjecten.
 
+## Op taal gebaseerd voortgangsbeheer
+
+De voortgang van de student kan voor elke landinstelling afzonderlijk worden bijgehouden. Dit zorgt ervoor dat het schakelen tussen talen in de speler geen invloed heeft op eerder behaalde voortgang. De voortgang voor elke module wordt op zowel gebruiker- als moduleniveau onafhankelijk gehandhaafd, zodat de voortgang niet wordt overschreven wanneer studenten inhoud in verschillende landinstellingen verkennen.
+
+Als een student bijvoorbeeld 75% vooruitgang in het Engels bereikt en vervolgens overschakelt naar het Spaans, wordt bij het terugkeren naar het Engels 75% hervat in plaats van 0% terug te zetten. Elke landinstelling slaat zijn eigen vorderingsstatus op, zodat studenten content naadloos in meerdere talen kunnen doorlopen en invullen zonder dat hun individuele voortgang verloren gaat.
+
+De volgende inhoudstypen worden niet ondersteund voor de voortgang van studenten op basis van hun taal:
+
+* Video- en audio-inhoud wordt niet ondersteund.
+* Inhoud van derden, zoals Go1, LinkedIn Learning, getAbstract en Harvard ManageMentor, wordt niet ondersteund.
+* Voor de inhoud die geen gegevens naar de LRS (Learning Record Store) verzendt, wordt de voortgang niet bijgehouden of opgeslagen.
+* Gebruikers van mobiele apps kunnen de voortgang voor deze functie niet bijhouden in de offline modus.
+
 ## Een cursus voltooien {#completingacourse}
 
 Als student kunt u het vereiste aantal modules in een cursus voltooien om de cursus af te ronden. Het voltooiingscriterium voor de cursus is afhankelijk van het aantal modules dat door de auteur verplicht is gesteld. Wanneer u zich inschrijft voor een cursus waarvoor minimale voltooiingscriteria gelden, kunt u de criteria in het rechterdeelvenster van de pagina Cursus bekijken.
@@ -319,6 +332,19 @@ Het tabblad Discussies is niet ingeschakeld voor externe gebruikers.
 
 ![](assets/learning-program200s.jpg)
 *het lusje van de Discussie*
+
+## Interesse voor cursussen registreren
+
+Studenten kunnen hun interesse in cursussen zonder actieve instantie registreren.
+
+Rente registreren:
+
+1. Meld u als student aan bij Adobe Learning Manager.
+2. Ga naar **[!UICONTROL Catalogus]** en selecteer de cursus die geen actieve instantie heeft.
+3. Selecteer **[!UICONTROL Interesse van het Register]** op de pagina van het Overzicht van de Cursus.
+
+   ![](assets/register-interest.png)
+   _het overzichtssectie van de cursus op de Student UI, die de optie van de Rente van het Register benadrukt_
 
 ## Levenscyclus van cursus {#courselifecycle}
 

@@ -2,10 +2,10 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 77%
+source-wordcount: '760'
+ht-degree: 71%
 
 ---
 
@@ -14,13 +14,14 @@ ht-degree: 77%
 
 * [Gebruikersgids voor Learning Manager](user-guide.md)
 * Inleiding {#introduction}
-   * [Nieuwe functies in de Adobe Learning Manager-versie van oktober 2025](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
-   * [Overzicht van nieuwe functies, mei 2025](/help/migrated/whats-new.md)
+   * [Overzicht van nieuwe functies in oktober 2025](/help/migrated/whats-new.md)
+   * [Overzicht van nieuwe functies, mei 2025](/help/migrated/whats-new-may-2025.md)
    * [Overzicht van nieuwe functies in november 2024](/help/migrated/whats-new-nov-24.md)
    * [Overzicht van nieuwe functies, juli 2024](whats-new-july-2024.md)
    * [Nieuwe functies maart 2024](whats-new-march-2024.md)
    * [Nieuwe functies november 2023](whats-new-november-2023.md)
    * [Nieuwe functies juli 2023](whats-new-2023-july.md)
+   * [Aanstaande wijzigingen in Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [Aanvullende informatie](release-note/release-notes.md)
    * [Systeemvereisten](system-requirements.md)
    * [Adobe Learning Manager-app voor Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
@@ -48,7 +49,25 @@ ht-degree: 77%
       * [Actieve velden](/help/migrated/administrators/feature-summary/active-fields.md)
    * [Locaties van klaslokalen toevoegen](administrators/feature-summary/classroom.md)
    * [Cursusinstanties en leerpaden maken](administrators/feature-summary/courses.md)
-   * [Inhoudsmarktplaats](administrators/feature-summary/content-marketplace.md)
+   * Experience Builder in Adobe Learning Manager {#experience-builder}
+      * [Overzicht](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+      * [Kerncomponenten van Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
+      * Pagina&#39;s in Experience Builder {#pages-in-experience-builder}
+         * [Overzicht](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+         * [Een aangepaste pagina maken in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
+      * Widgets in Experience Builder {#widgets-in-experience-builder}
+         * [Overzicht](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+         * [Widgets toevoegen en configureren](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
+      * Menu in Experience Builder {#menu-in-experience-builder}
+         * [Overzicht](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+         * [Een menu maken](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
+      * Aanpassing in Experience Builder {#customization-in-experience-builder}
+         * [Overzicht](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+         * [Experience Builder aanpassen](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
+      * [Richtlijnen en beperkingen van Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+   * Inhoudsmarktplaats {#content-marketplace}
+      * [Inhoudsmarktplaats](administrators/feature-summary/content-marketplace.md)
+      * [Go1-cursussen stroomlijnen naar leerpad](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [Rapporten](administrators/feature-summary/reports.md)
    * [Dashboard Groep succesvol](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Leerpaden](administrators/feature-summary/learning-paths.md)
@@ -81,6 +100,7 @@ ht-degree: 77%
    * [Tags](administrators/feature-summary/tags.md)
    * [Inhoudscatalogus Learning Manager](administrators/feature-summary/content-catalogs.md)
    * [Aangepaste rollen](administrators/feature-summary/custom-role.md)
+   * [Aangepaste rol voor aankondigingsmachtiging](/help/migrated/administrators/feature-summary/create-custom-role-for-announcement.md)
    * [Cataloguslabels](administrators/feature-summary/catalog-labels.md)
    * [xAPI in Learning Manager](authors/feature-summary/xapi.md)
    * [Als beheerder Sociaal leren bewaken en modereren](administrators/feature-summary/social-learning-configurations-as-an-admin.md)

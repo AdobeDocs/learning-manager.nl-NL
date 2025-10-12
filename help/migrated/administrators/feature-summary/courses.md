@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Cursusinstanties en leerpaden maken
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '5673'
-ht-degree: 52%
+source-wordcount: '5803'
+ht-degree: 51%
 
 ---
 
@@ -51,9 +51,9 @@ Als u een instantie wilt maken,
    * Op het **[!UICONTROL gebied van de Naam van de Instantie]**, ga de naam van de instantie in u met de cursus wilt associëren. Zorg ervoor dat u een unieke naam voor de instantie gebruikt.
    * Geef de voltooiingsdeadline voor de instantie op. Studenten moeten hun cursus vóór deze datum voltooien.
    * Klik **[!UICONTROL tonen Meer Opties]** om andere deadline opties te tonen.
-   * **[!UICONTROL Deadline van de Inschrijving &#x200B;]:** dit is de datum waardoor een student naar verwachting in een het leren voorwerp in het geval van zelf-inschrijving moet inschrijven.
-   * **[!UICONTROL Deadline van de Uitschrijving &#x200B;]:** u kunt verkiezen om uitschrijving door student zelf te beperken door een uitschrijvingsdeadline te hebben.
-   * **[!UICONTROL Tijdzone &#x200B;]:** Onderzoek en selecteer dan de **[!UICONTROL Tijdzone]** van dropdown.
+   * **[!UICONTROL Deadline van de Inschrijving ]:** dit is de datum waardoor een student naar verwachting in een het leren voorwerp in het geval van zelf-inschrijving moet inschrijven.
+   * **[!UICONTROL Deadline van de Uitschrijving ]:** u kunt verkiezen om uitschrijving door student zelf te beperken door een uitschrijvingsdeadline te hebben.
+   * **[!UICONTROL Tijdzone ]:** Onderzoek en selecteer dan de **[!UICONTROL Tijdzone]** van dropdown.
 
    Een beheerder kan besluiten om voltooiingsdeadlines voor een leerprogramma in te stellen afhankelijk van vereisten. Het is echter raadzaam er een te hebben voor klassikale/virtuele klassikale trainingen.
 
@@ -490,7 +490,7 @@ U kunt de vragenlijst voor L1- en L3-feedback instellen evenals herinneringen op
 
 1. Klik **[!UICONTROL Montages]** en dan **[!UICONTROL Terugkoppeling]** op de linkerruit nadat u login als Beheerder.\
    De de montagespagina van de terugkoppeling verschijnt met twee lusjes: **[!UICONTROL L1 Terugkoppeling]** en **[!UICONTROL L3 Terugkoppeling]**.\
-   **[!UICONTROL lusje van de Terugkoppeling 0&rbrace; L1 bestaat uit een lijst van gebrek]** L1 terugkoppelt **[!UICONTROL vragenlijst voor klassenruimte en zelf-afgepaste cursussen samen met herinneringsmontages.]** In **[!UICONTROL L3 Terugkoppeling]** tabel, kunt u L3 terugkoppelen standaardverklaring en herinneringsmontages bekijken.
+   **[!UICONTROL lusje van de Terugkoppeling 0} L1 bestaat uit een lijst van gebrek]** L1 terugkoppelt **[!UICONTROL vragenlijst voor klassenruimte en zelf-afgepaste cursussen samen met herinneringsmontages.]** In **[!UICONTROL L3 Terugkoppeling]** tabel, kunt u L3 terugkoppelen standaardverklaring en herinneringsmontages bekijken.
 
 1. Klik op Bewerken rechtsboven op de pagina om de bestaande vragenlijst aan te passen.\
    In **[!UICONTROL L1 terugkoppeling]** tabel, kunt u elke vraag toelaten/onbruikbaar maken door ja/neen knevelknoop te klikken.\
@@ -707,7 +707,7 @@ Selecteer de gebruikersgroepen en individuele studenten (met behulp van e-mail-I
 
 ## E-mail-ID van gebruiker
 
-+++E-mail-id
++++E-mail-ID
 
 Kopieer en plak e-mail-ID&#39;s van studenten die u wilt inschrijven, gescheiden door puntkomma&#39;s, komma&#39;s of regeleindes. Gebruik de optie **[!UICONTROL E-mail-ID&#39;s valideren]** om de items te valideren. Alle ongeldige items worden rood gemarkeerd. Verwijder of corrigeer deze items en ga verder door op **[!UICONTROL Doorgaan]** te klikken.
 
@@ -788,7 +788,36 @@ Studenten kunnen gewoon de Adobe Learning Manager-apparaattoepassing gebruiken o
 
    ![](assets/qr-code-download-01.png)
 
-   *QR code van het Aandeel met parameters*
+   *QR code van het Aandeel met studenten*
+
+## Rapport voor geïnteresseerde studenten downloaden
+
+Bekijk [ de rente van het Register voor de cursussen ](/help/migrated/learners/feature-summary/courses.md#register-interest-for-the-courses) om te leren hoe de studenten hun interesse kunnen registreren.
+
+Beheerders kunnen de interesse van de studenten weergeven en het leerlingrapport downloaden van de pagina met het cursusoverzicht.
+
+Het rapport van de geïnteresseerde student downloaden:
+
+1. Meld u als beheerder aan bij Adobe Learning Manager.
+2. Ga naar **[!UICONTROL Cursussen]** en selecteer de cursus.
+3. Selecteer **[!UICONTROL Belangrijke Studenten]**.
+
+   ![](assets/select-interested-learner.png)
+   _pagina van het cursusoverzicht van de beheerderinterface, toont de Belangrijke sectie van de Student om het rapport_ te bekijken en te downloaden
+4. Selecteer Acties en selecteer Rapport exporteren.
+Het rapport met de lijst met geïnteresseerde studenten wordt gedownload. Het rapport bevat de volgende kolommen:
+
+   * Cursus-ID
+   * Naam van student
+   * E-mail
+   * Type
+   * Status
+   * Registratiedatum en -tijd (UTC)
+   * Actieve status
+
+>[!NOTE]
+>
+>Het rapport bevat de UUID van de student als deze is ingeschakeld voor het account.
 
 ## Levenscyclus van cursus {#courselifecycle}
 
@@ -812,7 +841,7 @@ Als beheerder kunt u de meldingsinstellingen aanpassen. Zie [Meldingen](user-not
 
 ## Veelgestelde vragen {#frequentlyaskedquestions}
 
-+++Module herstellen als beheerder?
++++Hoe kan ik de module als beheerder herstellen?
 
 Voor de pagina van Studenten voor een cursus, kies de student of de studenten of een groep, klik **[!UICONTROL Acties]** > **[!UICONTROL Modules van het Terugstellen]**.
 
@@ -830,7 +859,7 @@ Ga met de muis over een cursuskaart en klik op **[!UICONTROL URL kopiëren]**. N
 
 +++
 
-+++Een instantie opnieuw openen?
++++Hoe kan ik een instantie opnieuw openen?
 
 Als u een gearchiveerde instantie opnieuw wilt openen, klikt u op het vervolgkeuzemenu in de instantie en klikt u op **[!UICONTROL Instantie opnieuw openen]**.
 

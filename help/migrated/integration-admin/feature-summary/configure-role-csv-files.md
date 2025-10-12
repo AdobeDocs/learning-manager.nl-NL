@@ -4,10 +4,10 @@ title: Aangepaste rollen via CSV-bestanden beheren
 description: De integratiebeheerder kan via CSV een aantal aangepaste rollen in bulk aan zijn/haar account toevoegen en deze aan verschillende gebruikers toewijzen. Deze aanpak automatiseert het maken van aangepaste rollen.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 81%
+source-wordcount: '992'
+ht-degree: 72%
 
 ---
 
@@ -25,8 +25,8 @@ Nadat u zich hebt aangemeld bij uw Box-opslagaccount, kan de integratiebeheerder
 
 Download om te beginnen de CSV&#39;s en pas de waarden aan uw vereisten aan.
 
-* Voorbeeldbestand: [role.csv](assets/role.csv)
-* Voorbeeldbestand: [user_role.csv](assets/user_role.csv)
+* Voorbeelddossier: [ role.csv ](assets/role.csv)
+* Voorbeeldbestand: [ user_role.csv ](assets/user_role.csv)
 
 **role.csv**
 
@@ -98,7 +98,7 @@ U kunt op de volgende manieren het bereik voor gebruikersgroepen voor verschille
 * Bladattribuut en waarde (bijvoorbeeld: Department=HR)
 * Zelfregistratie profielgroepen (self_registration=profilename)
 * Externe registratie profielgroepen (ext_registration=profilename)
-* Het team van directe rapporteurs van een manager (manager_direct=`<emailid>`)
+* Het team van directe verslaggever van een manager (manager_direct=`<emailid>`)
 * De volledige organisatie van een manager (manager_org=`<emailid>`)
 
 **user_role.csv**
@@ -149,8 +149,8 @@ Als er Catalogusnamen of namen van Gebruikersgroepen in de CSV worden vermeld, w
 
 Kies in uw Box-account **Importeren > gebruiker > intern** en upload de bestanden role.csv en user_role.csv.
 
-* De bestanden role.csv en user_role.csv moeten naar de map worden gekopieerd **Importeren** > **gebruiker** > **internal** > **user_role**.
-* De user.csv moet in de map worden gekopieerd **Importeren** > **gebruiker** > **internal**.
+* role.csv en user_role.csv moet in de omslag **de Invoer** > **gebruiker** > **intern** > **user_role** worden gekopieerd.
+* user.csv moet in de omslag **de Invoer** worden gekopieerd > **gebruiker** > **intern**.
 
 Beide CSV&#39;s moeten alleen via Box worden geüpload en kunnen niet via UI worden geüpload.
 
@@ -170,15 +170,15 @@ Werk de CSV-bestanden bij om een aangepaste rol toe te wijzen en in te trekken.
 
 Nadat de integratiebeheerder de rolgebaseerde CSV&#39;s in de Connector-opslag heeft geüpload, kan de beheerder synchronisatie met de CSV&#39;s inschakelen. Telkens wanneer een aangepaste rol in de CSV&#39;s wordt bijgewerkt, toegevoegd of verwijderd, kan de beheerder de informatie in de bestanden synchroniseren en de lijst met rollen actueel maken.
 
-Klik op de pagina Aan de slag in het deelvenster Beheerder op **[!UICONTROL Instellingen]** > **[!UICONTROL Gegevensbronnen]**.
+Op de Worden Begonnen pagina op het paneel van de Beheerder, klik **[!UICONTROL Montages]** > **[!UICONTROL Gegevensbronnen]**.
 
 Schakel in de sectie Synchronisatie-instellingen de optie **[!UICONTROL Automatisch synchroniseren inschakelen]** in.
 
 ![](assets/sync-settings.png)
 
-*Selecteer de optie Automatisch synchroniseren inschakelen*
+*selecteer de optie laat Auto Synchronisatie* toe
 
-Wanneer u deze optie kiest, kunt u de synchronisatie laten uitvoeren op het exacte tijdstip dat u in het veld Synchronisatietijd opgeeft. Als u de synchronisatietijd opgeeft als 12:00 uur, worden de aangepaste rollen elke dag precies op dat tijdstip bijgewerkt.
+Wanneer u deze optie kiest, kunt u de synchronisatie laten uitvoeren op het exacte tijdstip dat u in het veld Synchronisatietijd opgeeft. Als u de synchronisatietijd opgeeft als 12 :00 AM, worden de aangepaste rollen elke dag precies op het opgegeven tijdstip bijgewerkt.
 
 Als u de gegevens op verzoek wilt synchroniseren, klikt u op **[!UICONTROL Nu synchroniseren]**.
 
@@ -189,3 +189,34 @@ In elk account moet de naam van een rol uniek zijn. Een rol die via UI of CSV wo
 Het is ook niet mogelijk een configureerbare rol die via CSV is gemaakt, aan een gebruiker toe te wijzen via de beheerinterface, omdat deze rollen niet beschikbaar zijn.
 
 Het gebruikerstoewijzings-CSV kan echter wel worden gebruikt om rollen toe te wijzen die door de UI zijn gemaakt.
+
+## Incrementele en meervoudige ondersteuning voor aangepaste rollen
+
+Beheerders kunnen efficiënter aangepaste rollen toewijzen voor incrementele gebruikers. Ze kunnen gebruikers-, rol- en gebruikersrolgegevens uploaden zonder dat ze de gehele dataset telkens opnieuw hoeven te uploaden.
+
+Maak voor elk geüpload gebruikersimportbestand afzonderlijke mappen in FTP met de volgende structuur:
+
+```
+import/user/internal/
+     user1.csv
+     user2.csv
+     user3.csv
+
+UserRole/
+    user1_role.csv
+    user1_user_role.csv
+    user2_role.csv
+    user2_user_role.csv
+    user3_role.csv
+    user3_user_role.csv
+```
+
+**de details van het Dossier**
+
+* Importbestand gebruiker: gebruiker1.csv
+* Rolbestand: user1_role.csv
+* Toewijzingsbestand gebruikersrol: gebruiker1_gebruiker_rol.csv
+
+Download hier de [ steekproef CSVs ](/help/migrated/assets/sample-csv-Incremnetal.zip).
+
+Elk gebruikersimportbestand is rechtstreeks gekoppeld aan de bijbehorende roltoewijzingsbestanden en gebruikersroltoewijzingsbestanden, waardoor een juiste incrementele verwerking wordt gegarandeerd.

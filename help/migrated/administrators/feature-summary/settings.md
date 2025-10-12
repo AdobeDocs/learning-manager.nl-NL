@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Instellingen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 65%
+source-wordcount: '3697'
+ht-degree: 64%
 
 ---
 
@@ -405,11 +405,15 @@ Schakel de volgende instellingen in of uit:
     <p>Deze functie is alleen beschikbaar voor cursussen. Waardering met sterren wordt niet ondersteund voor leerprogramma's of certificaten.<br><br><b> Opmerking: </b> deze wijziging is alleen van invloed op de Learner-app. </p>
     <p>Wijzigingen in de instellingen (waardering met sterren/cursuseffectiviteit/waardering weergeven uitschakelen) hebben geen gevolgen voor alle andere apps (beheerder, auteur, manager, aangepaste beheerder, aangepaste auteur). </p>
     <p>Voor nieuwe rekeningen, zal de <b> sectie van de Classificaties van de Tonen </b> de optie <b> Classificatie van de Ster </b> hebben die door gebrek wordt toegelaten.</p>
-    <p>Voor bestaande rekeningen, als de rekening eerder de toegelaten doeltreffendheid van de optie <b> Cursus </b> had, dan zal de <b> toon sectie </b> van Classificaties &lbrace;met de geselecteerde doeltreffendheid van de optieCursus worden toegelaten. Als de optie <b> gevolgen van de Cursus </b> gehandicapt is, dan zal de <b> tonen sectie </b> ook gehandicapt zijn. Wanneer de <b> sectie van de Classificaties </b> wordt toegelaten, zal de classificatie van de optie <b> Ster </b> door gebrek worden toegelaten.</p></td>
+    <p>Voor bestaande rekeningen, als de rekening eerder de toegelaten doeltreffendheid van de optie <b> Cursus </b> had, dan zal de <b> toon sectie </b> van Classificaties {met de geselecteerde doeltreffendheid van de optieCursus worden toegelaten. Als de optie <b> gevolgen van de Cursus </b> gehandicapt is, dan zal de <b> tonen sectie </b> ook gehandicapt zijn. Wanneer de <b> sectie van de Classificaties </b> wordt toegelaten, zal de classificatie van de optie <b> Ster </b> door gebrek worden toegelaten.</p></td>
   </tr>
   <tr>
    <td height="19">Archiveren</td>
    <td>Selecteer een van de volgende opties voor archiveren:<li>Na archivering kunnen ingeschreven studenten acties bekijken en uitvoeren, maar nog niet ingeschreven studenten verliezen hun toegang.</li><li>Na archivering verliezen zowel ingeschreven als nog niet ingeschreven studenten de toegang.</li><div><b> Nota:</b> u kunt cursussen, het leren wegen, of certificeringen van hun overzichtspagina's archiveren.</div> </td>
+  </tr>
+  <tr>
+   <td height="19">Alle ingeschreven cursussen weergeven in zoekresultaten</td>
+   <td>Indien ingeschakeld kan de student de cursus in de zoekresultaten zien, zelfs als deze deel uitmaken van het door hem/haar ingeschreven leerpad of certificering.</td>
   </tr>
  </tbody>
 </table>
@@ -420,11 +424,11 @@ Schakel de volgende instellingen in of uit:
    <td>
     <p>Leerpaden</p></td>
    <td>
-    <p>Als de optie <b>Uitgebreide functies van leerpad inschakelen</b> is ingeschakeld, kunnen beheerders leerpaden in leerpaden opnemen en die leerpaden met cursussen combineren. De optie is onomkeerbaar.<br></p></td>
+    <p>Als de optie <b> Uitgebreide eigenschappen van het Leren Weg </b> toelaat wordt geselecteerd, zullen de beheerders het Leren Wegen binnen Leerpaden kunnen omvatten, en die het Leren Wegen met Cursussen combineren. De optie is onomkeerbaar.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Instructeurbeheer<br></p></td>
+    <p>Docentbeheer<br></p></td>
    <td>
     <p>Schakel deze instelling in om de lijst met docenten die kunnen worden geselecteerd bij het aanmaken van sessies in klaslokalen/virtuele klaslokalen te beperken. Alleen gebruikers met de docentbevoegdheid kunnen worden toegewezen als docent aan een sessie. Deze beperking is niet van toepassing op migratieworkflows.<br></p>
   </td>
@@ -480,7 +484,7 @@ Activiteit
 1. Klik de drop-down pijl bij de hoger-juiste hoek, naast uw foto/rekening en kies **[!UICONTROL Montages van het Profiel]**.
 1. Van de pop-up dialoog, kunt u een foto toevoegen/veranderen door de muis te hangen en **[!UICONTROL te klikken geeft]** in het gebied van de profielfoto uit.
 1. Voeg toe/wijzig **[!UICONTROL Ongeveer]** inhoud door **[!UICONTROL te klikken geeft]** naast het uit.
-1. Klik **[!UICONTROL sparen &#x200B;].**
+1. Klik **[!UICONTROL sparen ].**
 
 ## Inhoudsmap {#content-folder}
 
@@ -586,7 +590,7 @@ Inhoudsmappen kunnen door beheerders worden geconfigureerd. Alleen nadat ze zijn
 Zie voor meer informatie de sectie over de [inhoudsmap](settings.md#content-folder).
 +++
 
-+++Hoe voeg ik een financieel jaar voor de account toe?
++++Hoe voeg ik een boekjaar toe voor de rekening?
 
 In **[!UICONTROL Montages]** > **[!UICONTROL BasisInfo]**, klik **[!UICONTROL Verandering]**. Van het **[!UICONTROL Financiële jaar begint van]** drop-down lijst, selecteer de maand.
 +++

@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Ondersteunde talen in Adobe Learning Manager
 description: Ontdek de interface- en inhoudstalen die worden ondersteund in Adobe Learning Manager (ALM)
 exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: 45ac256894b9c5808fd80c488eb8571f330df435
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 48%
+ht-degree: 47%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Learning Manager ondersteunt de volgende interface- en inhoudstalen.
 
 | Taal van interface | Rol | Landinstelling |
 |---|---|---|
-| Engels | <li>Beheer</li><li>Auteur</li><li>Student</li><li>Manager</li> | en-us |
+| Engels | <li>Beheer</li><li>Auteur</li><li>Student</li><li>Manager</li> | nl-NL |
 | Frans | <li>Beheer</li><li>Auteur</li><li>Student</li><li>Manager</li> | fr-FR |
 | Duits | <li>Beheer</li><li>Auteur</li><li>Student</li><li>Manager</li> | de-DE |
 | Chinees | <li>Student</li><li>Manager</li> | zh-CN |
@@ -49,38 +49,38 @@ Adobe Learning Manager ondersteunt de volgende interface- en inhoudstalen.
 | Italiaans | - | IT-IT |
 | Japans | - | ja-JP |
 | Portugees (Brazilië) | - | pt-BR |
-| Deens (Dansk) | - | da |
-| Hindi | - | hi |
-| Hongaars (Magyar) | - | hu |
+| Deens (Dansk) | - | da-DK |
+| Hindi | - | hi-IN |
+| Hongaars (Magyar) | - | hu-HU |
 | Dutch (Nederland) | - | nl-NL |
 | Pools | - | pl-PL |
-| Fins (Suomi) | - | fi |
-| Thais | - | th |
+| Fins (Suomi) | - | fi-FI |
+| Thais | - | th-TH |
 | Turks | - | tr-TR |
 | Koreaans | - | ko-KR |
-| Traditioneel Chinees | - | zh-CHT |
-| Noors (Norsk) | - | nb-NO |
+| Traditioneel Chinees | - | zh-TW |
+| Noors (Norsk) | - | no-NO |
 | Zweeds | - | sv-SE |
-| Roemeens | - | ro |
-| Arabisch | Ja | ar |
+| Roemeens | - | ro-RO |
+| Arabisch | Ja | ar-SA |
 | Russisch | - | ru-RU |
-| Amhaars | - | am |
-| Tsjechisch | - | cs |
-| Engels VK | - | en-gb |
-| Vietnamees | Ja | vi |
-| Grieks | - | el |
+| Amhaars | - | am-ET |
+| Tsjechisch | - | cs-CZ |
+| Engels VK | - | en-GB |
+| Vietnamees | Ja | vi-VN |
+| Grieks | - | el-GR |
 | Frans (Canada) | - | fr-ca |
-| English (Australië) | - | nl-au |
+| English (Australië) | - | en-AU |
 | Indonesisch | - | id-ID |
-| Spaans (Latijns Amerika) | - | es |
-| Servisch | - | sr-sp |
-| Sloveens | - | sl |
-| Slovaaks | - | sk |
-| Kroatisch | - | uur |
-| Oekraïens | - | vk |
-| Hebreeuws | Ja | hij |
-| Bulgaars | - | bg |
-| Nederlands (België) | - | nl-be |
+| Spaans (Latijns Amerika) | - | es-XL |
+| Servisch | - | sr-SP |
+| Sloveens | - | sl-SL |
+| Slovaaks | - | sk-SK |
+| Kroatisch | - | hr-HR |
+| Oekraïens | - | uk-UA |
+| Hebreeuws | Ja | he-IL |
+| Bulgaars | - | bg-BG |
+| Nederlands (België) | - | nl-BE |
 | Portugal | - | pt-PT |
 | Chinees (traditioneel, Hongkong) | - | zh-HK |
 | Norwegian Bokmål | - | nb-NO |
