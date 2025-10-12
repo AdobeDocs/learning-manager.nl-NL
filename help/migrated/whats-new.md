@@ -51,7 +51,7 @@ Beheerders kunnen portalen ontwerpen die voldoen aan de behoeften van hun organi
 * **op rol-gebaseerd leren**: Bouw pagina&#39;s die aan specifieke rollen worden aangepast. Verkoopteams kunnen producttraining bekijken, terwijl engineers toegang krijgen tot technische cursussen.
 * **opleiding van het Product**: Opstelling specifieke pagina&#39;s voor verschillende producten, zoals Photoshop of Illustrator, met widgets die Cursussen, Certificeringen, en verwante middelen tonen.
 
-De Bouwer van de Ervaring van de mening [ voor meer informatie bij het creëren van douanepagina&#39;s gebruikend widgets.](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+De Bouwer van de Ervaring van de mening [&#x200B; voor meer informatie bij het creëren van douanepagina&#39;s gebruikend widgets.](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
 
 ## Op taal gebaseerde voortgang van studenten
 
@@ -72,7 +72,7 @@ De volgende inhoudstypen worden niet ondersteund voor de voortgang van studenten
 * Voor de inhoud die geen gegevens naar de LRS (Learning Record Store) verzendt, wordt de voortgang niet bijgehouden of opgeslagen.
 * Gebruikers van mobiele apps kunnen de voortgang voor deze functie niet bijhouden in de offline modus.
 
-Bekijk [ Mijn het Leren ](/help/migrated/learners/feature-summary/courses.md#language-based-progress-management) voor meer informatie over op taal-gebaseerde studentvooruitgang.
+Bekijk [&#x200B; Mijn het Leren &#x200B;](/help/migrated/learners/feature-summary/courses.md#language-based-progress-management) voor meer informatie over op taal-gebaseerde studentvooruitgang.
 
 ## Incrementele en meervoudige ondersteuning voor aangepaste rollen
 
@@ -94,14 +94,14 @@ De Adobe Learning Manager legt nu acties vast voor het toevoegen, bijwerken en v
 >
 >Deze wijzigingen zijn alleen van toepassing op accounts die incrementele gebruikers gebruiken.
 
-De incrementele en multi-stijgende steun van de mening [ voor meer informatie over stijgende en multi-stijgende steun voor douanerollen.](/help/migrated/integration-admin/feature-summary/configure-role-csv-files.md#incremental-and-multi-incremental-support-for-custom-roles)
+De incrementele en multi-stijgende steun van de mening [&#x200B; voor meer informatie over stijgende en multi-stijgende steun voor douanerollen.](/help/migrated/integration-admin/feature-summary/configure-role-csv-files.md#incremental-and-multi-incremental-support-for-custom-roles)
 
 ## Verbeterde Go1-integratie
 
 Go1-integratie is verbeterd zodat Go1-cursussen rechtstreeks kunnen worden beheerd voor het maken van LP&#39;s (Learning Programs) in Adobe Learning Manager. Deze update ondersteunt het opnemen van Go1-cursussen in terugkerende certificeringen en introduceert een nieuwe versie van de hubervaring voor Go1-inhoud, waardoor een efficiënter cursusbeheer mogelijk wordt.
 
 * Maak en beheer afspeellijsten rechtstreeks in Go1 met behulp van AI-chatondersteuning of handmatige selectie.
-* Neem Go1-cursussen op in terugkerende certificeringscycli met automatische terugzetprocedure. Bekijk [ Certificeringen ](/help/migrated/administrators/feature-summary/certifications.md) voor meer informatie bij het creëren van certificaten.
+* Neem Go1-cursussen op in terugkerende certificeringscycli met automatische terugzetprocedure. Bekijk [&#x200B; Certificeringen &#x200B;](/help/migrated/administrators/feature-summary/certifications.md) voor meer informatie bij het creëren van certificaten.
 * Verbeterde interface voor het detecteren van inhoud voor beter bladeren en contentbeheer.
 
 **Belangrijke nota&#39;s**
@@ -110,13 +110,13 @@ Go1-integratie is verbeterd zodat Go1-cursussen rechtstreeks kunnen worden behee
 * Eerdere gratis Go1-inhoud wordt uit bedrijf genomen. Organisaties moeten de vereiste inhoudsbundels voorvertonen en aanschaffen.
 * Beheerders en auteurs kunnen een of meer afspeellijsten maken en beheren. Studenten behouden alleen toegang tot de weergave.
 
-Bekijk [ Kromme Go1 cursussen aan het Leren Weg ](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md) voor meer informatie bij het toevoegen van Go1 cursussen aan de het Leren Weg.
+Bekijk [&#x200B; Kromme Go1 cursussen aan het Leren Weg &#x200B;](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md) voor meer informatie bij het toevoegen van Go1 cursussen aan de het Leren Weg.
 
 ## Ondersteuning voor video-URL&#39;s in de activiteitenmodule
 
 De module Activiteit ondersteunt nu het insluiten van Vimeo-URL&#39;s, vergelijkbaar met YouTube-insluiting. Dankzij deze verbetering kunnen beheerders rechtstreeks Vimeo-videokoppelingen toevoegen aan de activiteitenmodule. Wanneer auteurs een cursus maken en een activiteitenmodule toevoegen, zien ze nu een optie om een Vimeo-URL op te nemen. Net als bij het toevoegen van YouTube-koppelingen kunnen auteurs een Vimeo-koppeling rechtstreeks in de module-instelling plakken. Na publicatie kunnen studenten de Vimeo-video naadloos afspelen in de Learner-app zonder dat ze buiten het platform worden omgeleid.
 
-De mening [ voegt modules ](/help/migrated/authors/feature-summary/courses.md#add-modules) voor meer informatie toe bij het toevoegen van modules aan de cursussen.
+De mening [&#x200B; voegt modules &#x200B;](/help/migrated/authors/feature-summary/courses.md#add-modules) voor meer informatie toe bij het toevoegen van modules aan de cursussen.
 
 ## Tijdzonegegevens voor CR/VC-modules
 
@@ -130,7 +130,7 @@ Tijdens cursusverwezenlijking, is het **[!UICONTROL Auteur(s)]** gebied nu autom
 
 Voor organisaties met strikte regels voor contenteigendom zorgt automatische populatie ervoor dat auteurs altijd correct worden toegewezen. Wanneer auteurs een bestaande cursus bewerken, kunnen ze coauteurs bijwerken of toevoegen zonder dat de automatisch ingevulde gegevens verloren gaan.
 
-Bekijk [ creeer een cursus ](/help/migrated/authors/feature-summary/courses.md#create-a-course---advanced-workflow) voor meer informatie over het creëren van een cursus.
+Bekijk [&#x200B; creeer een cursus &#x200B;](/help/migrated/authors/feature-summary/courses.md#create-a-course---advanced-workflow) voor meer informatie over het creëren van een cursus.
 
 ## Externe profielen zoeken tijdens wijzigen profiel
 
@@ -141,7 +141,7 @@ Voorheen schuifden beheerders door de volledige lijst met externe profielen en s
 * In accounts met honderden externe profielen (bijvoorbeeld locaties met een licentie, partnerbedrijven of regionale groepen) kunnen beheerders het exacte profiel nu direct vinden door te zoeken, fouten te verminderen en tijd te besparen.
 * Tijdens organisatorische veranderingen, zoals fusies of afdelingsaanpassingen, moeten studenten mogelijk bulksgewijs worden verplaatst naar nieuwe externe profielen. Deze taak wordt vloeiender en nauwkeuriger wanneer u een zoekopdracht uitvoert.
 
-De mening [ Verandert het externe profiel ](/help/migrated/administrators/feature-summary/add-users-user-groups.md#change-profile) voor meer informatie bij het veranderen van het profiel.
+De mening [&#x200B; Verandert het externe profiel &#x200B;](/help/migrated/administrators/feature-summary/add-users-user-groups.md#change-profile) voor meer informatie bij het veranderen van het profiel.
 
 ## Een coorganisator toevoegen voor Microsoft Teams-sessies
 
@@ -153,11 +153,11 @@ Auteurs kunnen meerdere coorganisatoren toewijzen voor elke sessie met Microsoft
 
 Bij het organiseren van grootschalige sessies met veel studenten kunnen coorganisatoren helpen de aanwezigheid te beheren, discussies te matigen en chatten te controleren terwijl de primaire organisator zich richt op het leveren van de training.
 
-Bekijk [ voeg modules ](/help/migrated/authors/feature-summary/courses.md#add-modules) artikel voor meer informatie toe bij het toevoegen van CR/VC zittingen aan de cursussen.
+Bekijk [&#x200B; voeg modules &#x200B;](/help/migrated/authors/feature-summary/courses.md#add-modules) artikel voor meer informatie toe bij het toevoegen van CR/VC zittingen aan de cursussen.
 
 ## Rapport met geïnteresseerde studenten downloaden
 
-Wanneer een beheerder alle cursusinstanties (bijvoorbeeld, aan het eind van de cursuslevenscyclus) archiveert, **[!UICONTROL Enroll]** knoop op de **[!UICONTROL pagina van het Overzicht van de Cursus]** wordt vervangen met de optie van de Rente van het a [!UICONTROL  Register ]. Studenten kunnen deze optie selecteren om te laten zien dat ze geïnteresseerd zijn in het volgen van de cursus. Beheerders kunnen nu een lijst weergeven en exporteren van studenten die belangstelling hebben voor een cursus.
+Wanneer een beheerder alle cursusinstanties (bijvoorbeeld, aan het eind van de cursuslevenscyclus) archiveert, **[!UICONTROL Enroll]** knoop op de **[!UICONTROL pagina van het Overzicht van de Cursus]** wordt vervangen met de optie van de Rente van het a [!UICONTROL &#x200B; Register &#x200B;]. Studenten kunnen deze optie selecteren om te laten zien dat ze geïnteresseerd zijn in het volgen van de cursus. Beheerders kunnen nu een lijst weergeven en exporteren van studenten die belangstelling hebben voor een cursus.
 
 Beheerders hebben dan toegang tot deze lijst en kunnen deze downloaden als een rapport. Een **[!UICONTROL Belangrijke studenten]** knoop is toegevoegd aan de cursuspagina wanneer geen actieve instanties beschikbaar zijn. De beheerdersinterface bevat de naam van de student en de datum waarop deze hun interesse hebben geregistreerd.
 
@@ -166,7 +166,7 @@ De beheerders kunnen de **[!UICONTROL Acties]** selecteren en dan **[!UICONTROL 
 ![](assets/register-interest.png)
 _het overzichtssectie van de Cursus waar de studenten de optie van de Rente van het Register kunnen bekijken_
 
-Bekijk [ Download de geïnteresseerde student ](/help/migrated/administrators/feature-summary/courses.md#download-the-interested-learner-report) voor meer informatie.
+Bekijk [&#x200B; Download de geïnteresseerde student &#x200B;](/help/migrated/administrators/feature-summary/courses.md#download-the-interested-learner-report) voor meer informatie.
 
 ## Aanbevelingen opnieuw instellen in de Salesforce-app
 
@@ -176,13 +176,13 @@ Dit gestroomlijnde proces zorgt ervoor dat ze bijgewerkte, relevante cursusaanbe
 
 Adobe Learning Manager kenmerkt nu de knoop van de Interesten van het a **[!UICONTROL Terugstellen]** binnen Salesforce app. Studenten kunnen hun rollen en leervoorkeuren nu opnieuw instellen zonder Salesforce te moeten verlaten of zich aan te melden bij de native Adobe Learning Manager-app.
 
-Bekijk [ Aanbevelingen van het Terugstellen in Salesforce app ](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app) voor meer informatie over het terugstellen aanbevelingen in Salesforce app.
+Bekijk [&#x200B; Aanbevelingen van het Terugstellen in Salesforce app &#x200B;](/help/migrated/learners/feature-summary/sfdc-app.md#reset-recommendations-in-salesforce-app) voor meer informatie over het terugstellen aanbevelingen in Salesforce app.
 
 ## Verbetering van de widget Kalender
 
 Studenten kunnen nu zowel vorige als volgende sessies zien in de kalenderwidget. Ze kunnen door de kalender gaan naar een willekeurige datum en de sessiedetails controleren. Dit betekent dat ze sessies kunnen bekijken die al hebben plaatsgevonden, zodat ze kunnen bijhouden wat ze hebben gemist of bijgewoond. Ze kunnen ook alle komende sessies voor de komende 24 maanden bekijken, inclusief de huidige maand, zodat ze gemakkelijker kunnen plannen en hun planning kunnen beheren.
 
-De Kalender van de mening [ voor meer informatie over Widget van de Kalender.](/help/migrated/learners/feature-summary/learner-home-page.md#calendar)
+De Kalender van de mening [&#x200B; voor meer informatie over Widget van de Kalender.](/help/migrated/learners/feature-summary/learner-home-page.md#calendar)
 
 ## Tags toewijzen aan gebruikers in sociale boards
 
@@ -200,7 +200,7 @@ Gebruikers buiten het bereik van het board kunnen niet worden getagd om ongewens
 * Experts met onderwerpen die over gespecialiseerde onderwerpen worden geraadpleegd: door deskundigen van tags te voorzien, kunnen teams rechtstreeks de juiste mensen erbij betrekken, de reactietijd verminderen en de besluitvorming voor technische of nichevragen verbeteren.
 * Teamdiscussies die input van specifieke belanghebbenden vereisen: Door belanghebbenden te taggen, zijn de relevante besluitvormers op de hoogte van updates en kunnen ze input leveren, projecten op schema houden en aansluiten bij bedrijfsdoelen.
 
-De markering van de Gebruiker van de mening [ in Sociale Boards ](/help/migrated/learners/feature-summary/social-learning-web-user.md#tag-users-in-social-board-posts) voor meer informatie over het etiketteren van gebruikers in Sociale Boards.
+De markering van de Gebruiker van de mening [&#x200B; in Sociale Boards &#x200B;](/help/migrated/learners/feature-summary/social-learning-web-user.md#tag-users-in-social-board-posts) voor meer informatie over het etiketteren van gebruikers in Sociale Boards.
 
 ## Scoped-aankondigingsmachtigingen voor aangepaste beheerders
 
@@ -216,20 +216,20 @@ Aangepaste beheerders kunnen nu aankondigingen maken, maar alleen voor hun toege
 
 * Als het werkingsgebied van een douanebeheerder verandert, tonen de beïnvloede aankondigingen een waarschuwingspictogram en vereisen individuele werkingsgebied terugstelt.
 * Elke aankondiging moet afzonderlijk worden bijgewerkt wanneer het bereik wordt gewijzigd.
-* Het [ Meldingsbericht ](/help/migrated/administrators/feature-summary/announcements.md) rapport toont slechts studenten binnen het toegewezen werkingsgebied van de douanebeheerder.
+* Het [&#x200B; Meldingsbericht &#x200B;](/help/migrated/administrators/feature-summary/announcements.md) rapport toont slechts studenten binnen het toegewezen werkingsgebied van de douanebeheerder.
 
 **gevallen van het Gebruik**
 
 * Franchise-organisaties waar regionale managers alleen met hun franchisehouders moeten communiceren.
 * Grote organisaties met regionale of afdelingsbeheerders die aankondigingen richten aan hun teams.
 
-De mening [ leidt aankondiging voor het toegewezen werkingsgebied ](/help/migrated/administrators/feature-summary/announcements.md#create-announcement-for-the-assigned-scope) voor meer informatie bij het creëren van aankondiging voor toegewezen werkingsgebied.
+De mening [&#x200B; leidt aankondiging voor het toegewezen werkingsgebied &#x200B;](/help/migrated/administrators/feature-summary/announcements.md#create-announcement-for-the-assigned-scope) voor meer informatie bij het creëren van aankondiging voor toegewezen werkingsgebied.
 
 ## Aangepaste rol selecteren tijdens het publiceren van inhoud uit Adobe Captivate
 
 Als een gebruiker meerdere aangepaste rollen heeft bij het publiceren van inhoud van Adobe Captivate naar Adobe Learning Manager, wordt hem gevraagd om de specifieke aangepaste rol te selecteren waaronder de cursus moet worden gepubliceerd. Dit zorgt ervoor dat de juiste eigenaar en machtigingen van de rol worden toegepast op de gepubliceerde cursus.
 
-De rol van de Douane van de mening [ voor meer informatie bij het creëren van douanerollen voor de gebruikers.](/help/migrated/administrators/feature-summary/custom-role.md)
+De rol van de Douane van de mening [&#x200B; voor meer informatie bij het creëren van douanerollen voor de gebruikers.](/help/migrated/administrators/feature-summary/custom-role.md)
 
 ## Verbeteringen aan de widget Opgeslagen door mij
 
@@ -237,19 +237,19 @@ Eerder, die **[!UICONTROL selecteerde door me]** wordt opgeslagen toon alle curs
 
 In de catalogus kunnen studenten aanvullende filters toepassen om hun zoekopdracht te verfijnen. Wanneer een filter wordt toegepast, worden alleen cursussen weergegeven die aan de geselecteerde criteria voldoen. Eerder gemarkeerde cursussen worden alleen weergegeven als ze overeenkomen met het toegepaste filter.
 
-De mening [ vormt bewaarde cursuswidgets in AEM plaatsen ](/help/migrated/integrate-aem-learning-manager.md#configure-my-saved-courses-widgets-in-aem-sites) voor meer informatie over bewaarde cursuswidget in AEM plaatsen.
+De mening [&#x200B; vormt bewaarde cursuswidgets in AEM plaatsen &#x200B;](/help/migrated/integrate-aem-learning-manager.md#configure-my-saved-courses-widgets-in-aem-sites) voor meer informatie over bewaarde cursuswidget in AEM plaatsen.
 
 ## Ondersteuning voor het weergeven van auteursnamen in gedeelde cursussen
 
-Eerder, toen een cursus met a [ peer rekening ](/help/migrated/administrators/feature-summary/peer-account.md) werd gedeeld, verscheen de Auteur als Externe Auteur. Cursussen geven nu de naam van de auteur weer, ongeacht of het een interne gebruiker van het hoofdaccount of een oudere auteur betreft (dus elke naam die tijdens het maken van de cursus als een tekenreeks is ingevoerd in het veld Auteurs). Als u een auteur selecteert, wordt het aantal cursussen weergegeven dat ze met het collega-account hebben gedeeld. Deze auteurs zijn echter geen daadwerkelijke gebruikers in het collega-account.
+Eerder, toen een cursus met a [&#x200B; peer rekening &#x200B;](/help/migrated/administrators/feature-summary/peer-account.md) werd gedeeld, verscheen de Auteur als Externe Auteur. Cursussen geven nu de naam van de auteur weer, ongeacht of het een interne gebruiker van het hoofdaccount of een oudere auteur betreft (dus elke naam die tijdens het maken van de cursus als een tekenreeks is ingevoerd in het veld Auteurs). Als u een auteur selecteert, wordt het aantal cursussen weergegeven dat ze met het collega-account hebben gedeeld. Deze auteurs zijn echter geen daadwerkelijke gebruikers in het collega-account.
 
 Als een gebruiker uit het hoofdaccount wordt verwijderd, worden de gegevens verwijderd, maar blijft de auteurinformatie in collega-accounts waarin de inhoud is gedeeld.
 
 >[!NOTE]
 >
->Dit is een op vlag-gebaseerde eigenschap, contacteer ons team van de Steun van de Klant in [ learningmanagersupport@adobe.com ](mailto:learningmanagersupport@adobe.com) om deze optie toe te laten.
+>Dit is een op vlag-gebaseerde eigenschap, contacteer ons team van de Steun van de Klant in [&#x200B; learningmanagersupport@adobe.com &#x200B;](mailto:learningmanagersupport@adobe.com) om deze optie toe te laten.
 
-De rekening van de mening [ voor meer informatie over het delen van inhoud aan peer rekening.](/help/migrated/administrators/feature-summary/peer-account.md)
+De rekening van de mening [&#x200B; voor meer informatie over het delen van inhoud aan peer rekening.](/help/migrated/administrators/feature-summary/peer-account.md)
 
 ## Zichtbaarheid zoeken voor leerobjecten met een lagere volgorde
 
@@ -257,7 +257,7 @@ Eerder werden in de zoekresultaten niet altijd afzonderlijke cursussen weergegev
 
 Dankzij deze verbetering kunnen studenten nu afzonderlijke cursussen in zoekresultaten zien, zelfs als deze cursussen deel uitmaken van leerpaden of certificeringen. Een nieuwe beheerder die, **[!UICONTROL plaatst toont alle ingeschreven cursussen in onderzoeksresultaten]**, is geïntroduceerd. Als deze instelling is ingeschakeld, zorgt u ervoor dat bij het zoeken naar een specifieke cursus altijd de cursus zelf wordt weergegeven, samen met eventuele gerelateerde leerpaden of -certificeringen.
 
-De Montages van de mening [ voor meer informatie over algemene montages.](/help/migrated/administrators/feature-summary/settings.md#general-settings)
+De Montages van de mening [&#x200B; voor meer informatie over algemene montages.](/help/migrated/administrators/feature-summary/settings.md#general-settings)
 
 ## API-wijzigingen
 
@@ -358,7 +358,7 @@ Produceert de volgende reactie. De reactie bevat:
 }
 ```
 
-Het handboek van de Migratie van de mening [ voor meer informatie over het migreren van inhoud van bestaand LMS.](/help/migrated/integration-admin/feature-summary/migration-manual.md)
+Het handboek van de Migratie van de mening [&#x200B; voor meer informatie over het migreren van inhoud van bestaand LMS.](/help/migrated/integration-admin/feature-summary/migration-manual.md)
 
 ### Wijzigingen in de sociale API (gebruikerstag, opmerkingen en antwoorden)
 
@@ -681,7 +681,7 @@ Ter ondersteuning hiervan is een nieuwe instelling op accountniveau, `reporting_
 
 >[!NOTE]
 >
-> Contacteer ons team van de Steun van de Klant in [ learningmanagersupport@adobe.com ](mailto:learningmanagersupport@adobe.com) om dit het plaatsen te vormen.
+> Contacteer ons team van de Steun van de Klant in [&#x200B; learningmanagersupport@adobe.com &#x200B;](mailto:learningmanagersupport@adobe.com) om dit het plaatsen te vormen.
 
 Het nieuwe kenmerk `reportingUserIdPreference` is toegevoegd aan `get /account` om de voorkeuren voor de gebruikers-id bij te houden.
 
@@ -701,7 +701,7 @@ Deze wijziging zorgt voor consistentie in de manier waarop auteurgegevens via AP
 
 Voorheen moesten beheerders LinkedIn Learning-webhooks handmatig registreren bij Adobe Learning Manager via API&#39;s. Dankzij deze verbetering ondersteunt de LinkedIn Learning-connector (LIL) nu automatisch webhookregistratie tijdens nieuwe verbindingsinstellingen in ALM. De **URL van de Server OAuth** en **TenantServer URL** zal automatisch bevolkt op de LinkedIn Lerende configuratiepagina zijn.
 
-Bekijk [ LinkedIn Lerend ](/help/migrated/integration-admin/feature-summary/connectors.md#linkedin-learning-connector) voor meer informatie over LinkedIn Lerende integratie.
+Bekijk [&#x200B; LinkedIn Lerend &#x200B;](/help/migrated/integration-admin/feature-summary/connectors.md#linkedin-learning-connector) voor meer informatie over LinkedIn Lerende integratie.
 
 ### Wijzigingen in MAU-licentiegebruik in LinkedIn Learning
 
@@ -728,10 +728,10 @@ Deze wijzigingen zorgen ervoor dat voltooide bewerkingen die zijn gemarkeerd na 
 * Organisaties met klassikale sessies waarbij docenten aanwezigheid dagen na de sessie kunnen markeren.
 * Geautomatiseerde systemen of dashboards waarbij incrementele studenttranscripten worden gebruikt voor compliance of rapportage.
 
-![ de rapporten van het Transcriptie van de Student die duidelijke voltooide (geel gemarkeerde) data tonen voor het volgen van de cursusvoltooiing in het Leren van de Adobe ](/help/migrated/assets/mark-completion-column.png)
+![&#x200B; de rapporten van het Transcriptie van de Student die duidelijke voltooide (geel gemarkeerde) data tonen voor het volgen van de cursusvoltooiing in het Leren van de Adobe &#x200B;](/help/migrated/assets/mark-completion-column.png)
 _het rapport van het Transcriptie van de Student toont een nieuwe kolom in geel die individuele voltooiingsdata voor elke gebruiker benadrukt_
 
-Bekijk [ Studenttranscript ](/help/migrated/administrators/feature-summary/learner-transcripts.md) voor meer informatie over het rapport van het Studenttranscript.
+Bekijk [&#x200B; Studenttranscript &#x200B;](/help/migrated/administrators/feature-summary/learner-transcripts.md) voor meer informatie over het rapport van het Studenttranscript.
 
 ### Verbeterd gebruikersrapport met uitgebreide gegevensvelden
 
@@ -740,10 +740,10 @@ Het gebruikersrapport bevat nu extra velden waarmee gebruikers beter kunnen word
 * Kolom interne gebruiker-id: verschaft unieke interne id&#39;s voor een vloeiende gebruikersregistratie voor verschillende systemen en API-eindpunten.
 * E-mailkolom van manager: bevat contactgegevens van directe managers voor het bijhouden van de hiërarchie van de organisatie.
 
-![ Rapport van de Gebruiker die de interne gebruiker - identiteitskaart en manager e-mailkolommen tonen die in geel worden benadrukt ](/help/migrated/assets/user-report-columns.png)
+![&#x200B; Rapport van de Gebruiker die de interne gebruiker - identiteitskaart en manager e-mailkolommen tonen die in geel worden benadrukt &#x200B;](/help/migrated/assets/user-report-columns.png)
 _Rapporten die van de Gebruiker interne gebruiker IDs en manager e-mailadressen benadrukken om gebruikersbeheer te stroomlijnen_
 
-Bekijk [ Download het gebruikersrapport ](/help/migrated/administrators/feature-summary/add-users-user-groups.md#download-the-user-report) voor meer informatie over het Rapport van de Gebruiker.
+Bekijk [&#x200B; Download het gebruikersrapport &#x200B;](/help/migrated/administrators/feature-summary/add-users-user-groups.md#download-the-user-report) voor meer informatie over het Rapport van de Gebruiker.
 
 ### Gebruikersrapport in FTP, aangepaste FTP en Box
 
@@ -755,7 +755,7 @@ Rapporten kunnen op aanvraag worden gegenereerd of gepland, met gegevens die in 
 
 Deze rapporten zijn beschikbaar naast bestaande rapporten, zoals gebruikersregistratie, aanmeldingstoegang, gamification en training, waardoor beheerders toegang hebben tot alle essentiële rapporten op één locatie voor gestroomlijnd gegevensbeheer en -analyse.
 
-De Schakelaar van de mening [ voor meer informatie over FTP, Aangepaste FTP, en de schakelaar van de Doos.](/help/migrated/integration-admin/feature-summary/connectors.md)
+De Schakelaar van de mening [&#x200B; voor meer informatie over FTP, Aangepaste FTP, en de schakelaar van de Doos.](/help/migrated/integration-admin/feature-summary/connectors.md)
 
 ### Opgeschorte gebruikers opnemen in Studenttranscripten
 
@@ -774,7 +774,7 @@ Organisaties kunnen nu geschorste gebruikers (gebruikers met uitgeschakelde exte
 >
 >Deze markering is standaard uitgeschakeld voor bestaande accounts en moet expliciet worden aangevraagd voor nieuwe accounts.
 
-Bekijk [ artikel van het Transcriptie van de Student ](/help/migrated/administrators/feature-summary/learner-transcripts.md) meer informatie.
+Bekijk [&#x200B; artikel van het Transcriptie van de Student &#x200B;](/help/migrated/administrators/feature-summary/learner-transcripts.md) meer informatie.
 
 ### Taakhulpenrapport met directe toegangskoppelingen
 
@@ -794,7 +794,7 @@ Het Taakhulpenrapport is uitgebreid en bevat nu directe downloadkoppelingen naar
 ![](/help/migrated/assets/job-aid-report.png)
 _het Rapport van de Hulp van de Baan toont directe downloadverbindingen, die het gemakkelijk maken om tot taakhulpen in Adobe Learning Manager toegang te hebben en te downloaden_
 
-Het Rapport van de Hulp van de Baan van de mening [ voor meer informatie over het rapport van de Hulp van de Baan.](/help/migrated/administrators/feature-summary/reports.md#job-aids-report)
+Het Rapport van de Hulp van de Baan van de mening [&#x200B; voor meer informatie over het rapport van de Hulp van de Baan.](/help/migrated/administrators/feature-summary/reports.md#job-aids-report)
 
 ## Bugfixes in deze update
 
@@ -820,11 +820,11 @@ Het Rapport van de Hulp van de Baan van de mening [ voor meer informatie over he
 
 ## Systeemvereisten
 
-De systeemvereisten van de mening [ Adobe Learning Manager ](/help/migrated/system-requirements.md).
+De systeemvereisten van de mening [&#x200B; Adobe Learning Manager &#x200B;](/help/migrated/system-requirements.md).
 
 ## Opmerkingen bij de release
 
-Controle uit de [ versienota&#39;s ](/help/migrated/release-note/release-notes.md) voor recentste versieupdates.
+Controle uit de [&#x200B; versienota&#39;s &#x200B;](/help/migrated/release-note/release-notes.md) voor recentste versieupdates.
 
 ## Eerdere releases van Adobe Learning Manager
 
