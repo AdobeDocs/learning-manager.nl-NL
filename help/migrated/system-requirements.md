@@ -101,7 +101,7 @@ De maximale bestandsgrootte die kan worden geüpload is 600 MB.
 >
 >Als het bestand *user.csv* groter is dan 100 MB, kan de browser zich onverwacht gedrag vertonen bij het importeren van dit bestand. Het probleem treedt op, omdat de browser onvoldoende geheugen heeft.
 
-Wij adviseren invoerend grote grootte *user.csv* dossiers gebruikend het geautomatiseerde Box/Exavault werkschema. Meer weten, zie [ Migrerend dossiers ](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+Wij adviseren invoerend grote grootte *user.csv* dossiers gebruikend het geautomatiseerde Box/Exavault werkschema. Meer weten, zie [&#x200B; Migrerend dossiers &#x200B;](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Ondersteunde inhoudsindelingen

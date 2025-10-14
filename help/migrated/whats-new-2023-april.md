@@ -16,7 +16,7 @@ ht-degree: 61%
 
 De nieuwe Adobe Learning Manager-app op Microsoft Teams is ontworpen om leren in de flow van het werk te bevorderen en sociaal leren te stimuleren. Studenten hebben binnen het Microsoft Teams-platform toegang tot leermateriaal zonder over te hoeven schakelen op een browser. Neem contact op met uw CSAM voor de bèta-release van Adobe Learning Manager-app op MS Teams.
 
-Voor meer informatie, zie [ Adobe Learning Manager App voor Microsoft Teams ](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
+Voor meer informatie, zie [&#x200B; Adobe Learning Manager App voor Microsoft Teams &#x200B;](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
 
 ## Verbeteringen aan de ILT-ervaring (door docent geleide training)
 
@@ -29,7 +29,7 @@ Er zijn verschillende verbeteringen aangebracht aan de ILT-ervaring. Belangrijke
 
 Zie voor meer informatie [Vaardigheden toewijzen aan docenten](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
 
-![ docent CSV ](assets/instructor-csv-new.png)
+![&#x200B; docent CSV &#x200B;](assets/instructor-csv-new.png)
 
 ### Plannende assistent
 
@@ -43,7 +43,7 @@ Zie voor meer informatie [Planningsassistent](/help/migrated/authors/feature-sum
 
 Een splinternieuwe mobiele Adobe Learning Manager-app voor Android en iOS die studenten altijd en overal soepele toegang biedt tot lesmateriaal. Met de app kunnen studenten trainingen volgen op hun mobiele apparaten en deze later op hun computers weer oppakken. Met ondersteuning voor meldingen, bestandsuploads, eenvoudig bladwijzers toevoegen en lesmateriaal delen, sociaal leren en meer, biedt de mobiele app meer flexibiliteit aan studenten en ondersteunt de app just-in-time-leren.
 
-![ Nieuwe mobiele afbeelding van de kaartinterface ](assets/mobile-app.png)
+![&#x200B; Nieuwe mobiele afbeelding van de kaartinterface &#x200B;](assets/mobile-app.png)
 
 Download het mobiele apparaat van de Google Play Store en de Apple App Store. Gebruikers van de oudere versie van de app worden gevraagd om de nieuwe app te downloaden en installeren.
 
@@ -93,7 +93,7 @@ Beheerders kunnen bepaalde cursussen of trainingen richten op studenten op basis
 
 Op de pagina Aankondiging ziet u een optie met de reden waarom deze cursus of training aan hen is aanbevolen.
 
-![ creeer aankondiging ](assets/create-announcement.png)
+![&#x200B; creeer aankondiging &#x200B;](assets/create-announcement.png)
 
 ### Nieuwe beheerdersinstelling
 
@@ -110,11 +110,11 @@ De Beheerder maakt een aankondiging door de cursus voor een gebruikersgroep toe 
 
 Een student ziet een strook met aanbevolen cursussen op de startpagina en een link naar de cursus op de tegel.
 
-![ aanbeveling ontkoppelt student ](assets/recommendation-strip-learner.png)
+![&#x200B; aanbeveling ontkoppelt student &#x200B;](assets/recommendation-strip-learner.png)
 
 Wanneer de student op de link of op de knop Ga naar catalogus klikt, wordt de student omgeleid naar de pagina met de cursuscatalogus. De student bekijkt dan de lijst met gebruikersgroepen waarop moet worden gefilterd op basis van de gebruikersgroepen in de catalogus en de pagina Mijn leerervaring.
 
-![ onderzoeksresultaten ](assets/search-results.png)
+![&#x200B; onderzoeksresultaten &#x200B;](assets/search-results.png)
 
 ## Sessies zoeken met behulp van locaties
 
@@ -122,7 +122,7 @@ Wanneer de student op de link of op de knop Ga naar catalogus klikt, wordt de st
 
 Soms moet een student een sessie op de agenda filteren op basis van locatie. Nadat een locatie is toegevoegd met behulp van het dialoogvenster Locaties van klaslokalen of het CSV-bestand, kan de student het filter toepassen.
 
-![ voeg klaslokalen ](assets/add-classroom-locations.png) toe
+![&#x200B; voeg klaslokalen &#x200B;](assets/add-classroom-locations.png) toe
 
 Zie voor meer informatie [Locaties van klaslokalen toevoegen](/help/migrated/administrators/feature-summary/settings.md#classroom-locations).
 
@@ -130,13 +130,13 @@ Zie voor meer informatie [Locaties van klaslokalen toevoegen](/help/migrated/adm
 
 Als student kunt u sessies die aan u zijn toegewezen, filteren op locatie. Ga naar de agendawidget, selecteer Sessies filteren en selecteer de locatie.
 
-![ Geen toegepaste filters ](assets/no-filters-applied.png)
+![&#x200B; Geen toegepaste filters &#x200B;](assets/no-filters-applied.png)
 
-![ zittingen op kalender zonder toegepaste filters ](assets/sessions-on-calendar-no-filters.png)
+![&#x200B; zittingen op kalender zonder toegepaste filters &#x200B;](assets/sessions-on-calendar-no-filters.png)
 
-![ Filters die op plaatsen ](assets/location-filter-applied.png) worden toegepast
+![&#x200B; Filters die op plaatsen &#x200B;](assets/location-filter-applied.png) worden toegepast
 
-![ zittingen op kalender met toegepaste plaatsfilters ](assets/session-with-location-filters-applied.png)
+![&#x200B; zittingen op kalender met toegepaste plaatsfilters &#x200B;](assets/session-with-location-filters-applied.png)
 
 Bovendien wordt de trainingslocatie nu weergegeven op de pagina met het cursusoverzicht als de locatie door de auteur is toegevoegd tijdens het maken van de cursus.
 
@@ -161,7 +161,7 @@ De chatbot:
 * Draagt de chat over naar een live medewerker.
 * Bewaart uw chatgeschiedenis.
 
-![ chatbot ](assets/chatbot-new.png)
+![&#x200B; chatbot &#x200B;](assets/chatbot-new.png)
 
 ## Verbeteringen aan de Observatiecontrolelijst
 
@@ -190,7 +190,7 @@ De zoekfunctionaliteit is ook verbeterd voor studenten. Studenten kunnen nu met 
 
 Op de overzichtspagina wordt een pop-up bij inschrijving weergegeven wanneer een student conflicterende sessies heeft. Als de inschrijving op de cataloguspagina of overzichtspagina en een student al conflicterende sessies heeft, wordt een conflicterende pop-up met conflicterende sessiedetails geactiveerd. Zelfs als een student een conflicterende sessie heeft, kunnen hij of zij zich inschrijven voor de nieuwe sessie.
 
-![ waarschuwing ](assets/learner-pop-up.png)
+![&#x200B; waarschuwing &#x200B;](assets/learner-pop-up.png)
 
 Dit bericht is slechts een waarschuwing. U kunt zich nog steeds inschrijven voor een cursus.
 
@@ -216,7 +216,7 @@ Als de optie Schakelen tussen instanties is ingeschakeld, kunnen studenten tusse
 
 Wanneer de student **Alle instanties bekijken** selecteert, ziet de student alle cursusinstanties.
 
-![ alt tekst ](assets/view-all-instance.png)
+![&#x200B; alt tekst &#x200B;](assets/view-all-instance.png)
 
 _Bekijk al instantiepagina van studentenconsole_
 
@@ -225,17 +225,17 @@ _instantie van de Schakelaar van studentenpagina_
 
 Een beheerder kan van instantie veranderen voor studenten. Selecteer een cursus van de admin console, ga naar de **[!UICONTROL sectie van Studenten]**, kies een gebruiker, en selecteer de **[!UICONTROL knoop van de Actie]**. Dan, selecteer **[!UICONTROL Instantie van de Schakelaar]** en kies de gewenste instantie.
 
-![ alt tekst ](assets/switch-instance-admin.png)
+![&#x200B; alt tekst &#x200B;](assets/switch-instance-admin.png)
 _instantie van de Schakelaar van Admin console_
 
-![ geselecteerde schakelaarinstanties ](assets/switch-instances-select.png)
+![&#x200B; geselecteerde schakelaarinstanties &#x200B;](assets/switch-instances-select.png)
 _de instantieherinnering van de Schakelaar_
 
 U kunt niet van instantie wisselen totdat een instantie van de cursus is voltooid vanuit de Learner- of Admin-app.
 
 Auteurs kunnen tijdens het maken van een cursus schakelen tussen het in- en uitschakelen van de optie Instantieverwisselen. Schakelen van instantie is alleen beschikbaar voor gratis cursussen.
 
-Voor meer informatie, zie [ configuratie van de Instantie ](/help/migrated/authors/feature-summary/courses.md).
+Voor meer informatie, zie [&#x200B; configuratie van de Instantie &#x200B;](/help/migrated/authors/feature-summary/courses.md).
 
 **Studenten**
 
@@ -253,7 +253,7 @@ Nadat ze zich hebben ingeschreven voor het leerpad of de certificering, kunnen z
 
 In het controlerapport van de gebruiker wordt informatie vastgelegd over de studenten die van instantie zijn overgeschakeld, van instantie naar instantie, van tijd tot datum, enz.
 
-![ Rapport van het Trail van de Controle van de Gebruiker van de Mening ](assets/user-audit-trail.png)
+![&#x200B; Rapport van het Trail van de Controle van de Gebruiker van de Mening &#x200B;](assets/user-audit-trail.png)
 
 Zie voor meer informatie [Rapport Audittrail van gebruiker](/help/migrated/administrators/feature-summary/reports.md#useraudittrailreports).
 
@@ -261,21 +261,21 @@ Zie voor meer informatie [Rapport Audittrail van gebruiker](/help/migrated/admin
 
 Dit rapport bevat de tijd (in minuten) die een docent dagelijks besteedt aan het lesgeven van toegewezen sessies. Het rapport kan worden gedownload voor een periode van drie maanden vanaf de geselecteerde startdatum.
 
-Voor meer informatie, zie [ Rapport van het Gebruik van de Instructeur ](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+Voor meer informatie, zie [&#x200B; Rapport van het Gebruik van de Instructeur &#x200B;](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
-![ rapport van het instructiegebruik ](assets/instructor-utilization.png)
+![&#x200B; rapport van het instructiegebruik &#x200B;](assets/instructor-utilization.png)
 
 ### Taakhulpenrapport
 
 Een nieuw rapport om de taakhulpen bij te houden die aanwezig zijn in de account en verschillende informatie over de taakhulpen, zoals taal, type, duur, auteur, tags etc.
 
-Voor meer informatie, zie [ het inschrijvingsrapport van de Hulp van de Baan ](/help/migrated/administrators/feature-summary/reports.md).
+Voor meer informatie, zie [&#x200B; het inschrijvingsrapport van de Hulp van de Baan &#x200B;](/help/migrated/administrators/feature-summary/reports.md).
 
 ### Gerichte ad hoc e-mails naar studenten die zijn ingeschreven voor een specifieke cursusinstantie
 
 Beheerders en auteurs kunnen gerichte ad hoc e-mails verzenden naar studenten die zijn ingeschreven voor een specifieke instantie van een cursus. De optie om e-mails op instantieniveau te verzenden is toegevoegd voor Cursussen en Leerprogramma&#39;s.
 
-![ verzend instantie-vlakke e-mails ](assets/adhoc-email.png)
+![&#x200B; verzend instantie-vlakke e-mails &#x200B;](assets/adhoc-email.png)
 
 *verzend instantie-vlakke e-mails*
 
@@ -289,7 +289,7 @@ Voor Beheerders is een nieuw type Aankondiging, &#39;Als e-mail&#39;, toegevoegd
 
 Aangepaste beheerders en auteurs kunnen deze optie ook op instantieniveau bekijken als ze de benodigde toegang hebben.
 
-Voor meer informatie, zie [ Aankondigingen ](/help/migrated/administrators/feature-summary/announcements.md#as-email).
+Voor meer informatie, zie [&#x200B; Aankondigingen &#x200B;](/help/migrated/administrators/feature-summary/announcements.md#as-email).
 
 ### Nieuwe e-mailsjablonen
 
@@ -639,11 +639,11 @@ Voorbeeldreactie hieronder:
 
 ## Aanvullende informatie
 
-Voor informatie betreffende huidige en vorige versies van het Leren Web app van de Manager en apparaat app, zie de [ nota&#39;s van de Versie ](/help/migrated/release-note/release-notes.md).
+Voor informatie betreffende huidige en vorige versies van het Leren Web app van de Manager en apparaat app, zie de [&#x200B; nota&#39;s van de Versie &#x200B;](/help/migrated/release-note/release-notes.md).
 
 ## Foutoplossingen
 
-Om de insecten te zien die in deze update worden bevestigd, verwijs naar de [ Bugs vaste lijst ](release-note/release-notes.md#bugs-fixed-in-this-release).
+Om de insecten te zien die in deze update worden bevestigd, verwijs naar de [&#x200B; Bugs vaste lijst &#x200B;](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Systeemvereisten
 

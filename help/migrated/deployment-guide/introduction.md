@@ -162,7 +162,7 @@ E-mailsjablonen configureren voor een leerobject:
 
 ### Gebruikers beperken in het ontvangen van e-mails {#restrictusersfromreceivingemails}
 
-Als beheerder kunt u selecteren wie e-mails van Learning Manager ontvangt. U kunt dit bereiken met de **&#x200B;**&#x200B;[!UICONTROL Beperkte gebruiker]&#x200B;**&#x200B;** optie onder **&#x200B;**&#x200B;[!UICONTROL Instellingen] **&#x200B; **&#x200B;tab. Voeg gebruikers toe door hun naam, e-mail-ID of unieke gebruikers-ID op de lijst te zetten. De gebruikers die onder deze optie worden vermeld, worden beperkt in het ontvangen van e-mailcommunicatie van Learning Manager.
+Als beheerder kunt u selecteren wie e-mails van Learning Manager ontvangt. U kunt dit bereiken met de **&#x200B;**&#x200B;[!UICONTROL Beperkte gebruiker]&#x200B;**&#x200B;** optie onder **&#x200B;**&#x200B;[!UICONTROL Instellingen] **&#x200B; &#x200B;**&#x200B;tab. Voeg gebruikers toe door hun naam, e-mail-ID of unieke gebruikers-ID op de lijst te zetten. De gebruikers die onder deze optie worden vermeld, worden beperkt in het ontvangen van e-mailcommunicatie van Learning Manager.
 
 ## Uw accountinstellingen configureren {#configureyouraccountsettings}
 

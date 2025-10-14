@@ -35,9 +35,9 @@ De AVG is een EU-verordening, maar is wereldwijd van toepassing op zakelijke ent
 
 +++Welke rol speelt Adobe bij AVG als leverancier van Learning Manager?
 
-Volgens AVG, als uw zaken een product of de dienst aan ingezetenen van de EU verstrekken, en bepaalt hoe en waarom om, hun gegevens te verzamelen te volgen en te controleren, wordt u beschouwd a [ gegevenscontrolemechanisme ](https://gdpr-info.eu/art-24-gdpr/). Als Adobe Learning Manager-klant wordt u, als u een van deze activiteiten uitvoert, als gegevensbeheerder beschouwd.
+Volgens AVG, als uw zaken een product of de dienst aan ingezetenen van de EU verstrekken, en bepaalt hoe en waarom om, hun gegevens te verzamelen te volgen en te controleren, wordt u beschouwd a [&#x200B; gegevenscontrolemechanisme &#x200B;](https://gdpr-info.eu/art-24-gdpr/). Als Adobe Learning Manager-klant wordt u, als u een van deze activiteiten uitvoert, als gegevensbeheerder beschouwd.
 
-De ondernemingen die gegevens namens controlemechanismen verwerken worden beschouwd [ gegevensverwerkers ](https://gdpr-info.eu/art-28-gdpr/). Als leverancier van cloudgehost LMS Adobe Learning Manager speelt Adobe de rol van gegevensverwerker. Hier zijn wat meer details over [ AVG en Uw Zaken ](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+De ondernemingen die gegevens namens controlemechanismen verwerken worden beschouwd [&#x200B; gegevensverwerkers &#x200B;](https://gdpr-info.eu/art-28-gdpr/). Als leverancier van cloudgehost LMS Adobe Learning Manager speelt Adobe de rol van gegevensverwerker. Hier zijn wat meer details over [&#x200B; AVG en Uw Zaken &#x200B;](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
 +++
 

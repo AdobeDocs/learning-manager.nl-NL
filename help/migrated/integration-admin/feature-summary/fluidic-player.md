@@ -31,7 +31,7 @@ Zie voor meer informatie over Fluidic Player [Fluidic Player](../../learners/fea
 
 Hier volgen enkele voorbeelden van het gebruik van de insluitbare Fluidic Player.
 
-* U kunt de insluitbare Fluidic Player op uw **&#x200B; **&#x200B;website gebruiken om een overzicht te geven van de cursussen waarvoor uw medewerker is ingeschreven en om een koppeling te verschaffen om een training op dezelfde pagina te starten. Dit zou betekenen dat uw studenten trainingen op uw intranetwebsite kunnen volgen.
+* U kunt de insluitbare Fluidic Player op uw **&#x200B; &#x200B;**&#x200B;website gebruiken om een overzicht te geven van de cursussen waarvoor uw medewerker is ingeschreven en om een koppeling te verschaffen om een training op dezelfde pagina te starten. Dit zou betekenen dat uw studenten trainingen op uw intranetwebsite kunnen volgen.
 
 * Als u in de opleidingssector werkt, hebt u misschien een website waar uw klanten cursussen aanschaffen. U kunt de insluitbare speler met dezelfde website integreren, zodat uw klanten de inhoud die ze kopen, binnen uw website kunnen gebruiken.
 
@@ -183,7 +183,7 @@ Dit is een inspanning die door iemand van uw team van IT of een externe adviseur
 
    U kunt uw token verkrijgen door uw insluitbare Fluidic Player in te stellen in uw integratiebeheerder. U kunt uw verificatietoken ophalen dat u als toegangstoken kunt gebruiken.
 
-   Voorbeeld van gemaakte URL; https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&amp;access_token=&quot;+accToken
+   Voorbeeld van gemaakte URL; https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&access_token=&quot;+accToken
 
    Hier is lo_id de id van de cursus, het leerprogramma, de certificering en de taakhulp.
 

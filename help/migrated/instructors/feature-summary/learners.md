@@ -99,7 +99,7 @@ Het succes voor studenten markeren:
    * **[!UICONTROL Aanwezige Teken en pas]**: De studenten die als Voldoende worden gemerkt hebben met succes de module voltooid.
    * **[!UICONTROL Aanwezige het Teken en Gebrek]**: De studenten die als Gebrek worden gemerkt hebben de module voltooid maar niet geslaagd.
 
-   ![ het vervolgkeuzemenu van Acties die &quot;Teken bijgewoond en pas&quot;en &quot;Teken bijgewoond en Mislukt&quot;opties voor instructeurs benadrukken om de successtatus van elke student te plaatsen ](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
+   ![&#x200B; het vervolgkeuzemenu van Acties die &quot;Teken bijgewoond en pas&quot;en &quot;Teken bijgewoond en Mislukt&quot;opties voor instructeurs benadrukken om de successtatus van elke student te plaatsen &#x200B;](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
    _pagina van Studenten die het menu van Acties met de Aanwezige Teken tonen en Aanwezige de Teken en Geweigerde opties tonen die voor de resultaten van de registrerende student worden benadrukt_
 
 6. Selecteer **[!UICONTROL Ja]** in de bevestigingsherinnering.
@@ -115,7 +115,7 @@ Voer een van de volgende handelingen uit om e-mails naar studenten te sturen via
 
 ## Antwoorden uitnodigingen vastleggen
 
-De instructeurs kunnen de uitnodigingsreacties van studenten vangen slechts wanneer de **[!UICONTROL optie van het Antwoord]** wordt toegelaten door de beheerder ACAP. Om deze eigenschap toe te laten, moeten de beheerders het ondersteuningsteam in [ learningmanagersupport@adobe.com ](mailto:learningmanagersupport@adobe.com) contacteren.
+De instructeurs kunnen de uitnodigingsreacties van studenten vangen slechts wanneer de **[!UICONTROL optie van het Antwoord]** wordt toegelaten door de beheerder ACAP. Om deze eigenschap toe te laten, moeten de beheerders het ondersteuningsteam in [&#x200B; learningmanagersupport@adobe.com &#x200B;](mailto:learningmanagersupport@adobe.com) contacteren.
 
 Zodra gedaan, kunt u uitnodigingsreacties in de **[!UICONTROL sectie van Studenten]** bekijken. Ga naar om het even welke zitting, selecteer **[!UICONTROL Studenten]**, en selecteer de uitnodigingsreactie van het dropdown menu.
 

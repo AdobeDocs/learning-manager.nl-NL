@@ -32,7 +32,7 @@ Browsercache en -cookies kunnen ervoor zorgen dat u geen toegang krijgt tot het 
 
 De onderstaande koppelingen leiden naar browserspecifieke instructies om de cache te wissen:
 
-* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=nl)
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=nl)
 * [Internet Explorer](https://kb.wisc.edu/page.php?id=1514)
 * [Microsoft Edge](https://www.bitdefender.com/support/how-to-clear-the-cache-and-cookies%C2%A0in-microsoft-edge-1914.html)
 * [Firefox](https://kb.iu.edu/d/ahic)
@@ -40,7 +40,7 @@ De onderstaande koppelingen leiden naar browserspecifieke instructies om de cach
 
 ## Incognito-modus gebruiken
 
-Gebruik de Incognito-modus in uw browser en meld u vervolgens aan bij Adobe Learning Manager. Zie [instructies](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=nl&amp;oco=0).
+Gebruik de Incognito-modus in uw browser en meld u vervolgens aan bij Adobe Learning Manager. Zie [instructies](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=nl&oco=0).
 
 ## Contact opnemen met beheerder
 

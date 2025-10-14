@@ -39,7 +39,7 @@ Als u een vergadering met meerdere deelnemers organiseert, kunt u rollen aan elk
 
 Er zijn twee rollen om van te kiezen: **presentator** en **aanwezige**.
 
-Voor meer informatie, zie [ Rollen in een Vergadering van Teams Microsoft ](https://support.microsoft.com/nl-nl/office/rollen-in-een-teams-vergadering-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
+Voor meer informatie, zie [&#x200B; Rollen in een Vergadering van Teams Microsoft &#x200B;](https://support.microsoft.com/nl-nl/office/rollen-in-een-teams-vergadering-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
 ## De Microsoft Teams-connector instellen
 
@@ -51,7 +51,7 @@ Voor meer informatie, zie [ Rollen in een Vergadering van Teams Microsoft ](http
 
 U kunt tot de schakelaar van Microsoft Teams toegang hebben als u Office 365 E3 of Office 365 E5 hebt. De aanbevolen optie is Office 365 E5.
 
-* Bezoek de [ pagina van de plannen van Microsoft ](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). Op de webpagina kunt u een E3- of E5-account kopen of op Gratis uitproberen klikken.
+* Bezoek de [&#x200B; pagina van de plannen van Microsoft &#x200B;](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). Op de webpagina kunt u een E3- of E5-account kopen of op Gratis uitproberen klikken.
 * Vul de benodigde gegevens in en maak een account aan.
 
 >[!NOTE]
@@ -60,7 +60,7 @@ U kunt tot de schakelaar van Microsoft Teams toegang hebben als u Office 365 E3 
 
 ## Toepassing maken voor Microsoft Teams-connector
 
-1. Bezoek het [ Microsoft Azure® portaal ](https://portal.azure.com/).
+1. Bezoek het [&#x200B; Microsoft Azure® portaal &#x200B;](https://portal.azure.com/).
 1. Meld u aan met de Microsoft E5-account die u in de vorige sectie hebt gemaakt.
 1. Zoek naar **Azure Actieve Folder**.
 1. Klik **[!UICONTROL Registraties van de Toepassing]**.
@@ -85,7 +85,7 @@ Let op het clientgeheim, dat tijdens de integratie verder wordt gebruikt.
 
 ## Toegang verkrijgen tot Microsoft Teams-connector
 
-1. Bezoek het [ Microsoft Azure portaal ](https://portal.azure.com/).
+1. Bezoek het [&#x200B; Microsoft Azure portaal &#x200B;](https://portal.azure.com/).
 1. Meld u aan met de Microsoft E5 die u eerder hebt gemaakt.
 1. Zoek naar **Azure Actieve Folder**.
 1. Klik **[!UICONTROL Registraties van de Toepassing]**.
@@ -120,7 +120,7 @@ Let op het clientgeheim, dat tijdens de integratie verder wordt gebruikt.
 
 ## Vorm toegangsbeleid door manuscripten te gebruiken PowerShell
 
-Om het beleid van de toepassingstoegang voor de schakelaar van Microsoft Teams te vormen door manuscripten in werking te stellen PowerShell, volg de procedure die in dit [ wordt beschreven document ](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
+Om het beleid van de toepassingstoegang voor de schakelaar van Microsoft Teams te vormen door manuscripten in werking te stellen PowerShell, volg de procedure die in dit [&#x200B; wordt beschreven document &#x200B;](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 
 Hiermee wordt de connector ingeschakeld voor toegang tot Microsoft Teams-onlinevergaderingen.
 
@@ -148,7 +148,7 @@ Hiermee wordt de connector ingeschakeld voor toegang tot Microsoft Teams-onlinev
 
 ## Licenties toewijzen aan gebruikers &lt;Developer/Optional>
 
-1. Bezoek [ https://admin.microsoft.com/#/homepage ](https://admin.microsoft.com/#/homepage).
+1. Bezoek [&#x200B; https://admin.microsoft.com/#/homepage &#x200B;](https://admin.microsoft.com/#/homepage).
 1. Klik **[!UICONTROL Gebruikers]** > **[!UICONTROL Actieve Gebruikers]**.
 1. Klik **[!UICONTROL Meer acties voor Gebruikers]** voor de gebruikers aan wie u toegang tot Microsoft Teams wilt verlenen.
 1. Klik **[!UICONTROL leiden de Vergunningen van het Product]**.
@@ -170,7 +170,7 @@ After 30 minutes of completing a course, the attendance for the learner gets mar
 
 +++Wie is een Organizer en een presentator?
 
-Zie de [ documentatie ](https://support.microsoft.com/nl-nl/office/rollen-in-een-teams-vergadering-c16fa7d0-1666-4dde-8686-0a0bfe16e019) van Microsoft voor verschillende rollen en mogelijkheden die door Microsoft Teams worden gesteund.
+Zie de [&#x200B; documentatie &#x200B;](https://support.microsoft.com/nl-nl/office/rollen-in-een-teams-vergadering-c16fa7d0-1666-4dde-8686-0a0bfe16e019) van Microsoft voor verschillende rollen en mogelijkheden die door Microsoft Teams worden gesteund.
 
 +++
 
@@ -188,6 +188,6 @@ Ja, de presentator moet ook deel uitmaken van zowel de Learning Manager als de M
 
 +++Microsoft Teams heeft vergaderingen, webinars en live-gebeurtenissen. Wat ondersteunt de Teams-connector?
 
-Momenteel ondersteunt de connector Teams alleen vergaderingen in Microsoft Teams. Voor meer informatie, zie dit [ document ](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
+Momenteel ondersteunt de connector Teams alleen vergaderingen in Microsoft Teams. Voor meer informatie, zie dit [&#x200B; document &#x200B;](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
 
 +++

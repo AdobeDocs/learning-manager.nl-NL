@@ -16,7 +16,7 @@ ht-degree: 5%
 
 ## Overzicht
 
-Adobe Learning Manager biedt RESTful-API&#39;s waarmee ontwikkelaars toepassingen of workflows effectief kunnen integreren en aanpassen. De ontwikkelaarshandleiding biedt richtlijnen voor het gebruik van deze API&#39;s, met onderwerpen zoals verificatie, gegevensmodellen en integratie met andere toepassingen. Bovendien, helpt deze gids [ API verwijzingsdocumentatie ](https://learningmanager.adobe.com/docs/primeapi/v2/) ontwikkelaars in het creëren van externe toepassingen of achterste werkschema&#39;s die met diverse eigenschappen van Adobe Learning Manager, met inbegrip van cursusverwezenlijking, het volgen van studentenvooruitgang, vaardigheidstoewijzing, certificatie, gamification, en transcripten interactie aangaan.
+Adobe Learning Manager biedt RESTful-API&#39;s waarmee ontwikkelaars toepassingen of workflows effectief kunnen integreren en aanpassen. De ontwikkelaarshandleiding biedt richtlijnen voor het gebruik van deze API&#39;s, met onderwerpen zoals verificatie, gegevensmodellen en integratie met andere toepassingen. Bovendien, helpt deze gids [&#x200B; API verwijzingsdocumentatie &#x200B;](https://learningmanager.adobe.com/docs/primeapi/v2/) ontwikkelaars in het creëren van externe toepassingen of achterste werkschema&#39;s die met diverse eigenschappen van Adobe Learning Manager, met inbegrip van cursusverwezenlijking, het volgen van studentenvooruitgang, vaardigheidstoewijzing, certificatie, gamification, en transcripten interactie aangaan.
 
 Deze handleiding behandelt het volgende:
 
@@ -27,7 +27,7 @@ Deze handleiding behandelt het volgende:
 
 >[!IMPORTANT]
 >
->Deze ontwikkelaarshandleiding is exclusief van toepassing op de V2 API&#39;s van Adobe Learning Manager. Alle voorbeelden, aanvraagstructuren en verificatieworkflows die worden beschreven in deze handleiding zijn specifiek voor de eindpunten /primeapi/v2/. Voor informatie over oudere versies of afgekeurde APIs, verwijs naar de [ API verwijzingsdocumentatie ](https://learningmanager.adobe.com/docs/primeapi/v2/).
+>Deze ontwikkelaarshandleiding is exclusief van toepassing op de V2 API&#39;s van Adobe Learning Manager. Alle voorbeelden, aanvraagstructuren en verificatieworkflows die worden beschreven in deze handleiding zijn specifiek voor de eindpunten /primeapi/v2/. Voor informatie over oudere versies of afgekeurde APIs, verwijs naar de [&#x200B; API verwijzingsdocumentatie &#x200B;](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
 ## API-gebruiksscenario&#39;s
 
@@ -44,13 +44,13 @@ Integreer Adobe Learning Manager met externe toepassingen voor verbeterde veelzi
 1. Meld u aan bij Adobe Learning Manager als integratiebeheerder.
 2. Selecteer **[!UICONTROL Toepassingen]** op de linkerruit.
 
-   ![ alt tekst ](assets/application.png)
+   ![&#x200B; alt tekst &#x200B;](assets/application.png)
 
 3. Selecteer **[!UICONTROL Register]** en voeg de volgende informatie toe:
 
    * **[!UICONTROL Naam van de Toepassing]**: Type de naam van uw toepassing (maximum 50 karakters).
    * **[!UICONTROL URL]**: Officiële URL van uw bedrijf of toepassing. Wordt gebruikt voor identificatie en referentie.
-   * **[!UICONTROL richt Domeinen]** opnieuw: Specificeer de domeinen (bijvoorbeeld, [ http://learningmanager.adobe.com ](http://learningmanager.adobe.com)) die Adobe Learning Manager aan na vergunning kan opnieuw richten.  U kunt meerdere geldige URL&#39;s opgeven.
+   * **[!UICONTROL richt Domeinen]** opnieuw: Specificeer de domeinen (bijvoorbeeld, [&#x200B; http://learningmanager.adobe.com &#x200B;](http://learningmanager.adobe.com)) die Adobe Learning Manager aan na vergunning kan opnieuw richten.  U kunt meerdere geldige URL&#39;s opgeven.
    * **[!UICONTROL Beschrijving]**: Korte beschrijving van wat de toepassing doet.
    * **[!UICONTROL Bereiken]**: Selecteer één van de zes beschikbare opties om het werkingsgebied van uw toepassing te bepalen. Op basis van uw hier vermelde keuze zijn de API-eindpunten van de Learning Manager toegankelijk voor uw toepassing. Als u bijvoorbeeld leestoegang voor de studentrol hebt gekozen, zijn alle API-eindpunten van de leermanager alleen-lezen voor uw toepassing.
 
@@ -63,7 +63,7 @@ Integreer Adobe Learning Manager met externe toepassingen voor verbeterde veelzi
       * **[!UICONTROL ja]** - als u ja kiest, dan is de toepassing niet zichtbaar aan andere accountbeheerders.
       * **[!UICONTROL Nr]** - als u Nr kiest, kunnen andere accountbeheerders tot deze toepassing ook toegang hebben, maar zij moeten toepassings identiteitskaart gebruiken om tot deze toepassing toegang te hebben. Toepassings-id wordt gegenereerd en weergegeven in de bewerkingsmodus van de Learning Manager-toepassing.
 
-     ![ alt tekst ](assets/register-an-app.png)
+     ![&#x200B; alt tekst &#x200B;](assets/register-an-app.png)
 
 4. Selecteer **[!UICONTROL sparen]** om de toepassing te registreren.
 
@@ -87,7 +87,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Zodra de gebruiker de toepassing goedkeurt, leidt Adobe Learning Manager de opgegeven redirect_uri om met een toegevoegde queryparameter:
 
-[ https://yourapp.com/callback?code=abc123xyz](https://yourapp.com/callback?code=abc123xyz)
+[&#x200B; https://yourapp.com/callback?code=abc123xyz](https://yourapp.com/callback?code=abc123xyz)
 
 Er wordt een parametercode toegevoegd samen met de omleidingsuri.
 
@@ -199,8 +199,8 @@ U kunt een API-testtool van derden gebruiken, maar Postman wordt gebruikt om de 
 
    * Sleutel: Accepteren
    * Waarde: toepassing/json
-6. Typ uw API-eindpunt in het veld URL. Voorbeeld: [ https://learningmanager.adobe.com/learningManager/api/v2/users](https://learningmanager.adobe.com/learningManager/api/v2/users)
-De Verwijzing van de mening [ Adobe Learning Manager API ](https://learningmanager.adobe.com/docs/primeapi/v2/) voor meer informatie.
+6. Typ uw API-eindpunt in het veld URL. Voorbeeld: [&#x200B; https://learningmanager.adobe.com/learningManager/api/v2/users](https://learningmanager.adobe.com/learningManager/api/v2/users)
+De Verwijzing van de mening [&#x200B; Adobe Learning Manager API &#x200B;](https://learningmanager.adobe.com/docs/primeapi/v2/) voor meer informatie.
 7. Selecteer Verzenden om de API-aanvraag in te dienen.
 
 ## Typen API&#39;s
@@ -221,7 +221,7 @@ Met de Admin API&#39;s kunnen ontwikkelaars:
 * **Genereer rapporten**: De gegevens van de toegang over studentenactiviteit, betrokkenheid, en prestaties.
 * **beheer inhoud**: Creeer en orden cursussen, en het Leren Objecten.
 
-De Verwijzing van de mening [ Adobe Learning Manager API ](https://learningmanager.adobe.com/docs/primeapi/v2/) voor meer informatie.
+De Verwijzing van de mening [&#x200B; Adobe Learning Manager API &#x200B;](https://learningmanager.adobe.com/docs/primeapi/v2/) voor meer informatie.
 
 ### Student-API&#39;s
 
@@ -237,7 +237,7 @@ De API&#39;s voor studenten zijn ontworpen voor geverifieerde gebruikers (studen
 * Voor deze API&#39;s is een geverifieerd gebruikerstoken nodig, zodat de beveiliging en privacy van gegevens worden gewaarborgd.
 * De API&#39;s zijn bedoeld voor scenario&#39;s waarin gebruikers volledig zijn geregistreerd en aangemeld, en niet voor anonieme of gedeelde gebruikers.
 
-De Verwijzing van de mening [ Adobe Learning Manager API ](https://learningmanager.adobe.com/docs/primeapi/v2/) voor meer informatie.
+De Verwijzing van de mening [&#x200B; Adobe Learning Manager API &#x200B;](https://learningmanager.adobe.com/docs/primeapi/v2/) voor meer informatie.
 
 ## API-ontwerp en algemene parameters
 
@@ -246,8 +246,8 @@ De API&#39;s bieden ontwikkelaars toegang tot belangrijke leermanschappen zoals 
 | | |
 |--|--|
 | Methoden | GET, PUT, POST, DELETE |
-| Indeling | application/vnd.api+json, application/json. [ Leer meer ](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types/Common_types) over gemeenschappelijke types MIME. |
-| Basis-URL | [ https://learningmanager.adobe.com/primeapi/v2/](https://learningmanager.adobe.com/primeapi/v2/) |
+| Indeling | application/vnd.api+json, application/json. [&#x200B; Leer meer &#x200B;](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/MIME_types/Common_types) over gemeenschappelijke types MIME. |
+| Basis-URL | [&#x200B; https://learningmanager.adobe.com/primeapi/v2/](https://learningmanager.adobe.com/primeapi/v2/) |
 
 ### Algemene parameters
 
@@ -446,7 +446,7 @@ Hieronder wordt beschreven hoe u paginering in API&#39;s kunt gebruiken:
 
 **pagina [ grens]**
 
-Terwijl [ https://learningmanager.adobe.com/primeapi/v2/users ](https://learningmanager.adobe.com/primeapi/v2/users) alle gebruikers en verwante informatie in één enkele vraag terugkeert, beperkt het gebruiken van pagina [ grens ] het aantal resultaten tot de gespecificeerde waarde.
+Terwijl [&#x200B; https://learningmanager.adobe.com/primeapi/v2/users &#x200B;](https://learningmanager.adobe.com/primeapi/v2/users) alle gebruikers en verwante informatie in één enkele vraag terugkeert, beperkt het gebruiken van pagina [ grens ] het aantal resultaten tot de gespecificeerde waarde.
 
 Gebruik de volgende API om slechts vijf gebruikersrecords in één aanroep te retourneren:
 
@@ -493,7 +493,7 @@ Met de filterparameter kunt u de API-resultaten beperken op basis van een of mee
 
 Adobe Learning Manager API&#39;s bieden verschillende variaties van de filterparameter om de reacties te beperken.
 
-De Verwijzing van de mening [ Adobe Learning Manager API ](https://learningmanager.adobe.com/docs/primeapi/v2/) voor meer informatie.
+De Verwijzing van de mening [&#x200B; Adobe Learning Manager API &#x200B;](https://learningmanager.adobe.com/docs/primeapi/v2/) voor meer informatie.
 
 In dit voorbeeld wordt getoond hoe u de taakhulpen kunt filteren waarvoor een student zich heeft ingeschreven bij het gebruiken van het eindpunt met de filterparameter:
 
@@ -505,7 +505,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/users/3400480/enrollments?filt
 
 De sorteerparameter wordt gebruikt voor het sorteren van API-resultaten in oplopende of aflopende volgorde op basis van een of meer velden.
 
-De Adobe Learning Manager biedt verschillende sorteeropties voor het sorteren van de API-reactie. De Verwijzing van de mening [ Adobe Learning Manager API ](https://learningmanager.adobe.com/docs/primeapi/v2/) voor meer informatie.
+De Adobe Learning Manager biedt verschillende sorteeropties voor het sorteren van de API-reactie. De Verwijzing van de mening [&#x200B; Adobe Learning Manager API &#x200B;](https://learningmanager.adobe.com/docs/primeapi/v2/) voor meer informatie.
 
 Als u het vorige voorbeeld uitbreidt, sorteert u nu de inschrijving van de gebruiker naar leerprogramma&#39;s op datum die in oplopende volgorde is ingeschreven.
 

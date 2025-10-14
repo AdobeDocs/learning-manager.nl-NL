@@ -25,7 +25,7 @@ ht-degree: 52%
 
 +++Kan ik gebruikers in bulk toevoegen? Hoe?
 
-Ja, u kunt gebruikers in bulk toevoegen door de functie CSV-upload te gebruiken. Verwijs naar dit [ artikel ](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) voor meer informatie.
+Ja, u kunt gebruikers in bulk toevoegen door de functie CSV-upload te gebruiken. Verwijs naar dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users) voor meer informatie.
 
 +++
 
@@ -41,13 +41,13 @@ U moet CSV in Learning Manager importeren om een gebruikersaanmelding te corrige
 
 Gebruikers moeten worden toegevoegd aan de pagina Studenten.
 
-[ het Leren Manager Voorbeeld CSV.csv ](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
+[&#x200B; het Leren Manager Voorbeeld CSV.csv &#x200B;](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
 
 +++
 
 +++Hoe stel ik waarschuwingen in?
 
-In de release Adobe Learning Manager 1.0 kunt u meldingen maken. Verwijs [ meldingsvraag ](/help/migrated/administrators/feature-summary/user-notifications.md) voor meer informatie.
+In de release Adobe Learning Manager 1.0 kunt u meldingen maken. Verwijs [&#x200B; meldingsvraag &#x200B;](/help/migrated/administrators/feature-summary/user-notifications.md) voor meer informatie.
 
 +++
 
@@ -78,7 +78,7 @@ Wanneer de plaatsen beperkt zijn, worden studenten op de wachtlijst gezet voor e
 1. Klik op Wachtlijst in het linkerdeelvenster van de pagina met cursusdetails. Op de pagina verschijnt een wachtlijst van studenten.
 1. Selecteer de studenten en klik op Plaatsen toewijzen om hen direct in te schrijven voor de cursussen en daarbij de plaatslimiet te overschrijden.
 
-Voor meer informatie, verwijs [ wachtlijst en aanwezigheid ](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) eigenschap.
+Voor meer informatie, verwijs [&#x200B; wachtlijst en aanwezigheid &#x200B;](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) eigenschap.
 
 +++
 
@@ -92,7 +92,7 @@ U kunt aanwezigheid als volgt registreren:
 
 Als een cursus uit meerdere modules bestaat en de student er slechts één heeft voltooid, kunt u één module selecteren en op Opslaan klikken om dit voor de student te markeren. Als de student alle modules van een cursus heeft voltooid, kunt u op Alles selecteren klikken en vervolgens op Opslaan.
 
-Voor meer informatie, verwijs [ wachtlijst en aanwezigheid ](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) eigenschap.
+Voor meer informatie, verwijs [&#x200B; wachtlijst en aanwezigheid &#x200B;](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) eigenschap.
 
 +++
 
@@ -164,7 +164,7 @@ Volg de onderstaande stappen om een leerprogramma te maken:
 
 1. Klik Instanties op de linkerruit en klik **[!UICONTROL voeg nieuwe instanties]** op de juiste hoek van de pagina toe om details van de instantie te omvatten.
 
-Voor meer informatie over het leren van programma&#39;s, verwijs [ het Leren programmaeigenschap.](/help/migrated/administrators/feature-summary/learning-programs.md)
+Voor meer informatie over het leren van programma&#39;s, verwijs [&#x200B; het Leren programmaeigenschap.](/help/migrated/administrators/feature-summary/learning-programs.md)
 
 +++
 
@@ -176,7 +176,7 @@ Klik op het omlaagwijzende pijltje in de rechterbovenhoek van elk rapport om dit
 
 +++Hoe wijzig ik cursussen, leerprogramma&#39;s en het bedrijfsprofiel?
 
-U kunt cursussen of leerprogramma&#39;s ook na publicatie bewerken. Voor meer informatie, verwijs naar [ Cursussen ](/help/migrated/administrators/feature-summary/courses.md) en [ het leren van programma&#39;s ](/help/migrated/administrators/feature-summary/learning-programs.md) inhoud van de Hulp.
+U kunt cursussen of leerprogramma&#39;s ook na publicatie bewerken. Voor meer informatie, verwijs naar [&#x200B; Cursussen &#x200B;](/help/migrated/administrators/feature-summary/courses.md) en [&#x200B; het leren van programma&#39;s &#x200B;](/help/migrated/administrators/feature-summary/learning-programs.md) inhoud van de Hulp.
 
 Om bedrijfprofiel te wijzigen, klik **[!UICONTROL Montages]** bij de linkerruit en klik **[!UICONTROL Verandering]** op de hoger-juiste hoek van de pagina.
 
@@ -203,7 +203,7 @@ Ja, u kunt de thema&#39;s en branding van de toepassing Learning Manager aanpass
 
 Klik **[!UICONTROL Branding]** op de linkerruit om uw organisatienaam bij te werken, subdomein, logboekstijlen en thema&#39;s te veranderen. Klik **[!UICONTROL geef]** naast elk van deze onderwerpen uit om de inhoud te wijzigen.
 
-Verwijs naar [ de thema&#39;s van de Kleur en brandingHulp ](/help/migrated/administrators/feature-summary/themes.md) voor meer informatie.
+Verwijs naar [&#x200B; de thema&#39;s van de Kleur en brandingHulp &#x200B;](/help/migrated/administrators/feature-summary/themes.md) voor meer informatie.
 
 +++
 
@@ -223,7 +223,7 @@ Volg onderstaande stappen om gamificationpunten voor studenten in te stellen:
 1. Klik op Gamification nadat u zich als Beheerder hebt aangemeld. Er verschijnt een pagina met een lijst van bronzen, zilveren, gouden en platina niveaus en de vereiste punten om elk overeenkomstig niveau te behalen. Er is een lijst met taken en bijbehorende punten beschikbaar.
 1. Klik op het pictogram Bewerken naast elke taak om de punten in te stellen/te wijzigen.
 
-Verwijs [ eigenschap van de Gamification ](/help/migrated/administrators/feature-summary/gamification.md) voor meer informatie.
+Verwijs [&#x200B; eigenschap van de Gamification &#x200B;](/help/migrated/administrators/feature-summary/gamification.md) voor meer informatie.
 
 +++
 
@@ -238,7 +238,7 @@ Volg onderstaande stappen om rapporten te maken:
 
 1. Vul alle verplichte velden in en klik op Opslaan.
 
-Alleen beheerders en managers kunnen rapporten maken of bekijken. Verwijs naar [ rapporteigenschap ](/help/migrated/administrators/feature-summary/reports.md) voor meer informatie.
+Alleen beheerders en managers kunnen rapporten maken of bekijken. Verwijs naar [&#x200B; rapporteigenschap &#x200B;](/help/migrated/administrators/feature-summary/reports.md) voor meer informatie.
 
 +++
 
@@ -312,11 +312,11 @@ Nadat de competentie is opgeslagen, kunt u de niveaus van de competentie niet me
 1. Klik het [!UICONTROL **Abonneren**] lusje.
 1. Voer het aantal pakketten in dat u wilt bestellen in het veld voor studentenpakketten en klik op Bestelling plaatsen rechtsboven op de pagina.
 
-   Kies het aantal pakketten op basis van het aantal studenten in uw organisatie en plaats uw bestelling. Voor een bestelde proces van de kooporde, schrijf aan ons in [ learningmanagersales@adobe.com ](mailto:learningmanagersales@adobe.com).
+   Kies het aantal pakketten op basis van het aantal studenten in uw organisatie en plaats uw bestelling. Voor een bestelde proces van de kooporde, schrijf aan ons in [&#x200B; learningmanagersales@adobe.com &#x200B;](mailto:learningmanagersales@adobe.com).
 
 1. Voer uw contactgegevens in, kies het type creditcard, geef uw creditcardgegevens op en klik op Bestelling voltooien.
 
-Verwijs [ eigenschap van het 0&rbrace; Factureringsbeheer voor meer informatie.](/help/migrated/administrators/feature-summary/billing-management.md)
+Verwijs [&#x200B; eigenschap van het 0&rbrace; Factureringsbeheer voor meer informatie.](/help/migrated/administrators/feature-summary/billing-management.md)
 
 +++
 
@@ -337,7 +337,7 @@ In Adobe Learning Manager kunt u studenten herkennen door badges uit te geven. R
 
 U moet uw rol als auteur veranderen om cursussen toe te voegen. U kunt de lijst van beschikbare cursussen slechts bekijken die op hun staat worden gebaseerd zoals **[!UICONTROL Voltooid]**, **[!UICONTROL Gepubliceerd]**, en **[!UICONTROL Gearchiveerd]**.
 
-Om cursussen te bekijken, klik **[!UICONTROL Cursussen]** op linkerruit. Verwijs [ Creërend cursussen ](/help/migrated/administrators/feature-summary/courses.md) voor meer informatie
+Om cursussen te bekijken, klik **[!UICONTROL Cursussen]** op linkerruit. Verwijs [&#x200B; Creërend cursussen &#x200B;](/help/migrated/administrators/feature-summary/courses.md) voor meer informatie
 
 +++
 
@@ -350,7 +350,7 @@ Volg de onderstaande stappen om nieuwe gebruikers toe te voegen:
 
 Standaard wordt aan alle nieuwe gebruikers de rol student toegewezen. U kunt Admin of auteursrollen aan de studenten toewijzen door **[!UICONTROL Acties]** bij de hoger-juiste hoek van de pagina te klikken en **[!UICONTROL te kiezen wijs Rol]** toe > **[!UICONTROL maakt Auteur]** of **[!UICONTROL maak Admin]**.
 
-Verwijs [ nieuwe gebruikers ](/help/migrated/administrators/feature-summary/add-users-user-groups.md) eigenschap voor gedetailleerde informatie bij het toevoegen van studenten, auteurs en beheerders toevoegen.
+Verwijs [&#x200B; nieuwe gebruikers &#x200B;](/help/migrated/administrators/feature-summary/add-users-user-groups.md) eigenschap voor gedetailleerde informatie bij het toevoegen van studenten, auteurs en beheerders toevoegen.
 
 +++
 

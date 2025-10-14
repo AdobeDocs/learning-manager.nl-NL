@@ -16,7 +16,7 @@ Lees verder om te weten te komen wat de nieuwste aanbieding is in Adobe Learning
 
 ## Neem deel aan het gesprek {#jointheconversation}
 
-Bezoek de [ Gemeenschap van de Gebruiker van Adobe Learning Manager ](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all) om worden geïnspireerd en krijg antwoorden op hoogste vragen.
+Bezoek de [&#x200B; Gemeenschap van de Gebruiker van Adobe Learning Manager &#x200B;](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all) om worden geïnspireerd en krijg antwoorden op hoogste vragen.
 
 ## Populaire onderwerpen {#populartopics}
 

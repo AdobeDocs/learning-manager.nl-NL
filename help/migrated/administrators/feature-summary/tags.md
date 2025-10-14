@@ -23,7 +23,7 @@ U kunt de tags sorteren op gebruik of op alfabetische volgorde met de optie **[!
 
 In deze training leert u hoe u tags kunt toevoegen, bewerken, vervangen, toevoegen en verwijderen. U leert ook hoe u machtigingsinstellingen wijzigt en tagfilters gebruikt.
 
-[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318920)
+[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318920)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 

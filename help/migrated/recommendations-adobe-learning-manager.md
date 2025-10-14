@@ -52,13 +52,13 @@ Beheerders krijgen een begeleide workflow in Leerbeheer om de aanbevelingsengine
 
 1. Selecteer **[!UICONTROL Recommendations]** op Admin app.
 
-   ![ selecteer Recommendations op Admin app ](assets/image831538.png)
+   ![&#x200B; selecteer Recommendations op Admin app &#x200B;](assets/image831538.png)
 
    *selecteer de optie van Recommendations*
 
 1. Klik op **[!UICONTROL Upgraden]**.
 
-   ![ Verbetering aan het nieuwe systeem ](assets/image784236.png)
+   ![&#x200B; Verbetering aan het nieuwe systeem &#x200B;](assets/image784236.png)
 
    *selecteer de optie van de Verbetering*
 
@@ -69,7 +69,7 @@ Beheerders krijgen een begeleide workflow in Leerbeheer om de aanbevelingsengine
 
 1. Maak de aanbevelingsparameters voor Producten en Rollen.
 
-   ![ creeer de parameters ](assets/image43406.png)
+   ![&#x200B; creeer de parameters &#x200B;](assets/image43406.png)
    *creeer parameters voor aanbeveling*
 
 1. Klik op **[!UICONTROL Meer waarden toevoegen]**.
@@ -77,19 +77,19 @@ Beheerders krijgen een begeleide workflow in Leerbeheer om de aanbevelingsengine
 
    U moet ten minste twee producten toevoegen om aan de slag te gaan.
 
-   ![ voeg producten ](assets/image623058.png) toe
+   ![&#x200B; voeg producten &#x200B;](assets/image623058.png) toe
    *voeg producten* toe
 
 1. Voeg de rollen toe. Typ de namen van de rollen en druk op Enter.
 
-   ![ voeg rollen ](assets/image156786.png) toe
+   ![&#x200B; voeg rollen &#x200B;](assets/image156786.png) toe
    *voeg de rollen* toe
 
 1. Klik op **[!UICONTROL Doorgaan]**.
 
    De Producten en Rollen staan nu in de lijst met parameters.
 
-   ![ producten en rollen ](assets/image266930.png)
+   ![&#x200B; producten en rollen &#x200B;](assets/image266930.png)
    *Lijst van producten en rollen*
 
 ## Gegevensvoorbereiding
@@ -150,7 +150,7 @@ Vul deze CSV&#39;s in en neem contact op met uw Customer Success-team om de inde
 
 Klik op Ga live nadat beide CSV&#39;s zijn geüpload. Zo wordt het nieuwe aanbevelingssysteem zichtbaar voor de studenten.
 
-![ ga levend ](assets/computerdescription-automatically.png)
+![&#x200B; ga levend &#x200B;](assets/computerdescription-automatically.png)
 *maak de aanbevelingen levend*
 
 Het aanbevelingssysteem is nu beschikbaar voor uw studenten.
@@ -159,25 +159,25 @@ Het aanbevelingssysteem is nu beschikbaar voor uw studenten.
 
 1. Selecteer in de lijst met parameters het pictogram met de drie puntjes en selecteer **[!UICONTROL Parameternaam bewerken]**.
 
-   ![ geef parameter ](assets/edit-parameter.png) uit
+   ![&#x200B; geef parameter &#x200B;](assets/edit-parameter.png) uit
 
 1. Wijzig de naam van de parameter en klik op **[!UICONTROL Opslaan]**.
 
-   ![ resultaten ](assets/image688522.png)
+   ![&#x200B; resultaten &#x200B;](assets/image688522.png)
    *geef de parameter* uit
 
 ## Een parameter verwijderen
 
 De beheerders kunnen een parameter schrappen door het drie puntenpictogram te klikken en **[!UICONTROL te selecteren schrapt Parameter]**. Beheerders kunnen een parameter verwijderen als deze niet aan een leerobject is gekoppeld. Als de parameter is gekoppeld, kunnen deze alleen de parameter verbergen. De laatste twee parameters kunnen echter niet worden verborgen, omdat er minstens twee parameters nodig zijn om de aanbevelingen te laten werken.
 
-![ schrappingsparameter ](assets/delete-parameter.png)
+![&#x200B; schrappingsparameter &#x200B;](assets/delete-parameter.png)
 *schrap de parameter*
 
 ## Pagina met de cursusinstellingen
 
 Op de instellingenpagina van een cursus worden de aanbevelingen voor Producten en Rollen weergegeven. Deze cursus wordt aanbevolen aan studenten die interesse hebben getoond in deze producten en rollen.
 
-![ plaatsend beeld ](assets/course-settings-image.png)
+![&#x200B; plaatsend beeld &#x200B;](assets/course-settings-image.png)
 *pagina van de montages van de Cursus*
 
 ## Studentenweergave
@@ -197,22 +197,22 @@ De studenten kunnen het volgende zien:
 
 Na het selecteren van Aanbevelingen in het linkerdeelvenster ziet de student een pop-upvenster om de aanbevelingen in te stellen.
 
-![ opstellingsaanbevelingen ](assets/image575540.png)
+![&#x200B; opstellingsaanbevelingen &#x200B;](assets/image575540.png)
 *De reeksen van de Student omhoog de aanbeveling*
 
 Als u op Instelaanbevelingen klikt, gaat de student naar het pop-up voor productselectie.
 
-![ popup van de productselectie ](assets/product-selection-popup.png)
+![&#x200B; popup van de productselectie &#x200B;](assets/product-selection-popup.png)
 *Uitgezochte producten*
 
 Vervolgens kan de student in de volgende pop-up de rol selecteren.
 
-![ uitgezochte rol ](assets/image270860.png)
+![&#x200B; uitgezochte rol &#x200B;](assets/image270860.png)
 *Uitgezochte rollen*
 
 De student kan vervolgens de niveaus toevoegen.
 
-![ voeg niveaus ](assets/image650040.png) toe
+![&#x200B; voeg niveaus &#x200B;](assets/image650040.png) toe
 *Niveaus selecteren*
 
 ## Leermateriaal strips op de Learner-app
@@ -231,14 +231,14 @@ Een student kan de volgende strips in de app zien:
 
 ### Kaarten op mijn leerstrook
 
-![ het leren stripkaarten ](assets/image770606.png)
+![&#x200B; het leren stripkaarten &#x200B;](assets/image770606.png)
 *Kaarten op het leren strook*
 
 Elke kaart heeft een waardering, kaartafbeelding, titel, vaardigheid, publicatiedatum, auteur, duur, voortgangsbalk en een knop Doorgaan of Verkennen.
 
 ### Kaarten opgeslagen door mij strip
 
-![ opgeslagen kaarten ](assets/cards-saved-by-me.png)
+![&#x200B; opgeslagen kaarten &#x200B;](assets/cards-saved-by-me.png)
 *Opgeslagen kaarten*
 
 Elke kaart heeft een waardering, kaartafbeelding, titel, vaardigheid, publicatiedatum, auteur, duur, voortgangsbalk en een knop Doorgaan of Verkennen.
@@ -247,7 +247,7 @@ Er is geen voortgangsbalk op de kaart nadat een student de cursus is begonnen. E
 
 ### Kaarten op superrelevante strip
 
-![ super relevante strippenkaarten ](assets/super-relevant-cards.png)
+![&#x200B; super relevante strippenkaarten &#x200B;](assets/super-relevant-cards.png)
 *Relevante kaarten*
 
 Elke kaart heeft een waardering, kaartafbeelding, titel, vaardigheid, publicatiedatum, auteur, duur, voortgangsbalk en een knop Doorgaan of Verkennen.

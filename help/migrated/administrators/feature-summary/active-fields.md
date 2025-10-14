@@ -24,7 +24,7 @@ Door aangepaste kenmerken aan gebruikersprofielen toe te voegen, leggen actieve 
 
 >[!INFO]
 >
->Bekijk deze opleiding van de Academie ALM om te leren, actieve gebieden toevoegen aan te passen en te vormen.<br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741) </br>
+>Bekijk deze opleiding van de Academie ALM om te leren, actieve gebieden toevoegen aan te passen en te vormen.<br>[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741) </br>
 
 ## Actieve velden toevoegen
 
@@ -111,7 +111,7 @@ U kunt meerdere waarden toevoegen via de CSV of via de gebruikersinterface. Als 
 
 Voeg actieve velden toe bij het uploaden van gebruikers via CSV door overeenkomstige kopteksten op te nemen voor elk gedefinieerd veld. Beheerders kunnen gebruikers in bulk uploaden met een CSV-bestand. De CSV moet de nieuwe actieve velden bevatten die de te importeren gebruikers definiëren. Zorg ervoor dat de koptekstnamen in het bestand exact overeenkomen met de actieve velden die zijn ingesteld in het systeem, zodat de gegevens correct worden toegewezen. Upload het Csv- dossier van de **Gebruikers** sectie.
 
-Bekijk dit [ artikel ](/help/migrated/administrators/feature-summary/add-users-user-groups.md) voor meer informatie over het toevoegen van gebruikers in bulk.
+Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/add-users-user-groups.md) voor meer informatie over het toevoegen van gebruikers in bulk.
 
 ## Waarden beperken voor CSV-velden
 
@@ -122,10 +122,10 @@ _Checkbox om waardebeperking tijdens CSV toe te laten uploadt_
 
 ## Ontbrekende actieve velden beheren in CSV-import van gebruiker
 
-In sommige gevallen geven beheerders er de voorkeur aan dat studenten bepaalde actieve velden handmatig invullen wanneer ze zich aanmelden bij Adobe Learning Manager. Dit wordt ondersteund voor gebruikers die zijn geïmporteerd via een CSV-bestand. Verwijs naar dit [ artikel ](/help/migrated/administrators/feature-summary/add-users-user-groups.md) voor hoe te om gebruikers in bulk toe te voegen. Gebruikers worden automatisch toegevoegd aan actieve velden of op rollen gebaseerde groepen op basis van Box FTP-veldwaarden. Ze kunnen niet worden toegevoegd aan Aangepaste groepen.
+In sommige gevallen geven beheerders er de voorkeur aan dat studenten bepaalde actieve velden handmatig invullen wanneer ze zich aanmelden bij Adobe Learning Manager. Dit wordt ondersteund voor gebruikers die zijn geïmporteerd via een CSV-bestand. Verwijs naar dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/add-users-user-groups.md) voor hoe te om gebruikers in bulk toe te voegen. Gebruikers worden automatisch toegevoegd aan actieve velden of op rollen gebaseerde groepen op basis van Box FTP-veldwaarden. Ze kunnen niet worden toegevoegd aan Aangepaste groepen.
 
 Als een CSV-bestand niet alle actieve velden bevat, moet de beheerder de ontbrekende waarden na het importeren handmatig invoeren.
 
-Standaard moet elk actief veld worden toegewezen aan een overeenkomstig veld in de bron-CSV. Nochtans, als u geen specifiek actief gebied aan om het even welke kolom in CSV wilt in kaart brengen, kunt u de waarde **DontImportFromSource** van de drop-down lijst tijdens de de de invoerprocessen van de Doos en van FTP selecteren. Deze optie is beschikbaar wanneer u gebruikers importeert via FTP- of Box-connectoren. Verwijs naar dit [ artikel ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/connectors) voor meer informatie over de schakelaars.
+Standaard moet elk actief veld worden toegewezen aan een overeenkomstig veld in de bron-CSV. Nochtans, als u geen specifiek actief gebied aan om het even welke kolom in CSV wilt in kaart brengen, kunt u de waarde **DontImportFromSource** van de drop-down lijst tijdens de de de invoerprocessen van de Doos en van FTP selecteren. Deze optie is beschikbaar wanneer u gebruikers importeert via FTP- of Box-connectoren. Verwijs naar dit [&#x200B; artikel &#x200B;](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/connectors) voor meer informatie over de schakelaars.
 
 

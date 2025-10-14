@@ -21,7 +21,7 @@ Als beheerder kunt u aangepaste catalogi maken als u bepaalde cursussen beschikb
 
 In deze training leert u hoe u catalogi kunt maken en beheren.
 
-[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318922)
+[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318922)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
@@ -145,7 +145,7 @@ Cursussen, leerprogramma&#39;s, taakhulpen en certificeringen kunt u als leerobj
 
 Met deze training leert u hoe u catalogi kunt delen met interne gebruikersgroepen en externe Adobe Learning Manager-accounts.
 
-[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318924)
+[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318924)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 

@@ -118,7 +118,7 @@ De onderstaande tabel toont de interactieve en statische bestandstypen die u naa
 
 ## Nieuwe inhoud toevoegen aan de bibliotheek {#addnewcontentinthelibrary}
 
-**Auteurs** kunnen inhoud in ALM toevoegen. Er zijn twee soorten inhoud in ALM: **[!UICONTROL Inhoud]** en **[!UICONTROL Quiz]**. Leren hoe te om inhoud toe te voegen zie [ statische inhoud ](content-library.md#addstaticcontent) toevoegen en [ creeer een quiz ](content-library.md##createaquiz).
+**Auteurs** kunnen inhoud in ALM toevoegen. Er zijn twee soorten inhoud in ALM: **[!UICONTROL Inhoud]** en **[!UICONTROL Quiz]**. Leren hoe te om inhoud toe te voegen zie [&#x200B; statische inhoud &#x200B;](content-library.md#addstaticcontent) toevoegen en [&#x200B; creeer een quiz &#x200B;](content-library.md##createaquiz).
 
 ## Statische inhoud toevoegen {#addstaticcontent}
 
@@ -163,7 +163,7 @@ Voer de volgende stappen uit om het bestandstype HTML (.zip) aan de inhoudsbibli
    _criteria van de Voltooiing_
 
 1. Selecteer **[!UICONTROL Opslaan]**.
-1. Maak een cursus door deze inhoud toe te voegen.  Voor meer informatie, mening [ creërend, wijzig, en publiceer cursussen ](/help/migrated/authors/feature-summary/courses.md).
+1. Maak een cursus door deze inhoud toe te voegen.  Voor meer informatie, mening [&#x200B; creërend, wijzig, en publiceer cursussen &#x200B;](/help/migrated/authors/feature-summary/courses.md).
 
 Als een auteur in de Learner-app selectiecriteria selecteert als **[!UICONTROL Bij starten van inhoud]** , wordt de cursus als voltooid gemarkeerd wanneer de student de cursus start. Wanneer een auteur **[!UICONTROL volledige de markeringen van de Student]** kiest, zal de student de optie hebben om de cursus als volledig te merken.
 
@@ -206,7 +206,7 @@ De inhoudsbibliotheek houdt versies van uw geüploade inhoud bij. Als u een wijz
 
    Wanneer u als auteur een video- of audio-inhoud uploadt, kunt u ook het VTT-bestand uploaden dat de bijschriften bevat.
 
-   De ondertitels verschijnen dan in de Fluidic Player. De titels zijn ook volgzaam aan [ WCAG2.0 normen ](https://www.w3.org/TR/WCAG20/).
+   De ondertitels verschijnen dan in de Fluidic Player. De titels zijn ook volgzaam aan [&#x200B; WCAG2.0 normen &#x200B;](https://www.w3.org/TR/WCAG20/).
 
    Wanneer u een videoinhoud aan de bibliotheek toevoegt, kunt u het VTT dossier ook toevoegen, dat **&#x200B;**&#x200B;een geldig dossier moet zijn.
 
@@ -570,7 +570,7 @@ Dit is niet van invloed op inhoud die in leerobjecten wordt gebruikt. Studenten 
 
 >[!NOTE]
 >
->U kunt inhoud van de **[!UICONTROL Gearchiveerde]** sectie ook toevoegen, aan **[!UICONTROL Bibliotheek van de Inhoud]** navigeren en dan **[!UICONTROL Gearchiveerd]** selecteren. Selecteer **[!UICONTROL inhoud]** toevoegen. Voor meer details, zie [ statische inhoud ](content-library.md#addstaticcontent) toevoegen.
+>U kunt inhoud van de **[!UICONTROL Gearchiveerde]** sectie ook toevoegen, aan **[!UICONTROL Bibliotheek van de Inhoud]** navigeren en dan **[!UICONTROL Gearchiveerd]** selecteren. Selecteer **[!UICONTROL inhoud]** toevoegen. Voor meer details, zie [&#x200B; statische inhoud &#x200B;](content-library.md#addstaticcontent) toevoegen.
 
 
 ## Naar inhoud zoeken {#searchforcontent}
@@ -604,7 +604,7 @@ De inhoud bijwerken:
 
 Zo krijgen studenten de nieuwste versie van de inhoud.
 
-Controle uit dit [ blog ](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) voor meer informatie.
+Controle uit dit [&#x200B; blog &#x200B;](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/) voor meer informatie.
 
 ### Inhoudsversiebeheer voor studenten die een cursus hebben voltooid
 

@@ -16,7 +16,7 @@ Met gebruikersgroepen in Adobe Learning Manager kunt u studenten ordenen op basi
 
 >[!INFO]
 >
->Bekijk deze opleiding van de Academie ALM om te leren hoe te om een gebruikersgroep door namen te creëren, e-mail IDs, en het combineren van veelvoudige auto-geproduceerde gebruikersgroepen. <br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694) </br>
+>Bekijk deze opleiding van de Academie ALM om te leren hoe te om een gebruikersgroep door namen te creëren, e-mail IDs, en het combineren van veelvoudige auto-geproduceerde gebruikersgroepen. <br>[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694) </br>
 
 ## Typen gebruikersgroepen
 
@@ -51,7 +51,7 @@ Beheerders kunnen op twee manieren gebruikers aan een gebruikersgroep toevoegen:
 
 Beheerders kunnen de opname- en uitsluitingssets gebruiken om gebruikers of gebruikersgroepen toe te voegen of te verwijderen in de sectie Gebruikers.
 
-* **Reeksen van de Opname** voegt gebruikers aan een douanegroep toe. U kunt een of meer gebruikersgroepen opnemen en Adobe Learning Manager gebruikt logica (AND/OR) om te bepalen welke gebruiker moet worden opgenomen. Verwijs naar deze [ sectie ](#_Inclusion_and_exclusion) om meer over logica te leren AND/OR.
+* **Reeksen van de Opname** voegt gebruikers aan een douanegroep toe. U kunt een of meer gebruikersgroepen opnemen en Adobe Learning Manager gebruikt logica (AND/OR) om te bepalen welke gebruiker moet worden opgenomen. Verwijs naar deze [&#x200B; sectie &#x200B;](#_Inclusion_and_exclusion) om meer over logica te leren AND/OR.
 * **Reeksen van de Uitsluiting** verwijderen gebruikers uit de groep, zelfs als zij deel van de opnemingsreeks uitmaakten. Hiermee verfijnt u de gebruikerslijst van de groep.
 
 Gebruikers aan de groep toevoegen:

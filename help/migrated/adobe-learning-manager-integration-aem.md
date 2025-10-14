@@ -35,7 +35,7 @@ Nadat u het ALM referentiesite-pakket geïnstalleerd hebt, kunt u beginnen met h
 
 Nadat u uw omgeving van AEM-sites hebt beveiligd, moet u het ALM-referentiesitepakket installeren. Dit pakket bevat AEM-webpagina&#39;s en website-onderdelen waarmee het leerplatform kan worden opgebouwd.
 
-Het pakket van de verwijzingsplaats wordt ontvangen op de [**bewaarplaats GitHub** ](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+Het pakket van de verwijzingsplaats wordt ontvangen op de [**bewaarplaats GitHub** &#x200B;](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
 
 Zie de README voor meer informatie.
 
@@ -112,7 +112,7 @@ Klik op **[!UICONTROL Akkoord]** om de toepassing goed te keuren.
    1. Adobe Learning Manager URL: voer de URL in van de ALM-instantie waar de leerservices worden gehost.
    1. Account-id: De id van het ALM-account.
    1. Client-id, clientgeheim en het vernieuwingstoken van auteur: voer de referenties in die u hebt gekregen tijdens het maken van de toepassing in ALM.
-   1. Aanpassing van Widget: Voor meer informatie, zie [ integreren met AEM ](/help/migrated/integrate-aem-learning-manager.md) `.`
+   1. Aanpassing van Widget: Voor meer informatie, zie [&#x200B; integreren met AEM &#x200B;](/help/migrated/integrate-aem-learning-manager.md) `.`
 
 1. Sla de configuratie op en sluit deze af.
 
@@ -252,7 +252,7 @@ Als u echter deze nieuw toegevoegde Learning Manager-componenten in uw bestaande
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   De voorgaande code voegt de in kaart gebrachte configuratie toe in de meta-tag van de pagina, die nodig is om de leercomponenten te laten renderen. Voor meer details, zie [ de verwijzingsplaats van Adobe Learning Manager ](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
+   De voorgaande code voegt de in kaart gebrachte configuratie toe in de meta-tag van de pagina, die nodig is om de leercomponenten te laten renderen. Voor meer details, zie [&#x200B; de verwijzingsplaats van Adobe Learning Manager &#x200B;](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Zorg ervoor dat u de configuratie met het Webproject in kaart hebt gebracht.
 1. Open de AEM Sites-sjabloon waarin u de onderdelen van de Learning Manager wilt importeren.

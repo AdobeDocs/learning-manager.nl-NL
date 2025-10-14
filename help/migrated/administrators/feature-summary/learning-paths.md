@@ -25,7 +25,7 @@ Voor de onboarding van nieuwe werknemers geeft een organisatie bijvoorbeeld trai
 
 In deze training leert u hoe u een leerpad maakt, een cursus eraan toevoegt, een leerpad publiceert en archiveert en instanties binnen een leerpad configureert.
 
-[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318919)
+[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318919)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 

@@ -202,7 +202,7 @@ Voeg een CSV-bestand toe dat bestaat uit de vaardigheden van docenten. Deze vaar
 
    Klik op Opslaan.
 
-   ![ voeg instructeursvaardigheden CSV ](assets/instructor-skills.png) toe
+   ![&#x200B; voeg instructeursvaardigheden CSV &#x200B;](assets/instructor-skills.png) toe
 
    *voeg instructeursvaardigheden van een CSV* toe
 
@@ -210,7 +210,7 @@ Voeg een CSV-bestand toe dat bestaat uit de vaardigheden van docenten. Deze vaar
 
    Opmerking: het volgende foutbericht verschijnt als de CSV onjuiste velden heeft.
 
-   ![ bericht van de Fout als CSV onjuiste gebieden ](assets/error-csv-upload.png) heeft
+   ![&#x200B; bericht van de Fout als CSV onjuiste gebieden &#x200B;](assets/error-csv-upload.png) heeft
 
    *bericht van de Fout voor onjuiste gebieden*
 
@@ -218,7 +218,7 @@ Voeg een CSV-bestand toe dat bestaat uit de vaardigheden van docenten. Deze vaar
 
 Op de pagina Vaardigheden is er een kolom met de naam Docenten, die het aantal docenten aangeeft dat aan een vaardigheid is toegewezen. Als u op het aantal docenten klikt, wordt er een pop-up weergegeven met daarin de docenten die aan de vaardigheid zijn toegewezen.
 
-![ Vaardigheden die aan instructeurs ](assets/instructor-skill-assigned.png) worden toegewezen
+![&#x200B; Vaardigheden die aan instructeurs &#x200B;](assets/instructor-skill-assigned.png) worden toegewezen
 
 *pagina van Vaardigheden*
 
@@ -283,4 +283,4 @@ Met andere woorden, om de badge te behalen, **moet de student het bijbehorende L
 
 ### Verwante informatie
 
-* [ Vaardigheden en Adobe Learning Manager ](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
+* [&#x200B; Vaardigheden en Adobe Learning Manager &#x200B;](https://elearning.adobe.com/2018/11/skills-captivate-prime/)

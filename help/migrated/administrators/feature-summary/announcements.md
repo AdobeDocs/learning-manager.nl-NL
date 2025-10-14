@@ -143,7 +143,7 @@ Op het tabblad Verzonden kunt u alle aankondigingen bekijken die al zijn uitgezo
 
 Gebruik deze optie om doelgerichte ad-hoc-e-mails te verzenden naar studenten van een geselecteerde gebruikersgroep of naar studenten die zijn ingeschreven voor een specifieke training.
 
-![ Admin leidt tot een e-mailaankondiging ](assets/email-announcement-admin.png)
+![&#x200B; Admin leidt tot een e-mailaankondiging &#x200B;](assets/email-announcement-admin.png)
 
 *Wend gerichte ad-hoc e-mails aan studenten*
 

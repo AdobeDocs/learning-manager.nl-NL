@@ -180,7 +180,7 @@ Sommige gebeurtenissen hebben real-time en niet-real-time tegenhangers, zoals hi
 
 ## Webhook-gebeurtenislading
 
-Als onderdeel van de Webhooks-responslading zal Adobe Learning Manager de kenmerken verzenden die vereist zijn om een entiteit op unieke wijze te identificeren. Deze worden in dezelfde indeling en volgens de normen die worden gebruikt door de openbare API, zodat de webhookgegevens synchroon zijn met de openbare API-gegevens. Bekijk [ lading van de Steekproef ](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md#sample-payloads-for-the-events) voor zie nuttige ladingen voor de diverse gebeurtenissen.
+Als onderdeel van de Webhooks-responslading zal Adobe Learning Manager de kenmerken verzenden die vereist zijn om een entiteit op unieke wijze te identificeren. Deze worden in dezelfde indeling en volgens de normen die worden gebruikt door de openbare API, zodat de webhookgegevens synchroon zijn met de openbare API-gegevens. Bekijk [&#x200B; lading van de Steekproef &#x200B;](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md#sample-payloads-for-the-events) voor zie nuttige ladingen voor de diverse gebeurtenissen.
 
 ## Webhooks gebruiken om een externe DB- of meldingsservice te maken
 
@@ -211,7 +211,7 @@ In bepaalde gebruiksgevallen zijn aanvullende instantienaam, status enz. vereist
 
 #### Vraag informatie op van public-api GET/learningobjects - beheerbereik
 
-Klanten kunnen de `GET /learningObjects` API gebruiken zoals hierboven vermeld, samen met instanties die zijn opgenomen om informatie over instanties op te halen. Zij zouden nog de benadering moeten volgen die in de [ sectie ](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md#query-the-information-from-the-public-api-get-learningobjects-admin-scope) wordt vermeld om ervoor te zorgen dat de tariefgrenzen niet worden geschonden.
+Klanten kunnen de `GET /learningObjects` API gebruiken zoals hierboven vermeld, samen met instanties die zijn opgenomen om informatie over instanties op te halen. Zij zouden nog de benadering moeten volgen die in de [&#x200B; sectie &#x200B;](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md#query-the-information-from-the-public-api-get-learningobjects-admin-scope) wordt vermeld om ervoor te zorgen dat de tariefgrenzen niet worden geschonden.
 
 
 >[!NOTE]

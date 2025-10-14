@@ -15,7 +15,7 @@ ht-degree: 23%
 
 >[!INFO]
 >
->In deze training leert u hoe u gebruikers in bulk kunt toevoegen via een CSV-bestand.<br><br>[![ knoop ](feature-summary/assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555) </br></br>
+>In deze training leert u hoe u gebruikers in bulk kunt toevoegen via een CSV-bestand.<br><br>[![&#x200B; knoop &#x200B;](feature-summary/assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555) </br></br>
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
@@ -46,7 +46,7 @@ In dit geval wordt de beheerder van uw bedrijf standaard als manager voor gebrui
 **Voorbeeld-CSV**
 
 Voorbeeld-CSV van Learning Manager is hieronder beschikbaar met verplichte velden.
-[ Steekproef-CSV-name-email.zip ](assets/sample-csv-name-email.zip)
+[&#x200B; Steekproef-CSV-name-email.zip &#x200B;](assets/sample-csv-name-email.zip)
 
 ## CSV uploaden met alle velden {#csvuploadwithallthefields}
 
@@ -61,6 +61,6 @@ Ook, kunnen de Beheerders van een organisatie **zelf** als werknemers toevoegen 
 **Voorbeeld-CSV**
 
 Voorbeeld-CSV van Learning Manager is hieronder beschikbaar voor alle velden.
-[ learning-manager-sample-csv.zip ](assets/learning-manager-sample-csv.zip).
+[&#x200B; learning-manager-sample-csv.zip &#x200B;](assets/learning-manager-sample-csv.zip).
 
-Verwijs naar [ Gebruikend CSV upload ](/help/migrated/administrators/feature-summary/add-users-user-groups.md) inhoud van de eigenschaphulp voor meer informatie.
+Verwijs naar [&#x200B; Gebruikend CSV upload &#x200B;](/help/migrated/administrators/feature-summary/add-users-user-groups.md) inhoud van de eigenschaphulp voor meer informatie.

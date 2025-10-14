@@ -271,8 +271,8 @@ Als u een aangepast domein of leermanager als host gebruikt, hoeft u geen actie 
 
 Raadpleeg de volgende koppelingen voor meer informatie:
 
-* [ Android ](https://learningmanager.adobe.com/.well-known/assetlinks.json)
-* [ iOS ](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+* [&#x200B; Android &#x200B;](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [&#x200B; iOS &#x200B;](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
 ## Uw team-id ophalen voor de App Store
 
@@ -318,7 +318,7 @@ Zowel Android als iOS gebruiken Firebase Cloud Messaging (FCM) als service voor 
 
 Volg de procedure:
 
-1. Genereer of download het **Push meldingscertificaat** en privé sleutel (.p12). Voor meer informatie, zie het [ document van de ontwikkelaar van Apple ](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. Genereer of download het **Push meldingscertificaat** en privé sleutel (.p12). Voor meer informatie, zie het [&#x200B; document van de ontwikkelaar van Apple &#x200B;](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
 
 1. Installeer het p12-bestand nadat het bestand is gedownload. Gebruik het wachtwoord in uw **toegang Keychain** te installeren.
 
@@ -340,7 +340,7 @@ Als u verbinding kunt maken met de server, is het certificaat dat u hebt gemaakt
 
 Voor Android moet de gebruiker het bestand services.json uit het Firebase-project leveren om de vermelding toe te voegen aan de SNS-service.
 
-Maak een project in Firebase en deel het bestand services.json met het CSM-team. Dit dossier is nodig voor op token-gebaseerde ingang in SNS. De serversleutel wordt niet meer gebruikt. Zie [ project in Vuurbasis ](#create-project-in-firebase) creëren.
+Maak een project in Firebase en deel het bestand services.json met het CSM-team. Dit dossier is nodig voor op token-gebaseerde ingang in SNS. De serversleutel wordt niet meer gebruikt. Zie [&#x200B; project in Vuurbasis &#x200B;](#create-project-in-firebase) creëren.
 
 Ga als volgt te werk om het bestand services.json te downloaden:
 
@@ -368,11 +368,11 @@ Neem contact op met het CSM-team en deel het JSON-bestand om de vermelding toe t
 
 Hergebruik hetzelfde project dat u in de bovenstaande stappen hebt gemaakt voor pushmeldingen.
 
-[ voeg het project ](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Vuurbasis toe en wint het {***dossier 2} google-services.json terug.***
+[&#x200B; voeg het project &#x200B;](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Vuurbasis toe en wint het {***dossier 2} google-services.json terug.***
 
 ### iOS
 
-[ voeg het project ](https://firebase.google.com/docs/ios/setup) aan Firebase toe en wint het {***dossier 2} GoogleService-Info.plist terug.***
+[&#x200B; voeg het project &#x200B;](https://firebase.google.com/docs/ios/setup) aan Firebase toe en wint het {***dossier 2} GoogleService-Info.plist terug.***
 
 >[!IMPORTANT]
 >
@@ -538,16 +538,16 @@ Nadat u de definitieve binaire bestanden hebt ontvangen, kunt u deze uploaden na
 
 **Android**
 
-[ creeer en opstelling uw app ](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
-[ Bereid uw app voor overzicht ](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP) voor
+[&#x200B; creeer en opstelling uw app &#x200B;](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
+[&#x200B; Bereid uw app voor overzicht &#x200B;](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP) voor
 
 **iOS**
 
-[ legt voor overzicht ](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review) voor
+[&#x200B; legt voor overzicht &#x200B;](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review) voor
 
 ## Hoe pas ik de wijzigingen toe
 
-Verzendt de vereiste middelen en bestanden naar het CSM-team. Het team CSM vult dan de [ vorm ](https://forms.office.com/r/bJRRaRBvSh) met de vereiste veranderingen en maakt de vereiste activa vast. Het team zal dan de technische teams van de veranderingen evalueren en informeren. Het technische team genereert vervolgens een build en deelt deze met het CSM-team.
+Verzendt de vereiste middelen en bestanden naar het CSM-team. Het team CSM vult dan de [&#x200B; vorm &#x200B;](https://forms.office.com/r/bJRRaRBvSh) met de vereiste veranderingen en maakt de vereiste activa vast. Het team zal dan de technische teams van de veranderingen evalueren en informeren. Het technische team genereert vervolgens een build en deelt deze met het CSM-team.
 
 Het CSM-team zal de build met de klant delen.
 

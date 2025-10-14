@@ -16,7 +16,7 @@ Meer informatie over de nieuwe functies en verbeteringen in de Adobe Learning Ma
 
 >[!NOTE]
 >
->Controle uit dit [ webinar ](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearningmanager.adobe.com%2Fapp%2Flearner%3FaccountId%3D98632%23%2Fcourse%2F10078152&amp;data=05%7C02%7Cchandrum%40adobe.com%7C90e588d31b994e6a5f4e08dcb87f26a8%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638588103494535076%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=dNyxQl3IQjEtfGCMnhlfek4Piz%2BPGFfuUss53M8mFK8%3D&amp;reserved=0) om meer over de nieuwe eigenschappen in deze versie te leren.
+>Controle uit dit [&#x200B; webinar &#x200B;](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearningmanager.adobe.com%2Fapp%2Flearner%3FaccountId%3D98632%23%2Fcourse%2F10078152&data=05%7C02%7Cchandrum%40adobe.com%7C90e588d31b994e6a5f4e08dcb87f26a8%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638588103494535076%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=dNyxQl3IQjEtfGCMnhlfek4Piz%2BPGFfuUss53M8mFK8%3D&reserved=0) om meer over de nieuwe eigenschappen in deze versie te leren.
 
 ## Verbetering in dashboard Naleving
 
@@ -37,10 +37,10 @@ Hier volgen de stappen voor het gebruik van het verbeterde dashboard Naleving:
 
 | Rol | Taak | Aanvullende informatie |
 |---|---|---|
-| Beheer | Aangepaste compatibiliteitslabels maken | Verwijs naar dit artikel [ tot de etiketten van de douaneverplichting ](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) voor meer informatie leiden |
-| Auteur | Deze labels aan de cursus toevoegen | Verwijs naar dit artikel [ nalevingsetiketten aan cursus/het leren weg/certificatie ](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) voor meer informatie toevoegen. |
-| Beheer | Maak het dashboard met de nalevingscursus en deel het met managers | Verwijs naar dit artikel [ creeer en deel een nalevingsdashboard ](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) voor meer informatie. |
-| Manager | Het dashboard Naleving weergeven | Verwijs naar dit artikel [ status van de Naleving ](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) voor meer informatie |
+| Beheer | Aangepaste compatibiliteitslabels maken | Verwijs naar dit artikel [&#x200B; tot de etiketten van de douaneverplichting &#x200B;](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) voor meer informatie leiden |
+| Auteur | Deze labels aan de cursus toevoegen | Verwijs naar dit artikel [&#x200B; nalevingsetiketten aan cursus/het leren weg/certificatie &#x200B;](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) voor meer informatie toevoegen. |
+| Beheer | Maak het dashboard met de nalevingscursus en deel het met managers | Verwijs naar dit artikel [&#x200B; creeer en deel een nalevingsdashboard &#x200B;](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) voor meer informatie. |
+| Manager | Het dashboard Naleving weergeven | Verwijs naar dit artikel [&#x200B; status van de Naleving &#x200B;](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) voor meer informatie |
 
 ## Omzetting van de gebruikersinterface van de student
 
@@ -74,7 +74,7 @@ De homepage van de Leerling van de mening [&#128279;](/help/migrated/learners/fe
 
 **Veranderingen in de data van de cursuspublicatie**
 
-Dankzij deze verbetering zijn de publicatiedatums voor LinkedIn- en Go1-cursussen die in Adobe Learning Manager worden geïmporteerd, de feitelijke publicatiedatums voor LinkedIn en Go1. U kunt ook de feitelijk gepubliceerde datums voor de LinkedIn- en Go1-cursussen bekijken in de gebruikersinterface. Bekijk [ kaarten van de Cursus ](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) voor meer informatie.
+Dankzij deze verbetering zijn de publicatiedatums voor LinkedIn- en Go1-cursussen die in Adobe Learning Manager worden geïmporteerd, de feitelijke publicatiedatums voor LinkedIn en Go1. U kunt ook de feitelijk gepubliceerde datums voor de LinkedIn- en Go1-cursussen bekijken in de gebruikersinterface. Bekijk [&#x200B; kaarten van de Cursus &#x200B;](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) voor meer informatie.
 
 ## Updates voor ervaring zonder aanmelding
 
@@ -82,7 +82,7 @@ Dankzij de niet-aangemelde ervaring kunt u een real-time ervaring creëren voor 
 
 ### Wat verandert in deze release
 
-Klanten kunnen een Premium-lidmaatschap aanschaffen om deze uiterst schaalbare, niet-aangemelde ervaringen te creëren. Deze niet-geregistreerde ervaring, die door de [ Toegang van de Gegevens van de Opleiding ](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access) wordt aangedreven, verstrekt gegevens in real time over zetelgrenzen, bezette plaatsen, wachtlijstgrenzen, en wachtlijsttellingen gebruikend Adobe Learning Manager APIs. Klanten kunnen deze API&#39;s gebruiken om zoekmogelijkheden en filtermogelijkheden voor niet-aangemelde studenten en een volledig cursusoverzicht aan te bieden. Verwijs naar dit artikel [ niet-het programma geopend APIs ](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) voor meer informatie over APIs.
+Klanten kunnen een Premium-lidmaatschap aanschaffen om deze uiterst schaalbare, niet-aangemelde ervaringen te creëren. Deze niet-geregistreerde ervaring, die door de [&#x200B; Toegang van de Gegevens van de Opleiding &#x200B;](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access) wordt aangedreven, verstrekt gegevens in real time over zetelgrenzen, bezette plaatsen, wachtlijstgrenzen, en wachtlijsttellingen gebruikend Adobe Learning Manager APIs. Klanten kunnen deze API&#39;s gebruiken om zoekmogelijkheden en filtermogelijkheden voor niet-aangemelde studenten en een volledig cursusoverzicht aan te bieden. Verwijs naar dit artikel [&#x200B; niet-het programma geopend APIs &#x200B;](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) voor meer informatie over APIs.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Voorheen konden studenten slechts één cursus tegelijk kopen. In deze versie va
 
 Deze functie is alleen beschikbaar in de Learner-apps (bestaande gebruikersinterface, nieuwe gebruikersinterface voor studenten en mobiele, boeiende app).
 
-Bekijk [ Meerdere punthart in ALM ](/help/migrated/learners/feature-summary/multi-item-cart.md)
+Bekijk [&#x200B; Meerdere punthart in ALM &#x200B;](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
 ## Ondersteuning voor HTML5-inhoud in Fluidic Player
 
@@ -106,16 +106,16 @@ Bekijk [ Meerdere punthart in ALM ](/help/migrated/learners/feature-summary/mult
 
 ### Wat verandert in deze release
 
-Adobe Learning Manager biedt nu ondersteuning voor inhoud die door HTML5 wordt ondersteund in cursussen op eigen tempo. Auteurs kunnen HTML5-inhoud als zip-bestand toevoegen aan inhoud op eigen tempo. Studenten kunnen de HTML5-inhoud bekijken in de Fluidic Player. Met de nieuwe functie kunnen studenten de cursus nu rechtstreeks in de Fluidic Player als voltooid markeren voor cursussen op eigen tempo. De mening [ voegt HTML5 dossiertype in de inhoudsbibliotheek ](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library) voor meer informatie toe.
+Adobe Learning Manager biedt nu ondersteuning voor inhoud die door HTML5 wordt ondersteund in cursussen op eigen tempo. Auteurs kunnen HTML5-inhoud als zip-bestand toevoegen aan inhoud op eigen tempo. Studenten kunnen de HTML5-inhoud bekijken in de Fluidic Player. Met de nieuwe functie kunnen studenten de cursus nu rechtstreeks in de Fluidic Player als voltooid markeren voor cursussen op eigen tempo. De mening [&#x200B; voegt HTML5 dossiertype in de inhoudsbibliotheek &#x200B;](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library) voor meer informatie toe.
 
-Met de nieuwe verbetering, zal de cursus met de externe verbinding automatisch als volledig worden gemerkt wanneer URL wordt bezocht, zolang de auteur de voltooiingscriteria aan de nieuwe optie **[!UICONTROL bij het Lanceren van inhoud]** heeft geplaatst. De nieuwe criteria van de optie **[!UICONTROL Voltooiing]** is toegevoegd in de pagina van de Module van de Activiteit waar de auteur de voltooiingscriteria voor de externe verbindingen kan plaatsen. De mening [ voegt de verbinding van de HTML in de activiteitenmodule ](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) voor meer informatie toe.
+Met de nieuwe verbetering, zal de cursus met de externe verbinding automatisch als volledig worden gemerkt wanneer URL wordt bezocht, zolang de auteur de voltooiingscriteria aan de nieuwe optie **[!UICONTROL bij het Lanceren van inhoud]** heeft geplaatst. De nieuwe criteria van de optie **[!UICONTROL Voltooiing]** is toegevoegd in de pagina van de Module van de Activiteit waar de auteur de voltooiingscriteria voor de externe verbindingen kan plaatsen. De mening [&#x200B; voegt de verbinding van de HTML in de activiteitenmodule &#x200B;](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) voor meer informatie toe.
 
 ![](assets/completion-criteria-activity-module.png)
 _optie-Activiteitenmodule van de criteria van de Voltooiing_
 
 ## Pushmeldingen op de mobiele app die al eerder hadden moeten plaatsvinden
 
-Studenten ontvangen pushmeldingen wanneer ze een cursusdeadline missen. Dankzij deze nieuwe verbetering hebben studenten nu de optie om een herinnering gedurende 24 uur te noteren of volgende week te herinneren voor elke achterstallige herinnering die ze ontvangen. Dit is alleen van toepassing op meldingen die te laat zijn ingediend. De mening [ plant het dupbericht ](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
+Studenten ontvangen pushmeldingen wanneer ze een cursusdeadline missen. Dankzij deze nieuwe verbetering hebben studenten nu de optie om een herinnering gedurende 24 uur te noteren of volgende week te herinneren voor elke achterstallige herinnering die ze ontvangen. Dit is alleen van toepassing op meldingen die te laat zijn ingediend. De mening [&#x200B; plant het dupbericht &#x200B;](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
 
 ## API-wijzigingen in deze versie
 
@@ -240,7 +240,7 @@ RPM is het aantal verzoeken dat u in één minuut naar de API-server kunt verzen
 
 ### Verouderde API&#39;s
 
-De veroudering van de mening [ API in Adobe Learning Manager ](/help/migrated/api-deprecations-list.md) voor een cumulatieve lijst van alle afgekeurde APIs in het product.
+De veroudering van de mening [&#x200B; API in Adobe Learning Manager &#x200B;](/help/migrated/api-deprecations-list.md) voor een cumulatieve lijst van alle afgekeurde APIs in het product.
 
 ## Wijzigingen in de rapportage
 
@@ -352,7 +352,7 @@ De mobiele offline speler laadt de HTML5-inhoud niet.
 
 ## Systeemvereisten
 
-De systeemvereisten van de mening [ Adobe Learning Manager ](/help/migrated/system-requirements.md).
+De systeemvereisten van de mening [&#x200B; Adobe Learning Manager &#x200B;](/help/migrated/system-requirements.md).
 
 ## Eerdere releases van Adobe Learning Manager
 

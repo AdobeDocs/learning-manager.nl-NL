@@ -16,7 +16,7 @@ Het proces voor het indienen van Adobe Learning Manager-ondersteuningstickets is
 
 Houd er rekening mee dat het verzenden van een ondersteuningsticket alleen beschikbaar is voor geautoriseerde ondersteuningscontactpersonen. Voor uw vragen over ondersteuning kunt u uw ondersteuningstickets tot 11 mei 2025 via e-mail naar Adobe Learning Manager verzenden. Na deze datum kunt u, naast het bestaande e-mailkanaal, ook uw ondersteuningstickets verzenden via de ondersteuningsportal voor Experiencen League, zoals hieronder wordt beschreven.
 
-1. Om tot het portaal van de Steun toegang te hebben, bezoek de **[!UICONTROL website van het Experience League]** en selecteer het **[!UICONTROL 3&rbrace; lusje van de Steun dat bij de bovenkant van de pagina wordt gevestigd.]** Alternatief, kunt u de [ directe verbinding ](https://experienceleague.adobe.com/home?lang=nl-NL#support) bezoeken.
+1. Om tot het portaal van de Steun toegang te hebben, bezoek de **[!UICONTROL website van het Experience League]** en selecteer het **[!UICONTROL 3&rbrace; lusje van de Steun dat bij de bovenkant van de pagina wordt gevestigd.]** Alternatief, kunt u de [&#x200B; directe verbinding &#x200B;](https://experienceleague.adobe.com/home?lang=nl-NL#support) bezoeken.
 
    ![](assets/support.png)
    _homepage van de Steun_
@@ -56,7 +56,7 @@ U kunt een case escaleren door de optie &quot;Escaleren naar beheer&quot; te sel
 
 Om uw escalaties op de meest efficiënte manier aan te pakken, kunt u alleen een escalatieprocedure indienen als dit ernstige gevolgen heeft voor uw organisatie, partners of klanten.
 
-Als u verdere vragen op hebt hoe te om het **[!UICONTROL portaal van de Steun van het Experience League te gebruiken]**, te laten ons in de commentaarsectie hieronder weten, of ons team van de Steun direct bij dit e-mailadres [ almdynsupp@adobe.com ](mailto:almdynsupp@adobe.com) bereiken.
+Als u verdere vragen op hebt hoe te om het **[!UICONTROL portaal van de Steun van het Experience League te gebruiken]**, te laten ons in de commentaarsectie hieronder weten, of ons team van de Steun direct bij dit e-mailadres [&#x200B; almdynsupp@adobe.com &#x200B;](mailto:almdynsupp@adobe.com) bereiken.
 
-Om een geautoriseerd contact toe te voegen dat steunkaartjes via Experience League (EXL) kan openen, te bezoeken gelieve [ http://licensing.adobe.com ](http://licensing.adobe.com).
+Om een geautoriseerd contact toe te voegen dat steunkaartjes via Experience League (EXL) kan openen, te bezoeken gelieve [&#x200B; http://licensing.adobe.com &#x200B;](http://licensing.adobe.com).
 

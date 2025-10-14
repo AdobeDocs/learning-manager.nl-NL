@@ -32,7 +32,7 @@ U kunt de weergegeven cursussen onder CATALOGUS doorkijken door de onderstaande 
 
 Ja, u kunt de offline inhoud bekijken op iPads, Android-tablets en smartphones.
 
-Voor meer informatie over off-line toegang, verwijs naar [ iPad en Android tabletgebruikers ](feature-summary/ipad-android-tablet-users.md) eigenschap.
+Voor meer informatie over off-line toegang, verwijs naar [&#x200B; iPad en Android tabletgebruikers &#x200B;](feature-summary/ipad-android-tablet-users.md) eigenschap.
 
 +++
 
@@ -48,7 +48,7 @@ Klik op het zoekveld. Terwijl u typt in dit veld worden automatisch zoekresultat
 
 Ja, u kunt uw leerpunten vergelijken met die van uw collega&#39;s. Beweeg de muis over de profielcirkel. Hier kunt u uw eigen punten bekijken. Klik op Ga naar leaderboard om het dialoogvenster Leaderboard te bekijken. In dit dialoogvenster kunt u een lijst met collega&#39;s bekijken die een vergelijkbare score hebben behaald als u.
 
-Voor meer informatie, verwijs naar [ Leaderboard ](feature-summary/gamification.md) eigenschap.
+Voor meer informatie, verwijs naar [&#x200B; Leaderboard &#x200B;](feature-summary/gamification.md) eigenschap.
 
 +++
 
@@ -68,7 +68,7 @@ Klik op het omlaagwijzende pijltje in de rechterbenedenhoek van het pop-upvenste
 
 +++Wat is het verschil tussen Leren en Catalogus?
 
-In het Leren lusje, kunt u alle [ cursussen ](feature-summary/courses.md) bekijken, [ het leren programma&#39;s ](feature-summary/learning-programs.md) en [ certificatie ](feature-summary/certifications.md) die door u worden ingeschreven of aan u worden toegewezen. U kunt ook naar het tabblad Leermateriaal gaan door op de link Ga naar Leermateriaal te klikken.
+In het Leren lusje, kunt u alle [&#x200B; cursussen &#x200B;](feature-summary/courses.md) bekijken, [&#x200B; het leren programma&#39;s &#x200B;](feature-summary/learning-programs.md) en [&#x200B; certificatie &#x200B;](feature-summary/certifications.md) die door u worden ingeschreven of aan u worden toegewezen. U kunt ook naar het tabblad Leermateriaal gaan door op de link Ga naar Leermateriaal te klikken.
 
 Op het tabblad Catalogus ziet u alle cursussen, leerprogramma&#39;s en certificeringen die beschikbaar zijn voor uw rol in het bedrijfsaccount. U kunt ook naar het tabblad Catalogus gaan door op de koppeling Ga naar catalogus te klikken.
 
@@ -94,7 +94,7 @@ Wanneer studenten het volgen van bepaalde cursussen voltooien, kunnen ze hun sta
 
 Klik om de vaardigheden te bekijken op de naam van een vaardigheid in het gebied van de vaardighedenkaart in de rechterbovenhoek van uw landingspagina. Vaardigheden worden weergegeven met daarnaast het behaalde niveau.
 
-Voor meer informatie, verwijs naar [ Vaardigheden en niveaus ](feature-summary/skills-levels.md) eigenschap.
+Voor meer informatie, verwijs naar [&#x200B; Vaardigheden en niveaus &#x200B;](feature-summary/skills-levels.md) eigenschap.
 
 +++
 
@@ -102,7 +102,7 @@ Voor meer informatie, verwijs naar [ Vaardigheden en niveaus ](feature-summary/s
 
 Ja, u hebt toegang tot Learning Manager op smartphones, iPads of andere Android-tablets.
 
-Voor meer informatie over deze eigenschap, verwijs [ iPad en Android toepassingsgebruikers ](feature-summary/ipad-android-tablet-users.md) eigenschap.
+Voor meer informatie over deze eigenschap, verwijs [&#x200B; iPad en Android toepassingsgebruikers &#x200B;](feature-summary/ipad-android-tablet-users.md) eigenschap.
 
 +++
 
@@ -116,13 +116,13 @@ Alleen de functies voor studentrollen zijn toegankelijk via een iPad of een Andr
 
 +++Kan niet aanmelden bij Leermanager. Wat moet ik doen?
 
-Als u een Adobe ID hebt, kunt u zich aanmelden op Learning Manager. Volg de instructies bij [ gebruikerslogin ](feature-summary/user-login.md) eigenschap voor meer informatie over hoe te aan login aan de toepassing. Neem contact op met ons ondersteuningsteam als het probleem aanhoudt.
+Als u een Adobe ID hebt, kunt u zich aanmelden op Learning Manager. Volg de instructies bij [&#x200B; gebruikerslogin &#x200B;](feature-summary/user-login.md) eigenschap voor meer informatie over hoe te aan login aan de toepassing. Neem contact op met ons ondersteuningsteam als het probleem aanhoudt.
 
 +++
 
 +++Hoe kan ik een vaardigheidsniveau bereiken?
 
-U verwerft studiepunten wanneer u een nieuw vaardigheidsniveau verwerft. Studieunten worden geassocieerd met vaardigheidsniveaus. Voor meer informatie over vaardigheden en niveaus verwijzen naar [ vaardigheden en niveaus ](feature-summary/skills-levels.md) eigenschap.
+U verwerft studiepunten wanneer u een nieuw vaardigheidsniveau verwerft. Studieunten worden geassocieerd met vaardigheidsniveaus. Voor meer informatie over vaardigheden en niveaus verwijzen naar [&#x200B; vaardigheden en niveaus &#x200B;](feature-summary/skills-levels.md) eigenschap.
 
 +++
 
@@ -140,9 +140,9 @@ U kunt interesse tonen om deel te nemen aan klaslokaalcursussen waarvoor geen se
 
 +++Wat is het verschil tussen credits en gamificationpunten?
 
-U verwerft studiepunten wanneer u een nieuw vaardigheidsniveau verwerft. Studieunten worden geassocieerd met vaardigheidsniveaus. Voor meer informatie over kredieten, verwijzen de vaardigheden en de niveaus naar [ vaardigheden en niveaus ](feature-summary/skills-levels.md) eigenschap.
+U verwerft studiepunten wanneer u een nieuw vaardigheidsniveau verwerft. Studieunten worden geassocieerd met vaardigheidsniveaus. Voor meer informatie over kredieten, verwijzen de vaardigheden en de niveaus naar [&#x200B; vaardigheden en niveaus &#x200B;](feature-summary/skills-levels.md) eigenschap.
 
-U krijgt gamificationpunten wanneer u een taak voltooit. Er zijn momenteel zes gamificationtaken beschikbaar in Learning Manager. Na voltooiing van elke taak verwerft u een specifiek aantal punten verbonden aan die taak. Voor meer informatie, verwijs naar [ gamification ](feature-summary/gamification.md) eigenschap.
+U krijgt gamificationpunten wanneer u een taak voltooit. Er zijn momenteel zes gamificationtaken beschikbaar in Learning Manager. Na voltooiing van elke taak verwerft u een specifiek aantal punten verbonden aan die taak. Voor meer informatie, verwijs naar [&#x200B; gamification &#x200B;](feature-summary/gamification.md) eigenschap.
 
 +++
 
@@ -154,7 +154,7 @@ Bovenaan de pagina verschijnt een lijst met badges die de student verdiend heeft
 
 De badges worden aan de deelnemers toegekend op basis van specifieke criteria die door uw organisatie zijn gedefinieerd. Dit is over het algemeen een succesvolle afronding van een cursus of een leerobject.
 
-Voor meer informatie, verwijs naar [ badges ](feature-summary/badges.md) eigenschap.
+Voor meer informatie, verwijs naar [&#x200B; badges &#x200B;](feature-summary/badges.md) eigenschap.
 
 +++
 
@@ -181,7 +181,7 @@ Op basis van de punten die u hebt behaald bij het afronden van de cursussen, wor
 
 U kunt uw huidige niveaupunten in uw profiel bekijken en richten om hogere punten, indien nodig te bereiken.
 
-Verwijs [ eigenschap van de Gamification ](feature-summary/gamification.md) voor meer informatie.
+Verwijs [&#x200B; eigenschap van de Gamification &#x200B;](feature-summary/gamification.md) voor meer informatie.
 
 +++
 
@@ -189,7 +189,7 @@ Verwijs [ eigenschap van de Gamification ](feature-summary/gamification.md) voor
 
 Alle cursussen in Leerbeheer worden in browsers afgespeeld. U kunt de cursussen op volledig scherm bekijken met de Fluidic Player van Learning Manager.
 
-Verwijs [ Fluidic spelereigenschap ](feature-summary/fluidic-player.md) voor meer informatie over Speler.
+Verwijs [&#x200B; Fluidic spelereigenschap &#x200B;](feature-summary/fluidic-player.md) voor meer informatie over Speler.
 
 [Kan ik mijn persoonlijke opmerkingen exporteren?](frequently-asked-questions-for-learners.md)
 
@@ -259,7 +259,7 @@ U ontvangt een melding voor het voltooien van de cursus, samen met een link om f
 
 Als onderdeel van de beloning en erkenning van de prestaties van de student, introduceert Learning Manager online badges voor studenten. Badges worden toegekend op basis van een aantal criteria en worden vervolgens weergegeven op het profiel van een student boven aan de startpagina voor studenten.
 
-Verwijs [ eigenschap van Certificatie ](feature-summary/certifications.md) voor meer informatie over certificatie voor studenten.
+Verwijs [&#x200B; eigenschap van Certificatie &#x200B;](feature-summary/certifications.md) voor meer informatie over certificatie voor studenten.
 
 +++
 

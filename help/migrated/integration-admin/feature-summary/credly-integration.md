@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Credly
 
-[ Geloofsbrieven ](https://info.credly.com/) is een digitaal geloofsbrieven platform dat studenten en organisaties toestaat om, professionele prestaties, zoals badges of certificeringen te verdienen te delen en te verifiëren. Studenten kunnen badges beheren en delen via hun aanmeldingsprofiel op sociale media en andere plaatsen.
+[&#x200B; Geloofsbrieven &#x200B;](https://info.credly.com/) is een digitaal geloofsbrieven platform dat studenten en organisaties toestaat om, professionele prestaties, zoals badges of certificeringen te verdienen te delen en te verifiëren. Studenten kunnen badges beheren en delen via hun aanmeldingsprofiel op sociale media en andere plaatsen.
 
 ## Vereisten
 
@@ -45,11 +45,11 @@ Met badge.csv in Adobe Learning Manager kunt u badges migreren van het bestaande
 * externalBadgeId
 * externalBadgeProvider
 
-Externe badge-id verwijst naar de badgesjabloon-id in het Referentieplatform en de externe badgeprovider is Credly. Voeg deze waarden in badge.csv toe en volg de stappen die in het [ handboek van de Migratie ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/migration-manual#migrationprocedure) worden vermeld om csv te migreren.
+Externe badge-id verwijst naar de badgesjabloon-id in het Referentieplatform en de externe badgeprovider is Credly. Voeg deze waarden in badge.csv toe en volg de stappen die in het [&#x200B; handboek van de Migratie &#x200B;](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/migration-manual#migrationprocedure) worden vermeld om csv te migreren.
 
 ## Vaardigheid maken - Beheerder
 
-Zodra de badge is geïmporteerd in Adobe Learning Manager, kan de beheerder deze badges als een vaardigheid maken. Om te weten hoe te om een vaardigheid tot stand te brengen, zie [ Vaardigheden ](https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/skills-levels) creëren en wijzigen.
+Zodra de badge is geïmporteerd in Adobe Learning Manager, kan de beheerder deze badges als een vaardigheid maken. Om te weten hoe te om een vaardigheid tot stand te brengen, zie [&#x200B; Vaardigheden &#x200B;](https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/skills-levels) creëren en wijzigen.
 
 ### De vaardigheid/badge toewijzen aan het leerobject - Auteur
 

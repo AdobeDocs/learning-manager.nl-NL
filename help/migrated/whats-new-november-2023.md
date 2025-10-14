@@ -17,7 +17,7 @@ De Adobe Learning Manager-gebruikersinterface is een aantal updates doorgevoerd 
 
 De thema-updates worden automatisch toegepast op accounts die het standaardthema gebruiken. De thema-updates voor de gebruikersinterface hebben geen invloed op accounts waarin een aangepast thema wordt gebruikt. Deze accounts moeten worden teruggezet naar het standaardthema om de nieuwe thema-updates te krijgen.
 
-![ beeld UI ](assets/refreshed-ui.png)
+![&#x200B; beeld UI &#x200B;](assets/refreshed-ui.png)
 
 ### Over deze wijziging
 
@@ -54,7 +54,7 @@ Ga naar [Systeemeigen uitbreidbaarheid](/help/migrated/administrators/feature-su
 
 U kunt nu beoordelingen maken in Learning Manager met het nieuwe gereedschap voor het maken van quiz op de pagina Inhoudsbibliotheek. De gemaakte beoordelingen worden onderdeel van de inhoudsbibliotheek en kunnen worden toegevoegd aan een openbare map voor hergebruik van de cursus.
 
-De mening [ leidt tot een quiz ](/help/migrated/authors/feature-summary/content-library.md) om meer te leren.
+De mening [&#x200B; leidt tot een quiz &#x200B;](/help/migrated/authors/feature-summary/content-library.md) om meer te leren.
 
 ## Rapportagewijzigingen in deze versie
 
@@ -84,7 +84,7 @@ In eerdere versies van Adobe Learning Manager bevatte het studenttranscript de v
 
 Het rapport Aanwezigheid op de aanwezigheidspagina van Cursussen in de Admin-app en op de studentensessiepagina van de app voor docenten werd voorheen synchroon gedownload. In deze versie wordt dit rapport asynchroon gedownload via een melding.
 
-Voor meer informatie over rapporten, zie [ Rapporten ](/help/migrated/administrators/feature-summary/reports.md) in Adobe Learning Manager.
+Voor meer informatie over rapporten, zie [&#x200B; Rapporten &#x200B;](/help/migrated/administrators/feature-summary/reports.md) in Adobe Learning Manager.
 
 ## Opheffing van de Inhoudsmarktplaats
 
@@ -232,7 +232,7 @@ Beheerders kunnen alleen managers zoeken in Dashboard-rapporten.
 
 Wanneer een beheerder een dashboardrapport probeert uit te zetten en het rapport te lang duurt om te plotten (meer dan 2,5 min.), geeft Adobe Learning Manager het volgende bericht weer:
 
-![ beeld van het erfenisrapport ](assets/error-message.png)
+![&#x200B; beeld van het erfenisrapport &#x200B;](assets/error-message.png)
 *het bericht van de Fout wanneer het rapport te lang duurt*
 
 Rapporten van deze grootte kunnen niet worden weergegeven in de gebruikersinterface, maar de beheerder kan deze wel downloaden.
@@ -288,7 +288,7 @@ Adobe Learning Manager stopt met BlueJeans in februari 2024. Alle nieuwe account
 
 ## Aanvullende informatie
 
-Voor informatie betreffende huidige en vorige versies van het Leren Web app van de Manager en apparaat app, zie de [ nota&#39;s van de Versie ](release-note/release-notes.md).
+Voor informatie betreffende huidige en vorige versies van het Leren Web app van de Manager en apparaat app, zie de [&#x200B; nota&#39;s van de Versie &#x200B;](release-note/release-notes.md).
 
 ## Bugs die hersteld zijn in deze versie
 

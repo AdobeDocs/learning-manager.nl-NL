@@ -15,7 +15,7 @@ Adobe Learning Manager ondersteunt een nieuwe connector die gebruik maakt van he
 
 U kunt elke opensource FTP-client vervangen door Adobe FTP Manager.
 
-Sommige AWS-geadviseerde cliënten van FTP zijn [ hier vermeld ](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html):
+Sommige AWS-geadviseerde cliënten van FTP zijn [&#x200B; hier vermeld &#x200B;](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html):
 
 * FileZilla (Windows, macOS en Linux)
 * OpenSSH (macOS en Linux) - Opmerking: Deze client werkt alleen met servers die zijn ingeschakeld voor SFTP (Secure Shell (SSH) File Transfer Protocol).
@@ -26,12 +26,12 @@ Sommige AWS-geadviseerde cliënten van FTP zijn [ hier vermeld ](https://docs.aw
 
 U moet de nieuwe op AWS gebaseerde FTP-connector configureren op de integratiebeheerder.
 
-![ connectoren beeld ](assets/alm-ftp.png)
+![&#x200B; connectoren beeld &#x200B;](assets/alm-ftp.png)
 *selecteer de optie van FTP*
 
 Zodra u verbinding hebt gemaakt, ziet u de pagina Verbindingsdetails.
 
-![ verbind detailpagina ](assets/connection-name.png)
+![&#x200B; verbind detailpagina &#x200B;](assets/connection-name.png)
 *Bekijk de pagina van de Details van de Verbinding*
 
 Er zijn drie verificatieopties:
@@ -48,7 +48,7 @@ U hebt een FTP-verbinding gemaakt.
 
 Als u reeds een sleutel van SSH hebt, kleef de openbare sleutel op het **[!UICONTROL Openbare Sleutel van FTP]** gebied, en klik dan verbinden.
 
-![ sleutels SSH ](assets/ssh-keys.png)
+![&#x200B; sleutels SSH &#x200B;](assets/ssh-keys.png)
 *Deeg de sleutels*
 
 ### Basisverificatie met een wachtwoord
@@ -83,22 +83,22 @@ Stel de verbinding in op een FTP-client (aanbevolen in de sectie eerder) met de 
 
 1. Maak verbinding met de nieuwe ALM FTP-connector. Klik op Verbinden.
 
-   ![ verbind beeld ](assets/connect-client.png)
+   ![&#x200B; verbind beeld &#x200B;](assets/connect-client.png)
    *verbind met nieuwe Schakelaar van FTP ALM*
 
 1. Als u via standaardverificatie via een wachtwoord verbinding wilt maken, voert u de domeinnaam, de FTP-gebruikersnaam en het wachtwoord in dat overeenkomt met de wachtwoordvalidatiecriteria. Klik op Verbinden. De nieuwe FTP-verbinding wordt gemaakt en is toegankelijk via elke SFTP-client.
 
-   ![ FTP montages ](assets/connect-settings.png)
+   ![&#x200B; FTP montages &#x200B;](assets/connect-settings.png)
    *via basisauthentificatie via wachtwoord*
 
 1. Installeer een SFTP-client, bijvoorbeeld File Zilla. Start File Zilla en klik op Sitebeheer openen in de linkerbovenhoek.
 
-   ![ cliënt SFTP ](assets/sftp-client-install.png)
+   ![&#x200B; cliënt SFTP &#x200B;](assets/sftp-client-install.png)
    *verbind via SFTP c-client*
 
 1. Klik op **[!UICONTROL Nieuwe site]** om een nieuwe site te maken. Wijzig desgewenst de naam van de site.
 
-   ![ nieuwe plaats ](assets/new-site.png)
+   ![&#x200B; nieuwe plaats &#x200B;](assets/new-site.png)
    *creeer een plaats*
 
 1. Wijs de details van de pagina Verbindingsgegevens toe.
@@ -110,7 +110,7 @@ Stel de verbinding in op een FTP-client (aanbevolen in de sectie eerder) met de 
 
 1. Klik op Verbinden.
 
-   ![ geloofsbrieven ](assets/connector-credentials.png)
+   ![&#x200B; geloofsbrieven &#x200B;](assets/connector-credentials.png)
    *ga geloofsbrieven* in
 
    >[!NOTE]
@@ -121,14 +121,14 @@ Stel de verbinding in op een FTP-client (aanbevolen in de sectie eerder) met de 
 
    (Optioneel) Schakel het selectievakje Wachtwoord onthouden in om het wachtwoord te onthouden.
 
-   ![ wachtwoord ](assets/password.png)
+   ![&#x200B; wachtwoord &#x200B;](assets/password.png)
    *ga wachtwoord* in
 
    (Facultatief) selecteer **[!UICONTROL altijd op deze gastheer]** checkbox vertrouwen om de gastheer te vertrouwen.
 
 1. Klik op OK.
 
-   ![ onbekende gastheersleutel ](assets/unknown-host-key.png)
+   ![&#x200B; onbekende gastheersleutel &#x200B;](assets/unknown-host-key.png)
    *Sleutel van de Gastheer*
 
 1. Controleer de status en voortgang van de verbinding bovenaan.
@@ -140,7 +140,7 @@ Stel de verbinding in op een FTP-client (aanbevolen in de sectie eerder) met de 
    * U kunt bestanden slepen en neerzetten.
    * Dubbelklik op het bestand.
 
-   ![ verbindingsstatus ](assets/connection-status-progress.png)
+   ![&#x200B; verbindingsstatus &#x200B;](assets/connection-status-progress.png)
    *Controle de verbindingsstatus*
 
 U kunt het verificatietype op elk gewenst moment wijzigen en bijwerken.
@@ -151,7 +151,7 @@ Plak de openbare sleutel in het tekstvak om de bestaande SSH-toetsen te gebruike
 
 Om nieuwe sleutels van SSH te produceren, klik &#39;**[!UICONTROL de Sleutel van SSH]**&#39; knoop. De persoonlijke sleutel wordt gedownload. Klik op **[!UICONTROL Verbinden/opslaan]**.
 
-![ produceer sleutel ssh ](assets/ssh-key.png)
+![&#x200B; produceer sleutel ssh &#x200B;](assets/ssh-key.png)
 *Genereer SSH Sleutel*
 
 Wijs de details toe. Selecteer een type aanmelding als sleutelbestand. Selecteer het bestand met de persoonlijke sleutel.

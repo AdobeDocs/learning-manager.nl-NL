@@ -21,7 +21,7 @@ In Learning Manager kunt u de weergave van de toepassing aan de merkeisen van uw
 
 In deze training, zult u manieren onderzoeken om de verschijning van de interface aan te passen om het met de het brandmerken vereisten van een organisatie aan te passen.
 
-[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318823)
+[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318823)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
@@ -111,7 +111,7 @@ Hieronder wordt beschreven hoe u meerdere branding implementeert:
 
 >[!INFO]
 >
->Controle uit dit [ blog ](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/) voor meer informatie.
+>Controle uit dit [&#x200B; blog &#x200B;](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/) voor meer informatie.
 
 
 #### Opmerkingen
@@ -129,7 +129,7 @@ Hieronder wordt beschreven hoe u meerdere branding implementeert:
 
 Met Adobe Learning Manager kunt u uw account aanpassen voor een verbeterde gebruikerservaring.
 
-De lijst hieronder geeft de onderdelen weer die kunnen worden aangepast. Om de rekening aan te passen, contacteer het Leren Manager [ steun ](mailto:captivateprimesupport@adobe.com).
+De lijst hieronder geeft de onderdelen weer die kunnen worden aangepast. Om de rekening aan te passen, contacteer het Leren Manager [&#x200B; steun &#x200B;](mailto:captivateprimesupport@adobe.com).
 
 <table>
  <tbody>

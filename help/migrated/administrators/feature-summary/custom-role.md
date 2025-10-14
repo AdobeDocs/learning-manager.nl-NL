@@ -300,7 +300,7 @@ Ga als volgt te werk om meerdere aangepaste rollen aan een gebruiker toe te wijz
 
 1. Login als beheerder en selecteer **[!UICONTROL Gebruikers]**.
 2. Selecteer **[!UICONTROL de Rollen van de Douane]** op het linkerpaneel.
-3. Maak een nieuwe aangepaste rol en voeg accountbevoegdheden, catalogi, leerobjecten of bereiken toe. Verwijs de [ hier vermelde stappen ](#create-a-custom-role).
+3. Maak een nieuwe aangepaste rol en voeg accountbevoegdheden, catalogi, leerobjecten of bereiken toe. Verwijs de [&#x200B; hier vermelde stappen &#x200B;](#create-a-custom-role).
 4. Voeg gebruikers toe aan de aangepaste rol.
 
    ![](assets/add-users-in-custom-roles.png)
@@ -416,7 +416,7 @@ Het bestand user_role.csv bevat de velden, de aangepaste rol, de aanmaakbron en 
 
 Beheerders kunnen het controlerapport voor de aangepaste rol downloaden om alle wijzigingen te volgen die zijn aangebracht in de aangepaste rollen, zoals het maken, wijzigen en verwijderen van aangepaste rollen en de bijbehorende functietoegang.
 
-Verwijs dit artikel [ spoor van de Controle voor douanerollen ](/help/migrated/administrators/feature-summary/reports.md#audit-trail-for-custom-roles) voor meer informatie.
+Verwijs dit artikel [&#x200B; spoor van de Controle voor douanerollen &#x200B;](/help/migrated/administrators/feature-summary/reports.md#audit-trail-for-custom-roles) voor meer informatie.
 
 ## Toegang tot mappen beperken voor aangepaste auteurs {#folder-custom-author}
 

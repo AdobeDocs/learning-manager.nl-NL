@@ -59,8 +59,8 @@ Adobe Learning Manager biedt ondersteuning voor door Identity Provider (IdP) en 
 
    **voor opstelling IDP:**
 
-   1. In het Enige Sign-op gebied URL, typ URL: [ https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. Op het gebied van het Publiek URL, typ URL: [ https://learningmanager.adobe.com ](https://learningmanager.adobe.com/)
+   1. In het Enige Sign-op gebied URL, typ URL: [&#x200B; https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. Op het gebied van het Publiek URL, typ URL: [&#x200B; https://learningmanager.adobe.com &#x200B;](https://learningmanager.adobe.com/)
    1. In de **drop-down doos van het Formaat van de Naam** identiteitskaart, uitgezochte **E-mailAdres**.
    1. Selecteer Gebruikersnaam Okta in de vervolgkeuzelijst **Gebruikersnaam toepassing**.
    1. Indien u nog kenmerken wilt toevoegen, kunt u dit doen onder de **Kenmerkvermelding** (optioneel)
@@ -71,8 +71,8 @@ Adobe Learning Manager biedt ondersteuning voor door Identity Provider (IdP) en 
 
    **voor de opstelling van SP:**
 
-   1. In het Enige Sign-op gebied URL, typ URL: [ https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. Op het gebied van het Publiek URL, typ URL: [ https://learningmanager.adobe.com ](https://learningmanager.adobe.com/)
+   1. In het Enige Sign-op gebied URL, typ URL: [&#x200B; https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. Op het gebied van het Publiek URL, typ URL: [&#x200B; https://learningmanager.adobe.com &#x200B;](https://learningmanager.adobe.com/)
    1. Selecteer **E-mailadres** in de vervolgkeuzelijst Indeling naam-ID.
    1. Selecteer Gebruikersnaam Okta in de vervolgkeuzelijst Gebruikersnaam toepassing.
    1. Klik op **Geavanceerde instellingen weergeven**.

@@ -38,9 +38,9 @@ Het is mogelijk gekochte plaatsen te delen in Learning Manager met behulp van de
 >
 >Bijvoorbeeld:
 >
->In URL [ https://www.learningmanager.com/accountname ](https://www.learningmanager.com/accountname), is subdomain **accountname**.
+>In URL [&#x200B; https://www.learningmanager.com/accountname &#x200B;](https://www.learningmanager.com/accountname), is subdomain **accountname**.
 >
->In URL [ https://www.accountname.learningmanager.com ](https://www.accountname.learningmanager.com), is subdomain ook **accountnaam**.
+>In URL [&#x200B; https://www.accountname.learningmanager.com &#x200B;](https://www.accountname.learningmanager.com), is subdomain ook **accountnaam**.
 >
 >Het subdomein is uniek voor elke account en wordt gebruikt om toegang te krijgen tot de betreffende Learning Manager-instantie.
 

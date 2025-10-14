@@ -33,7 +33,7 @@ Meer informatie over de nieuwe functies en verbeteringen in de november 2024-ver
 
 >[!NOTE]
 >
->Controle uit dit [ webinar ](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course) om meer over de nieuwe eigenschappen in deze versie te leren.
+>Controle uit dit [&#x200B; webinar &#x200B;](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&loId=11231360&loType=course) om meer over de nieuwe eigenschappen in deze versie te leren.
 
 ## AI-gedreven zoekfunctie in Adobe Learning Manager
 
@@ -43,7 +43,7 @@ Adobe Learning Manager vernieuwt de manier waarop studenten naar cursussen of tr
 >
 >Zoeken op basis van AI is alleen beschikbaar voor studenten.
 
-Verwijs dit artikel [ Geavanceerd Onderzoek ](/help/migrated/learners/feature-summary/advanced-search.md) voor meer informatie.
+Verwijs dit artikel [&#x200B; Geavanceerd Onderzoek &#x200B;](/help/migrated/learners/feature-summary/advanced-search.md) voor meer informatie.
 
 ## Webhooks
 
@@ -51,7 +51,7 @@ Met Adobe Learning Manager kunt u integreren met Webhooks en realtime informatie
 
 Met een webhook in ALM kan een entiteit automatisch gegevens naar een andere toepassing verzenden via HTTP. Zo kan een toepassing andere toepassingen informatie verschaffen zonder er voortdurend om te vragen. Als een gebruiker bijvoorbeeld een LMS-cursus (Learning Management System) voltooit, kan een webhook die informatie automatisch naar een ander platform verzenden, zoals een CRM- of rapportagetool. Webhooks worden vaak gebruikt in integraties om processen te automatiseren en de behoefte aan handmatige updates tussen systemen te verminderen. Stel webhooks in door een callback-URL op te geven waarnaar u de gegevens wilt verzenden.
 
-Verwijs dit artikel [ Webhooks ](/help/migrated/integration-admin/feature-summary/webhooks.md) voor meer informatie.
+Verwijs dit artikel [&#x200B; Webhooks &#x200B;](/help/migrated/integration-admin/feature-summary/webhooks.md) voor meer informatie.
 
 ## Interoperabiliteit leergereedschappen
 
@@ -65,7 +65,7 @@ LTI (Learning Tools Interoperability) is een standaard waarmee tools en contentp
 
 **LTI als hulpmiddelconsument**: LTI als de consument van het Hulpmiddel staat LMS toe om externe hulpmiddelen via het LTI (het Leren Interoperability van Hulpmiddelen) te integreren. In dit scenario is LMS een consument van diensten die door externe instrumenten worden geleverd. Adobe Learning Manager fungeert als consument van een LTI-tool, waardoor het programma leermiddelen van derden kan integreren. Op deze manier kunnen Adobe Learning Manager-studenten cursussen, certificaten of leerpaden volgen met de tools van derden in de Adobe Learning Manager.
 
-Verwijs dit artikel [ het Leren Interoperabiliteit van het Hulpmiddel ](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md) voor meer informatie.
+Verwijs dit artikel [&#x200B; het Leren Interoperabiliteit van het Hulpmiddel &#x200B;](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md) voor meer informatie.
 
 ## Credly
 
@@ -79,17 +79,17 @@ Credly is een digitaal aanmeldingsplatform waarmee studenten en organisaties pro
 
 Voeg eerst de Credly-connector in Adobe Learning Manager (ALM) toe. Migreer vervolgens de bestaande badges van Credly om de continuïteit van de prestaties van de student te garanderen. Maak ten slotte in Adobe Learning Manager een vaardigheid om de ontwikkeling en herkenning van studenten te verbeteren.
 
-Verwijs naar dit artikel [ Credly ](/help/migrated/integration-admin/feature-summary/credly-integration.md) voor meer informatie
+Verwijs naar dit artikel [&#x200B; Credly &#x200B;](/help/migrated/integration-admin/feature-summary/credly-integration.md) voor meer informatie
 
 ## Nalevingsdashboard
 
-In deze release kunnen beheerders nu het dashboard delen met andere beheerders, aangepaste beheerders en winkelmanagers, zodat ze direct toegang hebben tot de dashboards voor compliance. Ze kunnen nu de standaardcompatibiliteitswidget op de startpagina van de student instellen, zodat studenten hun nalevingsvereisten kunnen volgen. Verwijs naar dit artikel [ dashboard van de Naleving ](/help/migrated/administrators/feature-summary/reports.md#share-compliance-dashboard-with-admins-and-custom-admins) voor meer informatie.
+In deze release kunnen beheerders nu het dashboard delen met andere beheerders, aangepaste beheerders en winkelmanagers, zodat ze direct toegang hebben tot de dashboards voor compliance. Ze kunnen nu de standaardcompatibiliteitswidget op de startpagina van de student instellen, zodat studenten hun nalevingsvereisten kunnen volgen. Verwijs naar dit artikel [&#x200B; dashboard van de Naleving &#x200B;](/help/migrated/administrators/feature-summary/reports.md#share-compliance-dashboard-with-admins-and-custom-admins) voor meer informatie.
 
 ## Ondersteuning voor meerdere talen
 
 Met Adobe Learning Manager (ALM) kunnen auteurs nu taalspecifieke instanties maken met taalcodering voor klassikale en virtuele klassikale modules. Studenten hebben in hun voorkeurstaal toegang tot CR/VC-modules. Een auteur kan bijvoorbeeld een CR/VC-module maken met twee instanties: een in het Engels en een in het Frans. Studenten kunnen de instanties in hun voorkeurstaal selecteren.
 
-Verwijs naar dit artikel [ Leerobjecten in verschillende scènes ](/help/migrated/authors/feature-summary/add-new-language-learning-objects.md#multi-language-support-for-crvc-instances-with-language-tagging) voor meer informatie toevoegen.
+Verwijs naar dit artikel [&#x200B; Leerobjecten in verschillende scènes &#x200B;](/help/migrated/authors/feature-summary/add-new-language-learning-objects.md#multi-language-support-for-crvc-instances-with-language-tagging) voor meer informatie toevoegen.
 
 ## Aangepaste rollen
 
@@ -106,13 +106,13 @@ Beheerders kunnen nauwkeurige machtigingen toewijzen op basis van gebruikersvera
 
 Login als beheerder en navigeer aan **[!UICONTROL Gebruikers]** > **[!UICONTROL de Rollen van de Douane]** om de Rollen van de Douane te creëren en te beheren.
 
-Verwijs dit artikel [ de rollen van de Douane ](/help/migrated/administrators/feature-summary/custom-role.md) voor meer informatie.
+Verwijs dit artikel [&#x200B; de rollen van de Douane &#x200B;](/help/migrated/administrators/feature-summary/custom-role.md) voor meer informatie.
 
 ## Opmerkingen bij voltooiing
 
 Beheerders kunnen nu opmerkingen toevoegen wanneer studenten als voltooid worden gemarkeerd in cursussen, leerpaden of certificeringen. Beheerders kunnen tegelijkertijd opmerkingen toevoegen voor een of meerdere studenten en de opmerkingen verschijnen in het rapport [&#128279;](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) Studenttranscripten.
 
-Verwijs dit artikel [ commentaren van de Voltooiing ](/help/migrated/administrators/feature-summary/courses.md#completion-comments) voor meer informatie.
+Verwijs dit artikel [&#x200B; commentaren van de Voltooiing &#x200B;](/help/migrated/administrators/feature-summary/courses.md#completion-comments) voor meer informatie.
 
 ## Rapport voor gebruikersgroep
 
@@ -126,7 +126,7 @@ Het nieuwe **[!UICONTROL Rapport van de Groep van de Gebruiker van Adobe Learnin
 * Gemaakt op (UTC-tijdzone)
 * Aantal gebruikers
 
-Verwijs dit artikel [ rapport van de gebruikersgroep ](/help/migrated/administrators/feature-summary/add-users-user-groups.md#user-group-report) voor meer informatie.
+Verwijs dit artikel [&#x200B; rapport van de gebruikersgroep &#x200B;](/help/migrated/administrators/feature-summary/add-users-user-groups.md#user-group-report) voor meer informatie.
 
 ## Wachtlijstrapport
 
@@ -147,12 +147,12 @@ De volgende kolommen zijn beschikbaar in het rapport Wachtlijst:
 * Wachtlijstlimiet
 * Plaatslimiet
 
-Verwijs dit artikel [ Wachtlijstrapport (Admin) ](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) en [ Wachtlijstrapport (Instructeurs) ](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) om rapport van Admin en de sectie van de Instructeur te downloaden.
+Verwijs dit artikel [&#x200B; Wachtlijstrapport (Admin) &#x200B;](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) en [&#x200B; Wachtlijstrapport (Instructeurs) &#x200B;](/help/migrated/instructors/feature-summary/learners.md#waitlist-report) om rapport van Admin en de sectie van de Instructeur te downloaden.
 
 ## Toegankelijkheid op studentstartpagina
 
 Adobe Learning Manager ondersteunt nu alt-tekst voor alle mastheads om de toegankelijkheid voor studenten te verbeteren. Zo kunnen studenten met speciale behoeften de alt-tekst lezen en de afbeelding begrijpen met behulp van schermlezers. U kunt meerdere talen selecteren en voor elke taal alternatieve tekst bieden. Voeg de alt-tekst toe in de desbetreffende talen. Zorg ervoor dat het bedrijfslogo in uw account ook alt-tekst met de bedrijfsnaam bevat.
-Verwijs dit artikel [ Bekendmaking ](/help/migrated/administrators/feature-summary/announcements.md#masthead) voor meer informatie.
+Verwijs dit artikel [&#x200B; Bekendmaking &#x200B;](/help/migrated/administrators/feature-summary/announcements.md#masthead) voor meer informatie.
 
 ## Ondersteuning voor Hindi
 
@@ -219,7 +219,7 @@ De migratieworkflow bevat de volgende wijzigingen:
 
 ### Wijzigingen in de migratie van modules
 
-Wanneer u modules naar ALM migreert, worden deze standaard in de openbare map opgeslagen. In deze versie, voegden wij een nieuwe kolom genoemd `folder` in het [ module_version.csv ](assets/module_version.csv) dossier toe. Beheerders kunnen deze kolom gebruiken om de mapnaam op te geven voor de modules die na de migratie moeten worden gebruikt. Beheerders kunnen ook één module in meerdere mappen plaatsen door de mapnamen gescheiden door komma&#39;s weer te geven.
+Wanneer u modules naar ALM migreert, worden deze standaard in de openbare map opgeslagen. In deze versie, voegden wij een nieuwe kolom genoemd `folder` in het [&#x200B; module_version.csv &#x200B;](assets/module_version.csv) dossier toe. Beheerders kunnen deze kolom gebruiken om de mapnaam op te geven voor de modules die na de migratie moeten worden gebruikt. Beheerders kunnen ook één module in meerdere mappen plaatsen door de mapnamen gescheiden door komma&#39;s weer te geven.
 
 De mapkolom gebruikt het gegevenstype String en is een optionele kolom. Hieronder volgen de voorwaarden voor de mappenkolom:
 
@@ -228,11 +228,11 @@ De mapkolom gebruikt het gegevenstype String en is een optionele kolom. Hieronde
 * Als u een nieuwe mapnaam toevoegt voor een module die al in een andere map staat, wordt de toegewezen map niet overschreven of vervangen door de nieuwe waarde. De module wordt toegevoegd aan de nieuwe map en blijft ook beschikbaar in de bestaande map.
 * Als de waarde leeg is, zal de omslag aan **[!UICONTROL Openbaar]** in gebreke blijven.
 
-Verwijs [ module_version csv specificc ](assets/4-module_version.xlsx) dossier voor meer informatie.
+Verwijs [&#x200B; module_version csv specificc &#x200B;](assets/4-module_version.xlsx) dossier voor meer informatie.
 
 ### Wijzigingen in de migratie van modules - voltooiingscriteria
 
-Beheerders kunnen de voltooiingscriteria voor de modules tijdens de moduleverigratie opgeven. In deze versie, hebben wij een nieuwe kolommen `completionCriteria`, `viewPercent` en `quizData` in [ module_version.csv ](assets/module_version.csv) toegevoegd.
+Beheerders kunnen de voltooiingscriteria voor de modules tijdens de moduleverigratie opgeven. In deze versie, hebben wij een nieuwe kolommen `completionCriteria`, `viewPercent` en `quizData` in [&#x200B; module_version.csv &#x200B;](assets/module_version.csv) toegevoegd.
 
 Hier volgen de voorwaarden voor de nieuwe kolommen:
 
@@ -258,11 +258,11 @@ Hier volgen de voorwaarden voor de nieuwe kolommen:
    * Het gegevenstype moet een tekenreekswaarde zijn en de ondersteunde waarden zijn `QUIZ_ATTEMPTED` , `QUIZ_PASSED` en `QUIZPASSED_OR_LIMITREACHED` .
    * Als `completionCriteria` is ingesteld op `QUIZ` , voert u de desbetreffende quizwaarde in de kolom `quizData` in.
 
-Verwijs [ module_version csv specificc ](assets/4-module_version.xlsx) dossier voor meer informatie.
+Verwijs [&#x200B; module_version csv specificc &#x200B;](assets/4-module_version.xlsx) dossier voor meer informatie.
 
 ### Wijzigingen in cursusmigratie - Voltooiingscriteria
 
-Beheerders kunnen de voltooiingscriteria voor de cursussen tijdens de cursusmigratie opgeven. In deze versie, hebben wij een nieuwe kolom toegevoegd genoemd `completionCriteria` in [ course.csv ](assets/course.csv).
+Beheerders kunnen de voltooiingscriteria voor de cursussen tijdens de cursusmigratie opgeven. In deze versie, hebben wij een nieuwe kolom toegevoegd genoemd `completionCriteria` in [&#x200B; course.csv &#x200B;](assets/course.csv).
 
 Hier volgen de voorwaarden voor de kolom `completionCriteria` :
 
@@ -272,7 +272,7 @@ Hier volgen de voorwaarden voor de kolom `completionCriteria` :
 * Als u `completionCriteria` aan `SELECTEDMODULES` plaatst, moet u de verplichte modules in het {[&#128279;](assets/course_module.csv) dossier 2} course_module.csv merken.
 * Typ `TRUE` of `FALSE` in de kolom `optionalCriteria` . Als u de waarde instelt als `TRUE` , wordt de module verplicht.
 
-Verwijs [ cursus csv spec ](assets/3-course.xlsx) en [ course_module csv spec ](assets/6-course_module.xlsx) dossier voor meer informatie.
+Verwijs [&#x200B; cursus csv spec &#x200B;](assets/3-course.xlsx) en [&#x200B; course_module csv spec &#x200B;](assets/6-course_module.xlsx) dossier voor meer informatie.
 
 ## API-wijzigingen
 
@@ -570,11 +570,11 @@ Het **[!UICONTROL Samenvatting van de Zitting]** rapport zal drie nieuwe kolomme
 
 ## Systeemvereisten
 
-De systeemvereisten van de mening [ Adobe Learning Manager ](/help/migrated/system-requirements.md).
+De systeemvereisten van de mening [&#x200B; Adobe Learning Manager &#x200B;](/help/migrated/system-requirements.md).
 
 ## Opmerkingen bij de release
 
-Controle uit de [ versienota&#39;s ](/help/migrated/release-note/release-notes.md) voor recentste versieupdates.
+Controle uit de [&#x200B; versienota&#39;s &#x200B;](/help/migrated/release-note/release-notes.md) voor recentste versieupdates.
 
 ## Eerdere releases van Adobe Learning Manager
 

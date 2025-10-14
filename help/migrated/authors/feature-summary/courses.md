@@ -56,7 +56,7 @@ Volg de onderstaande stappen om een cursus te maken:
 
    1. Kies op de pagina Cursusinstellingen een vaardigheid voor de cursus. Kies de gewenste vaardigheid in de vervolgkeuzelijst Vaardigheid. Kies dan het gewenste niveau in de vervolgkeuzelijst Niveau.
    1. Kies de cursusvaardigheden en stel het niveau en de punten voor de vaardigheid in. Voeg indien nodig meer vaardigheden toe.
-   1. Voeg indien nodig de aangepaste compatibiliteitslabels aan de cursus toe. Zie [ nalevingsetiketten aan cursus/het leren weg/certificatie ](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) toevoegen.
+   1. Voeg indien nodig de aangepaste compatibiliteitslabels aan de cursus toe. Zie [&#x200B; nalevingsetiketten aan cursus/het leren weg/certificatie &#x200B;](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) toevoegen.
    1. Kies het type inschrijving in de vervolgkeuzelijst **Inschrijvingstype**.
 
    U kunt kiezen uit de volgende typen:
@@ -138,7 +138,7 @@ U kunt gamification-punten toewijzen op cursus- en cursusinstantieniveau. Hierme
 
 1. Selecteer **[!UICONTROL Gamification-punten]** op cursusinstantieniveau.
 
-![ gamificationpunten ](assets/select-gamification-points-new.png)
+![&#x200B; gamificationpunten &#x200B;](assets/select-gamification-points-new.png)
 
 *plaats punten voor gamification*
 
@@ -159,7 +159,7 @@ U kunt gamification-punten toewijzen op cursus- en cursusinstantieniveau. Hierme
       * **[!UICONTROL Snelle voltooiing]**: als u deze optie selecteert, kunt u bepalen hoeveel studenten specifieke punten krijgen toegewezen.
       * **[!UICONTROL Tijdige voltooiing]**: als u deze optie selecteert, kunt u bepalen hoeveel punten studenten krijgen als ze binnen een bepaalde tijd een cursus voltooien.
 
-   ![ gamificationpunten ](assets/gamification-custom-settings.png)
+   ![&#x200B; gamificationpunten &#x200B;](assets/gamification-custom-settings.png)
 
    *plaats vroege en geschikte voltooiing*
 
@@ -183,13 +183,13 @@ Beheer conflicten bij het boeken van docenten en klaslokalen. Gebruik de Plannin
 
 Klik tijdens het maken van een cursus voor een VC- of CR-cursus op Planning Assistant.
 
-![ Uitgezochte Plannende Medewerker ](assets/scheduling-assistant.png)
+![&#x200B; Uitgezochte Plannende Medewerker &#x200B;](assets/scheduling-assistant.png)
 
 *Lanceer plannend medewerker*
 
 Het venster Scheduling Assistant wordt geopend.
 
-![ Plannend Hulpscherm ](assets/scheduling-assistant-window.png)
+![&#x200B; Plannend Hulpscherm &#x200B;](assets/scheduling-assistant-window.png)
 
 *de Plannende Hulp dialoog*
 
@@ -202,13 +202,13 @@ In de Planningsassistent kunt u:
 
 Typ in het veld Docent de naam van de docent of zoek naar een gedeeltelijke docentnaam. Er verschijnt een lijst met docenten waaruit u een docent kunt kiezen.
 
-![ docenten van het Onderzoek door naam ](assets/search-instructor.png)
+![&#x200B; docenten van het Onderzoek door naam &#x200B;](assets/search-instructor.png)
 
 *Onderzoek naar instructeurs*
 
 Er kunnen meerdere docenten worden geselecteerd, maar er kan slechts één docent per keer worden toegewezen. De geselecteerde tijd wordt gemarkeerd in het venster tijdconflict. In de buurt van de docent verschijnt een kruispictogram, waarop u klikt om de docent te verwijderen.
 
-![ Uitgezochte veelvoudige instructeurs ](assets/busy-times.png)
+![&#x200B; Uitgezochte veelvoudige instructeurs &#x200B;](assets/busy-times.png)
 
 *Onderzoek naar veelvoudige instructeurs*
 
@@ -222,7 +222,7 @@ Voer op de Assistent de naam van de docent, locatie en plaatslimiet in.
 
 U kunt ook zoeken in vaardigheden die worden weergegeven nadat u op het filterpictogram aan de rechterkant van het zoekvak voor docenten hebt geklikt. In de onderstaande schermafbeelding wordt de knop weergegeven.
 
-![ ga vaardigheden voor instructeur ](assets/scheduling-assistant-instructor-skill.png) in
+![&#x200B; ga vaardigheden voor instructeur &#x200B;](assets/scheduling-assistant-instructor-skill.png) in
 
 *Onderzoek naar instructeurs door vaardigheden*
 
@@ -234,7 +234,7 @@ Als beide filters worden toegepast, wordt een lijst met docenten weergegeven die
 
 Dit geldt voor de planningsassistent op de pagina Cursussen of Instanties.
 
-![ plannend medewerker ](assets/scheduling-assistant-2.png)
+![&#x200B; plannend medewerker &#x200B;](assets/scheduling-assistant-2.png)
 
 *Filter door de Groepen van de Gebruiker*
 
@@ -244,7 +244,7 @@ U kunt de Planningsassistent ook openen vanaf de pagina Instantie, zoals hierond
 
 De Planningsassistent is ook beschikbaar op de Instantie-pagina voor beheerders en voor aangepaste beheerders/auteurs.
 
-![ Plannend Medewerker van de pagina van de Instantie ](assets/instances-scheduling.png)
+![&#x200B; Plannend Medewerker van de pagina van de Instantie &#x200B;](assets/instances-scheduling.png)
 
 *docenten van het Programma van de pagina van Instanties*
 
@@ -632,7 +632,7 @@ Docenten in staat stellen het succes van de student te markeren:
 6. Typ de benodigde gegevens en selecteer de datums.
 7. Selecteer **[!UICONTROL sta Instructeur toe om succes]** optie te merken.
 
-   ![ &quot;Toestaan dat docent succes markeert?&quot; checkbox wordt benadrukt, toelatend auteurs om instructeurs te laten de status van het studentensucces voor een module registreren ](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![&#x200B; &quot;Toestaan dat docent succes markeert?&quot; checkbox wordt benadrukt, toelatend auteurs om instructeurs te laten de status van het studentensucces voor een module registreren &#x200B;](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _het scherm van de Details van de Zitting met Toestaan docent om succesoptie te merken voor de modules van de Klassroom of Virtuele Classroom wordt benadrukt_
 
 8. Selecteer **[!UICONTROL Gedaan]**.
@@ -644,7 +644,7 @@ Naast docenten kunnen managers nu ook een Controlelijstmodule beoordelen. Person
 
 Cursusauteurs kunnen Personen en Niet-hiërarchische managers (indien van toepassing) als revisoren toevoegen door deze rolopties te selecteren in de sectie &quot;Revisoren&quot; terwijl ze een controlelijstmodule instellen. Dit kan worden uitgevoerd op cursusinstantieniveau.
 
-![ Checklist voor managers ](assets/manager-checklist.png)
+![&#x200B; Checklist voor managers &#x200B;](assets/manager-checklist.png)
 
 *voeg recensenten in een activiteitenmodule* toe
 
@@ -662,13 +662,13 @@ Updates aan de controlelijstmodule omvat ook meldingen aan docenten en managers 
 
 De beoordelaar kan informatie bekijken over alle in behandeling zijnde beoordelingsitems van de controlelijst in het menu Controlelijsten en in het menu Meldingen wanneer deze inlogt als docent/manager.
 
-![ goedkeuringen van de Warm ](assets/pending-task-managers.png)
+![&#x200B; goedkeuringen van de Warm &#x200B;](assets/pending-task-managers.png)
 
 *goedkeuringen voor certificatie*
 
 Nadat u op Controlelijst bekijken hebt geklikt, kan de beoordelaar de evaluatie voltooien.
 
-![ Overzicht in afwachting van controlelijstitems ](assets/evaluation-checklist.png)
+![&#x200B; Overzicht in afwachting van controlelijstitems &#x200B;](assets/evaluation-checklist.png)
 
 *Overzicht in afwachting van controlelijstitems*
 
@@ -686,7 +686,7 @@ Nadat de cursus is gemaakt en opgeslagen als concept, kunt u een voorvertoning v
 
 Klik op **[!UICONTROL Voorbeeld bekijken als student]** om de cursus vooraf te bekijken.
 
-![ Voorproef een cursus als student ](assets/preview-as-a-learner.png)
+![&#x200B; Voorproef een cursus als student &#x200B;](assets/preview-as-a-learner.png)
 
 *Voorproef een cursus als student*
 
@@ -881,7 +881,7 @@ Zoals te zien in het bovenstaande taartdiagram wordt er meer gewicht gegeven aan
 
 Zowel auteur als beheerder kunnen vanuit de auteurstoepassing certificeringen en leerprogramma&#39;s voor studenten maken. Klik op de startpagina op Certificeringen of Leerprogramma&#39;s om de respectievelijke leerobjecten te maken.
 
-Om te weten om certificatie en het leren programma&#39;s tot stand te brengen en te beheren, zie [ Certificeringen ](/help/migrated/administrators/feature-summary/certifications.md) en [ Leren Programma&#39;s ](/help/migrated/administrators/feature-summary/learning-programs.md).
+Om te weten om certificatie en het leren programma&#39;s tot stand te brengen en te beheren, zie [&#x200B; Certificeringen &#x200B;](/help/migrated/administrators/feature-summary/certifications.md) en [&#x200B; Leren Programma&#39;s &#x200B;](/help/migrated/administrators/feature-summary/learning-programs.md).
 
 ## Verplichte cursussen voor externe certificering {#mandatorycoursesforexternalcertification}
 

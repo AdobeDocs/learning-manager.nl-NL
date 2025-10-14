@@ -41,7 +41,7 @@ Voor de niet-aangemelde gebruiksscenario&#39;s is een speciale afhandeling verei
 
 Voor de homepage van Adobe Learning Manager, uitgezochte **Branding**. Selecteer vervolgens Niet-aangemelde startpagina in het linkerdeelvenster.
 
-![ homepage opties ](assets/non-logged-in-homepage.png)
+![&#x200B; homepage opties &#x200B;](assets/non-logged-in-homepage.png)
 
 *selecteer de optie niet-het programma geopende Homepage*
 
@@ -49,7 +49,7 @@ Voor de homepage van Adobe Learning Manager, uitgezochte **Branding**. Selecteer
 
 Voeg een banner toe voor elke marketingaankondiging of voor het trending onderwerp van de dag. Selecteer **banner** toevoegen.
 
-![ banner ](assets/add-banner-image.png)
+![&#x200B; banner &#x200B;](assets/add-banner-image.png)
 
 *voeg een banner toe*
 
@@ -61,7 +61,7 @@ Dit onderdeel kan worden gebruikt om de catalogus te filteren op tags, vaardighe
 
 Selecteer **[!UICONTROL voeg categorie]** toe. Voer vervolgens de gegevens voor de categorie in.
 
-![ voeg categorie ](assets/add-category.png) toe
+![&#x200B; voeg categorie &#x200B;](assets/add-category.png) toe
 
 *voeg de categorieën* toe
 
@@ -71,7 +71,7 @@ Sla de categorie op. Vervolgens wordt de categorie aan de sectie toegevoegd.
 
 Voeg een catalogus toe voor gebruikers die niet zijn aangemeld, zodat ze door alle trainingen op het platform kunnen bladeren.
 
-![ voeg catalogus ](assets/add-catalog.png) toe
+![&#x200B; voeg catalogus &#x200B;](assets/add-catalog.png) toe
 
 *voeg een catalogus toe*
 

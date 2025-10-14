@@ -25,7 +25,7 @@ Beheerders kunnen er ook voor kiezen om voor bepaalde gebeurtenissen geen e-mail
 
 In deze training leert u hoe u afzonderlijke e-mailsjablonen kunt aanpassen en instellingen op cursusniveau en accountniveau voor e-mailsjablonen kunt aanpassen.
 
-[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318925)
+[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318925)
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
@@ -163,7 +163,7 @@ U kunt het rapport van de e-mailtoegang downloaden door de **[!UICONTROL knoop v
 
 ## E-maildomein aanpassen {#customizeemaildomain}
 
-Om het e-maildomein en e-mail-ID aan te passen waarvan uw studenten berichten ontvangen, contacteer de [***Lerende steun van de Manager*** ](https://helpx.adobe.com/nl/contact/enterprise-support.other.html#learning-manager) en verstrek de details van het domein u, en uw nieuwe e-mail-ID wilt toevoegen.
+Om het e-maildomein en e-mail-ID aan te passen waarvan uw studenten berichten ontvangen, contacteer de [***Lerende steun van de Manager*** &#x200B;](https://helpx.adobe.com/nl/contact/enterprise-support.other.html#learning-manager) en verstrek de details van het domein u, en uw nieuwe e-mail-ID wilt toevoegen.
 
 Uw verzoek wordt verwerkt en u ontvangt een bevestigingslink op het nieuwe e-mailadres dat u hebt opgegeven. Klik op de verificatielink in de e-mail om het verificatieproces te bevestigen en te voltooien.
 
@@ -211,7 +211,7 @@ De belangrijkste verbeteringen voor het aanpassen van e-mailsjablonen zijn:
 
 Selecteer **[!UICONTROL E-mailMalplaatjes]** > **[!UICONTROL Montages]**. Selecteer **[!UICONTROL Bewerken]** in de sectie **[!UICONTROL Aanhef e-mail]**.
 
-![ pas e-mail ](assets/email-salutation.png) aan
+![&#x200B; pas e-mail &#x200B;](assets/email-salutation.png) aan
 
 *pas e-mailaanhef* aan
 

@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Overzicht van het groepssuccesdashboard
 
-Met het Group Success Dashboard (GSD) in Adobe Learning Manager kunnen beheerders en managers in real-time (60 minuten vertraging vanaf inschrijving, voortgang of voltooiing tot reflectie op het dashboard) de voortgang van de studenten in alle afdelingen of gebruikersgroepen volgen. Het ondersteunt het proactief volgen van cursusvoltooiing, inschrijving en openstaande acties, waardoor het makkelijker wordt om het leerproces voor teams te beheren. Bekijk dit [ artikel ](/help/migrated/administrators/feature-summary/add-users-user-groups.md) om meer over de groepen van de Gebruiker te leren.
+Met het Group Success Dashboard (GSD) in Adobe Learning Manager kunnen beheerders en managers in real-time (60 minuten vertraging vanaf inschrijving, voortgang of voltooiing tot reflectie op het dashboard) de voortgang van de studenten in alle afdelingen of gebruikersgroepen volgen. Het ondersteunt het proactief volgen van cursusvoltooiing, inschrijving en openstaande acties, waardoor het makkelijker wordt om het leerproces voor teams te beheren. Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/add-users-user-groups.md) om meer over de groepen van de Gebruiker te leren.
 
 ## Belangrijke gebruiksscenario&#39;s
 

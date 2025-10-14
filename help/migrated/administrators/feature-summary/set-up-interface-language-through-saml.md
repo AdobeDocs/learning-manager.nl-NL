@@ -29,7 +29,7 @@ Ga als volgt te werk om een toepassing te maken in Okta:
 4. Typ een naam voor de toepassing en selecteer Volgende.
 5. Configureer de volgende velden:
 
-   * **[!UICONTROL Enige Sign-On URL]**: Type het specifieke domein URL waaraan u de toepassing wilt verbinden (bijvoorbeeld, [ https://learningmanagerstage.adobe.com/saml/SSO ](https://learningmanagerstage.adobe.com/saml/SSO)). Wijzig indien nodig de URL van de omgeving.
+   * **[!UICONTROL Enige Sign-On URL]**: Type het specifieke domein URL waaraan u de toepassing wilt verbinden (bijvoorbeeld, [&#x200B; https://learningmanagerstage.adobe.com/saml/SSO &#x200B;](https://learningmanagerstage.adobe.com/saml/SSO)). Wijzig indien nodig de URL van de omgeving.
    * **[!UICONTROL Audience URI (identiteitskaart van de Entiteit van SP)]**: Gebruik het zelfde milieu URL zoals hierboven.
    * **[!UICONTROL Formaat van identiteitskaart van de Naam]**: Selecteer e-mailadres.
    * **[!UICONTROL Gebruikersnaam van de Toepassing]**: Selecteer Gebruikersbenaming Okta.
