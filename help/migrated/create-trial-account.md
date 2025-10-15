@@ -16,7 +16,7 @@ U kunt in Adobe Learning Manager eenvoudig een gratis proefaccount van 30 dagen 
 
 Een proefaccount maken:
 
-1. Ga naar [&#x200B; Adobe Learning Manager &#x200B;](https://business.adobe.com/products/learning-manager/adobe-learning-manager.html).
+1. Ga naar [&#x200B; Adobe Learning Manager &#x200B;](https://business.adobe.com/nl/products/learning-manager/adobe-learning-manager.html).
 2. Selecteer **[!UICONTROL Vrije proefversie van 30 dagen]**.
 
    ![](assets/free-trial.png)
