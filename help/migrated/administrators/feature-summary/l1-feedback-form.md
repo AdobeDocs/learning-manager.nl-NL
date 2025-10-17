@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De verbeterde functie L1-feedback wordt geïmplementeerd om klanten te selecteren. Als u deze eigenschap in uw rekening niet ziet, voegt de Mening [ L1 en L3 terug ](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) voor meer informatie over het bestaan terugkoppelt eigenschap toe.
+>De verbeterde functie L1-feedback wordt geïmplementeerd om klanten te selecteren. Als u deze eigenschap in uw rekening niet ziet, voegt de Mening [&#x200B; L1 en L3 terug &#x200B;](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) voor meer informatie over het bestaan terugkoppelt eigenschap toe.
 >
 >Neem contact op met het CSM-team (Customer Success Manager) om het nieuwe feedbacksysteem in te schakelen en meer te weten te komen over de tijdlijn van de migratie.
 
@@ -80,14 +80,14 @@ Een L1-feedbackformulier maken:
    d. **[!UICONTROL Score van de Effectiviteit van de Cursus]**: Een schaal om te meten hoe effectief een cursus studenten beïnvloedt, gebruikend een relatief classificatiesysteem.
 
    * Een vooraf gedefinieerde vraag met een Likert-schaal van 1 tot 10 wordt toegevoegd aan het feedbackformulier.
-   * U kunt slechts één **[!UICONTROL vraag van de Score van de Effectiviteit van 0} Cursus toevoegen, en het kan niet worden uitgegeven]**
+   * U kunt slechts één **[!UICONTROL vraag van de Score van de Effectiviteit van 0&rbrace; Cursus toevoegen, en het kan niet worden uitgegeven]**
      ![](assets/course-effective.png)
      _voeg de vraag van de Score van de Effectiviteit van de Cursus aan de feedbackvorm toe_
 7. Selecteer **[!UICONTROL sparen]**. U kunt de gemaakte formulieren bekijken in de sectie Feedback-Forms.
 
 ### Voorbeeld van het feedbackformulier bekijken
 
-U kunt een voorbeeld van het feedbackformulier bekijken door Voorvertoning in het Engels (Verenigde Staten) te selecteren. Als u het formulier in meerdere talen hebt gemaakt, kunt u het ook in elke taal bekijken. Bekijk deze [ sectie ](/help/migrated/administrators/feature-summary/l1-feedback-form.md#add-feedback-forms-in-other-languages) om te leren hoe te om terugkoppel vormen in andere talen toe te voegen.
+U kunt een voorbeeld van het feedbackformulier bekijken door Voorvertoning in het Engels (Verenigde Staten) te selecteren. Als u het formulier in meerdere talen hebt gemaakt, kunt u het ook in elke taal bekijken. Bekijk deze [&#x200B; sectie &#x200B;](/help/migrated/administrators/feature-summary/l1-feedback-form.md#add-feedback-forms-in-other-languages) om te leren hoe te om terugkoppel vormen in andere talen toe te voegen.
 
 ![](assets/preview.png)
 _het scherm van de Formulieren van de Terugkoppeling tonend de optie van de Voorproef om de feedbackvorm in de standaardtaal_ te bekijken
