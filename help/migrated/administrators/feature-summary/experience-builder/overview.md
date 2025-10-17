@@ -2,9 +2,9 @@
 description: Meer informatie over Experience Builder, een niet-code-/low-code-tool in Adobe Learning Manager waarmee beheerders merkgebonden, gebruikersvriendelijke pagina's kunnen ontwerpen en publiceren zonder technische expertise.
 jcr-language: en_us
 title: Experience Builder in Adobe Learning Manager
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -54,3 +54,26 @@ Experience Builder kan worden gebruikt voor verschillende leerscenario&#39;s waa
 * **op rol-gebaseerde opleidingsportals**: De organisaties met specifieke behoeften van de afdelingsopleiding, zoals een financieel bedrijf met afzonderlijke teams van de Verkoop en van het Succes van de Klant, kunnen specifieke het leren pagina&#39;s voor elke groep tot stand brengen om ervoor te zorgen de inhoud hoogst relevant is.
 * **gebeurtenis-specifieke het leren pagina&#39;s**: U kunt tijdelijke, gespecialiseerde pagina&#39;s voor collectieve gebeurtenissen zoals een Top van de Tech of een Kick van de Verkoop creëren weg. Deze pagina&#39;s kunnen sessiegegevens, sprekerslijsten en een widget Gebeurtenissenagenda bevatten en kunnen alleen voor een bepaalde duur naar het relevante team worden gestuurd voordat u terugkeert naar de standaardpoortervaring.
 * **de academies van de Klant**: De Bouwer van de Ervaring staat agentschappen toe om klant-onder ogen ziende academies te bouwen die hun merkidentiteit weerspiegelen, die een douaneervaring zonder de tijd en de kosten verbonden aan een headless bouw bereiken.
+
+## Voor authentiek verklaarde externe portalworkflows
+
+Met Experience Builder gebouwde klantgerichte academies worden volledig beheerd binnen Adobe Learning Manager. Deze portals maken gebruik van het ingebouwde Adobe Learning Manager-framework voor verificatie, machtigingen en beveiliging.
+
+Elke externe student moet zich aanmelden bij Adobe Learning Manager en lid zijn van ten minste één gebruikersgroep. Momenteel biedt Experience Builder geen ondersteuning voor niet-geverifieerde of openbare portalen. Voor alle gepersonaliseerde ervaringen moeten studenten zich aanmelden bij Adobe Learning Manager.
+
+De beheerders kunnen de optie van het Menu van de Bouwer van de Ervaring **** gebruiken om douane-gebouwde pagina&#39;s als landende pagina&#39;s voor specifieke Gebruikersgroepen toe te wijzen. Wanneer studenten uit die groep zich aanmelden, stuurt Adobe Learning Manager ze automatisch naar de toegewezen landingspagina, waardoor een gepersonaliseerde en merkgebonden ervaring voor die doelgroep ontstaat, zoals klantentraining, partneractivering of onboarding.
+
+### Eisen en beperkingen
+
+* Verificatie vereist: gepersonaliseerde inhoud, aangepaste pagina&#39;s en menu&#39;s zijn alleen beschikbaar voor geverifieerde gebruikers in Adobe Learning Manager.
+* Toewijzing van gebruikersgroep: studenten moeten aan de juiste gebruikersgroepen worden toegevoegd om toegang te krijgen tot hun toegewezen openingspagina&#39;s en menu&#39;s.
+* Landingspagina&#39;s op basis van groep: de landingspagina-instelling is van toepassing op alle leden van een gebruikersgroep, zodat vergelijkbare doelgroepen consistente ervaringen krijgen.
+* Aanpassingsbereik: Experience Builder ondersteunt uitgebreide aanpassingen van de gebruikersinterface en lay-out met behulp van widgets, HTML en iFrames. Voor geavanceerde integraties zoals e-commerce, federated SSO of externe dataverbindingen is mogelijk een hybride of headless implementatie vereist.
+
+### Workflow voor instellen van externe portal
+
+* Definieer gebruikersgroepen: Maak of identificeer groepen in ALM die uw externe doelgroepen vertegenwoordigen (bijvoorbeeld klanten, partners of distributeurs). Bekijk [ de groepen van de Gebruiker in Adobe Learning Manager ](/help/migrated/administrators/feature-summary/user-group.md) voor meer informatie over de Groepen van de Gebruiker.
+* Studenten toewijzen aan groepen: voeg elke externe student toe aan de juiste gebruikersgroep, zodat deze na aanmelding naar de juiste portal wordt geleid.
+* Ontwerp portalpagina&#39;s: gebruik Experience Builder om branded pagina&#39;s te maken met Adobe Learning Manager-widgets, HTML- en iFrame-componenten. De mening [ creeert een douanepagina in de Bouwer van de Ervaring ](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md) voor meer informatie.
+* Menu&#39;s en bestemmingspagina&#39;s configureren: wijs in de menumaker aan elke gebruikersgroep een uniek menu toe en wijs de aangepaste portalpagina aan als openingspagina. De mening [ leidt tot een menu ](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md) voor meer informatie.
+* Testen en Publish: controleer de navigatie, de zichtbaarheid van de inhoud en het routeren van de pagina&#39;s voor elke gebruikersgroep voordat u de portal publiceert.

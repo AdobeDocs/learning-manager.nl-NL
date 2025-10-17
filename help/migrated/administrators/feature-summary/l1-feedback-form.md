@@ -2,7 +2,7 @@
 description: Meer informatie over het maken van L1-feedbackformulieren voor de studenten
 jcr-language: en_us
 title: L1-feedbackformulier
-source-git-commit: 70baa9d9871fb05e988973b61ce0af105459afb3
+source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De verbeterde functie L1-feedback wordt geïmplementeerd om klanten te selecteren. Als u deze eigenschap in uw rekening niet ziet, voegt de Mening [&#x200B; L1 en L3 terug &#x200B;](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) voor meer informatie over het bestaan terugkoppelt eigenschap toe.
+>De verbeterde functie L1-feedback wordt geïmplementeerd om klanten te selecteren. Als u deze eigenschap in uw rekening niet ziet, voegt de Mening [ L1 en L3 terug ](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback) voor meer informatie over het bestaan terugkoppelt eigenschap toe.
 >
 >Neem contact op met het CSM-team (Customer Success Manager) om het nieuwe feedbacksysteem in te schakelen en meer te weten te komen over de tijdlijn van de migratie.
 
@@ -80,14 +80,14 @@ Een L1-feedbackformulier maken:
    d. **[!UICONTROL Score van de Effectiviteit van de Cursus]**: Een schaal om te meten hoe effectief een cursus studenten beïnvloedt, gebruikend een relatief classificatiesysteem.
 
    * Een vooraf gedefinieerde vraag met een Likert-schaal van 1 tot 10 wordt toegevoegd aan het feedbackformulier.
-   * U kunt slechts één **[!UICONTROL vraag van de Score van de Effectiviteit van 0&rbrace; Cursus toevoegen, en het kan niet worden uitgegeven]**
+   * U kunt slechts één **[!UICONTROL vraag van de Score van de Effectiviteit van 0} Cursus toevoegen, en het kan niet worden uitgegeven]**
      ![](assets/course-effective.png)
      _voeg de vraag van de Score van de Effectiviteit van de Cursus aan de feedbackvorm toe_
 7. Selecteer **[!UICONTROL sparen]**. U kunt de gemaakte formulieren bekijken in de sectie Feedback-Forms.
 
 ### Voorbeeld van het feedbackformulier bekijken
 
-U kunt een voorbeeld van het feedbackformulier bekijken door Voorvertoning in het Engels (Verenigde Staten) te selecteren. Als u het formulier in meerdere talen hebt gemaakt, kunt u het ook in elke taal bekijken. Bekijk deze [&#x200B; sectie &#x200B;](/help/migrated/administrators/feature-summary/l1-feedback-form.md#add-feedback-forms-in-other-languages) om te leren hoe te om terugkoppel vormen in andere talen toe te voegen.
+U kunt een voorbeeld van het feedbackformulier bekijken door Voorvertoning in het Engels (Verenigde Staten) te selecteren. Als u het formulier in meerdere talen hebt gemaakt, kunt u het ook in elke taal bekijken. Bekijk deze [ sectie ](/help/migrated/administrators/feature-summary/l1-feedback-form.md#add-feedback-forms-in-other-languages) om te leren hoe te om terugkoppel vormen in andere talen toe te voegen.
 
 ![](assets/preview.png)
 _het scherm van de Formulieren van de Terugkoppeling tonend de optie van de Voorproef om de feedbackvorm in de standaardtaal_ te bekijken
@@ -115,7 +115,7 @@ Maak vertalingen voor de vragen in het feedbackformulier in meerdere talen. U ku
 
 ## Een feedbackformulier instellen als standaard
 
-Beheerders kunnen standaardfeedbackformulieren instellen voor cursussen op eigen tempo, in een lesruimte, in een virtuele lesruimte en in gemengde cursussen. Zodra dit is geconfigureerd, wordt dit standaardformulier automatisch aan de studenten getoond na voltooiing van een cursus. Dit standaardformulier wordt toegepast op alle cursussen, tenzij de beheerder ervoor kiest een ander feedbackformulier toe te wijzen voor specifieke cursussen.
+Beheerders kunnen standaardfeedbackformulieren instellen voor cursussen op eigen tempo, in een lesruimte, in een virtuele lesruimte en in gemengde cursussen. Nadat een standaardformulier is ingesteld, wordt het automatisch toegepast op alle nieuwe cursussen. Studenten zien dit formulier nadat ze een cursus hebben voltooid. Beheerders kunnen desgewenst een ander feedbackformulier voor specifieke cursussen toewijzen.
 
 ![](assets/set-as-default.png)
 _het scherm dat van de Terugkoppeling vormen optie toont om het gebrek te plaatsen terugkoppelt vorm_
