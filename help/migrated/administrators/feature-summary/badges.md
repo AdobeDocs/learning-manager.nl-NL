@@ -36,5 +36,5 @@ Beheerders kunnen de badges voor studenten als volgt aanmaken:
 
 >[!NOTE]
 >
->Neem contact op met het ondersteuningsteam van Adobe Learning Manager op [ learningmanagersupport@adobe.com ](mailto:learningmanagersupport@adobe.com) om aangepaste badges of certificaten voor studenten toe te voegen bij het voltooien van cursussen of leerpaden.
+>Neem contact op met het ondersteuningsteam van Adobe Learning Manager op [&#x200B; learningmanagersupport@adobe.com &#x200B;](mailto:learningmanagersupport@adobe.com) om aangepaste badges of certificaten voor studenten toe te voegen bij het voltooien van cursussen of leerpaden.
 
