@@ -2,7 +2,7 @@
 description: Leer hoe u een Go1 Playlist maakt en toevoegt aan een Leerpad in Adobe Learning Manager. Deze handleiding bevat stapsgewijze instructies en aanbevolen procedures voor de integratie met Playlist.
 jcr-language: en_us
 title: Go1-afspeellijst beheren naar Adobe Learning Manager-leerpad
-source-git-commit: 9931265d7cbecf42413011fb7e635ebb8e0f4006
+source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -18,7 +18,7 @@ Voeg Go1-cursussen rechtstreeks toe aan leerpaden en certificeringen. Maak leerp
 
 >[!INFO]
 >
->U hebt een actieve Go1-licentie nodig om Go1-cursussen toe te voegen aan leerpaden of certificeringen. Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/content-marketplace.md) om meer over Go1 vergunningsdetails te leren.
+>U hebt een actieve Go1-licentie nodig om Go1-cursussen toe te voegen aan leerpaden of certificeringen. Bekijk dit [ artikel ](/help/migrated/administrators/feature-summary/content-marketplace.md) om meer over Go1 vergunningsdetails te leren.
 
 ## Een leerpad maken
 
@@ -31,21 +31,21 @@ Een leerpad maken met Go1-cursussen:
    ![](assets/select-add-to-lp.png)
    _selecteer toevoegen in de sectie van de Wegen van het Leren om nieuwe gestructureerde opleidingsprogramma&#39;s voor uw studenten te creëren en te organiseren_
 
-4. Typ de vereiste details en selecteer **[!UICONTROL sparen]**. Bekijk dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/learning-paths.md) voor meer informatie.
+4. Typ de vereiste details en selecteer **[!UICONTROL sparen]**. Bekijk dit [ artikel ](/help/migrated/administrators/feature-summary/learning-paths.md) voor meer informatie.
 5. U kunt op de volgende manieren cursussen toevoegen aan een leerpad:
 
    * **[!UICONTROL voeg Cursussen of Leerpaden]** toe: Voeg bestaande cursussen of Leerpaden toe beschikbaar in Adobe Learning Manager.
    * **[!UICONTROL curate inhoud van Go1]**: Voeg cursussen van het Go1 platform toe.
 6. Selecteer **[!UICONTROL Curate inhoud van Go1]**.
 
-   ![&#x200B; alt tekst &#x200B;](assets/select-go1-courses.png)
+   ![ alt tekst ](assets/select-go1-courses.png)
    _voeg Go1 cursussen aan uw Playlist van de Ontwikkeling van de Vaardigheid van de Motor van de Verkoop toe om het leren opties met beheerde derdeinhoud uit te breiden_
 7. Beheerders kunnen op de volgende manieren een afspeellijst maken:
 
-   * Gebruikend **[!UICONTROL Go1 AI Medewerker]**. De Medewerker van de mening [&#x200B; Go1 AI &#x200B;](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#go1-ai-assistant) voor meer informatie.
+   * Gebruikend **[!UICONTROL Go1 AI Medewerker]**. De Medewerker van de mening [ Go1 AI ](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#go1-ai-assistant) voor meer informatie.
    * In de **[!UICONTROL Bibliotheek]**, uitgezocht **[!UICONTROL creeer playlist]** en kies van één van het volgende:
-a. **[!UICONTROL met AI]**: Creeer een Playlist met behulp van AI. Bekijk deze [&#x200B; sectie &#x200B;](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai) voor meer informatie.
-b. **[!UICONTROL door mezelf]**: Creeer een Playlist door cursussen aan het manueel toe te voegen. Bekijk deze [&#x200B; sectie &#x200B;](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually) voor meer informatie.
+a. **[!UICONTROL met AI]**: Creeer een Playlist met behulp van AI. Bekijk deze [ sectie ](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai) voor meer informatie.
+b. **[!UICONTROL door mezelf]**: Creeer een Playlist door cursussen aan het manueel toe te voegen. Bekijk deze [ sectie ](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually) voor meer informatie.
 
 ### Go1 AI Assistant
 
@@ -53,7 +53,7 @@ Adobe Learning Manager biedt AI-gestuurde ondersteuning om het beheer van cursus
 
 Een afspeellijst maken met AI:
 
-1. Selecteer **[!UICONTROL Chat met AI]** optie op de Go1 Hub van de Inhoud.
+1. Selecteer **[!UICONTROL Chat met AI]** optie op de **Go1 Hub van de Inhoud**.
 
    ![](assets/select-chat-with-ai.png)
    {het scherm dat van de Hub van 0} inhoud het Praatje met AI optie toont, waar de beheerders met de AI Medewerker kunnen in wisselwerking staan om vragen te stellen __
@@ -139,8 +139,8 @@ Beheerders kunnen de beschrijving van de afspeellijst typen in de AI-prompt. De 
 12. Selecteer **Ja** in de bevestigingsherinnering.
 13. Selecteer de Playlist van **[!UICONTROL Uitgezochte playlist om vraag]** in te voeren.
 
-    ![](assets/add-playlist-to-lp.png)
-    _selecteer en voer de Verbetering van de Vaardigheden van de Ingenieur van de Verkoop van de Bibliotheek Go1 in Adobe Learning Manager_ in
+   ![](assets/add-playlist-to-lp.png)
+   _selecteer en voer de Verbetering van de Vaardigheden van de Ingenieur van de Verkoop van de Bibliotheek Go1 in Adobe Learning Manager_ in
 
 14. Selecteer **[!UICONTROL Playlists aan het Leren Weg]** en dan **[!UICONTROL Publish]** toevoegen.
 
@@ -148,7 +148,7 @@ De cursussen in de afspeellijst worden toegevoegd aan het leerpad. Beheerders ku
 
 >[!NOTE]
 >
->Beheerders kunnen ook rechtstreeks van de pagina Inhoudshub afspeellijsten maken. De Hub van de inhoud van de mening [&#x200B; &#x200B;](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub) voor meer informatie.
+>Beheerders kunnen ook rechtstreeks van de pagina Inhoudshub afspeellijsten maken. De Hub van de inhoud van de mening [ ](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub) voor meer informatie.
 
 ## Handmatig een afspeellijst maken
 
@@ -235,4 +235,4 @@ Beheerders kunnen Go1-cursussen toevoegen aan certificeringsprogramma&#39;s in A
 
 Certificeringen die Go1-cursussen bevatten, kunnen permanent of terugkerend worden geconfigureerd. In het geval van terugkerende certificeringen wordt het certificaat automatisch verlengd na het gedefinieerde tijdinterval, zodat studenten de Go1-cursussen kunnen hervatten en hun certificeringsstatus kunnen behouden.
 
-Bekijk [&#x200B; Certificeringen &#x200B;](/help/migrated/administrators/feature-summary/certifications.md) voor meer informatie bij het creëren van certificaten.
+Bekijk [ Certificeringen ](/help/migrated/administrators/feature-summary/certifications.md) voor meer informatie bij het creëren van certificaten.
