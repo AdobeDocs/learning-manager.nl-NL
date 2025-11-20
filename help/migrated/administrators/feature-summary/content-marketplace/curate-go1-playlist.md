@@ -2,7 +2,7 @@
 description: Leer hoe u een Go1 Playlist maakt en toevoegt aan een Leerpad in Adobe Learning Manager. Deze handleiding bevat stapsgewijze instructies en aanbevolen procedures voor de integratie met Playlist.
 jcr-language: en_us
 title: Go1-afspeellijst beheren naar Adobe Learning Manager-leerpad
-source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
+source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Voeg Go1-cursussen rechtstreeks toe aan leerpaden en certificeringen. Maak leerp
 
 Een leerpad maken met Go1-cursussen:
 
-1. Meld u als beheerder aan bij Adobe Learning Manager.
+1. Login aan **Adobe Learning Manager** als beheerder.
 2. Selecteer **[!UICONTROL het Leren Wegen]** in de linkernavigatieruit.
 3. Selecteer **[!UICONTROL toevoegen]**.
 
