@@ -2,10 +2,10 @@
 description: Met de ALM (Studenttranscripten in Adobe Learning Manager) kunnen beheerders de voortgang van studenten in cursussen, modules, leerpaden en certificeringen volgen. Het steunt prestatiesevaluaties, nalevingscontrole, controles, en externe rapportering. Het rapport biedt een volledig overzicht van de betrokkenheid en prestaties van een student.
 jcr-language: en_us
 title: Studenttranscripten in Adobe Learning Manager
-source-git-commit: 85799b32f3a24fc0e6beb34ae39a502ff8e7a7b4
+source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
 workflow-type: tm+mt
-source-wordcount: '4354'
-ht-degree: 8%
+source-wordcount: '4823'
+ht-degree: 7%
 
 ---
 
@@ -14,11 +14,13 @@ ht-degree: 8%
 
 ## Overzicht
 
-Met de Studenttranscripten in Adobe Learning Manager (ALM) kunnen beheerders de voortgang van de studenten op granulair niveau bijhouden in cursussen, modules, leerpaden en certificeringen. De transcriptgegevens helpen bij prestatiebeoordelingen, nalevingstracering, audits en externe rapportagebehoeften.
+Met het Studenttranscript in Adobe Learning Manager (ALM) kunnen beheerders de voortgang van de studenten op granulair niveau bijhouden in cursussen, modules, leerpaden en certificeringen. De transcriptgegevens helpen bij prestatiebeoordelingen, nalevingstracering, audits en externe rapportagebehoeften.
 
 >[!NOTE]
 >
 >Studenttranscripten kunnen worden gedownload door beheerders, aangepaste beheerders, managers of studenten.
+
+De downloadervaring voor het Studenttranscript en het resulterende bestand verschillen afhankelijk van de gebruikersrol. Beheerders en aangepaste beheerders kunnen transcripten voor meerdere studenten genereren en toegang hebben tot bredere gegevenssets, terwijl studenten hun eigen transcript alleen kunnen downloaden via hun profielinstellingen. De gebruikersinterface voor downloaden varieert ook: beheerders gebruiken de sectie Rapporten, terwijl studenten toegang hebben tot transcripten vanuit hun profiel. De gedownloade bestanden kunnen verschillende kolommen en detailniveaus bevatten, afhankelijk van de rol en machtigingen.
 
 In het geval van studenten moeten ze hun profielinstellingen starten en vervolgens hun leertranscripten downloaden als Excel-bestand. Dit transcript, gegenereerd voor een individuele student, geeft details over hun persoonlijke leertraject. Het omvat de namen van leerpaden, cursussen, instanties en modules, samen met belangrijke datums zoals inschrijving, voltooiing en deadlines. Ook wordt de voortgang bijgehouden via status, scores, quizscores (inclusief hoogste scores en maximum’s) en pogingen die zijn ondernomen. Bovendien ziet u hier trainings-id&#39;s, tijdsduur, uitschrijvingsdatums, prijzen en eventuele opmerkingen bij de indiening. Dit rapport biedt een uitgebreid overzicht van de betrokkenheid en prestaties van één student.
 
@@ -33,7 +35,7 @@ Organisaties kunnen de Studenttranscripten gebruiken om de leergedragsgegevens t
 
 ## Gebruik voorbeelden van studenttranscripten
 
-Studenttranscripten in Adobe Learning Manager volgen training, naleving en ontwikkeling van vaardigheden, zodat afdelingen de voltooiing kunnen controleren en de effectiviteit van het programma in de hele organisatie kunnen beoordelen.  Hier volgen enkele gebruiksscenario&#39;s voor Studenttranscripten:
+Studenttranscripten in Adobe Learning Manager volgen training, naleving en ontwikkeling van vaardigheden, zodat afdelingen de voltooiing kunnen controleren en de effectiviteit van het programma in de hele organisatie kunnen beoordelen.  De volgende gebruiksvoorbeelden laten zien hoe studenttranscripten de organisatorische behoeften op het gebied van compliance, het volgen van vaardigheden en de effectiviteit van het programma ondersteunen.
 
 * Een organisatie voor financiële diensten moet aantonen dat alle klantgerichte werknemers vóór de wettelijke deadline de verplichte nalevingsopleiding hebben voltooid.
 * De IT-afdeling moet de huidige Java-programmeermogelijkheden afwegen tegen de toekomstige projectvereisten.
@@ -44,9 +46,8 @@ Studenttranscripten in Adobe Learning Manager volgen training, naleving en ontwi
 
 **Beheerders**
 
-* Kan transcripten genereren voor alle studenten in alle catalogi.
-* Heeft toegang tot alle rapportagefuncties, maar heeft mogelijk beperkingen met betrekking tot catalogus of gebruikersgroepen.
-* Aangepaste beheerders: Toegang beperkt door toegewezen bereik en machtigingen.
+* Beheerders kunnen voor alle studenten transcripten genereren voor alle catalogi.
+* Aangepaste beheerders kunnen alleen transcripten voor studenten weergeven binnen hun toegewezen gebruikersgroepen en catalogi.
 
 **op bereik-gebaseerde beperkingen**
 
@@ -60,23 +61,23 @@ Studenttranscripten in Adobe Learning Manager volgen training, naleving en ontwi
 3. Selecteer **[!UICONTROL de Rapporten van de Douane]** binnen Rapporten en selecteer dan **[!UICONTROL de Rapporten van Excel]**.
 4. Selecteer **[!UICONTROL Transcripten van de Student]**.
 5. Selecteer **[!UICONTROL produceer Nieuw]**.
-6. Selecteer het datumbereik waarvoor het transcript moet worden gegenereerd. Door gebrek, is de **[!UICONTROL Van]** datum de de registratiedatum van de student, en de **[!UICONTROL aan]** datum is altijd de huidige datum. U kunt alleen wijzigen vanaf welke begindatum u de gegevens nodig hebt.
+6. Selecteer het datumbereik waarvoor het transcript moet worden gegenereerd. U kunt zowel begin als einddata wijzigen gebruikend **[!UICONTROL kiest datums]** optie in het dropdown van de datumwaaier.
 7. Selecteer het volgende:
-a. Selecteer de namen van de studenten in de **[!UICONTROL sectie Studenten selecteren]** . U kunt gebruikers of gebruikersgroepen selecteren of u kunt de e-mailadressen kopiëren en plakken van de studenten voor wie u transcripten wilt genereren. Zie de sectie [&#x200B; het transcript van de Student &#x200B;](#generate-learner-transcript-using-copy-paste) gebruikend exemplaar-kleef voor meer informatie.
-b.Selecteer specifieke catalogi van de **[!UICONTROL Uitgezochte drop-down lijst van Catalogi]**. Het transcript wordt alleen gedownload voor de opgegeven catalogi.\
-   c. Selecteer de **[!UICONTROL Status van de Inschrijving]**. Dit dropdownmenu heeft de volgende opties:
+a. Selecteer de namen van de studenten in de **[!UICONTROL sectie Studenten selecteren]** . U kunt gebruikers of gebruikersgroepen selecteren of u kunt de e-mailadressen kopiëren en plakken van de studenten voor wie u transcripten wilt genereren. Zie de sectie [ het transcript van de Student ](#generate-learner-transcript-using-copy-paste) gebruikend exemplaar-kleef voor meer informatie. Als u niets selecteert, worden standaard de waarden Alle gebruikt.
+b.Selecteer specifieke catalogi van de **[!UICONTROL Uitgezochte drop-down lijst van Catalogi]**. Het transcript wordt alleen gedownload voor de opgegeven catalogi. Als u niets selecteert, worden standaard de waarden Alle gebruikt.
+c. Selecteer de **[!UICONTROL Status van de Inschrijving]**. Dit dropdownmenu heeft de volgende opties:
 
        * Alles selecteren 
        * Voltooid 
        * In bewerking 
        * Niet gestart 
        * Uitgeschreven 
-   &#x200B;8. Geavanceerde opties: Selecteer **[!UICONTROL Geavanceerde opties]** om de transcripties te downloaden om het volgende te omvatten:
+   8. Geavanceerde opties: Selecteer **[!UICONTROL Geavanceerde opties]** om de transcripties te downloaden om het volgende te omvatten:
 
    a. Download transcripten voor studenten die uit een account zijn verwijderd door het selectievakje **[!UICONTROL Inclusief verwijderde studenten]** in te schakelen.
 b. De informatie van het moduleniveau van de download in het transcript van de Student door **[!UICONTROL toe te laten de informatie van het moduleniveau]** checkbox. In dit geval worden de modulenamen en de tijd die aan elke module wordt doorgebracht als onderdeel van het transcript opgehaald als deze optie is ingeschakeld.
 c. Download vaardigheidsgegevens en samenvattingsbladen door de optie **[!UICONTROL toe te laten omvat vaardigheidsgegevens en samenvattingsbladen]** checkbox. Zie de sectie van de Rapporten van Excel voor meer informatie.
-&#x200B;9. U kunt ook de kolomwaarden selecteren die in het rapport moeten worden ingevuld. Dit biedt flexibiliteit om rapporten met specifieke kolomwaarden te downloaden zoals vereist. Selecteer de kolommen in de vervolgkeuzelijst.
+9. U kunt ook de kolommen selecteren die in uw rapport moeten worden ingevuld. Dit biedt flexibiliteit om rapporten met specifieke kolomwaarden te downloaden zoals vereist. Selecteer de kolommen in de vervolgkeuzelijst.
 Transcripties worden als zip-bestanden gegenereerd en naar uw computer gedownload wanneer de vaardigheidsgegevens niet worden opgenomen. Als het selectievakje Vaardigheden is ingeschakeld, worden transcripten gegenereerd en gedownload als . xlsx-bestanden
 
 ### Studenttranscripten genereren met kopiëren en plakken
@@ -110,8 +111,8 @@ In de volgende kolommen wordt de student geïdentificeerd.
 |---|---|
 | Naam | Naam van de student. |
 | E-mail | E-mailadres van student. |
-| Adobe ID | Dit veld wordt alleen ingevuld wanneer gebruikers zich met hun Adobe ID aanmelden. Als zij tot Adobe Learning Manager door een organisatie-bepaalde [&#x200B; Enige Sign-On (SSO) &#x200B;](/help/migrated/administrators/feature-summary/multiple-sso-logins.md) toegang hebben, zal het gebied van Adobe ID leeg blijven. |
-| Unieke ID van gebruiker | De unieke gebruikers-id is een externe id die wordt gegenereerd door accounts voor het geval dat deze geen e-mail-ID&#39;s van alle gebruikers of unieke e-mail-ID&#39;s van alle gebruikers hebben. <br> Het veld Unieke gebruikersnaam is een optioneel veld dat voor een account kan worden ingeschakeld. Het hoofddoel van het veld is om accounts toe te staan elke gebruiker een unieke id toe te wijzen om deze bij te houden, gebruikersrecords via API&#39;s bij te werken, gegevens te controleren of te synchroniseren in geautomatiseerde workflows. Het labelen van elke gebruiker gebeurt via CSV-import van gebruikers.</br><br> als een rekening voor Unieke Gebruiker - identiteitskaart heeft gekozen, dan rapporten, zoals de Transcripten van de Student, verstrekt Adobe Learning Manager de kolom in de rapporten.</br> |
+| Adobe ID | Dit veld wordt alleen ingevuld wanneer gebruikers zich met hun Adobe ID aanmelden. Als zij tot Adobe Learning Manager door een organisatie-bepaalde [ Enige Sign-On (SSO) ](/help/migrated/administrators/feature-summary/multiple-sso-logins.md) toegang hebben, zal het gebied van Adobe ID leeg blijven. |
+| Unieke ID van gebruiker | De unieke gebruikers-id is een externe id die wordt gegenereerd door accounts voor het geval dat deze geen e-mail-ID&#39;s van alle gebruikers of unieke e-mail-ID&#39;s van alle gebruikers hebben.  <br> Het veld Unieke gebruikersnaam is een optioneel veld dat voor een account kan worden ingeschakeld. Het hoofddoel van het veld is om accounts toe te staan elke gebruiker een unieke id toe te wijzen om deze bij te houden, gebruikersrecords via API&#39;s bij te werken, gegevens te controleren of te synchroniseren in geautomatiseerde workflows. Het labelen van elke gebruiker gebeurt via CSV-import van gebruikers.</br><br> als een rekening voor Unieke Gebruiker - identiteitskaart heeft gekozen, dan rapporten, zoals de Transcripten van de Student, verstrekt Adobe Learning Manager de kolom in de rapporten.</br> |
 
 **op inschrijving betrekking hebbende informatie**
 
@@ -123,20 +124,21 @@ In de volgende kolommen worden activiteit, voortgang of pogingen vastgelegd.
 | Datum markeren voltooid (tijdzone UTC) | Datum en tijdstempel van wanneer een docent een sessie of module als voltooid markeert. Als er geen sessie is gebeurd, wordt de kolom leeg weergegeven in het rapport. Ook, als een zitting is gebeurd en de instructeur niet de zitting als volledig heeft gemerkt, verschijnt de kolom leeg in het rapport. |
 | Datum gestart (tijdzone UTC) | Datum en tijdstip waarop de leerling het leerobject heeft gestart. Leeg betekent dat de student dit nog niet is begonnen. |
 | Voltooiingsdatum (tijdzone UTC) | Datum en tijd waarop de leerling dit heeft voltooid. Leeg betekent dat de student dit nog niet heeft voltooid. |
+| Datum markeren voltooid (tijdzone UTC) | Hiermee legt u de exacte datum en tijd vast waarop een docent een sessie of module als voltooid markeert. |
 | Deadline (Tijdzone UTC) | Datum en tijd waarop de student dit leerobject moet voltooien. Leeg betekent dat er geen deadline voor is. |
 | Vervaldatum verstreken | Huidige status van de student die is ingeschreven voor het leerobject. Ja/nee |
 | Status | Geeft de status van de student aan tijdens het volgen van de cursus, certificering of leerpad.  De beschikbare statussen worden niet gestart, uitgeschreven, in uitvoering of voltooid. |
 | Voortgang % | Huidige voortgang % van de leerling die de cursus, certificering of leerpad aflegt. |
 | Bestede tijd (minuten) | De leertijd die de student in de LO heeft doorgebracht, wordt in de rijen op moduleniveau weergegeven met de afzonderlijke rijen voor de leertijd. In de rijen op cursus-/leerpad-/certificaatniveau wordt de totale leertijd weergegeven. |
 | Cijfer | Hiermee wordt het succes van de student aangegeven. &#39;Geslaagd&#39; als de gebruiker aan de succescriteria heeft voldaan, anders &#39;Niet geslaagd&#39;. |
-| Quiz_score | De kolom wordt gebruikt om de score van de meest recente poging van een quiz op te nemen. Als een gebruiker bijvoorbeeld meerdere pogingen uitvoert (bijvoorbeeld de scores 10, 50 en 30 bij drie pogingen), geeft de kolom Quiz_score de score weer van de laatste poging, namelijk 30. Stel dat een quiz een maximale score van 100 heeft en dat een gebruiker drie pogingen doet, met scores van 30, 60 en 90. De kolom Quiz_score zal 90 tonen (de meest recente score), terwijl Highest_Quiz_score 90 zal tonen (de beste score over alle pogingen), en Quiz_score_max zal 100 blijven (de maximum mogelijke score). |
-| Quiz_score_max | De kolom Quiz_score_max vertegenwoordigt de maximaal haalbare score die voor een specifieke quiz of module kan worden behaald. Aangezien Quiz_score_max constant blijft, is het handig om in rapporten de totaal haalbare score voor een quiz of module weer te geven, ongeacht de prestaties van de gebruiker. |
+| Quiz_score | De meest recente quizscore die de student heeft behaald. Dit kan leeg zijn als de student de quiz niet heeft geprobeerd of als er geen quiz in staat of als de beheerder/docent geen score heeft toegewezen. De kolom wordt gebruikt om de score van de meest recente poging van een quiz op te nemen. Als een gebruiker bijvoorbeeld meerdere pogingen uitvoert (bijvoorbeeld de scores 10, 50 en 30 bij drie pogingen), geeft de kolom Quiz_score de score weer van de laatste poging, namelijk 30. Stel dat een quiz een maximale score van 100 heeft en dat een gebruiker drie pogingen doet, met scores van 30, 60 en 90. De kolom Quiz_score zal 90 tonen (de meest recente score), terwijl Highest_Quiz_score 90 zal tonen (de beste score over alle pogingen), en Quiz_score_max zal 100 blijven (de maximum mogelijke score). |
+| Quiz_score_max | De meest recente maximale quizscores die mogelijk zijn voor de module. Deze kan leeg zijn als de student de quiz niet heeft geprobeerd of als de inhoud geen quizzen bevat. De kolom Quiz_score_max vertegenwoordigt de maximaal haalbare score die voor een specifieke quiz of module kan worden behaald. Aangezien Quiz_score_max constant blijft, is het handig om in rapporten de totaal haalbare score voor een quiz of module weer te geven, ongeacht de prestaties van de gebruiker. |
 | Highest_Quiz_score | De kolom Highest_Quiz_score staat voor de hoogste score die een gebruiker heeft behaald voor alle pogingen van een specifieke quiz. Als een gebruiker bijvoorbeeld drie pogingen uitvoert om 10, 20 en 15 te scoren, geeft de Highest_Quiz_score 20 weer, omdat dit de hoogste behaalde score is. |
-| Highest_Quiz_score_max | De hoogst haalbare score die gekoppeld is aan de hoogste quizpoging die een student heeft uitgevoerd voor meerdere pogingen. Het is niet de hoogste score die de leerling heeft behaald. In plaats daarvan wordt de maximale score vastgelegd die mogelijk was in de poging waarbij de student de hoogste score behaalde. |
+| Highest_Quiz_score_max | De hoogst mogelijke quizscores die mogelijk zijn voor de module. Deze kan leeg zijn als de student de quiz niet heeft geprobeerd of als de inhoud geen quizzen bevat. De hoogst haalbare score die gekoppeld is aan de hoogste quizscore die een student heeft behaald voor meerdere pogingen. Het is niet de hoogste score die de leerling heeft behaald. In plaats daarvan wordt de maximale score vastgelegd die mogelijk was in de poging waarbij de student de hoogste score behaalde. |
 | Aantal pogingen | Het totale aantal pogingen dat de student tot nu toe heeft uitgevoerd voor deze module. |
 | Maximaal toegestane pogingen | Het maximumaantal pogingen dat de student mag uitvoeren om de module te gebruiken. |
-| Opmerkingen bij inzending | Opmerkingen van de manager van een student nadat deze een leerobject hebben voltooid.<br> De gegevens van de inzendopmerkingen die door de docent zijn verstrekt, zijn opgenomen in de module voor het indienen van bestanden. Zie <a href="https://experienceleague.adobe.com/nl/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules"> modules-Adobe Learning Manager voor meer informatie.</a></br> |
-| Voltooiingsbron | Verwijst naar de oorsprong of methode waarmee de voltooiing van een cursus, leerprogramma of certificering door een student wordt vastgelegd. Hiermee kunnen beheerders begrijpen hoe de voltooiing is bereikt of dat het systeem is aangemeld. De kolom identificeert of de voltooiing zelf-gemeld was, automatisch geregistreerd, of vergemakkelijkt door een specifieke rol of een configuratie. <b> Nota:</b> voor VC de werkschema&#39;s van de schakelaaraanwezigheid, wanneer een student automatisch zoals aanwezig wordt gemerkt, zal de bron &quot;SELF, (student_email)&quot;tonen. |
+| Opmerkingen bij inzending | Opmerkingen van de manager van een student nadat deze een leerobject hebben voltooid.<br> De gegevens van de inzendopmerkingen die door de docent zijn verstrekt, zijn opgenomen in de module voor het indienen van bestanden. Zie <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules"> modules-Adobe Learning Manager voor meer informatie.</a></br> |
+| Voltooiingsbron | Verwijst naar de oorsprong of methode waarmee de voltooiing van een cursus, leerpad of certificering door een student wordt vastgelegd. Hiermee kunnen beheerders begrijpen hoe de voltooiing is bereikt of dat het systeem is aangemeld. De kolom geeft aan of de voltooiing zelf-gerapporteerd was, of vergemakkelijkt door een specifieke rol of configuratie. Opmerking: voor workflows voor aanwezigheid van VC-connector geldt dat als een student automatisch is gemarkeerd als aanwezig, de bron &quot;SELF, &lt;learner_email>&quot; weergeeft. |
 | Opmerking bij voltooiing | De opmerkingen die de beheerder heeft gemaakt wanneer een student als voltooid wordt gemarkeerd nadat deze een cursus, certificering of leerpad heeft voltooid. De beheerder kan de voltooiingsopmerkingen voor een of meerdere studenten toevoegen. |
 
 **het Leren objecten-verwante informatie**
@@ -148,17 +150,17 @@ Deze hebben betrekking op cursussen, modules, leerpaden, certificeringen, enzovo
 | Naam van het leerplan | Titel van het leerplan. |
 | Leerplan/certificatie/cursus | De titel van het leerobject. |
 | Type | Het type leerobject waarvoor de gebruiker is ingeschreven. Bijvoorbeeld:<ul><li>Leerpad</li><li>Certificering</li><li>Cursus</li></ul> |
-| Ingesloten pad | Een ingesloten pad is een type leerpad dat is opgenomen als onderdeel van een andere cursus     of een leerpad. Het veld geeft aan dat een student dat leerpad voltooit als onderdeel van een ander leerpad in plaats van als zelfstandige toewijzing. |
-| Cursus | Naam van de cursus waarvoor de gebruiker is ingeschreven. Als de rij leeg is, geeft deze een certificerings- of leerpad weer. <br><b> Nota:</b> hoewel het Leren Wegen en Certificeringen    zijn samengesteld uit afzonderlijke cursussen of geneste leerpaden, behoudt elke component zijn eigen onafhankelijke record. Dit zorgt ervoor dat de vooruitgang, de voltooiing, en het melden van gegevens afzonderlijk voor zowel de ouder als de kindelementen worden gevolgd.</br> |
-| Unieke ID van LO | De unieke id van het leerobject. Dit is nodig als de klant de LO in een extern systeem met een eigen id heeft. Dit is handig als u de LO-id en de Adobe Learning Manager LO van het externe systeem wilt toewijzen.<br> Een beheerder kan de optie Unieke ID&#39;s voor leerobjecten inschakelen op de pagina Instellingen. Als deze optie is ingeschakeld, wijst Adobe Learning Manager elke keer dat een auteur een cursus, certificering of leerpad maakt, een unieke id toe aan een leerobject. </br> |
+| Ingesloten pad | Een ingesloten pad is een type leerpad dat is opgenomen als onderdeel van een andere cursus of een leerpad. Het veld geeft aan dat een student dat leerpad voltooit als onderdeel van een ander leerpad in plaats van als zelfstandige toewijzing. |
+| Cursus | Naam van de cursus waarvoor de gebruiker is ingeschreven. Als de rij leeg is, geeft deze een certificerings- of leerpad weer. <br><b> Nota:</b> hoewel het Leren Wegen en samengesteld uit individuele cursussen of genestelde het Leren Wegen zijn, behoudt elke component zijn eigen onafhankelijk verslag. Dit zorgt ervoor dat de vooruitgang, de voltooiing, en het melden van gegevens afzonderlijk voor zowel de ouder als de kindelementen worden gevolgd.</br> |
+| Unieke ID van LO | Dit is een optionele, door de beheerder toegewezen id voor een leerobject (cursus, certificering of leerpad) in Adobe Learning Manager. Het wordt voornamelijk gebruikt door organisaties die hun eigen externe systeem-id&#39;s bijhouden voor het leren van inhoud en die deze ID&#39;s willen toewijzen aan ALM-leerobjecten voor integratie- of rapportagedoeleinden. De unieke LO-id is alleen aanwezig als de account deze functie heeft ingeschakeld en de auteur een id heeft toegewezen tijdens het maken van een LO. Opmerking: De trainings-id is altijd aanwezig en identificeert elk leerobject in ALM op unieke wijze. De unieke LO-id is bedoeld voor systeemoverschrijdende toewijzing en is niet vereist voor standaard ALM-bewerkingen. |
 | Instantie | De naam van de instantie van de leerobjectgebruiker is ingeschreven. |
-| Selectiecriteria | Basis van inschrijving (hoe deze leerling is ingeschreven voor dit leerobject).<br> In Adobe Learning Manager kunnen studenten zich via verschillende methoden inschrijven voor leerobjecten: door manager aangewezen inschrijving: managers wijzen studenten aan voor specifieke cursussen. Studenten kunnen zich niet zelf inschrijven voor deze cursussen.</br><ul><li>Goedgekeurde inschrijving voor manager: studenten melden zich aan voor cursussen, maar voor inschrijving is goedkeuring van de manager vereist.</li><li>Zelfingeschreven: studenten schrijven zichzelf rechtstreeks in voor cursussen zonder goedkeuring.</li><li>Beheerder ingeschreven: beheerders schrijven studenten handmatig in voor cursussen.</li></ul> |
+| Selectiecriteria | Deze kolom geeft aan hoe de leerling is ingeschreven voor het leerobject (cursus, certificering of leerpad). De waarde wordt als volgt bepaald:<ul><li>Inschrijving voor beheerder/manager: wordt direct weergegeven wanneer een student rechtstreeks is ingeschreven door een beheerder of manager. </li><li>Inschrijving voor leerplan: geeft automatisch ingeschreven personen weer wanneer een student is ingeschreven via een leerplan of geautomatiseerde inschrijvingstrigger.</li><li>Beheerder schrijft gebruikersgroep in: geeft de naam van de gebruikersgroep weer als de leerling als onderdeel van een gebruikersgroep is ingeschreven. </li><li>Geneste leerpaden: als leerpad 1 leerpad 2 bevat, dat cursus A bevat: voor LP2 en Cursus A is de waarde bovenliggend. Voor LP1 is de waarde direct. </li><li>Zelfinschrijving: geeft zichzelf weer wanneer de student zich inschrijft. </li></ul>De waarde in deze kolom geeft de daadwerkelijke inschrijvingsmethode en de LO-hiërarchie weer, zoals hierboven beschreven.<ul><li>Student inschrijven voor leerplan: Waarde: Automatisch ingeschreven De student wordt automatisch ingeschreven via een leerplan of geautomatiseerde inschrijvingstrigger. </li><li>zelfinschrijving van student: Waarde: Zelf schrijft de student zich rechtstreeks in voor de cursus, certificering of het leerpad. </li>Beheerder die de student rechtstreeks inschrijft (met e-mail/naam van de student): Waarde: Direct. De beheerder of manager schrijft de student handmatig in door hun e-mail of naam op te geven. <li>Inschrijving door een gebruikersgroep: Waarde: gebruikersnaam De student is ingeschreven als onderdeel van een gebruikersgroep. Als een student tot meerdere gebruikersgroepen behoort, worden in het rapport de relevante gebruikersgroep(en) weergegeven waardoor de inschrijving heeft plaatsgevonden.  </li><li>Leerobject ingeschreven vanwege inschrijving in een leerpad: Waarde: Pad. De student is ingeschreven voor een cursus of module omdat deze deel uitmaakt van een groter leerpad waaraan hij of zij is toegewezen.</li></ul> |
 | Module | Naam van module in de cursussen. Alleen de modules met de status Voltooid of In bewerking worden in het rapport weergegeven. Als de status Niet gestart of Uitgeschreven is, blijft de kolom Module leeg.<br> download module-vlakke informatie in het transcript van de Student door <b> te selecteren laat de informatie van het moduleniveau </b> checkbox toe. In dit geval, worden de modulenamen en de tijd die aan elke module wordt doorgebracht als deel van het transcript opgehaald als deze optie wordt toegelaten.</br> |
-| Module-ID | De unieke id van de module.<br><b> Nota:</b> de kolom van identiteitskaart van de Module verschijnt in het rapport slechts als u het Include vakje van de de moduleinformatie van de module terwijl het produceren van het transcript hebt geselecteerd.</br> |
+| Module-ID | Naam van module in de cursussen.  Alleen de modules met de status Voltooid of In bewerking worden in het rapport weergegeven. Als een module niet door de student is gestart, wordt de rij voor die module niet weergegeven in het Studenttranscript. Alleen modules met de status Voltooid of In uitvoering worden opgenomen. Download informatie op moduleniveau in het Studenttranscript door het selectievakje Informatie op moduleniveau inschakelen in te schakelen. In dit geval worden de modulenamen en de tijd die aan elke module wordt doorgebracht als onderdeel van het transcript opgehaald als deze optie is ingeschakeld. |
+| Module-ID | De unieke id van de module. Opmerking: De kolom Module-id wordt alleen in het rapport weergegeven als u het selectievakje Inclusief informatie voor de module tijdens het genereren van het transcript hebt ingeschakeld. |
 | Versie | De moduleversie verwijst naar de specifieke versie van een module waarmee een student heeft gewerkt. Dit is vooral handig wanneer een module updates of wijzigingen heeft ondergaan, omdat beheerders zo kunnen bijhouden welke versie van de module door de student is geopend.<br> wanneer een auteur een nieuwe versie van een module uploadt, behandelt Adobe Learning Manager het als een nieuwe versie van de bestaande module. Zo kan inhoud worden bijgewerkt zonder dat dit alle studenten verstoort.</br><br> de Versie verschijnt als <b> de informatie van het moduleniveau </b> checkbox werd geselecteerd terwijl het produceren van het rapport.</br><br> zie <a href="https://elearning.adobe.com/2023/03/updating-the-module-in-adobe-learning-manager-how-to-replace-a-content-module-in-a-course-without-disturbing-the-users-progress" /> Bijwerkend een module in Adobe Learning Manager </a> voor meer informatie.</br> |
 | Leveringstype | Geeft aan hoe de module wordt geleverd: Overvloeien, Lesruimte of Virtueel klaslokaal. |
 | Taal | Taal waarin de module door de student wordt gebruikt. Deze kolom toont alleen waarde voor eLearning-modules. |
-| Vervaldatum verstreken | Huidige status van de student die is ingeschreven voor het leerobject. Ja/nee |
 | Cijfer | Hiermee wordt het succes van de student aangegeven. &#39;Geslaagd&#39; als de gebruiker aan de succescriteria heeft voldaan, anders &#39;Niet geslaagd&#39;. |
 
 >[!INFO]
@@ -177,16 +179,16 @@ Deze hebben betrekking op cursussen, modules, leerpaden, certificeringen, enzovo
 
 | Velden | Beschrijving |
 |---|---|
-| Training-ID | Een door het systeem gegenereerde unieke id die is toegewezen aan de inschrijving van elke student in een specifieke cursus, certificering of leerpad. Als een student zich opnieuw voor dezelfde cursus inschrijft, wordt een nieuwe trainings-id gegenereerd. Eén student kan meerdere trainings-id&#39;s voor dezelfde cursus hebben. |
-| Duur training of module (minuten) | Deze kolom toont de verwachte duur (in minuten) van een cursus, module of trainingsactiviteit zoals gedefinieerd bij het maken van de cursus. Het is niet de werkelijke tijd die een student doorbrengt, maar de geconfigureerde/toegewezen duur die aangeeft hoe lang de training moet duren. <br> Deze kolom toont de totale duur (in notulen) van het toegewezen leerpunt, dat of een leerweg of een individuele cursus kan zijn.</br><br><b> het Leren de duur van de Weg:<b> als het trainingspunt een het leren weg is, wordt zijn duur berekend als som de duur van alle cursussen binnen de het leren weg.</br><br> Voorbeeld: als Cursus 1 = 50 minuten en Cursus 2 = 60 minuten, dan de Duur van het Leerpad = 110 minuten.</br><br><b> Individuele cursusduur:</b> als het opleidingspunt een individuele cursus (geen deel van een het leren weg) is, wijst de duur op de tijd die voor die cursus alleen wordt vereist.</br> |
-| Embedded_Course_ID | De id voor de cursus die onderdeel is van een leerpad of onderdeel van een andere cursus.<br> de kolom wordt bevolkt wanneer de rij een het Leren Weg of certificatie zelf vertegenwoordigt. Het toont de id&#39;s van de afzonderlijke cursussen die zijn ingesloten in het leerpad of de certificering. Het is niet bevolkt wanneer de rij zelf een cursus op slechts is, aangezien er geen ingebedde punten zijn.</br> |
-| Ingesloten pad-ID | De id voor het pad waarin de ingesloten cursus bestaat.<br> de kolom identificeert unieke identiteitskaart van ingebedde Leerwegen. Het helpt cursussen binnen Leerpaden bij te houden en biedt inzicht in de hiërarchische structuur van leerpaden.</br> |
+| Training-ID | Een door het systeem gegenereerde unieke id die is toegewezen aan elk leerobject (cursus, certificering of leerpad). De trainings-id blijft hetzelfde voor alle studenten en alle inschrijvingen van dat leerobject. Deze wordt gebruikt om de inhoud zelf te identificeren, niet om individuele inschrijvingen van studenten te identificeren. |
+| Duur training of module (minuten) | Deze kolom toont de verwachte duur (in minuten) van een cursus, module of trainingsactiviteit zoals gedefinieerd bij het maken van de cursus. Het is niet de werkelijke tijd die een student doorbrengt, maar de geconfigureerde/toegewezen duur die aangeeft hoe lang de training moet duren.  Deze kolom toont de totale duur (in minuten) van het toegewezen leeritem, dat ofwel een leerpad of een individuele cursus kan zijn. <br><b> het Leren de duur van de Weg:</b> als het trainingspunt een het leren weg is, wordt zijn duur berekend als som de duur van alle cursussen binnen de het leren weg.</br><br> Voorbeeld: als Cursus 1 = 50 minuten en Cursus 2 = 60 minuten, dan de Duur van het Leerpad = 110 minuten.</br><br><b> Individuele cursusduur:</b> als het opleidingspunt een individuele cursus (geen deel van een het leren weg) is, wijst de duur op de tijd die voor die cursus alleen wordt vereist.</br> |
+| Embedded_Course_ID | De kolom wordt gevuld wanneer de rij een leerpad of certificering zelf vertegenwoordigt. Het toont de id&#39;s van de afzonderlijke cursussen die zijn ingesloten in het leerpad of de certificering. De cursus wordt niet gevuld wanneer de rij zelf alleen een cursus is, omdat er geen ingesloten items zijn. |
+| Ingesloten pad-ID | De kolom identificeert de unieke id van ingesloten leerpaden. Hiermee kunt u cursussen bijhouden in leerpaden en krijgt u inzicht in de hiërarchische structuur van leerpaden. |
 | Uitschrijvingsdatum (tijdzone UTC) | Datum van uitschrijving door de student voor het type leerobject. |
-| Prijs ($) | De prijs van het leerobject waarvoor het is aangeschaft in de cursuscatalogus. Deze kolom komt alleen in het Studenttranscript te staan als de beheerder het selectievakje Prijzen voor cursussen/leerpaden/certificeringen inschakelen uit accountinstellingen heeft ingeschakeld. |
+| Prijs ($) | De prijs van het leerobject waarvoor het is aangeschaft in de cursuscatalogus. Deze kolom wordt alleen weergegeven in het Studenttranscript als de beheerder het selectievakje Prijzen inschakelen voor cursussen > Leerpaden > Certificeringen vanuit accountinstellingen heeft ingeschakeld. |
 
 ## Excel-rapporten
 
-In het dialoogvenster Studenttranscripten kunt u ook vaardigheidsgegevens en overzichtsbladen downloaden als Excel-bestanden. Selecteer **[!UICONTROL omvatten de gegevens van Vaardigheden en summiere bladen]** checkbox en selecteer dan **&#x200B;**&#x200B;produceren om een Excel dossier met de volgende bladen te downloaden:
+In het dialoogvenster Studenttranscripten kunt u ook vaardigheidsgegevens en overzichtsbladen downloaden als Excel-bestanden. Selecteer **[!UICONTROL omvatten de gegevens van Vaardigheden en summiere bladen]** checkbox en selecteer dan **** produceren om een Excel dossier met de volgende bladen te downloaden:
 
 * Leermateriaaloverzicht I
 * Leermateriaaloverzicht II
@@ -218,7 +220,7 @@ Dit leeroverzicht I-rapport bevat twee leerpaden die aan de student zijn toegewe
 
 Volg de leeractiviteiten per student. Volg inschrijvingen, lopende activiteiten en vervaldatums voor studenten.
 
-* Aantal ingeschreven leerobjecten: totaal aantal leerobjecten (LO&#39;s) waarvoor de leerling is ingeschreven voor elke cursus, certificering of leerpad. afzonderlijk tellen.
+* Aantal ingeschreven leerobjecten: totaal aantal leerobjecten (LO&#39;s) waarvoor de leerling is ingeschreven voor elke cursus, certificering of leerpad.
 * Aantal begonnen leerobjecten: Geeft aan hoeveel van de ingeschreven leerobjecten de student heeft gestart of gestart.
 * Aantal voltooide leerobjecten: toont hoeveel van de begonnen LO&#39;s de student volledig heeft voltooid.
 * Aantal leerobjecten met progressie ≥ N%: geeft het aantal LO&#39;s weer waarin de leerling ten minste de opgegeven voortgangsdrempel heeft bereikt (in dit geval 70%).
@@ -260,7 +262,7 @@ Volg studenten met aanstaande vervaldatums voor belangrijke cursussen, leerpaden
 
 | Kolom | Beschrijving |
 |---|---|
-| Na | Geeft het aantal studenten aan dat een vaardigheid heeft bereikt vóór een gedefinieerde periode (in dagen), waarna de vaardigheid als verouderd wordt beschouwd of moet worden vernieuwd. Handig voor het identificeren van studenten met naderende of verlopen vaardigheidsresultaten.<br> zie <a href="https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/skills-levels"> vaardigheidsniveaus </a> voor meer informatie. |
+| Na | Geeft het aantal studenten aan dat een vaardigheid heeft bereikt vóór een gedefinieerde periode (in dagen), waarna de vaardigheid als verouderd wordt beschouwd of moet worden vernieuwd. Handig voor het identificeren van studenten met naderende of verlopen vaardigheidsresultaten.<br> zie <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> vaardigheidsniveaus </a> voor meer informatie. |
 | Naam | Volledige naam van de leerling aan wie de vaardigheid is toegewezen. |
 | Naam van manager | Naam van de rapportmanager van de student. |
 | Rijlabels | De specifieke vaardigheidsnaam die is toegewezen aan studenten die in deze rij worden weergegeven. Wordt gebruikt als koptekst voor groepen om de vaardigheidsgegevens van studenten in elke vaardigheidscategorie samen te vatten. |
@@ -325,7 +327,7 @@ Dit zorgt ervoor dat bereikbare aangepaste beheerders alleen de gegevens en leer
 
 **steun van de Verbindingsschakelaar**
 
-Het rapport van het Transcriptie van de Student kan door beheerderGebruikersinterface, [&#x200B; FTP, Doos, Baan API, of Power BI &#x200B;](/help/migrated/integration-admin/feature-summary/connectors.md) worden betreden. Het is niet opgenomen in de geïntegreerde rapporten van Salesforce, Power BI en Marketo Engage.
+Het rapport van het Transcriptie van de Student kan door beheerderGebruikersinterface, [ FTP, Doos, Baan API, of Power BI ](/help/migrated/integration-admin/feature-summary/connectors.md) worden betreden. Het is niet opgenomen in de geïntegreerde rapporten van Salesforce, Power BI en Marketo Engage.
 
 Uniforme rapporten die zijn gedownload van Salesforce, Marketo Engage en Power BI bevatten minder kolommen dan Studenttranscripten.
 

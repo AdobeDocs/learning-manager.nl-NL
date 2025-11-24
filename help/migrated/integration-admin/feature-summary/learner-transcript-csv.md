@@ -4,7 +4,7 @@ title: Hoe u de CSV van het Studenttranscript moet interpreteren
 description: Hoe u de CSV van het Studenttranscript moet interpreteren
 contentowner: saghosh
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 88%
@@ -29,9 +29,9 @@ Deze informatie kan nuttig zijn voor elke ontwikkelaar die Learning Manager met 
 
 ## Download Studenttranscript uit de gebruikersinterface {#fetchlearnertranscriptfromtheuserinterface}
 
-Vanuit de Profielinstellingen kan een student diens transcript downloaden. Zie *** voor meer informatie [Studenttranscript downloaden](../../administrators/feature-summary/learner-transcripts.md)***.
+Vanuit de Profielinstellingen kan een student diens transcript downloaden. Voor meer informatie, zie *** [ Transcriptie van de Student van de Download ](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) ***.
 
-Beheerders kunnen Studenttranscripts genereren voor de hele organisatie, een bepaalde set gebruikers of leerobjecten, of een bepaalde set gebruikers én leerobjecten. Ze kunnen ook alle leerrecords opvragen voor een bepaalde tijdsduur en aangeven of er informatie op moduleniveau nodig is (standaard wordt deze informatie weggelaten). Voor meer informatie, zie [***Studenttranscripten downloaden***](../../administrators/feature-summary/learner-transcripts.md).
+Beheerders kunnen Studenttranscripts genereren voor de hele organisatie, een bepaalde set gebruikers of leerobjecten, of een bepaalde set gebruikers én leerobjecten. Ze kunnen ook alle leerrecords opvragen voor een bepaalde tijdsduur en aangeven of er informatie op moduleniveau nodig is (standaard wordt deze informatie weggelaten). Voor meer informatie, zie [***Studenttranscripten downloaden***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 <!--Update above link?-->
 
@@ -59,13 +59,13 @@ Natuurlijk kunt u met de connectoren ook het studenttranscript aanvragen; in dat
 
 Nu bespreken we wat bedoeld wordt met het Incrementele studenttranscript
 
-In het studenttranscript staat elke rij voor een specifieke activiteit waarbij een specifieke leerling en een specifiek leerobject betrokken zijn. We zijn vooral geïnteresseerd in de status van een student ten opzichte van het leerobject - **Ingeschreven**, **Gestart**, **In uitvoering**, en **Voltooid**. Daarom documenteert het studenttranscript ook vier overeenkomende data.
+In het studenttranscript staat elke rij voor een specifieke activiteit waarbij een specifieke leerling en een specifiek leerobject betrokken zijn. Wij zijn hoofdzakelijk geinteresseerd in welke staat een student met betrekking tot het het leren voorwerp is - **Ingeschreven**, **Begonnen**, **in voortgang**, en **Voltooid**. Daarom documenteert het studenttranscript ook vier overeenkomende data.
 
 Er zijn nu drie typen leerobjecten, waarbij Leermanager de voortgang van de studenten bijhoudt en de geëxporteerde gegevens voortgangsinformatie op moduleniveau bevatten, de meest gedetailleerde inhoudseenheid die een student in Leerbeheer kan ervaren.
 
-* **Cursus** - een samenstelling van een of meer modules;
-* **Leerprogramma** - een samenstelling van een of meer cursussen
-* **Certificering** - een samenstelling van een of meer cursussen.
+* **Cursus** - een samenstelling van één of meerdere modules
+* **het Leren Programma** - een samenstelling van één of meerdere cursussen
+* **Certificatie** - een samenstelling van één of meerdere cursussen.
 
 Elke rij in het Studenttranscript kan betrekking hebben op de betrokkenheid van een specifieke gebruiker met een module, cursus, leerprogramma of certificering. Zodra een gebruiker is ingeschreven in een leerprogramma, zal het transcript aangeven dat de gebruiker is ingeschreven.
 

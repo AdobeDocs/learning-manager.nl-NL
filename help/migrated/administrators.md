@@ -4,7 +4,7 @@ title: Beheerders
 description: Lees verder voor meer informatie over de kenmerken van en veelgestelde vragen voor de beheerdersrol in Learning Manager.
 contentowner: manochan
 preview: true
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '125'
 ht-degree: 100%
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 * [Kleurenthema&#39;s en branding](administrators/feature-summary/themes.md)
 * [Adobe Connect-integratie](administrators/feature-summary/adobeconnect-integration.md)
-* [Studenttranscripten](/help/migrated/administrators/feature-summary/learner-transcripts.md)
+* [Studenttranscripten](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
 * [Gamification](administrators/feature-summary/gamification.md)
 * [Gebruikers/gebruikersgroepen toevoegen](administrators/feature-summary/add-users-user-groups.md)
 * [Badges](administrators/feature-summary/badges.md)
