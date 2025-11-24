@@ -2,9 +2,9 @@
 description: Met de ALM (Studenttranscripten in Adobe Learning Manager) kunnen beheerders de voortgang van studenten in cursussen, modules, leerpaden en certificeringen volgen. Het steunt prestatiesevaluaties, nalevingscontrole, controles, en externe rapportering. Het rapport biedt een volledig overzicht van de betrokkenheid en prestaties van een student.
 jcr-language: en_us
 title: Studenttranscripten in Adobe Learning Manager
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: ab60b3fddb4fbf405d0ec6d32bd6c06e60b14a06
 workflow-type: tm+mt
-source-wordcount: '4823'
+source-wordcount: '4818'
 ht-degree: 7%
 
 ---
@@ -63,21 +63,23 @@ Studenttranscripten in Adobe Learning Manager volgen training, naleving en ontwi
 5. Selecteer **[!UICONTROL produceer Nieuw]**.
 6. Selecteer het datumbereik waarvoor het transcript moet worden gegenereerd. U kunt zowel begin als einddata wijzigen gebruikend **[!UICONTROL kiest datums]** optie in het dropdown van de datumwaaier.
 7. Selecteer het volgende:
-a. Selecteer de namen van de studenten in de **[!UICONTROL sectie Studenten selecteren]** . U kunt gebruikers of gebruikersgroepen selecteren of u kunt de e-mailadressen kopiëren en plakken van de studenten voor wie u transcripten wilt genereren. Zie de sectie [&#x200B; het transcript van de Student &#x200B;](#generate-learner-transcript-using-copy-paste) gebruikend exemplaar-kleef voor meer informatie. Als u niets selecteert, worden standaard de waarden Alle gebruikt.
-b.Selecteer specifieke catalogi van de **[!UICONTROL Uitgezochte drop-down lijst van Catalogi]**. Het transcript wordt alleen gedownload voor de opgegeven catalogi. Als u niets selecteert, worden standaard de waarden Alle gebruikt.
-c. Selecteer de **[!UICONTROL Status van de Inschrijving]**. Dit dropdownmenu heeft de volgende opties:
+   1. Selecteer de namen van de studenten van de **[!UICONTROL Uitgezochte Studenten]** sectie. U kunt gebruikers of gebruikersgroepen selecteren of u kunt de e-mailadressen kopiëren en plakken van de studenten voor wie u transcripten wilt genereren. Zie de sectie [ het transcript van de Student ](#generate-learner-transcript-using-copy-paste) gebruikend exemplaar-kleef voor meer informatie. Als u niets selecteert, worden standaard de waarden Alle gebruikt.
+   1. Selecteer specifieke catalogi van de **[!UICONTROL Uitgezochte drop-down lijst van Catalogi]**. Het transcript wordt alleen gedownload voor de opgegeven catalogi. Als u niets selecteert, worden standaard de waarden Alle gebruikt.
+   1. Selecteer de **[!UICONTROL Status van de Inschrijving]**. Dit dropdownmenu heeft de volgende opties:
 
-       * Alles selecteren 
-       * Voltooid 
-       * In bewerking 
-       * Niet gestart 
-       * Uitgeschreven 
-   &#x200B;8. Geavanceerde opties: Selecteer **[!UICONTROL Geavanceerde opties]** om de transcripties te downloaden om het volgende te omvatten:
+      * Alle selecteren
+      * Voltooid
+      * In uitvoering
+      * Niet gestart
+      * Uitgeschreven
 
-   a. Download transcripten voor studenten die uit een account zijn verwijderd door het selectievakje **[!UICONTROL Inclusief verwijderde studenten]** in te schakelen.
-b. De informatie van het moduleniveau van de download in het transcript van de Student door **[!UICONTROL toe te laten de informatie van het moduleniveau]** checkbox. In dit geval worden de modulenamen en de tijd die aan elke module wordt doorgebracht als onderdeel van het transcript opgehaald als deze optie is ingeschakeld.
-c. Download vaardigheidsgegevens en samenvattingsbladen door de optie **[!UICONTROL toe te laten omvat vaardigheidsgegevens en samenvattingsbladen]** checkbox. Zie de sectie van de Rapporten van Excel voor meer informatie.
-&#x200B;9. U kunt ook de kolommen selecteren die in uw rapport moeten worden ingevuld. Dit biedt flexibiliteit om rapporten met specifieke kolomwaarden te downloaden zoals vereist. Selecteer de kolommen in de vervolgkeuzelijst.
+8. Geavanceerde opties: Selecteer **[!UICONTROL Geavanceerde opties]** om de transcripties te downloaden om het volgende te omvatten:
+
+   1. De transcripten van de download voor studenten die van een rekening zijn geschrapt door checkbox **[!UICONTROL te selecteren omvat geschrapte Studenten]**.
+   1. De informatie van het moduleniveau van de download in het transcript van de Student door **[!UICONTROL toe te laten de informatie van het moduleniveau]** checkbox. In dit geval worden de modulenamen en de tijd die aan elke module wordt doorgebracht als onderdeel van het transcript opgehaald als deze optie is ingeschakeld.
+   1. De de vaardigheidsgegevens en samenvattingsbladen van de download door de optie **[!UICONTROL toe te laten omvatten vaardigheidsgegevens en summiere bladen]** checkbox. Zie de sectie van de Rapporten van Excel voor meer informatie.
+
+9. U kunt ook de kolommen selecteren die in uw rapport moeten worden ingevuld. Dit biedt flexibiliteit om rapporten met specifieke kolomwaarden te downloaden zoals vereist. Selecteer de kolommen in de vervolgkeuzelijst.
 Transcripties worden als zip-bestanden gegenereerd en naar uw computer gedownload wanneer de vaardigheidsgegevens niet worden opgenomen. Als het selectievakje Vaardigheden is ingeschakeld, worden transcripten gegenereerd en gedownload als . xlsx-bestanden
 
 ### Studenttranscripten genereren met kopiëren en plakken
@@ -111,7 +113,7 @@ In de volgende kolommen wordt de student geïdentificeerd.
 |---|---|
 | Naam | Naam van de student. |
 | E-mail | E-mailadres van student. |
-| Adobe ID | Dit veld wordt alleen ingevuld wanneer gebruikers zich met hun Adobe ID aanmelden. Als zij tot Adobe Learning Manager door een organisatie-bepaalde [&#x200B; Enige Sign-On (SSO) &#x200B;](/help/migrated/administrators/feature-summary/multiple-sso-logins.md) toegang hebben, zal het gebied van Adobe ID leeg blijven. |
+| Adobe ID | Dit veld wordt alleen ingevuld wanneer gebruikers zich met hun Adobe ID aanmelden. Als zij tot Adobe Learning Manager door een organisatie-bepaalde [ Enige Sign-On (SSO) ](/help/migrated/administrators/feature-summary/multiple-sso-logins.md) toegang hebben, zal het gebied van Adobe ID leeg blijven. |
 | Unieke ID van gebruiker | De unieke gebruikers-id is een externe id die wordt gegenereerd door accounts voor het geval dat deze geen e-mail-ID&#39;s van alle gebruikers of unieke e-mail-ID&#39;s van alle gebruikers hebben.  <br> Het veld Unieke gebruikersnaam is een optioneel veld dat voor een account kan worden ingeschakeld. Het hoofddoel van het veld is om accounts toe te staan elke gebruiker een unieke id toe te wijzen om deze bij te houden, gebruikersrecords via API&#39;s bij te werken, gegevens te controleren of te synchroniseren in geautomatiseerde workflows. Het labelen van elke gebruiker gebeurt via CSV-import van gebruikers.</br><br> als een rekening voor Unieke Gebruiker - identiteitskaart heeft gekozen, dan rapporten, zoals de Transcripten van de Student, verstrekt Adobe Learning Manager de kolom in de rapporten.</br> |
 
 **op inschrijving betrekking hebbende informatie**
@@ -137,7 +139,7 @@ In de volgende kolommen worden activiteit, voortgang of pogingen vastgelegd.
 | Highest_Quiz_score_max | De hoogst mogelijke quizscores die mogelijk zijn voor de module. Deze kan leeg zijn als de student de quiz niet heeft geprobeerd of als de inhoud geen quizzen bevat. De hoogst haalbare score die gekoppeld is aan de hoogste quizscore die een student heeft behaald voor meerdere pogingen. Het is niet de hoogste score die de leerling heeft behaald. In plaats daarvan wordt de maximale score vastgelegd die mogelijk was in de poging waarbij de student de hoogste score behaalde. |
 | Aantal pogingen | Het totale aantal pogingen dat de student tot nu toe heeft uitgevoerd voor deze module. |
 | Maximaal toegestane pogingen | Het maximumaantal pogingen dat de student mag uitvoeren om de module te gebruiken. |
-| Opmerkingen bij inzending | Opmerkingen van de manager van een student nadat deze een leerobject hebben voltooid.<br> De gegevens van de inzendopmerkingen die door de docent zijn verstrekt, zijn opgenomen in de module voor het indienen van bestanden. Zie <a href="https://experienceleague.adobe.com/nl/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules"> modules-Adobe Learning Manager voor meer informatie.</a></br> |
+| Opmerkingen bij inzending | Opmerkingen van de manager van een student nadat deze een leerobject hebben voltooid.<br> De gegevens van de inzendopmerkingen die door de docent zijn verstrekt, zijn opgenomen in de module voor het indienen van bestanden. Zie <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules"> modules-Adobe Learning Manager voor meer informatie.</a></br> |
 | Voltooiingsbron | Verwijst naar de oorsprong of methode waarmee de voltooiing van een cursus, leerpad of certificering door een student wordt vastgelegd. Hiermee kunnen beheerders begrijpen hoe de voltooiing is bereikt of dat het systeem is aangemeld. De kolom geeft aan of de voltooiing zelf-gerapporteerd was, of vergemakkelijkt door een specifieke rol of configuratie. Opmerking: voor workflows voor aanwezigheid van VC-connector geldt dat als een student automatisch is gemarkeerd als aanwezig, de bron &quot;SELF, &lt;learner_email>&quot; weergeeft. |
 | Opmerking bij voltooiing | De opmerkingen die de beheerder heeft gemaakt wanneer een student als voltooid wordt gemarkeerd nadat deze een cursus, certificering of leerpad heeft voltooid. De beheerder kan de voltooiingsopmerkingen voor een of meerdere studenten toevoegen. |
 
@@ -188,7 +190,7 @@ Deze hebben betrekking op cursussen, modules, leerpaden, certificeringen, enzovo
 
 ## Excel-rapporten
 
-In het dialoogvenster Studenttranscripten kunt u ook vaardigheidsgegevens en overzichtsbladen downloaden als Excel-bestanden. Selecteer **[!UICONTROL omvatten de gegevens van Vaardigheden en summiere bladen]** checkbox en selecteer dan **&#x200B;**&#x200B;produceren om een Excel dossier met de volgende bladen te downloaden:
+In het dialoogvenster Studenttranscripten kunt u ook vaardigheidsgegevens en overzichtsbladen downloaden als Excel-bestanden. Selecteer **[!UICONTROL omvatten de gegevens van Vaardigheden en summiere bladen]** checkbox en selecteer dan **** produceren om een Excel dossier met de volgende bladen te downloaden:
 
 * Leermateriaaloverzicht I
 * Leermateriaaloverzicht II
@@ -262,7 +264,7 @@ Volg studenten met aanstaande vervaldatums voor belangrijke cursussen, leerpaden
 
 | Kolom | Beschrijving |
 |---|---|
-| Na | Geeft het aantal studenten aan dat een vaardigheid heeft bereikt vóór een gedefinieerde periode (in dagen), waarna de vaardigheid als verouderd wordt beschouwd of moet worden vernieuwd. Handig voor het identificeren van studenten met naderende of verlopen vaardigheidsresultaten.<br> zie <a href="https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/skills-levels"> vaardigheidsniveaus </a> voor meer informatie. |
+| Na | Geeft het aantal studenten aan dat een vaardigheid heeft bereikt vóór een gedefinieerde periode (in dagen), waarna de vaardigheid als verouderd wordt beschouwd of moet worden vernieuwd. Handig voor het identificeren van studenten met naderende of verlopen vaardigheidsresultaten.<br> zie <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> vaardigheidsniveaus </a> voor meer informatie. |
 | Naam | Volledige naam van de leerling aan wie de vaardigheid is toegewezen. |
 | Naam van manager | Naam van de rapportmanager van de student. |
 | Rijlabels | De specifieke vaardigheidsnaam die is toegewezen aan studenten die in deze rij worden weergegeven. Wordt gebruikt als koptekst voor groepen om de vaardigheidsgegevens van studenten in elke vaardigheidscategorie samen te vatten. |
@@ -327,7 +329,7 @@ Dit zorgt ervoor dat bereikbare aangepaste beheerders alleen de gegevens en leer
 
 **steun van de Verbindingsschakelaar**
 
-Het rapport van het Transcriptie van de Student kan door beheerderGebruikersinterface, [&#x200B; FTP, Doos, Baan API, of Power BI &#x200B;](/help/migrated/integration-admin/feature-summary/connectors.md) worden betreden. Het is niet opgenomen in de geïntegreerde rapporten van Salesforce, Power BI en Marketo Engage.
+Het rapport van het Transcriptie van de Student kan door beheerderGebruikersinterface, [ FTP, Doos, Baan API, of Power BI ](/help/migrated/integration-admin/feature-summary/connectors.md) worden betreden. Het is niet opgenomen in de geïntegreerde rapporten van Salesforce, Power BI en Marketo Engage.
 
 Uniforme rapporten die zijn gedownload van Salesforce, Marketo Engage en Power BI bevatten minder kolommen dan Studenttranscripten.
 
