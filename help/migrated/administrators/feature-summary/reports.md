@@ -122,7 +122,7 @@ Voor actieve trainingen zijn gegevens van alle interne groepen van de hoofdgebru
 
 >[!NOTE]
 >
->De gegevens tonen niet zoals verwacht wanneer **[!UICONTROL Alle Gebruikers]** en **[!UICONTROL 12 maanden]** filters worden geselecteerd, maar de gegevensvertoningen wanneer u **[!UICONTROL Al interne gebruikersgroep ] selecteert.**
+>De gegevens tonen niet zoals verwacht wanneer **[!UICONTROL Alle Gebruikers]** en **[!UICONTROL 12 maanden]** filters worden geselecteerd, maar de gegevensvertoningen wanneer u **[!UICONTROL Al interne gebruikersgroep &#x200B;] selecteert.**
 
 <table>
  <tbody>
@@ -191,7 +191,7 @@ Het trainingsrapport heeft twee extra kolommen:
 
 >[!INFO]
 >
->In deze training leert u hoe u dashboardrapporten kunt genereren op basis van de database.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854) </br></br>
+>In deze training leert u hoe u dashboardrapporten kunt genereren op basis van de database.<br><br>[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854) </br></br>
 
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
@@ -268,7 +268,7 @@ Ga als volgt te werk om een label voor aangepaste compatibiliteit te maken:
 
 >[!NOTE]
 >
->De auteur moet deze compatibiliteitslabels toevoegen tijdens het maken/bewerken van de cursussen in de app. Zie [ nalevingsetiketten aan een cursus/het leren weg/de certificatie ](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) toevoegen.
+>De auteur moet deze compatibiliteitslabels toevoegen tijdens het maken/bewerken van de cursussen in de app. Zie [&#x200B; nalevingsetiketten aan een cursus/het leren weg/de certificatie &#x200B;](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) toevoegen.
 
 ##### Een dashboard voor compliance maken en delen
 
@@ -345,7 +345,7 @@ Met deze optie selecteert u alle cursussen waarvoor de compatibiliteitslabels zi
 
 ##### Het dashboard Naleving weergeven - Manager
 
-Verwijs dit artikel [ Bekijk het nalevingsdashboard ](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard) voor meer informatie.
+Verwijs dit artikel [&#x200B; Bekijk het nalevingsdashboard &#x200B;](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard) voor meer informatie.
 
 #### Het dashboard bewerken
 
@@ -389,7 +389,7 @@ Ga als volgt te werk om de standaardcompatibiliteitswidget voor studenten in te 
 5. Selecteer de nalevingsetiketten van **[!UICONTROL drop-down Naleving van de Douane]**. Met deze optie selecteert u alle cursussen waarvoor de compatibiliteitslabels zijn geselecteerd.
 6. Selecteer **[!UICONTROL ga]** verder om de standaard nalevingswidget te plaatsen.
 
-Studenten kunnen de geselecteerde cursussen of leerpaden op de compatibiliteitswidget op hun startpagina zien. Verwijs [ widget van het dashboard van de Naleving ](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget) voor meer informatie.
+Studenten kunnen de geselecteerde cursussen of leerpaden op de compatibiliteitswidget op hun startpagina zien. Verwijs [&#x200B; widget van het dashboard van de Naleving &#x200B;](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget) voor meer informatie.
 
 ## Aangepaste rapporten
 
@@ -443,7 +443,7 @@ Als beheerder kunt u rapporten voor cursussen downloaden. Volg deze stappen:
 
 >[!INFO]
 >
->In deze training leert u hoe u cursusrapporten exporteert en e-mailabonnementen instelt voor deze rapporten.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904) </br></br>
+>In deze training leert u hoe u cursusrapporten exporteert en e-mailabonnementen instelt voor deze rapporten.<br><br>[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904) </br></br>
 
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
@@ -452,7 +452,7 @@ Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 Adobe Learning Manager stelt de beheerders van een organisatie in staat om de transcripten van de studenten te genereren.
 
-Zie [ Transcriptie van de Student ](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) voor meer informatie.
+Zie [&#x200B; Transcriptie van de Student &#x200B;](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) voor meer informatie.
 
 ### Aankondigingenrapporten {#announcementsreports}
 
@@ -510,14 +510,14 @@ Voer een van de volgende handelingen uit om een rapport te downloaden:
 
 Nadat u **[!UICONTROL het Rapport van de Hulp van de Baan]** op de lijst selecteert, ziet u twee opties:
 
-![ rapport van taakhulpen ](assets/job-aids-new.png)
+![&#x200B; rapport van taakhulpen &#x200B;](assets/job-aids-new.png)
 *het Rapport van de Inschrijving van de Taak van de Download USer*
 
 **Alle Hulp van de Baan**: Als het aantal taakhulpen in de rekening minder dan 10 miljoen is, zal het geproduceerde rapport inschrijvingsinformatie van alle taakhulpen bevatten. Dit is de standaardselectie. Als het aantal rijen groter is dan 10 miljoen, wordt een fout weergegeven en moet u de vereiste taakhulpen handmatig selecteren.
 
 **Geselecteerde Hulp van de Baan**: Als u deze optie selecteert, kunt u de taakhulpen ingaan waarvoor u het rapport wilt produceren. U kunt maximaal 10 taakhulpen selecteren. Adobe Learning Manager controleert of er meer dan 10 miljoen taakhulpen zijn.
 
-![ het rapportinschrijving van taakhulpen ](assets/job-aids-2-new.png)
+![&#x200B; het rapportinschrijving van taakhulpen &#x200B;](assets/job-aids-2-new.png)
 *Selecteer een Taakhulp*
 
 **het Rapport van de Hulp van de Baan**
@@ -664,7 +664,7 @@ Het geëxporteerde rapport bevat gegevens van de gebruikers die aan beide opgege
 
 ### Rapport over extensieconfiguratie
 
-Dit rapport bevat informatie over de configuratiedetails van alle toegevoegde native extensies, inclusief hun activeringsstatus. Leer hoe te om uitbreidingsrapport te downloaden, zie [ de uitbreidingsrapport van de Download ](native-extensibility.md#download-extension-report).
+Dit rapport bevat informatie over de configuratiedetails van alle toegevoegde native extensies, inclusief hun activeringsstatus. Leer hoe te om uitbreidingsrapport te downloaden, zie [&#x200B; de uitbreidingsrapport van de Download &#x200B;](native-extensibility.md#download-extension-report).
 
 ### xAPI-activiteitsrapport
 
@@ -744,7 +744,7 @@ Om een rapport te downloaden, volg deze stappen: Open de **[!UICONTROL Cursus/he
 
 Als beheerder kunt u nu zowel feedback van de student (L1) als van de manager (L3) krijgen voor geselecteerde trainingen voor een bepaalde periode.
 
-Zie [ rapport van de Terugkoppeling ](/help/migrated/administrators/feature-summary/reports/feedback-report.md) voor meer informatie.
+Zie [&#x200B; rapport van de Terugkoppeling &#x200B;](/help/migrated/administrators/feature-summary/reports/feedback-report.md) voor meer informatie.
 
 ### Trainingsrapport {#training-report}
 
@@ -820,7 +820,7 @@ Om het rapport te downloaden, klik **[!UICONTROL Rapporten]** > **[!UICONTROL de
 
 Selecteer een docent of meerdere docenten en het datumbereik.
 
-![ Rapport van het Gebruik van de Instructeur van de Download ](assets/utilization-report.png)
+![&#x200B; Rapport van het Gebruik van de Instructeur van de Download &#x200B;](assets/utilization-report.png)
 *Rapport van het Gebruik van de Instructeur van de Download*
 
 Het gedownloade rapport bevat de volgende velden:
@@ -844,7 +844,7 @@ Selecteer de studenten of een gebruikersgroep.
 
 Om het rapport te downloaden, klik **[!UICONTROL Rapporten]** > **[!UICONTROL de Rapporten van de Douane]** > **[!UICONTROL Rapport van het Spoor van de Controle van de Gebruiker]**.
 
-![ Rapport van het Trail van de Controle van de Gebruiker van de Download ](assets/user-audit-report.png)
+![&#x200B; Rapport van het Trail van de Controle van de Gebruiker van de Download &#x200B;](assets/user-audit-report.png)
 
 *Rapport van het Trail van de Controle van de Gebruiker van de Download*
 
@@ -911,7 +911,7 @@ U kunt uw favoriete rapporten als e-mail ontvangen door u hierop te abonneren.
 
 >[!INFO]
 >
->In deze training leert u hoe u e-mailabonnementen kunt instellen voor dashboardrapporten.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927) </br></br>
+>In deze training leert u hoe u e-mailabonnementen kunt instellen voor dashboardrapporten.<br><br>[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927) </br></br>
 
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
@@ -957,7 +957,7 @@ Ga als volgt te werk om dit rapport te downloaden:
 
 1. Geef de naam en beschrijving van het dashboard op.
 1. Als u het dashboard met om het even welke Manager wilt delen, kies hen in **[!UICONTROL Aandeel met]** gebied. U kunt alle normale selectiecriteria voor deze bewerking gebruiken.
-1. Klik **[!UICONTROL sparen ].**
+1. Klik **[!UICONTROL sparen &#x200B;].**
 
 U kunt het recent gemaakte board bekijken op het tabblad **[!UICONTROL Dashboard Rapporten]**.
 
@@ -1014,7 +1014,7 @@ Het geëxporteerde blad met dashboardrapporten bevat gedetailleerde informatie i
    *Assen voor rapporten*
 
 1. Kies de criteria/het bereik van de secundaire **[!UICONTROL Y-as]** voor uw rapport in de vervolgkeuzelijst. Zo kunt u voor de inschrijvingsoptie van een leerprogramma een of meer statussen uit de vervolgkeuzelijst Statussen kiezen. De gegevens van het secundaire bereik worden in het rapport als lijndiagrammen weergegeven.
-1. Kies de juiste criteria voor de X**-as** voor uw rapport in de vervolgkeuzelijst. Als de x-as als datum is gekozen, hebt u de optie om uw x-ascriterium op dag, maand, kwartaal en jaar te groeperen.
+1. Kies de juiste criteria voor de X&#x200B;**-as** voor uw rapport in de vervolgkeuzelijst. Als de x-as als datum is gekozen, hebt u de optie om uw x-ascriterium op dag, maand, kwartaal en jaar te groeperen.
 1. Kies in de sectie Tijdspanne de toepasselijke optie in de vervolgkeuzelijst. De beschikbare opties zijn:
 
    * Laatste maand

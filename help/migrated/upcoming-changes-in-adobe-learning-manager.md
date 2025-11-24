@@ -13,7 +13,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->De Adobe Learning Manager-versie van oktober 2025 is nu live. Bekijk [ wat ](/help/migrated/whats-new.md) voor meer informatie over de recentste eigenschappen en de verhogingen Nieuw is. Deze pagina wordt bijgewerkt met de nieuwe functies en verbeteringen voor de volgende release. Blijf op de hoogte voor meer updates.
+>De Adobe Learning Manager-versie van oktober 2025 is nu live. Bekijk [&#x200B; wat &#x200B;](/help/migrated/whats-new.md) voor meer informatie over de recentste eigenschappen en de verhogingen Nieuw is. Deze pagina wordt bijgewerkt met de nieuwe functies en verbeteringen voor de volgende release. Blijf op de hoogte voor meer updates.
 
 ## Overzicht van de release
 
@@ -50,11 +50,11 @@ Deze wijzigingen zorgen ervoor dat voltooide bewerkingen die zijn gemarkeerd na 
 
 ### Studenttranscript met de nieuwe kolom
 
-Zie dit [ artikel ](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) voor meer informatie over het rapport van het Transcript van de Student.
+Zie dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) voor meer informatie over het rapport van het Transcript van de Student.
 
 Het gedownloade rapport Studenttranscript bevat de nieuwe kolom: Datum markeren voltooid (tijdzone UTC).
 
-![ de rapporten van het Transcriptie van de Student die duidelijke voltooide (geel gemarkeerde) data tonen voor het volgen van de cursusvoltooiing in het Leren van de Adobe ](/help/migrated/assets/mark-completion-column.png)
+![&#x200B; de rapporten van het Transcriptie van de Student die duidelijke voltooide (geel gemarkeerde) data tonen voor het volgen van de cursusvoltooiing in het Leren van de Adobe &#x200B;](/help/migrated/assets/mark-completion-column.png)
 _het rapport van het Transcriptie van de Student toont een nieuwe kolom in geel die individuele voltooiingsdata voor elke gebruiker benadrukt_
 
 ## Verbeterd gebruikersrapport met uitgebreide gegevensvelden
@@ -77,11 +77,11 @@ Het gebruikersrapport bevat nu extra velden waarmee gebruikers beter kunnen word
 
 ### Gebruikersrapport met de nieuwe kolom
 
-Zie dit [ artikel ](/help/migrated/administrators/feature-summary/reports.md#user-activity-dashboards) leren hoe te om het Rapport van de Gebruiker te downloaden.
+Zie dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/reports.md#user-activity-dashboards) leren hoe te om het Rapport van de Gebruiker te downloaden.
 
 Het gedownloade gebruikersrapportbestand bevat de nieuwe kolommen: Interne gebruikers-id en E-mail manager.
 
-![ Rapport van de Gebruiker die de interne gebruiker - identiteitskaart en manager e-mailkolommen tonen die in geel worden benadrukt ](/help/migrated/assets/user-report-columns.png)
+![&#x200B; Rapport van de Gebruiker die de interne gebruiker - identiteitskaart en manager e-mailkolommen tonen die in geel worden benadrukt &#x200B;](/help/migrated/assets/user-report-columns.png)
 _Rapporten die van de Gebruiker interne gebruiker IDs en manager e-mailadressen benadrukken om gebruikersbeheer te stroomlijnen_
 
 ## FTP-gebruikersrapport met ondersteuning voor interne gebruikers-id
@@ -92,7 +92,7 @@ Het op FTP gebaseerde gebruikersrapport bevat nu ondersteuning voor interne gebr
 
 **Nieuw**
 
-* De Rapporten van de gebruiker zijn nu beschikbaar door [ Douane FTP ](/help/migrated/integration-admin/feature-summary/connectors.md#custom-ftp) naast bestaande rapporten (de Transcripten van de Schittering, de Transcripten van de Student, het Rapport van de Opleidingen).
+* De Rapporten van de gebruiker zijn nu beschikbaar door [&#x200B; Douane FTP &#x200B;](/help/migrated/integration-admin/feature-summary/connectors.md#custom-ftp) naast bestaande rapporten (de Transcripten van de Schittering, de Transcripten van de Student, het Rapport van de Opleidingen).
 * De kolom Interne gebruikers-id is nu consistent in alle exportmethoden (FTP, Jobs API en UI).
 
 **Zeer belangrijke voordelen**
@@ -183,7 +183,7 @@ d. **[!UICONTROL als e-mail]**
 
 8. Selecteer **[!UICONTROL Opslaan]**.
 
-Alleen studenten binnen het bereik van de aangepaste beheerder kunnen de aankondiging bekijken. Zie dit [ artikel ](/help/migrated/administrators/feature-summary/announcements.md) leren hoe te om veelvoudige types van aankondigingen tot stand te brengen.
+Alleen studenten binnen het bereik van de aangepaste beheerder kunnen de aankondiging bekijken. Zie dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/announcements.md) leren hoe te om veelvoudige types van aankondigingen tot stand te brengen.
 
 ### Bereik opnieuw instellen door aangepaste beheerders
 
@@ -271,7 +271,7 @@ Gebruikers in een sociaal board van tags voorzien:
    ![](assets/select-new-post.png)
    _Begin een nieuwe bespreking door Nieuw Post in Sociaal Leren te selecteren om kennis met de geëtiketteerde gebruikers te delen_
 
-4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1} optie van de Raad van de Discussie.]**
+4. Alvorens gebruikers te etiketteren, selecteer de raad van **[!UICONTROL dit aan een 1&rbrace; optie van de Raad van de Discussie.]**
 
    ![](assets/select-boards-in-social-board.png)
    _selecteer een discussieboard om gebruikers te posten en te etiketteren, toelatend gerichte samenwerkingsgesprekken in Sociaal Leren_
@@ -290,7 +290,7 @@ De getagde gebruikers ontvangen zowel in-app- als e-mailmeldingen met een direct
 
 Met tag met beperkingen op bereik kunnen gebruikers alleen die studenten taggen die toegang hebben tot een specifiek board. Hierdoor blijft de privacy behouden doordat codering van gebruikers buiten het bereik wordt voorkomen.
 
-Als u probeert studenten te labelen die buiten het bereik van het board vallen, worden er geen suggesties weergegeven en kunt u ze niet labelen. Verwijs naar dit [ artikel ](/help/migrated/administrators/feature-summary/social-learning-configurations-as-an-admin.md) om meer over Sociaal het Leren Omvang te leren.
+Als u probeert studenten te labelen die buiten het bereik van het board vallen, worden er geen suggesties weergegeven en kunt u ze niet labelen. Verwijs naar dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/social-learning-configurations-as-an-admin.md) om meer over Sociaal het Leren Omvang te leren.
 
 ## Verwijderde gebruikers in opmerkingen coderen
 
@@ -323,7 +323,7 @@ Het Taakhulpenrapport is uitgebreid en bevat nu directe downloadkoppelingen naar
 
 ### Taakhulpenrapport met de nieuwe kolom
 
-Zie dit [ artikel ](/help/migrated/administrators/feature-summary/reports.md#job-aids-report) leren hoe te om het Rapport van de Hulp van de Baan te downloaden.
+Zie dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/reports.md#job-aids-report) leren hoe te om het Rapport van de Hulp van de Baan te downloaden.
 
 Het Taakhulpenrapport kan worden gedownload uit de sectie Rapporten en bevat nu directe downloadkoppelingen voor elke taakhulp.
 
@@ -912,10 +912,10 @@ Een leerpad maken:
    ![](assets/select-add-to-lp.png)
    _selecteer toevoegen in de sectie van de Wegen van het Leren om nieuwe gestructureerde opleidingsprogramma&#39;s voor uw studenten te creëren en te organiseren_
 
-4. Typ de vereiste details en selecteer **[!UICONTROL sparen]**. Zie dit [ artikel ](/help/migrated/administrators/feature-summary/learning-paths.md) voor meer informatie.
+4. Typ de vereiste details en selecteer **[!UICONTROL sparen]**. Zie dit [&#x200B; artikel &#x200B;](/help/migrated/administrators/feature-summary/learning-paths.md) voor meer informatie.
 5. Selecteer **[!UICONTROL Add Go1 Cursussen]**.
 
-   ![ alt tekst ](assets/select-go1-courses.png)
+   ![&#x200B; alt tekst &#x200B;](assets/select-go1-courses.png)
    _voeg Go1 cursussen aan uw playlist van de Ontwikkeling van de Vaardigheid van de Motor van de Verkoop toe om het leren opties met beheerde derdeinhoud uit te breiden_
 
 6. In de **[!UICONTROL Bibliotheek]**, onderzoek naar en selecteer **[!UICONTROL creeer playlist]** en kies van één van het volgende:
@@ -1067,7 +1067,7 @@ Er zijn drie nieuwe kolommen toegevoegd om de gegevens te verbeteren die worden 
 >
 >De bovenstaande CSV-wijzigingen zijn alleen van toepassing op accounts die incrementele gebruikers gebruiken.
 
-Download hier de [ steekproef CSVs ](assets/sample-csv-Incremnetal.zip).
+Download hier de [&#x200B; steekproef CSVs &#x200B;](assets/sample-csv-Incremnetal.zip).
 
 ## Aanbevelingen opnieuw instellen in de Salesforce-app
 
@@ -1293,7 +1293,7 @@ De pagina ontwerpen in Experience Builder:
    _het scherm van het paginaontwerp staat beheerders toe om widgets te selecteren en toe te voegen om hun cursuspagina&#39;s aan te passen_
 
 10. Kies vereiste widget en selecteer dan **[!UICONTROL ga]** verder.
-11. Vorm widget en selecteer **[!UICONTROL toevoegen widget]**. Zie deze [ sectie ](#add-and-configure-widgets) voor het toevoegen van en het vormen van widgets.
+11. Vorm widget en selecteer **[!UICONTROL toevoegen widget]**. Zie deze [&#x200B; sectie &#x200B;](#add-and-configure-widgets) voor het toevoegen van en het vormen van widgets.
 12. Selecteer **[!UICONTROL sparen]** en kies van de volgende opties:
 
    * **[!UICONTROL sparen als Ontwerp]**: De pagina zal als ontwerp worden bewaard. De beheerder kan de pagina later bewerken.
@@ -1312,7 +1312,7 @@ Deze widget presenteert cursussen en programma&#39;s visueel in kalenderindeling
 
 De widget kalender configureren:
 
-1. Volg stappen 1-9 van de [ pagina van het Ontwerp in de Bouwer van de Ervaring ](#design-page-in-experience-builder).
+1. Volg stappen 1-9 van de [&#x200B; pagina van het Ontwerp in de Bouwer van de Ervaring &#x200B;](#design-page-in-experience-builder).
 2. Selecteer **[!UICONTROL Kalender]** en selecteer dan **[!UICONTROL ga]** verder.
 
    ![](assets/select-calendar.png)
@@ -1334,7 +1334,7 @@ Deze widget geeft categorieën (bijvoorbeeld rollen, catalogi) als tegels weer, 
 
 De widget Categorieën configureren:
 
-1. Volg stappen 1-9 van de [ pagina van het Ontwerp in de Bouwer van de Ervaring ](#design-page-in-experience-builder).
+1. Volg stappen 1-9 van de [&#x200B; pagina van het Ontwerp in de Bouwer van de Ervaring &#x200B;](#design-page-in-experience-builder).
 2. Selecteer **[!UICONTROL Categorieën]** en selecteer dan **[!UICONTROL ga]** verder.
 
    ![](assets/select-categories-widget.png)
@@ -1361,7 +1361,7 @@ Deze widget ondersteunt filters die vergelijkbaar zijn met een kalender, maar is
 
 De compatibiliteitswidget configureren:
 
-1. Volg stappen 1-9 van de [ pagina van het Ontwerp in de Bouwer van de Ervaring ](#design-page-in-experience-builder).
+1. Volg stappen 1-9 van de [&#x200B; pagina van het Ontwerp in de Bouwer van de Ervaring &#x200B;](#design-page-in-experience-builder).
 2. Selecteer **[!UICONTROL Status van de Naleving]** en selecteer dan **[!UICONTROL ga]** verder.
 
    ![](assets/select-compliance-status.png)
@@ -1382,7 +1382,7 @@ Deze widget geeft een strook cursus- of padtegels weer, die u kunt aanpassen om 
 
 De widget Cursussen en Paden configureren:
 
-1. Volg stappen 1-9 van de [ pagina van het Ontwerp in de Bouwer van de Ervaring ](#design-page-in-experience-builder).
+1. Volg stappen 1-9 van de [&#x200B; pagina van het Ontwerp in de Bouwer van de Ervaring &#x200B;](#design-page-in-experience-builder).
 2. Selecteer **[!UICONTROL Cursussen &amp; Wegen]**.
 
    ![](assets/select-course-path.png)
@@ -1405,7 +1405,7 @@ Met deze widget kunt u secties maken met titels, beschrijvingen, afbeeldingen en
 
 De widget Inhoudsvak configureren:
 
-1. Volg stappen 1-9 van de [ pagina van het Ontwerp in de Bouwer van de Ervaring ](#design-page-in-experience-builder).
+1. Volg stappen 1-9 van de [&#x200B; pagina van het Ontwerp in de Bouwer van de Ervaring &#x200B;](#design-page-in-experience-builder).
 2. Selecteer **[!UICONTROL Vak van de Inhoud]** en selecteer dan **[!UICONTROL ga]** verder.
 
    ![](assets/select-content-box.png)
@@ -1434,7 +1434,7 @@ Deze widget toont gamification en punten verdiend door studenten in een leaderbo
 
 De gamificationwidget configureren:
 
-1. Volg stappen 1-9 van de [ pagina van het Ontwerp in de Bouwer van de Ervaring ](#design-page-in-experience-builder).
+1. Volg stappen 1-9 van de [&#x200B; pagina van het Ontwerp in de Bouwer van de Ervaring &#x200B;](#design-page-in-experience-builder).
 2. Selecteer **[!UICONTROL Gamification]** en selecteer dan **[!UICONTROL ga]** verder.
 
    ![](assets/select-gamification.png)
@@ -1451,7 +1451,7 @@ Met deze widget kunt u aangepaste HTML-, CSS- en JS-code insluiten, zodat u over
 
 De HTML-widget configureren:
 
-1. Volg stappen 1-9 van de [ pagina van het Ontwerp in de Bouwer van de Ervaring ](#design-page-in-experience-builder).
+1. Volg stappen 1-9 van de [&#x200B; pagina van het Ontwerp in de Bouwer van de Ervaring &#x200B;](#design-page-in-experience-builder).
 2. Selecteer **[!UICONTROL HTML]** en selecteer dan **[!UICONTROL ga]** verder.
 
    ![](assets/select-html.png)
@@ -1468,7 +1468,7 @@ Met deze widget kunt u externe webtoepassingen of webpagina&#39;s rechtstreeks i
 
 De Iframe-widget configureren:
 
-1. Volg stappen 1-9 van de [ pagina van het Ontwerp in de Bouwer van de Ervaring ](#design-page-in-experience-builder).
+1. Volg stappen 1-9 van de [&#x200B; pagina van het Ontwerp in de Bouwer van de Ervaring &#x200B;](#design-page-in-experience-builder).
 2. Selecteer **[!UICONTROL Iframe]** en selecteer dan **[!UICONTROL ga]** verder.
 
    ![](assets/select-iframe.png)
@@ -1490,7 +1490,7 @@ Deze widget is vergelijkbaar met de widget Cursussen en Paden, maar filtert inho
 
 De widget Mijn leerervaring configureren:
 
-1. Volg stappen 1-9 van de [ pagina van het Ontwerp in de Bouwer van de Ervaring ](#design-page-in-experience-builder).
+1. Volg stappen 1-9 van de [&#x200B; pagina van het Ontwerp in de Bouwer van de Ervaring &#x200B;](#design-page-in-experience-builder).
 2. Selecteer **[!UICONTROL Mijn Leren]** en selecteer dan **[!UICONTROL ga]** verder.
 
    ![](assets/select-my-learning.png)
@@ -1507,7 +1507,7 @@ Deze widget biedt functies voor sociale samenwerking, zoals berichten, opmerking
 
 De widget Sociaal leren configureren:
 
-1. Volg stappen 1-9 van de [ pagina van het Ontwerp in de Bouwer van de Ervaring ](#design-page-in-experience-builder).
+1. Volg stappen 1-9 van de [&#x200B; pagina van het Ontwerp in de Bouwer van de Ervaring &#x200B;](#design-page-in-experience-builder).
 2. Selecteer **[!UICONTROL Sociaal Leren]** en selecteer dan **[!UICONTROL ga]** verder.
 
    ![](assets/select-social-learning.png)

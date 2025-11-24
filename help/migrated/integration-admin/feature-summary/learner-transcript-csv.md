@@ -29,7 +29,7 @@ Deze informatie kan nuttig zijn voor elke ontwikkelaar die Learning Manager met 
 
 ## Download Studenttranscript uit de gebruikersinterface {#fetchlearnertranscriptfromtheuserinterface}
 
-Vanuit de Profielinstellingen kan een student diens transcript downloaden. Voor meer informatie, zie *** [ Transcriptie van de Student van de Download ](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) ***.
+Vanuit de Profielinstellingen kan een student diens transcript downloaden. Voor meer informatie, zie *** [&#x200B; Transcriptie van de Student van de Download &#x200B;](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) &#x200B;***.
 
 Beheerders kunnen Studenttranscripts genereren voor de hele organisatie, een bepaalde set gebruikers of leerobjecten, of een bepaalde set gebruikers én leerobjecten. Ze kunnen ook alle leerrecords opvragen voor een bepaalde tijdsduur en aangeven of er informatie op moduleniveau nodig is (standaard wordt deze informatie weggelaten). Voor meer informatie, zie [***Studenttranscripten downloaden***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
