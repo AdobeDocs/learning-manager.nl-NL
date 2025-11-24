@@ -2,10 +2,10 @@
 description: Leer hoe u het feedbackrapport in Adobe Learning Manager kunt openen, downloaden en interpreteren. Begrijp rapportkolommen, vraagtypen, manager- en studentreacties en hoe feedbackinzichten trainingsevaluatie en voortdurende verbetering ondersteunen.
 jcr-language: en_us
 title: Feedbackrapport in Adobe Learning Manager
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 8%
+source-wordcount: '856'
+ht-degree: 7%
 
 ---
 
@@ -102,4 +102,6 @@ De volgende kolommen worden weergegeven in het rapport op leerobjectniveau:
 | Feedbackversie | Versienummer van het feedbackformulier |
 | Taal van student | Taal geselecteerd door de student |
 
-
+>[!NOTE]
+>
+>Het rapport op leerobjectniveau bevat ook de vragen die zijn toegevoegd aan het feedbackformulier. Elke vraag wordt weergegeven als een kolomkop en de antwoorden van de student op die vragen worden weergegeven in de bijbehorende rijen hieronder.
