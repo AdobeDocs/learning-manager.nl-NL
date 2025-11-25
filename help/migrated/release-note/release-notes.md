@@ -18,7 +18,7 @@ ht-degree: 69%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/nl/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>-->
@@ -183,7 +183,7 @@ Verwijs naar dit [&#x200B; artikel &#x200B;](/help/migrated/learners/feature-sum
 
 * Probleem verholpen waarbij studenten die een cursus hadden voltooid een wit scherm zagen bij het terugkeren nadat de inhoudsmodule naar een nieuwe versie was bijgewerkt.
 
-Bovendien, voor details op aanstaande veranderingen in Adobe Learning Manager, zie dit [&#x200B; artikel &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Bovendien, voor details op aanstaande veranderingen in Adobe Learning Manager, zie dit [&#x200B; artikel &#x200B;](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
