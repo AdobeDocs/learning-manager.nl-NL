@@ -2,9 +2,9 @@
 description: Leer hoe u het feedbackrapport in Adobe Learning Manager kunt openen, downloaden en interpreteren. Begrijp rapportkolommen, vraagtypen, manager- en studentreacties en hoe feedbackinzichten trainingsevaluatie en voortdurende verbetering ondersteunen.
 jcr-language: en_us
 title: Feedbackrapport in Adobe Learning Manager
-source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '902'
 ht-degree: 7%
 
 ---
@@ -92,6 +92,16 @@ De volgende kolommen worden in het rapport op accountniveau weergegeven op basis
 >[!NOTE]
 >
 >Het rapport op accountniveau bevat ook alle actieve velden die voor studenten zijn geconfigureerd.
+
+## Rapport op leerobjectniveau downloaden
+
+Het rapport op leerobjectniveau downloaden:
+
+1. Meld u als beheerder aan bij Adobe Learning Manager.
+2. Selecteer **[!UICONTROL Cursussen]** van het linkernavigatiemenu.
+3. Selecteer om het even welke cursus en selecteer dan **[!UICONTROL Cursus van de Mening]**.
+4. Selecteer **[!UICONTROL L1 Terugkoppeling]**.
+5. Selecteer **[!UICONTROL Rapport van de Uitvoer]** en selecteer dan **[!UICONTROL O.K.]**.
 
 De volgende kolommen worden weergegeven in het rapport op leerobjectniveau:
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Cursusinstanties en leerpaden maken
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
 workflow-type: tm+mt
-source-wordcount: '5803'
+source-wordcount: '5832'
 ht-degree: 51%
 
 ---
@@ -27,7 +27,7 @@ Auteurs maken cursussen. Studenten kunnen de cursussen dan volgen en beheerders 
 
 In deze training leert u hoe u standaardinstellingen voor instanties instelt, een nieuwe instantie toevoegt, een instantie archiveert en opnieuw opent en e-mailsjablonen voor een instantie configureert.
 
-[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
+[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
@@ -51,9 +51,9 @@ Als u een instantie wilt maken,
    * Op het **[!UICONTROL gebied van de Naam van de Instantie]**, ga de naam van de instantie in u met de cursus wilt associëren. Zorg ervoor dat u een unieke naam voor de instantie gebruikt.
    * Geef de voltooiingsdeadline voor de instantie op. Studenten moeten hun cursus vóór deze datum voltooien.
    * Klik **[!UICONTROL tonen Meer Opties]** om andere deadline opties te tonen.
-   * **[!UICONTROL Deadline van de Inschrijving &#x200B;]:** dit is de datum waardoor een student naar verwachting in een het leren voorwerp in het geval van zelf-inschrijving moet inschrijven.
-   * **[!UICONTROL Deadline van de Uitschrijving &#x200B;]:** u kunt verkiezen om uitschrijving door student zelf te beperken door een uitschrijvingsdeadline te hebben.
-   * **[!UICONTROL Tijdzone &#x200B;]:** Onderzoek en selecteer dan de **[!UICONTROL Tijdzone]** van dropdown.
+   * **[!UICONTROL Deadline van de Inschrijving ]:** dit is de datum waardoor een student naar verwachting in een het leren voorwerp in het geval van zelf-inschrijving moet inschrijven.
+   * **[!UICONTROL Deadline van de Uitschrijving ]:** u kunt verkiezen om uitschrijving door student zelf te beperken door een uitschrijvingsdeadline te hebben.
+   * **[!UICONTROL Tijdzone ]:** Onderzoek en selecteer dan de **[!UICONTROL Tijdzone]** van dropdown.
 
    Een beheerder kan besluiten om voltooiingsdeadlines voor een leerprogramma in te stellen afhankelijk van vereisten. Het is echter raadzaam er een te hebben voor klassikale/virtuele klassikale trainingen.
 
@@ -80,7 +80,7 @@ Als u een instantie wilt maken,
 
 >[!INFO]
 >
->In deze training leert u hoe u instantiedetails en instantie-eigenschappen kunt bewerken.<br><br>[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912) </br></br>
+>In deze training leert u hoe u instantiedetails en instantie-eigenschappen kunt bewerken.<br><br>[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912) </br></br>
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
@@ -126,25 +126,25 @@ E-mails op instantieniveau verzenden naar ingeschreven studenten:
 
 1. Op de **[!UICONTROL pagina van Instanties]**, selecteer de opties op om het even welke instantie, en klik dan **[!UICONTROL E-mail Ingeschreven Studenten]**.
 
-![&#x200B; e-mails van het instantieniveau &#x200B;](assets/adhoc-email.png)
+![ e-mails van het instantieniveau ](assets/adhoc-email.png)
 
 *E-mail studenten ingeschreven in de instantie*
 
 1. Voor het **[!UICONTROL Create de dialoog van de Aankondiging]**, selecteer Type als E-mail. Geef het onderwerp op, typ het bericht en klik op **[!UICONTROL Opslaan]**. De training wordt automatisch geselecteerd.
 
-   ![&#x200B; Creeer aankondiging als e-mail &#x200B;](assets/email-announcement.png)
+   ![ Creeer aankondiging als e-mail ](assets/email-announcement.png)
 
    *Creeer aankondiging als e-mail*
 
 1. Nadat u op **[!UICONTROL Opslaan]** hebt geklikt, ziet u een bevestigingsbericht voor het maken van de aankondiging. Als u de aankondiging wilt publiceren, klikt u op **[!UICONTROL Nu publiceren]**.
 
-   ![&#x200B; Bevestiging die met succes &#x200B;](assets/announcement-successful.png) wordt gecreeerd
+   ![ Bevestiging die met succes ](assets/announcement-successful.png) wordt gecreeerd
 
 ## Studenten inschrijven voor cursussen
 
 In deze training leert u studenten inschrijven, uitschrijven en opnieuw inschrijven.
 
-[![&#x200B; knoop &#x200B;](assets/launch-training-button.png) &#x200B;](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318916)
+[![ knoop ](assets/launch-training-button.png) ](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318916)
 
 Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
@@ -154,7 +154,7 @@ Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 1. Selecteer **[!UICONTROL Studenten]** in het linkerdeelvenster.
 1. Selecteer **[!UICONTROL Inschrijven]**.
 
-   ![&#x200B; schrijf studenten &#x200B;](assets/enroll-learners-new.png) in
+   ![ schrijf studenten ](assets/enroll-learners-new.png) in
 
    *Publish de cursus*
 
@@ -167,7 +167,7 @@ Schrijf naar <almacademy@adobe.com> als u de training niet kunt starten.
 
 1. Selecteer **[!UICONTROL Doorgaan]**.
 
-   ![&#x200B; te werk gaat &#x200B;](assets/proceed.png)
+   ![ te werk gaat ](assets/proceed.png)
 
    *ga aan het inschrijven van studenten*
 
@@ -243,7 +243,7 @@ Als een student die eerder de status In afwachting van goedkeuring had, zich uit
 
 Met de bulkinschrijvingsfunctie van Adobe Learning Manager kunnen beheerders efficiënt grote groepen studenten inschrijven voor cursussen, certificeringen of leerprogramma&#39;s door een CSV-bestand te uploaden. Dit proces bespaart tijd, verzekert consistentie, en steunt organisatorische scalability. Bovendien kunnen beheerders en docenten de studentinformatie, aanwezigheid en voltooiing bulksgewijs bijwerken via CSV-uploads, waardoor handmatig werk wordt geminimaliseerd en de nauwkeurigheid van de gegevens wordt gegarandeerd.
 
-U kunt dezelfde CSV-bestandsindeling gebruiken voor inschrijving, aanwezigheid en voltooiing. Voer de e-mail-ID&#39;s van de student in onder de kolom &quot;E-mail&quot; en sla het bestand op met een naam die is gebaseerd op de handeling, bijvoorbeeld bulk_enrollment.csv, bulk_attendance.csv of bulk_completion.csv. Alleen de CSV-indeling wordt ondersteund. UTF-8-indeling wordt niet ondersteund. Download [&#x200B; steekproef csv &#x200B;](assets/Sample-Bulk-Action-CSV.csv).
+U kunt dezelfde CSV-bestandsindeling gebruiken voor inschrijving, aanwezigheid en voltooiing. Voer de e-mail-ID&#39;s van de student in onder de kolom &quot;E-mail&quot; en sla het bestand op met een naam die is gebaseerd op de handeling, bijvoorbeeld bulk_enrollment.csv, bulk_attendance.csv of bulk_completion.csv. Alleen de CSV-indeling wordt ondersteund. UTF-8-indeling wordt niet ondersteund. Download [ steekproef csv ](assets/Sample-Bulk-Action-CSV.csv).
 
 ### Studenten in bulk inschrijven met een CSV
 
@@ -355,6 +355,11 @@ In de PDF kunt u dezelfde set studenten bekijken als een docent.
 Wanneer u de PDF downloadt, kunt u de tijdzone (UTC) zien die is gebruikt bij het maken van de cursus.
 
 ## L1- en L3-feedback toevoegen {#addl1andl3feedback}
+
+>[!NOTE]
+>
+>Als deze feedbackoptie niet zichtbaar is in uw account, is uw account al geüpgraded naar het nieuwe L1-feedbackformulier. De mening [ L1 terugkoppelt vorm ](/help/migrated/administrators/feature-summary/l1-feedback-form.md) voor meer informatie.
+
 
 U kunt L1- en L3-feedbackopties toevoegen terwijl u de cursussen maakt:
 
@@ -490,7 +495,7 @@ U kunt de vragenlijst voor L1- en L3-feedback instellen evenals herinneringen op
 
 1. Klik **[!UICONTROL Montages]** en dan **[!UICONTROL Terugkoppeling]** op de linkerruit nadat u login als Beheerder.\
    De de montagespagina van de terugkoppeling verschijnt met twee lusjes: **[!UICONTROL L1 Terugkoppeling]** en **[!UICONTROL L3 Terugkoppeling]**.\
-   **[!UICONTROL lusje van de Terugkoppeling 0&rbrace; L1 bestaat uit een lijst van gebrek]** L1 terugkoppelt **[!UICONTROL vragenlijst voor klassenruimte en zelf-afgepaste cursussen samen met herinneringsmontages.]** In **[!UICONTROL L3 Terugkoppeling]** tabel, kunt u L3 terugkoppelen standaardverklaring en herinneringsmontages bekijken.
+   **[!UICONTROL lusje van de Terugkoppeling 0} L1 bestaat uit een lijst van gebrek]** L1 terugkoppelt **[!UICONTROL vragenlijst voor klassenruimte en zelf-afgepaste cursussen samen met herinneringsmontages.]** In **[!UICONTROL L3 Terugkoppeling]** tabel, kunt u L3 terugkoppelen standaardverklaring en herinneringsmontages bekijken.
 
 1. Klik op Bewerken rechtsboven op de pagina om de bestaande vragenlijst aan te passen.\
    In **[!UICONTROL L1 terugkoppeling]** tabel, kunt u elke vraag toelaten/onbruikbaar maken door ja/neen knevelknoop te klikken.\
@@ -624,7 +629,7 @@ Dit proces is hetzelfde voor leerpaden en certificeringen. Voor leerpaden kunt u
 ![](assets/learning-path.png)
 _Selecteer veelvoudige cursussen voor voltooiing_
 
-De commentaren zullen in het [&#x200B; rapport van de Transcripten van de Student &#x200B;](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) zichtbaar zijn.
+De commentaren zullen in het [ rapport van de Transcripten van de Student ](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) zichtbaar zijn.
 
 ## Voorbeeld van cursussen bekijken {#previewcourses}
 
@@ -792,7 +797,7 @@ Studenten kunnen gewoon de Adobe Learning Manager-apparaattoepassing gebruiken o
 
 ## Rapport voor geïnteresseerde studenten downloaden
 
-Bekijk [&#x200B; de rente van het Register voor de cursussen &#x200B;](/help/migrated/learners/feature-summary/courses.md#register-interest-for-the-courses) om te leren hoe de studenten hun interesse kunnen registreren.
+Bekijk [ de rente van het Register voor de cursussen ](/help/migrated/learners/feature-summary/courses.md#register-interest-for-the-courses) om te leren hoe de studenten hun interesse kunnen registreren.
 
 Beheerders kunnen de interesse van de studenten weergeven en het leerlingrapport downloaden van de pagina met het cursusoverzicht.
 
