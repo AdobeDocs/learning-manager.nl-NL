@@ -2,7 +2,7 @@
 description: Leer hoe u het feedbackrapport in Adobe Learning Manager kunt openen, downloaden en interpreteren. Begrijp rapportkolommen, vraagtypen, manager- en studentreacties en hoe feedbackinzichten trainingsevaluatie en voortdurende verbetering ondersteunen.
 jcr-language: en_us
 title: Feedbackrapport in Adobe Learning Manager
-source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
+source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 7%
@@ -69,6 +69,10 @@ Hieronder volgen de standaardkolommen in het rapport op accountniveau:
 | Datum van voltooien | De datum waarop de leerling de training heeft voltooid |
 | Datum van feedback | De datum waarop de leerling de feedback heeft ingediend |
 | Oorspronkelijke taal L1-feedback | De taal waarin de leerling oorspronkelijk de L1-feedback heeft ingediend |
+| L3 Likert-schaal vraag 1 | Hiermee worden de prestaties na de training gemeten aan de hand van een beoordelingsschaal |
+| L3 Likert-schaalrespons 1 | Het antwoord van de manager op deze Likert-schaalvraag |
+| L3 Vrije tekst Vraag 1 | Vrije-tekstvraag toegevoegd aan het L3-feedbackformulier voor managers; kan als optioneel of verplicht worden geconfigureerd |
+| L3 Free Text Response 1 | Het antwoord van de manager op die vrije-tekstvraag |
 
 De volgende kolommen worden in het rapport op accountniveau weergegeven op basis van de vier soorten vragen die aan het feedbackformulier zijn toegevoegd:
 
@@ -83,10 +87,7 @@ De volgende kolommen worden in het rapport op accountniveau weergegeven op basis
 | Likert-antwoord 1 | Antwoord op Likert-vraag 1 |
 | Tekstvraag 1 | Eerste open vraag/tekstvraag in het formulier |
 | Tekstantwoord 1 | Antwoord van student op Tekstvraag 1 |
-| L3 Likert-schaal vraag 1 | Hiermee worden de prestaties na de training gemeten aan de hand van een beoordelingsschaal |
-| L3 Likert-schaalrespons 1 | Het antwoord van de manager op deze Likert-schaalvraag |
-| L3 Vrije tekst Vraag 1 | Vrije-tekstvraag toegevoegd aan het L3-feedbackformulier voor managers; kan als optioneel of verplicht worden geconfigureerd |
-| L3 Free Text Response 1 | Het antwoord van de manager op die vrije-tekstvraag |
+
 
 >[!NOTE]
 >
