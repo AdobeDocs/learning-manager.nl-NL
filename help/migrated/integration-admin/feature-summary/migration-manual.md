@@ -3,10 +3,10 @@ description: Referentiehandleiding voor integratiebeheerders die een bestaand LM
 jcr-language: en_us
 title: Migratiehandleiding
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
 workflow-type: tm+mt
-source-wordcount: '3850'
-ht-degree: 67%
+source-wordcount: '4438'
+ht-degree: 59%
 
 ---
 
@@ -33,7 +33,7 @@ De vereisten voor migratie, de belangrijkste stappen die bij het migratieproces 
 Het Learning Manager-team verwacht dat de volgende taken door de integratiebeheerders van uw organisatie worden uitgevoerd voordat het migratieproces wordt uitgevoerd:
 
 * De integratiebeheerder haalt gegevens en inhoud uit het bestaande LMS op en zet de gegevens in de bestandsindelingen die door Learning Manager zijn gedefinieerd.
-* Learning Manager biedt geen ondersteuning voor het importeren van gebruikers als onderdeel van het migratieproces en verwacht dat de organisatie gebruikers via connectoren importeert. Adobe Systems verwacht dat deze connectoren vóór de migratie geconfigureerd worden. Verwijs naar [&#x200B; het Leren de schakelaarsHulp van de Manager &#x200B;](connectors.md) voor meer informatie.
+* Learning Manager biedt geen ondersteuning voor het importeren van gebruikers als onderdeel van het migratieproces en verwacht dat de organisatie gebruikers via connectoren importeert. Adobe Systems verwacht dat deze connectoren vóór de migratie geconfigureerd worden. Verwijs naar [ het Leren de schakelaarsHulp van de Manager ](connectors.md) voor meer informatie.
 
 Learning Manager beveelt beheerders aan het migratieproces uit te proberen in een proefaccount voordat ze de gegevens en inhoud naar de Learning Manager-productieomgeving migreren.
 
@@ -387,7 +387,7 @@ Hieronder staan de standaard CSV-specificaties die u aan uw bestaande LMS-migrat
 
 Learning Manager ondersteunt alleen datum- en tijdwaarden in UTF-8- en 32-bits indeling. U kunt fouten tijdens migratie krijgen als u datum in Csv- dossiers met een uit waaierdatum als 2038-07-17T08 :53: 21.000Z of 1980-04-17T08 :13: 25.322Z vermeldt.
 
-* [&#x200B; sample-csvs.zip &#x200B;](assets/sample-csvs.zip)
+* [ sample-csvs.zip ](assets/sample-csvs.zip)
 * [csv_specifications.zip](assets/csv-specifications.zip)
 
 U moet rekening houden met de volgende afhankelijkheden van CSV-bestanden tijdens het importeren:
@@ -469,7 +469,7 @@ Hebt u zich bij de FTP- en Box-servers aangemeld en de inhoud geüpload, dan ver
 
 De procedure voor het migreren van LMS-gegevens en -inhoud van uw onderneming naar Learning Manager wordt als volgt uitgelegd:
 
-Doorloop de vereisten van het migratieproces voordat u de migratie start. Verwijs naar [&#x200B; CSV specificaties en steekproefCSVs &#x200B;](migration-manual.md#main-pars_header_140933605) sectie in deze pagina en bereid CSVs voor gegevens en inhoudsmigratie voor.
+Doorloop de vereisten van het migratieproces voordat u de migratie start. Verwijs naar [ CSV specificaties en steekproefCSVs ](migration-manual.md#main-pars_header_140933605) sectie in deze pagina en bereid CSVs voor gegevens en inhoudsmigratie voor.
 
 1. Login aan de toepassing van de Manager van het Leren als Beheerder van de Integratie en klik **[!UICONTROL Migratie]** op de linkerruit.
 
@@ -524,9 +524,117 @@ Doorloop de vereisten van het migratieproces voordat u de migratie start. Verwij
 
 Nadat u de leergegevens en -inhoud van het oude LMS van uw organisatie hebt gemigreerd, kunt u de geïmporteerde gegevens en inhoud controleren met behulp van verschillende functies voor leerobjecten. U kunt u bijvoorbeeld aanmelden bij de Learning Manager-toepassing als beheerder en de beschikbaarheid van geïmporteerde modules en cursusgegevens en -inhoud controleren.
 
+## Migratie met behulp van API&#39;s
+
+Adobe Learning Manager (ALM) biedt een migratiefunctie voor het opnemen van gegevens of inhoud van externe systemen, die voornamelijk worden gebruikt voor migratie van oudere LMS-platforms.
+
+Sommige organisaties kunnen echter eisen dat dit proces regelmatig wordt uitgevoerd (bijvoorbeeld elke avond of elke week) in plaats van als een eenmalige importbewerking.
+
+U ziet bijvoorbeeld hoe een fictieve klant (NovaFX) integreert met een fictieve externe provider (SquareCorp) en geplande migraties automatiseert. De integratie maakt het volgende mogelijk:
+
+* SquareCorp-cursussen worden als leerobjecten weergegeven in ALM voor NovaFX-studenten.
+* NovaFX volgt de voortgang van studenten voor door SquareCorp gehoste cursussen rechtstreeks in ALM.
+
+### Integratievereisten
+
+SquareCorp moet het volgende verstrekken:
+
+* Metagegevens cursus: een API voor het delen van cursusmetagegevens waartoe NovaFX toegang heeft.
+* Voortgangsgegevensinformatie: een API om de voortgang en voltooiingsinformatie van studenten periodiek te delen.
+
+### Belangrijkste definities
+
+* **Actief project:** een project is actief als het &quot;in bewerking&quot;of &quot;geïnitialiseerd&quot;is.
+* **Actieve sprint:** een sprint is actief als het &quot;Bezig&quot;of &quot;geïnitialiseerd&quot;is.
+
+### De sprintuitvoering automatiseren
+
+Maak een app of script waarmee de volgende bewerkingen volgens een schema worden uitgevoerd:
+
+1. Haal metagegevens van de cursus, gebruikersinschrijvingen en scores van studenten op SquareCorp.
+2. Genereer de CSV-bestanden.
+3. Upload de bestanden naar Box of FTP.
+4. Trigger de sprint met behulp van de migratie-API&#39;s.
+
+### API-details
+
+#### Een migratierun starten
+
+**Eindpunt:** POST /primeapi/v2/bulkimport/startrun
+
+Parameters:
+
+* **lockaccount (Boolean):** de parameter bepaalt of om de rekening bij het begin van uitvoering te sluiten. Standaard is deze ingesteld op false. Adobe raadt gebruikers aan deze parameter niet te gebruiken, tenzij er een geldige reden is om het account te vergrendelen.
+* **catalogi (Geheel getal):** Deze parameter staat u toe om de bestemmingscatalogus tijdens migratie te selecteren. Deze wordt doorgaans ingesteld tijdens het maken van het migratieproject, maar kan worden aangepast voor afzonderlijke runs. Wanneer de catalogi-id wordt gewijzigd, worden leerobjecten die in toekomstige runs worden toegevoegd, in de laatst gekozen catalogus geplaatst. Als het nodig is terug te gaan naar de catalogus die is geselecteerd tijdens het maken van het migratieproject, moet dit ook expliciet worden gespecificeerd.
+* **migrationProjectId (Geheel):** de parameter is nodig om een specifiek migratieproject teweeg te brengen wanneer de veelvoudige API-toegelaten looppas in de rekening wordt toegelaten.
+
+#### Controleren of de synchronisatie kan beginnen
+
+Zorg ervoor dat inhoud kan worden gesynchroniseerd met de sprintmap. Kopieer geen inhoud- of metagegevensbestanden naar de FTP-map tenzij deze API een succesvol reactieobject retourneert.
+
+**Eindpunt:** GET /primeapi/v2/bulkimport/cansync
+
+Parameters:
+
+* **migrationProjectId (Geheel)** De parameter is nodig om een specifiek migratieproject teweeg te brengen wanneer de veelvoudige API-toegelaten looppas in de rekening wordt toegelaten.
+
+<b> Succes van de Reactie </b>
+
+```
+{  
+    "status": "OK",  
+    "title": "BULKIMPORT_CAN_SYNC_NOW",  
+    "source": {  
+        "info": "Yes"  
+    }  
+} 
+```
+
+<b> Succes van de Reactie </b>
+
+```
+{ 
+    "status": "BAD_REQUEST", 
+    "title": "BULKIMPORT_ERROR_CANNOT_SYNC", 
+    "source": { 
+        "info": "Error, No active projects" 
+    } 
+} 
+```
+
+<b> Mogelijke API reacties </b>
+
+| Actie | Type | Bericht |
+| ------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
+| BULKIMPORT_RUN_INITIATED_SUCCESVOLLE | Succes | Uitvoeren is voltooid |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Fout | Er wordt een run uitgevoerd |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Fout | Er zijn meerdere actieve projecten |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Fout | Er zijn meerdere sprints |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Fout | Geen actieve projecten |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Fout | Geen actieve sprints |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | Fout | De geleverde catalogus is geen geldige id of hoort niet bij het hoofdaccount |
+| BULKIMPORT_CAN_SYNC_NOW | Info | Kan nu synchroniseren |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Fout | Er wordt een run uitgevoerd |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Fout | Er zijn meerdere actieve projecten |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Fout | Er zijn meerdere sprints |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Fout | Geen actieve projecten |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Fout | Geen actieve sprints |
+| BULKIMPORT_ERROR_CANNOT_SYNC | Fout | Geen geldige bestanden aanwezig in de map |
+
+### Voorbeeld van integratiestroom
+
+1. Controleer de API voor scannen.
+2. Genereer en upload CSV-bestanden.
+3. Trigger de sprint met behulp van start API.
+4. Controleer de respons en zorg voor de afhandeling van fouten.
+
+### Beperkingen
+
+De migratie-API&#39;s bieden geen functionaliteit om migratiegerelateerde fouten direct in het CSV-uitvoerbestand na sprintuitvoering te controleren. Deze fouten kunnen echter als rijen in het CSV-bestand worden gereviseerd door toegang te krijgen tot de gebruikersinterface van de integratiebeheerder na een sprintrun.
+
 ### Migratieverificatie via API&#39;s
 
-Met de nieuwe migratie-API `runStatus` kunnen integratiebeheerders de voortgang van de migratie volgen die via de API wordt geactiveerd.
+Met de migratie-API, `runStatus` , kunnen integratiebeheerders de voortgang bijhouden van de migratie die via de API wordt geactiveerd.
 
 De `runStatus` API biedt ook een directe koppeling om foutlogbestanden in CSV-indeling te downloaden voor voltooide runs. De downloadkoppeling blijft zeven dagen actief en de logbestanden worden één maand bewaard.
 
@@ -620,7 +728,7 @@ Hieronder staan de standaard CSV-specificaties die u aan uw bestaande LMS-migrat
 3-learning_program_enrollment.xlsx-bevat beschrijvingen van metagegevens die nodig zijn voor het bestand retrofit_learning_program_enrollment.csv.
 
 4-user_course_grades.xlsx-bevat beschrijvingen van metagegevens die nodig zijn voor het bestand retrofit_user_course_grades.csv.
-[&#x200B; csv-specifications.zip &#x200B;](assets/csv-specifications.zip)
+[ csv-specifications.zip ](assets/csv-specifications.zip)
 
 >[!NOTE]
 >
@@ -629,7 +737,7 @@ Hieronder staan de standaard CSV-specificaties die u aan uw bestaande LMS-migrat
 
 ## Migratieproblemen oplossen {#troubleshootingmigrationissues}
 
-Verwijs naar dit [&#x200B; artikel &#x200B;](../../kb/troubleshooting-migration.md) om over de oplossing/de oplossing aan de problemen te leren die door de Beheerders van de Integratie worden geconfronteerd terwijl het migreren van gegevens en inhoud van hun bestaand LMS aan de toepassing van de Lerende Manager.
+Verwijs naar dit [ artikel ](../../kb/troubleshooting-migration.md) om over de oplossing/de oplossing aan de problemen te leren die door de Beheerders van de Integratie worden geconfronteerd terwijl het migreren van gegevens en inhoud van hun bestaand LMS aan de toepassing van de Lerende Manager.
 
 ## Tips voor gebruikersbeheer {#usermanagement}
 
