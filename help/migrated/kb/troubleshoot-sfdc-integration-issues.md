@@ -3,13 +3,15 @@ jcr-language: en_us
 title: Salesforce (SFDC)-integratieproblemen met Adobe Learning Manager oplossen
 description: Algemene Salesforce-integratieproblemen (SFDC) met Adobe Learning Manager (ALM) oplossen, zoals niet-geëxporteerde bestanden, problemen met veldmachtigingen in aangepaste SFDC-objecten en belangrijke opmerkingen over SFDC-ALM-compatibiliteit.
 contentowner: saghosh
-source-git-commit: c57896abd8f00ca4a7b26c981eb490cd53ce437b
+source-git-commit: cedb4acc89e7d972a4752e10c4fb6930c4633f6a
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
+
+# Salesforce (SFDC)-integratieproblemen met Adobe Learning Manager oplossen
 
 ## Problemen met exporteren naar SFDC oplossen (geen export meer dan 2-3 uur)
 
@@ -53,7 +55,7 @@ Gebruik de **eigenschap van de Toegankelijkheid van het Gebied** om toestemmings
 1. **herhaal** de stappen van de gebiedstoegankelijkheid in sectie 2 voor **elk gebied** dat als het hebben van toestemmingskwesties in **de Banen van de Lading van Gegevens** wordt gemeld.
 2. Zodra alle problematische velden de juiste zichtbaarheid en bewerkingsmachtigingen hebben:
    - Ga terug naar **Adobe Learning Manager**.
-   - In de **configuratie van de 1&rbrace; schakelaar SFDC,** probeer de uitvoer **opnieuw.**
+   - In de **configuratie van de 1} schakelaar SFDC,** probeer de uitvoer **opnieuw.**
 
 
 ## Belangrijke opmerkingen en beperkingen
