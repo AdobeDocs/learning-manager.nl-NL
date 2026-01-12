@@ -55,7 +55,7 @@ Gebruik de **eigenschap van de Toegankelijkheid van het Gebied** om toestemmings
 1. **herhaal** de stappen van de gebiedstoegankelijkheid in sectie 2 voor **elk gebied** dat als het hebben van toestemmingskwesties in **de Banen van de Lading van Gegevens** wordt gemeld.
 2. Zodra alle problematische velden de juiste zichtbaarheid en bewerkingsmachtigingen hebben:
    - Ga terug naar **Adobe Learning Manager**.
-   - In de **configuratie van de 1} schakelaar SFDC,** probeer de uitvoer **opnieuw.**
+   - In de **configuratie van de 1&rbrace; schakelaar SFDC,** probeer de uitvoer **opnieuw.**
 
 
 ## Belangrijke opmerkingen en beperkingen
