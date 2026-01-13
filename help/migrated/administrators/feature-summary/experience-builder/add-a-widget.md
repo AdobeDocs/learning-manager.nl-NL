@@ -2,9 +2,9 @@
 title: Widgets toevoegen en configureren in Experience Builder
 description: Leer hoe u verschillende widgets kunt toevoegen, aanpassen en configureren in Experience Builder in Adobe Learning Manager. Deze handleiding behandelt veelgebruikte widgets zoals agenda's, categorieën, compatibiliteitsstatus, cursussen en paden, gamification, HTML-inhoud, IFrames, sociaal leren en meer.
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
 workflow-type: tm+mt
-source-wordcount: '2459'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,9 @@ De widget Categorieën geeft leerinhoud weer die als categorieën is ingedeeld o
 
 Beheerders voegen de widget Categorieën aan een pagina toe om gecategoriseerde leeropties weer te geven. Studenten gebruiken de widget om training te verkennen door een categorie met interesses te selecteren, waarna gerelateerde cursussen of paden worden weergegeven.
 
-De artikelen van de Catalogi van de mening [&#x200B; en &#x200B;](/help/migrated/administrators/feature-summary/catalogs.md) Recommendations [&#x200B; om meer over het vormen catalogi en aanbevelingen te leren.](/help/migrated/recommendations-adobe-learning-manager.md)
+De artikelen van de Catalogi van de mening [ en ](/help/migrated/administrators/feature-summary/catalogs.md) Recommendations [ om meer over het vormen catalogi en aanbevelingen te leren.](/help/migrated/recommendations-adobe-learning-manager.md)
+
+<b> Nota </b>: In de widget van Categorieën, wanneer de Catalogus wordt geselecteerd, wordt de lijst gesorteerd door creatieve datum door gebrek. Recentere catalogi worden als eerste weergegeven.
 
 ### Een categoriewidget toevoegen
 
@@ -85,8 +87,8 @@ De widget Categorieën configureren:
 9. Typ a **[!UICONTROL titel van Widget]** en **[!UICONTROL beschrijving Widget]**.
 10. Zoek naar en kies een catalogus van de **[!UICONTROL bron van de Categorie]**.
 
-    ![](assets/configure-calendar-widget.png)
-    _vorm de opties van Categorieën widget om widgettitel en beschrijving te plaatsen, en de categorielobron te selecteren_
+   ![](assets/configure-calendar-widget.png)
+   _vorm de opties van Categorieën widget om widgettitel en beschrijving te plaatsen, en de categorielobron te selecteren_
 
 11. Selecteer **[!UICONTROL Widget]** toevoegen.
 
@@ -153,7 +155,7 @@ De widget Cursussen en Paden configureren:
 
 ![](assets/configure-course-paths.png)
 _Cursussen &amp; Widget van Wegen waar de beheerders de widgettitel, de beschrijving plaatsen, en selecteren Cursussen of Lerende Wegen om als interactieve kaarten_ te tonen
-&#x200B;11. Selecteer **[!UICONTROL voeg widget]** toe.
+11. Selecteer **[!UICONTROL voeg widget]** toe.
 
 De widget Cursussen en paden wordt aan de pagina toegevoegd. Beheerders kunnen andere widgets toevoegen en de pagina publiceren.
 
@@ -182,14 +184,14 @@ De widget Inhoudsvak configureren:
 9. Typ de tekst in het **[!UICONTROL de knoopetiket van de Actie]** en verstrek een verbinding.
 10. Selecteer een van de opties voor Achtergrondvulling:
 
-    * **[!UICONTROL Kleur]**: Selecteer de kleur van de kleurenplukker of typ de kleurencode op het tekstgebied.
-    * **[!UICONTROL Beeld]**: Doorblader en upload een beeld.
+   * **[!UICONTROL Kleur]**: Selecteer de kleur van de kleurenplukker of typ de kleurencode op het tekstgebied.
+   * **[!UICONTROL Beeld]**: Doorblader en upload een beeld.
 
 11. Pas de kaderhoogte aan gebruikend de **[!UICONTROL optie van de de kaderhoogte van de Inhoud]**.
 12. Selecteer de opties voor tekstopmaak.
 
-    ![](assets/configure-content-box.png)
-    _het aanpassingsscherm van de Widget van de Doos van de Inhoud, waar de beheerders een titel, een beschrijving, een etiket van de actieknoop, en verbinding kunnen ingaan_
+   ![](assets/configure-content-box.png)
+   _het aanpassingsscherm van de Widget van de Doos van de Inhoud, waar de beheerders een titel, een beschrijving, een etiket van de actieknoop, en verbinding kunnen ingaan_
 
 13. Selecteer **[!UICONTROL toevoegen widgets]**.
 
