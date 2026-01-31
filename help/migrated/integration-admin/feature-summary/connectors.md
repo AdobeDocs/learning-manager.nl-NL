@@ -2235,7 +2235,7 @@ Nadat een auteur de prijzen voor verschillende cursussen, leerpaden of certifice
 
 >[!NOTE]
 >
->In de versie van Maart 2024 van Adobe Learning Manager, hebben wij steun voor [&#x200B; Adobe Commerce 2.4.6 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en) geïntroduceerd.
+>In de versie van Maart 2024 van Adobe Learning Manager, hebben wij steun voor [&#x200B; Adobe Commerce 2.4.6 &#x200B;](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=nl-NL) geïntroduceerd.
 
 
 1. Klik **[!UICONTROL Meta-gegevens van de Opleiding van de Uitvoer]** > **[!UICONTROL op bestelling]**.
