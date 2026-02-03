@@ -3,10 +3,10 @@ description: Referentiehandleiding voor integratiebeheerders die een bestaand LM
 jcr-language: en_us
 title: Migratiehandleiding
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
+source-git-commit: a620f70fbdfc01eb089c70586a548288c8b8290b
 workflow-type: tm+mt
-source-wordcount: '4483'
-ht-degree: 58%
+source-wordcount: '4600'
+ht-degree: 57%
 
 ---
 
@@ -37,7 +37,7 @@ Houd er rekening mee dat migratietijdlijnen sterk afhankelijk zijn van de kwalit
 Het Learning Manager-team verwacht dat de volgende taken door de integratiebeheerders van uw organisatie worden uitgevoerd voordat het migratieproces wordt uitgevoerd:
 
 * De integratiebeheerder haalt gegevens en inhoud uit het bestaande LMS op en zet de gegevens in de bestandsindelingen die door Learning Manager zijn gedefinieerd.
-* Learning Manager biedt geen ondersteuning voor het importeren van gebruikers als onderdeel van het migratieproces en verwacht dat de organisatie gebruikers via connectoren importeert. Adobe Systems verwacht dat deze connectoren vóór de migratie geconfigureerd worden. Verwijs naar [&#x200B; het Leren de schakelaarsHulp van de Manager &#x200B;](connectors.md) voor meer informatie.
+* Learning Manager biedt geen ondersteuning voor het importeren van gebruikers als onderdeel van het migratieproces en verwacht dat de organisatie gebruikers via connectoren importeert. Adobe Systems verwacht dat deze connectoren vóór de migratie geconfigureerd worden. Verwijs naar [ het Leren de schakelaarsHulp van de Manager ](connectors.md) voor meer informatie.
 
 Learning Manager beveelt beheerders aan het migratieproces uit te proberen in een proefaccount voordat ze de gegevens en inhoud naar de Learning Manager-productieomgeving migreren.
 
@@ -391,7 +391,7 @@ Hieronder staan de standaard CSV-specificaties die u aan uw bestaande LMS-migrat
 
 Learning Manager ondersteunt alleen datum- en tijdwaarden in UTF-8- en 32-bits indeling. U kunt fouten tijdens migratie krijgen als u datum in Csv- dossiers met een uit waaierdatum als 2038-07-17T08 :53: 21.000Z of 1980-04-17T08 :13: 25.322Z vermeldt.
 
-* [&#x200B; sample-csvs.zip &#x200B;](assets/sample-csvs.zip)
+* [ sample-csvs.zip ](assets/sample-csvs.zip)
 * [csv_specifications.zip](assets/csv-specifications.zip)
 
 U moet rekening houden met de volgende afhankelijkheden van CSV-bestanden tijdens het importeren:
@@ -412,6 +412,14 @@ U moet rekening houden met de volgende afhankelijkheden van CSV-bestanden tijden
 * certification_course.csv is afhankelijk van certification.csv en course.csv
 * certification_commit.csv is afhankelijk van certification.csv en certification_course.csv
 * certification_enrollment.csv is afhankelijk van certification.csv, certification_course.csv en certification_enrollment.csv
+
+### Volgorde van leerprogramma&#39;s in migratie-CSV&#39;s
+
+In eerdere versies van de migratiespecificaties bevatte het bestand learning_program_course.csv een bestelkolom, zodat u de volgorde van cursussen binnen een leerprogramma tijdens de migratie kon bepalen.
+
+Adobe Learning Manager gebruikt deze kolom niet meer. De orde van de cursus in een Leerprogramma kan niet via migratie CSVs worden gecontroleerd, en het systeem negeert om het even welke waarden die in de ordekolom worden verstrekt, zelfs als u **orderEnForce** aan waar plaatst.
+
+Om verwarring te voorkomen, is de bestelkolom verwijderd uit de officiële CSV-specificaties. Als u bestaande scripts of tools hebt die deze kolom nog steeds genereren, kunt u deze veilig neerzetten. Dit heeft geen invloed op de manier waarop leerprogramma&#39;s worden gemaakt of weergegeven.
 
 ## Migratieprocedure {#migrationprocedure}
 
@@ -473,7 +481,7 @@ Hebt u zich bij de FTP- en Box-servers aangemeld en de inhoud geüpload, dan ver
 
 De procedure voor het migreren van LMS-gegevens en -inhoud van uw onderneming naar Learning Manager wordt als volgt uitgelegd:
 
-Doorloop de vereisten van het migratieproces voordat u de migratie start. Verwijs naar [&#x200B; CSV specificaties en steekproefCSVs &#x200B;](migration-manual.md#main-pars_header_140933605) sectie in deze pagina en bereid CSVs voor gegevens en inhoudsmigratie voor.
+Doorloop de vereisten van het migratieproces voordat u de migratie start. Verwijs naar [ CSV specificaties en steekproefCSVs ](migration-manual.md#main-pars_header_140933605) sectie in deze pagina en bereid CSVs voor gegevens en inhoudsmigratie voor.
 
 1. Login aan de toepassing van de Manager van het Leren als Beheerder van de Integratie en klik **[!UICONTROL Migratie]** op de linkerruit.
 
@@ -732,7 +740,7 @@ Hieronder staan de standaard CSV-specificaties die u aan uw bestaande LMS-migrat
 3-learning_program_enrollment.xlsx-bevat beschrijvingen van metagegevens die nodig zijn voor het bestand retrofit_learning_program_enrollment.csv.
 
 4-user_course_grades.xlsx-bevat beschrijvingen van metagegevens die nodig zijn voor het bestand retrofit_user_course_grades.csv.
-[&#x200B; csv-specifications.zip &#x200B;](assets/csv-specifications.zip)
+[ csv-specifications.zip ](assets/csv-specifications.zip)
 
 >[!NOTE]
 >
@@ -741,7 +749,7 @@ Hieronder staan de standaard CSV-specificaties die u aan uw bestaande LMS-migrat
 
 ## Migratieproblemen oplossen {#troubleshootingmigrationissues}
 
-Verwijs naar dit [&#x200B; artikel &#x200B;](../../kb/troubleshooting-migration.md) om over de oplossing/de oplossing aan de problemen te leren die door de Beheerders van de Integratie worden geconfronteerd terwijl het migreren van gegevens en inhoud van hun bestaand LMS aan de toepassing van de Lerende Manager.
+Verwijs naar dit [ artikel ](../../kb/troubleshooting-migration.md) om over de oplossing/de oplossing aan de problemen te leren die door de Beheerders van de Integratie worden geconfronteerd terwijl het migreren van gegevens en inhoud van hun bestaand LMS aan de toepassing van de Lerende Manager.
 
 ## Tips voor gebruikersbeheer {#usermanagement}
 
