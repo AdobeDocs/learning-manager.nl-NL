@@ -2,9 +2,9 @@
 title: Nieuwe functies in de Adobe Learning Manager-versie van april 2026
 description: Meer informatie over de nieuwe functies, verbeteringen en belangrijke updates in de Adobe Learning Manager-versie van april 2026.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 48a20033896a9d9f370c2e53bce353a886b05e35
+source-git-commit: 847c42493043f3f6a1f1c18868d08ddca7f9b113
 workflow-type: tm+mt
-source-wordcount: '7400'
+source-wordcount: '7425'
 ht-degree: 0%
 
 ---
@@ -433,7 +433,7 @@ Met meertalige taakhulpen:
 
 * Marketing- en actieteams kunnen één taakhulp per onderwerp beheren voor alle landinstellingen.
 
-## Beperken wanneer modules kunnen worden gestart
+## Beperking voor begintijd module instellen
 
 ### Overzicht
 
@@ -680,6 +680,11 @@ Zo weet u zeker dat de feedback niet alleen wordt opgeslagen, maar ook actief aa
 
 ### Overzicht
 
+>[!IMPORTANT]
+>
+>Let op: deze functie is alleen beschikbaar nadat u deze in het account hebt ingeschakeld. Neem contact op met de ALM-ondersteuning of Customer Success Manager.
+
+
 Momenteel ondersteunt ALM meerdere pogingen op LMS-niveau via de MQA (Multiple Quiz Attempt):
 
 * Auteurs kunnen pogingen op cursusniveau (toegepast op alle quizdragende modules in de cursus) of op moduleniveau (per quizmodule) configureren.
@@ -880,7 +885,7 @@ Deze verbetering verbetert de ervaring van het afspelen van Adobe Captivate-inho
 
    * PDF worden gegenereerd zoals verwacht.
 
-## Wijzigingen in studenttranscripten
+## Verbeterde leertijd voor berekening in Studenttranscripten
 
 ### Overzicht
 
@@ -944,7 +949,7 @@ De inactieve tijd wordt afgetrokken, zodat alleen de werkelijke betrokkenheidsti
 
 * **Transcripten van de Student:** &quot;het Leren bestede tijd&quot;wijst nu op **daadwerkelijke engagement**.
 * **Dashboard Admin:** Metriek die tijd (bijvoorbeeld, &quot;bestede tijd&quot;tegels, tendensen) omvatten zal **lagere maar meer realistische** waarden in scenario&#39;s tonen waar de nutteloze tijd eerder opblaasde resultaten.
-* &lbrace;de rapporten van de Inschrijving van de cursus:**Op tijd betrekking hebbende gebieden keuren de** nieuwe berekening **post-lancering goed.**
+* {de rapporten van de Inschrijving van de cursus:**Op tijd betrekking hebbende gebieden keuren de** nieuwe berekening **post-lancering goed.**
 * **de nota van de Vergelijkbaarheid:** omdat de historische gegevens niet worden herberekend, tijd-reeksen analyses die de versiedatum overspannen kunnen a **stapverandering** tonen. Overweeg annotatie of segmentatie op datum in analytics-tools.
 
 ### API en connectoren
@@ -2700,4 +2705,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
