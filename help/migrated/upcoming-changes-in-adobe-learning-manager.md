@@ -954,7 +954,7 @@ De inactieve tijd wordt afgetrokken, zodat alleen de werkelijke betrokkenheidsti
 
 * **Transcripten van de Student:** &quot;het Leren bestede tijd&quot;wijst nu op **daadwerkelijke engagement**.
 * **Dashboard Admin:** Metriek die tijd (bijvoorbeeld, &quot;bestede tijd&quot;tegels, tendensen) omvatten zal **lagere maar meer realistische** waarden in scenario&#39;s tonen waar de nutteloze tijd eerder opblaasde resultaten.
-* {de rapporten van de Inschrijving van de cursus:**Op tijd betrekking hebbende gebieden keuren de** nieuwe berekening **post-lancering goed.**
+* &lbrace;de rapporten van de Inschrijving van de cursus:**Op tijd betrekking hebbende gebieden keuren de** nieuwe berekening **post-lancering goed.**
 * **de nota van de Vergelijkbaarheid:** omdat de historische gegevens niet worden herberekend, tijd-reeksen analyses die de versiedatum overspannen kunnen a **stapverandering** tonen. Overweeg annotatie of segmentatie op datum in analytics-tools.
 
 ### API en connectoren
