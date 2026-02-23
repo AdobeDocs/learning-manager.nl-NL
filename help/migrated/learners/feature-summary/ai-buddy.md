@@ -81,7 +81,7 @@ Studenten hebben vaak snelle antwoorden nodig terwijl ze aan het werk zijn, niet
 
 * Verkort de zoektijd voor meerdere leerobjecten
 
-![ Just-in-time het leren steun gebruikend de Medewerker van de Student ](assets/just-in-time.png)
+![&#x200B; Just-in-time het leren steun gebruikend de Medewerker van de Student &#x200B;](assets/just-in-time.png)
 
 ### Verkoopmogelijkheden en klantgesprekken
 
@@ -97,7 +97,7 @@ Verkoopteams hebben snelle, nauwkeurige product- en procesinformatie nodig tijde
 
 * Vergroot de verkoopkennis zonder volledige cursussen te volgen
 
-![ Verkoop gebruikend de Medewerker van de Student ](assets/sales-enablement.png)
+![&#x200B; Verkoop gebruikend de Medewerker van de Student &#x200B;](assets/sales-enablement.png)
 
 **Voorbeeld 2**
 
@@ -105,7 +105,7 @@ Verkoopteams hebben snelle, nauwkeurige product- en procesinformatie nodig tijde
 
 **geadviseerde Herinnering:** vergelijk Adobe Learning Manager en een traditioneel LMS voor ondernemingsopleiding. De vergelijking in tabelvorm tonen.
 
-![ output in de Medewerker van de Student ](assets/tabular-format.png) in tabelvorm
+![&#x200B; output in de Medewerker van de Student &#x200B;](assets/tabular-format.png) in tabelvorm
 
 ### Gereedheid voor marketing en campagne
 
@@ -119,7 +119,7 @@ Marketingteams hebben vaak snelle vernieuwingen nodig voordat ze beoordelingen, 
 
 * Ontdek gerelateerde leercontent om de expertise te verdiepen
 
-![ marketing en campagnebereidheid gebruikend de Medewerker van de Student ](assets/marketing-readiness.png)
+![&#x200B; marketing en campagnebereidheid gebruikend de Medewerker van de Student &#x200B;](assets/marketing-readiness.png)
 
 ### Verduidelijking van de operationele en procesvoering
 
@@ -133,7 +133,7 @@ Operaties, ondersteuning en interne teams vertrouwen op nauwkeurige procesdocume
 
 * Minder afhankelijk van SME&#39;s voor herhaalde vragen
 
-![ Operationele en procesdocumentatie gebruikend de Medewerker van de Student ](assets/operational-process.png)
+![&#x200B; Operationele en procesdocumentatie gebruikend de Medewerker van de Student &#x200B;](assets/operational-process.png)
 
 ### Snellere onboarding en rolovergangen
 
@@ -147,7 +147,7 @@ Nieuwe medewerkers en medewerkers die naar nieuwe rollen gaan, hebben vaak moeit
 
 * Ondersteuning voor zelfgericht leren zonder overbelasting van informatie
 
-![ Onboarding werknemers ](assets/onboarding.png)
+![&#x200B; Onboarding werknemers &#x200B;](assets/onboarding.png)
 
 ### Kennisvernieuwing en voortdurend leren
 
@@ -161,7 +161,7 @@ Ervaren studenten hebben snelle vernieuwingen nodig in plaats van volledige omsc
 
 * Veelvoorkomende, lakse betrokkenheid bij leercontent aanmoedigen
 
-![ De kennis verfrist reactie in de Medewerker van de Student ](assets/knowledge-refresh.png)
+![&#x200B; De kennis verfrist reactie in de Medewerker van de Student &#x200B;](assets/knowledge-refresh.png)
 
 ## Hoe de AI-assistent van de student inhoud gebruikt
 
@@ -219,7 +219,7 @@ Beheerders beheren de toegang tot de AI-assistent van de student en bepalen welk
 
 De AI-assistent voor studenten bevat een reeks ingebouwde vragen om studenten te helpen snel aan de slag te gaan met veelvoorkomende vragen en scenario&#39;s. Deze aanwijzingen helpen studenten bij het werken met de assistent en tonen de typen vragen die ze kunnen stellen.
 
-![ bouwt-in-herinneringen die door de Medewerker van de Student worden verstrekt ](assets/built-in-prompts.png)
+![&#x200B; bouwt-in-herinneringen die door de Medewerker van de Student worden verstrekt &#x200B;](assets/built-in-prompts.png)
 
 Ingebouwde vragen kunnen per account worden aangepast. Organisaties kunnen deze aanwijzingen afstemmen op hun leerdoelen, rollen van studenten, terminologie of specifieke gebruikssituaties.
 
@@ -229,7 +229,7 @@ De aanwijzingen die de studenten krijgen, kunnen per account verschillen op basi
 
 ## AI-assistent van student inschakelen
 
-![ AI-Toegelaten Medewerker van de Student ](assets/learner-ai-assistant.png)
+![&#x200B; AI-Toegelaten Medewerker van de Student &#x200B;](assets/learner-ai-assistant.png)
 
 De AI Assistant (Beta) biedt AI-gestuurde ondersteuning om studenten te helpen content effectiever te ontdekken en te benaderen. Beheerders beheren de toegang door de functie toe te wijzen aan specifieke gebruikersgroepen en catalogi. Bij het configureren van de AI-assistent moeten alleen interne catalogi worden gebruikt. Inhoud uit Gedeelde, Opgehaalde, Externe of andere niet-interne catalogi wordt niet ondersteund voor opzoekacties in AI-assistent-reacties en -citaten.
 
@@ -245,15 +245,15 @@ AI-assistent van student inschakelen:
 
 2.Selecteer **Montages** van de homepage.
 
-![ console van de Beheerder met de optie van Montages op de linkerruit ](assets/settings-menu.png)
+![&#x200B; console van de Beheerder met de optie van Montages op de linkerruit &#x200B;](assets/settings-menu.png)
 
-3.Selecteer {Medewerker AI van 0} Leerling (Bèta) **van het** 3} menu van Montages {.****
+3.Selecteer {Medewerker AI van 0} Leerling (Bèta) **van het** 3&rbrace; menu van Montages &lbrace;.**&#x200B;**
 
-![ de consolevertoningen van de Beheerder de HulpAI van de Student optie op de linkerruit ](assets/learner-assistant-ai-beta.png)
+![&#x200B; de consolevertoningen van de Beheerder de HulpAI van de Student optie op de linkerruit &#x200B;](assets/learner-assistant-ai-beta.png)
 
 4.Selecteer de knevelschakelaar om de **Medewerker AI van de Student (Bèta) toe te laten**.
 
-![ de consolevertoningen van Beheerders de knevel die voor de Medewerker AI van de Student wordt toegelaten ](assets/learner-assistant-toggle.png)
+![&#x200B; de consolevertoningen van Beheerders de knevel die voor de Medewerker AI van de Student wordt toegelaten &#x200B;](assets/learner-assistant-toggle.png)
 
 5.Selecteer één of meerdere gebruikersgroepen van de **In aanmerking komende gebruikersgroepen** optie.
 
@@ -287,7 +287,7 @@ Zo start u de AI-assistent voor studenten:
 
 3.Wanneer de **Medewerker AI van de Student (Bèta)** het scherm verschijnt, uitgezocht **krijg Begonnen**.
 
-![ Uitgezochte worden begonnen om de Medewerker van de Student te lanceren ](assets/get-started-learner-assistant.png)
+![&#x200B; Uitgezochte worden begonnen om de Medewerker van de Student te lanceren &#x200B;](assets/get-started-learner-assistant.png)
 
 >[!NOTE]
 >
@@ -295,7 +295,7 @@ Zo start u de AI-assistent voor studenten:
 
 &#x200B;4. Typ uw vraag in het tekstveld.
 
-![ herinnering van het Type in de Medewerker van de Student ](assets/type-prompt.png)
+![&#x200B; herinnering van het Type in de Medewerker van de Student &#x200B;](assets/type-prompt.png)
 
 5.Pers **ga** binnen om een reactie te ontvangen. Bekijk uw antwoord, bronnen en aanbevelingen.
 
@@ -309,7 +309,7 @@ Studenten kunnen:
 
 * Open de volledige lijst van bronnen door **te selecteren toon Bronnen** bij de bodem van de reactie
 
-![ bronnen van de Vertoning in de reactie ](assets/show-sources.png)
+![&#x200B; bronnen van de Vertoning in de reactie &#x200B;](assets/show-sources.png)
 
 De Studentenassistent bevat citaten met elk antwoord om te laten zien waar de informatie vandaan komt. Elke aanhaling is rechtstreeks gekoppeld aan de oorspronkelijke cursus, module of leerobject dat wordt gebruikt om het antwoord te genereren.
 
@@ -319,7 +319,7 @@ U kunt elke gewenste vermelding selecteren om de feitelijke cursuspagina in de A
 
 Beheerders kunnen de AI-assistent ook rechtstreeks vanuit de zoekbalk starten. Typ eenvoudig uw vraag, en selecteer **AI Medewerker** van de opties die hieronder verschijnen om antwoorden van de toegewezen het leren inhoud te krijgen.
 
-![ heb toegang tot de Medewerker van de Student van onderzoeksbar ](assets/learner-assistant-search.png)
+![&#x200B; heb toegang tot de Medewerker van de Student van onderzoeksbar &#x200B;](assets/learner-assistant-search.png)
 
 ## Feedback geven op reacties van de AI-assistent (Bèta) van studenten
 
@@ -329,11 +329,11 @@ Uw feedback over de reacties die worden gegenereerd door de Learner AI Assistant
 
 * Selecteer **Duims omhoog**, kies wat u behulpzaam in de reactie vond, voeg naar keuze commentaren toe, en selecteer dan **voorleggen**.
 
-![ Uitgezochte Duimen omhoog om een reactie ](assets/thumbs-up.png) bij te werken
+![&#x200B; Uitgezochte Duimen omhoog om een reactie &#x200B;](assets/thumbs-up.png) bij te werken
 
 * Selecteer **Duimen neer**, kies de reden de reactie niet nuttig was, voeg om het even welke commentaren toe, en selecteer dan **voorleggen**.
 
-![ Uitgezochte Duimen neer om een reactie te downvotes ](assets/thumbs-down.png)
+![&#x200B; Uitgezochte Duimen neer om een reactie te downvotes &#x200B;](assets/thumbs-down.png)
 
 ## Nieuwe chat starten in AI Assistant
 
@@ -341,4 +341,4 @@ Studenten kunnen het huidige gesprek wissen en op elk gewenst moment een nieuwe 
 
 * Selecteer **Nieuw praatje** in het AI Hulpscherm en selecteer dan **Ja**.
 
-![ Begin een nieuw praatje in de Medewerker van de Student ](assets/start-new-chat.png)
+![&#x200B; Begin een nieuw praatje in de Medewerker van de Student &#x200B;](assets/start-new-chat.png)
