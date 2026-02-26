@@ -1,296 +1,198 @@
 ---
-description: De Learner AI Assistant (Beta) is een door Gen AI aangedreven chatassistent in Adobe Learning Manager die studenten helpt om snel en nauwkeurig te antwoorden op hun toegewezen leerinhoud. Met behulp van zoekopdrachten in natuurlijke talen kunnen studenten onmiddellijk gerichte antwoorden met duidelijke citaten ophalen, waardoor ze gemakkelijk de juiste informatie kunnen vinden, bronnen kunnen verifiëren en efficiënt kunnen leren zonder volledige cursussen te doorzoeken.
+description: AI Assistant (Beta) voor studenten is een door GenAI aangedreven chatpartner in Adobe Learning Manager die studenten helpt om snel en nauwkeurig te antwoorden op hun toegewezen leerinhoud. Met behulp van zoekopdrachten in natuurlijke talen kunnen studenten onmiddellijk gerichte antwoorden met duidelijke citaten ophalen, waardoor ze gemakkelijk de juiste informatie kunnen vinden, bronnen kunnen verifiëren en efficiënt kunnen leren zonder volledige cursussen te doorzoeken.
 jcr-language: en_us
-title: AI-assistent van student (bèta) in Adobe Learning Manager
+title: AI-assistent (bèta) voor studenten in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: e009abe66258700cf28d3cf212a2d086689e179c
+source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
 workflow-type: tm+mt
-source-wordcount: '2150'
+source-wordcount: '1990'
 ht-degree: 0%
 
 ---
 
-# Studentenassistent
+# AI-assistent voor studenten
 
-De Learner AI Assistant (Beta) voor studenten helpt hen snel antwoorden te vinden uit de toegewezen leerinhoud zonder door volledige cursussen te bladeren. U kunt vragen stellen in gewone taal en u ontvangt nauwkeurige, gerichte antwoorden met bronkoppelingen naar de relevante cursusinhoud.
+Met de AI-assistent (bèta) voor studenten kunnen ze snel antwoorden vinden in de toegewezen leerinhoud zonder door volledige cursussen te bladeren. U kunt vragen stellen in gewone taal en u ontvangt nauwkeurige, gerichte antwoorden met bronkoppelingen naar de relevante cursusinhoud.
 
 >[!IMPORTANT]
 >
->De AI-assistent van de student bevindt zich momenteel in de bètafase en wordt vrijgegeven via een gefaseerde implementatie. Toegang kan per gebruiker verschillen.
+>De AI-assistent voor studenten is momenteel beschikbaar als bètafunctie. Mogelijkheden, ondersteunde scenario&#39;s en beperkingen kunnen veranderen naarmate de functie zich ontwikkelt.
 
 
-## Wat is de AI-assistent van de student?
+## Wat is de AI-assistent voor studenten?
 
-De AI Assistant van de student is een door GenAI aangedreven chatassistent in Adobe Learning Manager die snelle, nauwkeurige antwoorden biedt op studentvragen met behulp van de vertrouwde leerinhoud die beschikbaar is in Adobe Learning Manager. Het bevat ook citaten, zodat studenten altijd de bron van de informatie kennen.
+De AI-assistent is een door GenAI gedreven chatpartner in Adobe Learning Manager die snelle, nauwkeurige antwoorden biedt op studentvragen met behulp van de vertrouwde leerinhoud die beschikbaar is in Adobe Learning Manager. Het bevat ook citaten, zodat studenten altijd de bron van de informatie kennen.
 
-## Waarom gebruiken?
+### Belangrijkste mogelijkheden van de AI-assistent
 
-* Studenten worden geconfronteerd met overbelasting van inhoud en weten vaak niet waar ze moeten beginnen of welke bron ze moeten gebruiken.
+1. Intelligente antwoorden op vragen
+   * Enkelvoudige en meervoudige gesprekken
+   * Natuurlijk taalbegrip in het Engels
+   * Antwoorden afgeleid van cursus, certificeringen, leerpaden en taakhulpen
+   * Vragen slim verduidelijken wanneer vragen dubbelzinnig zijn
+   * Aangestuurd door Azure Open AI LLM-mogelijkheden om reacties te genereren
+2. Inhoudsbronnen en citaten
+   * Haalt antwoorden op uit beschikbare bronnen in ondersteunde catalogi.
+   * Verstrekt citaten met directe verbindingen aan bronmaterialen
+   * Ondersteunt alle ALM-inhoudsindelingen statisch en interactief: PDF, DOCX, PPTX, XLSX, Audio (mp3, wav, m4a), Video (mp4, mov, wmv), HTML, SCORM 2004, SCORM 1.2
+3. Gebruikerservaring
+   * Zijpaneelinterface toegankelijk vanaf alle studentpagina&#39;s
+   * Responsief ontwerp dat zich aanpast aan het inhoudsgebied
+   * Chatgeschiedenis behouden in browsersessie
+   * Schoon de pagina op nieuwe aanmelding of pagina vernieuwen
+   * Tint van docent of docent: vriendelijk, helder en pedagogisch verantwoord
+4. Controlemiddelen voor beheerders
+   * Functie op accountniveau in- of uitschakelen
+   * Toegang door gebruikersgroepen beheren
+   * Selecteren welke catalogi worden opgenomen voor AI-reacties
+   * Voorwaarden voor acceptatie bij gebruik om te voldoen aan de Adobe AI-richtlijnen
 
-* Met catalogus- en toegangsregels wordt het moeilijk te achterhalen welke inhoud voor hen beschikbaar is.
+## Welke typen inhoud wordt door de AI-assistent ondersteund
 
-* Leertrajecten zijn gefragmenteerd in verschillende indelingen en trainingstypen, zoals cursussen, virtuele lesruimten, taakhulpen en beoordelingen.
-
-* Er is geen eenvoudige, uniforme manier om specifieke informatie op te halen uit verschillende indelingen zoals SCORM, PDF, documenten, video&#39;s of transcripten.
-
-* Verschillende rollen en sectoren van studenten (bijvoorbeeld verkoop, marketing, ondersteuning, bewerkingen) hebben unieke informatiebehoeften die snelle, contextuele antwoorden vereisen.
-
-## Welke typen inhoud kan de AI-assistent transcriperen
-
-De AI-assistent kan informatie vinden van alle typen leerinhoud die aan u zijn toegewezen, zoals:
+De AI-assistent haalt informatie op uit de leerinhoud die aan u is toegewezen, zoals:
 
 * **Documenten:** PDF, Word, PowerPoint, Excel, HTML
-
 * **Media:** Audio (mp3, wav, m4a), Video (mp4, mov, wmv)
+* **SCORM 1.2, SCORM 2004**
+* **het Leren objecten types:** Cursussen, het leren wegen, certificeringen, taakhulpen
 
-* **Interactieve inhoud:** SCORM 1.2, SCORM 2004,
+Adobe transcripeert leerinhoud met behulp van vertrouwde externe verwerkingsservices die worden gehost in de particuliere VPC-omgeving van de Adobe.
 
-* **het Leren Type van Objecten:** Cursussen, het leren wegen, certificeringen, taakhulpen
+### Beperkingen van catalogus- en inhoudsbronnen
 
-Met Adobe kunt u uw leerinhoud veilig transcripten met behulp van vertrouwde externe verwerkingsservices die worden gehost in de persoonlijke VPC-omgeving van de Adobe.
+De Medewerker AI van de Student gebruikt slechts inhoud van **Interne catalogi** die uitdrukkelijk door beheerders worden gevormd.
 
-**BELANGRIJK**
+De volgende inhoudsbronnen worden **niet gesteund** in de huidige versie:
 
-De AI-assistent gebruikt alleen inhoud die:
+* Gedeelde catalogi
+* Opgehaalde catalogi
+* Externe catalogi
+* Standaardcatalogi
+* Bibliotheken met inhoud van derden (bijvoorbeeld LinkedIn Learning of Go1)
 
-* Beschikbaar in de catalogi die voor de Studentassistent zijn geconfigureerd door beheerders, en
+Als een student geen toegang heeft tot een cursus of taakhulp, wordt de informatie uit die inhoud niet weergegeven in de AI-assistent en zijn de citaatkoppelingen niet toegankelijk.
 
-* Deel van interne catalogi in Adobe Learning Manager.
+## Gebruik gevallen van AI-assistent
 
-Gedeelde, overgenomen, externe of andere niet-interne catalogi worden niet ondersteund als inhoudsbronnen voor de AI-assistent in de huidige release.
+### Technische student
 
-Als u geen toegang hebt tot een cursus, zijn de bijbehorende aanhalingskoppelingen niet voor u toegankelijk. Bibliotheken van derden (zoals LinkedIn Learning of Go1) zijn niet inbegrepen voor het ophalen van antwoorden.
+Sarah is een verkoopingenieur die leert over grafische kaarten. Ze moet snel inzicht krijgen in de technische specificaties en voordelen om de vragen van klanten met vertrouwen te beantwoorden.
 
-## Conversationele mogelijkheden
+De AI Assistant helpt Sarah met:
 
-De AI-assistent ondersteunt zowel enkelvoudige vragen als meervoudige gesprekken. Het herinnert uw vorige vragen binnen de zelfde zitting.
+* Duidelijke, technische uitleg van complexe GPU-architectuur
+* Meer inzicht in verschillende grafische kaarten en de verschillen tussen deze kaarten
+* Uitleg van voorbeelden zodat Sarah functies kan relateren aan praktijkvoorbeelden
 
-**gesprek van het Voorbeeld:**
+### Klantenondersteuning
 
-Jij: &quot;Wat is het terugbetalingsbeleid?&quot;
-Assistent: Overzicht
-Jij: &quot;En terugbetalingen na 30 dagen?&quot;
-Assistent: geeft meer specifieke informatie
+Marcus is een ondersteuningsspecialist bij een partnerbedrijf. Hij heeft snelle antwoorden nodig over productfuncties om klanten te helpen zonder te escaleren naar technische teams.
 
-## Gebruiksscenario&#39;s voor AI-assistent
+De AI-assistent helpt Marcus met:
 
-### Just-In-Time Learning-ondersteuning (alle studenten)
+* Relevante ondersteuningscontent vinden voor veelgestelde vragen van klanten
+* Vragen verduidelijken wanneer het eerste antwoord niet specifiek genoeg is
+* Aanbevelingen voor gerelateerde probleemoplossingscursussen vinden om zijn vaardigheden te verbeteren
 
-Studenten hebben vaak snelle antwoorden nodig terwijl ze aan het werk zijn, niet wanneer ze weer volledig op de cursus reageren. De AI-assistent maakt het direct ophalen van nauwkeurige gegevens uit toegewezen leerinhoud mogelijk.
+### Nieuwe onboarding van werknemers
 
-**wat het met helpt:**
+Jennifer kwam net bij het bedrijf en wordt overweldigd door de hoeveelheid trainingsmateriaal. Ze heeft een manier nodig om specifieke informatie te vinden zonder volledige cursussen te bekijken.
 
-* Krijg directe antwoorden op specifieke vragen van cursussen, taakhulpen en documenten
+De AI Assistant helpt Jennifer met:
 
-* Naar exacte secties waarnaar wordt verwezen springen met citaten
+* Stapsgewijze begeleiding krijgen bij het indienen van kostenrapporten
+* Cursussen over het bedrijfsbeleid weergeven zonder door de volledige catalogus te bladeren
+* Bezoek haar naar het juiste gedeelte van een cursus zonder dat ze uren video hoeft te maken
 
-* Verkort de zoektijd voor meerdere leerobjecten
+## Hoe gebruikt de AI-assistent inhoud
 
-![&#x200B; Just-in-time het leren steun gebruikend de Medewerker van de Student &#x200B;](assets/just-in-time.png)
-
-### Verkoopmogelijkheden en klantgesprekken
-
-Verkoopteams hebben snelle, nauwkeurige product- en procesinformatie nodig tijdens live klantinteracties. De AI-assistent fungeert als kennispartner op aanvraag.
-
-**wat het met helpt:**
-
-* De nieuwste productfuncties en positionering ophalen
-
-* Snel verkoopscripts of sprekpunten genereren uit trainingsinhoud
-
-* Productversies of aanbiedingen vergelijken met toegewezen leermateriaal
-
-* Vergroot de verkoopkennis zonder volledige cursussen te volgen
-
-![&#x200B; Verkoop gebruikend de Medewerker van de Student &#x200B;](assets/sales-enablement.png)
-
-**Voorbeeld 2**
-
-**Doel:** toon dat AI Medewerker verkoopvertegenwoordigers kan helpen onmiddellijk vragen van de klantenvergelijking beantwoorden.
-
-**geadviseerde Herinnering:** vergelijk Adobe Learning Manager en een traditioneel LMS voor ondernemingsopleiding. De vergelijking in tabelvorm tonen.
-
-![&#x200B; output in de Medewerker van de Student &#x200B;](assets/tabular-format.png) in tabelvorm
-
-### Gereedheid voor marketing en campagne
-
-Marketingteams hebben vaak snelle vernieuwingen nodig voordat ze beoordelingen, lanceringen of discussies met belanghebbenden kunnen starten. De AI-assistent geeft een overzicht van complexe leercontent in actiegerichte inzichten.
-
-**wat het met helpt:**
-
-* Lange cursussen of video&#39;s samenvatten in belangrijke paden
-
-* Vernieuw proces- of productkennis voor vergaderingen
-
-* Ontdek gerelateerde leercontent om de expertise te verdiepen
-
-![&#x200B; marketing en campagnebereidheid gebruikend de Medewerker van de Student &#x200B;](assets/marketing-readiness.png)
-
-### Verduidelijking van de operationele en procesvoering
-
-Operaties, ondersteuning en interne teams vertrouwen op nauwkeurige procesdocumentatie. Met de AI-assistent krijg je direct duidelijkheid over beleidslijnen en workflows.
-
-**wat het met helpt:**
-
-* Vind antwoorden over interne processen, SOP&#39;s en nalevingsrichtlijnen
-
-* Details op stapniveau verduidelijken zonder door lange documenten te bladeren
-
-* Minder afhankelijk van SME&#39;s voor herhaalde vragen
-
-![&#x200B; Operationele en procesdocumentatie gebruikend de Medewerker van de Student &#x200B;](assets/operational-process.png)
-
-### Snellere onboarding en rolovergangen
-
-Nieuwe medewerkers en medewerkers die naar nieuwe rollen gaan, hebben vaak moeite om door grote leercatalogi te navigeren. De AI-assistent versnelt het opschuiven door hen te begeleiden naar relevante antwoorden.
-
-**wat het met helpt:**
-
-* Algemene onboardingvragen beantwoorden uit toegewezen inhoud
-
-* Korte uitleg geven van rollenspecifieke concepten
-
-* Ondersteuning voor zelfgericht leren zonder overbelasting van informatie
-
-![&#x200B; Onboarding werknemers &#x200B;](assets/onboarding.png)
-
-### Kennisvernieuwing en voortdurend leren
-
-Ervaren studenten hebben snelle vernieuwingen nodig in plaats van volledige omscholing. De AI-assistent ondersteunt voortdurend leren in de workflow.
-
-**wat het met helpt:**
-
-* Vernieuw kennis op verzoek zonder cursussen opnieuw te bekijken
-
-* Leerresultaten verbeteren na voltooiing van de training
-
-* Veelvoorkomende, lakse betrokkenheid bij leercontent aanmoedigen
-
-![&#x200B; De kennis verfrist reactie in de Medewerker van de Student &#x200B;](assets/knowledge-refresh.png)
-
-## Hoe de AI-assistent van de student inhoud gebruikt
-
-De AI-assistent van de student helpt u snel nauwkeurige antwoorden te vinden terwijl u leert. Om het effectief te gebruiken, zou u moeten begrijpen welke inhoud de medewerker gebruikt, wat het niet gebruikt, en hoe het reacties produceert.
+Met de AI-assistent vind je snel nauwkeurige antwoorden terwijl je leert. Om het effectief te gebruiken, zou u moeten begrijpen welke inhoud de medewerker gebruikt, wat het niet gebruikt, en hoe het reacties produceert.
 
 ### Inhoud van de AI-assistent
 
-De AI-assistent van de student beantwoordt vragen met alleen de leerinhoud die aan u is toegewezen in Adobe Learning Manager.
+De AI-assistent beantwoordt vragen met alleen de leerinhoud die door de accountbeheerder is ingeschakeld. De inhoud van de catalogus wordt geïndexeerd.
 
-* De assistent gebruikt inhoud uit interne catalogi die de beheerder voor de AI-assistent van de student heeft ingeschakeld.
-
-* De assistent respecteert uw rol, groepslidmaatschap en catalogusmachtigingen bij het ophalen van informatie.
-
-### Wat voor inhoud wordt niet gebruikt door de AI-assistent
-
-De AI-assistent van de student beperkt de antwoorden tot uw toegewezen leerbereik.
-
-* Er wordt geen gebruik gemaakt van inhoud uit Standaard-, Gedeeld-, Opgehaalde, Externe of andere niet-interne catalogi.
-
-* Er worden geen gegevens opgehaald uit inhoudsbibliotheken van derden, zoals LinkedIn Learning of Go1.
-
-* Het bladert niet op internet of opent externe websites om antwoorden te genereren.
-
-### Hoe de AI-assistent antwoorden genereert
-
-De AI-assistent van de student analyseert uw toegewezen leerinhoud om gerichte en contextuele reacties te genereren.
+De AI-assistent analyseert de leerinhoud die aan u is toegewezen om gerichte en contextuele reacties te genereren.
 
 * Elke reactie bevat verwijzingen naar de oorspronkelijke broninhoud.
-
 * U kunt een citaat selecteren om rechtstreeks naar de desbetreffende cursus, module of document te navigeren.
-
 * Met uitnodigingen kunt u informatie verifiëren en aanvullende context verkennen wanneer dat nodig is.
 
-### De AI-assistent op verantwoordelijke wijze gebruiken
+### Streaming antwoorden
 
-Gebruik de AI-assistent voor studenten als leerhulp om kennis te verkennen, te vernieuwen en te versterken.
+Een streamingreactie betekent dat de AI-assistent het antwoord progressief levert terwijl het wordt gegenereerd, zodat gebruikers direct kunnen beginnen met het lezen van de reactie zonder te wachten totdat het volledige antwoord is geladen.
 
-* Behandel reacties als richtlijn op basis van beschikbare leerinhoud.
+### Kaarten en brontransparantie
 
-* Raadpleeg het genoemde bronmateriaal voor volledige en gezaghebbende informatie.
+Elke AI-hulpreactie bevat verwijzingen die rechtstreeks zijn gekoppeld aan de oorspronkelijke cursus, module of leerobject. Met behulp van uitnodigingen kunt u:
 
-### Hoe beheerders toegang beheren
+* Selecteer een inline-citatienummer om naar de exacte sectie waarnaar wordt verwezen te gaan
+* Open de volledige bronlijst door Bronnen onder aan de reactie tonen te selecteren
+* Verifieer informatie en verken extra context van de gebiedende bron
 
-Beheerders beheren de toegang tot de AI-assistent van de student en bepalen welke inhoud wordt gebruikt.
+>[!IMPORTANT]
+>
+>De AI-assistent geeft antwoorden op basis van de inhoud die door de beheerder is ingeschakeld. Als een gebruiker echter geen toegang heeft tot een item waarnaar wordt verwezen, wordt bij het openen van het bericht een &quot;niet-ondersteund&quot; weergegeven.
 
-* Beheerders wijzen de assistent toe aan specifieke gebruikersgroepen.
-
-* Beheerders selecteren welke interne catalogi de assistent kan gebruiken als inhoudsbronnen.
-
-* Met deze besturingselementen zorgt u ervoor dat de assistent alleen goedgekeurde en relevante leerinhoud oppervlakken.
 
 ## Ingebouwde vragen
 
-De AI-assistent voor studenten bevat een reeks ingebouwde vragen om studenten te helpen snel aan de slag te gaan met veelvoorkomende vragen en scenario&#39;s. Deze aanwijzingen helpen studenten bij het werken met de assistent en tonen de typen vragen die ze kunnen stellen.
+De AI-assistent bevat ingebouwde aanwijzingen om studenten te helpen snel aan de slag te gaan met veelgestelde vragen en scenario&#39;s. Deze aanwijzingen helpen studenten bij het werken met de assistent en tonen de typen vragen die ze kunnen stellen.
 
-![&#x200B; bouwt-in-herinneringen die door de Medewerker van de Student worden verstrekt &#x200B;](assets/built-in-prompts.png)
+![ bouwt-in-herinneringen die door de Medewerker van de Student worden verstrekt ](assets/built-in-prompt-new.png)
 
-Ingebouwde vragen kunnen per account worden aangepast. Organisaties kunnen deze aanwijzingen afstemmen op hun leerdoelen, rollen van studenten, terminologie of specifieke gebruikssituaties.
+Ingebouwde vragen kunnen per account worden aangepast. Organisaties kunnen ze aanpassen aan hun leerdoelen, rollen van studenten, terminologie of specifieke gebruikssituaties. Beheerders kunnen met hun Customer Success Manager (CSM) samenwerken om ingebouwde vragen te configureren of bij te werken.
 
-Beheerders kunnen samen met hun Customer Success Manager (CSM) de ingebouwde vragen voor hun account configureren, wijzigen of bijwerken. Aanpassing op verzoek wordt beheerd op accountniveau en kan niet rechtstreeks worden geconfigureerd in de Adobe Learning Manager-gebruikersinterface in de huidige release.
+Aanpassing op verzoek wordt beheerd op accountniveau en kan niet rechtstreeks worden geconfigureerd in de Adobe Learning Manager-gebruikersinterface in de huidige release.
 
-De aanwijzingen die de studenten krijgen, kunnen per account verschillen op basis van de configuratie die met de Adobe is gedefinieerd.
+## Beheerdersinstellingen - AI-assistent voor studenten inschakelen
 
-## AI-assistent van student inschakelen
+![ AI-Toegelaten Medewerker van de Student ](assets/learner-ai-assistant-new.png)
 
-![&#x200B; AI-Toegelaten Medewerker van de Student &#x200B;](assets/learner-ai-assistant.png)
+Beheerders selecteren welke gebruikersgroepen en interne catalogi toegang hebben tot de AI-assistent-functie. Ze moeten ervoor zorgen dat de toegewezen catalogi alleen de leerinhoud bevatten die geschikt is om door AI-reacties en -citaten te worden opgezocht, en dat die catalogi standaard, intern, niet gedeeld, verworven of extern zijn.
 
-De AI Assistant (Beta) biedt AI-gestuurde ondersteuning om studenten te helpen content effectiever te ontdekken en te benaderen. Beheerders beheren de toegang door de functie toe te wijzen aan specifieke gebruikersgroepen en catalogi. Bij het configureren van de AI-assistent moeten alleen interne catalogi worden gebruikt. Inhoud uit Gedeelde, Opgehaalde, Externe of andere niet-interne catalogi wordt niet ondersteund voor opzoekacties in AI-assistent-reacties en -citaten.
+Voordat u de AI-assistent configureert, moet u controleren of u beheerdersreferenties hebt en hebt bepaald welke gebruikersgroepen en catalogi toegang moeten hebben tot de functie.
 
-Beheerders selecteren welke gebruikersgroepen en interne catalogi toegang hebben tot de AI-assistent-functie. Ze moeten ervoor zorgen dat de toegewezen catalogi alleen de leerinhoud bevatten die geschikt is om door AI-reacties en -citaten te worden opgezocht, en dat die catalogi intern, niet gedeeld, verworven of extern zijn.
-
-Voordat u de AI-assistent (bèta) configureert, moet u controleren of u beheerdersreferenties hebt en hebt vastgesteld welke gebruikersgroepen en catalogi toegang moeten hebben tot de functie.
-
-### Toegang tot de studentenassistent configureren
+### Toegang tot AI-assistent configureren
 
 AI-assistent van student inschakelen:
 
-1.Meld u aan bij Adobe Learning Manager als beheerder.
+1. Meld u als beheerder aan bij Adobe Learning Manager.
 
-2.Selecteer **Montages** van de homepage.
+2. Selecteer **Montages** van de homepage.
+   ![ console van de Beheerder met de optie van Montages op de linkerruit ](assets/settings-menu.png)
 
-![&#x200B; console van de Beheerder met de optie van Montages op de linkerruit &#x200B;](assets/settings-menu.png)
+3. Selecteer {Medewerker AI van de Leerling (Bèta) **van het** 3} menu van Montages {.****
+   ![ de consolevertoningen van de Beheerder de HulpAI van de Student optie op de linkerruit ](assets/learner-assistant-ai-beta.png)
 
-3.Selecteer {Medewerker AI van 0} Leerling (Bèta) **van het** 3&rbrace; menu van Montages &lbrace;.**&#x200B;**
+4. Selecteer de knevelschakelaar om de **Medewerker AI van de Student (Bèta) toe te laten**.
+   ![ de consolevertoningen van Beheerders de knevel die voor de Medewerker AI van de Student wordt toegelaten ](assets/learner-assistant-toggle.png)
 
-![&#x200B; de consolevertoningen van de Beheerder de HulpAI van de Student optie op de linkerruit &#x200B;](assets/learner-assistant-ai-beta.png)
+5. Selecteer één of meerdere gebruikersgroepen van de **In aanmerking komende gebruikersgroepen** optie.
 
-4.Selecteer de knevelschakelaar om de **Medewerker AI van de Student (Bèta) toe te laten**.
+6. Selecteer **sparen** om de montages van de gebruikersgroep toe te passen.
 
-![&#x200B; de consolevertoningen van Beheerders de knevel die voor de Medewerker AI van de Student wordt toegelaten &#x200B;](assets/learner-assistant-toggle.png)
+7. Selecteer één of meerdere catalogi van de **In aanmerking komende optie van Catalogi**.
 
-5.Selecteer één of meerdere gebruikersgroepen van de **In aanmerking komende gebruikersgroepen** optie.
-
-6.Selecteer **sparen** om de montages van de gebruikersgroep toe te passen.
-
-7.Selecteer één of meerdere catalogi van de **In aanmerking komende optie van Catalogi**.
-
-8.Selecteer **sparen** om de catalogusmontages toe te passen.
+8. Selecteer **sparen** om de catalogusmontages toe te passen.
 
 >[!IMPORTANT]
 >
 >Alleen interne catalogi worden ondersteund door de AI-assistent. Als u een gedeelde, verworven, externe of andere niet-interne catalogus selecteert, wordt de inhoud ervan niet weergegeven door de AI-assistent, zelfs niet als de catalogus wordt weergegeven in de lijst In aanmerking komende catalogi.
 
-## Toegang tot AI-assistent van student in Adobe Learning Manager
-
-Met de Adobe Learning Manager Learner AI Assistant (Bèta) kunt u snel antwoorden vinden terwijl u leert. Dit intelligente programma reageert rechtstreeks op uw vragen over cursussen, inhoud en platformfuncties, allemaal vanuit uw studentaccount.
-
-De AI-assistent kan alleen inhoud gebruiken uit interne catalogi die uw beheerder heeft ingeschakeld voor de Learner Assistant. Inhoud die alleen in Gedeelde, Opgehaalde of Externe catalogi leeft, is niet inbegrepen.
-
-De Learner AI Assistant (Bèta) is alleen beschikbaar voor geselecteerde studenten.
+## Leergids - De AI-assistent starten
 
 ### De AI-assistent starten
 
-Zo start u de AI-assistent voor studenten:
+De AI-assistent starten:
 
-&#x200B;1. Meld u als student aan bij Adobe Learning Manager.
+1. Meld u als student aan bij Adobe Learning Manager.
 
-2.Selecteer **vraag AI Medewerker** op de homepage.
+2. Selecteer **Vraag AI Medewerker** op de homepage.
+   {de vertoningen van de homepage van 0} Leerling vragen AI Medewerker om het Leerling AI Hulppaneel te selecteren en te openen ![](assets/ask-ai-assistant.png)
 
-{de vertoningen van de homepage van 0} Leerling vragen AI Medewerker om het Leerling AI Hulppaneel te selecteren en te openen ![](assets/ask-ai-assistant.png)
-
-3.Wanneer de **Medewerker AI van de Student (Bèta)** het scherm verschijnt, uitgezocht **krijg Begonnen**.
-
-![&#x200B; Uitgezochte worden begonnen om de Medewerker van de Student te lanceren &#x200B;](assets/get-started-learner-assistant.png)
+3. Wanneer het **scherm van de Medewerker AI van 0} Leerling verschijnt, uitgezocht** begin **.**
+   ![ Uitgezochte worden begonnen om de Medewerker van de Student te lanceren ](assets/get-started-learner-assistant.png)
 
 >[!NOTE]
 >
@@ -298,33 +200,29 @@ Zo start u de AI-assistent voor studenten:
 
 &#x200B;4. Typ uw vraag in het tekstveld.
 
-![&#x200B; herinnering van het Type in de Medewerker van de Student &#x200B;](assets/type-prompt.png)
+![ herinnering van het Type in de Medewerker van de Student ](assets/type-prompt-new.png)
 
 5.Pers **ga** binnen om een reactie te ontvangen. Bekijk uw antwoord, bronnen en aanbevelingen.
 
-Met Adobe is een snelle aanpassing op accountniveau mogelijk. Neem contact op met de Customer Success Manager (CSM) van uw Adobe om ingebouwde vragen te configureren of bij te werken.
-
-AI Assistant-reacties bevatten citaten met elk antwoord, zodat studenten eenvoudig kunnen controleren waar de informatie vandaan komt. Elke geciteerde referentie verwijst terug naar de oorspronkelijke cursusmodule, taakhulp of andere leerinhoud.
-
-Studenten kunnen:
+U kunt:
 
 * Selecteer het animatienummer inline om naar de exacte sectie waarnaar wordt verwezen te gaan
-
 * Open de volledige lijst van bronnen door **te selecteren toon Bronnen** bij de bodem van de reactie
 
-![&#x200B; bronnen van de Vertoning in de reactie &#x200B;](assets/show-sources.png)
+![ bronnen van de Vertoning in de reactie ](assets/show-sources-latest.png)
 
-De Studentenassistent bevat citaten met elk antwoord om te laten zien waar de informatie vandaan komt. Elke aanhaling is rechtstreeks gekoppeld aan de oorspronkelijke cursus, module of leerobject dat wordt gebruikt om het antwoord te genereren.
+De AI Assistant bevat citaten met elk antwoord om te laten zien waar de informatie vandaan komt. Elke aanhaling is rechtstreeks gekoppeld aan de oorspronkelijke cursus, module of leerobject dat wordt gebruikt om het antwoord te genereren.
 
 U kunt elke gewenste vermelding selecteren om de feitelijke cursuspagina in de Adobe Leermanager te openen en de volledige inhoud in context te bekijken. Met behulp van uitnodigingen kunt u informatie verifiëren, aanvullende details verkennen en blijven leren van de gezaghebbende bron.
 
-## De AI-assistent openen met de zoekfunctie
+## De AI-assistent openen via zoeken
 
-Beheerders kunnen de AI-assistent ook rechtstreeks vanuit de zoekbalk starten. Typ eenvoudig uw vraag, en selecteer **AI Medewerker** van de opties die hieronder verschijnen om antwoorden van de toegewezen het leren inhoud te krijgen.
+U kunt de AI-assistent ook rechtstreeks vanuit de zoekbalk starten. Typ uw vraag op het onderzoeksgebied, dan uitgezocht **vraag AI Medewerker** van de opties die lijken om antwoorden van uw toegewezen het leren inhoud te krijgen.he toegewezen leerinhoud.
 
-![&#x200B; heb toegang tot de Medewerker van de Student van onderzoeksbar &#x200B;](assets/learner-assistant-search.png)
+![ heb toegang tot de Medewerker van de Student van onderzoeksbar ](assets/learner-assistant-search-new.png)
 
-## Feedback geven op reacties van de AI-assistent (Bèta) van studenten
+
+## Feedback geven op reacties van de AI-assistent van studenten
 
 Uw feedback over de reacties die worden gegenereerd door de Learner AI Assistant (Beta) verbetert de nauwkeurigheid, relevantie en algehele prestaties.
 
@@ -332,16 +230,70 @@ Uw feedback over de reacties die worden gegenereerd door de Learner AI Assistant
 
 * Selecteer **Duims omhoog**, kies wat u behulpzaam in de reactie vond, voeg naar keuze commentaren toe, en selecteer dan **voorleggen**.
 
-![&#x200B; Uitgezochte Duimen omhoog om een reactie &#x200B;](assets/thumbs-up.png) bij te werken
+![ Uitgezochte Duimen omhoog om een reactie ](assets/la-feedback.png) bij te werken
 
 * Selecteer **Duimen neer**, kies de reden de reactie niet nuttig was, voeg om het even welke commentaren toe, en selecteer dan **voorleggen**.
 
-![&#x200B; Uitgezochte Duimen neer om een reactie te downvotes &#x200B;](assets/thumbs-down.png)
+## Een nieuwe chat starten in AI Assistant
 
-## Nieuwe chat starten in AI Assistant
+Het beginnen van een nieuw praatje staat de gebruiker toe om met een vers gesprek te beginnen, ontruimend vroegere context zodat kan de medewerker zich op het nieuwe onderwerp concentreren zonder van verwijzingen vorige interactie te voorzien. Dit is belangrijk wanneer u van onderwerp wisselt of antwoorden zoekt die niets te maken hebben met eerdere vragen.
 
-Studenten kunnen het huidige gesprek wissen en op elk gewenst moment een nieuwe chat starten.
+Wis het huidige gesprek en start op elk gewenst moment een nieuwe chat.
 
-* Selecteer **Nieuw praatje** in het AI Hulpscherm en selecteer dan **Ja**.
+Selecteer **Nieuw praatje** in het AI Hulpscherm en selecteer dan **Ja**.
 
-![&#x200B; Begin een nieuw praatje in de Medewerker van de Student &#x200B;](assets/start-new-chat.png)
+![ Begin een nieuw praatje in de Medewerker van de Student ](assets/start-new-chat.png)
+
+De AI-assistent geeft studenten snelle, contextuele antwoorden, ondersteunt meerdere inhoudstypen en biedt inline citaties voor transparantie. Beheerders kunnen de toegang beheren, ervoor zorgen dat de AI-assistent is afgestemd op de organisatorische behoeften en de leerervaring verbetert.
+
+
+## Problemen oplossen
+
+>[!NOTE]
+>
+>Nadat u een nieuwe catalogus hebt geconfigureerd, kunt u de inhoud binnen 4 tot 5 uur indexeren en beschikbaar stellen voor AI-hulpreacties.
+
+### Scenario 1: Geen toegang tot inhoud
+
+Probleem: de student heeft toegang tot de Studentenassistent, maar ontvangt de antwoorden &#39;Ik heb geen antwoord op deze vraag&#39;.
+
+**Mogelijke oorzaken**
+
+* De catalogi van de student zijn niet inbegrepen bij het configureren van AI Assistant
+* Inhoud met betrekking tot de vraag bevindt zich niet in geselecteerde catalogi of catalogi zijn leeg
+* Student heeft geen zicht op relevante inhoud
+
+**Oplossing**
+
+* De toegang tot de catalogus van de student controleren
+* Controleren welke catalogi zijn ingeschakeld in de instellingen van de Studentenassistent
+* Ervoor zorgen dat er relevante inhoud in deze catalogi aanwezig is
+* Enkele uren na het toevoegen van nieuwe inhoud voor indexering wachten
+
+### Scenario 2: Onrelevante of slechte antwoorden
+
+**Probleem**: De AI Medewerker verstrekt antwoorden die niet de vraag aanpassen of lage kwaliteit zijn.
+
+**Mogelijke oorzaken**
+
+* De vraag is te breed of dubbelzinnig
+* Relevante inhoud heeft slechte metagegevens (beschrijvingen, tags)
+* De contentstructuur maakt het moeilijk om informatie te extraheren
+
+**Oplossing**
+
+* Studenten aanmoedigen om specifiekere vragen te stellen
+* Cursusbeschrijvingen en metagegevens bekijken en verbeteren
+* Zorg ervoor dat inhoud duidelijke koppen en structuur heeft
+* Bekijk het gedetailleerde gebruiksrapport om patronen te identificeren
+* U kunt taakhulpen maken voor veelgestelde vragen
+
+### Scenario 3: Vragen over onvoldoende bereik
+
+**Probleem**: De student stelt vragen los van trainingsinhoud.
+
+**Voorbeelden**:
+
+* Algemene kennisvragen (&#39;Wie is de president?&#39;)
+* Persoonlijke meningen (&#39;Wat denk je van X?&#39;)
+* Onjuiste inhoud

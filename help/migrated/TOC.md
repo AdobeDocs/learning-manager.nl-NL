@@ -2,9 +2,9 @@
 user-guide-title: Handleiding voor Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
+source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '778'
 ht-degree: 70%
 
 ---
