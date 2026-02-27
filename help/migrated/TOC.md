@@ -1,11 +1,11 @@
 ---
-user-guide-title: Handleiding voor Adobe Learning Manager
+user-guide-title: Adobe Learning Manager Guide
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 70%
+source-wordcount: '784'
+ht-degree: 68%
 
 ---
 
@@ -22,10 +22,11 @@ ht-degree: 70%
    * [Nieuwe functies november 2023](whats-new-november-2023.md)
    * [Nieuwe functies juli 2023](whats-new-2023-july.md)
    * [Aanstaande wijzigingen in Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
-   * [Aanvullende informatie](release-note/release-notes.md)
+   * [Opmerkingen bij release](release-note/release-notes.md)
    * [Systeemvereisten](system-requirements.md)
    * [Adobe Learning Manager-app voor Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
-   * [Learning Manager en naleving van AVG](kb/prime-gdpr.md)
+   * [Adobe Learning Manager-naleving van AVG](kb/prime-gdpr.md)
+  <!-- * [Adobe Learning Manager administrative account lifecyle](/help/migrated/alm-administrative-lifecycle.md) -->
    * [Toegankelijkheid in Learning Manager](accessibility-learning-manager.md)
    * [Ondersteuning voor aangepast domein](custom-domain.md)
    * [Overgang van Adobe FTP Manager](transition-from-ftp-manager.md)
@@ -163,7 +164,7 @@ ht-degree: 70%
    * [Gebruikersmeldingen](learners/feature-summary/user-notifications.md)
    * [Aankondigingen](learners/feature-summary/announcements.md)
    * [Wachtlijst- en aanwezigheidsbeheer](learners/feature-summary/waitlist-attendance-management.md)
-   * [AI-assistent voor studenten](learners/feature-summary/ai-buddy.md)
+   * [AI-assistent voor studenten](learners/feature-summary/learner-ai-assistant.md)
    * [AI-gedreven zoekfunctie in Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Learning Manager-app voor Salesforce](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect-integratie](learners/feature-summary/adobeconnect-integration.md)
