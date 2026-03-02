@@ -2,9 +2,9 @@
 title: Nieuwe functies in de Adobe Learning Manager-versie van april 2026
 description: Meer informatie over de nieuwe functies, verbeteringen en belangrijke updates in de Adobe Learning Manager-versie van april 2026.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: bff4227db5cb1d419d66c59688989de1406b0458
+source-git-commit: 4f97f09df89e2fc38f013ce817f6d0fee38773d0
 workflow-type: tm+mt
-source-wordcount: '7458'
+source-wordcount: '8124'
 ht-degree: 0%
 
 ---
@@ -181,7 +181,7 @@ Door vergaderingen aan individuele docenten te koppelen Zoom accounts:
 
 * Elke docent kan binnen zijn eigen zoomlicentielimieten werken.
 
-* Organisaties kunnen hun bestaande Zoom-inrichtingsmodel gebruiken (één account per trainer, per eenheid, enz.) en tegelijkertijd volledig integreren met Adobe Learning Manager.
+* Organisaties kunnen hun bestaande Zoom-inrichtingsmodel gebruiken (één account per trainer, per eenheid, enz.) en toch volledig geïntegreerd met Adobe Learning Manager.
 
 * Zo voorkomt u het knelpunt met één punt bij het gebruik van een gedeelde superbeheerder-zoomgebruiker voor alle sessies.
 
@@ -564,7 +564,7 @@ De verbetering introduceert meertalige steun voor checklist vragen, die recensen
 
 Vandaag in Adobe Learning Manager:
 
-* Alle studentgerichte modules (SCORM, PDF, HTML, enz.) kunnen in meerdere inhoudstalen worden aangeboden, zodat studenten de gewenste taal kunnen kiezen.
+* Alle studentgerichte modules (SCORM, PDF, HTML, enz.) kunnen in meerdere inhoudstalen worden aangeboden, zodat studenten de taal van hun voorkeur kunnen kiezen.
 
 * In een controlelijstmodule evalueren revisoren (docenten/managers) studenten op basis van de vragen die in die controlelijst zijn gedefinieerd.
 
@@ -839,7 +839,7 @@ Deze verbetering verbetert de ervaring van het afspelen van Adobe Captivate-inho
 
 * Voor niet-videodia&#39;s:
 
-   * Hiermee geeft u besturingselementen voor dianavigatie weer (volgende/vorige dia, enz.) in plaats van een niet-functionele tijdbalk.
+   * Besturingselementen voor dianavigatie weergeven (volgende/vorige dia, enz.) in plaats van een niet-functionele tijdbalk.
 
       * Hiermee voorkomt u dat er irrelevante of niet-werkende besturingselementen voor bepaalde diatypen worden weergegeven.
 
@@ -936,7 +936,7 @@ De inactieve tijd wordt afgetrokken, zodat alleen de werkelijke betrokkenheidsti
 | **Captivate** | Op dia&#39;s gebaseerde timing | Niet-actief kan niet worden gedetecteerd |
 | **xAPI** | Tab actief | Tab niet actief |
 | **HTML** | De open tijd van de speler met lusje actief | Tab niet actief |
-| **LTI Producer/Consument** | Als LTI-inhoud wordt afgespeeld in de speler van ALM (dat wil zeggen dat ALM LTI-inhoud gebruikt die wordt gehost op een ander LMS dat optreedt als de Producent), is deze logica van toepassing.<br><br> echter, als de inhoud buiten LMS (namelijk wordt de inhoud ontvangen in ALM, dan is ALM de Producent, maar het playback gebeurt in een externe speler), is dit gedeelte van de tijd-berekeningslogica niet van toepassing.  <br>**Nota**: De consument LTI wordt niet gesteund in Adobe Learning Manager. | Tab niet actief |
+| **LTI Producer/Consument** | Als de inhoud LTI binnen de speler van ALM (namelijk ALM wordt gespeeld die inhoud LTI op een andere LMS wordt ontvangen handelend als Producent), dan is deze tijd-bestede logica van toepassing.<br><br> Nochtans, als de inhoud buiten LMS (namelijk wordt de inhoud ontvangen in ALM, dan is ALM de Producent, maar de playback gebeurt in een externe speler), dit gedeelte van de tijd-berekening niet toepassen.  <br>**Nota**: De consument LTI wordt niet gesteund in Adobe Learning Manager. | Tab niet actief |
 
 **Nota**:
 
@@ -954,7 +954,7 @@ De inactieve tijd wordt afgetrokken, zodat alleen de werkelijke betrokkenheidsti
 
 * **Transcripten van de Student:** &quot;het Leren bestede tijd&quot;wijst nu op **daadwerkelijke engagement**.
 * **Dashboard Admin:** Metriek die tijd (bijvoorbeeld, &quot;bestede tijd&quot;tegels, tendensen) omvatten zal **lagere maar meer realistische** waarden in scenario&#39;s tonen waar de nutteloze tijd eerder opblaasde resultaten.
-* &lbrace;de rapporten van de Inschrijving van de cursus:**Op tijd betrekking hebbende gebieden keuren de** nieuwe berekening **post-lancering goed.**
+* {de rapporten van de Inschrijving van de cursus:**Op tijd betrekking hebbende gebieden keuren de** nieuwe berekening **post-lancering goed.**
 * **de nota van de Vergelijkbaarheid:** omdat de historische gegevens niet worden herberekend, tijd-reeksen analyses die de versiedatum overspannen kunnen a **stapverandering** tonen. Overweeg annotatie of segmentatie op datum in analytics-tools.
 
 ### API en connectoren
@@ -1012,9 +1012,66 @@ Dit wordt verwacht wanneer inactieve tijd eerder opgeblazen resultaten had. Anno
 
 Geen; de wijziging wordt automatisch uitgevoerd.
 
+## Bijwerken naar leertranscriptrapporten voor beheerders
 
+We werken de Leertranscript-rapporten (LT) voor beheerders bij ter betere ondersteuning van op checklist gebaseerde evaluaties en feedback van revisoren.
 
+## Wat verandert?
 
+### &#x200B;1. Naam kolom wijzigen in beheerdertranscript
+
+De bestaande **kolom van de Commentaar van de Indiening** in het Leren Admin
+Transcriptie is:
+
+1. **anders genoemd aan:** `Reviewer's remarks`
+
+### Gegevens weergegeven in deze kolom:
+
+* **voor voorleggingsmodules:**
+De kolom blijft de opmerking bij indiening weergeven (geen gedragswijziging).
+
+* **voor checklist modules:**
+In de kolom wordt nu de evaluatieopmerking weergegeven (de opmerkingen van de controleoverzichtsrevisor).
+
+Deze wijziging is van toepassing op alle LT-bronnen van de beheerder:
+
+* LT gedownload van beheerinterface
+* LT verkregen via de taak-API
+* LT gegenereerd via connectoren
+
+Na deze wijziging bevat dezelfde kolom: - Opmerkingen voor indiening van modules
+
+* Opmerkingen bij de evaluatie van controlelijstmodules
+
+Onder de nieuwe kopbalnaam {de opmerkingen van 0} Recensent **.**
+
+### &#x200B;2. Nieuwe kolom in op connector gebaseerd leertranscript exporteert
+
+Voor door connector geëxporteerde leertranscripten:
+
+* Een nieuwe kolom genoemd {de opmerkingen van 0} Recensent **zal aan het eind van het rapport worden toegevoegd.**
+* Deze kolom bevat de opmerkingen van de revisor, uitgelijnd op het hierboven beschreven gedrag:
+   * Opmerkingen bij indiening voor indieningsmodules
+   * Opmerkingen bij de evaluatie van controlelijstmodules
+
+## Gevolgen voor bestaande integraties en automatiseringen
+
+Als u leertranscriptrapporten gebruikt in aangepaste integraties, automatiseringsprogramma&#39;s of externe rapportagetools, bekijkt u de volgende scenario&#39;s:
+
+| Scenario | Gevolgen | Vereiste actie |
+|----------|--------|----------------|
+| U identificeert velden in Admin LT op kolomnaam (bijvoorbeeld &quot;Opmerking voor verzending&quot;) | De kolomkop verandert in de opmerkingen van de revisor. | Ja. Werk de toewijzingen of logica bij die verwijzen naar de opmerking bij Verzending om de opmerkingen van de Revisor te gebruiken. |
+| U identificeert velden in Admin LT alleen op kolompositie (op basis van index) | De positie van deze kolom blijft dezelfde in Admin LT. | Meestal geen actie. Als uw logica niet afhankelijk is van de koptekst, hoeft u niets te wijzigen voor Admin LT, wijzigt u alleen de kolomnaam als de kolom Opmerkingen verzenden is gebruikt. |
+| U gebruikt door connector geëxporteerde LT en vertrouwt op een vast aantal kolommen of een specifieke positie in de laatste kolom | Aan het einde van het rapport wordt een nieuwe kolom toegevoegd. | Ja. Pas de parserings- of validatielogica aan om rekening te houden met een extra kolom aan het einde van het bestand. |
+| U gebruikt door connector geëxporteerde LT en kaart op kolomnaam | De opmerkingen van een nieuwe kolom Reviewer worden beschikbaar gesteld. | Optioneel. U hoeft niets te wijzigen, tenzij u de nieuwe reviewer/checklist met opmerkingen wilt gebruiken. |
+
+**wat u** zou moeten doen
+
+* Bekijk alle scripts, ETL-taken, dashboards of integraties die gebruikmaken van beheertranscriptrapporten.
+* Als u de oude kolomnaam _commentaar van de Voorlegging_ van verwijzingen voorziet, werk uw configuratie of code bij om de nieuwe opmerkingen van de recensent van de kolomnaam te gebruiken.
+* Als u op connector gebaseerde LT-exports gebruikt en ervan uitgaat dat er een vast aantal kolommen of een vaste laatste kolom is, moet u uw logica bijwerken om een extra kolom aan het einde van de export te verwerken.
+
+Als uw huidige implementatie uitsluitend gebaseerd is op kolomposities in Admin LT en niet valideert of afhangt van de kolomkoptekst, hoeft de LT-beheerder zelf niets te wijzigen. Alleen connector-exports hebben aandacht nodig wanneer u afhankelijk bent van een vaste indeling.
 
 
 
@@ -2710,4 +2767,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
