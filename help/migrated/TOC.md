@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager Guide
 breadcrumb-title: Learning Manager
 user-guide-description: Documentatie voor Adobe Learning Manager
-source-git-commit: 0e2e87e886e5817546353ade460d1482fab1709a
+source-git-commit: 13b21a8058ccf428f9c6c59cd88ad99a329b7b31
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 68%
+source-wordcount: '796'
+ht-degree: 67%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 68%
    * [Systeemvereisten](system-requirements.md)
    * [Adobe Learning Manager-app voor Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
    * [Adobe Learning Manager-naleving van AVG](kb/prime-gdpr.md)
+   * [Levensstijl Adobe Learning Manager-beheeraccount](/help/migrated/alm-administrative-lifecycle.md)
+   * [Adobe Learning Manager-handleiding voor veilig beheer](/help/migrated/alm-secure-administration-guide.md)
    * [Toegankelijkheid in Learning Manager](accessibility-learning-manager.md)
    * [Ondersteuning voor aangepast domein](custom-domain.md)
    * [Overgang van Adobe FTP Manager](transition-from-ftp-manager.md)
