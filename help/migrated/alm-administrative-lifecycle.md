@@ -27,7 +27,7 @@ In de onderstaande tabel worden FedRAMP-accountlagen toegewezen aan de specifiek
 
 Adobe Learning Manager gebruikt een op rollen gebaseerd toegangsbeheermodel (RBAC) om administratieve toegang te beheren. Administratieve rollen worden alleen toegewezen door geautoriseerde beheerders.
 
-Zie [ de rollen van de Douane in Adobe Learning Manager ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role) voor meer informatie
+Zie [&#x200B; de rollen van de Douane in Adobe Learning Manager &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role) voor meer informatie
 
 ## Identiteitstypen en aanbevolen verificatie
 
@@ -46,7 +46,7 @@ Zie het volgende voor meer informatie:
 
 ## Roltoewijzing en toegangsbeheer
 
-De toegang tot administratieve rekeningen in Adobe Learning Manager wordt gecontroleerd door expliciete [ roltoewijzing ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups) door een bestaande beheerder. De belangrijkste kenmerken van veilige administratieve toegang zijn:
+De toegang tot administratieve rekeningen in Adobe Learning Manager wordt gecontroleerd door expliciete [&#x200B; roltoewijzing &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups) door een bestaande beheerder. De belangrijkste kenmerken van veilige administratieve toegang zijn:
 
 * Administratieve rollen worden alleen toegewezen door geautoriseerde beheerders.
 * Toegang is op rollen gebaseerd en is afhankelijk van toegewezen machtigingen.
@@ -69,12 +69,12 @@ Adobe raadt beheerders ten zeerste aan verificatie in twee stappen (2FA) in de h
 >
 >Adobe raadt aan 2FA af te dwingen en deze niet voor gebruikers optioneel te laten. 2FA kan tot 24 uur duren. Voor Federated ID-gebruikers moet u MFA afdwingen bij uw identiteitsprovider.
 
-Zie [ Veilige gebruikersauthentificatie voor meer informatie ](https://helpx.adobe.com/enterprise/using/authentication-settings.html) voor meer informatie.
+Zie [&#x200B; Veilige gebruikersauthentificatie voor meer informatie &#x200B;](https://helpx.adobe.com/enterprise/using/authentication-settings.html) voor meer informatie.
 
 
 ## Aanmelden als beheerder
 
-ALM [ Beheerders ](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-admin) onderteken binnen rechtstreeks aan het platform ALM gebruikend organisatorische geloofsbrieven die door de Admin Console worden beheerd.
+ALM [&#x200B; Beheerders &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-admin) onderteken binnen rechtstreeks aan het platform ALM gebruikend organisatorische geloofsbrieven die door de Admin Console worden beheerd.
 
 ### Een beheerdersrol toewijzen
 
@@ -89,7 +89,7 @@ De beheerdersrol in ALM toewijzen:
 
 Met aangepaste beheerrollen kunnen klanten beheertaken delegeren terwijl ze de gecentraliseerde controle over bevoegdheden op accountniveau behouden. Aangepaste beheerders kunnen het bereik bepalen van specifieke gebruikersgroepen of catalogi.
 
-Zie [ gebruikers en gebruikersgroepen ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups) voor meer informatie toevoegen.
+Zie [&#x200B; gebruikers en gebruikersgroepen &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups) voor meer informatie toevoegen.
 
 ## Aanmeldingsmethoden en SSO configureren
 
@@ -100,7 +100,7 @@ ALM-beheerders beheren de aanmeldingsmethoden die beschikbaar zijn voor alle geb
 
 Adobe raadt aan Federated ID / SAML 2.0 SSO te gebruiken als aanmeldingsmethode voor alle interne gebruikers. Dit zorgt ervoor dat de verificatie volledig wordt gecontroleerd door de identiteitsprovider van uw organisatie, waardoor gecentraliseerde MFA-handhaving en onmiddellijke intrekking van accounts bij vertrek van de gebruiker mogelijk zijn.
 
-Zie [ Montages ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/settings) voor meer informatie.
+Zie [&#x200B; Montages &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/settings) voor meer informatie.
 
 ## Aanbevolen veilige standaardinstellingen voor provisioning
 
@@ -140,7 +140,7 @@ Administratieve rekeningen worden gebruikt voor het uitvoeren van dagelijkse ope
 
 Van beheerders wordt verwacht dat ze het interne toegangsbeheer van hun organisatie volgen en het beheerbeleid wijzigen wanneer ze administratieve handelingen uitvoeren.
 
-Zie [ vaak Gestelde Vragen voor de Beheerders van Adobe Learning Manager ](https://experienceleague.adobe.com/en/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)
+Zie [&#x200B; vaak Gestelde Vragen voor de Beheerders van Adobe Learning Manager &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)
 
 
 ### Rolhiërarchie en -delegatie
@@ -161,7 +161,7 @@ Organisaties die ALM-beheeraccounts blijven gebruiken, moeten de volgende prakti
 * **Minimale permanente toegang**: Vermijd gebruikend top-level admin rekeningen voor routinetaken. Behoud volledige beheerderstoegang voor taken die deze specifiek vereisen.
 * **veiligheid van de Zitting**: Vorm het Maximale Levensduur van de Zitting en Maximum Niet-actieve Tijd in Admin Console > Montages > Geavanceerde Montages om blootstelling van onbeheerde zittingen te beperken.
 
-Zie [ overzicht van de Admin console ](https://helpx.adobe.com/enterprise/using/admin-console.html) voor meer informatie.
+Zie [&#x200B; overzicht van de Admin console &#x200B;](https://helpx.adobe.com/enterprise/using/admin-console.html) voor meer informatie.
 
 ### Gebruikersaccounts beheren onder Beheer
 
@@ -217,7 +217,7 @@ De toegang tot ALM-beheerders intrekken zonder het account van de gebruiker te v
 
 De gebruiker keert terug naar de studentrol. Hun leergeschiedenis en cursusinschrijvingen blijven behouden.
 
-Zie [ gebruiker en gebruikersgroepen ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups) voor meer informatie toevoegen.
+Zie [&#x200B; gebruiker en gebruikersgroepen &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups) voor meer informatie toevoegen.
 
 ### Gebruikers verwijderen en leegmaken
 
@@ -226,7 +226,7 @@ Wanneer een gebruiker de organisatie volledig verlaat en zijn account van het pl
 * Verwijder de gebruiker: Gebruikers > Intern > Gebruiker selecteren > Acties > Gebruiker verwijderen. Hierdoor wordt het account uitgeschakeld en wordt actieve toegang verwijderd.
 * Wis de gebruiker: na verwijdering gaat u naar Gebruikers > Gebruikers opschonen, selecteert u de maand waarin de gebruiker is verwijderd, selecteert u de gebruiker en kiest u Handelingen > Gebruiker wissen. Met leegmaken worden alle gebruikersrecords definitief verwijderd.
 
-Zie [ gebruikers ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users) voor meer informatie leegmaken.
+Zie [&#x200B; gebruikers &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users) voor meer informatie leegmaken.
 
 
 ## Veiligheid en gedeelde verantwoordelijkheid
@@ -236,7 +236,7 @@ Adobe Learning Manager werkt volgens een model van gedeelde verantwoordelijkheid
 * Adobe is verantwoordelijk voor het beveiligen van het onderliggende ALM-platform en de onderliggende infrastructuur.
 * Klanten zijn verantwoordelijk voor het beheer van beheertoegang, roltoewijzingen en activiteiten in de levenscyclus van gebruikers binnen hun ALM-account.
 
-De extra informatie over de veiligheidspraktijken van Adobe Learning Manager is beschikbaar in [ Overzicht van de Veiligheid van Adobe Learning Manager (PDF) ](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
+De extra informatie over de veiligheidspraktijken van Adobe Learning Manager is beschikbaar in [&#x200B; Overzicht van de Veiligheid van Adobe Learning Manager (PDF) &#x200B;](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## Documentonderhoud
 
