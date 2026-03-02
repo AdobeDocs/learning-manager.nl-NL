@@ -94,7 +94,7 @@ Adobe Learning Manager ondersteunt het exporteren van beveiligingsgerelateerde c
 
 * De API voor ALM-taken ondersteunt het op aanvraag genereren van gebruikersrapporten (inclusief roltoewijzingen) in CSV-indeling. Deze kunnen worden gepland en verbruikt door externe compliance- of SIEM-tools.
 
-Zie [&#x200B; Adobe Learning Manager - de ontwikkelaarshandleiding van de Toepassing &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual) voor meer informatie.
+Zie [&#x200B; Adobe Learning Manager - de ontwikkelaarshandleiding van de Toepassing &#x200B;](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/developer-manual) voor meer informatie.
 
 ## Biedt Adobe Learning Manager een API waarmee beveiligingsrelevante instellingen via programmacode kunnen worden weergegeven en aangepast?
 
