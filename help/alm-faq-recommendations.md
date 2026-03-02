@@ -94,7 +94,7 @@ Adobe Learning Manager ondersteunt het exporteren van beveiligingsgerelateerde c
 
 * De API voor ALM-taken ondersteunt het op aanvraag genereren van gebruikersrapporten (inclusief roltoewijzingen) in CSV-indeling. Deze kunnen worden gepland en verbruikt door externe compliance- of SIEM-tools.
 
-Zie [ Adobe Learning Manager - de ontwikkelaarshandleiding van de Toepassing ](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual) voor meer informatie.
+Zie [&#x200B; Adobe Learning Manager - de ontwikkelaarshandleiding van de Toepassing &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual) voor meer informatie.
 
 ## Biedt Adobe Learning Manager een API waarmee beveiligingsrelevante instellingen via programmacode kunnen worden weergegeven en aangepast?
 
@@ -103,7 +103,7 @@ Adobe Learning Manager biedt een volledige REST API v2 die programmatisch het be
 ### Verificatie en bereik
 
 * De toepassingen worden geregistreerd door de Beheerder van de Integratie bij **Admin van de Integratie > Toepassingen > Registreren**. OAuth 2.0 Client ID en Secret worden uitgegeven per toepassing.
-* Er zijn zes bereiken beschikbaar. Voor het beheer van veiligheidsmontages, **wordt de lees-schrijftoegang van de rol Admin** {vereist. Hierdoor krijgt de toepassing dezelfde toegang als een volledige beheerder via de API.
+* Er zijn zes bereiken beschikbaar. Voor het beheer van veiligheidsmontages, **wordt de lees-schrijftoegang van de rol Admin** &lbrace;vereist. Hierdoor krijgt de toepassing dezelfde toegang als een volledige beheerder via de API.
 * Toegangstokens worden verkregen via de standaard OAuth-verificatiecode of de workflow voor clientreferenties.\
   **Basis URL:**\
   `https://learningmanager.adobe.com/primeapi/v2/`
