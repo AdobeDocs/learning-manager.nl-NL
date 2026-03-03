@@ -35,10 +35,10 @@ Adobe Learning Manager&#39;s twee geprivilegieerde accounttypen: Aangepaste behe
 
 **Verwijzingen**:
 
-* [Aangepaste rollen | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
-* [Aangepaste rollen beheren via CSV | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/configure-role-csv-files)
-* [ Handleiding voor ontwikkelaars van toepassingen | Adobe Learning Manager ][ https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual ]
-* [Adobe Learning Manager-connectoren](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)
+* [Aangepaste rollen | Adobe Learning Manager](https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/custom-role)
+* [Aangepaste rollen beheren via CSV | Adobe Learning Manager](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/configure-role-csv-files)
+* [ Handleiding voor ontwikkelaars van toepassingen | Adobe Learning Manager ][ https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/developer-manual ]
+* [Adobe Learning Manager-connectoren](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/connectors)
 
 +++
 
@@ -69,9 +69,9 @@ Adobe Learning Manager-documenten bieden specifieke aanbevolen beveiligde standa
 
 **Verwijzingen**:
 
-* [Instellingen | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
-* [Gebruikersverificatie en wachtwoorden beveiligen | Adobe Admin Console](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
-* [Aangepaste rollen | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+* [Instellingen | Adobe Learning Manager](https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/custom-role)
+* [Gebruikersverificatie en wachtwoorden beveiligen | Adobe Admin Console](https://helpx.adobe.com/nl/enterprise/using/authentication-settings.html)
+* [Aangepaste rollen | Adobe Learning Manager](https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/custom-role)
 
 +++
 
@@ -95,7 +95,7 @@ Adobe Learning Manager heeft geen speciaal vergelijkingsdashboard dat automatisc
 
 **Verwijzing**
 
-* [Handleiding voor toepassingsontwikkelaars | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
+* [Handleiding voor toepassingsontwikkelaars | Adobe Learning Manager](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -122,7 +122,7 @@ Adobe Learning Manager ondersteunt het exporteren van beveiligingsgerelateerde c
 
 **Verwijzing**
 
-* [Handleiding voor toepassingsontwikkelaars | Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
+* [Handleiding voor toepassingsontwikkelaars | Adobe Learning Manager](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -156,7 +156,7 @@ Adobe Learning Manager publiceert momenteel de Secure Configuration Guide niet i
 
 Er is geen openbaar beschikbare OSCAL-componentdefinitie, YAML-basislijn of JSON-beleidsbestand waarmee de aanbevolen veilige standaardinstellingen voor Adobe Learning Manager worden gecodeerd.
 
-Klanten die geautomatiseerde vergelijking van huidige montages tegen geadviseerde basislijnen nodig hebben zouden [&#x200B; ALM REST API &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual) moeten gebruiken om huidige configuratiegegevens in formaat terug te winnen JSON.
+Klanten die geautomatiseerde vergelijking van huidige montages tegen geadviseerde basislijnen nodig hebben zouden [&#x200B; ALM REST API &#x200B;](https://experienceleague.adobe.com/nl/docs/learning-manager/using/integration/developer-manual) moeten gebruiken om huidige configuratiegegevens in formaat terug te winnen JSON.
 
 +++
 
@@ -189,9 +189,9 @@ Adobe Learning Manager houdt een openbaar beschikbare, gedetailleerde releaseges
 
 **Verwijzingen**:
 
-* [Opmerkingen bij de release van Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes)
-* [Nieuwe functies in Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-july-2024)
-* [API-implementaties in Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/api-deprecations-list)
+* [Opmerkingen bij de release van Adobe Learning Manager](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/release-notes)
+* [Nieuwe functies in Adobe Learning Manager](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/whats-new-july-2024)
+* [API-implementaties in Adobe Learning Manager](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/api-deprecations-list)
 
 +++
 
