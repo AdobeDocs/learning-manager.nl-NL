@@ -2,13 +2,13 @@
 title: Adobe Learning Manager - Handleiding voor veilig beheer
 description: In deze handleiding worden beveiligingsinstellingen, rollen en best practices voor het beheer van de administratieve beveiliging en toegangscontrole in Adobe Learning Manager beschreven om naleving en beveiliging te garanderen.
 jcr-language: en-us
-source-git-commit: 76a231b5d178a43a2e217d442481e6fd77f12390
+exl-id: 67dd9334-9718-4b2a-841e-5d8bd5c42714
+source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 0%
 
 ---
-
 
 # Administratieve beveiligingsinstellingen en gevolgen voor de beveiliging
 
@@ -51,7 +51,7 @@ De beheerder beheert de verificatiemethode die wordt gebruikt voor alle interne 
 >
 >Als de aanmeldingsmethode voor interne gebruikers is ingesteld op Adobe ID, kan de organisatie niet langer multifactorverificatie afdwingen, de complexiteit van wachtwoorden regelen of de toegang onmiddellijk intrekken wanneer een gebruiker verlaat. Dit verhoogt het risico op ongeoorloofde toegang aanzienlijk.
 
-Zie [&#x200B; de rollen van de Douane &#x200B;](https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/custom-role) voor meer informatie.
+Zie [ de rollen van de Douane ](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role) voor meer informatie.
 
 ### Multi-Factor Authentication (MFA)
 
@@ -101,7 +101,7 @@ De **Beheerder** kan de volgende rollen verlenen of intrekken:
 
 **Plaats:** ALM Admin > Gebruikers > de Rollen van de Douane > creëren Rol
 
-Pas het beginsel van **minste voorrecht** toe. Gebruik **rollen van de Beheerder van 0&rbrace; Douane aan afgevaardigde specifieke functies (zie Sectie 4.2).**
+Pas het beginsel van **minste voorrecht** toe. Gebruik **rollen van de Beheerder van 0} Douane aan afgevaardigde specifieke functies (zie Sectie 4.2).**
 
 De **Beheerder** kan douanerollen tot stand brengen die een bepaalde ondergroep van administratieve toestemmingen verlenen. Aangepaste rollen kunnen worden beperkt tot specifieke gebruikersgroepen, catalogi of functiesets, waardoor het bereik van gedelegeerde beheertoegang wordt beperkt.
 
@@ -168,9 +168,8 @@ De administratieve montages in Adobe Learning Manager zijn configureerbaar door 
 
 Aanvullende informatie over de beveiligingsmethoden van Adobe Learning Manager is beschikbaar in:
 
-**Verwijzing:** [&#x200B; het Overzicht van de Veiligheid van Adobe Learning Manager (PDF) &#x200B;](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=nl-NL)
+**Verwijzing:** [ het Overzicht van de Veiligheid van Adobe Learning Manager (PDF) ](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## Documentonderhoud
 
 Dit document kan periodiek worden bijgewerkt om de wijzigingen in Adobe Learning Manager-functionaliteit of beveiligingsrichtlijnen te weerspiegelen. De versie en de datum die het laatst is bijgewerkt, blijven behouden in de metagegevens van het document en in het FedRAMP-autorisatiepakket. Klanten dienen de openbaar beschikbare versie op Adobe Experience League te raadplegen om ervoor te zorgen dat ze de meest actuele richtlijnen gebruiken.
-
