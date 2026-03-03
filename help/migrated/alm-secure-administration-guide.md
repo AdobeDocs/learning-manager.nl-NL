@@ -51,7 +51,7 @@ De beheerder beheert de verificatiemethode die wordt gebruikt voor alle interne 
 >
 >Als de aanmeldingsmethode voor interne gebruikers is ingesteld op Adobe ID, kan de organisatie niet langer multifactorverificatie afdwingen, de complexiteit van wachtwoorden regelen of de toegang onmiddellijk intrekken wanneer een gebruiker verlaat. Dit verhoogt het risico op ongeoorloofde toegang aanzienlijk.
 
-Zie [&#x200B; de rollen van de Douane &#x200B;](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role) voor meer informatie.
+Zie [&#x200B; de rollen van de Douane &#x200B;](https://experienceleague.adobe.com/nl/docs/learning-manager/using/admin/custom-role) voor meer informatie.
 
 ### Multi-Factor Authentication (MFA)
 
@@ -168,7 +168,7 @@ De administratieve montages in Adobe Learning Manager zijn configureerbaar door 
 
 Aanvullende informatie over de beveiligingsmethoden van Adobe Learning Manager is beschikbaar in:
 
-**Verwijzing:** [&#x200B; het Overzicht van de Veiligheid van Adobe Learning Manager (PDF) &#x200B;](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
+**Verwijzing:** [&#x200B; het Overzicht van de Veiligheid van Adobe Learning Manager (PDF) &#x200B;](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=nl-NL)
 
 ## Documentonderhoud
 
