@@ -2,7 +2,7 @@
 title: Nieuwe functies in de Adobe Learning Manager-versie van april 2026
 description: Meer informatie over de nieuwe functies, verbeteringen en belangrijke updates in de Adobe Learning Manager-versie van april 2026.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 1cbdd4ca217ecc760e942e99303ca7841a20c5b6
+source-git-commit: 78b345adf3fb39cdfa728ff4a788be1b36fff906
 workflow-type: tm+mt
 source-wordcount: '20211'
 ht-degree: 0%
@@ -959,7 +959,7 @@ De inactieve tijd wordt afgetrokken, zodat alleen de werkelijke betrokkenheidsti
 
 * **Transcripten van de Student:** &quot;het Leren bestede tijd&quot;wijst nu op **daadwerkelijke engagement**.
 * **Dashboard Admin:** Metriek die tijd (bijvoorbeeld, &quot;bestede tijd&quot;tegels, tendensen) omvatten zal **lagere maar meer realistische** waarden in scenario&#39;s tonen waar de nutteloze tijd eerder opblaasde resultaten.
-* &lbrace;de rapporten van de Inschrijving van de cursus:**Op tijd betrekking hebbende gebieden keuren de** nieuwe berekening **post-lancering goed.**
+* {de rapporten van de Inschrijving van de cursus:**Op tijd betrekking hebbende gebieden keuren de** nieuwe berekening **post-lancering goed.**
 * **de nota van de Vergelijkbaarheid:** omdat de historische gegevens niet worden herberekend, tijd-reeksen analyses die de versiedatum overspannen kunnen a **stapverandering** tonen. Overweeg annotatie of segmentatie op datum in analytics-tools.
 
 ### API en connectoren
@@ -1705,40 +1705,40 @@ AI Assistant voor studenten is een conversationele, AI-gedreven assistent binnen
 * **Slimme vraag-antwoordend:** behandelt zowel single-turn als multi-turn gesprekken, latend u vragen natuurlijk stellen. Reacties worden afgeleid van cursussen, leerpaden, certificeringen en taakhulpen.
 * **inhoud-gegrond antwoorden met citaties:** trekt direct informatie van het leren materialen en omvat citaties die terug naar de originele cursus, de module, of het middel wijzen.
 * **Uitgebreide inhoudsverenigbaarheid:** steunt een brede waaier van formaten, met inbegrip van documenten, presentaties, video&#39;s, audiodossiers, de inhoud van de HTML, en de Gedeelde modules van de Verwijzing van de Objecten van de Inhoud van het Model (SCORM).
-* **Seamless user experience:** Available as a side panel across learner pages, maintaining session-based chat history for continuity.
-* **Robust administrator controls:** Administrators can enable or disable the assistant, limit access by user groups, and choose which internal catalogs are used as the source for AI-generated responses.
+* **Naadloze gebruikerservaring:** Beschikbaar als zijpaneel over studentenpagina&#39;s, die op zitting-gebaseerde praatjegeschiedenis voor continuïteit handhaven.
+* **robuuste beheerdercontroles:** de Beheerders kunnen de medewerker toelaten of onbruikbaar maken, toegang door gebruikersgroepen beperken, en kiezen welke interne catalogi als bron voor AI-Geproduceerde reacties worden gebruikt.
 
-### Benefits
+### Voordelen
 
-* **Faster access to knowledge:** You receive instant answers to your questions, eliminating the need to navigate through multiple courses or documents.
-* **Higher engagement:** Conversational interactions make the learning experience more natural, intuitive, and accessible.
-* **Better understanding:** You can ask follow-up questions to clarify concepts and explore topics more thoroughly.
-* **Scalable learning support:** Automated, AI-driven responses minimize dependence on subject-matter experts and support teams.
+* **Snelle toegang tot kennis:** u ontvangt onmiddellijke antwoorden op uw vragen, eliminerend de behoefte om door veelvoudige cursussen of documenten te navigeren.
+* **Hogere betrokkenheid:** de Conversationele interactie maken de het leren ervaring natuurlijker, intuïtiever, en toegankelijker.
+* **Beter begrip:** u kunt follow-upvragen stellen om concepten te verduidelijken en onderwerpen grondiger te onderzoeken.
+* **Scalable het leren steun:** Geautomatiseerde, AI-gedreven reacties minimaliseren afhankelijkheid van onderwerpdeskundigen en steunteams.
 
-Learn more about [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
+Leer meer over [ AI Medewerker voor studenten ](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
 
-## Multi-lingual Video Text Tracks (VTT) support
+## Ondersteuning voor VTT (Multi-Language Video Text Tracks)
 
-Multi-lingual Video Text Tracks (VTT) support in Adobe Learning Manager enables authors to provide subtitles and captions for video and audio content in multiple languages. This feature streamlines localization, making training accessible to a global audience and ensuring compliance with accessibility standards. Authors can auto-generate, translate, review, and edit VTT files directly within the platform.
+Dankzij de ondersteuning voor meertalige videoteksttracks (VTT) in Adobe Learning Manager kunnen auteurs ondertitels en bijschriften voor video- en audio-inhoud in meerdere talen aanbieden. Deze functie stroomlijnt de lokalisatie, maakt training toegankelijk voor een wereldwijd publiek en zorgt ervoor dat wordt voldaan aan toegankelijkheidsstandaarden. Auteurs kunnen VTT-bestanden automatisch genereren, vertalen, reviseren en bewerken, rechtstreeks binnen het platform.
 
-### Use Cases
+### Gebruiksscenario&#39;s
 
-* **Global Training:** Deliver video content with subtitles in multiple languages to reach international learners.
-* **Accessibility Compliance:** Provide captions for hearing-impaired users in their preferred language.
-* **Faster Localization:** Reduce manual effort and accelerate content rollout by auto-generating and translating VTT files.
-* **Consistent Experience:** Ensure all learners receive the same information, regardless of language.
+* **Globale Opleiding:** Lever videoinhoud met ondertitels in veelvoudige talen om internationale studenten te bereiken.
+* **Naleving van de Toegankelijkheid:** verstrek titels voor slechthorende gebruikers in hun aangewezen taal.
+* **Snellere lokalisatie:** verminder handmatige inspanning en versnel contentuitloop door auto-producerend en vertaalend VTT dossiers.
+* **Consistente Ervaring:** Zorg ervoor dat alle studenten dezelfde informatie ontvangen, ongeacht de taal.
 
 ### Belangrijkste kenmerken
 
-* **Multi-language translation:** Translate captions into any of the 39 supported non-English languages.
-* **In-app review and editing:** Review, edit, and download VTT files before publishing.
-* **Notifications:** Receive in-app notifications when VTT generation and translation are complete.
-* **Smooth publishing:** Publish finalized captions for learners to access in their chosen language.
+* **meertalige vertaling:** vertaal titels in om het even welke 39 gesteunde niet-Engelse talen.
+* **overzicht en het uitgeven in-app:** Overzicht, geef, en download VTT dossiers uit alvorens te publiceren.
+* **Meldingen:** ontvang in-app berichten wanneer de productie en de vertaling van VTT volledig zijn.
+* **Vloeiend publiceren:** Publish voltooide titels voor studenten om tot in hun gekozen taal toegang te hebben.
 
-### Upload content and generate VTT
+### Inhoud uploaden en VTT genereren
 
-1. Go to the Content Library and select **Add > Content**.
-2. Upload your MP3 or MP4 file.
+1. Ga naar de Bibliotheek van de Inhoud en selecteer **toevoegen > Inhoud**.
+2. Upload uw MP3- of MP4-bestand.
 3. In uploadt dialoog, selecteer de optie **om Vertalingen** te produceren.
 4. Selecteer de oorspronkelijke inhoudstaal (standaard is de taal van het bestand).
 5. Selecteer extra doeltalen voor vertaling (maximaal 39 ondersteund).
@@ -2458,3 +2458,4 @@ Het systeem maakt een onderscheid tussen feitelijke voltooiing en afwisselende v
 * Als de relatie tussen bron en doel wordt verwijderd of gewijzigd, kan ALM de alternatieve voltooide bewerkingen verwijderen of aanpassen zonder dat dit ten koste gaat van echte voltooide bewerkingen, op voorwaarde dat retroactieve invullingen zijn ingeschakeld voor het account.
 
 Alternatieve voltooide trainingen hebben geen invloed op de werkelijke leeractiviteiten in de doeltraining. Ze fungeren als een overlay die kan worden herzien als de relaties veranderen.
+
