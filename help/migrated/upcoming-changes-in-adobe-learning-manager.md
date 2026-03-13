@@ -2,26 +2,31 @@
 title: Nieuwe functies in de Adobe Learning Manager-versie van april 2026
 description: Meer informatie over de nieuwe functies, verbeteringen en belangrijke updates in de Adobe Learning Manager-versie van april 2026.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 4f97f09df89e2fc38f013ce817f6d0fee38773d0
+source-git-commit: 1cbdd4ca217ecc760e942e99303ca7841a20c5b6
 workflow-type: tm+mt
-source-wordcount: '8124'
+source-wordcount: '20211'
 ht-degree: 0%
 
 ---
 
-# Aanstaande wijzigingen in Adobe Learning Manager
+# Updates in Adobe Learning Manager
 
-<!-- >>[!IMPORTANT]
+>[!IMPORTANT]
 >
->The Adobe Learning Manager October 2025 release is now live. View [What's New](/help/migrated/whats-new.md) for more information on the latest features and enhancements. This page will be updated with the new features and enhancements for the next release. Stay tuned for more updates. -->
+>De functies in deze release zijn beschikbaar in bèta. Functionaliteit en gedrag kunnen vóór algemene beschikbaarheid veranderen. Deel feedback via je gebruikelijke kanalen voor ondersteuning van Adoben.
 
-## Overzicht van de release
 
-De Adobe Learning Manager-versie van april 2026 introduceert een groot aantal verbeteringen die het leren voor studenten vloeiender maken, eenvoudiger te beheren voor beheerders en flexibeler voor docenten, inclusief een duidelijkere navigatie in de Fluidic Player met een label Volgende module en een speciale knop Afsluiten, ondersteuning voor meerdere gelijktijdige Zoom-sessies zodat teams parallelle virtuele klassen kunnen uitvoeren zonder handmatige installatie, en een betere zichtbaarheid voor gedeelde cursussen door de echte auteur te tonen in plaats te maken van &quot;Externe auteur in collega-accounts. De update maakt ook vervaldatums voor leerobjecten beschikbaar in API&#39;s voor studenten, zodat LXP&#39;s tijdgevoelige trainingen kunnen markeren, meertalige ondersteuning voor taakhulpen toevoegt, zodat één taakhulp alle taalversies kan dragen en beheerders beperkingen kunnen instellen wanneer modules kunnen worden gestart door begin- en eindvensters te definiëren die handig zijn voor cohorten of getimede programma&#39;s.
+Dit document geeft een overzicht van de nieuwe functies, verbeteringen en updates in de Adobe Learning Manager-versie van april 2026. Gebruik dit om wijzigingen voor uw organisatie te plannen en te begrijpen wat er beschikbaar is voor studenten, beheerders en auteurs.
 
-Externe systemen die LTI gebruiken, kunnen nu automatisch de spelertaal instellen, waardoor studenten op alle platforms een consistente taalervaring krijgen. Er zijn ook verschillende upgrades voor checklist beschikbaar, waaronder gewogen scores, meertalige vraagtekst en optionele revisieopmerkingen voor rijkere feedback. ALM legt nu meerdere quizpogingen vast die worden beheerd binnen SCORM-inhoud en rapporteert elke poging zorgvuldig in L2-rapportage. Docenten kunnen ook zelf QR-codes genereren voor onmiddellijke inschrijving en aanwezigheidsregistratie tijdens persoonlijke sessies, en inhoud van Captivates speelt schoner af met een uniforme inhoudsopgave, voltooiingsvakjes op dianiveau en het exporteren van betrouwbare notities. In het algemeen richt de release zich op helderheid, consistentie, meertalige gereedheid, beheerefficiëntie en flexibelere trainingslevering.
+**voor studenten:** De Fluidic Player toont nu de volgende modulenaam en een duidelijke knoop van de Uitgang. De Player-taal kan via LTI worden ingesteld voor een consistente ervaring op alle platforms. De inhoud van een Captivate bevat een uniforme inhoudsopgave, afsluitingstekens op dianiveau en een betrouwbare exporteerfunctie voor notities. Er is ondersteuning voor meerdere talen beschikbaar voor taakhulpen, vragen over checklist en videoteksttracks (VTT). Met de AI-assistent krijgen studenten antwoorden binnen de leerervaring.
 
-## Navigatie voor Fluidic Player: geef de naam van de volgende module weer
+**voor beheerders en auteurs:** De schakelaar van het Gezoem steunt veelvoudige gezamenlijke VILT zittingen. Gedeelde cursussen in collega-accounts geven de echte auteur weer in plaats van &quot;Externe auteur&quot;. Beheerders kunnen het starten van modules beperken. Vervaldatums van leerobjecten worden weergegeven in de API&#39;s voor studenten. De controlelijstmodules bieden ondersteuning voor gewogen scores, meertalige vraagtekst en optionele revisieopmerkingen. Aangepaste certificaten bieden een editor voor slepen en neerzetten met dynamische velden en door AI gegenereerde achtergronden. Met de niet-aangemelde Experience Builder kunt u leerpagina&#39;s voor het publiek maken zonder dat u zich hoeft aan te melden.
+
+**voor instructeurs:** produceer QR codes voor instantienrollment en zittingsaanwezigheid. Opmerkingen of feedback toevoegen tijdens evaluatie van checklist.
+
+**het Melden en de analyse:** de inhoud SCORM kan veelvoudige quizpogingen in L2 nu melden rapporterend. De berekening van de bestede leertijd wordt verbeterd in Studenttranscripten. Leertranscriptrapporten voor beheerders worden bijgewerkt. Er zijn geavanceerde zoekverbeteringen beschikbaar.
+
+## Navigatie voor Fluidic Player: de naam van de volgende module weergeven
 
 ### Overzicht
 
@@ -49,7 +54,7 @@ Voor PDF-modules past de speler besturingselementen aan op een aparte regel, zod
 
 **Bijgewerkte Admin > Branding > de voorproef van de Speler**
 
-De voorvertoning van de speler in Beheer > Branding geeft nu het nieuwe label weer, bijvoorbeeld Volgende module: Les 2. Zo kunnen beheerders het bijgewerkte navigatiegedrag zien.
+De voorvertoning van de speler in Beheer > Branding geeft nu het nieuwe label weer, bijvoorbeeld Next Module: Les 2. Zo kunnen beheerders het bijgewerkte navigatiegedrag zien.
 
 ### Belangrijkste voordelen
 
@@ -113,7 +118,7 @@ Voor studenten die voornamelijk telefoons of tablets gebruiken:
 
 ### Overzicht
 
-De komende upgrade naar de Zoom-connector zal de manier waarop Adobe Learning Manager Virtual Instructor-Led Training (VILT) beheert aanzienlijk verbeteren. Voorheen konden gebruikers slechts één zoomsessie tegelijk maken. Met de nieuwe update kunnen beheerders en auteurs meerdere Zoom-sessies tegelijk plannen met behulp van de standaardintegratie.
+De Zoom Connector-upgrade verbetert hoe Adobe Learning Manager Virtual Instructor-Led Training (VILT) beheert. Voorheen konden gebruikers slechts één zoomsessie tegelijk maken. Met de nieuwe update kunnen beheerders en auteurs meerdere Zoom-sessies tegelijk plannen met behulp van de standaardintegratie.
 
 ### Nieuwe functies
 
@@ -249,7 +254,7 @@ Voor klanten die scenario&#39;s voor meerdere tenant of uitgebreide onderneminge
 
 * Dezelfde cursus wordt weergegeven met consistente merknamen van auteurs in verschillende accounts.
 
-* De ervaring van de student is afgestemd op de verwachtingen van het primaire account (zoals &#39;Cloud Academy Team&#39; in plaats van &#39;Externe auteur&#39;).
+* De ervaring van de student is afgestemd op de verwachtingen van het primaire account (bijvoorbeeld: de auteursnaam van het bronaccount bekijken in plaats van &quot;Externe auteur&quot;).
 
 ### Gebruiksscenario&#39;s
 
@@ -457,7 +462,7 @@ Dit verbetert de ervaring van de student: in plaats van modules te bekijken die 
 
 #### Gebruiksscenario&#39;s
 
-* **op cohort-gebaseerd inschrijvingsprogramma**: In dit programma, elke week ontgrendelt een nieuwe module. De inhoud voor Week 1 is onmiddellijk beschikbaar, terwijl Week 2 zichtbaar is maar niet kan worden gestart tot een bepaalde datum. Week 3 volgt hetzelfde gatingproces. Studenten kunnen het volledige leerpad zien, maar het systeem bepaalt wanneer ze daadwerkelijk met elke stap kunnen beginnen.
+* **op cohort-gebaseerd educatieprogramma**: In dit programma, opent elke week een nieuwe module. De inhoud voor Week 1 is onmiddellijk beschikbaar, terwijl Week 2 zichtbaar is maar niet kan worden gestart tot een bepaalde datum. Week 3 volgt hetzelfde gatingproces. Studenten kunnen het volledige leerpad zien, maar het systeem bepaalt wanneer ze daadwerkelijk met elke stap kunnen beginnen.
 
 * **tijd-gebonden product of campagneopleiding**: De marketing of productteams kunnen een trainingsmodule tot stand brengen die slechts zou moeten worden betreden terwijl een campagne actief is of wanneer een specifieke versie van een product nog beschikbaar is. Dit toegewezen beginvenster zorgt ervoor dat studenten na de opgegeven eindtijd niet met een module over een beëindigde productversie beginnen.
 
@@ -530,7 +535,7 @@ Voor alle typen controlelijsten:
 
    * Ja/Nee selecteren.
 
-   * Kies scores op de gedefinieerde schaal.
+   * Selecteer scores op de gedefinieerde schaal.
 
 * Het **Checklist** rapport wordt bijgewerkt om, voor vragen met verschillend gewicht te omvatten:
 
@@ -682,7 +687,7 @@ Zo weet u zeker dat de feedback niet alleen wordt opgeslagen, maar ook actief aa
 
 >[!IMPORTANT]
 >
->Let op: deze functie is alleen beschikbaar nadat u deze in het account hebt ingeschakeld. Neem contact op met de ALM-ondersteuning of Customer Success Manager.
+>Let op: deze functie is alleen beschikbaar nadat u deze in het account hebt ingeschakeld. Contact opnemen met ALM-ondersteuning.
 
 
 Momenteel ondersteunt ALM meerdere pogingen op LMS-niveau via de MQA (Multiple Quiz Attempt):
@@ -701,7 +706,7 @@ Momenteel ondersteunt ALM meerdere pogingen op LMS-niveau via de MQA (Multiple Q
 
 Als het inhoudsbestand zelf (bijvoorbeeld een Articulate SCORM-quiz) echter zijn eigen logica voor meerdere pogingen implementeert, wordt in het L2-quizrapport van ALM deze interne pogingen momenteel niet goed onderscheiden of bijgehouden.
 
-Deze verbetering introduceert meerdere pogingen bijhouden op inhoudsniveau voor quizzen, zodat Adobe Learning Manager elke poging in de inhoud zelf nauwkeurig kan vastleggen in het L2-quizrapport. Het is ontworpen voor situaties waarin het inhoudsontwerpgereedschap (zoals Articulate SCORM) quizpogingen onafhankelijk beheert. Met deze functie worden pogingen correct weergegeven in ALM-rapportage, zonder dat dit afhankelijk is van de MQA-instellingen (Multiple Quiz Attempt) op LMS-niveau.
+Deze verbetering introduceert meerdere pogingen bijhouden op inhoudsniveau voor quizzen, zodat Adobe Learning Manager elke poging in de inhoud zelf nauwkeurig kan vastleggen in het L2-quizrapport. Het is ontworpen voor situaties waarin het inhoudsontwerpgereedschap (zoals Articulate SCORM) quizpogingen onafhankelijk beheert. Met deze functie worden pogingen correct weerspiegeld in ALM-rapportage, zonder dat dit afhankelijk is van de MQA-instellingen (Multiple Quiz Attempt) op LMS-niveau.
 
 ### Nieuwe functies
 
@@ -719,13 +724,13 @@ Wanneer dergelijke inhoud in een cursus wordt gebruikt:
 
 * Studenten zien slechts één poging op LMS-niveau:
 
-   * Het cursusoverzicht en de moduleweergave geven geen LMS-knop &quot;Opnieuw proberen&quot; voor die module.
+   * Het cursusoverzicht en de moduleweergave geven geen LMS-knop &quot;Opnieuw proberen&quot; voor die module weer.
 
    * De afhandeling van pogingen (bijvoorbeeld opnieuw proberen in de quiz) wordt bepaald door de inhoud zelf.
 
 #### Rapportage
 
-Het L2-quizrapport wordt bijgewerkt om elke poging op inhoudsniveau te behandelen als een afzonderlijke pogingsrij:
+In het L2-quizrapport wordt elke poging op inhoudsniveau behandeld als een afzonderlijke poging:
 
 * Elke interne quizpoging die in de inhoud is geconfigureerd, wordt als een eigen rij weergegeven in het L2-quizrapport, zoals hoe pogingen op LMS-niveau vandaag worden weergegeven.
 
@@ -801,7 +806,7 @@ Hiermee kunnen docenten en coördinatoren eenvoudig de juiste QR-code voor elke 
 
 ### Gebruiksscenario&#39;s
 
-* Organisaties die grote hoeveelheden on-site sessies uitvoeren (bijvoorbeeld producttraining voor professionals) kunnen docenten de mogelijkheid geven sessiespecifieke QR-codes af te drukken waarmee ze zich kunnen inschrijven voor één scan en aanwezigheid kunnen markeren.
+* Organisaties die grote hoeveelheden on-site sessies uitvoeren (bijvoorbeeld producttraining voor professionals) kunnen docenten in staat stellen sessiespecifieke QR-codes af te drukken waarmee ze kunnen inschrijven en aanwezigheid kunnen markeren met één scan.
 
 * In retail-, productie- en gezondheidszorgtrainingen, waar studenten vaak rechtstreeks vanuit de vloer of zonder voorafgaande inschrijving deelnemen aan sessies, kan een QR-code voor Inschrijven + Aanwezigheid bij de deur worden geplaatst. Zo kunnen studenten hun inschrijving en aanwezigheid zelf bedienen via hun telefoon.
 
@@ -825,7 +830,7 @@ Deze verbetering verbetert de ervaring van het afspelen van Adobe Captivate-inho
 
 #### Feedback voor visuele voltooiing
 
-* In de ALM-inhoudsopgave worden groene vinkjes (of gelijkwaardige visuele aanwijzingen) weergegeven om aan te geven dat de presentatie is voltooid.
+* De TOC ALM toont groene vinkjes (of gelijkwaardige visuele aanwijzingen) die op dianiveau voltooiing wijzen.
 
 * Naarmate studenten de dia&#39;s met Captivates doorlopen, geeft de ALM-inhoudsopgave aan welke dia&#39;s zijn voltooid, in overeenstemming met de verwachtingen van de studenten voor moderne cursusspelers.
 
@@ -845,7 +850,7 @@ Deze verbetering verbetert de ervaring van het afspelen van Adobe Captivate-inho
 
 #### Vereenvoudigde navigatie
 
-* De afzonderlijke modules navigatiebalk (ALM) en de cursusnavigatiebalk worden samengevoegd tot één intuïtieve balk.
+* De afzonderlijke navigatiebalk voor de module (ALM) en de navigatiebalk voor de cursus worden samengevoegd tot één intuïtieve balk.
 
 * Deze geïntegreerde navigatie:
 
@@ -855,7 +860,7 @@ Deze verbetering verbetert de ervaring van het afspelen van Adobe Captivate-inho
 
 #### Betrouwbare aantekeningen
 
-* Notities worden gekoppeld aan dianummers in plaats van tijdstempels.
+* Notities zijn gekoppeld aan dianummers in plaats van tijdstempels.
 
 * Deze wijziging:
 
@@ -869,7 +874,7 @@ Deze verbetering verbetert de ervaring van het afspelen van Adobe Captivate-inho
 
 * Nauwkeurige informatie over voltooiing en voortgang: dankzij tikken op dia-niveau en contextuele besturingselementen kunnen studenten zien waar ze zich bevinden en wat er nog over is.
 
-* Krachtiger notities maken en exporteren: door notities aan dia&#39;s te koppelen in plaats van fragiele tijdstempels, kunnen gebruikers een betrouwbare workflow voor notities naar PDF terugwinnen, zelfs met inhoud van Captivates op basis van dia&#39;s.
+* Betere notities maken en exporteren: gebruikers koppelen notities aan dia&#39;s in plaats van fragiele tijdstempels om een betrouwbare workflow voor notities naar PDF te maken, zelfs met op dia&#39;s gebaseerde Captivate-inhoud.
 
 * Workflow van gereserveerde auteurs: auteurs behouden de eenvoud van directe publicatie door de Captivate naar ALM, terwijl studenten een moderne, geïntegreerde afspeelervaring krijgen zonder extra authoringlasten.
 
@@ -954,7 +959,7 @@ De inactieve tijd wordt afgetrokken, zodat alleen de werkelijke betrokkenheidsti
 
 * **Transcripten van de Student:** &quot;het Leren bestede tijd&quot;wijst nu op **daadwerkelijke engagement**.
 * **Dashboard Admin:** Metriek die tijd (bijvoorbeeld, &quot;bestede tijd&quot;tegels, tendensen) omvatten zal **lagere maar meer realistische** waarden in scenario&#39;s tonen waar de nutteloze tijd eerder opblaasde resultaten.
-* &lbrace;de rapporten van de Inschrijving van de cursus:**Op tijd betrekking hebbende gebieden keuren de** nieuwe berekening **post-lancering goed.**
+* {de rapporten van de Inschrijving van de cursus:**Op tijd betrekking hebbende gebieden keuren de** nieuwe berekening **post-lancering goed.**
 * **de nota van de Vergelijkbaarheid:** omdat de historische gegevens niet worden herberekend, tijd-reeksen analyses die de versiedatum overspannen kunnen a **stapverandering** tonen. Overweeg annotatie of segmentatie op datum in analytics-tools.
 
 ### API en connectoren
@@ -1028,10 +1033,10 @@ Transcriptie is:
 ### Gegevens weergegeven in deze kolom:
 
 * **voor voorleggingsmodules:**
-De kolom blijft de opmerking bij indiening weergeven (geen gedragswijziging).
+In de kolom wordt de opmerking bij verzending nog steeds weergegeven (er wordt geen gedragswijziging toegepast).
 
 * **voor checklist modules:**
-In de kolom wordt nu de evaluatieopmerking weergegeven (de opmerkingen van de controleoverzichtsrevisor).
+In de kolom wordt nu de opmerking bij de evaluatie weergegeven (de opmerkingen van de revisor op de controlelijst).
 
 Deze wijziging is van toepassing op alle LT-bronnen van de beheerder:
 
@@ -1039,7 +1044,7 @@ Deze wijziging is van toepassing op alle LT-bronnen van de beheerder:
 * LT verkregen via de taak-API
 * LT gegenereerd via connectoren
 
-Na deze wijziging bevat dezelfde kolom: - Opmerkingen voor indiening van modules
+Na deze wijziging staat in dezelfde kolom het volgende: - Opmerkingen verzenden voor verzendmodules
 
 * Opmerkingen bij de evaluatie van controlelijstmodules
 
@@ -1049,7 +1054,7 @@ Onder de nieuwe kopbalnaam {de opmerkingen van 0} Recensent **.**
 
 Voor door connector geëxporteerde leertranscripten:
 
-* Een nieuwe kolom genoemd {de opmerkingen van 0} Recensent **zal aan het eind van het rapport worden toegevoegd.**
+* Een nieuwe kolom genoemd {de opmerkingen van 0} Recensent **wordt toegevoegd aan het eind van het rapport.**
 * Deze kolom bevat de opmerkingen van de revisor, uitgelijnd op het hierboven beschreven gedrag:
    * Opmerkingen bij indiening voor indieningsmodules
    * Opmerkingen bij de evaluatie van controlelijstmodules
@@ -1063,7 +1068,7 @@ Als u leertranscriptrapporten gebruikt in aangepaste integraties, automatisering
 | U identificeert velden in Admin LT op kolomnaam (bijvoorbeeld &quot;Opmerking voor verzending&quot;) | De kolomkop verandert in de opmerkingen van de revisor. | Ja. Werk de toewijzingen of logica bij die verwijzen naar de opmerking bij Verzending om de opmerkingen van de Revisor te gebruiken. |
 | U identificeert velden in Admin LT alleen op kolompositie (op basis van index) | De positie van deze kolom blijft dezelfde in Admin LT. | Meestal geen actie. Als uw logica niet afhankelijk is van de koptekst, hoeft u niets te wijzigen voor Admin LT, wijzigt u alleen de kolomnaam als de kolom Opmerkingen verzenden is gebruikt. |
 | U gebruikt door connector geëxporteerde LT en vertrouwt op een vast aantal kolommen of een specifieke positie in de laatste kolom | Aan het einde van het rapport wordt een nieuwe kolom toegevoegd. | Ja. Pas de parserings- of validatielogica aan om rekening te houden met een extra kolom aan het einde van het bestand. |
-| U gebruikt door connector geëxporteerde LT en kaart op kolomnaam | De opmerkingen van een nieuwe kolom Reviewer worden beschikbaar gesteld. | Optioneel. U hoeft niets te wijzigen, tenzij u de nieuwe reviewer/checklist met opmerkingen wilt gebruiken. |
+| U gebruikt door connector geëxporteerde LT en kaart op kolomnaam | Er is een nieuwe kolom Opmerkingen van Revisor beschikbaar. | Optioneel. U hoeft niets te wijzigen, tenzij u de nieuwe reviewer/checklist met opmerkingen wilt gebruiken. |
 
 **wat u** zou moeten doen
 
@@ -1074,1697 +1079,1382 @@ Als u leertranscriptrapporten gebruikt in aangepaste integraties, automatisering
 Als uw huidige implementatie uitsluitend gebaseerd is op kolomposities in Admin LT en niet valideert of afhangt van de kolomkoptekst, hoeft de LT-beheerder zelf niets te wijzigen. Alleen connector-exports hebben aandacht nodig wanneer u afhankelijk bent van een vaste indeling.
 
 
+## Niet-aangemelde ervaring in Experience Builder
 
+Dankzij de niet-aangemelde ervaring in Experience Builder kunnen organisaties hun leerinhoud en portalpagina&#39;s weergeven aan alle bezoekers, ook aan bezoekers die zich niet hebben aangemeld. Deze functie is ontworpen om toekomstige studenten aan te trekken, te informeren en te boeien door een soepele en branded voorvertoning van uw trainingsaanbiedingen te bieden voordat ze zich hoeven aan te melden of zich in te schrijven.
 
+Met deze functie kunt u openbare pagina&#39;s maken en aanpassen met dezelfde gebruikersvriendelijke interface voor slepen en neerzetten als in de standaard Experience Builder. U kunt cursuscatalogi, categorieën, paden en rijke statische inhoud, inclusief afbeeldingen, tekst, HTML en ingesloten iframes, weergeven voor iedereen die uw portal bezoekt. Zo kun je eenvoudig je leerprogramma’s benadrukken, nieuwe cursussen promoten en essentiële informatie bieden aan een breder publiek.
 
+Bezoekers kunnen door de catalogus bladeren, details over cursussen en instanties bekijken en de algemene zoekopdracht gebruiken om beschikbare trainingsmogelijkheden te verkennen. Voor handelingen waarvoor de identiteit van een gebruiker vereist is, zoals inschrijving in een cursus, toegang tot gepersonaliseerde functies (zoals agenda, naleving, leaderboard of Sociaal leren) of volgen van training, wordt de bezoeker echter gevraagd zich aan te melden. Deze benadering zorgt ervoor dat gevoelige en gepersonaliseerde informatie veilig blijft, terwijl een uitgebreide voorvertoning mogelijk blijft.
 
+Beheerders kunnen configureren welke pagina&#39;s en widgets zichtbaar zijn voor gebruikers die zich niet hebben aangemeld, zodat alleen geschikte inhoud wordt weergegeven. Pagina&#39;s kunnen worden ingesteld om toegankelijk te zijn voor zowel aangemelde als niet-aangemelde gebruikers, of uitsluitend voor een van deze groepen. De Experience Builder beschikt over een voorbeeldmodus waarmee u precies kunt zien hoe uw pagina&#39;s aan bezoekers worden weergegeven voordat ze worden gepubliceerd.
 
+Om deze functie in te schakelen, moet uw ALM-integratiebeheerder de connector voor toegang tot trainingsgegevens activeren. Deze connector zorgt ervoor dat de metagegevens van de cursus openbaar toegankelijk zijn.
 
+Branding en lokalisatie worden volledig ondersteund, zodat u paginatitels, favicons en taalinstellingen kunt aanpassen aan de identiteit van uw organisatie en aan de behoeften van uw doelgroep kunt voldoen. Als onderdeel van de overgang naar deze verbeterde ervaring, is de verouderde homepage-functie voor niet-aangemelde gebruikers verouderd. Daarom moet alle nieuwe openbare inhoud worden gemaakt met Experience Builder.
 
+### Doel van de functie
 
+Dankzij de niet-aangemelde ervaring in Experience Builder kunnen organisaties hun leerinhoud en portalpagina&#39;s aan iedereen tonen, zonder dat gebruikers zich hoeven aan te melden. Dit helpt potentiële studenten aan te trekken, te informeren en te boeien door een voorvertoning van de beschikbare training en bronnen te leveren voordat inschrijving of verificatie nodig is.
 
+### Gebruiksscenario’s in de praktijk voor niet-aangemelde ervaringen
 
+* **Marketing en outreach**: De organisaties kunnen hun opleidingsprogramma&#39;s aan externe doelgroepen, zoals potentiële klanten, partners, of baanaanvragers, bevorderen door cursuscatalogi en programmadetails openbaar toegankelijk te maken.
+* **Verkenning van de pre-inschrijving**: De studenten kunnen beschikbare cursussen doorbladeren, overzichten bekijken, en categorieën onderzoeken alvorens te beslissen om zich aan te melden of aan te melden, hen helpen geïnformeerde inschrijvingsbesluiten nemen.
+* **Collectieve opleidingsportals**: De bedrijven kunnen een openbaar-onder ogen ziend portaal voor naleving of onboardinginformatie verstrekken, toestaand nieuwe huurders of contractanten om te zien welke opleiding beschikbaar is alvorens zij geloofsbrieven ontvangen.
+* **Gebeurtenis of campagne landende pagina&#39;s**: De organisaties die het leren campagnes of gebeurtenissen in werking stellen kunnen specifieke openbare pagina&#39;s tot stand brengen om gespiegelde cursussen, programma&#39;s, of middelen te benadrukken, die zicht en betrokkenheid verhogen.
+* **SEO en vindbaarheid**: Door geselecteerde pagina&#39;s en catalogi openbaar te maken, verbeteren de organisaties hun zicht van het onderzoeksmotor, die mensen helpen om hun het leren online aanbieden te ontdekken.
 
+### Belangrijke concepten van niet-aangemelde ervaring
 
+Dankzij de niet-aangemelde ervaring van Experience Builder kun je leerinhoud en portalpagina’s publiekelijk presenteren, zodat bezoekers kunnen bladeren zonder zich aan te melden.
 
+* **creeer openbare pagina&#39;s en menu&#39;s**: U opstelling pagina&#39;s en één enkel menu dat iedereen, ongeacht login status kan toegang hebben.
+* **voeg slechts gesteunde widgets** toe: U omvat widgets die geen gebruikerscontext (categorieën, cursussen en leerwegen, inhoudsdoos, HTML, iframe) nodig hebben, terwijl het systeem gebruiker-specifieke widgets verbergt.
+* **vorm adaptief paginagedrag**: U besluit als een pagina voor zowel het programma geopende als niet het programma geopende gebruikers verschijnt, en het systeem past zichtbare widgets en inhoud aan die op login staat wordt gebaseerd.
+* **Voorproef beide ervaringen**: U gebruikt voorproefopties om te zien hoe de pagina&#39;s voor het programma geopende en niet het programma geopende gebruikers, met verschillen in widgetzicht en inhoud kijken.
+* **laat globaal onderzoek** toe: Bezoekers zoeken naar cursussen en inhoud, maar krijgen slechts basisonderzoekseigenschappen zonder geavanceerde integratie AI.
+* **laat bezoekers doorbladeren catalogus en cursusoverzichten**: Bezoekers onderzoeken cataloguspagina&#39;s, cursusdetails, en instanties, maar moeten login om gepersonaliseerde eigenschappen in te schrijven of toegang te hebben.
+* **pas branding en lokalisatie** aan: U plaatst favicons, en taalmontages om de branding en toegankelijkheidsbehoeften van uw organisatie aan te passen.
+* **laat de Schakelaar van de Toegang van de Gegevens van de Opleiding toe**: U activeert deze schakelaar om cursusmeta-gegevens voor openbare vertoning uit te voeren, die niet-het programma geopende pagina&#39;s bijgewerkt houden.
+* **Handvat hoog verkeer met gedeelde infrastructuur**: Het systeem beheert grote volumes van anonieme bezoekers gebruikend gedeelde middelen en tarief het beperken.
+* **optimaliseer voor SEO**: Het platform bereidt openbare pagina&#39;s voor het indexeren van de onderzoeksmotor voor, die uw het leren inhoud gemakkelijker maken te vinden.
 
+### Vereisten voor niet-aangemelde ervaring
 
+* U moet de connector voor toegang tot trainingsgegevens inschakelen in de integratiebeheerder voordat u de niet-aangemelde ervaring kunt gebruiken.
+* De connector exporteert cursusmetagegevens naar een openbare opslagplaats, zodat niet-aangemelde pagina&#39;s worden bijgewerkt.
 
+#### initialisatie van de connector Trainingsgegevenstoegang
 
-<!-- See this [article](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) for more information on Learner Transcript report.
+De TDA-connector (Training Data Access) is een essentiële voorwaarde voor het inschakelen van de nieuwe functie voor het niet-aanmelden van ervaringenbouwers in ALM. Deze connector vereenvoudigt het exporteren van trainingsmetagegevens, zodat uw portal cursusinformatie kan weergeven voor gebruikers die zich niet hebben aangemeld.
 
-The downloaded Learner Transcript report contains the new column: Mark Completed Date (UTC TimeZone).
+* **activatie van de Verbinding**: U moet de schakelaar TDA van het integratiebeheerpaneel toelaten. Met deze stap wordt de functionaliteit van de niet-aangemelde ervaringenbouwer ingeschakeld en worden relevante UI-opties zichtbaar in uw beheerinterface.
+* **de uitvoer van Meta-gegevens**: Zodra geactiveerd, voert de schakelaar essentiële opleidingsmeta-gegevens (zoals cursusnaam, beschrijving, overzicht, classificatie, duur, en vaardigheden) van ALM naar een openbare bewaarplaats uit. Deze gegevens worden gebruikt om niet-aangemelde pagina&#39;s en widgets te vullen.
+* **Plannend en synchronisatie**: Het de uitvoerproces kan (bijvoorbeeld, dagelijks) worden gepland om uw portaal te verzekeren wijst op de recentste cursusupdates. Wijzigingen in ALM worden na de volgende exportcyclus op de niet-aangemelde pagina&#39;s weergegeven, afhankelijk van caching en exportfrequentie.
+* **beschikbaarheid van de Eigenschap**: De niet-het programma geopende eigenschappen van de ervaringenbouwer, met inbegrip van menuverwezenlijking, widget steun, en cataloguszicht, zijn slechts toegankelijk nadat de schakelaar TDA wordt geïnitialiseerd. Als de connector niet is ingeschakeld, blijft uw ervaringenbouwer beperkt tot aangemelde gebruikersscenario&#39;s.
+* **Migratie en steun**: Voor rekeningen die van erfenis niet-geregistreerde homepage eigenschappen overgaan, is het initialiseren van de schakelaar TDA de eerste stap naar migratie. Zo kun je gebruikmaken van de flexibiliteit en verbeterde mogelijkheden van de nieuwe ervaringenbouwer.
 
-![Learner Transcript reports showing marked completed dates (highlighted in yellow) for course completion tracking in Adobe Learning](/help/migrated/assets/mark-completion-column.png)
-_Learner Transcript report displays a new column in yellow highlighting individual completion dates for each user_
 
-## Enhanced User Report with extended data fields
+### Wat bezoekers kunnen doen zonder zich aan te melden
 
-**Overview**
+Bezoekers kunnen op een niet-aangemelde Experience Builder-site door de trainingscatalogus bladeren door de cataloguspagina voor openbare catalogi te openen. Ze kunnen filters gebruiken zoals catalogus, product, rol, type, vaardigheden en tags, afhankelijk van de manier waarop u de site hebt geconfigureerd. Bezoekers kunnen ook naar trainingen zoeken met de algemene zoekbalk in de koptekst (indien ingeschakeld) en de zoekresultaten rechtstreeks op de cataloguspagina bekijken.
 
-The User Report now includes additional fields to improve user tracking and organizational mapping.
+Bezoekers kunnen de trainingsdetails bekijken door overzichtspagina&#39;s voor cursussen, leerpaden en certificeringen te openen. Op deze pagina&#39;s worden de belangrijkste metagegevens weergegeven, zoals de titel, beschrijving, auteur, duur, indeling, tags en vaardigheden.
 
-**What's new**
+Bovendien kunnen bezoekers statische en promotionele content verkennen. Ze kunnen tekst en rijke contentblokken lezen, banners en afbeeldingstegels weergeven en werken met ingesloten iframes zoals externe microsites, video&#39;s of gereedschappen.
 
-* Internal User ID column: Provides unique internal identifiers for smooth user tracking across different systems and API endpoints.
-* Manager Email column: Includes direct manager contact information for organizational hierarchy tracking.
+Als een bezoeker op Inschrijven klikt of de training probeert te starten, vraagt het systeem hen zich aan te melden of zich aan te melden. Na geslaagde aanmelding wordt de bezoeker omgeleid naar de juiste pagina, ongeacht of het de startpagina, een aangepaste pagina of de specifieke training betreft die hij of zij heeft geselecteerd.
 
-**Key benefits**
+### Wat niet beschikbaar is zonder aanmelden
 
-* Simplified user identification and eliminates issues when mapping users across multiple systems.
-* Supports downstream user management workflows through integration capabilities.
-* Improved organizational mapping and better understanding of reporting relationships.
-* Maintains organizational boundaries and prevents accidental cross-communication.
+Op een niet-aangemelde Experience Builder-site hebben bezoekers geen toegang tot functies of inhoud waarvoor gebruikersverificatie is vereist. Ze kunnen zich niet inschrijven voor trainingen, cursussen starten of volgen of toegang krijgen tot gepersonaliseerde widgets zoals Mijn leerervaring, Kalender, Naleving, Leaderboard of Sociaal leren. Deze widgets zijn afhankelijk van gebruikersspecifieke gegevens en zijn alleen beschikbaar nadat u zich hebt aangemeld.
 
-### User Report with the new column
+Bezoekers kunnen ook geen handelingen uitvoeren zoals het inschrijven in een cursus of het benaderen van inhoud waarvoor de voortgang of de context van de gebruiker moet worden gevolgd. Wanneer wordt geprobeerd om zich in te schrijven of een training te starten, wordt de bezoeker gevraagd zich aan te melden of zich aan te melden voordat hij verdergaat.
 
-See this [article](/help/migrated/administrators/feature-summary/reports.md#user-activity-dashboards) to learn how to download the User Report. 
+### Ondersteunde widgets in niet-aangemelde modus
 
-The downloaded User Report file contains the new columns: Internal User ID and Manager Email.
+In de niet-aangemelde modus worden alleen widgets ondersteund waarvoor geen gebruikersspecifieke gegevens nodig zijn. Deze omvatten:
 
-![User Report showing the internal user ID and manager email columns highlighted in yellow](/help/migrated/assets/user-report-columns.png) 
-_User Reports highlighting internal user IDs and manager email addresses to streamline user management_
+* Categoriewidget waarin beschikbare trainingscategorieën worden weergegeven.
+* Widget Cursussen en paden, waarin cursussen en leerpaden uit de openbare catalogus worden weergegeven.
+* Inhoudsvak, voor het toevoegen van statische tekst, afbeeldingen of promotionele inhoud.
+* HTML-widget, voor het insluiten van aangepaste HTML-inhoud.
+* iFrame-widget, voor het weergeven van externe sites, video&#39;s of gereedschappen op de pagina.
+* Widgets die gebruikerscontext vereisen, zoals Mijn leerervaring, Kalender, Naleving, Leaderboard en Sociaal leren, zijn niet beschikbaar in de niet-aangemelde modus.
 
-## FTP User Report with Internal User ID support
+### Pagina&#39;s en menu&#39;s in niet-aangemelde ervaring
 
-**Overview**
+* Er wordt slechts één niet-aangemeld menu ondersteund, dat zonder verificatie zichtbaar is voor alle bezoekers.
+* U kunt pagina&#39;s toevoegen aan zowel aangemelde als niet-aangemelde menu&#39;s. Als een pagina zich in beide menu&#39;s bevindt, worden de widgets en inhoud aangepast op basis van de aanmeldingsstatus van de gebruiker.
+* Niet-aangemelde menu&#39;s bieden geen doelgroeptargeting of personalisatie. Iedereen ziet dezelfde set pagina&#39;s.
+* Widgets die niet worden ondersteund in de niet-aangemelde modus worden automatisch verborgen. De paginalay-out wordt aangepast om tussenruimten op te vullen.
+* Menu- en paginabeheer (toevoegen, voorvertonen, verwijderen) lijkt op de aanmeldingsmodus, maar met aanpassingen voor niet-aangemelde beperkingen.
 
-The FTP-based User Report now includes Internal User ID support, providing a unified approach to data export and integration for headless implementations.
+### Gedrag van zoeken en catalogi
 
-**What's new**
+In de niet-aangemelde modus kunnen gebruikers de cataloguspagina openen en met de zoekfunctie door beschikbare cursussen en leerpaden bladeren. Op de cataloguspagina worden alle openbare cursussen weergegeven, samen met filters en zoekfunctionaliteit, waarbij dezelfde accountinstellingen worden gevolgd als in de aanmeldingsmodus. Wanneer een gebruiker zoekt, worden de resultaten op de cataloguspagina weergegeven en kunnen gebruikers de pagina&#39;s met het overzicht van de cursus en de instantie weergeven zonder zich aan te melden. Voor acties zoals inschrijving moet u zich echter aanmelden.
 
-* User Reports are now available through [Custom FTP](/help/migrated/integration-admin/feature-summary/connectors.md#custom-ftp) alongside existing reports (Gamification Transcripts, Learner Transcripts, Trainings Report).
-* The Internal User ID column is now consistent across all export methods (FTP, Jobs API, and UI).
+Als een gebruiker zich probeert in te schrijven, moet de gebruiker zich eerst aanmelden. Het zoeken naar niet-aangemelde gebruikers is eenvoudiger dan het zoeken naar aangemelde gebruikers en biedt geen geavanceerde functies zoals AI Assistant-integratie.
 
-**Key benefits**
+### Technische implementatie
 
-* Simplified data management with a single source for all necessary reports.
-* Better data consistency by ensuring uniform user identification across reporting periods.
-* Automated workflow support by enabling bulk operations and analytics workflows with consistent identifiers.
-The User Report downloaded from FTP folder contains the new column, Internal User ID.
+#### Setup connector voor toegang tot trainingsgegevens
 
-## Include suspended users in Learner Transcripts
+U moet de connector voor toegang tot trainingsgegevens inschakelen in het deelvenster voor integratiebeheer voordat u de functie voor het niet-aanmelden van de ervaringenbouwer kunt gebruiken. Deze connector exporteert trainingsmetagegevens van ALM naar een openbare opslagplaats, zodat deze toegankelijk zijn via API&#39;s voor uw niet-aangemelde pagina&#39;s. De verbindingsopstelling is een eerste vereiste voor het activeren van de eigenschap en zorgt ervoor dat uw portaal bijgewerkte trainingsinformatie toont.
 
-**Overview**
+#### Metagegevens exporteren en synchroniseren
 
-Organizations can now include suspended users (those with disabled external profiles) in Learner Transcripts, ensuring comprehensive historical learning data retention.
+De connector exporteert belangrijke metagegevensvelden zoals cursusnaam, overzicht, beschrijving, beoordeling, duur en vaardigheden. U kunt de export (bijvoorbeeld dagelijks) plannen om uw portal synchroon te houden met ALM. Mogelijk worden niet alle metagegevensvelden opgenomen. Raadpleeg de technische documentatie voor een volledige lijst. Geëxporteerde gegevens worden gebruikt om niet-aangemelde pagina&#39;s te vullen en wijzigingen in ALM worden na de volgende exportcyclus weergegeven.
 
-**What's new**
+#### Caching en exportfrequentie
 
-* Configurable suspended user visibility with an account-level flag to include suspended users in the Learner Transcripts.
-* Historical data retention even after deactivation of suspended external profiles.
+Het systeem gebruikt back-end exportfrequentie en front-end caching om gegevensupdates te beheren. Wijzigingen in ALM worden weerspiegeld in uw portal nadat de geplande export en cache zijn vernieuwd. Sommige updates worden mogelijk niet onmiddellijk weergegeven als gevolg van deze mechanismen. Als u snellere updates nodig hebt, past u het exportschema aan of wist u de cache wanneer dat nodig is.
 
-**Implementation requirements**
+#### Ondersteuning voor CSS/JS-aanpassing
 
-* Contact your Customer Success Manager (CSM) to enable the account-level flag.
+Met het tabblad Aanpassing kunt u aangepaste CSS en JavaScript toepassen op zowel aangemelde als niet-aangemelde pagina&#39;s. Zo kunt u consistente branding behouden, aangepaste UI-elementen toevoegen en de gebruikerservaring in uw portal verbeteren. Alle aanpassingen worden wereldwijd toegepast, zodat je een uniform uiterlijk hebt.
 
->[!NOTE]
->
->This flag is disabled by default for existing accounts and must be explicitly requested for new accounts.
+#### URL-verschillen en branding (favicon, paginatitel)
 
-## Scoped announcement permissions for custom administrators
+Niet-aangemelde en aangemelde pagina&#39;s kunnen verschillende URL&#39;s hebben om de gebruikersstatus te onderscheiden. U kunt het favicon en de paginatitel voor uw portal aanpassen en zo uw merkidentiteit versterken. Deze functies zijn beschikbaar in de ervaringenbouwer; raadpleeg engineering voor de nieuwste status op niet-aangemelde ondersteuning.
 
-**Overview**
+### Prestaties en schaalbaarheid
 
-Custom administrators can now create announcements, but only for their assigned user groups or catalogs. This prevents unintended communication across organizational boundaries.
+#### Gedeelde stapel versus premium stapel
 
-**What's new**
+De gedeelde stapel staat veelvoudige klanten toe om de niet-het programma geopende ervaringenbouwer op gemeenschappelijke infrastructuur te gebruiken, ondersteunend standaardverkeersniveaus. De premium stack is een betaalde optie die speciale resources, real-time functies en hogere licentielimieten biedt voor klanten met geavanceerde behoeften. Selecteer de stapel op basis van uw verwachte verkeer en bedrijfsvereisten.
 
-* Custom administrators can only create announcements for users within their assigned scope.
-* Announcements can be scoped to specific user groups or catalogs.
-* Full administrators maintain visibility and control over all announcements, including those created by scoped custom administrators.
+#### Verkeersbeperkingen en snelheidsbeperking
 
-**Key benefits**
+De gedeelde stapel dwingt verkeersbeperkingen af om een eerlijk gebruik door klanten te waarborgen. De techniek zal tarief het beperken uitvoeren om het even welke enige klant te verhinderen alle middelen te verbruiken. Als je marketingcampagnes plant of veel verkeer verwacht, kun je coördineren met technische voorzieningen om inzicht te krijgen in je beperkingen en om onderbreking van de service te voorkomen. Snelheidsbeperking helpt bij het handhaven van systeemstabiliteit en -prestaties voor alle gebruikers.
 
-* Targeted communication ensuring announcements reach only relevant audiences.
-* Reduced information overload by preventing irrelevant notifications from reaching unintended users.
-* Maintains organizational boundaries and prevents accidental cross-communication.
+#### Overwegingen met betrekking tot meervoudig gebruik en SEO
 
-**Important considerations**
+Het platform biedt ondersteuning voor meerdere huurders, zodat meerdere klanten hun portals kunnen hosten op een gedeelde infrastructuur. Niet-aangemelde pagina&#39;s zijn SEO-vriendelijk, samen met sitemap.xml en robots.txt om de zichtbaarheid van zoekprogramma&#39;s te optimaliseren. Zo zorg je dat je portal op de juiste manier kan worden ontdekt en geïndexeerd door zoekmachines.
 
-* If a custom administrator's scope changes, affected announcements display a warning icon and require individual scope resets.
-* Each announcement must be updated individually when scope changes occur.
-* The Notification Announcement report shows only learners within the custom administrator's assigned scope.
+### Migratie en veroudering
 
-**Use cases**
+#### Overgang van bestaande niet-aangemelde startpagina
 
-* Franchise organizations where regional managers need to communicate only with their franchisees.
-* Large organizations with regional or departmental administrators targeting announcements to their teams.
+Gebruik de nieuwe ervaringenbouwer om uw startpagina opnieuw te maken voor meer flexibiliteit, widgetondersteuning en een verbeterde gebruikerservaring. Het overgangsplan zorgt voor minimale verstoring en voortdurende ondersteuning.
 
-### Create announcement for the assigned scope
+#### Communicatieplan
 
-A custom administrator can create announcements limited to their assigned user groups and catalogs, ensuring messages reach the right audience and preventing unnecessary notifications.
+Klanten die de verouderde startpagina gebruiken, ontvangen duidelijke informatie over de verouderde tijdlijn en migratiestappen. Er wordt ondersteuning geboden om u te helpen uw startpagina over te brengen naar het nieuwe ervaringenbouwerplatform, zodat u kunt profiteren van nieuwe functies en doorlopende updates.
 
-To create an announcement for the assigned scope:
+### Ondersteuning voor lokalisatie en aanmelding
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Announcement]** in the left navigation pane.
-3. Select **[!UICONTROL Add]**. 
-   
-   ![](/help/migrated/assets/create-add-announcement.png)
-   _Announcements page in Adobe Learning Manager, where administrators can create and manage announcements for targeted user groups_
+#### Logica voor alternatieven voor landinstellingen
 
-4. Select the **[!UICONTROL Announcement Type]** from the dropdown menu.
-        a. **[!UICONTROL As Notification]**
-        b. **[!UICONTROL As Masthead]**
-        c. **[!UICONTROL As Recommendation]**
-        d. **[!UICONTROL As Email]**
-5. Select **[!UICONTROL As Masthead]**. 
-6. Select the language and upload an image for the masthead. 
-7. Optionally, add a URL for the action button. 
-   
-   ![](/help/migrated/assets/announcement-screen.png)
-   _Create Announcement screen allowing administrators to set announcement type, upload attachments, and add action buttons_
+Het systeem geeft de pagina&#39;s weer in de landinstelling waarin ze zijn gemaakt. Als de landinstelling van een gebruiker niet beschikbaar is, gebruikt het systeem een fallback-logica om de volgende best beschikbare landinstelling te selecteren. Zo weet u zeker dat gebruikers de inhoud altijd in een ondersteunde taal zien, wat de toegankelijkheid en de tevredenheid van de gebruiker ten goede komt.
 
-    The assigned scope is pre-selected in the **[!UICONTROL Scope]** section and cannot be modified by administrators.
-    
-    >[!NOTE]
-    >
-    >**[!UICONTROL For Notification]** and **[!UICONTROL Email]** announcements, they can include additional user groups and catalogs if these overlap with their assigned scope.
+#### Ondersteunde aanmeldingstypen
 
-8. Select **[!UICONTROL Save]**.
+De niet-aangemelde ervaring ondersteunt alle aanmeldingstypen die beschikbaar zijn in ALM, inclusief SSO en standaardaanmelding. Gebruikers kunnen door inhoud bladeren zonder zich aan te melden en worden gevraagd zich aan te melden wanneer dat nodig is, zoals zich inschrijven voor een cursus of toegang krijgen tot gepersonaliseerde functies. Dit zorgt voor een vloeiende overgang van bladeren naar betrokkenheid.
 
-Only learners within the custom administrator's scope will be able to view the announcement. See this [article](/help/migrated/administrators/feature-summary/announcements.md) to learn how to create multiple types of announcements. 
 
-### Reset the scope by Custom administrators
+### Niet-aangemelde API&#39;s
 
-Custom administrators can reset the scope of their published announcements if an administrator has changed the scope of them. Once the scope is reset, the updated scope will be applied to the announcement, and only learners within the new scope will be able to see the announcement.
+#### Admin Learning Object API
 
-To reset the scope:
+Niet-aangemelde Experience Builder-pagina&#39;s en headless portals organiseren of filteren vaak cursussen op basis van product en rol. De LO-API van de beheerder is verbeterd om ervoor te zorgen dat deze koppelingen consistent toegankelijk zijn voor back-end- en headless-integraties en voor de TDA-connector.
 
-1. Log in to Adobe Learning Manager as a custom administrator.
-2. Select **[!UICONTROL Announcement]** in the left navigation pane.
-3. Select **[!UICONTROL Published]** tab.
-4. Select any announcement and then select setting icon. 
-5. Select **[!UICONTROL Edit]**. 
+**Eindpunt en gedrag**
 
-   ![](assets/select-edit-published-announcement.png)
-   _Announcement screen showing the published announcements with edit, publish and other options_
+U kunt het bestaande LO-eindpunt van Admin blijven gebruiken:
 
-6. Select **Reset**. 
+```
+GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,roles
+```
 
-   ![](assets/reset-the-scope.png)
-   _Announcement showing a scope change notification, with an option for custom administrators to reset and update the scope selection to reflect new access permissions_
+Waar:
 
-The scope will be updated, and only users within the updated scope will be able to view the announcement.
+* loId is het leerobject-ID (bijvoorbeeld cursus :12345).
+* cedFields [ learningObject ] instrueert API om producten en rollen voor die LO uitdrukkelijk te omvatten.
 
-### Edit the announcement through administrator UI
+Dit wordt bereikt door ervoor te zorgen dat de product- en rolverenigingen van de LO aanwezig zijn in de reactie wanneer hierom wordt gevraagd via StandaardFields. Het antwoord bevat vervolgens, in kenmerken, de metagegevens van het product en de rol die nodig zijn om de aanbevolen producten (rec\_products) en rollen (rec\_rollen) voor Experience Builder en andere consumenten te berekenen of beschikbaar te maken.
 
-Administrators can view announcements created by custom administrators through their interface. They have the ability to edit these announcements only by modifying or removing the assigned scope. If scope changes are not made, administrators cannot make further edits to the announcement.
+Een typische vraag van een beheerder of een integratie kijkt als:
 
-To edit the announcement through administrator UI:
+```
+url -X GET \
+ "https://{your-domain}/primeapi/v2/learningObjects/course:12345?enforcedFields[learningObject]=products,roles" \
+ -H "Authorization: Bearer {admin\_token}" \
+ -H "Accept: application/vnd.api+json
+```
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Announcement]** in the left navigation pane.
-3. Select **[!UICONTROL Published]** tab.
-4. Select any announcement and then select setting icon.
-5. Select **[!UICONTROL Edit]**. 
+De geretourneerde LO JSON is dezelfde basisstructuur als voorheen, maar u kunt er nu op vertrouwen dat er product-/rolvelden aanwezig zijn wanneer u deze vraagt met afgedwongen velden. Integraties die geen gebruik maken van gedwongen velden, gedragen zich nog steeds zoals voorheen.
 
-   ![](assets/select-edit-published-announcement.png)
-   _Announcement screen showing the published announcements with edit, publish and other options_
+#### Lijst met leerobjecten - Taakhulpenondersteuning in filter effectiveModifiedDate
 
-6. Select **[!UICONTROL Remove]**. 
-   
-   ![](assets/remove-the-scope.png)
-   _Announcement screen indicating that scope must be removed to allow administrators to edit announcements created for scoped user groups_
+**Doel**
 
-Administrator can edit the announcement after removing the scope.
+De schakelaar van de Toegang van de Gegevens van de Opleiding (TDA) en de headless implementaties moeten vaak stijgende synchronisatie uitvoeren, die op de **efficiënte wijzigingsdatum** van het leren voorwerpen wordt gebaseerd. Tot deze release werden Taakhulpen (LO-type jobAid) niet correct verwerkt in combinatie met de filters effectiveModifiedDate. In deze release is dit gecorrigeerd, zodat taakhulpen stapsgewijs kunnen worden gesynchroniseerd als cursussen en leerpaden.
 
-## Tag users in social boards
+**Eindpunt en gedrag**
 
-**Overview**
+U gebruikt het bestaande eindpunt van de LO-lijst met datumfilters en LO-type:
 
-Social learning boards now support user tagging functionality, enabling more targeted discussions and improved collaboration within learning communities. Learners can be tagged in social learning posts and comments through the learner app, APIs, and Adobe Learning Manager reference site.
+```
+GET /primeapi/v2/learningObjects
+ ?filter.effectiveModifiedDate.fromDate=2025-03-15T13:14:56.000Z
+ &filter.effectiveModifiedDate.toDate=2025-03-20T13:14:56.000Z
+ &filter.loTypes=jobAid
+```
 
-**What's new**
+Eerder, toen filter.loTypes=jobAid met een effectiefModifiedDate waaier werd gecombineerd, sloot het filter effectief JobAids uit, en de vraag gedraagt zich alsof niet JobAids werd gesteund.
 
-* **@username tagging**: Users can tag other board members using the "@username" format.
-* **Scope-restricted tagging**: Only users with access to the specific board can be tagged, ensuring privacy and relevance.
-* **Multi-channel notifications**: Tagged users receive both in-app and email notifications with direct links to relevant posts or comments.
-
-**Key features**
-
-* Users outside the board's scope cannot be tagged, preventing unwanted notifications.
-* If a tagged user is deleted from the system, their mention appears as "anonymous".
-* Tagging user groups or "@all" is not permitted to prevent notification spam.
-
-**Use cases**
-
-* Healthcare professionals seeking input from specific colleagues on medical cases.
-* Subject matter experts being consulted on specialized topics.
-* Team discussions requiring input from specific stakeholders.
-* Knowledge sharing sessions with targeted expert involvement.
-
-### Tag users in social board posts
-
-Learners can now tag specific board members in posts or comments using @username. Tagging is limited to members with access to that board.
-
-To tag users in a social board:
-
-1. Log in to Adobe Learning Manager as a learner. 
-2. Select **[!UICONTROL Social Learning]** in the left navigation pane.
-   
-   ![](/help/migrated/assets/select-social-learning-admin.png)
-   _Enable collaborative learning by selecting Social Learning to access discussion boards, share insights, and tag users for interactive engagement_
-
-3. Select **[!UICONTROL New Post]**.
-   
-   ![](assets/select-new-post.png)
-   _Start a new discussion by selecting New Post in Social Learning to share knowledge with the tagged users_
-
-4. Before tagging users, select the board from the **[!UICONTROL Post this to a Discussion Board]** option.
-
-   ![](assets/select-boards-in-social-board.png)
-   _Select a discussion board to post and tag users, enabling targeted collaborative conversations in Social Learning_
-
-5. Type your post details, then tag a user by entering the @ symbol followed by their name (for example, @andrew). When you type @ followed by the first three letters of the user's name, it displays a list of matching users.
- 
-   ![](assets/type-a-user-tag.png)
-   _Tag users in your discussion post by typing @ followed by the username to enable targeted collaboration within Social Learning boards_
-
-6. Select the desired user from the list.
-7. Select **[!UICONTROL Post]**. 
-
-The tagged users receive both in-app and email notifications with a direct link to the post, making discussions more targeted and collaborative.
-
-### Tag users based on the board's scope
-
-Scope-restricted tagging allows users to tag only those learners who have permission to access a specific board. This helps maintain privacy by preventing tagging of users outside the scope. 
-
-If you try tagging learners who are outside the board's scope, no suggestions will appear, and you won't be able to tag them. Refer to this [article](/help/migrated/administrators/feature-summary/social-learning-configurations-as-an-admin.md) to learn more about Social Learning Scope. 
-
-## Tag deleted users in comments
-
-If a user who has been deleted is tagged in a Social Learning post, their name will show as Anonymous in the post. The comment and tag remain visible for context, but profile link or details are not shown.
-
-![](assets/deleted-users-tagged.png) 
-_Social Learning post highlighting how a deleted user appears as Anonymous when tagged_
-
-## Job Aids report with direct access links
-
-**Overview**
-
-The Job Aids report has been enhanced to include direct download links to job aids, streamlining content management and audit processes for administrators and authors.
-
-**What's new**
-
-* Job Aid Link column: Direct access to job aid files and external URLs from within the report.
-* Role-based access control: Link accessibility depends on user roles and catalog permissions.
-* Deleted job aids remain accessible if still linked to active courses.
-
-**Key benefits**
-
-* Direct file downloads and URL access from within the report.
-* Eliminates manual effort in locating and downloading job aids for compliance or accessibility audits. 
-
-**Use cases**
-
-* Authors or administrators conduct regular accessibility audits on job aids, as required by large organizations.
-* Any scenario where quick, role-based access to job aid files is needed for review or compliance.
-
-### Job Aids Report with the new column
-
-See this [article](/help/migrated/administrators/feature-summary/reports.md#job-aids-report) to learn how to download Job Aids Report.
-
-The Job Aids Report can be downloaded from the Reports section and now includes direct download links for each job aid.
-
-![](assets/job-aid-report.png) 
-_Job Aids Report displays direct download links, making it easy to access and download job aids in Adobe Learning Manager_
-
-## API updates
-
-### Learner API enhancements for quiz performance tracking
-
-**Overview**
-
-The `GET /loResourceGrades` API has been enhanced to provide detailed quiz performance data, enabling more sophisticated analytics and automated decision-making.
-
-**What's new**
-
-The API response now includes two additional fields:
-
-* **[!UICONTROL highestScore]**: The best score achieved by a learner across all quiz attempts
-* **[!UICONTROL maxScore]**: The total possible score for the quiz
-
-**API response example**
+Vanaf deze update retourneert de aanroep alleen JobAid-leerobjecten waarvan de effectiveModifiedDate binnen het opgegeven venster valt.
 
 ```
 {
-    "links": {
-        "self": "https://learningmanagerstage1.adobe.com/primeapi/v2/loResourceGrades/course:15067_30122_41715_1_3400468"
-    },
-    "data": {
-        "id": "course:15067_30122_41715_1_3400468",
-        "type": "learningObjectResourceGrade",
-        "attributes": {
-            "completed": false,
-            "duration": 0,
-            "hasPassed": false,
-            "highestScore": 0,
-            "maxScore": 0,. 
-            "progressPercent": 0,
-            "score": 0
-        },
-        "relationships": {
-            "loResource": {
-                "data": {
-                    "id": "course:15067_30122_41715_1",
-                    "type": "learningObjectResource"
-                }
-            }
-        }
-    }
+ "links": {
+ "self": "https://acapapiserver/primeapi/v2/learningObjects?page[limit]=10&filter.effectiveModifiedDate.fromDate=2026-01-19T13:14:56.000Z&filter.effectiveModifiedDate.toDate=2026-01-21T13:14:56.000Z&filter.loTypes=jobAid"
+ },
+ "data": [
+ {
+ "id": "jobAid:144968",
+ "type": "learningObject",
+ "attributes": {
+ "authorNames": ["Author"],
+ "dateCreated": "2026-01-20T08:48:55.000Z",
+ "datePublished": "2026-01-20T08:48:55.000Z",
+ "dateUpdated": "2026-01-20T08:48:55.000Z",
+ "effectiveModifiedDate": "2026-01-05T07:31:18.000Z",
+ "loType": "jobAid",
+ "loFormat": "Content",
+ "loResourceType": "Content",
+ "localizedMetadata": [
+ {
+ "description": "Link jobAid new",
+ "locale": "en-US",
+ "name": "Link jobAid new"
+ },
+ {
+ "description": "Link jobAid new fre",
+ "locale": "fr-FR",
+ "name": "Link jobAid new fre"
+ }
+ ],
+ "relationships": {
+ "authors": {
+ "data": [
+ { "id": "13385176", "type": "user" }
+ ]
+ },
+ "instances": {
+ "data": [
+ { "id": "jobAid:144891\_-1", "type": "learningObjectInstance" }
+ ]
+ }
+ }
+ }
+ }
+ ]
 }
 ```
 
-In response, **course:15067_30122_41715_1_3400468** is the ID of the Learning Object resource grade for which the information is being requested. The `learningObjectResourceGrad`e id can be obtained from the `GET /enrollments/{id}` API.  
+Dit betekent dat u nu veilig incrementele JobAid-synchronisaties kunt implementeren op basis van effectiveModifiedDate, op dezelfde manier als u dat al doet voor andere typen.
 
-**Key benefits**
+Als u filter.loTypes=jobAid weglaat, is het gedrag voor andere types LO onveranderd; de verandering beïnvloedt slechts de combinatie van JobAid met dat filter.
 
-* Enables detailed quiz performance analysis for learning effectiveness measurement.
-* Supports progression rules based on highest achievement rather than most recent attempts.
-* Provides complete picture of learner quiz performance over time.
+#### **Menu API: Niet-het programma geopend menusilter**
 
-**How the API works**
+**Doel**
 
-1. A user attempts a quiz multiple times; each attempt is recorded.
-2. The API provides both the highest score achieved and the maximum possible score for the quiz.
-3. External systems can use this data to trigger automated actions, such as enrolling users in new courses based on their best performance.
+De Bouwer van de ervaring en de headless frontends hebben een ongecompliceerde manier nodig om **niet-het programma geopend menu** terug te winnen, dat navigatie voor openbare bezoekers bepaalt. Voor deze release moest u alle menu&#39;s ophalen en vervolgens aangepaste logica toepassen om te bepalen welke van de niet-aangemelde navigatie de naam heeft. Deze versie voegt een eenvoudig serverfilter toe.
 
-**Use cases**
+**Eindpunt en gedrag**
 
-* Headless learning systems require automated enrollment decisions.
-* Learning analytics platforms tracking learner achievement patterns.
-* Compliance systems with performance-based progression requirements.
-
-### Migration API enhancements
-
-**Overview**
-Adobe Learning Manager now supports the migration of various data objects into an account via the migration process. This process can be initiated via both APIs and the User Interface. When a migration fails, errors are available for download via the interface. These errors are useful in debugging migration errors and managing the migration runs. 
-
-With this release, the error logs will also be available to download via the APIs for efficient, programmatic error tracking and debugging.
-
-**API changes**
-
-There is a new migration API, `runStatus`, which allows integration administrators to check the status of migration runs triggered via the API, something not possible in previous versions of Adobe Learning Manager. 
-
-Additionally, `runStatus` API now provides a direct link to download error logs (CSV) for completed runs. Note that the link is valid for seven days only, and the logs are retained for one month.
-
-The `startRun` API's response has been updated to include the migration project ID, sprint ID, and sprint run ID, which are required to query the new status endpoint. 
-
-#### runStatus API
-
-**Description**
-
-Retrieves the status of an existing migration run.
-
-**Endpoint**
+U gebruikt het bestaande eindpunt van de menulijst met een nieuwe queryparameter:
 
 ```
-GET /bulkimport/runStatus
+GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true
 ```
 
-**Parameters**
+De belangrijkste punten:
 
-* **migrationProjectId**: (Required). A unique identifier for a migration project. A migration project is used to transfer data and content from an existing Learning Management System (LMS) to Adobe Learning Manager. Each migration project can consist of multiple sprints, which are smaller units of migration tasks.
+* include=pages,subMenus.pages is optioneel maar wordt aanbevolen wanneer u de pagina- en submenu-paginagegevens in hetzelfde antwoord nodig hebt.
+* isNonLoggedIn=true is nieuw in deze release en geeft de server de opdracht alleen menu&#39;s te retourneren die zijn gemarkeerd als niet-aangemelde menu&#39;s.
 
-* **sprintId**: (Required). A unique identifier for a sprint within a migration project. A sprint is a subset of migration tasks that includes specific learning items (e.g., courses, modules, learner records) to be migrated from an existing LMS to Adobe Learning Manager. Each sprint can be executed independently, allowing for phased migration.
+Zonder de parameter isNonLoggedIn gedraagt het eindpunt zich precies zoals voorheen en retourneert het menu&#39;s volgens het bestaande standaardgedrag. Met isNonLoggedIn=true, keert het typisch het enige menu terug dat door de niet-het programma geopende ervaring voor uw rekening wordt gebruikt (aangezien er normaal één niet-het programma geopend menu per rekening is).
 
-* **sprintRunId**: (Required). A unique identifier used to track the execution of a specific sprint within a migration project. It's associated with the actual migration process for the items defined in a sprint. The sprintRunId helps in monitoring, troubleshooting, and managing the migration job.
-
-**Response**
-
-```
-{
-  "sprintId": 2510080,
-  "sprintRunId": 2740845,
-  "migrationProjectId": 2509173,
-  "startTime": 1746524711052,
-  "endTime": 1746524711052,
-  [
-    {
-      "id": 2609923,
-      "lastHeartbeatTime": 1746524711052,
-      "objectName": "content",
-      "jobState": "COMPLETED",
-      "errorCsvLink": "",
-      "errorLogLink": "migration/5830/2509173/2510080/2740845/content_err.csv",
-      "sequenceNumber": 1
-    },
-    {
-      "id": 2609922,
-      "lastHeartbeatTime": 1746524713577,
-      "objectName": "course",
-      "jobState": "WAITING_IN_QUEUE",
-      "errorCsvLink": "",
-      "errorLogLink": null,
-      "sequenceNumber": 2
-    }
-  ]
-}
-```
-
-#### startRun API
-
-The `startRun` API response was updated to include three additional fields- migrationProjectId, sprintId, and sprintRunId. These fields allow users to track and query the status of specific migration runs using the new runStatus API.
+In de praktijk kan een klant nu de volgende uitgaven doen:
 
 ```
-curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/primeapi/v2/bulkimport/runStatus?migrationProjectId=001&sprintId=10001&sprintRunId=7'
+curl -X GET \
+ "https://{your-domain}/primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true" \
+ -H "Authorization: Bearer {admin\_token}" \
+ -H "Accept: application/vnd.api+json"
 ```
 
-Produces the following response. The response contains:
+en krijg de niet-aangemelde navigatiestructuur terug in één aanroep, met alle pagina&#39;s die zichtbaar moeten zijn voor anonieme bezoekers.
 
-* migrationId
-* sprintId
-* sprintRunId
+Dit is met name handig wanneer u een headless niet-aangemelde site maakt en dezelfde navigatie wilt spiegelen die door Experience Builder wordt gebruikt, of wanneer u fouten opspoort in het niet-aangemelde menu dat correct is geconfigureerd.
 
-**Response**
+### Lijst met aangepaste domeinen toestaan
 
-```
-{
-  "status": "OK",
-  "title": "BULKIMPORT_RUN_INITIATED_SUCCESSFULLY",
-  "source": {
-    "info": "Success",
-    "migrationInfo": {
-      "migrationProjectId": "001",
-      "sprintId": "10001",
-      "sprintRunId": "7"
-    }
-  }
-}
-```
+De niet-aangemelde stapel bestaat uit:
 
-### Social API changes (user tag, comments, and replies)
+* Een openbaar CDN-domein (bijvoorbeeld cpcontents.adobe.com of yourdomain.example.com) dat lay-outs, config JSON en statische elementen bevat.
+* Een openbaar Elasticsearch (ES) eindpunt dat catalogus en onderzoeksgegevens dient, maar slechts als het verzoek uit een **toe:staan-vermeld domein** voor die rekening ALM komt.
 
-**Overview**
+Wanneer u een aangepast domein introduceert, werkt het naadloos zonder extra inspanning na het bestaande proces om een douanedomein toe te voegen.
 
-Adobe Learning Manager now supports @user tagging functionality in Social Learning boards, enabling learners to mention and notify peers within posts, comments, and replies. This feature enhances collaboration and content discovery across the platform.
+#### Vereisten
 
-This release introduces new API capabilities to support user mentions, including enhanced POST and GET endpoints, as well as a new search functionality for tagged users.
+Voordat u een aangepast domein op de whitelist plaatst voor een niet-aangemelde toepassing:
 
-**API changes overview**
+1. Het aangepaste domein wordt geconfigureerd voor uw ALM-account (bijvoorbeeld DNS voor academy.yourcompany.com punten naar Adobe/Akamai en certificaten worden ingericht).
+2. De **schakelaar van de Toegang van de Gegevens van de Opleiding (TDA)** wordt toegelaten voor de rekening.
+3. De **niet-het programma geopende eigenschap van de Bouwer van de Ervaring** wordt toegelaten (Adobe-kant).
 
-* Updated POST APIs for creating posts/comments/replies with user mentions
-* Updated GET APIs with user mention data in responses
+Deze stappen zorgen ervoor dat:
 
-**Format of user mentions**
+* Uw rekening heeft een niet-het programma geopend **rekening JSON** (die vaak als accountConfig/experienceBuilderConfig) wordt van verwijzingen voorzien, die gebieden zoals cpDomain, almDomain, almCdnBaseUrl, esBaseUrl, en toe:staan-vermeld domeinen omvat.
+* De niet-aangemelde stapel weet waar gegevens moeten worden aangeboden en van welke domeinen de stapel aanvragen moet accepteren.
 
-A user is mentioned using the format: @(user:userId)
+#### Hoe het toestaan van lijsten werkt
 
-#### Create post with mentions
+De allow-list wordt opgeslagen in de configuratie die de uitvoer TDA en de niet-het programma geopende stapel leest. Deze configuratie omvat:
 
-**Endpoint**
+* De ALM-domeinen (cpDomain, almDomain).
+* De **CDN basis URL** voor niet-het programma geopende inhoud (almCdnBaseUrl).
+* De **openbare onderzoeksbasis URL** (esBaseUrl).
+* De lijst met domeinen die openbare niet-aangemelde aanroepen voor dat account mogen maken.
 
-```
-POST /primeapi/v2/posts
-```
+Als u wilt dat niet-aangemelde Experience Builder werkt aan een aangepast domein:
 
-**Description**
+* De browser moet de niet-aangemelde HTML uit dat aangepaste domein laden (of uit het niet-aangemelde ALM-CDN-domein, afhankelijk van uw instelling).
+* Oproepen van dat domein aan het openbare ES en eindpunten CDN moeten worden goedgekeurd. Dat gebeurt alleen als het domein voorkomt in de lijst allow-list.
 
-Create a new social learning post with user mentions.
+Deze versie voegt een nieuw niet-geregistreerd-in CDN domein, cpcontents.adobe.com toe, en specificeert dat het in de **toe:staan-lijst domeinen** in de schakelaar TDA moet worden geplaatst. Voor bestaande niet-aangemelde native gebruikers is een update vereist.
 
-**Request body**
+#### Een aangepast domein toestaan
 
-```
-{
-  "data": {
-    "type": "post",
-    "attributes": {
-      "boardId": 13282,
-      "accountId": 11152,
-      "text": "<p>This is a new post mentioning @[user:11257229]</p>",
-      "createdByUserId": 11257228,
-      "postType": "discussion"
-    },
-    "id": null
-  }
-}
-```
+**vorm het douanedomein in ALM**
 
-**Response**
+Werk met Adobe om uw domein te registreren, bijvoorbeeld academy.yourcompany.com, als het aangepaste domein voor uw ALM-account. U werkt DNS bij om aan Adobe Akamai te wijzen zoals geïnstrueerd en op SSL en het verpletteren te wachten om te voltooien.
 
-Standard post creation response with mention data included in the _userMentions_ relationship.
+Op dit punt, zowel kan het het programma geopende als niet-het programma geopende verkeer ALM door dat domein bereiken, maar het niet-het programma geopende onderzoek en catalogusvraag kunnen nog worden geblokkeerd als het domein niet toe:staan-vermeld is.
 
-#### Create comment with mentions
+**laat TDA en niet-het programma geopende Bouwer van de Ervaring toe**
 
-**Endpoint**
+Zorg ervoor dat:
 
-```
-POST /primeapi/v2/comments
-```
+* De **schakelaar van de Toegang van de Gegevens van de Opleiding** wordt toegelaten.
+* De **niet-het programma geopende eigenschap van de Bouwer van de Ervaring** wordt aangezet voor de rekening.
 
-**Description** 
+Als u TDA inschakelt, wordt het niet-aangemelde JSON-account gemaakt of bijgewerkt. Voor nieuwe rekeningen, staat het proces ook toe-maakt een lijst van het nieuwe niet-het programma geopende CDN domein (cpcontent.adobe.com) door gebrek, zodat verwacht het openbare ES eindpunt vraag van dat domein.
 
-Add a comment to a post with user mentions.
+Voor accounts die al gebruikmaken van de oudere, niet-aangemelde stapel, moeten bestaande connectoren worden verwijderd en opnieuw worden gemaakt om het nieuwe domein op te halen.
 
-**Request body**
+**voeg het douanedomein aan toe toestaan-lijst**
 
-```
-{
-  "data": {
-    "type": "comment",
-    "attributes": {
-      "postId": 20746,
-      "accountId": 11152,
-      "text": "<p>Test Comment @[user:11257229]</p>",
-      "createdByUserId": 11257228,
-      "commentLevel": 0
-    },
-    "id": null
-  }
-}
-```
+Het kritieke deel is het vertellen van de niet-het programma geopende stapel ES dat academy.yourcompany.com een goedgekeurde oorsprong is. Er zijn twee algemene paden.
 
-#### Create reply with mentions
+1. **re-laat de schakelaar TDA (eenvoudig, zelf-dienstvriendelijk)** toe
 
-**Endpoint**
+Bestaande native niet-aangemelde gebruikers moeten de TDA-verbinding verwijderen en opnieuw inschakelen, zodat het nieuwe domein automatisch wordt weergegeven op de lijst met toegestane items. Hiervoor zijn twee dingen mogelijk:
 
-```
-POST /primeapi/v2/replies
-```
+1. Het niet-aangemelde account JSON wordt opnieuw gegenereerd.
+2. De domeinen die op de lijst staan, worden bijgewerkt met het nieuwe CDN-domein zonder aanmelding en uw aangepaste domein.
 
-**Description**
+Dit wordt aanbevolen als u een klein aantal accounts hebt en tijdelijk de connector uitschakelt en weer inschakelt.
 
-Reply to a comment with user mentions.
+1. **Verifieer dat het domein eigenlijk toe:staan-vermeld** is
 
-**Request body**
+Na het toestaan-lijst, open uw niet-geregistreerde plaats op het douanedomein en inspecteer de vraag van het browser netwerk.
+
+U wilt zien:
+
+* Verzoeken om almCdnBaseUrl (bijvoorbeeld <https://cpcontent.adobe.com/>...) succesvol met 200/304.
+* Verzoeken om esBaseUrl (openbare zoek-API, bijvoorbeeld <https://primeapps.adobe.com/almsearch/api/v1/>..) JSON met zoek-/catalogusgegevens weer te geven.
+
+Als deze aanroepen 4xx-fouten of expliciete fouten retourneren die &#39;niet-vertrouwd domein&#39; of &#39;oorsprong niet toegestaan&#39; suggereren, is de allow-list onvolledig of onjuist geconfigureerd en moet de ondersteuning deze aanpassen.
+
+De niet-aangemelde LLD merkt ook op dat de accountconfiguratie een verwachte domeinwaarde kan bevatten. Tijdens runtime controleert de site of het domein in de URL overeenkomt met wat in de configuratie is ingesteld. Als dit niet het geval is, kan de gebruiker worden omgeleid naar een foutpagina. Dit beschermt tegen toegang tot de configuratie van een klant via het domein van een andere klant.
+
+### Aanbevelingen gebruiken in de niet-aangemelde Experience Builder
+
+Met de niet-aangemelde Experience Builder kunt u openbare leerpagina&#39;s maken waar bezoekers door uw catalogus kunnen bladeren en gemarkeerde inhoud kunnen zien voordat ze zich aanmelden. Hoewel deze bezoekers anoniem zijn, kunt u aanbevolen trainingen toch presenteren met behulp van metagegevens en widgets.
+
+In de aangemelde Learner-app kunnen aanbevelingen worden gepersonaliseerd: deze kunnen afhankelijk zijn van het profiel, de geschiedenis, de vaardigheden en de voortgang van de student. In de **niet-het programma geopend** ervaring, is er nog geen studentidentiteit, zodat kan het platform niet personaliseren per gebruiker.
+
+Recommendations in niet-aangemelde modus is daarom:
+
+* **gekromde of op regel-gebaseerd**: gebaseerd op catalogus, product, rol, etiketten, markeringen, en andere meta-gegevens.
+* **segment-georiënteerd**: &quot;geadviseerd voor ontwikkelaars&quot;, &quot;geadviseerd voor partners&quot;, &quot;gefeatureerd voor beginners&quot;.
+* **marketing-geconcentreerd**: gebruikt om bezoekers aan te trekken en te leiden om in te schrijven zodra zij login.
+
+### Metagegevens en API&#39;s die aanbevelingen ondersteunen
+
+Achter de schermen gebruiken niet-aangemelde pagina&#39;s:
+
+* De **schakelaar TDA** om het leren objecten meta-gegevens (cursussen, wegen, certificeringen, taakhulpen) naar een openbare onderzoeksindex uit te voeren.
+* De **openbare onderzoeksstapel** om vragen van niet-het programma geopende widgets (catalogus, onderzoek, Cursussen en wegen, Categorieën) te beantwoorden.
+* De **Admin die Objecten API** leren om product en rolmeta-gegevens bloot te stellen die voor aanbevelingsregels kunnen worden gebruikt.
+
+In deze release is de LO-API van de beheerder uitgebreid, zodat de product- en rolkoppelingen betrouwbaar beschikbaar zijn:
 
 ```
-{
-  "data": {
-    "type": "reply",
-    "attributes": {
-      "postId": 20746,
-      "accountId": 11152,
-      "text": "<p>Thanks for the update @[user:11257229]</p>",
-      "createdByUserId": 11257228,
-      "commentLevel": 1,
-      "parentCommentId": 55621
-    },
-    "id": null
-  }
-}
+GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,roles
 ```
 
-#### Retrieve posts with mentions
+Hierdoor kunnen widgets en headless integraties op regels gebaseerde aanbevelingen consistent samenstellen met producten, rollen, cataloguslabels, tags en andere velden.
 
-**Endpoint**
+### Aanbevelingssecties ontwerpen met Experience Builder-widgets
 
-```
-GET /primeapi/v2/posts/{id}
-```
+U creeert aanbevelingssecties op niet-het programma geopende pagina&#39;s door **widgets van de Bouwer van de Ervaring** met meta-gegevensfilters te combineren.
 
-**Description**
+#### **Cursussen en Widget van Wegen**
 
-Retrieve post details, including mentioned users.
+Gebruik de **Cursussen en Wegen** widget wanneer u een rij of een net van geadviseerde punten wilt tonen. In zijn configuratie kunt u kiezen:
 
-**Response**
+* Welke catalogi moeten worden opgehaald.
+* Welke cataloguslabels, producten, rollen of tags als filters moeten worden gebruikt.
+* Of je cursussen, paden, certificeringen, taakhulpen of een mix wilt weergeven.
+* Sorteren en maximumaantal items.
 
-```
-{
-  "links": {
-    "self": "https://learningmanager.adobe.com/primeapi/v2/posts/7522"
-  },
-  "data": {
-    "id": "7522",
-    "type": "post",
-    "attributes": {
-      "commentCount": 3,
-      "dateCreated": "2025-06-10T11:33:29.000Z",
-      "dateUpdated": "2025-06-25T14:52:04.000Z",
-      "downVote": 0,
-      "postingType": "DEFAULT",
-      "richText": "<p>my updated fourth post @[user:14707776] second mention my first post</p>",
-      "state": "ACTIVE",
-      "text": "my updated fourth post @[user:14707776] second mention my first post",
-      "upVote": 0,
-      "viewsCount": 0
-    },
-    "relationships": {
-      "createdBy": {
-        "data": {
-          "id": "14707776",
-          "type": "user"
-        }
-      },
-      "parent": {
-        "data": {
-          "id": "3971",
-          "type": "board"
-        }
-      },
-      "userMentions": {
-        "data": [
-          {
-            "id": "14707776",
-            "type": "user"
-          }
-        ]
-      }
-    }
-  },
-  "included": [
-    {
-      "id": "14707776",
-      "type": "user",
-      "attributes": {
-        "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg",
-        "binUserId": "45664b87-75a3-43ec-b0b7-5064958eac6f",
-        "email": "user@example.com",
-        "enrollOnClick": false,
-        "fields": {
-          "Location": "BLR"
-        },
-        "gamificationEnabled": true,
-        "lastLoginDate": "2025-06-27T11:21:17.000Z",
-        "name": "John Doe",
-        "pointsEarned": 1690,
-        "pointsRedeemed": 0,
-        "preferredResolution": "AUTO",
-        "profile": "admin",
-        "roles": [
-          "Learner",
-          "Admin",
-          "Author",
-          "Instructor",
-          "Integration Admin",
-          "Manager"
-        ],
-        "state": "ACTIVE",
-        "userType": "Internal"
-      },
-      "relationships": {
-        "account": {
-          "data": {
-            "id": "9238",
-            "type": "account"
-          }
-        }
-      }
-    }
-  ]
-}
-```
+U kunt bijvoorbeeld het volgende maken:
 
-### Social API changes (user search)
+* &quot;Aanbevolen voor ontwikkelaars&quot;: filteren op een product of rol die u gebruikt voor inhoud voor ontwikkelaars.
+* &quot;Begin hier&quot;: filter op een label zoals &quot;Starter&quot; of &quot;Onboarding&quot;.
+* &quot;Aanbevolen in dit kwartaal&quot;: filter op een gebonden label zoals aanbevolen-q3-2026.
 
-**Endpoint**
+De widget leert niet van gedrag, maar toont alles wat overeenkomt met de metagegevensregels die u definieert. Vanuit het oogpunt van de bezoeker lijkt het echter op een aanbevelingsstrook.
+
+#### **widget van Categorieën**
+
+Gebruik de **Categorieën** widget om bezoekers te helpen in &quot;geadviseerde&quot;reeksen inhoud navigeren, zelfs als zij uw productnamen niet kennen.
+
+U kunt tegels configureren die elk een segment vertegenwoordigen, zoals:
+
+* &quot;Voor beheerders&quot;
+* &quot;Voor verkoopteams&quot;
+* &quot;Voor partners&quot;
+* &quot;Op productlijn&quot;
+
+Elke tegel kan worden gekoppeld aan:
+
+* Een gefilterde cataloguspagina (bijvoorbeeld de catalogus die is gefilterd op bepaalde producten of labels).
+* Een speciale, niet-aangemelde pagina die vooraf geconfigureerde cursussen en paden voor dat segment gebruikt.
+
+Zo beschik je over een ‘aanbevolen paden per segment’-ervaring zonder personalisatie.
+
+### Op segmenten gebaseerde aanbevelingen maken
+
+Omdat de niet-geregistreerde bezoekers geen profiel ALM nog hebben, is het nuttig om aanbevelingen **door segment** te ontwerpen en bezoekers te laten zelf-selecteren.
+
+1. Gebruik a **niet-het programma geopende homepage** die kort verklaart wie uw academie voor is en een klein aantal punten van de segmentingang toont (bijvoorbeeld, &quot;Ontwikkelaars&quot;, &quot;Marketeers&quot;, &quot;Partners&quot;, &quot;Nieuwe werknemers&quot;). U kunt dit doen met een widget Categorieën of een eenvoudig vak Inhoud of een sectie HTML met knoppen.
+2. Voor elk segment, creeer a **gewijde niet-het programma geopende pagina** in de Bouwer van de Ervaring. Op die pagina gebruikt u een of meer widgets Cursussen en paden die zijn geconfigureerd met filters die aangeven wat &quot;aanbevolen&quot; is voor die groep. Voor &quot;Ontwikkelaars&quot; kunt u bijvoorbeeld filteren op:
+   1. Catalogus = &quot;Openbare training&quot;
+   2. Product = &quot;Adobe Experience Manager&quot;
+   3. Tags = &quot;Basisbegrippen voor ontwikkelaars&quot;
+3. Gebruik die segmentpagina&#39;s als het doel van uw marketingcampagnes en als het doel van de tegels op de niet-aangemelde introductiepagina.
+
+Bezoekers zien dat ze aanbevelingen zien die zijn toegesneden op hun situatie, ook al is de logica in de ontwerpfase vastgelegd via metagegevens.
+
+### Overstappen van niet-aangemelde naar gepersonaliseerde aanbevelingen
+
+Niet-het programma geopende aanbevelingen zijn hoofdzakelijk over **vindbaarheid** en **omzetting**. Wanneer bezoekers besluiten zich in te schrijven of te beginnen met de training, zullen ze zich aanmelden en volledige studenten met een profiel en geschiedenis worden.
+
+De gebruikelijke stroom is:
+
+1. Een bezoeker ontdekt inhoud door uw niet-het programma geopende aanbevelingssecties (huisaanbevelingen, segmentlandingspagina&#39;s, aanbevolen rijen).
+2. Ze klikken in een cursus- of padoverzicht en kiezen ervoor in te schrijven of te starten.
+3. ALM vraagt hen zich aan te melden of zich aan te melden.
+4. Nadat ze zich hebben aangemeld, neemt de standaard aangemelde leerervaring de overhand, waaronder:
+   1. &quot;Mijn leerervaring&quot;
+   2. Inlogcatalogus met persoonlijke voortgang
+   3. Alle interne aanbevelingssystemen die u voor bestaande studenten gebruikt.
+
+Met andere woorden, de aangemelde aanbevelingen helpen hen te beslissen wat ze moeten doen en doorgaan.
+
+### Hoe taakhulpen kunnen worden gebruikt in de nieuwe, niet-aangemelde Experience Builder
+
+Op het **Gebruikersinterface**, nemen de baanhulpmiddelen aan niet-geregistreerde ervaringen hoofdzakelijk door widgets deel die het leren voorwerpen kunnen tonen:
+
+1. **Cursussen en wegen widget**
+Deze widget kan meerdere LO-typen weergeven, inclusief taakhulpen. Op niet-aangemelde pagina&#39;s kunt u het volgende configureren:
+   1. Voeg taakhulpen expliciet toe of sluit deze uit.
+   2. Filter taakhulpen op catalogus, product, rol, labels, tags en andere metagegevens.
+   3. Presenteer ze naast cursussen en paden of als een aparte &#39;Bronnen&#39;-strook.
+
+Zo kunt u bijvoorbeeld op een openbare landingspagina een strook met de naam &quot;Nuttige bronnen&quot; configureren die alleen taakhulpen weergeeft, en een andere strook met de naam &quot;Aanbevolen cursussen&quot; die cursussen en paden weergeeft.
+
+1. **pagina van de Catalogus en onderzoek**
+De niet-het programma geopende **catalogus** en **onderzoek** oppervlakten gebruiken de openbare onderzoeksindex (die door de schakelaar van de Toegang van de Gegevens van de Opleiding wordt gevoed). Die index ondersteunt nu taakhulpen correct, dus:
+   1. Niet-aangemelde zoekresultaten kunnen taakhulpen bevatten.
+   2. Filters voor niet-aangemelde catalogus (op type, product, tags, enz.) U kunt taakhulpen opnemen zolang de accountconfiguratie en widgets zo zijn ingesteld dat ze worden weergegeven.
+2. **LO overzichtspagina&#39;s**
+Wanneer een bezoeker een taakhulp van om het even welke widget of van de catalogus klikt, gaan zij naar een **LO overzichtspagina** voor die baanhulp op niet-het programma geopende wijze. Daar kunnen ze de beschrijving en metagegevens lezen. Voor het downloaden of gebruiken van een taak is doorgaans nog steeds aanmeldingsnaam vereist, maar de aanwezigheid en vindbaarheid van de taakhulp zelf worden afgehandeld door de niet-aangemelde ervaring.
+
+### Hoe taakhulpen worden weergegeven via niet-aangemelde API&#39;s
+
+Op de **API kant**, worden de taakhulpen gesteund door:
+
+1. De **schakelaar van de Toegang van de Gegevens van de Opleiding en openbaar onderzoek**
+TDA exporteert metagegevens voor taakhulp samen met andere LO-typen naar de openbare zoekindex die niet-aangemelde zoekopdrachten en catalogusquery&#39;s levert. Hierop vertrouwen Experience Builder en headless frontends.
+2. De **het Leren Objecten die met effectiveModifiedDate**
+In deze versie is het eindpunt van de LO-lijst gecorrigeerd zodat taakhulpen correct werken met het filter effectiveModifiedDate. U kunt nu bellen:
 
 ```
-GET /primeapi/v2/users/search?q={searchTerm}&context=tagging
+GET /primeapi/v2/learningObjects
+ ?filter.effectiveModifiedDate.fromDate=2026-01-19T13:14:56.000Z
+ &filter.effectiveModifiedDate.toDate=2026-01-21T13:14:56.000Z
+ &filter.loTypes=jobAid
 ```
 
-**Description**
+Vóór deze wijziging retourneert het combineren van effectiveModifiedDate met loTypes=jobAid geen betrouwbare taakhulpen. Dat betekent:
 
-Search for users available for tagging based on social scope settings.
+1. Uw banen TDA of ETL kunnen **banen taakhulpen** voor niet-geregistreerde ervaringen incrementeel synchroniseren, de zelfde manier zij voor cursussen en wegen doen.
+2. Elke headless implementatie die een openbare taakhulpenmap maakt, kan wijzigingen opvragen op basis van effectiveModifiedDate en loType=jobAid.
 
-**Request parameters**
+**Nota**:
 
+In de status Niet aangemeld:
 
-* q (required): Search term (minimum 3 characters).
-* context: Set to "tagging" to get users eligible for mentions.
-* boardId (optional): Board ID to filter users based on access permissions.
+* De hulpmiddelen van de baan zijn hoofdzakelijk **vindbaar**: de bezoekers kunnen zien dat zij bestaan, beschrijvingen lezen, en begrijpen hoe zij onderwerpen of cursussen steunen.
+* De daadwerkelijke **consumptie** (het downloaden van of het openen van de inhoud van de taakhulp) vereist typisch nog login, vooral als de taakhulpen als deel van vergunning of interne inhoud worden beschouwd.
 
-**Response**
+### Wijzigingen in korte beschrijving in LO-zoekopdracht (niet-aangemeld)
 
-```
-{
-  "data": [
-    {
-      "id": "11257229",
-      "type": "user",
-      "attributes": {
-        "name": "Jane Smith",
-        "email": "jane.smith@example.com",
-        "avatarUrl": "https://cpcontents.adobe.com/public/images/default_user_avatar.svg",
-        "userType": "Internal",
-        "state": "ACTIVE"
-      }
-    }
-  ]
-}
-```
+In de niet-aangemelde stapel worden het zoeken naar en het weergeven van leerobjecten (LO&#39;s) aangestuurd door de TDA-connector (Training Data Access) en een openbare Elasticsearch-index. In het verleden werd in deze stapel één overzicht/beschrijvingsveld gebruikt voor elke LO. Klanten die headless niet-aangemelde portals bouwen, wilden dezelfde korte beschrijving op LO-tegels laten zien als de aangemelde interface voor studenten, in plaats van alleen het lange overzicht.
 
-### Implementation guidelines
+De verandering introduceert steun voor de LO **korte beschrijving** in niet-het programma geopende onderzoek en het van een lijst maken APIs:
 
-#### Character limits
+* Voor **cursussen**, zijn de bestaande semantiek UI:
+* Op inlogkaarten wordt een korte beschrijving (veld van 140 tekens) weergegeven, als deze aanwezig is. Als dit niet het geval is, worden de kaarten teruggezet naar het lange gedetailleerde overzicht.
+* Voor **het leren wegen**, gebruikt het het programma geopende UI het gebied van Voordelen als korte beschrijving, als bepaald, en valt terug naar het overzicht anders.
+* Voor **certificatie**, wordt een korte Beschrijving gebruikt, met een langer overzicht van de Certificatie als reserve.
+* Voor **taakhulpen**, wordt het belangrijkste beschrijvingsgebied gebruikt.
 
-* Posts: 4000-character limit applies, with each tagged user reducing available characters by a fixed amount.
-* Comments: 1000-character limit.
+### Andere wijzigingen
 
-#### Mention validation
+#### Beperking dat geen twee accounts hetzelfde aangepaste domein kunnen delen
 
-* Users can only be tagged by username or email (not UUID).
-* Internal users cannot tag external users and vice versa.
-* Tagging availability follows existing social scope settings.
-* Board permissions determine tagging eligibility (Public/Private).
+In de niet-het programma geopende en het programma geopende architectuur van Adobe Learning Manager, wordt het a **douanedomein** (bijvoorbeeld, academy.example.com) behandeld als globaal unieke sleutel die aan precies één rekening moet in kaart brengen ALM, zodat dwingt het platform een harde beperking dat **geen twee rekeningen het zelfde douanedomein** kunnen delen. Dit is vereist voor veiligheid, het verpletteren, en SEO: de verpletterende laag en niet-het programma geopende stapel gebruiken het domein om de correcte rekeningsconfiguratie (met inbegrip van zijn niet-het programma geopende rekening JSON, de menu&#39;s van de Bouwer van de Ervaring, het branding, en TDA/het onderzoek eindpunten) op te zoeken,
 
-#### Notifications
+Als hetzelfde aangepaste domein op twee accounts wordt toegestaan, is het onmogelijk te garanderen welke accountgegevens worden geretourneerd. Dit kan leiden tot lekkage tussen verschillende tenant-objecten en tot beschadiging van gegenereerde artefacten zoals sitemap.xml en robots.txt die per account worden gemaakt, maar worden ontdekt door zoekmachines per host. Operationeel gezien betekent dit dat wanneer u een aangepast domein toewijst of verplaatst, u er eerst voor moet zorgen dat het niet aan een ander account is gekoppeld (of dat u de registratie daar ongedaan maakt), en dat de interne gereedschappen van de Adobe pogingen om hetzelfde domein aan meerdere accounts te binden, zullen afwijzen.
 
-* Multiple mentions of the same user in one post result in a single notification.
-* Original post owner receives notifications only when specifically tagged.
+#### Het in cache plaatsen van bronnen in de niet-aangemelde ervaring
 
-#### Error handling
+In de niet-gelogde ervaring van Adobe Learning Manager is het in cache plaatsen van bronnen in de browser een kernonderdeel van de strategie voor prestaties en schaal, omdat openbare pagina&#39;s grote, soms scherpe marketingberichten met een lage latentie en een minimale belasting van de oorsprong moeten verwerken. Statische en semi-statische elementen, zoals de niet-aangemelde HTML shell (bijvoorbeeld index.html/guest.html), configuratie op accountniveau JSON (account.json of config.json), Experience Builder-paginalay-out JSON (menu&#39;s, widgetlay-outs, kaartinstellingen), CSS, JS, afbeeldingen en favicons worden aangeboden in een Akamai CDN (cpcontents.adobe.com / cpcontent.adobe.com) met cachekopteksten die beide CDN stimuleren hergebruik aan de zijkant en aan de browser, zodat de browser na het laden van de eerste pagina de volgende niet-aangemelde pagina&#39;s grotendeels kan renderen uit de cache, en alleen opnieuw kan valideren wanneer dat nodig is via ETag of Last-Modified.
 
-* Invalid user IDs in mentions return validation errors.
-* GDPR and soft-deleted users appear anonymous in tagged content.
+## Meertalige taakhulpen
 
-### Language-based learner progress
+### Inleiding
 
-Currently, learner progress is tracked only for the selected locale language, causing significant progress loss when switching languages/locales in the player. This limitation creates poor user experience where learners lose their learning progress when exploring content in different languages.
+Met meertalige taakhulpen in Adobe Learning Manager (ALM) kunnen auteurs en beheerders ondersteunende documenten, handleidingen of bronnen in meerdere talen in één taakhulpitem opgeven. Studenten in verschillende regio&#39;s hebben toegang tot relevante materialen in de taal van hun voorkeur, waardoor het begrip, de compatibiliteit en de gebruikerservaring worden verbeterd.
 
-**Current issues**
+### Vorig gedrag
 
-* **Progress override**: The progress for each module in the player is tracked at both the user and module levels. This leads to a situation where a user's progress is overridden when they switch back to a previously used locale for the same module.
-* **Progress reset**: For instance, if a learner achieves 75% progress in Locale A (English) and then switches to Locale B (Spanish), upon returning to Locale A, their progress resets to 0% instead of resuming from 75%.
+Eerder werden taakhulpen in ALM ondersteund door slechts één inhoudsbestand per taakhulp, zelfs als de naam en beschrijving konden worden gelokaliseerd. Om dezelfde bron in meerdere talen te bieden, moesten auteurs voor elke taal afzonderlijke taakhulpen maken. Dit leidde tot duplicatie, verwarring en verhoogde administratieve overhead. Er was geen uniforme manier om meertalige middelen te beheren, waardoor het moeilijk was om consistentie te garanderen en het gebruik te volgen.
 
-To resolve these limitations, the API has been enhanced to support locale-specific progress tracking:
+### Gebruiksscenario&#39;s
 
-* **Locale-specific storage**: When a learner switches locales (for example, from Locale A to Locale B) within the player, the system now saves the progress state separately for each locale of the content.
-* **Progress resumption**: When the user switches back to a previously used locale (from Locale B back to Locale A), the content resumes from where they left off in that specific locale.
-* **Independent progress tracking**: Each locale maintains its own state of progress, allowing learners to explore content in multiple languages without losing their individual progress in each language.
+* **Globale arbeidskrachtenactivering**: Lever veiligheidshandleidingen, procesgidsen, of verwijzingsdocumenten in veelvoudige talen aan een diverse arbeidskrachten.
+* **Regelgevende naleving**: Zorg ervoor alle werknemers de zelfde nalevingsdocumentatie in hun inheemse taal ontvangen.
+* **Consistent onboarding**: Verstrek onboardingchecklists of FAQs in lokale talen voor nieuwe hires wereldwijd.
+* **Verminderde duplicatie**: beheer alle taalversies van een taakhulp in één enkele ingang, die updates en rapportering vereenvoudigt.
 
-#### API changes
+### Belangrijkste kenmerken
 
-The following APIs have been enhanced to support the new locale parameter:
+* **veelvoudige taalsteun**: Band een uniek dossier of URL voor elke gesteunde taal binnen één enkele taakhulp vast.
+* **Gelokaliseerde naam en beschrijving**: ga de naam en de beschrijving van de taakhulp in elke taal in.
+* **Verenigd beheer**: geef, werk, en rapport over alle taalversies van één plaats uit.
+* **Achterwaartse verenigbaarheid**: De bestaande single-language taakhulpen worden automatisch herhaald over alle toegevoegde talen tot de nieuwe dossiers worden geupload.
 
-* GET Player State API
-* POST Player State API
+### Een meertalige taakhulp maken
 
-#### GET Player State API
+1. Ga naar de rol van de Auteur en selecteer **Hulp van de Baan**.
+2. Selecteer **creeer Taakhulp**.
+3. Voer de naam en beschrijving van de taakhulp in de standaardtaal in.
+4. Voeg het primaire inhoudsbestand of de URL voor de standaardtaal toe.
+5. Sla de taakhulp op.
 
-**Endpoint**
+### Extra talen toevoegen
 
-```
-GET /primeapi/v2/users/{userId}/playerState
-```
+1. In de redacteur van de baanhulp, uitgezocht **voeg Taal** toe.
+2. Selecteer de gewenste taal of talen in de lijst.
+3. Voor elke toegevoegde taal:
+   * Voer de gelokaliseerde naam en beschrijving in.
+   * Upload het bijbehorende inhoudsbestand of geef een taalspecifieke URL op.
+4. Herhaal dit voor alle vereiste talen.
 
-**Description**
+### Talen bewerken en beheren
 
-Retrieves the current state of a learning object for a specific user and locale.
+1. Als u een bestand of beschrijving voor een specifieke taal wilt bijwerken, selecteert u het tabblad Taal en brengt u de gewenste wijzigingen aan.
+2. Als een taal wordt toegevoegd nadat de taakhulp is gepubliceerd, wordt het oorspronkelijke bestand automatisch toegewezen aan de nieuwe taal totdat een uniek bestand is geüpload.
+3. Verwijder of vervang bestanden voor elke taal zoals vereist.
 
-**Parameters**
+### Publish en leerervaring
 
-|Parameter |Type |Location |Required |Description |
-|---|---|---|---|---|
-|userId |String |Path |Yes |Unique identifier of the user |
-|loId |String |Query |Yes |Learning Object identifier in format lo:{id} |
-|loResourceId |String |Query |Yes |Learning Object resource identifier in format course:{loId_loInstanceId_moduleId_moduleVersion}|
-|csrf_token |String |Query |Yes |CSRF protection token |
-|locale |String |Query |Optional |Locale identifier for language-specific progress (e.g., "en-US", "es-ES") |
+1. Nadat alle talen en bestanden zijn toegevoegd, publiceert u de taakhulp.
+2. Studenten zien de taakhulp in hun geselecteerde inhoudstaal, met het juiste bestand of de juiste URL.
+3. Als de taal van een student niet beschikbaar is, wordt het standaardtaalbestand weergegeven.
 
-**Example request**
+### Rapportage
 
-```
-GET /primeapi/v2/users/12345/playerState?loId=lo:67890&loResourceId=course:67890_1_mod123_v2&csrf_token=abc123&locale=en-US
-```
+1. Download taakhulpenrapporten om details weer te geven van alle bestanden en talen die bij elke taakhulp horen.
+2. Rapporten bevatten taal, bestandsnaam en gebruiksgegevens voor bijhouden.
 
-**Response behavior**
+### Best practices
 
-* If the locale parameter is provided and a locale-specific state exists, the API returns the progress for that locale.
-* If the locale parameter is provided but no locale-specific state exists, the API performs a fallback search for the default state.
-* If the locale parameter is omitted, the API returns the default state (maintains backward compatibility).
-* For headless requests where the locale is null, the API falls back to the default state lookup.
+* Zorg voor nauwkeurige vertalingen voor namen, beschrijvingen en inhoudsbestanden.
+* Reviseer en werk bestanden regelmatig bij om consistentie in verschillende talen te waarborgen.
+* Gebruik duidelijke naamconventies om bestanden voor verschillende talen van elkaar te onderscheiden.
+* Test de ervaring van de student door van inhoudstalen te wisselen om te controleren of het bestand correct wordt geleverd.
 
-#### POST Player State API
+### Problemen oplossen
 
-**Endpoint**
+* **Ontbrekend dossier voor een taal**: Het standaarddossier wordt getoond. Zorg ervoor dat alle talen het juiste bestand hebben geüpload.
+* **Verouderde taakhulpen**: Voeg nieuwe taaldossiers toe om automatisch herhaalde originelen te vervangen.
+* **Verkeerde getoonde taal**: Controleer de de taalmontages van de de inhoudstaal van de student en de de taalconfiguratie van de taakhulp.
 
-POST /primeapi/v2/users/{userId}/playerState
+Met meertalige taakhulpen kunt u in één keer ondersteunende hulpmiddelen aan een wereldwijd publiek leveren, duplicatie verminderen en ervoor zorgen dat elke student de juiste informatie in zijn/haar voorkeurstaal ontvangt. Deze functie verbetert de toegankelijkheid, compatibiliteit en administratieve efficiëntie in Adobe Learning Manager.
 
-**Description**
+## Vind antwoorden met AI Assistant voor studenten
 
-Updates or creates the current state of a learning object for a specific user and locale.
+AI Assistant voor studenten is een conversationele, AI-gedreven assistent binnen Adobe Learning Manager die je moet begeleiden naar de informatie die je sneller nodig hebt. Door vragen in natuurlijke taal te stellen, krijg je contextuele uitleg, open je relevante cursussen en krijg je inzichten uit leercontent - zonder handmatig door catalogi te bladeren.
 
-**Parameters**
+### Mogelijkheden
 
-|Parameter |Type |Location |Required |Description |
-|---|---|---|---|---|
-|userId |String |Path |Yes |Unique identifier of the user |
-|loId |String |Query |Yes |Learning Object identifier in format lo:{id} |
-|loResourceId |String |Query |Yes |Learning Object resource identifier in format course:{loId_loInstanceId_moduleId_moduleVersion} |
-|csrf_token |String |Query |Yes |CSRF protection token |
-|locale |String |Query |Optional |Locale identifier for language-sp|
+* **Slimme vraag-antwoordend:** behandelt zowel single-turn als multi-turn gesprekken, latend u vragen natuurlijk stellen. Reacties worden afgeleid van cursussen, leerpaden, certificeringen en taakhulpen.
+* **inhoud-gegrond antwoorden met citaties:** trekt direct informatie van het leren materialen en omvat citaties die terug naar de originele cursus, de module, of het middel wijzen.
+* **Uitgebreide inhoudsverenigbaarheid:** steunt een brede waaier van formaten, met inbegrip van documenten, presentaties, video&#39;s, audiodossiers, de inhoud van de HTML, en de Gedeelde modules van de Verwijzing van de Objecten van de Inhoud van het Model (SCORM).
+* **Seamless user experience:** Available as a side panel across learner pages, maintaining session-based chat history for continuity.
+* **Robust administrator controls:** Administrators can enable or disable the assistant, limit access by user groups, and choose which internal catalogs are used as the source for AI-generated responses.
 
-**Request body**
+### Benefits
 
-The request body contains the Learning Object state data specific to the locale.
+* **Faster access to knowledge:** You receive instant answers to your questions, eliminating the need to navigate through multiple courses or documents.
+* **Higher engagement:** Conversational interactions make the learning experience more natural, intuitive, and accessible.
+* **Better understanding:** You can ask follow-up questions to clarify concepts and explore topics more thoroughly.
+* **Scalable learning support:** Automated, AI-driven responses minimize dependence on subject-matter experts and support teams.
 
-**Example request**
+Learn more about [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
 
-```
-POST /primeapi/v2/users/12345/playerState?loId=lo:67890&loResourceId=course:67890_1_mod123_v2&csrf_token=abc123&locale=en-US
-```
+## Multi-lingual Video Text Tracks (VTT) support
 
-```
-{
-  "progress": 75,
-  "completionStatus": "incomplete",
-  "timeSpent": 1800,
-  "lastAccessedPage": 5,
-  // Additional state data
-}
-```
+Multi-lingual Video Text Tracks (VTT) support in Adobe Learning Manager enables authors to provide subtitles and captions for video and audio content in multiple languages. This feature streamlines localization, making training accessible to a global audience and ensuring compliance with accessibility standards. Authors can auto-generate, translate, review, and edit VTT files directly within the platform.
 
-The API creates or updates the Learning Object state for the specified locale.
+### Use Cases
 
-## Go1 integration enhancements
+* **Global Training:** Deliver video content with subtitles in multiple languages to reach international learners.
+* **Accessibility Compliance:** Provide captions for hearing-impaired users in their preferred language.
+* **Faster Localization:** Reduce manual effort and accelerate content rollout by auto-generating and translating VTT files.
+* **Consistent Experience:** Ensure all learners receive the same information, regardless of language.
 
-**Overview**
+### Belangrijkste kenmerken
 
-Go1 integration is enhanced to allow direct curation of Go1 courses for creating Learning Programs (LP) within Adobe Learning Manager. This update supports the inclusion of Go1 courses in recurring certifications and introduces a new version of the Go1 content hub experience, enabling more efficient course curation.
+* **Multi-language translation:** Translate captions into any of the 39 supported non-English languages.
+* **In-app review and editing:** Review, edit, and download VTT files before publishing.
+* **Notifications:** Receive in-app notifications when VTT generation and translation are complete.
+* **Smooth publishing:** Publish finalized captions for learners to access in their chosen language.
 
-**What's new**
+### Upload content and generate VTT
 
-* Create and manage playlists directly within Go1 using AI chat assistance or manual selection.
-* Include Go1 courses in recurring certification cycles with automatic progress reset.
-* Upgraded content discovery interface for improved browsing and content curation.
+1. Go to the Content Library and select **Add > Content**.
+2. Upload your MP3 or MP4 file.
+3. In uploadt dialoog, selecteer de optie **om Vertalingen** te produceren.
+4. Selecteer de oorspronkelijke inhoudstaal (standaard is de taal van het bestand).
+5. Selecteer extra doeltalen voor vertaling (maximaal 39 ondersteund).
+6. Selecteer **Opslaan**. Het systeem begint met het genereren en vertalen van VTT-bestanden.
 
-**Key benefits**
+### Voortgang van monitor
 
-* AI-assisted playlist creation significantly speeds content grouping and delivery.
-* Enables use of Go1 content for recurring regulatory training requirements.
-* Clear preview-and-purchase model supports informed content investment decisions.
-* Improved discovery and curation tools for better content management.
+1. Na het opslaan wordt het nieuwe inhoudsitem weergegeven in de inhoudsbibliotheek.
+2. Een voortgangsindicator geeft de status van het genereren en vertalen van VTT weer.
+3. U ontvangt een melding in de app wanneer het proces is voltooid.
 
-**Important notes**
+### VTT-bestanden bekijken en bewerken
 
-* All Go1 features require an active Go1 license.
-* Previous free Go1 content will be decommissioned. Organizations must preview and purchase required content bundles.
-* Administrators and authors can create and manage playlists; learners maintain view-only access.
+1. In de Bibliotheek van de Inhoud, open de inhoud op **geef** wijze uit.
+2. Voor elke taal, selecteer de **verbinding van de Overzicht** naast het VTT dossier.
+3. Er verschijnt een pop-upvenster met de bijschriften voor die taal.
+4. Bewerk de bijschriften rechtstreeks in de pop-up of download het VTT-bestand voor offline bewerking.
+5. Nadat u wijzigingen hebt aangebracht, uploadt of plakt u de herziene bijschriften weer in de pop-up.
+6. Sla uw bewerkingen op.
 
-**Use cases**
+### Publish-bijschriften
 
-* Organizations requiring extensive external content libraries for comprehensive training programs.
-* Compliance-focused training programs needing regular content updates and delivery cycles.
-* Learning teams are seeking to reduce content curation overhead through AI assistance.
+1. Publiceer de inhoud als u tevreden bent met alle taalbijschriften.
+2. Studenten zien ondertitelopties in alle gepubliceerde talen wanneer ze de video bekijken.
 
-### Add Go1 playlist to a Learning Path
+### Aanvullende informatie
 
-Administrators can create a learning path that includes a Go1 playlist, so learners can access selected third-party courses as part of their training.
+* **Gesteunde Talen:** Alle 39 niet-Engelse talen die door Adobe Learning Manager worden gesteund.
+* **Meldingen:** de Auteurs worden op de hoogte gebracht wanneer de generatie en de vertaling van VTT volledig zijn.
+* **het uitgeven flexibiliteit:** de Bijschriften kunnen in-app of offline worden uitgegeven en opnieuw-geupload.
+* **Schaalbaarheid:** Ontworpen voor onderneming-schaal lokalisatie en toegankelijkheidsbehoeften.
+* **Geen behoefte aan Hand VTT uploadt:** het systeem kan VTT dossiers van kras produceren gebruikend de geuploade video/audio.
 
-To create a learning path:
+### Beste werkwijzen
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Learning Paths]** in the left navigation pane. 
-3. Select **[!UICONTROL Add]**. 
+* Bekijk automatisch gegenereerde bijschriften altijd voor nauwkeurigheid voordat u ze publiceert.
+* Vertaal alle grote studentengroepen om de toegankelijkheid te maximaliseren.
+* Gebruik het meldingssysteem om bij te blijven met de verwerkingsstatus.
+* Bijschriften worden regelmatig bijgewerkt als de video-inhoud verandert.
 
-   ![](assets/select-add-to-lp.png)
-   _Select Add in the Learning Paths section to create and organize new structured training programs for your learners_
+### Problemen oplossen
 
-4. Type the required details and select **[!UICONTROL Save]**. See this [article](/help/migrated/administrators/feature-summary/learning-paths.md) for more information. 
-5. Select **[!UICONTROL Add Go1 Courses]**.
+* Als het genereren van VTT mislukt, moet u ervoor zorgen dat uw bestand een ondersteunde indeling heeft (MP3/MP4).
+* Controleer of ontbrekende talen worden ondersteund en selecteer deze tijdens het uploaden.
+* Als bijschriften niet gesynchroniseerd zijn, gebruikt u de in-app editor om de timing aan te passen.
 
-   ![alt text](assets/select-go1-courses.png)
-   _Add Go1 courses to your Sales Engineers Skill Development playlist to expand learning options with curated third-party content_
+Dankzij meertalige VTT-ondersteuning kun je op een efficiënte manier toegankelijke, gelokaliseerde videoleerervaringen bieden. Door automatisch te genereren, te vertalen en in-app te bewerken, kunt u ervoor zorgen dat uw inhoud alle studenten bereikt en ondersteunt, ongeacht de taal.
 
-6. In the **[!UICONTROL Library]**, search for and select **[!UICONTROL Create playlist]** and choose from one of the following:
-    a. **[!UICONTROL with AI]**: Create a playlist with the help of AI.
-    b. **[!UICONTROL by myself]**: Create a playlist by manually adding courses to it. 
+## Aangepaste certificaten ontwerpen
 
-**Create a playlist with AI**
+Met aangepaste certificaten in Adobe Learning Manager (ALM) kunnen beheerders en auteurs gepersonaliseerde certificaten voor studenten ontwerpen, beheren en uitgeven. De functie omvat een editor voor slepen en neerzetten, dynamische velden, meertalige ondersteuning en door AI gegenereerde achtergronden, zodat organisaties zonder technische expertise branded certificaten kunnen maken.
 
-Administrators can type the playlist description in the AI prompt. The AI will curate the related courses and create a playlist based on the requirements. AI generates playlists by interpreting the learning goal or prompt provided by the user. When creating a playlist, admins can select to curate content 'with AI' which allows the system to use large language models to understand the specified learning objectives and content preferences like duration and type. The AI then searches the content library for relevant learning objects that match these criteria.
+### Vorig gedrag
 
-To create a playlist with AI:
+Eerder was het maken van certificaten in ALM beperkt door de rigiditeit van sjablonen, het gebrek aan aanpassing en technische obstakels (zoals HTML-bewerking). Klanten vroegen om eenvoudigere manieren om certificaten te ontwerpen, dynamische velden toe te voegen (zoals de naam van de student of de docent) en meerdere talen te ondersteunen, terwijl ze tegelijkertijd de merkconsistentie en het visuele aspect behouden.
 
-1. Select **[!UICONTROL Create playlist]** and then select **[!UICONTROL with AI]**.
-   
-   ![](assets/select-by-AI-playlist.png)
-   _Create curated playlists with AI, which enables automated course recommendations tailored to learner needs_
+### Gebruiksscenario&#39;s
 
-2. Type a short description about your playlist in the **[!UICONTROL Enter your learning goal]** text field.
-3. Select **[!UICONTROL Next]**. 
-   
-   ![](assets/type-a-prompt.png)
-   _Type your learning goal to create a custom playlist, helping Adobe Learning Manager recommend targeted courses tailored to your learners' needs_
+* **Branded erkenning**: Geef certificaten met collectieve logo&#39;s, kleuren, en doopvonten voor naleving, opleiding, of verwezenlijking uit.
+* **Dynamische verpersoonlijking**: bevolk automatisch studentnamen, instructornamen, en andere actieve gebieden.
+* **Meertalige levering**: Verstrek certificaten in veelvoudige talen voor globale studenten.
+* **Flexibel ontwerp**: Creeer landschap of staande certificaten, gebruik AI-Geproduceerde achtergronden, en voorproef alvorens te publiceren.
 
-4. Choose the skills from the list.
-   
-   ![](assets/select-skills.png)
-   _Choose the skills from the list to curate the courses for the Sales Engineer_
-5. Select the course duration and type for your playlist.
-6. Select **[!UICONTROL Generate playlist]**. The playlist is created with 10 courses, and administrators can use it to create a Learning Path.
-   
-   ![](assets/created-playlist.png)
-   _Review your curated Sales Engineer Skills Enhancement Playlist in Adobe Learning Manager_
-7. Select **[!UICONTROL Add to Library]**.
-8. Select **Yes** in the confirmation prompt.
-9. Select the playlist from the **[!UICONTROL Select playlist to import prompt]**. 
+### Toegang tot aangepaste certificaten
 
-   ![](assets/add-playlist-to-lp.png)
-   _Select and import the Sales Engineer Skills Enhancement Playlist from the Go1 Library in Adobe Learning Manager_
+1. Ga naar de **sectie van Prestaties** in de Admin homepage (eerder genoemd **Badges**).
+2. Selecteer **Certificaten** om, certificaatmalplaatjes te bekijken tot stand te brengen of te beheren.
 
-10. Select **[!UICONTROL Add Playlists to Learning Path]** and then **[!UICONTROL Publish]**. 
+### Een certificaat maken
 
-The courses in the playlist will be added to the Learning Path. Administrators can then enroll learners, who can immediately begin taking the courses.
+1. Selecteer **tot Certificaat** leiden.
+2. Selecteer de afdrukstand Staand of Liggend.
+3. Selecteer een bestaande sjabloon of begin op een leeg canvas.
+4. Voer een certificaatnaam en standaardtaal in.
+5. Voeg met de editor voor slepen en neerzetten het volgende toe:
+   * Tekstvelden (met opties voor lettertype, kleur en positionering)
+   * Afbeeldingen (logo&#39;s, pictogrammen, enz.)
+   * Dynamische velden (naam student, naam docent, enz.)
+   * Certificaatachtergronden (effen kleur, geüploade afbeelding of door AI gegenereerde afbeelding)
+6. Voor door AI gegenereerde achtergronden: voer een vraag in (bijvoorbeeld &quot;studenten in een lesruimte&quot;) om achtergronden te genereren met behulp van AI.
 
-**Create a playlist manually**
+### Dynamische velden toevoegen
 
-Manually select courses that best match learners' requirements and curate additional relevant courses.
+Dynamische velden in aangepaste Adobe Learning Manager-certificaten zijn plaatsaanduidingen die automatisch worden gevuld met relevante informatie, zoals de naam van de student, de naam van de docent of andere accountspecifieke gegevens, wanneer het certificaat wordt gegenereerd. Zo kunnen gepersonaliseerde en contextbewuste certificaten worden gegenereerd zonder dat deze handmatig hoeven te worden bewerkt.
 
-To create a playlist manually:
+1. Voeg dynamische variabelen in, zoals de naam van de student, de naam van de docent of andere actieve velden.
+2. Velden worden automatisch ingevuld wanneer het certificaat wordt uitgegeven.
 
-1. Select **[!UICONTROL Create playlist]** and then select **[!UICONTROL by myself]**.
-   
-   ![](assets/select-manual-playlist.png)
-   _Manually create a playlist giving administrators full control to curate courses based on specific learner needs_
+### Meertalige ondersteuning
 
-2. Type the title and description of your playlist.
- 
-   ![](assets/type-title-and-description.png)
-   _Add a title and description to your playlist in Adobe Learning Manager to clearly define its purpose and help guide learners toward targeted skill development_
+1. Voeg nieuwe talen toe (bijvoorbeeld Frans of Duits) aan het certificaat.
+2. Voer voor elke taal vertaalde tekst in.
+3. Beheer vertalingen en bekijk een voorvertoning van certificaten in elke taal.
 
-3. Select **[!UICONTROL Create]**. 
-4. Select **[!UICONTROL Add item]** to add the related courses. 
-   
-   ![](assets/add-items.png)
-   _Add items to your Sales Engineers Skill Development playlist in Adobe Learning Manager to curate targeted courses_
+### Voorvertonen en publiceren
 
-5. Search and select the required courses. 
+1. Gebruik de voorvertoningsfunctie om te zien hoe het certificaat voor de studenten wordt weergegeven.
+2. Download de voorvertoning of druk deze af voor revisie.
+3. Opslaan als concept om later verder te bewerken of publiceren wanneer gereed.
 
-The playlist has been created with related courses, and administrators can use it to create a learning path. 
+### Certificaten toepassen
 
-## Save player state progress for languages
+1. Beheerders kunnen standaardcertificaten voor het account instellen.
+2. Auteurs kunnen certificaten aan specifieke leerobjectinstanties (cursussen, paden, enz.) koppelen.
+3. Selecteer desgewenst verschillende certificaten op instantieniveau.
 
-**Overview**
+### Certificaten beheren
 
-The Fluidic Player now saves your progress separately for each language within a module. This means you can switch between languages and pick up exactly where you left off in each one, instead of losing your progress and starting over.
+1. Gepubliceerde en conceptcertificaten weergeven in de bibliotheek.
+2. Bewerk, werk of verwijder sjablonen naar wens.
+3. Certificaten kunnen in meerdere instanties opnieuw worden gebruikt.
 
-**Key benefits**
+Aangepaste certificaten in ALM bieden een flexibele manier om gepersonaliseerde, merkgebonden en meertalige certificaten te ontwerpen en af te geven. De functie vereenvoudigt certificaatbeheer, verbetert de herkenning van studenten en ondersteunt wereldwijde compliance- en brandingbehoeften.
 
-* Jump between languages and resume from your exact position in each one.
-* Perfect for learners who need to access content in multiple languages during their learning journey.
-* Complete the module in any language while maintaining progress in all languages you've accessed.
+## Meertalige taakhulpen
 
-**Use cases**
+Met meertalige taakhulpen in Adobe Learning Manager (ALM) kunnen auteurs en beheerders ondersteunende documenten, handleidingen of bronnen in meerdere talen in één taakhulpitem opgeven. Studenten in verschillende regio&#39;s hebben toegang tot relevante materialen in hun voorkeurstaal, waardoor de toegankelijkheid, compatibiliteit en gebruikerservaring worden verbeterd.
 
-* Global organizations with employees who speak multiple languages and may need to reference content in their native language and English.
-* Compliance training where learners might start in one language but need to complete in another for certification purposes.
-* Technical training programs where learners might understand concepts better in their native language but need English terminology for their work.
+### Vorig gedrag
 
-**Important notes**
+Eerder stond ALM slechts één inhoudsbestand per taakhulp toe, ook al konden de naam en beschrijving worden gelokaliseerd. Om dezelfde bron in meerdere talen te bieden, moesten auteurs voor elke taal afzonderlijke taakhulpen maken. Dit leidde tot duplicatie, verwarring en grotere administratieve inspanningen. Er was geen uniforme manier om meertalige middelen te beheren, waardoor het moeilijk was om consistentie te garanderen en het gebruik te volgen.
 
-* The Fluidic Player's language preference is retained within a session. If a learner changes the language and moves to another module, the new language is used for subsequent modules, as long as the player remains open.
-* The grade (completion status) is still tracked at the module level, not per locale. The first locale in which the completion criteria are met will update the grade for the module. If a learner completes the module in one language and then switches to another, any further grade updates will be overwritten from the previous grade, but progress for each locale is still preserved.
+### Gebruiksscenario&#39;s
 
-## Custom roles import support in incremental user import
+* **Globale arbeidskrachtenactivering**: Lever veiligheidshandleidingen, procesgidsen, of verwijzingsdocumenten in veelvoudige talen aan een diverse arbeidskrachten.
+* **Regelgevende naleving**: Zorg ervoor alle werknemers de zelfde nalevingsdocumentatie in hun inheemse taal ontvangen.
+* **Consistent onboarding**: Verstrek onboardingchecklists of FAQs in lokale talen voor nieuwe hires wereldwijd.
+* **Verminderde duplicatie**: beheer alle taalversies van een taakhulp in één enkele ingang, die updates en rapportering vereenvoudigt.
 
-Adobe Learning Manager now supports custom role imports in the existing multi-incremental user import workflow (regular full user import + incremental enabled flow). This enhancement allows role.csv and user_role.csv files to be uploaded and processed incrementally, without requiring full data uploads each time.
+### Een meertalige taakhulp maken
 
-Previously, role.csv and user_role.csv files could only be uploaded in full mode, meaning administrators had to include all previously added role definitions and assignments in every upload. With this new incremental support, only new or modified role data needs to be uploaded, reducing overheads and improving efficiency.
+1. Ga naar de rol van de Auteur en selecteer **Hulp van de Baan**.
+2. Selecteer **creeer Taakhulp**.
+3. Voer de naam en beschrijving van de taakhulp in de standaardtaal in.
+4. Upload het primaire inhoudsbestand of geef een URL op voor de standaardtaal.
+5. Sla de taakhulp op.
 
-**What's new**
+### Extra talen toevoegen
 
-1. Incremental support for custom roles and role assignments:
+1. In de redacteur van de baanhulp, uitgezocht **voeg Taal** toe.
+2. Selecteer de gewenste taal of talen in de lijst.
+3. Voor elke toegevoegde taal:
+   * Voer de gelokaliseerde naam en beschrijving in.
+   * Upload het bijbehorende inhoudsbestand of geef een taalspecifieke URL op.
+4. Herhaal dit voor alle vereiste talen.
 
-    * role.csv  and  user_role.csv can now be processed incrementally in the multi-file incremental workflow.
-    * No need to upload all existing role and user role data with every import.
+### Talen bewerken en beheren
 
-2. Enhanced multi-incremental workflow implementation:
+1. Als u een bestand of beschrijving voor een specifieke taal wilt bijwerken, selecteert u het tabblad Taal en brengt u de gewenste wijzigingen aan.
+2. Als een taal wordt toegevoegd nadat de taakhulp is gepubliceerd, wordt het oorspronkelijke bestand automatisch toegewezen aan de nieuwe taal totdat een uniek bestand is geüpload.
+3. Verwijder of vervang bestanden voor elke taal zoals vereist.
 
-    * Create separate folders in FTP for each uploaded user import file.
-    * Each folder contains:
+### Publish en leerervaring
 
-        * The user import file- (File1.csv)
-        * Corresponding role and role assignment files- (File1_role.csv, File1_user_role.csv)
+1. Nadat alle talen en bestanden zijn toegevoegd, publiceert u de taakhulp.
+2. Studenten zien de taakhulp in hun geselecteerde inhoudstaal, met het juiste bestand of de juiste URL.
+3. Als de taal van een student niet beschikbaar is, wordt het standaardtaalbestand weergegeven.
 
-    For example, user1.csv corresponds to user1_role.csv (custom roles) and user1_user_roles.csv (user-role mapping).
+### Rapportage
 
-    **Example FTP structure before processing:**
+1. Download taakhulpenrapporten om details weer te geven van alle bestanden en talen die bij elke taakhulp horen.
+2. Rapporten bevatten taal, bestandsnaam en gebruiksgegevens voor bijhouden.
 
-    ```
-    import/user/internal/  
-         File1.csv  
-         File2.csv  
-        File3.csv  
+Met meertalige taakhulpen in ALM kunt u in één keer ondersteunende hulpmiddelen leveren aan een wereldwijd publiek, het dupliceren verminderen en ervoor zorgen dat elke student de juiste informatie in de voorkeurstaal ontvangt. Deze functie verbetert de toegankelijkheid, compatibiliteit en administratieve efficiëntie in Adobe Learning Manager.
 
-    UserRole/  
-        File1_role.csv  
-        File1_user_role.csv  
-        File2_role.csv  
-        File2_user_role.csv  
-        File3_role.csv  
-        File3_user_role.csv  
-    ```
- 
-3. Adobe Learning Manager also supports up to 20 incremental user CSVs and their corresponding custom roles CSVs, making it suitable for large-scale operations.
+## Verbeteringen in het afspelen van cursussen die door Captivates worden gegenereerd
 
-**Use cases**
+De update verbetert aanzienlijk de afspeelervaring voor Adobe Captivate-inhoud binnen ALM door een uniforme en gestroomlijnde interface te introduceren.
 
-* Global companies manage regional teams by uploading multiple incremental user files for each region (EU, America, Asia), allowing administrators to update users and assign new roles for each region in a single workflow.
-* Large enterprises automate onboarding and permissions by regularly ingesting incremental user updates from HR systems. This supports seamless updates to user profiles and granular role assignments without manual intervention.
+De ALM-speler geeft nu één geconsolideerde inhoudsopgave weer, verbergt de inhoudsopgave van de Captivate en verschaft duidelijke voltooiingsindicatoren op dianiveau, inclusief groene vinkjes voor visuele voortgangscontrole.
 
-### New columns added to CSV files
+Het systeem vereenvoudigt navigatie door module- en cursusbesturingselementen samen te voegen tot één intuïtieve balk, waardoor de verwarring onder studenten wordt beperkt.
 
-Three new columns have been introduced to enhance the data captured in user, role, and user-role CSV exports/imports:
+Met de contextbewuste voortgangsbesturingselementen wordt de bruikbaarheid verbeterd doordat alleen op videopresentaties en dia-navigatiebesturingselementen op niet-videodia&#39;s videovoortgangsbalken worden weergegeven.
 
-* **User Registration State (user.csv)**: Indicates the current registration status of the user.
-* **Role State (role.csv)**: Indicates the current status of roles within the system.
-* **User Role State (user_role.csv)**: Indicates the status of the user-role association. 
+Bovendien koppelt het systeem nu notities aan dianummers in plaats van tijdstempels, zodat de PDF betrouwbaar wordt geëxporteerd en eerdere inconsistenties in de indeling worden opgelost.
 
->[!NOTE]
->
->The above CSV changes apply only to the accounts that use incremental users.
+## Verbeteringen voor checklist
 
-Download the [sample CSVs](assets/sample-csv-Incremnetal.zip) here. 
+### Ondersteuning voor meerdere talen voor checklist
 
-## Reset recommendations in Salesforce app
+Met deze functie kunt u controlelijstmodules in meerdere talen maken en beheren. Elke vraag, instructie en evaluatiecriterium van de checklist kan worden vertaald, zodat revisoren en studenten in hun voorkeurstaal met de checklist communiceren. Het systeem geeft de controlelijst weer in de door de gebruiker geselecteerde inhoudstaal, waardoor de toegankelijkheid en compatibiliteit voor internationale teams worden verbeterd.
 
-**Overview**
+1. Voeg een controlelijstmodule toe aan of bewerk deze in uw cursus.
+2. Selecteer in de taalopties alle talen die u wilt ondersteunen.
+3. Voer voor elke taal vertalingen in voor elke vraag, instructie en evaluatiecriterium in de checklist.
+4. Sla uw wijzigingen op. De controlelijst wordt weergegeven in de door de revisor of student geselecteerde inhoudstaal.
+5. Als u later een nieuwe taal toevoegt, moet u vertalingen leveren voor alle vragen en criteria voordat u gaat publiceren.
+6. Wanneer u controlelijstrapporten downloadt, selecteert u de voorkeurstaal om het rapport in die taal weer te geven.
 
-Previously, learners using the Adobe Learning Manager Salesforce app could only select roles and recommendation preferences once. If their role changed, they were required to access the native Adobe Learning Manager app to update their profile and receive relevant course recommendations. This made the learning experience and contributed to lower engagement within the Salesforce environment.
+### Dekkingsgewicht van de checklist-vraag voor beoordelingen van docenten
 
-**What's new**
+Met deze functie kunt u verschillende maximumscores (gewicht) toewijzen aan elke vraag in de controlelijst. U kunt het verschillende belang of de moeilijkheid van elke vraag weerspiegelen, die nauwkeurigere en betekenisvollere evaluaties steunt. Het systeem berekent de totale score op basis van uw invoer en bepaalt of de student slaagt of niet volgens de criteria die u instelt.
 
-Adobe Learning Manager now features a  **[!UICONTROL Reset Interests]** button within the Salesforce app. Learners can now reset their roles and learning preferences without needing to leave Salesforce or sign in into the native Adobe Learning Manager app. This enhancement streamlines access to personalized learning content, ensuring recommendations remain relevant as users' roles evolve.
+1. Wanneer het toevoegen van een controlelijstmodule, selecteer **het Scheuren van de Douane**.
+2. Stel voor elke vraag over een checklist een unieke maximumscore in die het belang ervan weerspiegelt.
+3. Definieer de algemene voldoende score voor de checklist.
+4. Sla de controlelijst op en publiceer deze.
+5. Als docent of revisor evalueert u elke student door een score toe te wijzen voor elke vraag (tot het maximum dat u instelt).
+6. Het systeem berekent de totale score en bepaalt de status geslaagd/gezakt.
+7. Download controlelijstrapporten om zowel de behaalde scores als de maximale scores voor elke vraag en de totale score te bekijken.
 
-**Use cases**
+### Controlelijst met opmerkingsmogelijkheden voor revisor
 
-* Learners who change job roles, teams, or responsibilities can quickly reset their preferences to receive updated and relevant course recommendations all within the Salesforce app.
-* By removing the need to switch to the native Adobe Learning Manager app, the learning journey is smoother, encouraging ongoing engagement and consumption of recommended content through Salesforce.
-* Administrators benefit from higher rates of learning completion and better alignment between user roles and recommended content, without extra support or guidance on switching platforms.
+Met deze functie kunnen revisoren opmerkingen of feedback toevoegen tijdens de evaluatie van de controlelijst. U kunt voor elke student gepersonaliseerde, actiegerichte feedback geven. U kunt er ook voor kiezen om uw naam met uw opmerkingen weer te geven voor transparantie. Alle opmerkingen worden opgeslagen in het transcript van de student en opgenomen in controlelijstrapporten.
 
-### Reset interest in the Salesforce app
+1. Wanneer vestiging laat checklist, {de opmerkingen van de Recensent van 0} toe **.**
+2. Naar keuze, laat **de naam van de kijker aan student** toe als u uw naam met uw commentaren wilt verschijnen.
+3. Tijdens de evaluatie voert u in het veld Opmerkingen opmerkingen of feedback voor de student in.
+4. Geef op of uw opmerkingen zichtbaar moeten zijn voor de student.
+5. Verzend uw evaluatie. Indien ingeschakeld ziet de student uw opmerkingen en uw naam naast de resultaten.
+6. Alle opmerkingen worden opgeslagen in het transcript van de student en opgenomen in controlelijstrapporten voor toekomstig gebruik.
 
-To reset the interests and recommendations from the Salesforce app:
+## Geavanceerde zoekverbeteringen
 
-1. Log in to Adobe Learning Manager app for Salesforce as a learner.
-2. Select **[!UICONTROL Reset Interests]** option at the bottom.
+Zoekresultaten in Geavanceerd zoeken zijn nu nauwkeuriger en relevanter. Exacte overeenkomsten met trefwoorden worden hoger gerangschikt in zoekopdrachten binnen inhoud en metagegevens, waardoor studenten gemakkelijker kunnen vinden wat ze zoeken.
 
-The learner's recommendation or interest will be reset from the Adobe Learning Manager Salesforce app. 
+Studenten kunnen nu ook ingeschreven leerobjecten in zoekresultaten zien, zelfs als ze geen deel uitmaken van een toegankelijke catalogus, zodat er geen relevante inhoud wordt gemist. Bovendien is de rangschikking van taakhulp verbeterd voor zowel Geavanceerd zoeken als zoekopdrachten binnen de inhoud, waardoor de meest relevante bronnen sneller worden weergegeven.
 
-## Create learning portals with Experience Builder
 
->[!IMPORTANT]
->
->We are excited to announce that Experience Builder, the innovative tool for creating customizable learning portals, will be available following the October 2025 release of Adobe Learning Manager.
->
->Stay tuned for more updates as we approach the release date. We look forward to seeing how you use Experience Builder to transform your learning portals.
->
->For any questions or additional information, contact your Customer Success Manager.
+## Equivalenten en plaatsvervangers
 
-**Introduction**
+### Overzicht
 
-Experience Builder is a no-code/low-code tool in Adobe Learning Manager that helps you create customized learning portals. It allows you to design branded, user-friendly learning portals without needing technical skills or extensive coding knowledge.
-With Experience Builder, you can create new pages, menus, and widgets to deliver personalized learning experiences for your audience quickly and easily. With Experience Builder, you can quickly create new pages, menus, and widgets to deliver personalized learning experiences for your audience.
+In veel organisaties komen studenten trainingssituaties tegen waarin verschillende cursussen rechtmatig aan dezelfde vereiste kunnen voldoen?Bijvoorbeeld wanneer een nieuwe cursus een oudere cursus vervangt, wanneer een uitgebreidere cursus voor een kortere cursus kan worden gevolgd of wanneer een speciale vervangende cursus moet worden aangeboden.
 
-**Problem statement**
+De functie Alternatieve cursussen of Leerpad biedt ALM een formele manier om te zeggen:
 
-Before Experience Builder, organizations faced several challenges:
+&quot;Als de leerling deze training heeft voltooid, behandelt u deze als voldeed aan dat gerelateerde trainingsvereiste.&quot;
 
-1. **Limited customization**: Portals had fixed designs with few options to reflect your brand. Administrators could only make basic changes, such as modifying headers, footers, or colors, which limited the ability to create unique experiences.
-2. **Cost**: Building custom portals required expensive developers and long timelines, often taking 6 to 9 months to complete. This approach increased the total cost of ownership and delayed deployment.
-3. **Generic experiences**: Everyone saw the same content, even if it wasn't relevant to their role or needs. This lack of personalization reduced learner engagement and satisfaction.
-4. **Technical barriers**: Non-technical administrators struggled to create or update portals because they needed coding knowledge or external support.
+De functie werkt in cursussen en leerpaden, zorgt ervoor dat stroomafwaartse vereisten zoals voorwaarden en nalevingsregels worden nageleefd, en dwingt studenten niet om overbodige inhoud te bekijken. Het blijft ook nauwkeurig rapporteren door te registreren wat direct werd voltooid versus wat via een alternatief werd tevreden.
 
-Experience Builder solves these problems by providing a simple, no-code/low-code solution for creating personalized, branded portals.
+In de kern introduceert de functie het concept van een alternatieve voltooiing: een speciale voltooiingsstatus die automatisch wordt gemaakt wanneer een student een geconfigureerde brontraining voltooit die telt voor een andere doeltraining.
 
-It allows administrators to design portals that meet their organization's needs without relying on technical expertise or external developers.
+### Equivalentie vs. alternatieven
 
-**Key benefits**
+Sommige trainingsrelaties zijn bidirectioneel, wat betekent dat elke cursus kan voldoen aan de behoefte van de ander. Dit is in feite een scenario waarin twee trainingen als onderling vervangbaar worden behandeld. In tegenstelling tot eenrichtingsrelaties kunnen opleidingen voldoen aan de eisen van een andere, maar niet andersom. ALM modelleert beide scenario&#39;s gebruikend het zelfde onderliggende afwisselende*voltooiingsmechanisme.
 
-**Easy customization**
+* **Bidirectionele verhouding:** Voltooiend of voldoet de opleiding aan het vereiste voor andere.
+* **Unidirectionele verhouding:** Voltooiend Opleiding A voldoet Opleiding B, maar de voltooiing B voldoet geen A. Dit komt vaak voor wanneer een nieuwere of uitgebreidere versie telt voor een oudere vereiste, maar niet omgekeerd.
 
-* Design portals that match your brand with custom headers, footers, logos, and layouts.
-* Use widgets to add dynamic content like courses, categories, and HTML elements.
-* Create pages and menus tailored to specific audiences, ensuring learners see relevant content.
+De alternatieven worden het vaakst gebruikt in **unidirectionele** scenario&#39;s?bijvoorbeeld, wanneer een uitvoeriger superset cursus alles in een eenvoudigere subsetcursus behandelt. Het voltooien van de superset moet voldoen aan de eisen voor de subset, maar niet noodzakelijkerwijs omgekeerd.
 
-**No-code/low-code solution**
+* Een nieuwere, uitgebreide cursus die moet tellen voor een oudere vereiste.
+* Een cursus die is ontworpen voor een specifieke doelgroep (bijvoorbeeld een regionale of door toegankelijkheid* aangepaste variant) die nog steeds aan dezelfde vereisten voldoet als de primaire cursus.
+* Een verbeterde nieuwe versie van een cursus die de organisatie wil tellen voor een oudere vereiste, maar de oudere versie mag niet tellen voor de nieuwe vereiste.
 
-* Administrators can create and manage portals without coding knowledge, making it accessible to non-technical users.
-* Drag-and-drop functionality simplifies the process of building pages and menus.
+In Plaatsen, is de verhouding normaal **one*way**. Als Cursus A een alternatief is voor Cursus B, kan het voltooien van A voldoen aan B&#39;s vereiste, maar het voltooien van B voldoet niet noodzakelijkerwijs aan A.
 
-**Personalized learning**
+Zowel equivalentie als alternatief delen hetzelfde onderliggende mechanisme in ALM: wanneer een geconfigureerde brontraining is voltooid, levert ALM automatisch een alternatieve voltooiing voor een of meer doeltrainingen.
 
-* Configure pages and menus to display content relevant to specific user groups, such as sales teams, designers, or engineers.
-* Use hidden pages to provide exclusive content accessible only through direct links.
+### Welke problemen lost dit op?
 
-**Global reach**
+Zonder alternatieven en equivalentie hebben beheerders en studenten te maken met verschillende terugkerende problemen:
 
-* Create multilingual pages to support learners around the world.
-* Localize content to cater to diverse audiences and improve accessibility.
+* Studenten wordt vaak gevraagd om cursussen te herhalen die betrekking hebben op inhoud die ze al in een andere versie of indeling hebben voltooid.
+* Het bijwerken van compatibiliteitsprogramma&#39;s is eenvoudiger omdat beheerders trainingen kunnen vervangen of herstructureren zonder studenten die oudere versies hebben voltooid, te dwingen equivalente of vervangen inhoud opnieuw op te nemen.
+* Vereiste logica is rigide. Als een pad een bepaalde cursus als voorwaarde vereist, is er geen duidelijke manier om te erkennen dat een andere training goed genoeg is.
+* Verslaglegging en audits zijn moeilijker. Er is geen formeel signaal dat aantoont dat aan een vereiste is voldaan via een alternatieve voltooiing en geen eenvoudige manier om de bron van het krediet te traceren.
 
-**Mobile-friendly**
+Met de functie Alternatieven en Gelijkwaardigheid worden deze problemen opgelost door:
 
-* Learners can access content on any device, including phones and tablets.
-* Preview pages in both desktop and mobile views to ensure a smooth experience.
+* Het voorkomen van dubbele inspanning voor studenten wanneer alternatieven geldig zijn.
+* Beheerders toestaan om trainingsstructuren te wijzigen (bijvoorbeeld een cursus in een pad omwisselen) zonder de voltooide taken te doorbreken voor studenten die de eerdere versie hebben aangenomen.
+* Voorwaarden en nalevingscontroles toestaan om zowel directe voltooiing als alternatieve of gelijkwaardige voltooiing te respecteren.
+* In transcripties en rapporten moet duidelijk worden vermeld of een opleiding rechtstreeks of naar tevredenheid is afgerond via een alternatieve relatie, waarbij de opleiding als bron diende.
 
-**Real-world use cases**
+### Hoe de functie conceptueel werkt
 
-**Branded portals**
+De eigenschap wordt voortgebouwd op drie belangrijkste ideeën: **verhoudingen**, **afwisselende voltooiing**, en **stroomafwaarts gedrag**.
 
-* Create a learning portal that looks like your company's website, complete with logos, colors, and layouts.
-* For example, a healthcare company can design a portal that matches its corporate branding while integrating learning content.
+#### Relaties tussen trainingen
 
-**Role-based learning**
+Beheerders definiëren de relaties tussen cursussen en leerpaden. Voor elke verhouding, kiezen zij a **bron** en één of meerdere **doelstellingen**. Afhankelijk van het aantal eerdere of verwante trainingen waaraan een cursus moet voldoen, kan deze een of meer van de 30 doelen hebben.
 
-* Build pages for specific roles, like engineers, sales teams, or designers.
-* For instance, sales teams might see product training, while engineers access technical courses.
+Voor Gelijkwaardigheid, kunnen de beheerders de verhouding **bidirectioneel** maken als zij beide trainingen willen elkaar tevreden stellen. Bij Alternatieven behouden beheerders doorgaans de richting één*manier om aan te geven dat slechts enkele vervangingen zijn toegestaan.
 
-**Product training**
+Deze relaties worden opgeslagen op het trainingsniveau, niet op het niveau van de student. Zodra geconfigureerd en ingeschakeld, zijn ze van toepassing op alle huidige en toekomstige voltooide brontraining, met inachtneming van de instellingen op account*level, zoals of retroactief afronden is ingeschakeld.
 
-* Set up separate pages for different products, such as Photoshop, Illustrator, or other offerings.
-* Each page can include widgets displaying courses, certifications, and resources related to the product.
+### Alternatieve voltooiing
 
-**Employee and customer training**
+Wanneer een student een bronopleiding voltooit, onderzoekt ALM alle gevormde afwisselende of gelijkwaardige verhoudingen en, voor elke relevante doelopleiding, leidt tot een **afwisselend voltooiingsverslag**. Deze record verschilt van een normale voltooiing:
 
-* Use the portal for onboarding new employees, training external partners, or educating customers about your products.
-* For example, a software company can create a portal for customer tutorials and troubleshooting guides.
+* Het markeert de doeltraining voor de student, maar houdt bij dat deze is voltooid via een alternatieve of equivalente training in plaats van rechtstreeks.
+* Het registreert welke bronopleiding werd gebruikt om aan het doel te voldoen.
+* Het wordt opgeslagen in een specifieke structuur zodat de rapportering tussen directe en afwisselende voltooiing kan onderscheiden.
 
-**Localized content**
+Studenten zien een alternatieve voltooiing, zelfs als ze niet zijn ingeschreven. Het LT-rapport (Studenttranscript) bevat alleen records van trainingen waarvoor de student zich heeft ingeschreven.
 
-* Offer content in multiple languages for global learners.
-* For instance, a multinational company can create pages in English, Spanish, and French to cater to its diverse workforce.
+### Ervaring in de Learner-app voor alternatieve en gelijkwaardige voltooide taken
 
-### Building blocks of Experience Builder
+Alternatieve en gelijkwaardige voltooide taken worden afzonderlijk in de Learner-app opgehaald, zodat studenten duidelijk kunnen zien hoe aan een trainingsvereiste is voldaan, terwijl ze consistentie behouden met transcripten en rapporten.
 
-The main components and building blocks of Experience Builder are structured to provide flexibility, ease of use, and targeted learning experiences. Below is a detailed breakdown:
+#### LO-kaartgedrag
 
-#### Pages
+#### Andere voltooiingsstatus
 
-Pages are the foundation of building a learning portal in Experience Builder. Administrators can create new pages tailored to specific audiences or purposes. Additionally, administrators can:
+Wanneer een student een opleiding via een afwisselende of gelijkwaardige verhouding voltooit, toont de het Leren kaart van Objecten (LO) een duidelijke status zoals **die via Afwisselend** wordt voltooid.\
+Dit visuele verschil helpt studenten onderscheid te maken tussen directe voltooide en voltooide bewerkingen die zijn verleend via geconfigureerde relaties.
 
-* Create custom pages with flexible layouts (rows and columns).
-* Add widgets to populate pages with content.
-* Manage page lifecycle with draft and published states.
-* Hide pages from menus while keeping them accessible via direct links.
+#### Indicator van de voltooiingsmethode
 
-For example, a page for sales training might include widgets displaying relevant courses, testimonials, and a calendar of upcoming sessions.
+De kaart LO omvat een indicator van de voltooiingsmethode (bijvoorbeeld, een etiket of een pictogram) om te tonen dat de voltooiing door een **Afwisselend** werd bereikt.\
+Als een afwisselende voltooiing later wegens veranderingen zoals retroactieve voltooiing of schrapping van de bronopleiding wordt herroepen, de LO kaartupdates om **(Ingetrokken) Afwisselend te wijzen**.
 
-#### Menus
+#### Transparantie- en auditgegevens
 
-Menus organize pages into navigable structures for learners. Administrators can:
+Studenten kunnen de LO-kaart openen om aanvullende gegevens te bekijken, zoals:
 
-* Create custom menus to group pages for specific user groups.
-* Add hierarchy and ordering to prioritize visibility for specific audiences.
-* Include submenus for grouping related pages.
+* De broncursus of het leerpad dat de alternatieve voltooiing heeft toegekend
+* De voltooiingsdatum die is gekoppeld aan de brontraining
 
-For example, a menu called Resources might include pages for eBooks, videos, and FAQs.
+Dit zorgt voor transparantie en ondersteunt controle en nalevingscontroles.
 
-#### Widgets
+#### Filteren en weergaven
 
-Widgets allow administrators to add dynamic content and functionality to pages. The following widgets are available:
+#### Filter van de uitvoeringsmethode
 
-* Calendar
-* Categories
-* Compliance Status
-* Courses & Paths
-* Content Box
-* Gamification
-* HTML
-* Iframe
-* My Learning
-* Social Learning
+De Learner-app biedt een filter waarmee studenten onderscheid kunnen maken tussen:
 
-For example, a page might include a Courses & Paths widget to display recommended courses and a Calendar widget for upcoming training sessions.
+* **Directe** voltooiing
+* **afwisselende** voltooiing
+* **Alle** voltooiing
 
-#### Branding tools
+Zo kunnen studenten snel begrijpen hoe aan hun leervereisten is voldaan.
 
-Experience Builder provides tools to customize the appearance of the portal. Administrators can:
+#### Weergave van transcripten en voortgang
 
-* Customize headers, footers, and layouts to match corporate branding.
-* Use CSS and JavaScript for advanced styling.
+Het filter van de voltooiingsmethode is beschikbaar in de weergaven student*tegenover elkaar, zoals:
 
-For example, a healthcare company might use branding tools to create a portal that matches their corporate website's look and feel.
+* Teksttranscripten
+* Secties voor bijhouden van voortgang en voltooiing
 
-### Get started with Experience Builder
+Deze weergaven geven duidelijk aan welke trainingen rechtstreeks zijn voltooid en aan welke opleidingen met alternatieven of equivalentie is voldaan.
 
-A software company wants to build a training portal for its customers. The portal will have pages for different products like Photoshop and Illustrator, organized in menus. It will include widgets that show courses, certifications, and upcoming training sessions.
+#### Uitlijning van rapporten
 
-#### Create a page
+De het filtreren logica in de student app richt zich op de **kolom van de Methode van de Voltooiing** die in rapporten wordt gebruikt.\
+Dit zorgt voor consistentie tussen wat studenten zien in de gebruikersinterface en wat beheerders zien in export- en nalevingsrapporten.
 
-To create a page in Adobe Learning Manager:
+#### Eind *aan* eindstroom
 
-1. Log in to Adobe Learning Manager as an administrator. 
-2. Select **[!UICONTROL Branding]** in the left navigation pane. 
-3. Select **[!UICONTROL Custom Pages]**.
-4. Select **[!UICONTROL Create page]**.
+#### Voor studenten
 
-   ![](assets/select-create-page.png)
-   _Custom Pages screen showing the Create page option to design new custom learning experiences_
+1. Navigeer aan **Mijn Leren** of **Voltooide Cursussen** in de student app.
+2. De kaarten van het overzicht LO om trainingen te identificeren die als **worden gemerkt via Afwisselend** worden voltooid.
+3. Open een LO-kaart voor meer informatie over de brontraining en de voltooiingsdatum.
+4. Gebruik het filtermenu in transcript of cursuslijstmeningen om **Direct** te selecteren, **Afwisselend**, of **allen**.
+5. Bekijk de bijgewerkte lijst op basis van de geselecteerde voltooiingsmethode.
 
-5. Type the **[!UICONTROL Page name]** (for example, Photoshop training).
-6. Type the **[!UICONTROL Page description]** (for example, Learn how to use Photoshop effectively). 
-7. Select the page type from the following:
+#### Voor beheerders en auteurs
 
-    * **[!UICONTROL Build using ALM widgets]**: Administrator can create a page using the existing Adobe Learning Manager widgets.
-    * **[!UICONTROL External page]**: The administrator can add a URL for the external page. If you select the page type as external, add the URL in the Page URL text field.
+1. Configureer gelijkwaardige of alternatieve relaties tussen cursussen of leerpaden in de beheerinterface.
+2. Controleer of de alternatieve voltooide bewerkingen correct worden weerspiegeld op LO-kaarten en in filters voor studenten*onder elkaar.
+3. Gebruik de studentweergaven en -rapporten om de consistentie tussen de gebruikersinterface en de geëxporteerde gegevens te bevestigen.
+4. Als een bronopleiding wordt gearchiveerd of geschrapt, bevestig dat de beïnvloede LO kaartenupdate dienovereenkomstig (bijvoorbeeld, tonend **Afwisselend (ingetrokken)** wanneer toepasselijk).
 
-8. Select the **[!UICONTROL Change icon]** to change the page's icon.
- 
-   ![](assets/create-page-screen.png)
-   _Courses page creation screen displaying options to type the page name, description, type, and icon for a customized learner page_
-9. Select **[!UICONTROL Add New Language]** to add the default language for the page. 
-10. Select **[!UICONTROL Save]**. 
+## Gedrag van retroactieve voltooiing en voltooiing
 
-The page has been created and saved as a draft in the Custom Pages section. Administrators can edit and design the drafted pages using the widgets. 
+ALM ondersteunt retroactief invullen en retroactief invullen om ervoor te zorgen dat alternatieve en gelijkwaardige relaties in de loop der tijd accuraat blijven, zelfs wanneer relaties worden gemaakt, gewijzigd of verwijderd nadat studenten de training al hebben voltooid.
 
-#### Design page in Experience Builder
+### Retroactieve voltooiing
 
-Adobe Learning Manager enables administrators to design pages tailored to their requirements using customizable widgets.
-To design the page in Experience Builder:
+#### Definitie
 
-1. Log in to Adobe Learning Manager as an administrator. 
-2. Select **[!UICONTROL Branding]** in the left navigation pane. 
-3. Select **[!UICONTROL Custom Pages]** and then select the required page. 
-4. Select **[!UICONTROL Page Design]**.  
-5. Select **[!UICONTROL Edit]**. 
- 
-   ![](assets/edit-the-page.png)
-   _Edit mode allows administrators to design course pages by organizing sections and adding widgets in their preferred language_
+Wanneer retroactief afronden is ingeschakeld, ontvangen studenten die in het verleden een broncursus hebben voltooid automatisch een alternatieve voltooiing voor de doelcursus als later een gelijkwaardige of alternatieve relatie wordt gecreëerd.\
+Zo wordt ervoor gezorgd dat het historische leerproces wordt gerespecteerd zonder dat studenten de training opnieuw hoeven te volgen.
 
-6. Choose the options from **[!UICONTROL Select section layout]** dropdown.
-7. Select a section from the following based on the number and size of the widgets you want to add in the section:
+#### Zo werkt het
 
-    * **[!UICONTROL 1 column-Full section width]**: Content spans the entire section width for maximum space.
-    * **[!UICONTROL 2 columns-1/2 section width each]**: Two equal-width columns split the section evenly.
-    * **[!UICONTROL 2 columns-2/3 and 1/3 section width respectively]**: Main content takes two-thirds, side content one-third.
-    * **[!UICONTROL 2 columns-1/3 and 2/3 section width respectively]**: Side content takes one-third, main content two-thirds.
-    * **[!UICONTROL 3 columns-1/3 section width each]**: Three equal-width columns divide the section into thirds.
- 
-   ![](assets/select-section-layout.png)
-   _Section layout selection dialog allows administrators to choose single or multi-column widget arrangements for custom page design_
+1. Een beheerder schakelt retroactieve voltooiing op accountniveau in.
+2. De beheerder definieert een equivalente of alternatieve relatie tussen een bron- en doeltraining.
+3. Het systeem scant historische voltooiingsrecords voor de brontraining.
+4. Studenten die in aanmerking komen, krijgen een alternatieve voltooiing voor de doeltraining.
+5. Deze verslagen verschijnen zoals **Voltooid via Afwisselend** in studenttranscripten en rapporten.
 
-8. Select **[!UICONTROL Proceed]**.
-9. Select **[!UICONTROL Add widget]**.
- 
-   ![](assets/select-add-widgets.png)
-   _The page design screen allows administrators to select and add widgets to customize their course pages_
+### Retroactive incomplete
 
-10. Choose the required widget and then select **[!UICONTROL Proceed]**. 
-11. Configure the widget and select **[!UICONTROL Add widget]**. See this [section](#add-and-configure-widgets) for adding and configuring the widgets.
-12. Select **[!UICONTROL Save]** and choose from the following options:
+#### Definitie
 
-    * **[!UICONTROL Save as Draft]**: The page will be saved as a draft. The administrator can edit the page later.
-    * **[!UICONTROL Save & Publish]**: The page will be published, and the administrator can add this page to the Menu. 
-   
-   ![](assets/select-save-options.png)
-   _Save options allow administrators to choose between saving a page as a draft for future editing or publishing it for learner access_
+Wanneer retroactive incompletion is ingeschakeld, worden alternatieve voltooide bewerkingen ingetrokken als de onderliggende equivalente of alternatieve relatie wordt verwijderd of als de brontraining wordt verwijderd.\
+Dit zorgt ervoor dat het systeem de huidige en geldige trainingsrelaties weerspiegelt.
 
-The page can be saved as a draft or published. Administrators can edit drafts before publishing and can also update and republish published pages.
+#### Zo werkt het
 
-#### Add and configure widgets
+1. Een beheerder schakelt retroactief invullen in op accountniveau.
+2. De beheerder verwijdert een alternatieve of gelijkwaardige relatie of verwijdert de brontraining.
+3. Het systeem identificeert studenten die via de betreffende relatie een alternatieve voltooiing hebben ontvangen.
+4. De bijbehorende alternatieve voltooiingsrecords worden ingetrokken.
+5. De ingetrokken verslagen worden gemerkt als **Afwisselend (ingetrokken)** in transcripten en rapporten voor controlezicht.
 
-**Calendar widget**
+### Gevolgen voor de vereisten
 
-This widget visually presents courses and schedules in calendar format. It supports filters by catalog, enrollment status, location, product, and role. The responsive design adapts to various grid sizes.
+Alternatieve voltooide bewerkingen, inclusief voltooide bewerkingen die met terugwerkende kracht zijn toegekend, worden behandeld als geldige voltooide bewerkingen bij de evaluatie van de voorwaarden.\
+Als een student **via Afwisselend** is voltooid, mogen zij met cursussen verdergaan die de doelopleiding vereisen.
 
-To configure the Calendar widget:
+Als een alternatieve voltooiing later wordt herroepen door retroactief inVoltooien, kan de student niet langer in aanmerking komen voor cursussen die afhankelijk zijn van die voorwaarde.
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder). 
-2. Select **[!UICONTROL Calendar]** and then select **[!UICONTROL Proceed]**.
- 
-   ![](assets/select-calendar.png)
-   _Widget selection screen highlighting the Calendar widget option to display training sessions in a calendar_
+### Gevolgen voor leerpaden en certificeringen
 
-3. Type a **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
- 
-   ![](assets/configure-calendar-widget.png)
-   _Calendar widget customization screen, where administrators can set the widget title, description, and select catalogs_
+Alternatieve voltooide bewerkingen dragen bij tot de voortgang en voltooiing van leerpaden en certificeringen.\
+Studenten kunnen deze programma&#39;s voortzetten of voltooien wanneer de vereiste trainingen via alternatieve of gelijkwaardige relaties worden gevolgd.
 
-4. Select a catalog by searching to display its courses and learning paths within the **[!UICONTROL Calendar]** widget.
-5. Select **[!UICONTROL Add Widget]**.
+Als een alternatieve voltooiing wordt ingetrokken, kunnen de betrokken leerpaden of certificeringen de voortgang of voltooiingsstatus verliezen totdat aan de vereiste is voldaan door een geldige voltooiing.
 
-The Calendar widget will be added to the page. Administrator can add other widgets and publish the page.
+### Eind *aan* eindwerkschema
 
-**Categories widget**
+#### Inschakelen van retroactieve voltooiing of incompleet
 
-This widget displays categories (e.g., roles, catalogs) as tiles, leading to filtered views or specific pages.
+1. Beheerders navigeren naar accountinstellingen en schakelen retroactief invullen en/of retroactief incompleteren in.
+2. Beheerders maken, wijzigen of verwijderen equivalente of alternatieve relaties tussen trainingen.
 
-To configure the Categories widget:
+#### Systeemhandelingen
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).  
-2. Select **[!UICONTROL Categories]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-categories-widget.png)
-   _Widget selection screen highlighting the Categories widget option to organize learning content by catalog, product, or role for easy navigation_
+* **voor retroactive voltooiing:**\
+  Het systeem biedt alternatieve voltooide bewerkingen op basis van historische bronvoltooiing.
+* **voor retroactive incompletion:**\
+  Het systeem herroept alternatieve voltooide bewerkingen wanneer relaties worden verwijderd of brontrainingen worden verwijderd.
 
-3. Select the details to display on the category cards:
+#### Ervaring van de student
 
-    * **[!UICONTROL Category Image]**
-    * **[!UICONTROL Category Description]**
+Studenten zien de bijgewerkte voltooiingsstatus op LO-kaarten en in transcripten, zoals:
 
-4. Type a **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
-5. Search for and choose a catalog from the **[!UICONTROL Category source]**.
- 
-   ![](assets/configure-calendar-widget.png)
-   _Configure Categories widget options to set widget title and description, and select the category source_
+* **Voltooid via Afwisselend**
+* **Afwisselend (ingetrokken)**
 
-6. Select **[!UICONTROL Add Widget]**.
+Vereiste controles, voortgang van leerpad en status van certificering worden dynamisch bijgewerkt op basis van de huidige voltooiingsstatus.
 
-The Categories widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Rapportage en audit
 
-**Compliance widget**
+Alle wijzigingen met terugwerkende kracht worden weergegeven in het Leertranscript-rapport (LT).\
+In rapporten wordt een duidelijk onderscheid gemaakt tussen directe voltooiing, alternatieve voltooiing en herroepen, om naleving te ondersteunen, onderzoeken en audits te ondersteunen.
 
-This widget supports filtering similar to a calendar, but is focused on compliance-related learning objects. It allows learners to modify or remove compliance label filters dynamically.
+### Gedrag van retroactieve voltooiing en voltooiing
 
-To configure the Compliance widget:
+ALM ondersteunt retroactief invullen en retroactief invullen om ervoor te zorgen dat alternatieve en gelijkwaardige relaties in de loop der tijd accuraat blijven, zelfs wanneer relaties worden gemaakt, gewijzigd of verwijderd nadat studenten de training al hebben voltooid.
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).  
-2. Select **[!UICONTROL Compliance Status]** and then select **[!UICONTROL Proceed]**.
- 
-   ![](assets/select-compliance-status.png)
-   _Widget selection screen highlighting the Compliance Status widget used to display learner enrollments with deadlines and status indicators_
+#### Retroactieve voltooiing
 
-3. Type a **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
- 
-   ![](assets/configure-compliance.png)
-   _Compliance Status widget screen, where administrators can set the widget title and description to display enrollment deadlines and status for learners_
+#### Definitie
 
-4. Select **[!UICONTROL Add widget]**.
+Wanneer retroactief afronden is ingeschakeld, ontvangen studenten die in het verleden een broncursus hebben voltooid automatisch een alternatieve voltooiing voor de doelcursus als later een gelijkwaardige of alternatieve relatie wordt gecreëerd.\
+Zo wordt ervoor gezorgd dat het historische leerproces wordt gerespecteerd zonder dat studenten de training opnieuw hoeven te volgen.
 
-The Compliance status widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Zo werkt het
 
-**Courses and paths widget**
+1. Een beheerder schakelt retroactieve voltooiing op accountniveau in.
+2. De beheerder definieert een equivalente of alternatieve relatie tussen een bron- en doeltraining.
+3. Het systeem scant historische voltooiingsrecords voor de brontraining.
+4. Studenten die in aanmerking komen, krijgen een alternatieve voltooiing voor de doeltraining.
+5. Deze verslagen verschijnen zoals **Voltooid via Afwisselend** in studenttranscripten en rapporten.
 
-This widget displays a strip of course or path tiles, customizable to show different details. 
+#### Retroactive incomplete
 
-To configure the Courses and Paths widget:
+#### Definitie
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder). 
-2. Select **[!UICONTROL Courses & Paths]**.
- 
-   ![](assets/select-course-path.png)
-   _Widget selection screen highlighting the Courses & Paths widget for displaying courses, learning paths, certifications, and job aids as interactive cards for learners_
+Wanneer retroactive incompletion is ingeschakeld, worden alternatieve voltooide bewerkingen ingetrokken als de onderliggende equivalente of alternatieve relatie wordt verwijderd of als de brontraining wordt verwijderd.\
+Dit zorgt ervoor dat het systeem de huidige en geldige trainingsrelaties weerspiegelt.
 
-3. Select **[!UICONTROL Proceed]**. 
-4. Type **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**. 
-5. Select the catalogs or manually choose up to 25 courses to display.
-    
-   ![](assets/configure-course-paths.png)
-   _Courses & Paths widget where administrators set the widget title, description, and select courses or learning paths to display as interactive cards_
+#### Zo werkt het
 
-6. Select **[!UICONTROL Add widget]**. 
+1. Een beheerder schakelt retroactief invullen in op accountniveau.
+2. De beheerder verwijdert een alternatieve of gelijkwaardige relatie of verwijdert de brontraining.
+3. Het systeem identificeert studenten die via de betreffende relatie een alternatieve voltooiing hebben ontvangen.
+4. De bijbehorende alternatieve voltooiingsrecords worden ingetrokken.
+5. De ingetrokken verslagen worden gemerkt als **Afwisselend (ingetrokken)** in transcripten en rapporten voor controlezicht.
 
-The Courses & Paths widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Gevolgen voor de vereisten
 
-**Content Box widget**
+Alternatieve voltooide bewerkingen, inclusief voltooide bewerkingen die met terugwerkende kracht zijn toegekend, worden behandeld als geldige voltooide bewerkingen bij de evaluatie van de voorwaarden.\
+Als een student **via Afwisselend** is voltooid, mogen zij met cursussen verdergaan die de doelopleiding vereisen.
 
-This widget allows creating sections with titles, descriptions, images, and CTAs. 
+Als een alternatieve voltooiing later wordt herroepen door retroactief inVoltooien, kan de student niet langer in aanmerking komen voor cursussen die afhankelijk zijn van die voorwaarde.
 
-To configure Content Box widget:
+#### Gevolgen voor leerpaden en certificeringen
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).
-2. Select **[!UICONTROL Content Box]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-content-box.png)
-   _Widget selection screen highlighting the Content Box widget for displaying custom images, text, and action buttons to enhance learner engagement_
+Alternatieve voltooide bewerkingen dragen bij tot de voortgang en voltooiing van leerpaden en certificeringen.\
+Studenten kunnen deze programma&#39;s voortzetten of voltooien wanneer de vereiste trainingen via alternatieve of gelijkwaardige relaties worden gevolgd.
 
-3. Type the **[!UICONTROL Title]** and **[!UICONTROL Description]**.
-4. Type the text into the **[!UICONTROL Action button label]** and provide a link. 
-5. Select any of the options for Background fill:
+Als een alternatieve voltooiing wordt ingetrokken, kunnen de betrokken leerpaden of certificeringen de voortgang of voltooiingsstatus verliezen totdat aan de vereiste is voldaan door een geldige voltooiing.
 
-    * **[!UICONTROL Color]**: Select the color from the color picker or type the color code in the text field.
-    * **[!UICONTROL Image]**: Browse and upload a picture.
+#### Eind *aan* eindwerkschema
 
-6. Adjust the box height using the **[!UICONTROL Content box height]** option. 
-7. Select the text formatting options.
- 
-   ![](assets/configure-content-box.png)
-   _Content Box widget customization screen, where administrators can enter a title, description, action button label, and link_
+#### Inschakelen van retroactieve voltooiing of incompleet
 
-8. Select **[!UICONTROL Add widgets]**. 
+1. Beheerders navigeren naar accountinstellingen en schakelen retroactief invullen en/of retroactief incompleteren in.
+2. Beheerders maken, wijzigen of verwijderen equivalente of alternatieve relaties tussen trainingen.
 
-The Content Box widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Systeemhandelingen
 
-**Gamification widget**
+* **voor retroactive voltooiing:**\
+  Het systeem biedt alternatieve voltooide bewerkingen op basis van historische bronvoltooiing.
+* **voor retroactive incompletion:**\
+  Het systeem herroept alternatieve voltooide bewerkingen wanneer relaties worden verwijderd of brontrainingen worden verwijderd.
 
-This widget shows gamification and points earned by learners in a leaderboard format. It has been updated for Experience Builder with a name, description, and localization customization.
+#### Ervaring van de student
 
-To configure the Gamification widget:
+Studenten zien de bijgewerkte voltooiingsstatus op LO-kaarten en in transcripten, zoals:
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).
-2. Select **[!UICONTROL Gamification]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-gamification.png)
-   _Widget selection screen highlighting the Gamification widget used to display learning activities and achievements on the leaderboard_
+* **Voltooid via Afwisselend**
+* **Afwisselend (ingetrokken)**
 
-3. Type the **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**. 
-4. Select **[!UICONTROL Add widgets]**. 
+Vereiste controles, voortgang van leerpad en status van certificering worden dynamisch bijgewerkt op basis van de huidige voltooiingsstatus.
 
-The Gamification widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Rapportage en audit
 
-**HTML widget**
+Alle wijzigingen met terugwerkende kracht worden weergegeven in het Leertranscript-rapport (LT).\
+In rapporten wordt een duidelijk onderscheid gemaakt tussen directe voltooiing, alternatieve voltooiing en herroepen, om naleving te ondersteunen, onderzoeken en audits te ondersteunen.
 
-This widget allows custom HTML, CSS, and JS code to be embedded, providing flexibility for static content like testimonials. 
+### Webhooks voor equivalenten en alternatieven
 
-To configure the HTML widget:
+ALM biedt speciale webhookgebeurtenissen voor equivalente en alternatieve voltooiing ter ondersteuning van automatisering, integraties en synchronisatie met externe systemen.
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).
-2. Select **[!UICONTROL HTML]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-html.png)
-   _Widget selection screen highlighting the HTML widget for customizing pages using HTML, CSS, and JavaScript code_
+Deze gebeurtenissen stellen externe consumenten in staat op een betrouwbare manier onderscheid te maken tussen directe voltooiing en voltooiing via alternatieve of gelijkwaardige relaties.
 
-3. Type your **[!UICONTROL HTML]**, **[!UICONTROL CSS]**, and **[!UICONTROL JavaScript]** code in the respective fields. 
-4. Select **[!UICONTROL Add widget]**. 
+#### Overzicht
 
-The HTML widget will be added to the page. Administrators can add other widgets and publish the page.
+Wanneer een student een cursus voltooit via een alternatieve of gelijkwaardige relatie, activeert ALM een webhook-gebeurtenis die losstaat van de webhook voor standaardvoltooiing van de cursus.\
+Dit zorgt ervoor dat integraties waar nodig anders kunnen reageren op alternatieve voltooide bewerkingen.
 
-**IFrame widget**
+Webhook-gebeurtenissen worden ook geactiveerd wanneer de bewerking met terugwerkende kracht wordt voltooid of terugwerkende kracht wordt voltooid. Dit betreft zowel historische updates als relatiewijzigingen.
 
-This widget allows embedding external web applications or webpages directly within the page. Includes options to name, describe, and localize the iframe content.
+#### Gebeurtenis webhook
 
-To configure the Iframe widget:
+* Een verschillende webhookgebeurtenis wordt teweeggebracht wanneer een student **wordt voltooid via Afwisselende** status voor een doelcursus ontvangt.
+* De gebeurtenis wordt gegenereerd wanneer de student een geconfigureerde broncursus voltooit die voldoet aan het doel via een equivalente of alternatieve relatie.
+* Deze webhook wordt niet geactiveerd voor directe voltooiing van de cursus.
+* Wanneer retroactief afronden of retroactief voltooien is ingeschakeld, worden webhookgebeurtenissen uitgezonden voor elke betrokken student en doelcursus.
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder).
-2. Select **[!UICONTROL Iframe]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-iframe.png)
-   _Widget selection screen highlighting the Iframe widget for embedding external applications or web pages within a selected section_
+#### Details webhook-lading
 
-3. Type the URL in the **[!UICONTROL Page linked to Action button]** option.
-4. Adjust the Iframe height using the **[!UICONTROL Iframe height]** option.     
- 
-   ![](assets/configure-iframe.png)
-   _Iframe widget customization screen, where administrators can enter a page URL and specify iframe height to embed external content_
+De webhook-lading voor alternatieve voltooiing bevat de volgende sleutelkenmerken:
 
-5. Select **[!UICONTROL Add widget]**. 
+* **identiteitskaart van de Student**\
+  Hiermee wordt aangegeven welke student de alternatieve voltooiing heeft ontvangen.
 
-The Iframe widget will be added to the page. Administrators can add other widgets and publish the page.
+* **Broncursus**\
+  De cursus of het leerpad dat de leerling rechtstreeks heeft voltooid.
 
-**My Learning widget**
+* **cursus van het Doel**\
+  De cursus die als voltooid is gemarkeerd via de alternatieve of gelijkwaardige relatie.
 
-This widget is similar to the Courses and Paths widget, but filters content specifically for each learner, showing their personalized set of enrolled learning objects.
+* **methode van de Voltooiing**\
+  Wijst erop dat de voltooiingsmethode **afwisselend** is.
 
-To configure the My Learning widget:
+* **de datum van de Voltooiing**\
+  Voortgekomen uit de voltooiingsdatum van de broncursus.
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder). 
-2. Select **[!UICONTROL My Learning]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-my-learning.png)
-   _Widget selection screen, highlighting the My Learning widget used to display the learner's personalized list of enrolled courses_
+* **het type van Verhouding**\
+  Specificeert of de verhouding **equivalent** of **afwisselend** is.
 
-3. Type the **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
-4. Select **[!UICONTROL Add widget]**.
+Voor scenario&#39;s met terugwerkende kracht geven webhookgebeurtenissen aan dat een bestaande alternatieve voltooiing is ingetrokken.
 
-My Learning widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Integratieoverwegingen
 
-**Social Learning widget**
+Externe systemen kunnen deze webhookgebeurtenissen gebruiken om:
 
-This widget enables social collaboration functionalities such as posts, comments, and user tagging within the platform. It is enhanced for Experience Builder with customization options, including name and localization.
+* Studentrecords bijwerken
+* Voltooiingsstatus synchroniseren
+* Meldingen activeren of workflows stroomafwaarts
+* Audittrails onderhouden voor nalevingsdoeleinden
 
-To configure the Social Learning widget:
+De consumenten van het Web zouden tussen **direct** en **afwisselende** voltooiing uitdrukkelijk moeten onderscheiden.\
+Alternatieve voltooiingen geven geen beloningen voor vaardigheden, badges of gamification en moeten dienovereenkomstig worden verwerkt in downstreamsystemen.
 
-1. Follow steps 1-9 from the [Design page in Experience Builder](#design-page-in-experience-builder). 
-2. Select **[!UICONTROL Social Learning]** and then select **[!UICONTROL Proceed]**. 
- 
-   ![](assets/select-social-learning.png) 
-   _Widget selection screen highlighting the Social Learning widget for displaying a posts to encourage collaboration and engagement_
+### Gevolgen van het afschaffen en verwijderen van brontraining in equivalenten en alternatieven
 
-3. Type the **[!UICONTROL Widget title]** and **[!UICONTROL Widget description]**.
-4. Select **[!UICONTROL Add widget]**. 
+De levenscyclusstatus van een brontraining (gearchiveerd of verwijderd) is rechtstreeks van invloed op de manier waarop alternatieve en gelijkwaardige voltooide taken voor studenten worden onderhouden. ALM handelt deze scenario&#39;s verschillend af om historische nauwkeurigheid te bewaren terwijl het verzekeren van huidige verhoudingen geldig blijven.
 
-The Social Learning widget will be added to the page. Administrators can add other widgets and publish the page.
+#### Brontraining archiveren
 
-#### Organize pages into a menu
+##### Definitie
 
-Menus help organize and link pages in Experience Builder, making it easy for learners to navigate your learning portal. Administrators can create menus, add pages to them, and customize which menus are shown to specific audiences. 
+Het intrekken van een cursus maakt deze niet beschikbaar voor nieuwe inschrijvingen, maar houdt deze wel in het systeem voor historische referentie-, rapportage- en auditdoeleinden.
 
-**Create a menu**
+##### Gevolgen
 
-To create a menu:
+* Bestaande alternatieve voltooide bewerkingen die via de gearchiveerde broncursus zijn toegekend, blijven geldig.
+* Studenten die de broncursus eerder hebben voltooid, kunnen de doelcursus op een andere manier voltooien.
+* Er worden geen nieuwe alternatieve voltooide cursussen gegenereerd vanuit de gearchiveerde cursus, aangezien deze niet door nieuwe studenten kunnen worden voltooid.
+* Studenttranscripten en rapporten blijven **Voltooid via Afwisselend** voor beïnvloede studenten tonen.
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Branding]** in the left navigation pane.
-3. Select **[!UICONTROL Menu]** and then select **[!UICONTROL Create]**.
- 
-   ![](assets/select-create-menu.png)
-   _Menu screen showing options to view, organize, and create customized menus for different learner groups_
+#### Brontraining verwijderen
 
-4. Type the **[!UICONTROL Menu name]** (for example, Product Training) and select the user group in the **[!UICONTROL Visible to]** option.
-   
-   ![](assets/type-menu-name.png)
-   _Create menu screen, where administrators can enter a menu name for internal use and specify user groups to control menu visibility_
+#### Definitie
 
-5. Choose the custom page from the **[!UICONTROL Select pages]** option. 
- 
-   ![](assets/select-custom-pages.png)
-   _Page selection screen, highlighting the option to include the custom page for user groups and customize the menu order_
+Als u een cursus verwijdert, wordt deze volledig uit het systeem verwijderd, inclusief de voltooiingsrecords en geconfigureerde relaties.
 
-6. Select **[!UICONTROL Preview menu]** to view the menu before saving it. 
-7. Select **[!UICONTROL Save]**.
+#### Gevolgen
 
-The created menu will be visible for the selected learners. They can access the custom pages through their Learner UI. 
- 
-![](assets/view-the-custom-pages.png)
-_Learner UI displaying the custom page with featured training modules and easy navigation from the sidebar menu_
+* Als terugwerkende kracht is ingeschakeld, worden alle alternatieve voltooide bewerkingen die via de verwijderde broncursus zijn toegekend, ingetrokken.
+* De transcripten en de rapporten van de student werken bij om **Afwisselend (ingetrokken)** voor controle en nalevingszicht te tonen.
+* Studenten kunnen de status voor voortgang of voltooiing kwijtraken in leerpaden, certificeringen of voorwaarden die afhankelijk zijn van de ingetrokken alternatieve voltooiing.
+* De verwijderde cursus kan niet verder worden voltooid.
 
-#### Manage pages lifecycle
+#### Workflow
 
-Administrators can use the Custom Pages section to edit, delete, and duplicate the pages.
+1. Een beheerder archiveert of verwijdert de broncursus via de beheerinterface.
+2. Het systeem evalueert alle alternatieve en gelijkwaardige voltooide bewerkingen die uit de broncursus zijn afgeleid.
+3. Voltooiingsstatus wordt bijgewerkt op basis van de cursusstatus:
+   * **Gearchiveerd:** de bestaande afwisselende voltooiing blijft onveranderd.
+   * **Geschrapt:** de afwisselende voltooiing wordt herroepen als de retroactieve voltooiing wordt toegelaten.
+4. Studenttranscripten en -rapporten geven de bijgewerkte status weer ter ondersteuning van compatibiliteits- en auditvereisten.
 
-**Edit the page**
+### Geen keten van relaties
 
-To edit the custom pages:
+ALM ondersteunt geen ketting van alternatieve of gelijkwaardige relaties. Alternatieve voltooide cursussen worden alleen toegekend voor rechtstreeks geconfigureerde relaties en worden niet verspreid over meerdere niveaus van cursussen.
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Branding]** in the left navigation pane.
-3. Select **[!UICONTROL Custom Pages]**.
-4. Select the required page and then select **[!UICONTROL Edit]**. 
-5. Select **[!UICONTROL Save]**.
+#### Concept: geen keten van relaties
 
-The page will be updated with the changes. 
+#### Definitie
 
-![](assets/edit-the-page-custom.png)
-_Edit the custom page, allowing administrators to update the page name, description, and type_
+Chaining verwijst naar het toestaan van alternatieve of gelijkwaardige relaties om zich over meerdere cursussen te verspreiden.\
+Als Cursus A bijvoorbeeld een alternatief is voor Cursus B en Cursus B een alternatief voor Cursus C, zou een ketting impliceren dat het voltooien van Cursus A voltooiing van Cursus C toelaat.
 
-**Delete the page**
+#### Beleid
 
-To delete the page:
+Chaining wordt niet ondersteund.\
+Alternatieve en gelijkwaardige relaties worden slechts op één niveau geëvalueerd. Als u een broncursus voltooit, wordt de alternatieve voltooiing alleen toegewezen aan de directe doelcursus of -cursussen, niet aan stroomafwaartse doelen.
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Branding]** in the left navigation pane.
-3. Select **[!UICONTROL Custom Pages]**.
-4. Select the required page.
-5. Select **[!UICONTROL Action]** and then select **[!UICONTROL Delete]**. 
- 
-![](assets/duplicate-the-page.png)
-_Custom Pages screen displaying options to delete custom pages created for product training_
+#### Workflow
 
-**Duplicate the page**
+#### Relatie instellen
 
-To duplicate the page:
+Een beheerder definieert alternatieve of gelijkwaardige relaties tussen cursussen, zoals:
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Branding]** in the left navigation pane.
-3. Select **[!UICONTROL Custom Pages]**.
-4. Select the required page.
-5. Select **[!UICONTROL Action]** and then select **[!UICONTROL Duplicate]**. 
- 
-![](assets/duplicate-the-page.png)
-_Custom Pages screen displaying options to duplicate the custom pages created for product training_
+* Cursus A → Cursus B
+* Cursus B → Cursus C
 
-#### Preview the pages
+#### Voltooiingsgebeurtenis
 
-To preview the pages:
+Een student voltooit cursus A rechtstreeks.
 
-1. Log in to Adobe Learning Manager as an administrator.
-2. Select **[!UICONTROL Branding]** in the left navigation pane.
-3. Select **[!UICONTROL Custom Pages]**.
-4. Select the required page and then select **[!UICONTROL Page Design]**
-5. Select **[!UICONTROL Edit]** and then select **[!UICONTROL Preview page]** to view the portal's preview. 
+#### Systeemactie
 
-![](assets/preview-page.png)
-_Page preview showing a custom page layout with a banner, featured courses_
+* Het systeem kent een alternatieve voltooiing toe voor cursus B, als de relatie A → B is gedefinieerd.
+* Het systeem kent geen alternatieve voltooiing voor cursus C toe, zelfs niet als er een B → C-relatie bestaat.
 
-#### Localize the pages
+#### Vereiste voor directe voltooiing
 
-When an admin adds multiple languages to the custom pages, add the widget details for each language in the corresponding language tab next to the default language tab.
+Om een alternatieve voltooiing voor Cursus C te ontvangen, moet de student:
 
-![](assets/localize-pages.png) 
-_Administrators can add widget details for additional languages, such as French, alongside the default language_
+* Cursus B rechtstreeks voltooien, of
+* Voltooi een cursus die expliciet is geconfigureerd als direct alternatief of equivalent voor Cursus C.
 
-#### Set up hidden pages
+### Implicaties
 
-The hide pages option allows administrators to keep the Learner UI clean by showing fewer pages. Administrators can hide pages from the menu so learners don't see them in learner UI, but learners can still reach those pages in other ways. For example, the Catalog page can be hidden from the menu but accessed through other navigation paths.
- 
-![](assets/select-hidden-pages.png)
-_Menu configuration screen showing hidden pages such as Catalog, Social Learning, Skills, and Badges_ -->
+#### Geen indirecte voordelen
 
+Studenten kunnen geen voltooiingskrediet ontvangen voor cursussen die zich verder in een relatieketen bevinden, tenzij elke cursus (of de directe alternatieve cursus) is voltooid.\
+Dit zorgt ervoor dat aan de leervereisten expliciet en voorspelbaar wordt voldaan.
 
+#### Vereenvoudigde audit en verslaglegging
 
+Rapporten en studenttranscripten geven alleen alternatieve voltooide bewerkingen weer voor directe relaties.\
+Zo voorkomt u complexe multihop-audittrails en zorgt u ervoor dat u weet hoe voltooiing is toegestaan.
 
+### Delen van catalogi met collega-accounts: relaties niet gedeeld
 
-<!-- We're excited to share several important updates coming to Adobe Learning Manager with the upcoming releases. These enhancements aim to streamline admin workflows, improve data reporting accuracy, and strengthen role-based controls.
+Met het delen van catalogi kunnen leerobjecten (LO&#39;s) worden gedeeld tussen collega-accounts, maar alternatieve en gelijkwaardige relaties worden onafhankelijk binnen elk account beheerd en worden niet gedeeld.
 
-These changes are designed to reduce manual effort, support automation, and improve governance across training operations.
+#### Concept: het delen van catalogi en relaties
 
-## Capture instructor-marked completions in Learner Transcript
+#### Catalogus delen
 
-### Audience  
+Accounts kunnen catalogi met collega-accounts delen om toegang te bieden tot cursussen, leerpaden en andere leerobjecten in verschillende accounts.
 
-Administrator and automation owners 
+#### Relaties niet gedeeld
 
-### Overview 
+In het bronaccount geconfigureerde relaties voor alternatief, equivalent en afwisselend aanvullen worden niet gedeeld of gerepliceerd wanneer een catalogus wordt gedeeld.\
+Elke account onderhoudt en evalueert zijn eigen relaties onafhankelijk.
 
-In Adobe Learning Manager, when using incremental Learner Transcripts (LT) for automation workflows, instructor-marked completions made after the session date are not captured. The completion timestamp reflects the original session end time (not the time the instructor marked the completion). Since these updates fall outside the one-day change window used for incremental LT generation, as a result, learners' attendance and completion data are excluded from reports, leading to inaccurate or incomplete downstream reporting and potential compliance gaps. 
+### Workflow
 
-### What has changed 
+#### Catalogus delen
 
-Learner Transcript (LT) reports include completions marked by instructors after the session date. This ensures that any delayed attendance marking is correctly reflected in the transcript export. 
+Een beheerder in **Rekening A** deelt een catalogus die het leren voorwerpen met **Rekening B** bevat.
 
-Attendance states like "Attended with pass/fail" will appear automatically in incremental LT exports. 
+#### Relatie-configuratie
 
-### What's new 
+Account A kan alternatieve of gelijkwaardige relaties hebben gedefinieerd tussen de leerobjecten in de gedeelde catalogus.
 
-* New column: Mark Completed Date (UTC TimeZone). 
-* Completion Source is available at module level. 
-* Compatible with connector-based or job API-generated LT reports. 
+#### Toegang tot Collega-account
 
-![](assets/capture-instructor.png)
+Account B krijgt toegang tot de gedeelde leerobjecten, maar neemt geen alternatieve of gelijkwaardige relaties over die zijn geconfigureerd in account A.
 
-**Action required**
+#### Onafhankelijk beheer
 
-* If your automation depends on column positions, ensure logic accounts for the new column. 
-* If using column names, no changes are required. 
-* Retrofitted completions (manual imports) are not included. 
+Als Account B een vergelijkbaar alternatief of equivalent gedrag vereist, moet een beheerder in Account B de relaties binnen dat account handmatig configureren.
 
-## Download links in Job Aids report
+#### Implicaties
 
-### Audience 
+#### Geen automatische relatiedoorgave
 
-Administrator, custom administrator, and automation owners 
+Alternatieve en gelijkwaardige relaties zijn niet automatisch beschikbaar in collega-accounts via het delen van catalogi.
 
-### Overview 
+#### Handmatige installatie is vereist
 
-The Job Aids report includes a direct download link for each job aid, allowing quick access from the report itself. 
+Elk collega-account is verantwoordelijk voor het definiëren en beheren van zijn eigen relaties voor gedeelde leerobjecten.
 
-### What's new  
+#### Consistentie
 
-A new column, **[!UICONTROL Job Aid Link]**, has been added to the third position in the report. It links directly to the job aid if it's a file or shows the external URL provided by the author. 
+Voltooiingsgedrag, vereiste tevredenheid en rapportage kunnen per account verschillen, tenzij relaties opzettelijk worden uitgelijnd via handmatige configuratie.
 
-Users with access (admin/authors and custom roles) can download the job aid using this link. 
 
-![](assets/download-links-for-job-aid.png) 
+### Downstream, gedrag
 
-### Action required 
+Zodra een afwisselende voltooiing voor een doelopleiding bestaat, gebruikt ALM het in stroomafwaartse controles:
 
-* Review automated workflows using Job Aids reports (using Jobs API). 
-* If the script is based on column position, update scripts accordingly. 
-* No action is needed if using column names. 
+* Als de doelopleiding a **eerste vereiste** voor andere trainingen is, wordt de student verkiesbaar voor die trainingen alsof zij het doel hadden voltooid.
+* Als het doel a **verplichte cursus in een het leren weg** is, kan de de voltooiingslogica van de weg de student behandelen zoals voltooid dat deel en te werk gaan om de weg volledig te merken wanneer andere voorwaarden worden voldaan aan.
+* Compatibiliteit en andere dashboards, zoals het groepssuccesdashboard, die afhankelijk zijn van het feit of aan een trainingsvereiste is voldaan, kunnen studenten omvatten die alleen alternatieve voltooide taken hebben.
 
-## Internal User ID and Manager Email columns added to User Report
+Het systeem maakt een onderscheid tussen feitelijke voltooiing en afwisselende voltooiing, zodat:
 
-### Audience 
+* Als de student de doeltraining later rechtstreeks uitvoert en deze voltooit, kan deze directe voltooiing de behoefte aan een alternatieve voltooiing overschrijven.
+* Als de relatie tussen bron en doel wordt verwijderd of gewijzigd, kan ALM de alternatieve voltooide bewerkingen verwijderen of aanpassen zonder dat dit ten koste gaat van echte voltooide bewerkingen, op voorwaarde dat retroactieve invullingen zijn ingeschakeld voor het account.
 
-Administrators (and custom administrators) using the **[!UICONTROL User Report]** (**[!UICONTROL Admin]** > **[!UICONTROL Users]** > **[!UICONTROL Internal]** > **[!UICONTROL Export User data]**) downloaded from the administrator User Interface. 
-
-### Overview 
-
-To assist in user identification and integration workflows, two columns, **[!UICONTROL Internal User ID]** and **[!UICONTROL Manager Email]** have been added to the User report, exported via the User Interface. 
-
-### What's new 
-
-The User report includes a user's internal user ID and their manager's email address, to map them uniquely across different tools or API endpoints. 
-
-### Action required 
-
-* If using this report in automated flows, then this newly added column should be taken care of in automation.  
-* No changes are needed if workflows are not impacted. 
-
-## Scoped announcement permissions for custom administrators
-
-### Audience 
-
-Custom administrators 
-
-### Overview 
-
-Custom administrators can create announcements only for the user groups or catalogs within their defined scope. 
-
-### What's new 
-
-* Scoping rules allow custom administrators to create announcements for specific user groups or catalogs only. 
-* When defining a custom role, administrators can assign announcement permissions with scope on user groups or catalogs. 
-* Custom administrators are limited to creating announcements within their given scope. 
-* The notification announcement report for custom administrators will display learners only within their assigned scope. 
-
-### Action required 
-
-* The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
-* No modifications are necessary if this report is not utilized in any automated or downstream workflow.
-
-See the [Release notes](https://experienceleague.adobe.com/nl/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+Alternatieve voltooide trainingen hebben geen invloed op de werkelijke leeractiviteiten in de doeltraining. Ze fungeren als een overlay die kan worden herzien als de relaties veranderen.
