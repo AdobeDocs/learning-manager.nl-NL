@@ -24,7 +24,7 @@ Learning Manager biedt een Salesforce App-pakket. Na de installatie en configura
 1. Klik op **[!UICONTROL Salesforce]**.
 1. Noteer op de pagina van de Salesforce-app de toepassings-ID (ook bekend als client-ID) en het clientgeheim dat in de beschrijving wordt vermeld
 1. Klik **[!UICONTROL goedkeuren]** en uw app moet met succes worden goedgekeurd.
-1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.****
+1. Klik {de Middelen van de Ontwikkelaar 1} > **[!UICONTROL Tokens van de Toegang voor het Testen en Ontwikkeling]**.**&#x200B;**
 1. In de Get sectie van de Code OAuth, moeten identiteitskaart van de Cliënt en het werkingsgebied aan - admin :read, admin :write worden geplaatst. Klik op **[!UICONTROL Verzenden]**.
 1. Voer bij Vernieuwingstoken ophalen de client-ID en het clientgeheim in. Klik **[!UICONTROL voorleggen]** en neem nota van het vernieuwingstoken.
 
@@ -47,7 +47,7 @@ Als u het pakket wilt installeren, moet u eerst het bestaande pakket in Salesfor
 >
 >De Adobe Learning Manager-app wordt alleen ondersteund in de Salesforce Lightning-weergave.
 
-1. Lanceer het [ pakket url van de Manager leerden ](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS).
+1. Lanceer het [&#x200B; pakket url van de Manager leerden &#x200B;](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS).
 1. In de **Login** pagina, klik **[!UICONTROL het Domein van de Douane van het Gebruik]**.
 1. Voer de pakket-URL in en klik op **[!UICONTROL Doorgaan]**. Op de installatiepagina moet de optie Alleen voor beheerders installeren zijn geselecteerd. Wijzig deze optie niet.
 1. Klik op **[!UICONTROL Installeren]**. Nadat het pakket is geïnstalleerd, klikt u op **[!UICONTROL Gereed]**. U wordt naar de pagina Geïnstalleerde pakketten geleid en u kunt het geïnstalleerde Adobe Learning Manager-pakket zien.
