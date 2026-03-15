@@ -1,11 +1,11 @@
 ---
-description: De AI-assistent (bèta) voor studenten is een door GenAI gedreven chatpartner in Adobe Learning Manager die studenten helpt om snel en nauwkeurig te antwoorden op hun toegewezen leerinhoud. Met behulp van zoekopdrachten in natuurlijke talen kunnen studenten onmiddellijk gerichte antwoorden met duidelijke citaten ophalen, waardoor ze gemakkelijk de juiste informatie kunnen vinden, bronnen kunnen verifiëren en efficiënt kunnen leren zonder volledige cursussen te doorzoeken.
+description: Krijg snelle, nauwkeurige antwoorden van je leercontent met de AI Assistant in Adobe Learning Manager.
 jcr-language: en_us
 title: AI-assistent voor studenten in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 583074cf56b7c468d0027ea6bb4ed500f57e5421
+source-git-commit: 764e80ceab56ac293db548ea284e4bfb5307193b
 workflow-type: tm+mt
-source-wordcount: '1872'
+source-wordcount: '1829'
 ht-degree: 0%
 
 ---
@@ -140,13 +140,13 @@ Elke AI-hulpreactie bevat verwijzingen die rechtstreeks zijn gekoppeld aan de oo
 
 De AI-assistent bevat ingebouwde aanwijzingen om u te helpen snel aan de slag te gaan met algemene vragen en scenario&#39;s. Deze herinneringen begeleiden u op hoe te om met de medewerker in wisselwerking te staan en de soorten vragen aan te tonen u kunt vragen stellen.
 
-![&#x200B; bouwt-in-herinneringen die door de Medewerker van de Student worden verstrekt &#x200B;](assets/built-in-prompt-new.png)
+![ bouwt-in-herinneringen die door de Medewerker van de Student worden verstrekt ](assets/built-in-prompt-new.png)
 
 Organisaties kunnen ingebouwde herinneringen aanpassen om hun leerdoelen, rollen, terminologie of specifieke gebruiksgevallen te weerspiegelen. Beheerders kunnen met hun Customer Success Manager samenwerken om ingebouwde vragen te configureren of bij te werken. In de huidige versie kunt u de aanwijzingen niet rechtstreeks in de Adobe Learning Manager-interface aanpassen.
 
 ## De AI-assistent instellen (beheerders)
 
-![&#x200B; AI-Toegelaten Medewerker van de Student &#x200B;](assets/learner-ai-assistant-new.png)
+![ AI-Toegelaten Medewerker van de Student ](assets/learner-ai-assistant-new.png)
 
 De beheerders selecteren welke gebruikersgroepen en **Interne** catalogi tot de AI Hulpeigenschap kunnen toegang hebben. Zorg ervoor de catalogi u toewijst omvat slechts de het leren inhoud aangewezen voor AI reacties en citaties, en dat die catalogi **Intern** zijn (niet **Gedeeld**, **Verkregen**, of **Extern**).
 
@@ -159,13 +159,13 @@ AI-assistent van student inschakelen:
 1. Meld u als beheerder aan bij Adobe Learning Manager.
 
 2. Selecteer **Montages** van de homepage.
-   ![&#x200B; console van de Beheerder met de optie van Montages op de linkerruit &#x200B;](assets/settings-menu.png)
+   ![ console van de Beheerder met de optie van Montages op de linkerruit ](assets/settings-menu.png)
 
-3. Selecteer {Medewerker AI van de Leerling (Bèta) **van het** 3} menu van Montages &lbrace;.
-**&#x200B;**&#x200B;![&#x200B; de consolevertoningen van de Beheerder de HulpAI van de Student optie op de linkerruit &#x200B;](assets/learner-assistant-ai-beta.png)
+3. Selecteer {Medewerker AI van de Leerling (Bèta) **van het** 3} menu van Montages {.
+****   ![ de consolevertoningen van de Beheerder de HulpAI van de Student optie op de linkerruit ](assets/learner-assistant-ai-beta.png)
 
 4. Selecteer de knevelschakelaar om de **Medewerker AI van de Student (Bèta) toe te laten**.
-   ![&#x200B; de consolevertoningen van Beheerders de knevel die voor de Medewerker AI van de Student wordt toegelaten &#x200B;](assets/learner-assistant-toggle.png)
+   ![ de consolevertoningen van Beheerders de knevel die voor de Medewerker AI van de Student wordt toegelaten ](assets/learner-assistant-toggle.png)
 
 5. Selecteer één of meerdere gebruikersgroepen van de **In aanmerking komende gebruikersgroepen** optie.
 
@@ -186,9 +186,9 @@ De AI-assistent starten:
 1. Meld u als student aan bij Adobe Learning Manager.
 
 2. Selecteer **Vraag AI Medewerker** op de homepage.
-   {de vertoningen van de homepage van 0} Leerling vragen AI Medewerker om het Leerling AI Hulppaneel te selecteren en te openen ![&#128279;](assets/ask-ai-assistant.png)
+   {de vertoningen van de homepage van 0} Leerling vragen AI Medewerker om het Leerling AI Hulppaneel te selecteren en te openen ](assets/ask-ai-assistant.png)![
 
-3. Wanneer het **scherm van de Medewerker AI van 0&rbrace; Leerling verschijnt, uitgezocht** begin **.**   ![&#x200B; Uitgezochte worden begonnen om de Medewerker van de Student te lanceren &#x200B;](assets/get-started-learner-assistant.png)
+3. Wanneer het **scherm van de Medewerker AI van 0} Leerling verschijnt, uitgezocht** begin **.**   ![ Uitgezochte worden begonnen om de Medewerker van de Student te lanceren ](assets/get-started-learner-assistant.png)
 
 >[!NOTE]
 >
@@ -204,7 +204,7 @@ U kunt:
 - Selecteer het animatienummer inline om naar de exacte sectie waarnaar wordt verwezen te gaan
 - Open de volledige lijst van bronnen door **te selecteren toon Bronnen** bij de bodem van de reactie
 
-![&#x200B; bronnen van de Vertoning in de reactie &#x200B;](assets/show-sources-latest.png)
+![ bronnen van de Vertoning in de reactie ](assets/show-sources-latest.png)
 
 De AI Assistant bevat citaten met elk antwoord om te laten zien waar de informatie vandaan komt. Elke aanhaling is rechtstreeks gekoppeld aan de oorspronkelijke cursus, module of leerobject dat wordt gebruikt om het antwoord te genereren.
 
@@ -214,7 +214,7 @@ U kunt elke gewenste uitnodiging selecteren om de cursuspagina in Adobe Learning
 
 U kunt de AI-assistent ook rechtstreeks vanuit de zoekbalk starten. Typ uw vraag op het onderzoeksgebied, dan uitgezocht **vraag AI Medewerker** van de opties die verschijnen.
 
-![&#x200B; heb toegang tot de Medewerker van de Student van onderzoeksbar &#x200B;](assets/learner-assistant-search-new.png)
+![ heb toegang tot de Medewerker van de Student van onderzoeksbar ](assets/learner-assistant-search-new.png)
 
 ## Feedback geven op reacties van AI-assistenten
 
@@ -231,7 +231,7 @@ Het beginnen van een nieuw praatje laat u met een vers gesprek beginnen, ontruim
 
 Om het huidige gesprek en begin vers te ontruimen, selecteer **Nieuw praatje** in het AI Hulpscherm en selecteer dan **Ja**.
 
-![&#x200B; Begin een nieuw praatje in de Medewerker van de Student &#x200B;](assets/start-new-chat.png)
+![ Begin een nieuw praatje in de Medewerker van de Student ](assets/start-new-chat.png)
 
 De AI-assistent geeft studenten snelle, contextuele antwoorden, ondersteunt meerdere inhoudstypen en biedt inline citaties voor transparantie. Beheerders kunnen de toegang beheren, ervoor zorgen dat de AI-assistent is afgestemd op de organisatorische behoeften en de leerervaring verbetert.
 
